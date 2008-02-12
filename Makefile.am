@@ -13,6 +13,13 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
 
+#$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).dix.xml
+#	xmllint --xinclude $(BASENAME).$(LANG1).dix.xml > $(BASENAME).$(LANG1).dix
+#$(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).dix.xml
+#	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
+$(BASENAME).$(LANG1)-$(LANG2).dix: $(BASENAME).$(LANG1)-$(LANG2).dix.xml
+	xmllint --xinclude $(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
+     
 TARGETS = $(TARGETS_COMMON) 
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).metadix

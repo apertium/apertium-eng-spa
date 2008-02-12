@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="numerals" type="standard">
+   
+   <!-- 
+      ******************************
+      (num) group
+      ******************************
+    -->
+   <e>
+      <re>[0-9]+([.,][0-9]+)?</re>
+      <p>
+         <l><s n="num"/></l> 
+         <r><s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <re>[a-z.]+@[a-z.]+</re>
+      <p>
+         <l><s n="num"/></l> 
+         <r><s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <re>((www.)[a-z\-]+[.][a-z]+)</re>
+      <p>
+         <l><s n="num"/></l> 
+         <r><s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <re>[0-9]+([.,][0-9]+)?%</re>
+      <p>
+         <l><s n="num"/><s n="percent"/></l> 
+         <r><s n="num"/><s n="percent"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>eighteen<s n="num"/></l> 
+         <r>dieciocho<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>eighteen<s n="num"/></l> 
+         <r>dieciocho<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>eighteen<s n="num"/></l> 
+         <r>dieciocho<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>eleven<s n="num"/></l> 
+         <r>once<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>eleven<s n="num"/></l> 
+         <r>once<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>eleven<s n="num"/></l> 
+         <r>once<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>fifteen<s n="num"/></l> 
+         <r>quince<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>fifteen<s n="num"/></l> 
+         <r>quince<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>fourteen<s n="num"/></l> 
+         <r>catorce<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>fourteen<s n="num"/></l> 
+         <r>catorce<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>nineteen<s n="num"/></l> 
+         <r>diecinueve<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>nineteen<s n="num"/></l> 
+         <r>diecinueve<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>seventeen<s n="num"/></l> 
+         <r>diecisiete<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>sixteen<s n="num"/></l> 
+         <r>dieciséis<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>sixteen<s n="num"/></l> 
+         <r>dieciséis<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>ten<s n="num"/></l> 
+         <r>diez<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>ten<b/>hundred<s n="num"/></l> 
+         <r>mil<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>thirteen<s n="num"/></l> 
+         <r>trece<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>thirteen<s n="num"/></l> 
+         <r>trece<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>thousand<s n="num"/></l> 
+         <r>mil<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>thousand<s n="num"/></l> 
+         <r>mil<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>thousand<s n="num"/></l> 
+         <r>mil<s n="num"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>twelve<s n="num"/></l> 
+         <r>doce<s n="num"/></r> 
+      </p>
+   </e>
+   
+</section>
+

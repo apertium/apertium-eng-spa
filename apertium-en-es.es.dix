@@ -2,9 +2,9 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 10314
+	Entries: 10472
 	Sdefs: 66
-	Paradigms: 417
+	Paradigms: 420
 
 -->
 <dictionary>
@@ -134,6 +134,26 @@
       <p>
         <l></l> 
         <r><s n="rpar"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="emails">
+    <e>
+      <re>[a-z.]+@[a-z.]+</re>
+      <p>
+        <l></l> 
+        <r><s n="num"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="urls">
+    <e>
+      <re>((www.)[a-z\-]+[.][a-z]+)</re>
+      <p>
+        <l></l> 
+        <r><s n="num"/></r> 
       </p>
     </e>
 
@@ -2316,6 +2336,22 @@
       <p>
         <l>ín</l> 
         <r>ín<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="an/ís__adj">
+    <e>
+      <p>
+        <l>ises</l> 
+        <r>ís<s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ís</l> 
+        <r>ís<s n="adj"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -79513,6 +79549,11 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Alberto">
+        <i>Alberto</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Alemania">
         <i>Alemania</i> 
         <par n="Afganistán__np"/> 
@@ -79593,6 +79634,11 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Antonio">
+        <i>Antonio</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Arabia">
         <i>Arabia</i> 
         <par n="Afganistán__np"/> 
@@ -79601,6 +79647,11 @@
     <e lm="Arabia Saudí" a="prompsit2adn">
         <i>Arabia<b/>Saudí</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Arafat">
+        <i>Arafat</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Aragón">
@@ -79628,6 +79679,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Artur">
+        <i>Artur</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Asia">
         <i>Asia</i> 
         <par n="Afganistán__np"/> 
@@ -79653,9 +79709,19 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Aznar">
+        <i>Aznar</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="BBC">
         <i>BBC</i> 
         <par n="BBC__n"/> 
+    </e>
+
+    <e lm="BCE">
+        <i>BCE</i> 
+        <par n="BBVA__n"/> 
     </e>
 
     <e lm="Bagdad">
@@ -79670,6 +79736,11 @@
 
     <e lm="Bangkok">
         <i>Bangkok</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Barak" a="prompsit2adn">
+        <i>Barak</i> 
         <par n="Afganistán__np"/> 
     </e>
 
@@ -79723,6 +79794,16 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Bill">
+        <i>Bill</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Blair">
+        <i>Blair</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Bogotá" a="prompsit2adn">
         <i>Bogotá</i> 
         <par n="Afganistán__np"/> 
@@ -79768,6 +79849,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Bush">
+        <i>Bush</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Bélgica">
         <i>Bélgica</i> 
         <par n="Afganistán__np"/> 
@@ -79775,6 +79861,11 @@
 
     <e lm="CD">
         <i>CD</i> 
+        <par n="BBVA__n"/> 
+    </e>
+
+    <e lm="CDC" a="prompsit2adn">
+        <i>CDC</i> 
         <par n="BBVA__n"/> 
     </e>
 
@@ -79825,6 +79916,11 @@
 
     <e lm="Carles">
         <i>Carles</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Carlos">
+        <i>Carlos</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -79895,6 +79991,11 @@
 
     <e lm="Christopher" a="prompsit2adn">
         <i>Christopher</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Clinton" a="prompsit2adn">
+        <i>Clinton</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -79998,6 +80099,16 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="ERC" a="prompsit2adn">
+        <i>ERC</i> 
+        <par n="BBC__n"/> 
+    </e>
+
+    <e lm="ETA">
+        <i>ETA</i> 
+        <par n="BBC__n"/> 
+    </e>
+
     <e lm="Ecuador">
         <i>Ecuador</i> 
         <par n="Afganistán__np"/> 
@@ -80043,6 +80154,11 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Enrique">
+        <i>Enrique</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Eric" a="prompsit2adn">
         <i>Eric</i> 
         <par n="Abad__np"/> 
@@ -80076,6 +80192,11 @@
     <e lm="Estados Unidos" a="mginesti">
         <i>Estados<b/>Unidos</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Esteve">
+        <i>Esteve</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Esther">
@@ -80128,6 +80249,16 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Fernández">
+        <i>Fernández</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Ferran">
+        <i>Ferran</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Filipinas">
         <i>Filipinas</i> 
         <par n="Afganistán__np"/> 
@@ -80153,9 +80284,24 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Francisco">
+        <i>Francisco</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Franco" a="mginesti">
+        <i>Franco</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Frankfurt" a="mginesti">
         <i>Frankfurt</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Fujimori" a="prompsit2adn">
+        <i>Fujimori</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Gabriel">
@@ -80170,6 +80316,21 @@
 
     <e lm="Galicia">
         <i>Galicia</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Garcia">
+        <i>Garcia</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="García">
+        <i>García</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Gaza" a="prompsit2adn">
+        <i>Gaza</i> 
         <par n="Afganistán__np"/> 
     </e>
 
@@ -80193,6 +80354,11 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Gerona">
+        <i>Gerona</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
     <e lm="Ghana" a="prompsit2adn">
         <i>Ghana</i> 
         <par n="Afganistán__np"/> 
@@ -80201,6 +80367,16 @@
     <e lm="Gibraltar">
         <i>Gibraltar</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Girona">
+        <i>Girona</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="González">
+        <i>González</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Grace" a="prompsit2adn">
@@ -80263,6 +80439,11 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Hillary" a="prompsit2adn">
+        <i>Hillary</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Holanda">
         <i>Holanda</i> 
         <par n="Afganistán__np"/> 
@@ -80306,6 +80487,11 @@
     <e lm="Ibiza">
         <i>Ibiza</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Ignasi">
+        <i>Ignasi</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Indiana">
@@ -80358,6 +80544,16 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Jack">
+        <i>Jack</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Jaime">
+        <i>Jaime</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Jamaica">
         <i>Jamaica</i> 
         <par n="Afganistán__np"/> 
@@ -80393,6 +80589,11 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Javier">
+        <i>Javier</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Jesús">
         <i>Jesús</i> 
         <par n="Abad__np"/> 
@@ -80400,6 +80601,16 @@
 
     <e lm="Joan">
         <i>Joan</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Joaquim">
+        <i>Joaquim</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Joe">
+        <i>Joe</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -80415,6 +80626,11 @@
 
     <e lm="Jon">
         <i>Jon</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Jones">
+        <i>Jones</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -80438,6 +80654,21 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Joseph" a="prompsit2adn">
+        <i>Joseph</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="José">
+        <i>José</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Juan">
+        <i>Juan</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Juli">
         <i>Juli</i> 
         <par n="Abad__np"/> 
@@ -80453,8 +80684,13 @@
         <par n="Afganistán__np"/> 
     </e>
 
-    <e lm="Kenia">
-        <i>Kenia</i> 
+    <e lm="Kennedy" a="prompsit2adn">
+        <i>Kennedy</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Kosovo">
+        <i>Kosovo</i> 
         <par n="Afganistán__np"/> 
     </e>
 
@@ -80508,6 +80744,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Lleida">
+        <i>Lleida</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
     <e lm="Lluís">
         <i>Lluís</i> 
         <par n="Abad__np"/> 
@@ -80523,8 +80764,18 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Louis">
+        <i>Louis</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Lucas">
         <i>Lucas</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Luis">
+        <i>Luis</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -80533,9 +80784,19 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Lérida">
+        <i>Lérida</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
     <e lm="Líbano">
         <i>Líbano</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="López">
+        <i>López</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Madagascar">
@@ -80558,6 +80819,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Mallorca">
+        <i>Mallorca</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
     <e lm="Malta">
         <i>Malta</i> 
         <par n="Afganistán__np"/> 
@@ -80573,8 +80839,18 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Manuel">
+        <i>Manuel</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Mar">
         <i>Mar</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Maragall">
+        <i>Maragall</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -80638,8 +80914,18 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Martín">
+        <i>Martín</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Mary" a="prompsit2adn">
         <i>Mary</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="María">
+        <i>María</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -80678,6 +80964,16 @@
         <par n="ABC__np"/> 
     </e>
 
+    <e lm="Miguel">
+        <i>Miguel</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Mike" a="prompsit2adn">
+        <i>Mike</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Milà">
         <i>Milà</i> 
         <par n="ABC__np"/> 
@@ -80708,8 +81004,18 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Montesinos">
+        <i>Montesinos</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
     <e lm="Montevideo">
         <i>Montevideo</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Montjuic" a="mginesti">
+        <i>Montjuic</i> 
         <par n="Afganistán__np"/> 
     </e>
 
@@ -80721,6 +81027,11 @@
     <e lm="Montserrat">
         <i>Montserrat</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Morgan" a="prompsit2adn">
+        <i>Morgan</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Moscú" a="prompsit2adn">
@@ -80803,6 +81114,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Niza">
+        <i>Niza</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
     <e lm="Noelia">
         <i>Noelia</i> 
         <par n="Abad__np"/> 
@@ -80843,6 +81159,11 @@
         <par n="BBC__n"/> 
     </e>
 
+    <e lm="Obama" a="prompsit2adn">
+        <i>Obama</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Olga">
         <i>Olga</i> 
         <par n="Abad__np"/> 
@@ -80850,6 +81171,11 @@
 
     <e lm="Oliver">
         <i>Oliver</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Oriol">
+        <i>Oriol</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -80868,6 +81194,31 @@
         <par n="IRPF__n"/> 
     </e>
 
+    <e lm="PNV">
+        <i>PNV</i> 
+        <par n="BBVA__n"/> 
+    </e>
+
+    <e lm="PP">
+        <i>PP</i> 
+        <par n="BBVA__n"/> 
+    </e>
+
+    <e lm="PSC">
+        <i>PSC</i> 
+        <par n="BBVA__n"/> 
+    </e>
+
+    <e lm="PSOE">
+        <i>PSOE</i> 
+        <par n="BBVA__n"/> 
+    </e>
+
+    <e lm="Paco">
+        <i>Paco</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Pakistán">
         <i>Pakistán</i> 
         <par n="Afganistán__np"/> 
@@ -80883,9 +81234,19 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Parker" a="prompsit2adn">
+        <i>Parker</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="París">
         <i>París</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Pasqual">
+        <i>Pasqual</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Pau">
@@ -80906,6 +81267,11 @@
     <e lm="Pekín" a="prompsit2adn">
         <i>Pekín</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Pep">
+        <i>Pep</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Pere">
@@ -80943,6 +81309,16 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Pujol">
+        <i>Pujol</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Pérez">
+        <i>Pérez</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Qatar">
         <i>Qatar</i> 
         <par n="Afganistán__np"/> 
@@ -80951,6 +81327,11 @@
     <e lm="Rabat" a="mginesti">
         <i>Rabat</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Rafael">
+        <i>Rafael</i> 
+        <par n="Abad__np"/> 
     </e>
 
     <e lm="Ramon">
@@ -80973,6 +81354,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Repsol">
+        <i>Repsol</i> 
+        <par n="ABC__np"/> 
+    </e>
+
     <e lm="Richard">
         <i>Richard</i> 
         <par n="Abad__np"/> 
@@ -80985,6 +81371,11 @@
 
     <e lm="Roberto">
         <i>Roberto</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Rodríguez">
+        <i>Rodríguez</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -81008,6 +81399,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Ruiz">
+        <i>Ruiz</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e r="LR" lm="Rumania">
         <i>Rumania</i> 
         <par n="Afganistán__np"/> 
@@ -81020,6 +81416,11 @@
 
     <e lm="Rusia">
         <i>Rusia</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Sabadell">
+        <i>Sabadell</i> 
         <par n="Afganistán__np"/> 
     </e>
 
@@ -81173,6 +81574,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Tarragona">
+        <i>Tarragona</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
     <e lm="Tenerife">
         <i>Tenerife</i> 
         <par n="Afganistán__np"/> 
@@ -81198,6 +81604,11 @@
         <par n="Afganistán__np"/> 
     </e>
 
+    <e lm="Tom">
+        <i>Tom</i> 
+        <par n="Abad__np"/> 
+    </e>
+
     <e lm="Trípoli">
         <i>Trípoli</i> 
         <par n="Afganistán__np"/> 
@@ -81211,6 +81622,11 @@
     <e lm="Túnez">
         <i>Túnez</i> 
         <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="UEFA">
+        <i>UEFA</i> 
+        <par n="BBC__n"/> 
     </e>
 
     <e lm="Ucrania">
@@ -81263,6 +81679,11 @@
         <par n="Abad__np"/> 
     </e>
 
+    <e lm="Wall Street" a="prompsit2adn">
+        <i>Wall<b/>Street</i> 
+        <par n="ABC__np"/> 
+    </e>
+
     <e lm="Walter" a="prompsit2adn">
         <i>Walter</i> 
         <par n="Abad__np"/> 
@@ -81275,6 +81696,11 @@
 
     <e lm="William" a="prompsit2adn">
         <i>William</i> 
+        <par n="Abad__np"/> 
+    </e>
+
+    <e lm="Wilson" a="prompsit2adn">
+        <i>Wilson</i> 
         <par n="Abad__np"/> 
     </e>
 
@@ -86452,6 +86878,11 @@
         <par n="absolut/o__adj"/> 
     </e>
 
+    <e lm="atentar">
+        <i>atent</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
     <e lm="atentado">
         <i>atentado</i> 
         <par n="abismo__n"/> 
@@ -86682,6 +87113,14 @@
         <r>ata</r> 
       </p>
         <par n="atá/car__vblex"/> 
+    </e>
+
+    <e lm="atentar">
+      <p>
+        <l>atént</l> 
+        <r>atent</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="atómico">
@@ -87183,6 +87622,16 @@
         <par n="abismo__n"/> 
     </e>
 
+    <e lm="azulgrana">
+        <i>azulgrana</i> 
+        <par n="abundante__adj"/> 
+    </e>
+
+    <e lm="azulgrana">
+        <i>azulgrana</i> 
+        <par n="accionista__n"/> 
+    </e>
+
     <e lm="azúcar">
         <i>azúcar</i> 
         <par n="abril__n"/> 
@@ -87201,9 +87650,22 @@
         <par n="sitú/ar__vblex"/> 
     </e>
 
+    <e lm="añadir">
+        <i>añad</i> 
+        <par n="abat/ir__vblex"/> 
+    </e>
+
     <e lm="año">
         <i>año</i> 
         <par n="abismo__n"/> 
+    </e>
+
+    <e lm="añadir">
+      <p>
+        <l>añád</l> 
+        <r>añad</r> 
+      </p>
+        <par n="abát/ir__vblex"/> 
     </e>
 
     <e r="LR" lm="aún">
@@ -87996,6 +88458,11 @@
         <par n="abeja__n"/> 
     </e>
 
+    <e lm="boda">
+        <i>boda</i> 
+        <par n="abeja__n"/> 
+    </e>
+
     <e lm="bodega">
         <i>bodega</i> 
         <par n="abeja__n"/> 
@@ -88155,6 +88622,16 @@
         <par n="abogad/o__n"/> 
     </e>
 
+    <e lm="borrador">
+        <i>borrador</i> 
+        <par n="abrumador__adj"/> 
+    </e>
+
+    <e lm="borrador">
+        <i>borrador</i> 
+        <par n="señor__n"/> 
+    </e>
+
     <e lm="bosque">
         <i>bosque</i> 
         <par n="abismo__n"/> 
@@ -88305,6 +88782,11 @@
 
     <e lm="bronceado" a=" alseoane@gmail.com">
         <i>bronceado</i> 
+        <par n="abismo__n"/> 
+    </e>
+
+    <e lm="brote" a="mginesti">
+        <i>brote</i> 
         <par n="abismo__n"/> 
     </e>
 
@@ -88938,6 +89420,11 @@
     <e lm="caloría">
         <i>caloría</i> 
         <par n="abeja__n"/> 
+    </e>
+
+    <e lm="calvario">
+        <i>calvario</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="calzado">
@@ -92113,6 +92600,11 @@
         <par n="vend/er__vblex"/> 
     </e>
 
+    <e lm="concejal">
+        <i>concejal</i> 
+        <par n="señor__n"/> 
+    </e>
+
     <e lm="concentrar">
         <i>concentr</i> 
         <par n="abandon/ar__vblex"/> 
@@ -93654,6 +94146,11 @@
         <par n="ata/car__vblex"/> 
     </e>
 
+    <e lm="convocatoria">
+        <i>convocatoria</i> 
+        <par n="abeja__n"/> 
+    </e>
+
     <e lm="convulsión" a="prompsit2adn">
         <i>convulsi</i> 
         <par n="acci/ón__n"/> 
@@ -93953,6 +94450,11 @@
     <e lm="correspondiente">
         <i>correspondiente</i> 
         <par n="abundante__adj"/> 
+    </e>
+
+    <e lm="corresponsal">
+        <i>corresponsal</i> 
+        <par n="albañil__n"/> 
     </e>
 
     <e lm="corresponder">
@@ -94384,6 +94886,11 @@
     <e lm="cruz">
         <i>cru</i> 
         <par n="actri/z__n"/> 
+    </e>
+
+    <e lm="cruce">
+        <i>cruce</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="cruceta" a="prompsit2adn">
@@ -95344,6 +95851,15 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
+    <e lm="dar un beso">
+        <i>d</i> 
+        <par n="d/ar__vblex"/> 
+      <p>
+        <l><b/>un<b/>beso</l> 
+        <r><g><b/>un<b/>beso</g></r> 
+      </p>
+    </e>
+
     <e lm="dar">
         <i>d</i> 
         <par n="d/ar__vblex"/> 
@@ -96224,6 +96740,11 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
+    <e lm="denuncia">
+        <i>denuncia</i> 
+        <par n="abeja__n"/> 
+    </e>
+
     <e lm="denunciante">
         <i>denunciante</i> 
         <par n="accionista__n"/> 
@@ -96643,6 +97164,11 @@
     <e lm="desapercibido" a=" alseoane@gmail.com">
         <i>desapercibid</i> 
         <par n="absolut/o__adj"/> 
+    </e>
+
+    <e lm="desaprobar" a="prompsit2adn">
+        <i>desapr</i> 
+        <par n="apr/obar__vblex"/> 
     </e>
 
     <e lm="desaprobación" a="prompsit2adn">
@@ -97740,6 +98266,11 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
+    <e lm="detener">
+        <i>det</i> 
+        <par n="abst/ener__vblex"/> 
+    </e>
+
     <e lm="detallar">
         <i>detall</i> 
         <par n="abandon/ar__vblex"/> 
@@ -97783,6 +98314,11 @@
     <e lm="detención">
         <i>detenci</i> 
         <par n="acci/ón__n"/> 
+    </e>
+
+    <e lm="detenido">
+        <i>detenid</i> 
+        <par n="abogad/o__n"/> 
     </e>
 
     <e lm="deterioro">
@@ -98327,6 +98863,11 @@
     <e lm="diputación">
         <i>diputaci</i> 
         <par n="acci/ón__n"/> 
+    </e>
+
+    <e lm="diputado">
+        <i>diputad</i> 
+        <par n="abogad/o__n"/> 
     </e>
 
     <e lm="dirección">
@@ -100789,6 +101330,11 @@
         <par n="acci/ón__n"/> 
     </e>
 
+    <e r="LR" lm="encrucijada" a="prompsit2adn">
+        <i>encrucijada</i> 
+        <par n="abeja__n"/> 
+    </e>
+
     <e lm="encrudecer">
         <i>encrude</i> 
         <par n="agrade/cer__vblex"/> 
@@ -100805,6 +101351,11 @@
     <e lm="encubrir">
         <i>encub</i> 
         <par n="ab/rir__vblex"/> 
+    </e>
+
+    <e lm="encuentro">
+        <i>encuentro</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="encuestar">
@@ -102756,6 +103307,11 @@
     <e lm="estatutario">
         <i>estatutari</i> 
         <par n="absolut/o__adj"/> 
+    </e>
+
+    <e lm="estatuto">
+        <i>estatuto</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="estaño">
@@ -104847,6 +105403,11 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
+    <e lm="filtración">
+        <i>filtraci</i> 
+        <par n="acci/ón__n"/> 
+    </e>
+
     <e lm="filtro">
         <i>filtro</i> 
         <par n="abismo__n"/> 
@@ -105073,6 +105634,11 @@
         <par n="abdominal__adj"/> 
     </e>
 
+    <e lm="florecer">
+        <i>flore</i> 
+        <par n="agrade/cer__vblex"/> 
+    </e>
+
     <e lm="florista" a="prompsit2adn">
         <i>florista</i> 
         <par n="abundante__adj"/> 
@@ -105081,6 +105647,14 @@
     <e lm="florista" a="prompsit2adn">
         <i>florista</i> 
         <par n="accionista__n"/> 
+    </e>
+
+    <e lm="florecer">
+      <p>
+        <l>floré</l> 
+        <r>flore</r> 
+      </p>
+        <par n="agradé/cer__vblex"/> 
     </e>
 
     <e lm="flota">
@@ -106383,6 +106957,11 @@
         <par n="acci/ón__n"/> 
     </e>
 
+    <e lm="gestión">
+        <i>gesti</i> 
+        <par n="acci/ón__n"/> 
+    </e>
+
     <e lm="gesto">
         <i>gesto</i> 
         <par n="abismo__n"/> 
@@ -107019,9 +107598,27 @@
         <par n="h/éroe__n"/> 
     </e>
 
+    <e r="LR" lm="haber de">
+        <i>h</i> 
+        <par n="h/aber__vbmod"/> 
+      <p>
+        <l><b/>de</l> 
+        <r><g><b/>de</g></r> 
+      </p>
+    </e>
+
     <e lm="herir">
         <i>h</i> 
         <par n="pref/erir__vblex"/> 
+    </e>
+
+    <e lm="hacer daño">
+        <i>h</i> 
+        <par n="h/acer__vblex"/> 
+      <p>
+        <l><b/>daño</l> 
+        <r><g><b/>daño</g></r> 
+      </p>
     </e>
 
     <e lm="haber" a="prompsit2adn">
@@ -107055,6 +107652,11 @@
     <e lm="habitación">
         <i>habitaci</i> 
         <par n="acci/ón__n"/> 
+    </e>
+
+    <e lm="habitante">
+        <i>habitante</i> 
+        <par n="accionista__n"/> 
     </e>
 
     <e lm="habitual">
@@ -108744,6 +109346,11 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
+    <e lm="inacabado">
+        <i>inacabad</i> 
+        <par n="absolut/o__adj"/> 
+    </e>
+
     <e lm="inaccesibilidad" a="prompsit2adn">
         <i>inaccesibilidad</i> 
         <par n="accesibilidad__n"/> 
@@ -109045,6 +109652,11 @@
     <e lm="incorrecto">
         <i>incorrect</i> 
         <par n="abstract/o__adj"/> 
+    </e>
+
+    <e lm="incremento">
+        <i>incremento</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="increíble">
@@ -109480,6 +110092,11 @@
     <e lm="infierno">
         <i>infierno</i> 
         <par n="abismo__n"/> 
+    </e>
+
+    <e lm="infiltración" a="prompsit2adn">
+        <i>infiltraci</i> 
+        <par n="acci/ón__n"/> 
     </e>
 
     <e lm="infinidad">
@@ -112662,6 +113279,15 @@
         <par n="ahora__adv"/> 
     </e>
 
+    <e lm="llevar a cabo">
+        <i>llev</i> 
+        <par n="abandon/ar__vblex"/> 
+      <p>
+        <l><b/>a<b/>cabo</l> 
+        <r><g><b/>a<b/>cabo</g></r> 
+      </p>
+    </e>
+
     <e lm="llevar">
         <i>llev</i> 
         <par n="abandon/ar__vblex"/> 
@@ -112714,6 +113340,18 @@
         <r>llen</r> 
       </p>
         <par n="abandón/ar__vblex"/> 
+    </e>
+
+    <e lm="llevar a cabo">
+      <p>
+        <l>llév</l> 
+        <r>llev</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+      <p>
+        <l><b/>a<b/>cabo</l> 
+        <r><g><b/>a<b/>cabo</g></r> 
+      </p>
     </e>
 
     <e lm="llevar">
@@ -112776,6 +113414,11 @@
     <e lm="localizar">
         <i>locali</i> 
         <par n="abalan/zar__vblex"/> 
+    </e>
+
+    <e lm="localidad">
+        <i>localidad</i> 
+        <par n="accesibilidad__n"/> 
     </e>
 
     <e lm="localismo" a="prompsit2adn">
@@ -113098,6 +113741,11 @@
         <par n="absolut/o__adj"/> 
     </e>
 
+    <e lm="líder">
+        <i>líder</i> 
+        <par n="albañil__n"/> 
+    </e>
+
     <e lm="ligar">
       <p>
         <l>líg</l> 
@@ -113251,6 +113899,11 @@
 
     <e lm="madre">
         <i>madre</i> 
+        <par n="abeja__n"/> 
+    </e>
+
+    <e lm="madrugada">
+        <i>madrugada</i> 
         <par n="abeja__n"/> 
     </e>
 
@@ -114824,6 +115477,16 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
+    <e lm="militante">
+        <i>militante</i> 
+        <par n="accionista__n"/> 
+    </e>
+
+    <e lm="militante">
+        <i>militante</i> 
+        <par n="abundante__adj"/> 
+    </e>
+
     <e lm="militar">
         <i>militar</i> 
         <par n="abdominal__adj"/> 
@@ -114885,6 +115548,11 @@
     <e lm="mimbre" a="prompsit2adn">
         <i>mimbre</i> 
         <par n="abismo__n"/> 
+    </e>
+
+    <e lm="min." a="prompsit2adn">
+        <i>min.</i> 
+        <par n="campus__n"/> 
     </e>
 
     <e lm="mina">
@@ -115054,6 +115722,21 @@
 
     <e lm="misionero" a="prompsit2adn">
         <i>misioner</i> 
+        <par n="absolut/o__adj"/> 
+    </e>
+
+    <e lm="mismo">
+        <i>mism</i> 
+        <par n="absolut/o__adj"/> 
+    </e>
+
+    <e lm="mismo">
+        <i>mismo</i> 
+        <par n="ahora__adv"/> 
+    </e>
+
+    <e r="LR" lm="mismísimo">
+        <i>mismísim</i> 
         <par n="absolut/o__adj"/> 
     </e>
 
@@ -115731,6 +116414,11 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
+    <e lm="multa">
+        <i>multa</i> 
+        <par n="abeja__n"/> 
+    </e>
+
     <e lm="multinacional">
         <i>multinacional</i> 
         <par n="accesibilidad__n"/> 
@@ -115777,6 +116465,11 @@
     <e lm="municipal">
         <i>municipal</i> 
         <par n="abdominal__adj"/> 
+    </e>
+
+    <e lm="municipio">
+        <i>municipio</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="muralla">
@@ -116135,6 +116828,11 @@
         <par n="despl/egar__vblex"/> 
     </e>
 
+    <e lm="nacer">
+        <i>na</i> 
+        <par n="agrade/cer__vblex"/> 
+    </e>
+
     <e lm="nación">
         <i>naci</i> 
         <par n="acci/ón__n"/> 
@@ -116276,6 +116974,11 @@
     <e lm="natural">
         <i>natural</i> 
         <par n="abdominal__adj"/> 
+    </e>
+
+    <e lm="naturaleza">
+        <i>naturaleza</i> 
+        <par n="abeja__n"/> 
     </e>
 
     <e lm="naturalista" a="prompsit2adn">
@@ -116878,6 +117581,11 @@
         <par n="ata/car__vblex"/> 
     </e>
 
+    <e lm="notificación">
+        <i>notificaci</i> 
+        <par n="acci/ón__n"/> 
+    </e>
+
     <e lm="notificar">
       <p>
         <l>notifí</l> 
@@ -117092,6 +117800,14 @@
     <e lm="nutritivo" a=" alseoane@gmail.com">
         <i>nutritiv</i> 
         <par n="absolut/o__adj"/> 
+    </e>
+
+    <e lm="nacer">
+      <p>
+        <l>ná</l> 
+        <r>na</r> 
+      </p>
+        <par n="agradé/cer__vblex"/> 
     </e>
 
     <e lm="nadar">
@@ -117654,6 +118370,11 @@
         <r>ofert</r> 
       </p>
         <par n="abandón/ar__vblex"/> 
+    </e>
+
+    <e lm="oh">
+        <i>oh</i> 
+        <par n="adiós__ij"/> 
     </e>
 
     <e r="LR" lm="ojeador" a="prompsit2adn">
@@ -119383,6 +120104,11 @@
         <par n="abeja__n"/> 
     </e>
 
+    <e lm="pena">
+        <i>pena</i> 
+        <par n="abeja__n"/> 
+    </e>
+
     <e lm="penal">
         <i>penal</i> 
         <par n="abdominal__adj"/> 
@@ -119843,6 +120569,11 @@
     <e lm="persona">
         <i>persona</i> 
         <par n="abeja__n"/> 
+    </e>
+
+    <e lm="personaje">
+        <i>personaje</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="personal">
@@ -120439,6 +121170,11 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
+    <e lm="plantilla">
+        <i>plantilla</i> 
+        <par n="abeja__n"/> 
+    </e>
+
     <e lm="plantear">
       <p>
         <l>planté</l> 
@@ -120709,6 +121445,11 @@
         <par n="abalán/zar__vblex"/> 
     </e>
 
+    <e lm="policial">
+        <i>policial</i> 
+        <par n="abdominal__adj"/> 
+    </e>
+
     <e lm="policía">
         <i>policía</i> 
         <par n="accionista__n"/> 
@@ -120764,6 +121505,11 @@
         <par n="abismo__n"/> 
     </e>
 
+    <e lm="polémica">
+        <i>polémica</i> 
+        <par n="abeja__n"/> 
+    </e>
+
     <e lm="polígono">
         <i>polígono</i> 
         <par n="abismo__n"/> 
@@ -120791,6 +121537,11 @@
 
     <e lm="pompa" a="prompsit2adn">
         <i>pompa</i> 
+        <par n="abeja__n"/> 
+    </e>
+
+    <e lm="ponencia">
+        <i>ponencia</i> 
         <par n="abeja__n"/> 
     </e>
 
@@ -121028,6 +121779,11 @@
     <e lm="portar">
         <i>port</i> 
         <par n="abandon/ar__vblex"/> 
+    </e>
+
+    <e lm="portada">
+        <i>portada</i> 
+        <par n="abeja__n"/> 
     </e>
 
     <e lm="portal">
@@ -123811,6 +124567,11 @@
         <par n="abdominal__adj"/> 
     </e>
 
+    <e lm="radiante">
+        <i>radiante</i> 
+        <par n="abundante__adj"/> 
+    </e>
+
     <e lm="radical">
         <i>radical</i> 
         <par n="abdominal__adj"/> 
@@ -124322,6 +125083,11 @@
         <par n="acci/ón__n"/> 
     </e>
 
+    <e lm="receso" a="prompsit2adn">
+        <i>receso</i> 
+        <par n="abismo__n"/> 
+    </e>
+
     <e lm="rechazar">
         <i>recha</i> 
         <par n="abalan/zar__vblex"/> 
@@ -124721,6 +125487,16 @@
         <par n="accesibilidad__n"/> 
     </e>
 
+    <e lm="redacción">
+        <i>redacci</i> 
+        <par n="acci/ón__n"/> 
+    </e>
+
+    <e lm="redactar">
+        <i>redact</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
     <e lm="redada" a="prompsit2adn">
         <i>redada</i> 
         <par n="abeja__n"/> 
@@ -124788,6 +125564,14 @@
     <e lm="redundancia">
         <i>redundancia</i> 
         <par n="abeja__n"/> 
+    </e>
+
+    <e lm="redactar">
+      <p>
+        <l>redáct</l> 
+        <r>redact</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="reducir">
@@ -124989,6 +125773,11 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
+    <e lm="regalar">
+        <i>regal</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
     <e lm="regalo">
         <i>regalo</i> 
         <par n="abismo__n"/> 
@@ -125015,6 +125804,11 @@
     <e lm="región">
         <i>regi</i> 
         <par n="acci/ón__n"/> 
+    </e>
+
+    <e lm="regidor">
+        <i>regidor</i> 
+        <par n="señor__n"/> 
     </e>
 
     <e lm="regimiento" a="prompsit2adn">
@@ -125105,6 +125899,14 @@
         <par n="abismo__n"/> 
     </e>
 
+    <e lm="regalar">
+      <p>
+        <l>regál</l> 
+        <r>regal</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
+
     <e lm="registrar">
       <p>
         <l>regístr</l> 
@@ -125157,9 +125959,22 @@
         <par n="acci/ón__n"/> 
     </e>
 
+    <e lm="reiterar">
+        <i>reiter</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
     <e lm="reiteración" a="prompsit2adn">
         <i>reiteraci</i> 
         <par n="acci/ón__n"/> 
+    </e>
+
+    <e lm="reiterar">
+      <p>
+        <l>reitér</l> 
+        <r>reiter</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="reja">
@@ -127421,6 +128236,11 @@
         <par n="abdominal__adj"/> 
     </e>
 
+    <e lm="secuestrar">
+        <i>secuestr</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
     <e lm="secular" a="prompsit2adn">
         <i>secular</i> 
         <par n="abdominal__adj"/> 
@@ -127439,6 +128259,14 @@
     <e lm="secundario">
         <i>secundari</i> 
         <par n="absolut/o__adj"/> 
+    </e>
+
+    <e lm="secuestrar">
+      <p>
+        <l>secuéstr</l> 
+        <r>secuestr</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="secundar">
@@ -127560,6 +128388,19 @@
     <e lm="selección">
         <i>selecci</i> 
         <par n="acci/ón__n"/> 
+    </e>
+
+    <e lm="seleccionar">
+        <i>seleccion</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
+    <e lm="seleccionar">
+      <p>
+        <l>selección</l> 
+        <r>seleccion</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="selectivo">
@@ -130035,6 +130876,15 @@
         <par n="c/eñir__vblex"/> 
     </e>
 
+    <e lm="tener que">
+        <i>t</i> 
+        <par n="t/ener__vbmod"/> 
+      <p>
+        <l><b/>que</l> 
+        <r><g><b/>que</g></r> 
+      </p>
+    </e>
+
     <e lm="tender">
         <i>t</i> 
         <par n="asc/ender__vblex"/> 
@@ -130233,6 +131083,11 @@
     <e lm="tarde">
         <i>tarde</i> 
         <par n="abeja__n"/> 
+    </e>
+
+    <e lm="tardío">
+        <i>tardí</i> 
+        <par n="absolut/o__adj"/> 
     </e>
 
     <e lm="tarea">
@@ -130509,6 +131364,11 @@
     <e lm="templo">
         <i>templo</i> 
         <par n="abismo__n"/> 
+    </e>
+
+    <e lm="temporada">
+        <i>temporada</i> 
+        <par n="abeja__n"/> 
     </e>
 
     <e lm="temporalmente">
@@ -131607,14 +132467,32 @@
         <par n="abeja__n"/> 
     </e>
 
+    <e lm="trasladar">
+        <i>traslad</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
     <e lm="traslado">
         <i>traslado</i> 
         <par n="abismo__n"/> 
     </e>
 
+    <e lm="trasladar">
+      <p>
+        <l>traslád</l> 
+        <r>traslad</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
+
     <e r="LR" lm="trasmisión">
         <i>trasmisi</i> 
         <par n="acci/ón__n"/> 
+    </e>
+
+    <e lm="trasponer" a="prompsit2adn">
+        <i>trasp</i> 
+        <par n="comp/oner__vblex"/> 
     </e>
 
     <e lm="trasplantar">
@@ -133361,6 +134239,11 @@
     <e lm="vicario">
         <i>vicario</i> 
         <par n="abismo__n"/> 
+    </e>
+
+    <e lm="vicepresidente">
+        <i>vicepresident</i> 
+        <par n="asistent/e__n"/> 
     </e>
 
     <e lm="viceversa">

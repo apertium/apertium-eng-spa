@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="conjunctions" type="standard">
+
+    <e r="LR" lm="de que">
+      <p>
+        <l>de<b/>que</l> 
+        <r>de<b/>que<s n="cnjsub"/></r> 
+      </p>
+    </e>
+
+    <e r="LR" lm="y">
+      <p>
+        <l>y</l> 
+        <r>y<s n="cnjcoo"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+      ******************************
+      (cnjsub) group
+      ******************************
+    -->
+    <e lm="que">
+        <i>que</i> 
+        <par n="que__cnjsub"/> 
+    </e>
+
+    <!-- 
+      ******************************
+      (cnjadv) group
+      ******************************
+    -->
+    <e lm="a condición de que">
+        <i>a<b/>condición<b/>de<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="a fin de que">
+        <i>a<b/>fin<b/>de<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e r="LR" lm="a menos que">
+        <i>a<b/>menos<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="a no ser que">
+        <i>a<b/>no<b/>ser<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="a pesar de que">
+        <i>a<b/>pesar<b/>de<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="antes de que">
+        <i>antes<b/>de<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="así que">
+        <i>así<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="aun así">
+        <i>aun<b/>así</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="aun cuando">
+        <i>aun<b/>cuando</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="aunque">
+        <i>aunque</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e r="RL" lm="aún así">
+        <i>aún<b/>así</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="de forma que">
+        <i>de<b/>forma<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e r="LR" lm="de manera que">
+        <i>de<b/>manera<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e r="LR" lm="de modo que">
+        <i>de<b/>modo<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e r="LR" lm="de suerte que">
+        <i>de<b/>suerte<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="desde que">
+        <i>desde<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="después de que">
+        <i>después<b/>de<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="en tanto en cuanto">
+        <i>en<b/>tanto<b/>en<b/>cuanto</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e r="LR" lm="en tanto que">
+        <i>en<b/>tanto<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="entonces">
+        <i>entonces</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="hasta que">
+        <i>hasta<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="mientras">
+        <i>mientras</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="para que">
+        <i>para<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e r="LR" lm="por consiguiente">
+        <i>por<b/>consiguiente</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="por cuanto que">
+        <i>por<b/>cuanto<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="por ende">
+        <i>por<b/>ende</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="por lo tanto">
+        <i>por<b/>lo<b/>tanto</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="porque">
+        <i>porque</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="puesto que">
+        <i>puesto<b/>que</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="según">
+        <i>según</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <e lm="si">
+        <i>si</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+
+    <!-- 
+      ******************************
+      (cnjcoo) group
+      ******************************
+    -->
+    <e r="RL" lm="o">
+      <p>
+        <l><a/>o</l> 
+        <r>o</r> 
+      </p>
+        <par n="justo_es_decir__cnjcoo"/> 
+    </e>
+
+    <e r="RL" lm="y">
+      <p>
+        <l><a/>y</l> 
+        <r>y</r> 
+      </p>
+        <par n="justo_es_decir__cnjcoo"/> 
+    </e>
+
+    <e lm="ni">
+        <i>ni</i> 
+        <par n="justo_es_decir__cnjcoo"/> 
+    </e>
+
+    <e lm="o">
+        <par n="/o__cnjcoo"/> 
+    </e>
+
+    <e lm="pero">
+        <i>pero</i> 
+        <par n="justo_es_decir__cnjcoo"/> 
+    </e>
+
+    <e lm="sino">
+        <i>sino</i> 
+        <par n="justo_es_decir__cnjcoo"/> 
+    </e>
+
+
+</section>
+

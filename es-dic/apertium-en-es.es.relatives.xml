@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="relatives" type="standard">
+
+
+    <!-- 
+      ******************************
+      (rel) group
+      ******************************
+    -->
+    <e lm="adonde">
+        <i>adonde</i> 
+        <par n="adonde__rel"/> 
+    </e>
+
+    <e lm="como">
+        <i>como</i> 
+        <par n="adonde__rel"/> 
+    </e>
+
+    <e lm="donde">
+        <i>donde</i> 
+        <par n="adonde__rel"/> 
+    </e>
+
+    <e r="RL" lm="donde">
+        <i>donde</i> 
+        <par n="adonde__rel"/> 
+    </e>
+
+    <e lm="el cual">
+        <par n="/el_cual__rel"/> 
+    </e>
+
+    <e lm="el que">
+        <par n="/el_que__rel"/> 
+    </e>
+
+    <e lm="que">
+        <i>que</i> 
+        <par n="que__rel"/> 
+    </e>
+
+    <e lm="quien">
+        <i>quien</i> 
+        <par n="a_quien__rel"/> 
+    </e>
+
+</section>
+

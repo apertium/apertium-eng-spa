@@ -15,8 +15,8 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
 
 #$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).dix.xml
 #	xmllint --xinclude $(BASENAME).$(LANG1).dix.xml > $(BASENAME).$(LANG1).dix
-#$(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).dix.xml
-#	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
+$(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).dix.xml
+	xmllint --xinclude es-dic/$(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
 $(BASENAME).$(LANG1)-$(LANG2).dix: $(BASENAME).$(LANG1)-$(LANG2).dix.xml
 	xmllint --xinclude en-es-dic/$(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
      
@@ -108,6 +108,12 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
 	   modes.xml
 
+clean-dicts:
+	touch $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix
+	rm $(BASENAME).$(LANG1).dixtmp1
+	rm $(BASENAME).$(LANG2).dix
+	rm $(BASENAME).$(PREFIX1).dix
+	
 apertium_en_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \

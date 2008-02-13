@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="pronouns" type="standard">
+
+    <!-- 
+      ******************************
+      (prn) group
+      ******************************
+    -->
+    <e lm="algo">
+        <i>algo</i> 
+        <par n="algo__prn"/> 
+    </e>
+
+    <e lm="alguien">
+        <i>alguien</i> 
+        <par n="alguien__prn"/> 
+    </e>
+
+    <e lm="alguno">
+        <i>algun</i> 
+        <par n="algun/o__prn"/> 
+    </e>
+
+    <e lm="ambos">
+        <i>ambos</i> 
+        <par n="ambos__prn"/> 
+    </e>
+
+    <e lm="aquel">
+        <i>aquel</i> 
+        <par n="aquel__prn"/> 
+    </e>
+
+    <e lm="aquello">
+        <i>aquello</i> 
+        <par n="aquello__prn"/> 
+    </e>
+
+    <e lm="aquél">
+        <i>aquél</i> 
+        <par n="aquel__prn"/> 
+    </e>
+
+    <e lm="cada cual">
+        <i>cada<b/>cual</i> 
+        <par n="alguien__prn"/> 
+    </e>
+
+    <e lm="cualquiera">
+        <i>cual</i> 
+        <par n="cual/quiera__prn"/> 
+    </e>
+
+    <e lm="cuál">
+        <i>cuál</i> 
+        <par n="cuál__prn"/> 
+    </e>
+
+    <e lm="cuánto">
+        <i>cuánt</i> 
+        <par n="cuánt/o__prn"/> 
+    </e>
+
+    <e lm="el mío">
+        <par n="/el_mío__prn"/> 
+    </e>
+
+    <e lm="el nuestro">
+        <par n="/el_nuestro__prn"/> 
+    </e>
+
+    <e lm="el suyo">
+        <par n="/el_suyo__prn"/> 
+    </e>
+
+    <e lm="el tuyo">
+        <par n="/el_tuyo__prn"/> 
+    </e>
+
+    <e lm="el vuestro">
+        <par n="/el_vuestro__prn"/> 
+    </e>
+
+    <e lm="ello">
+        <i>ello</i> 
+        <par n="ello__prn"/> 
+    </e>
+
+    <e lm="ese">
+        <i>es</i> 
+        <par n="es/e__prn"/> 
+    </e>
+
+    <e lm="eso">
+        <i>eso</i> 
+        <par n="aquello__prn"/> 
+    </e>
+
+    <e lm="este">
+        <i>est</i> 
+        <par n="es/e__prn"/> 
+    </e>
+
+    <e lm="esto">
+        <i>esto</i> 
+        <par n="aquello__prn"/> 
+    </e>
+
+    <e lm="lo">
+        <i>l</i> 
+        <par n="l/o__prn"/> 
+    </e>
+
+    <e r="RL" lm="los dos">
+        <i>l</i> 
+        <par n="l/os_dos__prn"/> 
+    </e>
+
+    <e lm="mí">
+        <i>mí</i> 
+        <par n="conmigo__prn"/> 
+    </e>
+
+    <e lm="nada">
+        <i>nada</i> 
+        <par n="aquello__prn"/> 
+    </e>
+
+    <e lm="nadie">
+        <i>nadie</i> 
+        <par n="alguien__prn"/> 
+    </e>
+
+    <e r="RL" lm="nadie">
+        <i>nadie</i> 
+        <par n="alguien__prn"/> 
+    </e>
+
+    <e lm="ninguno">
+        <i>ningun</i> 
+        <par n="algun/o__prn"/> 
+    </e>
+
+    <e lm="otro">
+        <i>otr</i> 
+        <par n="algun/o__prn"/> 
+    </e>
+
+    <e lm="quienquiera">
+        <i>quien</i> 
+        <par n="cual/quiera__prn"/> 
+    </e>
+
+    <e lm="quién">
+        <i>quién</i> 
+        <par n="cuál__prn"/> 
+    </e>
+
+    <e lm="qué">
+        <i>qué</i> 
+        <par n="qué__prn"/> 
+    </e>
+
+    <e lm="se">
+        <i>se</i> 
+        <par n="se__prn"/> 
+    </e>
+
+    <e lm="sí">
+        <i>sí</i> 
+        <par n="sí__prn"/> 
+    </e>
+
+    <e lm="todo">
+        <i>tod</i> 
+        <par n="algun/o__prn"/> 
+    </e>
+
+    <e r="RL" lm="todo el mundo">
+        <i>todo<b/>el<b/>mundo</i> 
+        <par n="todo_el_mundo__prn"/> 
+    </e>
+
+    <e lm="uno">
+        <i>un</i> 
+        <par n="un/o__prn"/> 
+    </e>
+
+    <e lm="ése">
+        <i>és</i> 
+        <par n="es/e__prn"/> 
+    </e>
+
+    <e lm="éste">
+        <i>ést</i> 
+        <par n="es/e__prn"/> 
+    </e>
+
+</section>
+

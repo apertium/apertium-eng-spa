@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Dictionary:
+	Sections: 1
+	Entries: 10472
+	Sdefs: 66
+	Paradigms: 420
+
+-->
+<dictionary>
+  <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+
+	<!-- symbols -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.symbols.xml"/>
+
+	<!-- paradigms -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.pardefs.xml"/>
+
+	<!-- determiners -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.determiners.xml"/>
+
+	<!-- proper nouns -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.proper-nouns.xml"/>
+
+	<!-- nouns -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.nouns.xml"/>
+
+	<!-- interjections -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.interjections.xml"/>
+
+	<!-- adjectives -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.adjectives.xml"/>
+
+	<!-- verbs -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.verbs.xml"/>
+
+	<!-- adverbs -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.adverbs.xml"/>
+
+	<!-- numerals -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.numerals.xml"/>
+
+	<!-- pronouns -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.pronouns.xml"/>
+
+	<!-- prepositions -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.prepositions.xml"/>
+
+	<!-- relatives -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.es.relatives.xml"/>
+
+
+
+</dictionary>
+
+

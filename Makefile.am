@@ -28,7 +28,7 @@ $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).metadix
 	@rm tmp1gen.xsl
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp1
 	lt-comp lr $(BASENAME).$(LANG1).dixtmp1 $@
-#	@rm $(BASENAME).$(LANG1).dixtmp1
+	@rm $(BASENAME).$(LANG1).dixtmp1
 
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -48,6 +48,7 @@ $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 $(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
 	lt-comp lr $(BASENAME).$(LANG2).dix $@
+#	@rm $(BASENAME).$(LANG2).dix
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -63,6 +64,9 @@ $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).metadix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp2
 	lt-comp rl $(BASENAME).$(LANG1).dixtmp2 $@
 	@rm $(BASENAME).$(LANG1).dixtmp2
+	@rm $(BASENAME).$(LANG1).metadix
+	@rm $(BASENAME).$(LANG2).dix	
+	@rm $(BASENAME).$(LANG1)-$(LANG2).dix	
 
 $(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
@@ -109,8 +113,9 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
 	   modes.xml
 
 clean-dicts:
-	touch $(BASENAME).$(LANG1).dixtmp1 $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix
+	touch $(BASENAME).$(LANG1).dixtmp1 $(BASENAME).$(LANG1).metadix  $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix $(BASENAME).$(PREFIX1).dix
 	rm $(BASENAME).$(LANG1).dixtmp1
+	rm $(BASENAME).$(LANG1).metadix
 	rm $(BASENAME).$(LANG2).dix
 	rm $(BASENAME).$(PREFIX1).dix
 	
@@ -142,7 +147,11 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(apertium_en_esdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(apertium_en_esdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(apertium_en_esdir)
-
+	touch $(BASENAME).$(LANG1).dixtmp1 $(BASENAME).$(LANG1).metadix  $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix $(BASENAME).$(PREFIX1).dix
+	rm $(BASENAME).$(LANG1).dixtmp1
+	rm $(BASENAME).$(LANG1).metadix
+	rm $(BASENAME).$(LANG2).dix
+	rm $(BASENAME).$(PREFIX1).dix
 
 CLEANFILES = -rf $(TARGETS) modes
 

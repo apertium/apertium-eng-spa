@@ -30,6 +30,9 @@
 	<!-- adverbs -->
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.adverbs.xml"/>
 
+	<!-- conjunctions -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.conjunctions.xml"/>
+
 	<!-- numerals -->
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.numerals.xml"/>
 
@@ -42,7 +45,8 @@
 	<!-- relatives -->
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.relatives.xml"/>
 
-
+	<!-- punctuation -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.punctuation.xml"/>
 </dictionary>
 
 

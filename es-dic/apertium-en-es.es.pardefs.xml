@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pardefs>
-  <pardef n="numeros">
-    <e>
-      <re>[0-9]+([.,][0-9]+)?</re>
-      <p>
-        <l/>
-        <r>
-          <s n="num"/>
-        </r>
-      </p>
-    </e>
-  </pardef>
+
+  <pardef n="guionet">
+    
+      <e>
+        <p>
+	  <l>-</l>
+          <r>-<s n="guio"/></r>
+        </p>
+      </e>
+    </pardef>
+
+ <pardef n="coma">
+    
+      <e>
+        <p>
+         <l>,</l>
+         <r>,<s n="cm"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+ <pardef n="cometa">
+    
+      <e>
+        <p>
+         <l>'</l>
+         <r>'<s n="apos"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="numeros">
+    
+      <e>
+        <re>[0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l/>
+         <r><s n="num"/></r>
+        </p>
+      </e>
+      <e>
+        <re>[0-9]+([.,][0-9]+)?%</re>
+        <p>
+          <l/>
+         <r><s n="num"/><s n="percent"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
   <pardef n="separa">
     <e>
       <re>[.\?;:!]</re>
@@ -18,17 +60,6 @@
         <l/>
         <r>
           <s n="sent"/>
-        </r>
-      </p>
-    </e>
-  </pardef>
-  <pardef n="coma">
-    <e>
-      <re>,</re>
-      <p>
-        <l/>
-        <r>
-          <s n="cm"/>
         </r>
       </p>
     </e>

@@ -28,7 +28,7 @@ $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).metadix
 	@rm tmp1gen.xsl
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp1
 	lt-comp lr $(BASENAME).$(LANG1).dixtmp1 $@
-	@rm $(BASENAME).$(LANG1).dixtmp1
+#	@rm $(BASENAME).$(LANG1).dixtmp1
 
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -63,7 +63,7 @@ $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).metadix
 	@rm tmp2gen.xsl
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp2
 	lt-comp rl $(BASENAME).$(LANG1).dixtmp2 $@
-#	@rm $(BASENAME).$(LANG1).dixtmp2
+	@rm $(BASENAME).$(LANG1).dixtmp2
 #	@rm $(BASENAME).$(LANG1).metadix
 #	@rm $(BASENAME).$(LANG2).dix	
 #	@rm $(BASENAME).$(LANG1)-$(LANG2).dix	

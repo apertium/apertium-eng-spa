@@ -1,2149 +1,1721 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="adverbs" type="standard">
-        <!-- 
+  <!-- 
       ******************************
       (preadv) group
       ******************************
     -->
-    <e lm="bien">
-        <i>bien</i> 
-        <par n="bien__preadv"/> 
-    </e>
-
-    <e lm="mal">
-        <i>mal</i> 
-        <par n="bien__preadv"/> 
-    </e>
-
-    <e lm="muy">
-        <i>muy</i> 
-        <par n="bien__preadv"/> 
-    </e>
-
-    <e lm="tan">
-        <i>tan</i> 
-        <par n="bien__preadv"/> 
-    </e>
-
-	<!-- 
+  <e lm="bien">
+    <i>bien</i>
+    <par n="bien__preadv"/>
+  </e>
+  <e lm="mal">
+    <i>mal</i>
+    <par n="bien__preadv"/>
+  </e>
+  <e lm="muy">
+    <i>muy</i>
+    <par n="bien__preadv"/>
+  </e>
+  <e lm="tan">
+    <i>tan</i>
+    <par n="bien__preadv"/>
+  </e>
+  <!-- 
       ******************************
       (adv) group
       ******************************
     -->
-    <e lm="a corto plazo">
-        <i>a<b/>corto<b/>plazo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a decir verdad">
-        <i>a<b/>decir<b/>verdad</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a diario">
-        <i>a<b/>diario</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a escala">
-        <i>a<b/>escala</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a favor" a="gema">
-        <i>a<b/>favor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a favor" a="gema">
-        <i>a<b/>favor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a fondo">
-        <i>a<b/>fondo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a gran escala">
-        <i>a<b/>gran<b/>escala</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a la cabeza">
-        <i>a<b/>la<b/>cabeza</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a la defensiva">
-        <i>a<b/>la<b/>defensiva</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a la vez">
-        <i>a<b/>la<b/>vez</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a largo plazo">
-        <i>a<b/>largo<b/>plazo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a mano">
-        <i>a<b/>mano</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a menudo">
-        <i>a<b/>menudo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a pequeña escala">
-        <i>a<b/>pequeña<b/>escala</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a veces">
-        <i>a<b/>veces</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="abajo">
-        <i>abajo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="abiertamente">
-        <i>abiertamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="absolutamente">
-        <i>absolutamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="abundantemente" a="prompsit2adn">
-        <i>abundantemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="accidentalmente">
-        <i>accidentalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="activamente">
-        <i>activamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="actualmente">
-        <i>actualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="acá">
-        <i>acá</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="adecuadamente">
-        <i>adecuadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="adelante">
-        <i>adelante</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="además">
-        <i>además</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="adentro">
-        <i>adentro</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="adicionalmente">
-        <i>adicionalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="adónde">
-        <i>adónde</i> 
-        <par n="adónde__adv"/> 
-    </e>
-
-    <e lm="afortunadamente">
-        <i>afortunadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="afuera">
-        <i>afuera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ahora">
-        <i>ahora</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ahí">
-        <i>ahí</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="al frente">
-        <i>al<b/>frente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="al menos">
-        <i>al<b/>menos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="alegremente">
-        <i>alegremente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="allá">
-        <i>allá</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="allí">
-        <i>allí</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="alrededor">
-        <i>alrededor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="altamente">
-        <i>altamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="amablemente">
-        <i>amablemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="amargamente" a="prompsit2adn">
-        <i>amargamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ampliamente">
-        <i>ampliamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="angostamente">
-        <i>angostamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="anteriormente">
-        <i>anteriormente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="antes">
-        <i>antes</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="anualmente">
-        <i>anualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="aparentemente">
-        <i>aparentemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="aparte">
-        <i>aparte</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="apremiantemente">
-        <i>apremiantemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="aproximadamente">
-        <i>aproximadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="aquí">
-        <i>aquí</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="arriba">
-        <i>arriba</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="asimismo">
-        <i>asimismo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="asombrosamente">
-        <i>asombrosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="así">
-        <i>así</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="así mismo">
-        <i>así<b/>mismo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="atentamente">
-        <i>atentamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="atrás">
-        <i>atrás</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="RL" lm="atrás">
-        <i>atrás</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="atrás">
-        <i>atrás</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="RL" lm="atrás">
-        <i>atrás</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="aun">
-        <i>aun</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="RL" lm="aun así" a=" alseoane@gmail.com">
-        <i>aun<b/>así</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="automáticamente">
-        <i>automáticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ayer">
-        <i>ayer</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="aún">
-        <i>aún</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="bastante">
-        <i>bastante</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="bien">
-        <i>bien</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="biológicamente" a="prompsit2adn">
-        <i>biológicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="brevemente" a="prompsit2adn">
-        <i>brevemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="brutalmente">
-        <i>brutalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="básicamente">
-        <i>básicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="cabalmente">
-        <i>cabalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="cariñosamente" a="prompsit2adn">
-        <i>cariñosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="celosamente" a="prompsit2adn">
-        <i>celosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="cerca">
-        <i>cerca</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="certeramente">
-        <i>certeramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ciertamente" a="prompsit2adn">
-        <i>ciertamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="cierto">
-        <i>cierto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="claramente">
-        <i>claramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="claro">
-        <i>claro</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="comercialmente" a="prompsit2adn">
-        <i>comercialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="completamente">
-        <i>completamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="concretamente">
-        <i>concretamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="conjuntamente">
-        <i>conjuntamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="conscientemente" a="prompsit2adn">
-        <i>conscientemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="considerablemente">
-        <i>considerablemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="constantemente">
-        <i>constantemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="constitucionalmente">
-        <i>constitucionalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="continuamente">
-        <i>continuamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="correctamente">
-        <i>correctamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="cronológicamente" a="prompsit2adn">
-        <i>cronológicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="cuando menos">
-        <i>cuando<b/>menos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="curiosamente">
-        <i>curiosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="cuándo">
-        <i>cuándo</i> 
-        <par n="adónde__adv"/> 
-    </e>
-
-    <e lm="cómo">
-        <i>cómo</i> 
-        <par n="adónde__adv"/> 
-    </e>
-
-    <e lm="cómo">
-        <i>cómo</i> 
-        <par n="adónde__adv"/> 
-    </e>
-
-    <e lm="cómodamente">
-        <i>cómodamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de acuerdo" a="mginesti">
-        <i>de<b/>acuerdo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de este modo" a="gema">
-        <i>de<b/>este<b/>modo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de este modo" a="gema">
-        <i>de<b/>este<b/>modo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de hecho">
-        <i>de<b/>hecho</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de inmediato">
-        <i>de<b/>inmediato</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de ser posible">
-        <i>de<b/>ser<b/>posible</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de todas partes">
-        <i>de<b/>todas<b/>partes</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de todo punto">
-        <i>de<b/>todo<b/>punto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="debajo">
-        <i>debajo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="debidamente">
-        <i>debidamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="definitivamente">
-        <i>definitivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="delante">
-        <i>delante</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="demasiado">
-        <i>demasiado</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="democráticamente">
-        <i>democráticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="densamente" a="prompsit2adn">
-        <i>densamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="dentro">
-        <i>dentro</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="deprisa">
-        <i>deprisa</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="descaradamente">
-        <i>descaradamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="desesperadamente" a="prompsit2adn">
-        <i>desesperadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="despacio">
-        <i>despacio</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="después">
-        <i>después</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="detrás">
-        <i>detrás</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="diametralmente" a="prompsit2adn">
-        <i>diametralmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="diariamente">
-        <i>diariamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="difícilmente">
-        <i>difícilmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="digitalmente" a="prompsit2adn">
-        <i>digitalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="directamente">
-        <i>directamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="doblemente" a="prompsit2adn">
-        <i>doblemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="dramáticamente" a="prompsit2adn">
-        <i>dramáticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="drásticamente" a="prompsit2adn">
-        <i>drásticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="dónde">
-        <i>dónde</i> 
-        <par n="dónde__adv"/> 
-    </e>
-
-    <e lm="económicamente">
-        <i>económicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="efectivamente">
-        <i>efectivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="eficazmente">
-        <i>eficazmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="electrónicamente" a="gema">
-        <i>electrónicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="emocionalmente">
-        <i>emocionalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="en debida forma">
-        <i>en<b/>debida<b/>forma</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="en especial">
-        <i>en<b/>especial</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="en fila india">
-        <i>en<b/>fila<b/>india</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="en secreto">
-        <i>en<b/>secreto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="en todas partes">
-        <i>en<b/>todas<b/>partes</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="encima">
-        <i>encima</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="energéticamente" a="prompsit2adn">
-        <i>energéticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="enfrente">
-        <i>enfrente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="enormemente">
-        <i>enormemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="enseguida">
-        <i>enseguida</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="enteramente" a="prompsit2adn">
-        <i>enteramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="entonces">
-        <i>entonces</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="entonces">
-        <i>entonces</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="entretanto" a="prompsit2adn">
-        <i>entretanto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="erróneamente" a="prompsit2adn">
-        <i>erróneamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="esencialmente">
-        <i>esencialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="especialmente">
-        <i>especialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="espectacularmente" a="prompsit2adn">
-        <i>espectacularmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="específicamente">
-        <i>específicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="espontáneamente" a="gema">
-        <i>espontáneamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="este año">
-        <i>este<b/>año</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="estratégicamente" a="prompsit2adn">
-        <i>estratégicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="estrechamente">
-        <i>estrechamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="estrictamente">
-        <i>estrictamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="eternamente">
-        <i>eternamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="evidentemente">
-        <i>evidentemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="exactamente">
-        <i>exactamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="excesivamente">
-        <i>excesivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="exclusivamente">
-        <i>exclusivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="explícitamente" a="gema">
-        <i>explícitamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="expresamente">
-        <i>expresamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="extraordinariamente" a="prompsit2adn">
-        <i>extraordinariamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="extremadamente">
-        <i>extremadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="falsamente" a="prompsit2adn">
-        <i>falsamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="finalmente">
-        <i>finalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="financieramente" a="prompsit2adn">
-        <i>financieramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="firmemente" a="prompsit2adn">
-        <i>firmemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="formalmente">
-        <i>formalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="francamente">
-        <i>francamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="frecuentemente">
-        <i>frecuentemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="fuera">
-        <i>fuera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="RL" lm="fuera">
-        <i>fuera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="fuera de lugar">
-        <i>fuera<b/>de<b/>lugar</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="fuertemente">
-        <i>fuertemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="fundamentalmente">
-        <i>fundamentalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="fácilmente">
-        <i>fácilmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="físicamente">
-        <i>físicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="generalmente">
-        <i>generalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="gradualmente" a="prompsit2adn">
-        <i>gradualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="gravemente">
-        <i>gravemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="habitualmente">
-        <i>habitualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="henchidamente">
-        <i>henchidamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="históricamente">
-        <i>históricamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="hondamente">
-        <i>hondamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="hoy">
-        <i>hoy</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="hoy en día">
-        <i>hoy<b/>en<b/>día</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="humildemente">
-        <i>humildemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="igual">
-        <i>igual</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="igualmente">
-        <i>igualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ilegalmente">
-        <i>ilegalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="impunemente">
-        <i>impunemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="inclusivamente">
-        <i>inclusivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="inclusive">
-        <i>inclusive</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="incluso">
-        <i>incluso</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="increíblemente">
-        <i>increíblemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="indefinidamente" a="prompsit2adn">
-        <i>indefinidamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="independientemente">
-        <i>independientemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="indirectamente">
-        <i>indirectamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="indiscriminadamente" a="prompsit2adn">
-        <i>indiscriminadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="indistintamente">
-        <i>indistintamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="individualmente">
-        <i>individualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="inesperadamente" a="prompsit2adn">
-        <i>inesperadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="inevitablemente" a="prompsit2adn">
-        <i>inevitablemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="inexplicablemente">
-        <i>inexplicablemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="inicialmente">
-        <i>inicialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="injustamente">
-        <i>injustamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="inmediatamente">
-        <i>inmediatamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="insuficientemente">
-        <i>insuficientemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="intencionadamente" a="prompsit2adn">
-        <i>intencionadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="intensamente" a="prompsit2adn">
-        <i>intensamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="interiormente">
-        <i>interiormente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="internamente">
-        <i>internamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="involuntariamente">
-        <i>involuntariamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="inútilmente" a="prompsit2adn">
-        <i>inútilmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="irónicamente" a="prompsit2adn">
-        <i>irónicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="jamás">
-        <i>jamás</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="jamás">
-        <i>jamás</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="juntamente" a="gema">
-        <i>juntamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="justamente">
-        <i>justamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="justo">
-        <i>justo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="legalmente">
-        <i>legalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="legítimamente">
-        <i>legítimamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="lejos">
-        <i>lejos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="lentamente">
-        <i>lentamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="libremente">
-        <i>libremente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ligeramente">
-        <i>ligeramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="lisa y llanamente">
-        <i>lisa<b/>y<b/>llanamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="literalmente">
-        <i>literalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="livianamente">
-        <i>livianamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="llenamente">
-        <i>llenamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="localmente">
-        <i>localmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="luego">
-        <i>luego</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="lógicamente">
-        <i>lógicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mal">
-        <i>mal</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="manifiestamente" a="prompsit2adn">
-        <i>manifiestamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="maravillosamente" a="prompsit2adn">
-        <i>maravillosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="masivamente">
-        <i>masivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mayoritariamente">
-        <i>mayoritariamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mañana">
-        <i>mañana</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mejor">
-        <i>mejor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="menos">
-        <i>menos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mentalmente">
-        <i>mentalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="meramente">
-        <i>meramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mientras">
-        <i>mientras</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mientras tanto">
-        <i>mientras<b/>tanto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="milagrosamente" a="prompsit2adn">
-        <i>milagrosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="militarmente" a="prompsit2adn">
-        <i>militarmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="minuciosamente" a="prompsit2adn">
-        <i>minuciosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mismo">
-        <i>mismo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="misteriosamente" a="prompsit2adn">
-        <i>misteriosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="moderadamente" a="prompsit2adn">
-        <i>moderadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="modestamente" a="prompsit2adn">
-        <i>modestamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="moralmente">
-        <i>moralmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mortalmente" a="prompsit2adn">
-        <i>mortalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mucho">
-        <i>mucho</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mucho">
-        <i>mucho</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mucho mejor">
-        <i>mucho<b/>mejor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mucho menos">
-        <i>mucho<b/>menos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="mucho más">
-        <i>mucho<b/>más</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="más">
-        <i>más</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="más">
-        <i>más</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="más allá" a="mginesti">
-        <i>más<b/>allá</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="nada">
-        <i>nada</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="naturalmente">
-        <i>naturalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="necesariamente">
-        <i>necesariamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ni siquiera" a="gema">
-        <i>ni<b/>siquiera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ni siquiera" a="gema">
-        <i>ni<b/>siquiera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="no">
-        <i>no</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="normalmente">
-        <i>normalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="notablemente">
-        <i>notablemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="novedosamente">
-        <i>novedosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="nuevamente">
-        <i>nuevamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="nunca">
-        <i>nunca</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="nunca">
-        <i>nunca</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="RL" lm="nunca">
-        <i>nunca</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="objetivamente" a="prompsit2adn">
-        <i>objetivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="obviamente">
-        <i>obviamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ocasionalmente">
-        <i>ocasionalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="oficialmente">
-        <i>oficialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="pacientemente">
-        <i>pacientemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="pacíficamente" a="prompsit2adn">
-        <i>pacíficamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="paradójicamente">
-        <i>paradójicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="paralelamente" a="prompsit2adn">
-        <i>paralelamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="parcialmente">
-        <i>parcialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="particularmente">
-        <i>particularmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="peligrosamente">
-        <i>peligrosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="perfectamente">
-        <i>perfectamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="permanentemente">
-        <i>permanentemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="perpetuamente" a="prompsit2adn">
-        <i>perpetuamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="personalmente">
-        <i>personalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="plenamente">
-        <i>plenamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="poco">
-        <i>poco</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="poderosamente">
-        <i>poderosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="políticamente">
-        <i>políticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="popularmente">
-        <i>popularmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por ciento">
-        <i>por<b/>ciento</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por entero">
-        <i>por<b/>entero</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por fin">
-        <i>por<b/>fin</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por la mañana" a="mginesti">
-        <i>por<b/>la<b/>mañana</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por la noche" a="mginesti">
-        <i>por<b/>la<b/>noche</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por la tarde" a="mginesti">
-        <i>por<b/>la<b/>tarde</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="por lo menos">
-        <i>por<b/>lo<b/>menos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por lo regular">
-        <i>por<b/>lo<b/>regular</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por otro lado">
-        <i>por<b/>otro<b/>lado</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por qué">
-        <i>por<b/>qué</i> 
-        <par n="adónde__adv"/> 
-    </e>
-
-    <e lm="por sistema">
-        <i>por<b/>sistema</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por todas partes">
-        <i>por<b/>todas<b/>partes</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por un lado">
-        <i>por<b/>un<b/>lado</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por último">
-        <i>por<b/>último</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="posiblemente">
-        <i>posiblemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="positivamente">
-        <i>positivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="posteriormente">
-        <i>posteriormente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="potencialmente">
-        <i>potencialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="precisamente">
-        <i>precisamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="predominantemente" a="prompsit2adn">
-        <i>predominantemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="preferentemente" a=" alseoane@gmail.com">
-        <i>preferentemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="presumiblemente">
-        <i>presumiblemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="presuntamente">
-        <i>presuntamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="previamente">
-        <i>previamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="primeramente">
-        <i>primeramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="primero">
-        <i>primero</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="principalmente">
-        <i>principalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="probablemente">
-        <i>probablemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="profesionalmente">
-        <i>profesionalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="profundamente">
-        <i>profundamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="progresivamente">
-        <i>progresivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="pronto">
-        <i>pronto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="proporcionalmente" a="prompsit2adn">
-        <i>proporcionalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="provisionalmente">
-        <i>provisionalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="prácticamente">
-        <i>prácticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="psicológicamente">
-        <i>psicológicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="puntualmente">
-        <i>puntualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="puramente">
-        <i>puramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="públicamente">
-        <i>públicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="quizá">
-        <i>quizá</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="quizás">
-        <i>quizás</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="radicalmente">
-        <i>radicalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="raramente" a=" alseoane@gmail.com">
-        <i>raramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="razonablemente">
-        <i>razonablemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="realmente">
-        <i>realmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="recientemente">
-        <i>recientemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="recién" a="prompsit2adn">
-        <i>recién</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="regularmente">
-        <i>regularmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="relativamente">
-        <i>relativamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="repentinamente" a="prompsit2adn">
-        <i>repentinamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="repetidamente">
-        <i>repetidamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="respectivamente">
-        <i>respectivamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="rotundamente">
-        <i>rotundamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="rápidamente">
-        <i>rápidamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="satisfactoriamente" a="prompsit2adn">
-        <i>satisfactoriamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="seguramente">
-        <i>seguramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="seguro">
-        <i>seguro</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="semanalmente">
-        <i>semanalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sencillamente">
-        <i>sencillamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sensiblemente">
-        <i>sensiblemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="separadamente" a="mikel" c="no sé si hauríem d\'incloure aquestes formes en el paradigma dels participis">
-        <i>separadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="seriamente">
-        <i>seriamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="severamente" a="prompsit2adn">
-        <i>severamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sexualmente">
-        <i>sexualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="siempre">
-        <i>siempre</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="significativamente" a="prompsit2adn">
-        <i>significativamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="simbólicamente" a="prompsit2adn">
-        <i>simbólicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="simplemente">
-        <i>simplemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="simultáneamente">
-        <i>simultáneamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="sin rodeos">
-        <i>sin<b/>rodeos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sin tapujos">
-        <i>sin<b/>tapujos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sinceramente">
-        <i>sinceramente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="siquiera">
-        <i>siquiera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sistemáticamente">
-        <i>sistemáticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sobre todo">
-        <i>sobre<b/>todo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="sobremanera" a="prompsit2adn">
-        <i>sobremanera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="socialmente">
-        <i>socialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="solamente">
-        <i>solamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="solemnemente">
-        <i>solemnemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="LR" lm="solo">
-        <i>solo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sorprendentemente">
-        <i>sorprendentemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sospechosamente" a="prompsit2adn">
-        <i>sospechosamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="suavemente" a=" alseoane@gmail.com">
-        <i>suavemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="substancialmente" a="prompsit2adn">
-        <i>substancialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="suficientemente">
-        <i>suficientemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="supuestamente">
-        <i>supuestamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sustancialmente" a="prompsit2adn">
-        <i>sustancialmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sutilmente" a="prompsit2adn">
-        <i>sutilmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sí">
-        <i>sí</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sólo">
-        <i>sólo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="talmente">
-        <i>talmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="también">
-        <i>también</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="tampoco">
-        <i>tampoco</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="tampoco">
-        <i>tampoco</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e r="RL" lm="tampoco">
-        <i>tampoco</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="tanto">
-        <i>tanto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="tarde">
-        <i>tarde</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="temporalmente">
-        <i>temporalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="temprano">
-        <i>temprano</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="terriblemente" a="prompsit2adn">
-        <i>terriblemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="teóricamente">
-        <i>teóricamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="todavía">
-        <i>todavía</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="totalmente">
-        <i>totalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="tradicionalmente">
-        <i>tradicionalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="tristemente">
-        <i>tristemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="trágicamente" a="prompsit2adn">
-        <i>trágicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="técnicamente">
-        <i>técnicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="tímidamente">
-        <i>tímidamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="típicamente">
-        <i>típicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="un poco">
-        <i>un<b/>poco</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="unilateralmente">
-        <i>unilateralmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="universalmente" a="prompsit2adn">
-        <i>universalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="unánimemente">
-        <i>unánimemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="urgentemente">
-        <i>urgentemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="verdaderamente">
-        <i>verdaderamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="verticalmente">
-        <i>verticalmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="viceversa">
-        <i>viceversa</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="virtualmente">
-        <i>virtualmente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="visiblemente">
-        <i>visiblemente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="ya">
-        <i>ya</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="últimamente">
-        <i>últimamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="únicamente">
-        <i>únicamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
+  <e lm="a corto plazo">
+    <i>a<b/>corto<b/>plazo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a decir verdad">
+    <i>a<b/>decir<b/>verdad</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a diario">
+    <i>a<b/>diario</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a escala">
+    <i>a<b/>escala</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a favor" a="gema">
+    <i>a<b/>favor</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a favor" a="gema">
+    <i>a<b/>favor</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a fondo">
+    <i>a<b/>fondo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a gran escala">
+    <i>a<b/>gran<b/>escala</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a la cabeza">
+    <i>a<b/>la<b/>cabeza</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a la defensiva">
+    <i>a<b/>la<b/>defensiva</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a la vez">
+    <i>a<b/>la<b/>vez</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a largo plazo">
+    <i>a<b/>largo<b/>plazo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a mano">
+    <i>a<b/>mano</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a menudo">
+    <i>a<b/>menudo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a pequeña escala">
+    <i>a<b/>pequeña<b/>escala</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="a veces">
+    <i>a<b/>veces</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="abajo">
+    <i>abajo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="abiertamente">
+    <i>abiertamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="absolutamente">
+    <i>absolutamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="abundantemente" a="prompsit2adn">
+    <i>abundantemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="accidentalmente">
+    <i>accidentalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="activamente">
+    <i>activamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="actualmente">
+    <i>actualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="acá">
+    <i>acá</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="adecuadamente">
+    <i>adecuadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="adelante">
+    <i>adelante</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="además">
+    <i>además</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="adentro">
+    <i>adentro</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="adicionalmente">
+    <i>adicionalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="adónde">
+    <i>adónde</i>
+    <par n="adónde__adv"/>
+  </e>
+  <e lm="afortunadamente">
+    <i>afortunadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="afuera">
+    <i>afuera</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ahora">
+    <i>ahora</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ahí">
+    <i>ahí</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="al frente">
+    <i>al<b/>frente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="al menos">
+    <i>al<b/>menos</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="alegremente">
+    <i>alegremente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="allá">
+    <i>allá</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="allí">
+    <i>allí</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="alrededor">
+    <i>alrededor</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="altamente">
+    <i>altamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="amablemente">
+    <i>amablemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="amargamente" a="prompsit2adn">
+    <i>amargamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ampliamente">
+    <i>ampliamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="angostamente">
+    <i>angostamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="anteriormente">
+    <i>anteriormente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="antes">
+    <i>antes</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="anualmente">
+    <i>anualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="aparentemente">
+    <i>aparentemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="aparte">
+    <i>aparte</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="apremiantemente">
+    <i>apremiantemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="aproximadamente">
+    <i>aproximadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="aquí">
+    <i>aquí</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="arriba">
+    <i>arriba</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="asimismo">
+    <i>asimismo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="asombrosamente">
+    <i>asombrosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="así">
+    <i>así</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="así mismo">
+    <i>así<b/>mismo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="atentamente">
+    <i>atentamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="atrás">
+    <i>atrás</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="RL" lm="atrás">
+    <i>atrás</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="atrás">
+    <i>atrás</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="RL" lm="atrás">
+    <i>atrás</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="aun">
+    <i>aun</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="RL" lm="aun así" a=" alseoane@gmail.com">
+    <i>aun<b/>así</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="automáticamente">
+    <i>automáticamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ayer">
+    <i>ayer</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="aún">
+    <i>aún</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="bastante">
+    <i>bastante</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="bien">
+    <i>bien</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="biológicamente" a="prompsit2adn">
+    <i>biológicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="brevemente" a="prompsit2adn">
+    <i>brevemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="brutalmente">
+    <i>brutalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="básicamente">
+    <i>básicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="cabalmente">
+    <i>cabalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="cariñosamente" a="prompsit2adn">
+    <i>cariñosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="celosamente" a="prompsit2adn">
+    <i>celosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="cerca">
+    <i>cerca</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="certeramente">
+    <i>certeramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ciertamente" a="prompsit2adn">
+    <i>ciertamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="cierto">
+    <i>cierto</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="claramente">
+    <i>claramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="claro">
+    <i>claro</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="comercialmente" a="prompsit2adn">
+    <i>comercialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="completamente">
+    <i>completamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="concretamente">
+    <i>concretamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="conjuntamente">
+    <i>conjuntamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="conscientemente" a="prompsit2adn">
+    <i>conscientemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="considerablemente">
+    <i>considerablemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="constantemente">
+    <i>constantemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="constitucionalmente">
+    <i>constitucionalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="continuamente">
+    <i>continuamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="correctamente">
+    <i>correctamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="cronológicamente" a="prompsit2adn">
+    <i>cronológicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="cuando menos">
+    <i>cuando<b/>menos</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="curiosamente">
+    <i>curiosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="cuándo">
+    <i>cuándo</i>
+    <par n="adónde__adv"/>
+  </e>
+  <e lm="cómo">
+    <i>cómo</i>
+    <par n="adónde__adv"/>
+  </e>
+  <e lm="cómo">
+    <i>cómo</i>
+    <par n="adónde__adv"/>
+  </e>
+  <e lm="cómodamente">
+    <i>cómodamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="de acuerdo" a="mginesti">
+    <i>de<b/>acuerdo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="de este modo" a="gema">
+    <i>de<b/>este<b/>modo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="de este modo" a="gema">
+    <i>de<b/>este<b/>modo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="de hecho">
+    <i>de<b/>hecho</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="de inmediato">
+    <i>de<b/>inmediato</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="de ser posible">
+    <i>de<b/>ser<b/>posible</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="de todas partes">
+    <i>de<b/>todas<b/>partes</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="de todo punto">
+    <i>de<b/>todo<b/>punto</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="debajo">
+    <i>debajo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="debidamente">
+    <i>debidamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="definitivamente">
+    <i>definitivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="delante">
+    <i>delante</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="demasiado">
+    <i>demasiado</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="democráticamente">
+    <i>democráticamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="densamente" a="prompsit2adn">
+    <i>densamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="dentro">
+    <i>dentro</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="deprisa">
+    <i>deprisa</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="descaradamente">
+    <i>descaradamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="desesperadamente" a="prompsit2adn">
+    <i>desesperadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="despacio">
+    <i>despacio</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="después">
+    <i>después</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="detrás">
+    <i>detrás</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="diametralmente" a="prompsit2adn">
+    <i>diametralmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="diariamente">
+    <i>diariamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="difícilmente">
+    <i>difícilmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="digitalmente" a="prompsit2adn">
+    <i>digitalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="directamente">
+    <i>directamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="doblemente" a="prompsit2adn">
+    <i>doblemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="dramáticamente" a="prompsit2adn">
+    <i>dramáticamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="drásticamente" a="prompsit2adn">
+    <i>drásticamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="dónde">
+    <i>dónde</i>
+    <par n="dónde__adv"/>
+  </e>
+  <e lm="económicamente">
+    <i>económicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="efectivamente">
+    <i>efectivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="eficazmente">
+    <i>eficazmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="electrónicamente" a="gema">
+    <i>electrónicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="emocionalmente">
+    <i>emocionalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="en debida forma">
+    <i>en<b/>debida<b/>forma</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="en especial">
+    <i>en<b/>especial</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="en fila india">
+    <i>en<b/>fila<b/>india</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="en secreto">
+    <i>en<b/>secreto</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="en todas partes">
+    <i>en<b/>todas<b/>partes</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="encima">
+    <i>encima</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="energéticamente" a="prompsit2adn">
+    <i>energéticamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="enfrente">
+    <i>enfrente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="enormemente">
+    <i>enormemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="enseguida">
+    <i>enseguida</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="enteramente" a="prompsit2adn">
+    <i>enteramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="entonces">
+    <i>entonces</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="entonces">
+    <i>entonces</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="entretanto" a="prompsit2adn">
+    <i>entretanto</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="erróneamente" a="prompsit2adn">
+    <i>erróneamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="esencialmente">
+    <i>esencialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="especialmente">
+    <i>especialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="espectacularmente" a="prompsit2adn">
+    <i>espectacularmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="específicamente">
+    <i>específicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="espontáneamente" a="gema">
+    <i>espontáneamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="este año">
+    <i>este<b/>año</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="estratégicamente" a="prompsit2adn">
+    <i>estratégicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="estrechamente">
+    <i>estrechamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="estrictamente">
+    <i>estrictamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="eternamente">
+    <i>eternamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="evidentemente">
+    <i>evidentemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="exactamente">
+    <i>exactamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="excesivamente">
+    <i>excesivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="exclusivamente">
+    <i>exclusivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="explícitamente" a="gema">
+    <i>explícitamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="expresamente">
+    <i>expresamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="extraordinariamente" a="prompsit2adn">
+    <i>extraordinariamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="extremadamente">
+    <i>extremadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="falsamente" a="prompsit2adn">
+    <i>falsamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="finalmente">
+    <i>finalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="financieramente" a="prompsit2adn">
+    <i>financieramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="firmemente" a="prompsit2adn">
+    <i>firmemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="formalmente">
+    <i>formalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="francamente">
+    <i>francamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="frecuentemente">
+    <i>frecuentemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="fuera">
+    <i>fuera</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="RL" lm="fuera">
+    <i>fuera</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="fuera de lugar">
+    <i>fuera<b/>de<b/>lugar</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="fuertemente">
+    <i>fuertemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="fundamentalmente">
+    <i>fundamentalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="fácilmente">
+    <i>fácilmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="físicamente">
+    <i>físicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="generalmente">
+    <i>generalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="gradualmente" a="prompsit2adn">
+    <i>gradualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="gravemente">
+    <i>gravemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="habitualmente">
+    <i>habitualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="henchidamente">
+    <i>henchidamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="históricamente">
+    <i>históricamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="hondamente">
+    <i>hondamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="hoy">
+    <i>hoy</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="hoy en día">
+    <i>hoy<b/>en<b/>día</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="humildemente">
+    <i>humildemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="igual">
+    <i>igual</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="igualmente">
+    <i>igualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ilegalmente">
+    <i>ilegalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="impunemente">
+    <i>impunemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="inclusivamente">
+    <i>inclusivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="inclusive">
+    <i>inclusive</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="incluso">
+    <i>incluso</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="increíblemente">
+    <i>increíblemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="indefinidamente" a="prompsit2adn">
+    <i>indefinidamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="independientemente">
+    <i>independientemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="indirectamente">
+    <i>indirectamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="indiscriminadamente" a="prompsit2adn">
+    <i>indiscriminadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="indistintamente">
+    <i>indistintamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="individualmente">
+    <i>individualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="inesperadamente" a="prompsit2adn">
+    <i>inesperadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="inevitablemente" a="prompsit2adn">
+    <i>inevitablemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="inexplicablemente">
+    <i>inexplicablemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="inicialmente">
+    <i>inicialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="injustamente">
+    <i>injustamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="inmediatamente">
+    <i>inmediatamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="insuficientemente">
+    <i>insuficientemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="intencionadamente" a="prompsit2adn">
+    <i>intencionadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="intensamente" a="prompsit2adn">
+    <i>intensamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="interiormente">
+    <i>interiormente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="internamente">
+    <i>internamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="involuntariamente">
+    <i>involuntariamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="inútilmente" a="prompsit2adn">
+    <i>inútilmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="irónicamente" a="prompsit2adn">
+    <i>irónicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="jamás">
+    <i>jamás</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="jamás">
+    <i>jamás</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="juntamente" a="gema">
+    <i>juntamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="justamente">
+    <i>justamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="justo">
+    <i>justo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="legalmente">
+    <i>legalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="legítimamente">
+    <i>legítimamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="lejos">
+    <i>lejos</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="lentamente">
+    <i>lentamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="libremente">
+    <i>libremente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ligeramente">
+    <i>ligeramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="lisa y llanamente">
+    <i>lisa<b/>y<b/>llanamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="literalmente">
+    <i>literalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="livianamente">
+    <i>livianamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="llenamente">
+    <i>llenamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="localmente">
+    <i>localmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="luego">
+    <i>luego</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="lógicamente">
+    <i>lógicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mal">
+    <i>mal</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="manifiestamente" a="prompsit2adn">
+    <i>manifiestamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="maravillosamente" a="prompsit2adn">
+    <i>maravillosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="masivamente">
+    <i>masivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mayoritariamente">
+    <i>mayoritariamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mañana">
+    <i>mañana</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mejor">
+    <i>mejor</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="menos">
+    <i>menos</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mentalmente">
+    <i>mentalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="meramente">
+    <i>meramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mientras">
+    <i>mientras</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mientras tanto">
+    <i>mientras<b/>tanto</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="milagrosamente" a="prompsit2adn">
+    <i>milagrosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="militarmente" a="prompsit2adn">
+    <i>militarmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="minuciosamente" a="prompsit2adn">
+    <i>minuciosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mismo">
+    <i>mismo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="misteriosamente" a="prompsit2adn">
+    <i>misteriosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="moderadamente" a="prompsit2adn">
+    <i>moderadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="modestamente" a="prompsit2adn">
+    <i>modestamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="moralmente">
+    <i>moralmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mortalmente" a="prompsit2adn">
+    <i>mortalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mucho">
+    <i>mucho</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mucho">
+    <i>mucho</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mucho mejor">
+    <i>mucho<b/>mejor</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mucho menos">
+    <i>mucho<b/>menos</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="mucho más">
+    <i>mucho<b/>más</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="más">
+    <i>más</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="más">
+    <i>más</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="más allá" a="mginesti">
+    <i>más<b/>allá</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="nada">
+    <i>nada</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="naturalmente">
+    <i>naturalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="necesariamente">
+    <i>necesariamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ni siquiera" a="gema">
+    <i>ni<b/>siquiera</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ni siquiera" a="gema">
+    <i>ni<b/>siquiera</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="no">
+    <i>no</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="normalmente">
+    <i>normalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="notablemente">
+    <i>notablemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="novedosamente">
+    <i>novedosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="nuevamente">
+    <i>nuevamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="nunca">
+    <i>nunca</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="nunca">
+    <i>nunca</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="RL" lm="nunca">
+    <i>nunca</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="objetivamente" a="prompsit2adn">
+    <i>objetivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="obviamente">
+    <i>obviamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ocasionalmente">
+    <i>ocasionalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="oficialmente">
+    <i>oficialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="pacientemente">
+    <i>pacientemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="pacíficamente" a="prompsit2adn">
+    <i>pacíficamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="paradójicamente">
+    <i>paradójicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="paralelamente" a="prompsit2adn">
+    <i>paralelamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="parcialmente">
+    <i>parcialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="particularmente">
+    <i>particularmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="peligrosamente">
+    <i>peligrosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="perfectamente">
+    <i>perfectamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="permanentemente">
+    <i>permanentemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="perpetuamente" a="prompsit2adn">
+    <i>perpetuamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="personalmente">
+    <i>personalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="plenamente">
+    <i>plenamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="poco">
+    <i>poco</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="poderosamente">
+    <i>poderosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="políticamente">
+    <i>políticamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="popularmente">
+    <i>popularmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por ciento">
+    <i>por<b/>ciento</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por entero">
+    <i>por<b/>entero</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por fin">
+    <i>por<b/>fin</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por la mañana" a="mginesti">
+    <i>por<b/>la<b/>mañana</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por la noche" a="mginesti">
+    <i>por<b/>la<b/>noche</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por la tarde" a="mginesti">
+    <i>por<b/>la<b/>tarde</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="por lo menos">
+    <i>por<b/>lo<b/>menos</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por lo regular">
+    <i>por<b/>lo<b/>regular</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por otro lado">
+    <i>por<b/>otro<b/>lado</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por qué">
+    <i>por<b/>qué</i>
+    <par n="adónde__adv"/>
+  </e>
+  <e lm="por sistema">
+    <i>por<b/>sistema</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por todas partes">
+    <i>por<b/>todas<b/>partes</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por un lado">
+    <i>por<b/>un<b/>lado</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="por último">
+    <i>por<b/>último</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="posiblemente">
+    <i>posiblemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="positivamente">
+    <i>positivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="posteriormente">
+    <i>posteriormente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="potencialmente">
+    <i>potencialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="precisamente">
+    <i>precisamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="predominantemente" a="prompsit2adn">
+    <i>predominantemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="preferentemente" a=" alseoane@gmail.com">
+    <i>preferentemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="presumiblemente">
+    <i>presumiblemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="presuntamente">
+    <i>presuntamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="previamente">
+    <i>previamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="primeramente">
+    <i>primeramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="primero">
+    <i>primero</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="principalmente">
+    <i>principalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="probablemente">
+    <i>probablemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="profesionalmente">
+    <i>profesionalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="profundamente">
+    <i>profundamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="progresivamente">
+    <i>progresivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="pronto">
+    <i>pronto</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="proporcionalmente" a="prompsit2adn">
+    <i>proporcionalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="provisionalmente">
+    <i>provisionalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="prácticamente">
+    <i>prácticamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="psicológicamente">
+    <i>psicológicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="puntualmente">
+    <i>puntualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="puramente">
+    <i>puramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="públicamente">
+    <i>públicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="quizá">
+    <i>quizá</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="quizás">
+    <i>quizás</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="radicalmente">
+    <i>radicalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="raramente" a=" alseoane@gmail.com">
+    <i>raramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="razonablemente">
+    <i>razonablemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="realmente">
+    <i>realmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="recientemente">
+    <i>recientemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="recién" a="prompsit2adn">
+    <i>recién</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="regularmente">
+    <i>regularmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="relativamente">
+    <i>relativamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="repentinamente" a="prompsit2adn">
+    <i>repentinamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="repetidamente">
+    <i>repetidamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="respectivamente">
+    <i>respectivamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="rotundamente">
+    <i>rotundamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="rápidamente">
+    <i>rápidamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="satisfactoriamente" a="prompsit2adn">
+    <i>satisfactoriamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="seguramente">
+    <i>seguramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="seguro">
+    <i>seguro</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="semanalmente">
+    <i>semanalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sencillamente">
+    <i>sencillamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sensiblemente">
+    <i>sensiblemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="separadamente" a="mikel" c="no sé si hauríem d\'incloure aquestes formes en el paradigma dels participis">
+    <i>separadamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="seriamente">
+    <i>seriamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="severamente" a="prompsit2adn">
+    <i>severamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sexualmente">
+    <i>sexualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="siempre">
+    <i>siempre</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="significativamente" a="prompsit2adn">
+    <i>significativamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="simbólicamente" a="prompsit2adn">
+    <i>simbólicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="simplemente">
+    <i>simplemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="simultáneamente">
+    <i>simultáneamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="sin rodeos">
+    <i>sin<b/>rodeos</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sin tapujos">
+    <i>sin<b/>tapujos</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sinceramente">
+    <i>sinceramente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="siquiera">
+    <i>siquiera</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sistemáticamente">
+    <i>sistemáticamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sobre todo">
+    <i>sobre<b/>todo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="sobremanera" a="prompsit2adn">
+    <i>sobremanera</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="socialmente">
+    <i>socialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="solamente">
+    <i>solamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="solemnemente">
+    <i>solemnemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="LR" lm="solo">
+    <i>solo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sorprendentemente">
+    <i>sorprendentemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sospechosamente" a="prompsit2adn">
+    <i>sospechosamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="suavemente" a=" alseoane@gmail.com">
+    <i>suavemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="substancialmente" a="prompsit2adn">
+    <i>substancialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="suficientemente">
+    <i>suficientemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="supuestamente">
+    <i>supuestamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sustancialmente" a="prompsit2adn">
+    <i>sustancialmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sutilmente" a="prompsit2adn">
+    <i>sutilmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sí">
+    <i>sí</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="sólo">
+    <i>sólo</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="talmente">
+    <i>talmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="también">
+    <i>también</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="tampoco">
+    <i>tampoco</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="tampoco">
+    <i>tampoco</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e r="RL" lm="tampoco">
+    <i>tampoco</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="tanto">
+    <i>tanto</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="tarde">
+    <i>tarde</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="temporalmente">
+    <i>temporalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="temprano">
+    <i>temprano</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="terriblemente" a="prompsit2adn">
+    <i>terriblemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="teóricamente">
+    <i>teóricamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="todavía">
+    <i>todavía</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="totalmente">
+    <i>totalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="tradicionalmente">
+    <i>tradicionalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="tristemente">
+    <i>tristemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="trágicamente" a="prompsit2adn">
+    <i>trágicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="técnicamente">
+    <i>técnicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="tímidamente">
+    <i>tímidamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="típicamente">
+    <i>típicamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="un poco">
+    <i>un<b/>poco</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="unilateralmente">
+    <i>unilateralmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="universalmente" a="prompsit2adn">
+    <i>universalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="unánimemente">
+    <i>unánimemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="urgentemente">
+    <i>urgentemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="verdaderamente">
+    <i>verdaderamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="verticalmente">
+    <i>verticalmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="viceversa">
+    <i>viceversa</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="virtualmente">
+    <i>virtualmente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="visiblemente">
+    <i>visiblemente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="ya">
+    <i>ya</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="últimamente">
+    <i>últimamente</i>
+    <par n="ahora__adv"/>
+  </e>
+  <e lm="únicamente">
+    <i>únicamente</i>
+    <par n="ahora__adv"/>
+  </e>
 </section>
-

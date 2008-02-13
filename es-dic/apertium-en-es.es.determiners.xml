@@ -1,130 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="determiners" type="standard">
-    <!-- 
+  <!-- 
       ******************************
       (detnt) group
       ******************************
     -->
-    <e lm="lo">
-        <i>lo</i> 
-        <par n="lo__detnt"/> 
-    </e>
-
-    <!-- 
+  <e lm="lo">
+    <i>lo</i>
+    <par n="lo__detnt"/>
+  </e>
+  <!-- 
       ******************************
       (det) group
       ******************************
     -->
-    <e r="RL" lm="el">
-      <p>
-        <l><a/>la</l> 
-        <r>el</r> 
-      </p>
-        <par n="~la__det"/> 
-    </e>
-
-    <e lm="alguno">
-        <i>alg</i> 
-        <par n="alg/uno__det"/> 
-    </e>
-
-    <e lm="aquel">
-        <i>aquel</i> 
-        <par n="aquel__det"/> 
-    </e>
-
-    <e lm="cada">
-        <i>cada</i> 
-        <par n="cada__det"/> 
-    </e>
-
-    <e lm="cierto">
-        <i>ciert</i> 
-        <par n="ciert/o__det"/> 
-    </e>
-
-    <e lm="cualquier">
-        <i>cual</i> 
-        <par n="cual/quier__det"/> 
-    </e>
-
-    <e lm="demás">
-        <i>demás</i> 
-        <par n="demás__det"/> 
-    </e>
-
-    <e lm="el">
-        <par n="/el__det"/> 
-    </e>
-
-    <e lm="ese">
-        <i>es</i> 
-        <par n="es/e__det"/> 
-    </e>
-
-    <e lm="este">
-        <i>est</i> 
-        <par n="es/e__det"/> 
-    </e>
-
-    <e lm="mío">
-      <p>
-        <l>mi</l> 
-        <r>mí</r> 
-      </p>
-        <par n="mi/o__det"/> 
-    </e>
-
-    <e lm="ninguno">
-        <i>ning</i> 
-        <par n="ning/uno__det"/> 
-    </e>
-
-    <e lm="nuestro">
-        <i>nuestr</i> 
-        <par n="nuestr/o__det"/> 
-    </e>
-
-    <e lm="otro">
-        <i>otr</i> 
-        <par n="ciert/o__det"/> 
-    </e>
-
-    <e lm="suyo">
-        <i>su</i> 
-        <par n="su/yo__det"/> 
-    </e>
-
-    <e lm="tuyo">
-        <i>tu</i> 
-        <par n="su/yo__det"/> 
-    </e>
-
-    <e lm="uno">
-        <i>un</i> 
-        <par n="un/o__det"/> 
-    </e>
-
-    <e lm="vario">
-        <i>vari</i> 
-        <par n="vari/o__det"/> 
-    </e>
-
-    <e lm="vuestro">
-        <i>vuestr</i> 
-        <par n="nuestr/o__det"/> 
-    </e>
-
-    <!-- 
+  <e r="RL" lm="el">
+    <p>
+      <l><a/>la</l>
+      <r>el</r>
+    </p>
+    <par n="~la__det"/>
+  </e>
+  <e lm="alguno">
+    <i>alg</i>
+    <par n="alg/uno__det"/>
+  </e>
+  <e lm="aquel">
+    <i>aquel</i>
+    <par n="aquel__det"/>
+  </e>
+  <e lm="cada">
+    <i>cada</i>
+    <par n="cada__det"/>
+  </e>
+  <e lm="cierto">
+    <i>ciert</i>
+    <par n="ciert/o__det"/>
+  </e>
+  <e lm="cualquier">
+    <i>cual</i>
+    <par n="cual/quier__det"/>
+  </e>
+  <e lm="demás">
+    <i>demás</i>
+    <par n="demás__det"/>
+  </e>
+  <e lm="el">
+    <par n="/el__det"/>
+  </e>
+  <e lm="ese">
+    <i>es</i>
+    <par n="es/e__det"/>
+  </e>
+  <e lm="este">
+    <i>est</i>
+    <par n="es/e__det"/>
+  </e>
+  <e lm="mío">
+    <p>
+      <l>mi</l>
+      <r>mí</r>
+    </p>
+    <par n="mi/o__det"/>
+  </e>
+  <e lm="ninguno">
+    <i>ning</i>
+    <par n="ning/uno__det"/>
+  </e>
+  <e lm="nuestro">
+    <i>nuestr</i>
+    <par n="nuestr/o__det"/>
+  </e>
+  <e lm="otro">
+    <i>otr</i>
+    <par n="ciert/o__det"/>
+  </e>
+  <e lm="suyo">
+    <i>su</i>
+    <par n="su/yo__det"/>
+  </e>
+  <e lm="tuyo">
+    <i>tu</i>
+    <par n="su/yo__det"/>
+  </e>
+  <e lm="uno">
+    <i>un</i>
+    <par n="un/o__det"/>
+  </e>
+  <e lm="vario">
+    <i>vari</i>
+    <par n="vari/o__det"/>
+  </e>
+  <e lm="vuestro">
+    <i>vuestr</i>
+    <par n="nuestr/o__det"/>
+  </e>
+  <!-- 
       ******************************
       (predet) group
       ******************************
     -->
-    <e lm="todo">
-        <i>tod</i> 
-        <par n="tod/o__predet"/> 
-    </e>
-
-
+  <e lm="todo">
+    <i>tod</i>
+    <par n="tod/o__predet"/>
+  </e>
 </section>
-

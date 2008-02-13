@@ -1,345 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="prepositions" type="standard">
-
-    <!-- 
+  <!-- 
       ******************************
       (pr) group
       ******************************
     -->
-    <e lm="a">
-        <i></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="de">
-        <i></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="a expensas de">
-        <i>a<b/>expensas<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="a lo largo de">
-        <i>a<b/>lo<b/>largo<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="a partir de">
-        <i>a<b/>partir<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="a pesar de">
-        <i>a<b/>pesar<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="a raíz de">
-        <i>a<b/>raíz<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="acerca de">
-        <i>acerca<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e r="LR" lm="acorde con">
-        <i>acorde<b/>con</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="además de">
-        <i>además<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="al objeto de">
-        <i>al<b/>objeto<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="alrededor de" a="mikel">
-        <i>alrededor<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="ante">
-        <i>ante</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="bajo">
-        <i>bajo</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="como">
-        <i>como</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="con">
-        <i>con</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="con objeto de">
-        <i>con<b/>objeto<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="con relación a">
-        <i>con<b/>relación<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="con respecto a">
-        <i>con<b/>respecto<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="con respecto de">
-        <i>con<b/>respecto<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="contra">
-        <i>contra</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="debajo de">
-        <i>debajo<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="debido a">
-        <i>debido<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="delante de">
-        <i>delante<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="desde">
-        <i>desde</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="durante">
-        <i>durante</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="en">
-        <i>en</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="en conformidad con">
-        <i>en<b/>conformidad<b/>con</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e r="LR" lm="en consonancia con">
-        <i>en<b/>consonancia<b/>con</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="en cuanto a">
-        <i>en<b/>cuanto<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="en frente de">
-        <i>en<b/>frente<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="en lo que respecta a">
-        <i>en<b/>lo<b/>que<b/>respecta<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="en lo que se refiere a">
-        <i>en<b/>lo<b/>que<b/>se<b/>refiere<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="en lo relativo a">
-        <i>en<b/>lo<b/>relativo<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="en orden a">
-        <i>en<b/>orden<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="en pos de">
-        <i>en<b/>pos<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="en vez de">
-        <i>en<b/>vez<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="en vista de">
-        <i>en<b/>vista<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="entre">
-        <i>entre</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="entre">
-        <i>entre</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="excepto">
-        <i>excepto</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="extra">
-        <i>extra</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="gracias a">
-        <i>gracias<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="hacia">
-        <i>hacia</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="hasta">
-        <i>hasta</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="hasta">
-        <i>hasta</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="junto a">
-        <i>junto<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="junto con">
-        <i>junto<b/>con</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="mediante">
-        <i>mediante</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="merced a">
-        <i>merced<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="para">
-        <i>para</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="pese a">
-        <i>pese<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="por">
-        <i>por</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="por encima de">
-        <i>por<b/>encima<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="por entre">
-        <i>por<b/>entre</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="por intermedio de">
-        <i>por<b/>intermedio<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="por lo que respecta a">
-        <i>por<b/>lo<b/>que<b/>respecta<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="por medio de">
-        <i>por<b/>medio<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="respecto a">
-        <i>respecto<b/></i> 
-        <par n="conta__pr"/> 
-    </e>
-
-    <e lm="respecto de">
-        <i>respecto<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
-    <e lm="salvo">
-        <i>salvo</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="según">
-        <i>según</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="sin">
-        <i>sin</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="so">
-        <i>so</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="sobre">
-        <i>sobre</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e r="LR" lm="tras">
-        <i>tras</i> 
-        <par n="a__pr"/> 
-    </e>
-
-    <e lm="tras de">
-        <i>tras<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-
+  <e lm="a">
+    <i/>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="de">
+    <i/>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="a expensas de">
+    <i>a<b/>expensas<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="a lo largo de">
+    <i>a<b/>lo<b/>largo<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="a partir de">
+    <i>a<b/>partir<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="a pesar de">
+    <i>a<b/>pesar<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="a raíz de">
+    <i>a<b/>raíz<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="acerca de">
+    <i>acerca<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e r="LR" lm="acorde con">
+    <i>acorde<b/>con</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="además de">
+    <i>además<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="al objeto de">
+    <i>al<b/>objeto<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="alrededor de" a="mikel">
+    <i>alrededor<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="ante">
+    <i>ante</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="bajo">
+    <i>bajo</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="como">
+    <i>como</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="con">
+    <i>con</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="con objeto de">
+    <i>con<b/>objeto<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="con relación a">
+    <i>con<b/>relación<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="con respecto a">
+    <i>con<b/>respecto<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="con respecto de">
+    <i>con<b/>respecto<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="contra">
+    <i>contra</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="debajo de">
+    <i>debajo<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="debido a">
+    <i>debido<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="delante de">
+    <i>delante<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="desde">
+    <i>desde</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="durante">
+    <i>durante</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="en">
+    <i>en</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="en conformidad con">
+    <i>en<b/>conformidad<b/>con</i>
+    <par n="a__pr"/>
+  </e>
+  <e r="LR" lm="en consonancia con">
+    <i>en<b/>consonancia<b/>con</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="en cuanto a">
+    <i>en<b/>cuanto<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="en frente de">
+    <i>en<b/>frente<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="en lo que respecta a">
+    <i>en<b/>lo<b/>que<b/>respecta<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="en lo que se refiere a">
+    <i>en<b/>lo<b/>que<b/>se<b/>refiere<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="en lo relativo a">
+    <i>en<b/>lo<b/>relativo<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="en orden a">
+    <i>en<b/>orden<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="en pos de">
+    <i>en<b/>pos<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="en vez de">
+    <i>en<b/>vez<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="en vista de">
+    <i>en<b/>vista<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="entre">
+    <i>entre</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="entre">
+    <i>entre</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="excepto">
+    <i>excepto</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="extra">
+    <i>extra</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="gracias a">
+    <i>gracias<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="hacia">
+    <i>hacia</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="hasta">
+    <i>hasta</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="hasta">
+    <i>hasta</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="junto a">
+    <i>junto<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="junto con">
+    <i>junto<b/>con</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="mediante">
+    <i>mediante</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="merced a">
+    <i>merced<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="para">
+    <i>para</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="pese a">
+    <i>pese<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="por">
+    <i>por</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="por encima de">
+    <i>por<b/>encima<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="por entre">
+    <i>por<b/>entre</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="por intermedio de">
+    <i>por<b/>intermedio<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="por lo que respecta a">
+    <i>por<b/>lo<b/>que<b/>respecta<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="por medio de">
+    <i>por<b/>medio<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="respecto a">
+    <i>respecto<b/></i>
+    <par n="conta__pr"/>
+  </e>
+  <e lm="respecto de">
+    <i>respecto<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="salvo">
+    <i>salvo</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="según">
+    <i>según</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="sin">
+    <i>sin</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="so">
+    <i>so</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="sobre">
+    <i>sobre</i>
+    <par n="a__pr"/>
+  </e>
+  <e r="LR" lm="tras">
+    <i>tras</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="tras de">
+    <i>tras<b/></i>
+    <par n="contde__pr"/>
+  </e>
 </section>
-

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section id="conjunctions" type="standard">
+
+    <!-- 
+      ******************************
+      (cnjcoo) group
+      ******************************
+    -->
+    <e lm="and">
+        <i>and</i> 
+        <par n="and__cnjcoo"/> 
+    </e>
+
+    <e lm="both">
+        <i>both</i> 
+        <par n="and__cnjcoo"/> 
+    </e>
+
+    <e lm="but">
+        <i>but</i> 
+        <par n="and__cnjcoo"/> 
+    </e>
+
+    <e lm="but rather">
+        <i>but<b/>rather</i> 
+        <par n="and__cnjcoo"/> 
+    </e>
+
+    <e lm="either">
+        <i>either</i> 
+        <par n="and__cnjcoo"/> 
+    </e>
+
+    <e lm="neither">
+        <i>neither</i> 
+        <par n="and__cnjcoo"/> 
+    </e>
+
+    <e lm="nor">
+        <i>nor</i> 
+        <par n="and__cnjcoo"/> 
+    </e>
+
+    <e lm="or">
+        <i>or</i> 
+        <par n="and__cnjcoo"/> 
+    </e>
+
+    <!-- 
+      ******************************
+      (cnjadv) group
+      ******************************
+    -->
+    <e lm="after">
+        <i>after</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="although">
+        <i>although</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="as">
+        <i>as</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="because">
+        <i>because</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="before">
+        <i>before</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="for">
+        <i>for</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="if">
+        <i>if</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="on condition that">
+        <i>on<b/>condition<b/>that</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="provided">
+        <i>provided</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e r="RL" lm="since" c="per ara RL perquè tagger s'equivoca molt amb 'pr'. (since the death of.. : des de la mort de (prep). Potser amb transfer es pot arreglar?">
+        <i>since</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="so">
+        <i>so</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="so that">
+        <i>so<b/>that</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="therefore">
+        <i>therefore</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="though">
+        <i>though</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="thus">
+        <i>thus</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="unless">
+        <i>unless</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="until">
+        <i>until</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="when">
+        <i>when</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="whereas" a="doriua">
+        <i>whereas</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="whether">
+        <i>whether</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="while">
+        <i>while</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="yet">
+        <i>yet</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <!-- 
+      ******************************
+      (cnjsub) group
+      ******************************
+    -->
+    <e lm="that">
+        <i>that</i> 
+        <par n="that__cnjsub"/> 
+    </e>
+
+</section>
+

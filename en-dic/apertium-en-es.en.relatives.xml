@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section id="relatives" type="standard">
+  
+  <!-- 
+      ******************************
+      (rel) group
+      ******************************
+    -->
+    <e lm="that">
+        <i>that</i> 
+        <par n="that__rel"/> 
+    </e>
+
+    <e lm="the one who">
+        <i>the<b/>one<b/>who</i> 
+        <par n="what__rel"/> 
+    </e>
+
+    <e lm="those who">
+        <i>those<b/>who</i> 
+        <par n="those_who__rel"/> 
+    </e>
+
+    <e lm="what">
+        <i>what</i> 
+        <par n="what__rel"/> 
+    </e>
+
+    <e lm="where">
+        <i>where</i> 
+        <par n="where__rel"/> 
+    </e>
+
+    <e lm="which">
+        <i>which</i> 
+        <par n="that__rel"/> 
+    </e>
+
+    <e r="RL" lm="which" c="només de generació per a traduir 'el qual' ">
+        <i>which</i> 
+        <par n="which__rel"/> 
+    </e>
+
+    <e lm="who">
+        <i>who</i> 
+        <par n="that__rel"/> 
+    </e>
+
+    <e lm="whom">
+        <i>whom</i> 
+        <par n="that__rel"/> 
+    </e>
+
+
+</section>
+

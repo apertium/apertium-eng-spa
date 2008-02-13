@@ -13,12 +13,12 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
 
-#$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).dix.xml
-#	xmllint --xinclude $(BASENAME).$(LANG1).dix.xml > $(BASENAME).$(LANG1).dix
+$(BASENAME).$(LANG1).metadix: $(BASENAME).$(LANG1).metadix.xml
+	xmllint --xinclude $(LANG1)-dic/$(BASENAME).$(LANG1).metadix.xml > $(BASENAME).$(LANG1).metadix
 $(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).dix.xml
-	xmllint --xinclude es-dic/$(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
+	xmllint --xinclude $(LANG2)-dic/$(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
 $(BASENAME).$(LANG1)-$(LANG2).dix: $(BASENAME).$(LANG1)-$(LANG2).dix.xml
-	xmllint --xinclude en-es-dic/$(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
+	xmllint --xinclude $(LANG1)-$(LANG2)-dic/$(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
      
 TARGETS = $(TARGETS_COMMON) 
 
@@ -109,7 +109,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
 	   modes.xml
 
 clean-dicts:
-	touch $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix
+	touch $(BASENAME).$(LANG1).dixtmp1 $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix
 	rm $(BASENAME).$(LANG1).dixtmp1
 	rm $(BASENAME).$(LANG2).dix
 	rm $(BASENAME).$(PREFIX1).dix

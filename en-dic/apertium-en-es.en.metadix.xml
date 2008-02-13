@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dictionary>
+  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+
+	<!-- symbols -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.symbols.xml"/>
+
+	<!-- paradigms -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.pardefs.xml"/>
+
+	<!-- determiners -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.determiners.xml"/>
+
+	<!-- proper nouns -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.proper-nouns.xml"/>
+
+	<!-- nouns -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.nouns.xml"/>
+
+	<!-- interjections -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.interjections.xml"/>
+
+	<!-- adjectives -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.adjectives.xml"/>
+
+	<!-- verbs -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.verbs.xml"/>
+
+	<!-- adverbs -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.adverbs.xml"/>
+
+	<!-- numerals -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.numerals.xml"/>
+
+	<!-- pronouns -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.pronouns.xml"/>
+
+	<!-- prepositions -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.prepositions.xml"/>
+
+	<!-- relatives -->
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.relatives.xml"/>
+
+
+</dictionary>
+
+

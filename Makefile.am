@@ -18,7 +18,7 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
 #$(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).dix.xml
 #	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
 $(BASENAME).$(LANG1)-$(LANG2).dix: $(BASENAME).$(LANG1)-$(LANG2).dix.xml
-	xmllint --xinclude $(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
+	xmllint --xinclude en-es-dic/$(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
      
 TARGETS = $(TARGETS_COMMON) 
 

@@ -4,24 +4,10 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-en-es.en-es.adjectives.xml -text
-/apertium-en-es.en-es.adverbs.xml -text
-/apertium-en-es.en-es.conjunctions.xml -text
-/apertium-en-es.en-es.determiners.xml -text
 /apertium-en-es.en-es.dix.xml -text
-/apertium-en-es.en-es.interjections.xml -text
-/apertium-en-es.en-es.nouns.xml -text
-/apertium-en-es.en-es.numerals.xml -text
-/apertium-en-es.en-es.prepositions.xml -text
-/apertium-en-es.en-es.pronouns.xml -text
-/apertium-en-es.en-es.proper-nouns.xml -text
-/apertium-en-es.en-es.punctuation.xml -text
-/apertium-en-es.en-es.relatives.xml -text
-/apertium-en-es.en-es.symbols.xml -text
 /apertium-en-es.en-es.t1x -text
 /apertium-en-es.en-es.t2x -text
 /apertium-en-es.en-es.t3x -text
-/apertium-en-es.en-es.verbs.xml -text
 /apertium-en-es.en.metadix -text
 /apertium-en-es.es-en.t1x -text
 /apertium-en-es.es-en.t2x -text
@@ -34,6 +20,21 @@
 /autogen.sh -text
 /buscaPar.xsl -text
 /configure.ac -text
+en-es-dic/apertium-en-es.en-es.adjectives.xml -text
+en-es-dic/apertium-en-es.en-es.adverbs.xml -text
+en-es-dic/apertium-en-es.en-es.conjunctions.xml -text
+en-es-dic/apertium-en-es.en-es.determiners.xml -text
+en-es-dic/apertium-en-es.en-es.dix.xml -text
+en-es-dic/apertium-en-es.en-es.interjections.xml -text
+en-es-dic/apertium-en-es.en-es.nouns.xml -text
+en-es-dic/apertium-en-es.en-es.numerals.xml -text
+en-es-dic/apertium-en-es.en-es.prepositions.xml -text
+en-es-dic/apertium-en-es.en-es.pronouns.xml -text
+en-es-dic/apertium-en-es.en-es.proper-nouns.xml -text
+en-es-dic/apertium-en-es.en-es.punctuation.xml -text
+en-es-dic/apertium-en-es.en-es.relatives.xml -text
+en-es-dic/apertium-en-es.en-es.symbols.xml -text
+en-es-dic/apertium-en-es.en-es.verbs.xml -text
 /en-es.prob -text svneol=unset#unset
 /es-en.prob -text svneol=unset#unset
 /modes.xml -text

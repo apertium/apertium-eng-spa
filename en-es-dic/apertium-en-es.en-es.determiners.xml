@@ -88,7 +88,7 @@
    <e r="LR" c="afirmatives">
       <p>
          <l>any<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>cualquier<s n="det"/><s n="mf"/><s n="ND"/></r> 
+         <r>cualquier<s n="det"/><s n="ind"/><s n="mf"/><s n="ND"/></r> 
       </p>
    </e>
    
@@ -108,11 +108,12 @@
    <e r="RL" c="frases negatives. EN-CA: per trànsfer">
       <p>
          <l>any<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="f"/></r> 
+         <r>ninguno<s n="det"/><s n="ind"/></r> 
       </p>
    </e>
  
-   
+   <e r="LR"><p><l>both<s n="det"/><s n="ind"/></l><r>ambos<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+   <e r="RL"><p><l>both<s n="det"/></l><r>ambos<s n="det"/></r></p></e>
    <e>
       <p>
          <l>each<s n="det"/><s n="ind"/></l> 
@@ -128,7 +129,33 @@
       </p>
    </e>
    
+  
+   <e r="LR">
+      <p>
+         <l>no<s n="det"/><s n="ind"/></l> 
+         <r>ninguno<s n="det"/><s n="ind"/><s n="GD"/></r> 
+      </p>
+   </e>
+   
+   
+   
+   
+   <e r="RL">
+      <p>
+         <l>other<s n="det"/></l> 
+         <r>demás<s n="det"/></r> 
+      </p>
+   </e>
+   
  
+ 
+   <e r="LR">
+      <p>
+         <l>other<s n="det"/><s n="ind"/><s n="sp"/></l> 
+         <r>otro<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+   </e>
+    
  
    
    <e>
@@ -164,154 +191,39 @@
    <e r="RL" c="MG: traducció per defecte ca-en és per ara 'his'">
       <p>
          <l>his<s n="det"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
+         <r>suyo<s n="det"/></r> 
       </p>
    </e>
 
-   <e r="LR">
-      <p>
-         <l>his<s n="det"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
-      </p>
-   </e>
+ 
    
    <e r="LR">
       <p>
          <l>its<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
+         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="ND"/></r> 
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>its<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL" c="en sg: little bread, little hope">
-      <p>
-         <l>its<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
-      </p>
-   </e>
-   
+     
    <e r="RL">
       <p>
          <l>my<s n="det"/></l> 
-         <r>mío<s n="det"/><s n="pos"/><s n="mf"/></r> 
+         <r>mío<s n="det"/></r> 
       </p>
    </e>
    
    <e r="LR">
       <p>
          <l>my<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>mío<s n="det"/><s n="pos"/><s n="mf"/></r> 
+         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="ND"/></r> 
       </p>
    </e>
-   
-   <e r="LR">
-      <p>
-         <l>my<s n="det"/></l> 
-         <r>mío<s n="det"/><s n="pos"/><s n="mf"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>no<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL" c="preguntes, negatives. EN-CA: per trànsfer (fr negatives)">
-      <p>
-         <l>no<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL" c="preguntes, negatives. EN-CA: per trànsfer (fr negatives)">
-      <p>
-         <l>no<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>no<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>no<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>other<s n="det"/></l> 
-         <r>demás<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>other<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>demás<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>other<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>demás<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>other<s n="det"/></l> 
-         <r>demás<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-   </e>
- 
-   <e r="LR">
-      <p>
-         <l>other<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>otro<s n="det"/><s n="ind"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>other<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>otro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>other<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>otro<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>other<s n="det"/><s n="ind"/><s n="pl"/></l> 
-         <r>otro<s n="det"/></r> 
-      </p>
-   </e>
+  
    
    <e r="LR">
       <p>
          <l>our<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>nuestro<s n="det"/></r> 
+         <r>nuestro<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r> 
       </p>
    </e>
    
@@ -320,47 +232,59 @@
          <l>our<s n="det"/></l> 
          <r>nuestro<s n="det"/></r> 
       </p>
-   </e>
-   
-   <e r="LR">
+   </e>  
+
+     <e r="RL" c="per ara de en-ca es genera només 'el vostre'">
       <p>
-         <l>our<s n="det"/></l> 
-         <r>nuestro<s n="det"/></r> 
+         <l>your<s n="det"/></l> 
+         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
    </e>
    
    <e r="LR">
       <p>
+         <l>your<s n="det"/><s n="pos"/><s n="sp"/></l> 
+         <r>vuestro<s n="det"/><s n="pos"/><s n="GD"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>your<s n="det"/></l> 
+         <r>vuestro<s n="det"/></r> 
+      </p>
+   </e>
+   
+  
+  
+   
+   <e r="LR" c="MG: traducció per defecte ca-en és per ara 'his'">
+      <p>
+         <l>their<s n="det"/><s n="pos"/><s n="sp"/></l> 
+         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+   </e>
+
+   <e r="LR">
+      <p>
          <l>several<s n="det"/><s n="ind"/></l> 
-         <r>vario<s n="det"/></r> 
+         <r>varios<s n="det"/><s n="ind"/><s n="GD"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
          <l>several<s n="det"/></l> 
-         <r>vario<s n="det"/></r> 
+         <r>varios<s n="det"/></r> 
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>several<s n="det"/><s n="ind"/></l> 
-         <r>vario<s n="det"/></r> 
-      </p>
-   </e>
    
-   <e r="LR">
-      <p>
-         <l>several<s n="det"/></l> 
-         <r>vario<s n="det"/></r> 
-      </p>
-   </e>
-   
+      
    <e r="LR" c="frases afirmatives">
       <p>
          <l>some<s n="det"/><s n="qnt"/><s n="sp"/></l> 
-         <r>alguno<s n="det"/></r> 
+         <r>alguno<s n="det"/><s n="qnt"/><s n="GD"/><s n="ND"/></r> 
       </p>
    </e>
    
@@ -371,68 +295,35 @@
       </p>
    </e>
    
-   <e r="LR" c="preguntes, condicional (posar 'ND' també?)">
+   
+   <e r="LR">
+      <p>
+         <l>enough<s n="det"/><s n="qnt"/><s n="sp"/></l> 
+         <r>bastante<s n="det"/><s n="qnt"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+   </e>
+   
+     <e r="RL">
+      <p>
+         <l>enough<s n="det"/></l> 
+         <r>bastante<s n="det"/></r> 
+      </p>
+   </e>
+   <e r="RL">
       <p>
          <l>some<s n="det"/></l> 
-         <r>alguno<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>some<s n="det"/><s n="qnt"/></l> 
          <r>cierto<s n="det"/></r> 
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>some<s n="det"/><s n="qnt"/></l> 
-         <r>cierto<s n="det"/></r> 
-      </p>
-   </e>
+  <e r="LR"><p><l>how<b/>many<s n="det"/><s n="itg"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="GD"/></r></p></e>
+  <e r="RL"><p><l>how<b/>many<s n="det"/><s n="itg"/><s n="pl"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>how<b/>many<s n="det"/><s n="itg"/><s n="pl"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>how<b/>much<s n="det"/><s n="itg"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="GD"/></r></p></e>
+  <e r="RL"><p><l>how<b/>much<s n="det"/><s n="itg"/><s n="sg"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>how<b/>much<s n="det"/><s n="itg"/><s n="sg"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
+    
    
-   <e r="LR">
-      <p>
-         <l>some<s n="det"/><s n="qnt"/></l> 
-         <r>cierto<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>some<s n="det"/><s n="qnt"/><s n="pl"/></l> 
-         <r>uno<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR" c="MG: falta fer la direcció ca-en">
-      <p>
-         <l>some<s n="det"/><s n="qnt"/><s n="pl"/></l> 
-         <r>uno<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>that<s n="det"/><s n="dem"/></l> 
-         <r>aquel<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>that<s n="det"/></l> 
-         <r>aquel<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>that<s n="det"/></l> 
-         <r>aquel<s n="det"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
@@ -448,98 +339,56 @@
       </p>
    </e>
   
-
  
-   <e r="RL" c="MG: traducció per defecte ca-en és per ara 'his'">
+   <e r="LR">
       <p>
-         <l>their<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR" c="MG: traducció per defecte ca-en és per ara 'his'">
-      <p>
-         <l>their<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
+         <l>that<s n="det"/><s n="dem"/></l> 
+         <r>aquel<s n="det"/><s n="dem"/><s n="GD"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
+         <l>that<s n="det"/></l> 
+         <r>aquel<s n="det"/></r> 
+      </p>
+   </e>
+   
+    
+   <e r="LR">
+      <p>
          <l>this<s n="det"/><s n="dem"/></l> 
+         <r>este<s n="det"/><s n="dem"/><s n="GD"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>this<s n="det"/></l> 
+         <r>este<s n="det"/></r> 
+      </p>
+   </e>
+    <e r="RL">
+      <p>
+         <l>this<s n="det"/></l> 
          <r>ese<s n="det"/></r> 
       </p>
    </e>
-   
-   <e r="LR">
-      <p>
-         <l>this<s n="det"/><s n="dem"/></l> 
-         <r>este<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>this<s n="det"/><s n="dem"/></l> 
-         <r>este<s n="det"/></r> 
-      </p>
-   </e>
-   
    <e r="LR">
       <p>
          <l>various<s n="det"/><s n="ind"/></l> 
-         <r>vario<s n="det"/></r> 
+         <r>varios<s n="det"/><s n="ind"/><s n="GD"/></r> 
       </p>
    </e>
    
    <e r="LR">
       <p>
          <l>whatever<s n="det"/><s n="ind"/></l> 
-         <r>cualquier<s n="det"/></r> 
+         <r>cualquier<s n="det"/><s n="ind"/><s n="mf"/></r> 
       </p>
    </e>
-   
-   <e c="afirmatives">
-      <p>
-         <l>whatever<s n="det"/><s n="ind"/></l> 
-         <r>cualquier<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>whatever<s n="det"/><s n="ind"/></l> 
-         <r>cualquier<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL" c="per ara de en-ca es genera només 'el vostre'">
-      <p>
-         <l>your<s n="det"/></l> 
-         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>your<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>vuestro<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>your<s n="det"/></l> 
-         <r>vuestro<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>your<s n="det"/></l> 
-         <r>vuestro<s n="det"/></r> 
-      </p>
-   </e>
+
+  
    
 </section>
 

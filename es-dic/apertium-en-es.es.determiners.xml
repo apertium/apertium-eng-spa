@@ -87,14 +87,29 @@
     <i>un</i>
     <par n="un/o__det"/>
   </e>
-  <e lm="vario">
+  <e lm="varios">
     <i>vari</i>
-    <par n="vari/o__det"/>
+    <par n="vari/os__det"/>
+  </e>
+  <e lm="ambos">
+    <i>amb</i>
+    <par n="vari/os__det"/>
+  </e>
+  <e lm="bastante">
+    <i>bastante</i>
+    <par n="bastante__det"/>
   </e>
   <e lm="vuestro">
     <i>vuestr</i>
     <par n="nuestr/o__det"/>
   </e>
+
+
+  <e lm="cuánto">
+    <i>cuánt</i>
+    <par n="cuánt/o__det"/>
+  </e>
+
   <!-- 
       ******************************
       (predet) group

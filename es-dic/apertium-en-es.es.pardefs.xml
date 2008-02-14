@@ -2001,32 +2001,32 @@
     </e>
 
     </pardef>
-    <pardef n="cuánt/o__adj">
+    <pardef n="cuánt/o__det">
     <e>
       <p>
         <l>as</l> 
-        <r>o<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></r> 
+        <r>o<s n="det"/><s n="itg"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>a</l> 
-        <r>o<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></r> 
+        <r>o<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>os</l> 
-        <r>o<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></r> 
+        <r>o<s n="det"/><s n="itg"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>o</l> 
-        <r>o<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></r> 
+        <r>o<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -2910,18 +2910,18 @@
     </e>
 
     </pardef>
-    <pardef n="vari/o__det">
+    <pardef n="vari/os__det">
     <e>
       <p>
         <l>as</l> 
-        <r>o<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
+        <r>os<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>os</l> 
-        <r>o<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
+        <r>os<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -3024,28 +3024,28 @@
     <e>
       <p>
         <l>unas</l> 
-        <r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
+        <r>uno<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>una</l> 
-        <r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r> 
+        <r>uno<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>unos</l> 
-        <r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
+        <r>uno<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>ún</l> 
-        <r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
+        <r>uno<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -3066,6 +3066,26 @@
     </e>
 
     </pardef>
+
+
+
+   <pardef n="bastante__det">
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="qnt"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+    </pardef>
+
     <pardef n="su/yo__det">
     <e>
       <p>
@@ -3340,7 +3360,18 @@
         <r><s n="n"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
-
+    <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
     </pardef>
     <pardef n="alrededores__n">
     <e>
@@ -3453,6 +3484,18 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
     </pardef>
     <pardef n="albañil__n">
     <e>
@@ -3494,6 +3537,18 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
     </pardef>
     <pardef n="im/agen__n">
     <e>

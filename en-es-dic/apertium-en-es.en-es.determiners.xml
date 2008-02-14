@@ -9,7 +9,7 @@
    <e r="LR">
       <p>
          <l>all<s n="predet"/><s n="sp"/></l> 
-         <r>todo<s n="predet"/></r> 
+         <r>todo<s n="predet"/><s n="GD"/><s n="ND"/></r> 
       </p>
    </e>
    
@@ -20,19 +20,7 @@
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>all<s n="predet"/></l> 
-         <r>todo<s n="predet"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>all<s n="predet"/></l> 
-         <r>todo<s n="predet"/></r> 
-      </p>
-   </e>
+ 
    
    <!-- 
       ******************************
@@ -43,14 +31,21 @@
    <e r="LR">
       <p>
          <l>a<s n="det"/><s n="ind"/></l> 
-         <r>uno<s n="det"/></r> 
+         <r>uno<s n="det"/><s n="ind"/><s n="GD"/></r> 
       </p>
    </e>
-   
-   <e r="RL">
+   <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+
+   <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+
+   <e r="RL"><p><l>some<s n="det"/><s n="qnt"/><s n="pl"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+
+   <e r="RL"><p><l>some<s n="det"/><s n="qnt"/><s n="pl"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+
+   <e r="LR">
       <p>
-         <l>a<s n="det"/><s n="ind"/><s n="sg"/></l> 
-         <r>uno<s n="det"/></r> 
+         <l>another<s n="det"/><s n="ind"/></l> 
+         <r>otro<s n="det"/><s n="ind"/><s n="GD"/></r> 
       </p>
    </e>
    
@@ -68,21 +63,22 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e r="RL">
       <p>
-         <l>another<s n="det"/><s n="ind"/><s n="sg"/></l> 
-         <r>otro<s n="det"/></r> 
+         <l>other<s n="det"/><s n="ind"/><s n="pl"/></l> 
+         <r>otro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>another<s n="det"/><s n="ind"/><s n="sg"/></l> 
-         <r>otro<s n="det"/></r> 
+         <l>other<s n="det"/><s n="ind"/><s n="pl"/></l> 
+         <r>otro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
       </p>
    </e>
+     
    
-   <e c="interrogatives, condicional">
+   <e  i="yes" c="interrogatives, condicional">
       <p>
          <l>any<s n="det"/></l> 
          <r>alguno<s n="det"/></r> 
@@ -92,72 +88,48 @@
    <e r="LR" c="afirmatives">
       <p>
          <l>any<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>cualquier<s n="det"/></r> 
+         <r>cualquier<s n="det"/><s n="mf"/><s n="ND"/></r> 
       </p>
    </e>
    
    <e r="RL" c="afirmatives">
       <p>
          <l>any<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>cualquier<s n="det"/></r> 
+         <r>cualquier<s n="det"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+   </e>
+     <e r="RL" c="afirmatives">
+      <p>
+         <l>any<s n="det"/><s n="ind"/><s n="sp"/></l> 
+         <r>cualquier<s n="det"/><s n="mf"/><s n="pl"/></r> 
       </p>
    </e>
    
    <e r="RL" c="frases negatives. EN-CA: per trànsfer">
       <p>
          <l>any<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r> 
+         <r>ninguno<s n="det"/><s n="ind"/><s n="f"/></r> 
       </p>
    </e>
-   
-   <e r="RL" c="frases negatives. EN-CA: per trànsfer">
-      <p>
-         <l>any<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
-      </p>
-   </e>
+ 
    
    <e>
       <p>
          <l>each<s n="det"/><s n="ind"/></l> 
-         <r>cada<s n="det"/></r> 
+         <r>cada<s n="det"/><s n="ind"/><s n="mf"/></r> 
+      </p>
+   </e>
+   <e r="LR" i="yes" c="frases negatives"><p><l>either<s n="det"/><s n="ind"/></l><r>ninguno<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+  
+ <e r="LR">
+      <p>
+         <l>either<s n="det"/><s n="ind"/></l> 
+         <r>cualquier<s n="det"/><s n="ind"/><s n="mf"/></r> 
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>either<s n="det"/><s n="ind"/></l> 
-         <r>cualquier<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>either<s n="det"/><s n="ind"/></l> 
-         <r>cualquier<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>either<s n="det"/><s n="ind"/></l> 
-         <r>cualquier<s n="det"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR" c="frases negatives">
-      <p>
-         <l>either<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR" c="frases negatives">
-      <p>
-         <l>either<s n="det"/><s n="ind"/></l> 
-         <r>ninguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
-      </p>
-   </e>
+ 
+ 
    
    <e>
       <p>
@@ -166,41 +138,36 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e>
       <p>
          <l>every<s n="det"/><s n="ind"/></l> 
-         <r>cada<s n="det"/></r> 
+         <r>cada<s n="det"/><s n="ind"/><s n="mf"/></r> 
       </p>
    </e>
    
-   <e r="RL" c="en plural">
-      <p>
-         <l>every<s n="det"/><s n="ind"/></l> 
-         <r>cada<s n="det"/></r> 
-      </p>
-   </e>
+ 
    
    <e r="LR" c="MG: traducció per defecte ca-en és per ara 'his'">
       <p>
          <l>her<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL" c="MG: traducció per defecte ca-en és per ara 'his'">
-      <p>
-         <l>his<s n="det"/></l> 
-         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
+         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="ND"/></r> 
       </p>
    </e>
    
    <e r="LR" c="MG: traducció per defecte ca-en és per ara 'his'">
       <p>
          <l>his<s n="det"/><s n="pos"/><s n="sp"/></l> 
+         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+   </e>
+      
+   <e r="RL" c="MG: traducció per defecte ca-en és per ara 'his'">
+      <p>
+         <l>his<s n="det"/></l> 
          <r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
    </e>
-   
+
    <e r="LR">
       <p>
          <l>his<s n="det"/></l> 
@@ -312,35 +279,7 @@
          <r>demás<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r> 
       </p>
    </e>
-   
-   <e r="RL">
-      <p>
-         <l>other<s n="det"/><s n="ind"/><s n="pl"/></l> 
-         <r>otro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>other<s n="det"/><s n="ind"/><s n="pl"/></l> 
-         <r>otro<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>other<s n="det"/></l> 
-         <r>otro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>other<s n="det"/></l> 
-         <r>otro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
-      </p>
-   </e>
-   
+ 
    <e r="LR">
       <p>
          <l>other<s n="det"/><s n="ind"/><s n="sp"/></l> 

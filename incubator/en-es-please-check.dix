@@ -76,7 +76,7 @@
 
     <e>
       <p>
-        <l>a hundred<s n="num"/></l> 
+        <l>a<b/>hundred<s n="num"/></l> 
         <r>cien<s n="num"/></r> 
       </p>
     </e>
@@ -1331,21 +1331,21 @@
     <e>
       <p>
         <l>BBVA<s n="n"/></l> 
-        <r>BBVA<s n="n"/></r> 
+        <r>BBVA<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>Basque<s n="n"/></l> 
-        <r>vasco<s n="n"/></r> 
+        <r>vasco<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>CAM<s n="n"/></l> 
-        <r>CAM<s n="n"/></r> 
+        <r>CAM<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -1359,62 +1359,69 @@
     <e>
       <p>
         <l>CEE<s n="n"/></l> 
-        <r>CEE<s n="n"/></r> 
+        <r>CEE<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>CNMV<s n="n"/></l> 
-        <r>CNMV<s n="n"/></r> 
+        <r>CNMV<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
     <e a="doriua">
       <p>
         <l>Easter<s n="n"/></l> 
-        <r>Pascua<s n="n"/></r> 
+        <r>Pascua<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>Ebre<s n="n"/></l> 
-        <r>Ebro<s n="n"/></r> 
+        <r>Ebro<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>IPC<s n="n"/></l> 
-        <r>IPC<s n="n"/></r> 
+        <r>IPC<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>IRPF<s n="n"/></l> 
-        <r>IRPF<s n="n"/></r> 
+        <r>IRPF<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>MEC<s n="n"/></l> 
-        <r>MEC<s n="n"/></r> 
+        <r>MEC<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
-        <l>North American<s n="n"/><s n="GD"/></l> 
+        <l>North<b/>American<s n="n"/></l> 
         <r>estadounidense<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>North American<s n="n"/></l> 
+        <l>North<b/>American<s n="n"/></l> 
+        <r>norteamericano<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>North<b/>American<s n="n"/></l> 
         <r>norteamericano<s n="n"/></r> 
       </p>
     </e>
@@ -1422,74 +1429,81 @@
     <e>
       <p>
         <l>OCDE<s n="n"/></l> 
-        <r>OCDE<s n="n"/></r> 
+        <r>OCDE<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>OMC<s n="n"/></l> 
-        <r>OMC<s n="n"/></r> 
+        <r>OMC<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>OPA<s n="n"/></l> 
-        <r>OPA<s n="n"/></r> 
+        <r>OPA<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>PSPV<s n="n"/></l> 
-        <r>PSPV<s n="n"/></r> 
+        <r>PSPV<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>SEPI<s n="n"/></l> 
-        <r>SEPI<s n="n"/></r> 
+        <r>SEPI<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>SMI<s n="n"/></l> 
-        <r>SMI<s n="n"/></r> 
+        <r>SMI<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>UGT<s n="n"/></l> 
-        <r>UGT<s n="n"/></r> 
+        <r>UGT<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>UME<s n="n"/></l> 
-        <r>UME<s n="n"/></r> 
+        <r>UME<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>VAT<s n="n"/></l> 
-        <r>IVA<s n="n"/></r> 
+        <r>IVA<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="LR">
+      <p>
+        <l>Yankee<s n="n"/></l> 
+        <r>Yanqui<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
       <p>
         <l>Yankee<s n="n"/></l> 
         <r>Yanqui<s n="n"/></r> 
       </p>
     </e>
 
-    <e a=" alseoane@gmail.com">
+    <e>
       <p>
         <l>absorption<s n="n"/></l> 
         <r>absorción<s n="n"/><s n="f"/></r> 
@@ -2058,14 +2072,14 @@
       </p>
     </e>
 
-    <e a="doriua">
+    <e>
       <p>
         <l>corn<s n="n"/></l> 
         <r>maíz<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="RL" a="doriua">
+    <e r="RL">
       <p>
         <l>corn<s n="n"/></l> 
         <r>callo<s n="n"/><s n="m"/></r> 
@@ -2076,13 +2090,6 @@
       <p>
         <l>course<s n="n"/></l> 
         <r>transcurso<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>criticism<s n="n"/></l> 
-        <r>crítica<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2117,7 +2124,7 @@
     <e>
       <p>
         <l>deceleration<s n="n"/></l> 
-        <r>desaceleración<s n="n"/></r> 
+        <r>desaceleración<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2131,7 +2138,7 @@
     <e>
       <p>
         <l>dedication<s n="n"/></l> 
-        <r>dedicación<s n="n"/></r> 
+        <r>dedicación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2145,28 +2152,35 @@
     <e>
       <p>
         <l>defender<s n="n"/></l> 
-        <r>defensor<s n="n"/></r> 
+        <r>defensor<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>demand<s n="n"/></l> 
-        <r>exigencia<s n="n"/></r> 
+        <r>exigencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>depletion|exhaustion<s n="n"/></l> 
-        <r>agotamiento<s n="n"/></r> 
+        <l>depletion<s n="n"/></l> 
+        <r>agotamiento<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>exhaustion<s n="n"/></l> 
+        <r>agotamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>designation<s n="n"/></l> 
-        <r>designación<s n="n"/></r> 
+        <r>designación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2215,21 +2229,21 @@
     <e>
       <p>
         <l>dispersion<s n="n"/></l> 
-        <r>dispersión<s n="n"/></r> 
+        <r>dispersión<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>displacement<s n="n"/></l> 
-        <r>desplazamiento<s n="n"/></r> 
+        <r>desplazamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e a="carmentano">
+    <e>
       <p>
         <l>dispute<s n="n"/></l> 
-        <r>disputa<s n="n"/></r> 
+        <r>disputa<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2240,17 +2254,24 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>distraint<s n="n"/></l> 
+        <r>embargo<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
-        <l>distraint|embargo<s n="n"/></l> 
-        <r>embargo<s n="n"/></r> 
+        <l>embargo<s n="n"/></l> 
+        <r>embargo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>dome<s n="n"/></l> 
-        <r>cúpula<s n="n"/></r> 
+        <r>cúpula<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2263,8 +2284,15 @@
 
     <e>
       <p>
-        <l>dressmaking|elaboration<s n="n"/></l> 
-        <r>confección<s n="n"/></r> 
+        <l>elaboration<s n="n"/></l> 
+        <r>confección<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>dressmaking<s n="n"/></l> 
+        <r>confección<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2278,28 +2306,35 @@
     <e>
       <p>
         <l>eagerness<s n="n"/></l> 
-        <r>afán<s n="n"/></r> 
+        <r>afán<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>education<s n="n"/></l> 
-        <r>escolarización<s n="n"/></r> 
+        <r>educación<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>education<s n="n"/></l> 
+        <r>escolarización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>efficiency<s n="n"/></l> 
-        <r>eficiencia<s n="n"/></r> 
+        <r>eficiencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>elaboration<s n="n"/></l> 
-        <r>elaboración<s n="n"/></r> 
+        <r>elaboración<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2310,10 +2345,10 @@
       </p>
     </e>
 
-    <e a="gema">
+    <e>
       <p>
         <l>elevation<s n="n"/></l> 
-        <r>elevación<s n="n"/></r> 
+        <r>elevación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2327,11 +2362,11 @@
     <e>
       <p>
         <l>emitter<s n="n"/></l> 
-        <r>emisor<s n="n"/></r> 
+        <r>emisor<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>employers<s n="n"/></l> 
         <r>patronal<s n="n"/></r> 
@@ -2341,18 +2376,18 @@
     <e>
       <p>
         <l>endowment<s n="n"/></l> 
-        <r>dotación<s n="n"/></r> 
+        <r>dotación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>enhancement<s n="n"/></l> 
-        <r>intensificación<s n="n"/></r> 
+        <r>intensificación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e slr="trucatge">
+    <e r="RL">
       <p>
         <l>enhancement<s n="n"/></l> 
         <r>intensificación<s n="n"/></r> 
@@ -2362,7 +2397,7 @@
     <e>
       <p>
         <l>environment<s n="n"/></l> 
-        <r>ambiente<s n="n"/></r> 
+        <r>ambiente<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -2373,17 +2408,18 @@
       </p>
     </e>
 
-    <e a="gema">
+    <e>
       <p>
         <l>epigraph<s n="n"/></l> 
-        <r>epígrafe<s n="n"/></r> 
+        <r>epígrafe<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
+		<!-- ??? -->
     <e r="LR">
       <p>
         <l>esme<s n="n"/></l> 
-        <r>ánimo<s n="n"/></r> 
+        <r>ánimo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -2394,6 +2430,7 @@
       </p>
     </e>
 
+		<!-- ??? -->
     <e>
       <p>
         <l>ex<s n="n"/></l> 
@@ -2404,80 +2441,95 @@
     <e>
       <p>
         <l>exchange<s n="n"/></l> 
-        <r>canje<s n="n"/></r> 
+        <r>intercambio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>expiration<s n="n"/></l> 
-        <r>vencimiento<s n="n"/></r> 
+        <r>vencimiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e a="mginesti">
+    <e>
       <p>
         <l>exploitation<s n="n"/></l> 
-        <r>aprovechamiento<s n="n"/></r> 
+        <r>aprovechamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>fear<s n="n"/></l> 
-        <r>temor<s n="n"/></r> 
+        <r>temor<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>feeding<s n="n"/></l> 
-        <r>alimentación<s n="n"/></r> 
+        <r>alimentación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>fire<s n="n"/></l> 
-        <r>incendio<s n="n"/></r> 
+        <r>incendio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>fishing boat<s n="n"/></l> 
-        <r>pesquero<s n="n"/></r> 
+        <r>pesquero<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e a="gema">
       <p>
         <l>fixation<s n="n"/></l> 
-        <r>fijación<s n="n"/></r> 
+        <r>fijación<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>float<s n="n"/></l> 
+        <r>boya<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>float<s n="n"/></l> 
-        <r>boya|flotador<s n="n"/></r> 
+        <r>flotador<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>fluid<s n="n"/></l> 
-        <r>fluido|líquido<s n="n"/></r> 
+        <r>fluido<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>fluid<s n="n"/></l> 
+        <r>líquido<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>formality<s n="n"/></l> 
-        <r>trámite<s n="n"/></r> 
+        <r>trámite<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
+		<!-- ??? -->
     <e srl="fundamento D">
       <p>
         <l>foundation<s n="n"/></l> 
@@ -2494,29 +2546,29 @@
 
     <e>
       <p>
-        <l>freeze|freezing<s n="n"/></l> 
-        <r>congelación<s n="n"/></r> 
+        <l>freezing<s n="n"/></l> 
+        <r>congelación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>freight<s n="n"/></l> 
-        <r>carga<s n="n"/></r> 
+        <r>carga<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>fulfillment<s n="n"/></l> 
-        <r>cumplimiento<s n="n"/></r> 
+        <r>cumplimiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>fundamentalist<s n="n"/></l> 
-        <r>integrista<s n="n"/></r> 
+        <r>integrista<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -2529,15 +2581,15 @@
 
     <e>
       <p>
-        <l>gas oil<s n="n"/></l> 
-        <r>gasóleo<s n="n"/></r> 
+        <l>gas<b/>oil<s n="n"/></l> 
+        <r>gasóleo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>gauge<s n="n"/></l> 
-        <r>anchura<s n="n"/></r> 
+        <r>anchura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2558,7 +2610,7 @@
     <e>
       <p>
         <l>goal<s n="n"/></l> 
-        <r>meta<s n="n"/></r> 
+        <r>meta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2571,7 +2623,14 @@
 
     <e>
       <p>
-        <l>hall|show<s n="n"/></l> 
+        <l>hall<s n="n"/></l> 
+        <r>salón<s n="n"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>show<s n="n"/></l> 
         <r>salón<s n="n"/></r> 
       </p>
     </e>
@@ -2579,14 +2638,14 @@
     <e>
       <p>
         <l>harm<s n="n"/></l> 
-        <r>perjuicio<s n="n"/></r> 
+        <r>perjuicio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>health<s n="n"/></l> 
-        <r>sanidad<s n="n"/></r> 
+        <r>sanidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2599,7 +2658,14 @@
 
     <e>
       <p>
-        <l>high school|school leaving certificate<s n="n"/></l> 
+        <l>high<b/>school<s n="n"/></l> 
+        <r>bachillerato<s n="n"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>school<b/>leaving<b/>certificate<s n="n"/></l> 
         <r>bachillerato<s n="n"/></r> 
       </p>
     </e>
@@ -2607,14 +2673,14 @@
     <e>
       <p>
         <l>highway<s n="n"/></l> 
-        <r>autovía<s n="n"/></r> 
+        <r>autovía<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>hundreds<s n="n"/></l> 
-        <r>cientos<s n="n"/></r> 
+        <r>cientos<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -2627,85 +2693,85 @@
 
     <e>
       <p>
-        <l>identification|indicator<s n="n"/></l> 
-        <r>indicador<s n="n"/></r> 
+        <l>indicator<s n="n"/></l> 
+        <r>indicador<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>il·licità<s n="n"/></l> 
-        <r>ilicitano<s n="n"/></r> 
+        <r>ilicitano<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>imposition<s n="n"/></l> 
-        <r>imposición<s n="n"/></r> 
+        <r>imposición<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>improvement<s n="n"/></l> 
-        <r>superación<s n="n"/></r> 
+        <r>superación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>imputation<s n="n"/></l> 
-        <r>imputación<s n="n"/></r> 
+        <r>imputación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>indebtedness<s n="n"/></l> 
-        <r>endeudamiento<s n="n"/></r> 
+        <r>endeudamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>influx<s n="n"/></l> 
-        <r>afluencia<s n="n"/></r> 
+        <r>afluencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>inhabitant of Alacant<s n="n"/></l> 
-        <r>alicantino<s n="n"/></r> 
+        <l>inhabitant<b/>of<b/>Alacant<s n="n"/></l> 
+        <r>alicantino<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>inspector<s n="n"/></l> 
-        <r>inspector<s n="n"/></r> 
+        <r>inspector<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>intermediation<s n="n"/></l> 
-        <r>intermediación<s n="n"/></r> 
+        <r>intermediación<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>irrigation<s n="n"/></l> 
+        <r>irrigación<s n="n"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>irrigation<s n="n"/></l> 
-        <r>irrigación|riego<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>it|he|she joined<s n="n"/></l> 
-        <r>través<s n="n"/></r> 
+        <r>riego<s n="n"/></r> 
       </p>
     </e>
 
@@ -2719,14 +2785,14 @@
     <e>
       <p>
         <l>jet<s n="n"/></l> 
-        <r>avión<s n="n"/></r> 
+        <r>avión<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>judgement<s n="n"/></l> 
-        <r>dictamen<s n="n"/></r> 
+        <r>dictamen<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -2740,14 +2806,14 @@
     <e>
       <p>
         <l>kilowatt<s n="n"/></l> 
-        <r>kilovatios<s n="n"/></r> 
+        <r>kilovatios<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>language<s n="n"/></l> 
-        <r>lenguaje<s n="n"/></r> 
+        <r>lenguaje<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -2760,15 +2826,8 @@
 
     <e>
       <p>
-        <l>leisure<s n="n"/></l> 
-        <r>ocio<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>linking<s n="n"/></l> 
-        <r>vinculación<s n="n"/></r> 
+        <r>vinculación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2782,7 +2841,7 @@
     <e>
       <p>
         <l>location<s n="n"/></l> 
-        <r>localización<s n="n"/></r> 
+        <r>localización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2796,14 +2855,14 @@
     <e>
       <p>
         <l>manager<s n="n"/></l> 
-        <r>gerente<s n="n"/></r> 
+        <r>gerente<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>mandate<s n="n"/></l> 
-        <r>mandato<s n="n"/></r> 
+        <r>mandato<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -2817,35 +2876,35 @@
     <e>
       <p>
         <l>member<s n="n"/></l> 
-        <r>integrante<s n="n"/></r> 
+        <r>integrante<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>milling<s n="n"/></l> 
-        <r>arremolinándose<s n="n"/></r> 
+        <r>fresado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>mining<s n="n"/></l> 
-        <r>minería<s n="n"/></r> 
+        <r>minería<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>modality<s n="n"/></l> 
-        <r>modalidad<s n="n"/></r> 
+        <r>modalidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>moment<s n="n"/></l> 
-        <r>coyuntura<s n="n"/></r> 
+        <r>coyuntura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2873,14 +2932,14 @@
     <e a="mginesti">
       <p>
         <l>motto<s n="n"/></l> 
-        <r>divisa<s n="n"/></r> 
+        <r>divisa<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>nature<s n="n"/></l> 
-        <r>índole<s n="n"/></r> 
+        <r>índole<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2894,17 +2953,18 @@
     <e>
       <p>
         <l>noncompliance<s n="n"/></l> 
-        <r>incumplimiento<s n="n"/></r> 
+        <r>incumplimiento<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>obtaining<s n="n"/></l> 
-        <r>obtención<s n="n"/></r> 
+        <r>obtención<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
+		<!-- ??? -->
     <e>
       <p>
         <l>of<s n="n"/></l> 
@@ -2915,14 +2975,7 @@
     <e>
       <p>
         <l>offense<s n="n"/></l> 
-        <r>infracción<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>offset<s n="n"/></l> 
-        <r>offset<s n="n"/></r> 
+        <r>infracción<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2936,35 +2989,35 @@
     <e>
       <p>
         <l>oil<s n="n"/></l> 
-        <r>petrolera<s n="n"/></r> 
+        <r>petrolera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>optimization<s n="n"/></l> 
-        <r>optimización<s n="n"/></r> 
+        <r>optimización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>ordering<s n="n"/></l> 
-        <r>ordenación<s n="n"/></r> 
+        <r>ordenación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>ordering<s n="n"/></l> 
-        <r>ordenamiento<s n="n"/></r> 
+        <r>ordenamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>origin<s n="n"/></l> 
-        <r>procedencia<s n="n"/></r> 
+        <r>procedencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2978,7 +3031,7 @@
     <e>
       <p>
         <l>overtime<s n="n"/></l> 
-        <r>prórroga<s n="n"/></r> 
+        <r>prórroga<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -2999,70 +3052,70 @@
     <e>
       <p>
         <l>paralyzation<s n="n"/></l> 
-        <r>paralización<s n="n"/></r> 
+        <r>paralización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>path<s n="n"/></l> 
-        <r>senda<s n="n"/></r> 
+        <r>senda<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>payment<s n="n"/></l> 
-        <r>tributación<s n="n"/></r> 
+        <r>tributación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>persistence<s n="n"/></l> 
-        <r>insistencia<s n="n"/></r> 
+        <r>insistencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>petrochemical<s n="n"/></l> 
-        <r>petroquímica<s n="n"/></r> 
+        <r>petroquímica<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>phase difference<s n="n"/></l> 
-        <r>desfase<s n="n"/></r> 
+        <l>phase<b/>difference<s n="n"/></l> 
+        <r>desfase<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>place<s n="n"/></l> 
-        <r>paraje<s n="n"/></r> 
+        <r>paraje<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>plus<s n="n"/></l> 
-        <r>más<s n="n"/></r> 
+        <r>más<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>pod<s n="n"/></l> 
-        <r>vaina<s n="n"/></r> 
+        <r>vaina<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>ponderation<s n="n"/></l> 
-        <r>ponderación<s n="n"/></r> 
+        <r>ponderación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3076,28 +3129,28 @@
     <e>
       <p>
         <l>power<s n="n"/></l> 
-        <r>potencia<s n="n"/></r> 
+        <r>potencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>preliminary sketch<s n="n"/></l> 
-        <r>anteproyecto<s n="n"/></r> 
+        <l>preliminary<b/>sketch<s n="n"/></l> 
+        <r>anteproyecto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e a="carmentano">
+    <e>
       <p>
         <l>premium<s n="n"/></l> 
-        <r>prima<s n="n"/></r> 
+        <r>prima<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>price increase<s n="n"/></l> 
-        <r>encarecimiento<s n="n"/></r> 
+        <l>price<b/>increase<s n="n"/></l> 
+        <r>encarecimiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3111,14 +3164,14 @@
     <e>
       <p>
         <l>procedure<s n="n"/></l> 
-        <r>tramitación<s n="n"/></r> 
+        <r>tramitación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>processing<s n="n"/></l> 
-        <r>procesamiento<s n="n"/></r> 
+        <r>procesamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3132,112 +3185,119 @@
     <e>
       <p>
         <l>professionalization<s n="n"/></l> 
-        <r>profesionalización<s n="n"/></r> 
+        <r>profesionalización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>professor<s n="n"/></l> 
         <r>catedrático<s n="n"/></r> 
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>professor<s n="n"/></l> 
+        <r>catedrático<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>profitability<s n="n"/></l> 
-        <r>rentabilidad<s n="n"/></r> 
+        <r>rentabilidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>promotion<s n="n"/></l> 
-        <r>fomento<s n="n"/></r> 
+        <r>fomento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>promotion<s n="n"/></l> 
-        <r>potenciación<s n="n"/></r> 
+        <r>potenciación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>protagonism<s n="n"/></l> 
-        <r>protagonismo<s n="n"/></r> 
+        <r>protagonismo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
-        <l>protection<s n="n"/><s n="f"/></l> 
+        <l>protection<s n="n"/></l> 
         <r>amparo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>protection<s n="n"/></l> 
-        <r>tutela<s n="n"/></r> 
+        <r>tutela<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>public finance<s n="n"/></l> 
-        <r>fiscalidad<s n="n"/></r> 
+        <l>public<b/>finance<s n="n"/></l> 
+        <r>fiscalidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>purification<s n="n"/></l> 
-        <r>depuración<s n="n"/></r> 
+        <r>depuración<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>purpose<s n="n"/></l> 
-        <r>finalidad<s n="n"/></r> 
+        <r>finalidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>qualifications<s n="n"/></l> 
-        <r>titulación<s n="n"/></r> 
+        <r>titulación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>quantification<s n="n"/></l> 
-        <r>cuantificación<s n="n"/></r> 
+        <r>cuantificación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>quinquennium<s n="n"/></l> 
-        <r>quinquenio<s n="n"/></r> 
+        <r>quinquenio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>quota<s n="n"/></l> 
-        <r>cuota<s n="n"/></r> 
+        <r>cuota<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>quotation<s n="n"/></l> 
-        <r>cotización<s n="n"/></r> 
+        <r>cotización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3251,7 +3311,7 @@
     <e>
       <p>
         <l>rape<s n="n"/></l> 
-        <r>violación<s n="n"/></r> 
+        <r>violación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3265,27 +3325,41 @@
     <e>
       <p>
         <l>ratio<s n="n"/></l> 
-        <r>ratio<s n="n"/></r> 
+        <r>ratio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>recruitment<s n="n"/></l> 
-        <r>contratación<s n="n"/></r> 
+        <r>contratación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>refiner<s n="n"/></l> 
-        <r>refinador<s n="n"/><s n="m"/></r> 
+        <r>refinador<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>refiner<s n="n"/></l> 
+        <r>refinador<s n="n"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>refund|return<s n="n"/></l> 
+        <l>refund<s n="n"/></l> 
+        <r>devolución<s n="n"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>return<s n="n"/></l> 
         <r>devolución<s n="n"/></r> 
       </p>
     </e>
@@ -3293,28 +3367,35 @@
     <e>
       <p>
         <l>region<s n="n"/></l> 
-        <r>comarca<s n="n"/></r> 
+        <r>comarca<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>registration<s n="n"/></l> 
-        <r>matrícula<s n="n"/></r> 
+        <r>inscripción<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>registration<s n="n"/></l> 
+        <r>matrícula<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>regulation<s n="n"/></l> 
-        <r>regulación<s n="n"/></r> 
+        <r>regulación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e a="mginesti">
+    <e>
       <p>
         <l>regulations<s n="n"/></l> 
-        <r>reglamento<s n="n"/></r> 
+        <r>reglamento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3325,66 +3406,80 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
-        <l>reliability|solvency<s n="n"/></l> 
-        <r>solvencia<s n="n"/></r> 
+        <l>reliability<s n="n"/></l> 
+        <r>solvencia<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>solvency<s n="n"/></l> 
+        <r>solvencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>remodelling<s n="n"/></l> 
-        <r>remodelación<s n="n"/></r> 
+        <r>remodelación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>remuneration<s n="n"/></l> 
-        <r>remuneración<s n="n"/></r> 
+        <r>remuneración<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>rent<s n="n"/></l> 
-        <r>renta<s n="n"/></r> 
+        <r>renta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>renunciation<s n="n"/></l> 
-        <r>renuncia<s n="n"/></r> 
+        <r>renuncia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>reorganization<s n="n"/></l> 
-        <r>saneamiento<s n="n"/></r> 
+        <r>saneamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL" srl="repeat D">
       <p>
-        <l>repeat|replacement<s n="n"/></l> 
-        <r>reposición<s n="n"/></r> 
+        <l>repeat<s n="n"/></l> 
+        <r>reposición<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e srl="replacement" slr="reposición">
       <p>
         <l>replacement<s n="n"/></l> 
-        <r>reposición|sustitución<s n="n"/></r> 
+        <r>reposición<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e r="LR" slr="sustitución D">
+      <p>
+        <l>replacement<s n="n"/></l> 
+        <r>sustitución<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>replacement|substitution<s n="n"/></l> 
-        <r>sustitución<s n="n"/></r> 
+        <l>substitution<s n="n"/></l> 
+        <r>sustitución<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3405,14 +3500,14 @@
     <e>
       <p>
         <l>resignation<s n="n"/></l> 
-        <r>dimisión<s n="n"/></r> 
+        <r>dimisión<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>restraint<s n="n"/></l> 
-        <r>contención<s n="n"/></r> 
+        <r>contención<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3423,24 +3518,24 @@
       </p>
     </e>
 
-    <e a="carmentano">
+    <e>
       <p>
         <l>retail<s n="n"/></l> 
-        <r>detalle<s n="n"/></r> 
+        <r>venta<g><b/>al<b/>por<b/>menor</g><s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="LR" a="carmentano">
+    <e>
       <p>
         <l>retailing<s n="n"/></l> 
-        <r>vendiéndose<s n="n"/></r> 
+        <r>venta<g><b/>al<b/>por<b/>menor</g><s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>revalorization<s n="n"/></l> 
-        <r>revalorización<s n="n"/></r> 
+        <r>revalorización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3460,7 +3555,7 @@
 
     <e>
       <p>
-        <l>secretary's office<s n="n"/></l> 
+        <l>secretary's<b/>office<s n="n"/></l> 
         <r>secretaría<s n="n"/></r> 
       </p>
     </e>
@@ -3468,7 +3563,7 @@
     <e>
       <p>
         <l>section<s n="n"/></l> 
-        <r>apartado<s n="n"/></r> 
+        <r>apartado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3479,63 +3574,77 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>seismologist<s n="n"/></l> 
-        <r>sismólogo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e a="carmentano">
+    <e r="LR">
       <p>
         <l>senior<s n="n"/></l> 
-        <r>mayor<s n="n"/></r> 
+        <r>mayor<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>server<s n="n"/></l> 
-        <r>servidor<s n="n"/></r> 
+        <r>servidor<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e c="check">
       <p>
         <l>settlement<s n="n"/></l> 
-        <r>acuerdo|liquidación<s n="n"/></r> 
+        <r>acuerdo<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" srl="settlement" c="check">
+      <p>
+        <l>settlement<s n="n"/></l> 
+        <r>liquidación<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <e srl="liquidation D" c="check">
+      <p>
+        <l>liquidation<s n="n"/></l> 
+        <r>liquidación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>shortage<s n="n"/></l> 
-        <r>escasez<s n="n"/></r> 
+        <r>escasez<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>signaling<s n="n"/></l> 
-        <r>señalización<s n="n"/></r> 
+        <r>señalización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>significance<s n="n"/></l> 
-        <r>relevancia<s n="n"/></r> 
+        <r>relevancia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>simulation<s n="n"/></l> 
-        <r>simulación<s n="n"/></r> 
+        <r>simulación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="LR">
+      <p>
+        <l>singer-songwriter<s n="n"/></l> 
+        <r>cantautor<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
       <p>
         <l>singer-songwriter<s n="n"/></l> 
         <r>cantautor<s n="n"/></r> 
@@ -3544,29 +3653,22 @@
 
     <e>
       <p>
-        <l>size<s n="n"/><s n="f"/></l> 
+        <l>size<s n="n"/></l> 
         <r>tamaño<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL" c="check">
       <p>
         <l>slide<s n="n"/></l> 
         <r>diapositiva<s n="n"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>slide<s n="n"/><s n="ND"/></l> 
-        <r>diapositiva<s n="n"/><s n="ND"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>slope<s n="n"/></l> 
-        <r>declive<s n="n"/></r> 
+        <r>declive<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3580,14 +3682,21 @@
     <e>
       <p>
         <l>soiree<s n="n"/></l> 
-        <r>gala<s n="n"/></r> 
+        <r>gala<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="lenguado" c="check">
       <p>
         <l>sole<s n="n"/></l> 
-        <r>lenguado|suela<s n="n"/></r> 
+        <r>lenguado<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e slr="suela D" c="check">
+      <p>
+        <l>sole<s n="n"/></l> 
+        <r>suela<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3601,7 +3710,7 @@
     <e>
       <p>
         <l>sphere<s n="n"/></l> 
-        <r>esfera<s n="n"/></r> 
+        <r>esfera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3612,24 +3721,10 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>spin<s n="n"/></l> 
-        <r>vuelta<s n="n"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>spinning<s n="n"/></l> 
         <r>hilado<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>spirit<s n="n"/></l> 
-        <r>ánimo<s n="n"/></r> 
       </p>
     </e>
 
@@ -3643,28 +3738,28 @@
     <e>
       <p>
         <l>stability<s n="n"/></l> 
-        <r>estabilidad<s n="n"/></r> 
+        <r>estabilidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e a="carmentano">
+    <e>
       <p>
         <l>sterling<s n="n"/></l> 
-        <r>libra esterlina<s n="n"/></r> 
+        <r>libra<b/>esterlina<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e a="gema">
       <p>
         <l>stop<s n="n"/></l> 
-        <r>tope<s n="n"/></r> 
+        <r>tope<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e a="mikel">
       <p>
         <l>storage<s n="n"/></l> 
-        <r>almacenamiento<s n="n"/></r> 
+        <r>almacenamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3678,56 +3773,49 @@
     <e>
       <p>
         <l>strengthening<s n="n"/></l> 
-        <r>reforzamiento<s n="n"/></r> 
+        <r>reforzamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>stretch<s n="n"/></l> 
-        <r>tramo<s n="n"/></r> 
+        <r>tramo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>students<s n="n"/></l> 
-        <r>alumnado<s n="n"/></r> 
+        <r>alumnado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>subcommittee<s n="n"/></l> 
-        <r>subcomité<s n="n"/></r> 
+        <r>subcomité<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>subject<s n="n"/></l> 
-        <r>asignatura<s n="n"/></r> 
+        <r>asignatura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e a="carmentano">
+    <e r="LR">
       <p>
         <l>subscriber<s n="n"/></l> 
-        <r>abonado<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" a="carmentano">
-      <p>
-        <l>subscriber<s n="n"/></l> 
-        <r>abonado<s n="n"/></r> 
+        <r>abonado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>subsidy<s n="n"/></l> 
-        <r>subsidio<s n="n"/></r> 
+        <r>subsidio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3748,42 +3836,42 @@
     <e>
       <p>
         <l>supervision<s n="n"/></l> 
-        <r>supervisión<s n="n"/></r> 
+        <r>supervisión<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>supply<s n="n"/></l> 
-        <r>abastecimiento<s n="n"/></r> 
+        <r>abastecimiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>suppression<s n="n"/></l> 
-        <r>supresión<s n="n"/></r> 
+        <r>supresión<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>surplus<s n="n"/></l> 
-        <r>excedente<s n="n"/></r> 
+        <r>excedente<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>swift<s n="n"/></l> 
-        <r>vencejo<s n="n"/></r> 
+        <r>vencejo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e a="carmentano">
+    <e>
       <p>
         <l>takeover<s n="n"/></l> 
-        <r>relevo<s n="n"/></r> 
+        <r>relevo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3797,35 +3885,35 @@
     <e>
       <p>
         <l>tariff<s n="n"/></l> 
-        <r>arancel<s n="n"/></r> 
+        <r>arancel<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>tax reduction<s n="n"/></l> 
-        <r>desgravación<s n="n"/></r> 
+        <l>tax<b/>reduction<s n="n"/></l> 
+        <r>desgravación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>teacher<s n="n"/></l> 
-        <r>docente<s n="n"/></r> 
+        <r>docente<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>teaching<s n="n"/></l> 
-        <r>docencia<s n="n"/></r> 
+        <r>docencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>teaching staff<s n="n"/></l> 
-        <r>profesorado<s n="n"/></r> 
+        <l>teaching<b/>staff<s n="n"/></l> 
+        <r>profesorado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -3836,10 +3924,10 @@
       </p>
     </e>
 
-    <e a="carmentano">
+    <e>
       <p>
         <l>treasury<s n="n"/></l> 
-        <r>tesorería<s n="n"/></r> 
+        <r>tesorería<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3852,8 +3940,8 @@
 
     <e>
       <p>
-        <l>update|updating<s n="n"/></l> 
-        <r>actualización<s n="n"/></r> 
+        <l>update<s n="n"/></l> 
+        <r>actualización<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3867,14 +3955,14 @@
     <e>
       <p>
         <l>validity<s n="n"/></l> 
-        <r>vigencia<s n="n"/></r> 
+        <r>vigencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>validity<s n="n"/></l> 
-        <r>validez<s n="n"/></r> 
+        <r>validez<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -3885,24 +3973,24 @@
       </p>
     </e>
 
-    <e a="carmentano">
+    <e>
       <p>
         <l>wildlife<s n="n"/></l> 
-        <r>fauna salvaje<s n="n"/></r> 
+        <r>fauna<b/>salvaje<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e>
       <p>
         <l>work<s n="n"/></l> 
-        <r>labor<s n="n"/></r> 
+        <r>labor<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="LR" a="carmentano">
+    <e r="LR">
       <p>
         <l>workforce<s n="n"/></l> 
-        <r>mano de obra<s n="n"/></r> 
+        <r>mano<b/>de<b/>obra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 

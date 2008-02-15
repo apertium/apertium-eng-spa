@@ -26,10 +26,12 @@
 
  <def-cat n="haver_pp">
       <cat-item name="haver_pp"/>
+      <cat-item name="haver_pp_enc"/><!--l'enclític forma mlu i per tant té el mateix nombre de formes lèxiques que haver_pp -->
  </def-cat>
 
 <def-cat n="aux_haver_pp">
       <cat-item name="aux_haver_pp"/>
+      <cat-item name="aux_haver_pp_enc"/>
  </def-cat>
 
 <def-cat n="be_adj">
@@ -171,7 +173,9 @@
 	</choose>
       </action>
     </rule>
-  
+
+
+
 
 <rule comment="CHUNK: AUX VERB">
       <pattern>

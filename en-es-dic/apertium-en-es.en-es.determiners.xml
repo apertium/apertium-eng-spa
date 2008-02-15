@@ -244,7 +244,7 @@
    <e r="LR">
       <p>
          <l>your<s n="det"/><s n="pos"/><s n="sp"/></l> 
-         <r>vuestro<s n="det"/><s n="pos"/><s n="GD"/></r> 
+         <r>vuestro<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r> 
       </p>
    </e>
    
@@ -303,12 +303,8 @@
       </p>
    </e>
    
-     <e r="RL">
-      <p>
-         <l>enough<s n="det"/></l> 
-         <r>bastante<s n="det"/></r> 
-      </p>
-   </e>
+ 
+
    <e r="RL">
       <p>
          <l>some<s n="det"/></l> 
@@ -323,8 +319,10 @@
   <e r="RL"><p><l>how<b/>much<s n="det"/><s n="itg"/><s n="sg"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l>how<b/>much<s n="det"/><s n="itg"/><s n="sg"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
     
-   
-   
+   <e r="LR"><p><l>what<s n="det"/><s n="itg"/><s n="sp"/></l><r>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+   <e><p><l>which<s n="det"/><s n="itg"/><s n="sp"/></l><r>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+
+
    <e r="LR">
       <p>
          <l>the<s n="det"/><s n="def"/><s n="sp"/></l> 
@@ -388,7 +386,80 @@
       </p>
    </e>
 
-  
-   
+
+<e><p><l>less<s n="det"/><s n="qnt"/><s n="sg"/></l><r>menos<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>fewer<s n="det"/><s n="qnt"/><s n="pl"/></l><r>menos<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
+
+<e r="LR"><p><l>little<s n="det"/><s n="qnt"/></l><r>poco<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+<e r="RL" c="en sg: little bread, little hope"><p><l>little<s n="det"/><s n="qnt"/><s n="sg"/></l><r>poco<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL" c="en sg: little bread, little hope"><p><l>little<s n="det"/><s n="qnt"/><s n="sg"/></l><r>poco<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e r="LR"><p><l>few<s n="det"/><s n="qnt"/></l><r>poco<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+<e r="RL" c="en plural"><p><l>few<s n="det"/><s n="qnt"/><s n="pl"/></l><r>poco<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL" c="en plural"><p><l>few<s n="det"/><s n="qnt"/><s n="pl"/></l><r>poco<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/></r></p></e>
+
+<e><p><l>more<s n="det"/><s n="qnt"/><s n="sp"/></l><r>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
+
+
+<e r="LR"><p><l>most<s n="det"/><s n="qnt"/><s n="sp"/></l><r>la<b/>mayoría<b/>de<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>the<b/>most<s n="det"/><s n="qnt"/><s n="sp"/></l><r>la<b/>mayoría<b/>de<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>most<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>la<b/>mayoría<b/>de<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>much<s n="det"/><s n="qnt"/></l><r>mucho<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>many<s n="det"/><s n="qnt"/></l><r>mucho<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+
+
+<e r="LR"><p><l>a<b/>lot<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>mucho<s n="det"/><s n="qnt"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>a<b/>lot<b/>of<s n="det"/></l><r>mucho<s n="det"/></r></p></e>
+<e r="LR"><p><l>lots<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>mucho<s n="det"/><s n="qnt"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="LR"><p><l>a<b/>few<s n="det"/><s n="qnt"/></l><r>unos<b/>cuantos<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>a<b/>few<s n="det"/></l><r>unos<b/>cuantos<s n="det"/></r></p></e>
+
+<e r="LR"><p><l>so<b/>much<s n="det"/><s n="qnt"/></l><r>tanto<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>so<b/>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>tanto<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>so<b/>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>tanto<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>so<b/>many<s n="det"/><s n="qnt"/></l><r>tanto<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>so<b/>many<s n="det"/><s n="qnt"/><s n="pl"/></l><r>tanto<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>so<b/>many<s n="det"/><s n="qnt"/><s n="pl"/></l><r>tanto<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" c="'as much time'. Cal afegir també 'as many'?"><p><l>as<b/>much<s n="det"/><s n="qnt"/></l><r>tanto<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+
+<e r="LR"><p><l>the<b/>same<s n="det"/><s n="ind"/><s n="sp"/></l><r>el<b/>mismo<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>the<b/>same<s n="det"/></l><r>el<b/>mismo<s n="det"/></r></p></e>
+
+<e r="LR" c="incomptable, per tant, amb complement singular)"><p><l>too<b/>much<s n="det"/><s n="qnt"/></l><r>demasiado<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+<e r="LR" c="comptable, per tant, amb complement plural"><p><l>too<b/>many<s n="det"/><s n="qnt"/></l><r>demasiado<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
+<e r="RL" c="MG: Crec que 'too much' i 'too many' s'haurien de posar en un sol paradigma per tal de posar ND en la direcció cat-en" ><p><l>too<b/>many<s n="det"/></l><r>demasiado<s n="det"/></r></p></e>
+
+<e r="LR"><p><l>quite<b/>a<b/>lot<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>bastante<s n="det"/><s n="qnt"/><s n="mf"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>quite<b/>a<b/>lot<b/>of<s n="det"/></l><r>bastante<s n="det"/></r></p></e>
+
+
+
+<e r="LR"><p><l>such<b/>a<s n="det"/><s n="ind"/></l><r>tal<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>such<s n="det"/><s n="ind"/><s n="sp"/></l><r>tal<s n="det"/><s n="ind"/><s n="mf"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>such<s n="det"/></l><r>tal<s n="det"/></r></p></e>
+
+<e r="LR"><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>primer<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>first<s n="det"/></l><r>primer<s n="det"/></r></p></e>
+<e r="LR"><p><l>last<s n="det"/><s n="ord"/><s n="sp"/></l><r>último<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>last<s n="det"/></l><r>últim<s n="det"/></r></p></e>
+<e r="LR"><p><l>second<s n="det"/><s n="ord"/><s n="sp"/></l><r>segundo<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>second<s n="det"/></l><r>segon<s n="det"/></r></p></e>
+<e r="LR"><p><l>third<s n="det"/><s n="ord"/><s n="sp"/></l><r>tercer<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>third<s n="det"/></l><r>tercer<s n="det"/></r></p></e>  
+<e r="LR"><p><l>fourth<s n="det"/><s n="ord"/><s n="sp"/></l><r>cuarto<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>fourth<s n="det"/></l><r>cuarto<s n="det"/></r></p></e>
+<e r="LR"><p><l>fifth<s n="det"/><s n="ord"/><s n="sp"/></l><r>quinto<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>fifth<s n="det"/></l><r>quinto<s n="det"/></r></p></e>
+<e r="LR"><p><l>sixth<s n="det"/><s n="ord"/><s n="sp"/></l><r>sexto<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>sixth<s n="det"/></l><r>sexto<s n="det"/></r></p></e>
+<e r="LR"><p><l>seventh<s n="det"/><s n="ord"/><s n="sp"/></l><r>séptimo<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>seventh<s n="det"/></l><r>séptimo<s n="det"/></r></p></e>
+<e r="LR"><p><l>eighth<s n="det"/><s n="ord"/><s n="sp"/></l><r>octavo<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>eighth<s n="det"/></l><r>octavo<s n="det"/></r></p></e>
+<e r="LR"><p><l>ninth<s n="det"/><s n="ord"/><s n="sp"/></l><r>noveno<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>ninth<s n="det"/></l><r>noveno<s n="det"/></r></p></e>
+<e r="LR"><p><l>tenth<s n="det"/><s n="ord"/><s n="sp"/></l><r>décimo<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>tenth<s n="det"/></l><r>décimo<s n="det"/></r></p></e>
+
 </section>
 

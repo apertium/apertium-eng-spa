@@ -99,6 +99,52 @@
     <i>bastante</i>
     <par n="bastante__det"/>
   </e>
+  <e lm="menos">
+    <i>menos</i>
+    <par n="menos__det"/>
+  </e>
+  <e lm="más">
+    <i>más</i>
+    <par n="menos__det"/>
+  </e>
+  <e lm="poco">
+    <i>poc</i>
+    <par n="poc/o__det"/>
+  </e>
+  <e lm="mucho">
+    <i>much</i>
+    <par n="poc/o__det"/>
+  </e>
+  <e lm="tanto">
+    <i>tant</i>
+    <par n="poc/o__det"/>
+  </e>
+  <e lm="demasiado">
+    <i>demasiad</i>
+    <par n="poc/o__det"/>
+  </e>
+
+  <e lm="qué">
+    <i>qué</i>
+    <par n="qué__det"/>
+  </e>
+
+  <e lm="la mayoría de"><i>la<b/>mayoría<b/>de</i><par n="menos__det"/></e>
+
+
+  <e lm="tal">
+    <i>tal</i>
+    <par n="tal__det"/>
+  </e>
+  <e lm="unos cuantos">
+    <i>un</i>
+    <par n="un/os_cuantos__det"/>
+  </e>
+
+ <e lm="el mismo">
+    <i/>
+    <par n="/el_mismo__det"/>
+  </e>
   <e lm="vuestro">
     <i>vuestr</i>
     <par n="nuestr/o__det"/>
@@ -108,6 +154,53 @@
   <e lm="cuánto">
     <i>cuánt</i>
     <par n="cuánt/o__det"/>
+  </e>
+
+
+  <e lm="último">
+    <i>últim</i>
+    <par n="últim/o__det"/>
+  </e>
+
+   <e lm="primer">
+    <i>primer</i>
+    <par n="primer__det"/>
+  </e>
+  <e lm="segundo">
+    <i>segund</i>
+    <par n="últim/o__det"/>
+  </e>
+  <e lm="tercer">
+    <i>tercer</i>
+    <par n="primer__det"/>
+  </e>
+  <e lm="cuarto">
+    <i>cuart</i>
+    <par n="últim/o__det"/>
+  </e>
+  <e lm="quinto">
+    <i>quint</i>
+    <par n="últim/o__det"/>
+  </e>
+  <e lm="sexto">
+    <i>sext</i>
+    <par n="últim/o__det"/>
+  </e>
+  <e lm="séptimo">
+    <i>séptim</i>
+    <par n="últim/o__det"/>
+  </e>
+  <e lm="octavo">
+    <i>octav</i>
+    <par n="últim/o__det"/>
+  </e>
+  <e lm="noveno">
+    <i>noven</i>
+    <par n="últim/o__det"/>
+  </e>
+  <e lm="décimo">
+    <i>décim</i>
+    <par n="últim/o__det"/>
   </e>
 
   <!-- 

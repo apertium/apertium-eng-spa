@@ -3304,15 +3304,6 @@
     </e>
 
     </pardef>
-    <pardef n="IRPF__n">
-    <e>
-      <p>
-        <l></l> 
-        <r><s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    </pardef>
     <pardef n="ATS__n">
     <e>
       <p>
@@ -3338,6 +3329,19 @@
         <r><s n="n"/><s n="acr"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
+    <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
 
     </pardef>
     <pardef n="FARC__n">

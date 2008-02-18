@@ -3167,7 +3167,7 @@
     <e>
       <p>
         <l>arm<s n="n"/><s n="sg"/></l> 
-        <r>brazo<s n="n"/><s n="m"/></r> 
+        <r>brazo<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -5725,76 +5725,46 @@
       </p>
     </e>
 
-    <e r="LR" c="'noi' en masculí">
+    <e>
       <p>
         <l>boy<s n="n"/></l> 
-        <r>chico<s n="n"/><s n="GD"/></r> 
+        <r>chico<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="RL" c="'noi' en masculí">
+
+    <e r="RL">
       <p>
         <l>boy<s n="n"/></l> 
-        <r>chico<s n="n"/></r> 
+        <r>chiquillo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR" c="'noi' en masculí">
+   
+    <e r="RL">
       <p>
         <l>boy<s n="n"/></l> 
-        <r>chiquillo<s n="n"/><s n="GD"/></r> 
+        <r>muchacho<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="RL" c="'noi' en masculí">
+   
+    <e r="RL">
       <p>
         <l>boy<s n="n"/></l> 
-        <r>chiquillo<s n="n"/></r> 
+        <r>nene<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR" c="'noi' en masculí">
+   
+    <e r="RL">
       <p>
         <l>boy<s n="n"/></l> 
-        <r>muchacho<s n="n"/><s n="GD"/></r> 
+        <r>niño<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="RL" c="'noi' en masculí">
-      <p>
-        <l>boy<s n="n"/></l> 
-        <r>muchacho<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" c="'nen' en masculí">
-      <p>
-        <l>boy<s n="n"/></l> 
-        <r>nene<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="'nen' en masculí">
-      <p>
-        <l>boy<s n="n"/></l> 
-        <r>nene<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" c="'nen' en masculí">
-      <p>
-        <l>boy<s n="n"/></l> 
-        <r>niño<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="'nen' en masculí">
-      <p>
-        <l>boy<s n="n"/></l> 
-        <r>niño<s n="n"/></r> 
-      </p>
-    </e>
-
+   
     <e>
       <p>
         <l>boycott<s n="n"/></l> 
@@ -9116,20 +9086,14 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>comic<s n="n"/></l> 
         <r>cómic<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>comic<s n="n"/></l> 
-        <r>cómico<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
+    
     <e r="RL">
       <p>
         <l>comic<s n="n"/></l> 
@@ -9144,13 +9108,7 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>comic<s n="n"/></l> 
-        <r>tebeo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
+   
     <e>
       <p>
         <l>command<s n="n"/></l> 
@@ -9294,7 +9252,7 @@
     <e>
       <p>
         <l>commonplace<s n="n"/></l> 
-        <r>tópico<s n="n"/></r> 
+        <r>tópico<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -9332,7 +9290,12 @@
         <r>comunismo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
-
+ <e>
+      <p>
+        <l>communist<s n="n"/></l> 
+        <r>comunista<s n="n"/><s n="mf"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>community<s n="n"/></l> 
@@ -9448,7 +9411,7 @@
     <e>
       <p>
         <l>complainant<s n="n"/></l> 
-        <r>querellante<s n="n"/></r> 
+        <r>querellante<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -9582,13 +9545,6 @@
       <p>
         <l>comrade<s n="n"/></l> 
         <r>camarada<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>con<s n="n"/></l> 
-        <r>contra<s n="n"/></r> 
       </p>
     </e>
 
@@ -11806,14 +11762,7 @@
 
     <e>
       <p>
-        <l>customs<s n="n"/><s n="pl"/></l> 
-        <r>aduana<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>customs<s n="n"/><s n="pl"/></l> 
+        <l>customs<s n="n"/></l> 
         <r>aduana<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -14730,33 +14679,13 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>duty<s n="n"/></l> 
-        <r>deber<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>duty<s n="n"/><s n="sg"/></l> 
-        <r>deber<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>duty<s n="n"/><s n="pl"/></l> 
-        <r>deber<s n="n"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
-        <l>duty<s n="n"/><s n="pl"/></l> 
-        <r>deber<s n="n"/></r> 
+        <l>duty<s n="n"/></l> 
+        <r>deber<s n="n"/><s n="m"/></r> 
       </p>
     </e>
+
 
     <e>
       <p>
@@ -14852,7 +14781,7 @@
     <e r="LR">
       <p>
         <l>earnings<s n="n"/><s n="pl"/></l> 
-        <r>ingreso<s n="n"/><s n="m"/></r> 
+        <r>ingreso<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -14887,7 +14816,7 @@
     <e>
       <p>
         <l>east<s n="n"/></l> 
-        <r>este<s n="n"/></r> 
+        <r>este<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -14943,7 +14872,7 @@
     <e r="LR">
       <p>
         <l>economics<s n="n"/><s n="pl"/></l> 
-        <r>economía<s n="n"/><s n="f"/></r> 
+        <r>economía<s n="n"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -15061,6 +14990,12 @@
 
     <e>
       <p>
+        <l>edict<s n="n"/></l> 
+        <r>edicto<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>edition<s n="n"/></l> 
         <r>edición<s n="n"/><s n="f"/></r> 
       </p>
@@ -15090,7 +15025,7 @@
     <e>
       <p>
         <l>editorial<s n="n"/></l> 
-        <r>editorial<s n="n"/></r> 
+        <r>editorial<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -15856,6 +15791,12 @@
         <r>equivalencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
+    <e>
+      <p>
+        <l>equivalent<s n="n"/></l> 
+        <r>equivalente<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
 
     <e>
       <p>
@@ -16133,7 +16074,7 @@
     <e>
       <p>
         <l>evil<s n="n"/></l> 
-        <r>mal<s n="n"/></r> 
+        <r>mal<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -16322,7 +16263,7 @@
     <e>
       <p>
         <l>executive<s n="n"/></l> 
-        <r>ejecutivo<s n="n"/></r> 
+        <r>ejecutivo<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
 
@@ -16714,7 +16655,7 @@
     <e>
       <p>
         <l>extra<s n="n"/></l> 
-        <r>extra<s n="n"/></r> 
+        <r>extra<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -17882,6 +17823,12 @@
 
     <e>
       <p>
+        <l>flow<s n="n"/></l> 
+        <r>flujo<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>flowering<s n="n"/></l> 
         <r>floración<s n="n"/><s n="f"/></r> 
       </p>
@@ -18009,7 +17956,7 @@
     <e>
       <p>
         <l>folder<s n="n"/></l> 
-        <r>desplegable<s n="n"/></r> 
+        <r>carpeta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -18057,28 +18004,22 @@
 
     <e>
       <p>
-        <l>foolishness<s n="n"/><s n="sg"/></l> 
+        <l>foolishness<s n="n"/></l> 
         <r>tontería<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>foolishness<s n="n"/><s n="sg"/></l> 
-        <r>tontería<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
-        <l>foot<s n="n"/></l> 
+        <l>foot<s n="n"/></l>
         <r>pie<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>football<s n="n"/><s n="sg"/></l> 
+        <l>football<s n="n"/></l> 
         <r>fútbol<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -18797,6 +18738,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>gallop<s n="n"/></l> 
+        <r>galope<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
     <e r="LR">
       <p>
         <l>gallon<s n="n"/></l> 
@@ -19198,26 +19145,13 @@
 
     <e>
       <p>
-        <l>giddiness<s n="n"/><s n="sg"/></l> 
+        <l>giddiness<s n="n"/></l> 
         <r>frivolidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
+
 
     <e r="RL">
-      <p>
-        <l>giddiness<s n="n"/><s n="sg"/></l> 
-        <r>frivolidad<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>gift<s n="n"/></l> 
-        <r>do<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
       <p>
         <l>gift<s n="n"/></l> 
         <r>don<s n="n"/><s n="m"/></r> 
@@ -19245,76 +19179,48 @@
       </p>
     </e>
 
-    <e r="LR" c="'noi' en femení">
+    <e>
       <p>
         <l>girl<s n="n"/></l> 
-        <r>chico<s n="n"/><s n="GD"/></r> 
+        <r>chico<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="RL" c="'noi' en femení">
+
+    <e r="RL">
       <p>
         <l>girl<s n="n"/></l> 
-        <r>chico<s n="n"/></r> 
+        <r>chiquillo<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="LR" c="'noi' en femení">
+   
+
+    <e r="RL">
       <p>
         <l>girl<s n="n"/></l> 
-        <r>chiquillo<s n="n"/><s n="GD"/></r> 
+        <r>muchacho<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="RL" c="'noi' en femení">
+  
+    <e r="RL">
       <p>
         <l>girl<s n="n"/></l> 
-        <r>chiquillo<s n="n"/></r> 
+        <r>nene<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="LR" c="'noi' en femení">
+   
+
+    <e r="RL">
       <p>
         <l>girl<s n="n"/></l> 
-        <r>muchacho<s n="n"/><s n="GD"/></r> 
+        <r>niño<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="RL" c="'noi' en femení">
-      <p>
-        <l>girl<s n="n"/></l> 
-        <r>muchacho<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" c="'nen' en femení">
-      <p>
-        <l>girl<s n="n"/></l> 
-        <r>nene<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="'nen' en femení">
-      <p>
-        <l>girl<s n="n"/></l> 
-        <r>nene<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" c="'nen' en femení">
-      <p>
-        <l>girl<s n="n"/></l> 
-        <r>niño<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="'nen' en femení">
-      <p>
-        <l>girl<s n="n"/></l> 
-        <r>niño<s n="n"/></r> 
-      </p>
-    </e>
-
+   
     <e>
       <p>
         <l>glacier<s n="n"/></l> 
@@ -19556,7 +19462,7 @@
     <e>
       <p>
         <l>good<s n="n"/></l> 
-        <r>bien<s n="n"/></r> 
+        <r>bien<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -19714,118 +19620,75 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>grandchild<s n="n"/></l> 
-        <r>nieto<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>grandchild<s n="n"/></l> 
-        <r>nieto<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>granddaughter<s n="n"/></l> 
-        <r>nieto<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>granddaughter<s n="n"/></l> 
-        <r>nieto<s n="n"/></r> 
-      </p>
-    </e>
+ 
 
     <e r="LR">
       <p>
         <l>grandfather<s n="n"/></l> 
-        <r>abuelo<s n="n"/><s n="GD"/></r> 
+        <r>abuelo<s n="n"/><s n="m"/></r> 
       </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>grandfather<s n="n"/></l> 
-        <r>abuelo<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>grandfather<s n="n"/><s n="sg"/></l> 
-        <r>abuelo<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
+    </e>   
     <e r="RL">
       <p>
         <l>grandfather<s n="n"/><s n="sg"/></l> 
-        <r>abuelo<s n="n"/></r> 
+        <r>abuelo<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>grandmother<s n="n"/></l> 
-        <r>abuelo<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>grandmother<s n="n"/></l> 
-        <r>abuelo<s n="n"/></r> 
-      </p>
-    </e>
-
+    </e>   
+    
     <e r="LR">
       <p>
         <l>grandparent<s n="n"/></l> 
-        <r>abuelo<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>grandparent<s n="n"/></l> 
-        <r>abuelo<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>grandparent<s n="n"/><s n="pl"/></l> 
-        <r>abuelo<s n="n"/><s n="GD"/></r> 
+        <r>abuelo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
         <l>grandparent<s n="n"/><s n="pl"/></l> 
-        <r>abuelo<s n="n"/></r> 
+        <r>abuelo<s n="n"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>grandmother<s n="n"/></l> 
+        <r>abuelo<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>grandson<s n="n"/></l> 
-        <r>nieto<s n="n"/><s n="GD"/></r> 
+        <r>nieto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
-
+    <e r="LR">
+      <p>
+        <l>grandchild<s n="n"/></l> 
+        <r>nieto<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
     <e r="RL">
       <p>
         <l>grandson<s n="n"/></l> 
-        <r>nieto<s n="n"/></r> 
+        <r>nieto<s n="n"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>grandchild<s n="n"/><s n="pl"/></l> 
+        <r>nieto<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>granddaughter<s n="n"/></l> 
+        <r>nieto<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+   
     <e>
       <p>
         <l>grandstand<s n="n"/></l> 
@@ -19895,7 +19758,12 @@
         <r>gratuidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
-
+<e>
+      <p>
+        <l>decimal<s n="n"/></l> 
+        <r>decimal<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>grave<s n="n"/></l> 
@@ -19947,17 +19815,11 @@
 
     <e>
       <p>
-        <l>greatness<s n="n"/><s n="sg"/></l> 
+        <l>greatness<s n="n"/></l> 
         <r>grandeza<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>greatness<s n="n"/><s n="sg"/></l> 
-        <r>grandeza<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -20403,24 +20265,11 @@
     <e>
       <p>
         <l>harm<s n="n"/></l> 
-        <r>mal<s n="n"/></r> 
+        <r>daño<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>harm<s n="n"/></l> 
-        <r>mal<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>harm<s n="n"/></l> 
-        <r>mal<s n="n"/></r> 
-      </p>
-    </e>
-
+   
     <e>
       <p>
         <l>harmonization<s n="n"/></l> 
@@ -22061,13 +21910,25 @@
       </p>
     </e>
 
-    <e c="en català, en plural (ingressos)">
+    <e>
       <p>
-        <l>income<s n="n"/></l> 
-        <r>ingreso<s n="n"/><s n="m"/></r> 
+        <l>income<s n="n"/><s n="sg"/></l> 
+        <r>ingreso<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>income<s n="n"/><s n="pl"/></l> 
+        <r>ingreso<s n="n"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>income<s n="n"/><s n="sg"/></l> 
+        <r>ingreso<s n="n"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>incompatibility<s n="n"/></l> 
@@ -22264,13 +22125,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>infant<s n="n"/></l> 
-        <r>niño<s n="n"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>infantry<s n="n"/></l> 
@@ -22452,7 +22306,12 @@
         <r>lesión<s n="n"/><s n="f"/></r> 
       </p>
     </e>
-
+    <e>
+      <p>
+        <l>die<s n="n"/></l> 
+        <r>dado<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>injustice<s n="n"/></l> 
@@ -23843,13 +23702,6 @@
       <p>
         <l>kid<s n="n"/></l> 
         <r>niño<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>kid<s n="n"/></l> 
-        <r>niño<s n="n"/></r> 
       </p>
     </e>
 
@@ -32304,7 +32156,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>portfolio<s n="n"/></l> 
         <r>carpeta<s n="n"/><s n="f"/></r> 
@@ -33837,10 +33689,10 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>publisher<s n="n"/></l> 
-        <r>editorial<s n="n"/></r> 
+        <r>editorial<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -34366,6 +34218,12 @@
       <p>
         <l>race<s n="n"/></l> 
         <r>raza<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>encounter<s n="n"/></l> 
+        <r>encuentro<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -37078,34 +36936,47 @@
       </p>
     </e>
 
+   
+
+
+    <e><p>        <l>scale<s n="n"/><s n="pl"/></l>        <r>balanza<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p>        <l>scale<s n="n"/><s n="pl"/></l>        <r>balanza<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p>        <l>scale<s n="n"/><s n="pl"/></l>        <r>escala<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p>        <l>scale<s n="n"/><s n="sg"/></l>        <r>escala<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    
+
     <e>
       <p>
-        <l>scale<s n="n"/><s n="pl"/></l> 
-        <r>escala<s n="n"/><s n="f"/></r> 
+        <l>stair<s n="n"/><s n="sg"/></l> 
+        <r>escalera<s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>stair<s n="n"/><s n="pl"/></l> 
+        <r>escalera<s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>stair<s n="n"/><s n="pl"/></l> 
+        <r>escalera<s n="n"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>scale<s n="n"/><s n="sg"/></l> 
-        <r>escala<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>scale<s n="n"/><s n="pl"/></l> 
+        <l>staircase<s n="n"/></l> 
         <r>escalera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
-
     <e>
       <p>
-        <l>scale<s n="n"/><s n="sg"/></l> 
-        <r>escalera<s n="n"/><s n="f"/></r> 
+        <l>escape<s n="n"/></l> 
+        <r>escapada<s n="n"/><s n="f"/></r> 
       </p>
     </e>
-
     <e>
       <p>
         <l>scalp<s n="n"/></l> 
@@ -39138,6 +39009,12 @@
 
     <e>
       <p>
+        <l>glimpse<s n="n"/></l> 
+        <r>vistazo<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>smuggling<s n="n"/></l> 
         <r>contrabando<s n="n"/><s n="m"/></r> 
       </p>
@@ -39149,6 +39026,7 @@
         <r>bocado<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
+
 
     <e r="LR">
       <p>
@@ -40014,34 +39892,7 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>stair<s n="n"/></l> 
-        <r>escala<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>stair<s n="n"/><s n="pl"/></l> 
-        <r>escala<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>stair<s n="n"/></l> 
-        <r>escalera<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>stair<s n="n"/><s n="pl"/></l> 
-        <r>escalera<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
+  
     <e r="RL">
       <p>
         <l>stair<s n="n"/></l> 

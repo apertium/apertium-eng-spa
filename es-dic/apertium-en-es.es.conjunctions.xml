@@ -6,12 +6,6 @@
       <r>de<b/>que<s n="cnjsub"/></r>
     </p>
   </e>
-  <e r="LR" lm="y">
-    <p>
-      <l>y</l>
-      <r>y<s n="cnjcoo"/></r>
-    </p>
-  </e>
   <!-- 
       ******************************
       (cnjsub) group
@@ -162,13 +156,25 @@
     </p>
     <par n="justo_es_decir__cnjcoo"/>
   </e>
+  <e r="LR" lm="y">
+    <p>
+      <l>y</l>
+      <r>y<s n="cnjcoo"/></r>
+    </p>
+  </e>
   <e r="RL" lm="y">
     <p>
       <l><a/>y</l>
       <r>y</r>
     </p>
     <par n="justo_es_decir__cnjcoo"/>
-  </e>
+  </e>  
+    <e lm="e" r="LR">
+      <p>
+        <l>e</l>
+        <r>y<s n="cnjcoo"/></r>
+      </p>
+    </e>
   <e lm="ni">
     <i>ni</i>
     <par n="justo_es_decir__cnjcoo"/>

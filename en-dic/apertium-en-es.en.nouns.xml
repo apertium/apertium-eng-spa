@@ -5094,11 +5094,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="con">
-        <i>con</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="concatenation">
         <i>concatenation</i> 
         <par n="house__n"/> 
@@ -5412,11 +5407,6 @@
     <e lm="conspiracy" a="doriua">
         <i>conspirac</i> 
         <par n="bab/y__n"/> 
-    </e>
-
-    <e lm="constant">
-        <i>constant</i> 
-        <par n="house__n"/> 
     </e>
 
     <e lm="constellation">
@@ -6323,16 +6313,7 @@
         <i>cut</i> 
         <par n="analys/is__n"/> 
     </e>
-
-    <e lm="cutting">
-        <i>cutting</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="cutting">
-        <i>cutting</i> 
-        <par n="house__n"/> 
-    </e>
+  
 
     <e lm="cyanide">
         <i>cyanide</i> 
@@ -7179,13 +7160,7 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="die">
-      <p>
-        <l>dice</l> 
-        <r>die</r> 
-      </p>
-        <par n="personnel__n"/> 
-    </e>
+   
 
     <e lm="dictator">
         <i>dictator</i> 
@@ -7206,7 +7181,13 @@
         <i>die</i> 
         <par n="east__n"/> 
     </e>
-
+    <e lm="die">
+      <p>
+        <l>dice</l> 
+        <r>die</r> 
+      </p>
+        <par n="personnel__n"/> 
+    </e>
     <e lm="diet">
         <i>diet</i> 
         <par n="house__n"/> 
@@ -7777,11 +7758,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="domestic">
-        <i>domestic</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="domestication">
         <i>domestication</i> 
         <par n="house__n"/> 
@@ -7819,11 +7795,6 @@
 
     <e lm="dot">
         <i>dot</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="double">
-        <i>double</i> 
         <par n="house__n"/> 
     </e>
 
@@ -7986,12 +7957,6 @@
         <i>dryness</i> 
         <par n="access__n"/> 
     </e>
-
-    <e lm="dual">
-        <i>dual</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="duality">
         <i>dualit</i> 
         <par n="bab/y__n"/> 
@@ -8227,11 +8192,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="edict">
-        <i>edict</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="edition">
         <i>edition</i> 
         <par n="house__n"/> 
@@ -8314,11 +8274,6 @@
 
     <e lm="ejaculation">
         <i>ejaculation</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="elastic">
-        <i>elastic</i> 
         <par n="house__n"/> 
     </e>
 
@@ -8684,11 +8639,6 @@
 
     <e lm="episode">
         <i>episode</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="equal">
-        <i>equal</i> 
         <par n="house__n"/> 
     </e>
 
@@ -9519,11 +9469,6 @@
 
     <e lm="favour">
         <i>favour</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="favourite">
-        <i>favourite</i> 
         <par n="house__n"/> 
     </e>
 
@@ -10911,12 +10856,6 @@
         <i>greeting</i> 
         <par n="house__n"/> 
     </e>
-
-    <e lm="grey">
-        <i>grey</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="grid">
         <i>grid</i> 
         <par n="house__n"/> 
@@ -10940,11 +10879,6 @@
     <e lm="groin">
         <i>groin</i> 
         <par n="house__n"/> 
-    </e>
-
-    <e lm="gross">
-        <i>gross</i> 
-        <par n="access__n"/> 
     </e>
 
     <e lm="ground">
@@ -11172,10 +11106,6 @@
         <par n="bab/y__n"/> 
     </e>
 
-    <e lm="harmonic">
-        <i>harmonic</i> 
-        <par n="house__n"/> 
-    </e>
 
     <e lm="harmonization">
         <i>harmonization</i> 
@@ -11291,12 +11221,6 @@
         <i>hell</i> 
         <par n="house__n"/> 
     </e>
-
-    <e lm="hello">
-        <i>hello</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="helmet">
         <i>helmet</i> 
         <par n="house__n"/> 
@@ -22220,6 +22144,11 @@
 
     <e lm="stair">
         <i>stair</i> 
+        <par n="house__n"/> 
+    </e>
+
+    <e lm="staircase">
+        <i>staircase</i> 
         <par n="house__n"/> 
     </e>
 

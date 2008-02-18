@@ -71,11 +71,11 @@
   </e>
   <e lm="PC">
     <i>PC</i>
-    <par n="IRPF__n"/>
+    <par n="BBVA__n"/>
   </e>
   <e lm="PIB">
     <i>PIB</i>
-    <par n="IRPF__n"/>
+    <par n="BBVA__n"/>
   </e>
   <e lm="PNV">
     <i>PNV</i>
@@ -3226,6 +3226,10 @@
     <i>cartucho</i>
     <par n="abismo__n"/>
   </e>
+  <e lm="galope">
+    <i>galope</i>
+    <par n="abismo__n"/>
+  </e>
   <e lm="cartulina">
     <i>cartulina</i>
     <par n="abeja__n"/>
@@ -3826,7 +3830,7 @@
     <i>ciudadanía</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="ciudadela" a="prompsit2adn">
+  <e lm="ciudadela" a="prompsit2adn">
     <i>ciudadela</i>
     <par n="abeja__n"/>
   </e>
@@ -4790,10 +4794,6 @@
     <i>contorsionista</i>
     <par n="accionista__n"/>
   </e>
-  <e lm="contra">
-    <i>contra</i>
-    <par n="abeja__n"/>
-  </e>
   <e lm="contraataque" a="prompsit2adn">
     <i>contraataque</i>
     <par n="abismo__n"/>
@@ -5180,6 +5180,10 @@
   </e>
   <e lm="crematorio">
     <i>crematorio</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="tópico">
+    <i>tópico</i>
     <par n="abismo__n"/>
   </e>
   <e lm="crepúsculo">
@@ -6174,10 +6178,6 @@
     <i>despiste</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="desplegable" a="gema">
-    <i>desplegable</i>
-    <par n="abismo__n"/>
-  </e>
   <e lm="despotismo">
     <i>despotismo</i>
     <par n="abismo__n"/>
@@ -6657,10 +6657,6 @@
   <e lm="dióxido" a="prompsit2adn">
     <i>dióxido</i>
     <par n="abismo__n"/>
-  </e>
-  <e r="LR" lm="do">
-    <i>do</i>
-    <par n="atletismo__n"/>
   </e>
   <e lm="doblaje" a="prompsit2adn">
     <i>doblaje</i>
@@ -7350,6 +7346,10 @@
     <i>entresijo</i>
     <par n="abismo__n"/>
   </e>
+  <e lm="vistazo">
+    <i>vistazo</i>
+    <par n="abismo__n"/>
+  </e>
   <e lm="entrevista">
     <i>entrevista</i>
     <par n="abeja__n"/>
@@ -7412,6 +7412,10 @@
   </e>
   <e lm="episodio">
     <i>episodio</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="daño">
+    <i>daño</i>
     <par n="abismo__n"/>
   </e>
   <e lm="epílogo" a="prompsit2adn">
@@ -8158,12 +8162,20 @@
     <i>expectativa</i>
     <par n="abeja__n"/>
   </e>
+  <e lm="escapada">
+    <i>escapada</i>
+    <par n="abeja__n"/>
+  </e>
   <e lm="expedición">
     <i>expedici</i>
     <par n="acci/ón__n"/>
   </e>
   <e lm="expediente">
     <i>expediente</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="equivalente">
+    <i>equivalente</i>
     <par n="abismo__n"/>
   </e>
   <e lm="experiencia">
@@ -8720,6 +8732,10 @@
   </e>
   <e lm="foco">
     <i>foco</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="flujo">
+    <i>flujo</i>
     <par n="abismo__n"/>
   </e>
   <e lm="folclore">
@@ -10816,6 +10832,10 @@
   </e>
   <e lm="internauta">
     <i>internauta</i>
+    <par n="accionista__n"/>
+  </e>
+  <e lm="comunista">
+    <i>comunista</i>
     <par n="accionista__n"/>
   </e>
   <e lm="internet">
@@ -16592,6 +16612,10 @@
     <i>recurso</i>
     <par n="abismo__n"/>
   </e>
+  <e lm="decimal">
+    <i>decimal</i>
+    <par n="abril__n"/>
+  </e>
   <e lm="red">
     <i>red</i>
     <par n="accesibilidad__n"/>
@@ -16642,6 +16666,10 @@
   </e>
   <e lm="referéndum">
     <i>referéndum</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="edicto">
+    <i>edicto</i>
     <par n="abismo__n"/>
   </e>
   <e lm="refinanciación" a="prompsit2adn">

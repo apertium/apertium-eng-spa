@@ -7823,5 +7823,128 @@
         <par n="liv/e__vblex"/> 
     </e>
 
+
+
+
+<!-- Verb contractions -->
+
+<e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+
+<e lm="you're"><p><l>you're</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
+
+<e lm="she's"><p><l>she's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+<e lm="he's"><p><l>he's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+<e lm="it's"><p><l>it's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+<e lm="we're"><p><l>we're</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
+
+<e lm="they're"><p><l>they're</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
+
+<e lm="I'll"><p><l>I'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
+
+<e lm="you'll"><p><l>you'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
+
+<e lm="she'll"><p><l>she'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
+
+<e lm="he'll"><p><l>he'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
+
+<e lm="it'll"><p><l>it'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
+
+<e lm="we'll"><p><l>we'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
+
+<e lm="they'll"><p><l>they'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
+
+<e lm="I've">
+  <p>
+    <l>I've</l>
+    <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pres"/></r>
+  </p>
+</e>
+
+<e lm="you've"><p><l>you've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
+<e lm="she's"><p><l>she's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+<e lm="he's"><p><l>he's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+<e lm="it's"><p><l>it's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+<e lm="we've"><p><l>we've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
+<e lm="they've"><p><l>they've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
+
+
+<e lm="I've got">
+  <p>
+    <l>I've<b/>got</l>
+    <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r>
+  </p>
+</e>
+
+
+<e lm="you've got"><p><l>you've<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r></p></e>
+<e lm="she's got"><p><l>she's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+<e lm="he's got"><p><l>he's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+<e lm="it's got"><p><l>it's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+<e lm="we've got"><p><l>we've<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r></p></e>
+<e lm="they've got"><p><l>they've<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r></p></e>
+
+
+
+<e lm="I'd"><p><l>I'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
+<e lm="you'd"><p><l>you'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
+<e lm="she'd"><p><l>she'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
+<e lm="he'd"><p><l>he'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
+<e lm="it'd"><p><l>it'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
+<e lm="we'd"><p><l>we'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
+<e lm="they'd"><p><l>they'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
+
+<e lm="I'd"><p><l>I'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+<e lm="you'd"><p><l>you'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+<e lm="she'd"><p><l>she'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+<e lm="he'd"><p><l>he'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+<e lm="it'd"><p><l>it'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+<e lm="we'd"><p><l>we'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+<e lm="they'd"><p><l>they'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+
+<e lm="can't"><p><l>can't</l><r>can<s n="vaux"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
+<e lm="couldn't"><p><l>couldn't</l><r>can<s n="vaux"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
+<e lm="don't"><p><l>don't</l><r>do<s n="vbdo"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
+<e lm="doesn't"><p><l>doesn't</l><r>do<s n="vbdo"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+<e lm="didn't" a="doriua"><p><l>didn't</l><r>do<s n="vbdo"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
+<e lm="isn't"><p><l>isn't</l><r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+<e lm="wasn't"><p><l>wasn't</l><r>be<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+<e lm="wasn't"><p><l>wasn't</l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+<e lm="weren't"><p><l>weren't</l><r>be<s n="vbser"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
+<e lm="wouldn't"><p><l>wouldn't</l><r>would<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
+<e lm="hasn't"><p><l>hasn't</l><r>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+<e lm="haven't"><p><l>haven't</l><r>have<s n="vbhaver"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
+<e lm="hadn't" a="doriua"><p><l>hadn't</l><r>have<s n="vbhaver"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
+
+
+
+
+<e lm="aren't"><p><l>aren't</l><r>be<s n="vbser"/><s n="pres"/><j/>not<s n="adv"/></r></p></e> 
+<e lm="ain't"><p><l>ain't</l><r>be<s n="vbser"/><s n="pres"/><j/>not<s n="adv"/></r></p></e> 
+<e lm="cannot"><p><l>cannot</l><r>can<s n="vaux"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
+<e lm="shouldn't"><p><l>shouldn't</l><r>should<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e> 
+<e lm="shan't"><p><l>shan't</l><r>shall<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
+<e lm="won't"><p><l>won't</l><r>will<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
+
+<e lm="there's"><p><l>there's</l><r>there<s n="adv"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> 
+<e lm="there's"><p><l>there's</l><r>there<s n="adv"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> 
+<e lm="there're"><p><l>there're</l><r>there<s n="adv"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
+
+<e lm="who's"><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> 
+<e lm="who's"><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+<e lm="would've"><p><l>would've</l><r>would<s n="vaux"/><s n="inf"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e> 
+<e lm="should've"><p><l>should've</l><r>should<s n="vaux"/><s n="inf"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e> 
+<e lm="could've"><p><l>could've</l><r>can<s n="vaux"/><s n="past"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
+
+<e lm="wanna" r="LR"><p><l>wanna</l><r>want<s n="vbmod"/><s n="pres"/><g><b/>to</g></r></p></e>
+<e lm="gonna"><p><l>gonna</l><r>go<s n="vblex"/><s n="ger"/><j/>to<s n="pr"/></r></p></e>
+<e lm="that's"><p><l>that's</l><r>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+<!-- End of Verb contractions -->
+
+
 </section>
 

@@ -4758,6 +4758,10 @@
     <i>contienda</i>
     <par n="abeja__n"/>
   </e>
+  <e lm="ancla">
+    <i>ancla</i>
+    <par n="abeja__n"/>
+  </e>
   <e lm="continente">
     <i>continente</i>
     <par n="abismo__n"/>
@@ -9846,7 +9850,7 @@
     <i>hormona</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="hornero">
+  <e lm="hornero">
     <i>horner</i>
     <par n="abogad/o__n"/>
   </e>
@@ -11834,12 +11838,24 @@
     <i>límite</i>
     <par n="abismo__n"/>
   </e>
+  <e lm="brillante">
+    <i>brillante</i>
+    <par n="abismo__n"/>
+  </e>
   <e lm="línea">
     <i>línea</i>
     <par n="abeja__n"/>
   </e>
   <e lm="líquido">
     <i>líquido</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="ladrido">
+    <i>ladrido</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="latido">
+    <i>latido</i>
     <par n="abismo__n"/>
   </e>
   <e lm="lógica">
@@ -13242,12 +13258,28 @@
     <i>naufragio</i>
     <par n="abismo__n"/>
   </e>
+  <e lm="golpe">
+    <i>golpe</i>
+    <par n="abismo__n"/>
+  </e>
   <e lm="navaja">
     <i>navaja</i>
     <par n="abeja__n"/>
   </e>
   <e lm="nave">
     <i>nave</i>
+    <par n="abeja__n"/>
+  </e>
+  <e lm="captura">
+    <i>captura</i>
+    <par n="abeja__n"/>
+  </e>
+  <e lm="catapulta">
+    <i>catapulta</i>
+    <par n="abeja__n"/>
+  </e>
+  <e lm="trampa">
+    <i>trampa</i>
     <par n="abeja__n"/>
   </e>
   <e lm="navegación">
@@ -20476,4 +20508,37 @@
     <i>úlcera</i>
     <par n="abeja__n"/>
   </e>
+  
+  <e lm="británico">
+    <i>británic</i>
+    <par n="abogad/o__n"/>
+  </e>
+  <e lm="canadiense">
+    <i>canadiense</i>
+    <par n="accionista__n"/>
+  </e>
+  <e lm="holandés">
+    <i>holand</i>
+    <par n="aragon/és__n"/>
+  </e>
+  <e lm="israelí">
+    <i>israelí</i>
+    <par n="accionista__n"/>
+  </e>
+  <e lm="escocés">
+    <i>escoc</i>
+    <par n="aragon/és__n"/>
+  </e>
+  <e lm="marxista">
+    <i>marxista</i>
+    <par n="accionista__n"/>
+  </e>
+  <e lm="árabe">
+    <i>árabe</i>
+    <par n="accionista__n"/>
+  </e>
+
+
+<e lm="sustancia química"><p><l>sustancia<b/>química</l><r>sustancia<b/>química<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="sustancia química"><p><l>sustancias<b/>químicas</l><r>sustancia<b/>química<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </section>

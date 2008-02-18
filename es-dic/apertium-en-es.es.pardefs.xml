@@ -4842,10 +4842,20 @@
     <e>
       <p>
         <l></l> 
-        <r><s n="np"/><s n="loc"/></r> 
+        <r><s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
+    </pardef>
+    
+ <pardef n="Barcelona__np">
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="cero__num">
     <e>
@@ -5464,20 +5474,11 @@
     </e>
 
     </pardef>
-    <pardef n="todo_el_mundo__prn">
-    <e>
-      <p>
-        <l></l> 
-        <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    </pardef>
     <pardef n="alguien__prn">
     <e>
       <p>
         <l></l> 
-        <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
+        <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -5503,16 +5504,6 @@
     </pardef>
 
 
-
-    <pardef n="algo__prn">
-    <e>
-      <p>
-        <l></l> 
-        <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    </pardef>
     <pardef n="sí__prn">
     <e>
       <p>

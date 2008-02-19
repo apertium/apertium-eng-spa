@@ -88,7 +88,7 @@
 
     <def-cat n="prep_cnjadv">
       <cat-item tags="pr"/>
-      <cat-item lemma="before" tags="cnjadv"/><!--MG: solució provisional, caldria que el tagger triés <pr> o que el t2x fes alguna cosa amb acnjadv + frase en gerundi o + frase conjugada. -->
+      <cat-item lemma="before" tags="cnjadv"/><!--MG: solució provisional, caldria que el tagger triés <pr> o que el t2x fes alguna cosa amb cnjadv + frase en gerundi o + frase conjugada. -->
       <cat-item lemma="after" tags="cnjadv"/>
     </def-cat>
 
@@ -15431,7 +15431,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="abans de"/>
+	      <lit v="antes de"/>
 	    </let>
 	  </when>
 	  <when>
@@ -15443,7 +15443,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="després de"/>
+	      <lit v="después de"/>
 	    </let>
 	  </when>
 	</choose>
@@ -15547,7 +15547,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="abans de"/>
+	      <lit v="antes de"/>
 	    </let>
 	  </when>
 	  <when>
@@ -15559,7 +15559,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="després de"/>
+	      <lit v="después de"/>
 	    </let>
 	  </when>
 	</choose>
@@ -15662,7 +15662,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="abans de"/>
+	      <lit v="antes de"/>
 	    </let>
 	  </when>
 	  <when>
@@ -15674,7 +15674,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="després de"/>
+	      <lit v="después de"/>
 	    </let>
 	  </when>
 	</choose>
@@ -15776,7 +15776,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="abans de"/>
+	      <lit v="antes de"/>
 	    </let>
 	  </when>
 	  <when>
@@ -15788,7 +15788,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="després de"/>
+	      <lit v="después de"/>
 	    </let>
 	  </when>
 	</choose>

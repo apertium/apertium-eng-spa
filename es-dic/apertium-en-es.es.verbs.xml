@@ -407,6 +407,17 @@
     </p>
     <par n="abalán/zar__vblex"/>
   </e>
+  <e lm="caricaturizar">
+    <i>caricaturi</i>
+    <par n="abalan/zar__vblex"/>
+  </e>
+  <e lm="caricaturizar">
+    <p>
+      <l>caricaturí</l>
+      <r>caricaturi</r>
+    </p>
+    <par n="abalán/zar__vblex"/>
+  </e>
   <e lm="activar">
     <p>
       <l>actív</l>
@@ -4378,6 +4389,17 @@
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
+  <e lm="auditar">
+    <i>audit</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="auditar">
+    <p>
+      <l>audít</l>
+      <r>audit</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
   <e lm="depreciar">
     <i>depreci</i>
     <par n="abandon/ar__vblex"/>
@@ -4566,6 +4588,17 @@
     <p>
       <l>desbloqué</l>
       <r>desbloque</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+  <e lm="bloquear">
+    <i>bloque</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="bloquear">
+    <p>
+      <l>bloqué</l>
+      <r>bloque</r>
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
@@ -4860,6 +4893,12 @@
     <i>despl</i>
     <par n="despl/egar__vblex"/>
   </e>
+  
+  <e lm="cegar">
+    <i>c</i>
+    <par n="despl/egar__vblex"/>
+  </e>
+      
   <e lm="desplazar">
     <i>despla</i>
     <par n="abalan/zar__vblex"/>
@@ -5035,6 +5074,61 @@
     <i>detest</i>
     <par n="abandon/ar__vblex"/>
   </e>
+  
+      
+      <e lm="desertar">
+        <i>desert</i>
+        <par n="abandon/ar__vblex"/>
+      </e>
+      
+      <e lm="desertar">
+        <p>
+          <l>desért</l>
+          <r>desert</r>
+        </p>
+        <par n="abandón/ar__vblex"/>
+      </e>
+
+      <e lm="disciplinar">
+        <i>disciplin</i>
+        <par n="abandon/ar__vblex"/>
+      </e>
+      
+      <e lm="disciplinar">
+        <p>
+          <l>disciplín</l>
+          <r>disciplin</r>
+        </p>
+        <par n="abandón/ar__vblex"/>
+      </e>
+      
+      
+      <e lm="exiliar">
+        <i>exili</i>
+        <par n="abandon/ar__vblex"/>
+      </e>
+      
+      <e lm="exiliar">
+        <p>
+          <l>exíli</l>
+          <r>exili</r>
+        </p>
+        <par n="abandón/ar__vblex"/>
+      </e>
+      
+      <e lm="abanicar">
+        <i>abani</i>
+        <par n="ata/car__vblex"/>
+      </e>
+      
+      <e lm="abanicar">
+        <p>
+          <l>abaní</l>
+          <r>abani</r>
+        </p>
+        <par n="atá/car__vblex"/>
+      </e>
+      
   <e lm="detonar">
     <i>deton</i>
     <par n="abandon/ar__vblex"/>
@@ -6049,6 +6143,24 @@
     <i>enganch</i>
     <par n="abandon/ar__vblex"/>
   </e>
+  <e lm="enganchar">
+    <p>
+      <l>engánch</l>
+      <r>enganch</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+  <e lm="planchar">
+    <i>planch</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="planchar">
+    <p>
+      <l>plánch</l>
+      <r>planch</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
   <e lm="engastar">
     <i>engast</i>
     <par n="abandon/ar__vblex"/>
@@ -6060,13 +6172,6 @@
   <e lm="engordar">
     <i>engord</i>
     <par n="abandon/ar__vblex"/>
-  </e>
-  <e lm="enganchar">
-    <p>
-      <l>engánch</l>
-      <r>enganch</r>
-    </p>
-    <par n="abandón/ar__vblex"/>
   </e>
   <e lm="engastar">
     <p>
@@ -7730,6 +7835,14 @@
       <r><g><b/>daño</g></r>
     </p>
   </e>
+  <e lm="hacer campaña">
+    <i>h</i>
+    <par n="h/acer__vblex"/>
+    <p>
+      <l><b/>campaña</l>
+      <r><g><b/>campaña</g></r>
+    </p>
+  </e>
   <e lm="habilitar">
     <i>habilit</i>
     <par n="abandon/ar__vblex"/>
@@ -8725,6 +8838,25 @@
     <i>li</i>
     <par n="ampli/ar__vblex"/>
   </e>
+  <e lm="liar">
+    <p>
+      <l>lí</l>
+      <r>li</r>
+    </p>
+    <par n="alí/ar__vblex"/>
+  </e>
+      <e lm="inventariar">
+        <i>inventari</i>
+        <par n="ampli/ar__vblex"/>
+      </e>
+      
+      <e lm="inventariar">
+        <p>
+          <l>inventarí</l>
+          <r>inventari</r>
+        </p>
+        <par n="alí/ar__vblex"/>
+      </e>
   <e lm="liberar">
     <i>liber</i>
     <par n="abandon/ar__vblex"/>
@@ -8935,13 +9067,6 @@
     </p>
     <par n="alég/ar__vblex"/>
   </e>
-  <e lm="liar">
-    <p>
-      <l>lí</l>
-      <r>li</r>
-    </p>
-    <par n="alí/ar__vblex"/>
-  </e>
   <e lm="librar">
     <p>
       <l>líbr</l>
@@ -9003,6 +9128,18 @@
     <i>m</i>
     <par n="m/order__vblex"/>
   </e>
+      <e lm="ordeñar">
+        <i>ordeñ</i>
+        <par n="abandon/ar__vblex"/>
+      </e>
+      
+      <e lm="ordeñar">
+        <p>
+          <l>ordéñ</l>
+          <r>ordeñ</r>
+        </p>
+        <par n="abandón/ar__vblex"/>
+      </e>
   <e lm="mentar">
     <i>m</i>
     <par n="rev/entar__vblex"/>

@@ -1474,7 +1474,7 @@
     <i>arro</i>
     <par n="ajedre/z__n"/>
   </e>
-  <e r="LR" lm="arroyo">
+  <e lm="arroyo">
     <i>arroyo</i>
     <par n="abismo__n"/>
   </e>
@@ -2002,7 +2002,7 @@
     <i>bacteria</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="badén">
+  <e lm="badén">
     <i>bad</i>
     <par n="almac/én__n"/>
   </e>
@@ -2510,7 +2510,7 @@
     <i>bosque</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="bosquejo">
+  <e lm="bosquejo">
     <i>bosquejo</i>
     <par n="abismo__n"/>
   </e>
@@ -2678,7 +2678,7 @@
     <i>bóveda</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="búcaro">
+  <e lm="búcaro">
     <i>búcaro</i>
     <par n="abismo__n"/>
   </e>
@@ -3362,7 +3362,7 @@
     <i>cautiv</i>
     <par n="abogad/o__n"/>
   </e>
-  <e r="LR" lm="cautiverio">
+  <e lm="cautiverio">
     <i>cautiverio</i>
     <par n="abismo__n"/>
   </e>
@@ -3530,7 +3530,7 @@
     <i>cerradura</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="cerramiento">
+  <e lm="cerramiento">
     <i>cerramiento</i>
     <par n="abismo__n"/>
   </e>
@@ -3658,7 +3658,7 @@
     <i>chiste</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="chistera" a="prompsit2adn">
+  <e lm="chistera" a="prompsit2adn">
     <i>chistera</i>
     <par n="abeja__n"/>
   </e>
@@ -3674,7 +3674,7 @@
     <i>chubasco</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="chuchería">
+  <e  lm="chuchería">
     <i>chuchería</i>
     <par n="abeja__n"/>
   </e>
@@ -4530,7 +4530,7 @@
     <i>conglomerado</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="congolés">
+  <e  lm="congolés">
     <i>congol</i>
     <par n="aragon/és__n"/>
   </e>
@@ -5338,11 +5338,11 @@
     <i>cuarto</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="cuarto de aseo">
+  <e lm="cuarto de aseo">
     <i>cuarto<b/>de<b/>aseo</i>
     <par n="atletismo__n"/>
   </e>
-  <e r="LR" lm="cuartos de aseo">
+  <e lm="cuartos de aseo">
     <i>cuartos<b/>de<b/>aseo</i>
     <par n="alrededores__n"/>
   </e>
@@ -5426,7 +5426,7 @@
     <i>cuidador</i>
     <par n="señor__n"/>
   </e>
-  <e r="LR" lm="culebrón" a="prompsit2adn">
+  <e lm="culebrón" a="prompsit2adn">
     <i>culebr</i>
     <par n="aluvi/ón__n"/>
   </e>
@@ -5574,7 +5574,7 @@
     <i>cómic</i>
     <par n="abogad/o__n"/>
   </e>
-  <e r="LR" lm="cómic" a="prompsit2adn">
+  <e lm="cómic" a="prompsit2adn">
     <i>cómic</i>
     <par n="abismo__n"/>
   </e>
@@ -5604,6 +5604,10 @@
   </e>
   <e lm="dato">
     <i>dato</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="dado">
+    <i>dado</i>
     <par n="abismo__n"/>
   </e>
   <e lm="daño">
@@ -6866,7 +6870,7 @@
     <i>dólar</i>
     <par n="abril__n"/>
   </e>
-  <e r="LR" lm="ebriedad" a="prompsit2adn">
+  <e lm="ebriedad" a="prompsit2adn">
     <i>ebriedad</i>
     <par n="accesibilidad__n"/>
   </e>
@@ -6932,7 +6936,11 @@
   </e>
   <e lm="editorial">
     <i>editorial</i>
-    <par n="albañil__n"/>
+    <par n="abril__n"/>
+  </e>
+  <e lm="editorial">
+    <i>editorial</i>
+    <par n="accesibilidad__n"/>
   </e>
   <e lm="editorialista" a="prompsit2adn">
     <i>editorialista</i>
@@ -7186,15 +7194,11 @@
     <i>encargad</i>
     <par n="abogad/o__n"/>
   </e>
-  <e r="LR" lm="encauzamiento">
+  <e lm="encauzamiento">
     <i>encauzamiento</i>
     <par n="abismo__n"/>
   </e>
-  <e r="RL" lm="encañado">
-    <i>encañado</i>
-    <par n="abismo__n"/>
-  </e>
-  <e r="LR" lm="encañado">
+  <e lm="encañado">
     <i>encañado</i>
     <par n="abismo__n"/>
   </e>
@@ -7210,7 +7214,7 @@
     <i>encriptaci</i>
     <par n="acci/ón__n"/>
   </e>
-  <e r="LR" lm="encrucijada" a="prompsit2adn">
+  <e lm="encrucijada" a="prompsit2adn">
     <i>encrucijada</i>
     <par n="abeja__n"/>
   </e>
@@ -7734,7 +7738,7 @@
     <i>espesor</i>
     <par n="abril__n"/>
   </e>
-  <e r="LR" lm="espesura">
+  <e lm="espesura">
     <i>espesura</i>
     <par n="abeja__n"/>
   </e>
@@ -9086,7 +9090,7 @@
     <i>gamba</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="gamberrismo" a="prompsit2adn">
+  <e lm="gamberrismo" a="prompsit2adn">
     <i>gamberrismo</i>
     <par n="abismo__n"/>
   </e>
@@ -9130,7 +9134,7 @@
     <i>garganta</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="garra">
+  <e lm="garra">
     <i>garra</i>
     <par n="abeja__n"/>
   </e>
@@ -9558,7 +9562,7 @@
     <i>hectárea</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="hedor">
+  <e lm="hedor">
     <i>hedor</i>
     <par n="abril__n"/>
   </e>
@@ -10398,7 +10402,7 @@
     <i>inexistencia</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="infante">
+  <e lm="infante">
     <i>infant</i>
     <par n="asistent/e__n"/>
   </e>
@@ -10578,7 +10582,7 @@
     <i>inoculaci</i>
     <par n="acci/ón__n"/>
   </e>
-  <e r="LR" lm="inodoro">
+  <e lm="inodoro">
     <i>inodoro</i>
     <par n="abismo__n"/>
   </e>
@@ -10714,7 +10718,7 @@
     <i>insulto</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="insurgencia">
+  <e lm="insurgencia">
     <i>insurgencia</i>
     <par n="abeja__n"/>
   </e>
@@ -11286,7 +11290,7 @@
     <i>lago</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="laicidad" a="prompsit2adn">
+  <e lm="laicidad" a="prompsit2adn">
     <i>laicidad</i>
     <par n="accesibilidad__n"/>
   </e>
@@ -11886,7 +11890,7 @@
     <i>m</i>
     <par n="m/argen__n"/>
   </e>
-  <e r="LR" lm="maceta">
+  <e lm="maceta">
     <i>maceta</i>
     <par n="abeja__n"/>
   </e>
@@ -12454,7 +12458,7 @@
     <i>meollo</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="mercadería" a="gema">
+  <e lm="mercadería" a="gema">
     <i>mercadería</i>
     <par n="abeja__n"/>
   </e>
@@ -12810,7 +12814,7 @@
     <i>modelo</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="modem">
+  <e lm="modem">
     <i>modem</i>
     <par n="abismo__n"/>
   </e>
@@ -13666,7 +13670,7 @@
     <i>obelisco</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="obertura" a="gema">
+  <e lm="obertura" a="gema">
     <i>obertura</i>
     <par n="abeja__n"/>
   </e>
@@ -13814,7 +13818,7 @@
     <i>oficio</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="ojeador" a="prompsit2adn">
+  <e lm="ojeador" a="prompsit2adn">
     <i>ojeador</i>
     <par n="señor__n"/>
   </e>
@@ -14552,7 +14556,7 @@
     <i>pañal</i>
     <par n="abril__n"/>
   </e>
-  <e r="LR" lm="paño">
+  <e lm="paño">
     <i>paño</i>
     <par n="abismo__n"/>
   </e>
@@ -14588,10 +14592,6 @@
     <i>pedal</i>
     <par n="abril__n"/>
   </e>
-  <e r="RL" lm="pedal">
-    <i>pedal</i>
-    <par n="abril__n"/>
-  </e>
   <e lm="pedazo">
     <i>pedazo</i>
     <par n="abismo__n"/>
@@ -14624,10 +14624,6 @@
     <i>pegatina</i>
     <par n="abeja__n"/>
   </e>
-  <e r="RL" lm="pegatina">
-    <i>pegatina</i>
-    <par n="abeja__n"/>
-  </e>
   <e lm="peldaño">
     <i>peldaño</i>
     <par n="abismo__n"/>
@@ -14644,7 +14640,7 @@
     <i>pellejo</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="pelotón" a="prompsit2adn">
+  <e lm="pelotón" a="prompsit2adn">
     <i>pelot</i>
     <par n="aluvi/ón__n"/>
   </e>
@@ -15216,7 +15212,7 @@
     <i>poder</i>
     <par n="abril__n"/>
   </e>
-  <e r="LR" lm="poderío" a="prompsit2adn">
+  <e  lm="poderío" a="prompsit2adn">
     <i>poderío</i>
     <par n="abismo__n"/>
   </e>
@@ -16016,7 +16012,7 @@
     <i>publicidad</i>
     <par n="accesibilidad__n"/>
   </e>
-  <e r="LR" lm="puchero">
+  <e lm="puchero">
     <i>puchero</i>
     <par n="abismo__n"/>
   </e>
@@ -16352,7 +16348,7 @@
     <i>rascacielos</i>
     <par n="campus__n"/>
   </e>
-  <e r="LR" lm="rasgo">
+  <e  lm="rasgo">
     <i>rasgo</i>
     <par n="abismo__n"/>
   </e>
@@ -17076,7 +17072,7 @@
     <i>restricci</i>
     <par n="acci/ón__n"/>
   </e>
-  <e r="LR" lm="restructuración">
+  <e lm="restructuración">
     <i>restructuraci</i>
     <par n="acci/ón__n"/>
   </e>
@@ -17724,7 +17720,7 @@
     <i>senderismo</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="seno" a="prompsit2adn">
+  <e lm="seno" a="prompsit2adn">
     <i>seno</i>
     <par n="abismo__n"/>
   </e>
@@ -17828,11 +17824,11 @@
     <i>seta</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="setiembre">
+  <e lm="setiembre">
     <i>setiembre</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="seto">
+  <e lm="seto">
     <i>seto</i>
     <par n="abismo__n"/>
   </e>
@@ -17996,7 +17992,7 @@
     <i>sismicidad</i>
     <par n="accesibilidad__n"/>
   </e>
-  <e r="LR" lm="sismo" a="prompsit2adn">
+  <e lm="sismo" a="prompsit2adn">
     <i>sismo</i>
     <par n="abismo__n"/>
   </e>
@@ -18036,7 +18032,7 @@
     <i>sobreproducci</i>
     <par n="acci/ón__n"/>
   </e>
-  <e r="LR" lm="sobreviviente" a="prompsit2adn">
+  <e lm="sobreviviente" a="prompsit2adn">
     <i>sobreviviente</i>
     <par n="accionista__n"/>
   </e>
@@ -18244,7 +18240,7 @@
     <i>subrogaci</i>
     <par n="acci/ón__n"/>
   </e>
-  <e r="LR" lm="subsanación" a="prompsit2adn">
+  <e lm="subsanación" a="prompsit2adn">
     <i>subsanaci</i>
     <par n="acci/ón__n"/>
   </e>
@@ -18252,7 +18248,7 @@
     <i>subsidiariedad</i>
     <par n="accesibilidad__n"/>
   </e>
-  <e r="LR" lm="substancia">
+  <e lm="substancia">
     <i>substancia</i>
     <par n="abeja__n"/>
   </e>
@@ -18436,7 +18432,7 @@
     <i>sur</i>
     <par n="atletismo__n"/>
   </e>
-  <e r="LR" lm="sureño" a="prompsit2adn">
+  <e lm="sureño" a="prompsit2adn">
     <i>sureñ</i>
     <par n="abogad/o__n"/>
   </e>
@@ -18640,7 +18636,7 @@
     <i>teatro</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="tebeo" a="prompsit2adn">
+  <e lm="tebeo" a="prompsit2adn">
     <i>tebeo</i>
     <par n="abismo__n"/>
   </e>
@@ -18980,11 +18976,11 @@
     <i>tipología</i>
     <par n="abeja__n"/>
   </e>
-  <e r="LR" lm="tique">
+  <e lm="tique">
     <i>tique</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="tiquete">
+  <e lm="tiquete">
     <i>tiquete</i>
     <par n="abismo__n"/>
   </e>
@@ -19304,7 +19300,7 @@
     <i>traslado</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="trasmisión">
+  <e  lm="trasmisión">
     <i>trasmisi</i>
     <par n="acci/ón__n"/>
   </e>
@@ -20504,7 +20500,7 @@
     <i>índice</i>
     <par n="abismo__n"/>
   </e>
-  <e r="LR" lm="óleo">
+  <e lm="óleo">
     <i>óleo</i>
     <par n="abismo__n"/>
   </e>

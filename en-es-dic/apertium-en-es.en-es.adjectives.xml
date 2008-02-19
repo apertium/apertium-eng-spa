@@ -3209,41 +3209,6 @@
     <e>
       <p>
         <l>correct<s n="adj"/></l> 
-        <r>correcto<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>correct<s n="adj"/></l> 
-        <r>correcto<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>correct<s n="adj"/></l> 
-        <r>correcto<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>correct<s n="adj"/></l> 
-        <r>correcto<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>correct<s n="adj"/></l> 
-        <r>correcto<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>correct<s n="adj"/></l> 
         <r>correcto<s n="adj"/></r> 
       </p>
     </e>
@@ -3254,14 +3219,6 @@
         <r>correspondiente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
-
-    <e r="LR">
-      <p>
-        <l>corresponding<s n="adj"/></l> 
-        <r>correspondiente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>cosmic<s n="adj"/></l> 
@@ -9590,13 +9547,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>only<s n="adj"/></l> 
-        <r>solo<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>only<s n="adj"/></l> 
@@ -10087,6 +10037,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>pejorative<s n="adj"/></l> 
+        <r>peyorativo<s n="adj"/></r> 
+      </p>
+    </e>
     <e r="RL">
       <p>
         <l>penal<s n="adj"/></l> 
@@ -10325,7 +10281,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>pious<s n="adj"/></l> 
         <r>piadoso<s n="adj"/></r> 
@@ -11475,11 +11431,17 @@
 
     <e>
       <p>
+        <l>resident<s n="adj"/></l> 
+        <r>residente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>residential<s n="adj"/></l> 
         <r>residencial<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
-
     <e>
       <p>
         <l>residual<s n="adj"/></l> 
@@ -11629,59 +11591,34 @@
 
     <e>
       <p>
+        <l>rival<s n="adj"/></l> 
+        <r>rival<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>ridiculous<s n="adj"/></l> 
         <r>ridículo<s n="adj"/></r> 
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>right<s n="adj"/></l> 
-        <r>correcto<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>right<s n="adj"/></l> 
-        <r>correcto<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>right<s n="adj"/></l> 
-        <r>correcto<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
+    <e r="LR" slr="correcto D">
       <p>
         <l>right<s n="adj"/></l> 
         <r>correcto<s n="adj"/></r> 
       </p>
     </e>
 
-    <e>
+   
+
+    <e slr="derecho">
       <p>
         <l>right<s n="adj"/></l> 
         <r>derecho<s n="adj"/></r> 
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>right-hand<s n="adj"/></l> 
-        <r>derecho<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>right-hand<s n="adj"/></l> 
-        <r>derecho<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -11690,14 +11627,7 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>right-handed<s n="adj"/></l> 
-        <r>derechista<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
+    <e>
       <p>
         <l>right-handed<s n="adj"/></l> 
         <r>derechista<s n="adj"/><s n="mf"/></r> 
@@ -11774,40 +11704,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>rough<s n="adj"/><s n="sint"/></l> 
-        <r>áspero<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>rough<s n="adj"/><s n="sint"/></l> 
-        <r>áspero<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>rough<s n="adj"/><s n="sint"/></l> 
-        <r>áspero<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>rough<s n="adj"/><s n="sint"/></l> 
-        <r>áspero<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>rough<s n="adj"/><s n="sint"/></l> 
-        <r>áspero<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -11844,45 +11740,11 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>rugged<s n="adj"/></l> 
-        <r>abrupto<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>rugged<s n="adj"/></l> 
-        <r>abrupto<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>rugged<s n="adj"/></l> 
-        <r>abrupto<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
+ 
     <e>
       <p>
         <l>rugged<s n="adj"/></l> 
-        <r>abrupto<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>rugged<s n="adj"/></l> 
-        <r>abrupto<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>rugged<s n="adj"/></l> 
-        <r>abrupto<s n="adj"/><s n="sup"/></r> 
+        <r>abrupto<s n="adj"/></r> 
       </p>
     </e>
 
@@ -11907,20 +11769,12 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>sad<s n="adj"/></l> 
         <r>triste<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
-
-    <e r="RL">
-      <p>
-        <l>sad<s n="adj"/></l> 
-        <r>triste<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>safe<s n="adj"/><s n="sint"/></l> 
@@ -11942,20 +11796,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>same<s n="adj"/></l> 
-        <r>mismísimo<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>same<s n="adj"/></l> 
-        <r>mismísimo<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>sandy<s n="adj"/><s n="sint"/></l> 
@@ -11971,13 +11811,6 @@
     </e>
 
     <e>
-      <p>
-        <l>satirical<s n="adj"/></l> 
-        <r>satírico<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
       <p>
         <l>satirical<s n="adj"/></l> 
         <r>satírico<s n="adj"/></r> 
@@ -12012,12 +11845,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>scholarly<s n="adj"/></l> 
-        <r>erudito<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -12027,13 +11854,6 @@
     </e>
 
     <e>
-      <p>
-        <l>scientific<s n="adj"/></l> 
-        <r>científico<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
       <p>
         <l>scientific<s n="adj"/></l> 
         <r>científico<s n="adj"/></r> 
@@ -12055,20 +11875,6 @@
     </e>
 
     <e>
-      <p>
-        <l>secondary<s n="adj"/></l> 
-        <r>secundario<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>secondary<s n="adj"/></l> 
-        <r>secundario<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
       <p>
         <l>secondary<s n="adj"/></l> 
         <r>secundario<s n="adj"/></r> 
@@ -12166,20 +11972,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>sentimental<s n="adj"/></l> 
-        <r>sentimental<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>sentimental<s n="adj"/></l> 
-        <r>sentimental<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>septic<s n="adj"/></l> 
@@ -12209,20 +12001,6 @@
     </e>
 
     <e>
-      <p>
-        <l>severe<s n="adj"/></l> 
-        <r>severo<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>severe<s n="adj"/></l> 
-        <r>severo<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
       <p>
         <l>severe<s n="adj"/></l> 
         <r>severo<s n="adj"/></r> 
@@ -12264,19 +12042,13 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>shiny<s n="adj"/><s n="sint"/></l> 
         <r>reluciente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>shiny<s n="adj"/><s n="sint"/></l> 
-        <r>reluciente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e r="LR">
       <p>
@@ -12285,21 +12057,15 @@
       </p>
     </e>
 
-    <e>
+    <e slr="bajo">
       <p>
         <l>short<s n="adj"/><s n="sint"/></l> 
         <r>bajo<s n="adj"/></r> 
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>short<s n="adj"/><s n="sint"/></l> 
-        <r>bajo<s n="adj"/></r> 
-      </p>
-    </e>
 
-    <e>
+    <e slr="corto D">
       <p>
         <l>short<s n="adj"/><s n="sint"/></l> 
         <r>corto<s n="adj"/></r> 
@@ -12341,24 +12107,11 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>silly<s n="adj"/><s n="sint"/></l> 
-        <r>tonto<s n="adj"/><s n="f"/></r> 
-      </p>
-    </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>silly<s n="adj"/><s n="sint"/></l> 
-        <r>tonto<s n="adj"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>silly<s n="adj"/><s n="sint"/></l> 
-        <r>tonto<s n="adj"/><s n="m"/></r> 
+        <r>tonto<s n="adj"/></r> 
       </p>
     </e>
 
@@ -12411,12 +12164,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>single<s n="adj"/></l> 
-        <r>solo<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -12428,53 +12175,12 @@
     <e>
       <p>
         <l>sinister<s n="adj"/></l> 
-        <r>siniestro<s n="adj"/><s n="m"/><s n="sg"/></r> 
+        <r>siniestro<s n="adj"/></r> 
       </p>
     </e>
+
 
     <e>
-      <p>
-        <l>sinister<s n="adj"/></l> 
-        <r>siniestro<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>sinister<s n="adj"/></l> 
-        <r>siniestro<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>sinister<s n="adj"/></l> 
-        <r>siniestro<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>sinister<s n="adj"/></l> 
-        <r>siniestro<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>sinister<s n="adj"/></l> 
-        <r>siniestro<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>skeptical<s n="adj"/></l> 
-        <r>escéptico<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
       <p>
         <l>skeptical<s n="adj"/></l> 
         <r>escéptico<s n="adj"/></r> 
@@ -12517,13 +12223,6 @@
     </e>
 
     <e>
-      <p>
-        <l>slow<s n="adj"/><s n="sint"/></l> 
-        <r>lento<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
       <p>
         <l>slow<s n="adj"/><s n="sint"/></l> 
         <r>lento<s n="adj"/></r> 
@@ -12642,14 +12341,7 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>space<s n="adj"/></l> 
-        <r>espacial<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
+    <e>
       <p>
         <l>space<s n="adj"/></l> 
         <r>espacial<s n="adj"/><s n="mf"/></r> 
@@ -12740,14 +12432,8 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>sporting<s n="adj"/></l> 
-        <r>deportivo<s n="adj"/></r> 
-      </p>
-    </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>sporting<s n="adj"/></l> 
         <r>deportivo<s n="adj"/></r> 
@@ -12796,13 +12482,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>statistical<s n="adj"/></l> 
-        <r>estadístico<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>statutory<s n="adj"/></l> 
@@ -12841,34 +12520,6 @@
     <e>
       <p>
         <l>straight<s n="adj"/></l> 
-        <r>recto<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>straight<s n="adj"/></l> 
-        <r>recto<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>straight<s n="adj"/></l> 
-        <r>recto<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>straight<s n="adj"/></l> 
-        <r>recto<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>straight<s n="adj"/></l> 
         <r>recto<s n="adj"/></r> 
       </p>
     </e>
@@ -12897,41 +12548,6 @@
     <e>
       <p>
         <l>strict<s n="adj"/></l> 
-        <r>estricto<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>strict<s n="adj"/></l> 
-        <r>estricto<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>strict<s n="adj"/></l> 
-        <r>estricto<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>strict<s n="adj"/></l> 
-        <r>estricto<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>strict<s n="adj"/></l> 
-        <r>estricto<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>strict<s n="adj"/></l> 
         <r>estricto<s n="adj"/></r> 
       </p>
     </e>
@@ -12943,20 +12559,12 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>strong<s n="adj"/><s n="sint"/></l> 
         <r>fuerte<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
-
-    <e r="RL">
-      <p>
-        <l>strong<s n="adj"/><s n="sint"/></l> 
-        <r>fuerte<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>structural<s n="adj"/></l> 
@@ -12995,42 +12603,7 @@
     <e>
       <p>
         <l>subject<s n="adj"/></l> 
-        <r>sujeto<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>subject<s n="adj"/></l> 
-        <r>sujeto<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>subject<s n="adj"/></l> 
-        <r>sujeto<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>subject<s n="adj"/></l> 
-        <r>sujeto<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>subject<s n="adj"/></l> 
-        <r>sujeto<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>subject<s n="adj"/></l> 
-        <r>sujeto<s n="adj"/><s n="GD"/><s n="pl"/></r> 
+        <r>sujeto<s n="adj"/></r> 
       </p>
     </e>
 
@@ -13061,14 +12634,6 @@
         <r>subsidiario<s n="adj"/></r> 
       </p>
     </e>
-
-    <e r="RL">
-      <p>
-        <l>substantial<s n="adj"/></l> 
-        <r>substancial<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>substantial<s n="adj"/></l> 
@@ -13077,13 +12642,6 @@
     </e>
 
     <e>
-      <p>
-        <l>substantive<s n="adj"/></l> 
-        <r>sustantivo<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
       <p>
         <l>substantive<s n="adj"/></l> 
         <r>sustantivo<s n="adj"/></r> 
@@ -13209,12 +12767,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>supreme<s n="adj"/></l> 
-        <r>supremo<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -13285,14 +12837,6 @@
         <r>sospechoso<s n="adj"/></r> 
       </p>
     </e>
-
-    <e r="RL">
-      <p>
-        <l>suspicious<s n="adj"/></l> 
-        <r>sospechoso<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>sustainable<s n="adj"/></l> 
@@ -13300,14 +12844,7 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>sweet<s n="adj"/><s n="sint"/></l> 
-        <r>dulce<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
+    <e>
       <p>
         <l>sweet<s n="adj"/><s n="sint"/></l> 
         <r>dulce<s n="adj"/><s n="mf"/></r> 
@@ -13377,41 +12914,12 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>tactile<s n="adj"/></l> 
-        <r>táctil<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>tactile<s n="adj"/></l> 
-        <r>táctil<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>tall<s n="adj"/><s n="sint"/></l> 
         <r>alto<s n="adj"/></r> 
       </p>
     </e>
-
-    <e r="LR">
-      <p>
-        <l>tall<s n="adj"/><s n="sint"/></l> 
-        <r>alto<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>tall<s n="adj"/><s n="sint"/></l> 
-        <r>alto<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>tangible<s n="adj"/></l> 
@@ -13426,20 +12934,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>taut<s n="adj"/></l> 
-        <r>tenso<s n="adj"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>taut<s n="adj"/></l> 
-        <r>tenso<s n="adj"/><s n="m"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>taut<s n="adj"/></l> 
@@ -13453,14 +12947,6 @@
         <r>técnico<s n="adj"/></r> 
       </p>
     </e>
-
-    <e r="RL">
-      <p>
-        <l>technical<s n="adj"/></l> 
-        <r>técnico<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>technological<s n="adj"/></l> 
@@ -13507,41 +12993,6 @@
       <p>
         <l>temporary<s n="adj"/></l> 
         <r>provisional<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>tender<s n="adj"/><s n="sint"/></l> 
-        <r>tierno<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>tender<s n="adj"/><s n="sint"/></l> 
-        <r>tierno<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>tender<s n="adj"/><s n="sint"/></l> 
-        <r>tierno<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>tender<s n="adj"/><s n="sint"/></l> 
-        <r>tierno<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>tender<s n="adj"/><s n="sint"/></l> 
-        <r>tierno<s n="adj"/><s n="GD"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -13657,20 +13108,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>theoretical<s n="adj"/></l> 
-        <r>teórico<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>theoretical<s n="adj"/></l> 
-        <r>teórico<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>therapeutic<s n="adj"/></l> 
@@ -13705,15 +13142,7 @@
         <r>minucioso<s n="adj"/></r> 
       </p>
     </e>
-
-    <e r="RL">
-      <p>
-        <l>threatening<s n="adj"/></l> 
-        <r>amenazante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
+    <e>
       <p>
         <l>threatening<s n="adj"/></l> 
         <r>amenazante<s n="adj"/><s n="mf"/></r> 
@@ -13791,13 +13220,6 @@
     </e>
 
     <e>
-      <p>
-        <l>topographical<s n="adj"/></l> 
-        <r>topográfico<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
       <p>
         <l>topographical<s n="adj"/></l> 
         <r>topográfico<s n="adj"/></r> 
@@ -13968,21 +13390,14 @@
     <e r="RL">
       <p>
         <l>true<s n="adj"/><s n="sint"/></l> 
-        <r>cierto<s n="adj"/></r> 
+        <r>verdadero<s n="adj"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
         <l>true<s n="adj"/><s n="sint"/></l> 
-        <r>verdadero<s n="adj"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>true<s n="adj"/><s n="sint"/></l> 
-        <r>verdadero<s n="adj"/><s n="m"/></r> 
+        <r>verdadero<s n="adj"/></r> 
       </p>
     </e>
 
@@ -14000,12 +13415,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>twofold<s n="adj"/></l> 
-        <r>doble<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -14035,24 +13444,10 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>unable<s n="adj"/></l> 
-        <r>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>unable<s n="adj"/></l> 
-        <r>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>unable<s n="adj"/></l> 
-        <r>incapaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+        <r>incapaz<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -14217,20 +13612,12 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>unhappy<s n="adj"/><s n="sint"/></l> 
         <r>infeliz<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
-
-    <e r="LR">
-      <p>
-        <l>unhappy<s n="adj"/><s n="sint"/></l> 
-        <r>infeliz<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>unidirectional<s n="adj"/></l> 
@@ -14286,14 +13673,6 @@
         <r>universitario<s n="adj"/></r> 
       </p>
     </e>
-
-    <e r="RL">
-      <p>
-        <l>university<s n="adj"/></l> 
-        <r>universitario<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>univocal<s n="adj"/></l> 
@@ -14868,40 +14247,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>wide<s n="adj"/><s n="sint"/></l> 
-        <r>ancho<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>wide<s n="adj"/><s n="sint"/></l> 
-        <r>ancho<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>wide<s n="adj"/><s n="sint"/></l> 
-        <r>ancho<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>wide<s n="adj"/><s n="sint"/></l> 
-        <r>ancho<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>wide<s n="adj"/><s n="sint"/></l> 
-        <r>ancho<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -14990,79 +14335,10 @@
     <e>
       <p>
         <l>worthy<s n="adj"/></l> 
-        <r>digno<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>worthy<s n="adj"/></l> 
-        <r>digno<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>worthy<s n="adj"/></l> 
-        <r>digno<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>worthy<s n="adj"/></l> 
-        <r>digno<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>worthy<s n="adj"/></l> 
-        <r>digno<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>worthy<s n="adj"/></l> 
         <r>digno<s n="adj"/></r> 
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>wrong<s n="adj"/></l> 
-        <r>incorrecto<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>wrong<s n="adj"/></l> 
-        <r>incorrecto<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>wrong<s n="adj"/></l> 
-        <r>incorrecto<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>wrong<s n="adj"/></l> 
-        <r>incorrecto<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>wrong<s n="adj"/></l> 
-        <r>incorrecto<s n="adj"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>

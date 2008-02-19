@@ -471,12 +471,6 @@
         <i>anchor</i> 
         <par n="accept__vblex"/> 
     </e>
-
-    <e lm="anger">
-        <i>anger</i> 
-        <par n="accept__vblex"/> 
-    </e>
-
     <e lm="annex">
         <i>annex</i> 
         <par n="accept__vblex"/> 
@@ -1242,7 +1236,7 @@
 
     <e lm="carry out">
         <i>carr</i> 
-        <par n="appl/y__vblex"/> 
+        <par n="appl/y__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>out</l> 
@@ -6469,7 +6463,7 @@
 
     <e lm="set up">
         <i>set</i> 
-        <par n="cut__vblex"/> 
+        <par n="cut__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>up</l> 
@@ -6593,7 +6587,7 @@
 
     <e lm="shut down">
         <i>shut</i> 
-        <par n="cut__vblex"/> 
+        <par n="cut__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>down</l> 
@@ -7157,7 +7151,7 @@
 
     <e lm="take off">
         <i>t</i> 
-        <par n="t/ake__vblex"/> 
+        <par n="t/ake__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>off</l> 
@@ -7167,7 +7161,7 @@
 
     <e lm="take out">
         <i>t</i> 
-        <par n="t/ake__vblex"/> 
+        <par n="t/ake__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>out</l> 
@@ -7219,7 +7213,7 @@
 
     <e lm="take away">
         <i>t</i> 
-        <par n="t/ake__vblex"/> 
+        <par n="t/ake__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>away</l> 

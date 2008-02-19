@@ -31,9 +31,7 @@
     <par n="h/aber__vbmod"/>
     <p>
       <l><b/>de</l>
-      <r>
-        <g><b/>de</g>
-      </r>
+      <r><g><b/>de</g></r>
     </p>
   </e>
   <e lm="poder">
@@ -49,9 +47,7 @@
     <par n="t/ener__vbmod"/>
     <p>
       <l><b/>que</l>
-      <r>
-        <g><b/>que</g>
-      </r>
+      <r><g><b/>que</g></r>
     </p>
   </e>
   <!-- 
@@ -83,8 +79,8 @@
     <par n="ata/car__vblex"/>
   </e>
   <e lm="abolir" a="prompsit2adn">
-    <i>aboli</i>
-    <par n="pari/r__vblex"/>
+    <i>abol</i>
+    <par n="par/ir__vblex"/>
   </e>
   <e lm="abolir" a="prompsit2adn">
     <p>
@@ -1057,6 +1053,17 @@
     <p>
       <l>amontón</l>
       <r>amonton</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+  <e lm="anexionar">
+    <i>anexion</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="anexionar">
+    <p>
+      <l>anexión</l>
+      <r>anexion</r>
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
@@ -2849,6 +2856,20 @@
     <i>compla</i>
     <par n="agrade/cer__vblex"/>
   </e>
+      
+  <e lm="acercarse">
+    <i>acer</i>
+    <par n="ata/carse__vblex"/>
+  </e>
+  
+  <e lm="acercarse">
+    <p>
+      <l>acér</l>
+      <r>acer</r>
+    </p>
+    <par n="atá/carse__vblex"/>
+  </e>
+
   <e lm="complementar">
     <i>complement</i>
     <par n="abandon/ar__vblex"/>
@@ -4034,9 +4055,7 @@
     <par n="d/ar__vblex"/>
     <p>
       <l><b/>un<b/>beso</l>
-      <r>
-        <g><b/>un<b/>beso</g>
-      </r>
+      <r><g><b/>un<b/>beso</g></r>
     </p>
   </e>
   <e lm="dar">
@@ -7708,9 +7727,7 @@
     <par n="h/acer__vblex"/>
     <p>
       <l><b/>daño</l>
-      <r>
-        <g><b/>daño</g>
-      </r>
+      <r><g><b/>daño</g></r>
     </p>
   </e>
   <e lm="habilitar">
@@ -8789,18 +8806,8 @@
     <par n="abandon/ar__vblex"/>
     <p>
       <l><b/>a<b/>cabo</l>
-      <r>
-        <g><b/>a<b/>cabo</g>
-      </r>
+      <r><g><b/>a<b/>cabo</g></r>
     </p>
-  </e>
-  <e lm="llevar">
-    <i>llev</i>
-    <par n="abandon/ar__vblex"/>
-  </e>
-  <e lm="llevar">
-    <i>llev</i>
-    <par n="abandon/ar__vblex"/>
   </e>
   <e lm="llevar">
     <i>llev</i>
@@ -8839,24 +8846,8 @@
     <par n="abandón/ar__vblex"/>
     <p>
       <l><b/>a<b/>cabo</l>
-      <r>
-        <g><b/>a<b/>cabo</g>
-      </r>
+      <r><g><b/>a<b/>cabo</g></r>
     </p>
-  </e>
-  <e lm="llevar">
-    <p>
-      <l>llév</l>
-      <r>llev</r>
-    </p>
-    <par n="abandón/ar__vblex"/>
-  </e>
-  <e lm="llevar">
-    <p>
-      <l>llév</l>
-      <r>llev</r>
-    </p>
-    <par n="abandón/ar__vblex"/>
   </e>
   <e lm="llevar">
     <p>
@@ -9929,8 +9920,8 @@
     <par n="agrade/cer__vblex"/>
   </e>
   <e lm="parir">
-    <i>pari</i>
-    <par n="pari/r__vblex"/>
+    <i>par</i>
+    <par n="par/ir__vblex"/>
   </e>
   <e lm="partir">
     <i>part</i>

@@ -1970,10 +1970,6 @@
     <i>azulejo</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="azulgrana">
-    <i>azulgrana</i>
-    <par n="accionista__n"/>
-  </e>
   <e lm="azúcar">
     <i>azúcar</i>
     <par n="abril__n"/>
@@ -2033,14 +2029,6 @@
   <e lm="balanza">
     <i>balanza</i>
     <par n="abeja__n"/>
-  </e>
-  <e lm="balcánico" a="prompsit2adn">
-    <i>balcánic</i>
-    <par n="abogad/o__n"/>
-  </e>
-  <e lm="balear">
-    <i>balear</i>
-    <par n="albañil__n"/>
   </e>
   <e lm="ballena" a="prompsit2adn">
     <i>ballena</i>
@@ -2361,10 +2349,6 @@
   <e lm="bit" a="prompsit2adn">
     <i>bit</i>
     <par n="abismo__n"/>
-  </e>
-  <e lm="bizantino" a="prompsit2adn">
-    <i>bizantin</i>
-    <par n="abogad/o__n"/>
   </e>
   <e lm="biógrafo" a="prompsit2adn">
     <i>biógraf</i>
@@ -3466,10 +3450,6 @@
     <i>centralismo</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="centralista" a="prompsit2adn">
-    <i>centralista</i>
-    <par n="accionista__n"/>
-  </e>
   <e lm="centralita">
     <i>centralita</i>
     <par n="abeja__n"/>
@@ -4386,10 +4366,6 @@
     <i>concreci</i>
     <par n="acci/ón__n"/>
   </e>
-  <e lm="concurrente" a="prompsit2adn">
-    <i>concurrente</i>
-    <par n="accionista__n"/>
-  </e>
   <e lm="concurso">
     <i>concurso</i>
     <par n="abismo__n"/>
@@ -4948,7 +4924,11 @@
   </e>
   <e lm="coral">
     <i>coral</i>
-    <par n="albañil__n"/>
+    <par n="abril__n"/>
+  </e>
+  <e lm="coral">
+    <i>coral</i>
+    <par n="accesibilidad__n"/>
   </e>
   <e lm="corazón">
     <i>coraz</i>
@@ -5690,7 +5670,7 @@
     <i>defensa</i>
     <par n="accionista__n"/>
   </e>
-  <e lm="deficiente">
+  <e lm="deficiente" r="RL">
     <i>deficiente</i>
     <par n="accionista__n"/>
   </e>
@@ -5850,10 +5830,6 @@
     <i>deportista</i>
     <par n="accionista__n"/>
   </e>
-  <e lm="depositario" a="gema">
-    <i>depositari</i>
-    <par n="abogad/o__n"/>
-  </e>
   <e lm="depreciación" a="prompsit2adn">
     <i>depreciaci</i>
     <par n="acci/ón__n"/>
@@ -5873,10 +5849,6 @@
   <e lm="derecha">
     <i>derecha</i>
     <par n="abeja__n"/>
-  </e>
-  <e lm="derechista" a="prompsit2adn">
-    <i>derechista</i>
-    <par n="accionista__n"/>
   </e>
   <e lm="derecho">
     <i>derecho</i>
@@ -7045,10 +7017,6 @@
   <e lm="eliminación">
     <i>eliminaci</i>
     <par n="acci/ón__n"/>
-  </e>
-  <e lm="elitista" a="prompsit2adn">
-    <i>elitista</i>
-    <par n="accionista__n"/>
   </e>
   <e lm="elogio">
     <i>elogio</i>
@@ -8494,10 +8462,6 @@
     <i>federalismo</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="federalista" a="prompsit2adn">
-    <i>federalista</i>
-    <par n="accionista__n"/>
-  </e>
   <e lm="felicidad">
     <i>felicidad</i>
     <par n="accesibilidad__n"/>
@@ -8566,9 +8530,9 @@
     <i>fiebre</i>
     <par n="abeja__n"/>
   </e>
-  <e lm="fiel">
-    <i>fiel</i>
-    <par n="albañil__n"/>
+  <e lm="fieles">
+    <i>fieles</i>
+    <par n="alrededores__n"/>
   </e>
   <e lm="fiesta">
     <i>fiesta</i>
@@ -9013,14 +8977,6 @@
   <e lm="futurismo" a="prompsit2adn">
     <i>futurismo</i>
     <par n="abismo__n"/>
-  </e>
-  <e lm="futurista" a="prompsit2adn">
-    <i>futurista</i>
-    <par n="accionista__n"/>
-  </e>
-  <e lm="futurista" a="prompsit2adn">
-    <i>futurista</i>
-    <par n="accionista__n"/>
   </e>
   <e lm="futuro">
     <i>futuro</i>
@@ -9924,7 +9880,7 @@
   </e>
   <e lm="humano">
     <i>human</i>
-    <par n="abogad/o__n"/>
+    <par n="abismo__n"/>
   </e>
   <e lm="humanidad">
     <i>humanidad</i>
@@ -10106,10 +10062,6 @@
     <i>impacto</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="impar">
-    <i>impar</i>
-    <par n="albañil__n"/>
-  </e>
   <e lm="imparcialidad">
     <i>imparcialidad</i>
     <par n="accesibilidad__n"/>
@@ -10118,17 +10070,9 @@
     <i>impasibilidad</i>
     <par n="accesibilidad__n"/>
   </e>
-  <e lm="imperativo">
-    <i>imperativo</i>
-    <par n="abismo__n"/>
-  </e>
   <e lm="imperialismo">
     <i>imperialismo</i>
     <par n="abismo__n"/>
-  </e>
-  <e lm="imperialista" a="prompsit2adn">
-    <i>imperialista</i>
-    <par n="accionista__n"/>
   </e>
   <e lm="imperio">
     <i>imperio</i>
@@ -10305,10 +10249,6 @@
   <e lm="inculpación" a="prompsit2adn">
     <i>inculpaci</i>
     <par n="acci/ón__n"/>
-  </e>
-  <e lm="indefinido">
-    <i>indefinid</i>
-    <par n="abogad/o__n"/>
   </e>
   <e lm="indemnización">
     <i>indemnizaci</i>
@@ -11574,10 +11514,6 @@
     <i>ligaz</i>
     <par n="acci/ón__n"/>
   </e>
-  <e lm="lila" a="prompsit2adn">
-    <i>lila</i>
-    <par n="abeja__n"/>
-  </e>
   <e lm="limón">
     <i>lim</i>
     <par n="aluvi/ón__n"/>
@@ -12229,10 +12165,6 @@
   <e lm="materialismo" a="prompsit2adn">
     <i>materialismo</i>
     <par n="abismo__n"/>
-  </e>
-  <e lm="materialista" a="prompsit2adn">
-    <i>materialista</i>
-    <par n="accionista__n"/>
   </e>
   <e lm="materialización">
     <i>materializaci</i>
@@ -12962,6 +12894,10 @@
     <i>moratoria</i>
     <par n="abeja__n"/>
   </e>
+  <e lm="moraleja">
+    <i>moraleja</i>
+    <par n="abeja__n"/>
+  </e>
   <e lm="morfología" a="prompsit2adn">
     <i>morfología</i>
     <par n="abeja__n"/>
@@ -13190,10 +13126,6 @@
     <i>método</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="místico" a="prompsit2adn">
-    <i>místic</i>
-    <par n="abogad/o__n"/>
-  </e>
   <e lm="módem">
     <i>módem</i>
     <par n="abismo__n"/>
@@ -13273,10 +13205,6 @@
   <e lm="naturaleza">
     <i>naturaleza</i>
     <par n="abeja__n"/>
-  </e>
-  <e lm="naturalista" a="prompsit2adn">
-    <i>naturalista</i>
-    <par n="accionista__n"/>
   </e>
   <e lm="naufragio">
     <i>naufragio</i>
@@ -13442,10 +13370,6 @@
     <i>nigerian</i>
     <par n="abogad/o__n"/>
   </e>
-  <e lm="nihilista" a="prompsit2adn">
-    <i>nihilista</i>
-    <par n="accionista__n"/>
-  </e>
   <e lm="ninfa" a="prompsit2adn">
     <i>ninfa</i>
     <par n="abeja__n"/>
@@ -13533,10 +13457,6 @@
   <e lm="norte">
     <i>norte</i>
     <par n="atletismo__n"/>
-  </e>
-  <e lm="norteño" a="prompsit2adn">
-    <i>norteñ</i>
-    <par n="abogad/o__n"/>
   </e>
   <e lm="noruego">
     <i>norueg</i>
@@ -15092,10 +15012,6 @@
     <i>planeta</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="planetario">
-    <i>planetario</i>
-    <par n="abismo__n"/>
-  </e>
   <e lm="planificación">
     <i>planificaci</i>
     <par n="acci/ón__n"/>
@@ -15639,10 +15555,6 @@
   <e lm="primavera">
     <i>primavera</i>
     <par n="abeja__n"/>
-  </e>
-  <e lm="principal">
-    <i>principal</i>
-    <par n="albañil__n"/>
   </e>
   <e lm="principio">
     <i>principio</i>
@@ -18018,7 +17930,7 @@
   </e>
   <e lm="sobrante">
     <i>sobrante</i>
-    <par n="accionista__n"/>
+    <par n="abismo__n"/>
   </e>
   <e lm="sobredosis" a="prompsit2adn">
     <i>sobredosis</i>
@@ -18438,6 +18350,10 @@
   </e>
   <e lm="sureño" a="prompsit2adn">
     <i>sureñ</i>
+    <par n="abogad/o__n"/>
+  </e>
+  <e lm="norteño" a="prompsit2adn">
+    <i>norteñ</i>
     <par n="abogad/o__n"/>
   </e>
   <e lm="surtido">
@@ -19280,10 +19196,6 @@
     <i>transposici</i>
     <par n="acci/ón__n"/>
   </e>
-  <e lm="transversal" a="prompsit2adn">
-    <i>transversal</i>
-    <par n="accesibilidad__n"/>
-  </e>
   <e lm="tranvía">
     <i>tranvía</i>
     <par n="abismo__n"/>
@@ -19563,10 +19475,6 @@
   <e lm="turquesa" a="prompsit2adn">
     <i>turquesa</i>
     <par n="abeja__n"/>
-  </e>
-  <e lm="táctico">
-    <i>táctic</i>
-    <par n="abogad/o__n"/>
   </e>
   <e lm="táctica">
     <i>táctica</i>
@@ -20191,10 +20099,6 @@
   <e lm="vista">
     <i>vista</i>
     <par n="abeja__n"/>
-  </e>
-  <e lm="visual">
-    <i>visual</i>
-    <par n="accesibilidad__n"/>
   </e>
   <e lm="visualización">
     <i>visualizaci</i>

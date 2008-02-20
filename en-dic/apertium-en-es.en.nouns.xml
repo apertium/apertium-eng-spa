@@ -476,6 +476,11 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="resemblance">
+        <i>resemblance</i> 
+        <par n="house__n"/> 
+    </e>
+
     <e lm="access">
         <i>access</i> 
         <par n="access__n"/> 
@@ -2487,6 +2492,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="human being">
+        <i>human<b/>being</i> 
+        <par n="house__n"/> 
+    </e>
 
     <e lm="belief">
         <i>belief</i> 
@@ -2800,6 +2809,11 @@
 
     <e lm="board">
         <i>board</i> 
+        <par n="house__n"/> 
+    </e>
+
+    <e lm="seaboard">
+        <i>seaboard</i> 
         <par n="house__n"/> 
     </e>
 
@@ -4633,6 +4647,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="raincoat">
+        <i>raincoat</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="cobweb">
         <i>cobweb</i> 
         <par n="house__n"/> 
@@ -6446,6 +6464,15 @@
 
     <e lm="dead person">
         <i>dead<b/>person</i> 
+        <par n="house__n"/> 
+    </e>
+
+    <e lm="handicapped person">
+        <i>handicapped<b/>person</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="mentally handicapped person">
+        <i>mentally<b/>handicapped<b/>person</i> 
         <par n="house__n"/> 
     </e>
 
@@ -14590,6 +14617,14 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="member of parliament">
+        <i>member</i> 
+        <par n="house__n"/> 
+	<p>
+	  <l><b/>of<b/>parliament</l>
+	  <r><g><b/>of<b/>parliament</g></r>
+	</p>
+    </e>
     <e lm="membership">
         <i>membership</i> 
         <par n="house__n"/> 
@@ -16162,6 +16197,11 @@
         <i>office</i> 
         <par n="house__n"/> 
     </e>
+
+    <e lm="head office">
+        <i>head<b/>office</i> 
+        <par n="house__n"/> 
+    </e> 
 
     <e lm="officer">
         <i>officer</i> 
@@ -21366,6 +21406,11 @@
         <par n="house__n"/> 
     </e>
 
+
+    <e lm="turn signal">
+        <i>turn<b/>signal</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="signature">
         <i>signature</i> 
         <par n="house__n"/> 
@@ -25570,618 +25615,358 @@
 
     <e lm="Albanian">
         <i>Albanian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Andorran">
         <i>Andorran</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Anglo-Saxon">
         <i>Anglo-Saxon</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="Argentine">
-        <i>Argentine</i> 
-        <par n="null"/> 
+    <e lm="Argentinian">
+        <i>Argentinian</i> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Australian">
         <i>Australian</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="Barcelona">
-        <i>Barcelona</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="Balkan">
-        <i>Balkan</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="Balearic">
-        <i>Balearic</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Byelorussian">
         <i>Byelorussian</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="Byzantine">
-        <i>Byzantine</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Bavarian">
         <i>Bavarian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Cameroonian">
         <i>Cameroonian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Canarian">
         <i>Canarian</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="centre">
-        <i>centre</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="centralist">
-        <i>centralist</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Chilean">
         <i>Chilean</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Chinese">
         <i>Chinese</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Cypriot">
         <i>Cypriot</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="collective">
-        <i>collective</i> 
-        <par n="null"/> 
-    </e>
 
     <e lm="Colombian">
         <i>Colombian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="concurrent">
-        <i>concurrent</i> 
-        <par n="null"/> 
-    </e>
 
     <e lm="Congolese">
         <i>Congolese</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
-
-    <e lm="Congolese">
-        <i>Congolese</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="contentious">
-        <i>contentious</i> 
-        <par n="null"/> 
-    </e>
-
+    
     <e lm="choral">
         <i>choral</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
+    </e>
+    
+    <e lm="coral">
+        <i>coral</i> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="raw">
-        <i>raw</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="deficient">
-        <i>deficient</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="depository">
-        <i>depository</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="right-handed">
-        <i>right-handed</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="managerial">
-        <i>managerial</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="distinctive">
-        <i>distinctive</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="ecclesiastical">
-        <i>ecclesiastical</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="elitist">
-        <i>elitist</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="sick">
-        <i>sick</i> 
-        <par n="null"/> 
+    <e lm="crude">
+        <i>crude</i> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Scandinavian">
         <i>Scandinavian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="school">
-        <i>school</i> 
-        <par n="null"/> 
-    </e>
 
     <e lm="Falangist">
         <i>Falangist</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="fascist">
         <i>fascist</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="federalistic">
-        <i>federalistic</i> 
-        <par n="null"/> 
+
+    <e lm="Finn">
+        <i>Finn</i> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="faithful">
-        <i>faithful</i> 
-        <par n="null"/> 
+    <e lm="public prosecutor">
+        <i>public<b/>prosecutor</i> 
+        <par n="house__n"/> 
     </e>
-
-    <e lm="Finnish">
-        <i>Finnish</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="fiscal">
-        <i>fiscal</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="futuristic">
-        <i>futuristic</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="futuristic">
-        <i>futuristic</i> 
-        <par n="null"/> 
-    </e>
-
     <e lm="Gibraltarian">
         <i>Gibraltarian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Guatemalan">
         <i>Guatemalan</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="homosexual">
         <i>homosexual</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Honduran">
         <i>Honduran</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="human">
-        <i>human</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="odd">
-        <i>odd</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="imperative">
-        <i>imperative</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="imperialist">
-        <i>imperialist</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="waterproof">
-        <i>waterproof</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="impressionist">
         <i>impressionist</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="indefinite">
-        <i>indefinite</i> 
-        <par n="null"/> 
-    </e>
 
     <e lm="Indian">
         <i>Indian</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="native">
-        <i>native</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="intermittent">
-        <i>intermittent</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Icelandic">
         <i>Icelandic</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Jamaican">
         <i>Jamaican</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Kenyan">
         <i>Kenyan</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="lateral">
-        <i>lateral</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Latvian">
         <i>Latvian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Lebanese">
         <i>Lebanese</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="lilac">
-        <i>lilac</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="longshore">
-        <i>longshore</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Lithuanian">
         <i>Lithuanian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Majorcan">
         <i>Majorcan</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Maltese">
         <i>Maltese</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="manual">
         <i>manual</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Moroccan">
         <i>Moroccan</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="materialist">
-        <i>materialist</i> 
-        <par n="null"/> 
-    </e>
 
     <e lm="Mexican">
         <i>Mexican</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
-
-    <e lm="military">
-        <i>military</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="handicapped">
-        <i>handicapped</i> 
-        <par n="null"/> 
-    </e>
+    
 
     <e lm="moral">
         <i>moral</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Muslim">
         <i>Muslim</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="mystic">
-        <i>mystic</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="naturalistic">
-        <i>naturalistic</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Nepalese">
         <i>Nepalese</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
     <e lm="Nicaraguan">
         <i>Nicaraguan</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Nigerian">
         <i>Nigerian</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="nihilistic">
-        <i>nihilistic</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="northern">
-        <i>northern</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Norwegian">
         <i>Norwegian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="working">
-        <i>working</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="optimistic">
-        <i>optimistic</i> 
-        <par n="null"/> 
+    <e lm="optimist">
+        <i>optimist</i> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Orthodox">
         <i>Orthodox</i> 
-        <par n="null"/> 
+        <par n="bass__n"/> 
     </e>
 
     <e lm="Panamanian">
         <i>Panamanian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Paraguayan">
         <i>Paraguayan</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="alike">
-        <i>alike</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="parliamentary">
-        <i>parliamentary</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="periodic">
-        <i>periodic</i> 
-        <par n="null"/> 
-    </e>
 
     <e lm="Persian">
         <i>Persian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Peruvian">
         <i>Peruvian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="planetary">
-        <i>planetary</i> 
-        <par n="null"/> 
+
+    <e lm="plenary">
+        <i>plenar</i> 
+        <par n="bab/y__n"/> 
     </e>
 
-    <e lm="flat">
-        <i>flat</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="full">
-        <i>full</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="Polish">
-        <i>Polish</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="principal">
-        <i>principal</i> 
-        <par n="null"/> 
+    <e lm="Pole">
+        <i>Pole</i> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="republican">
         <i>republican</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="reverend">
         <i>reverend</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="red">
         <i>red</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="rotary">
-        <i>rotary</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="wise">
-        <i>wise</i> 
-        <par n="null"/> 
+    <e lm="wise person">
+        <i>wise<b/>person</i> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Syrian">
         <i>Syrian</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="excess">
-        <i>excess</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Somali">
         <i>Somali</i> 
-        <par n="null"/> 
+        <par n="zebra__n"/> 
     </e>
 
     <e lm="Sudanese">
         <i>Sudanese</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="supplying">
-        <i>supplying</i> 
-        <par n="null"/> 
+    <e lm="southerner">
+        <i>southerner</i> 
+        <par n="house__n"/> 
     </e>
-
-    <e lm="meridional">
-        <i>meridional</i> 
-        <par n="null"/> 
+    <e lm="northerner">
+        <i>northerner</i> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Thai">
         <i>Thai</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Taiwanese">
         <i>Taiwanese</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="transversal">
-        <i>transversal</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="tactical">
-        <i>tactical</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Ukrainian">
         <i>Ukrainian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Uruguayan">
         <i>Uruguayan</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="vegetal">
-        <i>vegetal</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Venetian">
         <i>Venetian</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Vietnamese">
         <i>Vietnamese</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="visual">
-        <i>visual</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
     <e lm="Yugoslav">
         <i>Yugoslav</i> 
-        <par n="null"/> 
+        <par n="house__n"/> 
     </e>
 
-    <e lm="Arab">
-        <i>Arab</i> 
-        <par n="null"/> 
+    <e lm="Yugoslavian">
+        <i>Yugoslavian</i> 
+        <par n="house__n"/> 
     </e>
-
-
 </section>
 

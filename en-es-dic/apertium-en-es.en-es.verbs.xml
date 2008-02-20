@@ -12,12 +12,6 @@
       </p>
     </e>
 
-    <e r="LR" c="traducció buida">
-      <p>
-        <l>have<s n="vbhaver"/></l> 
-        <r>haber<s n="vbhaver"/></r> 
-      </p>
-    </e>
 
     <!-- 
       ******************************
@@ -31,13 +25,8 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>be<s n="vbser"/></l> 
-        <r>ser<s n="vbser"/></r> 
-      </p>
-    </e>
-
+    <e r="RL"><p><l>be<s n="vbser"/></l><r>estar<s n="vblex"/></r></p></e>
+   
     <!-- 
       ******************************
       (vbmod) group
@@ -64,19 +53,7 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>have<g><b/>to</g><s n="vbmod"/></l> 
-        <r>tener<g><b/>que</g><s n="vbmod"/></r> 
-      </p>
-    </e>
 
-    <e r="RL">
-      <p>
-        <l>have<g><b/>to</g><s n="vbmod"/></l> 
-        <r>tener<g><b/>que</g><s n="vbmod"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -85,21 +62,21 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>want<g><b/>to</g><s n="vbmod"/></l> 
-        <r>querer<s n="vbmod"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>want<g><b/>to</g><s n="vbmod"/></l> 
-        <r>querer<s n="vbmod"/></r> 
-      </p>
-    </e>
+<e><p><l>can<s n="vaux"/></l><r>poder<s n="vbmod"/></r></p></e>
+<e r="LR"><p><l>must<s n="vaux"/></l><r>haver<g><b/>de</g><s n="vbmod"/></r></p></e>
+<e r="LR"><p><l>should<s n="vaux"/></l><r>haver<g><b/>de</g><s n="vbmod"/></r></p></e>
+<e r="LR"><p><l>may<s n="vaux"/></l><r>poder<s n="vbmod"/></r></p></e>
+<e r="LR"><p><l>might<s n="vaux"/></l><r>poder<s n="vbmod"/></r></p></e>
 
 
+
+<e r="LR" c="traducció buida"><p><l>will<s n="vaux"/><s n="inf"/></l><r></r></p></e>
+<e r="LR" c="traducció buida"><p><l>shall<s n="vaux"/><s n="inf"/></l><r></r></p></e>
+<e r="LR" c="traducció buida"><p><l>would<s n="vaux"/><s n="inf"/></l><r></r></p></e>
+
+<e r="LR" c="traducció buida"><p><l>do<s n="vbdo"/><s n="pres"/></l><r></r></p></e>
+<e r="LR" c="traducció buida"><p><l>do<s n="vbdo"/><s n="pri"/><s n="p3"/><s n="sg"/></l><r></r></p></e>
+<e r="LR" c="traducció buida"><p><l>do<s n="vbdo"/><s n="past"/></l><r></r></p></e>
     <!-- 
       ******************************
       (vblex) group
@@ -10919,13 +10896,6 @@
     </e>
 
     <e r="LR" c="(intransitiu)">
-      <p>
-        <l>stand<s n="vblex"/></l> 
-        <r>estar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="això seria polisèmia en-ca?">
       <p>
         <l>stand<s n="vblex"/></l> 
         <r>estar<s n="vblex"/></r> 

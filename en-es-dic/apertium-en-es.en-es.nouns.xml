@@ -8042,12 +8042,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>choir<s n="n"/></l> 
-        <r>corazón<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e r="LR">
       <p>
@@ -8098,13 +8092,7 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>chorus<s n="n"/></l> 
-        <r>corazón<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
+    
     <e>
       <p>
         <l>chorus<s n="n"/></l> 
@@ -20430,13 +20418,7 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>heart<s n="n"/></l> 
-        <r>coro<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
+   
     <e>
       <p>
         <l>heat<s n="n"/></l> 
@@ -31602,12 +31584,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>plan<s n="n"/></l> 
-        <r>plan<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e r="LR">
       <p>
@@ -44691,10 +44667,16 @@
     <e>
       <p>
         <l>vegetable<s n="n"/></l> 
-        <r>verdura<s n="n"/><s n="f"/></r> 
+        <r>vegetal<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>vegetable<s n="n"/></l> 
+        <r>verdura<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>vegetation<s n="n"/></l> 
@@ -46500,7 +46482,7 @@
 
     <e c="check">
       <p>
-        <l>Argentine<s n="n"/></l> 
+        <l>Argentinian<s n="n"/></l> 
         <r>argentino<s n="n"/></r> 
       </p>
     </e>
@@ -46512,38 +46494,11 @@
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>Barcelona<s n="n"/></l> 
-        <r>azulgrana<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>Balkan<s n="n"/></l> 
-        <r>balcánico<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>Balearic<s n="n"/></l> 
-        <r>balear<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e c="check">
       <p>
         <l>Byelorussian<s n="n"/></l> 
         <r>bielorruso<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>Byzantine<s n="n"/></l> 
-        <r>bizantino<s n="n"/></r> 
       </p>
     </e>
 
@@ -46570,17 +46525,11 @@
 
     <e c="check">
       <p>
-        <l>centre<s n="n"/></l> 
-        <r>central<s n="n"/><s n="mf"/></r> 
+        <l>head<b/>office<s n="n"/></l> 
+        <r>central<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>centralist<s n="n"/></l> 
-        <r>centralista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e c="check">
       <p>
@@ -46603,10 +46552,10 @@
       </p>
     </e>
 
-    <e c="check">
+    <e r="RL">
       <p>
-        <l>collective<s n="n"/></l> 
-        <r>colectivo<s n="n"/></r> 
+        <l>community<s n="n"/></l> 
+        <r>colectivo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -46617,14 +46566,7 @@
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>concurrent<s n="n"/></l> 
-        <r>concurrente<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
+    <e r="RL">
       <p>
         <l>Congolese<s n="n"/></l> 
         <r>congolés<s n="n"/></r> 
@@ -46640,77 +46582,65 @@
 
     <e c="check">
       <p>
-        <l>contentious<s n="n"/></l> 
-        <r>contencioso<s n="n"/></r> 
+        <l>dispute<s n="n"/></l> 
+        <r>contencioso<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e c="check">
+      <p>
+        <l>coral<s n="n"/></l> 
+        <r>coral<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
         <l>choral<s n="n"/></l> 
-        <r>coral<s n="n"/><s n="mf"/></r> 
+        <r>coral<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>raw<s n="n"/><s n="sint"/></l> 
-        <r>crudo<s n="n"/></r> 
+        <l>crude<s n="n"/></l> 
+        <r>crudo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>deficient<s n="n"/></l> 
+        <l>mentally<b/>handicapped<b/>person<s n="n"/></l> 
         <r>deficiente<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>depository<s n="n"/></l> 
-        <r>depositario<s n="n"/></r> 
-      </p>
-    </e>
 
-    <e c="check">
+    <e c="check" r="RL">
       <p>
-        <l>right-handed<s n="n"/></l> 
-        <r>derechista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>managerial<s n="n"/></l> 
+        <l>director<s n="n"/></l> 
         <r>directivo<s n="n"/></r> 
       </p>
     </e>
 
-    <e c="check">
+    <e c="check" r="RL">
       <p>
-        <l>distinctive<s n="n"/></l> 
-        <r>distintivo<s n="n"/></r> 
+        <l>sign<s n="n"/></l> 
+        <r>distintivo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e c="check">
+    <e c="check" r="RL">
       <p>
-        <l>ecclesiastical<s n="n"/></l> 
+        <l>clergyman<s n="n"/></l> 
         <r>eclesiástico<s n="n"/></r> 
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>elitist<s n="n"/></l> 
-        <r>elitista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
 
-    <e c="check">
+    <e r="RL">
       <p>
-        <l>sick<s n="n"/><s n="sint"/></l> 
+        <l>patient<s n="n"/></l> 
         <r>enfermo<s n="n"/></r> 
       </p>
     </e>
@@ -46724,7 +46654,7 @@
 
     <e c="check">
       <p>
-        <l>school<s n="n"/></l> 
+        <l>pupil<s n="n"/></l> 
         <r>escolar<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
@@ -46743,47 +46673,27 @@
       </p>
     </e>
 
-    <e c="check">
+    <e c="check" r="RL">
       <p>
-        <l>federalistic<s n="n"/></l> 
-        <r>federalista<s n="n"/><s n="mf"/></r> 
+        <l>congregation<s n="n"/><s n="sg"/></l> 
+        <r>fieles<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>faithful<s n="n"/></l> 
-        <r>fiel<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>Finnish<s n="n"/></l> 
+        <l>Finn<s n="n"/></l> 
         <r>finlandés<s n="n"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>fiscal<s n="n"/></l> 
+        <l>public<b/>prosecutor<s n="n"/></l> 
         <r>fiscal<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>futuristic<s n="n"/></l> 
-        <r>futurista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>futuristic<s n="n"/></l> 
-        <r>futurista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e c="check">
       <p>
@@ -46813,38 +46723,15 @@
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>human<s n="n"/></l> 
-        <r>humano<s n="n"/></r> 
-      </p>
-    </e>
+    <e><p>        <l>human<s n="n"/></l>        <r>humano<s n="n"/><s n="m"/></r></p></e>
+    <e><p>        <l>human<b/>being<s n="n"/></l>        <r>ser<b/>humano<s n="n"/><s n="m"/></r></p></e>
+
+
 
     <e c="check">
       <p>
-        <l>odd<s n="n"/><s n="sint"/></l> 
-        <r>impar<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>imperative<s n="n"/></l> 
-        <r>imperativo<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>imperialist<s n="n"/></l> 
-        <r>imperialista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>waterproof<s n="n"/></l> 
-        <r>impermeable<s n="n"/><s n="mf"/></r> 
+        <l>raincoat<s n="n"/></l> 
+        <r>impermeable<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -46855,12 +46742,6 @@
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>indefinite<s n="n"/></l> 
-        <r>indefinido<s n="n"/></r> 
-      </p>
-    </e>
 
     <e c="check">
       <p>
@@ -46878,8 +46759,8 @@
 
     <e c="check">
       <p>
-        <l>intermittent<s n="n"/></l> 
-        <r>intermitente<s n="n"/><s n="mf"/></r> 
+        <l>turn<b/>signal<s n="n"/></l> 
+        <r>intermitente<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -46904,10 +46785,10 @@
       </p>
     </e>
 
-    <e c="check">
+    <e r="RL">
       <p>
-        <l>lateral<s n="n"/></l> 
-        <r>lateral<s n="n"/><s n="mf"/></r> 
+        <l>side<s n="n"/></l> 
+        <r>lateral<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -46925,17 +46806,11 @@
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>lilac<s n="n"/></l> 
-        <r>lila<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e c="check">
       <p>
-        <l>longshore<s n="n"/></l> 
-        <r>litoral<s n="n"/><s n="mf"/></r> 
+        <l>seaboard<s n="n"/></l> 
+        <r>litoral<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -46963,7 +46838,7 @@
     <e c="check">
       <p>
         <l>manual<s n="n"/></l> 
-        <r>manual<s n="n"/><s n="mf"/></r> 
+        <r>manual<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -46974,12 +46849,6 @@
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>materialist<s n="n"/></l> 
-        <r>materialista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e c="check">
       <p>
@@ -46988,27 +46857,44 @@
       </p>
     </e>
 
-    <e c="check">
+    <e c="check" r="RL">
       <p>
-        <l>military<s n="n"/></l> 
+        <l>soldier<s n="n"/></l> 
         <r>militar<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>handicapped<s n="n"/></l> 
+        <l>handicapped<b/>person<s n="n"/></l> 
         <r>minusválido<s n="n"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>moral<s n="n"/></l> 
-        <r>moral<s n="n"/><s n="mf"/></r> 
+        <l>moral<s n="n"/><s n="pl"/></l> 
+        <r>moral<s n="n"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
-
+    <e c="check" r="RL">
+      <p>
+        <l>moral<s n="n"/><s n="pl"/></l> 
+        <r>moral<s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e c="check" r="LR">
+      <p>
+        <l>moral<s n="n"/><s n="sg"/></l> 
+        <r>moraleja<s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e c="check" r="RL">
+      <p>
+        <l>moral<s n="n"/></l> 
+        <r>moraleja<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
     <e c="check">
       <p>
         <l>Muslim<s n="n"/></l> 
@@ -47016,19 +46902,6 @@
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>mystic<s n="n"/></l> 
-        <r>místico<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>naturalistic<s n="n"/></l> 
-        <r>naturalista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e c="check">
       <p>
@@ -47060,20 +46933,6 @@
 
     <e c="check">
       <p>
-        <l>nihilistic<s n="n"/></l> 
-        <r>nihilista<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>northern<s n="n"/></l> 
-        <r>norteño<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
         <l>Norwegian<s n="n"/></l> 
         <r>noruego<s n="n"/></r> 
       </p>
@@ -47081,14 +46940,14 @@
 
     <e c="check">
       <p>
-        <l>working<s n="n"/></l> 
+        <l>worker<s n="n"/></l> 
         <r>obrero<s n="n"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>optimistic<s n="n"/></l> 
+        <l>optimist<s n="n"/></l> 
         <r>optimista<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
@@ -47116,22 +46975,22 @@
 
     <e c="check">
       <p>
-        <l>alike<s n="n"/></l> 
-        <r>parecido<s n="n"/><s n="f"/></r> 
+        <l>resemblance<s n="n"/></l> 
+        <r>parecido<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>parliamentary<s n="n"/></l> 
+        <l>member<g><b/>of<b/>parliament</g><s n="n"/></l> 
         <r>parlamentario<s n="n"/></r> 
       </p>
     </e>
 
-    <e c="check">
+    <e r="RL">
       <p>
-        <l>periodic<s n="n"/></l> 
-        <r>periódico<s n="n"/></r> 
+        <l>newspaper<s n="n"/></l> 
+        <r>periódico<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -47149,38 +47008,25 @@
       </p>
     </e>
 
-    <e c="check">
+
+    <e c="check" r="RL">
       <p>
-        <l>planetary<s n="n"/></l> 
-        <r>planetario<s n="n"/></r> 
+        <l>plan<s n="n"/></l> 
+        <r>plano<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>flat<s n="n"/><s n="sint"/></l> 
-        <r>plano<s n="n"/></r> 
+        <l>plenary<s n="n"/></l> 
+        <r>pleno<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>full<s n="n"/><s n="sint"/></l> 
-        <r>pleno<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>Polish<s n="n"/></l> 
+        <l>Pole<s n="n"/></l> 
         <r>polaco<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>principal<s n="n"/></l> 
-        <r>principal<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -47194,7 +47040,7 @@
     <e c="check">
       <p>
         <l>reverend<s n="n"/></l> 
-        <r>reverendo<s n="n"/></r> 
+        <r>reverendo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -47205,16 +47051,16 @@
       </p>
     </e>
 
-    <e c="check">
+    <e c="check" r="RL">
       <p>
-        <l>rotary<s n="n"/></l> 
-        <r>rotativo<s n="n"/></r> 
+        <l>newspaper<s n="n"/></l> 
+        <r>rotativo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>wise<s n="n"/><s n="sint"/></l> 
+        <l>wise<b/>person<s n="n"/></l> 
         <r>sabio<s n="n"/></r> 
       </p>
     </e>
@@ -47226,10 +47072,10 @@
       </p>
     </e>
 
-    <e c="check">
+    <e c="check" r="RL">
       <p>
-        <l>excess<s n="n"/></l> 
-        <r>sobrante<s n="n"/><s n="mf"/></r> 
+        <l>surplus<s n="n"/></l> 
+        <r>sobrante<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -47247,20 +47093,26 @@
       </p>
     </e>
 
-    <e c="check">
+    <e c="check" r="RL">
       <p>
-        <l>supplying<s n="n"/></l> 
+        <l>supplier<s n="n"/></l> 
         <r>suministrador<s n="n"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>meridional<s n="n"/></l> 
-        <r>sureño<s n="n"/><s n="m"/></r> 
+        <l>southerner<s n="n"/></l> 
+        <r>sureño<s n="n"/></r> 
       </p>
     </e>
 
+    <e c="check">
+      <p>
+        <l>northerner<s n="n"/></l> 
+        <r>norteño<s n="n"/></r> 
+      </p>
+    </e>
     <e c="check">
       <p>
         <l>Thai<s n="n"/></l> 
@@ -47272,20 +47124,6 @@
       <p>
         <l>Taiwanese<s n="n"/></l> 
         <r>taiwanés<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>transversal<s n="n"/></l> 
-        <r>transversal<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
-        <l>tactical<s n="n"/></l> 
-        <r>táctico<s n="n"/></r> 
       </p>
     </e>
 
@@ -47303,12 +47141,6 @@
       </p>
     </e>
 
-    <e c="check">
-      <p>
-        <l>vegetal<s n="n"/></l> 
-        <r>vegetal<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
 
     <e c="check">
       <p>
@@ -47326,22 +47158,16 @@
 
     <e c="check">
       <p>
-        <l>visual<s n="n"/></l> 
-        <r>visual<s n="n"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e c="check">
-      <p>
         <l>Yugoslav<s n="n"/></l> 
         <r>yugoslavo<s n="n"/></r> 
       </p>
     </e>
 
-    <e c="check">
+
+    <e c="check" r="LR">
       <p>
-        <l>Arab<s n="n"/></l> 
-        <r>árabe<s n="n"/><s n="mf"/></r> 
+        <l>Yugoslavian<s n="n"/></l> 
+        <r>yugoslavo<s n="n"/></r> 
       </p>
-    </e>   
+    </e>
 </section>

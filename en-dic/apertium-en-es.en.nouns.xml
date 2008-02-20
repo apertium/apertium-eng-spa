@@ -8312,7 +8312,7 @@
         <par n="house__n"/> 
     </e>
 
-    <e r="RL" lm="elder">
+    <e lm="elder">
         <i>elder</i> 
         <par n="house__n"/> 
     </e>
@@ -12125,12 +12125,6 @@
         <i>increase</i> 
         <par n="house__n"/> 
     </e>
-
-    <e lm="increasing">
-        <i>increasing</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="incubation">
         <i>incubation</i> 
         <par n="house__n"/> 
@@ -13501,11 +13495,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="leading">
-        <i>leading</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="league">
         <i>league</i> 
         <par n="house__n"/> 
@@ -13866,10 +13855,6 @@
         <par n="bab/y__n"/> 
     </e>
 
-    <e lm="literal">
-        <i>literal</i> 
-        <par n="house__n"/> 
-    </e>
 
     <e lm="literature">
         <i>literature</i> 
@@ -16691,12 +16676,6 @@
         <i>paleolithic</i> 
         <par n="house__n"/> 
     </e>
-
-    <e lm="palliative">
-        <i>palliative</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="pallium">
         <i>pallium</i> 
         <par n="house__n"/> 
@@ -17932,10 +17911,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="positive">
-        <i>positive</i> 
-        <par n="house__n"/> 
-    </e>
 
     <e lm="possession">
         <i>possession</i> 
@@ -19325,11 +19300,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="reciprocal">
-        <i>reciprocal</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="reciprocity">
         <i>reciprocit</i> 
         <par n="bab/y__n"/> 
@@ -19972,11 +19942,6 @@
 
     <e lm="result">
         <i>result</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="resultant">
-        <i>resultant</i> 
         <par n="house__n"/> 
     </e>
 
@@ -21417,11 +21382,6 @@
 
     <e lm="significance" a="carmentano">
         <i>significance</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="significant">
-        <i>significant</i> 
         <par n="house__n"/> 
     </e>
 
@@ -25185,6 +25145,11 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="running water">
+        <i>running<b/>water</i> 
+        <par n="east__n"/> 
+    </e>
+
     <e lm="watercolour">
         <i>watercolour</i> 
         <par n="house__n"/> 
@@ -25552,11 +25517,6 @@
 
     <e lm="yearbook">
         <i>yearbook</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="yellow">
-        <i>yellow</i> 
         <par n="house__n"/> 
     </e>
 

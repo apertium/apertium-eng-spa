@@ -12374,6 +12374,10 @@
     <i>mentalidad</i>
     <par n="accesibilidad__n"/>
   </e>
+  <e lm="mayor">
+    <i>mayor</i>
+    <par n="accionista__n"/>
+  </e>
   <e lm="mente">
     <i>mente</i>
     <par n="abeja__n"/>
@@ -12660,6 +12664,10 @@
   </e>
   <e lm="minusválido">
     <i>minusválid</i>
+    <par n="abogad/o__n"/>
+  </e>
+  <e lm="inválido">
+    <i>inválid</i>
     <par n="abogad/o__n"/>
   </e>
   <e lm="minuto">
@@ -20471,169 +20479,134 @@
   </e>
 
 <!-- Revisar -->
-
-    <e lm="grande">
-        <i>grande</i> 
-        <par n="null"/> 
-    </e>
+   
 
     <e lm="híbrido">
         <i>híbrido</i> 
-        <par n="null"/> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="ideal">
         <i>ideal</i> 
-        <par n="null"/> 
+        <par n="abril__n"/> 
     </e>
 
     <e lm="analfabeto">
-        <i>analfabeto</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="creciente">
-        <i>creciente</i> 
-        <par n="null"/> 
+        <i>analfabet</i> 
+        <par n="abogad/o__n"/> 
     </e>
 
     <e lm="inicial">
         <i>inicial</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="nulo">
-        <i>nulo</i> 
-        <par n="null"/> 
+        <par n="accesibilidad__n"/> 
     </e>
 
     <e lm="delantero">
-        <i>delantero</i> 
-        <par n="null"/> 
+        <i>delanter</i> 
+        <par n="abogad/o__n"/> 
     </e>
 
-    <e lm="literal">
-        <i>literal</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="marino">
-        <i>marino</i> 
-        <par n="null"/> 
+    <e lm="marine">
+        <i>marine</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="máximo">
         <i>máximo</i> 
-        <par n="null"/> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="mínimo">
         <i>mínimo</i> 
-        <par n="null"/> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="móvil">
         <i>móvil</i> 
-        <par n="null"/> 
+        <par n="abril__n"/> 
     </e>
 
     <e lm="nacionalista">
         <i>nacionalista</i> 
-        <par n="null"/> 
+        <par n="accionista__n"/> 
     </e>
 
-    <e lm="ofensivo">
-        <i>ofensivo</i> 
-        <par n="null"/> 
+    <e lm="ofensiva">
+        <i>ofensiva</i> 
+        <par n="abeja__n"/> 
     </e>
 
     <e lm="original">
         <i>original</i> 
-        <par n="null"/> 
+        <par n="abril__n"/> 
     </e>
 
     <e lm="exterior">
         <i>exterior</i> 
-        <par n="null"/> 
+        <par n="abril__n"/> 
     </e>
 
-    <e lm="ovalado">
-        <i>ovalado</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="paliativo">
-        <i>paliativo</i> 
-        <par n="null"/> 
+    <e lm="óvalo">
+        <i>óvalo</i> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="periférico">
         <i>periférico</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="positivo">
-        <i>positivo</i> 
-        <par n="null"/> 
+        <par n="abismo__n"/> 
     </e>
 
     <e lm="potencial">
         <i>potencial</i> 
-        <par n="null"/> 
+        <par n="abril__n"/> 
     </e>
 
     <e lm="radical">
         <i>radical</i> 
-        <par n="null"/> 
+        <par n="abril__n"/> 
     </e>
-
-    <e lm="recíproco">
-        <i>recíproco</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="resultante">
-        <i>resultante</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="inverso">
-        <i>inverso</i> 
-        <par n="null"/> 
+    <e lm="revés">
+        <i>rev</i> 
+        <par n="aragon/és__n"/> 
     </e>
 
     <e lm="revolucionario">
-        <i>revolucionario</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="significativo">
-        <i>significativo</i> 
-        <par n="null"/> 
+        <i>revolucionari</i> 
+        <par n="abogad/o__n"/> 
     </e>
 
     <e lm="singular">
         <i>singular</i> 
-        <par n="null"/> 
+        <par n="abril__n"/> 
     </e>
 
     <e lm="sólido">
         <i>sólido</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="superior">
-        <i>superior</i> 
-        <par n="null"/> 
-    </e>
-
-    <e lm="amarillo">
-        <i>amarillo</i> 
-        <par n="null"/> 
+        <par n="abismo__n"/> 
     </e>
 
 
+    <e lm="parte superior">
+      <p>
+        <l>parte<b/>superior</l>
+        <r>parte<b/>superior<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e lm="parte superior">
+      <p>
+        <l>partes<b/>superiores</l>
+        <r>parte<b/>superior<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+ <e lm="agua corriente">
+      <p>
+        <l>agua<b/>corriente</l>
+        <r>agua<b/>corriente<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
 
 <e lm="sustancia química"><p><l>sustancia<b/>química</l><r>sustancia<b/>química<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="sustancia química"><p><l>sustancias<b/>químicas</l><r>sustancia<b/>química<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
 </section>

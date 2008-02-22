@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <pardefs>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.pardefs-url.xml#xpointer(pardefs/*)"/>
+<!--	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.pardefs-url.xml#xpointer(pardefs/*)"/>-->
     <pardef n="null">
     <e>
       <p>
@@ -5010,14 +5010,14 @@
   
       <e>
         <p>
-          <l>-centes</l>
-          <r>-cent<s n="num"/><s n="f"/><s n="sp"/></r>
+          <l>cientas</l>
+          <r>cientos<s n="num"/><s n="f"/><s n="sp"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>-cents</l>
-          <r>-cent<s n="num"/><s n="m"/><s n="sp"/></r>
+          <l>cientos</l>
+          <r>cientos<s n="num"/><s n="m"/><s n="sp"/></r>
         </p>
       </e>
   
@@ -5027,19 +5027,6 @@
           <r><b/>mil<s n="num"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
-  
- <!--     <e>
-        <p>
-          <l><b/>milions</l>
-          <r><b/>milions<s n="num"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><b/>milions</l>
-          <r><b/>milions<s n="num"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e> -->
 
     </pardef>
 <pardef n="tres(1)__num">        
@@ -5051,18 +5038,6 @@
         </p>
       </e>
       
-    <!--  <e>
-        <p>
-          <l>-centes</l>
-          <r>-cent<s n="num"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>-cents</l>
-          <r>-cent<s n="num"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e> -->
       <e>
         <p>
           <l><b/>mil</l>
@@ -5070,18 +5045,6 @@
         </p>
       </e>
      
- <!--     <e>
-        <p>
-          <l><b/>milions</l>
-          <r><b/>milions<s n="num"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><b/>milions</l>
-          <r><b/>milions<s n="num"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e> -->
 
     </pardef>
 
@@ -5124,18 +5087,6 @@
           <r><s n="num"/><s n="f"/><s n="sp"/></r>
         </p>
       </e>
-     <!-- <e>
-        <p>
-          <l>ues-centes</l>
-          <r>os-cent<s n="num"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>os-cents</l>
-          <r>os-cent<s n="num"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e> -->
       <e>
         <p>
           <l>a<b/>mil</l>
@@ -5148,33 +5099,19 @@
           <r><b/>mil<s n="num"/><s n="m"/><s n="sp"/></r>
         </p>
       </e>
-    
-   <!--   <e>
-        <p>
-          <l><b/>milions</l>
-          <r><b/>milions<s n="num"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><b/>milions</l>
-          <r><b/>milions<s n="num"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e> -->
-
     </pardef>
     
-    <pardef n="veint/iuno__num">
+    <pardef n="veint/iun__num">
       <e>
         <p>
           <l>iuna</l>
-          <r>e<b/>y<b/>uno<s n="num"/><s n="f"/><s n="sp"/></r>
+          <r>e<b/>y<b/>un<s n="num"/><s n="f"/><s n="sp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>iún</l>
-          <r>e<b/>y<b/>uno<s n="num"/><s n="m"/><s n="sp"/></r>
+          <r>e<b/>y<b/>un<s n="num"/><s n="m"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -5191,7 +5128,7 @@
           <l></l>
           <r></r>
         </p>
-        <par n="veint/iuno__num"/>
+        <par n="veint/iun__num"/>
       </e>
       <e>
         <p>

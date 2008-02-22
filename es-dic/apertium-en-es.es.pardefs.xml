@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <pardefs>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.pardefs-url.xml#xpointer(pardefs/*)"/>
     <pardef n="null">
     <e>
       <p>
@@ -101,6 +102,7 @@
     </e>
 
     </pardef>
+    <!--
     <pardef n="emails">
     <e>
       <re>[a-z.]+@[a-z.]+</re>
@@ -121,6 +123,7 @@
     </e>
 
     </pardef>
+    -->
     <pardef n="S__cantándome">
     <e>
       <p>

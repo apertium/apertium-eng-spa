@@ -5,52 +5,62 @@
       (num) group
       ******************************
     -->
-  <e lm="catorce">
-    <i>catorce</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="diecinueve">
-    <i>diecinueve</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="dieciocho">
-    <i>dieciocho</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="diecisiete">
-    <i>diecisiete</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="dieciséis">
-    <i>dieciséis</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="diez">
-    <i>diez</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="doce">
-    <i>doce</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="mil">
-    <i>mil</i>
-    <par n="mil__num"/>
-  </e>
-  <e lm="once">
-    <i>once</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="quince">
-    <i>quince</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="trece">
-    <i>trece</i>
-    <par n="C__num"/>
-  </e>
-  <e lm="uno">
-    <i>uno</i>
-    <par n="cincuenta_y_uno__num"/>
-  </e>
+
+
+
+
+
+<e lm="cien"><i>cien</i><par n="cent__num"/></e>
+<e lm="cinco"><i>cinco</i><par n="tres__num"/></e>
+<e lm="diez"><i>diez</i><par n="cent__num"/></e>
+<e lm="diez mil"><i>diez<b/>mil</i><par n="cent__num"/></e>
+<e lm="dos"><i>dos</i><par n="tres__num"/></e>
+<e lm="mil"><i>mil</i><par n="cent__num"/></e>
+<e lm="un millón"><i>un<b/>millón</i><par n="cent__num"/></e>
+<e lm="millones"><p><l>millones</l><r>millón</r></p><par n="cent__num"/></e>
+<e lm="un millón de" r="RL"><p><l>un<b/>millón<b/><a/>de</l><r>un<b/>millón<b/>de</r></p><par n="cent__num"/></e>
+<e lm="un millón de" r="LR"><p><l>un<b/>millón<b/>de</l><r>un<b/>millón<b/>de</r></p><par n="cent__num"/></e>
+<e lm="millones de" r="RL"><p><l>millones<b/><a/>de</l><r>millón<b/>de</r></p><par n="cent__num"/></e>
+<e lm="millones de" r="LR"><p><l>millones<b/>de</l><r>millón<b/>de</r></p><par n="cent__num"/></e>
+<e lm="nueve"><i>nueve</i><par n="tres__num"/></e>
+<e lm="cuatro"><i>cuatro</i><par n="tres__num"/></e>
+<e lm="siete"><i>siete</i><par n="tres__num"/></e>
+<e lm="seis"><i>seis</i><par n="tres__num"/></e>
+<e lm="tres"><i>tres</i><par n="tres__num"/></e>
+<e lm="veinte"><i>veint</i><par n="vint__num"/></e>
+<e lm="treinta"><i>treinta</i><par n="trenta__num"/></e>
+<e lm="cuarenta"><i>cuarenta</i><par n="trenta__num"/></e>
+<e lm="cincuenta"><i>cincuenta</i><par n="trenta__num"/></e>
+<e lm="sesenta"><i>sesenta</i><par n="trenta__num"/></e>
+<e lm="setenta"><i>setenta</i><par n="trenta__num"/></e>
+<e lm="ochenta"><i>ochenta</i><par n="trenta__num"/></e>
+<e lm="noventa"><i>noventa</i><par n="trenta__num"/></e>
+<e lm="ocho"><i>ocho</i><par n="tres__num"/></e>
+
+<e lm="once"><i>once</i><par n="tres(1)__num"/></e>
+<e lm="doce"><i>doce</i><par n="tres(1)__num"/></e>
+<e lm="trece"><i>trece</i><par n="tres(1)__num"/></e>
+<e lm="catorce"><i>catorce</i><par n="tres(1)__num"/></e>
+<e lm="quince"><i>quince</i><par n="tres(1)__num"/></e>
+<e lm="dieciséis"><i>dieciséis</i><par n="tres(1)__num"/></e>
+<e lm="diecisiete"><i>diecisiete</i><par n="tres(1)__num"/></e>
+<e lm="dieciocho"><i>dieciocho</i><par n="tres(1)__num"/></e>
+<e lm="diecinueve"><i>diecinueve</i><par n="tres(1)__num"/></e>
+
+
+
+<e lm="dos" r="RL"><i>dos</i><par n="mil__num"/></e>
+<e lm="tres" r="RL"><i>tres</i><par n="mil__num"/></e>
+<e lm="cuatro" r="RL"><i>cuatro</i><par n="mil__num"/></e>
+<e lm="cinco" r="RL"><i>cinco</i><par n="mil__num"/></e>
+<e lm="seis" r="RL"><i>seis</i><par n="mil__num"/></e>
+<e lm="siete" r="RL"><i>siete</i><par n="mil__num"/></e>
+<e lm="ocho" r="RL"><i>ocho</i><par n="mil__num"/></e>
+<e lm="nueve" r="RL"><i>nueve</i><par n="mil__num"/></e>
+<e lm="un" r="RL"><i>un</i><par n="un__num"/></e>
+
+<e lm="mil cien, etc." r="RL"><i></i><par n="mil(1)__num"/></e>
+
+
+
 </section>

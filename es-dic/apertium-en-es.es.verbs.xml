@@ -2694,6 +2694,24 @@
     <i>cobr</i>
     <par n="abandon/ar__vblex"/>
   </e>
+  <e lm="cobrar">
+    <p>
+      <l>cóbr</l>
+      <r>cobr</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+  <e lm="maniobrar">
+    <i>maniobr</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="maniobrar">
+    <p>
+      <l>manióbr</l>
+      <r>maniobr</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
   <e lm="cobijar">
     <p>
       <l>cobíj</l>
@@ -2881,6 +2899,17 @@
     <par n="atá/carse__vblex"/>
   </e>
 
+    <e lm="equivocar">
+      <i>equivo</i>
+      <par n="ata/carse__vblex"/>
+    </e>
+    <e lm="equivocar">
+      <p>
+        <l>equivó</l>
+        <r>equivo</r>
+      </p>
+      <par n="atá/carse__vblex"/>
+    </e>
   <e lm="complementar">
     <i>complement</i>
     <par n="abandon/ar__vblex"/>
@@ -3962,13 +3991,6 @@
       <r>co</r>
     </p>
     <par n="acó/ger__vblex"/>
-  </e>
-  <e lm="cobrar">
-    <p>
-      <l>cóbr</l>
-      <r>cobr</r>
-    </p>
-    <par n="abandón/ar__vblex"/>
   </e>
   <e lm="colmar">
     <p>
@@ -5694,6 +5716,17 @@
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
+  <e lm="orbitar">
+    <i>orbit</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="orbitar">
+    <p>
+      <l>orbít</l>
+      <r>orbit</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
   <e lm="ejercer">
     <p>
       <l>ejér</l>
@@ -6662,6 +6695,17 @@
     <p>
       <l>esfúm</l>
       <r>esfum</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+  <e lm="perfumar">
+    <i>perfum</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="perfumar">
+    <p>
+      <l>perfúm</l>
+      <r>perfum</r>
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
@@ -10357,6 +10401,17 @@
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
+  <e lm="serpentear">
+    <i>serpente</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="serpentear">
+    <p>
+      <l>serpenté</l>
+      <r>serpente</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
   <e lm="plegar">
     <i>pl</i>
     <par n="despl/egar__vblex"/>
@@ -11924,6 +11979,10 @@
   </e>
   <e lm="repetir">
     <i>rep</i>
+    <par n="comp/etir__vblex"/>
+  </e>
+  <e lm="derretir">
+    <i>derr</i>
     <par n="comp/etir__vblex"/>
   </e>
   <e lm="reparar">

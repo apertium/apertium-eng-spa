@@ -7,11 +7,15 @@
 <dictionary>
    <alphabet></alphabet>
    
+
    <!-- symbols -->
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.symbols.xml"/>
 
-	<!-- paradigms -->
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.pardefs-url.xml"/>
+   <!-- paradigms -->
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.pardefs.xml"/>   
+
+   <!-- paradigms url -->
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.pardefs-url.xml"/>
 
    <!-- proper nouns -->
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.proper-nouns.xml"/>

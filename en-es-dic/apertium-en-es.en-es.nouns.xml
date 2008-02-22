@@ -17128,22 +17128,7 @@
         <r>fauna<s n="n"/><s n="f"/></r> 
       </p>
     </e>
-
     <e>
-      <p>
-        <l>favor<s n="n"/></l> 
-        <r>favor<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>favor<s n="n"/></l> 
-        <r>favor<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
       <p>
         <l>favour<s n="n"/></l> 
         <r>favor<s n="n"/><s n="m"/></r> 
@@ -18006,11 +17991,13 @@
 
     <e>
       <p>
-        <l>football<s n="n"/></l> 
-        <r>fútbol<s n="n"/><s n="m"/></r> 
+        <l>football<s n="n"/><s n="sg"/></l> 
+        <r>fútbol<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
+    <e><p><l>football<s n="n"/><s n="pl"/></l><r>pelota<g><b/>de<b/>fútbol</g><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>football<s n="n"/><s n="sg"/></l><r>pelota<g><b/>de<b/>fútbol</g><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e>
       <p>
         <l>footballer<s n="n"/></l> 
@@ -31507,19 +31494,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>pity<s n="n"/><s n="sg"/></l> 
-        <r>lástima<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="MG: uncount">
-      <p>
-        <l>pity<s n="n"/><s n="sg"/></l> 
-        <r>lástima<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>

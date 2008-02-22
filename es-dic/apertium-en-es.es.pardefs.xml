@@ -4871,6 +4871,27 @@
     </pardef>
 
 
+
+    <pardef n="Estados_Unidos__np">
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="Bahamas__np">
+      
+      <e>
+	<p>
+	  <l/>
+	  <r><s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r>
+	</p>
+      </e>
+    </pardef>
+
     <pardef n="García__np">
       <e c="cognoms; a diferència dels noms de pila, no tenen gènere fem o masc"> 
 	<p>
@@ -4880,7 +4901,7 @@
       </e>
     </pardef>
       
-
+<!--
     <pardef n="cero__num">
     <e>
       <p>
@@ -4963,6 +4984,570 @@
     </e>
 
     </pardef>
+-->
+
+    <pardef n="cent__num">
+      
+     
+      <e>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+  
+    </pardef>
+
+
+<pardef n="tres__num">         
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+  
+      <e>
+        <p>
+          <l>-centes</l>
+          <r>-cent<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>-cents</l>
+          <r>-cent<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+  
+      <e>
+        <p>
+          <l><b/>mil</l>
+          <r><b/>mil<s n="num"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+  
+ <!--     <e>
+        <p>
+          <l><b/>milions</l>
+          <r><b/>milions<s n="num"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>milions</l>
+          <r><b/>milions<s n="num"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e> -->
+
+    </pardef>
+<pardef n="tres(1)__num">        
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+      
+    <!--  <e>
+        <p>
+          <l>-centes</l>
+          <r>-cent<s n="num"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>-cents</l>
+          <r>-cent<s n="num"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e> -->
+      <e>
+        <p>
+          <l><b/>mil</l>
+          <r><b/>mil<s n="num"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+     
+ <!--     <e>
+        <p>
+          <l><b/>milions</l>
+          <r><b/>milions<s n="num"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>milions</l>
+          <r><b/>milions<s n="num"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e> -->
+
+    </pardef>
+
+
+<pardef n="un__num">         
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r><s n="num"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+    
+
+    </pardef>
+
+<pardef n="un(1)__num">         
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+ <!--     <e>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e> --><!--MG: canviar, el 'un' singular és 'u' (el trenta-u), i tb en femení (la u) -->
+      <e>
+        <p>
+          <l>a</l>
+          <r><s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+     <!-- <e>
+        <p>
+          <l>ues-centes</l>
+          <r>os-cent<s n="num"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os-cents</l>
+          <r>os-cent<s n="num"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e> -->
+      <e>
+        <p>
+          <l>a<b/>mil</l>
+          <r><b/>mil<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil</l>
+          <r><b/>mil<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+    
+   <!--   <e>
+        <p>
+          <l><b/>milions</l>
+          <r><b/>milions<s n="num"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>milions</l>
+          <r><b/>milions<s n="num"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e> -->
+
+    </pardef>
+    
+    <pardef n="veint/iuno__num">
+      <e>
+        <p>
+          <l>iuna</l>
+          <r>e<b/>y<b/>uno<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iún</l>
+          <r>e<b/>y<b/>uno<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="vint__num">
+      <e>
+        <p>
+          <l>e</l>
+          <r>e</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+        <par n="veint/iuno__num"/>
+      </e>
+      <e>
+        <p>
+          <l>idós</l>
+          <r>e<b/>y<b/>dos</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l>itrés</l>
+          <r>e<b/>y<b/>tres</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l>icuatro</l>
+          <r>e<b/>y<b/>cuatro</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l>icinco</l>
+          <r>e<b/>y<b/>cinco</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l>iséis</l>
+          <r>e<b/>y<b/>seis</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l>isiete</l>
+          <r>e<b/>y<b/>siete</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l>iocho</l>
+          <r>e<b/>y<b/>ocho</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l>inueve</l>
+          <r>e<b/>y<b/>nueve</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+    </pardef>
+
+ <pardef n="trenta__num">
+      <e>
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>un</l>
+          <r><b/>y<b/>un</r>
+        </p>
+        <par n="un(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>dos</l>
+          <r><b/>y<b/>dos</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>tres</l>
+          <r><b/>y<b/>tres</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>cuatro</l>
+          <r><b/>y<b/>cuatro</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>cinco</l>
+          <r><b/>y<b/>cinco</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>seis</l>
+          <r><b/>y<b/>seis</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>siete</l>
+          <r><b/>y<b/>siete</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>ocho</l>
+          <r><b/>y<b/>ocho</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>y<b/>nueve</l>
+          <r><b/>y<b/>nueve</r>
+        </p>
+        <par n="tres(1)__num"/>
+      </e>
+    </pardef>
+
+ <pardef n="mil__num">
+   <!--   <e>
+        <p>
+          <l><b/>mil</l>
+          <r><b/>mil<s n="num"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e> -->
+      <e>
+        <p>
+          <l><b/>mil<b/>cien</l>
+          <r><b/>mil<b/>cien<s n="num"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>doscientos</l>
+          <r><b/>mil<b/>doscientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>doscientas</l>
+          <r><b/>mil<b/>doscientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>trescientos</l>
+          <r><b/>mil<b/>trescientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>trescientas</l>
+          <r><b/>mil<b/>trescientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>cuatrocientos</l>
+          <r><b/>mil<b/>cuatrocientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>cuatrocientas</l>
+          <r><b/>mil<b/>cuatrocientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>quinientos</l>
+          <r><b/>mil<b/>quinientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>quinientas</l>
+          <r><b/>mil<b/>quinientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>seiscientos</l>
+          <r><b/>mil<b/>seiscientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>seiscientas</l>
+          <r><b/>mil<b/>seiscientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>setecientos</l>
+          <r><b/>mil<b/>setecientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>setecientas</l>
+          <r><b/>mil<b/>setecientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>ochocientos</l>
+          <r><b/>mil<b/>ochocientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>ochocientas</l>
+          <r><b/>mil<b/>ochocientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>novecientos</l>
+          <r><b/>mil<b/>novecientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>mil<b/>novecientas</l>
+          <r><b/>mil<b/>novecientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+
+
+    </pardef>
+
+ <pardef n="mil(1)__num">
+      <e>
+        <p>
+          <l>mil<b/>cien</l>
+          <r>mil<b/>cien<s n="num"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>doscientos</l>
+          <r>mil<b/>doscientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>doscientas</l>
+          <r>mil<b/>doscientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>trescientos</l>
+          <r>mil<b/>trescientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>trescientas</l>
+          <r>mil<b/>trescientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>cuatrocientos</l>
+          <r>mil<b/>cuatrocientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>cuatrocientas</l>
+          <r>mil<b/>cuatrocientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>quinientos</l>
+          <r>mil<b/>quinientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>quinientas</l>
+          <r>mil<b/>quinientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>seiscientos</l>
+          <r>mil<b/>seiscientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>seiscientas</l>
+          <r>mil<b/>seiscientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>setecientos</l>
+          <r>mil<b/>setecientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>setecientas</l>
+          <r>mil<b/>setecientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>ochocientos</l>
+          <r>mil<b/>ochocientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>ochocientas</l>
+          <r>mil<b/>ochocientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>novecientos</l>
+          <r>mil<b/>novecientos<s n="num"/><s n="m"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mil<b/>novecientas</l>
+          <r>mil<b/>novecientos<s n="num"/><s n="f"/><s n="sp"/></r>
+        </p>
+      </e>
+
+
+    </pardef>
+
+
+
+
+
     <pardef n="a__pr">
     <e>
       <p>

@@ -9491,12 +9491,10 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="favor">
-        <i>favor</i> 
-        <par n="house__n"/> 
-    </e>
 
-    <e lm="favour">
+    <e lm="favor" c="EUA"><p><l>favor</l><r>favour</r></p><par n="house__n"/></e>
+
+    <e lm="favour" c="GB">
         <i>favour</i> 
         <par n="house__n"/> 
     </e>

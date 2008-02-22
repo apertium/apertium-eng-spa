@@ -4079,14 +4079,34 @@ Your mother and you will come - La vostra mare i tu vindran
 	<call-macro n="determina_nbr_gen_SN">
 	  <with-param pos="1"/>
 	</call-macro>
-	<let>
-	  <clip pos="3" part="nbr"/>
-	  <var n="nombre"/>
-	</let>
-	<let>
-	  <clip pos="3" part="gen"/>
-	  <var n="genere"/>
-	</let>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>		
+	    <let>
+	      <clip pos="3" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>	
+	    <let>
+	      <clip pos="3" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
 	<out>
 	  <b pos="2"/>
 	  <chunk>
@@ -4152,41 +4172,61 @@ Your mother and you will come - La vostra mare i tu vindran
 	<choose> <!-- part del SA per a genere i nombre-->
 	  <when>
 	    <test>
-	      <or>
-		<equal>
-		  <clip pos="1" part="gen"/>
-		  <lit-tag v="m"/>
-		</equal>
-		<equal>
-		  <clip pos="1" part="gen"/>
-		  <lit-tag v="mf"/>
-		</equal>
-		<equal>
-		  <clip pos="3" part="gen"/>
-		  <lit-tag v="m"/>
-		</equal>
-		<equal>
-		  <clip pos="3" part="gen"/>
-		  <lit-tag v="mf"/>
-		</equal>
-	      </or>
+	      <equal>
+		<clip pos="5" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
 	    </test>
+	    <choose>		
+	      <when>
+		<test>
+		  <or>
+		    <equal>
+		      <clip pos="1" part="gen"/>
+		      <lit-tag v="m"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		    <equal>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="m"/>
+		    </equal>
+		    <equal>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </or>
+		</test>
+		<let>
+		  <clip pos="5" part="gen"/>
+		  <lit-tag v="m"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <clip pos="5" part="gen"/>
+		  <lit-tag v="f"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>		
 	    <let>
-	      <clip pos="5" part="gen"/>
-	      <lit-tag v="m"/>
+	      <clip pos="5" part="nbr"/><!--sempre serà pl-->
+	      <lit-tag v="pl"/>
 	    </let>
 	  </when>
-	  <otherwise>
-	    <let>
-	      <clip pos="5" part="gen"/>
-	      <lit-tag v="f"/>
-	    </let>
-	  </otherwise>
 	</choose>
-	<let>
-	  <clip pos="5" part="nbr"/><!--sempre serà pl-->
-	  <lit-tag v="pl"/>
-	</let>
 	<out>
 	  <b pos="4"/>
 	  <chunk>
@@ -4274,22 +4314,62 @@ Your mother and you will come - La vostra mare i tu vindran
 	<call-macro n="determina_nbr_gen_SN">
 	  <with-param pos="1"/>
 	</call-macro>
-	<let>
-	  <clip pos="3" part="nbr"/>
-	  <var n="nombre"/>
-	</let>
-	<let>
-	  <clip pos="5" part="nbr"/>
-	  <var n="nombre"/>
-	</let>
-	<let>
-	  <clip pos="3" part="gen"/>
-	  <var n="genere"/>
-	</let>
-	<let>
-	  <clip pos="5" part="gen"/>
-	  <var n="genere"/>
-	</let>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="3" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="5" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>	
+	    <let>
+	      <clip pos="3" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="5" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
 	<out>
 	  <chunk>
 	    <clip pos="3" part="whole"/>
@@ -4382,15 +4462,35 @@ Your mother and you will come - La vostra mare i tu vindran
 	<!--Assigna gènere i nombre a adjectiu (GD i ND) -->
 	<call-macro n="determina_nbr_gen_SN">
 	  <with-param pos="1"/>
-	</call-macro>
-	<let>
-	  <clip pos="4" part="nbr"/>
-	  <var n="nombre"/>
-	</let>
-	<let>
-	  <clip pos="4" part="gen"/>
-	  <var n="genere"/>
-	</let>
+	</call-macro>	
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="4" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="4" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="4" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="4" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
 	<out>
 	  <chunk>
 	    <clip pos="4" part="whole"/>
@@ -4485,14 +4585,34 @@ Your mother and you will come - La vostra mare i tu vindran
 	<call-macro n="determina_nbr_gen_SN">
 	  <with-param pos="1"/>
 	</call-macro>
-	<let>
-	  <clip pos="5" part="nbr"/>
-	  <var n="nombre"/>
-	</let>
-	<let>
-	  <clip pos="5" part="gen"/>
-	  <var n="genere"/>
-	</let>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="5" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="5" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
 	<out>
 	  <chunk>
 	    <clip pos="5" part="whole"/>
@@ -4562,48 +4682,67 @@ Your mother and you will come - La vostra mare i tu vindran
 	<choose> <!-- part del SA per a genere i nombre-->
 	  <when>
 	    <test>
-	      <or>
-		<equal>
-		  <clip pos="1" part="gen"/>
-		  <lit-tag v="m"/>
-		</equal>
-		<equal>
-		  <clip pos="1" part="gen"/>
-		  <lit-tag v="mf"/>
-		</equal>
-		<equal>
-		  <clip pos="3" part="gen"/>
-		  <lit-tag v="m"/>
-		</equal>
-		<equal>
-		  <clip pos="3" part="gen"/>
-		  <lit-tag v="mf"/>
-		</equal>
-	      </or>
+	      <equal>
+		<clip pos="6" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
 	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <or>
+		    <equal>
+		      <clip pos="1" part="gen"/>
+		      <lit-tag v="m"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		    <equal>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="m"/>
+		    </equal>
+		    <equal>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </or>
+		</test>
+		<let>
+		  <clip pos="6" part="gen"/>
+		  <lit-tag v="m"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <clip pos="6" part="gen"/>
+		  <lit-tag v="f"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="6" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>	  
 	    <let>
-	      <clip pos="6" part="gen"/>
-	      <lit-tag v="m"/>
+	      <clip pos="6" part="nbr"/><!--sempre serà pl-->
+	      <lit-tag v="pl"/>
 	    </let>
 	  </when>
-	  <otherwise>
-	    <let>
-	      <clip pos="6" part="gen"/>
-	      <lit-tag v="f"/>
-	    </let>
-	  </otherwise>
 	</choose>
-	<let>
-	  <clip pos="6" part="nbr"/><!--sempre serà pl-->
-	  <lit-tag v="pl"/>
-	</let>
 	<out>
 	  <b pos="5"/>
 	  <chunk>
 	    <clip pos="6" part="whole"/>
 	  </chunk>
 	</out>
-
 	<call-macro n="determina_nbr_gen_SN">
 	  <with-param pos="1"/>
 	</call-macro>
@@ -4679,41 +4818,61 @@ Your mother and you will come - La vostra mare i tu vindran
 	<choose> <!-- part del SA per a genere i nombre-->
 	  <when>
 	    <test>
-	      <or>
-		<equal>
-		  <clip pos="1" part="gen"/>
+	      <equal>
+		<clip pos="7" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <or>
+		    <equal>
+		      <clip pos="1" part="gen"/>
+		      <lit-tag v="m"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		    <equal>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="m"/>
+		    </equal>
+		    <equal>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </or>
+		</test>
+		<let>
+		  <clip pos="7" part="gen"/>
 		  <lit-tag v="m"/>
-		</equal>
-		<equal>
-		  <clip pos="1" part="gen"/>
-		  <lit-tag v="mf"/>
-		</equal>
-		<equal>
-		  <clip pos="3" part="gen"/>
-		  <lit-tag v="m"/>
-		</equal>
-		<equal>
-		  <clip pos="3" part="gen"/>
-		  <lit-tag v="mf"/>
-		</equal>
-	      </or>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <clip pos="7" part="gen"/>
+		  <lit-tag v="f"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="6" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="7" part="gen"/>
-	      <lit-tag v="m"/>
+	      <clip pos="7" part="nbr"/><!--sempre serà pl-->
+	      <lit-tag v="pl"/>
 	    </let>
 	  </when>
-	  <otherwise>
-	    <let>
-	      <clip pos="7" part="gen"/>
-	      <lit-tag v="f"/>
-	    </let>
-	  </otherwise>
 	</choose>
-	<let>
-	  <clip pos="7" part="nbr"/><!--sempre serà pl-->
-	  <lit-tag v="pl"/>
-	</let>
 	<out>
 	  <b pos="6"/>
 	  <chunk>
@@ -5466,14 +5625,34 @@ Your mother and you will come - La vostra mare i tu vindran
 	<call-macro n="determina_nbr_gen_SN"><!--Assigna gènere i nombre a l'adjectiu -->
 	  <with-param pos="1"/>
 	</call-macro>
-	<let>
-	  <clip pos="5" part="nbr"/>
-	  <var n="nombre"/>
-	</let>
-	<let>
-	  <clip pos="5" part="gen"/>
-	  <var n="genere"/>
-	</let>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="5" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="5" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
 	<out>
 	  <b pos="4"/>
 	  <chunk>
@@ -5611,22 +5790,62 @@ Your mother and you will come - La vostra mare i tu vindran
 	<call-macro n="determina_nbr_gen_SN">
 	  <with-param pos="1"/>
 	</call-macro>
-	<let>
-	  <clip pos="5" part="nbr"/>
-	  <var n="nombre"/>
-	</let>
-	<let>
-	  <clip pos="7" part="nbr"/>
-	  <var n="nombre"/>
-	</let>
-	<let>
-	  <clip pos="5" part="gen"/>
-	  <var n="genere"/>
-	</let>
-	<let>
-	  <clip pos="7" part="gen"/>
-	  <var n="genere"/>
-	</let>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="5" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="7" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="7" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="5" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="5" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="7" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="7" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
 	<out>
 	  <chunk>
 	    <clip pos="5" part="whole"/>
@@ -6267,9 +6486,6 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </let>
 	  </when>
 	</choose>
-
-
-
 	<out>
 	  <chunk>
 	    <clip pos="1" part="whole"/>

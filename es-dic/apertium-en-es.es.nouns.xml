@@ -8244,7 +8244,7 @@
   </e>
   <e lm="extra">
     <i>extra</i>
-    <par n="accionista__n"/>
+    <par n="abismo__n"/>
   </e>
   <e lm="extracción">
     <i>extracci</i>
@@ -9882,6 +9882,10 @@
     <i>human</i>
     <par n="abismo__n"/>
   </e>
+  
+<e lm="ser humano"><p><l>ser<b/>humano</l><r>ser<b/>humano<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="ser humano"><p><l>seres<b/>humanos</l><r>ser<b/>humano<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
   <e lm="humanidad">
     <i>humanidad</i>
     <par n="accesibilidad__n"/>
@@ -14575,6 +14579,14 @@
   <e lm="pelota">
     <i>pelota</i>
     <par n="abeja__n"/>
+  </e>
+  <e lm="pelota">
+    <i>pelota</i>
+    <par n="abeja__n"/>
+    <p>
+      <l><b/>de<b/>fútbol</l>
+      <r><g><b/>de<b/>fútbol</g></r>
+    </p>
   </e>
   <e lm="peluquero">
     <i>peluquer</i>

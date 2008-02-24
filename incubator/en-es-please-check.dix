@@ -1,11 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-	Dictionary:
-	Sections: 1
-	Entries: 822
--->
 <dictionary>
    <section id="main" type="standard">
+
+<!--
+Translate and "apertiumize" these words:
+
+nearly, mighty, desktop, account (vblex), stiff, wiper (limpiaparabrisas), amazing, feat, 
+nanotechnology, power (vblex), activate, noncommercial, GPL, inadvertently, mainframes, 
+fascinating, hyperlink (vblex and n), physicists, interact, inert, media, speculate, batter, 
+humiliate, bruise, tag, bonding, newbie (novato), sanction, envelope, curb, piracy, rampant, 
+inquire, pleasantly, memorize, parental, assure, ago (hace), endure, automaker, mph, untried, 
+automaker, supplement (complementar), guru (gurú), uncrowded, stark, mandate, rebel, 
+flush, podcast, e-mail, quiz (quizzes), Iraq, Kurdish, heavy, clash (n. & vb.), gunship, 
+wound (herir & herida), Turk, incursion, senior, GMT, authorise, Istanbul, Iraqi, counterpart, 
+paramount, pummel (dar puñetazos), spark, spray, loose, stifling, middle-class, scary, blast, 
+Oscar, eclipse, widget, stunning, headache, cash
+
+
+Also: months: April..., himself, themselves..., measures (mm cm...), 
+-->
+
+
+<!--
+
+   Please check the following entries (some translations missing):
+
+-->
+      <e>
+         <p>
+            <l>Middle<b/>East<s n="np"/></l>
+            <r>Oriente<b/>Medio<s n="np"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Mariano<s n="np"/></l>
+            <r>Mariano<s n="np"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Rajoy<s n="np"/></l>
+            <r>Rajoy<s n="np"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Zapatero<s n="np"/></l>
+            <r>Zapatero<s n="np"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l><s n="n"/></l>
+            <r>fogueo<s n="n"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l><s n="vblex"/></l>
+            <r>empuñar<s n="vblex"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Europa<b/>Press<s n="np"/></l> 
+            <r>Europa<b/>Press<s n="np"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l><s n="vblex"/></l>
+            <r>suscitar<s n="vblex"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l><s n="vblex"/></l>
+            <r>desatar<s n="vblex"/></r> 
+	<!-- desatar el pánico -->
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l><s n="adj"/></l> 
+            <r>informático<s n="adj"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l><s n="vblex"/></l> 
+            <r>renunciar<s n="vblex"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>patent<s n="n"/></l> 
+            <r>patente<s n="n"/><s n="f"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>open<b/>source<s n="n"/></l> 
+            <r>código<b/>abierto<s n="n"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>CIA<s n="np"/></l> 
+            <r>CIA<s n="np"/><s n="f"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Google<s n="np"/></l> 
+            <r>Google<s n="np"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l><s n="n"/></l> 
+            <r>gigante<s n="n"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Serbia<s n="np"/></l> 
+            <r>Serbia<s n="np"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l><s n="np"/></l> 
+            <r>Guardia<b/>Civil<s n="np"/></r> 
+         </p>
+      </e>
+
       <e>
          <p>
             <l><s n="vblex"/></l> 
@@ -479,19 +626,6 @@
          </p>
       </e>
       
-      <e r="LR">
-         <p>
-            <l>huit<s n="num"/></l> 
-            <r>ocho<s n="num"/></r> 
-         </p>
-      </e>
-      
-      <e r="LR">
-         <p>
-            <l>huitanta<s n="num"/></l> 
-            <r>ochenta<s n="num"/></r> 
-         </p>
-      </e>
       
       <e>
          <p>
@@ -4731,10 +4865,11 @@
          </p>
       </e>
       
+
       <e>
          <p>
-            <l>computer specialist<s n="adj"/></l> 
-            <r>informático<s n="adj"/></r> 
+            <l>computer<b/>specialist<s n="n"/></l> 
+            <r>informático<s n="n"/></r> 
          </p>
       </e>
       

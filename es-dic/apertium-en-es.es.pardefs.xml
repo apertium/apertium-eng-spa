@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <pardefs>
 <!--	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.pardefs-url.xml#xpointer(pardefs/*)"/>-->
-    <pardef n="null">
-    <e>
-      <p>
-        <l></l> 
-        <r><s n="n"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>s</l> 
-        <r><s n="n"/><s n="pl"/></r> 
-      </p>
-    </e>
-</pardef>
+   
 
     <pardef n="guionet">
     <e>
@@ -102,7 +88,7 @@
     </e>
 
     </pardef>
-    <!--
+    
     <pardef n="emails">
     <e>
       <re>[a-z.]+@[a-z.]+</re>
@@ -123,7 +109,7 @@
     </e>
 
     </pardef>
-    -->
+    
     <pardef n="S__cantándome">
     <e>
       <p>
@@ -14592,6 +14578,537 @@
     </e>
 
     </pardef>
+
+    <pardef n="abandon/arse__vblex">
+    <e>
+      <p>
+        <l>aríamos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aría</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="cni"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aríais</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="cni"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>arías</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="cni"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>arían</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="cni"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aría</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="cni"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aremos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fti"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aré</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fti"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aréis</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fti"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>arás</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fti"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>arán</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fti"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ará</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fti"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>áremos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fts"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>are</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fts"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>areis</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fts"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ares</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fts"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>aren</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fts"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>are</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="fts"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ando</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="ger"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ándo</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="ger"/><j/></r> 
+      </p>
+        <par n="S__cantándo"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>amos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="ifi"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>é</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="ifi"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>asteis</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aste</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aron</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="ifi"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ó</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="ifi"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>emos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>émo</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r> 
+      </p>
+        <par n="S__cantémo"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>émos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r> 
+      </p>
+        <par n="S__cantémos"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>ad</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r> 
+      </p>
+        <par n="S__canta"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>ad</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r> 
+      </p>
+        <par n="S__cantad"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>á</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r> 
+      </p>
+        <par n="S__cantá"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>ád</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r> 
+      </p>
+        <par n="S__cantád"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>a</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>en</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>e</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ar</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="inf"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ar</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="inf"/><j/></r> 
+      </p>
+        <par n="S__cantar"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>ár</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="inf"/><j/></r> 
+      </p>
+        <par n="S__cantár"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>ábamos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pii"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aba</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pii"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>abais</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pii"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>abas</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pii"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aban</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pii"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aba</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pii"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>áramos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ásemos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ara</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ase</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>arais</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>aseis</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aras</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ases</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>aran</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>asen</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ara</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ase</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>adas</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pp"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ada</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pp"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ados</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pp"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ado</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pp"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>amos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pri"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>o</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>áis</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pri"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>as</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pri"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>an</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pri"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>emos</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>e</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>éis</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>es</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>en</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>e</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+
     <pardef n="asom/arse__vblex">
     <e>
       <p>
@@ -17326,6 +17843,34 @@
     </e>
 
     </pardef>
+
+   <pardef n="abandón/arse__vblex">
+    <e>
+      <p>
+        <l>a</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r> 
+      </p>
+        <par n="S__cánta"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>en</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r> 
+      </p>
+        <par n="S__cantándo"/> 
+    </e>
+
+    <e>
+      <p>
+        <l>e</l> 
+        <r>arse<s n="vblex"/><s n="pron"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r> 
+      </p>
+        <par n="S__cantándo"/> 
+    </e>
+
+    </pardef>
+
     <pardef n="alég/ar__vblex">
     <e>
       <p>

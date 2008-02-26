@@ -1596,24 +1596,11 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>audacious<s n="adj"/></l> 
-        <r>audaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>audacious<s n="adj"/></l> 
-        <r>audaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
         <l>audacious<s n="adj"/></l> 
-        <r>audaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+        <r>audaz<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -1624,6 +1611,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>audible<s n="adj"/></l> 
+        <r>audible<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>audiovisual<s n="adj"/></l> 
@@ -5467,14 +5460,14 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e slr="gratuito">
       <p>
         <l>free<s n="adj"/><s n="sint"/></l> 
         <r>gratuito<s n="adj"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="libre D">
       <p>
         <l>free<s n="adj"/><s n="sint"/></l> 
         <r>libre<s n="adj"/><s n="mf"/></r> 
@@ -6603,6 +6596,12 @@
 
     <e>
       <p>
+        <l>approximate<s n="adj"/></l> 
+        <r>aproximado<s n="adj"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>inappropriate<s n="adj"/></l> 
         <r>inadecuado<s n="adj"/></r> 
       </p>
@@ -7317,6 +7316,12 @@
 
     <e>
       <p>
+        <l>irrefutable<s n="adj"/></l> 
+        <r>irrefutable<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>irregular<s n="adj"/></l> 
         <r>irregular<s n="adj"/><s n="mf"/></r> 
       </p>
@@ -7476,12 +7481,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>latter<s n="adj"/></l> 
-        <r>último<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -7510,20 +7509,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>left-handed<s n="adj"/></l> 
-        <r>izquierdista<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>left-handed<s n="adj"/></l> 
-        <r>izquierdista<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>left-handed<s n="adj"/></l> 
@@ -7531,40 +7516,13 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>lefthand<s n="adj"/></l> 
-        <r>izquierdo<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>lefthand<s n="adj"/></l> 
-        <r>izquierdo<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>lefthand<s n="adj"/></l> 
-        <r>izquierdo<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>lefthand<s n="adj"/></l> 
-        <r>izquierdo<s n="adj"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
     <e r="LR">
       <p>
-        <l>lefthand<s n="adj"/></l> 
-        <r>izquierdo<s n="adj"/><s n="GD"/><s n="pl"/></r> 
+        <l>left-hand<s n="adj"/></l> 
+        <r>izquierdo<s n="adj"/></r> 
       </p>
     </e>
+
 
     <e>
       <p>
@@ -7804,7 +7762,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>living<s n="adj"/></l> 
         <r>viviente<s n="adj"/><s n="mf"/></r> 
@@ -8697,6 +8655,13 @@
       <p>
         <l>muddy<s n="adj"/><s n="sint"/></l> 
         <r>turbio<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>muddy<s n="adj"/><s n="sint"/></l> 
+        <r>embarrado<s n="adj"/></r> 
       </p>
     </e>
 
@@ -13082,6 +13047,12 @@
 
     <e>
       <p>
+        <l>lean<s n="adj"/><s n="sint"/></l> 
+        <r>flaco<s n="adj"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>thorough<s n="adj"/></l> 
         <r>minucioso<s n="adj"/></r> 
       </p>
@@ -13472,13 +13443,19 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>undecided<s n="adj"/></l> 
         <r>indeciso<s n="adj"/></r> 
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>hesitant<s n="adj"/></l> 
+        <r>indeciso<s n="adj"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>underdeveloped<s n="adj"/></l> 
@@ -13590,6 +13567,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>separate<s n="adj"/></l> 
+        <r>separado<s n="adj"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>unique<s n="adj"/></l> 
@@ -14293,13 +14276,6 @@
 
     <e>
       <p>
-        <l>wry<s n="adj"/><s n="sint"/></l> 
-        <r>torcido<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>xenophobe<s n="adj"/></l> 
         <r>xenófobo<s n="adj"/></r> 
       </p>
@@ -14500,7 +14476,7 @@
     <e c="check">
       <p>
         <l>key<s n="adj"/></l> 
-        <r>clave<s n="adj"/><s n="f"/></r> 
+        <r>clave<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -14782,7 +14758,7 @@
     <e c="check">
       <p>
         <l>militant<s n="adj"/></l> 
-        <r>militante<s n="adj"/></r> 
+        <r>militante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -14853,7 +14829,7 @@
     <e c="check">
       <p>
         <l>pilot<s n="adj"/></l> 
-        <r>piloto<s n="adj"/></r> 
+        <r>piloto<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -14974,14 +14950,14 @@
     <e c="check">
       <p>
         <l>turquoise<s n="adj"/></l> 
-        <r>turquesa<s n="adj"/><s n="f"/></r> 
+        <r>turquesa<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
     <e c="check">
       <p>
-        <l>vacants n="adj"/></l> 
-        <r>vacante<s n="adj"/><s n="f"/></r> 
+        <l>vacant<s n="adj"/></l> 
+        <r>vacante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -15011,7 +14987,7 @@
     <e c="check">
       <p>
         <l>Protestant<s n="adj"/></l> 
-        <r>protestante<s n="adj"/></r> 
+        <r>protestante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -15098,6 +15074,12 @@
         <r>del<b/>norte<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
+    <e r="LR">
+      <p>
+        <l>northern<s n="adj"/></l> 
+        <r>del<b/>norte<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
     <e c="check">
       <p>
         <l>south<s n="adj"/></l> 
@@ -15177,7 +15159,7 @@
     <e c="check">
       <p>
         <l>uniform<s n="adj"/></l> 
-        <r>uniforme<s n="adj"/></r> 
+        <r>uniforme<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 

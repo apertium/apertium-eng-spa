@@ -726,7 +726,7 @@
    <e c="Per ara tot serà sg en català, però mirar després frases del tipus: 'what are your fauvorite dishes'-quins són... Però: 'What are fractals'- què son...">
       <p>
          <l>what<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l> 
-         <r>qué<s n="prn"/></r> 
+         <r>qué<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r> 
       </p>
    </e>
    
@@ -747,28 +747,27 @@
    <e r="RL">
       <p>
          <l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l> 
-         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l> 
-         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
+         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>which<b/>one<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
-         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
+         <l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l> 
+         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+   </e>
+   <e r="LR">
+      <p>
+         <l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l> 
+         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/><s n="ND"/></r> 
       </p>
    </e>
    
    <e r="LR">
       <p>
          <l>which<b/>one<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
-         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
+         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r> 
       </p>
    </e>
    
@@ -844,8 +843,11 @@
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 

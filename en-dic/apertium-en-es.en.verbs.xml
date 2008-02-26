@@ -3367,11 +3367,6 @@
         <par n="accept__vblex"/> 
     </e>
 
-    <e lm="flavor">
-        <i>flavor</i> 
-        <par n="accept__vblex"/> 
-    </e>
-
     <e lm="flee">
         <i>fle</i> 
         <par n="fle/e__vblex"/> 
@@ -4560,11 +4555,6 @@
         <par n="liv/e__vblex"/> 
     </e>
 
-    <e lm="low">
-        <i>low</i> 
-        <par n="accept__vblex"/> 
-    </e>
-
     <e lm="lunch">
         <i>lunch</i> 
         <par n="approach__vblex"/> 
@@ -5164,10 +5154,6 @@
         <par n="accept__vblex"/> 
     </e>
 
-    <e lm="plate">
-        <i>plat</i> 
-        <par n="liv/e__vblex"/> 
-    </e>
 
     <e lm="play">
         <i>play</i> 
@@ -5554,10 +5540,10 @@
         <par n="appl/y__vblex"/> 
     </e>
 
-    <e lm="quarter">
+ <!--   <e lm="quarter">
         <i>quarter</i> 
         <par n="accept__vblex"/> 
-    </e>
+    </e> -->
 
     <e lm="question">
         <i>question</i> 
@@ -6286,11 +6272,6 @@
         <par n="liv/e__vblex"/> 
     </e>
 
-    <e lm="scheme">
-        <i>schem</i> 
-        <par n="liv/e__vblex"/> 
-    </e>
-
     <e lm="score">
         <i>scor</i> 
         <par n="liv/e__vblex"/> 
@@ -6328,11 +6309,6 @@
     <e lm="search">
         <i>search</i> 
         <par n="approach__vblex"/> 
-    </e>
-
-    <e lm="season">
-        <i>season</i> 
-        <par n="accept__vblex"/> 
     </e>
 
     <e lm="seat">
@@ -6454,10 +6430,10 @@
         <par n="t/ake__vblex"/> 
     </e>
 
-    <e lm="shade">
+   <!-- <e lm="shade">
         <i>shad</i> 
         <par n="liv/e__vblex"/> 
-    </e>
+    </e> -->
 
     <e lm="share">
         <i>shar</i> 
@@ -6790,11 +6766,6 @@
 
     <e lm="stay">
         <i>stay</i> 
-        <par n="accept__vblex"/> 
-    </e>
-
-    <e lm="steel">
-        <i>steel</i> 
         <par n="accept__vblex"/> 
     </e>
 
@@ -7269,10 +7240,10 @@
         <par n="bl/ow__vblex"/> 
     </e>
 
-    <e lm="thread">
+  <!--  <e lm="thread">
         <i>thread</i> 
         <par n="accept__vblex"/> 
-    </e>
+    </e> -->
 
     <e lm="thrill">
         <i>thrill</i> 
@@ -7457,11 +7428,6 @@
     <e lm="trust">
         <i>trust</i> 
         <par n="accept__vblex"/> 
-    </e>
-
-    <e lm="tube">
-        <i>tub</i> 
-        <par n="liv/e__vblex"/> 
     </e>
 
     <e lm="turn">

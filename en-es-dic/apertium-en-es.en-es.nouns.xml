@@ -20530,19 +20530,13 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>holder<s n="n"/></l> 
-        <r>titular<s n="n"/><s n="GD"/></r> 
+        <r>titular<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>holder<s n="n"/></l> 
-        <r>titular<s n="n"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>holding<s n="n"/></l> 
@@ -36764,7 +36758,7 @@
     <e>
       <p>
         <l>scratch<s n="n"/></l> 
-        <r>arañazo<s n="n"/><s n="f"/></r> 
+        <r>arañazo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
     <e>
@@ -39406,7 +39400,7 @@
     <e r="LR">
       <p>
         <l>staff<s n="n"/><s n="pl"/></l> 
-        <r>personal<s n="n"/><s n="m"/><s n="pl"/></r> 
+        <r>personal<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -40118,6 +40112,12 @@
     </e>
 
 
+    <e>
+      <p>
+        <l>trace<s n="n"/></l> 
+        <r>rastro<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
 
     <e r="RL">
       <p>
@@ -40737,14 +40737,14 @@
     <e>
       <p>
         <l>surroundings<s n="n"/><s n="pl"/></l> 
-        <r>entorno<s n="n"/><s n="m"/></r> 
+        <r>entorno<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
         <l>surroundings<s n="n"/><s n="pl"/></l> 
-        <r>entorno<s n="n"/><s n="m"/></r> 
+        <r>entorno<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -40811,6 +40811,19 @@
       </p>
     </e>
 
+
+    <e r="LR">
+      <p>
+        <l>suspect<s n="n"/></l> 
+        <r>sospechoso<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>suspect<s n="n"/></l> 
+        <r>sospechoso<s n="n"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>suture<s n="n"/></l> 
@@ -40829,27 +40842,6 @@
       <p>
         <l>swearing<s n="n"/></l> 
         <r>juramento<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>sweat<s n="n"/><s n="sg"/></l> 
-        <r>sudor<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" c="més aviat significa 'samarreta' ('sudadera')">
-      <p>
-        <l>sweat<s n="n"/><s n="pl"/></l> 
-        <r>sudor<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="MG: uncount">
-      <p>
-        <l>sweat<s n="n"/><s n="sg"/></l> 
-        <r>sudor<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -41070,7 +41062,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>syrup<s n="n"/></l> 
         <r>jarabe<s n="n"/><s n="m"/></r> 
@@ -41304,14 +41296,14 @@
     <e r="LR">
       <p>
         <l>taxation<s n="n"/><s n="sg"/></l> 
-        <r>impuesto<s n="n"/><s n="m"/></r> 
+        <r>impuesto<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>taxation<s n="n"/><s n="pl"/></l> 
-        <r>impuesto<s n="n"/><s n="m"/></r> 
+        <r>impuesto<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -41921,6 +41913,14 @@
       <p>
         <l>thicket<s n="n"/></l> 
         <r>matorral<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+
+    <e>
+      <p>
+        <l>thickness<s n="n"/></l> 
+        <r>grosor<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -43978,14 +43978,14 @@
     <e r="LR">
       <p>
         <l>vacation<s n="n"/><s n="sg"/></l> 
-        <r>vacaciones<s n="n"/><s n="f"/></r> 
+        <r>vacaciones<s n="n"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>vacation<s n="n"/><s n="pl"/></l> 
-        <r>vacaciones<s n="n"/><s n="f"/></r> 
+        <r>vacaciones<s n="n"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -44954,6 +44954,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>wash<s n="n"/></l> 
+        <r>lavado<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
 
     <e>
       <p>
@@ -45037,17 +45043,10 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>watt<s n="n"/></l> 
         <r>vatio<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>watt<s n="n"/></l> 
-        <r>watt<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -45351,6 +45350,12 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>width<s n="n"/></l> 
+        <r>ancho<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
     <e r="LR">
       <p>
         <l>wife<s n="n"/></l> 
@@ -45374,7 +45379,7 @@
 
     <e>
       <p>
-        <l>willingness<s n="n"/><s n="sg"/></l> 
+        <l>willingness<s n="n"/></l> 
         <r>disposición<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -45486,6 +45491,12 @@
 
     <e>
       <p>
+        <l>trigger<s n="n"/></l> 
+        <r>gatillo<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>wish<s n="n"/></l> 
         <r>deseo<s n="n"/><s n="m"/></r> 
       </p>
@@ -45547,31 +45558,31 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="bosque">
       <p>
         <l>wood<s n="n"/><s n="sg"/></l> 
-        <r>bosque<s n="n"/><s n="m"/></r> 
+        <r>bosque<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>wood<s n="n"/><s n="pl"/></l> 
-        <r>bosque<s n="n"/><s n="m"/></r> 
+        <r>bosque<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="madera D">
       <p>
         <l>wood<s n="n"/><s n="sg"/></l> 
-        <r>madera<s n="n"/><s n="f"/></r> 
+        <r>madera<s n="n"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
         <l>wood<s n="n"/><s n="sg"/></l> 
-        <r>madera<s n="n"/><s n="f"/></r> 
+        <r>madera<s n="n"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 

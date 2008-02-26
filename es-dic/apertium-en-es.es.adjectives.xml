@@ -480,7 +480,6 @@
       <l><b/>a<b/>mano</l>
       <r><g><b/>a<b/>mano</g></r>
     </p>
-    <par n="absolut/o__adj"/>
   </e>
   <e lm="artificial">
     <i>artificial</i>
@@ -1482,6 +1481,10 @@
     <i>delgad</i>
     <par n="abstract/o__adj"/>
   </e>
+  <e lm="flaco">
+    <i>flac</i>
+    <par n="abstract/o__adj"/>
+  </e>
   <e lm="deliberado">
     <i>deliberad</i>
     <par n="absolut/o__adj"/>
@@ -1560,6 +1563,10 @@
   </e>
   <e lm="descarado">
     <i>descarad</i>
+    <par n="absolut/o__adj"/>
+  </e>
+  <e lm="separado">
+    <i>separad</i>
     <par n="absolut/o__adj"/>
   </e>
   <e lm="descendente">
@@ -1980,6 +1987,10 @@
   </e>
   <e lm="embrionario">
     <i>embrionari</i>
+    <par n="absolut/o__adj"/>
+  </e>
+  <e lm="embarrado">
+    <i>embarrad</i>
     <par n="absolut/o__adj"/>
   </e>
   <e lm="emergente">
@@ -3106,11 +3117,15 @@
     <i>inadvertid</i>
     <par n="absolut/o__adj"/>
   </e>
+  <e lm="aproximado">
+    <i>aproximad</i>
+    <par n="absolut/o__adj"/>
+  </e>
   <e lm="inapelable" a="prompsit2adn">
     <i>inapelable</i>
     <par n="abundante__adj"/>
   </e>
-  <e r="LR" lm="inapropiado">
+  <e lm="inapropiado">
     <i>inapropiad</i>
     <par n="absolut/o__adj"/>
   </e>
@@ -6298,10 +6313,6 @@
     <i>topográfic</i>
     <par n="absolut/o__adj"/>
   </e>
-  <e lm="torcido">
-    <i>torcid</i>
-    <par n="absolut/o__adj"/>
-  </e>
   <e lm="torrencial">
     <i>torrencial</i>
     <par n="abdominal__adj"/>
@@ -6658,6 +6669,10 @@
     <i>visible</i>
     <par n="abundante__adj"/>
   </e>
+  <e lm="audible">
+    <i>audible</i>
+    <par n="abundante__adj"/>
+  </e>
   <e lm="vistoso">
     <i>vistos</i>
     <par n="abstract/o__adj"/>
@@ -6712,6 +6727,10 @@
   </e>
   <e lm="vulnerable">
     <i>vulnerable</i>
+    <par n="abundante__adj"/>
+  </e>
+  <e lm="irrefutable">
+    <i>irrefutable</i>
     <par n="abundante__adj"/>
   </e>
   <e lm="válido">
@@ -6774,10 +6793,10 @@
     <i>óse</i>
     <par n="absolut/o__adj"/>
   </e>
-<!--  <e lm="último">
+ <e lm="último" r="RL">
     <i>últim</i>
     <par n="absolut/o__adj"/>
-  </e> ??-->
+  </e>
   <e lm="único">
     <i>únic</i>
     <par n="absolut/o__adj"/>

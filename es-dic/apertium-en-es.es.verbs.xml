@@ -307,6 +307,17 @@
     <i>acomod</i>
     <par n="abandon/ar__vblex"/>
   </e>
+  <e lm="acomodar">
+    <p>
+      <l>acomód</l>
+      <r>acomod</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+  <e lm="rodar">
+    <i>r</i>
+    <par n="r/odar__vblex"/>
+  </e>
   <e lm="acompañar">
     <i>acompañ</i>
     <par n="abandon/ar__vblex"/>
@@ -315,13 +326,6 @@
     <p>
       <l>acompáñ</l>
       <r>acompañ</r>
-    </p>
-    <par n="abandón/ar__vblex"/>
-  </e>
-  <e lm="acomodar">
-    <p>
-      <l>acomód</l>
-      <r>acomod</r>
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
@@ -2977,6 +2981,24 @@
     <i>compr</i>
     <par n="abandon/ar__vblex"/>
   </e>
+  <e lm="comprar">
+    <p>
+      <l>cómpr</l>
+      <r>compr</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+  <e lm="recomprar">
+    <i>recompr</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="recomprar">
+    <p>
+      <l>recómpr</l>
+      <r>recompr</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
   <e lm="comprender">
     <i>comprend</i>
     <par n="vend/er__vblex"/>
@@ -4021,13 +4043,6 @@
     </p>
     <par n="vénd/er__vblex"/>
   </e>
-  <e lm="comprar">
-    <p>
-      <l>cómpr</l>
-      <r>compr</r>
-    </p>
-    <par n="abandón/ar__vblex"/>
-  </e>
   <e lm="constar">
     <p>
       <l>cónst</l>
@@ -4109,6 +4124,14 @@
   <e lm="dar">
     <i>d</i>
     <par n="d/ar__vblex"/>
+  </e>
+  <e lm="darse prisa">
+    <i>d</i>
+    <par n="d/arse__vblex"/>
+    <p>
+      <l><b/>prisa</l>
+      <r><g><b/>prisa</g></r>
+    </p>
   </e>
   <e lm="dormir">
     <i>d</i>
@@ -4583,6 +4606,25 @@
     </p>
     <par n="agradé/cer__vblex"/>
   </e>
+    <e lm="carecer">
+      <i>care</i>
+      <par n="agrade/cer__vblex"/>
+      <p>
+	<l><b/>de</l>
+	<r><g><b/>de</g></r>
+      </p>
+    </e>
+    <e lm="carecer">
+      <p>
+        <l>caré</l>
+        <r>care</r>
+      </p>
+      <par n="agradé/cer__vblex"/>
+      <p>
+	<l><b/>de</l>
+	<r><g><b/>de</g></r>
+      </p>
+    </e>
   <e lm="desaprobar" a="prompsit2adn">
     <i>desapr</i>
     <par n="apr/obar__vblex"/>
@@ -4651,10 +4693,37 @@
     <i>descans</i>
     <par n="abandon/ar__vblex"/>
   </e>
+  <e lm="escanear">
+    <i>escane</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  
+  <e lm="escanear">
+    <p>
+      <l>escané</l>
+      <r>escane</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+      
   <e lm="descargar">
     <i>descarg</i>
     <par n="aleg/ar__vblex"/>
   </e>
+      
+  <e lm="deletrear">
+    <i>deletre</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  
+  <e lm="deletrear">
+    <p>
+      <l>deletré</l>
+      <r>deletre</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+      
   <e lm="descarrilar" a="prompsit2adn">
     <i>descarril</i>
     <par n="abandon/ar__vblex"/>
@@ -6198,6 +6267,18 @@
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
+      <e lm="balancear">
+        <i>balance</i>
+        <par n="abandon/ar__vblex"/>
+      </e>
+      
+      <e lm="balancear">
+        <p>
+          <l>balancé</l>
+          <r>balance</r>
+        </p>
+        <par n="abandón/ar__vblex"/>
+      </e>
   <e lm="planchar">
     <i>planch</i>
     <par n="abandon/ar__vblex"/>
@@ -10092,6 +10173,17 @@
     </p>
     <par n="agradé/cer__vblex"/>
   </e>
+  <e lm="compadecer">
+    <i>compade</i>
+    <par n="agrade/cer__vblex"/>
+  </e>
+  <e lm="compadecer">
+    <p>
+      <l>compadé</l>
+      <r>compade</r>
+    </p>
+    <par n="agradé/cer__vblex"/>
+  </e>
   <e lm="pagar">
     <i>pag</i>
     <par n="aleg/ar__vblex"/>
@@ -10660,6 +10752,17 @@
     </p>
     <par n="abandón/ar__vblex"/>
   </e>
+  <e lm="preguntarse">
+    <i>pregunt</i>
+    <par n="abandon/arse__vblex"/>
+  </e>
+  <e lm="preguntarse">
+    <p>
+      <l>pregúnt</l>
+      <r>pregunt</r>
+    </p>
+    <par n="abandón/arse__vblex"/>
+  </e>
   <e lm="premiar">
     <i>premi</i>
     <par n="abandon/ar__vblex"/>
@@ -10668,7 +10771,7 @@
     <i>prend</i>
     <par n="vend/er__vblex"/>
   </e>
-  <e lm="preocupar">
+ <!-- <e lm="preocupar">
     <i>preocup</i>
     <par n="abandon/ar__vblex"/>
   </e>
@@ -10678,6 +10781,17 @@
       <r>preocup</r>
     </p>
     <par n="abandón/ar__vblex"/>
+  </e> -->
+  <e lm="preocuparse">
+    <i>preocup</i>
+    <par n="abandon/arse__vblex"/>
+  </e>
+  <e lm="preocuparse">
+    <p>
+      <l>preocúp</l>
+      <r>preocup</r>
+    </p>
+    <par n="abandón/arse__vblex"/>
   </e>
   <e lm="preparar">
     <i>prepar</i>
@@ -10804,6 +10918,24 @@
   <e lm="primar">
     <i>prim</i>
     <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="primar">
+    <p>
+      <l>prím</l>
+      <r>prim</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
+  </e>
+  <e lm="rimar">
+    <i>rim</i>
+    <par n="abandon/ar__vblex"/>
+  </e>
+  <e lm="rimar">
+    <p>
+      <l>rím</l>
+      <r>rim</r>
+    </p>
+    <par n="abandón/ar__vblex"/>
   </e>
   <e lm="priorizar">
     <i>priori</i>
@@ -11074,13 +11206,6 @@
     <p>
       <l>prést</l>
       <r>prest</r>
-    </p>
-    <par n="abandón/ar__vblex"/>
-  </e>
-  <e lm="primar">
-    <p>
-      <l>prím</l>
-      <r>prim</r>
     </p>
     <par n="abandón/ar__vblex"/>
   </e>

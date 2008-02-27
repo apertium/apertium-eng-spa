@@ -104,7 +104,7 @@
     
 
     -->
-    <e r="RL" c="check/should be adj, but, 'algo por el estilo' - 'something like that'">
+    <e c="check/should be adj, but, 'algo por el estilo' - 'something like that'">
         <p>
             <l>like<b/>that<s n="adv"/></l> 
             <r>por<b/>el<b/>estilo<s n="adv"/></r> 
@@ -131,13 +131,14 @@
       ******************************
     -->
 
+<!--
     <e r="RL" c="@check">
         <p>
             <l><s n="adv"/></l> 
             <r>a<b/>lo<b/>largo<s n="adv"/></r> 
         </p>
     </e>
-    
+   --> 
     <e>
         <p>
             <l>God<b/>willing<s n="adv"/></l> 
@@ -189,21 +190,23 @@
         </p>
     </e>
     
+<!--
     <e r="RL" c="@check">
         <p>
             <l>against<b/>[my]<b/>will<s n="adv"/></l> 
             <r>en<b/>contra<b/>de<b/>[mi]<b/>voluntad<s n="adv"/></r> 
         </p>
     </e>
+-->
     
-    <e r="RL" c="check">
+    <e c="check">
         <p>
             <l>ahead<b/>of<s n="adv"/></l> 
             <r>al<b/>frente<b/>de<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>all<b/>in<b/>one<b/>breath<s n="adv"/></l> 
             <r>de<b/>carrerilla<s n="adv"/></r> 
@@ -217,10 +220,10 @@
         </p>
     </e>
     
-    <e r="RL" c="@check">
+    <e c="@check">
         <p>
-            <l>around<b/>the<b/>middle<s n="adv"/></l> 
-            <r>a<b/>mediados<s n="adv"/></r> 
+            <l>around<b/>the<b/>middle<b/>of<s n="adv"/></l> 
+            <r>a<b/>mediados<b/>de<s n="adv"/></r> 
         </p>
     </e>
     
@@ -265,6 +268,13 @@
             <r>a<b/>eso<b/>de<s n="adv"/></r> 
         </p>
     </e>
+
+    <e>
+        <p>
+            <l>at<b/>about<s n="adv"/></l> 
+            <r>sobre<s n="adv"/></r> 
+        </p>
+    </e>
     
     <e r="RL">
         <p>
@@ -273,10 +283,17 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>at<b/>first<s n="adv"/></l> 
             <r>de<b/>primeras<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+            <l>at<b/>full<b/>speed<s n="adv"/></l> 
+            <r>a<b/>toda<b/>velocidad<s n="adv"/></r> 
         </p>
     </e>
     
@@ -308,21 +325,21 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>at<b/>one<b/>stroke<s n="adv"/></l> 
             <r>de<b/>un<b/>plumazo<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>at<b/>random<s n="adv"/></l> 
             <r>al<b/>azar<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>at<b/>the<b/>beginning<s n="adv"/></l> 
             <r>al<b/>principio<s n="adv"/></r> 
@@ -336,19 +353,19 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>at<b/>the<b/>end<s n="adv"/></l> 
             <r>al<b/>final<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL" c="@check">
+    <!--<e c="@check">
         <p>
-            <l><s n="adv"/>at<b/>the<b/>top<b/>of<b/>one's<b/>voice</l> 
+            <l>at<b/>the<b/>top<b/>of<b/>one's<b/>voice<s n="adv"/></l> 
             <r>a<b/>grito<b/>pelado<s n="adv"/></r> 
         </p>
-    </e>
+    </e>-->
     
     <e r="RL">
         <p>
@@ -356,20 +373,20 @@
             <r>con<b/>conocimiento<b/>de<b/>causa<s n="adv"/></r> 
         </p>
     </e>
-    
-    <e r="RL" c="@check">
+
+    <!--<e r="RL" c="@check">
         <p>
             <l>beat<b/>the<b/>big<b/>drum<s n="adv"/></l> 
             <r>a<b/>bombo<b/>y<b/>platillo<s n="adv"/></r> 
         </p>
-    </e>
+    </e>-->
     
-    <e r="RL" c="@check">
+    <!--<e r="RL" c="@check">
         <p>
             <l>because<b/>[you]<b/>say<b/>so<s n="adv"/></l> 
             <r>por<b/>[tu]<b/>cara<b/>bonita<s n="adv"/></r> 
         </p>
-    </e>
+    </e>-->
     
     <e>
         <p>
@@ -378,7 +395,7 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>blindly<s n="adv"/></l> 
             <r>a<b/>ciegas<s n="adv"/></r> 
@@ -392,14 +409,14 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>by<b/>chance<s n="adv"/></l> 
             <r>por<b/>casualidad<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>by<b/>dint<b/>of<s n="adv"/></l> 
             <r>a<b/>fuerza<b/>de<s n="adv"/></r> 
@@ -413,14 +430,14 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>by<b/>fits<b/>and<b/>starts<s n="adv"/></l> 
             <r>a<b/>tonta<b/>y<b/>a<b/>locas<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL" c="check">
+    <e c="check">
         <p>
             <l>by<b/>force<s n="adv"/></l> 
             <r>a<b/>la<b/>fuerza<s n="adv"/></r> 
@@ -434,7 +451,7 @@
         </p>
     </e>
     
-    <e r="RL" c="check">
+    <e c="check">
         <p>
             <l>by<b/>forced<b/>marches<s n="adv"/></l> 
             <r>a<b/>marchas<b/>forzadas<s n="adv"/></r> 
@@ -469,17 +486,24 @@
         </p>
     </e>
     
-    <e r="RL" c="@check">
+    <!--<e r="RL" c="@check">
         <p>
             <l>by<b/>the<b/>skin<b/>of<b/>[one's]<b/>teeth<s n="adv"/></l> 
             <r>por<b/>los<b/>pelos<s n="adv"/></r> 
         </p>
-    </e>
+    </e>-->
     
     <e r="RL">
         <p>
             <l>carelessly<s n="adv"/></l> 
             <r>a<b/>salto<b/>de<b/>mata<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+            <l>carelessly<s n="adv"/></l> 
+            <r>despreocupadamente<s n="adv"/></r> 
         </p>
     </e>
     
@@ -504,7 +528,7 @@
         </p>
     </e>
     
-    <e r="LR">
+    <e>
         <p>
             <l>edgewise<s n="adv"/></l> 
             <r>de<b/>lado<s n="adv"/></r> 
@@ -518,7 +542,7 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>endless<s n="adv"/></l> 
             <r>sin<b/>fin<s n="adv"/></r> 
@@ -574,7 +598,7 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>first<b/>and<b/>foremost<s n="adv"/></l> 
             <r>ante<b/>todo<s n="adv"/></r> 
@@ -594,8 +618,15 @@
             <r>a<b/>lo<b/>tonto<b/>a<b/>lo<b/>tonto<s n="adv"/></r> 
         </p>
     </e>
+
+    <e>
+        <p>
+            <l>foolishly<s n="adv"/></l> 
+            <r>tontamente<s n="adv"/></r> 
+        </p>
+    </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>for<b/>God's<b/>sake<s n="adv"/></l> 
             <r>por<b/>el<b/>amor<b/>de<b/>Dios<s n="adv"/></r> 
@@ -608,6 +639,13 @@
             <r>por<b/>los<b/>siglos<b/>de<b/>los<b/>siglos<s n="adv"/></r> 
         </p>
     </e>
+
+    <e>
+        <p>
+            <l>for<b/>ever<b/>and<b/>ever<s n="adv"/></l> 
+            <r>para<b/>siempre<s n="adv"/></r> 
+        </p>
+    </e>
     
     <e>
         <p>
@@ -616,14 +654,14 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>for<b/>life<s n="adv"/></l> 
             <r>de<b/>por<b/>vida<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>for<b/>now<s n="adv"/></l> 
             <r>por<b/>ahora<s n="adv"/></r> 
@@ -643,11 +681,25 @@
             <r>por<b/>hache<b/>o<b/>por<b/>be<s n="adv"/></r> 
         </p>
     </e>
+
+    <e>
+        <p>
+            <l>for<b/>one<b/>reason<b/>or<b/>another<s n="adv"/></l> 
+            <r>por<b/>una<b/>razón<b/>o<b/>por<b/>otra<s n="adv"/></r> 
+        </p>
+    </e>
     
     <e r="RL">
         <p>
             <l>for<b/>sure<s n="adv"/></l> 
             <r>a<b/>ciencia<b/>cierta<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+            <l>for<b/>sure<s n="adv"/></l> 
+            <r>seguro<s n="adv"/></r> 
         </p>
     </e>
     
@@ -672,10 +724,17 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>from<b/>bad<b/>to<b/>worse<s n="adv"/></l> 
             <r>de<b/>mal<b/>en<b/>peor<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+            <l>from<b/>beginning<b/>to<b/>end<s n="adv"/></l> 
+            <r>de<b/>principio<b/>a<b/>fin<s n="adv"/></r> 
         </p>
     </e>
     
@@ -714,14 +773,14 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>gropingly<s n="adv"/></l> 
             <r>a<b/>tientas<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL" c="check">
+    <e c="check">
         <p>
             <l>headed<b/>by<s n="adv"/></l> 
             <r>al<b/>mando<b/>de<s n="adv"/></r> 
@@ -746,6 +805,13 @@
         <p>
             <l>in<b/>a<b/>blink<b/>of<b/>the<b/>eye<s n="adv"/></l> 
             <r>en<b/>menos<b/>que<b/>canta<b/>un<b/>gallo<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e r="LR">
+        <p>
+            <l>in<b/>a<b/>blink<b/>of<b/>the<b/>eye<s n="adv"/></l> 
+            <r>en<b/>un<b/>abrir<b/>y<b/>cerrar<b/>de<b/>ojos<s n="adv"/></r> 
         </p>
     </e>
     
@@ -875,7 +941,7 @@
         </p>
     </e>
     
-    <e r="RL" c="check">
+    <e c="check">
         <p>
             <l>in<b/>for<b/>a<b/>penny<s n="adv"/></l> 
             <r>de<b/>perdidos<b/>al<b/>río<s n="adv"/></r> 
@@ -909,6 +975,13 @@
             <r>por<b/>un<b/>tubo<s n="adv"/></r> 
         </p>
     </e>
+
+    <e c="check">
+        <p>
+            <l>in<b/>great<b/>quantity<s n="adv"/></l> 
+            <r>en<b/>gran<b/>cantidad<s n="adv"/></r> 
+        </p>
+    </e>
     
     <e r="RL" c="also: after">
         <p>
@@ -931,14 +1004,14 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>in<b/>the<b/>first<b/>place<s n="adv"/></l> 
             <r>en<b/>primer<b/>lugar<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>in<b/>the<b/>long<b/>run<s n="adv"/></l> 
             <r>a<b/>la<b/>larga<s n="adv"/></r> 
@@ -951,8 +1024,15 @@
             <r>en<b/>el<b/>quinto<b/>pino<s n="adv"/></r> 
         </p>
     </e>
+
+    <e>
+        <p>
+            <l>in<b/>the<b/>middle<b/>of<b/>nowhere<s n="adv"/></l> 
+            <r>en<b/>medio<b/>de<b/>la<b/>nada<s n="adv"/></r> 
+        </p>
+    </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>in<b/>the<b/>prime<b/>of<b/>life<s n="adv"/></l> 
             <r>en<b/>la<b/>flor<b/>de<b/>la<b/>vida<s n="adv"/></r> 
@@ -1113,24 +1193,32 @@
         </p>
     </e>
     
-    <e r="RL" c="@check">
+
+    <!--<e r="RL" c="@check">
         <p>
             <l>on<b/>[one's]<b/>feet<s n="adv"/></l> 
             <r>de<b/>pie<s n="adv"/></r> 
         </p>
-    </e>
+    </e>-->
     
-    <e c="@check">
+    <!--<e c="@check">
         <p>
             <l>on<b/>[one's]<b/>knees<s n="adv"/></l> 
             <r>de<b/>rodillas<s n="adv"/></r> 
         </p>
-    </e>
+    </e>-->
     
     <e r="RL">
         <p>
             <l>on<b/>a<b/>shoestring<s n="adv"/></l> 
             <r>con<b/>cuatro<b/>perras<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+            <l>on<b/>a<b/>shoestring<s n="adv"/></l> 
+            <r>con<b/>poco<b/>dinero<s n="adv"/></r> 
         </p>
     </e>
     
@@ -1262,8 +1350,15 @@
     
     <e r="RL">
         <p>
-            <l>over<b/>night<s n="adv"/></l> 
+            <l>overnight<s n="adv"/></l> 
             <r>de<b/>la<b/>noche<b/>a<b/>la<b/>mañana<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+            <l>overnight<s n="adv"/></l> 
+            <r>por<b/>la<b/>noche<s n="adv"/></r> 
         </p>
     </e>
     
@@ -1271,6 +1366,13 @@
         <p>
             <l>people<b/>say<s n="adv"/></l> 
             <r>de<b/>oídas<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+            <l>per<b/>person<s n="adv"/></l> 
+            <r>por<b/>persona<s n="adv"/></r> 
         </p>
     </e>
     
@@ -1295,7 +1397,7 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>point-black<s n="adv"/></l> 
             <r>a<b/>quemarropa<s n="adv"/></r> 
@@ -1329,7 +1431,7 @@
             <r>en<b/>serio<s n="adv"/></r> 
         </p>
     </e>
-    
+   
     <e>
         <p>
             <l>sideways<s n="adv"/></l> 
@@ -1372,26 +1474,21 @@
         </p>
     </e>
     
-    <e>
-        <p>
-            <l>suddenly<s n="adv"/></l> 
-            <r>de<b/>repente<s n="adv"/></r> 
-        </p>
-    </e>
-    
-    <e r="RL" c="check">
+    <e c="check">
         <p>
             <l>the<b/>other<b/>way<b/>around<s n="adv"/></l> 
             <r>al<b/>revés<s n="adv"/></r> 
         </p>
     </e>
     
+<!--
     <e r="RL" c="@check">
         <p>
             <l>the<b/>way<b/>[I]<b/>see<b/>it<s n="adv"/></l> 
             <r>con<b/>el<b/>corazón<b/>en<b/>la<b/>mano<s n="adv"/></r> 
         </p>
     </e>
+-->
     
     <e r="RL">
         <p>
@@ -1400,70 +1497,63 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>third<b/>time<b/>lucky<s n="adv"/></l> 
             <r>a<b/>la<b/>tercera<b/>va<b/>la<b/>vencida<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL" c="@check">
+    <!--<e r="RL" c="@check">
         <p>
             <l>this<b/>is<b/>a<b/>great<b/>time<b/>to<s n="adv"/></l> 
             <r>a<b/>buenas<b/>horas,<b/>mangas<b/>verdes<s n="adv"/></r> 
         </p>
-    </e>
+    </e>-->
     
-    <e r="RL" c="against all odds / come hell or high water">
+    <e c="against all odds / come hell or high water">
         <p>
             <l>through<b/>thick<b/>and<b/>thin<s n="adv"/></l> 
             <r>contra<b/>viento<b/>y<b/>marea<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>to<b/>right<b/>and<b/>left<s n="adv"/></l> 
             <r>a<b/>diestro<b/>y<b/>siniestro<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
-        <p>
-            <l>to<b/>tell<b/>the<b/>truth<s n="adv"/></l> 
-            <r>a<b/>decir<b/>verdad<s n="adv"/></r> 
-        </p>
-    </e>
-    
-    <e r="RL">
+    <e>
         <p>
             <l>to<b/>the<b/>left<s n="adv"/></l> 
             <r>a<b/>la<b/>izquierda<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL" c="check">
+    <e c="check">
         <p>
             <l>to<b/>the<b/>letter<s n="adv"/></l> 
             <r>al<b/>pie<b/>de<b/>la<b/>letra<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>to<b/>the<b/>right<s n="adv"/></l> 
             <r>a<b/>la<b/>derecha<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>to<b/>the<b/>utmost<s n="adv"/></l> 
             <r>a<b/>más<b/>no<b/>poder<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>under<b/>the<b/>counter<s n="adv"/></l> 
             <r>bajo<b/>cuerda<s n="adv"/></r> 
@@ -1491,66 +1581,78 @@
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>unwillingly<s n="adv"/></l> 
             <r>a<b/>disgusto<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>very<b/>late<b/>at<b/>night<s n="adv"/></l> 
             <r>a<b/>las<b/>tantas<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>wide<b/>open<s n="adv"/></l> 
             <r>de<b/>par<b/>en<b/>par<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>willingly<s n="adv"/></l> 
             <r>de<b/>buen<b/>grado<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL" c="also: like it or not">
+    <e c="also: like it or not">
         <p>
             <l>willingly<b/>or<b/>by<b/>force<s n="adv"/></l> 
             <r>de<b/>grado<b/>o<b/>por<b/>fuerza<s n="adv"/></r> 
         </p>
     </e>
     
+	<!--
     <e r="RL" c="@check">
         <p>
             <l>with<b/>[one's]<b/>back<b/>to<s n="adv"/></l> 
             <r>de<b/>espaldas<s n="adv"/></r> 
         </p>
     </e>
-    
+    -->
+<!--
     <e r="RL" c="@check">
         <p>
             <l>with<b/>[one's]<b/>tongue<b/>in<b/>[one's]<b/>cheek<s n="adv"/></l> 
             <r>con<b/>la<b/>boca<b/>pequeña<s n="adv"/></r> 
         </p>
     </e>
-    
+-->
+   
+<!-- 
     <e r="RL" c="@check">
         <p>
             <l>with<b/>all<b/>[one's]<b/>heart<s n="adv"/></l> 
             <r>de<b/>corazón<s n="adv"/></r> 
         </p>
     </e>
+-->
     
     <e r="RL">
         <p>
             <l>with<b/>great<b/>difficulty<s n="adv"/></l> 
             <r>a<b/>trancas<b/>y<b/>barrancas<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+			      <l>with<b/>great<b/>difficulty<s n="adv"/></l> 
+            <r>con<b/>gran<b/>dificultad<s n="adv"/></r> 
         </p>
     </e>
     
@@ -1560,15 +1662,22 @@
             <r>con<b/>gran<b/>dolor<b/>del<b/>corazón<s n="adv"/></r> 
         </p>
     </e>
+
+    <e>
+        <p>
+            <l>with<b/>great<b/>pain<s n="adv"/></l> 
+            <r>con<b/>gran<b/>dolor<s n="adv"/></r> 
+        </p>
+    </e>
     
-    <e r="RL">
+    <e>
         <p>
             <l>with<b/>utmost<b/>difficulty<s n="adv"/></l> 
             <r>a<b/>duras<b/>penas<s n="adv"/></r> 
         </p>
     </e>
     
-    <e r="RL" c="check">
+    <e c="check">
         <p>
             <l>within<b/>sight<b/>distance<s n="adv"/></l> 
             <r>al<b/>alcance<b/>de<b/>la<b/>vista<s n="adv"/></r> 
@@ -1579,6 +1688,13 @@
         <p>
             <l>without<b/>a<b/>purpose<s n="adv"/></l> 
             <r>sin<b/>ton<b/>ni<b/>son<s n="adv"/></r> 
+        </p>
+    </e>
+
+    <e>
+        <p>
+            <l>without<b/>a<b/>purpose<s n="adv"/></l> 
+            <r>sin<b/>ningún<b/>propósito<s n="adv"/></r> 
         </p>
     </e>
     

@@ -1,5 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <section id="verbs" type="standard">
+<!--
+	Entries: ~1822
+-->
+  <section id="verbs" type="standard">
+    <!-- 
+      ******************************
+      (vbdo) group
+      ******************************
+    -->
+    <e r="LR" c="traducció buida">
+      <p>
+        <l>do<s n="vbdo"/><s n="pres"/></l> 
+        <r></r> 
+      </p>
+    </e>
+
+    <e r="LR" c="traducció buida">
+      <p>
+        <l>do<s n="vbdo"/><s n="pri"/><s n="p3"/><s n="sg"/></l> 
+        <r></r> 
+      </p>
+    </e>
+
+    <e r="LR" c="traducció buida">
+      <p>
+        <l>do<s n="vbdo"/><s n="past"/></l> 
+        <r></r> 
+      </p>
+    </e>
+
+    <!-- 
+      ******************************
+      (vaux) group
+      ******************************
+    -->
+    <e>
+      <p>
+        <l>can<s n="vaux"/></l> 
+        <r>poder<s n="vbmod"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>may<s n="vaux"/></l> 
+        <r>poder<s n="vbmod"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>might<s n="vaux"/></l> 
+        <r>poder<s n="vbmod"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>must<s n="vaux"/></l> 
+        <r>tener<g><b/>que</g><s n="vbmod"/></r> 
+      </p>
+    </e>
+
+    <e r="LR" c="traducció buida">
+      <p>
+        <l>shall<s n="vaux"/><s n="inf"/></l> 
+        <r></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>should<s n="vaux"/></l> 
+        <r>tener<g><b/>que</g><s n="vbmod"/></r> 
+      </p>
+    </e>
+
+    <e r="LR" c="traducció buida">
+      <p>
+        <l>will<s n="vaux"/><s n="inf"/></l> 
+        <r></r> 
+      </p>
+    </e>
+
+    <e r="LR" c="traducció buida">
+      <p>
+        <l>would<s n="vaux"/><s n="inf"/></l> 
+        <r></r> 
+      </p>
+    </e>
+
     <!-- 
       ******************************
       (vbhaver) group
@@ -12,21 +102,6 @@
       </p>
     </e>
 
-
-    <!-- 
-      ******************************
-      (vbser) group
-      ******************************
-    -->
-    <e>
-      <p>
-        <l>be<s n="vbser"/></l> 
-        <r>ser<s n="vbser"/></r> 
-      </p>
-    </e>
-
-    <e r="RL"><p><l>be<s n="vbser"/></l><r>estar<s n="vblex"/></r></p></e>
-   
     <!-- 
       ******************************
       (vbmod) group
@@ -53,8 +128,6 @@
       </p>
     </e>
 
-
-
     <e>
       <p>
         <l>want<g><b/>to</g><s n="vbmod"/></l> 
@@ -62,21 +135,25 @@
       </p>
     </e>
 
-<e><p><l>can<s n="vaux"/></l><r>poder<s n="vbmod"/></r></p></e>
-<e r="LR"><p><l>must<s n="vaux"/></l><r>tener<g><b/>que</g><s n="vbmod"/></r></p></e>
-<e r="LR"><p><l>should<s n="vaux"/></l><r>tener<g><b/>que</g><s n="vbmod"/></r></p></e>
-<e r="LR"><p><l>may<s n="vaux"/></l><r>poder<s n="vbmod"/></r></p></e>
-<e r="LR"><p><l>might<s n="vaux"/></l><r>poder<s n="vbmod"/></r></p></e>
+    <!-- 
+      ******************************
+      (vbser) group
+      ******************************
+    -->
+    <e>
+      <p>
+        <l>be<s n="vbser"/></l> 
+        <r>ser<s n="vbser"/></r> 
+      </p>
+    </e>
 
+    <e r="RL">
+      <p>
+        <l>be<s n="vbser"/></l> 
+        <r>estar<s n="vblex"/></r> 
+      </p>
+    </e>
 
-
-<e r="LR" c="traducció buida"><p><l>will<s n="vaux"/><s n="inf"/></l><r></r></p></e>
-<e r="LR" c="traducció buida"><p><l>shall<s n="vaux"/><s n="inf"/></l><r></r></p></e>
-<e r="LR" c="traducció buida"><p><l>would<s n="vaux"/><s n="inf"/></l><r></r></p></e>
-
-<e r="LR" c="traducció buida"><p><l>do<s n="vbdo"/><s n="pres"/></l><r></r></p></e>
-<e r="LR" c="traducció buida"><p><l>do<s n="vbdo"/><s n="pri"/><s n="p3"/><s n="sg"/></l><r></r></p></e>
-<e r="LR" c="traducció buida"><p><l>do<s n="vbdo"/><s n="past"/></l><r></r></p></e>
     <!-- 
       ******************************
       (vblex) group
@@ -595,17 +672,18 @@
 
     <e>
       <p>
-        <l>announce<s n="vblex"/></l> 
-        <r>anunciar<s n="vblex"/></r> 
+        <l>annex<s n="vblex"/></l> 
+        <r>anexionar<s n="vblex"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>annex<s n="vblex"/></l> 
-        <r>anexionar<s n="vblex"/></r> 
+        <l>announce<s n="vblex"/></l> 
+        <r>anunciar<s n="vblex"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>answer<s n="vblex"/></l> 
@@ -704,13 +782,13 @@
       </p>
     </e>
 
-
     <e>
       <p>
         <l>approve<s n="vblex"/></l> 
         <r>aprobar<s n="vblex"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>approximate<s n="vblex"/></l> 
@@ -767,12 +845,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>blind<s n="vblex"/></l> 
-        <r>cegar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e r="LR">
       <p>
         <l>arouse<s n="vblex"/></l> 
@@ -1088,6 +1160,13 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>bang<s n="vblex"/></l> 
+        <r>golpear<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>banish<s n="vblex"/></l> 
@@ -1178,8 +1257,6 @@
         <r>valer<s n="vblex"/></r> 
       </p>
     </e>
-
-<e><p><l>make<g><b/>a<b/>mistake</g><s n="vblex"/></l><r>equivocarse<s n="vblex"/><s n="pron"/></r></p></e>
 
     <e>
       <p>
@@ -1421,6 +1498,20 @@
 
     <e>
       <p>
+        <l>blind<s n="vblex"/></l> 
+        <r>cegar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>block<s n="vblex"/></l> 
+        <r>bloquear<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>blow<s n="vblex"/></l> 
         <r>soplar<s n="vblex"/></r> 
       </p>
@@ -1514,6 +1605,13 @@
       <p>
         <l>brake<s n="vblex"/></l> 
         <r>frenar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e r="LR" a="ebenimeli">
+      <p>
+        <l>breach<s n="vblex"/></l> 
+        <r>incumplir<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -1729,6 +1827,13 @@
 
     <e>
       <p>
+        <l>campaign<s n="vblex"/></l> 
+        <r>hacer<g><b/>campaña</g><s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>cancel<s n="vblex"/></l> 
         <r>cancelar<s n="vblex"/></r> 
       </p>
@@ -1766,6 +1871,20 @@
       <p>
         <l>capture<s n="vblex"/></l> 
         <r>capturar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>care<s n="vblex"/></l> 
+        <r>preocuparse<s n="vblex"/><s n="pron"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>caricature<s n="vblex"/></l> 
+        <r>caricaturizar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -1958,6 +2077,13 @@
       </p>
     </e>
 
+    <e srl="chase">
+      <p>
+        <l>chase<s n="vblex"/></l> 
+        <r>perseguir<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>chat<s n="vblex"/></l> 
@@ -2137,13 +2263,6 @@
       <p>
         <l>close<s n="vblex"/></l> 
         <r>cerrar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>shut<s n="vblex"/></l> 
-        <r>encerrar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -2490,21 +2609,19 @@
       </p>
     </e>
 
-   <e slr="concernir">
+    <e slr="concernir">
       <p>
         <l>concern<s n="vblex"/></l> 
         <r>concernir<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e slr="preocuparse D" r="LR">
+    <e r="LR" slr="preocuparse D">
       <p>
         <l>concern<s n="vblex"/></l> 
         <r>preocuparse<s n="vblex"/><s n="pron"/></r> 
       </p>
     </e>
-
-<e r="LR"><p><l>care<s n="vblex"/></l><r>preocuparse<s n="vblex"/><s n="pron"/></r></p></e>
 
     <e>
       <p>
@@ -2989,6 +3106,13 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>counter<s n="vblex"/></l> 
+        <r>contrarrestar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e r="LR">
       <p>
         <l>counterbalance<s n="vblex"/></l> 
@@ -2996,12 +3120,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>counter<s n="vblex"/></l> 
-        <r>contrarrestar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>cover<s n="vblex"/></l> 
@@ -3606,24 +3724,18 @@
 
     <e>
       <p>
-        <l>deserve<s n="vblex"/></l> 
-        <r>merecer<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>merit<s n="vblex"/></l> 
-        <r>merecer<s n="vblex"/></r> 
+        <l>desert<s n="vblex"/></l> 
+        <r>desertar<s n="vblex"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>desert<s n="vblex"/></l> 
-        <r>desertar<s n="vblex"/></r> 
+        <l>deserve<s n="vblex"/></l> 
+        <r>merecer<s n="vblex"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>design<s n="vblex"/></l> 
@@ -3857,12 +3969,6 @@
 
     <e>
       <p>
-        <l>discipline<s n="vblex"/></l> 
-        <r>disciplinar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
         <l>disappoint<s n="vblex"/></l> 
         <r>decepcionar<s n="vblex"/></r> 
       </p>
@@ -3921,6 +4027,13 @@
       <p>
         <l>discharge<s n="vblex"/></l> 
         <r>liberar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>discipline<s n="vblex"/></l> 
+        <r>disciplinar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -4267,6 +4380,20 @@
       </p>
     </e>
 
+    <e slr="caer D">
+      <p>
+        <l>drop<s n="vblex"/></l> 
+        <r>caer<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e slr="soltar">
+      <p>
+        <l>drop<s n="vblex"/></l> 
+        <r>soltar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>drown<s n="vblex"/></l> 
@@ -4519,14 +4646,14 @@
       </p>
     </e>
 
-    <e slr="encerrar D" r="LR">
+    <e r="LR" slr="encerrar D">
       <p>
         <l>enclose<s n="vblex"/></l> 
         <r>encerrar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e slr="adjuntar" r="LR">
+    <e r="LR" slr="adjuntar">
       <p>
         <l>enclose<s n="vblex"/></l> 
         <r>adjuntar<s n="vblex"/></r> 
@@ -4906,17 +5033,18 @@
 
     <e>
       <p>
-        <l>exist<s n="vblex"/></l> 
-        <r>existir<s n="vblex"/></r> 
+        <l>exile<s n="vblex"/></l> 
+        <r>exiliar<s n="vblex"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>exile<s n="vblex"/></l> 
-        <r>exiliar<s n="vblex"/></r> 
+        <l>exist<s n="vblex"/></l> 
+        <r>existir<s n="vblex"/></r> 
       </p>
     </e>
+
     <e r="LR">
       <p>
         <l>exit<s n="vblex"/></l> 
@@ -5106,28 +5234,17 @@
       </p>
     </e>
 
-    <e slr="caer D">
-      <p>
-        <l>drop<s n="vblex"/></l> 
-        <r>caer<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e slr="soltar">
-      <p>
-        <l>drop<s n="vblex"/></l> 
-        <r>soltar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e r="RL">
-      <p>
-        <l>release<s n="vblex"/></l> 
-        <r>soltar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>falsify<s n="vblex"/></l> 
         <r>falsificar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>fan<s n="vblex"/></l> 
+        <r>abanicar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -5264,6 +5381,13 @@
       </p>
     </e>
 
+    <e r="RL" srl="film D">
+      <p>
+        <l>film<s n="vblex"/></l> 
+        <r>rodar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>filter<s n="vblex"/></l> 
@@ -5306,12 +5430,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>fan<s n="vblex"/></l> 
-        <r>abanicar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>fine<s n="vblex"/></l> 
@@ -5830,6 +5948,13 @@
       </p>
     </e>
 
+    <e r="RL" srl="go">
+      <p>
+        <l>go<s n="vblex"/></l> 
+        <r>rodar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e r="RL">
       <p>
         <l>go<g><b/>back</g><s n="vblex"/></l> 
@@ -6005,12 +6130,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>manoeuvre<s n="vblex"/></l> 
-        <r>maniobrar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e r="RL">
       <p>
         <l>hang<s n="vblex"/></l> 
@@ -6165,6 +6284,13 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>hide<s n="vblex"/></l> 
+        <r>ocultar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>highlight<s n="vblex"/></l> 
@@ -6262,6 +6388,7 @@
         <r>darse<g><b/>prisa</g><s n="vblex"/><s n="pron"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>identify<s n="vblex"/></l> 
@@ -6744,6 +6871,7 @@
         <r>inventariar<s n="vblex"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>invest<s n="vblex"/></l> 
@@ -6790,6 +6918,13 @@
       <p>
         <l>involve<s n="vblex"/></l> 
         <r>implicar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>iron<s n="vblex"/></l> 
+        <r>planchar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -6933,13 +7068,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>bang<s n="vblex"/></l> 
-        <r>golpear<s n="vblex"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>knock<s n="vblex"/></l> 
@@ -6974,6 +7102,7 @@
         <r>carecer<g><b/>de</g><s n="vblex"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>land<s n="vblex"/></l> 
@@ -7044,12 +7173,6 @@
       </p>
     </e>
 
-    <e srl="support D">
-      <p>
-        <l>support<s n="vblex"/></l> 
-        <r>apoyar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e r="RL">
       <p>
         <l>lean<s n="vblex"/></l> 
@@ -7246,6 +7369,13 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>lock<s n="vblex"/></l> 
+        <r>cerrar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>lodge<s n="vblex"/></l> 
@@ -7360,6 +7490,13 @@
 
     <e>
       <p>
+        <l>make<g><b/>a<b/>mistake</g><s n="vblex"/></l> 
+        <r>equivocarse<s n="vblex"/><s n="pron"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>manacle<s n="vblex"/></l> 
         <r>esposar<s n="vblex"/></r> 
       </p>
@@ -7404,6 +7541,13 @@
       <p>
         <l>manipulate<s n="vblex"/></l> 
         <r>manipular<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>manoeuvre<s n="vblex"/></l> 
+        <r>maniobrar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -7497,6 +7641,7 @@
         <r>serpentear<s n="vblex"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>measure<s n="vblex"/></l> 
@@ -7539,6 +7684,13 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>melt<s n="vblex"/></l> 
+        <r>derretir<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>mention<s n="vblex"/></l> 
@@ -7557,6 +7709,20 @@
       <p>
         <l>merge<s n="vblex"/></l> 
         <r>fusionar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>merit<s n="vblex"/></l> 
+        <r>merecer<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>milk<s n="vblex"/></l> 
+        <r>ordeñar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -7686,12 +7852,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>whisper<s n="vblex"/></l> 
-        <r>susurrar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e r="LR">
       <p>
         <l>name<s n="vblex"/></l> 
@@ -7715,17 +7875,18 @@
 
     <e>
       <p>
-        <l>negotiate<s n="vblex"/></l> 
-        <r>negociar<s n="vblex"/></r> 
+        <l>neglect<s n="vblex"/></l> 
+        <r>desatender<s n="vblex"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>neglect<s n="vblex"/></l> 
-        <r>desatender<s n="vblex"/></r> 
+        <l>negotiate<s n="vblex"/></l> 
+        <r>negociar<s n="vblex"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>neutralize<s n="vblex"/></l> 
@@ -7800,6 +7961,13 @@
       <p>
         <l>object<s n="vblex"/></l> 
         <r>objetar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>obscure<s n="vblex"/></l> 
+        <r>ocultar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -7926,6 +8094,13 @@
       <p>
         <l>optimize<s n="vblex"/></l> 
         <r>optimizar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>orbit<s n="vblex"/></l> 
+        <r>orbitar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -8146,6 +8321,13 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>perfume<s n="vblex"/></l> 
+        <r>perfumar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e r="LR">
       <p>
         <l>permit<s n="vblex"/></l> 
@@ -8274,6 +8456,13 @@
 
     <e>
       <p>
+        <l>pity<s n="vblex"/></l> 
+        <r>compadecer<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>place<s n="vblex"/></l> 
         <r>colocar<s n="vblex"/></r> 
       </p>
@@ -8286,19 +8475,6 @@
       </p>
     </e>
 
-
-    <e>
-      <p>
-        <l>iron<s n="vblex"/></l> 
-        <r>planchar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>milk<s n="vblex"/></l> 
-        <r>ordeñar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>plant<s n="vblex"/></l> 
@@ -8693,12 +8869,6 @@
 
     <e>
       <p>
-        <l>rhyme<s n="vblex"/></l> 
-        <r>rimar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
         <l>prevent<s n="vblex"/></l> 
         <r>evitar<s n="vblex"/></r> 
       </p>
@@ -8956,12 +9126,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>repurchase<s n="vblex"/></l> 
-        <r>recomprar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e srl="pursue D">
       <p>
         <l>pursue<s n="vblex"/></l> 
@@ -8969,12 +9133,6 @@
       </p>
     </e>
 
-    <e srl="chase">
-      <p>
-        <l>chase<s n="vblex"/></l> 
-        <r>perseguir<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>pursue<s n="vblex"/></l> 
@@ -9437,6 +9595,13 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>release<s n="vblex"/></l> 
+        <r>soltar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e r="LR">
       <p>
         <l>release<s n="vblex"/></l> 
@@ -9602,6 +9767,13 @@
       <p>
         <l>reproduce<s n="vblex"/></l> 
         <r>reproducir<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>repurchase<s n="vblex"/></l> 
+        <r>recomprar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -9915,6 +10087,13 @@
 
     <e>
       <p>
+        <l>rhyme<s n="vblex"/></l> 
+        <r>rimar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>rid<s n="vblex"/></l> 
         <r>entregar<s n="vblex"/></r> 
       </p>
@@ -9955,13 +10134,13 @@
       </p>
     </e>
 
-
-    <e>
+    <e r="LR">
       <p>
-        <l>rush<s n="vblex"/></l> 
-        <r>apresurarse<s n="vblex"/><s n="pron"/></r> 
+        <l>roll<s n="vblex"/></l> 
+        <r>rodar<s n="vblex"/></r> 
       </p>
     </e>
+
     <e>
       <p>
         <l>root<s n="vblex"/></l> 
@@ -10055,6 +10234,13 @@
 
     <e>
       <p>
+        <l>rush<s n="vblex"/></l> 
+        <r>apresurarse<s n="vblex"/><s n="pron"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>sack<s n="vblex"/></l> 
         <r>despedir<s n="vblex"/></r> 
       </p>
@@ -10141,6 +10327,13 @@
       <p>
         <l>say<s n="vblex"/></l> 
         <r>decir<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>scan<s n="vblex"/></l> 
+        <r>escanear<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -10263,18 +10456,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>obscure<s n="vblex"/></l> 
-        <r>ocultar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e r="RL">
-      <p>
-        <l>hide<s n="vblex"/></l> 
-        <r>ocultar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e r="LR">
       <p>
         <l>secure<s n="vblex"/></l> 
@@ -10550,12 +10731,6 @@
 
     <e>
       <p>
-        <l>orbit<s n="vblex"/></l> 
-        <r>orbitar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
         <l>shout<s n="vblex"/></l> 
         <r>gritar<s n="vblex"/></r> 
       </p>
@@ -10603,6 +10778,13 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>shut<s n="vblex"/></l> 
+        <r>encerrar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e r="LR">
       <p>
         <l>shut<s n="vblex"/></l> 
@@ -10617,12 +10799,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>lock<s n="vblex"/></l> 
-        <r>cerrar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>sigh<s n="vblex"/></l> 
@@ -10772,12 +10948,6 @@
 
     <e>
       <p>
-        <l>perfume<s n="vblex"/></l> 
-        <r>perfumar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
         <l>smile<s n="vblex"/></l> 
         <r>sonreír<s n="vblex"/></r> 
       </p>
@@ -10885,6 +11055,13 @@
       <p>
         <l>speed<s n="vblex"/></l> 
         <r>acelerar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>spell<s n="vblex"/></l> 
+        <r>deletrear<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -11378,6 +11555,13 @@
       </p>
     </e>
 
+    <e srl="support D">
+      <p>
+        <l>support<s n="vblex"/></l> 
+        <r>apoyar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>suppose<s n="vblex"/></l> 
@@ -11427,25 +11611,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>roll<s n="vblex"/></l> 
-        <r>rodar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" srl="film D">
-      <p>
-        <l>film<s n="vblex"/></l> 
-        <r>rodar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e r="RL" srl="go">
-      <p>
-        <l>go<s n="vblex"/></l> 
-        <r>rodar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>survive<s n="vblex"/></l> 
@@ -11453,19 +11618,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>scan<s n="vblex"/></l> 
-        <r>escanear<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>spell<s n="vblex"/></l> 
-        <r>deletrear<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>suspect<s n="vblex"/></l> 
@@ -11774,6 +11926,13 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>thaw<s n="vblex"/></l> 
+        <r>derretir<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e r="RL">
       <p>
         <l>think<s n="vblex"/></l> 
@@ -11813,6 +11972,13 @@
       <p>
         <l>thrust<s n="vblex"/></l> 
         <r>empujar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>thunder<s n="vblex"/></l> 
+        <r>tronar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -11977,12 +12143,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>pity<s n="vblex"/></l> 
-        <r>compadecer<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>train<s n="vblex"/></l> 
@@ -12167,12 +12327,6 @@
 
     <e>
       <p>
-        <l>block<s n="vblex"/></l> 
-        <r>bloquear<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
         <l>unchain<s n="vblex"/></l> 
         <r>desencadenar<s n="vblex"/></r> 
       </p>
@@ -12189,20 +12343,6 @@
       <p>
         <l>underline<s n="vblex"/></l> 
         <r>subrayar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>thaw<s n="vblex"/></l> 
-        <r>derretir<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>melt<s n="vblex"/></l> 
-        <r>derretir<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -12514,12 +12654,17 @@
       </p>
     </e>
 
-    <e><p><l>campaign<s n="vblex"/></l><r>hacer<g><b/>campaña</g><s n="vblex"/></r></p></e>
-
     <e>
       <p>
         <l>weigh<s n="vblex"/></l> 
         <r>pesar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>whisper<s n="vblex"/></l> 
+        <r>susurrar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -12560,6 +12705,13 @@
 
     <e>
       <p>
+        <l>wonder<s n="vblex"/></l> 
+        <r>preguntarse<s n="vblex"/><s n="pron"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
         <l>work<s n="vblex"/></l> 
         <r>funcionar<s n="vblex"/></r> 
       </p>
@@ -12588,12 +12740,6 @@
 
     <e>
       <p>
-        <l>wonder<s n="vblex"/></l> 
-        <r>preguntarse<s n="vblex"/><s n="pron"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
         <l>worsen<s n="vblex"/></l> 
         <r>empeorar<s n="vblex"/></r> 
       </p>
@@ -12606,12 +12752,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>thunder<s n="vblex"/></l> 
-        <r>tronar<s n="vblex"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>wrap<s n="vblex"/></l> 
@@ -12635,12 +12775,6 @@
 
     <e>
       <p>
-        <l>caricature<s n="vblex"/></l> 
-        <r>caricaturizar<s n="vblex"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
         <l>zone<s n="vblex"/></l> 
         <r>calificar<s n="vblex"/></r> 
       </p>
@@ -12653,12 +12787,5 @@
       </p>
     </e>
 
-    <e r="LR" a="ebenimeli">
-      <p>
-        <l>breach<s n="vblex"/></l> 
-        <r>incumplir<s n="vblex"/></r> 
-      </p>
-    </e>
-
-</section>
+  </section>
 

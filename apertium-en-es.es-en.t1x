@@ -1702,7 +1702,6 @@
 		<clip pos="1" side="tl" part="temps"/>
 		<clip pos="1" side="tl" part="pers"/>
 		<clip pos="1" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="lemq"/> 
 	      </concat>
 	    </let>
 	  </when>
@@ -1750,7 +1749,6 @@
 		<clip pos="1" side="tl" part="temps"/>
 		<clip pos="1" side="tl" part="pers"/>
 		<clip pos="1" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="lemq"/> 
 	      </concat>
 	    </let>
 	  </when>
@@ -1796,8 +1794,7 @@
 		<clip pos="1" side="tl" part="sep"/>
 		<clip pos="1" side="tl" part="temps"/>
 		<clip pos="1" side="tl" part="pers"/>
-		<clip pos="1" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="lemq"/> 
+		<clip pos="1" side="tl" part="nbr"/> 
 	      </concat>
 	    </let>
 
@@ -1841,7 +1838,6 @@
 		      <clip pos="1" side="tl" part="a_verb"/>
 		      <clip pos="1" side="tl" part="sep"/> 
 		      <clip pos="1" side="tl" part="temps"/>
-		      <clip pos="1" side="tl" part="lemq"/> 
 		  </concat>
 		</let>
 
@@ -1879,7 +1875,6 @@
 		    <clip pos="1" side="tl" part="a_verb"/>
 		    <clip pos="1" side="tl" part="sep"/>
 		    <clip pos="1" side="tl" part="temps"/>
-		    <clip pos="1" side="tl" part="lemq"/> 
 		  </concat>
 		</let>
 	      </when>
@@ -1933,7 +1928,6 @@
 		      <clip pos="1" side="tl" part="a_verb"/>
 		      <clip pos="1" side="tl" part="sep"/> 
 		      <clip pos="1" side="tl" part="temps"/>
-		      <clip pos="1" side="tl" part="lemq"/> 
 		  </concat>
 		</let>
 
@@ -1977,7 +1971,6 @@
 		    <clip pos="1" side="tl" part="a_verb"/>
 		    <clip pos="1" side="tl" part="sep"/>
 		    <clip pos="1" side="tl" part="temps"/>
-		    <clip pos="1" side="tl" part="lemq"/> 
 		  </concat>
 		</let>
 	      </when>
@@ -2021,7 +2014,6 @@
 		    <clip pos="1" side="tl" part="a_verb"/>
 		    <clip pos="1" side="tl" part="sep"/>
 		    <clip pos="1" side="tl" part="temps"/>
-		    <clip pos="1" side="tl" part="lemq"/> 
 		  </concat>
 		</let>
 	      </when>
@@ -2038,7 +2030,6 @@
 		    <clip pos="1" side="tl" part="a_verb"/>
 		    <clip pos="1" side="tl" part="sep"/>
 		    <clip pos="1" side="tl" part="temps"/>
-		    <clip pos="1" side="tl" part="lemq"/> 
 		  </concat>
 		</let>
 	      </otherwise>
@@ -2094,8 +2085,7 @@
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
 	   <clip pos="1" side="tl" part="pers"/> 
-	   <lit-tag v="5"/>
-	   <clip pos="1" side="tl" part="lemq"/> 
+	   <lit-tag v="5"/> 
 	 </concat>
        </let>
      </when>
@@ -2143,7 +2133,6 @@
 	   <clip pos="1" side="tl" part="lemh"/>
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
-	   <clip pos="1" side="tl" part="lemq"/> 
 	 </concat>
        </let>
      </when>
@@ -2182,7 +2171,6 @@
 	   <clip pos="1" side="tl" part="lemh"/>
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
-	   <clip pos="1" side="tl" part="lemq"/> 
 	 </concat>
        </let>
      </when>
@@ -2218,7 +2206,6 @@
 	   <clip pos="1" side="tl" part="lemh"/>
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
-	   <clip pos="1" side="tl" part="lemq"/> 
 	 </concat>
        </let>
      </when>
@@ -2273,7 +2260,6 @@
 	   <clip pos="1" side="tl" part="temps"/>
 	   <clip pos="1" side="tl" part="pers"/> 
 	   <lit-tag v="5"/>
-	   <clip pos="1" side="tl" part="lemq"/> 
 	 </concat>
        </let>
      </when>
@@ -2323,7 +2309,6 @@
 	   <clip pos="1" side="tl" part="temps"/>
 	   <clip pos="1" side="tl" part="pers"/> 
 	   <lit-tag v="5"/>
-	   <clip pos="1" side="tl" part="lemq"/> 
 	 </concat>
        </let>
      </when>
@@ -2362,7 +2347,6 @@
 	   <clip pos="1" side="tl" part="lemh"/>
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
-	   <clip pos="1" side="tl" part="lemq"/> 
 	 </concat>
        </let>
      </when>
@@ -2398,7 +2382,6 @@
 	   <clip pos="1" side="tl" part="lemh"/>
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
-	   <clip pos="1" side="tl" part="lemq"/> 
 	 </concat>
        </let>
      </when>
@@ -4096,6 +4079,7 @@
 	    </tags>
 	    <lu>
 	      <var n="verbfinal"/> 
+	      <clip pos="1" side="tl" part="lemq"/> 
 	    </lu>
 	  </chunk>
 	</out>
@@ -5032,7 +5016,58 @@
 	      </chunk>
 	    </out>
 	  </when>
-	  <otherwise><!--Si no és 'haver-hi-->
+	  <when>
+	    <!-- si el verb és separable i no és pronominal, posa el clític entre el verb i la cua (el treu -> takes it out)-->
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="2" side="tl" part="sep"/>
+		  <lit-tag v="sep"/>	
+		</equal>
+		<not>
+		  <equal>
+		    <clip pos="2" side="sl" part="pron"/>
+		    <lit-tag v="pron"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <call-macro n="conj_verb1">
+	      <with-param pos="2"/>
+	    </call-macro>
+	    <append n="lema_SV">
+	      <lit v="_enc"/>
+	    </append>
+	    <out>
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="2" side="tl" part="pers"/></tag>
+		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
+		</tags>
+		<mlu>
+		  <lu>
+		    <var n="verbfinal"/> 
+		  </lu>	
+		  <lu>
+		    <clip pos="1" side="tl" part="lem"/>
+		    <clip pos="1" side="tl" part="a_prn"/>
+		    <clip pos="1" side="tl" part="tipus_prn"/>
+		    <clip pos="1" side="tl" part="pers"/>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <clip pos="1" side="tl" part="nbr"/>		           
+		    <clip pos="2" side="tl" part="lemq"/>
+		  </lu>
+		</mlu>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond"> <!-- si cal, enviem els blancs -->
+	      <with-param pos="1"/>
+	    </call-macro>
+	  </when>
+	  <otherwise><!--si no és un verb separable...-->
 	    <call-macro n="conj_verb1">
 	      <with-param pos="2"/>
 	    </call-macro>
@@ -5047,6 +5082,7 @@
 		</tags>
 		<lu>
 		  <var n="verbfinal"/> 
+		  <clip pos="2" side="tl" part="lemq"/> 
 		</lu>
 	      </chunk>
 	    </out>		  
@@ -6551,72 +6587,131 @@
 	<append n="lema_SV">
 	  <lit v="_ger"/>
 	</append>
-	<out>
-	  <chunk namefrom="lema_SV" case="caseFirstWord">
-	    <tags>
-	      <tag><lit-tag v="SV"/></tag>
-	      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-	      <tag><var n="temps_chunk"/></tag>
-	      <tag><clip pos="2" side="tl" part="pers"/></tag>
-	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
-	    </tags>
-	    <lu>
-	      <var n="verbfinal"/> 
-	    </lu>
-	    <b pos="1"/>	    
-	    <lu>
-	      <clip pos="3" side="tl" part="lemh"/> 
-	      <clip pos="3" side="tl" part="a_verb"/>
-	      <clip pos="3" side="tl" part="sep"/>
-	      <clip pos="3" side="tl" part="temps"/>
-	      <clip pos="3" side="tl" part="lemq"/>    
-	    </lu>
-	  </chunk>
-	</out>		  
-	<choose><!--després d'imprimir el verb, mirem el proclític -->
+	<choose>
 	  <when>
+	    <!-- si el verb és separable i no és pronominal, posa el clític entre el verb i la cua (els estan traient -> are taking them out)-->
 	    <test>
 	      <and>
 		<equal>
-		  <clip pos="3" side="sl" part="pron"/>
-		  <lit-tag v="pron"/>
+		  <clip pos="3" side="tl" part="sep"/>
+		  <lit-tag v="sep"/>	
 		</equal>
-		<equal>
-		  <clip pos="1" side="sl" part="pers"/>
-		  <clip pos="3" side="sl" part="pers"/>
-		</equal>
-		<or>
+		<not>
 		  <equal>
-		    <clip pos="1" side="sl" part="nbr"/>
-		    <clip pos="3" side="sl" part="nbr"/>
+		    <clip pos="3" side="sl" part="pron"/>
+		    <lit-tag v="pron"/>
 		  </equal>
-		  <equal>
-		    <clip pos="1" side="sl" part="lem"/>
-		    <lit v="es"/><!--és 'sp' -->
-		  </equal>
-		</or>
+		</not>
 	      </and>
-	    </test>	
-	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	    </test>
+	    <append n="lema_SV">
+	      <lit v="_enc"/>
+	    </append>
+	    <out>
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
+	      <tags>
+		<tag><lit-tag v="SV"/></tag>
+		<tag><clip pos="2" side="tl" part="a_verb"/></tag>
+		<tag><var n="temps_chunk"/></tag>
+		<tag><clip pos="2" side="tl" part="pers"/></tag>
+		<tag><clip pos="2" side="tl" part="nbr"/></tag>
+	      </tags>
+		  <lu>
+		    <var n="verbfinal"/> 
+		  </lu>	
+		  <b pos="1"/>
+		  <mlu>	    
+		    <lu>
+		      <clip pos="3" side="tl" part="lemh"/> 
+		      <clip pos="3" side="tl" part="a_verb"/>
+		      <clip pos="3" side="tl" part="sep"/>
+		      <clip pos="3" side="tl" part="temps"/>   
+		    </lu>  
+		    <lu>
+		      <clip pos="1" side="tl" part="lem"/>
+		      <clip pos="1" side="tl" part="a_prn"/>
+		      <clip pos="1" side="tl" part="tipus_prn"/>
+		      <clip pos="1" side="tl" part="pers"/>
+		      <clip pos="1" side="tl" part="gen"/>
+		      <clip pos="1" side="tl" part="nbr"/>		           
+		      <clip pos="3" side="tl" part="lemq"/>
+		    </lu>
+		  </mlu>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond"> <!-- si cal, enviem els blancs -->
 	      <with-param pos="2"/>
 	    </call-macro>
 	  </when>
-	  <otherwise>
+	  <otherwise><!--si no és un verb separable...-->
 	    <out>
-	      <b pos="2"/>
-	      <chunk name="pro">
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>
-		  <tag><lit-tag v="SN"/></tag>
-		  <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
-		  <tag><clip pos="1" side="sl" part="pers"/></tag>
-		  <tag><clip pos="1" side="tl" part="gen"/></tag>
-		  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="2" side="tl" part="pers"/></tag>
+		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <clip pos="1" side="tl" part="whole"/>
+		  <var n="verbfinal"/> 
+		</lu>
+		<b pos="1"/>	    
+		<lu>
+		  <clip pos="3" side="tl" part="lemh"/> 
+		  <clip pos="3" side="tl" part="a_verb"/>
+		  <clip pos="3" side="tl" part="sep"/>
+		  <clip pos="3" side="tl" part="temps"/>
+		  <clip pos="3" side="tl" part="lemq"/>    
 		</lu>
 	      </chunk>
-	    </out>		
+	    </out>		  
+	    <choose><!--després d'imprimir el verb, mirem el proclític -->
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="3" side="sl" part="pron"/>
+		      <lit-tag v="pron"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" side="sl" part="pers"/>
+		      <clip pos="3" side="sl" part="pers"/>
+		    </equal>
+		    <or>
+		      <equal>
+			<clip pos="1" side="sl" part="nbr"/>
+			<clip pos="3" side="sl" part="nbr"/>
+		      </equal>
+		      <equal>
+			<clip pos="1" side="sl" part="lem"/>
+			<lit v="es"/><!--és 'sp' -->
+		      </equal>
+		    </or>
+		  </and>
+		</test>	
+		<call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+		  <with-param pos="2"/>
+		</call-macro>
+	      </when>
+	      <otherwise>
+		<out>
+		  <b pos="2"/>
+		  <chunk name="pro">
+		    <tags>
+		      <tag><lit-tag v="SN"/></tag>
+		      <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
+		      <tag><clip pos="1" side="sl" part="pers"/></tag>
+		      <tag><clip pos="1" side="tl" part="gen"/></tag>
+		      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		    </tags>
+		    <lu>
+		      <clip pos="1" side="tl" part="whole"/>
+		    </lu>
+		  </chunk>
+		</out>		
+	      </otherwise>
+	    </choose>
 	  </otherwise>
 	</choose>
       </action>
@@ -7030,6 +7125,7 @@
 	    </tags>
 	    <lu>
 	      <var n="verbfinal"/> 
+	      <clip pos="2" side="tl" part="lemq"/> 
 	    </lu>
 	  </chunk>
 	</out>
@@ -8042,7 +8138,59 @@
 	      </chunk>
 	    </out>
 	  </when>
-	  <otherwise><!--Si no és 'haver-hi-->
+
+	  <when>
+	    <!-- si el verb és separable i no és pronominal, posa el clític entre el verb i la cua (el treu -> takes it out)-->
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="3" side="tl" part="sep"/>
+		  <lit-tag v="sep"/>	
+		</equal>
+		<not>
+		  <equal>
+		    <clip pos="3" side="sl" part="pron"/>
+		    <lit-tag v="pron"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <call-macro n="conj_verb1">
+	      <with-param pos="3"/>
+	    </call-macro>
+	    <append n="lema_SV">
+	      <lit v="_enc"/>
+	    </append>
+	    <out>
+	      <chunk namefrom="lema_SV" case="caseSecondWord">
+		<tags>
+		  <tag><var n="SVnegatiu"/></tag>
+		  <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="3" side="tl" part="pers"/></tag>
+		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
+		</tags>
+		<mlu>
+		  <lu>
+		    <var n="verbfinal"/>
+		  </lu>
+		  <lu>
+		    <clip pos="2" side="tl" part="lem"/>
+		    <clip pos="2" side="tl" part="a_prn"/>
+		    <clip pos="2" side="tl" part="tipus_prn"/>
+		    <clip pos="2" side="tl" part="pers"/>
+		    <clip pos="2" side="tl" part="gen"/>
+		    <clip pos="2" side="tl" part="nbr"/>		           
+		    <clip pos="3" side="tl" part="lemq"/>
+		  </lu>
+		</mlu>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond"> <!-- si cal, enviem el blanc -->
+	      <with-param pos="2"/>
+	    </call-macro>
+	  </when>
+	  <otherwise><!--Si no és separable...-->
 	    <call-macro n="conj_verb1">
 	      <with-param pos="3"/>
 	    </call-macro>
@@ -8057,6 +8205,7 @@
 		</tags>
 		<lu>
 		  <var n="verbfinal"/> 
+		  <clip pos="3" side="tl" part="lemq"/> 
 		</lu>
 	      </chunk>
 	    </out>

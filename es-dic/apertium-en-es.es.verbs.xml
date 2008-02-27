@@ -6357,14 +6357,9 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
-    <e lm="disculpar">
+ <!--   <e lm="disculpar">
         <i>disculp</i> 
         <par n="abandon/ar__vblex"/> 
-    </e>
-
-    <e lm="discutir">
-        <i>discut</i> 
-        <par n="abat/ir__vblex"/> 
     </e>
 
     <e lm="disculpar">
@@ -6373,8 +6368,26 @@
         <r>disculp</r> 
       </p>
         <par n="abandón/ar__vblex"/> 
+    </e> -->
+
+    <e lm="disculparse">
+        <i>disculp</i> 
+        <par n="abandon/arse__vblex"/> 
     </e>
 
+    <e lm="disculparse">
+      <p>
+        <l>discúlp</l> 
+        <r>disculp</r> 
+      </p>
+        <par n="abandón/arse__vblex"/> 
+    </e>
+
+
+    <e lm="discutir">
+        <i>discut</i> 
+        <par n="abat/ir__vblex"/> 
+    </e>
     <e lm="discutir">
       <p>
         <l>discút</l> 

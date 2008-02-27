@@ -59,6 +59,15 @@
       <cat-item tags="adj.sup"/>
     </def-cat> 
 
+    <def-cat n="adj2pos">
+      <cat-item tags="adj.pos"/>
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.sint"/>
+      <cat-item tags="adj.sint.*"/>
+      <cat-item tags="adj.comp"/>
+      <cat-item tags="adj.sup"/>
+    </def-cat>
+
     <def-cat n="num">
       <cat-item tags="num.*"/>
       <cat-item tags="num"/>
@@ -13635,6 +13644,30 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <var n="gen_chunk"/>
 	      <clip pos="1" side="tl" part="gen"/>
 	    </let>
+	  </when>  
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="f"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="gen_chunk"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	    </let>
+	  </when> 
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="m"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="gen_chunk"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	    </let>
 	  </when>
 	  <otherwise>
 	    <let>
@@ -13669,7 +13702,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
     <rule comment="REGLA: ADJECTIU (queda com a GD i ND fins al interchunk)">
       <pattern>
-	<pattern-item n="adj2"/>
+	<pattern-item n="adj2pos"/>
       </pattern>
       <action>    
 	<call-macro n="firstWord">
@@ -13684,6 +13717,30 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		<equal>
 		  <clip pos="1" side="tl" part="gen"/>
 		  <lit-tag v="mf"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="gen_chunk"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	    </let>
+	  </when>
+	  <when><!--això està fet per al cas únic de 'lesbian', que hauria de traduirse com a femení si no hi ha més informació -->
+	    <test>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="f"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="gen_chunk"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	    </let>
+	  </when>
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="m"/>
 		</equal>
 	    </test>
 	    <let>
@@ -13738,6 +13795,30 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		<equal>
 		  <clip pos="2" side="tl" part="gen"/>
 		  <lit-tag v="mf"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="gen_chunk"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	    </let>
+	  </when>
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="2" side="tl" part="gen"/>
+		  <lit-tag v="f"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="gen_chunk"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	    </let>
+	  </when>
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="2" side="tl" part="gen"/>
+		  <lit-tag v="m"/>
 		</equal>
 	    </test>
 	    <let>

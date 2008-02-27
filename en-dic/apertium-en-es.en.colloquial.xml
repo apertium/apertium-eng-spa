@@ -2,6 +2,16 @@
 
 <section id="colloquial" type="standard">
 
+
+
+    <e lm="be hungry">
+        <par n="/be__vbser"/> 
+        <p>
+		<l><b/>hungry</l>
+		<r><g><b/>hungry</g></r>
+	</p>
+    </e>
+
     <e lm="drink like a fish">
         <i>dr</i> 
         <par n="dr/ink__vblex"/> 
@@ -1093,10 +1103,12 @@
     </e>
     
     <e lm="be hesitant">
-        <i>be<b/>hesitant</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
+        <par n="/be__vbser"/> 
+        <p>
+		<l><b/>hesitant</l>
+		<r><g><b/>hesitant</g></r>
+	</p>
+	</e>
     
 </section>
 

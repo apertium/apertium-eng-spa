@@ -3833,6 +3833,36 @@
         <par n="ampli/ar__vblex"/> 
     </e>
 
+    <e lm="confiar">
+      <p>
+        <l>confí</l> 
+        <r>confi</r> 
+      </p>
+        <par n="alí/ar__vblex"/> 
+    </e>
+
+
+    <e lm="confiar en">
+        <i>confi</i> 
+        <par n="ampli/ar__vblex"/> 
+      <p>
+        <l><b/>en</l> 
+        <r><g><b/>en</g></r> 
+      </p>
+    </e>
+
+    <e lm="confiar en">
+      <p>
+        <l>confí</l> 
+        <r>confi</r> 
+      </p>
+        <par n="alí/ar__vblex"/> 
+      <p>
+        <l><b/>en</l> 
+        <r><g><b/>en</g></r> 
+      </p>
+    </e>
+
     <e lm="configurar">
         <i>configur</i> 
         <par n="abandon/ar__vblex"/> 
@@ -3864,14 +3894,6 @@
     <e lm="confundir">
         <i>confund</i> 
         <par n="abat/ir__vblex"/> 
-    </e>
-
-    <e lm="confiar">
-      <p>
-        <l>confí</l> 
-        <r>confi</r> 
-      </p>
-        <par n="alí/ar__vblex"/> 
     </e>
 
     <e lm="confinar">
@@ -4921,6 +4943,15 @@
       <p>
         <l><b/>un<b/>beso</l> 
         <r><g><b/>un<b/>beso</g></r> 
+      </p>
+    </e>
+
+    <e lm="dar un paso">
+        <i>d</i> 
+        <par n="d/ar__vblex"/> 
+      <p>
+        <l><b/>un<b/>paso</l> 
+        <r><g><b/>un<b/>paso</g></r> 
       </p>
     </e>
 
@@ -10439,6 +10470,15 @@
 
     <e lm="ir">
         <par n="/ir__vblex"/> 
+    </e>
+
+
+    <e lm="ir">
+        <par n="/ir__vblex"/> 
+	<p>
+	  <l><b/>más<b/>despacio</l> 
+	  <r><g><b/>más<b/>despacio</g></r> 
+	</p>
     </e>
 
     <e lm="jugar">

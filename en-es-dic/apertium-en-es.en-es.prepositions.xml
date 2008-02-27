@@ -16,7 +16,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="about D">
       <p>
          <l>about<s n="pr"/></l> 
          <r>sobre<s n="pr"/></r> 
@@ -93,26 +93,13 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>amid<s n="pr"/></l> 
-         <r>entre<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e>
+   <e srl="among">
       <p>
          <l>among<s n="pr"/></l> 
          <r>entre<s n="pr"/></r> 
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>among<s n="pr"/></l> 
-         <r>por<b/>entre<s n="pr"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
@@ -184,12 +171,6 @@
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>at<s n="pr"/></l> 
-         <r>en<s n="pr"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -205,19 +186,6 @@
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>because<b/>of<s n="pr"/></l> 
-         <r>debido<b/>a<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>before<s n="pr"/></l> 
-         <r>ante<s n="pr"/></r> 
-      </p>
-   </e>
    <e>
       <p>
          <l>before<s n="pr"/></l> 
@@ -234,7 +202,7 @@
    <e>
       <p>
          <l>behind<s n="pr"/></l> 
-         <r>en<b/>pos<b/>de<s n="pr"/></r> 
+         <r>detrás<b/>de<s n="pr"/></r> 
       </p>
    </e>
    
@@ -245,7 +213,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="between D">
       <p>
          <l>between<s n="pr"/></l> 
          <r>entre<s n="pr"/></r> 
@@ -329,12 +297,6 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>during<s n="pr"/></l> 
-         <r>durante<s n="pr"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -364,7 +326,7 @@
       </p>
    </e>
    
-   <e slr="durante">
+   <e slr="durante" r="LR">
       <p>
          <l>for<s n="pr"/></l> 
          <r>durante<s n="pr"/></r> 
@@ -392,14 +354,7 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>from<s n="pr"/></l> 
-         <r>de<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
+   <e srl="from">
       <p>
          <l>from<s n="pr"/></l> 
          <r>de<s n="pr"/></r> 
@@ -413,7 +368,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="in D">
       <p>
          <l>in<s n="pr"/></l> 
          <r>en<s n="pr"/></r> 
@@ -527,26 +482,13 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>like<s n="pr"/></l> 
-         <r>como<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e>
+   <e srl="of D">
       <p>
          <l>of<s n="pr"/></l> 
          <r>de<s n="pr"/></r> 
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>of<s n="pr"/></l> 
-         <r>de<s n="pr"/></r> 
-      </p>
-   </e>
    
    <e r="LR" c="MG: He fell off his chair">
       <p>
@@ -555,30 +497,17 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>on<s n="pr"/></l> 
-         <r>acerca<b/>de<s n="pr"/></r> 
-      </p>
-   </e>
    
-   <e r="LR">
+   <e srl="on">
       <p>
          <l>on<s n="pr"/></l> 
          <r>en<s n="pr"/></r> 
       </p>
    </e>
-   
-   <e r="RL" c="traducció buida">
-      <p>
-         <l>on<s n="pr"/></l> 
-         <r>en<s n="pr"/></r> 
-      </p>
-   </e>
-   
+     
   
    
-   <e r="RL">
+   <e r="RL" srl="on">
       <p>
          <l>on<s n="pr"/></l> 
          <r>sobre<s n="pr"/></r> 
@@ -601,33 +530,20 @@
    
   
    
-   <e r="RL">
-      <p>
-         <l>over<s n="pr"/></l> 
-         <r>acerca<b/>de<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
+   <e slr="durante" r="LR">
       <p>
          <l>over<s n="pr"/></l> 
          <r>durante<s n="pr"/></r> 
       </p>
    </e>
    
-   <e r="LR">
+   <e slr="sobre D" r="LR">
       <p>
          <l>over<s n="pr"/></l> 
          <r>sobre<s n="pr"/></r> 
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>over<s n="pr"/></l> 
-         <r>sobre<s n="pr"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
@@ -782,19 +698,6 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>towards<s n="pr"/></l> 
-         <r>hacia<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL" c="tant això com allò">
-      <p>
-         <l>towards<s n="pr"/></l> 
-         <r>hacia<s n="pr"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -845,19 +748,6 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>up<b/>to<s n="pr"/></l> 
-         <r>hasta<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>up<b/>to<s n="pr"/></l> 
-         <r>hasta<s n="pr"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>

@@ -1573,6 +1573,12 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>annoy<s n="vblex"/></l> 
+        <r>molestar<s n="vblex"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>bottle<s n="vblex"/></l> 
@@ -2063,6 +2069,12 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>switch<s n="vblex"/></l> 
+        <r>cambiar<s n="vblex"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>characterize<s n="vblex"/></l> 
@@ -3344,7 +3356,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>deal<g><b/>with</g><s n="vblex"/></l> 
         <r>tratar<s n="vblex"/></r> 
@@ -4978,14 +4990,14 @@
     <e>
       <p>
         <l>excuse<s n="vblex"/></l> 
-        <r>disculparse<s n="vblex"/></r> 
+        <r>disculparse<s n="vblex"/><s n="pron"/></r> 
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>apologize<s n="vblex"/></l> 
-        <r>disculparse<s n="vblex"/></r> 
+        <r>disculparse<s n="vblex"/><s n="pron"/></r> 
       </p>
     </e>
     <e>
@@ -10177,20 +10189,6 @@
 
     <e>
       <p>
-        <l>round<g><b/>off</g><s n="vblex"/></l> 
-        <r>terminar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>round<g><b/>off</g><s n="vblex"/></l> 
-        <r>terminar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>row<s n="vblex"/></l> 
         <r>remar<s n="vblex"/></r> 
       </p>
@@ -11227,6 +11225,12 @@
 
     <e>
       <p>
+        <l>step<s n="vblex"/></l> 
+        <r>dar<g><b/>un<b/>paso</g><s n="vblex"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>stick<s n="vblex"/></l> 
         <r>enganchar<s n="vblex"/></r> 
       </p>
@@ -11337,6 +11341,12 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>strip<s n="vblex"/></l> 
+        <r>desnudar<s n="vblex"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>stroke<s n="vblex"/></l> 
@@ -11542,6 +11552,12 @@
 
     <e>
       <p>
+        <l>modulate<s n="vblex"/></l> 
+        <r>modular<s n="vblex"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
         <l>superimpose<s n="vblex"/></l> 
         <r>superponer<s n="vblex"/></r> 
       </p>
@@ -11694,6 +11710,13 @@
       </p>
     </e>
 
+    <e r="LR" c="no sé si és bona trad">
+      <p>
+        <l>tap<s n="vblex"/></l> 
+        <r>tocar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e r="LR">
       <p>
         <l>tackle<s n="vblex"/></l> 
@@ -11817,6 +11840,15 @@
       <p>
         <l>take<g><b/>part</g><s n="vblex"/></l> 
         <r>participar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <e><p><l>slow<g><b/>down</g><s n="vblex"/><s n="sep"/></l><r>ir<g><b/>más<b/>despacio</g><s n="vblex"/></r></p></e>
+
+    <e r="LR">
+      <p>
+        <l>slow<s n="vblex"/></l> 
+        <r>retrasar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -12086,6 +12118,10 @@
       </p>
     </e>
 
+
+    <e><p><l>trust<s n="vblex"/></l><r>confiar<g><b/>en</g><s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>trust<s n="vblex"/></l><r>confiar<s n="vblex"/></r></p></e>
+
     <e>
       <p>
         <l>touch<s n="vblex"/></l> 
@@ -12093,6 +12129,12 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>tour<s n="vblex"/></l> 
+        <r>visitar<s n="vblex"/></r> 
+      </p>
+    </e>
     <e r="RL">
       <p>
         <l>toughen<s n="vblex"/></l> 
@@ -12258,13 +12300,6 @@
       <p>
         <l>truncate<s n="vblex"/></l> 
         <r>truncar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>trust<s n="vblex"/></l> 
-        <r>confiar<s n="vblex"/></r> 
       </p>
     </e>
 

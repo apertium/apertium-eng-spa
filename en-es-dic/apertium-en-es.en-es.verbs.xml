@@ -1001,7 +1001,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="attack D">
       <p>
         <l>attack<s n="vblex"/></l> 
         <r>atacar<s n="vblex"/></r> 
@@ -1665,13 +1665,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>bring<s n="vblex"/></l> 
-        <r>llevar<s n="vblex"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>bring<s n="vblex"/></l> 
@@ -1784,21 +1777,21 @@
       </p>
     </e>
 
-    <e r="LR" c="(they call him Peter)">
+    <e r="RL" c="(they call him Peter)">
       <p>
         <l>call<s n="vblex"/></l> 
         <r>denominar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="gritar">
       <p>
         <l>call<s n="vblex"/></l> 
         <r>gritar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="llamar D">
       <p>
         <l>call<s n="vblex"/></l> 
         <r>llamar<s n="vblex"/></r> 
@@ -5884,9 +5877,9 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
-        <l>give<g><b/>back</g><s n="vblex"/></l> 
+        <l>return<s n="vblex"/></l> 
         <r>regresar<s n="vblex"/></r> 
       </p>
     </e>
@@ -7585,14 +7578,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="marcar D">
       <p>
         <l>mark<s n="vblex"/></l> 
         <r>marcar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="puntuar">
       <p>
         <l>mark<s n="vblex"/></l> 
         <r>puntuar<s n="vblex"/></r> 
@@ -10056,14 +10049,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="reseñar">
       <p>
         <l>review<s n="vblex"/></l> 
         <r>reseñar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="revisar D">
       <p>
         <l>review<s n="vblex"/></l> 
         <r>revisar<s n="vblex"/></r> 
@@ -10109,13 +10102,6 @@
       <p>
         <l>rhyme<s n="vblex"/></l> 
         <r>rimar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>rid<s n="vblex"/></l> 
-        <r>entregar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -10210,7 +10196,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>rub<s n="vblex"/></l> 
         <r>rozar<s n="vblex"/></r> 
@@ -10224,14 +10210,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="correr D">
       <p>
         <l>run<s n="vblex"/></l> 
         <r>correr<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="funcionar">
       <p>
         <l>run<s n="vblex"/></l> 
         <r>funcionar<s n="vblex"/></r> 
@@ -10294,21 +10280,21 @@
       </p>
     </e>
 
-    <e>
+    <e slr="ahorrar">
       <p>
         <l>save<s n="vblex"/></l> 
         <r>ahorrar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="guardar">
       <p>
         <l>save<s n="vblex"/></l> 
         <r>guardar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="salvar D">
       <p>
         <l>save<s n="vblex"/></l> 
         <r>salvar<s n="vblex"/></r> 
@@ -10742,13 +10728,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>shout<s n="vblex"/></l> 
-        <r>llamar<s n="vblex"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>show<s n="vblex"/></l> 
@@ -10882,7 +10861,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>situate<s n="vblex"/></l> 
         <r>ubicar<s n="vblex"/></r> 
@@ -11071,14 +11050,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="gastar D">
       <p>
         <l>spend<s n="vblex"/></l> 
         <r>gastar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="pasar">
       <p>
         <l>spend<s n="vblex"/></l> 
         <r>pasar<s n="vblex"/></r> 
@@ -11106,21 +11085,21 @@
       </p>
     </e>
 
-    <e>
+    <e slr="divulgar">
       <p>
         <l>spread<s n="vblex"/></l> 
         <r>divulgar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="extender D">
       <p>
         <l>spread<s n="vblex"/></l> 
         <r>extender<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>spread<s n="vblex"/></l> 
         <r>untar<s n="vblex"/></r> 
@@ -11322,7 +11301,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" srl="strike" c="Mil.">
       <p>
         <l>strike<s n="vblex"/></l> 
         <r>atacar<s n="vblex"/></r> 
@@ -11426,14 +11405,7 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>submit<s n="vblex"/></l> 
-        <r>someter<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
+    <e r="RL">
       <p>
         <l>submit<s n="vblex"/></l> 
         <r>someter<s n="vblex"/></r> 
@@ -11475,7 +11447,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>suck<s n="vblex"/></l> 
         <r>chupar<s n="vblex"/></r> 
@@ -11531,14 +11503,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="adaptar">
       <p>
         <l>suit<s n="vblex"/></l> 
         <r>adaptar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="convenir D">
       <p>
         <l>suit<s n="vblex"/></l> 
         <r>convenir<s n="vblex"/></r> 
@@ -12043,14 +12015,14 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>tighten<s n="vblex"/></l> 
         <r>estrechar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>tighten<s n="vblex"/></l> 
         <r>tensar<s n="vblex"/></r> 
@@ -12172,7 +12144,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>trace<s n="vblex"/></l> 
         <r>trazar<s n="vblex"/></r> 
@@ -12256,7 +12228,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>trap<s n="vblex"/></l> 
         <r>engañar<s n="vblex"/></r> 
@@ -12634,14 +12606,14 @@
       </p>
     </e>
 
-    <e r="LR" c="(television)">
+    <e slr="mirar D" c="(television)">
       <p>
         <l>watch<s n="vblex"/></l> 
         <r>mirar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="vigilar">
       <p>
         <l>watch<s n="vblex"/></l> 
         <r>vigilar<s n="vblex"/></r> 
@@ -12655,7 +12627,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>wave<s n="vblex"/></l> 
         <r>ondear<s n="vblex"/></r> 
@@ -12753,14 +12725,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="funcionar">
       <p>
         <l>work<s n="vblex"/></l> 
         <r>funcionar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="trabajar D">
       <p>
         <l>work<s n="vblex"/></l> 
         <r>trabajar<s n="vblex"/></r> 
@@ -12802,7 +12774,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>wrap<s n="vblex"/></l> 
         <r>liar<s n="vblex"/></r> 

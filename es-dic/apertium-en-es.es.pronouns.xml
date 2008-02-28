@@ -41,6 +41,13 @@
     <i>cual</i>
     <par n="cual/quiera__prn"/>
   </e>
+
+<e lm="los dos" r="RL"><i>l</i><par n="l/os_dos__prn"/></e>
+
+<e lm="cualquier cosa"><i>cualquier<b/>cosa</i><par n="alguna_cosa__prn"/></e>
+
+<e lm="alguna cosa"><i>alguna<b/>cosa</i><par n="alguna_cosa__prn"/></e>
+
   <e lm="cuál">
     <i>cuál</i>
     <par n="cuál__prn"/>
@@ -88,10 +95,6 @@
     <i>l</i>
     <par n="l/o__prn"/>
   </e> -->
-  <e r="RL" lm="los dos">
-    <i>l</i>
-    <par n="l/os_dos__prn"/>
-  </e>
   <e lm="mí">
     <i>mí</i>
     <par n="conmigo__prn"/>
@@ -144,6 +147,9 @@
     <i>todo<b/>el<b/>mundo</i>
     <par n="alguien__prn"/>
   </e>
+
+<e lm="la mayoría" r="RL"><i>la<b/>mayoría</i><par n="la_mayoría__prn"/></e>
+
   <e lm="uno">
     <i>un</i>
     <par n="un/o__prn"/>
@@ -157,7 +163,15 @@
     <par n="es/e__prn"/>
   </e>
 
+    <e lm="muchos">
+      <i>much</i>
+      <par n="much/os__prn"/>
+    </e>
 
+    <e lm="pocos">
+      <i>poc</i>
+      <par n="much/os__prn"/>
+    </e>
 <e lm="pronombres personales fuertes"><i/><par n="prfuerte__prn"/></e>
 <e lm="pronombres personales febles"><i/><par n="prpro__prn"/></e>
 

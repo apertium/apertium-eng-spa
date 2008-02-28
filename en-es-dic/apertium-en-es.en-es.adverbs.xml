@@ -90,6 +90,15 @@
       </p>
    </e>
    
+<e c="qué bonito"><p><l>how<s n="preadv"/></l><r>qué<s n="preadv"/></r></p></e>
+
+<e r="LR"><p><l>pretty<s n="preadv"/></l><r>bastante<s n="preadv"/></r></p></e>
+
+<e><p><l>quite<s n="preadv"/></l><r>bastante<s n="preadv"/></r></p></e>
+
+<e><p><l>too<s n="preadv"/></l><r>demasiado<s n="preadv"/></r></p></e>
+
+
    <!-- 
       ******************************
       (adv) group
@@ -2958,12 +2967,6 @@
          <r>más<s n="adv"/></r> 
       </p>
    </e>
-   <e>
-      <p>
-         <l>more<s n="preadv"/></l> 
-         <r>más<s n="preadv"/></r> 
-      </p>
-   </e>
    <e r="LR">
       <p>
          <l>moreover<s n="adv"/></l> 
@@ -2984,13 +2987,12 @@
          <r>más<s n="adv"/></r> 
       </p>
    </e>
-   
-   <e>
-      <p>
-         <l>most<s n="adv"/></l> 
-         <r>más<s n="adv"/></r> 
-      </p>
-   </e>
+
+   <e><p><l>more<s n="preadv"/></l><r>más<s n="preadv"/></r></p></e>
+
+   <e r="LR" c="the most beautiful"><p><l>most<s n="preadv"/></l><r>más<s n="preadv"/></r></p></e>
+
+
    
    <e>
       <p>
@@ -4802,35 +4804,8 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>too<s n="adv"/></l> 
-         <r>también<s n="adv"/></r> 
-      </p>
-   </e>
    
-   <e r="RL">
-      <p>
-         <l>too<s n="adv"/></l> 
-         <r>también<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>too<b/>much<s n="adv"/></l> 
-         <r>demasiado<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR" c="comptable, per tant, amb complement plural">
-      <p>
-         <l>too<b/>much<s n="adv"/></l> 
-         <r>demasiado<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL" c="MG: Crec que 'too much' i 'too many' s'haurien de posar en un sol paradigma per tal de posar ND en la direcció cat-en">
+   <e c="MG: Crec que 'too much' i 'too many' s'haurien de posar en un sol paradigma per tal de posar ND en la direcció cat-en">
       <p>
          <l>too<b/>much<s n="adv"/></l> 
          <r>demasiado<s n="adv"/></r> 

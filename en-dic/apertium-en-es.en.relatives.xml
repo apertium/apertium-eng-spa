@@ -17,10 +17,16 @@
         <par n="what__rel"/> 
     </e>
 
+    <e lm="the ones who"><i>the<b/>ones<b/>who</i><par n="those_who__rel"/></e>
+    <e lm="the ones that"><i>the<b/>ones<b/>that</i><par n="those_who__rel"/></e>
+
     <e lm="those who">
         <i>those<b/>who</i> 
         <par n="those_who__rel"/> 
     </e>
+
+    <e lm="those that"><i>those<b/>that</i><par n="those_who__rel"/></e>
+
 
     <e lm="what">
         <i>what</i> 
@@ -51,6 +57,10 @@
         <i>whom</i> 
         <par n="that__rel"/> 
     </e>
+
+
+<e lm="of which" c="aquest és el 'which' en la construcció 'of which', que es tradueix per 'de + el qual'. El 'which' relatiu de 'the man which I met' és 'an' en comptes de 'nn'."><p><l>of<b/>which</l><r>of<s n="pr"/><j/>which</r></p><par n="which__rel"/></e>
+
 
 
 </section>

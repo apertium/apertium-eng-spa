@@ -4646,14 +4646,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="aprobar" c="respaldar o dar el visto bueno">
       <p>
         <l>endorse<s n="vblex"/></l> 
         <r>aprobar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="endosar">
       <p>
         <l>endorse<s n="vblex"/></l> 
         <r>endosar<s n="vblex"/></r> 
@@ -5075,13 +5075,6 @@
     <e>
       <p>
         <l>explode<s n="vblex"/></l> 
-        <r>desmentir<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>explode<s n="vblex"/></l> 
         <r>explotar<s n="vblex"/></r> 
       </p>
     </e>
@@ -5114,14 +5107,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="desenmascarar">
       <p>
         <l>expose<s n="vblex"/></l> 
         <r>desenmascarar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="exponer D">
       <p>
         <l>expose<s n="vblex"/></l> 
         <r>exponer<s n="vblex"/></r> 
@@ -5261,14 +5254,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="constar" c="en el sentido de figurar (entre)">
       <p>
         <l>feature<s n="vblex"/></l> 
         <r>constar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="presentar D">
       <p>
         <l>feature<s n="vblex"/></l> 
         <r>presentar<s n="vblex"/></r> 
@@ -5279,20 +5272,6 @@
       <p>
         <l>feed<s n="vblex"/></l> 
         <r>alimentar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>feel<s n="vblex"/></l> 
-        <r>oír<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>feel<s n="vblex"/></l> 
-        <r>parecer<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -5779,28 +5758,28 @@
       </p>
     </e>
 
-    <e r="LR" c="(a taxi, the flu)">
+    <e r="LR" slr="coger" c="(a taxi, the flu)">
       <p>
         <l>get<s n="vblex"/></l> 
         <r>coger<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="conseguir D">
       <p>
         <l>get<s n="vblex"/></l> 
         <r>conseguir<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="llegar">
       <p>
         <l>get<s n="vblex"/></l> 
         <r>llegar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="recibir">
       <p>
         <l>get<s n="vblex"/></l> 
         <r>recibir<s n="vblex"/></r> 
@@ -5835,7 +5814,7 @@
       </p>
     </e>
 
-    <e>
+    <e slr="regresar D">
       <p>
         <l>return<s n="vblex"/></l> 
         <r>regresar<s n="vblex"/></r> 
@@ -6962,12 +6941,12 @@
       </p>
     </e>
 
-    <e slr="seguir" c="En direcció ca-en tb s'hauria de detectar la construcció amb gerundi (transfer?)">
+    <!--<e slr="seguir" c="En direcció ca-en tb s'hauria de detectar la construcció amb gerundi (transfer?)">
       <p>
         <l>keep<s n="vblex"/></l> 
         <r>seguir<s n="vblex"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <e r="LR">
       <p>
@@ -7396,14 +7375,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="encantar D">
       <p>
         <l>love<s n="vblex"/></l> 
         <r>encantar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="querer">
       <p>
         <l>love<s n="vblex"/></l> 
         <r>querer<s n="vblex"/></r> 
@@ -7445,7 +7424,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>manacle<s n="vblex"/></l> 
         <r>esposar<s n="vblex"/></r> 
@@ -7466,14 +7445,14 @@
       </p>
     </e>
 
-    <e c="(manage to do sth)">
+    <e slr="conseguir" c="(manage to do sth)">
       <p>
         <l>manage<s n="vblex"/></l> 
         <r>conseguir<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="dirigir D">
       <p>
         <l>manage<s n="vblex"/></l> 
         <r>dirigir<s n="vblex"/></r> 
@@ -7546,13 +7525,6 @@
     <e>
       <p>
         <l>match<s n="vblex"/></l> 
-        <r>aparejar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>match<s n="vblex"/></l> 
         <r>emparejar<s n="vblex"/></r> 
       </p>
     </e>
@@ -7596,13 +7568,6 @@
       <p>
         <l>measure<s n="vblex"/></l> 
         <r>medir<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>measure<s n="vblex"/></l> 
-        <r>mesurar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -8439,28 +8404,28 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="interpretar">
       <p>
         <l>play<s n="vblex"/></l> 
         <r>interpretar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="jugar D">
       <p>
         <l>play<s n="vblex"/></l> 
         <r>jugar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="reproducir">
       <p>
         <l>play<s n="vblex"/></l> 
         <r>reproducir<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e c="(un instrument)">
+    <e c="(un instrumento)" slr="tocar">
       <p>
         <l>play<s n="vblex"/></l> 
         <r>tocar<s n="vblex"/></r> 
@@ -8590,13 +8555,6 @@
       <p>
         <l>postpone<s n="vblex"/></l> 
         <r>aplazar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>pour<s n="vblex"/></l> 
-        <r>abocar<s n="vblex"/></r> 
       </p>
     </e>
 
@@ -8845,13 +8803,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>proceed<s n="vblex"/></l> 
-        <r>ir<s n="vblex"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>proceed<s n="vblex"/></l> 
@@ -8887,14 +8838,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="proyectar D">
       <p>
         <l>project<s n="vblex"/></l> 
         <r>proyectar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="sobresalir">
       <p>
         <l>project<s n="vblex"/></l> 
         <r>sobresalir<s n="vblex"/></r> 
@@ -8922,7 +8873,7 @@
       </p>
     </e>
 
-    <e>
+    <e slr="apuntar" c="en el teatro">
       <p>
         <l>prompt<s n="vblex"/></l> 
         <r>apuntar<s n="vblex"/></r> 
@@ -8936,7 +8887,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="incitar D">
       <p>
         <l>prompt<s n="vblex"/></l> 
         <r>incitar<s n="vblex"/></r> 
@@ -9044,13 +8995,6 @@
     <e>
       <p>
         <l>pump<s n="vblex"/></l> 
-        <r>abombar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>pump<s n="vblex"/></l> 
         <r>bombear<s n="vblex"/></r> 
       </p>
     </e>
@@ -9083,14 +9027,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="empujar D" c="empujar la puerta">
       <p>
         <l>push<s n="vblex"/></l> 
         <r>empujar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="pulsar" c="pulsar un botón">
       <p>
         <l>push<s n="vblex"/></l> 
         <r>pulsar<s n="vblex"/></r> 
@@ -9146,42 +9090,35 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="aumentar">
       <p>
         <l>raise<s n="vblex"/></l> 
         <r>aumentar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="criar">
       <p>
         <l>raise<s n="vblex"/></l> 
         <r>criar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="levantar D">
       <p>
         <l>raise<s n="vblex"/></l> 
         <r>levantar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>raise<s n="vblex"/></l> 
-        <r>obtener<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
+    <e slr="abarcar D" c="en el sentido de extenderse">
       <p>
         <l>range<s n="vblex"/></l> 
         <r>abarcar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="alinear" c="alinear o colocar">
       <p>
         <l>range<s n="vblex"/></l> 
         <r>alinear<s n="vblex"/></r> 
@@ -9923,7 +9860,7 @@
       </p>
     </e>
 
-    <e>
+    <e slr="devolver">
       <p>
         <l>return<s n="vblex"/></l> 
         <r>devolver<s n="vblex"/></r> 
@@ -10294,7 +10231,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>score<s n="vblex"/></l> 
         <r>marcar<s n="vblex"/></r> 
@@ -11231,7 +11168,7 @@
       </p>
     </e>
 
-    <e>
+    <e slr="golpear D">
       <p>
         <l>strike<s n="vblex"/></l> 
         <r>golpear<s n="vblex"/></r> 
@@ -11628,56 +11565,35 @@
       </p>
     </e>
 
-    <e>
+    <e slr="coger">
       <p>
         <l>take<s n="vblex"/></l> 
         <r>coger<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR" c="(walk, picture, break, test, exam, course, look, trip, photograph, photo)">
+    <e slr="hacer" r="LR" c="(walk, picture, break, test, exam, course, look, trip, photograph, photo)">
       <p>
         <l>take<s n="vblex"/></l> 
         <r>hacer<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR" c="(I took him home)">
+    <e r="LR" slr="llevar" c="(I took him home)">
       <p>
         <l>take<s n="vblex"/></l> 
         <r>llevar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="RL" c="(a coffee) ">
-      <p>
-        <l>take<s n="vblex"/></l> 
-        <r>prender<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>take<s n="vblex"/></l> 
-        <r>prender<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>take<s n="vblex"/></l> 
-        <r>prender<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e c="(a coffee)">
+    <e slr="tomar" c="(a coffee)">
       <p>
         <l>take<s n="vblex"/></l> 
         <r>tomar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e r="LR" c="(I took him home)">
+    <e r="LR" slr="traer" c="(I took him home)">
       <p>
         <l>take<s n="vblex"/></l> 
         <r>traer<s n="vblex"/></r> 
@@ -11970,13 +11886,6 @@
       <p>
         <l>time<s n="vblex"/></l> 
         <r>cronometrar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>tip<s n="vblex"/></l> 
-        <r>abocar<s n="vblex"/></r> 
       </p>
     </e>
 

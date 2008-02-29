@@ -166,6 +166,12 @@
       </e>
       <e>
          <p>
+            <l>south<s n="adv"/></l> 
+            <r>al<b/>sur<s n="adv"/></r> 
+         </p>
+      </e>    
+      <e>
+         <p>
             <l>southeast<s n="adv"/></l> 
             <r>al<b/>sureste<s n="adv"/></r> 
          </p>
@@ -2007,6 +2013,20 @@
          <r>mucho<s n="adv"/></r> 
       </p>
    </e>
+
+   <e c="@check">
+      <p>
+         <l>half<s n="adv"/></l> 
+         <r>a<b/>medias<s n="adv"/></r> 
+      </p>
+   </e>
+
+   <e r="RL" c="@check">
+      <p>
+         <l>half<s n="adv"/></l> 
+         <r>medio<s n="adv"/></r> 
+      </p>
+   </e>
    
    <e r="LR">
       <p>
@@ -2713,6 +2733,20 @@
          <r>posteriormente<s n="adv"/></r> 
       </p>
    </e>
+
+   <e>
+      <p>
+         <l>later<s n="adv"/></l> 
+         <r>más<b/>tarde<s n="adv"/></r> 
+      </p>
+   </e>
+
+   <e>
+      <p>
+         <l>left<s n="adv"/></l> 
+         <r>a<b/>la<b/>izquierda<s n="adv"/></r> 
+      </p>
+   </e>
    
    <e r="LR" c="per al superlatiu: the least interesting - el menys interessant, i tb adv normal - what I like least">
       <p>
@@ -2830,6 +2864,13 @@
       <p>
          <l>logically<s n="adv"/></l> 
          <r>lógicamente<s n="adv"/></r> 
+      </p>
+   </e>
+
+   <e c="referido al tiempo: I'm not staying long">
+      <p>
+         <l>long<s n="adv"/></l> 
+         <r>mucho<b/>tiempo<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3160,6 +3201,34 @@
       <p>
          <l>normally<s n="adv"/></l> 
          <r>normalmente<s n="adv"/></r> 
+      </p>
+   </e>
+
+   <e>
+      <p>
+         <l>north<s n="adv"/></l> 
+         <r>al<b/>norte<s n="adv"/></r> 
+      </p>
+   </e>
+
+   <e>
+      <p>
+         <l>northeast<s n="adv"/></l> 
+         <r>al<b/>noreste<s n="adv"/></r> 
+      </p>
+   </e>
+
+   <e>
+      <p>
+         <l>northwest<s n="adv"/></l> 
+         <r>al<b/>noroeste<s n="adv"/></r> 
+      </p>
+   </e>
+
+   <e>
+      <p>
+         <l>west<s n="adv"/></l> 
+         <r>al<b/>oeste<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3540,7 +3609,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e>
       <p>
          <l>over<b/>there<s n="adv"/></l> 
          <r>allí<s n="adv"/></r> 
@@ -4101,7 +4170,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e>
       <p>
          <l>roughly<s n="adv"/></l> 
          <r>aproximadamente<s n="adv"/></r> 
@@ -4136,10 +4205,17 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e>
       <p>
          <l>secretly<s n="adv"/></l> 
          <r>en<b/>secreto<s n="adv"/></r> 
+      </p>
+   </e>
+
+   <e>
+      <p>
+         <l>second<s n="adv"/></l> 
+         <r>en<b/>segundo<b/>lugar<s n="adv"/></r> 
       </p>
    </e>
    

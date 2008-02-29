@@ -215,6 +215,11 @@
         <par n="multimedia__adj"/> 
     </e>
 
+    <e lm="pase lo que pase">
+        <i>pase<b/>lo<b/>que<b/>pase</i> 
+        <par n="ahora__adv"/> 
+    </e>
+
     <e lm="de pacotilla" c="check: is adj">
         <i>de<b/>pacotilla</i> 
         <par n="multimedia__adj"/> 
@@ -240,8 +245,8 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="en contra de [mi] voluntad">
-        <i>en<b/>contra<b/>de<b/>[mi]<b/>voluntad</i> 
+    <e lm="en contra de mi voluntad">
+        <i>en<b/>contra<b/>de<b/>mi<b/>voluntad</i> 
         <par n="ahora__adv"/> 
     </e>
     
@@ -265,8 +270,13 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="de niño/a">
-        <i>de<b/>niño/a</i> 
+    <e lm="de niño">
+        <i>de<b/>niño</i> 
+        <par n="ahora__adv"/> 
+    </e>
+
+    <e lm="de niña">
+        <i>de<b/>niña</i> 
         <par n="ahora__adv"/> 
     </e>
     
@@ -350,10 +360,10 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="a grito pelado">
+    <!--<e lm="a grito pelado">
         <i>a<b/>grito<b/>pelado</i> 
         <par n="ahora__adv"/> 
-    </e>
+    </e>-->
     
     <e lm="con conocimiento de causa">
         <i>con<b/>conocimiento<b/>de<b/>causa</i> 
@@ -365,8 +375,8 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="por [tu] cara bonita">
-        <i>por<b/>[tu]<b/>cara<b/>bonita</i> 
+    <e lm="por tu cara bonita">
+        <i>por<b/>tu<b/>cara<b/>bonita</i> 
         <par n="ahora__adv"/> 
     </e>
     
@@ -601,6 +611,11 @@
         <i>desde<b/>el<b/>principio</i> 
         <par n="ahora__adv"/> 
     </e>
+
+    <e lm="después de todo">
+        <i>después<b/>de<b/>todo</i> 
+        <par n="ahora__adv"/> 
+    </e>
     
     <e lm="de vez en cuando">
         <i>de<b/>vez<b/>en<b/>cuando</i> 
@@ -777,6 +792,10 @@
         <i>en<b/>tal<b/>caso</i> 
         <par n="ahora__adv"/> 
     </e>
+    <e lm="en tu vida">
+        <i>en<b/>tu<b/>vida</i> 
+        <par n="ahora__adv"/> 
+    </e>
     
     <e lm="en primer lugar">
         <i>en<b/>primer<b/>lugar</i> 
@@ -820,7 +839,12 @@
     
     <e lm="de todo hay en la viña del Señor">
         <i>de<b/>todo<b/>hay<b/>en<b/>la<b/>viña<b/>del<b/>Señor</i> 
-        <par n="ahora__adv"/> 
+        <par n="adiós__ij"/> 
+    </e>
+
+    <e lm="de baja calidad">
+        <i>de<b/>baja<b/>calidad</i>
+        <par n="multimedia__adj"/> 
     </e>
     
     <e lm="de broma">
@@ -878,11 +902,6 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="sin duda">
-        <i>sin<b/>duda</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
     <e lm="ni a tiros">
         <i>ni<b/>a<b/>tiros</i> 
         <par n="ahora__adv"/> 
@@ -903,8 +922,13 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="por [mi] cuenta">
-        <i>por<b/>[mi]<b/>cuenta</i> 
+    <e lm="por mi cuenta">
+        <i>por<b/>mi<b/>cuenta</i> 
+        <par n="ahora__adv"/> 
+    </e>
+
+    <e lm="por tu cuenta">
+        <i>por<b/>tu<b/>cuenta</i> 
         <par n="ahora__adv"/> 
     </e>
     
@@ -923,13 +947,13 @@
         <par n="ahora__adv"/> 
     </e>
 
-    <e lm="con poco dinero">
-        <i>con<b/>cuatro<b/>perras</i> 
+    <e lm="con poquísimo dinero">
+        <i>con<b/>poquísimo<b/>dinero</i> 
         <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a pie firme">
-        <i>a<b/>pie<b/>firme</i> 
+    </e>    
+
+    <e lm="a pie">
+        <i>a<b/>pie</i> 
         <par n="ahora__adv"/> 
     </e>
     
@@ -1023,10 +1047,10 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="de oídas">
+    <!--<e lm="de oídas">
         <i>de<b/>oídas</i> 
         <par n="ahora__adv"/> 
-    </e>
+    </e>-->
     
     <e lm="por cabeza">
         <i>por<b/>cabeza</i> 
@@ -1063,8 +1087,13 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="en [mis] propias narices">
-        <i>en<b/>[mis]<b/>propias<b/>narices</i> 
+    <e lm="en mis propias narices">
+        <i>en<b/>mis<b/>propias<b/>narices</i> 
+        <par n="ahora__adv"/> 
+    </e>
+
+    <e lm="justo delante de">
+        <i>justo<b/>delante<b/>de</i> 
         <par n="ahora__adv"/> 
     </e>
     
@@ -1103,11 +1132,6 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="de repente">
-        <i>de<b/>repente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
     <e lm="al revés">
         <i>al<b/>revés</i> 
         <par n="ahora__adv"/> 
@@ -1143,10 +1167,10 @@
         <par n="ahora__adv"/> 
     </e>
     
-    <e lm="a decir verdad">
+    <!--<e lm="a decir verdad">
         <i>a<b/>decir<b/>verdad</i> 
         <par n="ahora__adv"/> 
-    </e>
+    </e>-->
     
     <e lm="a la izquierda">
         <i>a<b/>la<b/>izquierda</i> 
@@ -1187,7 +1211,12 @@
         <i>hasta<b/>la<b/>saciedad</i> 
         <par n="ahora__adv"/> 
     </e>
-    
+
+    <e lm="humorísticamente">
+        <i>humorísticamente</i> 
+        <par n="ahora__adv"/> 
+    </e>
+
     <e lm="a disgusto">
         <i>a<b/>disgusto</i> 
         <par n="ahora__adv"/> 

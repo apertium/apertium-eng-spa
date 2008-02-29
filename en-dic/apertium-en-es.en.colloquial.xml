@@ -132,8 +132,8 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="against [my] will">
-        <i>against<b/>[my]<b/>will</i> 
+    <e lm="against my will">
+        <i>against<b/>my<b/>will</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -157,8 +157,8 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="as [I] was a child">
-        <i>as<b/>[I]<b/>was<b/>a<b/>child</i> 
+    <e lm="as I was a child">
+        <i>as<b/>I<b/>was<b/>a<b/>child</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -184,7 +184,7 @@
     
     <e lm="at about">
         <i>at<b/>about</i> 
-        <par n="maybe__adv"/> 
+        <par n="at__pr"/> 
     </e>
     
     <e lm="at first">
@@ -232,25 +232,25 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="at the top of one's voice">
+    <!--<e lm="at the top of one's voice">
         <i>at<b/>the<b/>top<b/>of<b/>one's<b/>voice</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e>-->
     
     <e lm="based on facts" r="RL">
         <i>based<b/>on<b/>facts</i> 
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="beat the big drum">
-        <i>beat<b/>the<b/>big<b/>drum</i> 
+    <e lm="amid a lot of hype">
+        <i>amid<b/>a<b/>lot<b/>of<b/>hype</i> 
         <par n="maybe__adv"/> 
     </e>
     
-    <!--<e lm="because [you] say so">
-        <i>because<b/>[you]<b/>say<b/>so</i> 
+    <e lm="because you say so" r="RL">
+        <i>because<b/>you<b/>say<b/>so</i> 
         <par n="maybe__adv"/> 
-    </e>-->
+    </e>
     
     <e lm="beyond all doubt">
         <i>beyond<b/>all<b/>doubt</i> 
@@ -342,7 +342,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="dry">
+    <e lm="dry" r="RL">
         <i>dry</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -674,7 +674,7 @@
     
     <e lm="it takes all sorts to make a world">
         <i>it<b/>takes<b/>all<b/>sorts<b/>to<b/>make<b/>a<b/>world</i> 
-        <par n="maybe__adv"/> 
+        <par n="hello__ij"/> 
     </e>
     
     <e lm="jokingly">
@@ -687,7 +687,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="just perfect">
+    <e lm="just perfect" r="RL">
         <i>just<b/>perfect</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -707,8 +707,8 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="naked">
-        <i>naked</i> 
+    <e lm="stark naked">
+        <i>stark<b/>naked</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -737,20 +737,25 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="on [my] own">
-        <i>on<b/>[my]<b/>own</i> 
+    <e lm="on my own">
+        <i>on<b/>my<b/>own</i> 
+        <par n="maybe__adv"/> 
+    </e>
+
+    <e lm="on your own">
+        <i>on<b/>your<b/>own</i> 
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="on [one's] feet">
+    <!--<e lm="on [one's] feet">
         <i>on<b/>[one's]<b/>feet</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e>-->
     
-    <e lm="on [one's] knees">
+    <!--<e lm="on [one's] knees">
         <i>on<b/>[one's]<b/>knees</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e>-->
     
     <e lm="on a shoestring">
         <i>on<b/>a<b/>shoestring</i> 
@@ -777,7 +782,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="on the house">
+    <e lm="on the house" r="RL">
         <i>on<b/>the<b/>house</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -787,7 +792,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="on the quiet">
+    <e lm="on the quiet" r="RL">
         <i>on<b/>the<b/>quiet</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -852,18 +857,13 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="people say">
+    <!--<e lm="people say">
         <i>people<b/>say</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e>-->
     
     <e lm="per person">
         <i>per<b/>person</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
-    <e lm="per peson">
-        <i>per<b/>peson</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -874,11 +874,6 @@
     
     <e lm="point-black">
         <i>point-black</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
-    <e lm="point-blank">
-        <i>point-blank</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -927,8 +922,8 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="the way [I] see it">
-        <i>the<b/>way<b/>[I]<b/>see<b/>it</i> 
+    <e lm="the way I see it" r="RL">
+        <i>the<b/>way<b/>I<b/>see<b/>it</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -942,10 +937,10 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="this is a great time to">
+    <!--<e lm="this is a great time to">
         <i>this<b/>is<b/>a<b/>great<b/>time<b/>to</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e>-->
     
     <e lm="through thick and thin">
         <i>through<b/>thick<b/>and<b/>thin</i> 
@@ -1027,20 +1022,20 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="with [one's] back to">
+    <!--<e lm="with [one's] back to">
         <i>with<b/>[one's]<b/>back<b/>to</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e>-->
     
-    <e lm="with [one's] tongue in [one's] cheek">
+    <!--<e lm="with [one's] tongue in [one's] cheek">
         <i>with<b/>[one's]<b/>tongue<b/>in<b/>[one's]<b/>cheek</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e>-->
     
-    <e lm="with all [one's] heart">
+    <!--<e lm="with all [one's] heart">
         <i>with<b/>all<b/>[one's]<b/>heart</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e>-->
     
     <e lm="with great difficulty">
         <i>with<b/>great<b/>difficulty</i> 
@@ -1072,7 +1067,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="without paying">
+    <e lm="without paying" r="RL">
         <i>without<b/>paying</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -1092,7 +1087,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="be hesitant">
+    <e lm="be hesitant" r="RL">
         <par n="/be__vbser"/> 
         <p>
 		<l><b/>hesitant</l>

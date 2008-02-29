@@ -141,7 +141,7 @@
         <par n="/be__vblex"/> 
       <p>
         <l><b/>a<b/>member<b/>of</l> 
-        <r><g>a<b/>member<b/>of</g></r> 
+        <r><g><b/>a<b/>member<b/>of</g></r> 
       </p>
     </e>
 
@@ -1022,7 +1022,7 @@
 
     <e lm="bring together">
         <i>br</i> 
-        <par n="br/ing__vblex"/> 
+        <par n="br/ing__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>together</l> 
@@ -1351,7 +1351,7 @@
 
     <e lm="check out">
         <i>check</i> 
-        <par n="accept__vblex"/> 
+        <par n="accept__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>out</l> 
@@ -3589,7 +3589,7 @@
     </e>
     <e lm="give up">
         <i>g</i> 
-        <par n="g/ive__vblex"/> 
+        <par n="g/ive__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>up</l> 
@@ -3599,7 +3599,7 @@
 
     <e lm="give back">
         <i>g</i> 
-        <par n="g/ive__vblex"/> 
+        <par n="g/ive__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>back</l> 
@@ -4490,7 +4490,7 @@
 
     <e lm="line up">
         <i>lin</i> 
-        <par n="liv/e__vblex"/> 
+        <par n="liv/e__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>up</l> 
@@ -5132,7 +5132,7 @@
 
     <e lm="pick up">
         <i>pick</i> 
-        <par n="accept__vblex"/> 
+        <par n="accept__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>up</l> 
@@ -5528,7 +5528,7 @@
 
     <e lm="pull out">
         <i>pull</i> 
-        <par n="accept__vblex"/> 
+        <par n="accept__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>out</l> 
@@ -6398,7 +6398,7 @@
 
     <e lm="send back">
         <i>sen</i> 
-        <par n="ben/d__vblex"/> 
+        <par n="ben/d__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>back</l> 
@@ -6848,7 +6848,7 @@
 
     <e lm="stir up">
         <i>stir</i> 
-        <par n="occur__vblex"/> 
+        <par n="occur__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>up</l> 
@@ -7385,7 +7385,7 @@
 
     <e lm="trace back">
         <i>trac</i> 
-        <par n="liv/e__vblex"/> 
+        <par n="liv/e__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>back</l> 
@@ -7448,9 +7448,14 @@
         <par n="control__vblex"/> 
     </e>
 
-    <e r="LR" lm="travel">
+
+    <e lm="travel across">
         <i>travel</i> 
-        <par n="accept__vblex"/> 
+        <par n="control__vblex"/> 
+      <p>
+        <l><b/>across</l> 
+        <r><g><b/>across</g></r> 
+      </p>
     </e>
 
     <e lm="treasure">
@@ -7490,7 +7495,7 @@
 
     <e lm="turn off">
         <i>turn</i> 
-        <par n="accept__vblex"/> 
+        <par n="accept__vblex" sa="sep"/> 
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>off</l> 

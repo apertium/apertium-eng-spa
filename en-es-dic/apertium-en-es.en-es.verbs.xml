@@ -1250,7 +1250,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="be_left">
       <p>
          <l>be<g><b/>left</g><s n="vblex"/></l> 
          <r>quedar<s n="vblex"/></r> 
@@ -1705,7 +1705,7 @@
    
    <e r="LR">
       <p>
-         <l>bring<g><b/>together</g><s n="vblex"/></l> 
+         <l>bring<g><b/>together</g><s n="vblex"/><s n="sep"/></l> 
          <r>reunir<s n="vblex"/></r> 
       </p>
    </e>
@@ -2124,7 +2124,7 @@
    
    <e r="LR">
       <p>
-         <l>check<g><b/>out</g><s n="vblex"/></l> 
+         <l>check<g><b/>out</g><s n="vblex"/><s n="sep"/></l> 
          <r>comprobar<s n="vblex"/></r> 
       </p>
    </e>
@@ -2918,8 +2918,15 @@
          <l>continue<s n="vblex"/></l> 
          <r>continuar<s n="vblex"/></r> 
       </p>
-   </e>
+   </e>   
    
+   <e r="RL">
+      <p>
+         <l>continue<s n="vblex"/></l> 
+         <r>proseguir<s n="vblex"/></r> 
+      </p>
+   </e>
+
    <e>
       <p>
          <l>contract<s n="vblex"/></l> 
@@ -5854,22 +5861,15 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>give<g><b/>back</g><s n="vblex"/></l> 
-         <r>tornar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
    <e>
       <p>
-         <l>give<g><b/>back</g><s n="vblex"/></l> 
+         <l>give<g><b/>back</g><s n="vblex"/><s n="sep"/></l> 
          <r>volver<s n="vblex"/></r> 
       </p>
    </e>
    <e srl="give_up">
       <p>
-         <l>give<g><b/>up</g><s n="vblex"/></l> 
+         <l>give<g><b/>up</g><s n="vblex"/><s n="sep"/></l> 
          <r>dejar<s n="vblex"/></r> 
       </p>
    </e>
@@ -5919,20 +5919,6 @@
       <p>
          <l>go<s n="vblex"/></l> 
          <r>rodar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>go<g><b/>back</g><s n="vblex"/></l> 
-         <r>regresar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>go<g><b/>back</g><s n="vblex"/></l> 
-         <r>tornar<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -7268,7 +7254,7 @@
    
    <e r="LR">
       <p>
-         <l>line<g><b/>up</g><s n="vblex"/></l> 
+         <l>line<g><b/>up</g><s n="vblex"/><s n="sep"/></l> 
          <r>alinear<s n="vblex"/></r> 
       </p>
    </e>
@@ -7355,9 +7341,9 @@
          <l>look<s n="vblex"/></l> 
          <r>mirar<s n="vblex"/></r> 
       </p>
-   </e>
-   
-   <e slr="parecer" c="(he looks tired)">
+    </e>
+
+    <e slr="parecer" srl="look" c="(he looks tired)">
       <p>
          <l>look<s n="vblex"/></l> 
          <r>parecer<s n="vblex"/></r> 
@@ -7369,9 +7355,9 @@
          <l>look<g><b/>for</g><s n="vblex"/></l> 
          <r>buscar<s n="vblex"/></r> 
       </p>
-   </e>
-   
-   <e>
+    </e>
+
+    <e srl="look_like">
       <p>
          <l>look<g><b/>like</g><s n="vblex"/></l> 
          <r>parecer<s n="vblex"/></r> 
@@ -8345,7 +8331,7 @@
    
    <e r="LR">
       <p>
-         <l>pick<g><b/>up</g><s n="vblex"/></l> 
+         <l>pick<g><b/>up</g><s n="vblex"/><s n="sep"/></l> 
          <r>coger<s n="vblex"/></r> 
       </p>
    </e>
@@ -9017,7 +9003,7 @@
    
    <e r="LR">
       <p>
-         <l>pull<g><b/>out</g><s n="vblex"/></l> 
+         <l>pull<g><b/>out</g><s n="vblex"/><s n="sep"/></l> 
          <r>sacar<s n="vblex"/></r> 
       </p>
    </e>
@@ -9533,7 +9519,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="remain D">
       <p>
          <l>remain<s n="vblex"/></l> 
          <r>quedar<s n="vblex"/></r> 
@@ -10364,9 +10350,9 @@
          <l>seek<s n="vblex"/></l> 
          <r>buscar<s n="vblex"/></r> 
       </p>
-   </e>
-   
-   <e>
+    </e>
+
+    <e srl="seem D">
       <p>
          <l>seem<s n="vblex"/></l> 
          <r>parecer<s n="vblex"/></r> 
@@ -10401,24 +10387,11 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>send<g><b/>back</g><s n="vblex"/></l> 
-         <r>regresar<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
-         <l>send<g><b/>back</g><s n="vblex"/></l> 
-         <r>volver<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>send<g><b/>back</g><s n="vblex"/></l> 
-         <r>volver<s n="vblex"/></r> 
+         <l>send<g><b/>back</g><s n="vblex"/><s n="sep"/></l> 
+         <r>devolver<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -11073,10 +11046,17 @@
       </p>
    </e>
    
-   <e>
+   <e srl="stay" r="RL">
       <p>
          <l>stay<s n="vblex"/></l> 
          <r>quedar<s n="vblex"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>stay<s n="vblex"/></l> 
+         <r>quedarse<s n="vblex"/><s n="pron"/></r> 
       </p>
    </e>
    
@@ -11130,7 +11110,7 @@
    
    <e>
       <p>
-         <l>stir<g><b/>up</g><s n="vblex"/></l> 
+         <l>stir<g><b/>up</g><s n="vblex"/><s n="sep"/></l> 
          <r>remover<s n="vblex"/></r> 
       </p>
    </e>
@@ -12022,7 +12002,7 @@
    
    <e>
       <p>
-         <l>trace<g><b/>back</g><s n="vblex"/></l> 
+         <l>trace<g><b/>back</g><s n="vblex"/><s n="sep"/></l> 
          <r>remontar<s n="vblex"/></r> 
       </p>
    </e>
@@ -12169,7 +12149,7 @@
    
    <e>
       <p>
-         <l>turn<g><b/>off</g><s n="vblex"/></l> 
+         <l>turn<g><b/>off</g><s n="vblex"/><s n="sep"/></l> 
          <r>apagar<s n="vblex"/></r> 
       </p>
    </e>
@@ -12592,6 +12572,18 @@
       <p>
          <l>recall<s n="vblex"/></l> 
          <r>recordar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e srl="travel_across">
+      <p>
+         <l>travel<g><b/>across</g><s n="vblex"/></l> 
+         <r>recorrer<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e srl="visit D" r="RL">
+      <p>
+         <l>visit<s n="vblex"/></l> 
+         <r>recorrer<s n="vblex"/></r> 
       </p>
    </e>
    <e>

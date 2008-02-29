@@ -11219,7 +11219,7 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
-    <e lm="militar">
+    <e lm="militar en">
         <i>milit</i> 
         <par n="abandon/ar__vblex"/> 
       <p>
@@ -11228,7 +11228,7 @@
       </p>
     </e>
 
-    <e lm="militar">
+    <e lm="militar en">
       <p>
         <l>milít</l> 
         <r>milit</r> 
@@ -12444,11 +12444,6 @@
         <par n="despl/egar__vblex"/> 
     </e>
 
-    <e lm="placer">
-        <i>pla</i> 
-        <par n="agrade/cer__vblex"/> 
-    </e>
-
     <e lm="planchar">
         <i>planch</i> 
         <par n="abandon/ar__vblex"/> 
@@ -12496,14 +12491,6 @@
         <r>plane</r> 
       </p>
         <par n="abandón/ar__vblex"/> 
-    </e>
-
-    <e lm="placer">
-      <p>
-        <l>plá</l> 
-        <r>pla</r> 
-      </p>
-        <par n="agradé/cer__vblex"/> 
     </e>
 
     <e lm="planchar">
@@ -12746,12 +12733,6 @@
         <i>premi</i> 
         <par n="abandon/ar__vblex"/> 
     </e>
-
-    <e lm="prender" a="prompsit2adn">
-        <i>prend</i> 
-        <par n="vend/er__vblex"/> 
-    </e>
-
     <e lm="preocuparse">
         <i>preocup</i> 
         <par n="abandon/arse__vblex"/> 
@@ -13474,11 +13455,6 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
-    <e lm="quemar">
-        <i>quem</i> 
-        <par n="abandon/ar__vblex"/> 
-    </e>
-
     <e lm="quedar">
       <p>
         <l>quéd</l> 
@@ -13487,6 +13463,22 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
+    <e lm="quedarse">
+        <i>qued</i> 
+        <par n="abandon/arse__vblex"/> 
+    </e>
+
+    <e lm="quedarse">
+      <p>
+        <l>quéd</l> 
+        <r>qued</r> 
+      </p>
+        <par n="abandón/arse__vblex"/> 
+    </e>
+    <e lm="quemar">
+        <i>quem</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
     <e lm="quemar">
       <p>
         <l>quém</l> 
@@ -15978,12 +15970,6 @@
         <i>tom</i> 
         <par n="abandon/ar__vblex"/> 
     </e>
-
-    <e lm="tornar">
-        <i>torn</i> 
-        <par n="abandon/ar__vblex"/> 
-    </e>
-
     <e lm="torturar">
         <i>tortur</i> 
         <par n="abandon/ar__vblex"/> 
@@ -16175,11 +16161,6 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
-    <e lm="trucar">
-        <i>tru</i> 
-        <par n="ata/car__vblex"/> 
-    </e>
-
     <e lm="truncar">
         <i>trunc</i> 
         <par n="abandon/ar__vblex"/> 
@@ -16225,13 +16206,6 @@
         <par n="atá/car__vblex"/> 
     </e>
 
-    <e lm="trucar">
-      <p>
-        <l>trú</l> 
-        <r>tru</r> 
-      </p>
-        <par n="atá/car__vblex"/> 
-    </e>
 
     <e lm="tachar">
       <p>
@@ -16305,13 +16279,6 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
-    <e lm="tornar">
-      <p>
-        <l>tórn</l> 
-        <r>torn</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
-    </e>
 
     <e lm="ubicar">
         <i>ubi</i> 

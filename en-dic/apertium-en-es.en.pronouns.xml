@@ -219,5 +219,67 @@
         <par n="mine__prn"/> 
     </e>
 
+    <!-- 
+      ******************************
+       relatives (rel)
+      ******************************
+    -->
+
+    <e lm="that">
+        <i>that</i> 
+        <par n="that__rel"/> 
+    </e>
+
+    <e lm="the one who">
+        <i>the<b/>one<b/>who</i> 
+        <par n="what__rel"/> 
+    </e>
+
+    <e lm="the ones who"><i>the<b/>ones<b/>who</i><par n="those_who__rel"/></e>
+    <e lm="the ones that"><i>the<b/>ones<b/>that</i><par n="those_who__rel"/></e>
+
+    <e lm="those who">
+        <i>those<b/>who</i> 
+        <par n="those_who__rel"/> 
+    </e>
+
+    <e lm="those that"><i>those<b/>that</i><par n="those_who__rel"/></e>
+
+
+    <e lm="what">
+        <i>what</i> 
+        <par n="what__rel"/> 
+    </e>
+
+    <e lm="where">
+        <i>where</i> 
+        <par n="where__rel"/> 
+    </e>
+
+    <e lm="which">
+        <i>which</i> 
+        <par n="that__rel"/> 
+    </e>
+
+    <e r="RL" lm="which" c="només de generació per a traduir 'el qual' ">
+        <i>which</i> 
+        <par n="which__rel"/> 
+    </e>
+
+    <e lm="who">
+        <i>who</i> 
+        <par n="that__rel"/> 
+    </e>
+
+    <e lm="whom">
+        <i>whom</i> 
+        <par n="that__rel"/> 
+    </e>
+
+
+<e lm="of which" c="aquest és el 'which' en la construcció 'of which', que es tradueix per 'de + el qual'. El 'which' relatiu de 'the man which I met' és 'an' en comptes de 'nn'."><p><l>of<b/>which</l><r>of<s n="pr"/><j/>which</r></p><par n="which__rel"/></e>
+
+
+
 </section>
 

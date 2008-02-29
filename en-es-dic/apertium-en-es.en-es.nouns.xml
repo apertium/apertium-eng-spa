@@ -28066,20 +28066,19 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>nut<s n="n"/></l> 
-        <r>rosca<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
+    <e slr="tuerca">
       <p>
         <l>nut<s n="n"/></l> 
         <r>tuerca<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
+    <e slr="fruto_seco D">
+      <p>
+        <l>nut<s n="n"/></l> 
+        <r>fruto<b/>seco<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>nutrient<s n="n"/></l> 
@@ -41704,14 +41703,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="hilo D">
       <p>
         <l>thread<s n="n"/></l> 
         <r>hilo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e slr="rosca">
       <p>
         <l>thread<s n="n"/></l> 
         <r>rosca<s n="n"/><s n="f"/></r> 

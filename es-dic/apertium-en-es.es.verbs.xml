@@ -101,10 +101,6 @@
         <par n="ata/car__vblex"/> 
     </e>
 
-    <e lm="abocar">
-        <i>abo</i> 
-        <par n="ata/car__vblex"/> 
-    </e>
 
     <e lm="abolir" a="prompsit2adn">
         <i>abol</i> 
@@ -118,12 +114,6 @@
       </p>
         <par n="parí/r__vblex"/> 
     </e>
-
-    <e lm="abombar">
-        <i>abomb</i> 
-        <par n="abandon/ar__vblex"/> 
-    </e>
-
     <e lm="abonar">
         <i>abon</i> 
         <par n="abandon/ar__vblex"/> 
@@ -192,22 +182,6 @@
         <r>abar</r> 
       </p>
         <par n="atá/car__vblex"/> 
-    </e>
-
-    <e lm="abocar">
-      <p>
-        <l>abó</l> 
-        <r>abo</r> 
-      </p>
-        <par n="atá/car__vblex"/> 
-    </e>
-
-    <e lm="abombar">
-      <p>
-        <l>abómb</l> 
-        <r>abomb</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="abonar">
@@ -1497,11 +1471,6 @@
         <par n="agrade/cer__vblex"/> 
     </e>
 
-    <e lm="aparejar">
-        <i>aparej</i> 
-        <par n="abandon/ar__vblex"/> 
-    </e>
-
     <e lm="aparecer">
       <p>
         <l>aparé</l> 
@@ -1510,13 +1479,6 @@
         <par n="agradé/cer__vblex"/> 
     </e>
 
-    <e lm="aparejar">
-      <p>
-        <l>aparéj</l> 
-        <r>aparej</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
-    </e>
 
     <e lm="apelar">
         <i>apel</i> 
@@ -4676,6 +4638,26 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
+    <e lm="curar">
+      <p>
+        <l>cúr</l> 
+        <r>cur</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
+
+    <e lm="curarse">
+        <i>cur</i> 
+        <par n="abandon/arse__vblex"/> 
+    </e>
+
+    <e lm="curarse">
+      <p>
+        <l>cúr</l> 
+        <r>cur</r> 
+      </p>
+        <par n="abandón/arse__vblex"/> 
+    </e>
     <e lm="cuidar">
       <p>
         <l>cuíd</l> 
@@ -4921,13 +4903,6 @@
         <par n="abát/ir__vblex"/> 
     </e>
 
-    <e lm="curar">
-      <p>
-        <l>cúr</l> 
-        <r>cur</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
-    </e>
 
     <e lm="cuñar">
       <p>
@@ -9427,6 +9402,14 @@
       </p>
     </e>
 
+    <e lm="hacer huelga">
+        <i>h</i> 
+        <par n="h/acer__vblex"/> 
+      <p>
+        <l><b/>huelga</l> 
+        <r><g><b/>huelga</g></r> 
+      </p>
+    </e>
     <e lm="habilitar">
         <i>habilit</i> 
         <par n="abandon/ar__vblex"/> 

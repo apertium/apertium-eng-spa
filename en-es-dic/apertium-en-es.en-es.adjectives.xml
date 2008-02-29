@@ -91,6 +91,12 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>Austrian<s n="adj"/></l> 
+        <r>austríaco<s n="adj"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>Balearic<s n="adj"/></l> 
@@ -1141,9 +1147,9 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
-        <l>agrarian<s n="adj"/></l> 
+        <l>agricultural<s n="adj"/></l> 
         <r>agrario<s n="adj"/></r> 
       </p>
     </e>
@@ -2215,11 +2221,16 @@
 
     <e>
       <p>
-        <l>burning<s n="adj"/></l> 
+        <l>passionate<s n="adj"/></l> 
         <r>ardiente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
-
+    <e>
+      <p>
+        <l>burning<s n="adj"/></l> 
+        <r>en<b/>llamas<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>business<s n="adj"/></l> 
@@ -4375,12 +4386,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>empty<s n="adj"/><s n="sint"/></l> 
-        <r>vacío<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -5238,14 +5243,14 @@
 
     <e r="RL">
       <p>
-        <l>flat<s n="adj"/><s n="sint"/></l> 
+        <l>flat<s n="adj"/></l> 
         <r>llano<s n="adj"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>flat<s n="adj"/><s n="sint"/></l> 
+        <l>flat<s n="adj"/></l> 
         <r>plano<s n="adj"/></r> 
       </p>
     </e>
@@ -5698,7 +5703,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>gigantic<s n="adj"/></l> 
         <r>gigantesco<s n="adj"/></r> 
@@ -8637,7 +8642,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>mountainous<s n="adj"/></l> 
         <r>montañoso<s n="adj"/></r> 
@@ -8945,19 +8950,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>net<s n="adj"/><s n="sint"/></l> 
-        <r>limpio<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>net<s n="adj"/><s n="sint"/></l> 
-        <r>neto<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -8966,12 +8958,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>net<s n="adj"/><s n="sint"/></l> 
-        <r>neto<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -9380,13 +9366,6 @@
     </e>
 
     <e r="LR">
-      <p>
-        <l>of<b/>note<s n="adj"/></l> 
-        <r>importante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e>
       <p>
         <l>of<b/>note<s n="adj"/></l> 
         <r>importante<s n="adj"/><s n="mf"/></r> 
@@ -10295,33 +10274,13 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>poor<s n="adj"/><s n="sint"/></l> 
-        <r>pobre<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>poor<s n="adj"/><s n="sint"/></l> 
-        <r>pobre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>poor<s n="adj"/><s n="sint"/></l> 
-        <r>pobre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>poor<s n="adj"/><s n="sint"/></l> 
         <r>pobre<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
+
 
     <e>
       <p>
@@ -10652,12 +10611,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>pretty<s n="adj"/></l> 
-        <r>bonito<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -10841,6 +10794,12 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>prompt<s n="adj"/><s n="sint"/></l> 
+        <r>pronto<s n="adj"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>proper<s n="adj"/></l> 
@@ -12512,6 +12471,12 @@
       <p>
         <l>substantial<s n="adj"/></l> 
         <r>sustancial<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>substantial<s n="adj"/></l> 
+        <r>substancial<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -14480,7 +14445,7 @@
 
     <e c="check" r="RL">
       <p>
-        <l>empty<s n="adj"/></l> 
+        <l>empty<s n="adj"/><s n="sint"/></l> 
         <r>desierto<s n="adj"/></r> 
       </p>
     </e>
@@ -14639,6 +14604,12 @@
       <p>
         <l>lesbian<s n="adj"/></l> 
         <r>lesbiano<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e c="check" r="RL">
+      <p>
+        <l>lesbian<s n="adj"/></l> 
+        <r>lesbiano<s n="adj"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -15006,7 +14977,7 @@
     
     <e c="check">
       <p>
-        <l>north<s n="adj"/></l> 
+        <l>north<s n="adj"/><s n="sint"/></l> 
         <r>del<b/>norte<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
@@ -15018,7 +14989,7 @@
     </e>
     <e c="check">
       <p>
-        <l>south<s n="adj"/></l> 
+        <l>south<s n="adj"/><s n="sint"/></l> 
         <r>del<b/>sur<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
@@ -15038,7 +15009,7 @@
 
     <e c="check">
       <p>
-        <l>fat<s n="adj"/></l> 
+        <l>fat<s n="adj"/><s n="sint"/></l> 
         <r>gordo<s n="adj"/></r> 
       </p>
     </e>
@@ -15052,7 +15023,7 @@
 
     <e c="check">
       <p>
-        <l>fun<s n="adj"/></l> 
+        <l>fun<s n="adj"/><s n="sint"/></l> 
         <r>divertido<s n="adj"/></r> 
       </p>
     </e>

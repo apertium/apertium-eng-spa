@@ -36,6 +36,8 @@
         <par n="c/an__vbmod"/> 
     </e>
 
+    <e lm="be able to" r="RL" c="de moment només es genera"><i></i><par n="/be_able_to__vbmod"/></e>
+
     <e lm="have to">
         <i>ha</i> 
         <par n="ha/ve__vbmod"/> 
@@ -1151,6 +1153,11 @@
     <e lm="calculate">
         <i>calculat</i> 
         <par n="liv/e__vblex"/> 
+    </e>
+
+    <e lm="recall">
+        <i>recall</i> 
+        <par n="accept__vblex"/> 
     </e>
 
     <e lm="call">
@@ -3275,7 +3282,8 @@
         <par n="accept__vblex"/> 
     </e>
 
-    <e lm="favor" c="EUA"><p><l>favor</l><r>favour</r></p><par n="accept__vblex"/></e>
+    <e lm="favor" c="EUA" r="LR"><p><l>favor</l><r>favour</r></p><par n="accept__vblex"/></e>
+
     <e lm="feed">
         <i>fe</i> 
         <par n="ble/ed__vblex"/> 
@@ -3551,7 +3559,7 @@
         <par n="g/et__vblex"/> 
     </e>
 
-    <e lm="get">
+    <e lm="get hold of">
         <i>g</i> 
         <par n="g/et__vblex"/> 
       <p>
@@ -3560,6 +3568,15 @@
       </p>
     </e>
 
+
+    <e lm="get dark">
+        <i>g</i> 
+        <par n="g/et__vblex"/> 
+      <p>
+        <l><b/>dark</l> 
+        <r><g><b/>dark</g></r> 
+      </p>
+    </e>
     <e lm="give up">
         <i>g</i> 
         <par n="g/ive__vblex"/> 
@@ -6167,6 +6184,10 @@
         <par n="accept__vblex"/> 
     </e>
 
+    <e lm="shell">
+        <i>shell</i> 
+        <par n="accept__vblex"/> 
+    </e>
     <e lm="rub">
         <i>rub</i> 
         <par n="dub__vblex"/> 
@@ -6303,6 +6324,11 @@
 
     <e lm="seal">
         <i>seal</i> 
+        <par n="accept__vblex"/> 
+    </e>
+
+    <e lm="heal">
+        <i>heal</i> 
         <par n="accept__vblex"/> 
     </e>
 
@@ -7017,6 +7043,11 @@
 
     <e lm="surpass">
         <i>surpass</i> 
+        <par n="approach__vblex"/> 
+    </e>
+
+    <e lm="harass">
+        <i>harass</i> 
         <par n="approach__vblex"/> 
     </e>
 

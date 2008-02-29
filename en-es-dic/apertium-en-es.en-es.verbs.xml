@@ -903,7 +903,7 @@
       </p>
     </e>
 
-    <e slr="pregunta D">
+    <e slr="preguntar D">
       <p>
         <l>ask<s n="vblex"/></l> 
         <r>preguntar<s n="vblex"/></r> 
@@ -994,7 +994,7 @@
       </p>
     </e>
 
-    <e srl="attack D">
+    <e>
       <p>
         <l>attack<s n="vblex"/></l> 
         <r>atacar<s n="vblex"/></r> 
@@ -1253,14 +1253,14 @@
       </p>
     </e>
 
-    <e slr="aguantar D">
+    <e r="LR">
       <p>
         <l>bear<s n="vblex"/></l> 
         <r>aguantar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e slr="parir" c="bear a child">
+    <e r="RL">
       <p>
         <l>bear<s n="vblex"/></l> 
         <r>parir<s n="vblex"/></r> 
@@ -1399,6 +1399,15 @@
         <r>sitiar<s n="vblex"/></r> 
       </p>
     </e>
+
+
+    <e>
+      <p>
+        <l>harass<s n="vblex"/></l> 
+        <r>acosar<s n="vblex"/></r> 
+      </p>
+    </e>
+
 
     <e>
       <p>
@@ -1657,14 +1666,6 @@
         <r>llevar<s n="vblex"/></r> 
       </p>
     </e>
-
-    <e r="RL">
-      <p>
-        <l>bring<s n="vblex"/></l> 
-        <r>portar<s n="vblex"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>bring<s n="vblex"/></l> 
@@ -1770,14 +1771,7 @@
       </p>
     </e>
 
-    <e slr="gritar">
-      <p>
-        <l>call<s n="vblex"/></l> 
-        <r>gritar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e slr="llamar D">
+    <e>
       <p>
         <l>call<s n="vblex"/></l> 
         <r>llamar<s n="vblex"/></r> 
@@ -2763,7 +2757,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>conquer<s n="vblex"/></l> 
         <r>conquistar<s n="vblex"/></r> 
@@ -3211,13 +3205,19 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>cure<s n="vblex"/></l> 
         <r>curar<s n="vblex"/></r> 
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>heal<s n="vblex"/></l> 
+        <r>curarse<s n="vblex"/><s n="pron"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>curse<s n="vblex"/></l> 
@@ -3526,7 +3526,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>deliver<s n="vblex"/></l> 
         <r>repartir<s n="vblex"/></r> 
@@ -3582,6 +3582,12 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>deny<s n="vblex"/></l> 
+        <r>desmentir<s n="vblex"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>depend<s n="vblex"/></l> 
@@ -4016,7 +4022,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="discover D">
       <p>
         <l>discover<s n="vblex"/></l> 
         <r>descubrir<s n="vblex"/></r> 
@@ -4086,7 +4092,7 @@
       </p>
     </e>
 
-    <e slr="descartar" c="descartar una idea">
+    <e r="RL">
       <p>
         <l>dismiss<s n="vblex"/></l> 
         <r>descartar<s n="vblex"/></r> 
@@ -4404,13 +4410,6 @@
     <e r="LR">
       <p>
         <l>dump<s n="vblex"/></l> 
-        <r>abocar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>dump<s n="vblex"/></l> 
         <r>verter<s n="vblex"/></r> 
       </p>
     </e>
@@ -4450,7 +4449,7 @@
       </p>
     </e>
 
-    <e r="LR" slr="repetir">
+    <e r="LR" slr="repetir D">
       <p>
         <l>echo<s n="vblex"/></l> 
         <r>repetir<s n="vblex"/></r> 
@@ -4646,6 +4645,12 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>end<s n="vblex"/></l> 
+        <r>desembocar<s n="vblex"/></r> 
+      </p>
+    </e>
     <e r="LR" slr="aprobar" c="respaldar o dar el visto bueno">
       <p>
         <l>endorse<s n="vblex"/></l> 
@@ -5352,13 +5357,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>find<s n="vblex"/></l> 
-        <r>descubrir<s n="vblex"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>find<s n="vblex"/></l> 
@@ -5373,7 +5371,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="find_out">
       <p>
         <l>find<g><b/>out</g><s n="vblex"/></l> 
         <r>descubrir<s n="vblex"/></r> 
@@ -5793,6 +5791,18 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>get<g><b/>dark</g><s n="vblex"/></l> 
+        <r>anochecer<s n="vblex"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>get<g><b/>dark</g><s n="vblex"/></l> 
+        <r>oscurecer<s n="vblex"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>gild<s n="vblex"/></l> 
@@ -5834,28 +5844,12 @@
         <r>volver<s n="vblex"/></r> 
       </p>
     </e>
-
-    <e r="LR">
+    <e srl="give_up">
       <p>
         <l>give<g><b/>up</g><s n="vblex"/></l> 
         <r>dejar<s n="vblex"/></r> 
       </p>
     </e>
-
-    <e>
-      <p>
-        <l>give<g><b/>up</g><s n="vblex"/></l> 
-        <r>dejar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>give<g><b/>up</g><s n="vblex"/></l> 
-        <r>dejar<s n="vblex"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>gladden<s n="vblex"/></l> 
@@ -6066,7 +6060,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e srl="hand">
       <p>
         <l>hand<s n="vblex"/></l> 
         <r>entregar<s n="vblex"/></r> 
@@ -6206,6 +6200,13 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>help<s n="vblex"/></l> 
+        <r>auxiliar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e r="LR">
       <p>
         <l>hesitate<s n="vblex"/></l> 
@@ -6283,7 +6284,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>hold<s n="vblex"/></l> 
         <r>aguantar<s n="vblex"/></r> 
@@ -7137,7 +7138,7 @@
       </p>
     </e>
 
-    <e slr="dejar D">
+    <e slr="dejar D" srl="leave D">
       <p>
         <l>leave<s n="vblex"/></l> 
         <r>dejar<s n="vblex"/></r> 
@@ -7165,14 +7166,14 @@
       </p>
     </e>
 
-    <e>
+    <e srl="lend">
       <p>
         <l>lend<s n="vblex"/></l> 
         <r>dejar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e srl="let">
       <p>
         <l>let<s n="vblex"/></l> 
         <r>dejar<s n="vblex"/></r> 
@@ -8208,6 +8209,12 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>shell<s n="vblex"/></l> 
+        <r>pelar<s n="vblex"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>penetrate<s n="vblex"/></l> 
@@ -8523,7 +8530,7 @@
       </p>
     </e>
 
-    <e>
+    <e slr="plantear">
       <p>
         <l>pose<s n="vblex"/></l> 
         <r>plantear<s n="vblex"/></r> 
@@ -9048,9 +9055,9 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e slr="posar D">
       <p>
-        <l>put<s n="vblex"/></l> 
+        <l>pose<s n="vblex"/></l> 
         <r>posar<s n="vblex"/></r> 
       </p>
     </e>
@@ -9524,7 +9531,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="remember D">
       <p>
         <l>remember<s n="vblex"/></l> 
         <r>recordar<s n="vblex"/></r> 
@@ -9538,7 +9545,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="remind">
       <p>
         <l>remind<s n="vblex"/></l> 
         <r>recordar<s n="vblex"/></r> 
@@ -10042,12 +10049,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>rub<s n="vblex"/></l> 
-        <r>fregar<s n="vblex"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -10058,7 +10059,13 @@
 
     <e r="RL">
       <p>
-        <l>rub<s n="vblex"/></l> 
+        <l>wash<s n="vblex"/></l> 
+        <r>fregar<s n="vblex"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>brush<s n="vblex"/></l> 
         <r>rozar<s n="vblex"/></r> 
       </p>
     </e>
@@ -11161,7 +11168,7 @@
       </p>
     </e>
 
-    <e r="LR" srl="strike" c="Mil.">
+    <e r="LR" slr="atacar" c="Mil.">
       <p>
         <l>strike<s n="vblex"/></l> 
         <r>atacar<s n="vblex"/></r> 
@@ -11175,6 +11182,12 @@
       </p>
     </e>
 
+    <e slr="hacer huelga">
+      <p>
+        <l>strike<s n="vblex"/></l> 
+        <r>hacer<g><b/>huelga</g><s n="vblex"/></r> 
+      </p>
+    </e>
     <e r="LR">
       <p>
         <l>stripe<s n="vblex"/></l> 
@@ -11272,6 +11285,13 @@
       </p>
     </e>
 
+    <e srl="deliver D">
+      <p>
+        <l>deliver<s n="vblex"/></l> 
+        <r>entregar<s n="vblex"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>subordinate<s n="vblex"/></l> 
@@ -11307,14 +11327,14 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>suck<s n="vblex"/></l> 
         <r>chupar<s n="vblex"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>suck<s n="vblex"/></l> 
         <r>mamar<s n="vblex"/></r> 
@@ -11593,12 +11613,6 @@
       </p>
     </e>
 
-    <e r="LR" slr="traer" c="(I took him home)">
-      <p>
-        <l>take<s n="vblex"/></l> 
-        <r>traer<s n="vblex"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -12256,7 +12270,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e srl="unveil">
       <p>
         <l>unveil<s n="vblex"/></l> 
         <r>descubrir<s n="vblex"/></r> 
@@ -12466,7 +12480,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>weaken<s n="vblex"/></l> 
         <r>debilitar<s n="vblex"/></r> 
@@ -12543,6 +12557,20 @@
       </p>
     </e>
 
+    <e slr="retirar">
+      <p>
+        <l>recall<s n="vblex"/></l> 
+        <r>retirar<s n="vblex"/></r> 
+      </p>
+    </e>
+
+
+    <e slr="recordar D" r="LR">
+      <p>
+        <l>recall<s n="vblex"/></l> 
+        <r>recordar<s n="vblex"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>witness<s n="vblex"/></l> 

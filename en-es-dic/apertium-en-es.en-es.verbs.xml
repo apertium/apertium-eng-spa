@@ -770,6 +770,24 @@
       </p>
     </e>
 
+    <e srl="appreciate" r="RL">
+      <p>
+        <l>appreciate<s n="vblex"/></l> 
+        <r>estimar<s n="vblex"/></r> 
+      </p>
+    </e>
+    <e srl="estimate D">
+      <p>
+        <l>estimate<s n="vblex"/></l> 
+        <r>estimar<s n="vblex"/></r> 
+      </p>
+    </e>
+    <e srl="estimate" r="RL">
+      <p>
+        <l>consider<s n="vblex"/></l> 
+        <r>estimar<s n="vblex"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>approach<s n="vblex"/></l> 
@@ -1253,6 +1271,12 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>be<g><b/>a<b/>member<b/>of</g><s n="vblex"/></l> 
+        <r>militar<g><b/>en</g><s n="vblex"/></r> 
+      </p>
+    </e>
     <e r="LR">
       <p>
         <l>bear<s n="vblex"/></l> 
@@ -1618,6 +1642,12 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>break<s n="vblex"/></l> 
+        <r>incumplir<s n="vblex"/></r> 
+      </p>
+    </e>
     <e r="RL">
       <p>
         <l>break<s n="vblex"/></l> 
@@ -4823,13 +4853,6 @@
       <p>
         <l>establish<s n="vblex"/></l> 
         <r>establecer<s n="vblex"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>estimate<s n="vblex"/></l> 
-        <r>calcular<s n="vblex"/></r> 
       </p>
     </e>
 

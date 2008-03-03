@@ -14,7 +14,7 @@
       </p>
     </e>
 
-    <e>
+    <e c="United Nations ">
       <p>
         <l>UN<s n="n"/><s n="acr"/></l> 
         <r>ONU<s n="n"/><s n="acr"/><s n="f"/></r> 
@@ -70,14 +70,14 @@
       </p>
     </e>
 
-    <e>
+    <e c="National Aeronautics and Space Administration">
       <p>
         <l>NASA<s n="n"/><s n="acr"/></l> 
         <r>NASA<s n="n"/><s n="acr"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e c="North Atlantic Treaty Organization">
       <p>
         <l>NATO<s n="n"/><s n="acr"/></l> 
         <r>OTAN<s n="n"/><s n="acr"/><s n="f"/></r> 
@@ -112,7 +112,7 @@
       </p>
     </e>
 
-    <e>
+    <e c="Federal Bureau of Investigation">
       <p>
         <l>FBI<s n="n"/><s n="acr"/></l> 
         <r>FBI<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -147,7 +147,7 @@
       </p>
     </e>
 
-    <e>
+    <e c="Deoxyribonucleic acid ">
       <p>
         <l>DNA<s n="n"/><s n="acr"/></l> 
         <r>ADN<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -12105,7 +12105,8 @@
       </p>
     </e>
 
-    <e c="Ceiling diffuser ">
+    <!--
+		<e c="Ceiling diffuser ">
       <p>
         <l>CD<s n="n"/><s n="acr"/></l> 
         <r>CD<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -12113,13 +12114,6 @@
     </e>
 
     <e c="Climatological data ">
-      <p>
-        <l>CD<s n="n"/><s n="acr"/></l> 
-        <r>CD<s n="n"/><s n="acr"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e c="Compact disk ">
       <p>
         <l>CD<s n="n"/><s n="acr"/></l> 
         <r>CD<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -12167,6 +12161,7 @@
         <r>CD<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
 
     <e c="Compact disk read-only memory ">
       <p>
@@ -12238,7 +12233,8 @@
       </p>
     </e>
 
-    <e c="Canister decontamination cell ">
+		<!--    
+		<e c="Canister decontamination cell ">
       <p>
         <l>CDC<s n="n"/><s n="acr"/></l> 
         <r>CDC<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -12279,6 +12275,7 @@
         <r>CDC<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
 
     <e c="Component design description ">
       <p>
@@ -21177,14 +21174,8 @@
       </p>
     </e>
 
-    <e c="Delayed neutron analysis ">
-      <p>
-        <l>DNA<s n="n"/><s n="acr"/></l> 
-        <r>DNA<s n="n"/><s n="acr"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e c="Deoxyribonucleic acid ">
+    <!--
+		<e c="Delayed neutron analysis ">
       <p>
         <l>DNA<s n="n"/><s n="acr"/></l> 
         <r>DNA<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -21197,6 +21188,7 @@
         <r>DNA<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
 
     <e c="Delayed neutron activation analysis system ">
       <p>
@@ -27946,7 +27938,8 @@
       </p>
     </e>
 
-    <e c="Emergency Response Commission ">
+    <!--
+		<e c="Emergency Response Commission ">
       <p>
         <l>ERC<s n="n"/><s n="acr"/></l> 
         <r>ERC<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -28001,6 +27994,7 @@
         <r>ERC<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
 
     <e c="Emergency Rocket Communication System ">
       <p>
@@ -29185,6 +29179,7 @@
       </p>
     </e>
 
+		<!--
     <e c="Environmental Technology and Assessment (Biological Sciences Team) ">
       <p>
         <l>ETA<s n="n"/><s n="acr"/></l> 
@@ -29198,6 +29193,7 @@
         <r>ETA<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
 
     <e c="Enhanced technology base ">
       <p>
@@ -30249,19 +30245,12 @@
       </p>
     </e>
 
-    <e c="Federal Bureau of Investigation ">
+    <!--<e c="Fluidized bed incinerator ">
       <p>
         <l>FBI<s n="n"/><s n="acr"/></l> 
         <r>FBI<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
-    </e>
-
-    <e c="Fluidized bed incinerator ">
-      <p>
-        <l>FBI<s n="n"/><s n="acr"/></l> 
-        <r>FBI<s n="n"/><s n="acr"/><s n="m"/></r> 
-      </p>
-    </e>
+    </e>-->
 
     <e c="Fleet ballistic missile ">
       <p>
@@ -35198,12 +35187,12 @@
       </p>
     </e>
 
-    <e c="Gaseous diffusion plant ">
+    <!--<e c="Gaseous diffusion plant ">
       <p>
         <l>GDP<s n="n"/><s n="acr"/></l> 
         <r>GDP<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <e c="General declassification schedule ">
       <p>
@@ -43682,6 +43671,7 @@
       </p>
     </e>
 
+		<!--
     <e c="Inbound prepaid ">
       <p>
         <l>IP<s n="n"/><s n="acr"/></l> 
@@ -43773,19 +43763,13 @@
       </p>
     </e>
 
-    <e c="Internet Protocol ">
-      <p>
-        <l>IP<s n="n"/><s n="acr"/></l> 
-        <r>IP<s n="n"/><s n="acr"/><s n="m"/></r> 
-      </p>
-    </e>
-
     <e c="Ionization potential ">
       <p>
         <l>IP<s n="n"/><s n="acr"/></l> 
         <r>IP<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
 
     <e c="Instrument panel and panel assembly ">
       <p>
@@ -56121,14 +56105,8 @@
       </p>
     </e>
 
-    <e c="National Aeronautics and Space Administration ">
-      <p>
-        <l>NASA<s n="n"/><s n="acr"/></l> 
-        <r>NASA<s n="n"/><s n="acr"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e c="Nitrogen atmosphere sampling analysis (system) ">
+    <!--
+		<e c="Nitrogen atmosphere sampling analysis (system) ">
       <p>
         <l>NASA<s n="n"/><s n="acr"/></l> 
         <r>NASA<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -56141,6 +56119,7 @@
         <r>NASA-TR<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
 
     <e c="National Aeronautics and Space Administration Offices ">
       <p>
@@ -56209,13 +56188,6 @@
       <p>
         <l>NATICH<s n="n"/><s n="acr"/></l> 
         <r>NATICH<s n="n"/><s n="acr"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e c="North Atlantic Treaty Organization " r="RL">
-      <p>
-        <l>NATO<s n="n"/><s n="acr"/></l> 
-        <r>NATO<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -56324,12 +56296,12 @@
       </p>
     </e>
 
-    <e c="National Building Code ">
+    <!--<e c="National Building Code ">
       <p>
         <l>NBC<s n="n"/><s n="acr"/></l> 
         <r>NBC<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <e c="Narrow-bank frequency modulation ">
       <p>
@@ -64248,14 +64220,7 @@
       </p>
     </e>
 
-    <e c="Personal computer ">
-      <p>
-        <l>PC<s n="n"/><s n="acr"/></l> 
-        <r>PC<s n="n"/><s n="acr"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e c="Pin cutting ">
+    <!--<e c="Pin cutting ">
       <p>
         <l>PC<s n="n"/><s n="acr"/></l> 
         <r>PC<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -64344,7 +64309,7 @@
         <l>PC<s n="n"/><s n="acr"/></l> 
         <r>PC<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <e c="Property classification and accounting ">
       <p>
@@ -68084,7 +68049,7 @@
       </p>
     </e>
 
-    <e c="Planning package ">
+    <!--<e c="Planning package ">
       <p>
         <l>PP<s n="n"/><s n="acr"/></l> 
         <r>PP<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -68118,6 +68083,8 @@
         <r>PP<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
+
 
     <e c="Product planning and control ">
       <p>
@@ -69169,7 +69136,8 @@
       </p>
     </e>
 
-    <e c="Packaging service contract ">
+    <!--
+		<e c="Packaging service contract ">
       <p>
         <l>PSC<s n="n"/><s n="acr"/></l> 
         <r>PSC<s n="n"/><s n="acr"/><s n="m"/></r> 
@@ -69189,6 +69157,7 @@
         <r>PSC<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+		-->
 
     <e c="Pilot scale ceramic melter ">
       <p>
@@ -90234,12 +90203,12 @@
       </p>
     </e>
 
-    <e c="Test volume ">
+    <!--<e c="Test volume ">
       <p>
         <l>TV<s n="n"/><s n="acr"/></l> 
         <r>TV<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
-    </e>
+    </e>-->
 
     <e c="Tennessee Valley Authority ">
       <p>
@@ -91326,13 +91295,8 @@
       </p>
     </e>
 
-    <e c="United Nations ">
-      <p>
-        <l>UN<s n="n"/><s n="acr"/></l> 
-        <r>UN<s n="n"/><s n="acr"/><s n="m"/></r> 
-      </p>
-    </e>
 
+		<!--
     <e c="Unplanned release not to an existing disposal facility ">
       <p>
         <l>UN<s n="n"/><s n="acr"/></l> 
@@ -91346,6 +91310,7 @@
         <r>UN<s n="n"/><s n="acr"/><s n="m"/></r> 
       </p>
     </e>
+	-->
 
     <e c="United Nations/North American Hazardous Materials Code (shipping number) ">
       <p>

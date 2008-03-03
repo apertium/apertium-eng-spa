@@ -20,7 +20,6 @@
     <i>UEFA</i>
     <par n="BBC__n"/>
   </e>
-
   <e lm="ERC" a="prompsit2adn">
     <i>ERC</i>
     <par n="BBC__n"/>
@@ -29,12 +28,10 @@
     <i>ETA</i>
     <par n="BBC__n"/>
   </e>
-
   <e lm="BBC">
     <i>BBC</i>
     <par n="BBC__n"/>
   </e>
-
   <e lm="ADN" a="prompsit2adn">
     <i>ADN</i>
     <par n="BBVA__n"/>
@@ -55,7 +52,7 @@
     <i>DVD</i>
     <par n="BBVA__n"/>
   </e>
-  <e lm="FBI">
+  <e lm="FBI" c="Federal Bureau of Investigation">
     <i>FBI</i>
     <par n="BBVA__n"/>
   </e>
@@ -87,8 +84,6 @@
     <i>PSOE</i>
     <par n="BBVA__n"/>
   </e>
-
-
 
 <e lm="A&amp;C" c="Abatement and control  "><i>A&amp;C</i><par n="ADN__n"/></e>
 <e lm="A&amp;C" c="Agreements and commitments "><i>A&amp;C</i><par n="ADN__n"/></e>
@@ -1167,7 +1162,7 @@
 <e lm="BCCB" c="Baseline Change Control Board "><i>BCCB</i><par n="ADN__n"/></e>
 <e lm="BCCM" c="Board for Certified Consulting Meteorologists "><i>BCCM</i><par n="ADN__n"/></e>
 <e lm="BCD" c="Binary coded decimal "><i>BCD</i><par n="ADN__n"/></e>
-<e lm="BCE" c="B Plant chemical sewer "><i>BCE</i><par n="ADN__n"/></e>
+<!--<e lm="BCE" c="B Plant chemical sewer "><i>BCE</i><par n="ADN__n"/></e>-->
 <e lm="BCL" c="Battelle Columbus Laboratories "><i>BCL</i><par n="ADN__n"/></e>
 <e lm="BCP" c="B Plant process condensate "><i>BCP</i><par n="ADN__n"/></e>
 <e lm="BCR" c="Baseline Change Request "><i>BCR</i><par n="ADN__n"/></e>
@@ -1794,15 +1789,16 @@
 <e lm="CCW" c="Constituent concentrations in waste "><i>CCW</i><par n="ADN__n"/></e>
 <e lm="CCW" c="Corporate Check Writer "><i>CCW</i><par n="ADN__n"/></e>
 <e lm="CCWE" c="Constituent concentration in waste extract "><i>CCWE</i><par n="ADN__n"/></e>
+<!--
 <e lm="CD" c="Ceiling diffuser "><i>CD</i><par n="ADN__n"/></e>
 <e lm="CD" c="Climatological data "><i>CD</i><par n="ADN__n"/></e>
-<e lm="CD" c="Compact disk "><i>CD</i><par n="ADN__n"/></e>
 <e lm="CD" c="Computer-aided design and drafting "><i>CD</i><par n="ADN__n"/></e>
 <e lm="CD" c="Conceptual design "><i>CD</i><par n="ADN__n"/></e>
 <e lm="CD" c="Consent decree "><i>CD</i><par n="ADN__n"/></e>
 <e lm="CD" c="Consolidated data "><i>CD</i><par n="ADN__n"/></e>
 <e lm="CD" c="Contaminated drain "><i>CD</i><par n="ADN__n"/></e>
 <e lm="CD" c="Critical decision "><i>CD</i><par n="ADN__n"/></e>
+-->
 <e lm="CD-ROM" c="Compact disk read-only memory "><i>CD-ROM</i><par n="ADN__n"/></e>
 <e lm="CDA" c="Combined Development Agency (joint agency US-UK-for procurement and allocation of uranium) "><i>CDA</i><par n="ADN__n"/></e>
 <e lm="CDA" c="Containment deviation authorization "><i>CDA</i><par n="ADN__n"/></e>
@@ -1813,12 +1809,14 @@
 <e lm="CDAS" c="Correlated data assay system (nondestructive assays) "><i>CDAS</i><par n="ADN__n"/></e>
 <e lm="CDB" c="Consolidated database "><i>CDB</i><par n="ADN__n"/></e>
 <e lm="CDBA" c="Central database administrator "><i>CDBA</i><par n="ADN__n"/></e>
+<!--
 <e lm="CDC" c="Canister decontamination cell "><i>CDC</i><par n="ADN__n"/></e>
 <e lm="CDC" c="Centers for Disease Control (HHS) "><i>CDC</i><par n="ADN__n"/></e>
 <e lm="CDC" c="Classified Document Control "><i>CDC</i><par n="ADN__n"/></e>
 <e lm="CDC" c="Classified/unclassified document control "><i>CDC</i><par n="ADN__n"/></e>
 <e lm="CDC" c="Conceptual design criteria "><i>CDC</i><par n="ADN__n"/></e>
 <e lm="CDC" c="Control Data Corporation, Incorporated "><i>CDC</i><par n="ADN__n"/></e>
+-->
 <e lm="CDD" c="Component design description "><i>CDD</i><par n="ADN__n"/></e>
 <e lm="CDD" c="Conceptual design decision "><i>CDD</i><par n="ADN__n"/></e>
 <e lm="CDDI" c="Copper distributed data interface "><i>CDDI</i><par n="ADN__n"/></e>
@@ -4056,6 +4054,7 @@
 <e lm="ERAO" c="Eastern Regional Audit Office (DOE) "><i>ERAO</i><par n="ADN__n"/></e>
 <e lm="ERAP" c="Emergency readiness assurance plan "><i>ERAP</i><par n="ADN__n"/></e>
 <e lm="ERB" c="Experiment Review Board "><i>ERB</i><par n="ADN__n"/></e>
+<!--
 <e lm="ERC" c="Emergency Response Commission "><i>ERC</i><par n="ADN__n"/></e>
 <e lm="ERC" c="Emissions reduction credit "><i>ERC</i><par n="ADN__n"/></e>
 <e lm="ERC" c="Energy Research Center "><i>ERC</i><par n="ADN__n"/></e>
@@ -4064,6 +4063,7 @@
 <e lm="ERC" c="Environmental Restoration Contract "><i>ERC</i><par n="ADN__n"/></e>
 <e lm="ERC" c="Environmental restoration contractor "><i>ERC</i><par n="ADN__n"/></e>
 <e lm="ERC" c="Event report card "><i>ERC</i><par n="ADN__n"/></e>
+-->
 <e lm="ERCS" c="Emergency Rocket Communication System "><i>ERCS</i><par n="ADN__n"/></e>
 <e lm="ERCS" c="Emergency response cleanup services "><i>ERCS</i><par n="ADN__n"/></e>
 <e lm="ERD" c="Emergency Response Division "><i>ERD</i><par n="ADN__n"/></e>
@@ -4233,8 +4233,10 @@
 <e lm="ET" c="Entry tunnel "><i>ET</i><par n="ADN__n"/></e>
 <e lm="ET" c="External tank "><i>ET</i><par n="ADN__n"/></e>
 <e lm="ET&amp;BD" c="Economic Transition and Business Development "><i>ET&amp;BD</i><par n="ADN__n"/></e>
+<!--
 <e lm="ETA" c="Environmental Technology and Assessment (Biological Sciences Team) "><i>ETA</i><par n="ADN__n"/></e>
 <e lm="ETA" c="Estimated time of arrival "><i>ETA</i><par n="ADN__n"/></e>
+-->
 <e lm="ETB" c="Enhanced technology base "><i>ETB</i><par n="ADN__n"/></e>
 <e lm="ETC" c="Emerging Technology Conference "><i>ETC</i><par n="ADN__n"/></e>
 <e lm="ETC" c="Energy Technology Center "><i>ETC</i><par n="ADN__n"/></e>
@@ -4385,8 +4387,7 @@
 <e lm="FB" c="Federal Building "><i>FB</i><par n="ADN__n"/></e>
 <e lm="FB" c="Filter box "><i>FB</i><par n="ADN__n"/></e>
 <e lm="FBC" c="Fluidized bed combustion "><i>FBC</i><par n="ADN__n"/></e>
-<e lm="FBI" c="Federal Bureau of Investigation "><i>FBI</i><par n="ADN__n"/></e>
-<e lm="FBI" c="Fluidized bed incinerator "><i>FBI</i><par n="ADN__n"/></e>
+<!--<e lm="FBI" c="Fluidized bed incinerator "><i>FBI</i><par n="ADN__n"/></e>-->
 <e lm="FBM" c="Fleet ballistic missile "><i>FBM</i><par n="ADN__n"/></e>
 <e lm="FBR" c="Fast breeder reactor "><i>FBR</i><par n="ADN__n"/></e>
 <e lm="FBR" c="Fast burst reactor "><i>FBR</i><par n="ADN__n"/></e>
@@ -8080,7 +8081,6 @@
 <e lm="NAS" c="Naval Air Station "><i>NAS</i><par n="ADN__n"/></e>
 <e lm="NAS" c="Network Applications and Systems "><i>NAS</i><par n="ADN__n"/></e>
 <e lm="NAS-NRC" c="National Academy of Science - National Research Council "><i>NAS-NRC</i><par n="ADN__n"/></e>
-<e lm="NASA" c="National Aeronautics and Space Administration "><i>NASA</i><par n="ADN__n"/></e>
 <e lm="NASA" c="Nitrogen atmosphere sampling analysis (system) "><i>NASA</i><par n="ADN__n"/></e>
 <e lm="NASA-TR" c="Plum Brook Reactor Facility "><i>NASA-TR</i><par n="ADN__n"/></e>
 <e lm="NASAO" c="National Aeronautics and Space Administration Offices "><i>NASAO</i><par n="ADN__n"/></e>
@@ -8109,7 +8109,6 @@
 <e lm="NB" c="Nonbargaining "><i>NB</i><par n="ADN__n"/></e>
 <e lm="NBAA" c="National Business Aircraft Association "><i>NBAA</i><par n="ADN__n"/></e>
 <e lm="NBAR" c="Non-binding allocation of responsibility "><i>NBAR</i><par n="ADN__n"/></e>
-<e lm="NBC" c="National Building Code "><i>NBC</i><par n="ADN__n"/></e>
 <e lm="NBFM" c="Narrow-bank frequency modulation "><i>NBFM</i><par n="ADN__n"/></e>
 <e lm="NBHU" c="Nitrogen blower heater unit "><i>NBHU</i><par n="ADN__n"/></e>
 <e lm="NBIC" c="National Board Inspection Code "><i>NBIC</i><par n="ADN__n"/></e>
@@ -9241,7 +9240,7 @@
 <e lm="PBTF" c="Protective Barrier Test Facility "><i>PBTF</i><par n="ADN__n"/></e>
 <e lm="PBTF" c="Pump Bearing Test Facility (LMEC) "><i>PBTF</i><par n="ADN__n"/></e>
 <e lm="PBX" c="Pull box "><i>PBX</i><par n="ADN__n"/></e>
-<e lm="PC" c="Personal computer "><i>PC</i><par n="ADN__n"/></e>
+<!--
 <e lm="PC" c="Pin cutting "><i>PC</i><par n="ADN__n"/></e>
 <e lm="PC" c="Planned commitment "><i>PC</i><par n="ADN__n"/></e>
 <e lm="PC" c="Plant computer - performance monitoring and calculations "><i>PC</i><par n="ADN__n"/></e>
@@ -9255,6 +9254,7 @@
 <e lm="PC" c="Program contract "><i>PC</i><par n="ADN__n"/></e>
 <e lm="PC" c="Protective clothing "><i>PC</i><par n="ADN__n"/></e>
 <e lm="PC" c="Pulverized coal "><i>PC</i><par n="ADN__n"/></e>
+-->
 <e lm="PC&amp;A" c="Property classification and accounting "><i>PC&amp;A</i><par n="ADN__n"/></e>
 <e lm="PC&amp;B" c="Personnel compensation and benefits "><i>PC&amp;B</i><par n="ADN__n"/></e>
 <e lm="PCA" c="Pool critical assembly (ORNL) "><i>PCA</i><par n="ADN__n"/></e>
@@ -9529,8 +9529,10 @@
 <e lm="PIA" c="Preirradiation assembly "><i>PIA</i><par n="ADN__n"/></e>
 <e lm="PIA" c="Program impact analysis "><i>PIA</i><par n="ADN__n"/></e>
 <e lm="PIAB" c="Potential Inadequacies in the Authorization Basis "><i>PIAB</i><par n="ADN__n"/></e>
+<!--
 <e lm="PIB" c="Program Improvement Board "><i>PIB</i><par n="ADN__n"/></e>
 <e lm="PIB" c="Project integration board "><i>PIB</i><par n="ADN__n"/></e>
+-->
 <e lm="PIBS" c="Publications interim billing system "><i>PIBS</i><par n="ADN__n"/></e>
 <e lm="PIC" c="Performance Improvement Council "><i>PIC</i><par n="ADN__n"/></e>
 <e lm="PIC" c="Person in charge "><i>PIC</i><par n="ADN__n"/></e>
@@ -9789,11 +9791,13 @@
 <e lm="POV" c="Pressure-operated valve "><i>POV</i><par n="ADN__n"/></e>
 <e lm="POV" c="Privately owned vehicle "><i>POV</i><par n="ADN__n"/></e>
 <e lm="POW" c="Plan of the week "><i>POW</i><par n="ADN__n"/></e>
+<!--
 <e lm="PP" c="Planning package "><i>PP</i><par n="ADN__n"/></e>
 <e lm="PP" c="Power panels "><i>PP</i><par n="ADN__n"/></e>
 <e lm="PP" c="Product planning "><i>PP</i><par n="ADN__n"/></e>
 <e lm="PP" c="Program planning "><i>PP</i><par n="ADN__n"/></e>
 <e lm="PP" c="Project plan "><i>PP</i><par n="ADN__n"/></e>
+-->
 <e lm="PP&amp;C" c="Product planning and control "><i>PP&amp;C</i><par n="ADN__n"/></e>
 <e lm="PPA" c="Pesticide Producers Association "><i>PPA</i><par n="ADN__n"/></e>
 <e lm="PPA" c="Planned program accomplishment "><i>PPA</i><par n="ADN__n"/></e>
@@ -9944,9 +9948,11 @@
 <e lm="PSAP" c="Personnel Security Assurance Program "><i>PSAP</i><par n="ADN__n"/></e>
 <e lm="PSAR" c="Preliminary Safety Analysis Report "><i>PSAR</i><par n="ADN__n"/></e>
 <e lm="PSB" c="Plant service boiler "><i>PSB</i><par n="ADN__n"/></e>
+<!--
 <e lm="PSC" c="Packaging service contract "><i>PSC</i><par n="ADN__n"/></e>
 <e lm="PSC" c="Personnel status change "><i>PSC</i><par n="ADN__n"/></e>
 <e lm="PSC" c="President's Safety Council "><i>PSC</i><par n="ADN__n"/></e>
+-->
 <e lm="PSCM" c="Pilot scale ceramic melter "><i>PSCM</i><par n="ADN__n"/></e>
 <e lm="PSCR" c="Personnel security clearance record "><i>PSCR</i><par n="ADN__n"/></e>
 <e lm="PSCR+" c="Personnel Security Clearance Record Plus "><i>PSCR+</i><par n="ADN__n"/></e>

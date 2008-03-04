@@ -40,13 +40,6 @@
       </p>
    </e>
    
-   <e c="que maco">
-      <p>
-         <l>but<b/>rather<s n="cnjcoo"/></l> 
-         <r>sino<s n="cnjcoo"/></r> 
-      </p>
-   </e>
-   
    <e r="LR" c="either... or... : o... o...">
       <p>
          <l>either<s n="cnjcoo"/></l> 
@@ -54,33 +47,27 @@
       </p>
    </e>
    
-   <e c="MG: neither... nor :en el trànsfer">
+   <e c="MG: neither... nor; not... or :en el trànsfer">
       <p>
          <l>neither<s n="cnjcoo"/></l> 
          <r>ni<s n="cnjcoo"/></r> 
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>nor<s n="cnjcoo"/></l> 
          <r>ni<s n="cnjcoo"/></r> 
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>nor<s n="cnjcoo"/></l> 
-         <r>ni<s n="cnjcoo"/></r> 
-      </p>
-   </e>
    
-   <e r="RL">
+ <!--  <e r="RL">
       <p>
          <l>or<s n="cnjcoo"/></l> 
          <r>ni<s n="cnjcoo"/></r> 
       </p>
-   </e>
+   </e> -->
    
    <e>
       <p>
@@ -89,8 +76,10 @@
       </p>
    </e>
 
-<e c="comparatives"><p><l>than<s n="cnjcoo"/></l><r>que<s n="cnjcoo"/></r></p></e>
-   
+   <e c="comparatives"><p><l>than<s n="cnjcoo"/></l><r>que<s n="cnjcoo"/></r></p></e>
+
+   <e r="LR" c="both David and his wife - tanto David como su mujer"><p><l>both<s n="cnjcoo"/></l><r>tanto<s n="cnjcoo"/></r></p></e>
+
    <!-- 
       ******************************
       (cnjsub) group
@@ -147,6 +136,26 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>then<s n="cnjadv"/></l> 
+         <r>entonces<s n="cnjadv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>when<s n="cnjadv"/></l> 
+         <r>cuando<s n="cnjadv"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>even<b/>so<s n="cnjadv"/></l> 
+         <r>aun<b/>así<s n="cnjadv"/></r> 
+      </p>
+   </e>
+   
    <e r="RL">
       <p>
          <l>although<s n="cnjadv"/></l> 
@@ -170,13 +179,6 @@
    </e>
   
   
-   
-   <e r="RL">
-      <p>
-         <l>because<s n="cnjadv"/></l> 
-         <r>para<b/>que<s n="cnjadv"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -207,13 +209,6 @@
    </e>
    
    <e>
-      <p>
-         <l>if<s n="cnjadv"/></l> 
-         <r>si<s n="cnjadv"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
       <p>
          <l>if<s n="cnjadv"/></l> 
          <r>si<s n="cnjadv"/></r> 
@@ -269,14 +264,14 @@
       </p>
    </e>
   
-   <e>
+   <e r="RL">
       <p>
          <l>so<b/>that<s n="cnjadv"/></l> 
          <r>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></r> 
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>so<b/>that<s n="cnjadv"/></l> 
          <r>de<b/>forma<b/>que<s n="cnjadv"/></r> 
@@ -290,7 +285,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e>
       <p>
          <l>so<b/>that<s n="cnjadv"/></l> 
          <r>de<b/>modo<b/>que<s n="cnjadv"/></r> 
@@ -304,26 +299,14 @@
       </p>
    </e>
    
-   <e r="RL" c="MG: depèn del model del verb: subj = so that; ind = because. Es podria tractar al transfer.">
+   <e r="RL">
       <p>
          <l>so<b/>that<s n="cnjadv"/></l> 
          <r>para<b/>que<s n="cnjadv"/></r> 
       </p>
    </e>
    
-   <e r="RL" c="MG: depèn del model del verb: subj = so that; ind = because. Es podria tractar al transfer.">
-      <p>
-         <l>so<b/>that<s n="cnjadv"/></l> 
-         <r>porque<s n="cnjadv"/></r> 
-      </p>
-   </e>
    
-   <e c="comparatives">
-      <p>
-         <l>so<b/>that<s n="cnjadv"/></l> 
-         <r>porque<s n="cnjadv"/></r> 
-      </p>
-   </e>
    
    <e r="RL">
       <p>
@@ -346,6 +329,13 @@
       </p>
    </e>
    
+   
+   <e r="RL">
+      <p>
+         <l>therefore<s n="cnjadv"/></l> 
+         <r>por<b/>eso<s n="cnjadv"/></r> 
+      </p>
+   </e>
    <e r="RL">
       <p>
          <l>therefore<s n="cnjadv"/></l> 
@@ -353,6 +343,12 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>thus<s n="cnjadv"/></l> 
+         <r>por<b/>ello<s n="cnjadv"/></r> 
+      </p>
+   </e>
    <e r="LR">
       <p>
          <l>though<s n="cnjadv"/></l> 
@@ -416,12 +412,6 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>whether<s n="cnjadv"/></l> 
-         <r>si<s n="cnjadv"/></r> 
-      </p>
-   </e>
    
    <e r="RL">
       <p>
@@ -437,6 +427,12 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>whereas<s n="cnjadv"/></l> 
+         <r>mientras<b/>que<s n="cnjadv"/></r> 
+      </p>
+   </e>
    <e r="LR">
       <p>
          <l>yet<s n="cnjadv"/></l> 

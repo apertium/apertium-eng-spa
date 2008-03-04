@@ -307,8 +307,8 @@
 
    <e r="RL">
       <p>
-         <l>some<s n="det"/></l> 
-         <r>cierto<s n="det"/></r> 
+         <l>some<s n="det"/><s n="qnt"/></l> 
+         <r>cierto<s n="det"/><s n="ind"/></r> 
       </p>
    </e>
    
@@ -337,6 +337,12 @@
       </p>
    </e>
   
+   <e r="RL">
+      <p>
+         <l>the<s n="det"/></l> 
+         <r>lo<s n="det"/></r> 
+      </p>
+   </e>
  
    <e r="LR">
       <p>

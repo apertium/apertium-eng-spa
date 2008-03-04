@@ -52,6 +52,10 @@
     <i>aun<b/>así</i>
     <par n="a_fe_que__cnjadv"/>
   </e>
+  <e lm="cuando">
+    <i>cuando</i>
+    <par n="a_fe_que__cnjadv"/>
+  </e>
   <e lm="aun cuando">
     <i>aun<b/>cuando</i>
     <par n="a_fe_que__cnjadv"/>
@@ -68,15 +72,15 @@
     <i>de<b/>forma<b/>que</i>
     <par n="a_fe_que__cnjadv"/>
   </e>
-  <e r="LR" lm="de manera que">
+  <e lm="de manera que">
     <i>de<b/>manera<b/>que</i>
     <par n="a_fe_que__cnjadv"/>
   </e>
-  <e r="LR" lm="de modo que">
+  <e lm="de modo que">
     <i>de<b/>modo<b/>que</i>
     <par n="a_fe_que__cnjadv"/>
   </e>
-  <e r="LR" lm="de suerte que">
+  <e lm="de suerte que">
     <i>de<b/>suerte<b/>que</i>
     <par n="a_fe_que__cnjadv"/>
   </e>
@@ -108,6 +112,10 @@
     <i>mientras</i>
     <par n="a_fe_que__cnjadv"/>
   </e>
+  <e lm="mientras que">
+    <i>mientras<b/>que</i>
+    <par n="a_fe_que__cnjadv"/>
+  </e>
   <e lm="para que">
     <i>para<b/>que</i>
     <par n="a_fe_que__cnjadv"/>
@@ -128,6 +136,16 @@
     <i>por<b/>lo<b/>tanto</i>
     <par n="a_fe_que__cnjadv"/>
   </e>
+    
+    <e lm="por eso">
+        <i>por<b/>eso</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
+    
+    <e lm="por ello">
+        <i>por<b/>ello</i> 
+        <par n="a_fe_que__cnjadv"/> 
+    </e>
   <e lm="porque">
     <i>porque</i>
     <par n="a_fe_que__cnjadv"/>
@@ -192,6 +210,10 @@
   </e>
   <e lm="que">
     <i>que</i>
+    <par n="justo_es_decir__cnjcoo"/>
+  </e>
+  <e lm="tanto" r="RL">
+    <i>tanto</i>
     <par n="justo_es_decir__cnjcoo"/>
   </e>
 </section>

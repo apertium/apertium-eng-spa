@@ -5,7 +5,7 @@
 
 
     <e lm="be hungry">
-        <par n="/be__vbser"/> 
+        <par n="/be__vblex"/> 
         <p>
 		<l><b/>hungry</l>
 		<r><g><b/>hungry</g></r>
@@ -39,7 +39,7 @@
         </p>
     </e>
 
-    <e lm="shoot in the dark">
+    <e lm="shoot in the dark" r="RL">
         <i>sho</i> 
         <par n="sho/ot__vblex"/> 
         <p>
@@ -50,7 +50,8 @@
 
     <e lm="take for granted">
         <i>t</i> 
-        <par n="t/ake__vblex"/> 
+        <par n="t/ake__vblex" sa="sep"/> 
+        <par n="probj_dem__prn"/> 
         <p>
             <l><b/>for<b/>granted</l>
             <r><g><b/>for<b/>granted</g></r>
@@ -102,7 +103,7 @@
         <par n="maybe__adv"/>
     </e>    
 
-    <e lm="like that">
+    <e lm="like that" r="RL">
         <i>like<b/>that</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -127,11 +128,6 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="against">
-        <i>against</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
     <e lm="against my will">
         <i>against<b/>my<b/>will</i> 
         <par n="maybe__adv"/> 
@@ -139,7 +135,7 @@
     
     <e lm="ahead of">
         <i>ahead<b/>of</i> 
-        <par n="maybe__adv"/> 
+        <par n="at__pr"/> 
     </e>
     
     <e lm="all in one breath">
@@ -154,12 +150,7 @@
     
     <e lm="around the middle of">
         <i>around<b/>the<b/>middle<b/>of</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
-    <e lm="as I was a child">
-        <i>as<b/>I<b/>was<b/>a<b/>child</i> 
-        <par n="maybe__adv"/> 
+        <par n="at__pr"/> 
     </e>
     
     <e lm="askance">
@@ -177,7 +168,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="at a guess">
+    <e lm="at a guess" r="RL">
         <i>at<b/>a<b/>guess</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -192,6 +183,10 @@
         <par n="maybe__adv"/> 
     </e>
     
+    <e lm="first of all">
+        <i>first<b/>of<b/>all</i> 
+        <par n="maybe__adv"/> 
+    </e>
     <e lm="at full speed">
         <i>at<b/>full<b/>speed</i> 
         <par n="maybe__adv"/> 
@@ -274,7 +269,7 @@
     
     <e lm="by dint of">
         <i>by<b/>dint<b/>of</i> 
-        <par n="maybe__adv"/> 
+        <par n="at__pr"/> 
     </e>
     
     <e lm="by fair means or foul">
@@ -342,10 +337,10 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="dry" r="RL">
+   <!-- <e lm="dry" r="RL">
         <i>dry</i> 
         <par n="maybe__adv"/> 
-    </e>
+    </e> -->
     
     <e lm="edgewise">
         <i>edgewise</i> 
@@ -422,6 +417,11 @@
         <par n="maybe__adv"/> 
     </e>
     
+    
+    <e lm="for ever">
+        <i>for<b/>ever</i> 
+        <par n="maybe__adv"/> 
+    </e>
     <e lm="for example">
         <i>for<b/>example</i> 
         <par n="maybe__adv"/> 
@@ -502,12 +502,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="however">
-        <i>however</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
-    <e lm="if that weren't enough">
+    <e lm="if that weren't enough" r="RL">
         <i>if<b/>that<b/>weren't<b/>enough</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -561,24 +556,13 @@
         <i>in<b/>a<b/>trice</i> 
         <par n="maybe__adv"/> 
     </e>
-    
-    <e lm="in any case">
-        <i>in<b/>any<b/>case</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
-    <e lm="in any case">
-        <i>in<b/>any<b/>case</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
     <e lm="in bold strokes">
         <i>in<b/>bold<b/>strokes</i> 
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="in board day light">
-        <i>in<b/>board<b/>day<b/>light</i> 
+    <e lm="in broad day light">
+        <i>in<b/>broad<b/>day<b/>light</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -587,15 +571,6 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="in excess">
-        <i>in<b/>excess</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
-    <e lm="in excess">
-        <i>in<b/>excess</i> 
-        <par n="maybe__adv"/> 
-    </e>
     
     <e lm="in favor">
         <i>in<b/>favor</i> 
@@ -607,11 +582,6 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="in front">
-        <i>in<b/>front</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
     <e lm="in great quantity">
         <i>in<b/>great<b/>quantity</i> 
         <par n="maybe__adv"/> 
@@ -619,7 +589,7 @@
     
     <e lm="in pursuit of">
         <i>in<b/>pursuit<b/>of</i> 
-        <par n="maybe__adv"/> 
+        <par n="at__pr"/> 
     </e>
     
     <e lm="in style" r="RL">
@@ -687,8 +657,8 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="just perfect" r="RL">
-        <i>just<b/>perfect</i> 
+    <e lm="in great detail" r="RL">
+        <i>in<b/>great<b/>detail</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -707,9 +677,9 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="stark naked">
-        <i>stark<b/>naked</i> 
-        <par n="maybe__adv"/> 
+    <e lm="naked">
+        <i>naked</i> 
+        <par n="expensive__adj"/> 
     </e>
     
     <e lm="no doubt">
@@ -717,12 +687,16 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="no matter what">
+    <e lm="no matter what" r="RL">
         <i>no<b/>matter<b/>what</i> 
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="not in your life">
+    <e lm="whatever happens">
+        <i>whatever<b/>happens</i> 
+        <par n="maybe__adv"/> 
+    </e>
+    <e lm="not in your life" r="RL">
         <i>not<b/>in<b/>your<b/>life</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -772,8 +746,8 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="on purpose">
-        <i>on<b/>purpose</i> 
+    <e lm="in bad faith">
+        <i>in<b/>bad<b/>faith</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -884,7 +858,7 @@
     
     <e lm="right in front of">
         <i>right<b/>in<b/>front<b/>of</i> 
-        <par n="maybe__adv"/> 
+        <par n="at__pr"/> 
     </e>
     
     <e lm="seriously">
@@ -922,15 +896,10 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="the way I see it" r="RL">
+<!--    <e lm="the way I see it" r="RL">
         <i>the<b/>way<b/>I<b/>see<b/>it</i> 
         <par n="maybe__adv"/> 
-    </e>
-    
-    <e lm="therefore">
-        <i>therefore</i> 
-        <par n="maybe__adv"/> 
-    </e>
+    </e> -->
     
     <e lm="third time lucky">
         <i>third<b/>time<b/>lucky</i> 
@@ -947,7 +916,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="to right and left">
+    <e lm="to right and left" r="RL">
         <i>to<b/>right<b/>and<b/>left</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -977,7 +946,7 @@
         <par n="maybe__adv"/> 
     </e>
     
-    <e lm="under the counter">
+    <e lm="under the counter" r="RL">
         <i>under<b/>the<b/>counter</i> 
         <par n="maybe__adv"/> 
     </e>
@@ -999,11 +968,6 @@
     
     <e lm="unwillingly">
         <i>unwillingly</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
-    <e lm="very late at night">
-        <i>very<b/>late<b/>at<b/>night</i> 
         <par n="maybe__adv"/> 
     </e>
     
@@ -1088,7 +1052,7 @@
     </e>
     
     <e lm="be hesitant" r="RL">
-        <par n="/be__vbser"/> 
+        <par n="/be__vblex"/> 
         <p>
 		<l><b/>hesitant</l>
 		<r><g><b/>hesitant</g></r>

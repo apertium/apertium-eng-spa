@@ -100,7 +100,7 @@
    
    <e>
       <p>
-         <l>be<g><b/>hungry</g><s n="vbser"/></l> 
+         <l>be<g><b/>hungry</g><s n="vblex"/></l> 
          <r>tener<g><b/>hambre</g><s n="vblex"/></r> 
       </p>
    </e>
@@ -191,7 +191,7 @@
     
 
     -->
-   <e c="check/should be adj, but, 'algo por el estilo' - 'something like that'">
+   <e r="RL">
       <p>
          <l>like<b/>that<s n="adv"/></l> 
          <r>por<b/>el<b/>estilo<s n="adv"/></r> 
@@ -208,14 +208,14 @@
    <e r="RL">
       <p>
          <l>low<b/>quality<s n="adj"/></l> 
-         <r>de<b/>pacotilla<s n="adj"/></r> 
+         <r>de<b/>pacotilla<s n="adj"/><s n="mf"/></r> 
       </p>
    </e>
    
    <e>
       <p>
          <l>low<b/>quality<s n="adj"/></l> 
-         <r>de<b/>baja<b/>calidad<s n="adj"/></r> 
+         <r>de<b/>baja<b/>calidad<s n="adj"/><s n="mf"/></r> 
       </p>
    </e>
    
@@ -236,7 +236,7 @@
    <e>
       <p>
          <l>God<b/>willing<s n="adv"/></l> 
-         <r>a<b/>la<b/>buena<b/>de<b/>Dios<s n="adv"/></r> 
+         <r>si<b/>Dios<b/>quiere<s n="adv"/></r> 
       </p>
    </e>
    
@@ -300,8 +300,8 @@
    
    <e c="check">
       <p>
-         <l>ahead<b/>of<s n="adv"/></l> 
-         <r>al<b/>frente<b/>de<s n="adv"/></r> 
+         <l>ahead<b/>of<s n="pr"/></l> 
+         <r>al<b/>frente<b/>de<s n="pr"/></r> 
       </p>
    </e>
    
@@ -321,22 +321,8 @@
    
    <e c="@check">
       <p>
-         <l>around<b/>the<b/>middle<b/>of<s n="adv"/></l> 
-         <r>a<b/>mediados<b/>de<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e c="@check">
-      <p>
-         <l>as<b/>I<b/>was<b/>a<b/>child<s n="adv"/></l> 
-         <r>de<b/>niño<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e c="@check" r="RL">
-      <p>
-         <l>as<b/>I<b/>was<b/>a<b/>child<s n="adv"/></l> 
-         <r>de<b/>niña<s n="adv"/></r> 
+         <l>around<b/>the<b/>middle<b/>of<s n="pr"/></l> 
+         <r>a<b/>mediados<b/>de<s n="pr"/></r> 
       </p>
    </e>
    
@@ -361,7 +347,7 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>at<b/>a<b/>guess<s n="adv"/></l> 
          <r>a<b/>ojo<b/>de<b/>buen<b/>cubero<s n="adv"/></r> 
@@ -389,13 +375,19 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>at<b/>first<s n="adv"/></l> 
          <r>de<b/>primeras<s n="adv"/></r> 
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>at<b/>first<s n="adv"/></l> 
+         <r>al<b/>principio<s n="adv"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>at<b/>full<b/>speed<s n="adv"/></l> 
@@ -517,8 +509,8 @@
    
    <e>
       <p>
-         <l>by<b/>dint<b/>of<s n="adv"/></l> 
-         <r>a<b/>fuerza<b/>de<s n="adv"/></r> 
+         <l>by<b/>dint<b/>of<s n="pr"/></l> 
+         <r>a<b/>fuerza<b/>de<s n="pr"/></r> 
       </p>
    </e>
    
@@ -532,7 +524,7 @@
    <e>
       <p>
          <l>by<b/>fits<b/>and<b/>starts<s n="adv"/></l> 
-         <r>a<b/>tonta<b/>y<b/>a<b/>locas<s n="adv"/></r> 
+         <r>a<b/>tontas<b/>y<b/>a<b/>locas<s n="adv"/></r> 
       </p>
    </e>
    
@@ -620,14 +612,14 @@
       </p>
    </e>
    
-   <e r="RL" c="also: plain">
+ <!--  <e r="RL" c="and nothing more">
       <p>
          <l>dry<s n="adv"/></l> 
          <r>a<b/>secas<s n="adv"/></r> 
       </p>
-   </e>
+   </e> -->
    
-   <e>
+   <e r="LR">
       <p>
          <l>edgewise<s n="adv"/></l> 
          <r>de<b/>lado<s n="adv"/></r> 
@@ -678,11 +670,17 @@
    
    <e r="RL">
       <p>
-         <l>finally<s n="adv"/></l> 
-         <r>en<b/>fin<s n="adv"/></r> 
+         <l>anyway<s n="cnjadv"/></l> 
+         <r>en<b/>fin<s n="cnjadv"/></r> 
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>anyway<s n="cnjadv"/></l> 
+         <r>en<b/>todo<b/>caso<s n="cnjadv"/></r> 
+      </p>
+   </e>
    <e r="RL">
       <p>
          <l>finally<s n="adv"/></l> 
@@ -697,13 +695,19 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>first<b/>and<b/>foremost<s n="adv"/></l> 
-         <r>ante<b/>todo<s n="adv"/></r> 
+         <r>en<b/>primer<b/>lugar<s n="adv"/></r> 
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>first<b/>of<b/>all<s n="adv"/></l> 
+         <r>ante<b/>todo<s n="adv"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>first<b/>come,<b/>first<b/>served<s n="adv"/></l> 
@@ -725,12 +729,6 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>for<b/>God's<b/>sake<s n="adv"/></l> 
-         <r>por<b/>el<b/>amor<b/>de<b/>Dios<s n="adv"/></r> 
-      </p>
-   </e>
    
    <e r="RL">
       <p>
@@ -739,13 +737,19 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>for<b/>ever<b/>and<b/>ever<s n="adv"/></l> 
          <r>para<b/>siempre<s n="adv"/></r> 
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>for<b/>ever<s n="adv"/></l> 
+         <r>para<b/>siempre<s n="adv"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>for<b/>example<s n="adv"/></l> 
@@ -784,7 +788,7 @@
    <e>
       <p>
          <l>for<b/>one<b/>reason<b/>or<b/>another<s n="adv"/></l> 
-         <r>por<b/>una<b/>razón<b/>o<b/>por<b/>otra<s n="adv"/></r> 
+         <r>por<b/>una<b/>razón<b/>u<b/>otra<s n="adv"/></r> 
       </p>
    </e>
    
@@ -802,17 +806,23 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>for<b/>the<b/>sake<b/>of<b/>God<s n="adv"/></l> 
-         <r>por<b/>Dios<s n="adv"/></r> 
+         <r>por<b/>el<b/>amor<b/>de<b/>Dios<s n="adv"/></r> 
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>for<b/>God's<b/>sake<s n="adv"/></l> 
+         <r>por<b/>el<b/>amor<b/>de<b/>Dios<s n="adv"/></r> 
+      </p>
+   </e>
    <e r="RL">
       <p>
-         <l>forever<b/>and<b/>ever<s n="adv"/></l> 
-         <r>para<b/>los<b/>restos<s n="adv"/></r> 
+         <l>for<b/>God's<b/>sake<s n="adv"/></l>
+         <r>por<b/>Dios<s n="adv"/></r> 
       </p>
    </e>
    
@@ -893,7 +903,7 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>if<b/>that<b/>weren't<b/>enough<s n="adv"/></l> 
          <r>para<b/>mayor<b/>inri<s n="adv"/></r> 
@@ -949,13 +959,19 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>in<b/>a<b/>trice<s n="adv"/></l> 
          <r>en<b/>un<b/>pis<b/>pas<s n="adv"/></r> 
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>in<b/>a<b/>trice<s n="adv"/></l> 
+         <r>en<b/>un<b/>abrir<b/>y<b/>cerrar<b/>de<b/>ojos<s n="adv"/></r> 
+      </p>
+   </e>
    <e r="RL">
       <p>
          <l>in<b/>a<b/>trice<s n="adv"/></l> 
@@ -977,23 +993,23 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
-         <l>in<b/>any<b/>case<s n="adv"/></l> 
+         <l>anyway<s n="adv"/></l> 
          <r>de<b/>cualquier<b/>manera<s n="adv"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>in<b/>any<b/>case<s n="adv"/></l> 
+         <l>anyway<s n="adv"/></l> 
          <r>de<b/>cualquier<b/>forma<s n="adv"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>in<b/>any<b/>case<s n="adv"/></l> 
+         <l>anyway<s n="adv"/></l> 
          <r>de<b/>todos<b/>modos<s n="adv"/></r> 
       </p>
    </e>
@@ -1007,7 +1023,7 @@
    
    <e>
       <p>
-         <l>in<b/>board<b/>day<b/>light<s n="adv"/></l> 
+         <l>in<b/>broad<b/>day<b/>light<s n="adv"/></l> 
          <r>en<b/>pleno<b/>día<s n="adv"/></r> 
       </p>
    </e>
@@ -1018,21 +1034,7 @@
          <r>en<b/>resumidas<b/>cuentas<s n="adv"/></r> 
       </p>
    </e>
-   
-   <e>
-      <p>
-         <l>in<b/>excess<s n="adv"/></l> 
-         <r>de<b/>más<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>in<b/>excess<s n="adv"/></l> 
-         <r>para<b/>dar<b/>y<b/>tomar<s n="adv"/></r> 
-      </p>
-   </e>
-   
+
    <e r="RL">
       <p>
          <l>in<b/>favor<s n="adv"/></l> 
@@ -1049,7 +1051,7 @@
    
    <e r="RL" c="check">
       <p>
-         <l>in<b/>front<s n="adv"/></l> 
+         <l>ahead<s n="adv"/></l> 
          <r>de<b/>frente<s n="adv"/></r> 
       </p>
    </e>
@@ -1084,8 +1086,8 @@
    
    <e c="also: after">
       <p>
-         <l>in<b/>pursuit<b/>of<s n="adv"/></l> 
-         <r>en<b/>pos<b/>de<s n="adv"/></r> 
+         <l>in<b/>pursuit<b/>of<s n="pr"/></l> 
+         <r>en<b/>pos<b/>de<s n="pr"/></r> 
       </p>
    </e>
    
@@ -1210,18 +1212,24 @@
    
    <e r="RL">
       <p>
-         <l>just<b/>perfect<s n="adv"/></l> 
+         <l>in<b/>great<b/>detail<s n="adv"/></l> 
          <r>sin<b/>faltar<b/>una<b/>coma<s n="adv"/></r> 
       </p>
    </e>
    
-   <e>
+   <e r="RL">
+      <p>
+         <l>deliberately<s n="adv"/></l> 
+         <r>intencionadamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
       <p>
          <l>knowingly<s n="adv"/></l> 
          <r>intencionadamente<s n="adv"/></r> 
       </p>
    </e>
-   
    <e r="RL">
       <p>
          <l>knowingly<s n="adv"/></l> 
@@ -1252,15 +1260,8 @@
    
    <e>
       <p>
-         <l>stark<b/>naked<s n="adv"/></l> 
-         <r>en<b/>cueros<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>never<s n="adv"/></l> 
-         <r>en<b/>mi<b/>vida<s n="adv"/></r> 
+         <l>naked<s n="adj"/></l> 
+         <r>en<b/>cueros<s n="adj"/><s n="mf"/></r> 
       </p>
    </e>
    
@@ -1280,7 +1281,7 @@
    
    <e c="check">
       <p>
-         <l>no<b/>matter<b/>what<s n="adv"/></l> 
+         <l>whatever<b/>happens<s n="adv"/></l> 
          <r>pase<b/>lo<b/>que<b/>pase<s n="adv"/></r> 
       </p>
    </e>
@@ -1292,12 +1293,6 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>not<b/>in<b/>your<b/>life<s n="adv"/></l> 
-         <r>en<b/>tu<b/>vida<s n="adv"/></r> 
-      </p>
-   </e>
    
    <e r="RL">
       <p>
@@ -1348,7 +1343,7 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>on<b/>a<b/>shoestring<s n="adv"/></l> 
          <r>con<b/>poquísimo<b/>dinero<s n="adv"/></r> 
@@ -1369,9 +1364,9 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e>
       <p>
-         <l>on<b/>purpose<s n="adv"/></l> 
+         <l>in<b/>bad<b/>faith<s n="adv"/></l> 
          <r>de<b/>mala<b/>fe<s n="adv"/></r> 
       </p>
    </e>
@@ -1432,7 +1427,7 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e>
       <p>
          <l>once<b/>in<b/>a<b/>blue<b/>moon<s n="adv"/></l> 
          <r>de<b/>higos<b/>a<b/>brevas<s n="adv"/></r> 
@@ -1460,10 +1455,10 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>once<b/>in<b/>a<b/>while<s n="adv"/></l> 
-         <r>de<b/>higos<b/>a<b/>brevas<s n="adv"/></r> 
+         <r>de<b/>vez<b/>en<b/>cuando<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1511,7 +1506,7 @@
    
    <e r="RL">
       <p>
-         <l>per<b/>peson<s n="adv"/></l> 
+         <l>per<b/>person<s n="adv"/></l> 
          <r>por<b/>barba<s n="adv"/></r> 
       </p>
    </e>
@@ -1546,17 +1541,17 @@
    
    <e c="@check">
       <p>
-         <l>right<b/>in<b/>front<b/>of<s n="adv"/></l> 
-         <r>justo<b/>delante<b/>de<s n="adv"/></r> 
+         <l>right<b/>in<b/>front<b/>of<s n="pr"/></l> 
+         <r>justo<b/>delante<b/>de<s n="pr"/></r> 
       </p>
    </e>
    
-   <e r="RL" c="@check">
+ <!--  <e r="RL" c="@check">
       <p>
          <l>right<b/>in<b/>front<b/>of<s n="adv"/></l> 
          <r>en<b/>mis<b/>propias<b/>narices<s n="adv"/></r> 
       </p>
-   </e>
+   </e> -->
    
    <e r="RL">
       <p>
@@ -1621,19 +1616,12 @@
       </p>
    </e>
    
-   <e r="RL" c="@check">
+ <!--  <e r="RL" c="@check">
       <p>
          <l>the<b/>way<b/>I<b/>see<b/>it<s n="adv"/></l> 
          <r>con<b/>el<b/>corazón<b/>en<b/>la<b/>mano<s n="adv"/></r> 
       </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>therefore<s n="cnjadv"/></l> 
-         <r>por<b/>eso<s n="cnjadv"/></r> 
-      </p>
-   </e>
+   </e> -->
    <e>
       <p>
          <l>third<b/>time<b/>lucky<s n="adv"/></l> 
@@ -1655,7 +1643,7 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>to<b/>right<b/>and<b/>left<s n="adv"/></l> 
          <r>a<b/>diestro<b/>y<b/>siniestro<s n="adv"/></r> 
@@ -1697,7 +1685,7 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>under<b/>the<b/>counter<s n="adv"/></l> 
          <r>bajo<b/>cuerda<s n="adv"/></r> 
@@ -1732,14 +1720,7 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>very<b/>late<b/>at<b/>night<s n="adv"/></l> 
-         <r>a<b/>las<b/>tantas<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e>
+   <e c="MG: revisar, falla: abierto de par en par">
       <p>
          <l>wide<b/>open<s n="adv"/></l> 
          <r>de<b/>par<b/>en<b/>par<s n="adv"/></r> 
@@ -1916,7 +1897,7 @@
          <r>pagar<g><b/>a<b/>escote</g><s n="vblex"/></r> 
       </p>
    </e>
-   <e>
+   <e r="RL">
       <p>
          <l>shoot<g><b/>in<b/>the<b/>dark</g><s n="vblex"/></l> 
          <r>dar<g><b/>palos<b/>de<b/>ciego</g><s n="vblex"/></r> 
@@ -1925,13 +1906,13 @@
    
    <e>
       <p>
-         <l>take<g><b/>for<b/>granted</g><s n="vblex"/></l> 
+         <l>take<g><b/>for<b/>granted</g><s n="vblex"/><s n="sep"/></l> 
          <r>dar<g><b/>por<b/>hecho</g><s n="vblex"/></r> 
       </p>
    </e>
    <e r="RL">
       <p>
-         <l>take<g><b/>for<b/>granted</g><s n="vblex"/></l> 
+         <l>take<g><b/>for<b/>granted</g><s n="vblex"/><s n="sep"/></l> 
          <r>dar<g><b/>por<b/>sentado</g><s n="vblex"/></r> 
       </p>
    </e>    

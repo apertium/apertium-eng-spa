@@ -5057,7 +5057,7 @@
       </p>
     </e>
 
-    <e slr="frontera D">
+    <e slr="frontera">
       <p>
         <l>border<s n="n"/></l> 
         <r>frontera<s n="n"/><s n="f"/></r> 
@@ -9506,13 +9506,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>container<s n="n"/></l> 
-        <r>contenedor<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
     <e r="RL" slr="contenedor" c="Transp.">
       <p>
         <l>container<s n="n"/></l> 
@@ -11332,21 +11325,14 @@
       </p>
     </e>
 
-    <e r="RL" c="la morta, no 'la mort'">
+    <e r="RL" c="la muerta">
       <p>
         <l>dead<b/>person<s n="n"/></l> 
         <r>muerta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e c="cat->en masculí i femení (el mort, la morta)">
-      <p>
-        <l>dead<b/>person<s n="n"/></l> 
-        <r>muerte<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e c="cat->en masculí i femení (el mort, la morta)">
+    <e>
       <p>
         <l>dead<b/>person<s n="n"/></l> 
         <r>muerto<s n="n"/><s n="m"/></r> 
@@ -12501,14 +12487,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="agenda">
       <p>
         <l>diary<s n="n"/></l> 
         <r>agenda<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="diario D">
       <p>
         <l>diary<s n="n"/></l> 
         <r>diario<s n="n"/><s n="m"/></r> 
@@ -13075,14 +13061,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="disposición" c="de herencia">
       <p>
         <l>disposal<s n="n"/></l> 
         <r>disposición<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="eliminación D">
       <p>
         <l>disposal<s n="n"/></l> 
         <r>eliminación<s n="n"/><s n="f"/></r> 
@@ -13310,20 +13296,6 @@
       <p>
         <l>divulging<s n="n"/></l> 
         <r>divulgación<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>dock<s n="n"/></l> 
-        <r>meollo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>dock<s n="n"/></l> 
-        <r>meollo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -13593,28 +13565,21 @@
       </p>
     </e>
 
-    <e>
+    <e slr="drama" c="Fig.">
       <p>
         <l>drama<s n="n"/></l> 
         <r>drama<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e slr="obra D">
       <p>
         <l>drama<s n="n"/></l> 
         <r>obra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>drama<s n="n"/></l> 
-        <r>obra<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
+    <e r="LR" slr="teatro" c="Educ. asignatura de teatro">
       <p>
         <l>drama<s n="n"/></l> 
         <r>teatro<s n="n"/><s n="m"/></r> 
@@ -13667,13 +13632,6 @@
       <p>
         <l>dream<s n="n"/></l> 
         <r>sueño<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>dress<s n="n"/></l> 
-        <r>traje<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -13749,13 +13707,6 @@
 
     <e>
       <p>
-        <l>driving<s n="n"/></l> 
-        <r>mando<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>dromedary<s n="n"/></l> 
         <r>dromedario<s n="n"/><s n="m"/></r> 
       </p>
@@ -13789,14 +13740,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="droga D">
       <p>
         <l>drug<s n="n"/></l> 
         <r>droga<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="fármaco">
       <p>
         <l>drug<s n="n"/></l> 
         <r>fármaco<s n="n"/><s n="m"/></r> 
@@ -13810,14 +13761,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="bidón">
       <p>
-        <l>drum<s n="n"/></l> 
-        <r>barril<s n="n"/><s n="m"/></r> 
+        <l>drum<s n="n"/></l>
+        <r>bidón<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="tambor D">
       <p>
         <l>drum<s n="n"/></l> 
         <r>tambor<s n="n"/><s n="m"/></r> 
@@ -14748,14 +14699,7 @@
       </p>
     </e>
 
-    <e r="RL" c="faltaria posar 'fi' masculí que es tradueix per 'aim'">
-      <p>
-        <l>end<s n="n"/></l> 
-        <r>fin<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
+    <e r="RL">
       <p>
         <l>end<s n="n"/></l> 
         <r>final<s n="n"/><s n="m"/></r> 
@@ -15202,7 +15146,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>estimate<s n="n"/></l> 
         <r>presupuesto<s n="n"/><s n="m"/></r> 
@@ -15384,21 +15328,21 @@
       </p>
     </e>
 
-    <e>
+    <e slr="examen D">
       <p>
         <l>examination<s n="n"/></l> 
         <r>examen<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="inspección">
       <p>
         <l>examination<s n="n"/></l> 
         <r>inspección<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="interrogatorio">
       <p>
         <l>examination<s n="n"/></l> 
         <r>interrogatorio<s n="n"/><s n="m"/></r> 
@@ -15465,13 +15409,6 @@
       <p>
         <l>excess<s n="n"/></l> 
         <r>exceso<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>exchange<s n="n"/></l> 
-        <r>cambio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -15577,13 +15514,6 @@
       <p>
         <l>exhibit<s n="n"/></l> 
         <r>prueba<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>exhibition<s n="n"/></l> 
-        <r>exhibición<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -15853,7 +15783,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>extension<s n="n"/></l> 
         <r>ampliación<s n="n"/><s n="f"/></r> 
@@ -15867,28 +15797,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e slr="alcance">
       <p>
         <l>extent<s n="n"/></l> 
         <r>alcance<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>extent<s n="n"/></l> 
-        <r>alcance<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>extent<s n="n"/></l> 
-        <r>extensión<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e>
+    <e r="LR" slr="extensión D">
       <p>
         <l>extent<s n="n"/></l> 
         <r>extensión<s n="n"/><s n="f"/></r> 
@@ -16049,7 +15965,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>facing<s n="n"/></l> 
         <r>paramento<s n="n"/><s n="m"/></r> 
@@ -16091,7 +16007,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>failure<s n="n"/></l> 
         <r>avería<s n="n"/><s n="f"/></r> 
@@ -16105,21 +16021,21 @@
       </p>
     </e>
 
-    <e>
+    <e slr="fallo">
       <p>
         <l>failure<s n="n"/></l> 
         <r>fallo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="fracaso D">
       <p>
         <l>failure<s n="n"/></l> 
         <r>fracaso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="quiebra">
       <p>
         <l>failure<s n="n"/></l> 
         <r>quiebra<s n="n"/><s n="f"/></r> 
@@ -16203,13 +16119,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>fan<s n="n"/></l> 
-        <r>abanico<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>fan<s n="n"/></l> 
@@ -16217,21 +16126,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="seguidor D">
       <p>
         <l>fan<s n="n"/></l> 
         <r>seguidor<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>fan<s n="n"/></l> 
-        <r>seguidor<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e>
+    <e slr="ventilador">
       <p>
         <l>fan<s n="n"/></l> 
         <r>ventilador<s n="n"/><s n="m"/></r> 
@@ -16386,14 +16288,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="culpa D">
       <p>
         <l>fault<s n="n"/></l> 
         <r>culpa<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="falta">
       <p>
         <l>fault<s n="n"/></l> 
         <r>falta<s n="n"/><s n="f"/></r> 
@@ -16462,7 +16364,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>feces<s n="n"/></l> 
         <r>excremento<s n="n"/><s n="m"/></r> 
@@ -16497,14 +16399,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="sensación">
       <p>
         <l>feeling<s n="n"/></l> 
         <r>sensación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="sentimiento D">
       <p>
         <l>feeling<s n="n"/></l> 
         <r>sentimiento<s n="n"/><s n="m"/></r> 
@@ -16532,7 +16434,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>female<s n="n"/></l> 
         <r>hembra<s n="n"/><s n="f"/></r> 
@@ -16571,13 +16473,6 @@
       <p>
         <l>femur<s n="n"/></l> 
         <r>fémur<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>fence<s n="n"/></l> 
-        <r>obstáculo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -16707,7 +16602,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>field<s n="n"/></l> 
         <r>ámbito<s n="n"/><s n="m"/></r> 
@@ -16721,7 +16616,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>fight<s n="n"/></l> 
         <r>combate<s n="n"/><s n="m"/></r> 
@@ -16749,35 +16644,35 @@
       </p>
     </e>
 
-    <e>
+    <e slr="cifra">
       <p>
         <l>figure<s n="n"/></l> 
         <r>cifra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="figura D">
       <p>
         <l>figure<s n="n"/></l> 
         <r>figura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="archivo D">
       <p>
         <l>file<s n="n"/></l> 
         <r>archivo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>file<s n="n"/></l> 
         <r>expediente<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="lima">
       <p>
         <l>file<s n="n"/></l> 
         <r>lima<s n="n"/><s n="f"/></r> 
@@ -16903,14 +16798,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="pescado">
       <p>
         <l>fish<s n="n"/></l> 
         <r>pescado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="pez D">
       <p>
         <l>fish<s n="n"/></l> 
         <r>pez<s n="n"/><s n="m"/></r> 
@@ -17015,17 +16910,17 @@
       </p>
     </e>
 
-    <e>
+    <e slr="piso D">
       <p>
         <l>floor<s n="n"/></l> 
         <r>piso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="suelo">
       <p>
         <l>floor<s n="n"/></l> 
-        <r>tierra<s n="n"/><s n="f"/></r> 
+        <r>suelo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -17091,10 +16986,10 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>flowerpot<s n="n"/></l> 
-        <r>test<s n="n"/><s n="m"/></r> 
+        <r>tiesto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -17186,13 +17081,6 @@
       <p>
         <l>focus<s n="n"/><s n="ND"/></l> 
         <r>foco<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>fold<s n="n"/></l> 
-        <r>pliego<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -17353,14 +17241,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="forma D">
       <p>
         <l>form<s n="n"/></l> 
         <r>forma<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="formulario">
       <p>
         <l>form<s n="n"/></l> 
         <r>formulario<s n="n"/><s n="m"/></r> 
@@ -17507,28 +17395,28 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>frame<s n="n"/></l> 
         <r>bastidor<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>frame<s n="n"/></l> 
         <r>chasis<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="estructura D">
       <p>
         <l>frame<s n="n"/></l> 
         <r>estructura<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>frame<s n="n"/></l> 
         <r>marco<s n="n"/><s n="m"/></r> 
@@ -17805,20 +17693,6 @@
       <p>
         <l>fund<s n="n"/></l> 
         <r>fondo<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>fund<s n="n"/></l> 
-        <r>fondo<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>fund<s n="n"/></l> 
-        <r>fondo<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -18122,7 +17996,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>gate<s n="n"/></l> 
         <r>compuerta<s n="n"/><s n="f"/></r> 
@@ -18164,13 +18038,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>gear<s n="n"/></l> 
-        <r>engranaje<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>gear<s n="n"/></l> 
@@ -18178,14 +18045,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="equipo">
       <p>
         <l>gear<s n="n"/></l> 
         <r>equipo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="marcha D">
       <p>
         <l>gear<s n="n"/></l> 
         <r>marcha<s n="n"/><s n="f"/></r> 
@@ -18311,54 +18178,12 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>geriatrist<s n="n"/><s n="sg"/></l> 
-        <r>geriatra<s n="n"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>geriatrist<s n="n"/><s n="pl"/></l> 
-        <r>geriatra<s n="n"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
     <e r="LR">
-      <p>
-        <l>geriatrist<s n="n"/><s n="sg"/></l> 
-        <r>geriatra<s n="n"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
+		<p>        <l>geriatrist<s n="n"/><s n="sg"/></l>        <r>geriatra<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
+    <e r="RL"><p>        <l>geriatrist<s n="n"/><s n="sg"/></l>        <r>geriatra<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p>        <l>geriatrist<s n="n"/><s n="sg"/></l>        <r>geriatra<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p>        <l>geriatrist<s n="n"/><s n="pl"/></l>        <r>geriatra<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e r="LR">
-      <p>
-        <l>geriatrist<s n="n"/><s n="pl"/></l> 
-        <r>geriatra<s n="n"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>geriatrist<s n="n"/><s n="sg"/></l> 
-        <r>geriatra<s n="n"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>geriatrist<s n="n"/><s n="sg"/></l> 
-        <r>geriatra<s n="n"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>geriatrist<s n="n"/><s n="pl"/></l> 
-        <r>geriatra<s n="n"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -18508,21 +18333,21 @@
       </p>
     </e>
 
-    <e>
+    <e slr="cristal">
       <p>
         <l>glass<s n="n"/></l> 
         <r>cristal<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="vaso D">
       <p>
         <l>glass<s n="n"/></l> 
         <r>vaso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e c="MG: Aquest 'glass' seria incomptable, potser podríem posar dues entrades al bil?">
+    <e r="RL">
       <p>
         <l>glass<s n="n"/></l> 
         <r>vidrio<s n="n"/><s n="m"/></r> 
@@ -18634,14 +18459,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="gol">
       <p>
         <l>goal<s n="n"/></l> 
         <r>gol<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="objetivo D">
       <p>
         <l>goal<s n="n"/></l> 
         <r>objetivo<s n="n"/><s n="m"/></r> 
@@ -18795,14 +18620,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="grado D">
       <p>
         <l>grade<s n="n"/></l> 
         <r>grado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="nota">
       <p>
         <l>grade<s n="n"/></l> 
         <r>nota<s n="n"/><s n="f"/></r> 
@@ -18820,13 +18645,6 @@
       <p>
         <l>graduate<s n="n"/></l> 
         <r>licenciado<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>grain<s n="n"/></l> 
-        <r>fibra<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -18955,14 +18773,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="beca" c="Educ.">
       <p>
         <l>grant<s n="n"/></l> 
         <r>beca<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="subvención D">
       <p>
         <l>grant<s n="n"/></l> 
         <r>subvención<s n="n"/><s n="f"/></r> 
@@ -19171,7 +18989,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>guarantee<s n="n"/></l> 
         <r>aval<s n="n"/><s n="m"/></r> 
@@ -19655,21 +19473,21 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL" c="en un juicio">
       <p>
         <l>hearing<s n="n"/></l> 
         <r>audiencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="oído D">
       <p>
         <l>hearing<s n="n"/></l> 
         <r>oído<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="vista" c="Jur. vista de un caso">
       <p>
         <l>hearing<s n="n"/></l> 
         <r>vista<s n="n"/><s n="f"/></r> 
@@ -19726,14 +19544,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="tacón D">
       <p>
         <l>heel<s n="n"/></l> 
         <r>tacón<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="talón">
       <p>
         <l>heel<s n="n"/></l> 
         <r>talón<s n="n"/><s n="m"/></r> 
@@ -19957,7 +19775,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>highway<s n="n"/></l> 
         <r>autopista<s n="n"/><s n="f"/></r> 
@@ -20267,7 +20085,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>hook<s n="n"/></l> 
         <r>anzuelo<s n="n"/><s n="m"/></r> 
@@ -20309,14 +20127,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="bocina">
       <p>
         <l>horn<s n="n"/></l> 
         <r>bocina<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="cuerno D">
       <p>
         <l>horn<s n="n"/></l> 
         <r>cuerno<s n="n"/><s n="m"/></r> 
@@ -21553,7 +21371,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>injury<s n="n"/></l> 
         <r>lesión<s n="n"/><s n="f"/></r> 
@@ -21579,26 +21397,27 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>inn<s n="n"/></l> 
         <r>fonda<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>inn<s n="n"/></l> 
-        <r>mesón<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>inn<s n="n"/></l> 
         <r>mesón<s n="n"/><s n="m"/></r> 
       </p>
     </e>
+
+    <e r="RL">
+      <p>
+        <l>inn<s n="n"/></l> 
+        <r>posada<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
 
     <e>
       <p>
@@ -22398,7 +22217,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>investor<s n="n"/></l> 
         <r>inversionista<s n="n"/><s n="mf"/></r> 
@@ -22475,14 +22294,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="hierro D">
       <p>
         <l>iron<s n="n"/></l> 
         <r>hierro<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="plancha">
       <p>
         <l>iron<s n="n"/></l> 
         <r>plancha<s n="n"/><s n="f"/></r> 
@@ -22692,14 +22511,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="articulación" c="Anat.">
       <p>
         <l>joint<s n="n"/></l> 
         <r>articulación<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="junta D" c="Téc.">
       <p>
         <l>joint<s n="n"/></l> 
         <r>junta<s n="n"/><s n="f"/></r> 
@@ -22755,30 +22574,16 @@
       </p>
     </e>
 
-    <e>
+    <e slr="juicio D">
       <p>
         <l>judgement<s n="n"/></l> 
         <r>juicio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="sentencia">
       <p>
         <l>judgement<s n="n"/></l> 
-        <r>sentencia<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>judgment<s n="n"/></l> 
-        <r>juicio<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>judgment<s n="n"/></l> 
         <r>sentencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -22797,14 +22602,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="jugo" c="de carne">
       <p>
         <l>juice<s n="n"/></l> 
         <r>jugo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="zumo D" c="de fruta">
       <p>
         <l>juice<s n="n"/></l> 
         <r>zumo<s n="n"/><s n="m"/></r> 
@@ -23119,13 +22924,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>label<s n="n"/></l> 
-        <r>letrero<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>label<s n="n"/></l> 
@@ -23322,7 +23120,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>lane<s n="n"/></l> 
         <r>carril<s n="n"/><s n="m"/></r> 
@@ -23443,7 +23241,7 @@
 
     <e>
       <p>
-        <l>launch<s n="n"/></l> 
+        <l>launching<s n="n"/></l> 
         <r>lanzamiento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -23581,13 +23379,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>learning<s n="n"/></l> 
-        <r>saber<s n="n"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>learning<s n="n"/></l> 
@@ -23644,14 +23435,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="pata">
       <p>
         <l>leg<s n="n"/></l> 
         <r>pata<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="pierna D">
       <p>
         <l>leg<s n="n"/></l> 
         <r>pierna<s n="n"/><s n="f"/></r> 
@@ -23798,14 +23589,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="carta">
       <p>
         <l>letter<s n="n"/></l> 
         <r>carta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="letra D">
       <p>
         <l>letter<s n="n"/></l> 
         <r>letra<s n="n"/><s n="f"/></r> 
@@ -24312,13 +24103,6 @@
     <e>
       <p>
         <l>loge<s n="n"/></l> 
-        <r>lonja<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>loge<s n="n"/></l> 
         <r>palco<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -24351,24 +24135,17 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="aspecto D">
       <p>
         <l>look<s n="n"/></l> 
         <r>aspecto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="mirada">
       <p>
         <l>look<s n="n"/></l> 
         <r>mirada<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>look<s n="n"/></l> 
-        <r>viso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -24608,13 +24385,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>machinery<s n="n"/></l> 
-        <r>mecanismo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>maduration<s n="n"/></l> 
@@ -24626,13 +24396,6 @@
       <p>
         <l>mafia<s n="n"/></l> 
         <r>mafia<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>magazine<s n="n"/></l> 
-        <r>almacén<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 

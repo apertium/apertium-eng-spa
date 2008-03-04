@@ -9,10 +9,12 @@
 /apertium-en-es.en-es.t2x -text
 /apertium-en-es.en-es.t3x -text
 /apertium-en-es.en.metadix.xml -text
+/apertium-en-es.en.tsx -text
 /apertium-en-es.es-en.t1x -text
 /apertium-en-es.es-en.t2x -text
 /apertium-en-es.es-en.t3x -text
 /apertium-en-es.es.dix.xml -text
+/apertium-en-es.es.tsx -text
 /apertium-en-es.post-en.dix -text
 /apertium-en-es.post-es.dix -text
 /apertium-en-es.trules-en-es.xml -text
@@ -62,6 +64,7 @@ en-es-dic/apertium-en-es.en-es.symbols.xml -text
 en-es-dic/apertium-en-es.en-es.verbs.xml -text
 en-es-dic/apertium-en-es.pardefs-url.xml -text
 en-es-dic/apertium-en-es.symbols.xml -text
+/en-es-unsupervised.make -text
 /en-es.prob -text svneol=unset#unset
 es-dic/apertium-en-es.es.acronyms.xml -text
 es-dic/apertium-en-es.es.adjectives.xml -text
@@ -83,6 +86,8 @@ es-dic/apertium-en-es.es.symbols.xml -text
 es-dic/apertium-en-es.es.verbs.xml -text
 es-dic/apertium-en-es.pardefs-url.xml -text
 es-dic/apertium-en-es.symbols.xml -text
+/es-en-supervised.make -text
+/es-en-unsupervised.make -text
 /es-en.prob -text svneol=unset#unset
 incubator/en-es-please-check.dix -text
 incubator/en-es-to-translate.dix -text

@@ -16,7 +16,7 @@
       </p>
    </e>
    
-   <e srl="about D">
+   <e r="LR" c="possible polisèmia sobre - on/about">
       <p>
          <l>about<s n="pr"/></l> 
          <r>sobre<s n="pr"/></r> 
@@ -497,6 +497,16 @@
    </e>
    
    
+   <e><p><l>out<b/>of<s n="pr"/></l><r>fuera<b/>de<s n="pr"/></r></p></e>
+   <e r="LR"><p><l>out<s n="pr"/></l><r>fuera<b/>de<s n="pr"/></r></p></e>
+   <e r="LR"><p><l>outside<s n="pr"/></l><r>fuera<b/>de<s n="pr"/></r></p></e>
+
+   <e r="LR">
+      <p>
+         <l>up<s n="pr"/></l> 
+         <r>arriba<b/>de<s n="pr"/></r> 
+      </p>
+   </e>
    <e srl="on">
       <p>
          <l>on<s n="pr"/></l> 
@@ -506,7 +516,7 @@
      
   
    
-   <e r="RL" srl="on">
+ <e r="RL">
       <p>
          <l>on<s n="pr"/></l> 
          <r>sobre<s n="pr"/></r> 
@@ -520,6 +530,12 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>on<b/>top<b/>of<s n="pr"/></l> 
+         <r>arriba<b/>de<s n="pr"/></r> 
+      </p>
+   </e>
    <e r="LR">
       <p>
          <l>onto<s n="pr"/></l> 
@@ -755,6 +771,18 @@
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>within<s n="pr"/></l> 
+         <r>dentro<b/>de<s n="pr"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>inside<s n="pr"/></l> 
+         <r>dentro<b/>de<s n="pr"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>with<b/>a<b/>view<b/>to<s n="pr"/></l> 

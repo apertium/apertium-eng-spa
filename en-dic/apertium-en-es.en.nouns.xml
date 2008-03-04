@@ -20052,6 +20052,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="poll">
+        <i>poll</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="romance" a="carmentano">
         <i>romance</i> 
         <par n="house__n"/> 
@@ -25772,5 +25776,16 @@
         <i>Yugoslavian</i> 
         <par n="house__n"/> 
     </e>
+
+<e lm="Mr"><i>Mr</i><par n="east__n"/></e>
+<e lm="Mrs"><i>Mrs</i><par n="east__n"/></e>
+<e lm="Ms"><i>Ms</i><par n="east__n"/></e>
+<e lm="Mr." r="LR"><p><l>Mr.</l><r>Mr</r></p><par n="east__n"/></e>
+<e lm="Mrs." r="LR"><p><l>Mrs.</l><r>Mrs</r></p><par n="east__n"/></e>
+<e lm="Ms." r="LR"><p><l>Ms.</l><r>Ms</r></p><par n="east__n"/></e>
+
+<e lm="Dr"><i>Dr</i><par n="east__n"/></e>
+<e lm="Dr." r="LR"><p><l>Dr.</l><r>Dr</r></p><par n="east__n"/></e>
+
 </section>
 

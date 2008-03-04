@@ -37,7 +37,7 @@
     <i>acerca<b/></i>
     <par n="contde__pr"/>
   </e>
-  <e r="LR" lm="acorde con">
+  <e lm="acorde con">
     <i>acorde<b/>con</i>
     <par n="a__pr"/>
   </e>
@@ -98,11 +98,23 @@
     <par n="a__pr"/>
   </e>
   <e lm="de acuerdo con">
-    <i>de<b/>acuerdo<b/>con<b/></i>
+    <i>de<b/>acuerdo<b/>con</i>
     <par n="a__pr"/>
   </e>
   <e lm="debajo de">
     <i>debajo<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="dentro de">
+    <i>dentro<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="arriba de">
+    <i>arriba<b/></i>
+    <par n="contde__pr"/>
+  </e>
+  <e lm="fuera de">
+    <i>fuera<b/></i>
     <par n="contde__pr"/>
   </e>
   <e lm="debido a">
@@ -141,7 +153,7 @@
     <i>en<b/>conformidad<b/>con</i>
     <par n="a__pr"/>
   </e>
-  <e r="LR" lm="en consonancia con">
+  <e lm="en consonancia con">
     <i>en<b/>consonancia<b/>con</i>
     <par n="a__pr"/>
   </e>

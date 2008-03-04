@@ -995,7 +995,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e srl="ad">
       <p>
         <l>ad<s n="n"/></l> 
         <r>anuncio<s n="n"/><s n="m"/></r> 
@@ -2146,7 +2146,7 @@
     </e>
 
 
-    <e>
+    <e srl="announcement D">
       <p>
         <l>announcement<s n="n"/></l> 
         <r>anuncio<s n="n"/><s n="m"/></r> 
@@ -5342,7 +5342,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="breed">
       <p>
         <l>breed<s n="n"/></l> 
         <r>raza<s n="n"/><s n="f"/></r> 
@@ -6366,7 +6366,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="career D">
       <p>
         <l>career<s n="n"/></l> 
         <r>carrera<s n="n"/><s n="f"/></r> 
@@ -7924,7 +7924,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="clock D">
       <p>
         <l>clock<s n="n"/></l> 
         <r>reloj<s n="n"/><s n="m"/></r> 
@@ -7997,7 +7997,7 @@
     <e r="RL">
       <p>
         <l>cloth<s n="n"/><s n="pl"/></l> 
-        <r>ropa<s n="n"/><s n="f"/></r> 
+        <r>ropa<s n="n"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -8030,13 +8030,6 @@
     </e>
 
     <e r="LR">
-      <p>
-        <l>clothing<s n="n"/></l> 
-        <r>ropa<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e>
       <p>
         <l>clothing<s n="n"/></l> 
         <r>ropa<s n="n"/><s n="f"/></r> 
@@ -8239,7 +8232,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="coin D">
       <p>
         <l>coin<s n="n"/></l> 
         <r>moneda<s n="n"/><s n="f"/></r> 
@@ -8493,31 +8486,17 @@
     </e>
 
    
-    <e>
+    <e slr="dominio">
       <p>
         <l>command<s n="n"/></l> 
         <r>dominio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="orden D">
       <p>
         <l>command<s n="n"/></l> 
         <r>orden<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>command<s n="n"/></l> 
-        <r>orden<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>command<s n="n"/></l> 
-        <r>orden<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -8577,7 +8556,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="commercial">
       <p>
         <l>commercial<s n="n"/></l> 
         <r>anuncio<s n="n"/><s n="m"/></r> 
@@ -8605,7 +8584,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="commitment D">
       <p>
         <l>commitment<s n="n"/></l> 
         <r>compromiso<s n="n"/><s n="m"/></r> 
@@ -9114,14 +9093,14 @@
       </p>
     </e>
 
-    <e>
+    <e srl="conference D">
       <p>
         <l>conference<s n="n"/></l> 
         <r>conferencia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e srl="confidence D">
       <p>
         <l>confidence<s n="n"/></l> 
         <r>confianza<s n="n"/><s n="f"/></r> 
@@ -9583,21 +9562,8 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>contest<s n="n"/></l> 
-        <r>competición<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
 
     <e>
-      <p>
-        <l>contest<s n="n"/></l> 
-        <r>competición<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
       <p>
         <l>contest<s n="n"/></l> 
         <r>concurso<s n="n"/><s n="m"/></r> 
@@ -11002,7 +10968,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="cupboard D">
       <p>
         <l>cupboard<s n="n"/></l> 
         <r>armario<s n="n"/><s n="m"/></r> 
@@ -11037,7 +11003,7 @@
       </p>
     </e>
 
-    <e>
+    <e slr="currency">
       <p>
         <l>currency<s n="n"/></l> 
         <r>moneda<s n="n"/><s n="f"/></r> 
@@ -14831,7 +14797,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="engagement">
       <p>
         <l>engagement<s n="n"/></l> 
         <r>compromiso<s n="n"/><s n="m"/></r> 
@@ -23664,7 +23630,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="lecture">
       <p>
         <l>lecture<s n="n"/></l> 
         <r>conferencia<s n="n"/><s n="f"/></r> 
@@ -25279,7 +25245,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="match">
       <p>
         <l>match<s n="n"/></l> 
         <r>partido<s n="n"/><s n="m"/></r> 
@@ -27663,13 +27629,6 @@
     <e>
       <p>
         <l>notice<s n="n"/></l> 
-        <r>anuncio<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>notice<s n="n"/></l> 
         <r>aviso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -28394,7 +28353,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>order<s n="n"/></l> 
         <r>orden<s n="n"/><s n="f"/></r> 
@@ -29394,21 +29353,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="fiesta">
       <p>
         <l>party<s n="n"/></l> 
         <r>fiesta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>party<s n="n"/></l> 
-        <r>partido<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
+    <e slr="partido D" srl="party D">
       <p>
         <l>party<s n="n"/></l> 
         <r>partido<s n="n"/><s n="m"/></r> 
@@ -33313,12 +33265,10 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>race<s n="n"/></l> 
-        <r>raza<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
+    <e slr="raza" srl="race D"><p>        <l>race<s n="n"/></l>        <r>raza<s n="n"/><s n="f"/></r></p></e>
+    <e><p>        <l>human<b/>race<s n="n"/></l>        <r>raza<b/>humana<s n="n"/><s n="f"/></r></p></e>
+    <e slr="carrera D" srl="race"><p>        <l>race<s n="n"/></l>        <r>carrera<s n="n"/><s n="f"/></r></p></e>
+    
     <e r="LR">
       <p>
         <l>encounter<s n="n"/></l> 
@@ -40295,12 +40245,13 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR" c="también significa 'elecciones' (the polls)">
       <p>
-        <l>survey<s n="n"/></l> 
+        <l>poll<s n="n"/></l> 
         <r>encuesta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
+
 
     <e>
       <p>
@@ -42760,7 +42711,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="trust">
       <p>
         <l>trust<s n="n"/></l> 
         <r>confianza<s n="n"/><s n="f"/></r> 
@@ -44313,7 +44264,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="wardrobe">
       <p>
         <l>wardrobe<s n="n"/></l> 
         <r>armario<s n="n"/><s n="m"/></r> 
@@ -44424,7 +44375,7 @@
         <r>derroche<s n="n"/><s n="m"/></r> 
       </p>
     </e>
-    <e>
+    <e srl="watch">
       <p>
         <l>watch<s n="n"/></l> 
         <r>reloj<s n="n"/><s n="m"/></r> 
@@ -46642,4 +46593,16 @@
         <r>parte<b/>superior<s n="n"/><s n="f"/></r> 
       </p>
     </e>
+
+
+    <e r="LR"><p>        <l>Mr<s n="n"/></l>        <r>Señor<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p>        <l>Mrs<s n="n"/></l>        <r>Señor<s n="n"/><s n="f"/></r></p></e>
+    <e><p>        <l>Miss<s n="n"/></l>        <r>señorita<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p>        <l>Ms<s n="n"/></l>        <r>Señor<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p>        <l>Mr<s n="n"/></l>        <r>Sr.<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p>        <l>Mrs<s n="n"/></l>        <r>Sra.<s n="n"/><s n="f"/></r></p></e>
+
+    <e a="doriua"><p>        <l>Dr<s n="n"/></l>        <r>Dr.<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="doriua"><p>        <l>Dr<s n="n"/></l>        <r>Dra.<s n="n"/><s n="f"/></r></p></e>
+
 </section>

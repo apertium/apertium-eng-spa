@@ -308,7 +308,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="acknowledge">
       <p>
          <l>acknowledge<s n="vblex"/></l> 
          <r>reconocer<s n="vblex"/></r> 
@@ -5864,7 +5864,7 @@
    <e>
       <p>
          <l>give<g><b/>back</g><s n="vblex"/><s n="sep"/></l> 
-         <r>volver<s n="vblex"/></r> 
+         <r>devolver<s n="vblex"/></r> 
       </p>
    </e>
    <e srl="give_up">
@@ -9281,7 +9281,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="recognize D">
       <p>
          <l>recognize<s n="vblex"/></l> 
          <r>reconocer<s n="vblex"/></r> 
@@ -9876,7 +9876,7 @@
       </p>
    </e>
    
-   <e slr="devolver">
+   <e slr="devolver" r="LR">
       <p>
          <l>return<s n="vblex"/></l> 
          <r>devolver<s n="vblex"/></r> 
@@ -11053,7 +11053,7 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e>
       <p>
          <l>stay<s n="vblex"/></l> 
          <r>quedarse<s n="vblex"/><s n="pron"/></r> 
@@ -11673,6 +11673,12 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>take<g><b/>place</g><s n="vblex"/></l> 
+         <r>tener<g><b/>lugar</g><s n="vblex"/></r> 
+      </p>
+   </e>
    <e><p><l>slow<g><b/>down</g><s n="vblex"/><s n="sep"/></l><r>ir<g><b/>más<b/>despacio</g><s n="vblex"/></r></p></e>
    
    <e r="LR">

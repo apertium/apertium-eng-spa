@@ -7942,5 +7942,61 @@
         <par n="approach__vblex"/> 
     </e>
 
+   <e lm="be hungry">
+      <par n="/be__vblex"/> 
+      <p>
+         <l><b/>hungry</l>
+         <r><g><b/>hungry</g></r>
+      </p>
+   </e>
+   <e lm="drink like a fish">
+      <i>dr</i> 
+      <par n="dr/ink__vblex"/> 
+      <p>
+         <l><b/>like<b/>a<b/>fish</l>
+         <r><g><b/>like<b/>a<b/>fish</g></r>
+      </p>
+   </e>
+   <e lm="pay cash">
+      <i>pa</i> 
+      <par n="pa/y__vblex"/> 
+      <p>
+         <l><b/>cash</l>
+         <r><g><b/>cash</g></r>
+      </p>
+   </e>
+   <e lm="go Dutch">
+      <i></i> 
+      <par n="/go__vblex"/> 
+      <p>
+         <l><b/>Dutch</l>
+         <r><g><b/>Dutch</g></r>
+      </p>
+   </e>
+   <e lm="shoot in the dark" r="RL">
+      <i>sho</i> 
+      <par n="sho/ot__vblex"/> 
+      <p>
+         <l><b/>in<b/>the<b/>dark</l>
+         <r><g><b/>in<b/>the<b/>dark</g></r>
+      </p>
+   </e>    
+   <e lm="take for granted">
+      <i>t</i> 
+      <par n="t/ake__vblex" sa="sep"/> 
+      <par n="probj_dem__prn"/> 
+      <p>
+         <l><b/>for<b/>granted</l>
+         <r><g><b/>for<b/>granted</g></r>
+      </p>
+   </e>    
+   <e lm="be hesitant" r="RL">
+      <par n="/be__vblex"/> 
+      <p>
+         <l><b/>hesitant</l>
+         <r><g><b/>hesitant</g></r>
+      </p>
+   </e>
+
 </section>
 

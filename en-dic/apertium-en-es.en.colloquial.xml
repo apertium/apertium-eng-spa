@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section id="colloquial" type="standard">
-   
    <e lm="be hungry">
       <par n="/be__vblex"/> 
       <p>
@@ -9,7 +8,6 @@
          <r><g><b/>hungry</g></r>
       </p>
    </e>
-   
    <e lm="drink like a fish">
       <i>dr</i> 
       <par n="dr/ink__vblex"/> 
@@ -18,7 +16,6 @@
          <r><g><b/>like<b/>a<b/>fish</g></r>
       </p>
    </e>
-   
    <e lm="pay cash">
       <i>pa</i> 
       <par n="pa/y__vblex"/> 
@@ -27,7 +24,6 @@
          <r><g><b/>cash</g></r>
       </p>
    </e>
-   
    <e lm="go Dutch">
       <i></i> 
       <par n="/go__vblex"/> 
@@ -36,7 +32,6 @@
          <r><g><b/>Dutch</g></r>
       </p>
    </e>
-   
    <e lm="shoot in the dark" r="RL">
       <i>sho</i> 
       <par n="sho/ot__vblex"/> 
@@ -45,7 +40,6 @@
          <r><g><b/>in<b/>the<b/>dark</g></r>
       </p>
    </e>    
-   
    <e lm="take for granted">
       <i>t</i> 
       <par n="t/ake__vblex" sa="sep"/> 
@@ -55,166 +49,110 @@
          <r><g><b/>for<b/>granted</g></r>
       </p>
    </e>    
-   
-   <!--
-    <e lm="work hard">
-        <i>work<b/>hard</i> 
-        <par n=""/> 
-    </e>
-   --> 
+   <e lm="work hard" i="yes">
+      <i>work<b/>hard</i> 
+      <par n=""/> 
+   </e>
    <e lm="see you later">
       <i>see<b/>you<b/>later</i> 
       <par n="hello__ij"/> 
    </e>
-   <!--    
-    <e lm="a hell of">
-        <i>a<b/>hell<b/>of</i> 
-        <par n=""/> 
-    </e>
-    
-    <e lm="a hole in the wall">
-        <i>a<b/>hole<b/>in<b/>the<b/>wall</i> 
-        <par n=""/> 
-    </e>
-   --> 
-   <!--
-   
-    <e lm="first hand">
-        <i>first<b/>hand</i> 
-        <par n="maybe__adv"/> 
-    </e>
-    
-    
-    <e lm="a hell of">
-        <i>a<b/>hell<b/>of</i> 
-        <par n=""/> 
-    </e>
-    
--->    
-
-
+   <e lm="a hell of" i="yes">
+      <i>a<b/>hell<b/>of</i> 
+      <par n=""/> 
+   </e>
+   <e lm="a hole in the wall" i="yes">
+      <i>a<b/>hole<b/>in<b/>the<b/>wall</i> 
+      <par n=""/> 
+   </e>
+   <e lm="first hand" i="yes">
+      <i>first<b/>hand</i> 
+      <par n="maybe__adv"/> 
+   </e>
+   <e lm="a hell of" i="yes">
+      <i>a<b/>hell<b/>of</i> 
+      <par n=""/> 
+   </e>
    <e lm="low quality">
       <i>low<b/>quality</i> 
       <par n="expensive__adj"/> 
    </e>
-   
-   
    <e lm="ahead of">
       <i>ahead<b/>of</i> 
       <par n="at__pr"/> 
    </e>
-   
-   
    <e lm="around the middle of">
       <i>around<b/>the<b/>middle<b/>of</i> 
       <par n="at__pr"/> 
    </e>
-   
-   
    <e lm="at about">
       <i>at<b/>about</i> 
       <par n="at__pr"/> 
    </e>
-   
-   
-   
-   <!--<e lm="at the top of one's voice">
-        <i>at<b/>the<b/>top<b/>of<b/>one's<b/>voice</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-    
+   <e lm="at the top of one's voice" i="yes">
+      <i>at<b/>the<b/>top<b/>of<b/>one's<b/>voice</i> 
+      <par n="maybe__adv"/> 
+   </e>
    <e lm="by dint of">
       <i>by<b/>dint<b/>of</i> 
       <par n="at__pr"/> 
    </e>
-   
-   
-   <!--<e lm="by the skin of [one's] teeth">
-        <i>by<b/>the<b/>skin<b/>of<b/>[one's]<b/>teeth</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-    
-   <!-- <e lm="dry" r="RL">
-        <i>dry</i> 
-        <par n="maybe__adv"/> 
-    </e> -->
-    
-    
+   <e lm="by the skin of [one's] teeth" i="yes">
+      <i>by<b/>the<b/>skin<b/>of<b/>[one's]<b/>teeth</i> 
+      <par n="maybe__adv"/> 
+   </e>
+   <e lm="dry" r="RL" i="yes">
+      <i>dry</i> 
+      <par n="maybe__adv"/> 
+   </e> 
    <e lm="in pursuit of">
       <i>in<b/>pursuit<b/>of</i> 
       <par n="at__pr"/> 
    </e>
-   
-   
    <e lm="it takes all sorts to make a world">
       <i>it<b/>takes<b/>all<b/>sorts<b/>to<b/>make<b/>a<b/>world</i> 
       <par n="hello__ij"/> 
    </e>
-   
-   
    <e lm="naked">
       <i>naked</i> 
       <par n="expensive__adj"/> 
    </e>
-   
-   
-   
-   <!--<e lm="on [one's] feet">
-        <i>on<b/>[one's]<b/>feet</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-   <!--<e lm="on [one's] knees">
-        <i>on<b/>[one's]<b/>knees</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-    
-    
-    
-   <!--<e lm="people say">
-        <i>people<b/>say</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-    
+   <e lm="on [one's] feet" i="yes">
+      <i>on<b/>[one's]<b/>feet</i> 
+      <par n="maybe__adv"/> 
+   </e>
+   <e lm="on [one's] knees" i="yes">
+      <i>on<b/>[one's]<b/>knees</i> 
+      <par n="maybe__adv"/> 
+   </e>
+   <e lm="people say" i="yes">
+      <i>people<b/>say</i> 
+      <par n="maybe__adv"/> 
+   </e>
    <e lm="right in front of">
       <i>right<b/>in<b/>front<b/>of</i> 
       <par n="at__pr"/> 
    </e>
-   
-   
-   <!--    <e lm="the way I see it" r="RL">
-        <i>the<b/>way<b/>I<b/>see<b/>it</i> 
-        <par n="maybe__adv"/> 
-    </e> -->
-    
-    
-   <!--<e lm="this is a great time to">
-        <i>this<b/>is<b/>a<b/>great<b/>time<b/>to</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-    
-    
-   <!--<e lm="with [one's] back to">
-        <i>with<b/>[one's]<b/>back<b/>to</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-   <!--<e lm="with [one's] tongue in [one's] cheek">
-        <i>with<b/>[one's]<b/>tongue<b/>in<b/>[one's]<b/>cheek</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-   <!--<e lm="with all [one's] heart">
-        <i>with<b/>all<b/>[one's]<b/>heart</i> 
-        <par n="maybe__adv"/> 
-    </e>-->
-    
-    
+   <e lm="the way I see it" r="RL" i="yes">
+      <i>the<b/>way<b/>I<b/>see<b/>it</i> 
+      <par n="maybe__adv"/> 
+   </e> 
+   <e lm="this is a great time to" i="yes">
+      <i>this<b/>is<b/>a<b/>great<b/>time<b/>to</i> 
+      <par n="maybe__adv"/> 
+   </e>
+   <e lm="with [one's] back to" i="yes">
+      <i>with<b/>[one's]<b/>back<b/>to</i> 
+      <par n="maybe__adv"/> 
+   </e>
+   <e lm="with [one's] tongue in [one's] cheek" i="yes">
+      <i>with<b/>[one's]<b/>tongue<b/>in<b/>[one's]<b/>cheek</i> 
+      <par n="maybe__adv"/> 
+   </e>
+   <e lm="with all [one's] heart" i="yes">
+      <i>with<b/>all<b/>[one's]<b/>heart</i> 
+      <par n="maybe__adv"/> 
+   </e>
    <e lm="be hesitant" r="RL">
       <par n="/be__vblex"/> 
       <p>
@@ -222,6 +160,5 @@
          <r><g><b/>hesitant</g></r>
       </p>
    </e>
-   
 </section>
 

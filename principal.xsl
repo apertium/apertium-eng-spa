@@ -120,7 +120,7 @@
 <xsl:param name="parametro"/>
 <xsl:param name="type"/>
       <xsl:value-of select="string('                        ')"/>
-      <e lm='{@lm}'>
+      <e lm='{@lm}' i='{@i}'>
          <xsl:apply-templates>
            <xsl:with-param name="parametro" select="$parametro"/>
            <xsl:with-param name="type" select="$type"/>
@@ -131,7 +131,7 @@
 <xsl:param name="parametro"/>
 <xsl:param name="type"/>
       <xsl:value-of select="string('                        ')"/>
-      <e r='{@r}'>
+      <e r='{@r}' i='{@i}'>
          <xsl:apply-templates>
            <xsl:with-param name="parametro" select="$parametro"/>
            <xsl:with-param name="type" select="$type"/>
@@ -142,7 +142,7 @@
 <xsl:param name="parametro"/>
 <xsl:param name="type"/>
       <xsl:value-of select="string('                        ')"/>
-      <e>
+      <e i='{@i}'>
         <xsl:apply-templates>
            <xsl:with-param name="parametro" select="$parametro"/>
            <xsl:with-param name="type" select="$type"/>

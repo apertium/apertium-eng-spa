@@ -1,160 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="colloquial" type="standard">
-    
-    <!-- verbs -->
-    <e lm="tener hambre">
-        <i>t</i> 
-        <par n="t/ener__vblex"/> 
-        <p>
-            <l><b/>hambre</l>
-            <r><g><b/>hambre</g></r>
-        </p>
-    </e>
-
-    <e lm="pedir disculpas">
-	    <i>p</i>
-	    <par n="desp/edir__vblex"/>
-        <p>
-            <l><b/>disculpas</l>
-            <r><g><b/>disculpas</g></r>
-        </p>
-    </e>
-
-    <e lm="beber como un cosaco">
-        <i>beb</i>
-	<par n="vend/er__vblex"/>
-        <p>
-            <l><b/>como<b/>un<b/>cosaco</l>
-            <r><g><b/>como<b/>un<b/>cosaco</g></r>
-        </p>
-    </e>
-  <e lm="beber como un cosaco">
-    <p>
-      <l>béb</l>
-      <r>beb</r>
-    </p>
-    <par n="vénd/er__vblex"/>
-        <p>
-            <l><b/>como<b/>un<b/>cosaco</l>
-            <r><g><b/>como<b/>un<b/>cosaco</g></r>
-        </p>
-  </e>
-    <e lm="dar la lata">
-        <i>d</i>
-        <par n="d/ar__vblex"/>
-        <p>
-            <l><b/>la<b/>lata</l>
-            <r><g><b/>la<b/>lata</g></r>
-        </p>
-    </e>
-    <e lm="dar palos de ciego">
-        <i>d</i>
-        <par n="d/ar__vblex"/>
-        <p>
-            <l><b/>palos<b/>de<b/>ciego</l>
-            <r><g><b/>palos<b/>de<b/>ciego</g></r>
-        </p>
-    </e>
-
-    <e lm="dar por hecho">
-        <i>d</i>
-        <par n="d/ar__vblex"/>
-        <p>
-            <l><b/>por<b/>hecho</l>
-            <r><g><b/>por<b/>hecho</g></r>
-        </p>
-    </e>
-    <e lm="dar por sentado">
-        <i>d</i>
-        <par n="d/ar__vblex"/>
-        <p>
-            <l><b/>por<b/>sentado</l>
-            <r><g><b/>por<b/>sentado</g></r>
-        </p>
-    </e>
-
-    <e lm="pagar en metálico">
-        <i>pag</i>
-        <par n="aleg/ar__vblex"/>
-        <p>
-            <l><b/>en<b/>metálico</l>
-            <r><g><b/>en<b/>metálico</g></r>
-        </p>
-    </e>
-    <e lm="pagar a escote">
-        <i>pag</i>
-        <par n="aleg/ar__vblex"/>
-        <p>
-            <l><b/>a<b/>escote</l>
-            <r><g><b/>a<b/>escote</g></r>
-        </p>
-    </e>
-    <e lm="hacer trizas">
-        <i>h</i>
-        <par n="h/acer__vblex"/>
-        <p>
-            <l><b/>trizas</l>
-            <r><g><b/>trizas</g></r>
-        </p>
-    </e>
-    <e lm="estar entre Pinto y Valdemoro">
-        <i>est</i>
-        <par n="est/ar__vblex"/>
-        <p>
-            <l><b/>entre<b/>Pinto<b/>y<b/>Valdemoro</l>
-            <r><g><b/>entre<b/>Pinto<b/>y<b/>Valdemoro</g></r>
-        </p>
-    </e>
-    
-    <!-- Adverbs -->
-    <e lm="con gran dificultad">
-        <i>con<b/>gran<b/>dificultad</i>
-        <par n="ahora__adv"/>
-    </e>
-    <e lm="de un tiempo a esta parte">
-        <i>de<b/>un<b/>tiempo<b/>a<b/>esta<b/>parte</i>
-        <par n="ahora__adv"/>
-    </e>    
-    <e lm="a lo mejor">
-        <i>a<b/>lo<b/>mejor</i>
-        <par n="ahora__adv"/>
-    </e>    
-    <e lm="a paso de tortuga">
-        <i>a<b/>paso<b/>de<b/>tortuga</i>
-        <par n="ahora__adv"/>
-    </e>    
-    <e lm="a palo seco">
-        <i>a<b/>palo<b/>seco</i>
-        <par n="ahora__adv"/>
-    </e>    
-    <e lm="a todas luces">
-        <i>a<b/>todas<b/>luces</i>
-        <par n="ahora__adv"/>
-    </e>    
-    <e lm="a trancas y barrancas">
-        <i>a<b/>trancas<b/>y<b/>barrancas</i>
-        <par n="ahora__adv"/>
-    </e>    
-    <e lm="a base de bien">
-        <i>a<b/>base<b/>de<b/>bien</i>
-        <par n="ahora__adv"/>
-    </e>    
+   
+   <!-- verbs -->
+   <e lm="tener hambre">
+      <i>t</i> 
+      <par n="t/ener__vblex"/> 
+      <p>
+         <l><b/>hambre</l>
+         <r><g><b/>hambre</g></r>
+      </p>
+   </e>
+   
+   <e lm="pedir disculpas">
+      <i>p</i>
+      <par n="desp/edir__vblex"/>
+      <p>
+         <l><b/>disculpas</l>
+         <r><g><b/>disculpas</g></r>
+      </p>
+   </e>
+   
+   <e lm="beber como un cosaco">
+      <i>beb</i>
+      <par n="vend/er__vblex"/>
+      <p>
+         <l><b/>como<b/>un<b/>cosaco</l>
+         <r><g><b/>como<b/>un<b/>cosaco</g></r>
+      </p>
+   </e>
+   <e lm="beber como un cosaco">
+      <p>
+         <l>béb</l>
+         <r>beb</r>
+      </p>
+      <par n="vénd/er__vblex"/>
+      <p>
+         <l><b/>como<b/>un<b/>cosaco</l>
+         <r><g><b/>como<b/>un<b/>cosaco</g></r>
+      </p>
+   </e>
+   <e lm="dar la lata">
+      <i>d</i>
+      <par n="d/ar__vblex"/>
+      <p>
+         <l><b/>la<b/>lata</l>
+         <r><g><b/>la<b/>lata</g></r>
+      </p>
+   </e>
+   <e lm="dar palos de ciego">
+      <i>d</i>
+      <par n="d/ar__vblex"/>
+      <p>
+         <l><b/>palos<b/>de<b/>ciego</l>
+         <r><g><b/>palos<b/>de<b/>ciego</g></r>
+      </p>
+   </e>
+   
+   <e lm="dar por hecho">
+      <i>d</i>
+      <par n="d/ar__vblex"/>
+      <p>
+         <l><b/>por<b/>hecho</l>
+         <r><g><b/>por<b/>hecho</g></r>
+      </p>
+   </e>
+   <e lm="dar por sentado">
+      <i>d</i>
+      <par n="d/ar__vblex"/>
+      <p>
+         <l><b/>por<b/>sentado</l>
+         <r><g><b/>por<b/>sentado</g></r>
+      </p>
+   </e>
+   
+   <e lm="pagar en metálico">
+      <i>pag</i>
+      <par n="aleg/ar__vblex"/>
+      <p>
+         <l><b/>en<b/>metálico</l>
+         <r><g><b/>en<b/>metálico</g></r>
+      </p>
+   </e>
+   <e lm="pagar a escote">
+      <i>pag</i>
+      <par n="aleg/ar__vblex"/>
+      <p>
+         <l><b/>a<b/>escote</l>
+         <r><g><b/>a<b/>escote</g></r>
+      </p>
+   </e>
+   <e lm="hacer trizas">
+      <i>h</i>
+      <par n="h/acer__vblex"/>
+      <p>
+         <l><b/>trizas</l>
+         <r><g><b/>trizas</g></r>
+      </p>
+   </e>
+   <e lm="estar entre Pinto y Valdemoro">
+      <i>est</i>
+      <par n="est/ar__vblex"/>
+      <p>
+         <l><b/>entre<b/>Pinto<b/>y<b/>Valdemoro</l>
+         <r><g><b/>entre<b/>Pinto<b/>y<b/>Valdemoro</g></r>
+      </p>
+   </e>
+   
+   <!-- Adverbs -->
     
     
-    <!-- revisar -->
-    
-<!--
+   <!-- revisar -->
+   
+   <!--
     <e lm="sudar la camiseta">
         <i>sudar<b/>la<b/>camiseta</i> 
         <par n=""/> 
     </e>
    --> 
-    <e lm="hasta luego">
-        <i>hasta<b/>luego</i> 
-	<par n="adiós__ij"/>
-    </e>
-    
-<!--
+   <e lm="hasta luego">
+      <i>hasta<b/>luego</i> 
+      <par n="adiós__ij"/>
+   </e>
+   
+   <!--
     <e lm="de órdago" c="check: is adj">
         <i>de<b/>órdago</i> 
         <par n="ahora__adv"/> 
@@ -178,12 +146,8 @@
     
     
     -->
-    <e lm="a lo largo">
-        <i>a<b/>lo<b/>largo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-<!--
+   
+   <!--
     <e lm="de aúpa">
         <i>de<b/>aúpa</i> 
         <par n="multimedia__adj"/> 
@@ -195,1060 +159,90 @@
     </e>
     -->
 
-    <e lm="por el estilo">
-        <i>por<b/>el<b/>estilo</i> 
-        <par n="ahora__adv"/> 
-    </e>
 
-    <e lm="para siempre">
-        <i>para<b/>siempre</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="para andar por casa">
-        <i>para<b/>andar<b/>por<b/>casa</i> 
-        <par n="multimedia__adj"/> 
-    </e>
-
-    <e lm="pase lo que pase">
-        <i>pase<b/>lo<b/>que<b/>pase</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de pacotilla" c="check: is adj">
-        <i>de<b/>pacotilla</i> 
-        <par n="multimedia__adj"/> 
-    </e>
-
-    <e lm="en absoluto">
-        <i>en<b/>absoluto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en realidad">
-        <i>en<b/>realidad</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al fin y al cabo">
-        <i>al<b/>fin<b/>y<b/>al<b/>cabo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en contra">
-        <i>en<b/>contra</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en contra de mi voluntad">
-        <i>en<b/>contra<b/>de<b/>mi<b/>voluntad</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al frente de">
-        <i>al<b/>frente<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-    
-    <e lm="de carrerilla">
-        <i>de<b/>carrerilla</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por lo visto">
-        <i>por<b/>lo<b/>visto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a mediados de">
-        <i>a<b/>mediados<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-    
-    <e lm="de reojo">
-        <i>de<b/>reojo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de soslayo">
-        <i>de<b/>soslayo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por el rabillo del ojo">
-        <i>por<b/>el<b/>rabillo<b/>del<b/>ojo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a ojo de buen cubero">
-        <i>a<b/>ojo<b/>de<b/>buen<b/>cubero</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a eso de">
-        <i>a<b/>eso<b/>de</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a las primeras de cambio">
-        <i>a<b/>las<b/>primeras<b/>de<b/>cambio</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de primeras">
-        <i>de<b/>primeras</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a toda pastilla">
-        <i>a<b/>toda<b/>pastilla</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a toda velocidad">
-        <i>a<b/>toda<b/>velocidad</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a todo gas">
-        <i>a<b/>todo<b/>gas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al alcance de la mano">
-        <i>al<b/>alcance<b/>de<b/>la<b/>mano</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de un plumazo">
-        <i>de<b/>un<b/>plumazo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al azar">
-        <i>al<b/>azar</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al principio">
-        <i>al<b/>principio</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de mil amores">
-        <i>de<b/>mil<b/>amores</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al final">
-        <i>al<b/>final</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <!--<e lm="a grito pelado">
+   <e lm="para andar por casa">
+      <i>para<b/>andar<b/>por<b/>casa</i> 
+      <par n="multimedia__adj"/> 
+   </e>
+   
+   
+   <e lm="de pacotilla" c="check: is adj">
+      <i>de<b/>pacotilla</i> 
+      <par n="multimedia__adj"/> 
+   </e>
+   
+   
+   <e lm="al frente de">
+      <i>al<b/>frente<b/></i> 
+      <par n="contde__pr"/> 
+   </e>
+   
+   
+   <e lm="a mediados de">
+      <i>a<b/>mediados<b/></i> 
+      <par n="contde__pr"/> 
+   </e>
+   
+   
+   <!--<e lm="a grito pelado">
         <i>a<b/>grito<b/>pelado</i> 
         <par n="ahora__adv"/> 
     </e>-->
     
-    <e lm="con conocimiento de causa">
-        <i>con<b/>conocimiento<b/>de<b/>causa</i> 
-        <par n="ahora__adv"/> 
-    </e>
     
-    <e lm="a bombo y platillo">
-        <i>a<b/>bombo<b/>y<b/>platillo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por tu cara bonita">
-        <i>por<b/>tu<b/>cara<b/>bonita</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="sin duda alguna">
-        <i>sin<b/>duda<b/>alguna</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a ciegas">
-        <i>a<b/>ciegas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a prueba de bombas">
-        <i>a<b/>prueba<b/>de<b/>bombas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por casualidad">
-        <i>por<b/>casualidad</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a fuerza de">
-        <i>a<b/>fuerza<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-    
-    <e lm="por las buenas o por las malas">
-        <i>por<b/>las<b/>buenas<b/>o<b/>por<b/>las<b/>malas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a tontas y a locas">
-        <i>a<b/>tontas<b/>y<b/>a<b/>locas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a la fuerza">
-        <i>a<b/>la<b/>fuerza</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por narices">
-        <i>por<b/>narices</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a marchas forzadas">
-        <i>a<b/>marchas<b/>forzadas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de memoria">
-        <i>de<b/>memoria</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de ninguna manera">
-        <i>de<b/>ninguna<b/>manera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por avión">
-        <i>por<b/>avión</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por la misma regla de tres">
-        <i>por<b/>la<b/>misma<b/>regla<b/>de<b/>tres</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por los pelos">
-        <i>por<b/>los<b/>pelos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a salto de mata">
-        <i>a<b/>salto<b/>de<b/>mata</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por completo">
-        <i>por<b/>completo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a la desesperada">
-        <i>a<b/>la<b/>desesperada</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
- <!--   <e lm="a secas">
-        <i>a<b/>secas</i> 
-        <par n="ahora__adv"/> 
-    </e> -->
-    
-    <e lm="de lado">
-        <i>de<b/>lado</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por pitos o flautas">
-        <i>por<b/>pitos<b/>o<b/>flautas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="sin fin">
-        <i>sin<b/>fin</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a todas luces">
-        <i>a<b/>todas<b/>luces</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a base de bien">
-        <i>a<b/>base<b/>de<b/>bien</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al fin">
-        <i>al<b/>fin</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en fin">
-        <i>en<b/>fin</i> 
-        <par n="a_fe_que__cnjadv"/> 
-    </e>    
-    
-    <e lm="en todo caso">
-        <i>en<b/>todo<b/>caso</i> 
-        <par n="a_fe_que__cnjadv"/> 
-    </e>
-    <e lm="por último">
-        <i>por<b/>último</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="ante todo">
-        <i>ante<b/>todo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por orden de llegada">
-        <i>por<b/>orden<b/>de<b/>llegada</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a lo tonto a lo tonto">
-        <i>a<b/>lo<b/>tonto<b/>a<b/>lo<b/>tonto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por el amor de Dios">
-        <i>por<b/>el<b/>amor<b/>de<b/>Dios</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por los siglos de los siglos">
-        <i>por<b/>los<b/>siglos<b/>de<b/>los<b/>siglos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por ejemplo">
-        <i>por<b/>ejemplo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de por vida">
-        <i>de<b/>por<b/>vida</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por ahora">
-        <i>por<b/>ahora</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por lo pronto">
-        <i>por<b/>lo<b/>pronto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por hache o por be">
-        <i>por<b/>hache<b/>o<b/>por<b/>be</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por una razón u otra">
-        <i>por<b/>una<b/>razón<b/>u<b/>otra</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-
-    
-    <e lm="a ciencia cierta">
-        <i>a<b/>ciencia<b/>cierta</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por Dios">
-        <i>por<b/>Dios</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    <e lm="por fortuna">
-        <i>por<b/>fortuna</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de mal en peor">
-        <i>de<b/>mal<b/>en<b/>peor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de cabo a rabo">
-        <i>de<b/>cabo<b/>a<b/>rabo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="de principio a fin">
-        <i>de<b/>principio<b/>a<b/>fin</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="desde el principio">
-        <i>desde<b/>el<b/>principio</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="después de todo">
-        <i>después<b/>de<b/>todo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de vez en cuando">
-        <i>de<b/>vez<b/>en<b/>cuando</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en general">
-        <i>en<b/>general</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por lo general">
-        <i>por<b/>lo<b/>general</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a tientas">
-        <i>a<b/>tientas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al mando de">
-        <i>al<b/>mando<b/>de</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="sin embargo">
-        <i>sin<b/>embargo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="para mayor inri">
-        <i>para<b/>mayor<b/>inri</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="en gran cantidad">
-        <i>en<b/>gran<b/>cantidad</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-
-    <e lm="en menos que canta un gallo">
-        <i>en<b/>menos<b/>que<b/>canta<b/>un<b/>gallo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="en medio de la nada">
-        <i>en<b/>medio<b/>de<b/>la<b/>nada</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a lo loco">
-        <i>a<b/>lo<b/>loco</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en un periquete">
-        <i>en<b/>un<b/>periquete</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a media voz">
-        <i>a<b/>media<b/>voz</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en cuclillas">
-        <i>en<b/>cuclillas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a borbotones">
-        <i>a<b/>borbotones</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en un pis pas">
-        <i>en<b/>un<b/>pis<b/>pas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en un santiamén">
-        <i>en<b/>un<b/>santiamén</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en un soplo">
-        <i>en<b/>un<b/>soplo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en un tris tras">
-        <i>en<b/>un<b/>tris<b/>tras</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de cualquier manera">
-        <i>de<b/>cualquier<b/>manera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de cualquier forma">
-        <i>de<b/>cualquier<b/>forma</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de todos modos">
-        <i>de<b/>todos<b/>modos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a grandes rasgos">
-        <i>a<b/>grandes<b/>rasgos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en pleno día">
-        <i>en<b/>pleno<b/>día</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en resumidas cuentas">
-        <i>en<b/>resumidas<b/>cuentas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de perdidos al río">
-        <i>de<b/>perdidos<b/>al<b/>río</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de frente">
-        <i>de<b/>frente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a manta">
-        <i>a<b/>manta</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a punta pala">
-        <i>a<b/>punta<b/>pala</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por un tubo">
-        <i>por<b/>un<b/>tubo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por todo lo alto">
-        <i>por<b/>todo<b/>lo<b/>alto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en tal caso">
-        <i>en<b/>tal<b/>caso</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a la larga">
-        <i>a<b/>la<b/>larga</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en el quinto pino">
-        <i>en<b/>el<b/>quinto<b/>pino</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en la flor de la vida">
-        <i>en<b/>la<b/>flor<b/>de<b/>la<b/>vida</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en un abrir y cerrar de ojos">
-        <i>en<b/>un<b/>abrir<b/>y<b/>cerrar<b/>de<b/>ojos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en un dos por tres">
-        <i>en<b/>un<b/>dos<b/>por<b/>tres</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por dentro y por fuera">
-        <i>por<b/>dentro<b/>y<b/>por<b/>fuera</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a lo hecho, pecho">
-        <i>a<b/>lo<b/>hecho,<b/>pecho</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de todo hay en la viña del Señor">
-        <i>de<b/>todo<b/>hay<b/>en<b/>la<b/>viña<b/>del<b/>Señor</i> 
-        <par n="adiós__ij"/> 
-    </e>
-
-    <e lm="de baja calidad">
-        <i>de<b/>baja<b/>calidad</i>
-        <par n="multimedia__adj"/> 
-    </e>
-    
-    <e lm="de broma">
-        <i>de<b/>broma</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en broma">
-        <i>en<b/>broma</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por si acaso">
-        <i>por<b/>si<b/>acaso</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por si las moscas">
-        <i>por<b/>si<b/>las<b/>moscas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="sin faltar una coma">
-        <i>sin<b/>faltar<b/>una<b/>coma</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a sabiendas">
-        <i>a<b/>sabiendas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por chiripa">
-        <i>por<b/>chiripa</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por suerte">
-        <i>por<b/>suerte</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de sobra">
-        <i>de<b/>sobra</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="en cueros">
-        <i>en<b/>cueros</i> 
-        <par n="multimedia__adj"/> 
-    </e>
-    
-    <e lm="ni a tiros">
-        <i>ni<b/>a<b/>tiros</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="ni a la de tres">
-        <i>ni<b/>a<b/>la<b/>de<b/>tres</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="desde luego">
-        <i>desde<b/>luego</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por supuesto">
-        <i>por<b/>supuesto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por mi cuenta">
-        <i>por<b/>mi<b/>cuenta</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por tu cuenta">
-        <i>por<b/>tu<b/>cuenta</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de pie">
-        <i>de<b/>pie</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de rodillas">
-        <i>de<b/>rodillas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="con cuatro perras">
-        <i>con<b/>cuatro<b/>perras</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="con poquísimo dinero" r="RL">
-        <i>con<b/>poquísimo<b/>dinero</i> 
-        <par n="ahora__adv"/> 
-    </e>    
-
-    <e lm="a pie">
-        <i>a<b/>pie</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="bajo ningún concepto">
-        <i>bajo<b/>ningún<b/>concepto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de mala fe">
-        <i>de<b/>mala<b/>fe</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al contrario">
-        <i>al<b/>contrario</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por cuenta de la casa">
-        <i>por<b/>cuenta<b/>de<b/>la<b/>casa</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a la chita callando">
-        <i>a<b/>la<b/>chita<b/>callando</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a hurtadillas">
-        <i>a<b/>hurtadillas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a flor de piel">
-        <i>a<b/>flor<b/>de<b/>piel</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de puntillas">
-        <i>de<b/>puntillas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de una vez por todas">
-        <i>de<b/>una<b/>vez<b/>por<b/>todas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de higos a brevas">
-        <i>de<b/>higos<b/>a<b/>brevas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de Pascuas a Ramos">
-        <i>de<b/>Pascuas<b/>a<b/>Ramos</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de tarde en tarde">
-        <i>de<b/>tarde<b/>en<b/>tarde</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de uvas a peras">
-        <i>de<b/>uvas<b/>a<b/>peras</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de higos a brevas">
-        <i>de<b/>higos<b/>a<b/>brevas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de capa caída">
-        <i>de<b/>capa<b/>caída</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por encima de mi cadáver">
-        <i>por<b/>encima<b/>de<b/>mi<b/>cadáver</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de la noche a la mañana">
-        <i>de<b/>la<b/>noche<b/>a<b/>la<b/>mañana</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <!--<e lm="de oídas">
-        <i>de<b/>oídas</i> 
-        <par n="ahora__adv"/> 
-    </e>-->
-    
-    <e lm="por cabeza">
-        <i>por<b/>cabeza</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por barba">
-        <i>por<b/>barba</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="por persona">
-        <i>por<b/>persona</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por favor">
-        <i>por<b/>favor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a quemarropa">
-        <i>a<b/>quemarropa</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a bocajarro">
-        <i>a<b/>bocajarro</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a lo mejor">
-        <i>a<b/>lo<b/>mejor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-  <!--  <e lm="en mis propias narices">
+   <e lm="a fuerza de">
+      <i>a<b/>fuerza<b/></i> 
+      <par n="contde__pr"/> 
+   </e>
+   
+   
+   <e lm="en fin">
+      <i>en<b/>fin</i> 
+      <par n="a_fe_que__cnjadv"/> 
+   </e>    
+   
+   <e lm="en todo caso">
+      <i>en<b/>todo<b/>caso</i> 
+      <par n="a_fe_que__cnjadv"/> 
+   </e>
+   
+   <e lm="de todo hay en la viña del Señor">
+      <i>de<b/>todo<b/>hay<b/>en<b/>la<b/>viña<b/>del<b/>Señor</i> 
+      <par n="adiós__ij"/> 
+   </e>
+   
+   <e lm="de baja calidad">
+      <i>de<b/>baja<b/>calidad</i>
+      <par n="multimedia__adj"/> 
+   </e>
+   
+   
+   <e lm="en cueros">
+      <i>en<b/>cueros</i> 
+      <par n="multimedia__adj"/> 
+   </e>
+   
+   
+   <!--  <e lm="en mis propias narices">
         <i>en<b/>mis<b/>propias<b/>narices</i> 
         <par n="ahora__adv"/> 
     </e> -->
 
-    <e lm="justo delante de">
-        <i>justo<b/>delante<b/></i> 
-        <par n="contde__pr"/> 
-    </e>
-    
-    <e lm="en serio">
-        <i>en<b/>serio</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de lado">
-        <i>de<b/>lado</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al alimón">
-        <i>al<b/>alimón</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a paso de tortuga">
-        <i>a<b/>paso<b/>de<b/>tortuga</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a palo seco">
-        <i>a<b/>palo<b/>seco</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de buenas a primeras">
-        <i>de<b/>buenas<b/>a<b/>primeras</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de golpe y porrazo">
-        <i>de<b/>golpe<b/>y<b/>porrazo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al revés">
-        <i>al<b/>revés</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
- <!--   <e lm="con el corazón en la mano">
+   <e lm="justo delante de">
+      <i>justo<b/>delante<b/></i> 
+      <par n="contde__pr"/> 
+   </e>
+   
+   
+   
+   <!--   <e lm="con el corazón en la mano">
         <i>con<b/>el<b/>corazón<b/>en<b/>la<b/>mano</i> 
         <par n="ahora__adv"/> 
     </e> -->
-    <e lm="a la tercera va la vencida">
-        <i>a<b/>la<b/>tercera<b/>va<b/>la<b/>vencida</i> 
-        <par n="ahora__adv"/> 
-    </e>
     
-    <e lm="a buenas horas, mangas verdes">
-        <i>a<b/>buenas<b/>horas,<b/>mangas<b/>verdes</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="contra viento y marea">
-        <i>contra<b/>viento<b/>y<b/>marea</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a diestro y siniestro">
-        <i>a<b/>diestro<b/>y<b/>siniestro</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <!--<e lm="a decir verdad">
+   <!--<e lm="a decir verdad">
         <i>a<b/>decir<b/>verdad</i> 
         <par n="ahora__adv"/> 
     </e>-->
-    
-    <e lm="al pie de la letra">
-        <i>al<b/>pie<b/>de<b/>la<b/>letra</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a la derecha">
-        <i>a<b/>la<b/>derecha</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a más no poder">
-        <i>a<b/>más<b/>no<b/>poder</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="bajo cuerda">
-        <i>bajo<b/>cuerda</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="por desgracia">
-        <i>por<b/>desgracia</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="desafortunadamente">
-        <i>desafortunadamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="hasta la saciedad">
-        <i>hasta<b/>la<b/>saciedad</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="humorísticamente">
-        <i>humorísticamente</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="a disgusto">
-        <i>a<b/>disgusto</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de par en par">
-        <i>de<b/>par<b/>en<b/>par</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de buen grado">
-        <i>de<b/>buen<b/>grado</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de grado o por fuerza">
-        <i>de<b/>grado<b/>o<b/>por<b/>fuerza</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de espaldas">
-        <i>de<b/>espaldas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="con la boca pequeña">
-        <i>con<b/>la<b/>boca<b/>pequeña</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de corazón">
-        <i>de<b/>corazón</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a trancas y barrancas">
-        <i>a<b/>trancas<b/>y<b/>barrancas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="sin ningún propósito">
-        <i>sin<b/>ningún<b/>propósito</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="con gran dolor del corazón">
-        <i>con<b/>gran<b/>dolor<b/>del<b/>corazón</i> 
-        <par n="ahora__adv"/> 
-    </e>
-
-    <e lm="con gran dolor">
-        <i>con<b/>gran<b/>dolor</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a duras penas">
-        <i>a<b/>duras<b/>penas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="al alcance de la vista">
-        <i>al<b/>alcance<b/>de<b/>la<b/>vista</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="sin ton ni son">
-        <i>sin<b/>ton<b/>ni<b/>son</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="sin comerlo ni beberlo">
-        <i>sin<b/>comerlo<b/>ni<b/>beberlo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="de gorra">
-        <i>de<b/>gorra</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="sin decir esta boca es mía">
-        <i>sin<b/>decir<b/>esta<b/>boca<b/>es<b/>mía</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="sin encomendarse ni a Dios ni al diablo">
-        <i>sin<b/>encomendarse<b/>ni<b/>a<b/>Dios<b/>ni<b/>al<b/>diablo</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    <e lm="a las mil maravillas">
-        <i>a<b/>las<b/>mil<b/>maravillas</i> 
-        <par n="ahora__adv"/> 
-    </e>
-    
-    
+   
 </section>

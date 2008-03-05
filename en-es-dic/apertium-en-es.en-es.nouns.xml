@@ -4114,12 +4114,12 @@
       </p>
     </e>
 
-    <!--<e>
+    <e i="yes">
       <p>
         <l>batting<s n="n"/></l> 
         <r>redada<s n="n"/><s n="f"/></r> 
       </p>
-    </e>-->
+    </e>
 
     <e>
       <p>
@@ -4624,117 +4624,11 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>black<s n="n"/><s n="sg"/></l> 
-        <r>negro<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
 
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="sg"/></l> 
-        <r>negro<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>black<s n="n"/><s n="pl"/></l> 
-        <r>negro<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>black<s n="n"/><s n="sg"/></l> 
-        <r>negro<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="sg"/></l> 
-        <r>negro<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>black<s n="n"/><s n="pl"/></l> 
-        <r>negro<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="pl"/></l> 
-        <r>negro<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="sg"/></l> 
-        <r>negro<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="pl"/></l> 
-        <r>negro<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="sg"/></l> 
-        <r>negro<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="pl"/></l> 
-        <r>negro<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>black<s n="n"/><s n="pl"/></l> 
-        <r>negro<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>black<s n="n"/><s n="sg"/></l> 
-        <r>negro<s n="n"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="sg"/></l> 
-        <r>negro<s n="n"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>black<s n="n"/><s n="pl"/></l> 
-        <r>negro<s n="n"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>black<s n="n"/><s n="pl"/></l> 
-        <r>negro<s n="n"/><s n="pl"/></r> 
-      </p>
-    </e>
+    <e r="LR"><p>        <l>black<s n="n"/><s n="sg"/></l>        <r>negro<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
+    <e r="RL"><p>        <l>black<s n="n"/><s n="sg"/></l>        <r>negro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p>        <l>black<s n="n"/><s n="sg"/></l>        <r>negro<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p>        <l>black<s n="n"/><s n="pl"/></l>        <r>negro<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <e>
       <p>
@@ -5071,7 +4965,14 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
+      <p>
+        <l>boss<s n="n"/></l> 
+        <r>jefe<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
       <p>
         <l>boss<s n="n"/></l> 
         <r>jefe<s n="n"/></r> 
@@ -5780,7 +5681,7 @@
       </p>
     </e>
 
-    <e slr="gabinete">
+    <e slr="gabinete D">
       <p>
         <l>cabinet<s n="n"/></l> 
         <r>gabinete<s n="n"/><s n="m"/></r> 
@@ -6119,60 +6020,11 @@
     <e>
       <p>
         <l>cape<s n="n"/></l> 
-        <r>cabeza<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>cape<s n="n"/></l> 
         <r>cabo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>cape<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>cape<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>cape<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>cape<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e c="en sentit de diners, 'el capital'">
-      <p>
-        <l>capital<s n="n"/></l> 
-        <r>capital<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e c="en sentit de diners, 'el capital'">
-      <p>
-        <l>capital<s n="n"/></l> 
-        <r>capital<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e c="en sentit de diners, 'el capital'">
+    <e c="el capital (Fin.)/la capital (Pol.)">
       <p>
         <l>capital<s n="n"/></l> 
         <r>capital<s n="n"/><s n="mf"/></r> 
@@ -7320,35 +7172,14 @@
     <e r="LR">
       <p>
         <l>chief<s n="n"/></l> 
-        <r>cabeza<s n="n"/><s n="f"/></r> 
+        <r>jefe<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>chief<s n="n"/></l> 
-        <r>cabo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>chief<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="frases negatives. EN-CA: per trànsfer">
-      <p>
-        <l>chief<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>chief<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="f"/></r> 
+        <r>jefe<s n="n"/></r> 
       </p>
     </e>
 
@@ -10989,7 +10820,7 @@
       </p>
     </e>
 
-    <e slr="currency">
+    <e>
       <p>
         <l>currency<s n="n"/></l> 
         <r>moneda<s n="n"/><s n="f"/></r> 
@@ -15153,20 +14984,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>estrus<s n="n"/></l> 
-        <r>celo<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>estrus<s n="n"/></l> 
-        <r>celo<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>etching<s n="n"/></l> 
@@ -18171,12 +17988,12 @@
       </p>
     </e>
 
-    <e r="LR">
-		<p>        <l>geriatrist<s n="n"/><s n="sg"/></l>        <r>geriatra<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
-    <e r="RL"><p>        <l>geriatrist<s n="n"/><s n="sg"/></l>        <r>geriatra<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><p>        <l>geriatrist<s n="n"/><s n="sg"/></l>        <r>geriatra<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p>        <l>geriatrist<s n="n"/><s n="pl"/></l>        <r>geriatra<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-
+    <e>
+			<p>
+				<l>geriatrist<s n="n"/></l>
+				<r>geriatra<s n="n"/><s n="mf"/></r>
+			</p>
+		</e>
 
     <e>
       <p>
@@ -19410,45 +19227,24 @@
       </p>
     </e>
 
-    <e>
+    <e slr="cabeza D">
       <p>
         <l>head<s n="n"/></l> 
         <r>cabeza<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="jefe" r="LR">
       <p>
         <l>head<s n="n"/></l> 
-        <r>cabo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>head<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>head<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>head<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="f"/></r> 
+        <r>jefe<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
         <l>head<s n="n"/></l> 
-        <r>jefe<s n="n"/><s n="f"/></r> 
+        <r>jefe<s n="n"/></r> 
       </p>
     </e>
 
@@ -22581,6 +22377,20 @@
       </p>
     </e>
 
+    <e slr="juicio D">
+      <p>
+        <l>judgment<s n="n"/></l> 
+        <r>juicio<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e r="LR" slr="sentencia">
+      <p>
+        <l>judgment<s n="n"/></l> 
+        <r>sentencia<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>judicature<s n="n"/></l> 
@@ -24870,101 +24680,18 @@
 
     <e r="LR">
       <p>
-        <l>master<s n="n"/><s n="sg"/></l> 
-        <r>maestro<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>master<s n="n"/></l> 
+        <r>maestro<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
-        <l>master<s n="n"/><s n="sg"/></l> 
-        <r>maestro<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>master<s n="n"/></l> 
+        <r>maestro<s n="n"/></r> 
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>master<s n="n"/><s n="pl"/></l> 
-        <r>maestro<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>master<s n="n"/><s n="sg"/></l> 
-        <r>maestro<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>master<s n="n"/><s n="sg"/></l> 
-        <r>maestro<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>master<s n="n"/><s n="pl"/></l> 
-        <r>maestro<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>master<s n="n"/><s n="sg"/></l> 
-        <r>maestro<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>master<s n="n"/><s n="pl"/></l> 
-        <r>maestro<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>master<s n="n"/><s n="sg"/></l> 
-        <r>maestro<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>master<s n="n"/><s n="pl"/></l> 
-        <r>maestro<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>master<s n="n"/><s n="sg"/></l> 
-        <r>maestro<s n="n"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>master<s n="n"/><s n="sg"/></l> 
-        <r>maestro<s n="n"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>master<s n="n"/><s n="pl"/></l> 
-        <r>maestro<s n="n"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>master<s n="n"/><s n="pl"/></l> 
-        <r>maestro<s n="n"/><s n="pl"/></r> 
-      </p>
-    </e>
 
     <e r="LR">
       <p>
@@ -29368,54 +29095,12 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>pediatrician<s n="n"/><s n="sg"/></l> 
-        <r>pediatra<s n="n"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pediatrician<s n="n"/><s n="pl"/></l> 
-        <r>pediatra<s n="n"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>pediatrician<s n="n"/><s n="sg"/></l> 
-        <r>pediatra<s n="n"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>pediatrician<s n="n"/><s n="pl"/></l> 
-        <r>pediatra<s n="n"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>pediatrician<s n="n"/><s n="sg"/></l> 
-        <r>pediatra<s n="n"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pediatrician<s n="n"/><s n="sg"/></l> 
-        <r>pediatra<s n="n"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
     <e>
-      <p>
-        <l>pediatrician<s n="n"/><s n="pl"/></l> 
-        <r>pediatra<s n="n"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
+			<p>
+				<l>pediatrician<s n="n"/></l>
+				<r>pediatra<s n="n"/><s n="mf"/></r>
+			</p>
+		</e>
 
     <e>
       <p>
@@ -30958,7 +30643,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="cargo">
       <p>
         <l>post<s n="n"/></l> 
         <r>cargo<s n="n"/><s n="m"/></r> 
@@ -31600,7 +31285,7 @@
       </p>
     </e>
 
-    <e r="LR" slr="imprenta">
+    <e r="LR" slr="imprenta D">
       <p>
         <l>print<s n="n"/></l> 
         <r>imprenta<s n="n"/><s n="f"/></r> 
@@ -31621,14 +31306,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="imprenta">
       <p>
         <l>printing<s n="n"/></l> 
         <r>imprenta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="impresión D">
       <p>
         <l>printing<s n="n"/></l> 
         <r>impresión<s n="n"/><s n="f"/></r> 
@@ -32496,128 +32181,17 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>pupil<s n="n"/><s n="pl"/></l> 
-        <r>alumno<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
 
     <e r="LR">
       <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>pupil<s n="n"/><s n="pl"/></l> 
-        <r>alumno<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="pl"/></l> 
-        <r>alumno<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="pl"/></l> 
-        <r>alumno<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>pupil<s n="n"/><s n="pl"/></l> 
-        <r>alumno<s n="n"/><s n="GD"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="pl"/></l> 
-        <r>alumno<s n="n"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
+        <l>pupil<s n="n"/></l> 
         <r>alumno<s n="n"/><s n="GD"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
-        <l>pupil<s n="n"/><s n="sg"/></l> 
-        <r>alumno<s n="n"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>pupil<s n="n"/><s n="pl"/></l> 
-        <r>alumno<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pupil<s n="n"/><s n="pl"/></l> 
+        <l>pupil<s n="n"/></l> 
         <r>alumno<s n="n"/></r> 
       </p>
     </e>
@@ -39952,14 +39526,14 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="cambio D">
       <p>
         <l>switch<s n="n"/></l> 
         <r>cambio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="interruptor">
       <p>
         <l>switch<s n="n"/></l> 
         <r>interruptor<s n="n"/><s n="m"/></r> 
@@ -40377,13 +39951,6 @@
       <p>
         <l>teacher<s n="n"/></l> 
         <r>profesor<s n="n"/><s n="GD"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>teacher<s n="n"/></l> 
-        <r>profesor<s n="n"/></r> 
       </p>
     </e>
 
@@ -45145,7 +44712,8 @@
         <r>escandinavo<s n="n"/></r> 
       </p>
     </e>
-    <e c="check">
+
+    <e c="check" r="RL">
       <p>
         <l>pupil<s n="n"/></l> 
         <r>escolar<s n="n"/><s n="mf"/></r> 

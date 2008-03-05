@@ -5,7 +5,6 @@
       (preadv) group
       ******************************
     -->
-
    <e r="LR">
       <p>
          <l>any<s n="preadv"/></l> 
@@ -27,6 +26,13 @@
       </p>
    </e>
    
+   <e c="qué bonito">
+      <p>
+         <l>how<s n="preadv"/></l> 
+         <r>qué<s n="preadv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>just<b/>as<s n="preadv"/></l> 
@@ -45,6 +51,41 @@
       <p>
          <l>just<b/>as<s n="preadv"/></l> 
          <r>tan<s n="preadv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>more<s n="preadv"/></l> 
+         <r>más<s n="preadv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR" c="the most beautiful">
+      <p>
+         <l>most<s n="preadv"/></l> 
+         <r>más<s n="preadv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>pretty<s n="preadv"/></l> 
+         <r>bastante<s n="preadv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>quite<s n="preadv"/></l> 
+         <r>bastante<s n="preadv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>really<s n="preadv"/></l> 
+         <r>realmente<s n="preadv"/></r> 
       </p>
    </e>
    
@@ -71,6 +112,13 @@
    
    <e>
       <p>
+         <l>too<s n="preadv"/></l> 
+         <r>demasiado<s n="preadv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>very<s n="preadv"/></l> 
          <r>muy<s n="preadv"/></r> 
       </p>
@@ -90,424 +138,50 @@
       </p>
    </e>
    
-<e c="qué bonito"><p><l>how<s n="preadv"/></l><r>qué<s n="preadv"/></r></p></e>
-
-<e r="LR"><p><l>pretty<s n="preadv"/></l><r>bastante<s n="preadv"/></r></p></e>
-
-<e><p><l>quite<s n="preadv"/></l><r>bastante<s n="preadv"/></r></p></e>
-
-<e><p><l>too<s n="preadv"/></l><r>demasiado<s n="preadv"/></r></p></e>
-
-
+   <!-- 
+      ******************************
+      (cnjadv) group
+      ******************************
+    -->
+   <e r="RL">
+      <p>
+         <l>anyway<s n="cnjadv"/></l> 
+         <r>en<b/>fin<s n="cnjadv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>anyway<s n="cnjadv"/></l> 
+         <r>en<b/>todo<b/>caso<s n="cnjadv"/></r> 
+      </p>
+   </e>
+   
    <!-- 
       ******************************
       (adv) group
       ******************************
     -->
-      <e>
-         <p>
-            <l>in<b/>advance<s n="adv"/></l> 
-            <r>anticipadamente<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>aside<s n="adv"/></l> 
-            <r>aparte<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>downstream<s n="adv"/></l> 
-            <r>río<b/>abajo<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>downwards<s n="adv"/></l> 
-            <r>hacia<b/>abajo<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>sooner<s n="adv"/></l> 
-            <r>más<b/>pronto<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>instead<s n="adv"/></l> 
-            <r>en<b/>cambio<s n="adv"/></r> 
-         </p>
-      </e>
-      <e c="añadir también 'regardless of' como 'a pesar de'">
-         <p>
-            <l>regardless<s n="adv"/></l> 
-            <r>a<b/>toda<b/>costa<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>wholesale<s n="adv"/></l> 
-            <r>al<b/>por<b/>mayor<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>upwards<s n="adv"/></l> 
-            <r>hacia<b/>arriba<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>upstream<s n="adv"/></l> 
-            <r>río<b/>arriba<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>south<s n="adv"/></l> 
-            <r>al<b/>sur<s n="adv"/></r> 
-         </p>
-      </e>    
-      <e>
-         <p>
-            <l>southeast<s n="adv"/></l> 
-            <r>al<b/>sureste<s n="adv"/></r> 
-         </p>
-      </e>     
-      <e>
-         <p>
-            <l>southwest<s n="adv"/></l> 
-            <r>al<b/>suroeste<s n="adv"/></r> 
-         </p>
-      </e>     
-
-      <e r="LR">
-         <p>
-            <l>readily<s n="adv"/></l> 
-            <r>fácilmente<s n="adv"/></r> 
-         </p>
-      </e>
-      <e r="LR">
-         <p>
-            <l>overseas<s n="adv"/></l> 
-            <r>en<b/>el<b/>extranjero<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>over<s n="adv"/></l> 
-            <r>encima<s n="adv"/></r> 
-         </p>
-      </e>
-      <e r="LR">
-         <p>
-            <l>overall<s n="adv"/></l> 
-            <r>en<b/>conjunto<s n="adv"/></r> 
-         </p>
-      </e>
-      <e r="LR">
-         <p>
-            <l>no<b/>sooner<s n="adv"/></l> 
-            <r>apenas<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e c="...as soon as I saw him">
-         <p>
-            <l>as<b/>soon<b/>as<s n="adv"/></l> 
-            <r>apenas<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>nationwide<s n="adv"/></l> 
-            <r>por<b/>todo<b/>el<b/>país<s n="adv"/></r> 
-         </p>
-      </e>
-      <e r="RL">
-         <p>
-            <l>nationwide<s n="adv"/></l> 
-            <r>a<b/>escala<b/>nacional<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>nationally<s n="adv"/></l> 
-            <r>nacionalmente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>largely<s n="adv"/></l> 
-            <r>en<b/>gran<b/>parte<s n="adv"/></r> 
-         </p>
-      </e>
-      <e r="RL">
-         <p>
-            <l>flatly<s n="adv"/></l> 
-            <r>de<b/>plano<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>flatly<s n="adv"/></l> 
-            <r>rotundamente<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>definitely<s n="adv"/></l> 
-            <r>sin<b/>duda<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>broadly<s n="adv"/></l> 
-            <r>en<b/>términos<b/>generales<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>below<s n="adv"/></l> 
-            <r>abajo<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>increasingly<s n="adv"/></l> 
-            <r>cada<b/>vez<b/>más<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>negatively<s n="adv"/></l> 
-            <r>negativamente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>privately<s n="adv"/></l> 
-            <r>en<b/>privado<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>reportedly<s n="adv"/></l> 
-            <r>según<b/>se<b/>dice<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>similarly<s n="adv"/></l> 
-            <r>de<b/>modo<b/>parecido<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>subsequently<s n="adv"/></l> 
-            <r>posteriormente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>undoubtedly<s n="adv"/></l> 
-            <r>indudablemente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>successfully<s n="adv"/></l> 
-            <r>con<b/>éxito<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>worldwide<s n="adv"/></l> 
-            <r>mundialmente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>voluntarily<s n="adv"/></l> 
-            <r>voluntariamente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>unusually<s n="adv"/></l> 
-            <r>inusualmente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>twice<s n="adv"/></l> 
-            <r>dos<b/>veces<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>tonight<s n="adv"/></l> 
-            <r>esta<b/>noche<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>suddenly<s n="adv"/></l> 
-            <r>de<b/>repente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>shortly<s n="adv"/></l> 
-            <r>dentro<b/>de<b/>poco<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>sharply<s n="adv"/></l> 
-            <r>bruscamente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>predictably<s n="adv"/></l> 
-            <r>previsiblemente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>originally<s n="adv"/></l> 
-            <r>originalmente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>marginally<s n="adv"/></l> 
-            <r>marginalmente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>cautiously<s n="adv"/></l> 
-            <r>prudentemente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>consistently<s n="adv"/></l> 
-            <r>coherentemente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>closely<s n="adv"/></l> 
-            <r>estrechamente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>sometime<s n="adv"/></l> 
-            <r>en<b/>algún<b/>momento<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>safely<s n="adv"/></l> 
-            <r>sin<b/>incidentes<s n="adv"/></r> 
-         </p>
-      </e>
-      <e>
-         <p>
-            <l>reluctantly<s n="adv"/></l> 
-            <r>a<b/>regañadientes<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>partly<s n="adv"/></l> 
-            <r>en<b/>parte<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>once<s n="adv"/></l> 
-            <r>una<b/>vez<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e r="LR">
-         <p>
-            <l>elsewhere<s n="adv"/></l> 
-            <r>en<b/>otro<b/>lugar<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>carefully<s n="adv"/></l> 
-            <r>cuidadosamente<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e r="LR">
-         <p>
-            <l>barely<s n="adv"/></l> 
-            <r>apenas<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>almost<s n="adv"/></l> 
-            <r>casi<s n="adv"/></r> 
-         </p>
-      </e>
-
-      <e>
-         <p>
-            <l>abroad<s n="adv"/></l> 
-            <r>en<b/>el<b/>extranjero<s n="adv"/></r> 
-         </p>
-      </e>
-
+   <e>
+      <p>
+         <l>God<b/>willing<s n="adv"/></l> 
+         <r>si<b/>Dios<b/>quiere<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>a.m.<s n="adv"/></l> 
+         <r>a.m.<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>a<b/>bit<s n="adv"/></l> 
          <r>un<b/>poco<s n="adv"/></r> 
       </p>
    </e>
-
    
    <e r="LR">
       <p>
@@ -546,8 +220,22 @@
    
    <e>
       <p>
+         <l>abroad<s n="adv"/></l> 
+         <r>en<b/>el<b/>extranjero<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>absolutely<s n="adv"/></l> 
          <r>absolutamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>absolutely<b/>not<s n="adv"/></l> 
+         <r>en<b/>absoluto<s n="adv"/></r> 
       </p>
    </e>
    
@@ -576,6 +264,13 @@
       <p>
          <l>actually<s n="adv"/></l> 
          <r>de<b/>hecho<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>actually<s n="adv"/></l> 
+         <r>en<b/>realidad<s n="adv"/></r> 
       </p>
    </e>
    
@@ -618,6 +313,20 @@
       <p>
          <l>after<s n="adv"/></l> 
          <r>después<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>after<b/>all<s n="adv"/></l> 
+         <r>al<b/>fin<b/>y<b/>al<b/>cabo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>after<b/>all<s n="adv"/></l> 
+         <r>después<b/>de<b/>todo<s n="adv"/></r> 
       </p>
    </e>
    
@@ -669,7 +378,21 @@
          <r>de<b/>nuevo<s n="adv"/></r> 
       </p>
    </e>
-
+   
+   <e>
+      <p>
+         <l>against<s n="adv"/></l> 
+         <r>en<b/>contra<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="@check">
+      <p>
+         <l>against<b/>my<b/>will<s n="adv"/></l> 
+         <r>en<b/>contra<b/>de<b/>mi<b/>voluntad<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>ahead<s n="adv"/></l> 
@@ -677,10 +400,24 @@
       </p>
    </e>
    
+   <e r="RL" c="check">
+      <p>
+         <l>ahead<s n="adv"/></l> 
+         <r>de<b/>frente<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>alike<s n="adv"/></l> 
          <r>igualmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>all<b/>in<b/>one<b/>breath<s n="adv"/></l> 
+         <r>de<b/>carrerilla<s n="adv"/></r> 
       </p>
    </e>
    
@@ -733,10 +470,24 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>almost<s n="adv"/></l> 
+         <r>casi<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>aloft<s n="adv"/></l> 
          <r>arriba<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>alone<s n="adv"/></l> 
+         <r>sólo<s n="adv"/></r> 
       </p>
    </e>
    
@@ -775,6 +526,13 @@
       </p>
    </e>
    
+   <e c="@check">
+      <p>
+         <l>amid<b/>a<b/>lot<b/>of<b/>hype<s n="adv"/></l> 
+         <r>a<b/>bombo<b/>y<b/>platillo<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>annually<s n="adv"/></l> 
@@ -789,6 +547,27 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>anyway<s n="adv"/></l> 
+         <r>de<b/>cualquier<b/>manera<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>anyway<s n="adv"/></l> 
+         <r>de<b/>cualquier<b/>forma<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>anyway<s n="adv"/></l> 
+         <r>de<b/>todos<b/>modos<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>apart<s n="adv"/></l> 
@@ -800,6 +579,13 @@
       <p>
          <l>apparently<s n="adv"/></l> 
          <r>aparentemente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>apparently<s n="adv"/></l> 
+         <r>por<b/>lo<b/>visto<s n="adv"/></r> 
       </p>
    </e>
    
@@ -824,10 +610,52 @@
       </p>
    </e>
    
+   <e c="...as soon as I saw him">
+      <p>
+         <l>as<b/>soon<b/>as<s n="adv"/></l> 
+         <r>apenas<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>as<b/>well<s n="adv"/></l> 
          <r>también<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>aside<s n="adv"/></l> 
+         <r>aparte<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>askance<s n="adv"/></l> 
+         <r>de<b/>reojo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>askance<s n="adv"/></l> 
+         <r>de<b/>soslayo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>askance<s n="adv"/></l> 
+         <r>por<b/>el<b/>rabillo<b/>del<b/>ojo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>at<b/>a<b/>guess<s n="adv"/></l> 
+         <r>a<b/>ojo<b/>de<b/>buen<b/>cubero<s n="adv"/></r> 
       </p>
    </e>
    
@@ -852,10 +680,59 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>at<b/>first<s n="adv"/></l> 
+         <r>a<b/>las<b/>primeras<b/>de<b/>cambio<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>at<b/>first<s n="adv"/></l> 
+         <r>de<b/>primeras<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>at<b/>first<s n="adv"/></l> 
+         <r>al<b/>principio<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>at<b/>full<b/>speed<s n="adv"/></l> 
+         <r>a<b/>toda<b/>velocidad<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>at<b/>full<b/>speed<s n="adv"/></l> 
+         <r>a<b/>toda<b/>pastilla<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>at<b/>full<b/>speed<s n="adv"/></l> 
+         <r>a<b/>todo<b/>gas<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>at<b/>hand<s n="adv"/></l> 
          <r>a<b/>mano<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>at<b/>hand<s n="adv"/></l> 
+         <r>al<b/>alcance<b/>de<b/>la<b/>mano<s n="adv"/></r> 
       </p>
    </e>
    
@@ -917,8 +794,29 @@
    
    <e>
       <p>
+         <l>at<b/>one<b/>stroke<s n="adv"/></l> 
+         <r>de<b/>un<b/>plumazo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>at<b/>present<s n="adv"/></l> 
          <r>actualmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>at<b/>random<s n="adv"/></l> 
+         <r>al<b/>azar<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>at<b/>the<b/>beginning<s n="adv"/></l> 
+         <r>al<b/>principio<s n="adv"/></r> 
       </p>
    </e>
    
@@ -926,6 +824,20 @@
       <p>
          <l>at<b/>the<b/>double<s n="adv"/></l> 
          <r>rápidamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>at<b/>the<b/>drop<b/>of<b/>a<b/>hat<s n="adv"/></l> 
+         <r>de<b/>mil<b/>amores<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>at<b/>the<b/>end<s n="adv"/></l> 
+         <r>al<b/>final<s n="adv"/></r> 
       </p>
    </e>
    
@@ -992,10 +904,31 @@
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>barely<s n="adv"/></l> 
+         <r>apenas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>based<b/>on<b/>facts<s n="adv"/></l> 
+         <r>con<b/>conocimiento<b/>de<b/>causa<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>basically<s n="adv"/></l> 
          <r>básicamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL" c="@check">
+      <p>
+         <l>because<b/>you<b/>say<b/>so<s n="adv"/></l> 
+         <r>por<b/>tu<b/>cara<b/>bonita<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1022,6 +955,13 @@
    
    <e>
       <p>
+         <l>below<s n="adv"/></l> 
+         <r>abajo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>besides<s n="adv"/></l> 
          <r>además<s n="adv"/></r> 
       </p>
@@ -1038,6 +978,13 @@
       <p>
          <l>beyond<s n="adv"/></l> 
          <r>más<b/>allá<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>beyond<b/>all<b/>doubt<s n="adv"/></l> 
+         <r>sin<b/>duda<b/>alguna<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1062,6 +1009,20 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>blindly<s n="adv"/></l> 
+         <r>a<b/>ciegas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>bomb-proof<s n="adv"/></l> 
+         <r>a<b/>prueba<b/>de<b/>bombas<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>breezily<s n="adv"/></l> 
@@ -1078,8 +1039,22 @@
    
    <e>
       <p>
+         <l>broadly<s n="adv"/></l> 
+         <r>en<b/>términos<b/>generales<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>brutally<s n="adv"/></l> 
          <r>brutalmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>by<b/>chance<s n="adv"/></l> 
+         <r>por<b/>casualidad<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1090,6 +1065,41 @@
       </p>
    </e>
    
+   <e c="whether you like it or not">
+      <p>
+         <l>by<b/>fair<b/>means<b/>or<b/>foul<s n="adv"/></l> 
+         <r>por<b/>las<b/>buenas<b/>o<b/>por<b/>las<b/>malas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>by<b/>fits<b/>and<b/>starts<s n="adv"/></l> 
+         <r>a<b/>tontas<b/>y<b/>a<b/>locas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>by<b/>force<s n="adv"/></l> 
+         <r>a<b/>la<b/>fuerza<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>by<b/>force<s n="adv"/></l> 
+         <r>por<b/>narices<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>by<b/>forced<b/>marches<s n="adv"/></l> 
+         <r>a<b/>marchas<b/>forzadas<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>by<b/>hand<s n="adv"/></l> 
@@ -1097,10 +1107,66 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>by<b/>heart<s n="adv"/></l> 
+         <r>de<b/>memoria<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>by<b/>no<b/>means<s n="adv"/></l> 
+         <r>de<b/>ninguna<b/>manera<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>by<b/>plane<s n="adv"/></l> 
+         <r>por<b/>avión<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>by<b/>the<b/>same<b/>token<s n="adv"/></l> 
+         <r>por<b/>la<b/>misma<b/>regla<b/>de<b/>tres<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>carefully<s n="adv"/></l> 
+         <r>cuidadosamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>carelessly<s n="adv"/></l> 
+         <r>a<b/>salto<b/>de<b/>mata<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>carelessly<s n="adv"/></l> 
+         <r>despreocupadamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>categorically<s n="adv"/></l> 
          <r>rotundamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>cautiously<s n="adv"/></l> 
+         <r>prudentemente<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1155,6 +1221,13 @@
    
    <e>
       <p>
+         <l>closely<s n="adv"/></l> 
+         <r>estrechamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>comfortably<s n="adv"/></l> 
          <r>cómodamente<s n="adv"/></r> 
       </p>
@@ -1188,6 +1261,13 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>completely<s n="adv"/></l> 
+         <r>por<b/>completo<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>consciously<s n="adv"/></l> 
@@ -1199,6 +1279,13 @@
       <p>
          <l>considerably<s n="adv"/></l> 
          <r>considerablemente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>consistently<s n="adv"/></l> 
+         <r>coherentemente<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1288,12 +1375,26 @@
    
    <e>
       <p>
+         <l>definitely<s n="adv"/></l> 
+         <r>sin<b/>duda<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>definitively<s n="adv"/></l> 
          <r>definitivamente<s n="adv"/></r> 
       </p>
    </e>
    
    <e>
+      <p>
+         <l>deliberately<s n="adv"/></l> 
+         <r>intencionadamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
       <p>
          <l>deliberately<s n="adv"/></l> 
          <r>intencionadamente<s n="adv"/></r> 
@@ -1318,6 +1419,13 @@
       <p>
          <l>desperately<s n="adv"/></l> 
          <r>desesperadamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>desperately<s n="adv"/></l> 
+         <r>a<b/>la<b/>desesperada<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1384,6 +1492,13 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>downstream<s n="adv"/></l> 
+         <r>río<b/>abajo<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>downward<s n="adv"/></l> 
@@ -1395,6 +1510,13 @@
       <p>
          <l>downward<s n="adv"/></l> 
          <r>abajo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>downwards<s n="adv"/></l> 
+         <r>hacia<b/>abajo<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1454,6 +1576,13 @@
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>edgewise<s n="adv"/></l> 
+         <r>de<b/>lado<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>effectively<s n="adv"/></l> 
@@ -1472,6 +1601,13 @@
       <p>
          <l>either<s n="adv"/></l> 
          <r>tampoco<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>either<b/>way<s n="adv"/></l> 
+         <r>por<b/>pitos<b/>o<b/>flautas<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1496,10 +1632,24 @@
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>elsewhere<s n="adv"/></l> 
+         <r>en<b/>otro<b/>lugar<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>emotionally<s n="adv"/></l> 
          <r>emocionalmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>endless<s n="adv"/></l> 
+         <r>sin<b/>fin<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1528,6 +1678,13 @@
       <p>
          <l>enough<s n="adv"/></l> 
          <r>bastante<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>enough<b/>and<b/>to<b/>spare<s n="adv"/></l> 
+         <r>de<b/>sobra<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1650,6 +1807,13 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>evidently<s n="adv"/></l> 
+         <r>a<b/>todas<b/>luces<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>exactly<s n="adv"/></l> 
@@ -1682,6 +1846,13 @@
       <p>
          <l>excessively<s n="adv"/></l> 
          <r>excesivamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>excessively<s n="adv"/></l> 
+         <r>a<b/>base<b/>de<b/>bien<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1731,6 +1902,27 @@
       <p>
          <l>finally<s n="adv"/></l> 
          <r>finalmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>finally<s n="adv"/></l> 
+         <r>por<b/>último<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>finally<s n="adv"/></l> 
+         <r>al<b/>fin<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>finally<s n="adv"/></l> 
+         <r>por<b/>fin<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1797,6 +1989,27 @@
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>first<b/>and<b/>foremost<s n="adv"/></l> 
+         <r>en<b/>primer<b/>lugar<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>first<b/>come,<b/>first<b/>served<s n="adv"/></l> 
+         <r>por<b/>orden<b/>de<b/>llegada<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>first<b/>of<b/>all<s n="adv"/></l> 
+         <r>ante<b/>todo<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="RL">
       <p>
          <l>firstly<s n="adv"/></l> 
@@ -1810,6 +2023,21 @@
          <r>en<b/>primer<b/>lugar<s n="adv"/></r> 
       </p>
    </e>
+   
+   <e r="RL">
+      <p>
+         <l>flatly<s n="adv"/></l> 
+         <r>de<b/>plano<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>flatly<s n="adv"/></l> 
+         <r>rotundamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>flawlessly<s n="adv"/></l> 
@@ -1824,6 +2052,34 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>foolishly<s n="adv"/></l> 
+         <r>a<b/>lo<b/>tonto<b/>a<b/>lo<b/>tonto<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>foolishly<s n="adv"/></l> 
+         <r>tontamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>for<b/>God's<b/>sake<s n="adv"/></l> 
+         <r>por<b/>el<b/>amor<b/>de<b/>Dios<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>for<b/>God's<b/>sake<s n="adv"/></l> 
+         <r>por<b/>Dios<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>for<b/>dear<b/>life<s n="adv"/></l> 
@@ -1831,10 +2087,101 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>for<b/>ever<s n="adv"/></l> 
+         <r>para<b/>siempre<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>for<b/>ever<b/>and<b/>ever<s n="adv"/></l> 
+         <r>por<b/>los<b/>siglos<b/>de<b/>los<b/>siglos<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>for<b/>ever<b/>and<b/>ever<s n="adv"/></l> 
+         <r>para<b/>siempre<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>for<b/>example<s n="adv"/></l> 
+         <r>por<b/>ejemplo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>for<b/>life<s n="adv"/></l> 
+         <r>de<b/>por<b/>vida<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>for<b/>now<s n="adv"/></l> 
+         <r>por<b/>ahora<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>for<b/>now<s n="adv"/></l> 
+         <r>por<b/>lo<b/>pronto<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>for<b/>one<b/>reason<b/>or<b/>another<s n="adv"/></l> 
+         <r>por<b/>hache<b/>o<b/>por<b/>be<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>for<b/>one<b/>reason<b/>or<b/>another<s n="adv"/></l> 
+         <r>por<b/>una<b/>razón<b/>u<b/>otra<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>for<b/>some<b/>time<b/>now<s n="adv"/></l> 
+         <r>de<b/>un<b/>tiempo<b/>a<b/>esta<b/>parte<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>for<b/>sure<s n="adv"/></l> 
+         <r>a<b/>ciencia<b/>cierta<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>for<b/>sure<s n="adv"/></l> 
+         <r>seguro<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>for<b/>the<b/>most<b/>part<s n="adv"/></l> 
          <r>mayoritariamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>for<b/>the<b/>sake<b/>of<b/>God<s n="adv"/></l> 
+         <r>por<b/>el<b/>amor<b/>de<b/>Dios<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1870,6 +2217,13 @@
       <p>
          <l>fortunately<s n="adv"/></l> 
          <r>afortunadamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>fortunately<s n="adv"/></l> 
+         <r>por<b/>fortuna<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1917,8 +2271,43 @@
    
    <e>
       <p>
+         <l>from<b/>bad<b/>to<b/>worse<s n="adv"/></l> 
+         <r>de<b/>mal<b/>en<b/>peor<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>from<b/>beginning<b/>to<b/>end<s n="adv"/></l> 
+         <r>de<b/>principio<b/>a<b/>fin<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>from<b/>beginning<b/>to<b/>end<s n="adv"/></l> 
+         <r>de<b/>cabo<b/>a<b/>rabo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>from<b/>everywhere<s n="adv"/></l> 
          <r>de<b/>todas<b/>partes<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>from<b/>the<b/>beginning<s n="adv"/></l> 
+         <r>desde<b/>el<b/>principio<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>from<b/>time<b/>to<b/>time<s n="adv"/></l> 
+         <r>de<b/>vez<b/>en<b/>cuando<s n="adv"/></r> 
       </p>
    </e>
    
@@ -1978,6 +2367,20 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>generally<s n="adv"/></l> 
+         <r>en<b/>general<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>generally<s n="adv"/></l> 
+         <r>por<b/>lo<b/>general<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>gently<s n="adv"/></l> 
@@ -2026,14 +2429,21 @@
          <r>mucho<s n="adv"/></r> 
       </p>
    </e>
-
+   
+   <e>
+      <p>
+         <l>gropingly<s n="adv"/></l> 
+         <r>a<b/>tientas<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e c="@check">
       <p>
          <l>half<s n="adv"/></l> 
          <r>a<b/>medias<s n="adv"/></r> 
       </p>
    </e>
-
+   
    <e r="RL" c="@check">
       <p>
          <l>half<s n="adv"/></l> 
@@ -2059,6 +2469,13 @@
       <p>
          <l>hardly<s n="adv"/></l> 
          <r>difícilmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>headed<b/>by<s n="adv"/></l> 
+         <r>al<b/>mando<b/>de<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2092,15 +2509,15 @@
    
    <e>
       <p>
-         <l>highly<s n="adv"/></l> 
-         <r>altamente<s n="adv"/></r> 
-      </p>
-   </e>
-
-   <e>
-      <p>
          <l>high<s n="adv"/></l> 
          <r>alto<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>highly<s n="adv"/></l> 
+         <r>altamente<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2122,6 +2539,20 @@
       <p>
          <l>historically<s n="adv"/></l> 
          <r>históricamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>home<s n="adv"/></l> 
+         <r>en<b/>casa<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>home<s n="adv"/></l> 
+         <r>a<b/>casa<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2132,19 +2563,6 @@
       </p>
    </e>
    
-   
-   <e>
-      <p>
-         <l>home<s n="adv"/></l> 
-         <r>en<b/>casa<s n="adv"/></r> 
-      </p>
-   </e>
-   <e r="RL">
-      <p>
-         <l>home<s n="adv"/></l> 
-         <r>a<b/>casa<s n="adv"/></r> 
-      </p>
-   </e>
    <e>
       <p>
          <l>how<s n="adv"/></l> 
@@ -2179,7 +2597,7 @@
          <r>sin<b/>embargo<s n="adv"/></r> 
       </p>
    </e>
-
+   
    <e r="LR">
       <p>
          <l>however<s n="adv"/></l> 
@@ -2198,6 +2616,13 @@
       <p>
          <l>however<s n="adv"/></l> 
          <r>ni<b/>aun<b/>así<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>however<s n="adv"/></l> 
+         <r>sin<b/>embargo<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2226,6 +2651,13 @@
       <p>
          <l>humbly<s n="adv"/></l> 
          <r>humildemente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>if<b/>that<b/>weren't<b/>enough<s n="adv"/></l> 
+         <r>para<b/>mayor<b/>inri<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2278,10 +2710,45 @@
       </p>
    </e>
    
+   <e r="RL" c="also: in the twinkling of an eye">
+      <p>
+         <l>in<b/>a<b/>blink<b/>of<b/>the<b/>eye<s n="adv"/></l> 
+         <r>en<b/>menos<b/>que<b/>canta<b/>un<b/>gallo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>in<b/>a<b/>blink<b/>of<b/>the<b/>eye<s n="adv"/></l> 
+         <r>en<b/>un<b/>abrir<b/>y<b/>cerrar<b/>de<b/>ojos<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>a<b/>crazy<b/>way<s n="adv"/></l> 
+         <r>a<b/>lo<b/>loco<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>a<b/>jiffy<s n="adv"/></l> 
+         <r>en<b/>un<b/>periquete<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>in<b/>a<b/>little<b/>while<s n="adv"/></l> 
          <r>enseguida<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>a<b/>low<b/>voice<s n="adv"/></l> 
+         <r>a<b/>media<b/>voz<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2299,10 +2766,59 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>in<b/>a<b/>torrent<s n="adv"/></l> 
+         <r>a<b/>borbotones<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>a<b/>trice<s n="adv"/></l> 
+         <r>en<b/>un<b/>pis<b/>pas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>in<b/>a<b/>trice<s n="adv"/></l> 
+         <r>en<b/>un<b/>abrir<b/>y<b/>cerrar<b/>de<b/>ojos<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>a<b/>trice<s n="adv"/></l> 
+         <r>en<b/>un<b/>santiamén<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>a<b/>trice<s n="adv"/></l> 
+         <r>en<b/>un<b/>soplo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>a<b/>trice<s n="adv"/></l> 
+         <r>en<b/>un<b/>tris<b/>tras<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>in<b/>addition<s n="adv"/></l> 
          <r>además<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>advance<s n="adv"/></l> 
+         <r>anticipadamente<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2322,8 +2838,36 @@
    
    <e>
       <p>
+         <l>in<b/>bad<b/>faith<s n="adv"/></l> 
+         <r>de<b/>mala<b/>fe<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>bold<b/>strokes<s n="adv"/></l> 
+         <r>a<b/>grandes<b/>rasgos<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>in<b/>brief<s n="adv"/></l> 
          <r>brevemente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>brief<s n="adv"/></l> 
+         <r>en<b/>resumidas<b/>cuentas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>broad<b/>day<b/>light<s n="adv"/></l> 
+         <r>en<b/>pleno<b/>día<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2383,10 +2927,24 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>in<b/>favor<s n="adv"/></l> 
+         <r>a<b/>favor<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>in<b/>favour<s n="adv"/></l> 
          <r>a<b/>favor<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>in<b/>for<b/>a<b/>penny<s n="adv"/></l> 
+         <r>de<b/>perdidos<b/>al<b/>río<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2415,6 +2973,41 @@
       <p>
          <l>in<b/>front<s n="adv"/></l> 
          <r>enfrente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>great<b/>detail<s n="adv"/></l> 
+         <r>sin<b/>faltar<b/>una<b/>coma<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>great<b/>quantity<s n="adv"/></l> 
+         <r>a<b/>manta<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>great<b/>quantity<s n="adv"/></l> 
+         <r>a<b/>punta<b/>pala<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL" c="check">
+      <p>
+         <l>in<b/>great<b/>quantity<s n="adv"/></l> 
+         <r>por<b/>un<b/>tubo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>in<b/>great<b/>quantity<s n="adv"/></l> 
+         <r>en<b/>gran<b/>cantidad<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2460,6 +3053,20 @@
       </p>
    </e>
    
+   <e r="RL" c="check">
+      <p>
+         <l>in<b/>style<s n="adv"/></l> 
+         <r>por<b/>todo<b/>lo<b/>alto<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>such<b/>a<b/>case<s n="adv"/></l> 
+         <r>en<b/>tal<b/>caso<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>in<b/>the<b/>afternoon<s n="adv"/></l> 
@@ -2467,10 +3074,24 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>in<b/>the<b/>first<b/>place<s n="adv"/></l> 
+         <r>en<b/>primer<b/>lugar<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>in<b/>the<b/>interim<s n="adv"/></l> 
          <r>mientras<b/>tanto<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>the<b/>long<b/>run<s n="adv"/></l> 
+         <r>a<b/>la<b/>larga<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2488,6 +3109,20 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>in<b/>the<b/>middle<b/>of<b/>nowhere<s n="adv"/></l> 
+         <r>en<b/>el<b/>quinto<b/>pino<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>the<b/>middle<b/>of<b/>nowhere<s n="adv"/></l> 
+         <r>en<b/>medio<b/>de<b/>la<b/>nada<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>in<b/>the<b/>morning<s n="adv"/></l> 
@@ -2497,8 +3132,29 @@
    
    <e>
       <p>
+         <l>in<b/>the<b/>prime<b/>of<b/>life<s n="adv"/></l> 
+         <r>en<b/>la<b/>flor<b/>de<b/>la<b/>vida<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>in<b/>the<b/>short<b/>term<s n="adv"/></l> 
          <r>a<b/>corto<b/>plazo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>in<b/>the<b/>twinkling<b/>of<b/>an<b/>eye<s n="adv"/></l> 
+         <r>en<b/>un<b/>abrir<b/>y<b/>cerrar<b/>de<b/>ojos<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>in<b/>the<b/>twinkling<b/>of<b/>an<b/>eye<s n="adv"/></l> 
+         <r>en<b/>un<b/>dos<b/>por<b/>tres<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2534,6 +3190,13 @@
       <p>
          <l>included<s n="adv"/></l> 
          <r>inclusive<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>increasingly<s n="adv"/></l> 
+         <r>cada<b/>vez<b/>más<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2614,6 +3277,34 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>inside<s n="adv"/></l> 
+         <r>adentro<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>inside<s n="adv"/></l> 
+         <r>dentro<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>inside<b/>and<b/>out<s n="adv"/></l> 
+         <r>por<b/>dentro<b/>y<b/>por<b/>fuera<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>instead<s n="adv"/></l> 
+         <r>en<b/>cambio<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>insufficiently<s n="adv"/></l> 
@@ -2679,6 +3370,13 @@
    
    <e>
       <p>
+         <l>it's<b/>no<b/>use<b/>crying<b/>over<b/>split<b/>milk<s n="adv"/></l> 
+         <r>a<b/>lo<b/>hecho,<b/>pecho<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>jealously<s n="adv"/></l> 
          <r>celosamente<s n="adv"/></r> 
       </p>
@@ -2695,6 +3393,27 @@
       <p>
          <l>jointly<s n="adv"/></l> 
          <r>juntamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>jokingly<s n="adv"/></l> 
+         <r>humorísticamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL" c="check">
+      <p>
+         <l>jokingly<s n="adv"/></l> 
+         <r>de<b/>broma<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>jokingly<s n="adv"/></l> 
+         <r>en<b/>broma<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2719,6 +3438,20 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>just<b/>in<b/>case<s n="adv"/></l> 
+         <r>por<b/>si<b/>acaso<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>just<b/>in<b/>case<s n="adv"/></l> 
+         <r>por<b/>si<b/>las<b/>moscas<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>just<b/>right<s n="adv"/></l> 
@@ -2730,6 +3463,27 @@
       <p>
          <l>kindly<s n="adv"/></l> 
          <r>amablemente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>knowingly<s n="adv"/></l> 
+         <r>intencionadamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>knowingly<s n="adv"/></l> 
+         <r>a<b/>sabiendas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>largely<s n="adv"/></l> 
+         <r>en<b/>gran<b/>parte<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2753,18 +3507,11 @@
          <r>posteriormente<s n="adv"/></r> 
       </p>
    </e>
-
+   
    <e>
       <p>
          <l>later<s n="adv"/></l> 
          <r>más<b/>tarde<s n="adv"/></r> 
-      </p>
-   </e>
-
-   <e>
-      <p>
-         <l>left<s n="adv"/></l> 
-         <r>a<b/>la<b/>izquierda<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2786,6 +3533,13 @@
       <p>
          <l>least<s n="adv"/></l> 
          <r>menos<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>left<s n="adv"/></l> 
+         <r>a<b/>la<b/>izquierda<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2814,6 +3568,13 @@
       <p>
          <l>lightly<s n="adv"/></l> 
          <r>ligeramente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>like<b/>that<s n="adv"/></l> 
+         <r>por<b/>el<b/>estilo<s n="adv"/></r> 
       </p>
    </e>
    
@@ -2886,7 +3647,7 @@
          <r>lógicamente<s n="adv"/></r> 
       </p>
    </e>
-
+   
    <e c="referido al tiempo: I'm not staying long">
       <p>
          <l>long<s n="adv"/></l> 
@@ -2915,6 +3676,20 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>luckily<s n="adv"/></l> 
+         <r>por<b/>chiripa<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>luckily<s n="adv"/></l> 
+         <r>por<b/>suerte<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>mainly<s n="adv"/></l> 
@@ -2933,6 +3708,13 @@
       <p>
          <l>manually<s n="adv"/></l> 
          <r>a<b/>mano<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>marginally<s n="adv"/></l> 
+         <r>marginalmente<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3040,6 +3822,14 @@
          <r>más<s n="adv"/></r> 
       </p>
    </e>
+   
+   <e>
+      <p>
+         <l>more<b/>than<b/>enough<s n="adv"/></l> 
+         <r>de<b/>sobra<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>moreover<s n="adv"/></l> 
@@ -3060,12 +3850,6 @@
          <r>más<s n="adv"/></r> 
       </p>
    </e>
-
-   <e><p><l>more<s n="preadv"/></l><r>más<s n="preadv"/></r></p></e>
-
-   <e r="LR" c="the most beautiful"><p><l>most<s n="preadv"/></l><r>más<s n="preadv"/></r></p></e>
-
-
    
    <e>
       <p>
@@ -3123,6 +3907,27 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>nationally<s n="adv"/></l> 
+         <r>nacionalmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>nationwide<s n="adv"/></l> 
+         <r>por<b/>todo<b/>el<b/>país<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>nationwide<s n="adv"/></l> 
+         <r>a<b/>escala<b/>nacional<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>naturally<s n="adv"/></l> 
@@ -3167,6 +3972,13 @@
    
    <e>
       <p>
+         <l>negatively<s n="adv"/></l> 
+         <r>negativamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>neither<s n="adv"/></l> 
          <r>tampoco<s n="adv"/></r> 
       </p>
@@ -3178,7 +3990,6 @@
          <r>jamás<s n="adv"/></r> 
       </p>
    </e>
-  
    
    <e>
       <p>
@@ -3186,8 +3997,6 @@
          <r>nunca<s n="adv"/></r> 
       </p>
    </e>
-   
-  
    
    <e r="LR">
       <p>
@@ -3210,6 +4019,27 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>no<b/>doubt<s n="adv"/></l> 
+         <r>sin<b/>duda<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL" c="check">
+      <p>
+         <l>no<b/>matter<b/>what<s n="adv"/></l> 
+         <r>ni<b/>a<b/>tiros<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>no<b/>sooner<s n="adv"/></l> 
+         <r>apenas<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR" c="MG: davant d'un nom (la no col·laboració : non-collaboration)">
       <p>
          <l>non<s n="adv"/></l> 
@@ -3223,32 +4053,25 @@
          <r>normalmente<s n="adv"/></r> 
       </p>
    </e>
-
+   
    <e>
       <p>
          <l>north<s n="adv"/></l> 
          <r>al<b/>norte<s n="adv"/></r> 
       </p>
    </e>
-
+   
    <e>
       <p>
          <l>northeast<s n="adv"/></l> 
          <r>al<b/>noreste<s n="adv"/></r> 
       </p>
    </e>
-
+   
    <e>
       <p>
          <l>northwest<s n="adv"/></l> 
          <r>al<b/>noroeste<s n="adv"/></r> 
-      </p>
-   </e>
-
-   <e>
-      <p>
-         <l>west<s n="adv"/></l> 
-         <r>al<b/>oeste<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3263,6 +4086,13 @@
       <p>
          <l>not<b/>even<s n="adv"/></l> 
          <r>ni<b/>siquiera<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL" c="check">
+      <p>
+         <l>not<b/>in<b/>your<b/>life<s n="adv"/></l> 
+         <r>ni<b/>a<b/>la<b/>de<b/>tres<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3326,6 +4156,20 @@
       <p>
          <l>of<b/>course<s n="adv"/></l> 
          <r>naturalmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>of<b/>course<s n="adv"/></l> 
+         <r>desde<b/>luego<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>of<b/>course<s n="adv"/></l> 
+         <r>por<b/>supuesto<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3406,6 +4250,20 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>on<b/>a<b/>shoestring<s n="adv"/></l> 
+         <r>con<b/>cuatro<b/>perras<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>on<b/>a<b/>shoestring<s n="adv"/></l> 
+         <r>con<b/>poquísimo<b/>dinero<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>on<b/>a<b/>short-term<b/>basis<s n="adv"/></l> 
@@ -3427,10 +4285,31 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>on<b/>foot<s n="adv"/></l> 
+         <r>a<b/>pie<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>on<b/>hand<s n="adv"/></l> 
          <r>a<b/>mano<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="@check">
+      <p>
+         <l>on<b/>my<b/>own<s n="adv"/></l> 
+         <r>por<b/>mi<b/>cuenta<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>on<b/>no<b/>account<s n="adv"/></l> 
+         <r>bajo<b/>ningún<b/>concepto<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3450,6 +4329,13 @@
    
    <e>
       <p>
+         <l>on<b/>the<b/>contrary<s n="adv"/></l> 
+         <r>al<b/>contrario<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>on<b/>the<b/>defensive<s n="adv"/></l> 
          <r>a<b/>la<b/>defensiva<s n="adv"/></r> 
       </p>
@@ -3459,6 +4345,13 @@
       <p>
          <l>on<b/>the<b/>doble<s n="adv"/></l> 
          <r>rápidamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>on<b/>the<b/>house<s n="adv"/></l> 
+         <r>por<b/>cuenta<b/>de<b/>la<b/>casa<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3483,10 +4376,38 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>on<b/>the<b/>other<b/>hand<s n="adv"/></l> 
+         <r>en<b/>cambio<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>on<b/>the<b/>other<b/>side<s n="adv"/></l> 
          <r>por<b/>otro<b/>lado<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>on<b/>the<b/>quiet<s n="adv"/></l> 
+         <r>a<b/>la<b/>chita<b/>callando<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>on<b/>the<b/>sly<s n="adv"/></l> 
+         <r>a<b/>hurtadillas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>on<b/>the<b/>surface<s n="adv"/></l> 
+         <r>a<b/>flor<b/>de<b/>piel<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3499,8 +4420,71 @@
    
    <e>
       <p>
+         <l>on<b/>tiptoe<s n="adv"/></l> 
+         <r>de<b/>puntillas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>on<b/>top<s n="adv"/></l> 
          <r>arriba<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="@check">
+      <p>
+         <l>on<b/>your<b/>own<s n="adv"/></l> 
+         <r>por<b/>tu<b/>cuenta<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>once<s n="adv"/></l> 
+         <r>una<b/>vez<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>once<b/>and<b/>for<b/>all<s n="adv"/></l> 
+         <r>de<b/>una<b/>vez<b/>por<b/>todas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>once<b/>in<b/>a<b/>blue<b/>moon<s n="adv"/></l> 
+         <r>de<b/>higos<b/>a<b/>brevas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>once<b/>in<b/>a<b/>blue<b/>moon<s n="adv"/></l> 
+         <r>de<b/>Pascuas<b/>a<b/>Ramos<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>once<b/>in<b/>a<b/>blue<b/>moon<s n="adv"/></l> 
+         <r>de<b/>tarde<b/>en<b/>tarde<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>once<b/>in<b/>a<b/>blue<b/>moon<s n="adv"/></l> 
+         <r>de<b/>uvas<b/>a<b/>peras<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>once<b/>in<b/>a<b/>while<s n="adv"/></l> 
+         <r>de<b/>vez<b/>en<b/>cuando<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3525,12 +4509,6 @@
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>alone<s n="adv"/></l> 
-         <r>sólo<s n="adv"/></r> 
-      </p>
-   </e>
    <e r="RL">
       <p>
          <l>only<s n="adv"/></l> 
@@ -3549,6 +4527,13 @@
       <p>
          <l>ordinarily<s n="adv"/></l> 
          <r>normalmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>originally<s n="adv"/></l> 
+         <r>originalmente<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3577,6 +4562,13 @@
       <p>
          <l>out<b/>of<b/>position<s n="adv"/></l> 
          <r>fuera<b/>de<b/>lugar<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>out<b/>of<b/>sorts<s n="adv"/></l> 
+         <r>de<b/>capa<b/>caída<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3631,6 +4623,20 @@
    
    <e>
       <p>
+         <l>over<s n="adv"/></l> 
+         <r>encima<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>over<b/>my<b/>dead<b/>body<s n="adv"/></l> 
+         <r>por<b/>encima<b/>de<b/>mi<b/>cadáver<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>over<b/>there<s n="adv"/></l> 
          <r>allí<s n="adv"/></r> 
       </p>
@@ -3638,8 +4644,36 @@
    
    <e r="LR">
       <p>
+         <l>overall<s n="adv"/></l> 
+         <r>en<b/>conjunto<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
          <l>overnight<s n="adv"/></l> 
          <r>por<b/>la<b/>noche<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>overnight<s n="adv"/></l> 
+         <r>de<b/>la<b/>noche<b/>a<b/>la<b/>mañana<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
+         <l>overseas<s n="adv"/></l> 
+         <r>en<b/>el<b/>extranjero<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>p.m.<s n="adv"/></l> 
+         <r>p.m.<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3680,6 +4714,13 @@
    
    <e>
       <p>
+         <l>partly<s n="adv"/></l> 
+         <r>en<b/>parte<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>patiently<s n="adv"/></l> 
          <r>pacientemente<s n="adv"/></r> 
       </p>
@@ -3689,6 +4730,27 @@
       <p>
          <l>peacefully<s n="adv"/></l> 
          <r>pacíficamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>per<b/>person<s n="adv"/></l> 
+         <r>por<b/>persona<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>per<b/>person<s n="adv"/></l> 
+         <r>por<b/>cabeza<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>per<b/>person<s n="adv"/></l> 
+         <r>por<b/>barba<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3752,6 +4814,27 @@
       <p>
          <l>physically<s n="adv"/></l> 
          <r>físicamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>please<s n="adv"/></l> 
+         <r>por<b/>favor<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>point-black<s n="adv"/></l> 
+         <r>a<b/>quemarropa<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>point-blank<s n="adv"/></l> 
+         <r>a<b/>bocajarro<s n="adv"/></r> 
       </p>
    </e>
    
@@ -3848,6 +4931,13 @@
    
    <e>
       <p>
+         <l>predictably<s n="adv"/></l> 
+         <r>previsiblemente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>predominantly<s n="adv"/></l> 
          <r>predominantemente<s n="adv"/></r> 
       </p>
@@ -3897,8 +4987,22 @@
    
    <e>
       <p>
+         <l>privately<s n="adv"/></l> 
+         <r>en<b/>privado<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>probably<s n="adv"/></l> 
          <r>probablemente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>probably<s n="adv"/></l> 
+         <r>a<b/>lo<b/>mejor<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4077,6 +5181,13 @@
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>readily<s n="adv"/></l> 
+         <r>fácilmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>really<s n="adv"/></l> 
@@ -4084,7 +5195,6 @@
       </p>
    </e>
    
-<e><p><l>really<s n="preadv"/></l><r>realmente<s n="preadv"/></r></p></e>
    <e>
       <p>
          <l>reasonably<s n="adv"/></l> 
@@ -4103,6 +5213,13 @@
       <p>
          <l>recently<s n="adv"/></l> 
          <r>recién<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="añadir también 'regardless of' como 'a pesar de'">
+      <p>
+         <l>regardless<s n="adv"/></l> 
+         <r>a<b/>toda<b/>costa<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4127,6 +5244,13 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>reluctantly<s n="adv"/></l> 
+         <r>a<b/>regañadientes<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>remarkably<s n="adv"/></l> 
@@ -4138,6 +5262,13 @@
       <p>
          <l>repeatedly<s n="adv"/></l> 
          <r>repetidamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>reportedly<s n="adv"/></l> 
+         <r>según<b/>se<b/>dice<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4213,6 +5344,13 @@
    
    <e>
       <p>
+         <l>safely<s n="adv"/></l> 
+         <r>sin<b/>incidentes<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>satisfactorily<s n="adv"/></l> 
          <r>satisfactoriamente<s n="adv"/></r> 
       </p>
@@ -4227,15 +5365,15 @@
    
    <e>
       <p>
-         <l>secretly<s n="adv"/></l> 
-         <r>en<b/>secreto<s n="adv"/></r> 
-      </p>
-   </e>
-
-   <e>
-      <p>
          <l>second<s n="adv"/></l> 
          <r>en<b/>segundo<b/>lugar<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>secretly<s n="adv"/></l> 
+         <r>en<b/>secreto<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4259,7 +5397,7 @@
          <r>separadamente<s n="adv"/></r> 
       </p>
    </e>
-
+   
    <e c="no sé si hauríem d\'incloure aquestes formes en el paradigma dels participis">
       <p>
          <l>separately<s n="adv"/></l> 
@@ -4271,6 +5409,13 @@
       <p>
          <l>seriously<s n="adv"/></l> 
          <r>seriamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>seriously<s n="adv"/></l> 
+         <r>en<b/>serio<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4297,6 +5442,20 @@
    
    <e>
       <p>
+         <l>sharply<s n="adv"/></l> 
+         <r>bruscamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>shortly<s n="adv"/></l> 
+         <r>dentro<b/>de<b/>poco<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>shyly<s n="adv"/></l> 
          <r>tímidamente<s n="adv"/></r> 
       </p>
@@ -4304,8 +5463,22 @@
    
    <e>
       <p>
+         <l>sideways<s n="adv"/></l> 
+         <r>de<b/>lado<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>significantly<s n="adv"/></l> 
          <r>significativamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>similarly<s n="adv"/></l> 
+         <r>de<b/>modo<b/>parecido<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4343,7 +5516,14 @@
          <r>simultáneamente<s n="adv"/></r> 
       </p>
    </e>
-
+   
+   <e r="RL">
+      <p>
+         <l>simultaneously<s n="adv"/></l> 
+         <r>al<b/>alimón<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e c="we haven't spoke since/no nos hablamos desde entonces">
       <p>
          <l>since<s n="adv"/></l> 
@@ -4397,6 +5577,13 @@
       <p>
          <l>slowly<s n="adv"/></l> 
          <r>lentamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>slowly<s n="adv"/></l> 
+         <r>a<b/>paso<b/>de<b/>tortuga<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4458,6 +5645,13 @@
    
    <e>
       <p>
+         <l>sometime<s n="adv"/></l> 
+         <r>en<b/>algún<b/>momento<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>sometimes<s n="adv"/></l> 
          <r>a<b/>veces<s n="adv"/></r> 
       </p>
@@ -4488,6 +5682,34 @@
       <p>
          <l>soon<s n="adv"/></l> 
          <r>pronto<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>sooner<s n="adv"/></l> 
+         <r>más<b/>pronto<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>south<s n="adv"/></l> 
+         <r>al<b/>sur<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>southeast<s n="adv"/></l> 
+         <r>al<b/>sureste<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>southwest<s n="adv"/></l> 
+         <r>al<b/>suroeste<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4533,6 +5755,13 @@
       </p>
    </e>
    
+   <e c="check">
+      <p>
+         <l>squatting<s n="adv"/></l> 
+         <r>en<b/>cuclillas<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>steadily<s n="adv"/></l> 
@@ -4575,6 +5804,20 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>straight<s n="adv"/></l> 
+         <r>a<b/>palo<b/>seco<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>straight<s n="adv"/></l> 
+         <r>directamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>straight<b/>away<s n="adv"/></l> 
@@ -4610,6 +5853,13 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>subsequently<s n="adv"/></l> 
+         <r>posteriormente<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="RL">
       <p>
          <l>substantially<s n="adv"/></l> 
@@ -4628,6 +5878,34 @@
       <p>
          <l>subtly<s n="adv"/></l> 
          <r>sutilmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>successfully<s n="adv"/></l> 
+         <r>con<b/>éxito<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>suddenly<s n="adv"/></l> 
+         <r>de<b/>repente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>suddenly<s n="adv"/></l> 
+         <r>de<b/>buenas<b/>a<b/>primeras<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>suddenly<s n="adv"/></l> 
+         <r>de<b/>golpe<b/>y<b/>porrazo<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4743,13 +6021,19 @@
       </p>
    </e>
    
+   <e c="check">
+      <p>
+         <l>the<b/>other<b/>way<b/>around<s n="adv"/></l> 
+         <r>al<b/>revés<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e c="Faltaria potser un 'igual' adjectiu">
       <p>
          <l>the<b/>same<s n="adv"/></l> 
          <r>igual<s n="adv"/></r> 
       </p>
    </e>
-   
    
    <e r="LR">
       <p>
@@ -4792,18 +6076,18 @@
          <r>después<s n="adv"/></r> 
       </p>
    </e>
-
-   <e>
-      <p>
-         <l>therefore<s n="adv"/></l> 
-         <r>por<b/>tanto<s n="adv"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
          <l>thereby<s n="adv"/></l> 
          <r>así<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>therefore<s n="adv"/></l> 
+         <r>por<b/>tanto<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4825,6 +6109,13 @@
       <p>
          <l>though<s n="adv"/></l> 
          <r>aun<b/>así<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="against all odds / come hell or high water">
+      <p>
+         <l>through<b/>thick<b/>and<b/>thin<s n="adv"/></l> 
+         <r>contra<b/>viento<b/>y<b/>marea<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4898,6 +6189,13 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>to<b/>right<b/>and<b/>left<s n="adv"/></l> 
+         <r>a<b/>diestro<b/>y<b/>siniestro<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>to<b/>scale<s n="adv"/></l> 
@@ -4907,8 +6205,43 @@
    
    <e r="LR">
       <p>
+         <l>to<b/>tell<b/>the<b/>truth<s n="adv"/></l> 
+         <r>a<b/>decir<b/>verdad<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="LR">
+      <p>
          <l>to<b/>the<b/>ground<s n="adv"/></l> 
          <r>completamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>to<b/>the<b/>left<s n="adv"/></l> 
+         <r>a<b/>la<b/>izquierda<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>to<b/>the<b/>letter<s n="adv"/></l> 
+         <r>al<b/>pie<b/>de<b/>la<b/>letra<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>to<b/>the<b/>right<s n="adv"/></l> 
+         <r>a<b/>la<b/>derecha<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>to<b/>the<b/>utmost<s n="adv"/></l> 
+         <r>a<b/>más<b/>no<b/>poder<s n="adv"/></r> 
       </p>
    </e>
    
@@ -4926,13 +6259,19 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>tonight<s n="adv"/></l> 
+         <r>esta<b/>noche<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>too<s n="adv"/></l> 
          <r>también<s n="adv"/></r> 
       </p>
    </e>
-   
    
    <e c="MG: Crec que 'too much' i 'too many' s'haurien de posar en un sol paradigma per tal de posar ND en la direcció cat-en">
       <p>
@@ -5006,6 +6345,13 @@
    
    <e>
       <p>
+         <l>twice<s n="adv"/></l> 
+         <r>dos<b/>veces<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
          <l>typically<s n="adv"/></l> 
          <r>típicamente<s n="adv"/></r> 
       </p>
@@ -5060,6 +6406,20 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>under<b/>the<b/>counter<s n="adv"/></l> 
+         <r>bajo<b/>cuerda<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>undoubtedly<s n="adv"/></l> 
+         <r>indudablemente<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>unexpectedly<s n="adv"/></l> 
@@ -5071,6 +6431,20 @@
       <p>
          <l>unfairly<s n="adv"/></l> 
          <r>injustamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>unfortunately<s n="adv"/></l> 
+         <r>por<b/>desgracia<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="fuera de coloquial">
+      <p>
+         <l>unfortunately<s n="adv"/></l> 
+         <r>desafortunadamente<s n="adv"/></r> 
       </p>
    </e>
    
@@ -5095,6 +6469,27 @@
       </p>
    </e>
    
+   <e c="check">
+      <p>
+         <l>until<b/>no<b/>more<b/>is<b/>needed<b/>nor<b/>desired<s n="adv"/></l> 
+         <r>hasta<b/>la<b/>saciedad<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>unusually<s n="adv"/></l> 
+         <r>inusualmente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>unwillingly<s n="adv"/></l> 
+         <r>a<b/>disgusto<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>up<s n="adv"/></l> 
@@ -5116,10 +6511,24 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>upstream<s n="adv"/></l> 
+         <r>río<b/>arriba<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>upward<s n="adv"/></l> 
          <r>arriba<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>upwards<s n="adv"/></l> 
+         <r>hacia<b/>arriba<s n="adv"/></r> 
       </p>
    </e>
    
@@ -5193,6 +6602,13 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>voluntarily<s n="adv"/></l> 
+         <r>voluntariamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>week<b/>in<b/>week<b/>out<s n="adv"/></l> 
@@ -5218,6 +6634,20 @@
       <p>
          <l>well<s n="adv"/></l> 
          <r>bien<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>west<s n="adv"/></l> 
+         <r>al<b/>oeste<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="check">
+      <p>
+         <l>whatever<b/>happens<s n="adv"/></l> 
+         <r>pase<b/>lo<b/>que<b/>pase<s n="adv"/></r> 
       </p>
    </e>
    
@@ -5249,6 +6679,13 @@
       </p>
    </e>
    
+   <e>
+      <p>
+         <l>wholesale<s n="adv"/></l> 
+         <r>al<b/>por<b/>mayor<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e r="LR">
       <p>
          <l>wholly<s n="adv"/></l> 
@@ -5263,10 +6700,59 @@
       </p>
    </e>
    
+   <e c="MG: revisar, falla: abierto de par en par">
+      <p>
+         <l>wide<b/>open<s n="adv"/></l> 
+         <r>de<b/>par<b/>en<b/>par<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>widely<s n="adv"/></l> 
          <r>ampliamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>willingly<s n="adv"/></l> 
+         <r>de<b/>buen<b/>grado<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e c="also: like it or not">
+      <p>
+         <l>willingly<b/>or<b/>by<b/>force<s n="adv"/></l> 
+         <r>de<b/>grado<b/>o<b/>por<b/>fuerza<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>with<b/>great<b/>difficulty<s n="adv"/></l> 
+         <r>a<b/>trancas<b/>y<b/>barrancas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>with<b/>great<b/>difficulty<s n="adv"/></l> 
+         <r>con<b/>gran<b/>dificultad<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>with<b/>great<b/>pain<s n="adv"/></l> 
+         <r>con<b/>gran<b/>dolor<b/>del<b/>corazón<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>with<b/>great<b/>pain<s n="adv"/></l> 
+         <r>con<b/>gran<b/>dolor<s n="adv"/></r> 
       </p>
    </e>
    
@@ -5284,10 +6770,10 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e>
       <p>
-         <l>inside<s n="adv"/></l> 
-         <r>adentro<s n="adv"/></r> 
+         <l>with<b/>utmost<b/>difficulty<s n="adv"/></l> 
+         <r>a<b/>duras<b/>penas<s n="adv"/></r> 
       </p>
    </e>
    
@@ -5298,12 +6784,6 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>inside<s n="adv"/></l> 
-         <r>dentro<s n="adv"/></r> 
-      </p>
-   </e>
    <e r="LR">
       <p>
          <l>within<b/>reason<s n="adv"/></l> 
@@ -5311,10 +6791,73 @@
       </p>
    </e>
    
+   <e c="check">
+      <p>
+         <l>within<b/>sight<b/>distance<s n="adv"/></l> 
+         <r>al<b/>alcance<b/>de<b/>la<b/>vista<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>without<b/>a<b/>purpose<s n="adv"/></l> 
+         <r>sin<b/>ton<b/>ni<b/>son<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>without<b/>a<b/>purpose<s n="adv"/></l> 
+         <r>sin<b/>ningún<b/>propósito<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL" c="check">
+      <p>
+         <l>without<b/>having<b/>anything<b/>to<b/>do<b/>with<b/>it<s n="adv"/></l> 
+         <r>sin<b/>comerlo<b/>ni<b/>beberlo<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>without<b/>paying<s n="adv"/></l> 
+         <r>de<b/>gorra<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>without<b/>saying<b/>a<b/>word<s n="adv"/></l> 
+         <r>sin<b/>decir<b/>esta<b/>boca<b/>es<b/>mía<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>without<b/>taking<b/>precautions<s n="adv"/></l> 
+         <r>sin<b/>encomendarse<b/>ni<b/>a<b/>Dios<b/>ni<b/>al<b/>diablo<s n="adv"/></r> 
+      </p>
+   </e>
+   
    <e>
       <p>
          <l>wonderfully<s n="adv"/></l> 
          <r>maravillosamente<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e r="RL">
+      <p>
+         <l>wonderfully<s n="adv"/></l> 
+         <r>a<b/>las<b/>mil<b/>maravillas<s n="adv"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>worldwide<s n="adv"/></l> 
+         <r>mundialmente<s n="adv"/></r> 
       </p>
    </e>
    
@@ -5381,17 +6924,5 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>a.m.<s n="adv"/></l> 
-         <r>a.m.<s n="adv"/></r> 
-      </p>
-   </e>
-   <e>
-      <p>
-         <l>p.m.<s n="adv"/></l> 
-         <r>p.m.<s n="adv"/></r> 
-      </p>
-   </e>
 </section>
 

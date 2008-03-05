@@ -3088,9 +3088,6 @@
 <e lm="DN" c="Delayed neutron "><i>DN</i><par n="ADN__n"/></e>
 <e lm="DN" c="Digital node "><i>DN</i><par n="ADN__n"/></e>
 <e lm="DN" c="Dilute noncomplexed (waste) "><i>DN</i><par n="ADN__n"/></e>
-<e lm="DNA" c="Delayed neutron analysis "><i>DNA</i><par n="ADN__n"/></e>
-<e lm="DNA" c="Deoxyribonucleic acid "><i>DNA</i><par n="ADN__n"/></e>
-<e lm="DNA" c="Does not apply "><i>DNA</i><par n="ADN__n"/></e>
 <e lm="DNAAS" c="Delayed neutron activation analysis system "><i>DNAAS</i><par n="ADN__n"/></e>
 <e lm="DNAPL" c="Dense, nonaqueous phase liquid "><i>DNAPL</i><par n="ADN__n"/></e>
 <e lm="DNB" c="Departure (from) nucleate boiling "><i>DNB</i><par n="ADN__n"/></e>
@@ -5093,7 +5090,6 @@
 <e lm="GDF" c="Grout Disposal Facility "><i>GDF</i><par n="ADN__n"/></e>
 <e lm="GDF" c="Grouted (waste) disposal facilities "><i>GDF</i><par n="ADN__n"/></e>
 <e lm="GDL" c="Gas dynamic laser "><i>GDL</i><par n="ADN__n"/></e>
-<e lm="GDP" c="Gaseous diffusion plant "><i>GDP</i><par n="ADN__n"/></e>
 <e lm="GDS" c="General declassification schedule "><i>GDS</i><par n="ADN__n"/></e>
 <e lm="GDS" c="Grapple Drive System (in CLEM) "><i>GDS</i><par n="ADN__n"/></e>
 <e lm="GE" c="General Electric "><i>GE</i><par n="ADN__n"/></e>
@@ -6304,21 +6300,11 @@
 <e lm="IOSR" c="Interim Operation Safety Requirements "><i>IOSR</i><par n="ADN__n"/></e>
 <e lm="IOTECH" c="Iotech Incorporated "><i>IOTECH</i><par n="ADN__n"/></e>
 <e lm="IOU" c="Input/output unit "><i>IOU</i><par n="ADN__n"/></e>
-<e lm="IP" c="Inbound prepaid "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Induced polarization "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Industrial packages "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Industrial plan "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Inhalable particles "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Inspection plan "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Instruction package "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Instrument panel "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Instrumentation and piping "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Intellectual property "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Intermediate point "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Internal Publication "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="International priority "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Internet Protocol "><i>IP</i><par n="ADN__n"/></e>
-<e lm="IP" c="Ionization potential "><i>IP</i><par n="ADN__n"/></e>
+
+  <e lm="IP" a="prompsit2adn">
+    <i>IP</i>
+    <par n="ETS__n"/>
+  </e>
 <e lm="IP&amp;PA" c="Instrument panel and panel assembly "><i>IP&amp;PA</i><par n="ADN__n"/></e>
 <e lm="IPA" c="Intergovernmental Personnel Act "><i>IPA</i><par n="ADN__n"/></e>
 <e lm="IPA" c="Intergovernmental Personnel Agreement "><i>IPA</i><par n="ADN__n"/></e>
@@ -8081,8 +8067,6 @@
 <e lm="NAS" c="Naval Air Station "><i>NAS</i><par n="ADN__n"/></e>
 <e lm="NAS" c="Network Applications and Systems "><i>NAS</i><par n="ADN__n"/></e>
 <e lm="NAS-NRC" c="National Academy of Science - National Research Council "><i>NAS-NRC</i><par n="ADN__n"/></e>
-<e lm="NASA" c="Nitrogen atmosphere sampling analysis (system) "><i>NASA</i><par n="ADN__n"/></e>
-<e lm="NASA-TR" c="Plum Brook Reactor Facility "><i>NASA-TR</i><par n="ADN__n"/></e>
 <e lm="NASAO" c="National Aeronautics and Space Administration Offices "><i>NASAO</i><par n="ADN__n"/></e>
 <e lm="NASAP" c="Nonproliferation Alternate Systems Assessment Program "><i>NASAP</i><par n="ADN__n"/></e>
 <e lm="NASARR" c="North American Search and Ranging Radar "><i>NASARR</i><par n="ADN__n"/></e>
@@ -8093,7 +8077,7 @@
 <e lm="NATC" c="North American Transportation Council "><i>NATC</i><par n="ADN__n"/></e>
 <e lm="NATD" c="Nuclear and Advanced Technology Division "><i>NATD</i><par n="ADN__n"/></e>
 <e lm="NATICH" c="National Air Toxics Information Clearinghouse "><i>NATICH</i><par n="ADN__n"/></e>
-<e lm="NATO" c="North Atlantic Treaty Organization "><i>NATO</i><par n="ADN__n"/></e>
+<e lm="NATO" c="North Atlantic Treaty Organization "><i>NATO</i><par n="BBC__n"/></e>
 <e lm="NAV/COMM" c="Navigation/communication (avionics) "><i>NAV/COMM</i><par n="ADN__n"/></e>
 <e lm="NAV/LOC" c="Navigation/localizer (avionics) "><i>NAV/LOC</i><par n="ADN__n"/></e>
 <e lm="NAVAIR" c="Naval Air Systems Command "><i>NAVAIR</i><par n="ADN__n"/></e>
@@ -12629,7 +12613,6 @@
 <e lm="TIS" c="Time Information System "><i>TIS</i><par n="ADN__n"/></e>
 <e lm="TISE" c="Take it somewhere else (solid waste syndrome - see NIMBY) "><i>TISE</i><par n="ADN__n"/></e>
 <e lm="TITC" c="Toxic Substance Control Act Interagency Testing Committee "><i>TITC</i><par n="ADN__n"/></e>
-<e lm="TJ-#" c="Transaction journal number "><i>TJ-#</i><par n="ADN__n"/></e>
 <e lm="TL" c="Test logs "><i>TL</i><par n="ADN__n"/></e>
 <e lm="TL" c="Total loss "><i>TL</i><par n="ADN__n"/></e>
 <e lm="TL" c="Training liaison "><i>TL</i><par n="ADN__n"/></e>
@@ -12959,7 +12942,6 @@
 <e lm="TUCOP" c="Transient undercooled overpower (test) "><i>TUCOP</i><par n="ADN__n"/></e>
 <e lm="TUF" c="Transient usage factor "><i>TUF</i><par n="ADN__n"/></e>
 <e lm="TUR" c="Toxic use reduction "><i>TUR</i><par n="ADN__n"/></e>
-<e lm="TV" c="Test volume "><i>TV</i><par n="ADN__n"/></e>
 <e lm="TVA" c="Tennessee Valley Authority "><i>TVA</i><par n="ADN__n"/></e>
 <e lm="TVATP" c="Tactical Vulnerability Assessment Training Program "><i>TVATP</i><par n="ADN__n"/></e>
 <e lm="TVC" c="Thrust vector control "><i>TVC</i><par n="ADN__n"/></e>
@@ -13115,9 +13097,6 @@
 <e lm="UMTA" c="Urban Mass Transportation Administration "><i>UMTA</i><par n="ADN__n"/></e>
 <e lm="UMTRA" c="Uranium Mill Tailings Remedial Action "><i>UMTRA</i><par n="ADN__n"/></e>
 <e lm="UMTRCA" c="Uranium Mill Tailings Radiation Control Act "><i>UMTRCA</i><par n="ADN__n"/></e>
-<e lm="UN" c="United Nations "><i>UN</i><par n="ADN__n"/></e>
-<e lm="UN" c="Unplanned release not to an existing disposal facility "><i>UN</i><par n="ADN__n"/></e>
-<e lm="UN" c="Uranium nitride (fuel) "><i>UN</i><par n="ADN__n"/></e>
 <e lm="UN/NA" c="United Nations/North American Hazardous Materials Code (shipping number) "><i>UN/NA</i><par n="ADN__n"/></e>
 <e lm="UNAMAP" c="Users' network for applied modeling of air pollution "><i>UNAMAP</i><par n="ADN__n"/></e>
 <e lm="UNC" c="Unified national course thread "><i>UNC</i><par n="ADN__n"/></e>

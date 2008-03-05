@@ -9,10 +9,6 @@
     <i>EE.UU.</i>
     <par n="EE.UU.__n"/>
   </e>
-  <e lm="IP" a="prompsit2adn">
-    <i>IP</i>
-    <par n="ETS__n"/>
-  </e>
   <e lm="abad">
     <i>abad</i>
     <par n="abad__n"/>
@@ -1718,6 +1714,10 @@
     <i>austríac</i>
     <par n="abogad/o__n"/>
   </e>
+  <e lm="austriaco">
+    <i>austriac</i>
+    <par n="abogad/o__n"/>
+  </e>
   <e lm="autismo">
     <i>autismo</i>
     <par n="abismo__n"/>
@@ -1880,10 +1880,6 @@
   </e>
   <e lm="azufre" a="prompsit2adn">
     <i>azufre</i>
-    <par n="abismo__n"/>
-  </e>
-  <e lm="azulejo">
-    <i>azulejo</i>
     <par n="abismo__n"/>
   </e>
   <e lm="azúcar">
@@ -2430,10 +2426,6 @@
     <i>bota</i>
     <par n="abeja__n"/>
   </e>
-  <e lm="bote">
-    <i>bote</i>
-    <par n="abismo__n"/>
-  </e>
   <e lm="botella">
     <i>botella</i>
     <par n="abeja__n"/>
@@ -2577,10 +2569,6 @@
   <e lm="béisbol">
     <i>béisbol</i>
     <par n="atletismo__n"/>
-  </e>
-  <e lm="bóveda">
-    <i>bóveda</i>
-    <par n="abeja__n"/>
   </e>
   <e lm="búcaro">
     <i>búcaro</i>
@@ -2934,10 +2922,6 @@
     <i>capital</i>
     <par n="accesibilidad__n"/>
   </e>
-  <e lm="capital">
-    <i>capital</i>
-    <par n="albañil__n"/>
-  </e>
   <e lm="capitalidad">
     <i>capitalidad</i>
     <par n="accesibilidad__n"/>
@@ -3178,10 +3162,6 @@
     <i>castaño</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="castellano">
-    <i>castellan</i>
-    <par n="abogad/o__n"/>
-  </e>
   <e lm="castigo">
     <i>castigo</i>
     <par n="abismo__n"/>
@@ -3216,6 +3196,10 @@
   </e>
   <e lm="catarro">
     <i>catarro</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="tarro">
+    <i>tarro</i>
     <par n="abismo__n"/>
   </e>
   <e lm="catastrofismo" a="prompsit2adn">
@@ -4652,7 +4636,7 @@
   </e>
   <e lm="contenedor">
     <i>contenedor</i>
-    <par n="señor__n"/>
+    <par n="abril__n"/>
   </e>
   <e lm="contenido">
     <i>contenido</i>
@@ -4713,10 +4697,6 @@
   <e lm="contradicción">
     <i>contradicci</i>
     <par n="acci/ón__n"/>
-  </e>
-  <e lm="contragolpe">
-    <i>contragolpe</i>
-    <par n="abismo__n"/>
   </e>
   <e lm="contraindicación" a=" alseoane@gmail.com">
     <i>contraindicaci</i>
@@ -5800,6 +5780,18 @@
   </e>
   <e lm="derrota">
     <i>derrota</i>
+    <par n="abeja__n"/>
+  </e>
+  <e lm="loncha">
+    <i>loncha</i>
+    <par n="abeja__n"/>
+  </e>
+  <e lm="rodaja">
+    <i>rodaja</i>
+    <par n="abeja__n"/>
+  </e>
+  <e lm="rebanada">
+    <i>rebanada</i>
     <par n="abeja__n"/>
   </e>
   <e lm="derrotista" a="prompsit2adn">
@@ -12282,10 +12274,6 @@
     <i>memoria</i>
     <par n="abeja__n"/>
   </e>
-  <e lm="menaje">
-    <i>menaje</i>
-    <par n="abismo__n"/>
-  </e>
   <e lm="mención">
     <i>menci</i>
     <par n="acci/ón__n"/>
@@ -12806,10 +12794,6 @@
     <i>monstruo</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="montante">
-    <i>montante</i>
-    <par n="abismo__n"/>
-  </e>
   <e lm="montaña">
     <i>montaña</i>
     <par n="abeja__n"/>
@@ -12950,17 +12934,13 @@
     <i>muelle</i>
     <par n="abismo__n"/>
   </e>
-  <e lm="muerta">
-    <i>muerta</i>
-    <par n="abeja__n"/>
-  </e>
   <e lm="muerte">
     <i>muerte</i>
     <par n="abeja__n"/>
   </e>
   <e lm="muerto">
-    <i>muerto</i>
-    <par n="abismo__n"/>
+    <i>muert</i>
+    <par n="abogad/o__n"/>
   </e>
   <e lm="muestra">
     <i>muestra</i>
@@ -14304,6 +14284,10 @@
     <i>parto</i>
     <par n="abismo__n"/>
   </e>
+  <e lm="alivio">
+    <i>alivio</i>
+    <par n="abismo__n"/>
+  </e>
   <e lm="partícula">
     <i>partícula</i>
     <par n="abeja__n"/>
@@ -14550,6 +14534,14 @@
     <p>
       <l><b/>de<b/>fútbol</l>
       <r><g><b/>de<b/>fútbol</g></r>
+    </p>
+  </e>
+  <e lm="banco">
+    <i>banco</i>
+    <par n="abismo__n"/>
+    <p>
+      <l><b/>de<b/>trabajo</l>
+      <r><g><b/>de<b/>trabajo</g></r>
     </p>
   </e>
   <e lm="peluquero">
@@ -15448,6 +15440,10 @@
     <i>presa</i>
     <par n="abeja__n"/>
   </e>
+  <e lm="reseña">
+    <i>reseña</i>
+    <par n="abeja__n"/>
+  </e>
   <e lm="preselección">
     <i>preselecci</i>
     <par n="acci/ón__n"/>
@@ -15982,10 +15978,6 @@
   </e>
   <e lm="punta">
     <i>punta</i>
-    <par n="abeja__n"/>
-  </e>
-  <e lm="puntilla" a="prompsit2adn">
-    <i>puntilla</i>
     <par n="abeja__n"/>
   </e>
   <e lm="punto">
@@ -20666,6 +20658,8 @@
 <e lm="raza humana"><p><l>razas<b/>humanas</l><r>raza<b/>humana<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
 
+<e lm="Audiencia Nacional"><p><l>Audiencia<b/>Nacional</l><r>Audiencia<b/>Nacional<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="tribunal supremo"><p><l>tribunal<b/>supremo</l><r>tribunal<b/>supremo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 <e lm="Dr."><i>Dr.</i><par n="atletismo__n"/></e>
 <e lm="Dra."><i>Dra.</i><par n="cuaresma__n"/></e>

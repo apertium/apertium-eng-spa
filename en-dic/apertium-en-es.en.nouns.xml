@@ -146,10 +146,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e r="LR" lm="March">
-        <i>March</i> 
-        <par n="access__n"/> 
-    </e>
 
     <e lm="Marxism">
         <i>Marxism</i> 
@@ -2386,6 +2382,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="human race">
+        <i>human<b/>race</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="belief">
         <i>belief</i> 
         <par n="house__n"/> 
@@ -2556,6 +2556,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="childbirth">
+        <i>childbirth</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="birthday">
         <i>birthday</i> 
         <par n="house__n"/> 
@@ -5865,6 +5869,15 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="high court">
+        <i>high<b/>court</i> 
+        <par n="east__n"/> 
+    </e>
+
+    <e lm="National High Court" r="RL">
+        <i>National<b/>High<b/>Court</i> 
+        <par n="east__n"/> 
+    </e>
     <e lm="courtship">
         <i>courtship</i> 
         <par n="house__n"/> 
@@ -8851,6 +8864,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="foreign exchange">
+        <i>foreign<b/>exchange</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="excitation">
         <i>excitation</i> 
         <par n="house__n"/> 
@@ -9190,17 +9207,6 @@
         <i>facilitation</i> 
         <par n="house__n"/> 
     </e>
-
-    <e lm="facing">
-        <i>facing</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="facing">
-        <i>facing</i> 
-        <par n="house__n"/> 
-    </e>
-
     <e lm="fact">
         <i>fact</i> 
         <par n="house__n"/> 
@@ -9426,7 +9432,7 @@
 
     <e lm="feces">
         <i>feces</i> 
-        <par n="politics__n"/> 
+        <par n="personnel__n"/> 
     </e>
 
     <e lm="federalism">
@@ -20276,6 +20282,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="patron saint">
+        <i>patron<b/>saint</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="salad">
         <i>salad</i> 
         <par n="house__n"/> 
@@ -25380,6 +25390,15 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="barrel">
+        <i>barrel</i> 
+        <par n="house__n"/> 
+    </e>
+
+    <e lm="approximation">
+        <i>approximation</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="yoke">
         <i>yoke</i> 
         <par n="house__n"/> 
@@ -25407,6 +25426,11 @@
 
     <e lm="zone">
         <i>zone</i> 
+        <par n="house__n"/> 
+    </e>
+
+    <e lm="stretcher">
+        <i>stretcher</i> 
         <par n="house__n"/> 
     </e>
 
@@ -25439,6 +25463,11 @@
 
     <e lm="Australian">
         <i>Australian</i> 
+        <par n="house__n"/> 
+    </e>
+
+    <e lm="Austrian">
+        <i>Austrian</i> 
         <par n="house__n"/> 
     </e>
 
@@ -25772,6 +25801,28 @@
         <i>Yugoslavian</i> 
         <par n="house__n"/> 
     </e>
+
+
+
+<e lm="january"><i>Januar</i><par n="bab/y__n"/></e>
+<e lm="february"><i>Februar</i><par n="bab/y__n"/></e>
+<e lm="april"><i>April</i><par n="house__n"/></e>
+
+
+    <e r="LR" lm="March">
+        <i>March</i> 
+        <par n="access__n"/> 
+    </e>
+
+<e lm="june"><i>June</i><par n="house__n"/></e>
+<e lm="july"><i>Jul</i><par n="bab/y__n"/></e>
+<e lm="august"><i>August</i><par n="house__n"/></e>
+<e lm="september"><i>September</i><par n="house__n"/></e>
+<e lm="october"><i>October</i><par n="house__n"/></e>
+<e lm="november"><i>November</i><par n="house__n"/></e>
+<e lm="december"><i>December</i><par n="house__n"/></e>
+
+
 
 <e lm="Mr"><i>Mr</i><par n="east__n"/></e>
 <e lm="Mrs"><i>Mrs</i><par n="east__n"/></e>

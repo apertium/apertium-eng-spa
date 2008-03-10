@@ -2047,13 +2047,6 @@
 
     <e>
       <p>
-        <l>bright<s n="adj"/><s n="sint"/></l> 
-        <r>brillante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>brilliant<s n="adj"/></l> 
         <r>brillante<s n="adj"/><s n="mf"/></r> 
       </p>
@@ -2136,10 +2129,16 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
       <p>
         <l>passionate<s n="adj"/></l> 
         <r>ardiente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>passionate<s n="adj"/></l> 
+        <r>apasionado<s n="adj"/></r> 
       </p>
     </e>
     <e>
@@ -3547,20 +3546,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>dexter<s n="adj"/></l> 
-        <r>derechista<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>dexter<s n="adj"/></l> 
-        <r>derechista<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>diagonal<s n="adj"/></l> 
@@ -4289,7 +4274,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="empty D">
       <p>
         <l>empty<s n="adj"/><s n="sint"/></l> 
         <r>vacío<s n="adj"/></r> 
@@ -4424,13 +4409,6 @@
     </e>
 
     <e r="LR">
-      <p>
-        <l>everyday<s n="adj"/></l> 
-        <r>diario<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e>
       <p>
         <l>everyday<s n="adj"/></l> 
         <r>diario<s n="adj"/></r> 
@@ -5153,14 +5131,14 @@
 
     <e r="RL">
       <p>
-        <l>flat<s n="adj"/></l> 
+        <l>flat<s n="adj"/><s n="sint"/></l> 
         <r>llano<s n="adj"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>flat<s n="adj"/></l> 
+        <l>flat<s n="adj"/><s n="sint"/></l> 
         <r>plano<s n="adj"/></r> 
       </p>
     </e>
@@ -5776,27 +5754,6 @@
 
     <e>
       <p>
-        <l>gross<s n="adj"/><s n="sint"/></l> 
-        <r>bruto<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>gross<s n="adj"/><s n="sint"/></l> 
-        <r>sucio<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>gross<s n="adj"/><s n="sint"/></l> 
-        <r>sucio<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>groundless<s n="adj"/></l> 
         <r>infundado<s n="adj"/></r> 
       </p>
@@ -5930,13 +5887,6 @@
 
     <e>
       <p>
-        <l>hazardous<s n="adj"/></l> 
-        <r>peligroso<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>healthy<s n="adj"/><s n="sint"/></l> 
         <r>sano<s n="adj"/></r> 
       </p>
@@ -6033,20 +5983,12 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e srl="hollow">
       <p>
         <l>hollow<s n="adj"/></l> 
         <r>vacío<s n="adj"/></r> 
       </p>
     </e>
-
-    <e>
-      <p>
-        <l>hollow<s n="adj"/></l> 
-        <r>vacío<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>holy<s n="adj"/><s n="sint"/></l> 
@@ -9495,20 +9437,13 @@
     <e>
       <p>
         <l>ours<s n="adj"/></l> 
-        <r>nuestro<s n="adj"/><s n="pos"/></r> 
+        <r>nuestro<s n="adj"/></r> 
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>outdoor<s n="adj"/></l> 
-        <r>exterior<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>outer<s n="adj"/></l> 
         <r>exterior<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
@@ -10191,6 +10126,13 @@
       </p>
     </e>
 
+
+    <e r="RL">
+      <p>
+        <l>poor<s n="adj"/><s n="sint"/></l> 
+        <r>pobre<s n="adj"/></r> 
+      </p>
+    </e>
 
     <e>
       <p>
@@ -11370,13 +11312,18 @@
       </p>
     </e>
 
-    <e>
+    <e srl="right-handed D">
       <p>
         <l>right-handed<s n="adj"/></l> 
-        <r>derechista<s n="adj"/><s n="mf"/></r> 
+        <r>diestro<s n="adj"/></r> 
       </p>
     </e>
-
+    <e srl="skillful" r="RL">
+      <p>
+        <l>skillful<s n="adj"/></l> 
+        <r>diestro<s n="adj"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>rigid<s n="adj"/></l> 
@@ -11498,7 +11445,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>ruthless<s n="adj"/></l> 
         <r>cruel<s n="adj"/><s n="mf"/></r> 
@@ -14159,7 +14106,7 @@
     <e>
       <p>
         <l>yours<s n="adj"/></l> 
-        <r>vuestro<s n="adj"/><s n="pos"/></r> 
+        <r>vuestro<s n="adj"/></r> 
       </p>
     </e>
     <e>

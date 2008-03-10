@@ -95,13 +95,13 @@
    <e r="RL" c="afirmatives">
       <p>
          <l>any<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>cualquier<s n="det"/><s n="mf"/><s n="sg"/></r> 
+         <r>cualquier<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r> 
       </p>
    </e>
      <e r="RL" c="afirmatives">
       <p>
          <l>any<s n="det"/><s n="ind"/><s n="sp"/></l> 
-         <r>cualquier<s n="det"/><s n="mf"/><s n="pl"/></r> 
+         <r>cualquier<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r> 
       </p>
    </e>
    
@@ -230,7 +230,7 @@
      <e r="RL" c="per ara de en-ca es genera només 'el vostre'">
       <p>
          <l>your<s n="det"/></l> 
-         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
+         <r>tuyo<s n="det"/></r> 
       </p>
    </e>
    
@@ -426,8 +426,16 @@
 
 <e r="LR" c="incomptable, per tant, amb complement singular)"><p><l>too<b/>much<s n="det"/><s n="qnt"/></l><r>demasiado<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
 <e r="LR" c="comptable, per tant, amb complement plural"><p><l>too<b/>many<s n="det"/><s n="qnt"/></l><r>demasiado<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
-<e r="RL" c="MG: Crec que 'too much' i 'too many' s'haurien de posar en un sol paradigma per tal de posar ND en la direcció cat-en" ><p><l>too<b/>many<s n="det"/></l><r>demasiado<s n="det"/></r></p></e>
+<e r="RL" c="MG: Crec que 'too much' i 'too many' s'haurien de posar en un sol paradigma per tal de posar ND en la direcció cat-en" ><p><l>too<b/>many<s n="det"/><s n="qnt"/><s n="pl"/></l><r>demasiado<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL" ><p><l>too<b/>many<s n="det"/><s n="qnt"/><s n="pl"/></l><r>demasiado<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/></r></p></e>
 
+<e r="RL"><p><l>too<b/>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>demasiado<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>too<b/>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>demasiado<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+
+
+
+
+<!--<e r="RL"><p><l>too<b/>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>massa<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>-->
 <e r="LR"><p><l>quite<b/>a<b/>lot<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>bastante<s n="det"/><s n="qnt"/><s n="mf"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>quite<b/>a<b/>lot<b/>of<s n="det"/></l><r>bastante<s n="det"/></r></p></e>
 
@@ -440,9 +448,9 @@
 <e r="LR"><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>primer<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>first<s n="det"/></l><r>primer<s n="det"/></r></p></e>
 <e r="LR"><p><l>last<s n="det"/><s n="ord"/><s n="sp"/></l><r>último<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
-<e r="RL"><p><l>last<s n="det"/></l><r>últim<s n="det"/></r></p></e>
+<e r="RL"><p><l>last<s n="det"/></l><r>último<s n="det"/></r></p></e>
 <e r="LR"><p><l>second<s n="det"/><s n="ord"/><s n="sp"/></l><r>segundo<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
-<e r="RL"><p><l>second<s n="det"/></l><r>segon<s n="det"/></r></p></e>
+<e r="RL"><p><l>second<s n="det"/></l><r>segundo<s n="det"/></r></p></e>
 <e r="LR"><p><l>third<s n="det"/><s n="ord"/><s n="sp"/></l><r>tercer<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>third<s n="det"/></l><r>tercer<s n="det"/></r></p></e>  
 <e r="LR"><p><l>fourth<s n="det"/><s n="ord"/><s n="sp"/></l><r>cuarto<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>

@@ -532,6 +532,8 @@
       </p>
    </e>
    
+<e slr="estar_de_acuerdo"><p><l>agree<s n="vblex"/></l><r>estar<g><b/>de<b/>acuerdo</g><s n="vblex"/></r></p></e>
+
    <e slr="apuntar D">
       <p>
          <l>aim<s n="vblex"/></l> 
@@ -1138,10 +1140,17 @@
       </p>
    </e>
    
-   <e>
+   <e slr="recular">
       <p>
          <l>back<s n="vblex"/></l> 
          <r>recular<s n="vblex"/></r> 
+      </p>
+   </e>
+   
+   <e slr="respaldar D">
+      <p>
+         <l>back<s n="vblex"/></l> 
+         <r>respaldar<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -1156,6 +1165,13 @@
       <p>
          <l>bake<s n="vblex"/></l> 
          <r>cocer<s n="vblex"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>fuck<s n="vblex"/></l> 
+         <r>joder<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -4465,7 +4481,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="earn">
       <p>
          <l>earn<s n="vblex"/></l> 
          <r>ganar<s n="vblex"/></r> 
@@ -7119,13 +7135,6 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>lean<s n="vblex"/></l> 
-         <r>respaldar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
    <e r="LR">
       <p>
          <l>leap<s n="vblex"/></l> 
@@ -8071,9 +8080,15 @@
       </p>
    </e>
    
-   <e>
+   <e srl="overcome">
       <p>
          <l>overcome<s n="vblex"/></l> 
+         <r>vencer<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e srl="win D" r="RL">
+      <p>
+         <l>win<s n="vblex"/></l> 
          <r>vencer<s n="vblex"/></r> 
       </p>
    </e>
@@ -12545,7 +12560,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="win D">
       <p>
          <l>win<s n="vblex"/></l> 
          <r>ganar<s n="vblex"/></r> 

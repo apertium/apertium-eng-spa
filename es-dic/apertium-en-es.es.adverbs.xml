@@ -85,11 +85,6 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="a buenas horas, mangas verdes">
-      <i>a<b/>buenas<b/>horas,<b/>mangas<b/>verdes</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="a casa">
       <i>a<b/>casa</i> 
       <par n="ahora__adv" /> 
@@ -140,10 +135,6 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="a eso de">
-      <i>a<b/>eso<b/>de</i> 
-      <par n="ahora__adv" /> 
-   </e>
    
    <e lm="a favor" a="gema">
       <i>a<b/>favor</i> 
@@ -220,11 +211,6 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="a la tercera va la vencida">
-      <i>a<b/>la<b/>tercera<b/>va<b/>la<b/>vencida</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="a la vez">
       <i>a<b/>la<b/>vez</i> 
       <par n="ahora__adv" /> 
@@ -247,11 +233,6 @@
    
    <e lm="a lo hecho, pecho">
       <i>a<b/>lo<b/>hecho,<b/>pecho</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="a lo largo">
-      <i>a<b/>lo<b/>largo</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -910,18 +891,8 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="cierto">
-      <i>cierto</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="claramente">
       <i>claramente</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="claro">
-      <i>claro</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -962,11 +933,6 @@
    
    <e lm="con gran dolor del corazón">
       <i>con<b/>gran<b/>dolor<b/>del<b/>corazón</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="con la boca pequeña">
-      <i>con<b/>la<b/>boca<b/>pequeña</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -1070,7 +1036,7 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="de acuerdo" a="mginesti">
+   <e lm="de acuerdo" r="RL">
       <i>de<b/>acuerdo</i> 
       <par n="ahora__adv" /> 
    </e>
@@ -1105,11 +1071,6 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="de corazón">
-      <i>de<b/>corazón</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="de cualquier forma">
       <i>de<b/>cualquier<b/>forma</i> 
       <par n="ahora__adv" /> 
@@ -1117,11 +1078,6 @@
    
    <e lm="de cualquier manera">
       <i>de<b/>cualquier<b/>manera</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="de espaldas">
-      <i>de<b/>espaldas</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -1234,12 +1190,6 @@
       <i>de<b/>perdidos<b/>al<b/>río</i> 
       <par n="ahora__adv" /> 
    </e>
-   
-   <e lm="de pie">
-      <i>de<b/>pie</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="de plano">
       <i>de<b/>plano</i> 
       <par n="ahora__adv" /> 
@@ -1275,10 +1225,6 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="de rodillas">
-      <i>de<b/>rodillas</i> 
-      <par n="ahora__adv" /> 
-   </e>
    
    <e lm="de ser posible">
       <i>de<b/>ser<b/>posible</i> 
@@ -1545,11 +1491,6 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="en conjunto">
-      <i>en<b/>conjunto</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="en contra">
       <i>en<b/>contra</i> 
       <par n="ahora__adv" /> 
@@ -1622,11 +1563,6 @@
    
    <e lm="en menos que canta un gallo">
       <i>en<b/>menos<b/>que<b/>canta<b/>un<b/>gallo</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="en otro lugar">
-      <i>en<b/>otro<b/>lugar</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -2175,7 +2111,7 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="justo">
+   <e lm="justo" r="RL">
       <i>justo</i> 
       <par n="ahora__adv" /> 
    </e>
@@ -2290,10 +2226,10 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="mejor">
+ <!--  <e lm="mejor">
       <i>mejor</i> 
       <par n="ahora__adv" /> 
-   </e>
+   </e> -->
    
    <e lm="menos">
       <i>menos</i> 
@@ -2309,12 +2245,6 @@
       <i>meramente</i> 
       <par n="ahora__adv" /> 
    </e>
-   
-   <e lm="mientras">
-      <i>mientras</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="mientras tanto">
       <i>mientras<b/>tanto</i> 
       <par n="ahora__adv" /> 
@@ -2332,11 +2262,6 @@
    
    <e lm="minuciosamente" a="prompsit2adn">
       <i>minuciosamente</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="mismo">
-      <i>mismo</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -2797,11 +2722,6 @@
    
    <e lm="por lo visto">
       <i>por<b/>lo<b/>visto</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="por los pelos">
-      <i>por<b/>los<b/>pelos</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -3584,21 +3504,18 @@
       <i>únicamente</i> 
       <par n="ahora__adv" /> 
    </e>
-      <e lm="con el corazón en la mano">
-      <i>con<b/>el<b/>corazón<b/>en<b/>la<b/>mano</i> 
-      <par n="ahora__adv"/> 
-   </e> 
+      
    <e lm="a decir verdad">
       <i>a<b/>decir<b/>verdad</i> 
       <par n="ahora__adv"/> 
    </e>
    <e lm="en fin">
       <i>en<b/>fin</i> 
-      <par n="a_fe_que__cnjadv"/> 
+      <par n="ahora__adv"/> 
    </e>    
    <e lm="en todo caso">
       <i>en<b/>todo<b/>caso</i> 
-      <par n="a_fe_que__cnjadv"/> 
+      <par n="ahora__adv"/> 
    </e>
 
 </section>

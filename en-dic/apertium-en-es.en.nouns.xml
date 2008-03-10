@@ -199,11 +199,15 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="Valencian">
+        <i>Valencian</i> 
+        <par n="house__n"/> 
+    </e>
+
     <e lm="Sumerian">
         <i>Sumerian</i> 
         <par n="house__n"/> 
     </e>
-
     <e lm="Sunday">
         <i>Sunday</i> 
         <par n="house__n"/> 
@@ -543,6 +547,11 @@
 
     <e lm="address">
         <i>address</i> 
+        <par n="access__n"/> 
+    </e>
+
+    <e lm="postal address">
+        <i>postal<b/>address</i> 
         <par n="access__n"/> 
     </e>
 
@@ -2022,8 +2031,8 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="backhead">
-        <i>backhead</i> 
+    <e lm="blackhead">
+        <i>blackhead</i> 
         <par n="house__n"/> 
     </e>
 
@@ -2692,11 +2701,6 @@
 
     <e lm="blow">
         <i>blow</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="blue">
-        <i>blue</i> 
         <par n="house__n"/> 
     </e>
 
@@ -4759,6 +4763,14 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="cunt">
+        <i>cunt</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="forward">
+        <i>forward</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="command">
         <i>command</i> 
         <par n="house__n"/> 
@@ -7441,6 +7453,11 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="dispute">
+        <i>dispute</i> 
+        <par n="house__n"/> 
+    </e>
+
     <e lm="disparity">
         <i>disparit</i> 
         <par n="bab/y__n"/> 
@@ -7458,11 +7475,6 @@
 
     <e lm="dispensation">
         <i>dispensation</i> 
-        <par n="house__n"/> 
-    </e>
-
-    <e lm="display">
-        <i>display</i> 
         <par n="house__n"/> 
     </e>
 
@@ -9393,7 +9405,7 @@
     </e>
 
 
-    <e lm="favor" c="EUA"><p><l>favor</l><r>favour</r></p><par n="house__n"/></e>
+    <e lm="favor" c="EUA" r="LR"><p><l>favor</l><r>favour</r></p><par n="house__n"/></e>
 
     <e lm="favour" c="GB">
         <i>favour</i> 
@@ -14502,6 +14514,15 @@
 	  <r><g><b/>of<b/>parliament</g></r>
 	</p>
     </e>
+
+    <e lm="term of office">
+        <i>term</i> 
+        <par n="house__n"/> 
+	<p>
+	  <l><b/>of<b/>office</l>
+	  <r><g><b/>of<b/>office</g></r>
+	</p>
+    </e>
     <e lm="membership">
         <i>membership</i> 
         <par n="house__n"/> 
@@ -15090,6 +15111,11 @@
         <par n="house__n"/> 
     </e>
 
+
+    <e lm="Moor">
+        <i>Moor</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="moped">
         <i>moped</i> 
         <par n="house__n"/> 
@@ -17443,6 +17469,10 @@
         <i>place</i> 
         <par n="house__n"/> 
     </e>
+    <e lm="lace">
+        <i>lace</i> 
+        <par n="house__n"/> 
+    </e>
 
     <e lm="placenta">
         <i>placenta</i> 
@@ -18930,6 +18960,11 @@
 
     <e lm="rail">
         <i>rail</i> 
+        <par n="house__n"/> 
+    </e>
+
+    <e lm="raid">
+        <i>raid</i> 
         <par n="house__n"/> 
     </e>
 
@@ -23164,6 +23199,8 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="tens" c="added only in plural"><p><l>tens</l><r>ten</r></p><par n="personnel__n"/></e>
+
     <e lm="tension">
         <i>tension</i> 
         <par n="house__n"/> 
@@ -24024,6 +24061,11 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="handkerchief">
+        <i>handkerchie</i> 
+        <par n="wol/f__n"/> 
+    </e>
+
     <e lm="trousers">
         <i>trousers</i> 
         <par n="personnel__n"/> 
@@ -24531,9 +24573,13 @@
 
     <e lm="velvet">
         <i>velvet</i> 
-        <par n="east__n"/> 
+        <par n="house__n"/> 
     </e>
 
+    <e lm="brace">
+        <i>brace</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="vendor" a="carmentano">
         <i>vendor</i> 
         <par n="house__n"/> 
@@ -25713,11 +25759,18 @@
         <par n="bab/y__n"/> 
     </e>
 
-    <e lm="Pole">
+    <e lm="Pole" r="LR">
         <i>Pole</i> 
         <par n="house__n"/> 
     </e>
 
+    <e lm="Pole" r="RL" c="el guió és una trampa perquè es tradueixi 'polaco' per 'Pole' i no entri per l'entrada 'pole' (palo)" >
+      <p>
+        <l>Pole</l> 
+        <r>Pole-</r> 
+      </p>      
+      <par n="house__n"/> 
+    </e>
     <e lm="republican">
         <i>republican</i> 
         <par n="house__n"/> 
@@ -25806,7 +25859,6 @@
 
 <e lm="january"><i>Januar</i><par n="bab/y__n"/></e>
 <e lm="february"><i>Februar</i><par n="bab/y__n"/></e>
-<e lm="april"><i>April</i><par n="house__n"/></e>
 
 
     <e r="LR" lm="March">
@@ -25814,6 +25866,8 @@
         <par n="access__n"/> 
     </e>
 
+<e lm="april"><i>April</i><par n="house__n"/></e>
+<e lm="may"><i>May</i><par n="house__n"/></e>
 <e lm="june"><i>June</i><par n="house__n"/></e>
 <e lm="july"><i>Jul</i><par n="bab/y__n"/></e>
 <e lm="august"><i>August</i><par n="house__n"/></e>
@@ -25830,6 +25884,7 @@
 <e lm="Mr." r="LR"><p><l>Mr.</l><r>Mr</r></p><par n="east__n"/></e>
 <e lm="Mrs." r="LR"><p><l>Mrs.</l><r>Mrs</r></p><par n="east__n"/></e>
 <e lm="Ms." r="LR"><p><l>Ms.</l><r>Ms</r></p><par n="east__n"/></e>
+<e lm="Miss"><i>Miss</i><par n="access__n"/></e>
 
 <e lm="Dr"><i>Dr</i><par n="east__n"/></e>
 <e lm="Dr." r="LR"><p><l>Dr.</l><r>Dr</r></p><par n="east__n"/></e>

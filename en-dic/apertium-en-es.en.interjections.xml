@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section id="interjections" type="standard">
-
-    <!-- 
-      ******************************
-      (ij) group
-      ******************************
-    -->
-    <e lm="good morning">
-        <i>good<b/>morning</i> 
-        <par n="hello__ij"/> 
-    </e>
-
-    <e lm="goodbye">
-        <i>goodbye</i> 
-        <par n="hello__ij"/> 
-    </e>
-
-    <e lm="hello">
-        <i>hello</i> 
-        <par n="hello__ij"/> 
-    </e>
-
-    <e lm="oh">
-        <i>oh</i> 
-        <par n="hello__ij"/> 
-    </e>
+   <e lm="good morning">
+      <i>good<b/>morning</i> 
+      <par n="hello__ij"/> 
+   </e>
+   <e lm="goodbye">
+      <i>goodbye</i> 
+      <par n="hello__ij"/> 
+   </e>
+   <e lm="hello">
+      <i>hello</i> 
+      <par n="hello__ij"/> 
+   </e>
+   <e lm="oh">
+      <i>oh</i> 
+      <par n="hello__ij"/> 
+   </e>
    <e lm="see you later">
       <i>see<b/>you<b/>later</i> 
       <par n="hello__ij"/> 
@@ -34,14 +25,253 @@
       <i>it<b/>takes<b/>all<b/>sorts<b/>to<b/>make<b/>a<b/>world</i> 
       <par n="hello__ij"/> 
    </e>
-
-    <e lm="well" r="RL">
-        <i>well</i> 
-        <par n="hello__ij"/> 
-    </e>
-    <e lm="fuck" r="RL">
-        <i>fuck</i> 
-        <par n="hello__ij"/> 
-    </e>
+   <e lm="well" r="RL">
+      <i>well</i> 
+      <par n="hello__ij"/> 
+   </e>
+   <e lm="fuck" r="RL">
+      <i>fuck</i> 
+      <par n="hello__ij"/> 
+   </e>
+   <!-- new -->
+   <e lm="">
+      <i>third<b/>time<b/>lucky</i>
+      <par n="hello__ij"/>  
+   </e>   
+   <e lm="">
+      <i>the<b/>early<b/>bird<b/>gets<b/>the<b/>worm</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>a<b/>bird<b/>in<b/>the<b/>hand<b/>is<b/>worth<b/>two<b/>in<b/>the<b/>bush</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>fools<b/>rush<b/>in<b/>where<b/>angels<b/>fear<b/>to<b/>tread</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>all<b/>work<b/>and<b/>no<b/>play<b/>makes<b/>Jack<b/>a<b/>dull<b/>boy</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>a<b/>man's<b/>house<b/>is<b/>his<b/>castle</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>a<b/>chip<b/>off<b/>the<b/>old<b/>block</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>once<b/>bitten<b/>twice<b/>shy</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>when<b/>in<b/>Rome<b/>do<b/>as<b/>the<b/>Romans<b/>do</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>you're<b/>pulling<b/>my<b/>leg</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>you<b/>can't<b/>judge<b/>a<b/>book<b/>by<b/>its<b/>cover</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>in<b/>the<b/>blacksmith's<b/>house,<b/>a<b/>wooden<b/>knife</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>they<b/>that<b/>live<b/>by<b/>the<b/>sword<b/>shall<b/>die<b/>by<b/>the<b/>sword</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>we<b/>all<b/>make<b/>mistakes</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>one<b/>man's<b/>meat<b/>is<b/>another<b/>man's<b/>poison</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>one<b/>man's<b/>meat<b/>is<b/>another<b/>man's<b/>poison</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>out<b/>of<b/>sight,<b/>out<b/>of<b/>mind</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>Rome<b/>wasn't<b/>built<b/>in<b/>a<b/>day</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>brain<b/>is<b/>better<b/>than<b/>brawn</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>hunt<b/>with<b/>cats<b/>and<b/>you<b/>catch<b/>only<b/>rats</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>as<b/>you<b/>sow,<b/>so<b/>shall<b/>you<b/>reap</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>as<b/>you<b/>sow,<b/>so<b/>shall<b/>you<b/>reap</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>you<b/>can't<b/>make<b/>a<b/>silk<b/>purse<b/>out<b/>of<b/>a<b/>sow's<b/>ear</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>you<b/>never<b/>know<b/>what<b/>you've<b/>got<b/>till<b/>it's<b/>gone</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>a<b/>friend<b/>in<b/>need<b/>is<b/>a<b/>friend<b/>indeed</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>if<b/>you<b/>keep<b/>your<b/>mouth<b/>shut,<b/>you<b/>won't<b/>put<b/>your<b/>foot<b/>in<b/>it</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>if<b/>you<b/>buy<b/>cheaply,<b/>you<b/>pay<b/>dearly</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>necessity<b/>is<b/>the<b/>mother<b/>of<b/>invention</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>let<b/>sleeping<b/>dogs<b/>lie</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>you<b/>can't<b/>teach<b/>an<b/>old<b/>dog<b/>new<b/>tricks</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>he<b/>who<b/>laughs<b/>last<b/>laughs<b/>longest</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e c="check">
+      <i>the<b/>cure<b/>is<b/>worse<b/>than<b/>the<b/>cause</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>beauty<b/>is<b/>in<b/>the<b/>eye<b/>of<b/>the<b/>beholder</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>love<b/>is<b/>blind</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>if<b/>you<b/>want<b/>a<b/>thing<b/>done<b/>well,<b/>do<b/>it<b/>yourself</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>better<b/>late<b/>than<b/>never</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>no<b/>cows,<b/>no<b/>cares</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>time<b/>is<b/>money</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>there's<b/>no<b/>time<b/>like<b/>the<b/>present</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>better<b/>safe<b/>than<b/>sorry</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>don't<b/>count<b/>your<b/>chickens<b/>(before<b/>they're<b/>hatched)</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>it's<b/>no<b/>use<b/>crying<b/>over<b/>spilt<b/>milk</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>the<b/>grass<b/>is<b/>always<b/>greener<b/>on<b/>the<b/>other<b/>side</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>to<b/>throw<b/>the<b/>baby<b/>out<b/>with<b/>the<b/>bathwater</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>every<b/>cloud<b/>has<b/>a<b/>silver<b/>lining</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>half<b/>a<b/>loaf<b/>is<b/>better<b/>than<b/>no<b/>bread</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>half<b/>a<b/>loaf<b/>is<b/>better<b/>than<b/>no<b/>bread</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>never<b/>put<b/>off<b/>till<b/>tomorrow<b/>what<b/>you<b/>can<b/>do<b/>today</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>absence<b/>makes<b/>the<b/>heart<b/>grow<b/>fonder</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>when<b/>the<b/>cat's<b/>away<b/>the<b/>mice<b/>will<b/>play</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>the<b/>end<b/>justifies<b/>the<b/>means</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>two<b/>heads<b/>are<b/>better<b/>than<b/>one</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>waste<b/>not,<b/>want<b/>not</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>you<b/>can<b/>lead<b/>o<b/>take<b/>a<b/>horse<b/>to<b/>water<b/>but<b/>you<b/>can't<b/>make<b/>it<b/>drink</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>look<b/>after<b/>the<b/>pennies<b/>and<b/>the<b/>pounds<b/>will<b/>look<b/>after<b/>themselves</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>many<b/>hands<b/>make<b/>light<b/>work</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>a<b/>stitch<b/>in<b/>time<b/>(saves<b/>nine)</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>all<b/>that<b/>glitters<b/>is<b/>not<b/>gold</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>I<b/>know<b/>your<b/>game</i>
+      <par n="hello__ij"/>  
+   </e>
+   <e lm="">
+      <i>mind<b/>your<b/>own<b/>business</i>
+      <par n="hello__ij"/>  
+   </e>
 </section>
-

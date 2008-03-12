@@ -534,13 +534,18 @@
    
 <e slr="estar_de_acuerdo"><p><l>agree<s n="vblex"/></l><r>estar<g><b/>de<b/>acuerdo</g><s n="vblex"/></r></p></e>
 
-   <e slr="apuntar D">
+   <e slr="apuntar D" srl="aim D">
       <p>
          <l>aim<s n="vblex"/></l> 
          <r>apuntar<s n="vblex"/></r> 
       </p>
    </e>
-   
+   <e srl="note_down">
+      <p>
+         <l>note<g><b/>down</g><s n="vblex"/><s n="sep"/></l> 
+         <r>apuntar<s n="vblex"/></r> 
+      </p>
+   </e>
    <e r="RL">
       <p>
          <l>aim<s n="vblex"/></l> 
@@ -1810,12 +1815,6 @@
       </p>
    </e>
    
-   <e r="RL" c="(they call him Peter)">
-      <p>
-         <l>call<s n="vblex"/></l> 
-         <r>denominar<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -2103,7 +2102,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="charge">
       <p>
          <l>charge<s n="vblex"/></l> 
          <r>cobrar<s n="vblex"/></r> 
@@ -3118,21 +3117,7 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>count<s n="vblex"/></l> 
-         <r>contar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="LR">
-      <p>
-         <l>count<s n="vblex"/></l> 
-         <r>contar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
+   <e srl="count">
       <p>
          <l>count<s n="vblex"/></l> 
          <r>contar<s n="vblex"/></r> 
@@ -3607,13 +3592,19 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>denominate<s n="vblex"/></l> 
          <r>denominar<s n="vblex"/></r> 
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>designate<s n="vblex"/></l> 
+         <r>denominar<s n="vblex"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>denote<s n="vblex"/></l> 
@@ -3655,12 +3646,6 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>depict<s n="vblex"/></l> 
-         <r>describir<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
@@ -3837,7 +3822,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="detain D">
       <p>
          <l>detain<s n="vblex"/></l> 
          <r>detener<s n="vblex"/></r> 
@@ -4411,7 +4396,7 @@
       </p>
    </e>
    
-   <e slr="caer D">
+   <e slr="caer D" r="LR">
       <p>
          <l>drop<s n="vblex"/></l> 
          <r>caer<s n="vblex"/></r> 
@@ -4425,7 +4410,7 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>drown<s n="vblex"/></l> 
          <r>inundar<s n="vblex"/></r> 
@@ -4474,7 +4459,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e r="RL" srl="earn D">
       <p>
          <l>earn<s n="vblex"/></l> 
          <r>cobrar<s n="vblex"/></r> 
@@ -4753,7 +4738,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="ensure D">
       <p>
          <l>ensure<s n="vblex"/></l> 
          <r>asegurar<s n="vblex"/></r> 
@@ -5088,7 +5073,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="expect D">
       <p>
          <l>expect<s n="vblex"/></l> 
          <r>esperar<s n="vblex"/></r> 
@@ -5109,7 +5094,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e r="RL" srl="explain D">
       <p>
          <l>explain<s n="vblex"/></l> 
          <r>contar<s n="vblex"/></r> 
@@ -5123,14 +5108,14 @@
       </p>
    </e>
    
-   <e>
+   <e srl="explode D">
       <p>
          <l>explode<s n="vblex"/></l> 
          <r>explotar<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e>
+   <e srl="exploit">
       <p>
          <l>exploit<s n="vblex"/></l> 
          <r>explotar<s n="vblex"/></r> 
@@ -6330,7 +6315,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="hope">
       <p>
          <l>hope<s n="vblex"/></l> 
          <r>esperar<s n="vblex"/></r> 
@@ -6687,7 +6672,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="insure">
       <p>
          <l>insure<s n="vblex"/></l> 
          <r>asegurar<s n="vblex"/></r> 
@@ -7121,7 +7106,7 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>leak<s n="vblex"/></l> 
          <r>filtrar<s n="vblex"/></r> 
@@ -7380,7 +7365,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="lose D">
       <p>
          <l>lose<s n="vblex"/></l> 
          <r>perder<s n="vblex"/></r> 
@@ -7409,13 +7394,6 @@
    </e>
    
    <e r="LR">
-      <p>
-         <l>lunch<s n="vblex"/></l> 
-         <r>comer<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e>
       <p>
          <l>lunch<s n="vblex"/></l> 
          <r>comer<s n="vblex"/></r> 
@@ -7667,7 +7645,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="miss">
       <p>
          <l>miss<s n="vblex"/></l> 
          <r>perder<s n="vblex"/></r> 
@@ -7789,7 +7767,7 @@
    <e r="LR">
       <p>
          <l>name<s n="vblex"/></l> 
-         <r>denominar<s n="vblex"/></r> 
+         <r>nombrar<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -7831,7 +7809,7 @@
    <e r="LR">
       <p>
          <l>nominate<s n="vblex"/></l> 
-         <r>nombrar<s n="vblex"/></r> 
+         <r>nominar<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -7982,19 +7960,6 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>open<s n="vblex"/></l> 
-         <r>comenzar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>open<s n="vblex"/></l> 
-         <r>empezar<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
@@ -8045,12 +8010,6 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>order<s n="vblex"/></l> 
-         <r>pedir<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
@@ -8283,13 +8242,6 @@
    
    <e>
       <p>
-         <l>permit<s n="vblex"/></l> 
-         <r>permitir<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
          <l>persist<s n="vblex"/></l> 
          <r>persistir<s n="vblex"/></r> 
       </p>
@@ -8491,7 +8443,7 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e srl="point">
       <p>
          <l>point<s n="vblex"/></l> 
          <r>apuntar<s n="vblex"/></r> 
@@ -8904,7 +8856,7 @@
       </p>
    </e>
    
-   <e slr="apuntar" c="en el teatro">
+   <e slr="apuntar" c="en el teatro" r="LR">
       <p>
          <l>prompt<s n="vblex"/></l> 
          <r>apuntar<s n="vblex"/></r> 
@@ -11130,7 +11082,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e r="RL" srl="stop">
       <p>
          <l>stop<s n="vblex"/></l> 
          <r>detener<s n="vblex"/></r> 
@@ -11822,12 +11774,6 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>think<s n="vblex"/></l> 
-         <r>creer<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e r="RL">
       <p>
@@ -12392,7 +12338,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="wait">
       <p>
          <l>wait<s n="vblex"/></l> 
          <r>esperar<s n="vblex"/></r> 

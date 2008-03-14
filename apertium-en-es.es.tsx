@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <tagger name="spanish">
 <tagset>
-  <def-label name="PARAPR" closed="true">
+ <!-- <def-label name="PARAPR" closed="true">
     <tags-item lemma="para" tags="pr"/>
   </def-label>
   <def-label name="PARAVBPRI" closed="true">
@@ -9,7 +9,7 @@
   </def-label>
   <def-label name="PARAVBIMP" closed="true">
     <tags-item lemma="parar" tags="vblex.imp.p2.sg"/>
-  </def-label>
+  </def-label> -->
   <def-label name="QUECNJ" closed="true">
     <tags-item lemma="que" tags="cnjsub"/>
   </def-label>
@@ -278,7 +278,7 @@
     <tags-item tags="rel.an.*"/>
     <tags-item tags="rel.nn.*"/>
   </def-label>
-  <def-label name="RELAA" closed="true">
+  <def-label name="RELA" closed="true">
     <tags-item tags="rel.aa.*"/>
   </def-label>
   <def-label name="RELADV" closed="true">
@@ -532,6 +532,111 @@
       <label-item label="PREP"/>
       <label-item label="IMPMODPRNENC"/>
     </label-sequence>
+ <label-sequence>
+      <label-item label="CNJSUBS"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+ <label-sequence><!-- 'si guanya' -->
+      <label-item label="CNJADV"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="QUEREL"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="RELA"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <!--<label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence> -->
+    <label-sequence>
+      <label-item label="CNJSUBS"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="CNJADV"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+   <label-sequence>
+      <label-item label="QUEREL"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="RELA"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+  <!--  <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence> -->
+     <label-sequence>
+      <label-item label="CNJSUBS"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="CNJADV"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="QUEREL"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence> 
+     <label-sequence>
+      <label-item label="RELA"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+   <!-- <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="IMPLEXPRNENC"/>
+    </label-sequence> -->
+     <label-sequence>
+      <label-item label="CNJSUBS"/>
+      <label-item label="IMPLEXPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="QUEREL"/>
+      <label-item label="IMPLEXPRNENC"/>
+    </label-sequence> 
+     <label-sequence>
+      <label-item label="RELA"/>
+      <label-item label="IMPLEXPRNENC"/>
+    </label-sequence>
+  <!--  <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="IMPSERPRNENC"/>
+    </label-sequence> -->
+     <label-sequence>
+      <label-item label="CNJSUBS"/>
+      <label-item label="IMPSERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="QUEREL"/>
+      <label-item label="IMPSERPRNENC"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="RELA"/>
+      <label-item label="IMPSERPRNENC"/>
+    </label-sequence>
+   <!-- <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="IMPMODPRNENC"/>
+    </label-sequence> -->
+      <label-sequence>
+      <label-item label="CNJSUBS"/>
+      <label-item label="IMPMODPRNENC"/>
+    </label-sequence>
+   <label-sequence>
+      <label-item label="QUEREL"/>
+      <label-item label="IMPMODPRNENC"/>
+    </label-sequence> 
+      <label-sequence>
+      <label-item label="RELA"/>
+      <label-item label="IMPMODPRNENC"/>
+    </label-sequence>
     <label-sequence>
       <label-item label="DETM"/>
       <label-item label="VLEXPFCI"/>
@@ -760,6 +865,21 @@
       <label-item label="DETMF"/>
       <label-item label="VMODALGER"/>
     </label-sequence>
+
+
+
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VLEXPFCI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VLEXIPI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VLEXSUBJ"/>
+    </label-sequence>
     <label-sequence>
       <label-item label="DETNT"/>
       <label-item label="VLEXIMP"/>
@@ -770,7 +890,15 @@
     </label-sequence>
     <label-sequence>
       <label-item label="DETNT"/>
-      <label-item label="VLEXINF"/>
+      <label-item label="VSERPFCI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VSERIPI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VSERSUBJ"/>
     </label-sequence>
     <label-sequence>
       <label-item label="DETNT"/>
@@ -782,7 +910,15 @@
     </label-sequence>
     <label-sequence>
       <label-item label="DETNT"/>
-      <label-item label="VSERINF"/>
+      <label-item label="VHABERPFCI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VHABERIPI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VHABERSUBJ"/>
     </label-sequence>
     <label-sequence>
       <label-item label="DETNT"/>
@@ -790,7 +926,15 @@
     </label-sequence>
     <label-sequence>
       <label-item label="DETNT"/>
-      <label-item label="VHABERINF"/>
+      <label-item label="VMODALPFCI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VMODALIPI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="VMODALSUBJ"/>
     </label-sequence>
     <label-sequence>
       <label-item label="DETNT"/>
@@ -800,6 +944,9 @@
       <label-item label="DETNT"/>
       <label-item label="VMODALGER"/>
     </label-sequence>
+
+
+
     <label-sequence>
       <label-item label="DETNT"/>
       <label-item label="VMODALINF"/>
@@ -1120,7 +1267,11 @@
     <label-sequence>
       <label-item label="DETMF"/>
       <label-item label="SENT"/>
-    </label-sequence>   
+    </label-sequence>  
+    <label-sequence>
+      <label-item label="DETNT"/>
+      <label-item label="SENT"/>
+    </label-sequence>  
     <label-sequence>
       <label-item label="PREP"/>
       <label-item label="SENT"/>
@@ -1880,6 +2031,133 @@
     <label-sequence>
       <label-item label="VMODALIMP"/>
       <label-item label="ADJPOS"/>
+    </label-sequence><label-sequence><!--Afegides les 3 següents 30/11/05 MG -->
+      <label-item label="INTNOM"/>
+      <label-item label="NOMF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="INTNOM"/>
+      <label-item label="NOMM"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="INTNOM"/>
+      <label-item label="NOMMF"/>
+    </label-sequence>
+    <label-sequence><!--13/01/06 -->
+      <label-item label="MOLTADV"/>
+      <label-item label="INTERJ"/>
+    </label-sequence>
+    <label-sequence><!--01/02/06 (no canvia res)-->
+      <label-item label="ADV"/>
+      <label-item label="INTERJ"/>
+    </label-sequence>
+     <label-sequence><!--11/10/06 -->
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence><!--28/11/06 tots els forbids amb querel: prova-->
+      <label-item label="VOLERMOD"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VOLERLEX"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="VLEXINF"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="VLEXGER"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPFCI"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIPI"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXSUBJ"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="VLEXIMP"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERINF"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="VSERGER"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="VSERPFCI"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIPI"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERSUBJ"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="VSERIMP"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+ <label-sequence>
+      <label-item label="VMODALINF"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+<label-sequence>
+      <label-item label="VMODALGER"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+<label-sequence>
+      <label-item label="VMODALPFCI"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+<label-sequence>
+      <label-item label="VMODALIPI"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALSUBJ"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIMP"/>
+      <label-item label="QUEREL"/>
+    </label-sequence>
+    <label-sequence><!--ella piensa -->
+      <label-item label="PRNTN"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNTN"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNTN"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+    <label-sequence><!--siempre/no piensa -->
+      <label-item label="ADV"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ADV"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ADV"/>
+      <label-item label="VMODALIMP"/>
     </label-sequence>
 
   </forbid>

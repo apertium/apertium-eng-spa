@@ -10,6 +10,16 @@
 
 <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
 <e lm="pronoms personals d'objecte"><i/><par n="probj__prn"/></e>
+<e lm="myself"><p><l>myself</l><r>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="yourself" a="doriua"><p><l>yourself</l><r>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="herself"><p><l>herself</l><r>herself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="himself"><p><l>himself</l><r>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="itself"><p><l>itself</l><r>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+<e lm="ourselves" a="doriua"><p><l>ourselves</l><r>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+<e lm="yourselves" a="doriua"><p><l>yourselves</l><r>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+<!--MG: falta 'yourself' ourselves etc etc repassar -->
+
+<e lm="themselves"><p><l>themselves</l><r>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
 
     <e lm="all" c="all is/all are - tot/tot">
@@ -83,6 +93,7 @@
     </e>
 
     <e lm="many"><i>many</i><par n="both__prn"/></e>
+    <e lm="few"><i>few</i><par n="both__prn"/></e>
 
     <e lm="hers">
         <i>hers</i> 

@@ -2848,6 +2848,11 @@
         <par n="liv/e__vblex"/> 
     </e>
 
+    <e lm="migrate">
+        <i>migrat</i> 
+        <par n="liv/e__vblex"/> 
+    </e>
+
     <e lm="employ">
         <i>employ</i> 
         <par n="enjoy__vblex"/> 
@@ -3417,6 +3422,8 @@
         <i>flower</i> 
         <par n="accept__vblex"/> 
     </e>
+
+    <e lm="lower"><i>lower</i><par n="accept__vblex" /></e>
 
     <e lm="fluctuate">
         <i>fluctuat</i> 
@@ -5146,7 +5153,7 @@
 
     <e lm="note down">
         <i>not</i> 
-        <par n="liv/e__vblex"/>
+        <par n="liv/e__vblex" sa="sep"/>
         <par n="probj_dem__prn"/> 
       <p>
         <l><b/>down</l> 
@@ -5438,6 +5445,8 @@
         <i>proceed</i> 
         <par n="accept__vblex"/> 
     </e>
+
+    <e lm="succeed"><i>succeed</i><par n="accept__vblex"/></e>
 
     <e lm="process">
         <i>process</i> 

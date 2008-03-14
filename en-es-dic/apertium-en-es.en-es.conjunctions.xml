@@ -163,10 +163,17 @@
       </p>
    </e>
    
-   <e r="LR">
+  <!-- <e r="LR">
       <p>
          <l>as<s n="cnjadv"/></l> 
          <r>mientras<s n="cnjadv"/></r> 
+      </p>
+   </e> -->
+   
+   <e r="LR" slr="cuando D">
+      <p>
+         <l>as<s n="cnjadv"/></l> 
+         <r>cuando<s n="cnjadv"/></r> 
       </p>
    </e>
    
@@ -178,7 +185,7 @@
       </p>
    </e>
   
-  
+   <e slr="como"><p><l>as<s n="cnjadv"/></l><r>como<s n="cnjadv"/></r></p></e>
    
    <e>
       <p>
@@ -425,6 +432,11 @@
          <r>aún<b/>así<s n="cnjadv"/></r> 
       </p>
    </e>
-   
+
+
+   <e r="RL" c="tant això com allò"><p><l>and<s n="cnjcoo"/></l><r>como<s n="cnjcoo"/></r></p></e>
+
+ 
+
 </section>
 

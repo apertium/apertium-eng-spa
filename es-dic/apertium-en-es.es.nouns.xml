@@ -1467,6 +1467,10 @@
     <i>asegurador</i>
     <par n="señor__n"/>
   </e>
+  <e lm="secuestrador">
+    <i>secuestrador</i>
+    <par n="señor__n"/>
+  </e>
   <e lm="asesino">
     <i>asesin</i>
     <par n="abogad/o__n"/>
@@ -1743,6 +1747,10 @@
     <i>autodefensa</i>
     <par n="abeja__n"/>
   </e>
+  <e lm="bombilla">
+    <i>bombilla</i>
+    <par n="abeja__n"/>
+  </e>
   <e lm="autodeterminación" a="prompsit2adn">
     <i>autodeterminaci</i>
     <par n="acci/ón__n"/>
@@ -1853,6 +1861,10 @@
   </e>
   <e lm="aviso">
     <i>aviso</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="dinero">
+    <i>dinero</i>
     <par n="abismo__n"/>
   </e>
   <e lm="axila">
@@ -4486,10 +4498,6 @@
   <e lm="consejo">
     <i>consejo</i>
     <par n="abismo__n"/>
-  </e>
-  <e lm="conseller">
-    <i>conseller</i>
-    <par n="conseller__n"/>
   </e>
   <e lm="consenso">
     <i>consenso</i>
@@ -20563,6 +20571,10 @@
         <i>óvalo</i> 
         <par n="abismo__n"/> 
     </e>
+    <e lm="descontento">
+        <i>descontento</i> 
+        <par n="abismo__n"/> 
+    </e>
 
     <e lm="periférico">
         <i>periférico</i> 
@@ -20634,11 +20646,17 @@
 <e lm="raza humana"><p><l>raza<b/>humana</l><r>raza<b/>humana<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="raza humana"><p><l>razas<b/>humanas</l><r>raza<b/>humana<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
+<e lm="hombre armado"><p><l>hombre<b/>armado</l><r>hombre<b/>armado<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="hombre armado"><p><l>hombres<b/>armados</l><r>hombre<b/>armado<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 <e lm="dirección postal"><p><l>dirección<b/>postal</l><r>dirección<b/>postal<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="dirección postal"><p><l>direcciones<b/>postales</l><r>dirección<b/>postal<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="Audiencia Nacional"><p><l>Audiencia<b/>Nacional</l><r>Audiencia<b/>Nacional<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="tribunal supremo"><p><l>tribunal<b/>supremo</l><r>tribunal<b/>supremo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+
+<e lm="fuerzas de seguridad"><i>fuerzas<b/>de<b/>seguridad</i><par n="afueras__n"/></e>
+<e lm="fuerzas armadas"><i>fuerzas<b/>armadas</i><par n="afueras__n"/></e>
 
 <e lm="Dr."><i>Dr.</i><par n="atletismo__n"/></e>
 <e lm="Dra."><i>Dra.</i><par n="cuaresma__n"/></e>

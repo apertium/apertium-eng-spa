@@ -182,7 +182,7 @@
 <e r="RL"><p><l>mine<s n="prn"/><s n="pos"/></l><r>el<b/>mío<s n="prn"/><s n="pos"/></r></p></e>
 
 <!-- <e r="RL" c="traducció per defecte ca-en és per ara 'his'"><p><l>yours<s n="prn"/></l><r>el<b/>suyo<s n="prn"/></r></p></e> -->
-<e r="RL" c="per ara de en-ca es genera només 'el vostre'"><p><l>yours<s n="prn"/></l><r>el<b/>tuyoeu<s n="prn"/></r></p></e>
+<e r="RL" c="per ara de en-ca es genera només 'el vostre'"><p><l>yours<s n="prn"/></l><r>el<b/>tuyo<s n="prn"/></r></p></e>
 <e r="LR"><p><l>yours<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></l><r>el<b/>vuestro<s n="prn"/><s n="pos"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>yours<s n="prn"/><s n="pos"/></l><r>el<b/>vuestro<s n="prn"/><s n="pos"/></r></p></e>
 <e r="LR"><p><l>ours<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></l><r>el<b/>nuestro<s n="prn"/><s n="pos"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -217,52 +217,40 @@
    
    <e r="LR">
       <p>
-         <l>none<s n="prn"/><s n="tn"/><s n="nt"/></l> 
+         <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l> 
          <r>ninguno<s n="prn"/><s n="tn"/><s n="GD"/><s n="sg"/></r> 
       </p>
    </e>
    
-   <e r="RL" c="frases negatives. EN-CA: per trànsfer">
-      <p>
-         <l>none<s n="prn"/><s n="tn"/><s n="nt"/></l> 
-         <r>ninguno<s n="prn"/><s n="tn"/><s n="GD"/><s n="sg"/></r> 
-      </p>
-   </e>
    
    <e r="RL">
       <p>
-         <l>none<s n="prn"/><s n="tn"/><s n="nt"/></l> 
+         <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l> 
          <r>ninguno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>none<s n="prn"/><s n="tn"/><s n="nt"/></l> 
+         <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l> 
          <r>ninguno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>none<s n="prn"/><s n="tn"/><s n="nt"/></l> 
+         <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l> 
          <r>ninguno<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>none<s n="prn"/><s n="tn"/><s n="nt"/></l> 
+         <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l> 
          <r>ninguno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r> 
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>none<s n="prn"/><s n="tn"/><s n="nt"/></l> 
-         <r>ninguno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -293,6 +281,9 @@
 <e r="RL"><p><l>many<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>muchos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>many<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>muchos<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 
+<e r="LR"><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>pocos<s n="prn"/><s n="tn"/><s n="GD"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>pocos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>pocos<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 
 <e r="RL" c="frases interrogatives"><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>alguno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL" c="frases interrogatives"><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>alguno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
@@ -491,31 +482,26 @@
    
    <e r="LR">
       <p>
-         <l>who<s n="prn"/><s n="itg"/><s n="m"/></l> 
+         <l>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l> 
          <r>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="ND"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>who<s n="prn"/><s n="itg"/><s n="m"/></l> 
+         <l>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l> 
          <r>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r> 
       </p>
    </e>
    
    <e r="RL">
       <p>
-         <l>who<s n="prn"/><s n="itg"/><s n="m"/></l> 
+         <l>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l> 
          <r>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r> 
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>who<s n="prn"/><s n="itg"/><s n="m"/></l> 
-         <r>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-   </e>
+ 
    
    <e r="LR">
       <p>
@@ -598,8 +584,16 @@
 <e r="RL" c="MG: traducció buida, per ara només!!"><p><l/><r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
+<e r="LR"><p><l>herself<s n="prn"/><s n="ref"/><s n="p3"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
+<e r="LR"><p><l>himself<s n="prn"/><s n="ref"/><s n="p3"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
+<e r="LR"><p><l>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>myself<s n="prn"/><s n="ref"/><s n="p1"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/></r></p></e>
+<e r="LR" a="doriua"><p><l>yourself<s n="prn"/><s n="ref"/><s n="p2"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/></r></p></e>
+<e r="LR" a="doriua"><p><l>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR" a="doriua"><p><l>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
 
-
+<e r="LR"><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>sí<s n="prn"/><s n="tn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
 <!--
   <e r="RL">
@@ -628,7 +622,7 @@
    
   
    
-  <e r="LR">
+  <e>
       <p>
          <l>the<b/>one<b/>who<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l> 
          <r>el<b/>que<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r> 

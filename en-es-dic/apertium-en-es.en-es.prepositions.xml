@@ -234,9 +234,15 @@
       </p>
    </e>
    
-   <e>
+   <e srl="by D">
       <p>
          <l>by<s n="pr"/></l> 
+         <r>por<s n="pr"/></r> 
+      </p>
+   </e>
+   <e srl="through">
+      <p>
+         <l>through<s n="pr"/></l> 
          <r>por<s n="pr"/></r> 
       </p>
    </e>
@@ -335,13 +341,6 @@
    
    <e r="RL">
       <p>
-         <l>for<s n="pr"/></l> 
-         <r>por<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
          <l>from<s n="pr"/></l> 
          <r>a<b/>partir<b/>de<s n="pr"/></r> 
       </p>
@@ -351,13 +350,6 @@
       <p>
          <l>from<s n="pr"/></l> 
          <r>de<s n="pr"/></r> 
-      </p>
-   </e>
-   
-   <e c="això seria polisèmia o no? (in->en/a)" r="RL">
-      <p>
-         <l>in<s n="pr"/></l> 
-         <r>a<s n="pr"/></r> 
       </p>
    </e>
    

@@ -518,7 +518,7 @@
       </p>
    </e>
    
-   <e slr="acordar D">
+   <e slr="acordar">
       <p>
          <l>agree<s n="vblex"/></l> 
          <r>acordar<s n="vblex"/></r> 
@@ -532,7 +532,7 @@
       </p>
    </e>
    
-<e slr="estar_de_acuerdo"><p><l>agree<s n="vblex"/></l><r>estar<g><b/>de<b/>acuerdo</g><s n="vblex"/></r></p></e>
+<e slr="estar_de_acuerdo D"><p><l>agree<s n="vblex"/></l><r>estar<g><b/>de<b/>acuerdo</g><s n="vblex"/></r></p></e>
 
    <e slr="apuntar D" srl="aim D">
       <p>
@@ -4612,6 +4612,18 @@
          <r>emigrar<s n="vblex"/></r> 
       </p>
    </e>
+   <e r="LR">
+      <p>
+         <l>migrate<s n="vblex"/></l> 
+         <r>emigrar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e r="RL">
+      <p>
+         <l>migrate<s n="vblex"/></l> 
+         <r>migrar<s n="vblex"/></r> 
+      </p>
+   </e>
    
    <e>
       <p>
@@ -4724,13 +4736,19 @@
       </p>
    </e>
    
-   <e r="LR" c="MG: potser eliminar marca de polisèmia i fer-ho pel transfer? (I enjoy + ing)">
+   <e r="LR" slr="gustar" c="MG: potser eliminar marca de polisèmia i fer-ho pel transfer? (I enjoy + ing)">
       <p>
          <l>enjoy<s n="vblex"/></l> 
          <r>gustar<s n="vblex"/></r> 
       </p>
    </e>
    
+   <e slr="disfrutar D">
+      <p>
+         <l>enjoy<s n="vblex"/></l> 
+         <r>disfrutar<s n="vblex"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>enrol<s n="vblex"/></l> 
@@ -5937,6 +5955,12 @@
       </p>
    </e>
    
+   <e r="LR">
+      <p>
+         <l>lower<s n="vblex"/></l> 
+         <r>bajar<s n="vblex"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>go<g><b/>in</g><s n="vblex"/></l> 
@@ -7575,20 +7599,22 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e r="LR" slr="conocer D">
       <p>
          <l>meet<s n="vblex"/></l> 
          <r>conocer<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e r="LR" c="(requirements, deures)">
+   <e r="LR" c="(requirements, deures)" slr="cumplir">
       <p>
          <l>meet<s n="vblex"/></l> 
          <r>cumplir<s n="vblex"/></r> 
       </p>
    </e>
    
+   <e><p><l>succeed<s n="vblex"/></l><r>tener<g><b/>éxito</g><s n="vblex"/></r></p></e>
+
    <e>
       <p>
          <l>melt<s n="vblex"/></l> 
@@ -7806,7 +7832,7 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e>
       <p>
          <l>nominate<s n="vblex"/></l> 
          <r>nominar<s n="vblex"/></r> 
@@ -10329,7 +10355,7 @@
    <e r="LR">
       <p>
          <l>seize<s n="vblex"/></l> 
-         <r>confiscar<s n="vblex"/></r> 
+         <r>coger<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -10439,6 +10465,12 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>set<g><b/>up</g><s n="vblex"/><s n="sep"/></l> 
+         <r>poner<g><b/>en<b/>marcha</g><s n="vblex"/></r> 
+      </p>
+   </e>
    <e r="LR">
       <p>
          <l>settle<s n="vblex"/></l> 

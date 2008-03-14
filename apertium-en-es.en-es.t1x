@@ -482,6 +482,10 @@
       <cat-item lemma="never" tags="adv"/>
     </def-cat>
 
+    <def-cat n="ago">
+      <cat-item lemma="ago" tags="adv"/>
+    </def-cat>
+
     <def-cat n="preadv">
       <cat-item tags="preadv"/>
     </def-cat>
@@ -606,6 +610,7 @@
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="num"/>
+      <attr-item tags="num.percent"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -12268,6 +12273,117 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	</out>
       </action>
     </rule>
+
+
+ <rule comment="REGLA: DET NOM ago (a week ago)"> 
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="ago"/>
+      </pattern>
+      <action>
+	<call-macro n="det_no">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="hace_det_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.DET"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	      <tag><var n="tipus_det"/></tag> <!-- BCN per recollir si es negacio-->
+	    </tags>
+	    <lu>	      
+	      <clip pos="3" side="tl" part="whole"/>
+	    </lu>
+	    <b pos="1"/>	    
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	    <b pos="2"/>
+	    <lu> 
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="2" side="tl" part="gen_mf"/>
+	      <clip pos="2" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="2" side="tl" part="nbr_sp"/>
+	      <clip pos="2" side="tl" part="lemq"/> 
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule> 
+
+ <rule comment="REGLA: NUM NOM ago (two weeks ago)">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="ago"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="flexio_numerals">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro> 
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out> 
+	  <chunk name="hace_num_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.NUM"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>	      
+	      <clip pos="3" side="tl" part="whole"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_num"/> 
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/> 
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	    <b pos="2"/>
+	    <lu> 
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/> 
+	      <clip pos="2" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="2" side="tl" part="gen_mf"/>  
+	      <clip pos="2" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="2" side="tl" part="nbr_sp"/>
+	      <clip pos="2" side="tl" part="lemq"/> 
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
 
 
     <!--    <rule comment="REGLA: DET PP NOM  (The preferred model - el model preferit. An increased risk - un risc augmentat (major)">   BCN OJO OJO sobra

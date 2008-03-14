@@ -12,14 +12,7 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>any<s n="preadv"/></l> 
-         <r>muy<s n="preadv"/></r> 
-      </p>
-   </e>
-   
-   <e c="comparacions">
+   <e c="comparacions" r="LR">
       <p>
          <l>as<s n="preadv"/></l> 
          <r>tan<s n="preadv"/></r> 
@@ -34,20 +27,6 @@
    </e>
    
    <e r="LR">
-      <p>
-         <l>just<b/>as<s n="preadv"/></l> 
-         <r>tan<s n="preadv"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>just<b/>as<s n="preadv"/></l> 
-         <r>tan<s n="preadv"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
       <p>
          <l>just<b/>as<s n="preadv"/></l> 
          <r>tan<s n="preadv"/></r> 
@@ -1348,6 +1327,9 @@
       </p>
    </e>
    
+   <e r="LR"><p><l>profoundly<s n="adv"/></l><r>profundamente<s n="adv"/></r></p></e>
+   <e r="LR"><p><l>ago<s n="adv"/></l><r>hace<s n="adv"/></r></p></e>
+
    <e>
       <p>
          <l>definitely<s n="adv"/></l> 
@@ -1607,7 +1589,7 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e>
       <p>
          <l>elsewhere<s n="adv"/></l> 
          <r>en<b/>otro<b/>lugar<s n="adv"/></r> 
@@ -4590,19 +4572,13 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>over<b/>there<s n="adv"/></l> 
          <r>allí<s n="adv"/></r> 
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>overall<s n="adv"/></l> 
-         <r>en<b/>conjunto<s n="adv"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>
@@ -5998,10 +5974,16 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>there<s n="adv"/></l> 
          <r>allá<s n="adv"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>there<s n="adv"/></l> 
+         <r>allí<s n="adv"/></r> 
       </p>
    </e>
    
@@ -6860,5 +6842,6 @@
       </p>
    </e>
    
+
 </section>
 

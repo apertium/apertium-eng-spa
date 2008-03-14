@@ -5240,41 +5240,24 @@
         <i>denomin</i> 
         <par n="abandon/ar__vblex"/> 
     </e>
-
     <e lm="denominar">
-        <i>denomin</i> 
+      <p>
+        <l>denomín</l> 
+        <r>denomin</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
+    <e lm="nominar">
+        <i>nomin</i> 
         <par n="abandon/ar__vblex"/> 
     </e>
-
-    <e lm="denominar">
-        <i>denomin</i> 
-        <par n="abandon/ar__vblex"/> 
-    </e>
-
-    <e lm="denominar">
+    <e lm="nominar">
       <p>
-        <l>denomín</l> 
-        <r>denomin</r> 
+        <l>nomín</l> 
+        <r>nomin</r> 
       </p>
         <par n="abandón/ar__vblex"/> 
     </e>
-
-    <e lm="denominar">
-      <p>
-        <l>denomín</l> 
-        <r>denomin</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
-    </e>
-
-    <e lm="denominar">
-      <p>
-        <l>denomín</l> 
-        <r>denomin</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
-    </e>
-
     <e lm="denotar">
         <i>denot</i> 
         <par n="abandon/ar__vblex"/> 
@@ -6963,6 +6946,25 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
+    <e lm="emigrar">
+      <p>
+        <l>emígr</l> 
+        <r>emigr</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
+    <e lm="migrar">
+        <i>migr</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
+    <e lm="migrar">
+      <p>
+        <l>mígr</l> 
+        <r>migr</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
     <e lm="emitir">
         <i>emit</i> 
         <par n="abat/ir__vblex"/> 
@@ -7111,13 +7113,6 @@
         <par n="acó/ger__vblex"/> 
     </e>
 
-    <e lm="emigrar">
-      <p>
-        <l>emígr</l> 
-        <r>emigr</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
-    </e>
 
     <e lm="emitir">
       <p>
@@ -8501,6 +8496,18 @@
         <par n="abandón/ar__vblex"/> 
     </e>
 
+    <e lm="disfrutar">
+        <i>disfrut</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
+    <e lm="disfrutar">
+      <p>
+        <l>disfrút</l> 
+        <r>disfrut</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
     <e lm="explicar">
         <i>expli</i> 
         <par n="ata/car__vblex"/> 
@@ -16792,6 +16799,14 @@
          <r><g><b/>hambre</g></r>
       </p>
    </e>
+   <e lm="tener éxito">
+      <i>t</i> 
+      <par n="t/ener__vblex"/> 
+      <p>
+         <l><b/>éxito</l>
+         <r><g><b/>éxito</g></r>
+      </p>
+   </e>
    <e lm="pedir disculpas">
       <i>p</i>
       <par n="desp/edir__vblex"/>
@@ -16892,5 +16907,13 @@
       </p>
    </e>
 
+    <e lm="poner">
+        <i>p</i> 
+        <par n="p/oner__vblex"/> 
+      <p>
+         <l><b/>en<b/>marcha</l>
+         <r><g><b/>en<b/>marcha</g></r>
+      </p>
+    </e>
   </section>
 

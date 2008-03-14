@@ -251,6 +251,8 @@
   </section-def-attrs>
   <section-def-vars>
     <def-var n="paraula"/>
+    <def-var n="genero"/>
+    <def-var n="numero"/>
   </section-def-vars>
 
 
@@ -274,6 +276,55 @@
       </choose>
     </def-macro>
 
+    <def-macro n="gen_nbr_determinante" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <not>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="mf"/>
+	      </equal>
+	    </not>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <clip pos="1" part="gen"/>
+	  </let>
+	</when>
+	<otherwise>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</otherwise>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <not>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	    </not>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <clip pos="1" part="nbr"/>
+	  </let>
+	</when>
+	<otherwise>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</otherwise>
+      </choose>
+    </def-macro>
+		 
+	    
+
   </section-def-macros>
 
   <section-rules>
@@ -283,6 +334,9 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -301,19 +355,15 @@
 	    </test>
 	    <out>
 	      <lu>
-		<get-case-from pos="1">
+		<get-case-from pos="0">
 		  <lit v="el"/>
 		</get-case-from>
 		<lit-tag v="det.def"/>
-		<clip pos="1" part="gen"/>
-		<clip pos="1" part="nbr"/>
+		<var n="genero"/>
+		<var n="numero"/>
 	      </lu>
 	      <b/>
 	    </out>
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>
 	  </when>
 	</choose>	 
 	<out>
@@ -329,6 +379,9 @@
 	<pattern-item n="adj_nom"/>
       </pattern>
       <action>
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -339,19 +392,15 @@
 	    </test>
 	    <out>
 	      <lu>
-		<get-case-from pos="1">
+		<get-case-from pos="0">
 		  <lit v="el"/>
 		</get-case-from>
 		<lit-tag v="det.def"/>
-		<clip pos="1" part="gen"/>
-		<clip pos="1" part="nbr"/>
+		<var n="genero"/>
+		<var n="numero"/>
 	      </lu>
 	      <b/>
 	    </out>
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>
 	  </when>
 	</choose>	 
 	<out>
@@ -402,21 +451,22 @@
 		  </equal>
 		</not>
 	      </and>
-	    </test>
+	    </test>	    
+	    <call-macro n="gen_nbr_determinante">
+	      <with-param pos="1"/>
+	    </call-macro>
 	    <out>
 	      <lu>
-		<get-case-from pos="1">
+		<get-case-from pos="0">
 		  <lit v="el"/>
 		</get-case-from>
 		<lit-tag v="det.def"/>
-		<clip pos="1" part="gen"/>
-		<clip pos="1" part="nbr"/>
+		<var n="genero"/>
+		<var n="numero"/>
 	      </lu>
 	      <b/>
 	      <lu>
-		<get-case-from pos="2">
-		  <clip pos="1" part="lem"/>
-		</get-case-from>
+		<clip pos="1" part="lem"/>
 		<clip pos="1" part="tags"/>
 		<clip pos="1" part="chcontent"/>
 	      </lu>
@@ -425,13 +475,18 @@
 		<clip pos="2" part="whole"/>
 	      </lu>
 	      <b pos="2"/>
+	    </out>	    
+	    <call-macro n="gen_nbr_determinante">
+	      <with-param pos="3"/>
+	    </call-macro>
+	    <out>
 	      <lu>
 		<get-case-from pos="3">
 		  <lit v="el"/>
 		</get-case-from>
 		<lit-tag v="det.def"/>
-		<clip pos="3" part="gen"/>
-		<clip pos="3" part="nbr"/>
+		<var n="genero"/>
+		<var n="numero"/>
 	      </lu>
 	      <b/>
 	      <lu>
@@ -463,7 +518,10 @@
       <pattern>
 	<pattern-item n="adj_adj_nom"/>
       </pattern>
-      <action>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -474,19 +532,15 @@
 	    </test>
 	    <out>
 	      <lu>
-		<get-case-from pos="1">
+		<get-case-from pos="0">
 		  <lit v="el"/>
 		</get-case-from>
 		<lit-tag v="det.def"/>
-		<clip pos="1" part="gen"/>
-		<clip pos="1" part="nbr"/>
+		<var n="genero"/>
+		<var n="numero"/>
 	      </lu>
 	      <b/>
 	    </out>
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>
 	  </when>
 	</choose>	 
 	<out>

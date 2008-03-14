@@ -17070,6 +17070,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="kidnapper">
+        <i>kidnapper</i> 
+        <par n="house__n"/> 
+    </e>
     <e lm="percent">
         <i>percent</i> 
         <par n="house__n"/> 
@@ -17693,6 +17697,10 @@
         <i>policewom</i> 
         <par n="m/an__n"/> 
     </e>
+
+
+    <e lm="security forces"><i>security<b/>forces</i><par n="personnel__n"/></e>
+    <e lm="armed forces"><i>armed<b/>forces</i><par n="personnel__n"/></e>
 
     <e lm="politician">
         <i>politician</i> 
@@ -21958,6 +21966,10 @@
         <par n="m/an__n"/> 
     </e>
 
+    <e lm="gunman">
+        <i>gunm</i> 
+        <par n="m/an__n"/> 
+    </e>
     <e lm="sponge">
         <i>sponge</i> 
         <par n="house__n"/> 
@@ -24150,6 +24162,16 @@
         <par n="house__n"/> 
     </e>
 
+
+    <e lm="bulb">
+        <i>bulb</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="light bulb">
+        <i>light<b/>bulb</i> 
+        <par n="house__n"/> 
+    </e>
+
     <e lm="turbulence">
         <i>turbulence</i> 
         <par n="house__n"/> 
@@ -24484,6 +24506,8 @@
         <i>valley</i> 
         <par n="house__n"/> 
     </e>
+
+    <e lm="money"><i>mon</i><par n="mon/ey__n"/></e>
 
     <e lm="valorization">
         <i>valorization</i> 

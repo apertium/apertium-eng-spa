@@ -1030,17 +1030,18 @@
 	   </when>
 	 </choose>
        </when>
-     </choose>
 
+
+     </choose>
 
 <!--OPERACIONS DE GÈNERE -->
       <choose>
 	<when>
 	  <test>
-	      <equal>
-		<clip pos="2" side="tl" part="gen"/>
-		<lit-tag v="GD"/>
-	      </equal>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
 	  </test>
 	  <choose>
 	    <when>
@@ -1058,10 +1059,16 @@
 	    <when>
 	      <test>
 		<not><!--si gènere de pos 1 és masc o fem -->
-		  <equal>
-		    <clip pos="1" side="tl" part="gen"/>
-		    <lit-tag v="mf"/>
-		  </equal>
+		  <or>
+		    <equal>
+		      <clip pos="1" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		    <equal><!--els 'num' no tenen ni gen ni nbr -->
+		      <clip pos="1" side="tl" part="gen"/>
+		      <lit v=""/>
+		    </equal>
+		  </or>
 		</not>
 	      </test>
 	      <let>
@@ -1073,7 +1080,7 @@
 		<clip pos="1" side="tl" part="gen"/>
 	      </let>
 	    </when>
-	    <otherwise><!--si gènere pos 1 és mf -->
+	    <otherwise><!--si gènere pos 1 és mf o està en blanc -->
 	      <let>
 		<var n="gen_chunk"/>
 		<lit-tag v="GD"/>
@@ -1098,10 +1105,16 @@
 	<when>
 	  <test>
 	    <not>
-	      <equal>
-		<clip pos="1" side="tl" part="gen"/>
-		<lit-tag v="mf"/>
-	      </equal>
+	      <or>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit v=""/>
+		</equal>
+	      </or>		
 	    </not>
 	  </test>
 	  <let>
@@ -1154,10 +1167,16 @@
 	    <when>
 	      <test>
 		<not><!--si nombre de pos 1 és masc o fem -->
-		  <equal>
-		    <clip pos="1" side="tl" part="nbr"/>
-		    <lit-tag v="sp"/>
-		  </equal>
+		  <or>
+		    <equal>
+		      <clip pos="1" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" side="tl" part="nbr"/>
+		      <lit v=""/>
+		    </equal>
+		  </or>
 		</not>
 	      </test>
 	      <let>
@@ -1194,10 +1213,16 @@
 	<when>
 	  <test>
 	    <not>
-	      <equal>
-		<clip pos="1" side="tl" part="nbr"/>
-		<lit-tag v="sp"/>
-	      </equal>
+	      <or>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit v=""/>
+		</equal>
+	      </or>
 	    </not>
 	  </test>
 	  <let>
@@ -1383,10 +1408,16 @@
 	    <when>
 	      <test>
 		<not><!--si gènere de pos 1 és masc o fem -->
-		  <equal>
-		    <clip pos="1" side="tl" part="gen"/>
-		    <lit-tag v="mf"/>
-		  </equal>
+		  <or>
+		    <equal>
+		      <clip pos="1" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" side="tl" part="gen"/>
+		      <lit v=""/>
+		    </equal>
+		  </or>
 		</not>
 	      </test>
 	      <let>
@@ -1423,10 +1454,16 @@
 	<when>
 	  <test>
 	    <not>
-	      <equal>
-		<clip pos="1" side="tl" part="gen"/>
-		<lit-tag v="mf"/>
-	      </equal>
+	      <or>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit v=""/>
+		</equal>
+	      </or>
 	    </not>
 	  </test>
 	  <let>
@@ -1520,10 +1557,16 @@
 	    <when>
 	      <test>
 		<not><!--si nombre de pos 1 és masc o fem -->
-		  <equal>
-		    <clip pos="1" side="tl" part="nbr"/>
-		    <lit-tag v="sp"/>
-		  </equal>
+		  <or>
+		    <equal>
+		      <clip pos="1" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" side="tl" part="nbr"/>
+		      <lit v=""/>
+		    </equal>
+		  </or>
 		</not>
 	      </test>
 	      <let>
@@ -1560,10 +1603,16 @@
 	<when>
 	  <test>
 	    <not>
-	      <equal>
-		<clip pos="1" side="tl" part="nbr"/>
-		<lit-tag v="sp"/>
-	      </equal>
+	      <or>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit v=""/>
+		</equal>
+	      </or>
 	    </not>
 	  </test>
 	  <let>
@@ -1843,10 +1892,16 @@
 	  <when>
 	    <test>
 	      <not><!--si gènere de pos 1 és masc o fem -->
-		<equal>
-		  <clip pos="1" side="tl" part="gen"/>
-		  <lit-tag v="mf"/>
-		</equal>
+		<or>
+		  <equal>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <lit-tag v="mf"/>
+		  </equal>
+		  <equal>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <lit v=""/>
+		  </equal>
+		</or>
 	      </not>
 	    </test>
 	    <let>
@@ -1883,10 +1938,16 @@
       <when>
 	<test>
 	  <not>
-	    <equal>
-	      <clip pos="1" side="tl" part="gen"/>
-	      <lit-tag v="mf"/>
-	    </equal>
+	    <or>
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="mf"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit v=""/>
+	      </equal>
+	    </or>
 	  </not>
 	</test>
 	<let>
@@ -2018,10 +2079,16 @@
 	  <when>
 	    <test>
 	      <not><!--si nombre de pos 1 és masc o fem -->
-		<equal>
-		  <clip pos="1" side="tl" part="nbr"/>
-		  <lit-tag v="sp"/>
-		</equal>
+		<or>
+		  <equal>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <lit-tag v="sp"/>
+		  </equal>
+		  <equal>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <lit v=""/>
+		  </equal>
+		</or>
 	      </not>
 	    </test>
 	    <let>
@@ -2058,10 +2125,16 @@
       <when>
 	<test>
 	  <not>
-	    <equal>
-	      <clip pos="1" side="tl" part="nbr"/>
-	      <lit-tag v="sp"/>
-	    </equal>
+	    <or>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit v=""/>
+	      </equal>
+	    </or>
 	  </not>
 	</test>
 	<let>
@@ -2441,10 +2514,16 @@
 	    <when>
 	      <test>
 		<not><!--si gènere de pos 1 és masc o fem -->
-		  <equal>
-		    <clip pos="1" side="tl" part="gen"/>
-		    <lit-tag v="mf"/>
-		  </equal>
+		  <or>
+		    <equal>
+		      <clip pos="1" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" side="tl" part="gen"/>
+		      <lit v=""/>
+		    </equal>
+		  </or>
 		</not>
 	      </test>
 	      <let>
@@ -2481,10 +2560,16 @@
 	<when>
 	  <test>
 	    <not>
-	      <equal>
-		<clip pos="1" side="tl" part="gen"/>
-		<lit-tag v="mf"/>
-	      </equal>
+	      <or>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit v=""/>
+		</equal>
+	      </or>
 	    </not>
 	  </test>
 	  <let>
@@ -2655,10 +2740,16 @@
 	    <when>
 	      <test>
 		<not><!--si nombre de pos 1 és masc o fem -->
-		  <equal>
-		    <clip pos="1" side="tl" part="nbr"/>
-		    <lit-tag v="sp"/>
-		  </equal>
+		  <or>
+		    <equal>
+		      <clip pos="1" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" side="tl" part="nbr"/>
+		      <lit v=""/>
+		    </equal>
+		  </or>
 		</not>
 	      </test>
 	      <let>
@@ -2695,10 +2786,16 @@
 	<when>
 	  <test>
 	    <not>
-	      <equal>
-		<clip pos="1" side="tl" part="nbr"/>
-		<lit-tag v="sp"/>
-	      </equal>
+	      <or>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit v=""/>
+		</equal>
+	      </or>
 	    </not>
 	  </test>
 	  <let>
@@ -4865,10 +4962,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <lit-tag v="ND"/>
 	    </let>
 	  </when>
-	</choose>
-
-
-		
+	</choose>		
 	<out> 
 	  <chunk name="such_a_adj_nom" case="caseFirstWord">
 	    <tags>
@@ -12508,7 +12602,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <tag><lit-tag v="ND"/></tag>
 	    </tags>
 	    <lu>
-	      <lit v="el qual"/> 
+	      <lit v="el cual"/> 
 	      <lit-tag v="rel"/>
 	      <lit-tag v="nn"/>
 	      <lit-tag v="3"/>
@@ -12664,7 +12758,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: DET NUM (per quan va davant de desconegudes, almenys que concordin entre ells) - The two xxx : el(s) dos xxx">
+    <rule comment="REGLA: DET NUM pingui (per quan va davant de desconegudes, almenys que concordin entre ells) - The two xxx : el(s) dos xxx">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="num"/>
@@ -12752,7 +12846,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    <let>
 	      <clip pos="2" side="tl" part="gen"/>
 	      <clip pos="2" side="sl" part="gen"/>
-	    </let><!--with her/him : pq la traducció del pron obj 3a sg és 'mf' en català (li), cal canviar a 'm' o 'f' per al pronom tònic (ell/ella) -->
+	    </let><!--with her/him : pq la traducció del pron obj 3a sg és 'mf' en castellà (le), cal canviar a 'm' o 'f' per al pronom tònic (ell/ella) -->
 	  </when>
 	  <when>
 	    <test>
@@ -12769,7 +12863,25 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </test>
 	    <let>
 	      <clip pos="2" side="tl" part="lem"/>
-	      <lit v="mi"/>
+	      <lit v="mí"/>
+	    </let>
+	  </when>
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="2" side="sl" part="pers"/> 
+		  <lit-tag v="p2"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/> 
+		  <lit-tag v="sp"/>
+		</equal>
+	      </and>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="lem"/>
+	      <lit v="ti"/>
 	    </let>
 	  </when>
 	</choose>
@@ -14893,26 +15005,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	  <with-param pos="1"/>
 	</call-macro>
 
-	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" side="sl" part="temps"/>
-		<lit-tag v="past"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <var n="lema_SV"/>
-	      <lit v="mod_perif"/>
-	    </let>
-	  </when>
-	  <otherwise>
-	    <let>
-	      <var n="lema_SV"/>
-	      <lit v="mod"/>
-	    </let>
-	  </otherwise>
-	</choose>
+
 	<out>
 	  <chunk namefrom="lema_SV" case="caseFirstWord">
 	    <tags>	       
@@ -16588,26 +16681,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="passa_pp_a_ifip"><!--si entra com a 'pp', ho tractarem com si fos 'past' -->
 	  <with-param pos="1"/>
 	</call-macro>
-	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" side="sl" part="temps"/>
-		<lit-tag v="past"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <var n="lema_SV"/>
-	      <lit v="mod_inf_perif"/>
-	    </let>
-	  </when>
-	  <otherwise>
-	    <let>
-	      <var n="lema_SV"/>
-	      <lit v="mod_inf"/>
-	    </let>
-	  </otherwise>
-	</choose>
+	<!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
+	<let>
+	  <var n="lema_SV"/>
+	  <lit v="mod_inf"/>
+	</let>
 	<out>
 	  <chunk namefrom="lema_SV" case="caseFirstWord">
 	    <tags>   
@@ -16659,26 +16737,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="passa_pp_a_ifip"><!--si entra com a 'pp', ho tractarem com si fos 'past' -->
 	  <with-param pos="1"/>
 	</call-macro>
-	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" side="sl" part="temps"/>
-		<lit-tag v="past"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <var n="lema_SV"/>
-	      <lit v="pro_mod_inf_perif"/>
-	    </let>
-	  </when>
-	  <otherwise>
-	    <let>
-	      <var n="lema_SV"/>
-	      <lit v="pro_mod_inf"/>
-	    </let>
-	  </otherwise>
-	</choose>
+	<!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->	  
+	<let>
+	  <var n="lema_SV"/>
+	  <lit v="pro_mod_inf"/>
+	</let>
 	<out>
 	  <chunk namefrom="lema_SV" case="caseFirstWord">
 	    <tags>   
@@ -16757,26 +16820,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <with-param pos="1"/>
 	      <with-param pos="2"/>
 	    </call-macro>
-	    <choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->
-	      <when>
-		<test>
-		  <equal>
-		    <clip pos="1" side="sl" part="temps"/>
-		    <lit-tag v="past"/>
-		  </equal>
-		</test>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="mod_inf_perif"/>
-		</let>
-	      </when>
-	      <otherwise>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="mod_inf"/>
-		</let>
-	      </otherwise>
-	    </choose>
+	    <!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->	      
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="mod_inf"/>
+	    </let>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>	       
@@ -16891,26 +16939,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <with-param pos="1"/>
 	      <with-param pos="2"/>
 	    </call-macro>
-	    <choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->
-	      <when>
-		<test>
-		  <equal>
-		    <clip pos="1" side="sl" part="temps"/>
-		    <lit-tag v="past"/>
-		  </equal>
-		</test>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="pro_mod_inf_perif"/>
-		</let>
-	      </when>
-	      <otherwise>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="pro_mod_inf"/>
-		</let>
-	      </otherwise>
-	    </choose>
+	    <!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->	      
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="pro_mod_inf"/>
+	    </let>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>	       
@@ -17035,26 +17068,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    <call-macro n="tipus_verbs">
 	      <with-param pos="2"/>
 	    </call-macro>
-	    <choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->
-	      <when>
-		<test>
-		  <equal>
-		    <clip pos="1" side="sl" part="temps"/>
-		    <lit-tag v="past"/>
-		  </equal>
-		</test>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="mod_perif"/>
-		</let>
-	      </when>
-	      <otherwise>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="mod"/>
-		</let>
-	      </otherwise>
-	    </choose>
+	    <!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->	     
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="mod"/>
+	    </let>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>	       
@@ -19132,26 +19150,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <with-param pos="1"/>
 	      <with-param pos="3"/>
 	    </call-macro>
-	    <choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->
-	      <when>
-		<test>
-		  <equal>
-		    <clip pos="1" side="sl" part="temps"/>
-		    <lit-tag v="past"/>
-		  </equal>
-		</test>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="mod_inf_perif"/>
-		</let>
-	      </when>
-	      <otherwise>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="mod_inf"/>
-		</let>
-	      </otherwise>
-	    </choose>
+	    <!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->	     
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="mod_inf"/>
+	    </let>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>	       
@@ -19302,26 +19305,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <with-param pos="1"/>
 	      <with-param pos="3"/>
 	    </call-macro>
-	    <choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->
-	      <when>
-		<test>
-		  <equal>
-		    <clip pos="1" side="sl" part="temps"/>
-		    <lit-tag v="past"/>
-		  </equal>
-		</test>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="pro_mod_inf_perif"/>
-		</let>
-	      </when>
-	      <otherwise>
-		<let>
-		  <var n="lema_SV"/>
-		  <lit v="pro_mod_inf"/>
-		</let>
-	      </otherwise>
-	    </choose>
+	    <!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb' -->	      
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="pro_mod_inf"/>
+	    </let>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>	       

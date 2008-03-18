@@ -3261,6 +3261,19 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>passenger<s n="n"/></l> 
+        <r>pasajero<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>passenger<s n="n"/></l> 
+        <r>pasajero<s n="n"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>attraction<s n="n"/></l> 
@@ -41558,9 +41571,15 @@
       </p>
     </e>
 
-    <e slr="vuelta D">
+    <e slr="vuelta D" srl="turn D">
       <p>
         <l>turn<s n="n"/></l> 
+        <r>vuelta<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e srl="return" r="RL">
+      <p>
+        <l>return<s n="n"/></l> 
         <r>vuelta<s n="n"/><s n="f"/></r> 
       </p>
     </e>

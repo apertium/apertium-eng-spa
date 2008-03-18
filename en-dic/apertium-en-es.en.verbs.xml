@@ -181,6 +181,9 @@
       </p>
     </e>
 
+    <e lm="go through"><i></i><par n="/go__vblex"/><p><l><b/>through</l><r><g><b/>through</g></r></p></e>
+
+
     <e lm="go up">
         <i></i> 
         <par n="/go__vblex"/> 
@@ -4661,6 +4664,8 @@
         <par n="accept__vblex"/> 
     </e>
 
+    <e lm="marry"><i>marr</i><par n="appl/y__vblex" /></e>
+
     <e lm="mask">
         <i>mask</i> 
         <par n="accept__vblex"/> 
@@ -8019,6 +8024,19 @@
          <r><g><b/>hesitant</g></r>
       </p>
    </e>
+
+   <e lm="there is" r="RL">
+      <p>
+        <l>there<b/>is</l>
+        <r>there<b/>is<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e> 
+    <e lm="there is" r="RL">
+      <p>
+        <l>there<b/>are</l>
+        <r>there<b/>is<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e> 
 
 </section>
 

@@ -176,6 +176,24 @@
 <e lm="pronombres personales febles"><i/><par n="prpro__prn"/></e>
 
 
+    <e lm="ti">
+      <i>ti</i>
+      <par n="contigo__prn"/>
+    </e>
+  <e lm="conmigo">
+    <p>
+      <l>conmigo</l>
+      <r>con<s n="pr"/><j/>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+    </p>
+  </e>
+
+  <e lm="contigo">
+    <p>
+      <l>contigo</l>
+      <r>con<s n="pr"/><j/>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+    </p>
+  </e>
+
 <e lm="lo"> <i>lo</i><par n="lo__prn"/> </e>
       
 <e lm="se"><p><l>se</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -212,6 +230,61 @@
       <l>lo<b/>que</l>
       <r>lo<b/>que<s n="rel"/><s n="nn"/><s n="nt"/><s n="sg"/></r>
     </p>      
+  </e>
+
+
+  <e lm="el de" r="LR">
+    <p>
+      <l>el<b/></l>
+      <r>el<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/><j/></r>
+    </p>   
+    <par n="contde__pr"/>
+  </e>
+ <e lm="la de" r="LR">
+    <p>
+      <l>la<b/></l>
+      <r>la<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/><j/></r>
+    </p>     
+    <par n="contde__pr"/> 
+  </e>
+ <e lm="los de" r="LR">
+    <p>
+      <l>los<b/></l>
+      <r>el<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/><j/></r>
+    </p> 
+    <par n="contde__pr"/>     
+  </e>
+ <e lm="las de" r="LR">
+    <p>
+      <l>las<b/></l>
+      <r>la<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/><j/></r>
+    </p>  
+    <par n="contde__pr"/>    
+  </e>
+
+  <e lm="el" r="RL">
+    <p>
+      <l>el</l>
+      <r>el<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r>
+    </p>
+  </e>
+  <e lm="el" r="RL">
+    <p>
+      <l>los</l>
+      <r>el<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r>
+    </p>
+  </e>
+  <e lm="la" r="RL">
+    <p>
+      <l>la</l>
+      <r>la<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r>
+    </p>
+  </e>
+  <e lm="la" r="RL">
+    <p>
+      <l>las</l>
+      <r>la<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
+    </p>
   </e>
   <e lm="que">
     <i>que</i>

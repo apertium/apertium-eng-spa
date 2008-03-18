@@ -1582,12 +1582,6 @@
       </p>
    </e>
    
-   <e>
-      <p>
-         <l>else<s n="adv"/></l> 
-         <r>más<s n="adv"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -3837,6 +3831,13 @@
       </p>
    </e>
    
+   
+   <e>
+      <p>
+         <l>last<b/>night<s n="adv"/></l> 
+         <r>anoche<s n="adv"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>mysteriously<s n="adv"/></l> 
@@ -5708,19 +5709,7 @@
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>still<s n="adv"/></l> 
-         <r>todavía<s n="adv"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL" c="frases afirmatives i interrogatives">
-      <p>
-         <l>still<s n="adv"/></l> 
-         <r>todavía<s n="adv"/></r> 
-      </p>
-   </e>
+  
    
    <e>
       <p>
@@ -6821,7 +6810,7 @@
       </p>
    </e>
    
-   <e r="RL" c="frases negatives">
+   <e r="RL" c="frases negatives" i="yes">
       <p>
          <l>yet<s n="adv"/></l> 
          <r>aún<s n="adv"/></r> 
@@ -6835,7 +6824,7 @@
       </p>
    </e>
    
-   <e r="RL" c="frases negatives">
+   <e r="RL" c="frases negatives" i="yes">
       <p>
          <l>yet<s n="adv"/></l> 
          <r>todavía<s n="adv"/></r> 

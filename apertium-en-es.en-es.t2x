@@ -47,13 +47,10 @@
       <cat-item lemma="auxmod_inf_inf" tags="SV.*"/><!--BCN-->
       <cat-item lemma="be_ger_inf" tags="SV.*"/> <!--BCN-->
       <cat-item lemma="verbcj_inf" tags="SV.*"/>
-      <cat-item lemma="verbcj_inf_perif" tags="SV.*"/>
       <cat-item lemma="verbcj_inf_enc" tags="SV.*"/>
       <cat-item lemma="auxmod_mod_inf" tags="SV.*"/>
       <cat-item lemma="do_inf" tags="SV.*"/>
       <cat-item lemma="mod_inf" tags="SV.*"/>
-      <cat-item lemma="mod_perif" tags="SV.*"/>
-      <cat-item lemma="mod_inf_perif" tags="SV.*"/>
       <cat-item lemma="aux_mod" tags="SV.*"/><!--Aquests van davant desconegudes o sent (I will have to.) -->
       <cat-item lemma="have_pp" tags="SV.*"/>
       <cat-item lemma="have_pp_inf" tags="SV.*"/><!-- BCN-->
@@ -65,12 +62,9 @@
       <cat-item tags="SV.vblex.inf.*"/>
       <cat-item tags="SV.pron.inf.*"/><!--afegit 16-01-2008 -->
       <cat-item tags="SV.vbmod.inf.*"/>
-      <cat-item lemma="verbcj_perif" tags="SV.*"/>
       <cat-item lemma="pro_verbcj" tags="SV.*"/>
-      <cat-item lemma="pro_verbcj_perif" tags="SV.*"/>
       <cat-item lemma="pro_auxmod_inf" tags="SV.*"/>
       <cat-item lemma="pro_mod_inf" tags="SV.*"/>
-      <cat-item lemma="pro_mod_inf_perif" tags="SV.*"/>
       <cat-item lemma="pro_auxmod_mod_inf" tags="SV.*"/>
       <cat-item lemma="pro_have_pp" tags="SV.*"/>
       <cat-item lemma="pro_be_ger" tags="SV.*"/>
@@ -78,7 +72,6 @@
       <cat-item tags="SV.reporting.inf.*"/>
       <cat-item tags="SV.reporting.pri.*"/>
       <cat-item tags="SV.reporting.cni.*"/>
-      <cat-item tags="SV.reporting.ifip.*"/>
       <cat-item tags="SV.reporting.fti*"/>
       <cat-item tags="SV.reporting.pii*"/>
       
@@ -111,18 +104,14 @@
       <cat-item lemma="auxmod_mod_inf" tags="SV.vbser.*"/>
       <cat-item lemma="auxmod_have_pp" tags="SV.vbser.*"/>
       <cat-item lemma="mod_inf" tags="SV.vbser.*"/>
-      <cat-item lemma="mod_inf_perif" tags="SV.vbser.*"/>
       <cat-item lemma="have_pp" tags="SV.vbser.*"/>
-      <cat-item lemma="verbcj_perif" tags="SV.vbser.*"/> 
     </def-cat>
 
 
     <def-cat n="pro_vblike">
       <cat-item lemma="pro_verbcj" tags="SV.like.*"/>
-      <cat-item lemma="pro_verbcj_perif" tags="SV.like.*"/>
       <cat-item lemma="pro_auxmod_inf" tags="SV.like.*"/>
       <cat-item lemma="pro_mod_inf" tags="SV.like.*"/>
-      <cat-item lemma="pro_mod_inf_perif" tags="SV.like.*"/>
       <cat-item lemma="pro_auxmod_mod_inf" tags="SV.like.*"/>
       <cat-item lemma="pro_have_pp" tags="SV.like.*"/>
       <cat-item lemma="pro_be_ger" tags="SV.like.*"/>
@@ -204,7 +193,7 @@
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
       <attr-item tags="pri"/>
-      <attr-item tags="ifip"/>
+      <attr-item tags="ifip"/><!--MG: caldria treure totes les referències a ifip en les regles -->
       <attr-item tags="cni"/>
       <attr-item tags="fti"/>
       <attr-item tags="pp"/>
@@ -1688,10 +1677,6 @@ Your mother and you will come - La vostra mare i tu vindran
 		  <or>
 		    <equal caseless="yes">		
 		      <clip pos="2" part="lem"/>
-		      <lit v="pro_verbcj_perif"/>
-		    </equal>
-		    <equal caseless="yes">		
-		      <clip pos="2" part="lem"/>
 		      <lit v="pro_auxmod_inf"/>
 		    </equal>
 		    <equal caseless="yes">		
@@ -1721,16 +1706,10 @@ Your mother and you will come - La vostra mare i tu vindran
 		<choose> 
 		  <when>
 		    <test>
-		      <or>
-			<equal caseless="yes">		
-			  <clip pos="2" part="lem"/>
-			  <lit v="pro_mod_inf_perif"/>
-			</equal>
 			<equal caseless="yes">		
 			  <clip pos="2" part="lem"/>
 			  <lit v="pro_auxmod_mod_inf"/>
 			</equal>
-		      </or>
 		    </test>
 		    <let>
 		      <clip pos="2" part="lem"/>
@@ -1936,10 +1915,6 @@ Your mother and you will come - La vostra mare i tu vindran
 		  <or>
 		    <equal caseless="yes">		
 		      <clip pos="3" part="lem"/>
-		      <lit v="pro_verbcj_perif"/>
-		    </equal>
-		    <equal caseless="yes">		
-		      <clip pos="3" part="lem"/>
 		      <lit v="pro_auxmod_inf"/>
 		    </equal>
 		    <equal caseless="yes">		
@@ -1969,16 +1944,10 @@ Your mother and you will come - La vostra mare i tu vindran
 		<choose> 
 		  <when>
 		    <test>
-		      <or>
-			<equal caseless="yes">		
-			  <clip pos="3" part="lem"/>
-			  <lit v="pro_mod_inf_perif"/>
-			</equal>
 			<equal caseless="yes">		
 			  <clip pos="3" part="lem"/>
 			  <lit v="pro_auxmod_mod_inf"/>
 			</equal>
-		      </or>
 		    </test>
 		    <let>
 		      <clip pos="3" part="lem"/>
@@ -2195,10 +2164,6 @@ Your mother and you will come - La vostra mare i tu vindran
 		  <or>
 		    <equal caseless="yes">		
 		      <clip pos="4" part="lem"/>
-		      <lit v="pro_verbcj_perif"/>
-		    </equal>
-		    <equal caseless="yes">		
-		      <clip pos="4" part="lem"/>
 		      <lit v="pro_auxmod_inf"/>
 		    </equal>
 		    <equal caseless="yes">		
@@ -2228,16 +2193,10 @@ Your mother and you will come - La vostra mare i tu vindran
 		<choose> 
 		  <when>
 		    <test>
-		      <or>
-			<equal caseless="yes">		
-			  <clip pos="4" part="lem"/>
-			  <lit v="pro_mod_inf_perif"/>
-			</equal>
 			<equal caseless="yes">		
 			  <clip pos="4" part="lem"/>
 			  <lit v="pro_auxmod_mod_inf"/>
 			</equal>
-		      </or>
 		    </test>
 		    <let>
 		      <clip pos="4" part="lem"/>
@@ -3010,7 +2969,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </let>
 	  </when>
 	</choose>
-	<let><!--posa-ho com a p3 sg perquè en català 'haver-hi' sempre és en p3 i sg (hi ha cotxes) -->
+	<let><!--posa-ho com a p3 sg perquè 'hay' sempre és p3 i sg (hay coches) -->
 	  <clip pos="2" part="pers"/>
 	  <lit-tag v="p3"/>
 	</let>	
@@ -3018,14 +2977,9 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <clip pos="2" part="nbr"/>
 	  <lit-tag v="sg"/>
 	</let>
-
-	<let>
-	  <clip pos="1" part="lem"/>
-	  <lit v="hi"/>
-	</let>
 	<let>
 	  <clip pos="2" part="a_verb"/>
-	  <lit-tag v="HAVER"/>
+	  <lit-tag v="HAY"/>
 	</let>
 	<!--Quan SN és GD o ND -->
 	<choose>
@@ -3112,11 +3066,10 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </choose>
 	  </when>
 	</choose>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
-	  </chunk>
-	  <b pos="1"/>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>
@@ -3161,14 +3114,9 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <clip pos="3" part="nbr"/>
 	  <lit-tag v="sg"/>
 	</let>
-
-	<let>
-	  <clip pos="1" part="lem"/>
-	  <lit v="hi"/>
-	</let>
 	<let>
 	  <clip pos="3" part="a_verb"/>
-	  <lit-tag v="HAVER"/>
+	  <lit-tag v="HAY"/>
 	</let>
 	<!--Quan SN és GD o ND -->
 	<choose>
@@ -3255,13 +3203,12 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </choose>
 	  </when>
 	</choose>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
-	  </chunk>
-	  <b pos="1"/>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
 	  </chunk>
 	  <b pos="2"/>
 	  <chunk>
@@ -3302,7 +3249,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </let>
 	  </when>
 	</choose>
-	<let><!--posa-ho com a p3 sg perquè en català 'haver-hi' sempre és en p3 i sg (hi ha cotxes) -->
+	<let><!--posa-ho com a p3 sg perquè 'hay' sempre és en p3 i sg -->
 	  <clip pos="4" part="pers"/>
 	  <lit-tag v="p3"/>
 	</let>	
@@ -3310,14 +3257,9 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <clip pos="4" part="nbr"/>
 	  <lit-tag v="sg"/>
 	</let>
-
-	<let>
-	  <clip pos="1" part="lem"/>
-	  <lit v="hi"/>
-	</let>
 	<let>
 	  <clip pos="4" part="a_verb"/>
-	  <lit-tag v="HAVER"/>
+	  <lit-tag v="HAY"/>
 	</let>
 	<!--Quan SN és GD o ND -->
 	<choose>
@@ -3404,17 +3346,16 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </choose>
 	  </when>
 	</choose>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>
-	  <b pos="1"/>
-	  <chunk>
-	    <clip pos="3" part="whole"/>
-	  </chunk>
 	  <b pos="2"/>
 	  <chunk>
-	    <clip pos="1" part="whole"/>
+	    <clip pos="3" part="whole"/>
 	  </chunk>
 	  <b pos="3"/>
 	  <chunk>
@@ -3451,7 +3392,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </let>
 	  </when>
 	</choose>
-	<let><!--posa-ho com a p3 sg perquè en català 'haver-hi' sempre és en p3 i sg (hi ha cotxes) -->
+	<let><!--posa-ho com a p3 sg perquè 'hay' sempre és en p3 i sg -->
 	  <clip pos="2" part="pers"/>
 	  <lit-tag v="p3"/>
 	</let>	
@@ -3459,20 +3400,14 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <clip pos="2" part="nbr"/>
 	  <lit-tag v="sg"/>
 	</let>
-
-	<let>
-	  <clip pos="1" part="lem"/>
-	  <lit v="hi"/>
-	</let>
 	<let>
 	  <clip pos="2" part="a_verb"/>
-	  <lit-tag v="HAVER"/>
+	  <lit-tag v="HAY"/>
 	</let>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
-	  </chunk>
-	  <b pos="1"/>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>	    
@@ -3501,7 +3436,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </let>
 	  </when>
 	</choose>
-	<let><!--posa-ho com a p3 sg perquè en català 'haver-hi' sempre és en p3 i sg (hi ha cotxes) -->
+	<let><!--posa-ho com a p3 sg perquè 'hay' sempre és en p3 i sg  -->
 	  <clip pos="3" part="pers"/>
 	  <lit-tag v="p3"/>
 	</let>	
@@ -3509,22 +3444,16 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <clip pos="3" part="nbr"/>
 	  <lit-tag v="sg"/>
 	</let>
-
-	<let>
-	  <clip pos="1" part="lem"/>
-	  <lit v="hi"/>
-	</let>
 	<let>
 	  <clip pos="3" part="a_verb"/>
-	  <lit-tag v="HAVER"/>
+	  <lit-tag v="HAY"/>
 	</let>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
-	  </chunk>
-	  <b pos="1"/>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
 	  </chunk>
 	  <b pos="2"/>
 	  <chunk>
@@ -3557,7 +3486,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	    </let>
 	  </when>
 	</choose>
-	<let><!--posa-ho com a p3 sg perquè en català 'haver-hi' sempre és en p3 i sg (hi ha cotxes) -->
+	<let><!--posa-ho com a p3 sg perquè 'hay' sempre és en p3 i sg  -->
 	  <clip pos="4" part="pers"/>
 	  <lit-tag v="p3"/>
 	</let>	
@@ -3565,26 +3494,20 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <clip pos="4" part="nbr"/>
 	  <lit-tag v="sg"/>
 	</let>
-
-	<let>
-	  <clip pos="1" part="lem"/>
-	  <lit v="hi"/>
-	</let>
 	<let>
 	  <clip pos="4" part="a_verb"/>
-	  <lit-tag v="HAVER"/>
+	  <lit-tag v="HAY"/>
 	</let>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>
-	  <b pos="1"/>
-	  <chunk>
-	    <clip pos="3" part="whole"/>
-	  </chunk>
 	  <b pos="2"/>
 	  <chunk>
-	    <clip pos="1" part="whole"/>
+	    <clip pos="3" part="whole"/>
 	  </chunk>
 	  <b pos="3"/>
 	  <chunk>

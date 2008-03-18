@@ -539,6 +539,7 @@
 <e r="RL" c="he posat com a traducció per defecte de 'li' him, també pot ser 'her' o 'it'- revisar"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
 
@@ -556,8 +557,6 @@
 <e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
 <e r="RL" c="MG: traducció buida, per ara només!!"><p><l/><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
-
-
 
 
 <!--enclítics -->
@@ -580,8 +579,8 @@
 <e r="RL" c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
 
-<e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>ho<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-<e r="RL" c="MG: traducció buida, per ara només!!"><p><l/><r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+<e r="RL" c="MG: traducció buida, per ara només!!"><p><l/><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
 <e r="LR"><p><l>herself<s n="prn"/><s n="ref"/><s n="p3"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
@@ -594,16 +593,6 @@
 
 <e r="LR"><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>sí<s n="prn"/><s n="tn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
-
-<!--
-  <e r="RL">
-      <p>
-         <l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></l> 
-         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r> 
-      </p>
-   </e>
-   
--->  
 
  <!-- 
       ******************************
@@ -621,6 +610,13 @@
    </e>
    
   
+  <e r="LR">
+      <p>
+         <l>the<b/>one<b/>which<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l> 
+         <r>el<b/>que<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r> 
+      </p>
+   </e>
+   
    
   <e>
       <p>
@@ -657,6 +653,21 @@
 
    <e><p><l>those<b/>that<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
    <e r="RL"><p><l>those<b/>that<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r></p></e>
+
+   <e>
+      <p>
+         <l>the<b/>one<s n="prn"/><s n="tn"/><s n="mf"/></l> 
+         <r>el<s n="prn"/><s n="tn"/><s n="m"/></r> 
+      </p>
+   </e>
+   <e r="RL">
+      <p>
+         <l>the<b/>one<s n="prn"/><s n="tn"/><s n="mf"/></l> 
+         <r>la<s n="prn"/><s n="tn"/><s n="f"/></r> 
+      </p>
+   </e>
+
+
 
    <e r="RL">
       <p>

@@ -69,8 +69,15 @@
     <i>como</i>
     <par n="a__pr"/>
   </e>
-  <e lm="con">
+  <e lm="con" r="LR">
     <i>con</i>
+    <par n="a__pr"/>
+  </e>
+  <e lm="con" r="RL">
+    <p>
+      <l><a/>con</l>
+      <r>con</r>
+    </p>
     <par n="a__pr"/>
   </e>
   <e lm="con objeto de">

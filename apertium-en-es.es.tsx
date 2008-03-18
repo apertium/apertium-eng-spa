@@ -3,20 +3,20 @@
 <tagset>
  <!-- <def-label name="PARAPR" closed="true">
     <tags-item lemma="para" tags="pr"/>
-  </def-label>
+  </def-label> -->
   <def-label name="PARAVBPRI" closed="true">
     <tags-item lemma="parar" tags="vblex.pri.p3.sg"/>
   </def-label>
   <def-label name="PARAVBIMP" closed="true">
     <tags-item lemma="parar" tags="vblex.imp.p2.sg"/>
-  </def-label> -->
+  </def-label>
   <def-label name="QUECNJ" closed="true">
     <tags-item lemma="que" tags="cnjsub"/>
   </def-label>
   <def-label name="QUEREL" closed="true">
     <tags-item lemma="que" tags="rel.*"/>
   </def-label>
-  <def-label name="COMOPR" closed="true">
+<!--  <def-label name="COMOPR" closed="true">
     <tags-item lemma="como" tags="pr"/>
   </def-label>
   <def-label name="COMOREL" closed="true">
@@ -24,7 +24,7 @@
   </def-label>
   <def-label name="COMOVB" closed="true">
     <tags-item lemma="comer" tags="vblex.pri.p1.sg"/>
-  </def-label>
+  </def-label> -->
   <def-label name="MASADV" closed="true">
     <tags-item lemma="más" tags="adv"/>
     <tags-item lemma="menos" tags="adv"/>
@@ -546,6 +546,10 @@
       <label-item label="VLEXIMP"/>
     </label-sequence>
     <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
       <label-item label="RELA"/>
       <label-item label="VLEXIMP"/>
     </label-sequence>
@@ -565,6 +569,10 @@
       <label-item label="QUEREL"/>
       <label-item label="VSERIMP"/>
     </label-sequence>
+   <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
      <label-sequence>
       <label-item label="RELA"/>
       <label-item label="VSERIMP"/>
@@ -585,6 +593,10 @@
       <label-item label="QUEREL"/>
       <label-item label="VMODALIMP"/>
     </label-sequence> 
+    <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence> 
      <label-sequence>
       <label-item label="RELA"/>
       <label-item label="VMODALIMP"/>
@@ -599,6 +611,10 @@
     </label-sequence>
     <label-sequence>
       <label-item label="QUEREL"/>
+      <label-item label="IMPLEXPRNENC"/>
+    </label-sequence> 
+    <label-sequence>
+      <label-item label="QUECNJ"/>
       <label-item label="IMPLEXPRNENC"/>
     </label-sequence> 
      <label-sequence>
@@ -617,6 +633,10 @@
       <label-item label="QUEREL"/>
       <label-item label="IMPSERPRNENC"/>
     </label-sequence>
+    <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="IMPSERPRNENC"/>
+    </label-sequence>
      <label-sequence>
       <label-item label="RELA"/>
       <label-item label="IMPSERPRNENC"/>
@@ -631,6 +651,10 @@
     </label-sequence>
    <label-sequence>
       <label-item label="QUEREL"/>
+      <label-item label="IMPMODPRNENC"/>
+    </label-sequence> 
+   <label-sequence>
+      <label-item label="QUECNJ"/>
       <label-item label="IMPMODPRNENC"/>
     </label-sequence> 
       <label-sequence>
@@ -2181,7 +2205,16 @@
       </label-set>
     </enforce-after>
 
-
+ <enforce-after label="PARAVBPRI">
+      <label-set>
+        <label-item label="SENT"/>
+      </label-set>
+ </enforce-after>
+<enforce-after label="PARAVBIMP">
+      <label-set>
+        <label-item label="SENT"/>
+      </label-set>
+ </enforce-after>
   </enforce-rules>
 
   <preferences>

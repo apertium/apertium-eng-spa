@@ -2756,15 +2756,6 @@
         <par n="c/ontar__vblex"/> 
     </e>
 
-    <e lm="contar">
-        <i>c</i> 
-        <par n="c/ontar__vblex"/> 
-    </e>
-
-    <e lm="contar">
-        <i>c</i> 
-        <par n="c/ontar__vblex"/> 
-    </e>
 
     <e lm="cegar">
         <i>c</i> 
@@ -12130,6 +12121,36 @@
         <par n="abandon/ar__vblex"/> 
     </e>
 
+    <e lm="pasar">
+      <p>
+        <l>pás</l> 
+        <r>pas</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
+
+    <e lm="pasar por">
+        <i>pas</i> 
+	<par n="abandon/ar__vblex"/> 
+	<p>
+	  <l><b/>por</l>
+         <r><g><b/>por</g></r>
+	</p>
+    </e>
+
+    <e lm="pasar por">
+      <p>
+        <l>pás</l> 
+        <r>pas</r> 
+      </p>
+        <par n="abandón/ar__vblex"/>  
+	<p>
+	  <l><b/>por</l>
+         <r><g><b/>por</g></r>
+	</p>
+    </e>
+
+
     <e lm="pasear">
         <i>pase</i> 
         <par n="abandon/ar__vblex"/> 
@@ -12765,6 +12786,21 @@
         <par n="abandón/arse__vblex"/> 
     </e>
 
+
+
+
+    <e lm="casarse">
+      <i>cas</i>
+      <par n="abandon/arse__vblex"/>
+    </e>
+    <e lm="casarse">
+      <p>
+        <l>cás</l>
+        <r>cas</r>
+      </p>
+      <par n="abandón/arse__vblex"/>
+    </e>
+
     <e lm="preparar">
         <i>prepar</i> 
         <par n="abandon/ar__vblex"/> 
@@ -13337,14 +13373,6 @@
         <r>part</r> 
       </p>
         <par n="abát/ir__vblex"/> 
-    </e>
-
-    <e lm="pasar">
-      <p>
-        <l>pás</l> 
-        <r>pas</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="pecar">
@@ -16907,7 +16935,7 @@
       </p>
    </e>
 
-    <e lm="poner">
+    <e lm="poner en marcha">
         <i>p</i> 
         <par n="p/oner__vblex"/> 
       <p>
@@ -16915,5 +16943,23 @@
          <r><g><b/>en<b/>marcha</g></r>
       </p>
     </e>
+
+    <e lm="contar con">
+        <i>c</i> 
+        <par n="c/ontar__vblex"/> 
+      <p>
+         <l><b/>con</l>
+         <r><g><b/>con</g></r>
+      </p>
+    </e>
+
+    <e lm="hay">
+      <p>
+        <l>hay</l>
+        <r>hay<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e> 
+
+
   </section>
 

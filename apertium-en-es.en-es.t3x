@@ -73,28 +73,23 @@
 
     <def-cat n="pottenirpronom">
       <cat-item name="verbcj"/>
-      <cat-item name="verbcj_perif"/>
       <cat-item name="pro_verbcj"/>
-      <cat-item name="pro_verbcj_perif"/>
       <cat-item name="auxmod_inf"/>
       <cat-item name="mod_inf"/>
     <!--  <cat-item name="have_pp"/> ho posarem a part com a prova-->
    <!--   <cat-item name="be_ger"/> -->
       <cat-item name="auxmod_mod_inf"/>
       <cat-item name="auxmod_have_pp"/>
-      <cat-item name="mod_inf_perif"/>
       <cat-item name="pro_be_ger"/>
       <cat-item name="pro_auxmod_inf"/>
       <cat-item name="pro_mod_inf"/>
       <cat-item name="pro_have_pp"/>
       <cat-item name="pro_do_inf"/> 
-      <cat-item name="pro_mod_inf_perif"/>
       <cat-item name="pro_auxmod_mod_inf"/>
       <cat-item name="pro_auxmod_have_pp"/>
     </def-cat>   
 
 <def-cat n="pottenirenclitic"><!--MG: canviar tot això pel nou mecanisme, sense mlu en el t1x, i aquí fabricar les mlu -->
-      <cat-item name="verbcj_inf_perif"/>
       <cat-item name="verbcj_inf"/>
       <cat-item name="auxmod_inf_inf"/>
       <cat-item name="have_pp_inf"/>
@@ -213,7 +208,7 @@
       <attr-item tags="vbhaver"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbmod"/>
-      <attr-item tags="HAVER"/>
+      <attr-item tags="HAY"/>
     </def-attr>
 
     <def-attr n="a_nom">
@@ -1372,68 +1367,47 @@
 	    <test>
 	      <equal>
 		<clip pos="0" part="a_verb"/>
-		<lit-tag v="HAVER"/>
+		<lit-tag v="HAY"/>
 	      </equal>
 	    </test>
-	    <choose><!--en aquesta regla, el nom no diferencia el perifràstic del sintètic: cal mirar si la primera paraula és 'anar' i modificar el lema de la 2a paraula en cas afirmatiu; si no, el de la primera. -->
+	    <choose>
 	      <when>
 		<test>
-		  <equal caseless="yes">
-		    <clip pos="1" part="lem"/>
-		    <lit v="anar"/>
+		  <equal>
+		    <clip pos="1" part="temps"/>
+		    <lit-tag v="pri"/>
 		  </equal>
-		</test>
+		</test>		    
 		<let>
-		  <clip pos="2" part="lem"/>
-		  <lit v="haver"/>
-		</let>		
-		<let>
-		  <clip pos="2" part="a_verb"/>
-		  <lit-tag v="vbhaver"/>
+		  <clip pos="1" part="lem"/>
+		  <lit v="hay"/>
 		</let>
+		<let>
+		  <clip pos="1" part="a_verb"/>
+		  <lit-tag v="vblex"/>
+		</let>	
 	      </when>
 	      <otherwise>
 		<let>
 		  <clip pos="1" part="lem"/>
-		  <lit v="haver"/>
+		  <lit v="haber"/>
 		</let>
 		<let>
 		  <clip pos="1" part="a_verb"/>
 		  <lit-tag v="vbhaver"/>
-		</let>		
+		</let>	
 	      </otherwise>
 	    </choose>
-	  </when>
-	</choose>
-	<choose><!--imprimeix, 1 o 2 chunks segons si és perifràstic o no-->
-	  <when>
-	    <test>
-	      <equal caseless="yes">
-		<clip pos="1" part="lem"/>
-		<lit v="anar"/>
-	      </equal>
-	    </test>
-	    <out>
-	      <lu>
-		<clip pos="1" part="whole"/>
-	      </lu> 
-	      <b pos="1"/>
-	      <lu>
-		<clip pos="2" part="whole"/>
-	      </lu>
-	    </out>
-	  </when>
-	  <otherwise>
-	    <out>
-	      <lu>
-		<clip pos="1" part="whole"/>
-	      </lu> 
-	    </out>
-	  </otherwise>
-	</choose>
+	  </when>		  
+	</choose>	
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu> 
+	</out>
       </action>
     </rule>
-
+    
     
     <!-- regles per arreglar els verbs tipus "like->m'agrada" -->
     
@@ -1645,19 +1619,19 @@
 		<test>
 		  <equal>
 		    <clip pos="0" part="a_verb"/>
-		    <lit-tag v="HAVER"/>
+		    <lit-tag v="HAY"/>
 		  </equal>
 		</test>
 		<let>
 		  <clip pos="2" part="lem"/>
-		  <lit v="haver"/>
+		  <lit v="haber"/>
 		</let>
 		<let>
 		  <clip pos="2" part="a_verb"/>
 		  <lit-tag v="vbhaver"/>
 		</let>
 	       </when>
-	    </choose>	    
+	    </choose>
 	    <out>
 	      <lu>
 		<clip pos="1" part="whole"/>
@@ -2549,10 +2523,6 @@
 		  <or>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
-		      <lit v="verbcj_perif"/>
-		    </equal>
-		    <equal caseless="yes">
-		      <clip pos="0" part="lem"/>
 		      <lit v="pro_verbcj"/>
 		    </equal>
 		    <equal caseless="yes">
@@ -2587,19 +2557,11 @@
 		  <or>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
-		      <lit v="pro_verbcj_perif"/>
-		    </equal>
-		    <equal caseless="yes">
-		      <clip pos="0" part="lem"/>
 		      <lit v="auxmod_mod_inf"/>
 		    </equal>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
 		      <lit v="auxmod_have_pp"/>
-		    </equal>
-		    <equal caseless="yes">
-		      <clip pos="0" part="lem"/>
-		      <lit v="mod_inf_perif"/>
 		    </equal>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
@@ -2639,10 +2601,6 @@
 	      <when>
 		<test>
 		  <or>
-		    <equal caseless="yes">
-		      <clip pos="0" part="lem"/>
-		      <lit v="pro_mod_inf_perif"/>
-		    </equal>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
 		      <lit v="pro_auxmod_mod_inf"/>
@@ -2676,7 +2634,7 @@
 		<test>
 		  <equal>
 		    <clip pos="0" part="a_verb"/>
-		    <lit-tag v="HAVER"/>
+		    <lit-tag v="HAY"/>
 		  </equal>
 		</test>
 		<choose>
@@ -2687,14 +2645,34 @@
 			<lit v="verbcj"/>
 		      </equal>
 		    </test>
-		    <let>
-		      <clip pos="1" part="lem"/>
-		      <lit v="haver"/>
-		    </let>
-		    <let>
-		      <clip pos="1" part="a_verb"/>
-		      <lit-tag v="vbhaver"/>
-		    </let>	
+		    <choose>
+		      <when>
+			<test>
+			  <equal>
+			    <clip pos="1" part="temps"/>
+			    <lit-tag v="pri"/>
+			  </equal>
+			</test>		    
+			<let>
+			  <clip pos="1" part="lem"/>
+			  <lit v="hay"/>
+			</let>
+			<let>
+			  <clip pos="1" part="a_verb"/>
+			  <lit-tag v="vblex"/>
+			</let>	
+		      </when>
+		      <otherwise>
+			<let>
+			  <clip pos="1" part="lem"/>
+			  <lit v="haber"/>
+			</let>
+			<let>
+			  <clip pos="1" part="a_verb"/>
+			  <lit-tag v="vbhaver"/>
+			</let>	
+		      </otherwise>
+		    </choose>
 		  </when>
 		  <when>
 		    <test>
@@ -2711,15 +2689,11 @@
 			  <clip pos="0" part="lem"/>
 			  <lit v="have_pp"/>
 			</equal>
-			<equal caseless="yes">
-			  <clip pos="0" part="lem"/>
-			  <lit v="verbcj_perif"/>
-			</equal>
 		      </or>
 		    </test>
 		    <let>
 		      <clip pos="2" part="lem"/>
-		      <lit v="haver"/>
+		      <lit v="haber"/>
 		    </let>
 		    <let>
 		      <clip pos="2" part="a_verb"/>
@@ -2737,15 +2711,11 @@
 			  <clip pos="0" part="lem"/>
 			  <lit v="auxmod_have_pp"/>
 			</equal>
-			<equal caseless="yes">
-			  <clip pos="0" part="lem"/>
-			  <lit v="mod_inf_perif"/>
-			</equal>
 		      </or>
 		    </test>
 		    <let>
 		      <clip pos="3" part="lem"/>
-		      <lit v="haver"/>
+		      <lit v="haber"/>
 		    </let>
 		    <let>
 		      <clip pos="3" part="a_verb"/>
@@ -2765,10 +2735,6 @@
 	      <when>
 		<test>
 		  <or>
-		    <equal caseless="yes">
-		      <clip pos="0" part="lem"/>
-		      <lit v="verbcj_perif"/>
-		    </equal>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
 		      <lit v="pro_verbcj"/>
@@ -2805,19 +2771,11 @@
 		  <or>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
-		      <lit v="pro_verbcj_perif"/>
-		    </equal>
-		    <equal caseless="yes">
-		      <clip pos="0" part="lem"/>
 		      <lit v="auxmod_mod_inf"/>
 		    </equal>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
 		      <lit v="auxmod_have_pp"/>
-		    </equal>
-		    <equal caseless="yes">
-		      <clip pos="0" part="lem"/>
-		      <lit v="mod_inf_perif"/>
 		    </equal>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
@@ -2861,10 +2819,6 @@
 	      <when>
 		<test>
 		  <or>
-		    <equal caseless="yes">
-		      <clip pos="0" part="lem"/>
-		      <lit v="pro_mod_inf_perif"/>
-		    </equal>
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
 		      <lit v="pro_auxmod_mod_inf"/>

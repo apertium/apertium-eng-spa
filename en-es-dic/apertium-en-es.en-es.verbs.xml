@@ -6129,7 +6129,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="happen D">
       <p>
          <l>happen<s n="vblex"/></l> 
          <r>pasar<s n="vblex"/></r> 
@@ -6367,6 +6367,19 @@
       </p>
    </e>
    
+   <e r="RL">
+      <p>
+         <l>have<s n="vblex"/></l> 
+         <r>contar<g><b/>con</g><s n="vblex"/></r> 
+      </p>
+   </e>
+   
+   <e>
+      <p>
+         <l>marry<s n="vblex"/></l> 
+         <r>casarse<s n="vblex"/><s n="pron"/></r> 
+      </p>
+   </e>
    <e>
       <p>
          <l>identify<s n="vblex"/></l> 
@@ -8029,13 +8042,6 @@
       </p>
    </e>
    
-   <e r="LR">
-      <p>
-         <l>order<s n="vblex"/></l> 
-         <r>pedir<s n="vblex"/></r> 
-      </p>
-   </e>
-   
    
    <e r="LR">
       <p>
@@ -8644,9 +8650,15 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>preclude<s n="vblex"/></l> 
+         <r>impedir<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>prevent<s n="vblex"/></l> 
          <r>impedir<s n="vblex"/></r> 
       </p>
    </e>
@@ -8784,13 +8796,15 @@
       </p>
    </e>
    
-   <e>
+   <e r="RL">
       <p>
          <l>prevent<s n="vblex"/></l> 
          <r>evitar<s n="vblex"/></r> 
       </p>
    </e>
    
+   <e><p><l>go<g><b/>through</g><s n="vblex"/></l><r>pasar<g><b/>por</g><s n="vblex"/></r></p></e>
+
    <e>
       <p>
          <l>price<s n="vblex"/></l> 
@@ -10842,16 +10856,17 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>sort<s n="vblex"/></l> 
          <r>ordenar<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e r="LR">
+   
+   <e>
       <p>
-         <l>sort<s n="vblex"/></l> 
+         <l>order<s n="vblex"/></l> 
          <r>ordenar<s n="vblex"/></r> 
       </p>
    </e>
@@ -10919,7 +10934,7 @@
       </p>
    </e>
    
-   <e slr="pasar">
+   <e slr="pasar" srl="spend">
       <p>
          <l>spend<s n="vblex"/></l> 
          <r>pasar<s n="vblex"/></r> 
@@ -12111,9 +12126,15 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>trigger<s n="vblex"/></l> 
+         <r>provocar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e r="RL">
+      <p>
+         <l>cause<s n="vblex"/></l> 
          <r>provocar<s n="vblex"/></r> 
       </p>
    </e>
@@ -12742,5 +12763,11 @@
       </p>
    </e>
    
+      <e r="RL">
+        <p>
+          <l>there<b/>is<s n="vblex"/></l>
+          <r>hay<s n="vblex"/></r>
+        </p>
+      </e>
 </section>
 

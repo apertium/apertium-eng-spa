@@ -13,11 +13,11 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
                  $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
                  $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
 
-$(BASENAME).$(LANG1).metadix: $(BASENAME).$(LANG1).metadix.xml en-dic/*.xml en-es-common/*.xml
+$(BASENAME).$(LANG1).metadix: en-dic/*.xml en-es-common/*.xml
 	xmllint --xinclude $(LANG1)-dic/$(BASENAME).$(LANG1).metadix.xml > $(BASENAME).$(LANG1).metadix
-$(BASENAME).$(LANG2).dix: $(BASENAME).$(LANG2).dix.xml es-dic/*.xml en-es-common/*.xml
+$(BASENAME).$(LANG2).dix: es-dic/*.xml en-es-common/*.xml
 	xmllint --xinclude $(LANG2)-dic/$(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
-$(BASENAME).$(LANG1)-$(LANG2).dix: $(BASENAME).$(LANG1)-$(LANG2).dix.xml en-es-dic/*.xml en-es-common/*.xml
+$(BASENAME).$(LANG1)-$(LANG2).dix: en-es-dic/*.xml en-es-common/*.xml
 	xmllint --xinclude $(LANG1)-$(LANG2)-dic/$(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
      
 TARGETS = $(TARGETS_COMMON) 
@@ -97,9 +97,8 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
 
 
-EXTRA_DIST=$(BASENAME).$(LANG1).metadix.xml $(BASENAME).$(PREFIX1).dix.xml \
-	   $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
-	   $(BASENAME).$(LANG2).dix.xml $(BASENAME).$(LANG1).tsx \
+EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
+	   $(BASENAME).$(LANG1).tsx \
 	   $(BASENAME).$(LANG2).tsx \
 	   $(PREFIX1).prob $(PREFIX2).prob \
 	   buscaPar.xsl principal.xsl \

@@ -100,17 +100,24 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
+	   $(BASENAME).$(LANG1).metadix.xml \
+	   $(LANG1)-dic/*.xml \
+	   $(BASENAME).$(LANG2).dix.xml \
+	   $(LANG2)-dic/*.xml \
+	   $(BASENAME).$(LANG1)-$(LANG2).dix.xml \
+	   $(LANG1)-$(LANG2)-dic/*.xml \
+	   $(LANG1)-$(LANG2)-common/*.xml \
 	   $(BASENAME).$(LANG2).tsx \
 	   $(PREFIX1).prob $(PREFIX2).prob \
-	   buscaPar.xsl principal.xsl apertium-es-en.en.metadix \
-	   #$(PREFIX1).lextor $(PREFIX2).lextor \
-	   $(PREFIX1)-supervised.make $(PREFIX1)-unsupervised.make \
+	   buscaPar.xsl principal.xsl translate-to-default-equivalent.xsl \
+	   $(PREFIX1)-unsupervised.make \
 	   $(PREFIX2)-supervised.make $(PREFIX2)-unsupervised.make \
-	   $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README \
 	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
 	   $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
 	   $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
 	   modes.xml
+#	$(PREFIX1)-supervised.make
+#	   $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README
 
 clean-dicts:
 	touch $(BASENAME).$(LANG1).dixtmp1 $(BASENAME).$(LANG1).metadix  $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix $(BASENAME).$(PREFIX1).dix

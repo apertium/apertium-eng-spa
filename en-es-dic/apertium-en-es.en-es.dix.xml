@@ -14,47 +14,72 @@
    <!-- paradigms -->
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.pardefs.xml"/>   
 
+   <section id="main" type="standard">
    <!-- proper nouns -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.proper-nouns.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.proper-nouns.xml"
+   xpointer="xpointer(//section/*)"/>
    
    <!-- nouns -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.nouns.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.nouns.xml"
+      xpointer="xpointer(//section/*)"/>
+
 
    <!-- acronyms -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.acronyms.xml"/>   
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.acronyms.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- determiners -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.determiners.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.determiners.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- adjectives -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.adjectives.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.adjectives.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- conjunctions -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.conjunctions.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.conjunctions.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- verbs -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.verbs.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.verbs.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- adverbs -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.adverbs.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.adverbs.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- pronouns -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.pronouns.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.pronouns.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- prepositions -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.prepositions.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.prepositions.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- numerals -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.numerals.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.numerals.xml"
+      xpointer="xpointer(//section/*)"/>
+
    
    <!-- interjections -->
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.interjections.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.interjections.xml"
+      xpointer="xpointer(//section/*)"/>
+
 
    <!-- colloquial -->
-<!--  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.colloquial.xml"/>  -->
-   
+<!--  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.colloquial.xml"
+   xpointer="xpointer(//section/*)"/>
+  -->
+  </section>   
    <!-- punctuation -->
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.punctuation.xml"/>
-   
 
 </dictionary>

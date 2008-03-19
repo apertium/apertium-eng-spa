@@ -97,27 +97,79 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
 
 
-EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
+EXTRA_DIST=$(BASENAME).$(LANG1).metadix.xml $(BASENAME).$(PREFIX1).dix.xml \
 	   $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
-	   $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
-	   $(BASENAME).$(LANG1).metadix.xml \
-	   $(LANG1)-dic/*.xml \
-	   $(BASENAME).$(LANG2).dix.xml \
-	   $(LANG2)-dic/*.xml \
-	   $(BASENAME).$(LANG1)-$(LANG2).dix.xml \
-	   $(LANG1)-$(LANG2)-dic/*.xml \
-	   $(LANG1)-$(LANG2)-common/*.xml \
+	   $(BASENAME).$(LANG2).dix.xml $(BASENAME).$(LANG1).tsx \
 	   $(BASENAME).$(LANG2).tsx \
 	   $(PREFIX1).prob $(PREFIX2).prob \
-	   buscaPar.xsl principal.xsl translate-to-default-equivalent.xsl \
-	   $(PREFIX1)-unsupervised.make \
-	   $(PREFIX2)-supervised.make $(PREFIX2)-unsupervised.make \
+	   buscaPar.xsl principal.xsl \
+           translate-to-default-equivalent.xsl \
 	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
 	   $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
-	   $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
+           $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
+           es-dic/apertium-en-es.es.acronyms.xml \
+           es-dic/apertium-en-es.es.adjectives.xml \
+           es-dic/apertium-en-es.es.adverbs.xml \
+           es-dic/apertium-en-es.es.colloquial.xml \
+           es-dic/apertium-en-es.es.conjunctions.xml \
+           es-dic/apertium-en-es.es.determiners.xml \
+           es-dic/apertium-en-es.es.dix.xml \
+           es-dic/apertium-en-es.es.interjections.xml \
+           es-dic/apertium-en-es.es.nouns.xml \
+           es-dic/apertium-en-es.es.numerals.xml \
+           es-dic/apertium-en-es.es.pardefs.xml \
+           es-dic/apertium-en-es.es.prepositions.xml \
+           es-dic/apertium-en-es.es.pronouns.xml \
+           es-dic/apertium-en-es.es.proper-nouns-ant.xml \
+           es-dic/apertium-en-es.es.proper-nouns.xml \
+           es-dic/apertium-en-es.es.punctuation.xml \
+           es-dic/apertium-en-es.es.symbols.xml \
+           es-dic/apertium-en-es.es.verbs.xml \
+           es-dic/apertium-en-es.pardefs-url.xml \
+           es-dic/apertium-en-es.symbols.xml \
+           en-dic/apertium-en-es.en.acronyms.xml \
+           en-dic/apertium-en-es.en.adjectives.xml \
+           en-dic/apertium-en-es.en.adverbs.xml \
+           en-dic/apertium-en-es.en.colloquial.xml \
+           en-dic/apertium-en-es.en.conjunctions.xml \
+           en-dic/apertium-en-es.en.determiners.xml \
+           en-dic/apertium-en-es.en.interjections.xml \
+           en-dic/apertium-en-es.en.metadix.xml \
+           en-dic/apertium-en-es.en.nouns.xml \
+           en-dic/apertium-en-es.en.numerals.xml \
+           en-dic/apertium-en-es.en.pardefs.xml \
+           en-dic/apertium-en-es.en.prepositions.xml \
+           en-dic/apertium-en-es.en.pronouns.xml \
+           en-dic/apertium-en-es.en.proper-nouns-ant.xml \
+           en-dic/apertium-en-es.en.proper-nouns.xml \
+           en-dic/apertium-en-es.en.punctuation.xml \
+           en-dic/apertium-en-es.en.symbols.xml \
+           en-dic/apertium-en-es.en.verbs.xml \
+           en-dic/apertium-en-es.pardefs-url.xml \
+           en-dic/apertium-en-es.symbols.xml \
+           en-es-dic/apertium-en-es.en-es.acronyms.xml \
+           en-es-dic/apertium-en-es.en-es.adjectives.xml \
+           en-es-dic/apertium-en-es.en-es.adverbs.xml \
+           en-es-dic/apertium-en-es.en-es.colloquial.xml \
+           en-es-dic/apertium-en-es.en-es.conjunctions.xml \
+           en-es-dic/apertium-en-es.en-es.determiners.xml \
+           en-es-dic/apertium-en-es.en-es.dix.xml \
+           en-es-dic/apertium-en-es.en-es.interjections.xml \
+           en-es-dic/apertium-en-es.en-es.nouns.xml \
+           en-es-dic/apertium-en-es.en-es.numerals.xml \
+           en-es-dic/apertium-en-es.en-es.pardefs.xml \
+           en-es-dic/apertium-en-es.en-es.prepositions.xml \
+           en-es-dic/apertium-en-es.en-es.pronouns.xml \
+           en-es-dic/apertium-en-es.en-es.proper-nouns-ant.xml \
+           en-es-dic/apertium-en-es.en-es.proper-nouns.xml \
+           en-es-dic/apertium-en-es.en-es.punctuation.xml \
+           en-es-dic/apertium-en-es.en-es.symbols.xml \
+           en-es-dic/apertium-en-es.en-es.verbs.xml \
+           en-es-dic/apertium-en-es.pardefs-url.xml \
+           en-es-dic/apertium-en-es.symbols.xml \
+           en-es-common/apertium-en-es.pardefs-url.xml \
+           en-es-common/apertium-en-es.symbols.xml \
 	   modes.xml
-#	$(PREFIX1)-supervised.make
-#	   $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README
 
 clean-dicts:
 	touch $(BASENAME).$(LANG1).dixtmp1 $(BASENAME).$(LANG1).metadix  $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix $(BASENAME).$(PREFIX1).dix

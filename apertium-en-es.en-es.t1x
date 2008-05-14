@@ -14796,6 +14796,40 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<append n="lema_SV">
 	  <lit v="_pp"/>
 	</append>
+	<!-- 
+	If we have "subject" + "to be" + "pp", to be should be translated as
+	"estar" instead of as "ser" most of the times as in:
+	I am scared -> Estoy asustado
+	-->
+	<choose>
+	<when>
+	  <test>
+	    <equal>
+	    <clip pos="1" side="sl" part="lemh"/>
+	    <lit v="be"/>
+	    </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <lit v="estar"/>
+	    </let>
+	    <let>
+	      <var n="tipus_verb"/>
+	      <lit-tag v="vblex"/>
+	    </let>
+            <let>
+	      <var n="verbfinal"/>
+	      <concat>
+	        <lit v="estar"/>
+	        <lit-tag v="vblex"/>
+	        <lit-tag v="3"/>
+	        <lit-tag v="4"/>
+	        <lit-tag v="5"/>
+	        <clip pos="1" side="tl" part="lemq"/>
+	      </concat>
+	    </let>
+	  </when>
+	  </choose>	
 	<out>
 	  <chunk namefrom="lema_SV" case="caseFirstWord">
 	    <tags>	       

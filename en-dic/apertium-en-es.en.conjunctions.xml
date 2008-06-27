@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <section id="conjunctions" type="standard">
 
@@ -68,6 +68,11 @@
 
     <e lm="as">
         <i>as</i> 
+        <par n="after__cnjadv"/> 
+    </e>
+
+    <e lm="as well as">
+        <i>as<b/>well<b/>as</i> 
         <par n="after__cnjadv"/> 
     </e>
 

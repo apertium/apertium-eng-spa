@@ -485,6 +485,24 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="act of God">
+        <i>act</i> 
+        <par n="house__n"/> 
+        <p>
+          <l><b/>of<b/>God</l>
+          <r><g><b/>of<b/>God</g></r>
+        </p>
+    </e>
+
+    <e lm="act of nature">
+        <i>act</i> 
+        <par n="house__n"/> 
+        <p>
+          <l><b/>of<b/>nature</l>
+          <r><g><b/>of<b/>nature</g></r>
+        </p>
+    </e>
+
     <e lm="action">
         <i>action</i> 
         <par n="house__n"/> 
@@ -9899,6 +9917,19 @@
     <e lm="force">
         <i>force</i> 
         <par n="house__n"/> 
+    </e>
+
+    <e lm="force majeure">
+      <p>
+        <l>force<b/>majeure</l>
+        <r>force<b/>majeure<s n="n"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e lm="forces majeures">
+      <p>
+        <l>forces<b/>majeures</l>
+        <r>force<b/>majeure<s n="n"/><s n="pl"/></r>
+      </p>
     </e>
 
     <e lm="forcing">

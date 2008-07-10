@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
    <section id="proper-nouns" type="standard">
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en-es.proper-nouns-ant.xml#xpointer(/section/*)"/>
       <e>
@@ -497,6 +497,13 @@
          <p>
             <l>Blair<s n="np"/><s n="cog"/><s n="pl"/></l> 
             <r>Blair<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Boeing<s n="np"/><s n="al"/></l> 
+            <r>Boeing<s n="np"/><s n="al"/><s n="m"/></r> 
          </p>
       </e>
       
@@ -2590,7 +2597,28 @@
             <r>Qatar<s n="np"/><s n="loc"/><s n="m"/></r> 
          </p>
       </e>
-      
+
+      <e>
+         <p>
+            <l>Queensland<s n="np"/><s n="loc"/></l> 
+            <r>Queensland<s n="np"/><s n="loc"/><s n="m"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Donegal<s n="np"/><s n="loc"/></l> 
+            <r>Donegal<s n="np"/><s n="loc"/><s n="m"/></r> 
+         </p>
+      </e>
+
+      <e>
+         <p>
+            <l>Dover<s n="np"/><s n="loc"/></l> 
+            <r>Dover<s n="np"/><s n="loc"/><s n="m"/></r> 
+         </p>
+      </e>
+
       <e>
          <p>
             <l>Rabat<s n="np"/><s n="loc"/></l> 
@@ -2625,7 +2653,21 @@
             <r>Raúl<s n="np"/></r> 
          </p>
       </e>
+
+      <e>
+         <p>
+            <l>Reagan<s n="np"/><s n="cog"/><s n="sg"/></l> 
+            <r>Reagan<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r> 
+         </p>
+      </e>
       
+      <e r="LR">
+         <p>
+            <l>Reagan<s n="np"/><s n="cog"/><s n="pl"/></l> 
+            <r>Reagan<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r> 
+         </p>
+      </e>
+
       <e>
          <p>
             <l>Repsol<s n="np"/><s n="al"/></l> 

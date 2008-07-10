@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 
   <section id="proper-nouns" type="standard">
@@ -287,6 +287,12 @@
         <i>Bill</i> 
         <par n="Jaime__np"/> 
     </e>
+
+    <e lm="Boeing">
+        <i>Boeing</i> 
+        <par n="ABC__np"/> 
+    </e>
+    
     <e lm="Bogotá" a="prompsit2adn">
         <i>Bogotá</i> 
         <par n="Afganistán__np"/> 
@@ -2024,6 +2030,21 @@
         <par n="Barcelona__np"/> 
     </e>
 
+<!-- Keeping these here, rather than trying to order them properly, as I don't know the genders -->
+    <e lm="Queensland">
+        <i>Queensland</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Dover">
+        <i>Dover</i> 
+        <par n="Afganistán__np"/> 
+    </e>
+
+    <e lm="Donegal">
+        <i>Donegal</i> 
+        <par n="Afganistán__np"/> 
+    </e>
 
 <e lm="Fernández"><i>Fernández</i><par n="García__np"/></e>
 <e lm="Rodríguez"><i>Rodríguez</i><par n="García__np"/></e>
@@ -2047,6 +2068,7 @@
 <e lm="López"><i>López</i><par n="García__np"/></e>
 <e lm="Pallerols"><i>Pallerols</i><par n="García__np"/></e>
 <e lm="González"><i>González</i><par n="García__np"/></e>
+<e lm="Reagan"><i>Reagan</i><par n="García__np"/></e>
 <e lm="Ruiz"><i>Ruiz</i><par n="García__np"/></e>
 <e lm="Franco"><i>Franco</i><par n="García__np"/></e>
 <e lm="Blair"><i>Blair</i><par n="García__np"/></e>

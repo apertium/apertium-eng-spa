@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <section id="proper-nouns" type="standard">
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.proper-nouns-ant.xml#xpointer(/section/*)"/>
@@ -297,6 +297,11 @@
         <par n="Smith__np"/> 
     </e>
 
+    <e lm="Boeing">
+        <i>Boeing</i> 
+        <par n="Linux__np"/> 
+    </e>
+
     <e lm="Bogota">
         <i>Bogota</i> 
         <par n="Barcelona__np"/> 
@@ -389,12 +394,12 @@
 
     <e lm="Carles">
         <i>Carles</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Carlos">
         <i>Carlos</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Carlota">
@@ -534,12 +539,22 @@
 
     <e lm="Dennis">
         <i>Dennis</i> 
-        <par n="Mary__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Diego">
         <i>Diego</i> 
         <par n="Mark__np"/> 
+    </e>
+
+    <e lm="Donegal">
+        <i>Donegal</i> 
+        <par n="Barcelona__np"/> 
+    </e>
+    
+    <e lm="Dover">
+        <i>Dover</i> 
+        <par n="Barcelona__np"/> 
     </e>
 
     <e lm="Dublin">
@@ -674,7 +689,7 @@
 
     <e lm="Francis">
         <i>Francis</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Francisco">
@@ -939,7 +954,7 @@
 
     <e lm="James">
         <i>James</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Jan">
@@ -969,12 +984,12 @@
 
     <e lm="Jesus">
         <i>Jesus</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Jesús">
         <i>Jesús</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Joan">
@@ -1109,7 +1124,7 @@
 
     <e lm="Lewis">
         <i>Lewis</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Libya">
@@ -1144,7 +1159,7 @@
 
     <e lm="Lluís">
         <i>Lluís</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="London">
@@ -1164,12 +1179,12 @@
 
     <e lm="Louis">
         <i>Louis</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Lucas">
         <i>Lucas</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Lucas">
@@ -1179,7 +1194,7 @@
 
     <e lm="Luis">
         <i>Luis</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Luxembourg">
@@ -1490,7 +1505,7 @@
 
     <e lm="Nicolas">
         <i>Nicolas</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Nicolau">
@@ -1682,6 +1697,11 @@
         <par n="Barcelona__np"/> 
     </e>
 
+    <e lm="Queensland">
+        <i>Queensland</i> 
+        <par n="Barcelona__np"/> 
+    </e>
+
     <e lm="Rabat">
         <i>Rabat</i> 
         <par n="Barcelona__np"/> 
@@ -1705,6 +1725,11 @@
     <e lm="Raúl">
         <i>Raúl</i> 
         <par n="Mark__np"/> 
+    </e>
+
+    <e lm="Reagan">
+        <i>Reagan</i> 
+        <par n="Smith__np"/> 
     </e>
 
     <e lm="Repsol">
@@ -1959,7 +1984,7 @@
 
     <e lm="Thomas">
         <i>Thomas</i> 
-        <par n="Mark__np"/> 
+        <par n="James__np"/> 
     </e>
 
     <e lm="Tokyo">

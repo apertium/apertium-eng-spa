@@ -1,7 +1,7 @@
 TRANSLATOR
 
 You need apertium-3.0 and lttoolbox-3.0 to use this translator.  To compile
-the linguistical data simply do:
+the linguistic data simply do:
 
 ./configure
 make
@@ -13,9 +13,9 @@ TAGGER
 
 To use this language-pair package with apertium YOU DO NOT NEED TO
 RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
-both the ca-es and the es-ca translation directions which should be
+both the en-es and the es-en translation directions which should be
 acceptable for most applications, and should work even if you change
-the dictionaries in a reasonably way.
+the dictionaries in a reasonable way.
 
 If for some reason you need to retrain the tagger (for example, you
 have made really extensive changes to the dictionaries such as

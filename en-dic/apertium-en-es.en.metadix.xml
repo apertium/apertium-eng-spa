@@ -18,6 +18,7 @@
 
 	<!-- nouns -->
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.nouns.xml" xpointer="xpointer(//section/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.mw-nouns.xml" xpointer="xpointer(//section/*)"/>
 
 	<!-- acronyms -->
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.acronyms.xml" xpointer="xpointer(//section/*)"/> 

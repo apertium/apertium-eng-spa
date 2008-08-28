@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <section id="conjunctions" type="standard">
   <e r="LR" lm="de que">
     <p>
@@ -229,6 +229,35 @@
   <e lm="tanto" r="RL">
     <i>tanto</i>
     <par n="justo_es_decir__cnjcoo"/>
+  </e>
+
+  <e lm="por duplicado" a="eleka">
+    <i>por<b/>duplicado</i>
+    <par n="a_fe_que__cnjadv"/>
+  </e>
+  <e lm="por triplicado" a="eleka">
+    <i>por<b/>triplicado</i>
+    <par n="a_fe_que__cnjadv"/>
+  </e>
+  <e lm="por mayoría absoluta" a="eleka">
+    <i>por<b/>mayoría<b/>absoluta</i>
+    <par n="a_fe_que__cnjadv"/>
+  </e>
+  <e lm="por orden de" a="eleka">
+    <i>por<b/>orden<b/>de</i>
+    <par n="a_fe_que__cnjadv"/>
+  </e>
+  <e lm="por orden alfabético" a="eleka">
+    <i>por<b/>orden<b/>alfabético</i>
+    <par n="a_fe_que__cnjadv"/>
+  </e>
+  <e lm="por mandato judicial" a="eleka">
+    <i>por<b/>mandato<b/>judicial</i>
+    <par n="a_fe_que__cnjadv"/>
+  </e>
+  <e lm="por la presente" a="eleka">
+    <i>por<b/>la<b/>presente</i>
+    <par n="a_fe_que__cnjadv"/>
   </e>
 
 <e lm="como"><i>como</i><par n="justo_es_decir__cnjcoo"/></e>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <section id="nouns" type="standard">
 
     <e lm="chemist's">
@@ -3247,8 +3247,16 @@
         <par n="bab/y__n"/> 
     </e>
 
-    <e lm="cafe">
-        <i>cafe</i> 
+    <e lm="café">
+        <i>café</i> 
+        <par n="house__n"/> 
+    </e>
+
+    <e lm="café">
+        <p>
+          <l>cafe</l>
+          <r>café</r>
+        </p>
         <par n="house__n"/> 
     </e>
 

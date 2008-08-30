@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <section id="proper-nouns" type="standard">
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-en-es.en.proper-nouns-ant.xml#xpointer(/section/*)"/>
@@ -1997,6 +1997,11 @@
         <par n="Mark__np"/> 
     </e>
 
+    <e lm="Treaty establishing a Constitution for Europe">
+        <i>Treaty<b/>establishing<b/>a<b/>Constitution<b/>for<b/>Europe</i> 
+        <par n="Linux__np"/> 
+    </e>
+
     <e lm="Tripoli">
         <i>Tripoli</i> 
         <par n="Barcelona__np"/> 
@@ -2037,8 +2042,13 @@
         <par n="Barcelona__np"/> 
     </e>
 
-    <e lm="United Kingdom">
-        <i>United<b/>Kingdom</i> 
+    <e lm="United Kingdom of Great Britain and Ireland">
+        <i>United<b/>Kingdom<b/>of<b/>Great<b/>Britain<b/>and<b/>Ireland</i> 
+        <par n="Barcelona__np"/> 
+    </e>
+
+    <e lm="United Kingdom of Great Britain and Northern Ireland">
+        <i>United<b/>Kingdom<b/>of<b/>Great<b/>Britain<b/>and<b/>Northern<b/>Ireland</i> 
         <par n="Barcelona__np"/> 
     </e>
 

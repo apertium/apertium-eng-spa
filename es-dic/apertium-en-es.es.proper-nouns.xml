@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 
   <section id="proper-nouns" type="standard">
@@ -2029,6 +2029,32 @@
         <i>África</i> 
         <par n="Barcelona__np"/> 
     </e>
+
+    <e lm="Reino Unido de Gran Bretaña e Irlanda del Norte" a="jimregan">
+      <i>Reino<b/>Unido<b/>de<b/>Gran<b/>Bretaña<b/>e<b/>Irlanda<b/>del<b/>Norte</i>
+      <par n="Afganistán__np"/>
+    </e>
+    <e lm="Reino Unido de Gran Bretaña e Irlanda" a="jimregan">
+      <i>Reino<b/>Unido<b/>de<b/>Gran<b/>Bretaña<b/>e<b/>Irlanda</i>
+      <par n="Afganistán__np"/>
+    </e>
+    <e lm="Tratado por el que se establece una constitución para Europa" a="jimregan">
+      <i>Tratado<b/>por<b/>el<b/>que<b/>se<b/>establece<b/>una<b/>constitución<b/>para<b/>Europa</i>
+      <par n="ABC__np"/>
+    </e>
+    <e lm="Per Stig Møller" a="jimregan">
+      <i>Per<b/>Stig<b/>Møller</i>
+      <par n="Jaime__np"/>
+    </e>
+    <e lm="Stanislav Gross" a="jimregan">
+      <i>Stanislav<b/>Gross</i>
+      <par n="Jaime__np"/>
+    </e>
+    <e lm="Fidel Castro" a="jimregan">
+      <i>Fidel<b/>Castro</i>
+      <par n="Jaime__np"/>
+    </e>
+
 
 <!-- Keeping these here, rather than trying to order them properly, as I don't know the genders -->
     <e lm="Queensland">

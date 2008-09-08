@@ -920,6 +920,12 @@
          <r>constatar<s n="vblex"/></r> 
       </p>
    </e>
+   <e>
+      <p>
+         <l>abdicate<s n="vblex"/></l> 
+         <r>abdicar<s n="vblex"/></r> 
+      </p>
+   </e>
    
    <e slr="pedir" c="ask sb to do smth">
       <p>
@@ -1711,12 +1717,6 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>bring<s n="vblex"/></l> 
-         <r>llevar<s n="vblex"/></r> 
-      </p>
-   </e>
    <e>
       <p>
          <l>bring<s n="vblex"/></l> 
@@ -1914,33 +1914,14 @@
       </p>
    </e>
    
-   <e>
+   <e srl="carry D">
       <p>
          <l>carry<s n="vblex"/></l> 
          <r>llevar<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>carry<s n="vblex"/></l> 
-         <r>llevar<s n="vblex"/></r> 
-      </p>
-   </e>
    
-   <e r="RL">
-      <p>
-         <l>carry<s n="vblex"/></l> 
-         <r>portar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>carry<s n="vblex"/></l> 
-         <r>traer<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -3072,6 +3053,18 @@
       <p>
          <l>cope<g><b/>with</g><s n="vblex"/></l> 
          <r>soportar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e r="LR">
+      <p>
+         <l>abide<s n="vblex"/></l> 
+         <r>soportar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>abjure<s n="vblex"/></l> 
+         <r>abjurar<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -6975,14 +6968,14 @@
       </p>
    </e>
    
-   <e r="LR" c="keep + ger (keep doing...) -> transfer?. En direcció ca-en tb s'hauria de detectar la construcció amb gerundi">
+   <e r="LR" slr="continuar" c="keep + ger (keep doing...) -> transfer?. En direcció ca-en tb s'hauria de detectar la construcció amb gerundi">
       <p>
          <l>keep<s n="vblex"/></l> 
          <r>continuar<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e slr="mantener D">
+   <e slr="mantener D" srl="keep D">
       <p>
          <l>keep<s n="vblex"/></l> 
          <r>mantener<s n="vblex"/></r> 
@@ -7437,7 +7430,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="maintain">
       <p>
          <l>maintain<s n="vblex"/></l> 
          <r>mantener<s n="vblex"/></r> 
@@ -8000,21 +7993,21 @@
    </e>
    
    
-   <e r="LR">
+   <e r="LR" slr="funcionar">
       <p>
          <l>operate<s n="vblex"/></l> 
          <r>funcionar<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e r="LR">
+   <e r="LR" slr="manejar">
       <p>
          <l>operate<s n="vblex"/></l> 
          <r>manejar<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e>
+   <e slr="operar D">
       <p>
          <l>operate<s n="vblex"/></l> 
          <r>operar<s n="vblex"/></r> 
@@ -10913,12 +10906,38 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>speed<s n="vblex"/></l> 
          <r>acelerar<s n="vblex"/></r> 
       </p>
    </e>
+   <e>
+      <p>
+         <l>accelerate<s n="vblex"/></l> 
+         <r>acelerar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>acclimate<s n="vblex"/></l> 
+         <r>aclimatar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>adore<s n="vblex"/></l> 
+         <r>adorar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>adulate<s n="vblex"/></l> 
+         <r>adular<s n="vblex"/></r> 
+      </p>
+   </e>
+   
+   
    
    <e>
       <p>
@@ -11616,7 +11635,7 @@
       </p>
    </e>
    
-   <e r="LR" slr="llevar" c="(I took him home)">
+   <e srl="take" slr="llevar" c="(I took him home)">
       <p>
          <l>take<s n="vblex"/></l> 
          <r>llevar<s n="vblex"/></r> 
@@ -12510,26 +12529,13 @@
       </p>
    </e>
    
-   <e r="LR" c="(roba)">
+   <e srl="wear" c="(roba)">
       <p>
          <l>wear<s n="vblex"/></l> 
          <r>llevar<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e r="LR" c="(roba)">
-      <p>
-         <l>wear<s n="vblex"/></l> 
-         <r>traer<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
-         <l>wear<s n="vblex"/></l> 
-         <r>traer<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e r="LR">
       <p>

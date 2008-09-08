@@ -192,12 +192,6 @@
          <r>antes<b/>de<s n="pr"/></r> 
       </p>
    </e>
-   <e r="RL">
-      <p>
-         <l>behind<s n="pr"/></l> 
-         <r>en<b/>pos<b/>de<s n="pr"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -240,7 +234,7 @@
          <r>por<s n="pr"/></r> 
       </p>
    </e>
-   <e srl="through">
+   <e srl="through" r="RL">
       <p>
          <l>through<s n="pr"/></l> 
          <r>por<s n="pr"/></r> 
@@ -817,9 +811,15 @@
          <r>a<b/>fuerza<b/>de<s n="pr"/></r> 
       </p>
    </e>
-   <e c="also: after">
+   <e>
       <p>
          <l>in<b/>pursuit<b/>of<s n="pr"/></l> 
+         <r>en<b/>persecución<b/>de<s n="pr"/></r> 
+      </p>
+   </e>
+   <e r="RL">
+      <p>
+         <l>after<s n="pr"/></l> 
          <r>en<b/>pos<b/>de<s n="pr"/></r> 
       </p>
    </e>

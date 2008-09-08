@@ -1211,14 +1211,13 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>advance<s n="n"/></l> 
-        <r>adelantamiento<s n="n"/><s n="m"/></r> 
+        <r>avance<s n="n"/><s n="m"/></r> 
       </p>
     </e>
-
-    <e>
+    <e r="RL">
       <p>
         <l>advance<s n="n"/></l> 
         <r>adelanto<s n="n"/><s n="m"/></r> 
@@ -4640,7 +4639,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="bite D">
       <p>
         <l>bite<s n="n"/></l> 
         <r>picadura<s n="n"/><s n="f"/></r> 
@@ -4817,7 +4816,7 @@
       </p>
     </e>
 
-    <e slr="junta">
+    <e slr="junta" srl="board D">
       <p>
         <l>board<s n="n"/></l> 
         <r>junta<s n="n"/><s n="f"/></r> 
@@ -5410,14 +5409,14 @@
     <e r="LR">
       <p>
         <l>brother<s n="n"/></l> 
-        <r>hermano<s n="n"/><s n="GD"/></r> 
+        <r>hermano<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
         <l>brother<s n="n"/></l> 
-        <r>hermano<s n="n"/></r> 
+        <r>hermano<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -5545,7 +5544,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="building">
       <p>
         <l>building<s n="n"/></l> 
         <r>nave<s n="n"/><s n="f"/></r> 
@@ -6192,7 +6191,7 @@
       </p>
     </e>
 
-    <e r="LR" slr="carta">
+    <e slr="carta" srl="card">
       <p>
         <l>card<s n="n"/></l> 
         <r>carta<s n="n"/><s n="f"/></r> 
@@ -10100,7 +10099,7 @@
     </e>
 
 
-    <e r="RL">
+    <e r="RL" srl="couple">
       <p>
         <l>couple<s n="n"/></l> 
         <r>matrimonio<s n="n"/><s n="m"/></r> 
@@ -10317,12 +10316,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>crash<s n="n"/></l> 
-        <r>shock<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -12392,7 +12385,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="direction">
       <p>
         <l>direction<s n="n"/></l> 
         <r>sentido<s n="n"/><s n="m"/></r> 
@@ -12800,7 +12793,7 @@
     <e r="RL">
       <p>
         <l>dissatisfaction<s n="n"/></l> 
-        <r>descontento<s n="n"/><s n="f"/></r> 
+        <r>descontento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -13889,7 +13882,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="edge">
       <p>
         <l>edge<s n="n"/></l> 
         <r>canto<s n="n"/><s n="m"/></r> 
@@ -15495,7 +15488,7 @@
       </p>
     </e>
 
-    <e slr="alcance">
+    <e slr="alcance" r="LR">
       <p>
         <l>extent<s n="n"/></l> 
         <r>alcance<s n="n"/><s n="m"/></r> 
@@ -19095,7 +19088,7 @@
       </p>
     </e>
 
-    <e slr="vista" c="Jur. vista de un caso">
+    <e slr="vista" srl="hearing" c="Jur. vista de un caso">
       <p>
         <l>hearing<s n="n"/></l> 
         <r>vista<s n="n"/><s n="f"/></r> 
@@ -20679,7 +20672,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="index D">
       <p>
         <l>index<s n="n"/></l> 
         <r>índice<s n="n"/><s n="m"/></r> 
@@ -21470,13 +21463,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>interest<s n="n"/><s n="pl"/></l> 
-        <r>inquietud<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>interest<s n="n"/></l> 
@@ -21555,7 +21541,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="interpretation D">
       <p>
         <l>interpretation<s n="n"/></l> 
         <r>interpretación<s n="n"/><s n="f"/></r> 
@@ -22074,7 +22060,7 @@
       </p>
     </e>
 
-    <e slr="junta D" c="Téc.">
+    <e slr="junta D" c="Téc." srl="joint">
       <p>
         <l>joint<s n="n"/></l> 
         <r>junta<s n="n"/><s n="f"/></r> 
@@ -22130,7 +22116,7 @@
       </p>
     </e>
 
-    <e slr="juicio D">
+    <e slr="juicio D" srl="judgement">
       <p>
         <l>judgement<s n="n"/></l> 
         <r>juicio<s n="n"/><s n="m"/></r> 
@@ -22144,7 +22130,7 @@
       </p>
     </e>
 
-    <e slr="juicio D">
+    <e slr="juicio D" r="LR">
       <p>
         <l>judgment<s n="n"/></l> 
         <r>juicio<s n="n"/><s n="m"/></r> 
@@ -22298,7 +22284,7 @@
       </p>
     </e>
 
-    <e slr="tono">
+    <e slr="tono" srl="key">
       <p>
         <l>key<s n="n"/></l> 
         <r>tono<s n="n"/><s n="m"/></r> 
@@ -22631,21 +22617,9 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>lamp<s n="n"/></l> 
-        <r>luz<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
+
 
     <e>
-      <p>
-        <l>lamp<s n="n"/></l> 
-        <r>luz<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
       <p>
         <l>lamp<s n="n"/></l> 
         <r>lámpara<s n="n"/><s n="f"/></r> 
@@ -22761,7 +22735,7 @@
     <e r="LR">
       <p>
         <l>lathe<s n="n"/></l> 
-        <r>turno<s n="n"/><s n="m"/></r> 
+        <r>torno<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -23142,7 +23116,7 @@
       </p>
     </e>
 
-    <e slr="carta">
+    <e slr="carta" srl="letter D">
       <p>
         <l>letter<s n="n"/></l> 
         <r>carta<s n="n"/><s n="f"/></r> 
@@ -23191,12 +23165,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>liability<s n="n"/></l> 
-        <r>responsabilidad<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
 
     <e r="LR">
       <p>
@@ -23338,26 +23306,13 @@
       </p>
     </e>
 
-    <e r="LR" c="MG: no hi ha 'llum' en masculí, afegir-lo (?)">
+    <e>
       <p>
         <l>light<s n="n"/></l> 
         <r>luz<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e c="MG: no hi ha 'llum' en masculí, afegir-lo (?)">
-      <p>
-        <l>light<s n="n"/></l> 
-        <r>luz<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" c="MG: no hi ha 'llum' en masculí, afegir-lo (?)">
-      <p>
-        <l>light<s n="n"/></l> 
-        <r>lámpara<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
 
     <e r="RL">
       <p>
@@ -23842,12 +23797,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>lump<s n="n"/></l> 
-        <r>trozo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e srl="lunch">
       <p>
@@ -24344,7 +24293,7 @@
         <r>mercadotecnia<s n="n"/><s n="f"/></r> 
       </p>
     </e>
-    <e>
+    <e srl="marriage D">
       <p>
         <l>marriage<s n="n"/></l> 
         <r>matrimonio<s n="n"/><s n="m"/></r> 
@@ -24815,7 +24764,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="menu">
       <p>
         <l>menu<s n="n"/></l> 
         <r>carta<s n="n"/><s n="f"/></r> 
@@ -24983,7 +24932,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="metre D">
       <p>
         <l>metre<s n="n"/></l> 
         <r>metro<s n="n"/><s n="m"/></r> 
@@ -26322,7 +26271,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="nave">
       <p>
         <l>nave<s n="n"/></l> 
         <r>nave<s n="n"/><s n="f"/></r> 
@@ -26483,14 +26432,14 @@
       </p>
     </e>
 
-    <e>
+    <e srl="net">
       <p>
         <l>net<s n="n"/></l> 
         <r>red<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e>
+    <e srl="network D">
       <p>
         <l>network<s n="n"/></l> 
         <r>red<s n="n"/><s n="f"/></r> 
@@ -26706,7 +26655,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>noose<s n="n"/></l> 
         <r>lazo<s n="n"/><s n="m"/></r> 
@@ -26825,7 +26774,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="notice">
       <p>
         <l>notice<s n="n"/></l> 
         <r>aviso<s n="n"/><s n="m"/></r> 
@@ -27860,12 +27809,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>overtaking<s n="n"/></l> 
-        <r>adelantamiento<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -28444,7 +28387,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="participation D">
       <p>
         <l>participation<s n="n"/></l> 
         <r>participación<s n="n"/><s n="f"/></r> 
@@ -28731,7 +28674,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>peak<s n="n"/></l> 
         <r>cumbre<s n="n"/><s n="f"/></r> 
@@ -29079,7 +29022,7 @@
     </e>
 
 
-    <e r="RL">
+    <e r="RL" srl="performance">
       <p>
         <l>performance<s n="n"/></l> 
         <r>interpretación<s n="n"/><s n="f"/></r> 
@@ -29221,7 +29164,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="perspective D">
       <p>
         <l>perspective<s n="n"/></l> 
         <r>perspectiva<s n="n"/><s n="f"/></r> 
@@ -29389,7 +29332,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="photograph">
       <p>
         <l>photograph<s n="n"/></l> 
         <r>fotografía<s n="n"/><s n="f"/></r> 
@@ -29410,7 +29353,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="photography D">
       <p>
         <l>photography<s n="n"/></l> 
         <r>fotografía<s n="n"/><s n="f"/></r> 
@@ -29514,7 +29457,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="pig D">
       <p>
         <l>pig<s n="n"/></l> 
         <r>cerdo<s n="n"/><s n="m"/></r> 
@@ -29600,7 +29543,7 @@
     <e>
       <p>
         <l>pink<s n="n"/></l> 
-        <r>rosa<s n="n"/><s n="f"/></r> 
+        <r>rosa<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -29694,12 +29637,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>pitch<s n="n"/></l> 
-        <r>tono<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -29919,13 +29856,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>pledging<s n="n"/></l> 
-        <r>prenda<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
     <e r="LR">
       <p>
         <l>plenty<s n="n"/></l> 
@@ -30129,7 +30059,7 @@
         <r>guardia<s n="n"/><s n="mf"/></r> 
       </p>
     </e>
-    <e>
+    <e srl="policy">
       <p>
         <l>policy<s n="n"/></l> 
         <r>política<s n="n"/><s n="f"/></r> 
@@ -30150,7 +30080,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="politics D">
       <p>
         <l>politics<s n="n"/></l> 
         <r>política<s n="n"/><s n="f"/></r> 
@@ -30269,7 +30199,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="pork">
       <p>
         <l>pork<s n="n"/></l> 
         <r>cerdo<s n="n"/><s n="m"/></r> 
@@ -31549,7 +31479,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="prospect">
       <p>
         <l>prospect<s n="n"/></l> 
         <r>perspectiva<s n="n"/><s n="f"/></r> 
@@ -31774,7 +31704,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="editor D">
       <p>
         <l>publisher<s n="n"/></l> 
         <r>editor<s n="n"/><s n="GD"/></r> 
@@ -31788,7 +31718,7 @@
       </p>
     </e>
 
-    <e>
+    <e slr="editorial">
       <p>
         <l>publisher<s n="n"/></l> 
         <r>editorial<s n="n"/><s n="f"/></r> 
@@ -32365,7 +32295,7 @@
       </p>
     </e>
 
-    <e r="LR" slr="alcance" c="Mil.">
+    <e slr="alcance" c="Mil." srl="range">
       <p>
         <l>range<s n="n"/></l> 
         <r>alcance<s n="n"/><s n="m"/></r> 
@@ -32422,7 +32352,7 @@
       </p>
     </e>
 
-    <e slr="ritmo">
+    <e slr="ritmo" srl="rate">
       <p>
         <l>rate<s n="n"/></l> 
         <r>ritmo<s n="n"/><s n="m"/></r> 
@@ -32436,7 +32366,7 @@
       </p>
     </e>
 
-    <e slr="índice D">
+    <e slr="índice D" srl="rate">
       <p>
         <l>rate<s n="n"/></l> 
         <r>índice<s n="n"/><s n="m"/></r> 
@@ -33760,11 +33690,18 @@
 
     <e>
       <p>
-        <l>restlessness<s n="n"/></l> 
-        <r>inquietud<s n="n"/><s n="f"/></r> 
+        <l>restlessness<s n="n"/><s n="sg"/></l> 
+        <r>inquietud<s n="n"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
+
+    <e r="RL">
+      <p>
+        <l>interest<s n="n"/><s n="pl"/></l> 
+        <r>inquietud<s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>restoration<s n="n"/></l> 
@@ -33987,7 +33924,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="rhythm D">
       <p>
         <l>rhythm<s n="n"/></l> 
         <r>ritmo<s n="n"/><s n="m"/></r> 
@@ -34015,7 +33952,7 @@
       </p>
     </e>
 
-    <e>
+    <e slr="derecha">
       <p>
         <l>right<s n="n"/></l> 
         <r>derecha<s n="n"/><s n="f"/></r> 
@@ -34828,26 +34765,30 @@
     <e><p>        <l>scale<s n="n"/><s n="sg"/></l>        <r>escala<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     
 
+ <e r="RL" srl="stair D"><p><l>stair<s n="n"/><s n="pl"/></l><r>escalera<s n="n"/><s n="f"/><s n="sg"/></r></p></e> 
+<e r="RL" srl="stair D"><p><l>stair<s n="n"/><s n="pl"/></l><r>escalera<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>stair<s n="n"/><s n="sg"/></l><r>peldaño<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>stair<s n="n"/><s n="pl"/></l><r>escalera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>stair<s n="n"/></l><r>peldaño<s n="n"/><s n="m"/></r></p></e>
 
-    <e r="LR">
-      <p>
-        <l>stair<s n="n"/><s n="pl"/></l> 
-        <r>escalera<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
+ 
+
     <e r="RL">
       <p>
         <l>stair<s n="n"/></l> 
-        <r>escalera<s n="n"/><s n="f"/></r> 
+        <r>escalón<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
-    <e>
+
+    <e r="LR">
       <p>
         <l>staircase<s n="n"/></l> 
         <r>escalera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
+
+
     <e>
       <p>
         <l>escape<s n="n"/></l> 
@@ -35064,7 +35005,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="scope D">
       <p>
         <l>scope<s n="n"/></l> 
         <r>alcance<s n="n"/><s n="m"/></r> 
@@ -35199,7 +35140,7 @@
       </p>
     </e>
 
-    <e slr="sello D">
+    <e slr="sello D" srl="seal">
       <p>
         <l>seal<s n="n"/></l> 
         <r>sello<s n="n"/><s n="m"/></r> 
@@ -35241,7 +35182,7 @@
       </p>
     </e>
 
-    <e slr="estación D">
+    <e slr="estación D" srl="season">
       <p>
         <l>season<s n="n"/></l> 
         <r>estación<s n="n"/><s n="f"/></r> 
@@ -35633,7 +35574,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="sense D">
       <p>
         <l>sense<s n="n"/></l> 
         <r>sentido<s n="n"/><s n="m"/></r> 
@@ -35884,7 +35825,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="share">
       <p>
         <l>share<s n="n"/></l> 
         <r>participación<s n="n"/><s n="f"/></r> 
@@ -35982,7 +35923,7 @@
       </p>
     </e>
 
-    <e slr="turno">
+    <e slr="turno" srl="shift">
       <p>
         <l>shift<s n="n"/></l> 
         <r>turno<s n="n"/><s n="m"/></r> 
@@ -35996,7 +35937,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="ship D">
       <p>
         <l>ship<s n="n"/></l> 
         <r>nave<s n="n"/><s n="f"/></r> 
@@ -36045,12 +35986,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>shock<s n="n"/></l> 
-        <r>choque<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e r="RL">
       <p>
@@ -36059,7 +35994,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
         <l>shock<s n="n"/></l> 
         <r>shock<s n="n"/><s n="m"/></r> 
@@ -36266,7 +36201,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="sight D">
       <p>
         <l>sight<s n="n"/></l> 
         <r>vista<s n="n"/><s n="f"/></r> 
@@ -36461,12 +36396,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>singing<s n="n"/></l> 
-        <r>canto<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -36529,14 +36458,14 @@
     <e r="LR">
       <p>
         <l>sister<s n="n"/></l> 
-        <r>hermano<s n="n"/><s n="GD"/></r> 
+        <r>hermano<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
     <e r="RL">
       <p>
         <l>sister<s n="n"/></l> 
-        <r>hermano<s n="n"/></r> 
+        <r>hermano<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -37186,13 +37115,13 @@
       </p>
     </e>
 
-    <e r="RL">
+
+    <e srl="singing D">
       <p>
-        <l>song<s n="n"/></l> 
+        <l>singing<s n="n"/></l> 
         <r>canto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
-
     <e>
       <p>
         <l>sonometer<s n="n"/></l> 
@@ -37538,7 +37467,7 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>spokeswoman<s n="n"/></l> 
         <r>portavoz<s n="n"/><s n="mf"/></r> 
@@ -37792,27 +37721,6 @@
   
     <e r="LR">
       <p>
-        <l>stair<s n="n"/><s n="sg"/></l> 
-        <r>escalón<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>stair<s n="n"/></l> 
-        <r>escalón<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>stair<s n="n"/></l> 
-        <r>peldaño<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>stake<s n="n"/></l> 
         <r>participación<s n="n"/><s n="f"/></r> 
       </p>
@@ -37825,7 +37733,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="stamp D">
       <p>
         <l>stamp<s n="n"/></l> 
         <r>sello<s n="n"/><s n="m"/></r> 
@@ -37923,7 +37831,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="station D">
       <p>
         <l>station<s n="n"/></l> 
         <r>estación<s n="n"/><s n="f"/></r> 
@@ -38091,7 +37999,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="sting">
       <p>
         <l>sting<s n="n"/></l> 
         <r>picadura<s n="n"/><s n="f"/></r> 
@@ -38363,7 +38271,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="strip D">
       <p>
         <l>strip<s n="n"/></l> 
         <r>cinta<s n="n"/><s n="f"/></r> 
@@ -38706,7 +38614,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="subway">
       <p>
         <l>subway<s n="n"/></l> 
         <r>metro<s n="n"/><s n="m"/></r> 
@@ -38804,19 +38712,13 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>suitcase<s n="n"/></l> 
         <r>maleta<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>suitcase<s n="n"/></l> 
-        <r>maleta<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -39525,14 +39427,7 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>tape<s n="n"/></l> 
-        <r>cinta<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
+    <e srl="tape">
       <p>
         <l>tape<s n="n"/></l> 
         <r>cinta<s n="n"/><s n="f"/></r> 
@@ -40339,10 +40234,15 @@
         <r>empate<s n="n"/><s n="m"/></r> 
       </p>
     </e>
-
-    <e slr="lazo D" c="check">
+    <e slr="lazo D" srl="tie">
       <p>
         <l>tie<s n="n"/></l> 
+        <r>lazo<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+    <e srl="bow D">
+      <p>
+        <l>bow<s n="n"/></l> 
         <r>lazo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -40625,7 +40525,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="tone D">
       <p>
         <l>tone<s n="n"/></l> 
         <r>tono<s n="n"/><s n="m"/></r> 
@@ -41310,7 +41210,7 @@
       </p>
     </e>
 
-    <e slr="juicio">
+    <e slr="juicio" srl="trial D">
       <p>
         <l>trial<s n="n"/></l> 
         <r>juicio<s n="n"/><s n="m"/></r> 
@@ -41604,7 +41504,7 @@
       </p>
     </e>
 
-    <e slr="turno">
+    <e slr="turno" srl="turn D">
       <p>
         <l>turn<s n="n"/></l> 
         <r>turno<s n="n"/><s n="m"/></r> 
@@ -42582,7 +42482,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="view">
       <p>
         <l>view<s n="n"/></l> 
         <r>vista<s n="n"/><s n="f"/></r> 
@@ -43093,7 +42993,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="warning D">
       <p>
         <l>warning<s n="n"/></l> 
         <r>aviso<s n="n"/><s n="m"/></r> 
@@ -45390,6 +45290,110 @@
 
     <e a="doriua"><p>        <l>Dr<s n="n"/></l>        <r>Dr.<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" a="doriua"><p>        <l>Dr<s n="n"/></l>        <r>Dra.<s n="n"/><s n="f"/></r></p></e>
+
+
+ <e a="eleka/jimregan">
+      <p>
+        <l>convertible<b/>bond<s n="n"/></l> 
+        <r>obligación<b/>convertible<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e a="eleka/jimregan">
+      <p>
+        <l>foreign<b/>currency<s n="n"/></l> 
+        <r>moneda<b/>extranjera<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e a="eleka/jimregan">
+      <p>
+        <l>time<b/>limit<s n="n"/></l> 
+        <r>plazo<b/>máximo<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+    <e a="eleka/jimregan">
+      <p>
+        <l>small<b/>and<b/>medium<b/>enterprise<s n="n"/></l> 
+        <r>pequeña<b/>y<b/>mediana<b/>empresa<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e a="eleka/jimregan" r="LR">
+      <p>
+        <l>jurisdic<b/>person<s n="n"/></l> 
+        <r>persona<b/>jurídica<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e a="eleka/jimregan">
+      <p>
+        <l>legal<b/>person<s n="n"/></l> 
+        <r>persona<b/>jurídica<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e r="RL" a="eleka/jimregan">
+      <p>
+        <l>bonus<s n="n"/></l> 
+        <r>paga<b/>extraordinaria<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>linguistic<b/>package<s n="n"/></l> 
+        <r>paquete<b/>lingüístico<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>syntactic<b/>error<s n="n"/></l> 
+        <r>error<b/>sintactico<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>biological<b/>weapon<s n="n"/></l>
+        <r>arma<b/>biológica<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>nuclear<b/>weapon<s n="n"/></l>
+        <r>arma<b/>nuclear<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>chemical<b/>weapon<s n="n"/></l>
+        <r>arma<b/>química<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>search<b/>engine<s n="n"/></l>
+        <r>motor<g><b/>de<b/>búsqueda</g><s n="n"/><s n="m"/></r>
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>machine<b/>translation<s n="n"/></l>
+        <r>traducción<b/>automática<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>rule-based<b/>machine<b/>translation<s n="n"/></l>
+        <r>traducción<b/>automática<b/>basada<b/>en<b/>reglas<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>corpus-based<b/>machine<b/>translation<s n="n"/></l>
+        <r>traducción<b/>automática<b/>basada<b/>en<b/>corpus<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
+    <e a="jimregan">
+      <p>
+        <l>context-based<b/>machine<b/>translation<s n="n"/></l>
+        <r>traducción<b/>automática<b/>basada<b/>en<b/>el<b/>contexto<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
 
 
 

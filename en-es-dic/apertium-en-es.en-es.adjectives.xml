@@ -1612,14 +1612,6 @@
         <r>mal<s n="adj"/></r> 
       </p>
     </e>
-
-    <e>
-      <p>
-        <l>bad<s n="adj"/><s n="sint"/></l> 
-        <r>mal<s n="adj"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>bad<s n="adj"/><s n="sint"/></l> 
@@ -4629,24 +4621,10 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>fierce<s n="adj"/></l> 
-        <r>feroz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>fierce<s n="adj"/></l> 
-        <r>feroz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>fierce<s n="adj"/></l> 
-        <r>feroz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+        <r>feroz<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -4671,26 +4649,20 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="LR" slr="bueno D">
       <p>
         <l>fine<s n="adj"/><s n="sint"/></l> 
         <r>bueno<s n="adj"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="fino">
       <p>
         <l>fine<s n="adj"/><s n="sint"/></l> 
         <r>fino<s n="adj"/></r> 
       </p>
     </e>
 
-    <e r="RL" c="faltaria posar 'fi' masculí que es tradueix per 'aim'">
-      <p>
-        <l>fine<s n="adj"/><s n="sint"/></l> 
-        <r>fino<s n="adj"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -4757,24 +4729,10 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>fleeting<s n="adj"/></l> 
-        <r>fugaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>fleeting<s n="adj"/></l> 
-        <r>fugaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>fleeting<s n="adj"/></l> 
-        <r>fugaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+        <r>fugaz<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -6970,14 +6928,14 @@
       </p>
     </e>
 
-    <e>
+    <e slr="claro">
       <p>
         <l>light<s n="adj"/><s n="sint"/></l> 
         <r>claro<s n="adj"/></r> 
       </p>
     </e>
 
-    <e>
+    <e slr="ligero D">
       <p>
         <l>light<s n="adj"/><s n="sint"/></l> 
         <r>ligero<s n="adj"/></r> 
@@ -9139,16 +9097,10 @@
     <e r="RL">
       <p>
         <l>penal<s n="adj"/></l> 
-        <r>de<b/>lo<b/>penal<s n="adj"/><s n="mf"/><s n="sp"/></r> 
+        <r>de<b/>lo<b/>penal<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>penal<s n="adj"/></l> 
-        <r>de<b/>lo<b/>penal<s n="adj"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -11818,24 +11770,10 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>surprising<s n="adj"/></l> 
-        <r>sorpresivo<s n="adj"/><s n="GD"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>surprising<s n="adj"/></l> 
-        <r>sorpresivo<s n="adj"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>surprising<s n="adj"/></l> 
-        <r>sorpresivo<s n="adj"/><s n="f"/></r> 
+        <r>sorpresivo<s n="adj"/></r> 
       </p>
     </e>
 
@@ -11897,7 +11835,7 @@
     <e>
       <p>
         <l>syntactic<s n="adj"/></l> 
-        <r>sintactico<s n="adj"/></r> 
+        <r>sintáctico<s n="adj"/></r> 
       </p>
     </e>
 

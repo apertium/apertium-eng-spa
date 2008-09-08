@@ -2731,6 +2731,11 @@
         <i>blow</i> 
         <par n="house__n"/> 
     </e>
+    <e lm="bow">
+        <i>bow</i> 
+        <par n="house__n"/> 
+    </e>
+
 
     <e lm="board">
         <i>board</i> 
@@ -3252,13 +3257,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="café">
-        <p>
-          <l>cafe</l>
-          <r>café</r>
-        </p>
-        <par n="house__n"/> 
-    </e>
 
     <e lm="caffeine">
         <i>caffeine</i> 
@@ -14715,6 +14713,9 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="meter" c="EUA" r="LR"><p><l>meter</l><r>metre</r></p><par n="house__n"/></e>
+
+
     <e lm="metropolis">
         <i>metropol</i> 
         <par n="analys/is__n"/> 
@@ -17640,10 +17641,6 @@
         <par n="house__n"/> 
     </e>
 
-    <e lm="pledging">
-        <i>pledging</i> 
-        <par n="house__n"/> 
-    </e>
 
     <e lm="plenty" a="carmentano">
         <i>plent</i> 
@@ -19899,7 +19896,7 @@
 
     <e lm="restlessness">
         <i>restlessness</i> 
-        <par n="access__n"/> 
+        <par n="east__n"/> 
     </e>
 
     <e lm="restoration" a="carmentano">
@@ -25978,6 +25975,78 @@
 
 <e lm="Dr"><i>Dr</i><par n="east__n"/></e>
 <e lm="Dr." r="LR"><p><l>Dr.</l><r>Dr</r></p><par n="east__n"/></e>
+
+
+  <e lm="convertible bond">
+        <i>convertible<b/>bond</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="foreign currency">
+        <i>foreign<b/>currenc</i> 
+        <par n="bab/y__n"/> 
+    </e>
+    <e lm="time limit">
+        <i>time<b/>limit</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="small and medium enterprise">
+        <i>small<b/>and<b/>medium<b/>enterprise</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="jurisdic person">
+        <i>jurisdic<b/>person</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="legal person">
+        <i>legal<b/>person</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="bonus">
+        <i>bonus</i> 
+        <par n="bass__n"/> 
+    </e>
+    <e lm="linguistic package">
+        <i>linguistic<b/>package</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="syntactic error">
+        <i>syntactic<b/>error</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="biological weapon">
+        <i>biological<b/>weapon</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="nuclear weapon">
+        <i>nuclear<b/>weapon</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="chemical weapon">
+        <i>chemical<b/>weapon</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="search engine">
+        <i>search<b/>engine</i> 
+        <par n="house__n"/> 
+    </e>
+    <e lm="machine translation" a="jimregan">
+      <i>machine<b/>translation</i>
+      <par n="east__n"/>
+    </e>
+    <e lm="rule-based machine translation" a="jimregan">
+      <i>rule-based<b/>machine<b/>translation</i>
+      <par n="east__n"/>
+    </e>
+    <e lm="corpus-based machine translation" a="jimregan">
+      <i>corpus-based<b/>machine<b/>translation</i>
+      <par n="east__n"/>
+    </e>
+    <e lm="context-based machine translation" a="jimregan">
+      <i>context-based<b/>machine<b/>translation</i>
+      <par n="east__n"/>
+    </e>
+
+
 
 </section>
 

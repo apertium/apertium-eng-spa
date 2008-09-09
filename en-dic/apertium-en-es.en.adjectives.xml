@@ -889,6 +889,10 @@
         <i>annoying</i> 
         <par n="expensive__adj"/> 
     </e>
+    <e lm="good-looking">
+        <i>good-looking</i> 
+        <par n="expensive__adj"/> 
+    </e>
 
     <e lm="annual">
         <i>annual</i> 
@@ -1039,6 +1043,8 @@
         <i>audible</i> 
         <par n="expensive__adj"/> 
     </e>
+
+<e lm="suitable"><i>suitable</i><par n="expensive__adj"/></e>
 
     <e lm="audiovisual">
         <i>audiovisual</i> 
@@ -7548,6 +7554,10 @@
 
     <e lm="technical">
         <i>technical</i> 
+        <par n="expensive__adj"/> 
+    </e>
+    <e lm="overall">
+        <i>overall</i> 
         <par n="expensive__adj"/> 
     </e>
 

@@ -301,7 +301,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="achieve D">
       <p>
          <l>achieve<s n="vblex"/></l> 
          <r>conseguir<s n="vblex"/></r> 
@@ -434,7 +434,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="advertise">
       <p>
          <l>advertise<s n="vblex"/></l> 
          <r>anunciar<s n="vblex"/></r> 
@@ -679,7 +679,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="announce D">
       <p>
          <l>announce<s n="vblex"/></l> 
          <r>anunciar<s n="vblex"/></r> 
@@ -4466,7 +4466,7 @@
       </p>
    </e>
    
-   <e>
+   <e r="LR">
       <p>
          <l>ease<s n="vblex"/></l> 
          <r>aliviar<s n="vblex"/></r> 
@@ -5805,7 +5805,7 @@
       </p>
    </e>
    
-   <e slr="conseguir D">
+   <e slr="conseguir D" srl="get">
       <p>
          <l>get<s n="vblex"/></l> 
          <r>conseguir<s n="vblex"/></r> 
@@ -7472,7 +7472,7 @@
       </p>
    </e>
    
-   <e slr="conseguir" c="(manage to do sth)">
+   <e slr="conseguir" srl="manage" c="(manage to do sth)">
       <p>
          <l>manage<s n="vblex"/></l> 
          <r>conseguir<s n="vblex"/></r> 
@@ -12768,6 +12768,14 @@
          <r>pagar<g><b/>en<b/>metálico</g><s n="vblex"/></r> 
       </p>
    </e>
+
+
+<e><p><l>lighten<s n="vblex"/></l><r>aligerar<s n="vblex"/></r></p></e>
+
+
+<e slr="relevar"><p><l>relieve<s n="vblex"/></l><r>relevar<s n="vblex"/></r></p></e>
+<e slr="aliviar D"><p><l>relieve<s n="vblex"/></l><r>aliviar<s n="vblex"/></r></p></e>
+
    
       <e r="RL">
         <p>

@@ -12749,7 +12749,7 @@
       </p>
     </e>
 
-    <e slr="disposición" c="de herencia">
+    <e slr="disposición" srl="disposal D">
       <p>
         <l>disposal<s n="n"/></l> 
         <r>disposición<s n="n"/><s n="f"/></r> 
@@ -12874,7 +12874,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="distribution">
       <p>
         <l>distribution<s n="n"/></l> 
         <r>disposición<s n="n"/><s n="f"/></r> 
@@ -13971,7 +13971,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="education D">
       <p>
         <l>education<s n="n"/></l> 
         <r>enseñanza<s n="n"/><s n="f"/></r> 
@@ -33597,9 +33597,9 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="regulation">
       <p>
-        <l>resolution<s n="n"/></l> 
+        <l>regulation<s n="n"/></l> 
         <r>disposición<s n="n"/><s n="f"/></r> 
       </p>
     </e>
@@ -37684,7 +37684,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="staff D">
       <p>
         <l>staff<s n="n"/></l> 
         <r>plantilla<s n="n"/><s n="f"/></r> 
@@ -38937,9 +38937,9 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e>
       <p>
-        <l>surprise<s n="n"/></l> 
+        <l>astonishment<s n="n"/></l> 
         <r>asombro<s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -39441,7 +39441,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="target">
       <p>
         <l>target<s n="n"/></l> 
         <r>blanco<s n="n"/><s n="m"/></r> 
@@ -39554,7 +39554,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="teaching">
       <p>
         <l>teaching<s n="n"/></l> 
         <r>enseñanza<s n="n"/><s n="f"/></r> 
@@ -39568,7 +39568,7 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" srl="team">
       <p>
         <l>team<s n="n"/></l> 
         <r>plantilla<s n="n"/><s n="f"/></r> 
@@ -39687,7 +39687,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="template">
       <p>
         <l>template<s n="n"/></l> 
         <r>plantilla<s n="n"/><s n="f"/></r> 
@@ -41874,12 +41874,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>unity<s n="n"/></l> 
-        <r>unidad<s n="n"/><s n="f"/></r> 
-      </p>
-    </e>
 
     <e>
       <p>
@@ -41986,12 +41980,6 @@
       </p>
     </e>
 
-    <e>
-      <p>
-        <l>usage<s n="n"/></l> 
-        <r>uso<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
 
     <e r="RL" srl="use">
       <p>
@@ -43376,7 +43364,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="white D">
       <p>
         <l>white<s n="n"/></l> 
         <r>blanco<s n="n"/><s n="m"/></r> 
@@ -43445,7 +43433,7 @@
       </p>
     </e>
 
-    <e>
+    <e srl="willingness">
       <p>
         <l>willingness<s n="n"/></l> 
         <r>disposición<s n="n"/><s n="f"/></r> 
@@ -43553,13 +43541,6 @@
       <p>
         <l>wish<s n="n"/></l> 
         <r>deseo<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>wish<s n="n"/></l> 
-        <r>voluntad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -45395,6 +45376,42 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>proper<b/>noun<s n="n"/></l>
+        <r>nombre<b/>propio<s n="n"/><s n="m"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>proper<b/>name<s n="n"/></l>
+        <r>nombre<b/>propio<s n="n"/><s n="m"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>capital<b/>punishment<s n="n"/></l>
+        <r>pena<b/>capital<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
 
+    <e r="LR">
+      <p>
+        <l>prime<b/>minister<s n="n"/></l> 
+        <r>primer<b/>ministro<s n="n"/><s n="GD"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>prime<b/>minister<s n="n"/></l> 
+        <r>primer<b/>ministro<s n="n"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>verdict<s n="n"/></l>
+        <r>veredicto<s n="n"/><s n="m"/></r>
+      </p>
+    </e>
 
 </section>

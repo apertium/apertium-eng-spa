@@ -12635,14 +12635,6 @@
     <i>ministr</i>
     <par n="abogad/o__n"/>
   </e>
-  <e lm="ministro">
-    <i>ministr</i>
-    <par n="abogad/o__n"/>
-  </e>
-  <e lm="ministro">
-    <i>ministr</i>
-    <par n="abogad/o__n"/>
-  </e>
   <e lm="minoría">
     <i>minoría</i>
     <par n="abeja__n"/>
@@ -16619,6 +16611,10 @@
   </e>
   <e lm="edicto">
     <i>edicto</i>
+    <par n="abismo__n"/>
+  </e>
+  <e lm="veredicto">
+    <i>veredicto</i>
     <par n="abismo__n"/>
   </e>
   <e lm="refinanciación" a="prompsit2adn">
@@ -20687,6 +20683,35 @@
       </p>
     </e>
 
+
+ <e lm="nombre propio">
+      <p>
+        <l>nombre<b/>propio</l>
+        <r>nombre<b/>propio<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+ <e lm="nombre propio">
+      <p>
+        <l>nombres<b/>propios</l>
+        <r>nombre<b/>propio<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+ <e lm="pena capital">
+      <p>
+        <l>pena<b/>capital</l>
+        <r>pena<b/>capital<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+ <e lm="pena capital">
+      <p>
+        <l>penas<b/>capitales</l>
+        <r>pena<b/>capital<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+
 <e lm="sustancia química"><p><l>sustancia<b/>química</l><r>sustancia<b/>química<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="sustancia química"><p><l>sustancias<b/>químicas</l><r>sustancia<b/>química<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
@@ -20705,6 +20730,13 @@
 <e lm="dirección postal"><p><l>direcciones<b/>postales</l><r>dirección<b/>postal<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="Audiencia Nacional"><p><l>Audiencia<b/>Nacional</l><r>Audiencia<b/>Nacional<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="tribunal supremo"><p><l>tribunal<b/>supremo</l><r>tribunal<b/>supremo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+
+
+<e lm="primer ministro"><p><l>primer<b/>ministro</l><r>primer<b/>ministro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="primer ministro"><p><l>primeros<b/>ministros</l><r>primer<b/>ministro<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="primer ministro"><p><l>primera<b/>ministra</l><r>primer<b/>ministro<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="primer ministro"><p><l>primeras<b/>ministras</l><r>primer<b/>ministro<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
 
 <e lm="fuerzas de seguridad"><i>fuerzas<b/>de<b/>seguridad</i><par n="afueras__n"/></e>

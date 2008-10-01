@@ -87,6 +87,8 @@
       <cat-item name="pro_do_inf"/> 
       <cat-item name="pro_auxmod_mod_inf"/>
       <cat-item name="pro_auxmod_have_pp"/>
+      <cat-item name="going_to_inf"/>
+      <cat-item name="pro_going_to_inf"/>
     </def-cat>   
 
 <def-cat n="pottenirenclitic"><!--MG: canviar tot això pel nou mecanisme, sense mlu en el t1x, i aquí fabricar les mlu -->
@@ -95,6 +97,11 @@
       <cat-item name="have_pp_inf"/>
       <cat-item name="be_inf_inf"/>
 </def-cat>
+
+
+  <def-cat n="reflexiu">
+      <cat-item name="reflexiu"/>
+    </def-cat>
 
   <def-cat n="have_pp">
       <cat-item name="have_pp"/>
@@ -238,6 +245,13 @@
       <attr-item tags="prn.enc"/>
       <attr-item tags="prn.enc.ref"/>
     </def-attr>
+
+
+    <def-attr n="tipusprn">
+      <attr-item tags="pro"/>
+      <attr-item tags="enc"/>
+    </def-attr>
+
 
   <def-attr n="a_ref">
       <attr-item tags="ref"/>
@@ -655,15 +669,116 @@
     </rule>
 
 
-<rule>
+    <rule comment="CHUNK: INF + enc">
       <pattern>
 	<pattern-item n="inf_enc"/>
       </pattern>
       <action>
-<!--	<choose>
+        <choose>
 	  <when>
-	    <test><!-*-Mirem si ha deixat de ser 'inf' i ha rebut persona i nombre. Si no és PD tampoc serà ND, en principi 
-	    PER AL CAS DE INF_ENC, PER ARA NO ES DÓNA EL CAS QUE DEIXI DE SER INF-*->
+	    <test>
+	      <equal>
+		<clip pos="0" part="tipus_verb"/>
+		<lit-tag v="SV.pron"/>
+	      </equal>
+	    </test>
+	    <choose><!--Si no ha rebut persona i nombre, el pronom es torna reflexiu. Si ha rebut persona i nbr, s'enllaçarà automàticament pers i nbr del verb amb pers i nbr del pronom (pronom afegit en el t1x en veure que era un verb pronominal) -->
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="0" part="pers"/>
+		    <lit-tag v="PD"/>
+		  </equal>
+		</test>	
+		<let>
+		  <clip pos="2" part="lem"/>
+		  <lit v="es"/>
+		</let>  
+		<let>
+		  <clip pos="2" part="a_prn"/>
+		  <lit-tag v="prn.enc.ref"/>
+		</let>
+		<let>
+		  <clip pos="2" part="pers"/>
+		  <lit-tag v="p3"/>
+		</let> 
+		<let>
+		  <clip pos="2" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</let> 
+		<out><!--creem una mlu amb el verb i l'enclític -->
+		  <mlu>
+		    <lu>
+		      <clip pos="1" part="whole"/>
+		    </lu>
+		    <lu>
+		      <clip pos="2" part="whole"/>
+		    </lu>
+		  </mlu>
+		</out>
+	      </when>
+	      <otherwise><!--si ha rebut pers i nbr i per tant ja no és infinitiu -->
+		<choose>
+		  <when>
+		    <test>
+		      <equal>
+			<clip pos="0" part="pers"/>
+			<lit-tag v="p3"/>
+		      </equal>
+		    </test>	
+		    <let>
+		      <clip pos="2" part="lem"/>
+		      <lit v="es"/>
+		    </let>  
+		    <let>
+		      <clip pos="2" part="a_prn"/>
+		      <lit-tag v="prn.pro.ref"/>
+		    </let>
+		    <let>
+		      <clip pos="2" part="pers"/>
+		      <lit-tag v="p3"/>
+		    </let> 
+		    <let>
+		      <clip pos="2" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </let> 
+		  </when>
+		  <otherwise>
+		    <let> 
+		      <clip pos="2" part="a_prn"/>
+		      <lit-tag v="prn.pro"/>
+		    </let>
+		  <!--  <let>
+		      <clip pos="2" part="pers"/>
+		      <clip pos="0" part="pers"/>
+		    </let> 
+		    <let>
+		      <clip pos="2" part="nbr"/>
+		      <clip pos="0" part="nbr"/>
+		    </let>  -->
+		  </otherwise>
+		</choose>
+		<out>
+		  <lu>
+		    <clip pos="2" part="whole"/>
+		  </lu>
+		  <b/>		
+		  <lu>
+		    <clip pos="1" part="lemh"/>
+		    <clip pos="1" part="tags"/>
+		    <clip pos="0" part="pers"/>
+		    <clip pos="0" part="nbr"/>
+		    <clip pos="1" part="lemq"/>
+		  </lu> 
+		</out>
+	      </otherwise>
+	    </choose>
+	  </when>
+	  <otherwise><!--si no és un verb pronominal -->
+
+	<choose>
+	  <when>
+	    <test><!--Mirem si ha deixat de ser 'inf' i ha rebut persona i nombre. Si no és PD tampoc serà ND, en principi -->	    
 	      <and>
 		<not>
 		  <equal>
@@ -678,8 +793,16 @@
 		  </equal>
 		</not>
 	      </and>
-	    </test>      
+	    </test>  
+	    <let>
+	      <clip pos="2" part="tipusprn"/>
+	      <lit-tag v="pro"/>
+	    </let>    
 	    <out>
+	      <lu>
+		<clip pos="2" part="whole"/>
+	      </lu>
+	      <b/>		
 	      <lu>
 		<clip pos="1" part="lemh"/>
 		<clip pos="1" part="tags"/>
@@ -689,60 +812,22 @@
 	      </lu> 
 	    </out>  
 	  </when>
-	  <otherwise>
-	    <out>
-	      <lu>
-		<clip pos="1" part="whole"/>
-	      </lu>
+	  <otherwise><!--si és inf sense pers ni nbr -->
+	    <out><!--creem una mlu amb el verb i l'enclític -->
+	      <mlu>
+		<lu>
+		  <clip pos="1" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" part="whole"/>
+		</lu>
+	      </mlu>
 	    </out>
-	  </otherwise>
-	</choose> -->
-        <choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="0" part="tipus_verb"/>
-		<lit-tag v="SV.pron"/>
-	      </equal>
-	    </test>
-	    <choose><!--Si no ha rebut persona i nombre, el pronom es torna reflexiu. Si ha rebut persona i nbr, s'enllaçarà automàticament pers i nbr cap a dins del pronom -->
-	      <when>
-		<test>
-		  <equal>
-		    <clip pos="0" part="pers"/>
-		    <lit-tag v="PD"/>
-		  </equal>
-		</test>	
-		<let>
-		  <clip pos="2" part="lem"/>
-		  <lit v="se"/>
-		</let>  
-		<let>
-		  <clip pos="2" part="a_prn"/>
-		  <lit-tag v="prn.enc.ref"/>
-		</let>
-		<let>
-		  <clip pos="2" part="pers"/>
-		  <lit-tag v="p3"/>
-		</let> 
-		<let>
-		  <clip pos="2" part="nbr"/>
-		  <lit-tag v="sp"/>
-		</let> 
-	      </when>
-	    </choose>
-	  </when>
+	  </otherwise>	    
 	</choose>
-	<out><!--creem una mlu amb el verb i l'enclític -->
-	  <mlu>
-	    <lu>
-	      <clip pos="1" part="whole"/>
-	    </lu>
-	    <lu>
-	      <clip pos="2" part="whole"/>
-	    </lu>
-	  </mlu>
-	</out>
+	  </otherwise>
+	</choose>
+	    
       </action>
 </rule>
 
@@ -752,10 +837,122 @@
 	<pattern-item n="inf_enc_enc"/>
       </pattern>
       <action>
-<!--	<choose>
+        <choose>
 	  <when>
-	    <test><!-*-Mirem si ha deixat de ser 'inf' i ha rebut persona i nombre. Si no és PD tampoc serà ND, en principi 
-	    PER AL CAS DE INF_ENC, PER ARA NO ES DÓNA EL CAS QUE DEIXI DE SER INF-*->
+	    <test>
+	      <equal>
+		<clip pos="0" part="tipus_verb"/>
+		<lit-tag v="SV.pron"/>
+	      </equal>
+	    </test>
+	    <choose><!--Si no ha rebut persona i nombre, el pronom es torna reflexiu. Si ha rebut persona i nbr, s'enllaçarà automàticament pers i nbr del verb amb pers i nbr del pronom (pronom afegit en el t1x en veure que era un verb pronominal) -->
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="0" part="pers"/>
+		    <lit-tag v="PD"/>
+		  </equal>
+		</test>	
+		<let>
+		  <clip pos="2" part="lem"/>
+		  <lit v="es"/>
+		</let>  
+		<let>
+		  <clip pos="2" part="a_prn"/>
+		  <lit-tag v="prn.enc.ref"/>
+		</let>
+		<let>
+		  <clip pos="2" part="pers"/>
+		  <lit-tag v="p3"/>
+		</let> 
+		<let>
+		  <clip pos="2" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</let>
+		<out><!--creem una mlu amb el verb i l'enclític -->
+		  <mlu>
+		    <lu>
+		      <clip pos="1" part="whole"/>
+		    </lu>
+		    <lu>
+		      <clip pos="2" part="whole"/>
+		    </lu>
+		    <lu>
+		      <clip pos="3" part="whole"/>
+		    </lu>
+		  </mlu>
+		</out>
+	      </when>
+	      <otherwise><!--si ha rebut pers i nbr i per tant ja no és infinitiu -->
+		<choose>
+		  <when>
+		    <test>
+		      <equal>
+			<clip pos="0" part="pers"/>
+			<lit-tag v="p3"/>
+		      </equal>
+		    </test>	
+		    <let>
+		      <clip pos="2" part="lem"/>
+		      <lit v="es"/>
+		    </let>  
+		    <let>
+		      <clip pos="2" part="a_prn"/>
+		      <lit-tag v="prn.pro.ref"/>
+		    </let>
+		    <let>
+		      <clip pos="2" part="pers"/>
+		      <lit-tag v="p3"/>
+		    </let> 
+		    <let>
+		      <clip pos="2" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </let> 
+		  </when>
+		  <otherwise> 
+		    <let> 
+		      <clip pos="2" part="a_prn"/>
+		      <lit-tag v="prn.pro"/>
+		    </let>
+		  <!--  <let>
+		      <clip pos="2" part="pers"/>
+		      <clip pos="0" part="pers"/>
+		    </let> 
+		    <let>
+		      <clip pos="2" part="nbr"/>
+		      <clip pos="0" part="nbr"/>
+		    </let>  -->
+		  </otherwise>
+		</choose>
+		<let>
+		  <clip pos="3" part="tipusprn"/>
+		  <lit-tag v="pro"/>
+		</let>  
+		<out>
+		  <lu>
+		    <clip pos="2" part="whole"/>
+		  </lu>
+		  <b/>
+		  <lu>
+		    <clip pos="3" part="whole"/>
+		  </lu>
+		  <b/>	
+		  <lu>
+		    <clip pos="1" part="lemh"/>
+		    <clip pos="1" part="tags"/>
+		    <clip pos="0" part="pers"/>
+		    <clip pos="0" part="nbr"/>
+		    <clip pos="1" part="lemq"/>
+		  </lu> 
+		</out>
+	      </otherwise>
+	    </choose>
+	  </when>
+	  <otherwise><!--si no és un verb pronominal -->
+	    <choose>
+	  <when>
+	    <test><!--Mirem si ha deixat de ser 'inf' i ha rebut persona i nombre. Si no és PD tampoc serà ND, en principi -->
+	    
 	      <and>
 		<not>
 		  <equal>
@@ -770,8 +967,24 @@
 		  </equal>
 		</not>
 	      </and>
-	    </test>      
+	    </test>  
+	    <let>
+	      <clip pos="2" part="tipusprn"/>
+	      <lit-tag v="pro"/>
+	    </let>  
+	    <let>
+	      <clip pos="3" part="tipusprn"/>
+	      <lit-tag v="pro"/>
+	    </let>    
 	    <out>
+	      <lu>
+		<clip pos="2" part="whole"/>
+	      </lu>
+	      <b/>
+	      <lu>
+		<clip pos="3" part="whole"/>
+	      </lu>
+	      <b/>		
 	      <lu>
 		<clip pos="1" part="lemh"/>
 		<clip pos="1" part="tags"/>
@@ -781,63 +994,24 @@
 	      </lu> 
 	    </out>  
 	  </when>
-	  <otherwise>
-	    <out>
-	      <lu>
-		<clip pos="1" part="whole"/>
-	      </lu>
+	  <otherwise><!--si és inf sense pers ni nbr -->
+	    <out><!--creem una mlu amb el verb i els enclítics -->
+	      <mlu>
+		<lu>
+		  <clip pos="1" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="3" part="whole"/>
+		</lu>
+	      </mlu>
 	    </out>
-	  </otherwise>
-	</choose> -->
-        <choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="0" part="tipus_verb"/>
-		<lit-tag v="SV.pron"/>
-	      </equal>
-	    </test>
-	    <choose><!--Si no ha rebut persona i nombre, el pronom es torna reflexiu. Si ha rebut persona i nbr, s'enllaçarà automàticament pers i nbr cap a dins del pronom -->
-	      <when>
-		<test>
-		  <equal>
-		    <clip pos="0" part="pers"/>
-		    <lit-tag v="PD"/>
-		  </equal>
-		</test>	
-		<let>
-		  <clip pos="2" part="lem"/>
-		  <lit v="se"/>
-		</let>  
-		<let>
-		  <clip pos="2" part="a_prn"/>
-		  <lit-tag v="prn.enc.ref"/>
-		</let>
-		<let>
-		  <clip pos="2" part="pers"/>
-		  <lit-tag v="p3"/>
-		</let> 
-		<let>
-		  <clip pos="2" part="nbr"/>
-		  <lit-tag v="sp"/>
-		</let> 
-	      </when>
-	    </choose>
-	  </when>
+	  </otherwise>	    
 	</choose>
-	<out><!--creem una mlu amb el verb i l'enclític -->
-	  <mlu>
-	    <lu>
-	      <clip pos="1" part="whole"/>
-	    </lu>
-	    <lu>
-	      <clip pos="2" part="whole"/>
-	    </lu>
-	    <lu>
-	      <clip pos="3" part="whole"/>
-	    </lu>
-	  </mlu>
-	</out>
+	  </otherwise>
+	</choose>
       </action>
 </rule>
 
@@ -2583,6 +2757,10 @@
 		      <clip pos="0" part="lem"/>
 		      <lit v="pro_do_inf"/>
 		    </equal>
+		    <equal caseless="yes">
+		      <clip pos="0" part="lem"/>
+		      <lit v="going_to_inf"/>
+		    </equal>
 		  </or>
 		</test>
 		<out>
@@ -2608,6 +2786,10 @@
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
 		      <lit v="pro_auxmod_have_pp"/>
+		    </equal>
+		    <equal caseless="yes">
+		      <clip pos="0" part="lem"/>
+		      <lit v="pro_going_to_inf"/>
 		    </equal>
 		  </or>
 		</test>
@@ -2801,6 +2983,10 @@
 		      <clip pos="0" part="lem"/>
 		      <lit v="pro_do_inf"/>
 		    </equal>
+		    <equal caseless="yes">
+		      <clip pos="0" part="lem"/>
+		      <lit v="going_to_inf"/>
+		    </equal>
 		  </or>
 		</test>
 		<out>
@@ -2826,6 +3012,10 @@
 		    <equal caseless="yes">
 		      <clip pos="0" part="lem"/>
 		      <lit v="pro_auxmod_have_pp"/>
+		    </equal>
+		    <equal caseless="yes">
+		      <clip pos="0" part="lem"/>
+		      <lit v="pro_going_to_inf"/>
 		    </equal>
 		  </or>
 		</test>
@@ -2875,6 +3065,49 @@
 </rule>-->
 		
 
+
+
+
+
+    <rule comment="CHUNK: reflexiu (arregla el pronom reflexiu creat en t2x)">
+      <pattern>
+	<pattern-item n="reflexiu"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="0" part="pers"/>
+		<lit-tag v="p3"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="lem"/>
+	      <lit v="es"/>
+	    </let>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="mf"/>
+	    </let>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sp"/>
+	    </let>
+	    <let>
+	      <clip pos="1" part="a_prnpro"/>
+	      <lit-tag v="prn.pro.ref"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+	  
 
 
 

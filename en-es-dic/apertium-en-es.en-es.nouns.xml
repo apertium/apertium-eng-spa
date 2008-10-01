@@ -4815,6 +4815,12 @@
         <r>golpe<s n="n"/><s n="m"/></r> 
       </p>
     </e>
+    <e srl="hit D" slr="golpe D">
+      <p>
+        <l>hit<s n="n"/></l> 
+        <r>golpe<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
 
     <e slr="junta" srl="board D">
       <p>
@@ -19466,7 +19472,7 @@
       </p>
     </e>
 
-    <e r="LR" slr="impacto D">
+    <e r="LR" slr="impacto">
       <p>
         <l>hit<s n="n"/></l> 
         <r>impacto<s n="n"/><s n="m"/></r> 
@@ -22445,7 +22451,7 @@
       </p>
     </e>
 
-    <e srl="knock D">
+    <e srl="knock">
       <p>
         <l>knock<s n="n"/></l> 
         <r>golpe<s n="n"/><s n="m"/></r> 
@@ -22732,7 +22738,7 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>lathe<s n="n"/></l> 
         <r>torno<s n="n"/><s n="m"/></r> 
@@ -45413,5 +45419,6 @@
         <r>veredicto<s n="n"/><s n="m"/></r>
       </p>
     </e>
+    <e><p>        <l>physics<s n="n"/></l>        <r>física<s n="n"/><s n="f"/></r></p></e>
 
 </section>

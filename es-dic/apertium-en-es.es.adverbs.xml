@@ -1749,12 +1749,6 @@
       <i>estrechamente</i> 
       <par n="ahora__adv" /> 
    </e>
-   
-   <e lm="estrechamente">
-      <i>estrechamente</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="estrictamente">
       <i>estrictamente</i> 
       <par n="ahora__adv" /> 
@@ -1841,11 +1835,6 @@
    </e>
    
    <e lm="fuera">
-      <i>fuera</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e r="RL" lm="fuera">
       <i>fuera</i> 
       <par n="ahora__adv" /> 
    </e>
@@ -2097,11 +2086,6 @@
    
    <e lm="irónicamente" a="prompsit2adn">
       <i>irónicamente</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="jamás">
-      <i>jamás</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -2434,13 +2418,8 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="nunca">
-      <i>nunca</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e r="RL" lm="nunca">
-      <i>nunca</i> 
+   <e lm="nunca antes">
+      <i>nunca<b/>antes</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -2854,11 +2833,6 @@
       <par n="ahora__adv" /> 
    </e>
    
-   <e lm="por último">
-      <i>por<b/>último</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
    <e lm="posiblemente">
       <i>posiblemente</i> 
       <par n="ahora__adv" /> 
@@ -3166,11 +3140,6 @@
    
    <e lm="simbólicamente" a="prompsit2adn">
       <i>simbólicamente</i> 
-      <par n="ahora__adv" /> 
-   </e>
-   
-   <e lm="simplemente">
-      <i>simplemente</i> 
       <par n="ahora__adv" /> 
    </e>
    
@@ -3545,5 +3514,8 @@
       <i>hace</i> 
       <par n="ahora__adv"/> 
    </e> 
+
+<e lm="a punto"><i>a<b/>punto</i><par n="ahora__adv"/></e>
+
 </section>
 

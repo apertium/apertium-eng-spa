@@ -6,7 +6,7 @@
     <tags-item lemma="to" tags="pr"/>
   </def-label> 
   <def-label name="FOR" closed="true">
-    <tags-item lemma="for" tags="pr"/><!--MG. afegit 19-09-06. confon <pr> amb <cnjadv>, tb en altres cases ('en'). Caldria fer algo al respecte o potser amb un text etiquetat ho fa millor. -->
+    <tags-item lemma="for" tags="cnjadv"/><!--MG. afegit 19-09-06. confon <pr> amb <cnjadv>, tb en altres cases ('en'). Caldria fer algo al respecte o potser amb un text etiquetat ho fa millor. -->
   </def-label> 
   <def-label name="THATCNJ" closed="true">
     <tags-item lemma="that" tags="cnjsub"/>

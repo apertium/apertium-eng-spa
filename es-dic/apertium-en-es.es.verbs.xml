@@ -433,6 +433,25 @@
         <i>acort</i> 
         <par n="abandon/ar__vblex"/> 
     </e>
+    <e lm="acortar">
+      <p>
+        <l>acórt</l> 
+        <r>acort</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
+
+    <e lm="aportar">
+        <i>aport</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+    <e lm="aportar">
+      <p>
+        <l>apórt</l> 
+        <r>aport</r> 
+      </p>
+        <par n="abandón/ar__vblex"/> 
+    </e>
 
     <e lm="acosar">
         <i>acos</i> 
@@ -565,14 +584,6 @@
         <r>aco</r> 
       </p>
         <par n="acó/ger__vblex"/> 
-    </e>
-
-    <e lm="acortar">
-      <p>
-        <l>acórt</l> 
-        <r>acort</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="acosar">
@@ -2986,6 +2997,14 @@
       </p>
     </e>
 
+    <e lm="arrojar">
+        <i>arroj</i> 
+        <par n="abandon/ar__vblex"/> 
+      <p>
+        <l><b/>luz<b/>sobre</l> 
+        <r><g><b/>luz<b/>sobre</g></r> 
+      </p>
+    </e>
     <e lm="cargar">
         <i>carg</i> 
         <par n="aleg/ar__vblex"/> 
@@ -3026,11 +3045,6 @@
         <par n="aleg/ar__vblex"/> 
     </e>
 
-    <e lm="castrar" a="prompsit2adn">
-        <i>castr</i> 
-        <par n="abandon/ar__vblex"/> 
-    </e>
-
     <e lm="castigar">
       <p>
         <l>castíg</l> 
@@ -3038,6 +3052,23 @@
       </p>
         <par n="alég/ar__vblex"/> 
     </e>
+    <e lm="albergar">
+        <i>alberg</i> 
+        <par n="aleg/ar__vblex"/> 
+    </e>
+
+    <e lm="albergar">
+      <p>
+        <l>albérg</l> 
+        <r>alberg</r> 
+      </p>
+        <par n="alég/ar__vblex"/> 
+    </e>
+    <e lm="castrar" a="prompsit2adn">
+        <i>castr</i> 
+        <par n="abandon/ar__vblex"/> 
+    </e>
+
 
     <e lm="catalogar" a="prompsit2adn">
         <i>catalog</i> 

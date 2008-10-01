@@ -763,7 +763,20 @@
       </p>
    </e>
    
-   <e>
+   
+   <e srl="value D" >
+      <p>
+         <l>value<s n="vblex"/></l> 
+         <r>valorar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e srl="assess" r="RL">
+      <p>
+         <l>assess<s n="vblex"/></l> 
+         <r>valorar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e r="LR">
       <p>
          <l>appraise<s n="vblex"/></l> 
          <r>valorar<s n="vblex"/></r> 
@@ -802,7 +815,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="approve D">
       <p>
          <l>approve<s n="vblex"/></l> 
          <r>aprobar<s n="vblex"/></r> 
@@ -2957,6 +2970,12 @@
          <r>contribuir<s n="vblex"/></r> 
       </p>
    </e>
+   <e r="RL">
+      <p>
+         <l>contribute<s n="vblex"/></l> 
+         <r>aportar<s n="vblex"/></r> 
+      </p>
+   </e>
    
    <e>
       <p>
@@ -4018,7 +4037,7 @@
       </p>
    </e>
    
-   <e slr="descargar" c="descargar un barco">
+   <e r="LR" slr="descargar">
       <p>
          <l>discharge<s n="vblex"/></l> 
          <r>descargar<s n="vblex"/></r> 
@@ -4326,9 +4345,15 @@
       </p>
    </e>
    
-   <e>
+   <e srl="download D">
       <p>
          <l>download<s n="vblex"/></l> 
+         <r>descargar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e srl="unload">
+      <p>
+         <l>unload<s n="vblex"/></l> 
          <r>descargar<s n="vblex"/></r> 
       </p>
    </e>
@@ -6429,7 +6454,7 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e srl="import">
       <p>
          <l>import<s n="vblex"/></l> 
          <r>importar<s n="vblex"/></r> 
@@ -6856,14 +6881,14 @@
       </p>
    </e>
    
-   <e>
+   <e srl="invest D">
       <p>
          <l>invest<s n="vblex"/></l> 
          <r>invertir<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e>
+   <e srl="investigate D">
       <p>
          <l>investigate<s n="vblex"/></l> 
          <r>investigar<s n="vblex"/></r> 
@@ -6996,10 +7021,18 @@
       </p>
    </e>
    
+<e r="LR" slr="hacer D"><p><l>make<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>hacer<s n="vblex"/></r></p></e>
+<e r="LR" slr="inventar"><p><l>make<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>inventar<s n="vblex"/></r></p></e>
    <e>
       <p>
          <l>kick<s n="vblex"/></l> 
          <r>chutar<s n="vblex"/></r> 
+      </p>
+   </e>
+   <e>
+      <p>
+         <l>house<s n="vblex"/></l> 
+         <r>albergar<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -7416,7 +7449,7 @@
       </p>
    </e>
    
-   <e slr="querer">
+   <e slr="querer" srl="love">
       <p>
          <l>love<s n="vblex"/></l> 
          <r>querer<s n="vblex"/></r> 
@@ -7521,7 +7554,7 @@
       </p>
    </e>
    
-   <e slr="marcar D">
+   <e slr="marcar D" srl="mark D">
       <p>
          <l>mark<s n="vblex"/></l> 
          <r>marcar<s n="vblex"/></r> 
@@ -7563,7 +7596,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="matter D">
       <p>
          <l>matter<s n="vblex"/></l> 
          <r>importar<s n="vblex"/></r> 
@@ -7670,7 +7703,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="mind">
       <p>
          <l>mind<s n="vblex"/></l> 
          <r>importar<s n="vblex"/></r> 
@@ -8168,7 +8201,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e r="RL" srl="pass">
       <p>
          <l>pass<s n="vblex"/></l> 
          <r>aprobar<s n="vblex"/></r> 
@@ -8433,7 +8466,7 @@
       </p>
    </e>
    
-   <e c="(un instrumento)" slr="tocar">
+   <e c="(un instrumento)" slr="tocar" srl="play">
       <p>
          <l>play<s n="vblex"/></l> 
          <r>tocar<s n="vblex"/></r> 
@@ -8786,13 +8819,6 @@
       <p>
          <l>prevail<s n="vblex"/></l> 
          <r>primar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>prevent<s n="vblex"/></l> 
-         <r>evitar<s n="vblex"/></r> 
       </p>
    </e>
    
@@ -9316,26 +9342,13 @@
       </p>
    </e>
    
-   <e r="LR">
+   <e>
       <p>
          <l>record<s n="vblex"/></l> 
          <r>grabar<s n="vblex"/></r> 
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>record<s n="vblex"/></l> 
-         <r>grabar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>record<s n="vblex"/></l> 
-         <r>gravar<s n="vblex"/></r> 
-      </p>
-   </e>
    
    <e>
       <p>
@@ -9715,7 +9728,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="research">
       <p>
          <l>research<s n="vblex"/></l> 
          <r>investigar<s n="vblex"/></r> 
@@ -9911,7 +9924,7 @@
       </p>
    </e>
    
-   <e slr="invertir D">
+   <e slr="invertir D" srl="reverse">
       <p>
          <l>reverse<s n="vblex"/></l> 
          <r>invertir<s n="vblex"/></r> 
@@ -10247,7 +10260,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e r="RL" srl="score">
       <p>
          <l>score<s n="vblex"/></l> 
          <r>marcar<s n="vblex"/></r> 
@@ -11314,13 +11327,6 @@
       </p>
    </e>
    
-   <e r="RL">
-      <p>
-         <l>submit<s n="vblex"/></l> 
-         <r>someter<s n="vblex"/></r> 
-      </p>
-   </e>
-   
    <e srl="deliver D">
       <p>
          <l>deliver<s n="vblex"/></l> 
@@ -11745,13 +11751,6 @@
    <e>
       <p>
          <l>tax<s n="vblex"/></l> 
-         <r>grabar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e r="RL">
-      <p>
-         <l>tax<s n="vblex"/></l> 
          <r>gravar<s n="vblex"/></r> 
       </p>
    </e>
@@ -11819,7 +11818,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="test D">
       <p>
          <l>test<s n="vblex"/></l> 
          <r>probar<s n="vblex"/></r> 
@@ -11978,7 +11977,7 @@
    <e><p><l>trust<s n="vblex"/></l><r>confiar<g><b/>en</g><s n="vblex"/></r></p></e>
    <e r="RL"><p><l>trust<s n="vblex"/></l><r>confiar<s n="vblex"/></r></p></e>
    
-   <e>
+   <e srl="tocar D">
       <p>
          <l>touch<s n="vblex"/></l> 
          <r>tocar<s n="vblex"/></r> 
@@ -12110,7 +12109,7 @@
       </p>
    </e>
    
-   <e r="RL">
+   <e r="LR">
       <p>
          <l>trap<s n="vblex"/></l> 
          <r>engañar<s n="vblex"/></r> 
@@ -12172,7 +12171,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="try">
       <p>
          <l>try<s n="vblex"/></l> 
          <r>probar<s n="vblex"/></r> 
@@ -12370,13 +12369,6 @@
    
    <e>
       <p>
-         <l>value<s n="vblex"/></l> 
-         <r>valorar<s n="vblex"/></r> 
-      </p>
-   </e>
-   
-   <e>
-      <p>
          <l>vary<s n="vblex"/></l> 
          <r>variar<s n="vblex"/></r> 
       </p>
@@ -12445,7 +12437,7 @@
       </p>
    </e>
    
-   <e>
+   <e srl="want D">
       <p>
          <l>want<s n="vblex"/></l> 
          <r>querer<s n="vblex"/></r> 
@@ -12494,7 +12486,7 @@
       </p>
    </e>
    
-   <e slr="mirar D" c="(television)">
+   <e slr="mirar D" c="(television)" r="LR">
       <p>
          <l>watch<s n="vblex"/></l> 
          <r>mirar<s n="vblex"/></r> 
@@ -12579,16 +12571,23 @@
       </p>
    </e>
    
-   <e>
+   
+   <e slr="retirar" r="LR">
+      <p>
+         <l>recall<s n="vblex"/></l> 
+         <r>retirar<s n="vblex"/></r> 
+      </p>
+   </e>
+   
+   <e srl="withdraw D">
       <p>
          <l>withdraw<s n="vblex"/></l> 
          <r>retirar<s n="vblex"/></r> 
       </p>
    </e>
-   
-   <e slr="retirar">
+   <e r="RL" srl="remove">
       <p>
-         <l>recall<s n="vblex"/></l> 
+         <l>remove<s n="vblex"/></l> 
          <r>retirar<s n="vblex"/></r> 
       </p>
    </e>
@@ -12767,7 +12766,15 @@
          <l>pay<g><b/>cash</g><s n="vblex"/></l> 
          <r>pagar<g><b/>en<b/>metálico</g><s n="vblex"/></r> 
       </p>
+   </e>  
+   <e>
+      <p>
+         <l>shed<g><b/>light<b/>on</g><s n="vblex"/></l> 
+         <r>arrojar<g><b/>luz<b/>sobre</g><s n="vblex"/></r> 
+      </p>
    </e>
+
+
 
 
 <e><p><l>lighten<s n="vblex"/></l><r>aligerar<s n="vblex"/></r></p></e>

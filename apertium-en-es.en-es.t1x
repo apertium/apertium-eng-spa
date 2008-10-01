@@ -109,6 +109,10 @@
       <cat-item tags="prn.subj.*"/>
     </def-cat>
 
+    <def-cat n="prnref">
+      <cat-item tags="prn.ref.*"/>
+    </def-cat>
+
     <def-cat n="tn_itg_pos">
       <cat-item tags="prn.tn.*"/>
       <cat-item tags="prn.itg.*"/>
@@ -422,6 +426,10 @@
       <cat-item lemma="do" tags="vblex.inf"/>
     </def-cat>
 
+    <def-cat n="going">
+      <cat-item lemma="go" tags="vblex.ger"/>
+    </def-cat>
+
     <def-cat n="apos">
       <cat-item tags="apos"/>
     </def-cat>
@@ -532,6 +540,12 @@
       <cat-item lemma="be" tags="vbser.*"/>
     </def-cat>
 
+    <def-cat n="be_past_pres">
+      <cat-item lemma="be" tags="vbser.past"/>
+      <cat-item lemma="be" tags="vbser.past.*"/>
+      <cat-item lemma="be" tags="vbser.pres"/>
+      <cat-item lemma="be" tags="vbser.pri.*"/>
+    </def-cat>
     <def-cat n="relnom">
       <cat-item tags="rel.nn.*"/>	  
     </def-cat>
@@ -4207,6 +4221,127 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
+<def-macro n="conj_going_to_inf" npar="3"> 
+  
+      <let>
+	<var n="lema_SV"/>
+	<lit v="going_to_inf"/>
+      </let>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="sl" part="temps"/>
+	      <lit-tag v="pres"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="temps_chunk"/>
+	    <lit-tag v="pri"/>
+	  </let>	    
+	  <let>
+	    <var n="pers_chunk"/>
+	    <lit-tag v="PD"/>
+	  </let>
+	  <let>
+	    <var n="nbr_chunk"/>
+	    <lit-tag v="ND"/>
+	  </let>
+	</when>
+	<when>	
+	  <test>
+	    <equal>
+	      <clip pos="1" side="sl" part="temps"/>
+	      <lit-tag v="pri"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="temps_chunk"/>
+	    <lit-tag v="pri"/>
+	  </let>
+	  <let>
+	    <var n="pers_chunk"/>
+	    <clip pos="1" side="tl" part="pers"/>
+	  </let>
+	  <let>
+	    <var n="nbr_chunk"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	  </let>
+	</when>
+	<when>	
+	  <test>
+	    <equal>
+	      <clip pos="1" side="sl" part="temps"/>
+	      <lit-tag v="past"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="temps_chunk"/>
+	    <lit-tag v="pii"/>
+	  </let>	  
+	  <choose>    
+	    <when>
+	      <test>
+		<and>
+		  <equal>
+		    <clip pos="1" side="sl" part="pers"/>
+		    <lit v=""/>
+		  </equal>
+		  <equal>
+		    <clip pos="1" side="sl" part="nbr"/>
+		    <lit v=""/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<var n="pers_chunk"/>
+		<lit-tag v="PD"/>
+	      </let>
+	      <let>
+		<var n="nbr_chunk"/>
+		<lit-tag v="ND"/>
+	      </let>
+	    </when>
+	    <when>
+	      <test>
+		<!--és el cas de 'was' i algun altre, que tenen pers i nbr -->
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sg"/>
+		</equal>
+	      </test>
+	      <let>
+		<var n="pers_chunk"/>
+		<lit-tag v="PD"/>
+	      </let>
+	      <let>
+		<var n="nbr_chunk"/>
+		<clip pos="1" side="tl" part="nbr"/>
+	      </let>
+	    </when>
+	  </choose>
+	</when>
+      </choose>
+    <!--  <let>
+	<var n="verbfinal"/>
+	<concat>
+	  <clip pos="2" side="tl" part="lemh"/> 
+	  <clip pos="2" side="tl" part="a_verb"/>
+	  <lit-tag v="3"/>
+	  <lit-tag v="4"/>
+	  <lit-tag v="5"/>
+	  <clip pos="2" side="tl" part="lemq"/>
+	  <lit v="$ ^"/>
+	  <lit v="a"/>
+	  <lit-tag v="pr"/>
+	  <lit v="$ ^"/>
+	  <clip pos="3" side="tl" part="lemh"/> 
+	  <clip pos="3" side="tl" part="a_verb"/>
+	  <lit-tag v="inf"/> 	  
+	</concat>
+      </let> -->
+</def-macro>
+
 
 
 <def-macro n="passa_inf_a_pres" npar="1">
@@ -5908,7 +6043,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET ADV ADJ ADJ NOM (BCN a currently valid legislative delegationi ->  una delegació legislativa actualment vàlida)">
+    <rule comment="REGLA: DET ADV ADJ ADJ NOM (BCN a currently valid legislative delegation ->  una delegació legislativa actualment vàlida)">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adv_preadv"/>
@@ -12754,6 +12889,40 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule> 
 
+
+
+
+
+    <rule comment="REGLA: PRONOM reflexiu">
+      <pattern>
+	<pattern-item n="prnref"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	  
+	<out>
+	  <chunk name="prnref" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SNref"/></tag>
+	      <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
+	      <tag><clip pos="1" side="tl" part="pers"/></tag>
+	      <tag><clip pos="1" side="tl" part="gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/>  
+	      <clip pos="1" side="tl" part="a_prn"/>  
+	      <clip pos="1" side="tl" part="tipus_prn" link-to="2"/> 
+	      <clip pos="1" side="tl" part="pers"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
     
 
 
@@ -12814,20 +12983,32 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<choose>
 	  <when>
 	    <test>
-	      <and>
-		<equal>
-		  <clip pos="2" side="sl" part="pers"/> 
-		  <lit-tag v="p3"/>
-		</equal>
-		<equal>
-		  <clip pos="2" side="sl" part="nbr"/> 
-		  <lit-tag v="pl"/>
-		</equal>
-	      </and>
+	      <or>
+		<and>
+		  <equal>
+		    <clip pos="2" side="sl" part="pers"/> 
+		    <lit-tag v="p3"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" side="sl" part="nbr"/> 
+		    <lit-tag v="pl"/>
+		  </equal>
+		</and>
+		<and>
+		  <equal>
+		    <clip pos="2" side="sl" part="pers"/> 
+		    <lit-tag v="p1"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" side="sl" part="nbr"/> 
+		    <lit-tag v="pl"/>
+		  </equal>
+		</and>
+	      </or>
 	    </test>
 	    <let>
 	      <clip pos="2" side="tl" part="gen"/>
-	      <lit-tag v="m"/><!--with them : amb ells (i no elles)-->
+	      <lit-tag v="m"/><!--with them : amb ells (i no elles) / with us : con nosotros-->
 	    </let>
 	  </when>
 	  <when>
@@ -18465,6 +18646,361 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
    </rule>
 
 
+
+
+<!--****************   going to + inf   ********************** -->
+
+
+
+    <rule comment="REGLA: BE going to INF (am going to read -> llegiré; was going to read -> anava a llegir ) mireia">
+      <pattern>
+	<pattern-item n="be_past_pres"/>
+	<pattern-item n="going"/>
+	<pattern-item n="to"/>
+	<pattern-item n="infpres"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="pron"><!-- amb això fem el proclític -->
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="conj_going_to_inf">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk namefrom="lema_SV" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="pronom"/>
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="5"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>
+	      <lit v="a"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <lit-tag v="inf"/> 
+	      <clip pos="4" side="tl" part="lemq"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
+ <rule comment="REGLA: BE going to INF clitic (am going to read it -> el llegiré; was going to read -> l'anava a llegir )">
+      <pattern>
+	<pattern-item n="be_past_pres"/>
+	<pattern-item n="going"/>
+	<pattern-item n="to"/>
+	<pattern-item n="infpres"/>
+	<pattern-item n="probj"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="pron"><!-- amb això fem el proclític -->
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="conj_going_to_inf">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<let>
+	  <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_going_to_inf -->
+	  <concat>
+	    <lit v="pro_"/>
+	    <var n="lema_SV"/>
+	  </concat>
+	</let>	
+	<out>
+	  <chunk namefrom="lema_SV" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="pronom"/>
+	      <clip pos="5" side="tl" part="lem"/>
+	      <clip pos="5" side="tl" part="a_prnpro"/>
+	      <clip pos="5" side="tl" part="pers"/>
+	      <clip pos="5" side="tl" part="gen"/>
+	      <clip pos="5" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="5"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>
+	      <lit v="a"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <lit-tag v="inf"/> 
+	      <clip pos="4" side="tl" part="lemq"/> 
+	    </lu>
+	  </chunk>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="4"/>
+	</call-macro>
+      </action>
+    </rule>
+
+
+
+
+  <rule comment="REGLA: BE ADV going to INF (am not/always going to read ->no llegiré; was not/always going to read -> no anava a llegir ) mireia">
+      <pattern>
+	<pattern-item n="be_past_pres"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="going"/>
+	<pattern-item n="to"/>
+	<pattern-item n="infpres"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="pron"><!-- amb això fem el proclític -->
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="conj_going_to_inf">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	  <with-param pos="5"/>
+	</call-macro>	
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="sl" part="lem"/>
+		<list n="adv_neg"/>
+	      </in>
+	    </test>
+	    <let>
+	      <var n="neg"/>
+	      <lit-tag v="NEG"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="neg"/>
+	      <lit v=""/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out>
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+	      <tag><var n="neg"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	  <b pos="1"/>
+	</out>
+	<out>
+	  <chunk namefrom="lema_SV" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="pronom"/>
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="5"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>
+	      <lit v="a"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu>
+	      <clip pos="5" side="tl" part="lemh"/> 
+	      <clip pos="5" side="tl" part="a_verb"/>
+	      <lit-tag v="inf"/> 
+	      <clip pos="5" side="tl" part="lemq"/> 
+	    </lu>
+	  </chunk>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="4"/>
+	</call-macro>
+      </action>
+    </rule>
+
+
+
+  <rule comment="REGLA: BE ADV going to INF clitic (am not/always going to read ->no llegiré; was not/always going to read -> no anava a llegir )">
+      <pattern>
+	<pattern-item n="be_past_pres"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="going"/>
+	<pattern-item n="to"/>
+	<pattern-item n="infpres"/>
+	<pattern-item n="probj"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="pron"><!-- amb això fem el proclític -->
+	  <with-param pos="5"/>
+	</call-macro>
+	<call-macro n="conj_going_to_inf">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	  <with-param pos="5"/>
+	</call-macro>
+	<let>
+	  <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_going_to_inf -->
+	  <concat>
+	    <lit v="pro_"/>
+	    <var n="lema_SV"/>
+	  </concat>
+	</let>		
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="sl" part="lem"/>
+		<list n="adv_neg"/>
+	      </in>
+	    </test>
+	    <let>
+	      <var n="neg"/>
+	      <lit-tag v="NEG"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="neg"/>
+	      <lit v=""/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out>
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+	      <tag><var n="neg"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	  <b pos="1"/>
+	</out>
+	<out>
+	  <chunk namefrom="lema_SV" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="pronom"/>
+	      <clip pos="6" side="tl" part="lem"/>
+	      <clip pos="6" side="tl" part="a_prnpro"/>
+	      <clip pos="6" side="tl" part="pers"/>
+	      <clip pos="6" side="tl" part="gen"/>
+	      <clip pos="6" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <lit-tag v="3"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="5"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu>
+	      <lit v="a"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="4"/>
+	    <lu>
+	      <clip pos="5" side="tl" part="lemh"/> 
+	      <clip pos="5" side="tl" part="a_verb"/>
+	      <lit-tag v="inf"/> 
+	      <clip pos="5" side="tl" part="lemq"/> 
+	    </lu>
+	  </chunk>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="5"/>
+	</call-macro>
+      </action>
+    </rule>
+
+
+
+
+<!--***************************************** altres *************** -->
 
 
 

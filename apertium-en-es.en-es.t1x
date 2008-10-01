@@ -2979,24 +2979,50 @@
 	  <test>
 	    <equal caseless="yes">
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="milió"/>
+	      <lit v="millón"/>
 	    </equal>
 	  </test>
 	  <let>
 	    <clip pos="1" side="tl" part="lem"/>
-	    <lit v="milió de"/>
+	    <lit v="millón de"/>
 	  </let>
 	</when>
 	<when> 
 	  <test>
 	    <equal caseless="yes">
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="un milió"/>
+	      <lit v="un millón"/>
 	    </equal>
 	  </test>
 	  <let>
 	    <clip pos="1" side="tl" part="lem"/>
-	    <lit v="un milió de"/>
+	    <lit v="un millón de"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when> 
+	  <test>
+	    <equal caseless="yes">
+	      <clip pos="1" side="tl" part="lem"/>
+	      <lit v="billón"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <lit v="billón de"/>
+	  </let>
+	</when>
+	<when> 
+	  <test>
+	    <equal caseless="yes">
+	      <clip pos="1" side="tl" part="lem"/>
+	      <lit v="un billón"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <lit v="un billón de"/>
 	  </let>
 	</when>
       </choose>
@@ -3029,7 +3055,7 @@
 	  </test>
 	  <let>
 	    <clip pos="2" side="tl" part="lem"/>
-	    <lit v="per cent"/>
+	    <lit v="por ciento"/>
 	  </let>
 	<!--  <let>
 	    <clip pos="2" side="tl" part="a_nom"/>
@@ -4799,11 +4825,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		<or>
 		  <equal caseless="yes">
 		    <clip pos="2" side="tl" part="lem"/>
-		    <lit v="milió de"/>
+		    <lit v="millón de"/>
 		  </equal>
 		  <equal caseless="yes">
 		    <clip pos="2" side="tl" part="lem"/>
-		    <lit v="un milió de"/>
+		    <lit v="un millón de"/>
 		  </equal>
 		</or>
 		<equal>
@@ -4966,11 +4992,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		<or>
 		  <equal caseless="yes">
 		    <clip pos="3" side="tl" part="lem"/>
-		    <lit v="milió de"/>
+		    <lit v="millón de"/>
 		  </equal>
 		  <equal caseless="yes">
 		    <clip pos="3" side="tl" part="lem"/>
-		    <lit v="un milió de"/>
+		    <lit v="un millón de"/>
 		  </equal>
 		</or>
 		<equal>

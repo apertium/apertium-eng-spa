@@ -6994,6 +6994,20 @@ Your mother and you will come - La vostra mare i tu vindran
 	      <lit-tag v="m"/>
 	    </let>
 	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
 	</choose>	
 	<out>
 	  <chunk>

@@ -1689,7 +1689,7 @@
 	    <otherwise>
 	       <let>
 		 <var n="nbr_chunk"/>
-		 <lit-tag v="GD"/>
+		 <lit-tag v="ND"/>
 	       </let>
 	    </otherwise>
 	  </choose>
@@ -2217,7 +2217,7 @@
 	  <otherwise>
 	    <let>
 	      <var n="nbr_chunk"/>
-	      <lit-tag v="GD"/>
+	      <lit-tag v="ND"/>
 	    </let>
 	  </otherwise>
 	</choose>
@@ -2249,7 +2249,7 @@
 	  <otherwise>
 	    <let>
 	      <var n="nbr_chunk"/>
-	      <lit-tag v="GD"/>
+	      <lit-tag v="ND"/>
 	    </let>
 	  </otherwise>
 	</choose>
@@ -2878,7 +2878,7 @@
 	    <otherwise>
 	       <let>
 		 <var n="nbr_chunk"/>
-		 <lit-tag v="GD"/>
+		 <lit-tag v="ND"/>
 	       </let>
 	    </otherwise>
 	  </choose>
@@ -2910,7 +2910,7 @@
 	    <otherwise>
 	       <let>
 		 <var n="nbr_chunk"/>
-		 <lit-tag v="GD"/>
+		 <lit-tag v="ND"/>
 	       </let>
 	    </otherwise>
 	  </choose>
@@ -2943,7 +2943,7 @@
 	    <otherwise>
 	       <let>
 		 <var n="nbr_chunk"/>
-		 <lit-tag v="GD"/>
+		 <lit-tag v="ND"/>
 	       </let>
 	    </otherwise>
 	  </choose>
@@ -12965,8 +12965,8 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	  <with-param pos="1"/>
 	</call-macro>
 	<call-macro n="f_concord2">
-	  <with-param pos="2"/>
 	  <with-param pos="1"/>
+	  <with-param pos="2"/>
 	</call-macro>
 
 	    <out>

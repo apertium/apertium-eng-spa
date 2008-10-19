@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Dictionary:
 	Sections: 1
@@ -116261,6 +116261,30 @@
         <r>arma<b/>química<s n="n"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
+    <e lm="parte contratante" a="jimregan">
+      <p>
+        <l>parte<b/>contratante</l>
+        <r>parte<b/>contratante<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e lm="parte contratante" a="jimregan">
+      <p>
+        <l>partes<b/>contratantes</l>
+        <r>parte<b/>contratante<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e lm="Alta Parte Contratante" a="jimregan">
+      <p>
+        <l>Alta<b/>Parte<b/>Contratante</l>
+        <r>Alta<b/>Parte<b/>Contratante<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e lm="Alta Parte Contratante" a="jimregan">
+      <p>
+        <l>Altas<b/>Partes<b/>Contratantes</l>
+        <r>Alta<b/>Parte<b/>Contratante<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
     <e lm="motor de búsqueda" a="jimregan">
       <i>motor</i>
       <par n="abril__n"/>
@@ -141602,6 +141626,10 @@
    </e>
    <e lm="Segunda Guerra Mundial">
      <i>Segunda<b/>Guerra<b/>Mundial</i>
+     <par n="Telefónica__np"/>
+   </e>
+   <e lm="Agencia Europea de Defensa">
+     <i>Agencia<b/>Europea<b/>de<b/>Defensa</i>
      <par n="Telefónica__np"/>
    </e>
    <e lm="Jacobo I">

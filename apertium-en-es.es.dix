@@ -193,7 +193,7 @@
     </pardef>
     <pardef n="urls">
       <e>
-        <re>((www.)[a-z\-]+[.][a-z]+)</re>
+	<re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re>
         <p>
           <l/>
           <r><s n="num"/></r>
@@ -293,7 +293,15 @@
       </e>
     </pardef>
 
-
+ <pardef n="proper_names">
+      <e>
+        <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+        <p>
+          <l/>
+         <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
 
 
     <pardef n="currency">
@@ -142405,5 +142413,9 @@
     <e>
       <par n="currency"/>
     </e>
+    <e r="RL">
+      <par n="proper_names"/>
+    </e>
+
   </section>
 </dictionary>

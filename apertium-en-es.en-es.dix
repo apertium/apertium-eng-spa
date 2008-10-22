@@ -93519,7 +93519,7 @@
       </p>
     </e>
     <e>
-      <re>((www.)[a-z\-]+[.][a-z]+)</re>
+      <re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re>
       <p>
         <l><s n="num"/></l>
         <r><s n="num"/></r>
@@ -93617,6 +93617,76 @@
 
 
 
+<e>
+  <p>
+    <l>Mr<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Mr.<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Miss<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Miss.<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Ms<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Ms.<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Mrs<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Mrs.<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Dr<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
+<e>
+  <p>
+    <l>Dr.<b/></l>
+    <r/>
+  </p>
+  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+</e>
 
 
   </section>

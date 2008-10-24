@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <!-- symbols -->
@@ -246,7 +246,7 @@
     </pardef>
 
 
-    <pardef n="acronimos">
+    <pardef n="acronimos"> 
       <e>
         <re>[A-Z][A-Z]+([A-Z])?</re>
         <p>
@@ -254,21 +254,7 @@
           <r><s n="n"/><s n="acr"/><s n="sp"/></r>
         </p>
       </e>
-      <e r="RL">
-        <re>[A-Z][A-Z]+([A-Z])?</re>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="acr"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <re>[A-Z][A-Z]+([A-Z])?</re>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="acr"/><s n="pl"/></r>
-        </p>
-      </e>
-
+   
       <e>
         <re>[A-Z][0-9]+([0-9])?</re>
         <p>
@@ -276,21 +262,7 @@
           <r><s n="n"/><s n="acr"/><s n="sp"/></r>
         </p>
       </e>
-      <e r="RL">
-        <re>[A-Z][0-9]+([0-9])?</re>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="acr"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <re>[A-Z][0-9]+([0-9])?</re>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="acr"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
+    </pardef> 
 
  <pardef n="time">
       <e>
@@ -31501,13 +31473,6 @@
       <i>McCreedy</i>
       <par n="Smith__np"/>
     </e>
-    <e lm="McCreedy" c="Irregular capitalisation">
-      <p>
-        <l>McCREEDY</l>
-        <r>McCreedy</r>
-      </p>
-      <par n="Smith__np"/>
-    </e>
     <e>
       <i>Agostinacchio</i>
       <par n="Smith__np"/>
@@ -31517,7 +31482,7 @@
       <par n="Smith__np"/>
     </e>
     <e>
-      <i>Amor<b/>Perez</i>
+      <i>Amor<b/>Pérez</i>
       <par n="Smith__np"/>
     </e>
     <e>
@@ -54133,8 +54098,8 @@
       <i>small<b/>and<b/>medium<b/>enterprise</i>
       <par n="house__n"/>
     </e>
-    <e lm="jurisdic person">
-      <i>jurisdic<b/>person</i>
+    <e lm="juridic person">
+      <i>juridic<b/>person</i>
       <par n="house__n"/>
     </e>
     <e lm="legal person">
@@ -61700,6 +61665,11 @@
       <i>elderl</i>
       <par n="lovel/y__adj"/>
     </e>
+
+    <e lm="unemployed"><i>unemployed</i><par n="expensive__adj"/></e>
+
+    <e lm="busy"><i>bus</i><par n="happ/y__adj"/></e>
+
     <!-- verbs -->
     <e lm="have">
       <i>ha</i>
@@ -71291,10 +71261,6 @@
       <i>straight</i>
       <par n="maybe__adv"/>
     </e>
-    <e lm="straight">
-      <i>straight</i>
-      <par n="maybe__adv"/>
-    </e>
     <e lm="straight away">
       <i>straight<b/>away</i>
       <par n="maybe__adv"/>
@@ -72638,6 +72604,8 @@
       <i>in<b/>accordance<b/>with</i>
       <par n="at__pr"/>
     </e>
+    <e lm="apart from"><i>apart<b/>from</i><par n="at__pr"/></e>
+
     <e lm="in addition to">
       <i>in<b/>addition<b/>to</i>
       <par n="at__pr"/>
@@ -73087,6 +73055,10 @@
     <i>gold<b/>standard</i> 
     <par n="east__n"/> 
   </e>
+  <e lm="gold exchange standard">
+    <i>gold<b/>exchange<b/>standard</i> 
+    <par n="east__n"/> 
+  </e>
   <e lm="gold-coin standard">
     <i>gold-coin<b/>standard</i> 
     <par n="house__n"/> 
@@ -73263,7 +73235,7 @@
     </e>
     <e>
       <par n="acronimos"/>
-    </e>
+    </e> 
     <e>
       <par n="time"/>
     </e>

@@ -17562,14 +17562,14 @@
     </e>
     <e>
       <p>
-        <l>Amor<b/>Perez<s n="np"/><s n="cog"/><s n="sg"/></l>
-        <r>Amor<b/>Perez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r>
+        <l>Amor<b/>Pérez<s n="np"/><s n="cog"/><s n="sg"/></l>
+        <r>Amor<b/>Pérez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>Amor<b/>Perez<s n="np"/><s n="cog"/><s n="pl"/></l>
-        <r>Amor<b/>Perez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r>
+        <l>Amor<b/>Pérez<s n="np"/><s n="cog"/><s n="pl"/></l>
+        <r>Amor<b/>Pérez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
     <e>
@@ -59768,7 +59768,7 @@
     </e>
     <e a="eleka/jimregan" r="LR">
       <p>
-        <l>jurisdic<b/>person<s n="n"/></l>
+        <l>juridic<b/>person<s n="n"/></l>
         <r>persona<b/>jurídica<s n="n"/><s n="f"/></r>
       </p>
     </e>
@@ -59793,7 +59793,7 @@
     <e a="jimregan">
       <p>
         <l>syntactic<b/>error<s n="n"/></l>
-        <r>error<b/>sintactico<s n="n"/><s n="m"/></r>
+        <r>error<b/>sintáctico<s n="n"/><s n="m"/></r>
       </p>
     </e>
     <e a="jimregan">
@@ -72953,6 +72953,25 @@
         <r>anciano<s n="adj"/></r>
       </p>
     </e>
+    <e>
+      <p>
+        <l>unemployed<s n="adj"/></l>
+        <r>desempleado<s n="adj"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>unemployed<s n="adj"/></l>
+        <r>desocupado<s n="adj"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>unemployed<s n="adj"/></l>
+        <r>parado<s n="adj"/></r>
+      </p>
+    </e>
+    <e><p>        <l>busy<s n="adj"/><s n="sint"/></l>        <r>ocupado<s n="adj"/></r></p></e>
     <!-- conjunctions -->
     <e>
       <p>
@@ -83810,12 +83829,6 @@
         <r>atrapar<s n="vblex"/></r>
       </p>
     </e>
-    <e r="LR">
-      <p>
-        <l>trap<s n="vblex"/></l>
-        <r>engañar<s n="vblex"/></r>
-      </p>
-    </e>
     <e>
       <p>
         <l>travel<s n="vblex"/></l>
@@ -84849,7 +84862,7 @@
         <r>de<b/>todos<b/>modos<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>apart<s n="adv"/></l>
         <r>aparte<s n="adv"/></r>
@@ -85029,12 +85042,6 @@
         <r>por<b/>fin<s n="adv"/></r>
       </p>
     </e>
-    <e>
-      <p>
-        <l>at<b/>long<b/>last<s n="adv"/></l>
-        <r>por<b/>fin<s n="adv"/></r>
-      </p>
-    </e>
     <e r="LR">
       <p>
         <l>at<b/>once<s n="adv"/></l>
@@ -85179,7 +85186,7 @@
         <r>detrás<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>below<s n="adv"/></l>
         <r>abajo<s n="adv"/></r>
@@ -85413,7 +85420,7 @@
         <r>despreocupadamente<s n="adv"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e>
       <p>
         <l>categorically<s n="adv"/></l>
         <r>rotundamente<s n="adv"/></r>
@@ -85467,7 +85474,7 @@
         <r>a<b/>mano<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e srl="closely D">
       <p>
         <l>closely<s n="adv"/></l>
         <r>estrechamente<s n="adv"/></r>
@@ -85671,19 +85678,13 @@
         <r>digitalmente<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e srl="directly D">
       <p>
         <l>directly<s n="adv"/></l>
         <r>directamente<s n="adv"/></r>
       </p>
     </e>
     <e r="LR">
-      <p>
-        <l>distinctly<s n="adv"/></l>
-        <r>claramente<s n="adv"/></r>
-      </p>
-    </e>
-    <e>
       <p>
         <l>distinctly<s n="adv"/></l>
         <r>claramente<s n="adv"/></r>
@@ -85701,7 +85702,7 @@
         <r>abajo<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>down<b/>below<s n="adv"/></l>
         <r>abajo<s n="adv"/></r>
@@ -85720,12 +85721,6 @@
       </p>
     </e>
     <e r="LR">
-      <p>
-        <l>downward<s n="adv"/></l>
-        <r>abajo<s n="adv"/></r>
-      </p>
-    </e>
-    <e>
       <p>
         <l>downward<s n="adv"/></l>
         <r>abajo<s n="adv"/></r>
@@ -85755,7 +85750,7 @@
         <r>por<b/>la<b/>noche<s n="adv"/></r>
       </p>
     </e>
-    <e r="RL">
+    <e r="RL" srl="early">
       <p>
         <l>early<s n="adv"/></l>
         <r>pronto<s n="adv"/></r>
@@ -85857,13 +85852,7 @@
         <r>enormemente<s n="adv"/></r>
       </p>
     </e>
-    <e r="LR">
-      <p>
-        <l>enough<s n="adv"/></l>
-        <r>bastante<s n="adv"/></r>
-      </p>
-    </e>
-    <e r="RL">
+    <e srl="enough D">
       <p>
         <l>enough<s n="adv"/></l>
         <r>bastante<s n="adv"/></r>
@@ -86013,12 +86002,6 @@
         <r>extremadamente<s n="adv"/></r>
       </p>
     </e>
-    <e r="RL">
-      <p>
-        <l>exceedingly<s n="adv"/></l>
-        <r>extremadamente<s n="adv"/></r>
-      </p>
-    </e>
     <e>
       <p>
         <l>excessively<s n="adv"/></l>
@@ -86088,12 +86071,6 @@
     <e r="RL">
       <p>
         <l>finally<s n="adv"/></l>
-        <r>por<b/>fin<s n="adv"/></r>
-      </p>
-    </e>
-    <e r="RL">
-      <p>
-        <l>finally<s n="adv"/></l>
         <r>por<b/>último<s n="adv"/></r>
       </p>
     </e>
@@ -86157,7 +86134,7 @@
         <r>primeramente<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>firstly<s n="adv"/></l>
         <r>en<b/>primer<b/>lugar<s n="adv"/></r>
@@ -86169,7 +86146,7 @@
         <r>de<b/>plano<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>flatly<s n="adv"/></l>
         <r>rotundamente<s n="adv"/></r>
@@ -86283,7 +86260,7 @@
         <r>a<b/>ciencia<b/>cierta<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>for<b/>sure<s n="adv"/></l>
         <r>seguro<s n="adv"/></r>
@@ -86931,12 +86908,6 @@
         <r>a<b/>favor<s n="adv"/></r>
       </p>
     </e>
-    <e r="RL">
-      <p>
-        <l>in<b/>favor<s n="adv"/></l>
-        <r>a<b/>favor<s n="adv"/></r>
-      </p>
-    </e>
     <e>
       <p>
         <l>in<b/>favour<s n="adv"/></l>
@@ -87447,19 +87418,7 @@
         <r>menos<s n="adv"/></r>
       </p>
     </e>
-    <e>
-      <p>
-        <l>least<s n="adv"/></l>
-        <r>menos<s n="adv"/></r>
-      </p>
-    </e>
-    <e r="RL">
-      <p>
-        <l>least<s n="adv"/></l>
-        <r>menos<s n="adv"/></r>
-      </p>
-    </e>
-    <e>
+    <e r="LR">
       <p>
         <l>left<s n="adv"/></l>
         <r>a<b/>la<b/>izquierda<s n="adv"/></r>
@@ -87815,23 +87774,11 @@
     </e>
     <e r="LR">
       <p>
-        <l>near<s n="adv"/></l>
-        <r>cerca<s n="adv"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>nearhere<s n="adv"/></l>
+        <l>near<b/>here<s n="adv"/></l>
         <r>cerca<s n="adv"/></r>
       </p>
     </e>
     <e>
-      <p>
-        <l>necessarily<s n="adv"/></l>
-        <r>necesariamente<s n="adv"/></r>
-      </p>
-    </e>
-    <e r="RL">
       <p>
         <l>necessarily<s n="adv"/></l>
         <r>necesariamente<s n="adv"/></r>
@@ -87879,7 +87826,7 @@
         <r>no<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>no<b/>doubt<s n="adv"/></l>
         <r>sin<b/>duda<s n="adv"/></r>
@@ -88041,12 +87988,6 @@
         <r>encima<s n="adv"/></r>
       </p>
     </e>
-    <e r="RL">
-      <p>
-        <l>on<s n="adv"/></l>
-        <r>encima<s n="adv"/></r>
-      </p>
-    </e>
     <e r="LR">
       <p>
         <l>on<b/>a<b/>day-to-day<b/>basis<s n="adv"/></l>
@@ -88197,12 +88138,6 @@
         <r>por<b/>otro<b/>lado<s n="adv"/></r>
       </p>
     </e>
-    <e r="RL">
-      <p>
-        <l>on<b/>the<b/>other<b/>hand<s n="adv"/></l>
-        <r>en<b/>cambio<s n="adv"/></r>
-      </p>
-    </e>
     <e r="LR">
       <p>
         <l>on<b/>the<b/>other<b/>side<s n="adv"/></l>
@@ -88239,7 +88174,7 @@
         <r>de<b/>puntillas<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>on<b/>top<s n="adv"/></l>
         <r>arriba<s n="adv"/></r>
@@ -88335,12 +88270,6 @@
         <r>originalmente<s n="adv"/></r>
       </p>
     </e>
-    <e r="RL">
-      <p>
-        <l>out<s n="adv"/></l>
-        <r>afuera<s n="adv"/></r>
-      </p>
-    </e>
     <e>
       <p>
         <l>out<s n="adv"/></l>
@@ -88385,29 +88314,17 @@
     </e>
     <e r="RL">
       <p>
-        <l>outright<s n="adv"/></l>
-        <r>francamente<s n="adv"/></r>
-      </p>
-    </e>
-    <e r="RL">
-      <p>
         <l>outside<s n="adv"/></l>
         <r>afuera<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>outside<s n="adv"/></l>
         <r>fuera<s n="adv"/></r>
       </p>
     </e>
-    <e r="RL">
-      <p>
-        <l>outside<s n="adv"/></l>
-        <r>fuera<s n="adv"/></r>
-      </p>
-    </e>
-    <e>
+    <e r="LR">
       <p>
         <l>over<s n="adv"/></l>
         <r>encima<s n="adv"/></r>
@@ -88845,19 +88762,7 @@
         <r>abajo<s n="adv"/></r>
       </p>
     </e>
-    <e c="no preadverbi">
-      <p>
-        <l>quite<b/>a<b/>lot<s n="adv"/></l>
-        <r>bastante<s n="adv"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>quite<b/>a<b/>lot<s n="adv"/></l>
-        <r>bastante<s n="adv"/></r>
-      </p>
-    </e>
-    <e r="RL">
+    <e c="no preadverbi" srl="quite a lot">
       <p>
         <l>quite<b/>a<b/>lot<s n="adv"/></l>
         <r>bastante<s n="adv"/></r>
@@ -89007,7 +88912,7 @@
         <r>aproximadamente<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>roundly<s n="adv"/></l>
         <r>rotundamente<s n="adv"/></r>
@@ -89295,7 +89200,7 @@
         <r>un<b/>poco<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e srl="soon D">
       <p>
         <l>soon<s n="adv"/></l>
         <r>pronto<s n="adv"/></r>
@@ -89373,12 +89278,6 @@
         <r>firmemente<s n="adv"/></r>
       </p>
     </e>
-    <e>
-      <p>
-        <l>steadily<s n="adv"/></l>
-        <r>firmemente<s n="adv"/></r>
-      </p>
-    </e>
     <e r="RL" c="frases afirmatives i interrogatives">
       <p>
         <l>still<s n="adv"/></l>
@@ -89397,7 +89296,7 @@
         <r>a<b/>palo<b/>seco<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e srl="straight">
       <p>
         <l>straight<s n="adv"/></l>
         <r>directamente<s n="adv"/></r>
@@ -89433,7 +89332,7 @@
         <r>fuertemente<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>subsequently<s n="adv"/></l>
         <r>posteriormente<s n="adv"/></r>
@@ -89685,7 +89584,7 @@
         <r>angostamente<s n="adv"/></r>
       </p>
     </e>
-    <e>
+    <e srl="tightly">
       <p>
         <l>tightly<s n="adv"/></l>
         <r>estrechamente<s n="adv"/></r>
@@ -89884,12 +89783,6 @@
       </p>
     </e>
     <e r="LR">
-      <p>
-        <l>unbelievably<s n="adv"/></l>
-        <r>increíblemente<s n="adv"/></r>
-      </p>
-    </e>
-    <e>
       <p>
         <l>unbelievably<s n="adv"/></l>
         <r>increíblemente<s n="adv"/></r>
@@ -90715,30 +90608,6 @@
         <r>ninguno<s n="prn"/><s n="tn"/><s n="GD"/><s n="sg"/></r>
       </p>
     </e>
-    <e r="RL">
-      <p>
-        <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l>
-        <r>ninguno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="RL">
-      <p>
-        <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l>
-        <r>ninguno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e r="RL">
-      <p>
-        <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l>
-        <r>ninguno<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="RL">
-      <p>
-        <l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l>
-        <r>ninguno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
     <e>
       <p>
         <l>nothing<s n="prn"/></l>
@@ -91138,7 +91007,7 @@
     <e c="em, et, li, etc">
       <p>
         <l>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></l>
-        <r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="m"/><s n="sg"/></r>
+        <r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
     <e>
@@ -91512,6 +91381,12 @@
       <p>
         <l>about<s n="pr"/></l>
         <r>sobre<s n="pr"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>apart<b/>from<s n="pr"/></l>
+        <r>aparte<b/>de<s n="pr"/></r>
       </p>
     </e>
     <e>
@@ -93022,17 +92897,31 @@
     </e>
 
 
+    <e r="RL" srl="rate"><p>        <l>rate<s n="n"/></l>        <r>tasa<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL" srl="tax D"><p>        <l>tax<s n="n"/></l>        <r>tasa<s n="n"/><s n="f"/></r></p></e>
 
-    <e>
+    <e r="RL">
     <p>
        <l>James<b/>I<s n="np"/><s n="ant"/></l>
        <r>Jacobo<b/>I<s n="np"/><s n="ant"/></r>
      </p>
    </e>
-   <e>
+   <e r="RL">
      <p>
        <l>James<b/>II<s n="np"/><s n="ant"/></l>
        <r>Jacobo<b/>II<s n="np"/><s n="ant"/></r>
+     </p>
+   </e>
+    <e>
+    <p>
+       <l>James<b/>I<s n="np"/><s n="ant"/></l>
+       <r>Jaime<b/>I<s n="np"/><s n="ant"/></r>
+     </p>
+   </e>
+   <e>
+     <p>
+       <l>James<b/>II<s n="np"/><s n="ant"/></l>
+       <r>Jaime<b/>II<s n="np"/><s n="ant"/></r>
      </p>
    </e>
    <e>
@@ -93061,14 +92950,14 @@
    </e>
    <e>
      <p>
-       <l>Czechoslovakia<s n="np"/><s n="al"/></l>
-       <r>Checoslovaquia<s n="np"/><s n="al"/><s n="f"/></r>
+       <l>Czechoslovakia<s n="np"/><s n="loc"/></l>
+       <r>Checoslovaquia<s n="np"/><s n="loc"/><s n="f"/></r>
      </p>
    </e>
    <e>
      <p>
-       <l>Czech<b/>Republic<s n="np"/><s n="al"/></l>
-       <r>República<b/>Checa<s n="np"/><s n="al"/><s n="f"/></r>
+       <l>Czech<b/>Republic<s n="np"/><s n="loc"/></l>
+       <r>República<b/>Checa<s n="np"/><s n="loc"/><s n="f"/></r>
      </p>
    </e>
    <e>
@@ -93368,7 +93257,7 @@
     <e>
       <p>
         <l>gold<b/>exchange<b/>standard<s n="n"/></l>
-        <r>patrón<g><b/>de<b/>cambio<b/>oro</g><s n="n"/><s n="m"/></r>
+        <r>patrón<b/>de<b/>cambio<b/>oro<s n="n"/><s n="m"/></r>
       </p>
     </e>
     <e>
@@ -93443,13 +93332,13 @@
         <r>moneda<g><b/>de<b/>reserva</g><s n="n"/><s n="f"/></r>
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>microwave<b/>oven<s n="n"/></l>
         <r>horno<g><b/>microondas</g><s n="n"/><s n="m"/></r>
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>microwave<b/>oven<s n="n"/></l>
         <r>horno<g><b/>de<b/>microondas</g><s n="n"/><s n="m"/></r>
@@ -93531,8 +93420,8 @@
 <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="GD"/><s n="sg"/></r></p></e>
 
-<e><re>[A-Z][A-Z]+([A-Z])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/><s n="mf"/></r></p></e>
-<e><re>[A-Z][0-9]+([0-9])?</re><p><l><s n="n"/><s n="acr"/></l><r><s n="n"/><s n="acr"/><s n="mf"/></r></p></e>
+<e><re>[A-Z][A-Z]+([A-Z])?</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><re>[A-Z][0-9]+([0-9])?</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
 

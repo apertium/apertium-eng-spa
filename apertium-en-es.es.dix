@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Dictionary:
 	Sections: 1
@@ -245,40 +245,12 @@
           <r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
-      <e r="RL">
-        <re>[A-Z][A-Z]+([A-Z])?</re>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="acr"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <re>[A-Z][A-Z]+([A-Z])?</re>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="acr"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-
+   
       <e>
         <re>[A-Z][0-9]+([0-9])?</re>
         <p>
           <l/>
           <r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <re>[A-Z][0-9]+([0-9])?</re>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="acr"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <re>[A-Z][0-9]+([0-9])?</re>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="acr"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -87193,10 +87165,6 @@
       <i>Jackson</i>
       <par n="Jaime__np"/>
     </e>
-    <e lm="Jacob">
-      <i>Jacob</i>
-      <par n="Jaime__np"/>
-    </e>
     <e lm="Jacoby">
       <i>Jacoby</i>
       <par n="Jaime__np"/>
@@ -95342,13 +95310,6 @@
       <i>McCreedy</i>
       <par n="García__np"/>
     </e>
-    <e lm="McCreedy" c="Irregular capitalisation">
-      <p>
-        <l>McCREEDY</l>
-        <r>McCreedy</r>
-      </p>
-      <par n="García__np"/>
-    </e>
     <e lm="Sarkozy">
       <i>Sarkozy</i>
       <par n="García__np"/>
@@ -95470,7 +95431,7 @@
       <par n="García__np"/>
     </e>
     <e>
-      <i>Amor<b/>Perez</i>
+      <i>Amor<b/>Pérez</i>
       <par n="García__np"/>
     </e>
     <e>
@@ -95740,6 +95701,10 @@
     </e>
     <e lm="persona">
       <i>persona</i>
+      <par n="abeja__n"/>
+    </e>
+    <e lm="tasa">
+      <i>tasa</i>
       <par n="abeja__n"/>
     </e>
     <e lm="aberración" a="prompsit2adn">
@@ -116589,40 +116554,28 @@
         <r>persona<b/>jurídica<s n="n"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
-    <e lm="paquete linguistico" a="jimregan">
+    <e lm="paquete lingüístico" a="jimregan">
       <p>
         <l>paquete<b/>lingüístico</l>
         <r>paquete<b/>lingüístico<s n="n"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
-    <e lm="paquete linguistico" a="jimregan">
+    <e lm="paquete lingüístico" a="jimregan">
       <p>
         <l>paquetes<b/>lingüísticos</l>
         <r>paquete<b/>lingüístico<s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
-    <e lm="paquete linguistico" a="jimregan" c="accent" r="LR">
+    <e lm="error sintáctico" a="jimregan">
       <p>
-        <l>paquete<b/>linguistico</l>
-        <r>paquete<b/>lingüístico<s n="n"/><s n="m"/><s n="sg"/></r>
+        <l>error<b/>sintáctico</l>
+        <r>error<b/>sintáctico<s n="n"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
-    <e lm="paquete linguistico" a="jimregan" c="accent" r="LR">
+    <e lm="error sintáctico" a="jimregan">
       <p>
-        <l>paquetes<b/>linguisticos</l>
-        <r>paquete<b/>lingüístico<s n="n"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e lm="error sintactico" a="jimregan">
-      <p>
-        <l>error<b/>sintactico</l>
-        <r>error<b/>sintactico<s n="n"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e lm="error sintactico" a="jimregan">
-      <p>
-        <l>errores<b/>sintacticos</l>
-        <r>error<b/>sintactico<s n="n"/><s n="m"/><s n="pl"/></r>
+        <l>errores<b/>sintácticos</l>
+        <r>error<b/>sintáctico<s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
     <e lm="arma biológica" a="jimregan">
@@ -116722,6 +116675,10 @@
     <!-- acronyms -->
     <e lm="NASA">
       <i>NASA</i>
+      <par n="BBC__n"/>
+    </e>
+    <e lm="IP" a="doriua">
+      <i>IP</i>
       <par n="BBC__n"/>
     </e>
     <e lm="NBC" a="prompsit2adn">
@@ -117016,11 +116973,11 @@
       <par n="adiós__ij"/>
     </e>
     <e lm="">
-      <i>puedes<b/>darle<b/>un<b/>consejo<b/>a<b/>alguien,<b/>pero<b/>no<b/>puedes<b/>obligarlo<b/>a<b/>que<b/>lo<b/>siga</i>
+      <i>a<b/>quien<b/>cuida<b/>la<b/>peseta<b/>nunca<b/>le<b/>falta<b/>un<b/>duro</i>
       <par n="adiós__ij"/>
     </e>
     <e lm="">
-      <i>a<b/>quien<b/>cuida<b/>la<b/>peseta<b/>nunca<b/>le<b/>falta<b/>un<b/>duro</i>
+      <i>quien<b/>no<b/>malgasta<b/>no<b/>pasa<b/>necesidades</i>
       <par n="adiós__ij"/>
     </e>
     <e lm="">
@@ -120848,13 +120805,6 @@
       <i>lineal</i>
       <par n="abdominal__adj"/>
     </e>
-    <e lm="lingüístico" c="accent" r="LR">
-      <p>
-        <l>linguistic</l>
-        <r>lingüístic</r>
-      </p>
-      <par n="absolut/o__adj"/>
-    </e>
     <e lm="lingüístico">
       <i>lingüístic</i>
       <par n="absolut/o__adj"/>
@@ -122729,6 +122679,22 @@
     </e>
     <e lm="sagrado">
       <i>sagrad</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="desempleado">
+      <i>desemplead</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="desocupado">
+      <i>desocupad</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="ocupado">
+      <i>ocupad</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="parado">
+      <i>parad</i>
       <par n="absolut/o__adj"/>
     </e>
     <e lm="salvaje">
@@ -141691,6 +141657,10 @@
       <i>a<b/>expensas<b/></i>
       <par n="contde__pr"/>
     </e>
+    <e lm="aparte de">
+      <i>aparte<b/></i>
+      <par n="contde__pr"/>
+    </e>
     <e lm="a lo largo de">
       <i>a<b/>lo<b/>largo<b/></i>
       <par n="contde__pr"/>
@@ -142024,6 +141994,10 @@
      <i>Gran<b/>Depresión</i>
      <par n="Telefónica__np"/>
    </e>
+   <e lm="Gran Guerra">
+     <i>Gran<b/>Guerra</i>
+     <par n="Telefónica__np"/>
+   </e>
    <e lm="Primera Guerra Mundial">
      <i>Primera<b/>Guerra<b/>Mundial</i>
      <par n="Telefónica__np"/>
@@ -142042,6 +142016,14 @@
    </e>
    <e lm="Jacobo II">
      <i>Jacobo<b/>I</i>
+     <par n="Jaime__np"/>
+   </e>
+   <e lm="Jaime I">
+     <i>Jaime<b/>I</i>
+     <par n="Jaime__np"/>
+   </e>
+   <e lm="Jaime II">
+     <i>Jaime<b/>II</i>
      <par n="Jaime__np"/>
    </e>
    <e lm="Antillas inglesas">
@@ -142220,20 +142202,16 @@
       <i>pangermanismo</i>
       <par n="abismo__n"/>
     </e>
-    <e lm="patrón">
-      <i>patr</i>
-      <par n="aluvi/ón__n"/>
-      <p>
-        <l><b/>de<b/>cambio<b/>oro</l>
-        <r><g><b/>de<b/>cambio<b/>oro</g></r>
-      </p>
-    </e>
     <e lm="patrón oro">
       <i>patrón<b/>oro</i>
       <par n="atletismo__n"/>
     </e>
     <e lm="patrón cambio oro">
       <i>patrón<b/>cambio<b/>oro</i>
+      <par n="atletismo__n"/>
+    </e>
+    <e lm="patrón de cambio oro">
+      <i>patrón<b/>de<b/>cambio<b/>oro</i>
       <par n="atletismo__n"/>
     </e>
     <e lm="plan de rescate">
@@ -142260,7 +142238,7 @@
         <r><g><b/>de<b/>Bretton<b/>Woods</g></r>
       </p>
     </e>
-    <e lm="tierra">
+    <e lm="tierra de nadie">
       <i>tierra</i>
       <par n="abeja__n"/>
       <p>
@@ -142363,9 +142341,9 @@
       <i>microonda</i>
       <par n="abeja__n"/>
     </e>
-    <e lm="Buckingham Palace">
-	    <i>Buckingham<b/>Palace</i> 
-	    <par n="Afganistán__np"/> 
+    <e lm="Palacio de Buckingham">
+      <i>Palacio<b/>de<b/>Buckingham</i> 
+      <par n="Afganistán__np"/> 
     </e>
 
   </section>

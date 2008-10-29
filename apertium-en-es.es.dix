@@ -279,7 +279,16 @@
 
  <pardef n="proper_names">
       <e>
-        <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+        <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+        <p>
+          <l/>
+         <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>     
+      <e>
+        <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+        <i><b/></i>
+        <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
@@ -142206,8 +142215,8 @@
       <i>CAC<b/>40</i>
       <par n="ABC__np"/>
     </e>
-    <e lm="IBEX 35">
-      <i>IBEX<b/>35</i>
+    <e lm="Ibex 35">
+      <i>Ibex<b/>35</i>
       <par n="ABC__np"/>
     </e>
     <e lm="Fortune 500">
@@ -142329,6 +142338,21 @@
       </p>
       <par n="vénd/er__vblex"/>
     </e>
+
+
+    <e lm="empaquetar">
+        <i>empaquet</i>
+        <par n="abandon/ar__vblex"/>
+      </e>
+
+     <e lm="empaquetar">
+        <p>
+          <l>empaquét</l>
+          <r>empaquet</r>
+        </p>
+        <par n="abandón/ar__vblex"/>
+     </e>
+
     <e lm="moneda de reserva">
       <i>moneda</i>
       <par n="abeja__n"/>
@@ -142362,33 +142386,19 @@
       <par n="Afganistán__np"/> 
     </e>
 
+      <e lm="rueda de prensa">
+	<i>rueda</i>
+	<par n="abeja__n"/>
+	<p>
+          <l><b/>de<b/>prensa</l>
+          <r><g><b/>de<b/>prensa</g></r>
+	</p>
+      </e>
   </section>
  
-  <section id="final" type="inconditional">
-    <e>
-      <par n="separa"/>
-    </e>
-    <e>
-      <par n="numeros"/>
-    </e>
-    <e>
-      <par n="coma"/>
-    </e>
-    <e>
-      <par n="cometa"/>
-    </e>
-    <e>
-      <par n="paresq"/>
-    </e>
-    <e>
-      <par n="pardret"/>
-    </e>
-    <e>
-      <par n="separ"/>
-    </e>
-    <e>
-      <par n="guionet"/>
-    </e>
+
+  <section id="regexp" type="standard">
+
     <e>
       <par n="emails"/>
     </e>
@@ -142409,6 +142419,34 @@
     </e>
     <e r="RL">
       <par n="proper_names"/>
+    </e>
+  </section>
+
+
+  <section id="final" type="inconditional">
+    <e>
+      <par n="numeros"/>
+    </e>
+    <e>
+      <par n="separa"/>
+    </e>
+    <e>
+      <par n="coma"/>
+    </e>
+    <e>
+      <par n="cometa"/>
+    </e>
+    <e>
+      <par n="paresq"/>
+    </e>
+    <e>
+      <par n="pardret"/>
+    </e>
+    <e>
+      <par n="separ"/>
+    </e>
+    <e>
+      <par n="guionet"/>
     </e>
 
   </section>

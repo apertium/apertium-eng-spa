@@ -287,9 +287,23 @@
     </pardef>
 
 
+ 
  <pardef n="proper_names">
       <e>
-        <re>(Mr|Miss|Ms|Mrs|Dr).? ([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+        <re>(Mr|Miss|Ms|Mrs|Dr).?</re>
+        <i><b/></i>
+        <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+        <p>
+          <l/>
+         <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <re>(Mr|Miss|Ms|Mrs|Dr).?</re>
+        <i><b/></i>
+        <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+        <i><b/></i>
+        <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
@@ -53079,6 +53093,7 @@
       <i>videoconference</i>
       <par n="house__n"/>
     </e>
+    <e lm="press conference"><i>press<b/>conference</i><par n="house__n"/></e>
     <e lm="view">
       <i>view</i>
       <par n="house__n"/>
@@ -73123,8 +73138,8 @@
     <i>CAC<b/>40</i>
     <par n="Linux__np"/>
   </e>
-  <e lm="IBEX 35">
-    <i>IBEX<b/>35</i>
+  <e lm="Ibex 35">
+    <i>Ibex<b/>35</i>
     <par n="Linux__np"/>
   </e>
   <e lm="Fortune 500">
@@ -73214,31 +73229,9 @@
 
   </section>
  
-  <section id="final" type="inconditional">
-    <e>
-      <par n="separa"/>
-    </e>
-    <e>
-      <par n="numeros"/>
-    </e>
-    <e>
-      <par n="coma"/>
-    </e>
-    <e>
-      <par n="cometa"/>
-    </e>
-    <e>
-      <par n="paresq"/>
-    </e>
-    <e>
-      <par n="pardret"/>
-    </e>
-    <e>
-      <par n="separ"/>
-    </e>
-    <e>
-      <par n="guionet"/>
-    </e>
+
+  <section id="regexp" type="standard">
+
     <e>
       <par n="emails"/>
     </e>
@@ -73259,6 +73252,34 @@
     </e>
     <e>
       <par n="proper_names"/>
+    </e>
+    </section>
+
+
+  <section id="final" type="inconditional">
+    <e>
+      <par n="numeros"/>
+    </e>
+    <e>
+      <par n="separa"/>
+    </e>
+    <e>
+      <par n="coma"/>
+    </e>
+    <e>
+      <par n="cometa"/>
+    </e>
+    <e>
+      <par n="paresq"/>
+    </e>
+    <e>
+      <par n="pardret"/>
+    </e>
+    <e>
+      <par n="separ"/>
+    </e>
+    <e>
+      <par n="guionet"/>
     </e>
   </section>
 </dictionary>

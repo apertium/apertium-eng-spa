@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Dictionary:
 	Sections: 1
@@ -80413,16 +80413,10 @@
         <r>poseer<s n="vblex"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e>
       <p>
         <l>pack<s n="vblex"/></l>
-        <r>envolver<s n="vblex"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>pack<s n="vblex"/></l>
-        <r>liar<s n="vblex"/></r>
+        <r>empaquetar<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -93230,8 +93224,8 @@
     </e>
     <e>
       <p>
-        <l>IBEX<b/>35<s n="np"/><s n="al"/></l>
-        <r>IBEX<b/>35<s n="np"/><s n="al"/><s n="m"/></r>
+        <l>Ibex<b/>35<s n="np"/><s n="al"/></l>
+        <r>Ibex<b/>35<s n="np"/><s n="al"/><s n="m"/></r>
       </p>
     </e>
     <e>
@@ -93355,9 +93349,15 @@
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>press<b/>conference<s n="n"/></l>
+        <r>rueda<g><b/>de<b/>prensa</g><s n="n"/><s n="f"/></r>
+      </p>
+    </e>
    
   </section>
-  <section id="punctuation" type="standard">
+  <section id="regexp" type="standard">
     <e>
       <p>
         <l>-<s n="guio"/></l>
@@ -93423,12 +93423,6 @@
 <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="GD"/><s n="sg"/></r></p></e>
-
-<e><re>[A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
-<e><re>[A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
-<e><re>[A-Z][A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
-<e><re>[A-Z][A-Z][A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
-
 
 
 <e>
@@ -93509,78 +93503,204 @@
 <e><re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
 
+  </section>
+
+  <section id="regexp2" type="standard">
+
+<e><re>[A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><re>[A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><re>[A-Z][A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><re>[A-Z][A-Z][A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
-<e>
+
+
+<e r="LR">
   <p>
     <l>Mr<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Mr<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+
+<e r="LR">
   <p>
     <l>Mr.<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Mr.<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+
+<e r="LR">
   <p>
     <l>Miss<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Miss<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+
+<e r="LR">
   <p>
     <l>Miss.<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Miss.<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+
+<e r="LR">
   <p>
     <l>Ms<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Ms<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+<e r="LR">
   <p>
     <l>Ms.<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Ms.<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+
+<e r="LR">
   <p>
     <l>Mrs<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Mrs<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+<e r="LR">
   <p>
     <l>Mrs.<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Mrs.<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+<e r="LR">
   <p>
     <l>Dr<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
-<e>
+<e r="LR">
+  <p>
+    <l>Dr<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+<e r="LR">
   <p>
     <l>Dr.<b/></l>
     <r/>
   </p>
-  <re>([A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]*)</re>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
 </e>
+<e r="LR">
+  <p>
+    <l>Dr.<b/></l>
+    <r/>
+  </p>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><b/></i>
+  <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
+  <i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i>
+</e>
+
 
 
   </section>

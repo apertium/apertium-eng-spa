@@ -11,12 +11,22 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
                  $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin $(PREFIX1).lextormono.bin $(PREFIX2).lextormono.bin \
                  $(PREFIX1).lextorbil.bin $(PREFIX2).lextorbil.bin \
                  $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-                 $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
+                 $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes \
+		 $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix
 
 
 
 
 TARGETS = $(TARGETS_COMMON) 
+
+
+$(BASENAME).$(LANG2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+	apertium-gen-lextormono rl $(BASENAME).$(PREFIX1).dix $@
+
+$(BASENAME).$(LANG1)-lextor.dix: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+	apertium-gen-lextormono lr $(BASENAME).$(PREFIX1).dix $@
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).metadix $(BASENAME).$(LANG1).acx
 	@xsltproc buscaPar.xsl apertium-en-es.en.metadix | uniq > tmp1gen.xsl 	 
@@ -104,7 +114,7 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
 	   $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
            $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
-           $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx
+           $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx \
 	   modes.xml
 
 clean-dicts:
@@ -121,7 +131,8 @@ apertium_en_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
-		    $(PREFIX1).mode $(PREFIX2).mode
+		    $(PREFIX1).mode $(PREFIX2).mode \ 
+		    $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix
 
 apertium_en_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_en_modesdir=$(prefix)/share/apertium/modes/

@@ -1,0 +1,370 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="acr"/>
+    <sdef n="predet"/>
+    <sdef n="detnt"/>
+    <sdef n="loc"/>
+    <sdef n="ant"/>
+    <sdef n="al"/>
+    <sdef n="cog"/>
+    <sdef n="atn"/>
+    <sdef n="enc"/>
+    <sdef n="pro"/>
+    <sdef n="tn"/>
+    <sdef n="n"/>
+    <sdef n="np"/>
+    <sdef n="adj"/>
+    <sdef n="f"/>
+    <sdef n="m"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="adv"/>
+    <sdef n="preadv"/>
+    <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="rel"/>
+    <sdef n="nn"/>
+    <sdef n="an"/>
+    <sdef n="aa"/>
+    <sdef n="ind"/>
+    <sdef n="itg"/>
+    <sdef n="det"/>
+    <sdef n="dem"/>
+    <sdef n="def"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+    <sdef n="cnjadv"/>
+    <sdef n="nt"/>
+    <sdef n="vbser"/>
+    <sdef n="vbhaver"/>
+    <sdef n="vblex"/>
+    <sdef n="vbmod"/>
+    <sdef n="inf"/>
+    <sdef n="ger"/>
+    <sdef n="pp"/>
+    <sdef n="pri"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+    <sdef n="pii"/>
+    <sdef n="ifi"/>
+    <sdef n="fti"/>
+    <sdef n="cni"/>
+    <sdef n="prs"/>
+    <sdef n="pis"/>
+    <sdef n="fts"/>
+    <sdef n="imp"/>
+    <sdef n="pos"/>
+    <sdef n="sp"/>
+    <sdef n="ref"/>
+    <sdef n="sup"/>
+    <sdef n="ord"/>
+    <sdef n="qnt"/>
+    <sdef n="num"/>
+    <sdef n="pron"/>
+    <sdef n="ij"/>
+    <sdef n="sent"/>
+    <sdef n="cm"/>
+    <sdef n="lpar"/>
+    <sdef n="rpar"/>
+    <sdef n="lquest"/>
+    <sdef n="web"/>
+    <sdef n="apos"/>
+    <sdef n="percent"/>
+    <sdef n="guio"/>
+    <sdef n="past"/>
+    <sdef n="sep"/>
+    <sdef n="sint"/>
+    <sdef n="email"/>
+    <sdef n="obj"/>
+    <sdef n="subj"/>
+    <sdef n="subs"/>
+    <sdef n="pprs"/>
+    <sdef n="url"/>
+    <sdef n="gen"/>
+    <sdef n="vbdo"/>
+    <sdef n="comp"/>
+    <sdef n="pres"/>
+    <sdef n="vaux"/>
+    <sdef n="sym"/>
+    <sdef n="ND"/>
+    <sdef n="GD"/>
+    <sdef n="mon"/>
+  </sdefs>
+  <section id="main" type="standard">
+    <e><p><l>achieve<s n="vblex"/></l><r>achieve<s n="vblex"/></r></p></e>
+    <e><p><l>achieve<s n="vblex"/></l><r>get<g><b/>hold<b/>of</g><s n="vblex"/></r></p></e>
+    <e><p><l>achieve<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
+    <e><p><l>achieve<s n="vblex"/></l><r>manage<s n="vblex"/></r></p></e>
+    <e><p><l>actual<s n="adj"/></l><r>actual<s n="adj"/></r></p></e>
+    <e><p><l>actual<s n="adj"/></l><r>real<s n="adj"/></r></p></e>
+    <e><p><l>actual<s n="adj"/></l><r>royal<s n="adj"/></r></p></e>
+    <e><p><l>acute<s n="adj"/></l><r>acute<s n="adj"/></r></p></e>
+    <e><p><l>acute<s n="adj"/></l><r>sharp<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ahead<b/>of<s n="pr"/></l><r>ahead<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>address<s n="vblex"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>aim<s n="vblex"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>conduct<s n="vblex"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>direct<s n="vblex"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>lead<s n="vblex"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>manage<s n="vblex"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>note<g><b/>down</g><s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>point<s n="vblex"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>prompt<s n="vblex"/></r></p></e>
+    <e><p><l>aim<s n="vblex"/></l><r>target<s n="vblex"/></r></p></e>
+    <e><p><l>announce<s n="vblex"/></l><r>advertise<s n="vblex"/></r></p></e>
+    <e><p><l>announce<s n="vblex"/></l><r>announce<s n="vblex"/></r></p></e>
+    <e><p><l>approve<s n="vblex"/></l><r>approve<s n="vblex"/></r></p></e>
+    <e><p><l>approve<s n="vblex"/></l><r>endorse<s n="vblex"/></r></p></e>
+    <e><p><l>approve<s n="vblex"/></l><r>pass<s n="vblex"/></r></p></e>
+    <e><p><l>as<b/>a<b/>result<b/>of<s n="pr"/></l><r>as<b/>a<b/>result<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>at<b/>the<b/>expense<b/>of<s n="pr"/></l><r>at<b/>the<b/>expense<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>because<b/>of<s n="pr"/></l><r>because<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>because<b/>of<s n="pr"/></l><r>due<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>between<s n="pr"/></l><r>amid<s n="pr"/></r></p></e>
+    <e><p><l>between<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
+    <e><p><l>between<s n="pr"/></l><r>amongst<s n="pr"/></r></p></e>
+    <e><p><l>between<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
+    <e><p><l>boss<s n="n"/></l><r>boss<s n="n"/></r></p></e>
+    <e><p><l>boss<s n="n"/></l><r>chief<s n="n"/></r></p></e>
+    <e><p><l>boss<s n="n"/></l><r>leader<s n="n"/></r></p></e>
+    <e><p><l>by<b/>dint<b/>of<s n="pr"/></l><r>by<b/>dint<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>by<b/>means<b/>of<s n="pr"/></l><r>by<b/>means<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>by<s n="pr"/></l><r>by<s n="pr"/></r></p></e>
+    <e><p><l>by<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
+    <e><p><l>by<s n="pr"/></l><r>through<s n="pr"/></r></p></e>
+    <e><p><l>carry<s n="vblex"/></l><r>carry<s n="vblex"/></r></p></e>
+    <e><p><l>carry<s n="vblex"/></l><r>take<s n="vblex"/></r></p></e>
+    <e><p><l>carry<s n="vblex"/></l><r>wear<s n="vblex"/></r></p></e>
+    <e><p><l>CD<s n="n"/><s n="acr"/></l><r>CD<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>clear<s n="adj"/><s n="sint"/></l><r>clear<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>clear<s n="adj"/><s n="sint"/></l><r>light<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>closely<s n="adv"/></l><r>closely<s n="adv"/></r></p></e>
+    <e><p><l>closely<s n="adv"/></l><r>tightly<s n="adv"/></r></p></e>
+    <e><p><l>cool<s n="adj"/><s n="sint"/></l><r>cool<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>cool<s n="adj"/><s n="sint"/></l><r>fresh<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>deliver<s n="vblex"/></l><r>deliver<s n="vblex"/></r></p></e>
+    <e><p><l>deliver<s n="vblex"/></l><r>hand<s n="vblex"/></r></p></e>
+    <e><p><l>deliver<s n="vblex"/></l><r>submit<s n="vblex"/></r></p></e>
+    <e><p><l>detain<s n="vblex"/></l><r>detain<s n="vblex"/></r></p></e>
+    <e><p><l>detain<s n="vblex"/></l><r>stop<s n="vblex"/></r></p></e>
+    <e><p><l>directly<s n="adv"/></l><r>directly<s n="adv"/></r></p></e>
+    <e><p><l>directly<s n="adv"/></l><r>straight<s n="adv"/></r></p></e>
+    <e><p><l>discover<s n="vblex"/></l><r>discover<s n="vblex"/></r></p></e>
+    <e><p><l>discover<s n="vblex"/></l><r>find<g><b/>out</g><s n="vblex"/></r></p></e>
+    <e><p><l>discover<s n="vblex"/></l><r>unveil<s n="vblex"/></r></p></e>
+    <e><p><l>download<s n="vblex"/></l><r>discharge<s n="vblex"/></r></p></e>
+    <e><p><l>download<s n="vblex"/></l><r>download<s n="vblex"/></r></p></e>
+    <e><p><l>download<s n="vblex"/></l><r>unload<s n="vblex"/></r></p></e>
+    <e><p><l>DVD<s n="n"/><s n="acr"/></l><r>DVD<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>earn<s n="vblex"/></l><r>charge<s n="vblex"/></r></p></e>
+    <e><p><l>earn<s n="vblex"/></l><r>earn<s n="vblex"/></r></p></e>
+    <e><p><l>earn<s n="vblex"/></l><r>win<s n="vblex"/></r></p></e>
+    <e><p><l>economic<s n="adj"/></l><r>economical<s n="adj"/></r></p></e>
+    <e><p><l>economic<s n="adj"/></l><r>economic<s n="adj"/></r></p></e>
+    <e><p><l>empty<s n="adj"/><s n="sint"/></l><r>empty<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>empty<s n="adj"/><s n="sint"/></l><r>hollow<s n="adj"/></r></p></e>
+    <e><p><l>enough<s n="adv"/></l><r>enough<s n="adv"/></r></p></e>
+    <e><p><l>enough<s n="adv"/></l><r>quite<b/>a<b/>lot<s n="adv"/></r></p></e>
+    <e><p><l>enough<s n="adv"/></l><r>rather<s n="adv"/></r></p></e>
+    <e><p><l>ensure<s n="vblex"/></l><r>ensure<s n="vblex"/></r></p></e>
+    <e><p><l>ensure<s n="vblex"/></l><r>insure<s n="vblex"/></r></p></e>
+    <e><p><l>ensure<s n="vblex"/></l><r>secure<s n="vblex"/></r></p></e>
+    <e><p><l>estimate<s n="vblex"/></l><r>appreciate<s n="vblex"/></r></p></e>
+    <e><p><l>estimate<s n="vblex"/></l><r>consider<s n="vblex"/></r></p></e>
+    <e><p><l>estimate<s n="vblex"/></l><r>estimate<s n="vblex"/></r></p></e>
+    <e><p><l>expect<s n="vblex"/></l><r>await<s n="vblex"/></r></p></e>
+    <e><p><l>expect<s n="vblex"/></l><r>expect<s n="vblex"/></r></p></e>
+    <e><p><l>expect<s n="vblex"/></l><r>hope<s n="vblex"/></r></p></e>
+    <e><p><l>expect<s n="vblex"/></l><r>wait<s n="vblex"/></r></p></e>
+    <e><p><l>explain<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+    <e><p><l>explain<s n="vblex"/></l><r>explain<s n="vblex"/></r></p></e>
+    <e><p><l>explode<s n="vblex"/></l><r>explode<s n="vblex"/></r></p></e>
+    <e><p><l>explode<s n="vblex"/></l><r>exploit<s n="vblex"/></r></p></e>
+    <e><p><l>film<s n="vblex"/></l><r>film<s n="vblex"/></r></p></e>
+    <e><p><l>film<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+    <e><p><l>film<s n="vblex"/></l><r>roll<s n="vblex"/></r></p></e>
+    <e><p><l>fur<s n="n"/></l><r>fur<s n="n"/></r></p></e>
+    <e><p><l>fur<s n="n"/></l><r>leather<s n="n"/></r></p></e>
+    <e><p><l>fur<s n="n"/></l><r>skin<s n="n"/></r></p></e>
+    <e><p><l>happen<s n="vblex"/></l><r>happen<s n="vblex"/></r></p></e>
+    <e><p><l>happen<s n="vblex"/></l><r>pass<s n="vblex"/></r></p></e>
+    <e><p><l>happen<s n="vblex"/></l><r>spend<s n="vblex"/></r></p></e>
+    <e><p><l>high<s n="adj"/><s n="sint"/></l><r>high<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>high<s n="adj"/><s n="sint"/></l><r>tall<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>if<b/>that<b/>weren't<b/>enough<s n="adv"/></l><r>if<b/>that<b/>weren't<b/>enough<s n="adv"/></r></p></e>
+    <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>check"><p></r></p></e>
+    <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>in<b/>pursuit<b/>of<s n="pr"/></l><r>in<b/>pursuit<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>in<b/>spite<b/>of<s n="pr"/></l><r>despite<s n="pr"/></r></p></e>
+    <e><p><l>in<b/>spite<b/>of<s n="pr"/></l><r>in<b/>spite<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>in<b/>view<b/>of<s n="pr"/></l><r>in<b/>view<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>at<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
+    <e><p><l>instead<b/>of<s n="pr"/></l><r>instead<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>integral<s n="adj"/></l><r>integral<s n="adj"/></r></p></e>
+    <e><p><l>integral<s n="adj"/></l><r>whole-grain<s n="adj"/></r></p></e>
+    <e><p><l>interestingly<b/>enough<s n="adv"/></l><r>interestingly<b/>enough<s n="adv"/></r></p></e>
+    <e><p><l>interestingly<b/>enough<s n="adv"/></l><r>interestingly<s n="adv"/></r></p></e>
+    <e><p><l>investigate<s n="vblex"/></l><r>investigate<s n="vblex"/></r></p></e>
+    <e><p><l>investigate<s n="vblex"/></l><r>research<s n="vblex"/></r></p></e>
+    <e><p><l>invest<s n="vblex"/></l><r>invest<s n="vblex"/></r></p></e>
+    <e><p><l>invest<s n="vblex"/></l><r>reverse<s n="vblex"/></r></p></e>
+    <e><p><l>keep<s n="vblex"/></l><r>continue<s n="vblex"/></r></p></e>
+    <e><p><l>keep<s n="vblex"/></l><r>follow<s n="vblex"/></r></p></e>
+    <e><p><l>keep<s n="vblex"/></l><r>go<g><b/>on</g><s n="vblex"/></r></p></e>
+    <e><p><l>keep<s n="vblex"/></l><r>keep<g><b/>on</g><s n="vblex"/></r></p></e>
+    <e><p><l>keep<s n="vblex"/></l><r>keep<s n="vblex"/></r></p></e>
+    <e><p><l>keep<s n="vblex"/></l><r>maintain<s n="vblex"/></r></p></e>
+    <e><p><l>leather<s n="n"/></l><r>fur<s n="n"/></r></p></e>
+    <e><p><l>leather<s n="n"/></l><r>leather<s n="n"/></r></p></e>
+    <e><p><l>leather<s n="n"/></l><r>skin<s n="n"/></r></p></e>
+    <e><p><l>leave<s n="vblex"/></l><r>allow<s n="vblex"/></r></p></e>
+    <e><p><l>leave<s n="vblex"/></l><r>give<g><b/>up</g><s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>leave<s n="vblex"/></l><r>leave<s n="vblex"/></r></p></e>
+    <e><p><l>leave<s n="vblex"/></l><r>lend<s n="vblex"/></r></p></e>
+    <e><p><l>leave<s n="vblex"/></l><r>let<s n="vblex"/></r></p></e>
+    <e><p><l>lose<s n="vblex"/></l><r>lose<s n="vblex"/></r></p></e>
+    <e><p><l>lose<s n="vblex"/></l><r>miss<s n="vblex"/></r></p></e>
+    <e><p><l>low<s n="adj"/><s n="sint"/></l><r>low<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>low<s n="adj"/><s n="sint"/></l><r>short<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>low<s n="adj"/><s n="sint"/><s n="comp"/></l><r>lesser<s n="adj"/></r></p></e>
+    <e><p><l>low<s n="adj"/><s n="sint"/><s n="comp"/></l><r>low<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+    <e><p><l>low<s n="adj"/><s n="sint"/><s n="comp"/></l><r>minor<s n="adj"/></r></p></e>
+    <e><p><l>mark<s n="vblex"/></l><r>mark<s n="vblex"/></r></p></e>
+    <e><p><l>mark<s n="vblex"/></l><r>score<s n="vblex"/></r></p></e>
+    <e><p><l>matter<s n="vblex"/></l><r>import<s n="vblex"/></r></p></e>
+    <e><p><l>matter<s n="vblex"/></l><r>matter<s n="vblex"/></r></p></e>
+    <e><p><l>matter<s n="vblex"/></l><r>mind<s n="vblex"/></r></p></e>
+    <e><p><l>minimum<s n="adj"/></l><r>minimal<s n="adj"/></r></p></e>
+    <e><p><l>minimum<s n="adj"/></l><r>minimum<s n="adj"/></r></p></e>
+    <e><p><l>more<b/>than<b/>enough<s n="adv"/></l><r>enough<b/>and<b/>to<b/>spare<s n="adv"/></r></p></e>
+    <e><p><l>more<b/>than<b/>enough<s n="adv"/></l><r>more<b/>than<b/>enough<s n="adv"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>above<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>across<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>ahead<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>along<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>apart<b/>from<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>as<b/>a<b/>result<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>as<b/>regards<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>at<b/>about<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>at<b/>the<b/>expense<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>before<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>behind<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>by<b/>dint<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>by<b/>means<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>check"><p></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>concerning<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>despite<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>in<b/>addition<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>in<b/>front<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>in<b/>pursuit<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>in<b/>spite<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>in<b/>view<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>inside<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>instead<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>off<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>on<b/>top<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>out<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>outside<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>out<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>round<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>so<b/>as<b/>to<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>through<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>under<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>up<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>within<s n="pr"/></r></p></e>
+    <e><p><l>on<b/>top<b/>of<s n="pr"/></l><r>on<b/>top<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>on<b/>top<b/>of<s n="pr"/></l><r>up<s n="pr"/></r></p></e>
+    <e><p><l>only<s n="adj"/></l><r>only<s n="adj"/></r></p></e>
+    <e><p><l>only<s n="adj"/></l><r>unique<s n="adj"/></r></p></e>
+    <e><p><l>out<b/>of<s n="pr"/></l><r>out<b/>of<s n="pr"/></r></p></e>
+    <e><p><l>out<b/>of<s n="pr"/></l><r>outside<s n="pr"/></r></p></e>
+    <e><p><l>out<b/>of<s n="pr"/></l><r>out<s n="pr"/></r></p></e>
+    <e><p><l>play<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>play<s n="vblex"/></l><r>tap<s n="vblex"/></r></p></e>
+    <e><p><l>play<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
+    <e><p><l>publisher<s n="n"/></l><r>publisher<s n="n"/></r></p></e>
+    <e><p><l>publisher<s n="n"/></l><r>publishing<s n="n"/></r></p></e>
+    <e><p><l>publishing<s n="n"/></l><r>publisher<s n="n"/></r></p></e>
+    <e><p><l>publishing<s n="n"/></l><r>publishing<s n="n"/></r></p></e>
+    <e><p><l>pursue<s n="vblex"/></l><r>chase<s n="vblex"/></r></p></e>
+    <e><p><l>pursue<s n="vblex"/></l><r>pursue<s n="vblex"/></r></p></e>
+    <e><p><l>real<s n="adj"/></l><r>actual<s n="adj"/></r></p></e>
+    <e><p><l>real<s n="adj"/></l><r>real<s n="adj"/></r></p></e>
+    <e><p><l>real<s n="adj"/></l><r>royal<s n="adj"/></r></p></e>
+    <e><p><l>recognize<s n="vblex"/></l><r>acknowledge<s n="vblex"/></r></p></e>
+    <e><p><l>recognize<s n="vblex"/></l><r>recognize<s n="vblex"/></r></p></e>
+    <e><p><l>remain<s n="vblex"/></l><r>be<g><b/>left</g><s n="vblex"/></r></p></e>
+    <e><p><l>remain<s n="vblex"/></l><r>remain<s n="vblex"/></r></p></e>
+    <e><p><l>remain<s n="vblex"/></l><r>stay<s n="vblex"/></r></p></e>
+    <e><p><l>remember<s n="vblex"/></l><r>agree<s n="vblex"/></r></p></e>
+    <e><p><l>remember<s n="vblex"/></l><r>recall<s n="vblex"/></r></p></e>
+    <e><p><l>remember<s n="vblex"/></l><r>remember<s n="vblex"/></r></p></e>
+    <e><p><l>remember<s n="vblex"/></l><r>remind<s n="vblex"/></r></p></e>
+    <e><p><l>right-handed<s n="adj"/></l><r>right-handed<s n="adj"/></r></p></e>
+    <e><p><l>right-handed<s n="adj"/></l><r>skillful<s n="adj"/></r></p></e>
+    <e><p><l>royal<s n="adj"/></l><r>actual<s n="adj"/></r></p></e>
+    <e><p><l>royal<s n="adj"/></l><r>real<s n="adj"/></r></p></e>
+    <e><p><l>royal<s n="adj"/></l><r>royal<s n="adj"/></r></p></e>
+    <e><p><l>safe<s n="adj"/><s n="sint"/></l><r>certain<s n="adj"/></r></p></e>
+    <e><p><l>safe<s n="adj"/><s n="sint"/></l><r>confident<s n="adj"/></r></p></e>
+    <e><p><l>safe<s n="adj"/><s n="sint"/></l><r>safe<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>safe<s n="adj"/><s n="sint"/></l><r>secure<s n="adj"/></r></p></e>
+    <e><p><l>safe<s n="adj"/><s n="sint"/></l><r>sure<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>say<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
+    <e><p><l>say<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
+    <e><p><l>seem<s n="vblex"/></l><r>appear<s n="vblex"/></r></p></e>
+    <e><p><l>seem<s n="vblex"/></l><r>look<g><b/>like</g><s n="vblex"/></r></p></e>
+    <e><p><l>seem<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>seem<s n="vblex"/></l><r>seem<s n="vblex"/></r></p></e>
+    <e><p><l>skin<s n="n"/></l><r>fur<s n="n"/></r></p></e>
+    <e><p><l>skin<s n="n"/></l><r>leather<s n="n"/></r></p></e>
+    <e><p><l>skin<s n="n"/></l><r>skin<s n="n"/></r></p></e>
+    <e><p><l>soon<s n="adv"/></l><r>early<s n="adv"/></r></p></e>
+    <e><p><l>soon<s n="adv"/></l><r>for<b/>now<s n="adv"/></r></p></e>
+    <e><p><l>soon<s n="adv"/></l><r>sooner<s n="adv"/></r></p></e>
+    <e><p><l>soon<s n="adv"/></l><r>soon<s n="adv"/></r></p></e>
+    <e><p><l>support<s n="vblex"/></l><r>lean<s n="vblex"/></r></p></e>
+    <e><p><l>support<s n="vblex"/></l><r>support<s n="vblex"/></r></p></e>
+    <e><p><l>sure<b/>enough<s n="adv"/></l><r>sure<b/>enough<s n="adv"/></r></p></e>
+    <e><p><l>tap<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>tap<s n="vblex"/></l><r>tap<s n="vblex"/></r></p></e>
+    <e><p><l>tap<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
+    <e><p><l>teacher<s n="n"/></l><r>master<s n="n"/></r></p></e>
+    <e><p><l>teacher<s n="n"/></l><r>professor<s n="n"/></r></p></e>
+    <e><p><l>teacher<s n="n"/></l><r>teacher<s n="n"/></r></p></e>
+    <e><p><l>test<s n="vblex"/></l><r>prove<s n="vblex"/></r></p></e>
+    <e><p><l>test<s n="vblex"/></l><r>taste<s n="vblex"/></r></p></e>
+    <e><p><l>test<s n="vblex"/></l><r>test<s n="vblex"/></r></p></e>
+    <e><p><l>test<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
+    <e><p><l>touch<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>touch<s n="vblex"/></l><r>tap<s n="vblex"/></r></p></e>
+    <e><p><l>touch<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
+    <e><p><l>value<s n="vblex"/></l><r>appraise<s n="vblex"/></r></p></e>
+    <e><p><l>value<s n="vblex"/></l><r>assess<s n="vblex"/></r></p></e>
+    <e><p><l>value<s n="vblex"/></l><r>rate<s n="vblex"/></r></p></e>
+    <e><p><l>value<s n="vblex"/></l><r>value<s n="vblex"/></r></p></e>
+    <e><p><l>visit<s n="vblex"/></l><r>tour<s n="vblex"/></r></p></e>
+    <e><p><l>visit<s n="vblex"/></l><r>travel<g><b/>across</g><s n="vblex"/></r></p></e>
+    <e><p><l>visit<s n="vblex"/></l><r>visit<s n="vblex"/></r></p></e>
+    <e><p><l>want<s n="vblex"/></l><r>love<s n="vblex"/></r></p></e>
+    <e><p><l>want<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
+    <e><p><l>whole-grain<s n="adj"/></l><r>integral<s n="adj"/></r></p></e>
+    <e><p><l>whole-grain<s n="adj"/></l><r>whole-grain<s n="adj"/></r></p></e>
+    <e><p><l>win<s n="vblex"/></l><r>earn<s n="vblex"/></r></p></e>
+    <e><p><l>win<s n="vblex"/></l><r>overcome<s n="vblex"/></r></p></e>
+    <e><p><l>win<s n="vblex"/></l><r>win<s n="vblex"/></r></p></e>
+    <e><p><l>withdraw<s n="vblex"/></l><r>recall<s n="vblex"/></r></p></e>
+    <e><p><l>withdraw<s n="vblex"/></l><r>remove<s n="vblex"/></r></p></e>
+    <e><p><l>withdraw<s n="vblex"/></l><r>withdraw<s n="vblex"/></r></p></e>
+  </section>
+</dictionary>

@@ -1,0 +1,748 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="acr"/>
+    <sdef n="predet"/>
+    <sdef n="detnt"/>
+    <sdef n="loc"/>
+    <sdef n="ant"/>
+    <sdef n="al"/>
+    <sdef n="cog"/>
+    <sdef n="atn"/>
+    <sdef n="enc"/>
+    <sdef n="pro"/>
+    <sdef n="tn"/>
+    <sdef n="n"/>
+    <sdef n="np"/>
+    <sdef n="adj"/>
+    <sdef n="f"/>
+    <sdef n="m"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="adv"/>
+    <sdef n="preadv"/>
+    <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="rel"/>
+    <sdef n="nn"/>
+    <sdef n="an"/>
+    <sdef n="aa"/>
+    <sdef n="ind"/>
+    <sdef n="itg"/>
+    <sdef n="det"/>
+    <sdef n="dem"/>
+    <sdef n="def"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+    <sdef n="cnjadv"/>
+    <sdef n="nt"/>
+    <sdef n="vbser"/>
+    <sdef n="vbhaver"/>
+    <sdef n="vblex"/>
+    <sdef n="vbmod"/>
+    <sdef n="inf"/>
+    <sdef n="ger"/>
+    <sdef n="pp"/>
+    <sdef n="pri"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+    <sdef n="pii"/>
+    <sdef n="ifi"/>
+    <sdef n="fti"/>
+    <sdef n="cni"/>
+    <sdef n="prs"/>
+    <sdef n="pis"/>
+    <sdef n="fts"/>
+    <sdef n="imp"/>
+    <sdef n="pos"/>
+    <sdef n="sp"/>
+    <sdef n="ref"/>
+    <sdef n="sup"/>
+    <sdef n="ord"/>
+    <sdef n="qnt"/>
+    <sdef n="num"/>
+    <sdef n="pron"/>
+    <sdef n="ij"/>
+    <sdef n="sent"/>
+    <sdef n="cm"/>
+    <sdef n="lpar"/>
+    <sdef n="rpar"/>
+    <sdef n="lquest"/>
+    <sdef n="web"/>
+    <sdef n="apos"/>
+    <sdef n="percent"/>
+    <sdef n="guio"/>
+    <sdef n="past"/>
+    <sdef n="sep"/>
+    <sdef n="sint"/>
+    <sdef n="email"/>
+    <sdef n="obj"/>
+    <sdef n="subj"/>
+    <sdef n="subs"/>
+    <sdef n="pprs"/>
+    <sdef n="url"/>
+    <sdef n="gen"/>
+    <sdef n="vbdo"/>
+    <sdef n="comp"/>
+    <sdef n="pres"/>
+    <sdef n="vaux"/>
+    <sdef n="sym"/>
+    <sdef n="ND"/>
+    <sdef n="GD"/>
+    <sdef n="mon"/>
+  </sdefs>
+  <section id="main" type="standard">
+    <e><p><l>abarcar<s n="vblex"/></l><r>abarcar<s n="vblex"/></r></p></e>
+    <e><p><l>abarcar<s n="vblex"/></l><r>alinear<s n="vblex"/></r></p></e>
+    <e><p><l>abrigo<s n="n"/><s n="m"/></l><r>abrigo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>abrigo<s n="n"/><s n="m"/></l><r>capa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aceite<s n="n"/><s n="m"/></l><r>aceite<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aceite<s n="n"/><s n="m"/></l><r>óleo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aceite<s n="n"/><s n="m"/></l><r>petróleo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>acto<s n="n"/><s n="m"/></l><r>acto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>acto<s n="n"/><s n="m"/></l><r>ley<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aliviar<s n="vblex"/></l><r>aliviar<s n="vblex"/></r></p></e>
+    <e><p><l>aliviar<s n="vblex"/></l><r>relevar<s n="vblex"/></r></p></e>
+    <e><p><l>alivio<s n="n"/><s n="m"/></l><r>alivio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>alivio<s n="n"/><s n="m"/></l><r>relevo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>alivio<s n="n"/><s n="m"/></l><r>relieve<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>anillo<s n="n"/><s n="m"/></l><r>anillo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>anillo<s n="n"/><s n="m"/></l><r>aro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>anillo<s n="n"/><s n="m"/></l><r>cerco<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>anillo<s n="n"/><s n="m"/></l><r>círculo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>anillo<s n="n"/><s n="m"/></l><r>trompo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aparecer<s n="vblex"/></l><r>aparecer<s n="vblex"/></r></p></e>
+    <e><p><l>aparecer<s n="vblex"/></l><r>parecer<s n="vblex"/></r></p></e>
+    <e><p><l>aprobar<s n="vblex"/></l><r>aprobar<s n="vblex"/></r></p></e>
+    <e><p><l>aprobar<s n="vblex"/></l><r>endosar<s n="vblex"/></r></p></e>
+    <e><p><l>aprobar<s n="vblex"/></l><r>pasar<s n="vblex"/></r></p></e>
+    <e><p><l>apuntar<s n="vblex"/></l><r>apuntar<s n="vblex"/></r></p></e>
+    <e><p><l>apuntar<s n="vblex"/></l><r>asomar<s n="vblex"/></r></p></e>
+    <e><p><l>apuntar<s n="vblex"/></l><r>dirigir<s n="vblex"/></r></p></e>
+    <e><p><l>apuntar<s n="vblex"/></l><r>incitar<s n="vblex"/></r></p></e>
+    <e><p><l>apuntar<s n="vblex"/></l><r>señalar<s n="vblex"/></r></p></e>
+    <e><p><l>archivo<s n="n"/><s n="m"/></l><r>archivo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>archivo<s n="n"/><s n="m"/></l><r>expediente<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>archivo<s n="n"/><s n="m"/></l><r>lima<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>argumentar<s n="vblex"/></l><r>argumentar<s n="vblex"/></r></p></e>
+    <e><p><l>argumentar<s n="vblex"/></l><r>discutir<s n="vblex"/></r></p></e>
+    <e><p><l>argumento<s n="n"/><s n="m"/></l><r>argumento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>argumento<s n="n"/><s n="m"/></l><r>discusión<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>armario<s n="n"/><s n="m"/></l><r>armario<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>armario<s n="n"/><s n="m"/></l><r>gabinete<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>armario<s n="n"/><s n="m"/></l><r>vestuario<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arreglo<s n="n"/><s n="m"/></l><r>acuerdo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arreglo<s n="n"/><s n="m"/></l><r>apaño<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arreglo<s n="n"/><s n="m"/></l><r>arreglo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ascensor<s n="n"/><s n="m"/></l><r>ascensor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ascensor<s n="n"/><s n="m"/></l><r>impulso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>asiento<s n="n"/><s n="m"/></l><r>asiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>asiento<s n="n"/><s n="m"/></l><r>butaca<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>asiento<s n="n"/><s n="m"/></l><r>escaño<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>asiento<s n="n"/><s n="m"/></l><r>localidad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aun<b/>cuando<s n="cnjadv"/></l><r>a<b/>pesar<b/>de<b/>que<s n="cnjadv"/></r></p></e>
+    <e><p><l>aun<b/>cuando<s n="cnjadv"/></l><r>aun<b/>cuando<s n="cnjadv"/></r></p></e>
+    <e><p><l>aun<b/>cuando<s n="cnjadv"/></l><r>aunque<s n="cnjadv"/></r></p></e>
+    <e><p><l>banco<s n="n"/><s n="m"/></l><r>banco<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>banco<s n="n"/><s n="m"/></l><r>orilla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beneficio<s n="n"/><s n="m"/></l><r>beneficio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>beneficio<s n="n"/><s n="m"/></l><r>ganancia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beneficio<s n="n"/><s n="m"/></l><r>prestación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bloque<s n="n"/><s n="m"/></l><r>bloqueo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bloque<s n="n"/><s n="m"/></l><r>bloque<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bolsa<s n="n"/><s n="f"/></l><r>bolsa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bolsa<s n="n"/><s n="f"/></l><r>bolso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>caer<s n="vblex"/></l><r>caer<s n="vblex"/></r></p></e>
+    <e><p><l>caer<s n="vblex"/></l><r>soltar<s n="vblex"/></r></p></e>
+    <e><p><l>cambio<s n="n"/><s n="m"/></l><r>bolsa<g><b/>de<b/>valores</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cambio<s n="n"/><s n="m"/></l><r>cambio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cambio<s n="n"/><s n="m"/></l><r>columpio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cambio<s n="n"/><s n="m"/></l><r>intercambio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cambio<s n="n"/><s n="m"/></l><r>interruptor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cambio<s n="n"/><s n="m"/></l><r>oscilación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cambio<s n="n"/><s n="m"/></l><r>turno<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>camino<s n="n"/><s n="m"/></l><r>camino<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>camino<s n="n"/><s n="m"/></l><r>carril<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>camino<s n="n"/><s n="m"/></l><r>manera<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>camino<s n="n"/><s n="m"/></l><r>modo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>camino<s n="n"/><s n="m"/></l><r>trayectoria<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>campana<s n="n"/><s n="f"/></l><r>campana<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>campana<s n="n"/><s n="f"/></l><r>timbre<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cargo<s n="n"/><s n="m"/></l><r>carga<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cargo<s n="n"/><s n="m"/></l><r>cargo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cargo<s n="n"/><s n="m"/></l><r>correo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cargo<s n="n"/><s n="m"/></l><r>poste<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>carrera<s n="n"/><s n="f"/></l><r>carrera<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>carrera<s n="n"/><s n="f"/></l><r>raza<b/>humana<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>carrera<s n="n"/><s n="f"/></l><r>raza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>caso<s n="n"/><s n="m"/></l><r>caso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>caso<s n="n"/><s n="m"/></l><r>instancia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>caso<s n="n"/><s n="m"/></l><r>maleta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>CD<s n="n"/><s n="acr"/><s n="m"/></l><r>CD<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+    <e><p><l>centrar<s n="vblex"/></l><r>centrar<s n="vblex"/></r></p></e>
+    <e><p><l>centrar<s n="vblex"/></l><r>enfocar<s n="vblex"/></r></p></e>
+    <e><p><l>charla<s n="n"/><s n="f"/></l><r>charla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>charla<s n="n"/><s n="f"/></l><r>chat<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>chip<s n="n"/><s n="m"/></l><r>chip<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>chip<s n="n"/><s n="m"/></l><r>trozo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>comodidad<s n="n"/><s n="f"/></l><r>comodidad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>comodidad<s n="n"/><s n="f"/></l><r>consuelo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>conceder<s n="vblex"/></l><r>admitir<s n="vblex"/></r></p></e>
+    <e><p><l>conceder<s n="vblex"/></l><r>conceder<s n="vblex"/></r></p></e>
+    <e><p><l>condicionar<s n="vblex"/></l><r>acondicionar<s n="vblex"/></r></p></e>
+    <e><p><l>condicionar<s n="vblex"/></l><r>condicionar<s n="vblex"/></r></p></e>
+    <e><p><l>conocer<s n="vblex"/></l><r>conocer<s n="vblex"/></r></p></e>
+    <e><p><l>conocer<s n="vblex"/></l><r>cumplir<s n="vblex"/></r></p></e>
+    <e><p><l>conocer<s n="vblex"/></l><r>saber<s n="vblex"/></r></p></e>
+    <e><p><l>conseguir<s n="vblex"/></l><r>alcanzar<s n="vblex"/></r></p></e>
+    <e><p><l>conseguir<s n="vblex"/></l><r>coger<s n="vblex"/></r></p></e>
+    <e><p><l>conseguir<s n="vblex"/></l><r>conseguir<s n="vblex"/></r></p></e>
+    <e><p><l>conseguir<s n="vblex"/></l><r>dirigir<s n="vblex"/></r></p></e>
+    <e><p><l>conseguir<s n="vblex"/></l><r>llegar<s n="vblex"/></r></p></e>
+    <e><p><l>conseguir<s n="vblex"/></l><r>recibir<s n="vblex"/></r></p></e>
+    <e><p><l>consejo<s n="n"/><s n="m"/></l><r>alcaldía<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>consejo<s n="n"/><s n="m"/></l><r>ayuntamiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>consejo<s n="n"/><s n="m"/></l><r>consejo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>consejo<s n="n"/><s n="m"/></l><r>propina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>consejo<s n="n"/><s n="m"/></l><r>punta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>consulta<s n="n"/><s n="f"/></l><r>cirugía<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>consulta<s n="n"/><s n="f"/></l><r>consulta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>consulta<s n="n"/><s n="f"/></l><r>investigación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>contenedor<s n="n"/><s n="m"/></l><r>contenedor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>contenedor<s n="n"/><s n="m"/></l><r>envase<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>convenir<s n="vblex"/></l><r>adaptar<s n="vblex"/></r></p></e>
+    <e><p><l>convenir<s n="vblex"/></l><r>convenir<s n="vblex"/></r></p></e>
+    <e><p><l>correcto<s n="adj"/></l><r>correcto<s n="adj"/></r></p></e>
+    <e><p><l>correcto<s n="adj"/></l><r>derecho<s n="adj"/></r></p></e>
+    <e><p><l>correo<s n="n"/><s n="m"/></l><r>cargo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>correo<s n="n"/><s n="m"/></l><r>correo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>correo<s n="n"/><s n="m"/></l><r>poste<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>correr<s n="vblex"/></l><r>acelerar<s n="vblex"/></r></p></e>
+    <e><p><l>correr<s n="vblex"/></l><r>correr<s n="vblex"/></r></p></e>
+    <e><p><l>correr<s n="vblex"/></l><r>funcionar<s n="vblex"/></r></p></e>
+    <e><p><l>crecer<s n="vblex"/></l><r>crecer<s n="vblex"/></r></p></e>
+    <e><p><l>crecer<s n="vblex"/></l><r>cultivar<s n="vblex"/></r></p></e>
+    <e><p><l>cuadro<s n="n"/><s n="m"/></l><r>cuadro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cuadro<s n="n"/><s n="m"/></l><r>fotografía<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cuando<s n="cnjadv"/></l><r>así<b/>como<s n="cnjadv"/></r></p></e>
+    <e><p><l>cuando<s n="cnjadv"/></l><r>como<s n="cnjadv"/></r></p></e>
+    <e><p><l>cuando<s n="cnjadv"/></l><r>cuando<s n="cnjadv"/></r></p></e>
+    <e><p><l>cuando<s n="cnjadv"/></l><r>mientras<s n="cnjadv"/></r></p></e>
+    <e><p><l>cuando<s n="cnjadv"/></l><r>según<s n="cnjadv"/></r></p></e>
+    <e><p><l>cuenta<s n="n"/><s n="f"/></l><r>cuenta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cuenta<s n="n"/><s n="f"/></l><r>relación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cuerno<s n="n"/><s n="m"/></l><r>bocina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cuerno<s n="n"/><s n="m"/></l><r>cuerno<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>culpa<s n="n"/><s n="f"/></l><r>culpa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>culpa<s n="n"/><s n="f"/></l><r>falta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cultivo<s n="n"/><s n="m"/></l><r>cosecha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cultivo<s n="n"/><s n="m"/></l><r>cultivo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>decadencia<s n="n"/><s n="f"/></l><r>caries<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>decadencia<s n="n"/><s n="f"/></l><r>caries<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e><p><l>decadencia<s n="n"/><s n="f"/></l><r>decadencia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dejar<s n="vblex"/></l><r>dejar<s n="vblex"/></r></p></e>
+    <e><p><l>dejar<s n="vblex"/></l><r>marchar<s n="vblex"/></r></p></e>
+    <e><p><l>dejar<s n="vblex"/></l><r>permitir<s n="vblex"/></r></p></e>
+    <e><p><l>derecho<s n="n"/><s n="m"/></l><r>derecha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>derecho<s n="n"/><s n="m"/></l><r>derecho<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>derecho<s n="n"/><s n="m"/></l><r>ley<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>despertar<s n="vblex"/></l><r>despertar<s n="vblex"/></r></p></e>
+    <e><p><l>despertar<s n="vblex"/></l><r>excitar<s n="vblex"/></r></p></e>
+    <e><p><l>desprecio<s n="n"/><s n="m"/></l><r>desacato<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>desprecio<s n="n"/><s n="m"/></l><r>desprecio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diario<s n="n"/><s n="m"/></l><r>agenda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diario<s n="n"/><s n="m"/></l><r>diario<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diario<s n="n"/><s n="m"/></l><r>periódico<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diario<s n="n"/><s n="m"/></l><r>rotativo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diputado<s n="n"/></l><r>ayudante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>diputado<s n="n"/></l><r>diputado<s n="n"/></r></p></e>
+    <e><p><l>diputado<s n="n"/></l><r>diputado<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>diputado<s n="n"/><s n="GD"/></l><r>ayudante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>diputado<s n="n"/><s n="GD"/></l><r>diputado<s n="n"/></r></p></e>
+    <e><p><l>diputado<s n="n"/><s n="GD"/></l><r>diputado<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>dirigir<s n="vblex"/></l><r>alcanzar<s n="vblex"/></r></p></e>
+    <e><p><l>dirigir<s n="vblex"/></l><r>apuntar<s n="vblex"/></r></p></e>
+    <e><p><l>dirigir<s n="vblex"/></l><r>asomar<s n="vblex"/></r></p></e>
+    <e><p><l>dirigir<s n="vblex"/></l><r>conducir<s n="vblex"/></r></p></e>
+    <e><p><l>dirigir<s n="vblex"/></l><r>conseguir<s n="vblex"/></r></p></e>
+    <e><p><l>dirigir<s n="vblex"/></l><r>direccionar<s n="vblex"/></r></p></e>
+    <e><p><l>dirigir<s n="vblex"/></l><r>dirigir<s n="vblex"/></r></p></e>
+    <e><p><l>discurso<s n="n"/><s n="m"/></l><r>discurso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>discurso<s n="n"/><s n="m"/></l><r>habla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>disfrutar<s n="vblex"/></l><r>disfrutar<s n="vblex"/></r></p></e>
+    <e><p><l>disfrutar<s n="vblex"/></l><r>gustar<s n="vblex"/></r></p></e>
+    <e><p><l>ducha<s n="n"/><s n="f"/></l><r>aguacero<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ducha<s n="n"/><s n="f"/></l><r>ducha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>DVD<s n="n"/><s n="acr"/><s n="m"/></l><r>DVD<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+    <e><p><l>editor<s n="n"/></l><r>editorial<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>editor<s n="n"/></l><r>editor<s n="n"/></r></p></e>
+    <e><p><l>editor<s n="n"/></l><r>editor<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>editor<s n="n"/><s n="GD"/></l><r>editorial<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>editor<s n="n"/><s n="GD"/></l><r>editor<s n="n"/></r></p></e>
+    <e><p><l>editor<s n="n"/><s n="GD"/></l><r>editor<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>emitir<s n="vblex"/></l><r>emitir<s n="vblex"/></r></p></e>
+    <e><p><l>emitir<s n="vblex"/></l><r>publicar<s n="vblex"/></r></p></e>
+    <e><p><l>empujar<s n="vblex"/></l><r>empujar<s n="vblex"/></r></p></e>
+    <e><p><l>empujar<s n="vblex"/></l><r>pulsar<s n="vblex"/></r></p></e>
+    <e><p><l>encantar<s n="vblex"/></l><r>amar<s n="vblex"/></r></p></e>
+    <e><p><l>encantar<s n="vblex"/></l><r>encantar<s n="vblex"/></r></p></e>
+    <e><p><l>encantar<s n="vblex"/></l><r>querer<s n="vblex"/></r></p></e>
+    <e><p><l>encender<s n="vblex"/></l><r>encender<s n="vblex"/></r></p></e>
+    <e><p><l>encender<s n="vblex"/></l><r>iluminar<s n="vblex"/></r></p></e>
+    <e><p><l>encerrar<s n="vblex"/></l><r>adjuntar<s n="vblex"/></r></p></e>
+    <e><p><l>encerrar<s n="vblex"/></l><r>cerrar<s n="vblex"/></r></p></e>
+    <e><p><l>encerrar<s n="vblex"/></l><r>encerrar<s n="vblex"/></r></p></e>
+    <e><p><l>entrenador<s n="n"/></l><r>entrenador<s n="n"/></r></p></e>
+    <e><p><l>entrenador<s n="n"/></l><r>entrenador<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>entrenador<s n="n"/><s n="GD"/></l><r>autocar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>entrenador<s n="n"/><s n="GD"/></l><r>entrenador<s n="n"/></r></p></e>
+    <e><p><l>entrenador<s n="n"/><s n="GD"/></l><r>entrenador<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>equilibrio<s n="n"/><s n="m"/></l><r>balance<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>equilibrio<s n="n"/><s n="m"/></l><r>equilibrio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>equilibrio<s n="n"/><s n="m"/></l><r>saldo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>esbozo<s n="n"/><s n="m"/></l><r>boceto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>esbozo<s n="n"/><s n="m"/></l><r>bosquejo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>esbozo<s n="n"/><s n="m"/></l><r>contorno<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>esbozo<s n="n"/><s n="m"/></l><r>esbozo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>estufa<s n="n"/><s n="f"/></l><r>cocina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>estufa<s n="n"/><s n="f"/></l><r>estufa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>etapa<s n="n"/><s n="f"/></l><r>escenario<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>etapa<s n="n"/><s n="f"/></l><r>etapa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>examen<s n="n"/><s n="m"/></l><r>examen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>examen<s n="n"/><s n="m"/></l><r>inspección<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>examen<s n="n"/><s n="m"/></l><r>interrogatorio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>exponer<s n="vblex"/></l><r>desenmascarar<s n="vblex"/></r></p></e>
+    <e><p><l>exponer<s n="vblex"/></l><r>exponer<s n="vblex"/></r></p></e>
+    <e><p><l>extender<s n="vblex"/></l><r>divulgar<s n="vblex"/></r></p></e>
+    <e><p><l>extender<s n="vblex"/></l><r>extender<s n="vblex"/></r></p></e>
+    <e><p><l>extender<s n="vblex"/></l><r>untar<s n="vblex"/></r></p></e>
+    <e><p><l>ferrocarril<s n="n"/><s n="m"/></l><r>ferrocarril<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ferrocarril<s n="n"/><s n="m"/></l><r>vía<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>figura<s n="n"/><s n="f"/></l><r>cifra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>figura<s n="n"/><s n="f"/></l><r>figura<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fijar<s n="vblex"/></l><r>arreglar<s n="vblex"/></r></p></e>
+    <e><p><l>fijar<s n="vblex"/></l><r>fijar<s n="vblex"/></r></p></e>
+    <e><p><l>fijar<s n="vblex"/></l><r>nombrar<s n="vblex"/></r></p></e>
+    <e><p><l>forma<s n="n"/><s n="f"/></l><r>forma<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>forma<s n="n"/><s n="f"/></l><r>formulario<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>forma<s n="n"/><s n="f"/></l><r>horma<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fracaso<s n="n"/><s n="m"/></l><r>avería<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fracaso<s n="n"/><s n="m"/></l><r>bancarrota<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fracaso<s n="n"/><s n="m"/></l><r>fallo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fracaso<s n="n"/><s n="m"/></l><r>fracaso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fracaso<s n="n"/><s n="m"/></l><r>quiebra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>frase<s n="n"/><s n="f"/></l><r>frase<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>frase<s n="n"/><s n="f"/></l><r>sentencia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>frontera<s n="n"/><s n="f"/></l><r>borde<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>frontera<s n="n"/><s n="f"/></l><r>frontera<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fruto<b/>seco<s n="n"/><s n="m"/></l><r>fruto<b/>seco<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fruto<b/>seco<s n="n"/><s n="m"/></l><r>tuerca<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gabinete<s n="n"/><s n="m"/></l><r>armario<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gabinete<s n="n"/><s n="m"/></l><r>gabinete<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gama<s n="n"/><s n="f"/></l><r>alcance<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gama<s n="n"/><s n="f"/></l><r>gama<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gastar<s n="vblex"/></l><r>gastar<s n="vblex"/></r></p></e>
+    <e><p><l>gastar<s n="vblex"/></l><r>pasar<s n="vblex"/></r></p></e>
+    <e><p><l>golpear<s n="vblex"/></l><r>atacar<s n="vblex"/></r></p></e>
+    <e><p><l>golpear<s n="vblex"/></l><r>golpear<s n="vblex"/></r></p></e>
+    <e><p><l>golpear<s n="vblex"/></l><r>hacer<g><b/>huelga</g><s n="vblex"/></r></p></e>
+    <e><p><l>golpe<s n="n"/><s n="m"/></l><r>ataque<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>golpe<s n="n"/><s n="m"/></l><r>éxito<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>golpe<s n="n"/><s n="m"/></l><r>golpe<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>golpe<s n="n"/><s n="m"/></l><r>impacto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>golpe<s n="n"/><s n="m"/></l><r>trazo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gorra<s n="n"/><s n="f"/></l><r>gorra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gorra<s n="n"/><s n="f"/></l><r>tapón<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>grado<s n="n"/><s n="m"/></l><r>grado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>grado<s n="n"/><s n="m"/></l><r>nota<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>grado<s n="n"/><s n="m"/></l><r>título<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>habilidad<s n="n"/><s n="f"/></l><r>embarcación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>habilidad<s n="n"/><s n="f"/></l><r>habilidad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>habilidad<s n="n"/><s n="f"/></l><r>oficio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hablante<s n="n"/><s n="mf"/></l><r>altavoz<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hablante<s n="n"/><s n="mf"/></l><r>hablante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>hablante<s n="n"/><s n="mf"/></l><r>interlocutor<s n="n"/></r></p></e>
+    <e><p><l>hablante<s n="n"/><s n="mf"/></l><r>ponente<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>hierro<s n="n"/><s n="m"/></l><r>hierro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hierro<s n="n"/><s n="m"/></l><r>plancha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hilo<s n="n"/><s n="m"/></l><r>hilo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hilo<s n="n"/><s n="m"/></l><r>rosca<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>humor<s n="n"/><s n="m"/></l><r>humor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>humor<s n="n"/><s n="m"/></l><r>modo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>incitar<s n="vblex"/></l><r>apuntar<s n="vblex"/></r></p></e>
+    <e><p><l>incitar<s n="vblex"/></l><r>asomar<s n="vblex"/></r></p></e>
+    <e><p><l>incitar<s n="vblex"/></l><r>incitar<s n="vblex"/></r></p></e>
+    <e><p><l>intento<s n="n"/><s n="m"/></l><r>atentado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>intento<s n="n"/><s n="m"/></l><r>intento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>intento<s n="n"/><s n="m"/></l><r>oferta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>intercambio<s n="n"/><s n="m"/></l><r>bolsa<g><b/>de<b/>valores</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>intercambio<s n="n"/><s n="m"/></l><r>cambio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>intercambio<s n="n"/><s n="m"/></l><r>intercambio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>invertir<s n="vblex"/></l><r>invertir<s n="vblex"/></r></p></e>
+    <e><p><l>invertir<s n="vblex"/></l><r>revocar<s n="vblex"/></r></p></e>
+    <e><p><l>jugador<s n="n"/></l><r>intérprete<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>jugador<s n="n"/></l><r>jugador<s n="n"/></r></p></e>
+    <e><p><l>jugador<s n="n"/></l><r>jugador<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>jugador<s n="n"/><s n="GD"/></l><r>intérprete<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>jugador<s n="n"/><s n="GD"/></l><r>jugador<s n="n"/></r></p></e>
+    <e><p><l>jugador<s n="n"/><s n="GD"/></l><r>jugador<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>jugar<s n="vblex"/></l><r>interpretar<s n="vblex"/></r></p></e>
+    <e><p><l>jugar<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
+    <e><p><l>jugar<s n="vblex"/></l><r>reproducir<s n="vblex"/></r></p></e>
+    <e><p><l>jugar<s n="vblex"/></l><r>tocar<s n="vblex"/></r></p></e>
+    <e><p><l>juicio<s n="n"/><s n="m"/></l><r>juicio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>juicio<s n="n"/><s n="m"/></l><r>prueba<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>juicio<s n="n"/><s n="m"/></l><r>sentencia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>junta<s n="n"/><s n="f"/></l><r>articulación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>junta<s n="n"/><s n="f"/></l><r>junta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>junta<s n="n"/><s n="f"/></l><r>tablero<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>justo<s n="adv"/></l><r>exactamente<s n="adv"/></r></p></e>
+    <e><p><l>justo<s n="adv"/></l><r>justo<s n="adv"/></r></p></e>
+    <e><p><l>justo<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
+    <e><p><l>lanzamiento<s n="n"/><s n="m"/></l><r>lancha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lanzamiento<s n="n"/><s n="m"/></l><r>lanzamiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lata<s n="n"/><s n="f"/></l><r>estaño<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lata<s n="n"/><s n="f"/></l><r>lata<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>latino<s n="n"/></l><r>latino<s n="n"/></r></p></e>
+    <e><p><l>latino<s n="n"/></l><r>latino<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>latino<s n="n"/></l><r>latín<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>latino<s n="n"/><s n="GD"/></l><r>latino<s n="n"/></r></p></e>
+    <e><p><l>latino<s n="n"/><s n="GD"/></l><r>latino<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>latino<s n="n"/><s n="GD"/></l><r>latín<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lazo<s n="n"/><s n="m"/></l><r>corbata<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lazo<s n="n"/><s n="m"/></l><r>empate<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lazo<s n="n"/><s n="m"/></l><r>lazo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lazo<s n="n"/><s n="m"/></l><r>vínculo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>letra<s n="n"/><s n="f"/></l><r>carta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>letra<s n="n"/><s n="f"/></l><r>letra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>letra<s n="n"/><s n="f"/><s n="pl"/></l><r>letra<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>letra<s n="n"/><s n="f"/><s n="pl"/></l><r>lírica<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>levantar<s n="vblex"/></l><r>aumentar<s n="vblex"/></r></p></e>
+    <e><p><l>levantar<s n="vblex"/></l><r>criar<s n="vblex"/></r></p></e>
+    <e><p><l>levantar<s n="vblex"/></l><r>levantar<s n="vblex"/></r></p></e>
+    <e><p><l>liberar<s n="vblex"/></l><r>descargar<s n="vblex"/></r></p></e>
+    <e><p><l>liberar<s n="vblex"/></l><r>liberar<s n="vblex"/></r></p></e>
+    <e><p><l>liberar<s n="vblex"/></l><r>soltar<s n="vblex"/></r></p></e>
+    <e><p><l>limitar<s n="vblex"/></l><r>colindar<s n="vblex"/></r></p></e>
+    <e><p><l>limitar<s n="vblex"/></l><r>confinar<s n="vblex"/></r></p></e>
+    <e><p><l>limitar<s n="vblex"/></l><r>limitar<s n="vblex"/></r></p></e>
+    <e><p><l>llave<s n="n"/><s n="f"/></l><r>clave<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>llave<s n="n"/><s n="f"/></l><r>llave<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>llave<s n="n"/><s n="f"/></l><r>tecla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>llave<s n="n"/><s n="f"/></l><r>tono<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>llorar<s n="vblex"/></l><r>gritar<s n="vblex"/></r></p></e>
+    <e><p><l>llorar<s n="vblex"/></l><r>llorar<s n="vblex"/></r></p></e>
+    <e><p><l>maltratar<s n="vblex"/></l><r>insultar<s n="vblex"/></r></p></e>
+    <e><p><l>maltratar<s n="vblex"/></l><r>maltratar<s n="vblex"/></r></p></e>
+    <e><p><l>mantener<s n="vblex"/></l><r>continuar<s n="vblex"/></r></p></e>
+    <e><p><l>mantener<s n="vblex"/></l><r>mantener<s n="vblex"/></r></p></e>
+    <e><p><l>mantener<s n="vblex"/></l><r>seguir<s n="vblex"/></r></p></e>
+    <e><p><l>marcar<s n="vblex"/></l><r>manchar<s n="vblex"/></r></p></e>
+    <e><p><l>marcar<s n="vblex"/></l><r>marcar<s n="vblex"/></r></p></e>
+    <e><p><l>marcar<s n="vblex"/></l><r>puntuar<s n="vblex"/></r></p></e>
+    <e><p><l>marcha<s n="n"/><s n="f"/></l><r>andadura<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>marcha<s n="n"/><s n="f"/></l><r>curso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marcha<s n="n"/><s n="f"/></l><r>engranaje<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marcha<s n="n"/><s n="f"/></l><r>equipo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marcha<s n="n"/><s n="f"/></l><r>marcha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>marcha<s n="n"/><s n="f"/></l><r>salida<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>marco<s n="n"/><s n="m"/></l><r>bastidor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marco<s n="n"/><s n="m"/></l><r>estructura<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>marco<s n="n"/><s n="m"/></l><r>marco<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mesa<s n="n"/><s n="f"/></l><r>mesa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mesa<s n="n"/><s n="f"/></l><r>tabla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mirada<s n="n"/><s n="f"/></l><r>aspecto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mirada<s n="n"/><s n="f"/></l><r>mirada<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mirada<s n="n"/><s n="f"/></l><r>viso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mirar<s n="vblex"/></l><r>mirar<s n="vblex"/></r></p></e>
+    <e><p><l>mirar<s n="vblex"/></l><r>parecer<s n="vblex"/></r></p></e>
+    <e><p><l>mirar<s n="vblex"/></l><r>vigilar<s n="vblex"/></r></p></e>
+    <e><p><l>monte<s n="n"/><s n="m"/></l><r>montaña<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>monte<s n="n"/><s n="m"/></l><r>monte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>monte<s n="n"/><s n="m"/></l><r>montura<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>movimiento<s n="n"/><s n="m"/></l><r>moción<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>movimiento<s n="n"/><s n="m"/></l><r>movimiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nombrar<s n="vblex"/></l><r>fijar<s n="vblex"/></r></p></e>
+    <e><p><l>nombrar<s n="vblex"/></l><r>nombrar<s n="vblex"/></r></p></e>
+    <e><p><l>nota<s n="n"/><s n="f"/></l><r>billete<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nota<s n="n"/><s n="f"/></l><r>grado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nota<s n="n"/><s n="f"/></l><r>nota<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>objetivo<s n="n"/><s n="m"/></l><r>blanco<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>objetivo<s n="n"/><s n="m"/></l><r>diana<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>objetivo<s n="n"/><s n="m"/></l><r>gol<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>objetivo<s n="n"/><s n="m"/></l><r>objetivo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>objetivo<s n="n"/><s n="m"/></l><r>portería<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obra<s n="n"/><s n="f"/></l><r>curro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>obra<s n="n"/><s n="f"/></l><r>drama<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>obra<s n="n"/><s n="f"/></l><r>faena<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obra<s n="n"/><s n="f"/></l><r>obra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obra<s n="n"/><s n="f"/></l><r>teatro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>obra<s n="n"/><s n="f"/></l><r>trabajo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ofensa<s n="n"/><s n="f"/></l><r>delito<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ofensa<s n="n"/><s n="f"/></l><r>ofensa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oferta<s n="n"/><s n="f"/></l><r>intento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oferta<s n="n"/><s n="f"/></l><r>oferta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ola<s n="n"/><s n="f"/></l><r>ola<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ola<s n="n"/><s n="f"/></l><r>onda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>olor<s n="n"/><s n="m"/></l><r>olfato<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>olor<s n="n"/><s n="m"/></l><r>olor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>operar<s n="vblex"/></l><r>funcionar<s n="vblex"/></r></p></e>
+    <e><p><l>operar<s n="vblex"/></l><r>manejar<s n="vblex"/></r></p></e>
+    <e><p><l>operar<s n="vblex"/></l><r>operar<s n="vblex"/></r></p></e>
+    <e><p><l>orden<s n="n"/><s n="f"/></l><r>dominio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>orden<s n="n"/><s n="f"/></l><r>orden<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>orden<s n="n"/><s n="f"/></l><r>orden<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>orden<s n="n"/><s n="m"/></l><r>orden<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>orden<s n="n"/><s n="m"/></l><r>orden<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>orilla<s n="n"/><s n="f"/></l><r>banco<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>orilla<s n="n"/><s n="f"/></l><r>orilla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>osar<s n="vblex"/></l><r>desafiar<s n="vblex"/></r></p></e>
+    <e><p><l>osar<s n="vblex"/></l><r>osar<s n="vblex"/></r></p></e>
+    <e><p><l>papel<s n="n"/><s n="m"/></l><r>artículo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>papel<s n="n"/><s n="m"/></l><r>papel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paquete<s n="n"/><s n="m"/></l><r>cajetilla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>paquete<s n="n"/><s n="m"/></l><r>envase<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paquete<s n="n"/><s n="m"/></l><r>paquete<b/>lingüístico<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paquete<s n="n"/><s n="m"/></l><r>paquete<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>para<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+    <e><p><l>para<s n="pr"/></l><r>en<b/>cuanto<b/>a<s n="pr"/></r></p></e>
+    <e><p><l>para<s n="pr"/></l><r>excepto<s n="pr"/></r></p></e>
+    <e><p><l>para<s n="pr"/></l><r>para<s n="pr"/></r></p></e>
+    <e><p><l>parcela<s n="n"/><s n="f"/></l><r>complot<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>parcela<s n="n"/><s n="f"/></l><r>parcela<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>parcela<s n="n"/><s n="f"/></l><r>trama<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>par<s n="n"/><s n="m"/></l><r>matrimonio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>par<s n="n"/><s n="m"/></l><r>pareja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>par<s n="n"/><s n="m"/></l><r>par<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>partido<s n="n"/><s n="m"/></l><r>fiesta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>partido<s n="n"/><s n="m"/></l><r>parte<b/>contratante<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>partido<s n="n"/><s n="m"/></l><r>partido<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paseo<s n="n"/><s n="m"/></l><r>paseo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paseo<s n="n"/><s n="m"/></l><r>tracción<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>paso<s n="n"/><s n="m"/></l><r>muerte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>paso<s n="n"/><s n="m"/></l><r>pasaje<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paso<s n="n"/><s n="m"/></l><r>paso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paso<s n="n"/><s n="m"/></l><r>peldaño<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pegar<s n="vblex"/></l><r>acertar<s n="vblex"/></r></p></e>
+    <e><p><l>pegar<s n="vblex"/></l><r>pegar<s n="vblex"/></r></p></e>
+    <e><p><l>pendiente<s n="n"/><s n="f"/></l><r>cuesta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pendiente<s n="n"/><s n="f"/></l><r>ladera<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pendiente<s n="n"/><s n="f"/></l><r>pendiente<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pendiente<s n="n"/><s n="f"/></l><r>vertiente<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pendiente<s n="n"/><s n="m"/></l><r>pendiente<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pez<s n="n"/><s n="m"/></l><r>pescado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pez<s n="n"/><s n="m"/></l><r>pez<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>piedra<s n="n"/><s n="f"/></l><r>hueso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>piedra<s n="n"/><s n="f"/></l><r>piedra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pierna<s n="n"/><s n="f"/></l><r>pata<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pierna<s n="n"/><s n="f"/></l><r>pierna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pieza<s n="n"/><s n="f"/></l><r>pedazo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pieza<s n="n"/><s n="f"/></l><r>pieza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pieza<s n="n"/><s n="f"/></l><r>prenda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pieza<s n="n"/><s n="f"/></l><r>trozo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pimienta<s n="n"/><s n="f"/></l><r>pimienta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pimienta<s n="n"/><s n="f"/></l><r>pimiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>piscina<s n="n"/><s n="f"/></l><r>grupo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>piscina<s n="n"/><s n="f"/></l><r>piscina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plato<s n="n"/><s n="m"/></l><r>lámina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plato<s n="n"/><s n="m"/></l><r>placa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plato<s n="n"/><s n="m"/></l><r>plato<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plazo<s n="n"/><s n="m"/></l><r>plazo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plazo<s n="n"/><s n="m"/></l><r>término<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>poder<s n="n"/><s n="m"/></l><r>energía<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>poder<s n="n"/><s n="m"/></l><r>poderío<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>poder<s n="n"/><s n="m"/></l><r>poder<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>polaco<s n="n"/></l><r>polaco<s n="n"/></r></p></e>
+    <e><p><l>polaco<s n="n"/><s n="GD"/></l><r>polaco<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>polo<s n="n"/><s n="m"/></l><r>polo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>polo<s n="n"/><s n="m"/></l><r>poste<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>posar<s n="vblex"/></l><r>plantear<s n="vblex"/></r></p></e>
+    <e><p><l>posar<s n="vblex"/></l><r>poner<s n="vblex"/></r></p></e>
+    <e><p><l>posar<s n="vblex"/></l><r>posar<s n="vblex"/></r></p></e>
+    <e><p><l>posibilidad<s n="n"/><s n="f"/></l><r>casualidad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>posibilidad<s n="n"/><s n="f"/></l><r>posibilidad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>preguntar<s n="vblex"/></l><r>pedir<s n="vblex"/></r></p></e>
+    <e><p><l>preguntar<s n="vblex"/></l><r>preguntar<s n="vblex"/></r></p></e>
+    <e><p><l>preocuparse<s n="vblex"/><s n="pron"/></l><r>concernir<s n="vblex"/></r></p></e>
+    <e><p><l>preocuparse<s n="vblex"/><s n="pron"/></l><r>preocuparse<s n="vblex"/><s n="pron"/></r></p></e>
+    <e><p><l>presentar<s n="vblex"/></l><r>constar<s n="vblex"/></r></p></e>
+    <e><p><l>presentar<s n="vblex"/></l><r>introducir<s n="vblex"/></r></p></e>
+    <e><p><l>presentar<s n="vblex"/></l><r>presentar<s n="vblex"/></r></p></e>
+    <e><p><l>primavera<s n="n"/><s n="f"/></l><r>fuente<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>primavera<s n="n"/><s n="f"/></l><r>muelle<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>primavera<s n="n"/><s n="f"/></l><r>primavera<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>programa<s n="n"/><s n="m"/></l><r>horario<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>programa<s n="n"/><s n="m"/></l><r>programa<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>proyectar<s n="vblex"/></l><r>proyectar<s n="vblex"/></r></p></e>
+    <e><p><l>proyectar<s n="vblex"/></l><r>sobresalir<s n="vblex"/></r></p></e>
+    <e><p><l>prueba<s n="n"/><s n="f"/></l><r>exposición<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prueba<s n="n"/><s n="f"/></l><r>juicio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prueba<s n="n"/><s n="f"/></l><r>prueba<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prueba<s n="n"/><s n="f"/></l><r>test<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rama<s n="n"/><s n="f"/></l><r>rama<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rama<s n="n"/><s n="f"/></l><r>sucursal<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ramo<s n="n"/><s n="m"/></l><r>puñado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ramo<s n="n"/><s n="m"/></l><r>ramo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rango<s n="n"/><s n="m"/></l><r>fila<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rango<s n="n"/><s n="m"/></l><r>rango<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rechazar<s n="vblex"/></l><r>descartar<s n="vblex"/></r></p></e>
+    <e><p><l>rechazar<s n="vblex"/></l><r>desechar<s n="vblex"/></r></p></e>
+    <e><p><l>rechazar<s n="vblex"/></l><r>despachar<s n="vblex"/></r></p></e>
+    <e><p><l>rechazar<s n="vblex"/></l><r>rechazar<s n="vblex"/></r></p></e>
+    <e><p><l>recibo<s n="n"/><s n="m"/></l><r>recepción<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>recibo<s n="n"/><s n="m"/></l><r>recibo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>recoger<s n="vblex"/></l><r>coleccionar<s n="vblex"/></r></p></e>
+    <e><p><l>recoger<s n="vblex"/></l><r>elegir<s n="vblex"/></r></p></e>
+    <e><p><l>recoger<s n="vblex"/></l><r>recabar<s n="vblex"/></r></p></e>
+    <e><p><l>recoger<s n="vblex"/></l><r>recaudar<s n="vblex"/></r></p></e>
+    <e><p><l>recoger<s n="vblex"/></l><r>recoger<s n="vblex"/></r></p></e>
+    <e><p><l>recordar<s n="vblex"/></l><r>acordar<s n="vblex"/></r></p></e>
+    <e><p><l>recordar<s n="vblex"/></l><r>recordar<s n="vblex"/></r></p></e>
+    <e><p><l>recordar<s n="vblex"/></l><r>retirar<s n="vblex"/></r></p></e>
+    <e><p><l>redactar<s n="vblex"/></l><r>reclutar<s n="vblex"/></r></p></e>
+    <e><p><l>redactar<s n="vblex"/></l><r>redactar<s n="vblex"/></r></p></e>
+    <e><p><l>registro<s n="n"/><s n="m"/></l><r>grabación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>registro<s n="n"/><s n="m"/></l><r>récord<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>registro<s n="n"/><s n="m"/></l><r>registro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>regresar<s n="vblex"/></l><r>devolver<s n="vblex"/></r></p></e>
+    <e><p><l>regresar<s n="vblex"/></l><r>regresar<s n="vblex"/></r></p></e>
+    <e><p><l>regresar<s n="vblex"/></l><r>retornar<s n="vblex"/></r></p></e>
+    <e><p><l>rendimiento<s n="n"/><s n="m"/></l><r>actuación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rendimiento<s n="n"/><s n="m"/></l><r>interpretación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rendimiento<s n="n"/><s n="m"/></l><r>rendimiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>reparto<s n="n"/><s n="m"/></l><r>disposición<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>reparto<s n="n"/><s n="m"/></l><r>distribución<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>reparto<s n="n"/><s n="m"/></l><r>molde<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>reparto<s n="n"/><s n="m"/></l><r>reparto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>repetir<s n="vblex"/></l><r>repetir<s n="vblex"/></r></p></e>
+    <e><p><l>repetir<s n="vblex"/></l><r>resonar<s n="vblex"/></r></p></e>
+    <e><p><l>respaldar<s n="vblex"/></l><r>recular<s n="vblex"/></r></p></e>
+    <e><p><l>respaldar<s n="vblex"/></l><r>respaldar<s n="vblex"/></r></p></e>
+    <e><p><l>resto<s n="n"/><s n="m"/></l><r>descanso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>resto<s n="n"/><s n="m"/></l><r>resto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>revisar<s n="vblex"/></l><r>reseñar<s n="vblex"/></r></p></e>
+    <e><p><l>revisar<s n="vblex"/></l><r>revisar<s n="vblex"/></r></p></e>
+    <e><p><l>roca<s n="n"/><s n="f"/><s n="sg"/></l><r>roca<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>roca<s n="n"/><s n="f"/><s n="sg"/></l><r>rock<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>rock<s n="n"/><s n="m"/><s n="sg"/></l><r>roca<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>rock<s n="n"/><s n="m"/><s n="sg"/></l><r>rock<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>ronda<s n="n"/><s n="f"/></l><r>asalto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ronda<s n="n"/><s n="f"/></l><r>ronda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rueda<s n="n"/><s n="f"/></l><r>rueda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rueda<s n="n"/><s n="f"/></l><r>volante<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>saber<s n="vblex"/></l><r>conocer<s n="vblex"/></r></p></e>
+    <e><p><l>saber<s n="vblex"/></l><r>saber<s n="vblex"/></r></p></e>
+    <e><p><l>salvar<s n="vblex"/></l><r>ahorrar<s n="vblex"/></r></p></e>
+    <e><p><l>salvar<s n="vblex"/></l><r>guardar<s n="vblex"/></r></p></e>
+    <e><p><l>salvar<s n="vblex"/></l><r>salvar<s n="vblex"/></r></p></e>
+    <e><p><l>seguidor<s n="n"/></l><r>seguidor<s n="n"/></r></p></e>
+    <e><p><l>seguidor<s n="n"/></l><r>seguidor<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>seguidor<s n="n"/><s n="GD"/></l><r>abanico<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>seguidor<s n="n"/><s n="GD"/></l><r>seguidor<s n="n"/></r></p></e>
+    <e><p><l>seguidor<s n="n"/><s n="GD"/></l><r>seguidor<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>seguidor<s n="n"/><s n="GD"/></l><r>ventilador<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sello<s n="n"/><s n="m"/></l><r>foca<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sello<s n="n"/><s n="m"/></l><r>sello<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sentimiento<s n="n"/><s n="m"/></l><r>sensación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sentimiento<s n="n"/><s n="m"/></l><r>sentimiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>silla<s n="n"/><s n="f"/></l><r>cátedra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>silla<s n="n"/><s n="f"/></l><r>presidencia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>silla<s n="n"/><s n="f"/></l><r>silla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sitio<s n="n"/><s n="m"/></l><r>grano<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sitio<s n="n"/><s n="m"/></l><r>lugar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sitio<s n="n"/><s n="m"/></l><r>mancha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sitio<s n="n"/><s n="m"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sitio<s n="n"/><s n="m"/></l><r>sitio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>a<b/>eso<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>acerca<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+    <e><p><l>suela<s n="n"/><s n="f"/></l><r>lenguado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>suela<s n="n"/><s n="f"/></l><r>suela<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sujetar<s n="vblex"/></l><r>adjuntar<s n="vblex"/></r></p></e>
+    <e><p><l>sujetar<s n="vblex"/></l><r>sujetar<s n="vblex"/></r></p></e>
+    <e><p><l>suponer<s n="vblex"/></l><r>asumir<s n="vblex"/></r></p></e>
+    <e><p><l>suponer<s n="vblex"/></l><r>suponer<s n="vblex"/></r></p></e>
+    <e><p><l>tablero<s n="n"/><s n="m"/></l><r>junta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tablero<s n="n"/><s n="m"/></l><r>panel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tablero<s n="n"/><s n="m"/></l><r>tablero<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tachar<s n="vblex"/></l><r>forrar<s n="vblex"/></r></p></e>
+    <e><p><l>tachar<s n="vblex"/></l><r>tachar<s n="vblex"/></r></p></e>
+    <e><p><l>tambor<s n="n"/><s n="m"/></l><r>bidón<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tambor<s n="n"/><s n="m"/></l><r>tambor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tanque<s n="n"/><s n="m"/></l><r>depósito<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tanque<s n="n"/><s n="m"/></l><r>tanque<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tarjeta<s n="n"/><s n="f"/></l><r>carta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tarjeta<s n="n"/><s n="f"/></l><r>tarjeta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tarro<s n="n"/><s n="m"/></l><r>maceta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tarro<s n="n"/><s n="m"/></l><r>olla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tarro<s n="n"/><s n="m"/></l><r>puchero<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tarro<s n="n"/><s n="m"/></l><r>tarro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>taza<s n="n"/><s n="f"/></l><r>copa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>taza<s n="n"/><s n="f"/></l><r>taza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>telaraña<s n="n"/><s n="f"/></l><r>telaraña<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>telaraña<s n="n"/><s n="f"/></l><r>web<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tela<s n="n"/><s n="f"/></l><r>paño<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tela<s n="n"/><s n="f"/></l><r>ropa<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>tela<s n="n"/><s n="f"/></l><r>tela<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tela<s n="n"/><s n="f"/></l><r>trapo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tomar<s n="vblex"/></l><r>asir<s n="vblex"/></r></p></e>
+    <e><p><l>tomar<s n="vblex"/></l><r>coger<s n="vblex"/></r></p></e>
+    <e><p><l>tomar<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
+    <e><p><l>tomar<s n="vblex"/></l><r>llevar<s n="vblex"/></r></p></e>
+    <e><p><l>tomar<s n="vblex"/></l><r>tomar<s n="vblex"/></r></p></e>
+    <e><p><l>tostada<s n="n"/><s n="f"/></l><r>brindis<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tostada<s n="n"/><s n="f"/></l><r>brindis<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e><p><l>tostada<s n="n"/><s n="f"/></l><r>tostada<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trabajar<s n="vblex"/></l><r>funcionar<s n="vblex"/></r></p></e>
+    <e><p><l>trabajar<s n="vblex"/></l><r>trabajar<s n="vblex"/></r></p></e>
+    <e><p><l>traje<s n="n"/><s n="m"/></l><r>disfraz<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>traje<s n="n"/><s n="m"/></l><r>pleito<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>traje<s n="n"/><s n="m"/></l><r>traje<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>transferencia<s n="n"/><s n="f"/></l><r>transbordo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>transferencia<s n="n"/><s n="f"/></l><r>transferencia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>transferencia<s n="n"/><s n="f"/></l><r>trasferencia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>transferencia<s n="n"/><s n="f"/></l><r>traslado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tribunal<s n="n"/><s n="m"/></l><r>audiencia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tribunal<s n="n"/><s n="m"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tribunal<s n="n"/><s n="m"/></l><r>juzgado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tribunal<s n="n"/><s n="m"/></l><r>tribunal<b/>supremo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tribunal<s n="n"/><s n="m"/></l><r>tribunal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>trimestre<s n="n"/><s n="m"/></l><r>barrio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>trimestre<s n="n"/><s n="m"/></l><r>trimestre<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>trozo<s n="n"/><s n="m"/></l><r>chip<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>trozo<s n="n"/><s n="m"/></l><r>loncha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trozo<s n="n"/><s n="m"/></l><r>pedazo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>trozo<s n="n"/><s n="m"/></l><r>pieza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trozo<s n="n"/><s n="m"/></l><r>prenda<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trozo<s n="n"/><s n="m"/></l><r>rebanada<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trozo<s n="n"/><s n="m"/></l><r>rodaja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trozo<s n="n"/><s n="m"/></l><r>trozo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tubo<s n="n"/><s n="m"/></l><r>cañería<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tubo<s n="n"/><s n="m"/></l><r>conducto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tubo<s n="n"/><s n="m"/></l><r>encañado<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tubo<s n="n"/><s n="m"/></l><r>metro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tubo<s n="n"/><s n="m"/></l><r>pipa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tubo<s n="n"/><s n="m"/></l><r>tubería<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tubo<s n="n"/><s n="m"/></l><r>tubo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vaso<s n="n"/><s n="m"/></l><r>copa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vaso<s n="n"/><s n="m"/></l><r>cristal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vaso<s n="n"/><s n="m"/></l><r>vaso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vaso<s n="n"/><s n="m"/></l><r>vidrio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vela<s n="n"/><s n="f"/></l><r>aspa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vela<s n="n"/><s n="f"/></l><r>vela<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>voluntad<s n="n"/><s n="f"/></l><r>testamento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>voluntad<s n="n"/><s n="f"/></l><r>voluntad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vuelta<s n="n"/><s n="f"/></l><r>regreso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vuelta<s n="n"/><s n="f"/></l><r>retorno<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vuelta<s n="n"/><s n="f"/></l><r>turno<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vuelta<s n="n"/><s n="f"/></l><r>vuelta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>web<s n="n"/><s n="f"/></l><r>telaraña<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>web<s n="n"/><s n="f"/></l><r>web<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zumo<s n="n"/><s n="m"/></l><r>jugo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>zumo<s n="n"/><s n="m"/></l><r>zumo<s n="n"/><s n="m"/></r></p></e>
+  </section>
+</dictionary>

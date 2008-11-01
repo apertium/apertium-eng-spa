@@ -231,7 +231,26 @@
       </e>
     </pardef>
 
-
+    <pardef n="ouml">
+      <p>
+        <l>ö</l>
+        <r>ö</r>
+      </p>
+      <p r="LR">
+        <l>oe</l>
+        <r>ö</r>
+      </p>
+    </pardef>
+    <pardef n="uuml">
+      <p>
+        <l>ü</l>
+        <r>ü</r>
+      </p>
+      <p r="LR">
+        <l>ue</l>
+        <r>ü</r>
+      </p>
+    </pardef>
 
 
 
@@ -95191,7 +95210,11 @@
       <par n="Jaime__np"/> 
     </e>
     <e lm="Jürgen Trumpf">
-      <i>Jürgen<b/>Trumpf</i> 
+      <i>J</i><par n="uuml"/><i>rgen<b/>Trumpf</i> 
+      <par n="Jaime__np"/> 
+    </e>
+    <e lm="Jürgen">
+      <i>J</i><par n="uuml"/><i>rgen</i> 
       <par n="Jaime__np"/> 
     </e>
     <e lm="Th. C. Hijzen">
@@ -95247,8 +95270,12 @@
       <par n="Jaime__np"/> 
     </e>
     <e lm="Tönis">
-      <i>Tönis</i> 
+      <i>T</i><par n="ouml"/><i>nis</i> 
       <par n="Jaime__np"/> 
+    </e>
+    <e lm="Pöttering">
+      <i>P</i><par n="ouml"/><i>ttering</i> 
+      <par n="García__np"/> 
     </e>
     <e lm="Tomá">
       <i>Tomá</i> 
@@ -95263,7 +95290,7 @@
       <par n="Jaime__np"/> 
     </e>
     <e lm="Günter">
-      <i>Günter</i> 
+      <i>G</i><par n="uuml"/><i>nter</i> 
       <par n="Jaime__np"/> 
     </e>
     <e lm="Riccardo">
@@ -95500,7 +95527,7 @@
       <par n="García__np"/>
     </e>
     <e>
-      <i>Dörler</i>
+      <i>D</i><par n="ouml"/><i>rler</i>
       <par n="García__np"/>
     </e>
     <e>

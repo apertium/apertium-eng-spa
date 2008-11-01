@@ -225,6 +225,60 @@
       </p>
     </pardef>
 
+    <!-- dialects -->
+    <pardef n="o_ou">
+      <p c="en_GB, en_CA, en_ZA, en_IE">
+        <l>ou</l>
+        <r>ou</r>
+      </p>
+      <p r="LR" c="en_US">
+        <l>o</l>
+        <r>ou</r>
+      </p>
+    </pardef>
+    <pardef n="z_s">
+      <p c="en_GB, en_ZA, en_IE">
+        <l>s</l>
+        <r>s</r>
+      </p>
+      <p r="LR" c="en_US, en_CA">
+        <l>z</l>
+        <r>s</r>
+      </p>
+    </pardef>
+    <pardef n="e_ae">
+      <p c="en_GB, en_ZA, en_IE, en_CA">
+        <l>ae</l>
+        <r>ae</r>
+      </p>
+      <p r="LR" c="en_US">
+        <l>e</l>
+        <r>ae</r>
+      </p>
+    </pardef>
+    <pardef n="e_oe">
+      <p c="en_GB, en_ZA, en_IE, en_CA">
+        <l>oe</l>
+        <r>oe</r>
+      </p>
+      <p r="LR" c="en_US">
+        <l>e</l>
+        <r>oe</r>
+      </p>
+    </pardef>
+    <pardef n="organi/ze__vblex">
+      <p c="en_GB, en_ZA, en_IE">
+        <l>s</l>
+        <r>s</r>
+      </p>
+	  <par n="live/e__vblex">
+      <p r="LR" c="en_US, en_CA">
+        <l>z</l>
+        <r>s</r>
+      </p>
+	  <par n="live/e__vblex">
+    </pardef>
+	
    <pardef n="ordinals">
     
       <e>
@@ -34123,12 +34177,12 @@
       <i>anecdote</i>
       <par n="house__n"/>
     </e>
-    <e lm="anemia">
-      <i>anemia</i>
+    <e lm="anaemia">
+      <i>an</i><par n="e_ae"/><i>mia</i>
       <par n="house__n"/>
     </e>
-    <e lm="anesthesia">
-      <i>anesthesia</i>
+    <e lm="anaesthesia">
+      <i>an</i><par n="e_ae"/><i>sthesia</i>
       <par n="house__n"/>
     </e>
     <e lm="angel">
@@ -40876,8 +40930,8 @@
       <i>fetter</i>
       <par n="house__n"/>
     </e>
-    <e lm="fetus">
-      <i>fetus</i>
+    <e lm="foetus">
+      <i>f</i><par n="e_oe"/><i>tus</i>
       <par n="access__n"/>
     </e>
     <e lm="fever">
@@ -42392,12 +42446,8 @@
       <i>honey</i>
       <par n="house__n"/>
     </e>
-    <e lm="honor">
-      <i>honor</i>
-      <par n="house__n"/>
-    </e>
     <e lm="honour">
-      <i>honour</i>
+      <i>hon</i><par n="o_ou"/><i>r</i>
       <par n="house__n"/>
     </e>
     <e lm="hook">
@@ -46322,12 +46372,12 @@
       <i>organist</i>
       <par n="house__n"/>
     </e>
-    <e lm="organization">
-      <i>organization</i>
+    <e lm="organisation">
+      <i>organi</i><par n="z_s"/></i>ation</i>
       <par n="house__n"/>
     </e>
-    <e lm="organizer">
-      <i>organizer</i>
+    <e lm="organiser">
+      <i>organi</i><par n="z_s"/></i>er</i>
       <par n="house__n"/>
     </e>
     <e lm="orgasm">
@@ -49001,8 +49051,8 @@
       <i>reopening</i>
       <par n="house__n"/>
     </e>
-    <e lm="reorganization">
-      <i>reorganization</i>
+    <e lm="reorganisation">
+      <i>reorgani</i><par n="z_s"/></i>ation</i>
       <par n="house__n"/>
     </e>
     <e lm="repair">
@@ -56891,8 +56941,8 @@
       <i>fatal</i>
       <par n="expensive__adj"/>
     </e>
-    <e lm="organizational">
-      <i>organizational</i>
+    <e lm="organisational">
+      <i>organi</i><par n="z_s"/></i>ational</i>
       <par n="expensive__adj"/>
     </e>
     <e lm="fateful">
@@ -62145,8 +62195,8 @@
       <par n="accept__vblex"/>
     </e>
     <e lm="amortize">
-      <i>amortiz</i>
-      <par n="liv/e__vblex"/>
+      <i>amorti</i>
+      <par n="organi/ze__vblex"/>
     </e>
     <e lm="amplify">
       <i>amplif</i>
@@ -62156,17 +62206,27 @@
       <i>amus</i>
       <par n="liv/e__vblex"/>
     </e>
-    <e lm="anaesthetize">
-      <i>anaesthetiz</i>
+    <e lm="anaesthetise" c="en_GB, en_IE">
+      <i>anaesthetis</i>
+      <par n="liv/e__vblex"/>
+    </e>
+    <e lm="anaesthetise" c="en_CA">
+      <p>
+	    <l>anaesthetiz</l>
+		<r>anaesthetis</r>
+	  <p>
+      <par n="liv/e__vblex"/>
+    </e>
+    <e lm="anaesthetise" c="en_US">
+      <p>
+	    <l>anesthetiz</l>
+		<r>anaesthetis</r>
+	  <p>
       <par n="liv/e__vblex"/>
     </e>
     <e lm="analyse">
       <i>analys</i>
-      <par n="liv/e__vblex"/>
-    </e>
-    <e lm="analyze" a="doriua">
-      <i>analyz</i>
-      <par n="liv/e__vblex"/>
+      <par n="organi/ze__vblex"/>
     </e>
     <e lm="anchor">
       <i>anchor</i>
@@ -65797,8 +65857,8 @@
       <par n="accept__vblex"/>
     </e>
     <e lm="optimize">
-      <i>optimiz</i>
-      <par n="liv/e__vblex"/>
+      <i>optimi</i>
+      <par n="organi/ze__vblex"/>
     </e>
     <e lm="orbit">
       <i>orbit</i>
@@ -65808,13 +65868,9 @@
       <i>order</i>
       <par n="accept__vblex"/>
     </e>
-    <e lm="organise">
-      <i>organis</i>
-      <par n="liv/e__vblex"/>
-    </e>
     <e lm="organize">
-      <i>organiz</i>
-      <par n="liv/e__vblex"/>
+      <i>organi</i>
+      <par n="organi/ze__vblex"/>
     </e>
     <e lm="originate">
       <i>originat</i>
@@ -66023,8 +66079,8 @@
       <par n="accept__vblex"/>
     </e>
     <e lm="polarize">
-      <i>polariz</i>
-      <par n="liv/e__vblex"/>
+      <i>polari</i>
+      <par n="organi/ze__vblex"/>
     </e>
     <e lm="poll">
       <i>poll</i>
@@ -66039,8 +66095,8 @@
       <par n="step__vblex"/>
     </e>
     <e lm="popularize">
-      <i>populariz</i>
-      <par n="liv/e__vblex"/>
+      <i>populari</i>
+      <par n="organi/ze__vblex"/>
     </e>
     <e lm="populate">
       <i>populat</i>

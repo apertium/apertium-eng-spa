@@ -204,80 +204,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="ouml">
-      <p>
-        <l>ö</l>
-        <r>ö</r>
-      </p>
-      <p r="LR">
-        <l>oe</l>
-        <r>ö</r>
-      </p>
-    </pardef>
-    <pardef n="uuml">
-      <p>
-        <l>ü</l>
-        <r>ü</r>
-      </p>
-      <p r="LR">
-        <l>ue</l>
-        <r>ü</r>
-      </p>
-    </pardef>
-
-    <!-- dialects -->
-    <pardef n="o_ou">
-      <p c="en_GB, en_CA, en_ZA, en_IE">
-        <l>ou</l>
-        <r>ou</r>
-      </p>
-      <p r="LR" c="en_US">
-        <l>o</l>
-        <r>ou</r>
-      </p>
-    </pardef>
-    <pardef n="z_s">
-      <p c="en_GB, en_ZA, en_IE">
-        <l>s</l>
-        <r>s</r>
-      </p>
-      <p r="LR" c="en_US, en_CA">
-        <l>z</l>
-        <r>s</r>
-      </p>
-    </pardef>
-    <pardef n="e_ae">
-      <p c="en_GB, en_ZA, en_IE, en_CA">
-        <l>ae</l>
-        <r>ae</r>
-      </p>
-      <p r="LR" c="en_US">
-        <l>e</l>
-        <r>ae</r>
-      </p>
-    </pardef>
-    <pardef n="e_oe">
-      <p c="en_GB, en_ZA, en_IE, en_CA">
-        <l>oe</l>
-        <r>oe</r>
-      </p>
-      <p r="LR" c="en_US">
-        <l>e</l>
-        <r>oe</r>
-      </p>
-    </pardef>
-    <pardef n="organi/ze__vblex">
-      <p c="en_GB, en_ZA, en_IE">
-        <l>s</l>
-        <r>s</r>
-      </p>
-	  <par n="live/e__vblex">
-      <p r="LR" c="en_US, en_CA">
-        <l>z</l>
-        <r>s</r>
-      </p>
-	  <par n="live/e__vblex">
-    </pardef>
 	
    <pardef n="ordinals">
     
@@ -8865,6 +8791,113 @@
         </p>
       </e>
     </pardef>
+
+
+    <pardef n="ouml">
+      <e>
+	<p>
+	  <l>ö</l>
+	  <r>ö</r>
+	</p>
+      </e>
+      <e r="LR">
+	<p>
+	  <l>oe</l>
+	  <r>ö</r>
+	</p>
+      </e>
+    </pardef>
+    <pardef n="uuml">
+      <e>
+	<p>
+	  <l>ü</l>
+	  <r>ü</r>
+	</p>
+      </e>
+      <e r="LR">
+	<p>
+	  <l>ue</l>
+	  <r>ü</r>
+	</p>
+      </e>
+    </pardef>
+
+ 
+   <!-- dialects -->
+    <pardef n="o_ou">
+      <e c="en_GB, en_CA, en_ZA, en_IE">
+	<p>
+	  <l>ou</l>
+	  <r>ou</r>
+	</p>
+      </e>
+      <e r="LR" c="en_US">
+	<p>
+	  <l>o</l>
+	  <r>ou</r>
+	</p>
+      </e>
+    </pardef>
+    <pardef n="z_s">
+      <e c="en_GB, en_ZA, en_IE">
+	<p>
+	  <l>s</l>
+	  <r>s</r>
+	</p>
+      </e>
+      <e r="LR" c="en_US, en_CA">
+	<p>
+	  <l>z</l>
+	  <r>s</r>
+	</p>
+      </e>
+    </pardef>
+    <pardef n="e_ae">
+      <e c="en_GB, en_ZA, en_IE, en_CA">
+	<p>
+	  <l>ae</l>
+	  <r>ae</r>
+	</p>
+      </e>
+      <e r="LR" c="en_US">
+	<p>
+	  <l>e</l>
+	  <r>ae</r>
+	</p>
+      </e>
+    </pardef>
+    <pardef n="e_oe">
+      <e c="en_GB, en_ZA, en_IE, en_CA">
+	<p>
+	  <l>oe</l>
+	  <r>oe</r>
+	</p>
+      </e>
+      <e r="LR" c="en_US">
+	<p>
+	  <l>e</l>
+	  <r>oe</r>
+	</p>
+      </e>
+    </pardef>
+    <pardef n="organi/ze__vblex">
+      <e c="en_GB, en_ZA, en_IE">
+	<p>
+	  <l>s</l>
+	  <r>s</r>
+	</p>
+	<par n="liv/e__vblex"/>
+      </e>
+      <e r="LR" c="en_US, en_CA">
+	<p>
+	  <l>z</l>
+	  <r>s</r>
+	</p>
+      <par n="liv/e__vblex"/>
+      </e>
+    </pardef>
+
+
   </pardefs>
   <section id="main" type="standard">
     <!-- determiners -->
@@ -46373,11 +46406,11 @@
       <par n="house__n"/>
     </e>
     <e lm="organisation">
-      <i>organi</i><par n="z_s"/></i>ation</i>
+      <i>organi</i><par n="z_s"/><i>ation</i>
       <par n="house__n"/>
     </e>
     <e lm="organiser">
-      <i>organi</i><par n="z_s"/></i>er</i>
+      <i>organi</i><par n="z_s"/><i>er</i>
       <par n="house__n"/>
     </e>
     <e lm="orgasm">
@@ -49052,7 +49085,7 @@
       <par n="house__n"/>
     </e>
     <e lm="reorganisation">
-      <i>reorgani</i><par n="z_s"/></i>ation</i>
+      <i>reorgani</i><par n="z_s"/><i>ation</i>
       <par n="house__n"/>
     </e>
     <e lm="repair">
@@ -56942,7 +56975,7 @@
       <par n="expensive__adj"/>
     </e>
     <e lm="organisational">
-      <i>organi</i><par n="z_s"/></i>ational</i>
+      <i>organi</i><par n="z_s"/><i>ational</i>
       <par n="expensive__adj"/>
     </e>
     <e lm="fateful">
@@ -62214,14 +62247,14 @@
       <p>
 	    <l>anaesthetiz</l>
 	    <r>anaesthetis</r>
-	  <p>
+      </p>
       <par n="liv/e__vblex"/>
     </e>
     <e lm="anaesthetise" c="en_US" r="LR">
       <p>
 	    <l>anesthetiz</l>
 	    <r>anaesthetis</r>
-	  <p>
+      </p>
       <par n="liv/e__vblex"/>
     </e>
     <e lm="analyse">

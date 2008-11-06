@@ -232,24 +232,32 @@
     </pardef>
 
     <pardef n="ouml">
-      <p>
-        <l>ö</l>
-        <r>ö</r>
-      </p>
-      <p r="LR">
-        <l>oe</l>
-        <r>ö</r>
-      </p>
+      <e>
+	<p>
+	  <l>ö</l>
+	  <r>ö</r>
+	</p>
+      </e>
+      <e r="LR">
+	<p>
+	  <l>oe</l>
+	  <r>ö</r>
+	</p>
+      </e>
     </pardef>
     <pardef n="uuml">
-      <p>
-        <l>ü</l>
-        <r>ü</r>
-      </p>
-      <p r="LR">
-        <l>ue</l>
-        <r>ü</r>
-      </p>
+      <e>
+	<p>
+	  <l>ü</l>
+	  <r>ü</r>
+	</p>
+      </e>
+      <e r="LR">
+	<p>
+	  <l>ue</l>
+	  <r>ü</r>
+	</p>
+      </e>
     </pardef>
 
 
@@ -111149,14 +111157,16 @@
       <par n="abismo__n"/>
 	  <p>
 	    <l><b/>Nobel</l>
-		<r><g><b/>Nobel</g></r>
+	    <r><g><b/>Nobel</g></r>
+	  </p>
     </e>
     <e lm="premio Nobel de la Paz">
       <i>premio</i>
       <par n="abismo__n"/>
 	  <p>
 	    <l><b/>Nobel<b/>de<b/>la<b/>Paz</l>
-		<r><g><b/>Nobel<b/>de<b/>la<b/>Paz</g></r>
+	    <r><g><b/>Nobel<b/>de<b/>la<b/>Paz</g></r>
+	  </p>
     </e>
     <e lm="premisa">
       <i>premisa</i>

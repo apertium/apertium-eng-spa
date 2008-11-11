@@ -71150,6 +71150,10 @@
     <e lm="o">
       <par n="/o__cnjcoo"/>
     </e>
+    <e lm="o bien">
+      <i>o<b/>bien</i>
+      <par n="justo_es_decir__cnjcoo"/>
+    </e>
     <e lm="pero">
       <i>pero</i>
       <par n="justo_es_decir__cnjcoo"/>
@@ -105858,6 +105862,14 @@
       <i>impuesto</i>
       <par n="abismo__n"/>
     </e>
+    <e lm="impuesto sobre la renta">
+      <i>impuesto</i>
+      <par n="abismo__n"/>
+      <p>
+	<l><b/>sobre<b/>la<b/>renta</l>
+	<r><g><b/>sobre<b/>la<b/>renta</g></r>
+      </p>
+    </e>
     <e lm="impugnación" a="prompsit2adn">
       <i>impugnaci</i>
       <par n="acci/ón__n"/>
@@ -116842,6 +116854,7 @@
       <par n="BBVA__n"/>
     </e>
     <e lm="IVA"><i>IVA</i><par n="ADN__n"/></e>
+    <e lm="IRPF"><i>IRPF</i><par n="ADN__n"/></e>
 
     <!-- interjections -->
     <e lm="adiós">

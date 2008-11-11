@@ -106,6 +106,9 @@
     <def-cat n="haver">
       <cat-item tags="vbhaver.*"/>
     </def-cat>
+    <def-cat n="haverinf">
+      <cat-item tags="vbhaver.inf"/>
+    </def-cat>
 
  <def-cat n="hay">
       <cat-item tags="vbhaver.*.p3.sg"/>
@@ -1301,10 +1304,6 @@
 	      <equal caseless="yes">	      
 		<clip pos="1" side="sl" part="lem"/>
 		<lit v="de"/>
-	      </equal>
-	      <equal caseless="yes">	      
-		<clip pos="1" side="sl" part="lem"/>
-		<lit v="por"/>
 	      </equal>	      
 	    </or>
 	  </test>
@@ -1313,8 +1312,18 @@
 	    <lit v="to"/>
 	  </let>
 	</when>
-
-
+	<when>
+	  <test>
+	    <equal caseless="yes">	      
+	      <clip pos="1" side="sl" part="lem"/>
+	      <lit v="por"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <lit v="for"/>
+	  </let>
+	</when>
       </choose>
       <choose>
 	<when>
@@ -2755,7 +2764,7 @@
     </rule>
 
 
- <rule comment="REGLA: DET ADJ NOM">
+ <rule comment="REGLA: DET ADJ NOM ADJ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -2818,6 +2827,63 @@
     </rule>
 
 
+ <rule comment="REGLA: DET NOM ADJ ADJ">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="adj"/>
+      </pattern>
+      <action>	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="nombre_nom">
+	  <with-param pos="2"/>
+	</call-macro>	
+	<call-macro n="canvia_det">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord4">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<out>  
+	  <chunk name="det_adj_adj_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><clip pos="2" side="sl" part="gen"/></tag>
+	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>   
+	      <clip pos="4" side="tl" part="lem"/> 
+	      <clip pos="4" side="tl" part="a_adj"/>
+	    </lu> 
+	    <b pos="2"/>
+	    <lu>   
+	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="a_adj"/>
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>       
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
+	      <clip pos="2" side="tl" part="lemq"/>  
+	    </lu>
+	  </chunk>
+	</out>    
+      </action>
+    </rule>
 
     <rule comment="REGLA: NUM NOM ADJ">
       <pattern>
@@ -5615,6 +5681,74 @@
 	</out>   
       </action>
     </rule>
+
+
+
+
+    <rule comment="PREP + HAVER + PP (per haver ajudat)">
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="haverinf"/>
+	<pattern-item n="pp"/> 
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>     	
+	<call-macro n="prep_inf">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro> 
+	<let>
+	  <clip pos="2" side="tl" part="temps"/> 
+	  <lit-tag v="ger"/><!--posem ger en tots els casos -->
+	</let>	  
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="3" side="sl" part="lem"/> 
+		<lit v="poder"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="3" side="tl" part="lem"/> 
+	      <lit v="be able to"/>
+	    </let>
+	    <let>
+	      <clip pos="3" side="tl" part="a_pp"/> 
+	      <lit-tag v="vbmod.pp"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk namefrom="por_haver_pp" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+		  <tag><clip pos="2" side="tl" part="temps"/></tag>
+		</tags>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/> 
+		</lu>
+		<b pos="1"/>		  
+		<lu>
+		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="a_verb"/> 
+		  <clip pos="2" side="tl" part="temps"/> 
+		  <clip pos="2" side="tl" part="lemq"/> 
+		</lu>
+		<b pos="2"/>
+		<lu>
+		  <clip pos="3" side="tl" part="lemh"/> 
+		  <clip pos="3" side="tl" part="a_pp"/>
+		  <clip pos="3" side="tl" part="lemq"/>    
+		</lu> 
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
 
   <rule comment="AL + INF (al llegar - when arriving)">
       <pattern>

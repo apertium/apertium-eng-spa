@@ -67585,6 +67585,11 @@
       <i>support</i>
       <par n="accept__vblex"/>
     </e>
+
+    <e lm="yield">
+      <i>yield</i>
+      <par n="accept__vblex"/>
+    </e>
     <e lm="suppose">
       <i>suppos</i>
       <par n="liv/e__vblex"/>
@@ -73354,6 +73359,88 @@
 
 <e lm="unemployed"><i>unemployed</i><par n="east__n"/></e>
 <e lm="unemployed person"><i>unemployed<b/>person</i><par n="personnel__n"/></e>
+
+<e lm="banking" a="prompsit2cdl"><i>banking</i><par n="expensive__adj"/></e>
+<e lm="adressee" a="prompsit2cdl"><i>adressee</i><par n="expensive__adj"/></e>
+<e lm="pertaining" a="prompsit2cdl"><i>pertaining</i><par n="expensive__adj"/></e>
+<e lm="free" a="prompsit2cdl"><i>free</i><par n="maybe__adv"/></e>
+
+<e lm="cancellation" a="prompsit2cdl"><i>cancellation</i><par n="house__n"/></e>
+<e lm="cession" a="prompsit2cdl"><i>cession</i><par n="house__n"/></e>
+<e lm="confirmation" a="prompsit2cdl"><i>confirmation</i><par n="house__n"/></e>
+<e lm="fulfillment" a="prompsit2cdl"><i>fulfillment</i><par n="house__n"/></e>
+<e lm="quota" a="prompsit2cdl"><i>quota</i><par n="house__n"/></e>
+
+<e lm="annoyance" a="prompsit2cdl"><i>annoyance</i><par n="house__n"/></e>
+<e lm="leisure" a="prompsit2cdl"><i>leisure</i><par n="house__n"/></e>
+<e lm="rectification" a="prompsit2cdl"><i>rectification</i><par n="house__n"/></e>
+<e lm="server" a="prompsit2cdl"><i>server</i><par n="house__n"/></e>
+
+<e lm="collaborate" a="prompsit2cdl"><i>collaborate</i><par n="accept__vblex"/></e>
+<e lm="discriminate" a="prompsit2cdl"><i>discriminate</i><par n="accept__vblex"/></e>
+<e lm="fill up" a="prompsit2cdl"><i>fill</i><par n="accept__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+<e lm="terminate" a="prompsit2cdl"><i>terminate</i><par n="accept__vblex"/></e>
+<e lm="visualize" a="prompsit2cdl"><i>visualize</i><par n="accept__vblex"/></e>
+
+<e lm="on-line" a="prompsit2cdl"><i>on-line</i><par n="expensive__adj"/></e>
+<e lm="orientative" a="prompsit2cdl"><i>orientative</i><par n="expensive__adj"/></e>
+<e lm="pdf" a="prompsit2cdl"><i>pdf</i><par n="BBC__n"/></e>
+<e lm="subscriber" a="prompsit2cdl"><i>subscriber</i><par n="house__n"/></e>
+<e lm="universality" a="prompsit2cdl"><i>universalit</i><par n="bab/y__n"/></e>
+<e lm="computation" a="prompsit2cdl"><i>computation</i><par n="house__n"/></e>
+<e lm="blog" a="prompsit2cdl"><i>blog</i><par n="house__n"/></e>
+<e lm="computer science" a="prompsit2cdl"><i>computer<b/>science</i><par n="house__n"/></e>
+<e lm="capital letter" a="prompsit2cdl"><i>capital<b/>letter</i><par n="house__n"/></e>
+<e lm="online" a="prompsit2cdl" r="LR"><p><l>online</l><r>on-line</r></p><par n="expensive__adj"/></e>
+<e lm="on line" a="prompsit2cdl" r="LR"><p><l>on<b/>line</l><r>on-line</r></p><par n="expensive__adj"/></e>
+
+<e lm="pre-ordering" a="prompsit2cdl"><i>pre-ordering</i><par n="house__n"/></e>
+<e lm="dd/mm/yyyy" a="prompsit2cdl"><i>dd/mm/yyyy</i><par n="east__n"/></e>
+<e lm="bestseller" a="prompsit2cdl"><i>bestseller</i><par n="house__n"/></e>
+<e lm="website" a="prompsit2cdl"><i>website</i><par n="house__n"/></e>
+<e lm="email" a="prompsit2cdl"><i>email</i><par n="house__n"/></e>
+<e lm="bookseller" a="prompsit2cdl"><i>bookseller</i><par n="house__n"/></e>
+<e lm="http" a="prompsit2cdl"><i>http</i><par n="BBC__n"/></e>
+<e lm="https" a="prompsit2cdl"><i>https</i><par n="BBC__n"/></e>
+<e lm="mp3" a="prompsit2cdl"><i>mp3</i><par n="BBC__n"/></e>
+<e lm="dvd" a="prompsit2cdl"><i>dvd</i><par n="BBC__n"/></e>
+<e lm="jan." a="prompsit2cdl"><i>jan.</i><par n="east__n"/></e>
+<e lm="feb." a="prompsit2cdl"><i>feb.</i><par n="east__n"/></e>
+<e lm="mar." a="prompsit2cdl"><i>mar.</i><par n="east__n"/></e>
+<e lm="apr." a="prompsit2cdl"><i>apr.</i><par n="east__n"/></e>
+<e lm="jun." a="prompsit2cdl"><i>jun.</i><par n="east__n"/></e>
+<e lm="jul." a="prompsit2cdl"><i>jul.</i><par n="east__n"/></e>
+<e lm="aug." a="prompsit2cdl"><i>aug.</i><par n="east__n"/></e>
+<e lm="sep." a="prompsit2cdl"><i>sep.</i><par n="east__n"/></e>
+<e lm="oct." a="prompsit2cdl"><i>oct.</i><par n="east__n"/></e>
+<e lm="nov." a="prompsit2cdl"><i>nov.</i><par n="east__n"/></e>
+<e lm="dec." a="prompsit2cdl"><i>dec.</i><par n="east__n"/></e>
+<e lm="att." a="prompsit2cdl"><i>att.</i><par n="east__n"/></e>
+<e lm="inc." a="prompsit2cdl"><i>inc.</i><par n="east__n"/></e>
+<e lm="certifier" a="prompsit2cdl"><i>certifier</i><par n="expensive__adj"/></e>
+<e lm="cumulative" a="prompsit2cdl"><i>cumulative</i><par n="expensive__adj"/></e>
+<e lm="off-line" a="prompsit2cdl"><i>off-line</i><par n="expensive__adj"/></e>
+<e lm="offline" a="prompsit2cdl" r="LR"><p><l>offline</l><r>off-line</r></p><par n="expensive__adj"/></e>
+<e lm="truthful" a="prompsit2cdl"><i>truthful</i><par n="expensive__adj"/></e>
+
+<e lm="Explorer" a="prompsit2cdl"><i>Explorer</i><par n="Linux__np"/></e>
+<e lm="Vía de las dos Castillas" a="prompsit2cdl"><i>Vía<b/>de<b/>las<b/>dos<b/>Castillas</i><par n="Barcelona__np"/></e>
+<e lm="Calpe" a="prompsit2cdl"><i>Calpe</i><par n="Barcelona__np"/></e>
+<e lm="Espasa" a="prompsit2cdl"><i>Espasa</i><par n="Linux__np"/></e>
+<e lm="Espasa Calpe" a="prompsit2cdl"><i>Espasa<b/>Calpe</i><par n="Linux__np"/></e>
+<e lm="Complejo Ática" a="prompsit2cdl"><i>Complejo<b/>Ática</i><par n="Barcelona__np"/></e>
+<e lm="casadellibro.com" a="prompsit2cdl"><i>casadellibro.com</i><par n="Linux__np"/></e>
+<e lm="Netscape" a="prompsit2cdl"><i>Netscape</i><par n="Linux__np"/></e>
+<e lm="VeriSign" a="prompsit2cdl"><i>VeriSign</i><par n="Linux__np"/></e>
+<e lm="Visa" a="prompsit2cdl"><i>Visa</i><par n="Linux__np"/></e>
+<e lm="Visa Electron" a="prompsit2cdl"><i>Visa<b/>Electron</i><par n="Linux__np"/></e>
+<e lm="Trust" a="prompsit2cdl"><i>Trust</i><par n="Linux__np"/></e>
+<e lm="Pozuelo" a="prompsit2cdl"><i>Pozuelo</i><par n="Barcelona__np"/></e>
+<e lm="Pozuelo de Alarcón" a="prompsit2cdl"><i>Pozuelo<b/>de<b/>Alarcón</i><par n="Barcelona__np"/></e>
+<e lm="discontinue" a="prompsit2cdl"><i>discontinue</i><par n="accept__vblex"/></e>
+<e lm="encode" a="prompsit2cdl"><i>encode</i><par n="accept__vblex"/></e>
+<e lm="scheme" a="prompsit2cdl"><i>scheme</i><par n="accept__vblex"/></e>
+
 
   </section>
  

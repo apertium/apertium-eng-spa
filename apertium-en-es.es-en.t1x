@@ -334,6 +334,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <attr-item tags="vblex.pp"/>
     </def-attr>  
 
+    <def-attr n="grau">      
+      <attr-item tags="sup"/> 
+    </def-attr>
 
     <def-attr n="a_det">
       <attr-item tags="det.dem"/>
@@ -476,6 +479,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <def-var n="gen_chunk"/>
     <def-var n="nom_chunk"/>
     <def-var n="verbfinal"/>
+    <def-var n="superlatiu1"/>
+    <def-var n="superlatiu2"/>
   </section-def-vars>
 
   <section-def-lists>
@@ -1365,7 +1370,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 </def-macro>
 
 
-<def-macro n="adv_adj" npar="2"><!-- (per a fer el comparatiu si cal: 'més fosc' = darker; i també per a canviar 'well' per 'very' davant adjectius )" -->
+<def-macro n="adv_adj" npar="2"><!-- (per a fer el comparatiu si cal: 'més fosc' = darker; i també per a canviar 'well' per 'very' davant adjectius )". En les regles, és obligatori que s'executi després de la macro 'f_superlatiu1' aplicada a l'adjectiu.  -->
 	<choose>
 	  <when>
 	    <test>
@@ -1453,6 +1458,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<concat>
 		  <clip pos="1" side="tl" part="whole"/> 
 		  <lit v="$ ^"/>
+		  <var n="superlatiu1"/>
 		  <clip pos="2" side="tl" part="lem"/> 
 		  <clip pos="2" side="tl" part="a_adj"/>
 		</concat>
@@ -1465,7 +1471,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		
 </def-macro>
 
-<def-macro n="det_adv_adj" npar="3"><!-- (per a fer el comparatiu i superlatiu si cal: 'més fosc' = 'darker'; 'el més fosc' = 'the darkest')" -->
+<def-macro n="det_adv_adj" npar="3"><!-- (per a fer el comparatiu i superlatiu si cal: 'més fosc' = 'darker'; 'el més fosc' = 'the darkest')". En les regles, és obligatori que s'executi després de la macro 'f_superlatiu1' aplicada a l'adjectiu. -->
 	<choose>
 	  <when>
 	    <test>
@@ -1603,6 +1609,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<concat>
 		  <clip pos="2" side="tl" part="whole"/> 
 		  <lit v="$ ^"/>
+		  <var n="superlatiu1"/>
 		  <clip pos="3" side="tl" part="lem"/> 
 		  <clip pos="3" side="tl" part="a_adj"/>
 		</concat>
@@ -1647,6 +1654,77 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</choose> 
 </def-macro>     
 		
+
+		
+
+ <def-macro n="f_superlatiu1" npar="1">
+   <choose>
+     <when>
+       <test>
+	 <equal>
+	   <clip pos="1" side="sl" part="grau"/>
+	   <lit-tag v="sup"/>
+	 </equal>
+       </test>
+       <let>
+	 <var n="superlatiu1"/>
+	 <concat>
+	   <get-case-from pos="1">
+	     <lit v="very"/>
+	   </get-case-from>
+	   <lit-tag v="preadv"/>
+	   <lit v="$ ^"/>
+	 </concat>
+       </let>
+       <modify-case>
+	 <clip pos="1" side="tl" part="lem"/>
+	 <lit v="aa"/>
+       </modify-case>
+     </when>
+     <otherwise>
+       <let>
+	 <var n="superlatiu1"/>
+	 <lit v=""/>
+       </let>
+     </otherwise>
+   </choose>
+ </def-macro>
+	 
+
+
+ <def-macro n="f_superlatiu2" npar="1"><!-- Aquesta és per quan hi ha dos adjs en una regla -->
+   <choose>
+     <when>
+       <test>
+	 <equal>
+	   <clip pos="1" side="sl" part="grau"/>
+	   <lit-tag v="sup"/>
+	 </equal>
+       </test>
+       <let>
+	 <var n="superlatiu2"/>
+	 <concat>
+	   <get-case-from pos="1">
+	     <lit v="very"/>
+	   </get-case-from>
+	   <lit-tag v="preadv"/>
+	   <lit v="$ ^"/>
+	 </concat>
+       </let>
+       <modify-case>
+	 <clip pos="1" side="tl" part="lem"/>
+	 <lit v="aa"/>
+       </modify-case>
+     </when>
+     <otherwise>
+       <let>
+	 <var n="superlatiu2"/>
+	 <lit v=""/>
+       </let>
+     </otherwise>
+   </choose>
+ </def-macro>
+	
 
 
  <def-macro n="conj_verb1" npar="1"><!--conjuga un verb -->
@@ -2620,6 +2698,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="2"/>
+	</call-macro>
 	<call-macro n="f_concord2">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -2632,6 +2713,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="2" side="tl" part="lem"/> 
 	      <clip pos="2" side="tl" part="a_adj"/>
 	    </lu> 
@@ -2657,6 +2739,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_superlatiu2">
+	  <with-param pos="3"/>
+	</call-macro>
 	<call-macro n="f_concord3">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -2670,11 +2758,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
 	    <lu>   
+	      <var n="superlatiu2"/>
 	      <clip pos="3" side="tl" part="lem"/> 
 	      <clip pos="3" side="tl" part="a_adj"/>
 	    </lu> 
 	    <b pos="1"/>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="2" side="tl" part="lem"/> 
 	      <clip pos="2" side="tl" part="a_adj"/>
 	    </lu> 
@@ -2705,6 +2795,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="nombre_nom">
 	  <with-param pos="2"/>
 	</call-macro>	
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="3"/>
+	</call-macro>	
 	<call-macro n="canvia_det">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -2728,6 +2821,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="3" side="tl" part="lem"/> 
 	      <clip pos="3" side="tl" part="a_adj"/>
 	    </lu> 
@@ -2758,6 +2852,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="nombre_nom">
 	  <with-param pos="3"/>
 	</call-macro>	
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="2"/>
+	</call-macro>	
 	<call-macro n="canvia_det">
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
@@ -2785,6 +2882,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="2" side="tl" part="lem"/> 
 	      <clip pos="2" side="tl" part="a_adj"/>
 	    </lu> 
@@ -2818,7 +2916,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="canvia_det">
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
-	</call-macro>	
+	</call-macro>		
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="2"/>
+	</call-macro>		
+	<call-macro n="f_superlatiu2">
+	  <with-param pos="4"/>
+	</call-macro>
 	<call-macro n="el_millor_pitjor">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -2843,11 +2947,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="2" side="tl" part="lem"/> 
 	      <clip pos="2" side="tl" part="a_adj"/>
 	    </lu> 
 	    <b pos="2"/>
 	    <lu>   
+	      <var n="superlatiu2"/>
 	      <clip pos="4" side="tl" part="lem"/> 
 	      <clip pos="4" side="tl" part="a_adj"/>
 	    </lu> 
@@ -2881,6 +2987,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="canvia_det">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="3"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu2">
+	  <with-param pos="4"/>
 	</call-macro>
 	<call-macro n="f_concord4">
 	  <with-param pos="2"/>
@@ -2902,11 +3014,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>   
+	      <var n="superlatiu2"/>
 	      <clip pos="4" side="tl" part="lem"/> 
 	      <clip pos="4" side="tl" part="a_adj"/>
 	    </lu> 
 	    <b pos="2"/>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="3" side="tl" part="lem"/> 
 	      <clip pos="3" side="tl" part="a_adj"/>
 	    </lu> 
@@ -2931,6 +3045,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <action>		
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="3"/>
 	</call-macro>
 	<call-macro n="f_concord3">
 	  <with-param pos="2"/>
@@ -2950,6 +3067,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="3" side="tl" part="lem"/> 
 	      <clip pos="3" side="tl" part="a_adj"/>
 	    </lu> 
@@ -2983,6 +3101,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="canvia_det">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu1"><!--aquí no envio variable 'superlatiu' perquè s'envia dins de adv_adjectiu -->
+	  <with-param pos="4"/>
 	</call-macro>	
 	<call-macro n="det_adv_adj">
 	  <with-param pos="1"/>
@@ -3038,6 +3159,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</call-macro>	
 	<call-macro n="nombre_nom">
 	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_superlatiu1"><!--aquí no envio variable 'superlatiu' perquè s'envia dins de adv_adjectiu -->
+	  <with-param pos="4"/>
 	</call-macro>	
 	<call-macro n="adv_adj">
 	  <with-param pos="3"/>
@@ -3092,6 +3216,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_superlatiu2">
+	  <with-param pos="4"/>
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -3126,6 +3256,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="1" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>   
+		  <var n="superlatiu1"/>
 		  <clip pos="2" side="tl" part="lem"/> 
 		  <clip pos="2" side="tl" part="a_adj"/>
 		</lu> 
@@ -3142,6 +3273,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="3"/>
 		<lu>   
+		  <var n="superlatiu2"/>
 		  <clip pos="4" side="tl" part="lem"/> 
 		  <clip pos="4" side="tl" part="a_adj"/>
 		</lu> 
@@ -3169,6 +3301,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="1" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>   
+		  <var n="superlatiu1"/>
 		  <clip pos="2" side="tl" part="lem"/> 
 		  <clip pos="2" side="tl" part="a_adj"/>
 		</lu> 
@@ -3178,6 +3311,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="2"/>
 		<lu>   
+		  <var n="superlatiu2"/>
 		  <clip pos="4" side="tl" part="lem"/> 
 		  <clip pos="4" side="tl" part="a_adj"/>
 		</lu> 
@@ -3222,6 +3356,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_superlatiu2">
+	  <with-param pos="4"/>
+	</call-macro>
 	<call-macro n="f_concord3">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -3249,6 +3389,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="1" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>   
+		  <var n="superlatiu1"/>
 		  <clip pos="2" side="tl" part="lem"/> 
 		  <clip pos="2" side="tl" part="a_adj"/>
 		</lu> 
@@ -3258,6 +3399,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="2"/>
 		<lu>   
+		  <var n="superlatiu2"/>
 		  <clip pos="4" side="tl" part="lem"/> 
 		  <clip pos="4" side="tl" part="a_adj"/>
 		</lu> 
@@ -3330,6 +3472,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="nombre_nom">
 	  <with-param pos="2"/>
 	</call-macro>	
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="3"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu2">
+	  <with-param pos="5"/>
+	</call-macro>	
 	<call-macro n="canvia_det">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -3376,6 +3524,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="1"/>
 		<lu>   
+		  <var n="superlatiu1"/>
 		  <clip pos="3" side="tl" part="lem"/> 
 		  <clip pos="3" side="tl" part="a_adj"/>
 		</lu> 
@@ -3392,6 +3541,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="4"/>
 		<lu>   
+		  <var n="superlatiu2"/>
 		  <clip pos="5" side="tl" part="lem"/> 
 		  <clip pos="5" side="tl" part="a_adj"/>
 		</lu> 
@@ -3426,6 +3576,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="1"/>
 		<lu>   
+		  <var n="superlatiu1"/>
 		  <clip pos="3" side="tl" part="lem"/> 
 		  <clip pos="3" side="tl" part="a_adj"/>
 		</lu> 
@@ -3435,6 +3586,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="3"/>
 		<lu>   
+		  <var n="superlatiu2"/>
 		  <clip pos="5" side="tl" part="lem"/> 
 		  <clip pos="5" side="tl" part="a_adj"/>
 		</lu> 
@@ -3482,7 +3634,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</call-macro>	
 	<call-macro n="nombre_nom">
 	  <with-param pos="2"/>
+	</call-macro>		
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="3"/>
 	</call-macro>	
+	<call-macro n="f_superlatiu2">
+	  <with-param pos="5"/>
+	</call-macro>
 	<call-macro n="canvia_det">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -3521,6 +3679,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="1"/>
 		<lu>   
+		  <var n="superlatiu1"/>
 		  <clip pos="3" side="tl" part="lem"/> 
 		  <clip pos="3" side="tl" part="a_adj"/>
 		</lu> 
@@ -3530,6 +3689,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="3"/>
 		<lu>   
+		  <var n="superlatiu2"/>
 		  <clip pos="5" side="tl" part="lem"/> 
 		  <clip pos="5" side="tl" part="a_adj"/>
 		</lu> 
@@ -3598,7 +3758,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <action>     	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>	
+	</call-macro>		
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk name="adj" case="caseFirstWord">
 	    <tags>
@@ -3607,6 +3770,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="nbr"/></tag>
 	    </tags>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="1" side="tl" part="lem"/> 
 	      <clip pos="1" side="tl" part="a_adj"/>
 	    </lu> 
@@ -3624,7 +3788,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <action>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>	
+	</call-macro>	  	
+	<call-macro n="f_superlatiu1"><!--'siempre buenísimo' --><!--aquí no envio variable 'superlatiu' perquè s'envia dins de adv_adjectiu -->
+	  <with-param pos="2"/>
+	</call-macro>
 	<call-macro n="adv_adj">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -3648,7 +3815,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule> 
 
 
- <rule comment="REGLA: DET ADV ADJECTIU (el lleig / el millor) ">
+ <rule comment="REGLA: DET ADJECTIU (el lleig / el millor) ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -3656,6 +3823,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <action>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="2"/>
 	</call-macro>	
 	<call-macro n="el_millor_pitjor">
 	  <with-param pos="1"/>
@@ -3701,6 +3871,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>   
+	      <var n="superlatiu1"/>
 	      <clip pos="2" side="tl" part="lem"/> 
 	      <clip pos="2" side="tl" part="a_adj"/>
 	    </lu> 

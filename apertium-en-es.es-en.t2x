@@ -84,9 +84,12 @@
       <cat-item tags="preadv"/>
     </def-cat>
 
+      <def-cat n="REL">
+      <cat-item tags="rel.*"/>
+    </def-cat>
 
   <def-cat n="unknown">
-      <cat-item lemma="unknown" tags=""/>
+      <cat-item lemma="unknown" tags="unkown"/>
     </def-cat>
 
 <def-cat n="fi_frase">
@@ -1387,6 +1390,22 @@ No posen la variable en no els xuncs: PREP (
 <rule comment="REGLA: SP"><!-- vols dir que cal posar la variable a no?-->
       <pattern>
 	<pattern-item n="SP"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+      </action>
+</rule>
+<rule comment="REGLA: REL">
+      <pattern>
+	<pattern-item n="REL"/>
       </pattern>
       <action>
 	<out>

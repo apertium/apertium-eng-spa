@@ -73,6 +73,29 @@
       <cat-item tags="SA.*"/>
     </def-cat>
 
+ <def-cat n="SP">
+      <cat-item tags="SP.*"/>
+    </def-cat>
+
+      <def-cat n="DET">
+      <cat-item tags="DET.*"/>
+    </def-cat>
+      <def-cat n="PREADV">
+      <cat-item tags="preadv"/>
+    </def-cat>
+
+
+  <def-cat n="unknown">
+      <cat-item lemma="unknown" tags=""/>
+    </def-cat>
+
+<def-cat n="fi_frase">
+      <cat-item tags="sent"/>
+    </def-cat>
+<!--<def-cat n="coma">
+      <cat-item tags="cm"/>
+    </def-cat> -->
+
 <def-cat n="punt">
       <cat-item tags="sent"/>
     </def-cat>
@@ -138,7 +161,25 @@
   <section-def-vars>
     <def-var n="uno"/>
     <def-var n="paraula"/>
+    <def-var n="fifrase" v="yes"/>
   </section-def-vars>
+
+
+<section-def-lists>
+
+    <def-list n="SV_personals"> 
+      <list-item v="verbcj"/>
+      <list-item v="aux_verb"/>
+      <list-item v="haver_pp"/>
+      <list-item v="haver_pp_enc"/>
+      <list-item v="aux_haver_pp"/>
+      <list-item v="aux_haver_pp_enc"/>
+      <list-item v="verbcj_enc"/>
+      <list-item v="verbcj_ger"/>
+      <list-item v="verbcj_ger_enc"/>
+    </def-list>
+
+ </section-def-lists>
 
 <section-def-macros>
 
@@ -159,6 +200,80 @@
           </when>     	    
      	</choose>
      </def-macro>
+
+
+
+
+ <def-macro n="generate_subject" npar="1">  <!--ATENCIÓN: se si crean nuevos chunks verbales en el t1x con nuevos lemas, hay que añadirlos a la lista SV_personals en el caso de que sean SV con formas personales. De lo contrario no se creará el sujeto correspondiente cuando aparezcan en un texto. -->
+     
+   <choose>
+     <when>
+       <test>
+	   <in caseless="yes">
+	     <clip pos="1" part="lem"/>
+	     <list n="SV_personals"/>
+	   </in>
+       </test>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<var n="fifrase"/>
+		<lit v="yes"/>
+	      </equal>
+	    </test>		
+	    <choose>
+	      <when>
+		<test>
+		  <not>
+		    <equal>
+		      <clip pos="1" part="temps"/>
+		      <lit-tag v="imp"/>
+		    </equal>
+		  </not>
+		</test>
+		<out>
+		  <chunk>
+		    <get-case-from pos="1">
+		      <lit v="subj"/>
+		    </get-case-from>
+		    <lit-tag v="prn.subj"/>
+		    <clip pos="1" part="pers"/>
+		    <lit-tag v="GD"/>
+		    <clip pos="1" part="nbr"/>
+		    <lit v="{^"/>
+		    <get-case-from pos="1">
+		      <lit v="prpers"/>
+		    </get-case-from>
+		    <lit-tag v="prn.subj.3.4.5"/>
+		    <lit v="$}"/>
+		  </chunk>
+		  <b/>	   
+		</out>
+		<choose>
+		  <when>
+		    <test>
+		      <equal>
+			<case-of pos="1" part="lem"/>
+			<lit v="Aa"/>
+		      </equal>
+		    </test>
+		    <modify-case>
+		      <clip pos="1" part="lem"/>
+		      <lit v="aa"/>
+		    </modify-case>
+		  </when>
+		</choose>
+	      </when>
+	    </choose>
+	  </when>
+	</choose>
+     </when>
+   </choose>
+ </def-macro>
+
+
+
 
 </section-def-macros>
 
@@ -212,6 +327,10 @@
 	    <clip pos="1" part="chcontent"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
@@ -286,6 +405,10 @@
             <clip pos="2" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
@@ -395,6 +518,10 @@
             <clip pos="3" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
@@ -423,63 +550,14 @@
 	    <clip pos="1" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
 
-
-
-
-
-<rule comment="REGLA: SN SV">
-      <pattern>
-	<pattern-item n="SN"/>
-	<pattern-item n="SV"/>
-      </pattern>
-      <action>
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" part="gen"/>
-		<lit-tag v="GD"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <clip pos="1" part="gen"/>
-	      <lit-tag v="m"/>
-	    </let>
-	  </when>
-	</choose>
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="1" part="nbr"/>
-		<lit-tag v="ND"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <clip pos="1" part="nbr"/>
-	      <lit-tag v="sg"/>
-	    </let>
-	  </when>
-	</choose>
-	<out>
-	  <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-	    <clip pos="1" part="chcontent"/>
-	  </chunk>
-	  <b pos="1"/>
-	  <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-	    <clip pos="2" part="chcontent"/>
-	  </chunk>
-	</out>
-      </action>
-</rule>
 
 
 
@@ -566,6 +644,10 @@
             <clip pos="3" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
@@ -575,6 +657,9 @@
 	<pattern-item n="inf"/>
       </pattern>
       <action>
+	<call-macro n="generate_subject">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
             <clip pos="1" part="whole"/>
@@ -619,6 +704,10 @@
             <clip pos="2" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
@@ -632,6 +721,9 @@
 	<pattern-item n="inf"/>
       </pattern>
       <action>
+	<call-macro n="generate_subject">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
             <clip pos="1" part="whole"/>
@@ -658,6 +750,10 @@
 	    <clip pos="3" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
   </action>
 </rule>
 
@@ -670,6 +766,9 @@
 	<pattern-item n="inf"/>
       </pattern>
       <action>
+	<call-macro n="generate_subject">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
             <clip pos="1" part="whole"/>
@@ -696,6 +795,10 @@
 	    <clip pos="4" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
   </action>
 </rule>
 
@@ -766,6 +869,10 @@
 	    <clip pos="4" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
   </action>
 </rule>
 
@@ -837,6 +944,10 @@
 	    <clip pos="5" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
   </action>
 </rule>
 
@@ -902,362 +1013,35 @@
       </action>
 </rule>-->
 
-<!--Regles per a afegir pronom subjecte -->
 
-<rule comment="REGLA: punt SV (. Significava -> IT meant)">
+
+<!--Reglas para añadir pronombre sujeto: el pronombre se genera en otras reglas, mediante la macro generate_subject, o bien en estas reglas creadas expresamente para la generación del sujeto  -->
+
+
+
+
+
+<rule comment="REGLA: SV (Significava -> IT meant)">
       <pattern>
-	<pattern-item n="punt"/>
 	<pattern-item n="SV_pers"/>
       </pattern>
       <action>
+	<call-macro n="generate_subject">
+	  <with-param pos="1"/>
+	</call-macro>
 	<out>
 	  <chunk>
 	    <clip pos="1" part="whole"/>
 	  </chunk>
-	  <b pos="1"/>
 	</out>
-	<choose>
-	  <when>
-	    <test>
-	      <not>
-		<equal>
-		  <clip pos="2" part="temps"/>
-		  <lit-tag v="imp"/>
-		</equal>
-	      </not>
-	    </test>
-	    <out>
-	      <chunk>
-		<get-case-from pos="2">
-		  <lit v="subj"/>
-		</get-case-from>
-		<lit-tag v="prn.subj"/>
-		<clip pos="2" part="pers"/>
-		<lit-tag v="GD"/>
-		<clip pos="2" part="nbr"/>
-		<lit v="{^"/>
-		<get-case-from pos="2">
-		  <lit v="prpers"/>
-		</get-case-from>
-		<lit-tag v="prn.subj.3.4.5"/>
-		<lit v="$}"/>
-	      </chunk>
-	      <b/>	   
-	    </out>
-	    <choose>
-	      <when>
-		<test>
-		  <equal>
-		    <case-of pos="2" part="lem"/>
-		    <lit v="Aa"/>
-		  </equal>
-		</test>
-		<modify-case>
-		  <clip pos="2" part="lem"/>
-		  <lit v="aa"/>
-		</modify-case>
-	      </when>
-	    </choose>
-	  </when>
-	</choose>
-	<out>
-	  <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-	    <clip pos="2" part="chcontent"/>
-	  </chunk>
-	</out>
-      </action>
-</rule>
-
-<rule comment="REGLA: punt SV inf (. Intentava venir -> IT tried TO come)">
-      <pattern>
-	<pattern-item n="punt"/>
-	<pattern-item n="SV_pers"/>
-	<pattern-item n="inf"/>
-      </pattern>
-      <action>
-	<out>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
-	  </chunk>
-	  <b pos="1"/>
-	</out>
-	<choose>
-	  <when>
-	    <test>
-	      <not>
-		<equal>
-		  <clip pos="2" part="temps"/>
-		  <lit-tag v="imp"/>
-		</equal>
-	      </not>
-	    </test>
-	    <out>
-	      <chunk>
-		<get-case-from pos="2">
-		  <lit v="subj"/>
-		</get-case-from>
-		<lit-tag v="prn.subj"/>
-		<clip pos="2" part="pers"/>
-		<lit-tag v="GD"/>
-		<clip pos="2" part="nbr"/>
-		<lit v="{^"/>
-		<get-case-from pos="2">
-		  <lit v="prpers"/>
-		</get-case-from>
-		<lit-tag v="prn.subj.3.4.5"/>
-		<lit v="$}"/>
-	      </chunk>
-	      <b/>	   
-	    </out>
-	    <choose>
-	      <when>
-		<test>
-		  <equal>
-		    <case-of pos="2" part="lem"/>
-		    <lit v="Aa"/>
-		  </equal>
-		</test>
-		<modify-case>
-		  <clip pos="2" part="lem"/>
-		  <lit v="aa"/>
-		</modify-case>
-	      </when>
-	    </choose>
-	  </when>
-	</choose>
-	<out>
-	  <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-	    <clip pos="2" part="chcontent"/>
-	  </chunk>
-	  <b pos="2"/>
-	</out>
-	<choose>
-	  <when><!--si és vbmod (o vaux: "can") no posis el "to" pq no cal ("can") o ja el té incorporat ("have to"). -->
-	    <test>
-	      <not>
-		<or>
-		  <equal>
-		    <clip pos="2" part="a_verb"/>
-		    <lit-tag v="vbmod"/>
-		  </equal>
-		  <equal>
-		    <clip pos="2" part="a_verb"/>
-		    <lit-tag v="vaux"/>
-		  </equal>
-		</or>
-	      </not>
-	    </test>
-	    <out>
-	      <chunk>
-		<get-case-from pos="3">
-		  <lit v="to"/>
-		</get-case-from>
-		<lit-tag v="pr"/>
-		<lit v="{^"/>
-		<get-case-from pos="3">
-		  <lit v="to"/>
-		</get-case-from>
-		<lit-tag v="pr"/>
-		<lit v="$}"/>
-	      </chunk>
-	      <b/>
-	    </out>
-	  </when>
-	</choose>
-	<out>
-	  <chunk>
-            <clip pos="3" part="whole"/>
-	  </chunk>
-	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
 
-<rule comment="REGLA: punt SV SA inf (. Era difícil ajudar -> IT was difficult TO help)">
-      <pattern>
-	<pattern-item n="punt"/>
-	<pattern-item n="SV_pers"/>
-	<pattern-item n="SA"/>
-	<pattern-item n="inf"/>
-      </pattern>
-      <action>
-	<out>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
-	  </chunk>
-	  <b pos="1"/>
-	</out>
-	<choose>
-	  <when>
-	    <test>
-	      <not>
-		<equal>
-		  <clip pos="2" part="temps"/>
-		  <lit-tag v="imp"/>
-		</equal>
-	      </not>
-	    </test>
-	    <out>
-	      <chunk>
-		<get-case-from pos="2">
-		  <lit v="subj"/>
-		</get-case-from>
-		<lit-tag v="prn.subj"/>
-		<clip pos="2" part="pers"/>
-		<lit-tag v="GD"/>
-		<clip pos="2" part="nbr"/>
-		<lit v="{^"/>
-		<get-case-from pos="2">
-		  <lit v="prpers"/>
-		</get-case-from>
-		<lit-tag v="prn.subj.3.4.5"/>
-		<lit v="$}"/>
-	      </chunk>
-	      <b/>	   
-	    </out>
-	    <choose>
-	      <when>
-		<test>
-		  <equal>
-		    <case-of pos="2" part="lem"/>
-		    <lit v="Aa"/>
-		  </equal>
-		</test>
-		<modify-case>
-		  <clip pos="2" part="lem"/>
-		  <lit v="aa"/>
-		</modify-case>
-	      </when>
-	    </choose>
-	  </when>
-	</choose>
-	<out>
-	  <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-	    <clip pos="2" part="chcontent"/>
-	  </chunk>
-	  <b pos="2"/>
-	  <chunk>
-            <clip pos="3" part="whole"/>
-	  </chunk>
-	  <b pos="3"/>
-	  <chunk>
-	    <get-case-from pos="4">
-	      <lit v="to"/>
-	    </get-case-from>
-	    <lit-tag v="pr"/>
-	    <lit v="{^"/>
-	    <get-case-from pos="4">
-	      <lit v="to"/>
-	    </get-case-from>
-	    <lit-tag v="pr"/>
-	    <lit v="$}"/>
-	  </chunk>
-	  <b/>
-	  <chunk>
-	    <clip pos="4" part="whole"/>
-	  </chunk>
-	</out>
-      </action>
-</rule>
-
-
-
-
-<rule comment="REGLA: punt SV SA de inf (. Era difícil d'ajudar -> IT was difficult TO help)MG: treureho? es fa ja tot en el t1x?">
-      <pattern>
-	<pattern-item n="punt"/>
-	<pattern-item n="SV_pers"/>
-	<pattern-item n="SA"/>
-	<pattern-item n="de"/>
-	<pattern-item n="inf"/>
-      </pattern>
-      <action>
-	<out>
-	  <chunk>
-	    <clip pos="1" part="whole"/>
-	  </chunk>
-	  <b pos="1"/>
-	</out>
-	<choose>
-	  <when>
-	    <test>
-	      <not>
-		<equal>
-		  <clip pos="2" part="temps"/>
-		  <lit-tag v="imp"/>
-		</equal>
-	      </not>
-	    </test>
-	    <out>
-	      <chunk>
-		<get-case-from pos="2">
-		  <lit v="subj"/>
-		</get-case-from>
-		<lit-tag v="prn.subj"/>
-		<clip pos="2" part="pers"/>
-		<lit-tag v="GD"/>
-		<clip pos="2" part="nbr"/>
-		<lit v="{^"/>
-		<get-case-from pos="2">
-		  <lit v="prpers"/>
-		</get-case-from>
-		<lit-tag v="prn.subj.3.4.5"/>
-		<lit v="$}"/>
-	      </chunk>
-	      <b/>	   
-	    </out>
-	    <choose>
-	      <when>
-		<test>
-		  <equal>
-		    <case-of pos="2" part="lem"/>
-		    <lit v="Aa"/>
-		  </equal>
-		</test>
-		<modify-case>
-		  <clip pos="2" part="lem"/>
-		  <lit v="aa"/>
-		</modify-case>
-	      </when>
-	    </choose>
-	  </when>
-	</choose>
-	<out>
-	  <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-	    <clip pos="2" part="chcontent"/>
-	  </chunk>
-	  <b pos="2"/>
-	  <chunk>
-            <clip pos="3" part="whole"/>
-	  </chunk>
-	  <b pos="3"/>
-	  <chunk>
-	    <get-case-from pos="4">
-	      <lit v="to"/>
-	    </get-case-from>
-	    <lit-tag v="pr"/>
-	    <lit v="{^"/>
-	    <get-case-from pos="4">
-	      <lit v="to"/>
-	    </get-case-from>
-	    <lit-tag v="pr"/>
-	    <lit v="$}"/>
-	  </chunk>
-	  <b/>
-	  <chunk>
-	    <clip pos="5" part="whole"/>
-	  </chunk>
-	</out>
-      </action>
-</rule>
 
 
 <rule comment="REGLA: cnjsub SV ( que vinguis -> that YOU come)">
@@ -1291,6 +1075,10 @@
 	    <clip pos="2" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
@@ -1365,6 +1153,10 @@
             <clip pos="3" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
@@ -1423,6 +1215,10 @@
             <clip pos="4" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
 
@@ -1481,8 +1277,183 @@
             <clip pos="5" part="whole"/>
 	  </chunk>
 	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
       </action>
 </rule>
+
+<!-- altres regles: regles d'un sol xunc, l'únic que fan és posar la variable fifrase=no
+No posen la variable en no els xuncs: PREP (
+                                      SP ??? afegir-lo? A Barcelona hi viuen 3 milions... / A la taula he trobat...
+                                      ADV (de vegades és necessari...) (no té regla individual en el t2x)
+                                      cnjsub
+				      cnjcoo (no té regla individual en el t2x)
+                                      coma
+                                      PREADV           -->
+
+
+
+
+<rule comment="REGLA: fi de frase">
+      <pattern>
+	<pattern-item n="fi_frase"/>
+      </pattern>
+      <action>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="yes"/>
+	</let>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>	  
+      </action>
+</rule> 
+
+<!--
+<rule comment="REGLA: coma">
+      <pattern>
+	<pattern-item n="coma"/>
+      </pattern>
+      <action>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>	  
+      </action>
+</rule>  -->
+
+
+<rule comment="REGLA: SV"><!--por aquí entraran los SV que no han entrado por SV_pers -->
+      <pattern>
+	<pattern-item n="SV"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+      </action>
+</rule>
+<!--<rule comment="REGLA: cnjsub">
+      <pattern>
+	<pattern-item n="cnjsub"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+      </action>
+</rule> -->
+
+
+
+
+<rule comment="REGLA: SA">
+      <pattern>
+	<pattern-item n="SA"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+      </action>
+</rule>
+<rule comment="REGLA: SP"><!-- vols dir que cal posar la variable a no?-->
+      <pattern>
+	<pattern-item n="SP"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+      </action>
+</rule>
+<rule comment="REGLA: DET">
+      <pattern>
+	<pattern-item n="DET"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+      </action>
+</rule>
+
+<!--
+<rule comment="REGLA: PREADV">
+      <pattern>
+	<pattern-item n="PREADV"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+      </action>
+</rule> -->
+
+
+<rule comment="REGLA: unknown">
+      <pattern>
+	<pattern-item n="unknown"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+	<let>
+	  <var n="fifrase"/>
+	  <lit v="no"/>
+	</let>
+      </action>
+</rule>
+
+
 
 
   </section-rules>

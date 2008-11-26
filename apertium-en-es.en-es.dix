@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
 <!--
 	Dictionary:
 	Sections: 1
@@ -8988,7 +8988,6 @@
     <e><p><l>frigate<s n="n"/></l><r>fragata<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fright<s n="n"/></l><r>susto<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fringe<s n="n"/></l><r>fleco<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>frock<s n="n"/></l><r>hábito<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>frock<s n="n"/></l><r>hábito<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>frog<s n="n"/></l><r>rana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>front<s n="n"/></l><r>frente<s n="n"/><s n="mf"/></r></p></e>
@@ -9215,7 +9214,8 @@
     <e r="LR"><p><l>gynaecologist<s n="n"/></l><r>ginecólogo<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>gynaecologist<s n="n"/></l><r>ginecólogo<s n="n"/></r></p></e>
     <e><p><l>habilitation<s n="n"/></l><r>habilitación<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>habit<s n="n"/></l><r>costumbre<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>habit<s n="n"/></l><r>costumbre<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>habit<s n="n"/></l><r>hábito<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>habitat<s n="n"/></l><r>hábitat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hair<s n="n"/></l><r>cabello<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" c="frases negatives. EN-CA: per trànsfer"><p><l>hair<s n="n"/></l><r>cabello<s n="n"/><s n="m"/></r></p></e>
@@ -15338,6 +15338,9 @@
     <e r="RL"><p><l>have<g><b/>to</g><s n="vbmod"/></l><r>haber<g><b/>de</g><s n="vbmod"/></r></p></e>
     <e><p><l>have<g><b/>to</g><s n="vbmod"/></l><r>tener<g><b/>que</g><s n="vbmod"/></r></p></e>
     <e><p><l>want<g><b/>to</g><s n="vbmod"/></l><r>querer<s n="vbmod"/></r></p></e>
+
+<e r="RL"><p><l>be<g><b/>necessary</g><s n="vblex"/></l><r>haber<b/>que<s n="vbmod"/></r></p></e>
+
     <e><p><l>be<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e>
     <e r="RL"><p><l>be<s n="vbser"/></l><r>estar<s n="vblex"/></r></p></e>
     <e><p><l>abandon<s n="vblex"/></l><r>abandonar<s n="vblex"/></r></p></e>
@@ -15715,6 +15718,7 @@
     <e><p><l>confiscate<s n="vblex"/></l><r>confiscar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>confiscate<s n="vblex"/></l><r>incautar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>confront<s n="vblex"/></l><r>afrontar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>brave<s n="vblex"/></l><r>afrontar<s n="vblex"/></r></p></e>
     <e><p><l>confuse<s n="vblex"/></l><r>confundir<s n="vblex"/></r></p></e>
     <e><p><l>connect<s n="vblex"/></l><r>conectar<s n="vblex"/></r></p></e>
     <e><p><l>conquer<s n="vblex"/></l><r>conquistar<s n="vblex"/></r></p></e>
@@ -16426,7 +16430,8 @@
     <e r="LR"><p><l>merit<s n="vblex"/></l><r>merecer<s n="vblex"/></r></p></e>
     <e><p><l>milk<s n="vblex"/></l><r>ordeñar<s n="vblex"/></r></p></e>
     <e srl="mind"><p><l>mind<s n="vblex"/></l><r>importar<s n="vblex"/></r></p></e>
-    <e srl="miss"><p><l>miss<s n="vblex"/></l><r>perder<s n="vblex"/></r></p></e>
+    <e srl="miss" slr="perder D"><p><l>miss<s n="vblex"/></l><r>perder<s n="vblex"/></r></p></e>
+    <e slr="echar_de_menos"><p><l>miss<s n="vblex"/></l><r>echar<g><b/>de<b/>menos</g><s n="vblex"/></r></p></e>
     <e><p><l>mitigate<s n="vblex"/></l><r>mitigar<s n="vblex"/></r></p></e>
     <e><p><l>mix<s n="vblex"/></l><r>mezclar<s n="vblex"/></r></p></e>
     <e><p><l>moderate<s n="vblex"/></l><r>moderar<s n="vblex"/></r></p></e>
@@ -16976,6 +16981,7 @@
     <e><p><l>suspend<s n="vblex"/></l><r>suspender<s n="vblex"/></r></p></e>
     <e><p><l>sustain<s n="vblex"/></l><r>sostener<s n="vblex"/></r></p></e>
     <e><p><l>swear<s n="vblex"/></l><r>jurar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>vow<s n="vblex"/></l><r>jurar<s n="vblex"/></r></p></e>
     <e><p><l>sweat<s n="vblex"/></l><r>sudar<s n="vblex"/></r></p></e>
     <e><p><l>sweep<s n="vblex"/></l><r>barrer<s n="vblex"/></r></p></e>
     <e><p><l>swim<s n="vblex"/></l><r>nadar<s n="vblex"/></r></p></e>
@@ -18268,6 +18274,7 @@
     <e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL" c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
@@ -18654,7 +18661,8 @@
     <e><p><l>press<b/>conference<s n="n"/></l><r>rueda<g><b/>de<b/>prensa</g><s n="n"/><s n="f"/></r></p></e>
 
 <e a="prompsit2cdl"><p><l>banking<s n="adj"/></l><r>bancario<s n="adj"/></r></p></e>
-<e a="prompsit2cdl"><p><l>adressee<s n="adj"/></l><r>destinatario<s n="adj"/></r></p></e>
+<e a="prompsit2cdl" r="LR"><p><l>addressee<s n="n"/></l><r>destinatario<s n="n"/><s n="GD"/></r></p></e>
+<e a="prompsit2cdl" r="RL"><p><l>addressee<s n="n"/></l><r>destinatario<s n="n"/></r></p></e>
 <e a="prompsit2cdl"><p><l>pertaining<s n="adj"/></l><r>perteneciente<s n="adj"/><s n="mf"/></r></p></e>
 <e a="prompsit2cdl"><p><l>free<s n="adv"/></l><r>gratis<s n="adv"/></r></p></e>
 <e a="prompsit2cdl"><p><l>cancellation<s n="n"/></l><r>anulación<s n="n"/><s n="f"/></r></p></e>
@@ -18663,7 +18671,7 @@
 <e a="prompsit2cdl"><p><l>confirmation<s n="n"/></l><r>confirmación<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2cdl"><p><l>fulfillment<s n="n"/></l><r>cumplimiento<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2cdl"><p><l>quota<s n="n"/></l><r>cuota<s n="n"/><s n="f"/></r></p></e>
-<e a="prompsit2cdl" r="RL"><p><l>return<s n="n"/></l><r>devolución<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2cdl" r="RL"><p><l>return<s n="n"/></l><r>devolución<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>file<s n="n"/></l><r>fichero<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>mail<s n="n"/></l><r>mail<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>mail<s n="n"/></l><r>mensajería<s n="n"/><s n="f"/></r></p></e>
@@ -18678,13 +18686,13 @@
 <e a="prompsit2cdl" r="RL"><p><l>support<s n="vblex"/></l><r>apadrinar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>warn<s n="vblex"/></l><r>avisar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>offer<s n="vblex"/></l><r>brindar<s n="vblex"/></r></p></e>
-<e a="prompsit2cdl" r="RL"><p><l>yield<s n="vblex"/></l><r>ceder<s n="vblex"/></r></p></e>
+<e a="prompsit2cdl"><p><l>yield<s n="vblex"/></l><r>ceder<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl"><p><l>collaborate<s n="vblex"/></l><r>colaborar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl"><p><l>discriminate<s n="vblex"/></l><r>discriminar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>have<s n="vblex"/></l><r>disponer<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>demand<s n="vblex"/></l><r>exigir<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>give<s n="vblex"/></l><r>obsequiar<s n="vblex"/></r></p></e>
-<e a="prompsit2cdl"><p><l>fill<g><b/>up</g><s n="vblex"/></l><r>rellenar<s n="vblex"/></r></p></e>
+<e a="prompsit2cdl"><p><l>fill<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>rellenar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl"><p><l>terminate<s n="vblex"/></l><r>rescindir<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>exceed<s n="vblex"/></l><r>sobrepasar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>take<s n="vblex"/></l><r>tardar<s n="vblex"/></r></p></e>
@@ -18692,8 +18700,7 @@
 <e a="prompsit2cdl"><p><l>on-line<s n="adj"/></l><r>on-line<s n="adj"/><s n="mf"/></r></p></e>
 <e a="prompsit2cdl" r="RL"><p><l>explanation<s n="n"/></l><r>aclaración<s n="n"/><s n="f"/></r></p></e>
 
-<e a="prompsit2cdl" r="LR"><p><l>orientative<s n="adj"/></l><r>orientativo<s n="adj"/><s n="GD"/></r></p></e>
-<e a="prompsit2cdl" r="RL"><p><l>orientative<s n="adj"/></l><r>orientativo<s n="adj"/></r></p></e>
+<e a="prompsit2cdl" r="LR"><p><l>orientative<s n="adj"/></l><r>orientativo<s n="adj"/></r></p></e>
 
 <e a="prompsit2cdl"><p><l>pdf<s n="n"/><s n="acr"/></l><r>pdf<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 <e a="prompsit2cdl" r="LR"><p><l>subscriber<s n="n"/></l><r>suscriptor<s n="n"/><s n="GD"/></r></p></e>
@@ -18756,11 +18763,14 @@
 <e a="prompsit2cdl"><p><l>Pozuelo<b/>de<b/>Alarcón<s n="np"/><s n="loc"/></l><r>Pozuelo<b/>de<b/>Alarcón<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 
 
-<e a="prompsit2cdl"><p><l>discontinue<s n="vblex"/></l><r>descatalogar<s n="vblex"/></r></p></e>
+<e a="prompsit2cdl" r="RL"><p><l>discontinue<s n="vblex"/></l><r>descatalogar<s n="vblex"/></r></p></e>
+<e a="prompsit2cdl" r="LR"><p><l>discontinue<s n="vblex"/></l><r>interrumpir<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl"><p><l>encode<s n="vblex"/></l><r>encriptar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl"><p><l>scheme<s n="vblex"/></l><r>maquinar<s n="vblex"/></r></p></e>
 
 
+<e><p><l>fed<b/>up<s n="adj"/></l><r>harto<s n="adj"/></r></p></e>
+<e r="LR"><p><l>narrowly<s n="adv"/></l><r>por<b/>poco<s n="adv"/></r></p></e>
 
 
      </section>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <!-- symbols -->
@@ -63617,7 +63617,7 @@
       <par n="accept__vblex"/>
     </e>
     <e lm="defy">
-      <i>defy</i>
+      <i>def</i>
       <par n="appl/y__vblex"/>
     </e>
     <e lm="degrade">
@@ -68319,20 +68319,20 @@
         <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pres"/></r>
       </p>
     </e>
-    <e lm="she's">
+    <e lm="she's" i="yes" c="el tagger es confon, és més freqüent 'she is'">
       <p>
         <l>she's</l>
         <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
-    <e lm="he's">
+    <e lm="he's" i="yes" c="el tagger es confon, és més freqüent 'he is'">
       <p>
         <l>he's</l>
         <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
-    <!--<e lm="it's"><p><l>it's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-<e lm="we've"><p><l>we've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e> -->
+    <e lm="it's" i="yes" c="el tagger es confon, és més freqüent 'she is'"><p><l>it's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+<e lm="we've"><p><l>we've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
     <e lm="they've">
       <p>
         <l>they've</l>
@@ -68708,6 +68708,10 @@
         <r><g><b/>hesitant</g></r>
       </p>
     </e>
+
+<e lm="be necessary" r="RL"><i></i><par n="/be__vblex"/><p><l><b/>necessary</l><r><g><b/>necessary</g></r></p></e>
+<e lm="be necessary to" r="RL"><i></i><par n="/be__vblex"/><p><l><b/>necessary<b/>to</l><r><g><b/>necessary<b/>to</g></r></p></e>
+
     <e lm="hous">
       <i>hous</i>
       <par n="liv/e__vblex"/>
@@ -72456,10 +72460,18 @@
       <i>most</i>
       <par n="both__prn"/>
     </e>
+  <!--  <e lm="most of">
+      <i>most<b/>of</i>
+      <par n="enough__det"/>
+    </e> -->
+  <e lm="most of"><p><l>most<b/>of</l><r>most<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/><j/>of<s n="pr"/></r></p></e>
+
     <e lm="no one">
       <i>no<b/>one</i>
       <par n="everyone__prn"/>
     </e>
+    <e lm="no-one" r="LR"><p><l>no-one</l><r>no<b/>one</r></p><par n="everyone__prn"/></e>
+
     <e lm="nobody">
       <i>nobody</i>
       <par n="everyone__prn"/>
@@ -73357,11 +73369,11 @@
 	  <par n="Barcelona__np"/> 
   </e>
 
-<e lm="unemployed"><i>unemployed</i><par n="east__n"/></e>
-<e lm="unemployed person"><i>unemployed<b/>person</i><par n="personnel__n"/></e>
+<e lm="unemployed"><i>unemployed</i><par n="personnel__n"/></e>
+<e lm="unemployed person"><i>unemployed<b/>person</i><par n="east__n"/></e>
 
 <e lm="banking" a="prompsit2cdl"><i>banking</i><par n="expensive__adj"/></e>
-<e lm="adressee" a="prompsit2cdl"><i>adressee</i><par n="expensive__adj"/></e>
+<e lm="addressee" a="prompsit2cdl"><i>addressee</i><par n="house__n"/></e>
 <e lm="pertaining" a="prompsit2cdl"><i>pertaining</i><par n="expensive__adj"/></e>
 <e lm="free" a="prompsit2cdl"><i>free</i><par n="maybe__adv"/></e>
 
@@ -73378,7 +73390,7 @@
 
 <e lm="collaborate" a="prompsit2cdl"><i>collaborate</i><par n="accept__vblex"/></e>
 <e lm="discriminate" a="prompsit2cdl"><i>discriminate</i><par n="accept__vblex"/></e>
-<e lm="fill up" a="prompsit2cdl"><i>fill</i><par n="accept__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+<e lm="fill up" a="prompsit2cdl"><i>fill</i><par n="accept__vblex" sa="sep"/><par n="probj_dem__prn"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
 <e lm="terminate" a="prompsit2cdl"><i>terminate</i><par n="accept__vblex"/></e>
 <e lm="visualize" a="prompsit2cdl"><i>visualize</i><par n="accept__vblex"/></e>
 
@@ -73403,7 +73415,6 @@
 <e lm="http" a="prompsit2cdl"><i>http</i><par n="BBC__n"/></e>
 <e lm="https" a="prompsit2cdl"><i>https</i><par n="BBC__n"/></e>
 <e lm="mp3" a="prompsit2cdl"><i>mp3</i><par n="BBC__n"/></e>
-<e lm="dvd" a="prompsit2cdl"><i>dvd</i><par n="BBC__n"/></e>
 <e lm="jan." a="prompsit2cdl"><i>jan.</i><par n="east__n"/></e>
 <e lm="feb." a="prompsit2cdl"><i>feb.</i><par n="east__n"/></e>
 <e lm="mar." a="prompsit2cdl"><i>mar.</i><par n="east__n"/></e>
@@ -73421,7 +73432,7 @@
 <e lm="cumulative" a="prompsit2cdl"><i>cumulative</i><par n="expensive__adj"/></e>
 <e lm="off-line" a="prompsit2cdl"><i>off-line</i><par n="expensive__adj"/></e>
 <e lm="offline" a="prompsit2cdl" r="LR"><p><l>offline</l><r>off-line</r></p><par n="expensive__adj"/></e>
-<e lm="truthful" a="prompsit2cdl"><i>truthful</i><par n="expensive__adj"/></e>
+<e lm="truthful" a="prompsit2cdl"><i>truthful</i><par n="common/__adj"/></e>
 
 <e lm="Explorer" a="prompsit2cdl"><i>Explorer</i><par n="Linux__np"/></e>
 <e lm="Vía de las dos Castillas" a="prompsit2cdl"><i>Vía<b/>de<b/>las<b/>dos<b/>Castillas</i><par n="Barcelona__np"/></e>
@@ -73437,11 +73448,15 @@
 <e lm="Trust" a="prompsit2cdl"><i>Trust</i><par n="Linux__np"/></e>
 <e lm="Pozuelo" a="prompsit2cdl"><i>Pozuelo</i><par n="Barcelona__np"/></e>
 <e lm="Pozuelo de Alarcón" a="prompsit2cdl"><i>Pozuelo<b/>de<b/>Alarcón</i><par n="Barcelona__np"/></e>
-<e lm="discontinue" a="prompsit2cdl"><i>discontinue</i><par n="accept__vblex"/></e>
-<e lm="encode" a="prompsit2cdl"><i>encode</i><par n="accept__vblex"/></e>
-<e lm="scheme" a="prompsit2cdl"><i>scheme</i><par n="accept__vblex"/></e>
+<e lm="discontinue" a="prompsit2cdl"><i>discontinue</i><par n="liv/e__vblex"/></e>
+<e lm="encode" a="prompsit2cdl"><i>encode</i><par n="liv/e__vblex"/></e>
+<e lm="scheme" a="prompsit2cdl"><i>scheme</i><par n="liv/e__vblex"/></e>
 
+<e lm="fed up"><i>fed<b/>up</i><par n="expensive__adj"/></e>
+<e lm="brave"><i>brav</i><par n="liv/e__vblex"/></e>
 
+<e lm="narrowly"><i>narrowly</i><par n="maybe__adv"/></e>
+<e lm="vow"><i>vow</i><par n="accept__vblex"/></e>
   </section>
  
 

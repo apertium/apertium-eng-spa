@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
 <!--
 	Dictionary:
 	Sections: 1
@@ -2692,6 +2692,12 @@
         <p>
           <l/>
           <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l/>
+          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -124015,6 +124021,11 @@
         <r><g><b/>que</g></r>
       </p>
     </e>
+
+    <e lm="haber que">
+      <i>h</i>
+      <par n="h/aber_que__vbmod"/>
+    </e>
     <e lm="ser">
       <par n="/ser__vbser"/>
     </e>
@@ -140592,6 +140603,10 @@
       <i>por<b/>persona</i>
       <par n="ahora__adv"/>
     </e>
+    <e lm="por poco" r="RL">
+      <i>por<b/>poco</i>
+      <par n="ahora__adv"/>
+    </e>
     <e lm="por pitos o flautas">
       <i>por<b/>pitos<b/>o<b/>flautas</i>
       <par n="ahora__adv"/>
@@ -141649,6 +141664,31 @@
         <r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
+      <e lm="se la" r="LR" c="MG: revisar reflexiu a següents pronoms">
+      <p>
+        <l>se<b/>la</l>
+        <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e lm="se las" r="LR">
+      <p>
+        <l>se<b/>las</l>
+        <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e lm="se lo" r="LR">
+      <p>
+        <l>se<b/>lo</l>
+        <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e lm="se los" r="LR">
+      <p>
+        <l>se<b/>los</l>
+        <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+  
     <e lm="adonde">
       <i>adonde</i>
       <par n="adonde__rel"/>
@@ -142460,8 +142500,16 @@
       </e>
 
 
+    <e lm="echar de menos">
+      <i>ech</i>
+      <par n="abandon/ar__vblex"/>
+      <p>
+        <l><b/>de<b/>menos</l>
+        <r><g><b/>de<b/>menos</g></r>
+      </p>
+    </e>
 <e lm="bancario" a="prompsit2cdl"><i>bancari</i><par n="absolut/o__adj"/></e>
-<e lm="destinatario" a="prompsit2cdl"><i>destinatari</i><par n="absolut/o__adj"/></e>
+<e lm="destinatario" a="prompsit2cdl"><i>destinatari</i><par n="abogad/o__n"/></e>
 <e lm="perteneciente" a="prompsit2cdl"><i>perteneciente</i><par n="abundante__adj"/></e>
 <e lm="gratis" a="prompsit2cdl"><i>gratis</i><par n="ahora__adv"/></e>
 <e lm="anulación" a="prompsit2cdl"><i>anulaci</i><par n="acci/ón__n"/></e>
@@ -142480,7 +142528,7 @@
 <e lm="ocio" a="prompsit2cdl"><i>ocio</i><par n="abismo__n"/></e>
 <e lm="privacidad" a="prompsit2cdl" r="LR"><i>privacidad</i><par n="accesibilidad__n"/></e>
 <e lm="rectificación" a="prompsit2cdl"><i>rectificaci</i><par n="acci/ón__n"/></e>
-<e lm="servidor" a="prompsit2cdl"><i>servidor</i><par n="señor__n"/></e>
+<e lm="servidor" a="prompsit2cdl"><i>servidor</i><par n="abril__n"/></e>
 <e lm="ánimo" a="prompsit2cdl" r="LR"><i>ánimo</i><par n="abismo__n"/></e>
 <e lm="anular" a="prompsit2cdl" r="LR"><i>anul</i><par n="abandon/ar__vblex"/></e>
 <e lm="anular" a="prompsit2cdl" r="LR"><p><l>anúl</l><r>anul</r></p><par n="abandón/ar__vblex"/></e>
@@ -142526,7 +142574,7 @@
 <e lm="on line" a="prompsit2cdl"><i>on<b/>line</i><par n="multimedia__adj"/></e>
 <e lm="estafeta" a="prompsit2cdl"><i>estafeta</i><par n="abeja__n"/></e>
 <e lm="preventa" a="prompsit2cdl"><i>preventa</i><par n="abeja__n"/></e>
-<e lm="dd/mm/aaaa" a="prompsit2cdl"><i>dd/mm/aaaa</i><par n="cuaresma__n"/></e>
+<e lm="dd/mm/aaaa" a="prompsit2cdl"><i>dd/mm/aaaa</i><par n="atletismo__n"/></e>
 <e lm="link" a="prompsit2cdl" r="LR"><i>link</i><par n="abismo__n"/></e>
 <e lm="best seller" a="prompsit2cdl"><i>best<b/>seller</i><par n="abismo__n"/></e>
 <e lm="website" a="prompsit2cdl"><i>website</i><par n="abismo__n"/></e>
@@ -142548,7 +142596,7 @@
 <e lm="nov." a="prompsit2cdl"><i>nov.</i><par n="atletismo__n"/></e>
 <e lm="dic." a="prompsit2cdl"><i>dic.</i><par n="atletismo__n"/></e>
 <e lm="att." a="prompsit2cdl"><i>att.</i><par n="atletismo__n"/></e>
-<e lm="ud." a="prompsit2cdl" r="LR"><i>ud.</i><par n="atletismo__n"/></e>
+<e lm="ud." a="prompsit2cdl" r="LR"><i>ud.</i><par n="cuaresma__n"/></e>
 <e lm="inc." a="prompsit2cdl"><i>inc.</i><par n="atletismo__n"/></e>
 <e lm="certificador" a="prompsit2cdl"><i>certificador</i><par n="abrumador__adj"/></e>
 <e lm="acumulable" a="prompsit2cdl"><i>acumulable</i><par n="abundante__adj"/></e>
@@ -142576,7 +142624,10 @@
 <e lm="maquinar" a="prompsit2cdl"><i>maquin</i><par n="abandon/ar__vblex"/></e>
 <e lm="maquinar" a="prompsit2cdl"><i>maquín</i><par n="abandón/ar__vblex"/></e>
 
-
+    <e lm="harto">
+      <i>hart</i>
+      <par n="abstract/o__adj"/>
+    </e>
 
   </section>
  

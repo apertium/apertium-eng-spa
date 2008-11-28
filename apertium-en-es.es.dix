@@ -71119,6 +71119,10 @@
       <i>si</i>
       <par n="a_fe_que__cnjadv"/>
     </e>
+    <e lm="por si">
+      <i>por<b/>si</i>
+      <par n="a_fe_que__cnjadv"/>
+    </e>
     <e lm="como">
       <i>como</i>
       <par n="a_fe_que__cnjadv"/>
@@ -71214,6 +71218,10 @@
     </e>
     <e lm="cuando proceda" a="eleka">
       <i>cuando<b/>proceda</i>
+      <par n="a_fe_que__cnjadv"/>
+    </e>
+    <e lm="dado que">
+      <i>dado<b/>que</i>
       <par n="a_fe_que__cnjadv"/>
     </e>
     <e lm="como">
@@ -119840,6 +119848,12 @@
       <i>grave</i>
       <par n="abundante__adj"/>
     </e>
+    <e lm="gravísimo"><p><l>gravísimo</l><r>grave<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="gravísimo"><p><l>gravísima</l><r>grave<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="gravísimo"><p><l>gravísimos</l><r>grave<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="gravísimo"><p><l>gravísimas</l><r>grave<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+
+
     <e lm="griego">
       <i>grieg</i>
       <par n="absolut/o__adj"/>
@@ -124033,6 +124047,17 @@
       <i>ab</i>
       <par n="ab/rir__vblex"/>
     </e>
+    <e lm="relatar">
+      <i>relat</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="relatar">
+      <p>
+        <l>relát</l>
+        <r>relat</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
     <e lm="abandonar">
       <i>abandon</i>
       <par n="abandon/ar__vblex"/>
@@ -126397,6 +126422,26 @@
         <r>califi</r>
       </p>
       <par n="atá/car__vblex"/>
+    </e>
+    
+    <e lm="calificar de">
+      <i>califi</i>
+      <par n="ata/car__vblex"/>
+      <p>
+        <l><b/>de</l>
+        <r><g><b/>de</g></r>
+      </p>
+    </e>
+    <e lm="calificar de">
+      <p>
+        <l>califí</l>
+        <r>califi</r>
+      </p>
+      <par n="atá/car__vblex"/>
+      <p>
+        <l><b/>de</l>
+        <r><g><b/>de</g></r>
+      </p>
     </e>
     <e lm="calmar">
       <i>calm</i>
@@ -140599,6 +140644,10 @@
       <i>por<b/>otro<b/>lado</i>
       <par n="ahora__adv"/>
     </e>
+    <e lm="por otra parte">
+      <i>por<b/>otra<b/>parte</i>
+      <par n="ahora__adv"/>
+    </e>
     <e lm="por persona">
       <i>por<b/>persona</i>
       <par n="ahora__adv"/>
@@ -142114,6 +142163,24 @@
       <par n="contde__pr"/>
     </e>
 
+    <e lm="más que">
+      <i>más<b/>que</i>
+      <par n="a__pr"/>
+    </e>
+    <e lm="más de">
+      <i>más<b/></i>
+      <par n="contde__pr"/>
+    </e>
+    <e lm="menos que">
+      <i>menos<b/>que</i>
+      <par n="a__pr"/>
+    </e>
+    <e lm="menos de">
+      <i>menos<b/></i>
+      <par n="contde__pr"/>
+    </e>
+
+<e lm="vía"><i>vía</i><par n="a__pr"/></e>
 
 <e lm="Dow Jones">
      <i>Dow<b/>Jones</i>
@@ -142443,6 +142510,17 @@
       <par n="vénd/er__vblex"/>
     </e>
 
+    <e lm="clavar">
+      <i>clav</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="clavar">
+      <p>
+        <l>cláv</l>
+        <r>clav</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
 
     <e lm="empaquetar">
         <i>empaquet</i>
@@ -142500,6 +142578,15 @@
       </e>
 
 
+    <e lm="fecha límite">
+      <i>fecha</i>
+      <par n="abeja__n"/>
+         <p>
+          <l><b/>límite</l>
+          <r><g><b/>límite</g></r>
+	</p>
+    </e>
+
     <e lm="echar de menos">
       <i>ech</i>
       <par n="abandon/ar__vblex"/>
@@ -142508,6 +142595,14 @@
         <r><g><b/>de<b/>menos</g></r>
       </p>
     </e>
+
+
+<e lm="vía telefónica"><i>vía<b/>telefónica</i><par n="ahora__adv"/></e>
+
+
+<e lm="querido">  <i>querid</i>  <par n="abstract/o__adj"/></e>
+
+
 <e lm="bancario" a="prompsit2cdl"><i>bancari</i><par n="absolut/o__adj"/></e>
 <e lm="destinatario" a="prompsit2cdl"><i>destinatari</i><par n="abogad/o__n"/></e>
 <e lm="perteneciente" a="prompsit2cdl"><i>perteneciente</i><par n="abundante__adj"/></e>

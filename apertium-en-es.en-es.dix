@@ -8102,6 +8102,7 @@
     <e><p><l>darkness<s n="n"/></l><r>oscuridad<s n="n"/><s n="f"/></r></p></e>
     <e c="dada (cat) en plural (el tagger hauria d'escollar sg o pl en anglès). MG: Falta fer entrada específica ca-en per a 'dada' en singular, si cal (?)"><p><l>data<s n="n"/></l><r>dato<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>date<s n="n"/></l><r>fecha<s n="n"/><s n="f"/></r></p></e>
+    <e><p>        <l>deadline<s n="n"/></l>        <r>fecha<g><b/>límite</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dating<s n="n"/></l><r>datación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>daughter<s n="n"/></l><r>hijo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>day<s n="n"/></l><r>día<s n="n"/><s n="m"/></r></p></e>
@@ -13954,6 +13955,7 @@
     <e><p><l>gradual<s n="adj"/></l><r>gradual<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>graphic<s n="adj"/></l><r>gráfico<s n="adj"/></r></p></e>
     <e><p><l>grave<s n="adj"/><s n="sint"/></l><r>grave<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>grave<s n="adj"/><s n="sint"/></l><r>grave<s n="adj"/><s n="sup"/></r></p></e>
     <e r="LR"><p><l>gray<s n="adj"/><s n="sint"/></l><r>gris<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>great<s n="adj"/><s n="sint"/></l><r>grande<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>great<s n="adj"/><s n="sint"/><s n="comp"/></l><r>mayor<s n="adj"/><s n="mf"/></r></p></e>
@@ -15274,6 +15276,7 @@
     <e><p><l>before<s n="cnjadv"/></l><r>antes<b/>de<b/>que<s n="cnjadv"/></r></p></e>
     <e r="LR" c="both David and his wife - tant David com la seva dona"><p><l>before<s n="cnjadv"/></l><r>antes<b/>de<b/>que<s n="cnjadv"/></r></p></e>
     <e r="LR"><p><l>for<s n="cnjadv"/></l><r>puesto<b/>que<s n="cnjadv"/></r></p></e>
+    <e><p><l>in<b/>case<s n="cnjadv"/></l><r>por<b/>si<s n="cnjadv"/></r></p></e>
     <e><p><l>if<s n="cnjadv"/></l><r>si<s n="cnjadv"/></r></p></e>
     <e><p><l>on<b/>condition<b/>that<s n="cnjadv"/></l><r>a<b/>condición<b/>de<b/>que<s n="cnjadv"/></r></p></e>
     <e r="LR"><p><l>provided<s n="cnjadv"/></l><r>si<s n="cnjadv"/></r></p></e>
@@ -15281,6 +15284,7 @@
     <e r="RL" c="per ara RL perquè s'equivoca molt amb la 'pr'"><p><l>since<s n="cnjadv"/></l><r>por<b/>cuanto<b/>que<s n="cnjadv"/></r></p></e>
     <e r="RL" c="per ara RL perquè s'equivoca molt amb la 'pr'"><p><l>since<s n="cnjadv"/></l><r>puesto<b/>que<s n="cnjadv"/></r></p></e>
     <e r="RL" c="per ara RL perquè s'equivoca molt amb la 'pr'"><p><l>since<s n="cnjadv"/></l><r>ya<b/>que<s n="cnjadv"/></r></p></e>
+    <e r="RL" c="per ara RL perquè s'equivoca molt amb la 'pr'"><p><l>since<s n="cnjadv"/></l><r>dado<b/>que<s n="cnjadv"/></r></p></e>
     <e><p><l>so<s n="cnjadv"/></l><r>así<b/>que<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>so<b/>that<s n="cnjadv"/></l><r>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>so<b/>that<s n="cnjadv"/></l><r>de<b/>forma<b/>que<s n="cnjadv"/></r></p></e>
@@ -16681,7 +16685,8 @@
     <e><p><l>reiterate<s n="vblex"/></l><r>reiterar<s n="vblex"/></r></p></e>
     <e><p><l>reject<s n="vblex"/></l><r>rehusar<s n="vblex"/></r></p></e>
     <e><p><l>rejuvenate<s n="vblex"/></l><r>rejuvenecer<s n="vblex"/></r></p></e>
-    <e><p><l>relate<s n="vblex"/></l><r>relacionar<s n="vblex"/></r></p></e>
+    <e slr="relacionar D"><p><l>relate<s n="vblex"/></l><r>relacionar<s n="vblex"/></r></p></e>
+    <e slr="relatar"><p><l>relate<s n="vblex"/></l><r>relatar<s n="vblex"/></r></p></e>
     <e><p><l>relax<s n="vblex"/></l><r>relajar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>release<s n="vblex"/></l><r>soltar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>release<s n="vblex"/></l><r>liberar<s n="vblex"/></r></p></e>
@@ -16844,7 +16849,8 @@
     <e r="RL"><p><l>show<s n="vblex"/></l><r>demostrar<s n="vblex"/></r></p></e>
     <e><p><l>show<s n="vblex"/></l><r>mostrar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>show<g><b/>up</g><s n="vblex"/></l><r>aparecer<s n="vblex"/></r></p></e>
-    <e><p><l>shower<s n="vblex"/></l><r>llover<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>shower<s n="vblex"/></l><r>llover<s n="vblex"/></r></p></e>
+    <e><p><l>rain<s n="vblex"/></l><r>llover<s n="vblex"/></r></p></e>
     <e><p><l>shun<s n="vblex"/></l><r>rehuir<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>shut<s n="vblex"/></l><r>encerrar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>shut<s n="vblex"/></l><r>cerrar<s n="vblex"/></r></p></e>
@@ -17141,8 +17147,10 @@
     <e><p><l>wrap<s n="vblex"/></l><r>envolver<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>wrap<s n="vblex"/></l><r>liar<s n="vblex"/></r></p></e>
     <e><p><l>write<s n="vblex"/></l><r>escribir<s n="vblex"/></r></p></e>
-    <e><p><l>zone<s n="vblex"/></l><r>calificar<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>zone<s n="vblex"/></l><r>cualificar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>zone<s n="vblex"/></l><r>calificar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>describe<s n="vblex"/></l><r>calificar<s n="vblex"/></r></p></e>
+    <e><p><l>describe<g><b/>as</g><s n="vblex"/></l><r>calificar<g><b/>de</g><s n="vblex"/></r></p></e>
+    <e><p><l>qualify<s n="vblex"/></l><r>cualificar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>apologize<s n="vblex"/></l><r>pedir<g><b/>disculpas</g><s n="vblex"/></r></p></e>
     <e><p><l>be<g><b/>hungry</g><s n="vblex"/></l><r>tener<g><b/>hambre</g><s n="vblex"/></r></p></e>
     <e r="RL"><p><l>annoy<s n="vblex"/></l><r>dar<g><b/>la<b/>lata</g><s n="vblex"/></r></p></e>
@@ -17380,7 +17388,8 @@
     <e><p><l>downwards<s n="adv"/></l><r>hacia<b/>abajo<s n="adv"/></r></p></e>
     <e><p><l>dramatically<s n="adv"/></l><r>dramáticamente<s n="adv"/></r></p></e>
     <e><p><l>drastically<s n="adv"/></l><r>drásticamente<s n="adv"/></r></p></e>
-    <e><p><l>during<b/>the<b/>night<s n="adv"/></l><r>por<b/>la<b/>noche<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>during<b/>the<b/>night<s n="adv"/></l><r>por<b/>la<b/>noche<s n="adv"/></r></p></e>
+    <e><p><l>at<b/>night<s n="adv"/></l><r>por<b/>la<b/>noche<s n="adv"/></r></p></e>
     <e r="RL" srl="early"><p><l>early<s n="adv"/></l><r>pronto<s n="adv"/></r></p></e>
     <e><p><l>early<s n="adv"/></l><r>temprano<s n="adv"/></r></p></e>
     <e r="LR"><p><l>earnestly<s n="adv"/></l><r>sinceramente<s n="adv"/></r></p></e>
@@ -17629,6 +17638,13 @@
     <e><p><l>instead<s n="adv"/></l><r>en<b/>cambio<s n="adv"/></r></p></e>
     <e><p><l>insufficiently<s n="adv"/></l><r>insuficientemente<s n="adv"/></r></p></e>
     <e><p><l>internationally<s n="adv"/></l><r>internacionalmente<s n="adv"/></r></p></e>
+
+    <e>
+      <p>
+        <l>telephonically<s n="adv"/></l>
+        <r>vía<b/>telefónica<s n="adv"/></r>
+      </p>
+    </e>
     <e r="LR"><p><l>intentionally<s n="adv"/></l><r>intencionadamente<s n="adv"/></r></p></e>
     <e><p><l>interestingly<s n="adv"/></l><r>curiosamente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>interestingly<b/>enough<s n="adv"/></l><r>curiosamente<s n="adv"/></r></p></e>
@@ -17779,6 +17795,7 @@
     <e r="LR"><p><l>on<b/>the<b/>one<b/>hand<s n="adv"/></l><r>por<b/>un<b/>lado<s n="adv"/></r></p></e>
     <e><p><l>on<b/>the<b/>one<b/>hand<s n="adv"/></l><r>por<b/>un<b/>lado<s n="adv"/></r></p></e>
     <e><p><l>on<b/>the<b/>other<b/>hand<s n="adv"/></l><r>por<b/>otro<b/>lado<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>on<b/>the<b/>other<b/>hand<s n="adv"/></l><r>por<b/>otra<b/>parte<s n="adv"/></r></p></e>
     <e r="LR"><p><l>on<b/>the<b/>other<b/>side<s n="adv"/></l><r>por<b/>otro<b/>lado<s n="adv"/></r></p></e>
     <e r="RL"><p><l>on<b/>the<b/>quiet<s n="adv"/></l><r>a<b/>la<b/>chita<b/>callando<s n="adv"/></r></p></e>
     <e><p><l>on<b/>the<b/>sly<s n="adv"/></l><r>a<b/>hurtadillas<s n="adv"/></r></p></e>
@@ -18447,7 +18464,15 @@
     <e r="RL"><p><l>after<s n="pr"/></l><r>en<b/>pos<b/>de<s n="pr"/></r></p></e>
     <e c="@check"><p><l>right<b/>in<b/>front<b/>of<s n="pr"/></l><r>justo<b/>delante<b/>de<s n="pr"/></r></p></e>
     <e r="LR"><p><l>across<s n="pr"/></l><r>a<b/>través<b/>de<s n="pr"/></r></p></e>
-    
+
+
+    <e r="LR"><p><l>rather<b/>than<s n="pr"/></l><r>más<b/>que<s n="pr"/></r></p></e>
+    <e c="more than five"><p><l>more<b/>than<s n="pr"/></l><r>más<b/>de<s n="pr"/></r></p></e>
+    <e r="RL" c="MG: en direcció en-ca, cal fer per transfer el canvi 'més de' 'més que'"><p><l>more<b/>than<s n="pr"/></l><r>más<b/>que<s n="pr"/></r></p></e>
+    <e><p><l>less<b/>than<s n="pr"/></l><r>menos<b/>de<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>less<b/>than<s n="pr"/></l><r>menos<b/>que<s n="pr"/></r></p></e>    
+    <e><p><l>via<s n="pr"/></l><r>vía<s n="pr"/></r></p></e>
+
     <!-- numerals -->
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?%</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
@@ -18650,12 +18675,15 @@
     <e><p><l>no<b/>man's<b/>land<s n="n"/></l><r>tierra<g><b/>de<b/>nadie</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Pan-Germanism<s n="n"/></l><r>pangermanismo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>retreat<s n="vblex"/></l><r>retroceder<s n="vblex"/></r></p></e>
+    <e><p><l>nail<s n="vblex"/></l><r>clavar<s n="vblex"/></r></p></e>
     <e><p><l>reserve<b/>currency<s n="n"/></l><r>moneda<g><b/>de<b/>reserva</g><s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>anchor<b/>currency<s n="n"/></l><r>moneda<g><b/>de<b/>reserva</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>microwave<b/>oven<s n="n"/></l><r>horno<g><b/>microondas</g><s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>microwave<b/>oven<s n="n"/></l><r>horno<g><b/>de<b/>microondas</g><s n="n"/><s n="m"/></r></p></e>
     <e><p><l>microwave<s n="n"/></l><r>microonda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>press<b/>conference<s n="n"/></l><r>rueda<g><b/>de<b/>prensa</g><s n="n"/><s n="f"/></r></p></e>
+
+<e><p><l>dear<s n="adj"/></l><r>querido<s n="adj"/></r></p></e>
 
 <e a="prompsit2cdl"><p><l>banking<s n="adj"/></l><r>bancario<s n="adj"/></r></p></e>
 <e a="prompsit2cdl" r="LR"><p><l>addressee<s n="n"/></l><r>destinatario<s n="n"/><s n="GD"/></r></p></e>

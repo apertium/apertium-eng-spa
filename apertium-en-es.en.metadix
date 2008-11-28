@@ -44315,6 +44315,10 @@
       <i>line</i>
       <par n="house__n"/>
     </e>
+    <e lm="deadline">
+      <i>deadline</i>
+      <par n="house__n"/>
+    </e>
     <e lm="lineage">
       <i>lineage</i>
       <par n="house__n"/>
@@ -63732,6 +63736,8 @@
       <i>describ</i>
       <par n="liv/e__vblex"/>
     </e>
+    <e lm="describe as" r="RL"><i>describ</i><par n="liv/e__vblex"/><p><l><b/>as</l><r><g><b/>as</g></r></p></e>
+
     <e lm="desecrate">
       <i>desecrat</i>
       <par n="liv/e__vblex"/>
@@ -67894,6 +67900,10 @@
       <i>train</i>
       <par n="accept__vblex"/>
     </e>
+    <e lm="rain">
+      <i>rain</i>
+      <par n="accept__vblex"/>
+    </e>
     <e lm="transact">
       <i>transact</i>
       <par n="accept__vblex"/>
@@ -69041,7 +69051,7 @@
       <i>at<b/>hand</i>
       <par n="maybe__adv"/>
     </e>
-    <e lm="at last">
+    <e lm="at last" r="RL">
       <i>at<b/>last</i>
       <par n="maybe__adv"/>
     </e>
@@ -71981,6 +71991,8 @@
       <i>ready</i>
       <par n="maybe__adv"/>
     </e>
+    <e lm="at night"><i>at<b/>night</i><par n="maybe__adv"/></e>
+
     <!-- conjunctions -->
     <e lm="and">
       <i>and</i>
@@ -72112,6 +72124,10 @@
     </e>
     <e lm="whether">
       <i>whether</i>
+      <par n="after__cnjadv"/>
+    </e>
+    <e lm="in case" r="RL">
+      <i>in<b/>case</i>
       <par n="after__cnjadv"/>
     </e>
     <e lm="while">
@@ -72624,6 +72640,16 @@
       <i>about</i>
       <par n="at__pr"/>
     </e>
+<e lm="rather than"><i>rather<b/>than</i><par n="at__pr"/></e>
+<e lm="more than"><i>more<b/>than</i><par n="at__pr"/></e>
+<e lm="less than"><i>less<b/>than</i><par n="at__pr"/></e>
+
+<e lm="via"><i>via</i><par n="at__pr"/></e>
+<e lm="telephonically">
+  <i>telephonically</i>
+  <par n="maybe__adv"/>
+</e>
+
     <e lm="above">
       <i>above</i>
       <par n="at__pr"/>
@@ -73328,6 +73354,8 @@
     <par n="Mark__np"/>
   </e>
 
+<e lm="qualify"><i>qualif</i><par n="appl/y__vblex"/></e>
+
   <e lm="retreat">
     <i>retreat</i> 
     <par n="accept__vblex"/> 
@@ -73372,6 +73400,7 @@
 <e lm="unemployed"><i>unemployed</i><par n="personnel__n"/></e>
 <e lm="unemployed person"><i>unemployed<b/>person</i><par n="east__n"/></e>
 
+<e lm="dear"><i>dear</i><par n="long/__adj"/></e>
 <e lm="banking" a="prompsit2cdl"><i>banking</i><par n="expensive__adj"/></e>
 <e lm="addressee" a="prompsit2cdl"><i>addressee</i><par n="house__n"/></e>
 <e lm="pertaining" a="prompsit2cdl"><i>pertaining</i><par n="expensive__adj"/></e>
@@ -73457,6 +73486,7 @@
 
 <e lm="narrowly"><i>narrowly</i><par n="maybe__adv"/></e>
 <e lm="vow"><i>vow</i><par n="accept__vblex"/></e>
+<e lm="nail"><i>nail</i><par n="accept__vblex"/></e>
   </section>
  
 

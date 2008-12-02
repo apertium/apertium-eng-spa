@@ -7287,8 +7287,9 @@
     <e><p><l>brick<s n="n"/></l><r>ladrillo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bricklayer<s n="n"/></l><r>albañil<s n="n"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>bricklayer<s n="n"/></l><r>paleta<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>bridegroom<s n="n"/></l><r>novio<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>bridegroom<s n="n"/></l><r>novio<s n="n"/></r></p></e>
+    <e r="LR"><p><l>bridegroom<s n="n"/></l><r>novio<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>groom<s n="n"/></l><r>novio<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>bride<s n="n"/></l><r>novio<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bridge<s n="n"/></l><r>puente<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>brink<s n="n"/></l><r>cariz<s n="n"/><s n="m"/></r></p></e>
     <e srl="broadcast D"><p><l>broadcast<s n="n"/></l><r>emisión<s n="n"/><s n="f"/></r></p></e>
@@ -11970,10 +11971,10 @@
     <e><p><l>stimulation<s n="n"/></l><r>estimulación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stimulus<s n="n"/></l><r>estímulo<s n="n"/><s n="m"/></r></p></e>
     <e srl="sting"><p><l>sting<s n="n"/></l><r>picadura<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>stink<s n="n"/></l><r>ajetreo<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>stink<s n="n"/></l><r>ajetreo<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>stink<s n="n"/></l><r>hedor<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>stink<s n="n"/></l><r>pudor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bustle<s n="n"/></l><r>ajetreo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stink<s n="n"/></l><r>hedor<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>modesty<s n="n"/></l><r>pudor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>modesty<s n="n"/></l><r>modestia<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stock<s n="n"/></l><r>stock<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>stockholder<s n="n"/></l><r>accionista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>stolidness<s n="n"/></l><r>impasibilidad<s n="n"/><s n="f"/></r></p></e>
@@ -18362,8 +18363,6 @@
     <e r="LR" c="MG: 'Such thing as a computer' = 'com un' - arreglar si es pot"><p><l>as<b/>a<s n="pr"/></l><r>como<s n="pr"/></r></p></e>
     <e><p><l>as<b/>a<b/>result<b/>of<s n="pr"/></l><r>a<b/>raíz<b/>de<s n="pr"/></r></p></e>
     <e r="LR"><p><l>as<b/>for<s n="pr"/></l><r>en<b/>cuanto<b/>a<s n="pr"/></r></p></e>
-    <e r="RL"><p><l>as<b/>regards<s n="pr"/></l><r>con<b/>respecto<b/>de<s n="pr"/></r></p></e>
-    <e><p><l>as<b/>regards<s n="pr"/></l><r>respecto<b/>a<s n="pr"/></r></p></e>
     <e i="yes"><p><l>at<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e r="LR"><p><l>at<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>at<b/>the<b/>expense<b/>of<s n="pr"/></l><r>a<b/>expensas<b/>de<s n="pr"/></r></p></e>
@@ -18380,7 +18379,6 @@
     <e r="RL"><p><l>by<b/>means<b/>of<s n="pr"/></l><r>por<b/>intermedio<b/>de<s n="pr"/></r></p></e>
     <e r="RL"><p><l>by<b/>means<b/>of<s n="pr"/></l><r>por<b/>medio<b/>de<s n="pr"/></r></p></e>
     <e><p><l>concerning<s n="pr"/></l><r>respecto<b/>de<s n="pr"/></r></p></e>
-    <e r="RL"><p><l>concerning<s n="pr"/></l><r>respecto<b/>de<s n="pr"/></r></p></e>
     <e r="LR"><p><l>despite<s n="pr"/></l><r>a<b/>pesar<b/>de<s n="pr"/></r></p></e>
     <e r="LR"><p><l>due<b/>to<s n="pr"/></l><r>debido<b/>a<s n="pr"/></r></p></e>
     <e><p><l>during<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
@@ -18422,6 +18420,9 @@
     <e slr="durante" r="LR"><p><l>over<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
     <e slr="sobre D" r="LR"><p><l>over<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
     <e r="LR"><p><l>per<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>with<b/>regard<b/>to<s n="pr"/></l><r>con<b/>respecto<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>with<b/>regard<b/>to<s n="pr"/></l><r>respecto<b/>a<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>as<b/>regards<s n="pr"/></l><r>respecto<b/>a<s n="pr"/></r></p></e>
     <e><p><l>regarding<s n="pr"/></l><r>con<b/>respecto<b/>a<s n="pr"/></r></p></e>
     <e r="RL"><p><l>regarding<s n="pr"/></l><r>en<b/>cuanto<b/>a<s n="pr"/></r></p></e>
     <e r="RL"><p><l>regarding<s n="pr"/></l><r>en<b/>lo<b/>que<b/>respecta<b/>a<s n="pr"/></r></p></e>
@@ -18676,6 +18677,15 @@
     <e><p><l>Pan-Germanism<s n="n"/></l><r>pangermanismo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>retreat<s n="vblex"/></l><r>retroceder<s n="vblex"/></r></p></e>
     <e><p><l>nail<s n="vblex"/></l><r>clavar<s n="vblex"/></r></p></e>
+
+<e><p><l>sink<s n="vblex"/></l><r>hundirse<s n="vblex"/><s n="pron"/></r></p></e>
+<e r="RL"><p><l>sink<s n="vblex"/></l><r>hundir<s n="vblex"/></r></p></e>
+<e><p><l>shrink<s n="vblex"/></l><r>encoger<s n="vblex"/></r></p></e>
+<e><p><l>stink<s n="vblex"/></l><r>apestar<s n="vblex"/></r></p></e>
+
+    <e><p><l>shrinking<s n="n"/></l><r>retroceso<s n="n"/><s n="m"/></r></p></e>
+
+
     <e><p><l>reserve<b/>currency<s n="n"/></l><r>moneda<g><b/>de<b/>reserva</g><s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>anchor<b/>currency<s n="n"/></l><r>moneda<g><b/>de<b/>reserva</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>microwave<b/>oven<s n="n"/></l><r>horno<g><b/>microondas</g><s n="n"/><s n="m"/></r></p></e>
@@ -18793,9 +18803,13 @@
 <e a="prompsit2cdl"><p><l>encode<s n="vblex"/></l><r>encriptar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl"><p><l>scheme<s n="vblex"/></l><r>maquinar<s n="vblex"/></r></p></e>
 
+<e><p>        <l>boyfriend<s n="n"/></l>        <r>novio<s n="n"/><s n="m"/></r></p></e>
+<e><p>        <l>girlfriend<s n="n"/></l>        <r>novio<s n="n"/><s n="f"/></r></p></e>
 
 <e><p><l>fed<b/>up<s n="adj"/></l><r>harto<s n="adj"/></r></p></e>
 <e r="LR"><p><l>narrowly<s n="adv"/></l><r>por<b/>poco<s n="adv"/></r></p></e>
+<e r="RL"><p><l>in<b/>my<b/>opinion<s n="adv"/></l><r>a<b/>mi<b/>juicio<s n="adv"/></r></p></e>
+<e r="RL"><p><l>in<b/>his<b/>opinion<s n="adv"/></l><r>a<b/>su<b/>juicio<s n="adv"/></r></p></e>
 
 
      </section>

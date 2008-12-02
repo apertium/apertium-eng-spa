@@ -35722,6 +35722,10 @@
       <i>bridegroom</i>
       <par n="house__n"/>
     </e>
+    <e lm="groom">
+      <i>groom</i>
+      <par n="house__n"/>
+    </e>
     <e lm="bridge">
       <i>bridge</i>
       <par n="house__n"/>
@@ -37841,6 +37845,16 @@
       <i>cooking</i>
       <par n="house__n"/>
     </e>
+    <e lm="shrinking">
+      <i>shrinking</i>
+      <par n="house__n"/>
+    </e>
+    <e lm="bustle">
+      <i>bustle</i>
+      <par n="house__n"/>
+    </e>
+<e lm="modesty"><i>modest</i><par n="bab/y__n"/></e>
+
     <e lm="cooling">
       <i>cooling</i>
       <par n="house__n"/>
@@ -72714,6 +72728,10 @@
       <i>as<b/>regards</i>
       <par n="at__pr"/>
     </e>
+    <e lm="with regard to">
+      <i>with<b/>regard<b/>to</i>
+      <par n="at__pr"/>
+    </e>
     <e lm="at">
       <i>at</i>
       <par n="at__pr"/>
@@ -73487,6 +73505,20 @@
 <e lm="narrowly"><i>narrowly</i><par n="maybe__adv"/></e>
 <e lm="vow"><i>vow</i><par n="accept__vblex"/></e>
 <e lm="nail"><i>nail</i><par n="accept__vblex"/></e>
+
+<e lm="sink"><i>s</i><par n="st/ink__vblex" /></e>
+<e lm="shrink"><i>shr</i><par n="st/ink__vblex" /></e>
+<e lm="stink"><i>st</i><par n="st/ink__vblex" /></e>
+
+
+<e lm="in his opinion" r="RL"><i>in<b/>his<b/>opinion</i><par n="maybe__adv"/></e>
+<e lm="in my opinion" r="RL"><i>in<b/>my<b/>opinion</i><par n="maybe__adv"/></e>
+
+<e lm="boyfriend"><i>boyfriend</i><par n="house__n"/></e>
+<e lm="girlfriend"><i>girlfriend</i><par n="house__n"/></e>
+
+
+
   </section>
  
 

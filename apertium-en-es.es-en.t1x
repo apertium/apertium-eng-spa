@@ -1239,7 +1239,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<when>
 		  <test>
 		    <and>
-		      <equal>
+		       <equal>
 			<clip pos="1" side="sl" part="a_np_acr"/>
 			<lit v=""/>
 		      </equal>
@@ -1248,7 +1248,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			  <clip pos="1" side="tl" part="lem"/>
 			  <list n="en_majuscules"/>
 			</in>
-		      </not>
+		      </not> 	      
 		    </and>
 		  </test>
 		  <modify-case>
@@ -3755,10 +3755,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <pattern>
 	<pattern-item n="adj"/>
       </pattern>
-      <action>     	
+      <action> 
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>		
+	</call-macro>	
 	<call-macro n="f_superlatiu1">
 	  <with-param pos="1"/>
 	</call-macro>

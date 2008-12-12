@@ -46674,6 +46674,14 @@
       <i>pajamas</i>
       <par n="politics__n"/>
     </e>
+    <e lm="pajamas">
+      <i>pajamas</i>
+      <par n="politics__n"/>
+    </e>
+    <e lm="pyjamas">
+      <i>pyjamas</i>
+      <par n="politics__n"/>
+    </e>
     <e lm="palace">
       <i>palace</i>
       <par n="house__n"/>
@@ -55057,7 +55065,10 @@
       <par n="expensive__adj"/>
     </e>
     <e lm="Spanish">
-      <i>Spanish</i>
+      <p>
+	<l>Spanish</l>
+	<r>spanish</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Sudanese">
@@ -55286,6 +55297,10 @@
     </e>
     <e lm="agricultural">
       <i>agricultural</i>
+      <par n="expensive__adj"/>
+    </e>
+    <e lm="agrarian">
+      <i>agrarian</i>
       <par n="expensive__adj"/>
     </e>
     <e lm="akin">
@@ -64202,14 +64217,6 @@
     <e lm="emerge" a="doriua">
       <i>emerg</i>
       <par n="liv/e__vblex"/>
-    </e>
-    <e lm="emerge">
-      <i>emerge</i>
-      <par n="accept__vblex"/>
-    </e>
-    <e lm="emerge">
-      <i>emerge</i>
-      <par n="accept__vblex"/>
     </e>
     <e lm="emigrate">
       <i>emigrat</i>
@@ -73279,6 +73286,10 @@
 	  <i>USSR</i> 
 	  <par n="BBC__n"/> 
 	</e>
+        <e lm="S.A.">
+	  <i>S.A.</i> 
+	  <par n="BBC__n"/> 
+	</e>
   <e lm="Bretton Woods system">
     <i>Bretton<b/>Woods<b/>system</i> 
     <par n="house__n"/> 
@@ -78486,6 +78497,11 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="enlarge">
+        <i>enlarg</i> 
+        <par n="liv/e__vblex"/> 
+    </e>
+
     <e lm="charge">
         <i>charg</i> 
         <par n="liv/e__vblex"/> 
@@ -80717,6 +80733,8 @@
         <i>developer</i> 
         <par n="house__n"/> 
     </e>
+
+<e lm="developing"><i>developing</i><par n="expensive__adj"/></e>
 
     <e lm="deviationism">
         <i>deviationism</i> 
@@ -98643,6 +98661,8 @@
         <i>outbreak</i> 
         <par n="house__n"/> 
     </e>
+
+    <e lm="point of view"><i>point</i><par n="house__n"/><p><l><b/>of<b/>view</l><r><g><b/>of<b/>view</g></r></p></e>
 
 
   </section>

@@ -10567,7 +10567,8 @@
 <e r="RL"><p><l>painter<s n="n"/></l>             <r>pintor<s n="n"/></r></p></e>
 <e>       <p><l>painting<s n="n"/></l>            <r>pintura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>pair<s n="n"/></l>                <r>par<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>pajamas<s n="n"/></l>             <r>pijama<s n="n"/><s n="m"/></r></p></e>
+<e r="LR">       <p><l>pajamas<s n="n"/></l>             <r>pijama<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pyjamas<s n="n"/></l>             <r>pijama<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>palace<s n="n"/></l>              <r>palacio<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>palaentologist<s n="n"/></l>      <r>paleontólogo<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>palaentologist<s n="n"/></l>      <r>paleontólogo<s n="n"/></r></p></e>
@@ -13338,7 +13339,7 @@
 <e>       <p><l>Somali<s n="adj"/></l>            <r>somalí<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>Soviet<s n="adj"/></l>            <r>soviético<s n="adj"/></r></p></e>
 <e r="RL"><p><l>Spanish<s n="adj"/></l>           <r>castellano<s n="adj"/></r></p></e>
-<e>       <p><l>Spanish<s n="adj"/></l>           <r>español<s n="adj"/></r></p></e>
+<e>       <p><l>spanish<s n="adj"/></l>           <r>español<s n="adj"/></r></p></e>
 <e>       <p><l>Sudanese<s n="adj"/></l>          <r>sudanés<s n="adj"/></r></p></e>
 <e>       <p><l>Swedish<s n="adj"/></l>           <r>sueco<s n="adj"/></r></p></e>
 <e>       <p><l>Swiss<s n="adj"/></l>             <r>suizo<s n="adj"/></r></p></e>
@@ -15605,7 +15606,9 @@
 <e r="LR"><p><l>brief<s n="vblex"/></l>           <r>informar<s n="vblex"/></r></p></e>
 <e>       <p><l>bring<s n="vblex"/></l>           <r>traer<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>bring<g><b/>together</g><s n="vblex"/><s n="sep"/></l><r>reunir<s n="vblex"/></r></p></e>
-<e>       <p><l>broaden<s n="vblex"/></l>         <r>ampliar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>broaden<s n="vblex"/></l>         <r>ampliar<s n="vblex"/></r></p></e>
+<e r="RL">       <p><l>expand<s n="vblex"/></l>          <r>ampliar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>enlarge<s n="vblex"/></l>         <r>ampliar<s n="vblex"/></r></p></e>
 <e>       <p><l>brush<s n="vblex"/></l>           <r>cepillar<s n="vblex"/></r></p></e>
 <e>       <p><l>build<s n="vblex"/></l>           <r>construir<s n="vblex"/></r></p></e>
 <e>       <p><l>bump<s n="vblex"/></l>            <r>chocar<s n="vblex"/></r></p></e>
@@ -16032,8 +16035,16 @@
 <e>       <p><l>encourage<s n="vblex"/></l>       <r>animar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>end<s n="vblex"/></l>             <r>acabar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>end<s n="vblex"/></l>             <r>desembocar<s n="vblex"/></r></p></e>
-<e r="LR" slr="aprobar D" c="respaldar o dar el visto bueno"><p><l>endorse<s n="vblex"/></l><r>aprobar<s n="vblex"/></r></p></e>
-<e slr="endosar"><p><l>endorse<s n="vblex"/></l>  <r>endosar<s n="vblex"/></r></p></e>
+<e r="LR" slr="aprobar D" c="respaldar o dar el visto bueno"><p><l>endorse<s n="vblex"/></l><r>aprobar<s n="vblex"/></r></p></e> 
+
+<e r="LR" slr="endosar"><p><l>endorse<s n="vblex"/></l>  <r>endosar<s n="vblex"/></r></p></e>
+    
+    <e>
+      <p>
+        <l>lumber<g><b/>with</g><s n="vblex"/></l> 
+        <r>endosar<s n="vblex"/></r> 
+      </p>
+    </e>
 <e r="LR"><p><l>enforce<s n="vblex"/></l>         <r>aplicar<s n="vblex"/></r></p></e>
 <e>       <p><l>engage<s n="vblex"/></l>          <r>comprometer<s n="vblex"/></r></p></e>
 <e>       <p><l>enhance<s n="vblex"/></l>         <r>realzar<s n="vblex"/></r></p></e>
@@ -18662,6 +18673,7 @@
 <e>       <p><l>stock<b/>exchange<s n="n"/></l>   <r>bolsa<g><b/>de<b/>valores</g><s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>stock<b/>market<s n="n"/></l>     <r>mercado<g><b/>de<b/>valores</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>USSR<s n="n"/><s n="acr"/></l>    <r>URSS<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+<e>       <p><l>S.A.<s n="n"/><s n="acr"/></l>    <r>S.A.<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e>       <p><l>NASDAQ<s n="n"/><s n="acr"/></l>  <r>NASDAQ<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 <e>       <p><l>NYSE<s n="n"/><s n="acr"/></l>    <r>NYSE<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 <e>       <p><l>Mikhail<b/>Gorbachev<s n="np"/><s n="ant"/></l><r>Mijaíl<b/>Gorbachov<s n="np"/><s n="ant"/></r></p></e>
@@ -18720,7 +18732,7 @@
 <e>       <p><l>microwave<s n="n"/></l>           <r>microonda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>press<b/>conference<s n="n"/></l> <r>rueda<g><b/>de<b/>prensa</g><s n="n"/><s n="f"/></r></p></e>
 
-<e>       <p><l>dear<s n="adj"/></l>              <r>querido<s n="adj"/></r></p></e>
+<e>       <p><l>dear<s n="adj"/><s n="sint"/></l>              <r>querido<s n="adj"/></r></p></e>
 
 <e a="prompsit2cdl"><p><l>banking<s n="adj"/></l> <r>bancario<s n="adj"/></r></p></e>
 <e r="LR" a="prompsit2cdl"><p><l>addressee<s n="n"/></l><r>destinatario<s n="n"/><s n="GD"/></r></p></e>
@@ -18762,7 +18774,7 @@
 <e a="prompsit2cdl"><p><l>on-line<s n="adj"/></l> <r>on-line<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL" a="prompsit2cdl"><p><l>explanation<s n="n"/></l><r>aclaración<s n="n"/><s n="f"/></r></p></e>
 
-<e r="LR" a="prompsit2cdl"><p><l>orientative<s n="adj"/></l><r>orientativo<s n="adj"/></r></p></e>
+<e a="prompsit2cdl"><p><l>orientative<s n="adj"/></l><r>orientativo<s n="adj"/></r></p></e>
 
 <e a="prompsit2cdl"><p><l>pdf<s n="n"/><s n="acr"/></l><r>pdf<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 <e r="LR" a="prompsit2cdl"><p><l>subscriber<s n="n"/></l><r>suscriptor<s n="n"/><s n="GD"/></r></p></e>
@@ -24711,7 +24723,7 @@
 
 
     
-    <e>
+    <e r="LR">
       <p>
         <l>lower<s n="vblex"/></l> 
         <r>bajar<s n="vblex"/></r> 
@@ -34411,23 +34423,7 @@
 	forced 'RL' restriction
       defaultRL
     -->
-    <e r="LR">
-      <p>
-        <l>endorse<s n="vblex"/></l> 
-        <r>endosar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-
-    
-    <e>
-      <p>
-        <l>lumber<g><b/>with</g><s n="vblex"/></l> 
-        <r>endosar<s n="vblex"/></r> 
-      </p>
-    </e>
-
-
+   
     
     <e>
       <p>
@@ -43008,6 +43004,7 @@
     </e>
 
 
+<e>       <p><l>developing<s n="adj"/></l>        <r>en<b/>desarrollo<s n="adj"/><s n="mf"/></r></p></e>
     
     <e>
       <p>
@@ -49270,16 +49267,6 @@
         <r>organizar<s n="vblex"/></r> 
       </p>
     </e>
-
-
-    
-    <e>
-      <p>
-        <l>organizational<s n="adj"/></l> 
-        <r>organizativo<s n="adj"/></r> 
-      </p>
-    </e>
-
 
     <!-- 
 	forced 'LR' restriction
@@ -61302,6 +61289,7 @@
       </p>
     </e>
 
+    <e>       <p><l>point<g><b/>of<b/>view</g><s n="n"/></l><r>punto<g><b/>de<b/>vista</g><s n="n"/><s n="m"/></r></p></e>
 
   </section>
   <section  id="regexp" type="standard">

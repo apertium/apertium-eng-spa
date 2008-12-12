@@ -117545,6 +117545,17 @@
         <r>punto<b/>destacado<s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
+
+    <e lm="punto de vista">
+      <i>punto</i>
+      <par n="abismo__n"/>
+      <p>
+	<l><b/>de<b/>vista</l>
+	<r><g><b/>de<b/>vista</g></r>
+      </p>
+    </e>
+
+
     <e lm="fruto seco">
       <p>
         <l>fruto<b/>seco</l>
@@ -122874,10 +122885,6 @@
     <e lm="oral">
       <i>oral</i>
       <par n="abdominal__adj"/>
-    </e>
-    <e lm="organizativo" a="prompsit2adn">
-      <i>organizativ</i>
-      <par n="absolut/o__adj"/>
     </e>
     <e lm="orgulloso">
       <i>orgullos</i>
@@ -143437,6 +143444,10 @@
      <i>URSS</i>
      <par n="BBC__n"/>
    </e>
+   <e lm="S.A.">
+     <i>S.A.</i>
+     <par n="BBC__n"/>
+   </e>
     <e lm="Fondo Monetario Internacional">
       <i>Fondo<b/>Monetario<b/>Internacional</i>
       <par n="ABC__np"/>
@@ -144467,7 +144478,7 @@
 
     <e lm="Rhodesia" a="prompsit2uoc">
         <i>Rhodesia</i> 
-        <par n="Afganistán__np"/> 
+        <par n="Barcelona__np"/> 
     </e>
 
     <e lm="Rodesia" a="prompsit2uoc">
@@ -147090,11 +147101,6 @@
         <par n="abismo__n"/> 
     </e>
 
-    <e lm="bajar">
-        <i>baj</i> 
-        <par n="abandon/ar__vblex"/> 
-    </e>
-
 
     <e lm="bajante" a="prompsit">
         <i>bajante</i> 
@@ -147911,13 +147917,6 @@
         <par n="abismo__n"/> 
     </e>
 
-    <e lm="bajar">
-      <p>
-        <l>báj</l> 
-        <r>baj</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
-    </e>
 
     <e lm="búho" a="prompsit2uoc">
         <i>búho</i> 
@@ -152186,10 +152185,6 @@
         <par n="abismo__n"/> 
     </e>
 
-    <e lm="endosar">
-        <i>endos</i> 
-        <par n="abandon/ar__vblex"/> 
-    </e>
 
 
     <e lm="endosante" a="prompsit">
@@ -152232,14 +152227,6 @@
     <e lm="endrino" a="prompsit">
         <i>endrino</i> 
         <par n="abismo__n"/> 
-    </e>
-
-    <e lm="endosar">
-      <p>
-        <l>endós</l> 
-        <r>endos</r> 
-      </p>
-        <par n="abandón/ar__vblex"/> 
     </e>
 
     <e lm="enfisema" a="prompsit2uoc">
@@ -160347,7 +160334,7 @@
     </e>
 
 
-    <e lm="organizativo" a="prompsit2adn">
+    <e lm="organizativo">
         <i>organizativ</i> 
         <par n="absolut/o__adj"/> 
     </e>
@@ -167016,6 +167003,9 @@
     </e>
 
     <e lm="Naciones Unidas"><i>Naciones<b/>Unidas</i><par n="Naciones_Unidas__np"/></e>
+
+    <e lm="en desarrollo"><i>en<b/>desarrollo</i><par n="multimedia__adj"/></e>
+
 
   </section>
  

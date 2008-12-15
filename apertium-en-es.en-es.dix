@@ -6412,6 +6412,8 @@
 <e>       <p><l>Prague<s n="np"/><s n="loc"/></l> <r>Praga<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>Pujol<s n="np"/><s n="cog"/><s n="sg"/></l><r>Pujol<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>Pujol<s n="np"/><s n="cog"/><s n="pl"/></l><r>Pujol<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>Zapatero<s n="np"/><s n="cog"/><s n="sg"/></l><r>Zapatero<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>Zapatero<s n="np"/><s n="cog"/><s n="pl"/></l><r>Zapatero<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Pérez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Pérez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>Pérez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Pérez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>Qatar<s n="np"/><s n="loc"/></l>  <r>Qatar<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -12305,7 +12307,10 @@
 <e r="LR"><p><l>thinking<s n="n"/></l>            <r>pensamiento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>third<s n="n"/></l>               <r>tercio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>thought<s n="n"/></l>             <r>pensamiento<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>thousand<s n="n"/></l>            <r>millar<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">       <p><l>thousand<s n="n"/></l>            <r>millar<s n="n"/><s n="m"/></r></p></e>
+<e r="LR">       <p><l>thousand<s n="n"/><s n="sg"/></l>            <r>millar<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>thousand<s n="n"/><s n="pl"/></l>            <r>mil<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
 <e slr="hilo D"><p><l>thread<s n="n"/></l>        <r>hilo<s n="n"/><s n="m"/></r></p></e>
 <e slr="rosca"><p><l>thread<s n="n"/></l>         <r>rosca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>threat<s n="n"/></l>              <r>amenaza<s n="n"/><s n="f"/></r></p></e>
@@ -13338,7 +13343,7 @@
 <e>       <p><l>Scottish<s n="adj"/></l>          <r>escocés<s n="adj"/></r></p></e>
 <e>       <p><l>Somali<s n="adj"/></l>            <r>somalí<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>Soviet<s n="adj"/></l>            <r>soviético<s n="adj"/></r></p></e>
-<e r="RL"><p><l>Spanish<s n="adj"/></l>           <r>castellano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>spanish<s n="adj"/></l>           <r>castellano<s n="adj"/></r></p></e>
 <e>       <p><l>spanish<s n="adj"/></l>           <r>español<s n="adj"/></r></p></e>
 <e>       <p><l>Sudanese<s n="adj"/></l>          <r>sudanés<s n="adj"/></r></p></e>
 <e>       <p><l>Swedish<s n="adj"/></l>           <r>sueco<s n="adj"/></r></p></e>
@@ -15346,7 +15351,7 @@
 <e r="LR"><p><l>yet<s n="cnjadv"/></l>            <r>aún<b/>así<s n="cnjadv"/></r></p></e>
 <e a="eleka/jimregan"><p><l>in<b/>duplicate<s n="adv"/></l><r>por<b/>duplicado<s n="adv"/></r></p></e>
 <e a="eleka/jimregan"><p><l>in<b/>triplicate<s n="adv"/></l><r>por<b/>triplicado<s n="adv"/></r></p></e>
-<e a="eleka/jimregan"><p><l>in<b/>order<b/>of<s n="pr"/></l><r>por<b/>orden<b/>de<s n="adv"/></r></p></e>
+<e a="eleka/jimregan"><p><l>in<b/>order<b/>of<s n="pr"/></l><r>por<b/>orden<b/>de<s n="pr"/></r></p></e>
 <e a="eleka/jimregan"><p><l>in<b/>alphabetical<b/>order<s n="adv"/></l><r>por<b/>orden<b/>alfabético<s n="adv"/></r></p></e>
 <e a="eleka/jimregan"><p><l>by<b/>an<b/>absolute<b/>majority<s n="adv"/></l><r>por<b/>mayoría<b/>absoluta<s n="adv"/></r></p></e>
 <e a="eleka/jimregan"><p><l>by<b/>judicial<b/>mandate<s n="adv"/></l><r>por<b/>mandato<b/>judicial<s n="adv"/></r></p></e>
@@ -16569,7 +16574,7 @@
 <e r="LR"><p><l>pick<s n="vblex"/></l>            <r>recoger<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>pick<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>coger<s n="vblex"/></r></p></e>
 <e>       <p><l>pilot<s n="vblex"/></l>           <r>pilotar<s n="vblex"/></r></p></e>
-<e>       <p><l>pin<s n="vblex"/></l>             <r>clavar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>pin<s n="vblex"/></l>             <r>clavar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>pin<s n="vblex"/></l>             <r>hincar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>pioneer<s n="vblex"/></l>         <r>iniciar<s n="vblex"/></r></p></e>
 <e>       <p><l>pipe<s n="vblex"/></l>            <r>canalizar<s n="vblex"/></r></p></e>
@@ -18504,6 +18509,7 @@
 <e c="@check"><p><l>right<b/>in<b/>front<b/>of<s n="pr"/></l><r>justo<b/>delante<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>across<s n="pr"/></l>             <r>a<b/>través<b/>de<s n="pr"/></r></p></e>
 
+<e><p><l>unlike<s n="pr"/></l>             <r>a<b/>diferencia<b/>de<s n="pr"/></r></p></e>
 
 <e r="LR"><p><l>rather<b/>than<s n="pr"/></l>     <r>más<b/>que<s n="pr"/></r></p></e>
 <e c="more than five"><p><l>more<b/>than<s n="pr"/></l><r>más<b/>de<s n="pr"/></r></p></e>
@@ -18723,7 +18729,8 @@
 <e>       <p><l>stink<s n="vblex"/></l>           <r>apestar<s n="vblex"/></r></p></e>
 
 <e>       <p><l>shrinking<s n="n"/></l>           <r>retroceso<s n="n"/><s n="m"/></r></p></e>
-
+<e>       <p><l>take<g><b/>refuge</g><s n="vblex"/></l>            <r>refugiarse<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>take<g><b/>responsibility</g><s n="vblex"/></l><r>responsabilizarse<s n="vblex"/><s n="pron"/></r></p></e>
 
 <e>       <p><l>reserve<b/>currency<s n="n"/></l> <r>moneda<g><b/>de<b/>reserva</g><s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>anchor<b/>currency<s n="n"/></l>  <r>moneda<g><b/>de<b/>reserva</g><s n="n"/><s n="f"/></r></p></e>
@@ -30958,7 +30965,7 @@
 
 
     
-    <e>
+    <e r="LR">
       <p>
         <l>every<b/>now<b/>and<b/>then<s n="adv"/></l> 
         <r>de<b/>vez<b/>en<b/>cuando<s n="adv"/></r> 
@@ -30973,18 +30980,6 @@
     <e r="LR">
       <p>
         <l>every<b/>so<b/>often<s n="adv"/></l> 
-        <r>de<b/>vez<b/>en<b/>cuando<s n="adv"/></r> 
-      </p>
-    </e>
-
-
-    <!-- 
-	forced 'RL' restriction
-      defaultRL
-    -->
-    <e r="LR">
-      <p>
-        <l>from<b/>time<b/>to<b/>time<s n="adv"/></l> 
         <r>de<b/>vez<b/>en<b/>cuando<s n="adv"/></r> 
       </p>
     </e>
@@ -50052,7 +50047,7 @@
 
 
     
-    <e>
+    <e r="LR">
       <p>
         <l>in<b/>order<b/>that<s n="cnjadv"/></l> 
         <r>para<b/>que<s n="cnjadv"/></r> 
@@ -51348,7 +51343,7 @@
 
 
     
-    <e>
+    <e r="LR">
       <p>
         <l>placer<s n="n"/></l> 
         <r>placer<s n="n"/><s n="m"/></r> 
@@ -59439,15 +59434,6 @@
     
     <e>
       <p>
-        <l>sadness<s n="n"/><s n="sg"/></l> 
-        <r>tristeza<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-
-    
-    <e>
-      <p>
         <l>sadness<s n="n"/></l> 
         <r>tristeza<s n="n"/><s n="f"/></r> 
       </p>
@@ -61085,29 +61071,12 @@
     </e>
 
 
-    <!-- 
-	forced 'RL' restriction
-      defaultRL
-    -->
-    <e r="LR">
+    <e>
       <p>
         <l>apse<s n="n"/></l> 
         <r>ábside<s n="n"/><s n="m"/></r> 
       </p>
     </e>
-
-
-    <!-- 
-	forced 'LR' restriction
-      defaultLR
-    -->
-    <e r="RL">
-      <p>
-        <l>apse<s n="n"/><s n="ND"/></l> 
-        <r>ábside<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
 
     
     <e>

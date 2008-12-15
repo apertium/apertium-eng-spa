@@ -32929,6 +32929,10 @@
       <i>Pujol</i>
       <par n="Smith__np"/>
     </e>
+    <e lm="Zapatero">
+      <i>Zapatero</i>
+      <par n="Smith__np"/>
+    </e>
     <e lm="Pérez">
       <i>Pérez</i>
       <par n="Smith__np"/>
@@ -54689,79 +54693,136 @@
       <par n="/good__adj"/>
     </e>
     <e lm="Afghan">
-      <i>Afghan</i>
+      <p>
+	<l>Afghan</l>
+	<r>afghan</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="African">
-      <i>African</i>
+      <p>
+	<l>African</l>
+	<r>african</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Albanian">
-      <i>Albanian</i>
+      <p>
+	<l>Albanian</l>
+	<r>albanian</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="American">
-      <i>American</i>
+      <p>
+	<l>American</l>
+	<r>american</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Andorran">
-      <i>Andorran</i>
+      <p>
+      <l>Andorran</l>
+      <r>andorran</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Anglo-Saxon">
-      <i>Anglo-Saxon</i>
+      <p>
+      <l>Anglo-Saxon</l>
+      <r>anglo-Saxon</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Arab">
-      <i>Arab</i>
+      <p>
+      <l>Arab</l>
+      <r>arab</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Argentinian">
-      <i>Argentinian</i>
+      <p>
+	<l>Argentinian</l>
+	<r>argentinian</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Asian">
-      <i>Asian</i>
+      <p>
+	<l>Asian</l>
+	<r>asian</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Australian">
-      <i>Australian</i>
+      <p>
+      <l>Australian</l>
+      <r>australian</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Austrian">
-      <i>Austrian</i>
+      <p>
+      <l>Austrian</l>
+      <r>austrian</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Balearic">
-      <i>Balearic</i>
+      <p>
+      <l>Balearic</l>
+      <r>balearic</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Balkan">
-      <i>Balkan</i>
+      <p>
+      <l>Balkan</l>
+      <r>balkan</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e r="RL" lm="Barcelona" c="per a traduir 'blaugrana' com a adjectiu">
-      <i>Barcelona</i>
+      <p>
+      <l>Barcelona</l>
+      <r>barcelona</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Bavarian">
-      <i>Bavarian</i>
+      <p>
+	<l>Bavarian</l>
+	<r>bavarian</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Belgian">
-      <i>Belgian</i>
+      <p>
+      <l>Belgian</l>
+      <r>belgian</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Brazilian">
-      <i>Brazilian</i>
+      <p>
+	<l>Brazilian</l>
+	<r>brazilian</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="British">
-      <i>British</i>
+      <p>
+	<l>British</l>
+	<r>british</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Buddhist">
-      <i>Buddhist</i>
+      <p>
+	<l>Buddhist</l>
+	<r>buddhist</r>
+      </p>
       <par n="expensive__adj"/>
     </e>
     <e lm="Bulgarian">
@@ -91849,6 +91910,10 @@
         <par n="house__n"/> 
     </e>
 
+    <e lm="unlike">
+        <i>unlike</i> 
+        <par n="at__pr"/> 
+    </e>
     <e lm="plus">
         <i>plus</i> 
         <par n="at__pr"/> 
@@ -94182,7 +94247,7 @@
 
     <e lm="sadness">
         <i>sadness</i> 
-        <par n="east__n"/> 
+        <par n="access__n"/> 
     </e>
 
 
@@ -96437,6 +96502,16 @@
       </p>
     </e>
 
+<e lm="take responsibility"><i>t</i><par n="t/ake__vblex"/><p><l><b/>responsibility</l><r><g><b/>responsibility</g></r></p></e>
+
+    <e lm="take refuge">
+        <i>t</i> 
+        <par n="t/ake__vblex"/> 
+      <p>
+        <l><b/>refuge</l> 
+        <r><g><b/>refuge</g></r> 
+      </p>
+    </e>
 
     <e lm="tab">
         <i>tab</i> 

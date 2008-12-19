@@ -22329,6 +22329,7 @@
     <e lm="avoid"><i>avoid</i><par n="accept__vblex"/>    </e>
     <e lm="await"><i>await</i><par n="accept__vblex"/>    </e>
     <e lm="awaken"><i>awaken</i><par n="accept__vblex"/>    </e>
+    <e lm="awake"><i>aw</i> <par n="aw/ake__vblex"/></e>
     <e lm="award"><i>award</i><par n="accept__vblex"/>    </e>
     <e lm="bite"><i>b</i><par n="b/ite__vblex"/>    </e>
     <e lm="bind"><i>b</i><par n="f/ind__vblex"/>    </e>
@@ -23677,6 +23678,7 @@
     <e lm="win"><i>w</i><par n="w/in__vblex"/>    </e>
     <e lm="wait"><i>wait</i><par n="accept__vblex"/>    </e>
     <e lm="wake" a="doriua"><i>wak</i><par n="liv/e__vblex"/>    </e>
+    <e lm="wake up"><i>wak</i><par n="liv/e__vblex"/><par n="probj_dem__prn"/>  <p>    <l><b/>up</l>    <r><g><b/>up</g></r>  </p></e>
     <e lm="walk"><i>walk</i><par n="accept__vblex"/>    </e>
     <e lm="wander"><i>wander</i><par n="accept__vblex"/>    </e>
     <e lm="want"><i>want</i><par n="accept__vblex"/>    </e>
@@ -23826,6 +23828,7 @@
     <e lm="adequately"><i>adequately</i><par n="maybe__adv"/>    </e>
     <e lm="affectionately"><i>affectionately</i><par n="maybe__adv"/>    </e>
     <e lm="after"><i>after</i><par n="maybe__adv"/>    </e>
+    <e lm="shortly after"><i>shortly<b/>after</i><par n="maybe__adv"/>    </e>
     <e lm="after all"><i>after<b/>all</i><par n="maybe__adv"/>    </e>
     <e lm="after this manner"><i>after<b/>this<b/>manner</i><par n="maybe__adv"/>    </e>
     <e lm="afterwards"><i>afterwards</i><par n="maybe__adv"/>    </e>
@@ -23896,6 +23899,7 @@
     <e lm="basically"><i>basically</i><par n="maybe__adv"/>    </e>
     <e r="RL" lm="because you say so"><i>because<b/>you<b/>say<b/>so</i><par n="maybe__adv"/>    </e>
     <e lm="before"><i>before</i><par n="maybe__adv"/>    </e>
+    <e lm="shortly before"><i>shortly<b/>before</i><par n="maybe__adv"/>    </e>
     <e lm="behind"><i>behind</i><par n="maybe__adv"/>    </e>
     <e lm="below"><i>below</i><par n="maybe__adv"/>    </e>
     <e lm="besides"><i>besides</i><par n="maybe__adv"/>    </e>
@@ -24782,6 +24786,7 @@
     <e lm="according" a="doriua"><i>according</i><par n="at__pr"/>    </e>
     <e lm="according to"><i>according<b/>to</i><par n="at__pr"/>    </e>
     <e lm="after"><i>after</i><par n="at__pr"/>    </e>
+    <e lm="shortly after"><i>shortly<b/>after</i><par n="at__pr"/>    </e>
     <e lm="against"><i>against</i><par n="at__pr"/>    </e>
     <e lm="along"><i>along</i><par n="at__pr"/>    </e>
     <e lm="along with"><i>along<b/>with</i><par n="at__pr"/>    </e>
@@ -24799,6 +24804,7 @@
     <e lm="at the expense of"><i>at<b/>the<b/>expense<b/>of</i><par n="at__pr"/>    </e>
     <e lm="because of"><i>because<b/>of</i><par n="at__pr"/>    </e>
     <e lm="before"><i>before</i><par n="at__pr"/>    </e>
+    <e lm="shortly before"><i>shortly<b/>before</i><par n="at__pr"/>    </e>
     <e lm="behind"><i>behind</i><par n="at__pr"/>    </e>
     <e lm="beside"><i>beside</i><par n="at__pr"/>    </e>
     <e lm="between"><i>between</i><par n="at__pr"/>    </e>
@@ -29634,6 +29640,113 @@
     <e lm="ladle"><i>ladle</i><par n="house__n"/>     </e>
     <e lm="outbreak"><i>outbreak</i><par n="house__n"/>     </e>
     <e lm="point of view"><i>point</i><par n="house__n"/><p><l><b/>of<b/>view</l><r><g><b/>of<b/>view</g></r></p></e>
+    <e lm="Christmas"><p><l>Christmas</l><r>christmas</r></p><par n="house__n"/></e>
+    <e lm="as if"><i>as<b/>if</i><par n="after__cnjadv"/></e>
+    <e lm="as though"><i>as<b/>though</i><par n="after__cnjadv"/></e>
+    <e lm="prescription"><i>prescription</i><par n="house__n"/></e>
+    <e lm="recipe"><i>recipe</i><par n="house__n"/></e>
+
+
+<e lm="the day after tomorrow"><i>the<b/>day<b/>after<b/>tomorrow</i><par n="maybe__adv"/></e>
+<e lm="the day after"><i>the<b/>day<b/>after</i><par n="maybe__adv"/></e>
+<e lm="the day before yesterday"><i>the<b/>day<b/>before<b/>yesterday</i><par n="maybe__adv"/></e>
+<e lm="the day before"><i>the<b/>day<b/>before</i><par n="maybe__adv"/></e>
+<e lm="the evening before last"><i>the<b/>evening<b/>before<b/>last</i><par n="maybe__adv"/></e>
+<e lm="the evening before"><i>the<b/>evening<b/>before</i><par n="maybe__adv"/></e>
+<e lm="the farther the better"><i>the<b/>farther<b/>the<b/>better</i><par n="maybe__adv"/></e>
+<e lm="the last time"><i>the<b/>last<b/>time</i><par n="maybe__adv"/></e>
+<e lm="the next day"><i>the<b/>next<b/>day</i><par n="maybe__adv"/></e>
+<e lm="the night before last"><i>the<b/>night<b/>before<b/>last</i><par n="maybe__adv"/></e>
+<e lm="the night before"><i>the<b/>night<b/>before</i><par n="maybe__adv"/></e>
+<e lm="the other way around"><i>the<b/>other<b/>way<b/>around</i><par n="maybe__adv"/></e>
+<e lm="the way things are going"><i>the<b/>way<b/>things<b/>are<b/>going</i><par n="maybe__adv"/></e>
+<e lm="as far as possible"><i>as<b/>far<b/>as<b/>possible</i><par n="maybe__adv"/></e>
+
+
+<e lm="next week"><i>next<b/>week</i><par n="maybe__adv"/></e>
+<e lm="next year"><i>next<b/>year</i><par n="maybe__adv"/></e>
+
+
+<!--Next + temps-->
+<e lm="next Monday"><i>next<b/>Monday</i><par n="maybe__adv"/></e>
+<e lm="next Tuesday"><i>next<b/>Tuesday</i><par n="maybe__adv"/></e>
+<e lm="next Wednesday"><i>next<b/>Wednesday</i><par n="maybe__adv"/></e>
+<e lm="next Thursday"><i>next<b/>Thursday</i><par n="maybe__adv"/></e>
+<e lm="next Saturday"><i>next<b/>Saturday</i><par n="maybe__adv"/></e>
+<e lm="next Friday"><i>next<b/>Friday</i><par n="maybe__adv"/></e>
+<e lm="next Sunday"><i>next<b/>Sunday</i><par n="maybe__adv"/></e>
+<e lm="next January"><i>next<b/>January</i><par n="maybe__adv"/></e>
+<e lm="next February"><i>next<b/>February</i><par n="maybe__adv"/></e>
+<e lm="next March"><i>next<b/>March</i><par n="maybe__adv"/></e>
+<e lm="next April"><i>next<b/>April</i><par n="maybe__adv"/></e>
+<e lm="next May"><i>next<b/>May</i><par n="maybe__adv"/></e>
+<e lm="next June"><i>next<b/>June</i><par n="maybe__adv"/></e>
+<e lm="next July"><i>next<b/>July</i><par n="maybe__adv"/></e>
+<e lm="next August"><i>next<b/>August</i><par n="maybe__adv"/></e>
+<e lm="next September"><i>next<b/>September</i><par n="maybe__adv"/></e>
+<e lm="next October"><i>next<b/>October</i><par n="maybe__adv"/></e>
+<e lm="next December"><i>next<b/>December</i><par n="maybe__adv"/></e>
+<e lm="next November"><i>next<b/>November</i><par n="maybe__adv"/></e>
+<e lm="next spring"><i>next<b/>spring</i><par n="maybe__adv"/></e>
+<e lm="next summer"><i>next<b/>summer</i><par n="maybe__adv"/></e>
+<e lm="next fall" r="LR" c="EUA"><i>next<b/>fall</i><par n="maybe__adv"/></e>
+<e lm="next autumn"><i>next<b/>autumn</i><par n="maybe__adv"/></e>
+<e lm="next winter"><i>next<b/>winter</i><par n="maybe__adv"/></e>
+<e lm="next Christmas"><i>next<b/>Christmas</i><par n="maybe__adv"/></e>
+<e lm="next Easter"><i>next<b/>Easter</i><par n="maybe__adv"/></e>
+
+
+<e lm="the next Monday"><i>the<b/>next<b/>Monday</i><par n="maybe__adv"/></e>
+<e lm="the next Tuesday"><i>the<b/>next<b/>Tuesday</i><par n="maybe__adv"/></e>
+<e lm="the next Wednesday"><i>the<b/>next<b/>Wednesday</i><par n="maybe__adv"/></e>
+<e lm="the next Thursday"><i>the<b/>next<b/>Thursday</i><par n="maybe__adv"/></e>
+<e lm="the next Saturday"><i>the<b/>next<b/>Saturday</i><par n="maybe__adv"/></e>
+<e lm="the next Friday"><i>the<b/>next<b/>Friday</i><par n="maybe__adv"/></e>
+<e lm="the next Sunday"><i>the<b/>next<b/>Sunday</i><par n="maybe__adv"/></e>
+<e lm="the next January"><i>the<b/>next<b/>January</i><par n="maybe__adv"/></e>
+<e lm="the next February"><i>the<b/>next<b/>February</i><par n="maybe__adv"/></e>
+<e lm="the next March"><i>the<b/>next<b/>March</i><par n="maybe__adv"/></e>
+<e lm="the next April"><i>the<b/>next<b/>April</i><par n="maybe__adv"/></e>
+<e lm="the next May"><i>the<b/>next<b/>May</i><par n="maybe__adv"/></e>
+<e lm="the next June"><i>the<b/>next<b/>June</i><par n="maybe__adv"/></e>
+<e lm="the next July"><i>the<b/>next<b/>July</i><par n="maybe__adv"/></e>
+<e lm="the next August"><i>the<b/>next<b/>August</i><par n="maybe__adv"/></e>
+<e lm="the next September"><i>the<b/>next<b/>September</i><par n="maybe__adv"/></e>
+<e lm="the next October"><i>the<b/>next<b/>October</i><par n="maybe__adv"/></e>
+<e lm="the next December"><i>the<b/>next<b/>December</i><par n="maybe__adv"/></e>
+<e lm="the next November"><i>the<b/>next<b/>November</i><par n="maybe__adv"/></e>
+
+<e lm="the next spring"><i>the<b/>next<b/>spring</i><par n="maybe__adv"/></e>
+<e lm="the next summer"><i>the<b/>next<b/>summer</i><par n="maybe__adv"/></e>
+<e lm="the next fall" r="LR" c="EUA"><i>the<b/>next<b/>fall</i><par n="maybe__adv"/></e>
+<e lm="the next autumn"><i>the<b/>next<b/>autumn</i><par n="maybe__adv"/></e>
+<e lm="the next winter"><i>the<b/>next<b/>winter</i><par n="maybe__adv"/></e>
+<e lm="the next Christmas"><i>the<b/>next<b/>Christmas</i><par n="maybe__adv"/></e>
+<e lm="the next Easter"><i>the<b/>next<b/>Easter</i><par n="maybe__adv"/></e>
+
+
+
+<e lm="get married"><i>g</i><par n="g/et__vblex"/><p><l><b/>married</l><r><g><b/>married</g></r></p></e>
+
+<e lm="get across"><i>g</i><par n="g/et__vblex" sa="sep"/><par n="probj_dem__prn"/><p><l><b/>across</l><r><g><b/>across</g></r></p></e>
+<e lm="get along"><i>g</i><par n="g/et__vblex"/><p><l><b/>along</l><r><g><b/>along</g></r></p></e>
+<e lm="get along with"><i>g</i><par n="g/et__vblex"/><p><l><b/>along<b/>with</l><r><g><b/>along<b/>with</g></r></p></e>
+<e lm="get away"><i>g</i><par n="g/et__vblex"/><p><l><b/>away</l><r><g><b/>away</g></r></p></e>
+<e lm="get dirty"><i>g</i><par n="g/et__vblex"/><p><l><b/>dirty</l><r><g><b/>dirty</g></r></p></e>
+<e lm="get back"><i>g</i><par n="g/et__vblex"/><p><l><b/>back</l><r><g><b/>back</g></r></p></e>
+<e lm="get better"><i>g</i><par n="g/et__vblex"/><p><l><b/>better</l><r><g><b/>better</g></r></p></e>
+<e lm="get bigger"><i>g</i><par n="g/et__vblex"/><p><l><b/>bigger</l><r><g><b/>bigger</g></r></p></e>
+<e lm="get down"><i>g</i><par n="g/et__vblex"/><p><l><b/>down</l><r><g><b/>down</g></r></p></e>
+<e lm="get dressed"><i>g</i><par n="g/et__vblex"/><p><l><b/>dressed</l><r><g><b/>dressed</g></r></p></e>
+<e lm="get in"><i>g</i><par n="g/et__vblex"/><p><l><b/>in</l><r><g><b/>in</g></r></p></e>
+<e lm="get in trouble"><i>g</i><par n="g/et__vblex"/><p><l><b/>in<b/>trouble</l><r><g><b/>in<b/>trouble</g></r></p></e>
+<e lm="get off"><i>g</i><par n="g/et__vblex"/><p><l><b/>off</l><r><g><b/>off</g></r></p></e>
+<e lm="get on"><i>g</i><par n="g/et__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
+<e lm="get out"><i>g</i><par n="g/et__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+<e lm="get started"><i>g</i><par n="g/et__vblex"/><p><l><b/>started</l><r><g><b/>started</g></r></p></e>
+<e lm="get up"><i>g</i><par n="g/et__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+<e lm="get worse"><i>g</i><par n="g/et__vblex"/><p><l><b/>worse</l><r><g><b/>worse</g></r></p></e>
+
   </section>   
 
   <section id="regexp" type="standard">    

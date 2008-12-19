@@ -12524,9 +12524,7 @@
     <e r="RL"><p><l>twin<s n="n"/></l><r>gemelo<s n="n"/></r></p></e>
     <e>       <p><l>twist<s n="n"/></l><r>giro<s n="n"/><s n="m"/></r></p></e>
     <e>       <p><l>tycoon<s n="n"/></l><r>magnate<s n="n"/><s n="mf"/></r></p></e>
-    <e r="LR"><p><l>type<s n="n"/></l><r>tipo<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>type<s n="n"/><s n="ND"/></l><r>tipo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>type<s n="n"/><s n="ND"/></l><r>tipo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>type<s n="n"/></l><r>tipo<s n="n"/><s n="m"/></r></p></e>
     <e>       <p><l>typhoon<s n="n"/></l><r>tifón<s n="n"/><s n="m"/></r></p></e>
     <e>       <p><l>typification<s n="n"/></l><r>tipificación<s n="n"/><s n="f"/></r></p></e>
     <e>       <p><l>typist<s n="n"/></l><r>teclista<s n="n"/><s n="mf"/></r></p></e>
@@ -15521,7 +15519,6 @@
     <e>       <p><l>avenge<s n="vblex"/></l><r>vengar<s n="vblex"/></r></p></e>
     <e>       <p><l>avoid<s n="vblex"/></l><r>evitar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>await<s n="vblex"/></l><r>esperar<s n="vblex"/></r></p></e>
-    <e>       <p><l>awaken<s n="vblex"/></l><r>despertar<s n="vblex"/></r></p></e>
     <e>       <p><l>award<s n="vblex"/></l><r>otorgar<s n="vblex"/></r></p></e>
     <e slr="recular"><p><l>back<s n="vblex"/></l><r>recular<s n="vblex"/></r></p></e>
     <e slr="respaldar D"><p><l>back<s n="vblex"/></l><r>respaldar<s n="vblex"/></r></p></e>
@@ -15821,6 +15818,7 @@
     <e>       <p><l>crimp<s n="vblex"/></l><r>rizar<s n="vblex"/></r></p></e>
     <e>       <p><l>criticize<s n="vblex"/></l><r>criticar<s n="vblex"/></r></p></e>
     <e>       <p><l>cross<s n="vblex"/></l><r>cruzar<s n="vblex"/></r></p></e>
+    <e r="RL">       <p><l>cross<s n="vblex"/></l><r>atravesar<s n="vblex"/></r></p></e>
     <e>       <p><l>crush<s n="vblex"/></l><r>aplastar<s n="vblex"/></r></p></e>
     <e r="LR" slr="gritar"><p><l>cry<s n="vblex"/></l><r>gritar<s n="vblex"/></r></p></e>
     <e slr="llorar D"><p><l>cry<s n="vblex"/></l><r>llorar<s n="vblex"/></r></p></e>
@@ -16059,6 +16057,12 @@
     <e r="LR"><p><l>erect<s n="vblex"/></l><r>levantar<s n="vblex"/></r></p></e>
     <e>       <p><l>erode<s n="vblex"/></l><r>erosionar<s n="vblex"/></r></p></e>
     <e>       <p><l>escape<s n="vblex"/></l><r>huir<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>escape<s n="vblex"/></l>          <r>escapar<s n="vblex"/></r></p></e>
+
+
+
+
+
     <e r="RL"><p><l>establish<s n="vblex"/></l><r>afincar<s n="vblex"/></r></p></e>
     <e>       <p><l>establish<s n="vblex"/></l><r>establecer<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>establish<s n="vblex"/></l><r>establecer<s n="vblex"/></r></p></e>
@@ -16276,7 +16280,8 @@
     <e>       <p><l>hunt<s n="vblex"/></l><r>cazar<s n="vblex"/></r></p></e>
     <e>       <p><l>hurry<s n="vblex"/></l><r>darse<g><b/>prisa</g><s n="vblex"/><s n="pron"/></r></p></e>
     <e r="RL"><p><l>have<s n="vblex"/></l><r>contar<g><b/>con</g><s n="vblex"/></r></p></e>
-    <e>       <p><l>marry<s n="vblex"/></l><r>casarse<s n="vblex"/><s n="pron"/></r></p></e>
+    <e>       <p><l>marry<s n="vblex"/></l><r>casar<s n="vblex"/></r></p></e>
+    <e>       <p><l>get<g><b/>married</g><s n="vblex"/></l><r>casarse<s n="vblex"/><s n="pron"/></r></p></e>
     <e>       <p><l>identify<s n="vblex"/></l><r>identificar<s n="vblex"/></r></p></e>
     <e>       <p><l>ignore<s n="vblex"/></l><r>ignorar<s n="vblex"/></r></p></e>
     <e>       <p><l>illustrate<s n="vblex"/></l><r>ilustrar<s n="vblex"/></r></p></e>
@@ -16666,6 +16671,7 @@
     <e slr="empujar D" c="empujar la puerta"><p><l>push<s n="vblex"/></l><r>empujar<s n="vblex"/></r></p></e>
     <e r="LR" slr="pulsar" c="pulsar un botón"><p><l>push<s n="vblex"/></l><r>pulsar<s n="vblex"/></r></p></e>
     <e>       <p><l>put<s n="vblex"/></l><r>poner<s n="vblex"/></r></p></e>
+    <e r="RL">       <p><l>put<s n="vblex"/></l><r>meter<s n="vblex"/></r></p></e>
     <e slr="posar D"><p><l>pose<s n="vblex"/></l><r>posar<s n="vblex"/></r></p></e>
     <e>       <p><l>quantify<s n="vblex"/></l><r>cuantificar<s n="vblex"/></r></p></e>
     <e>       <p><l>question<s n="vblex"/></l><r>cuestionar<s n="vblex"/></r></p></e>
@@ -17146,7 +17152,17 @@
     <e>       <p><l>vote<s n="vblex"/></l><r>votar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>wait<s n="vblex"/></l><r>aguardar<s n="vblex"/></r></p></e>
     <e srl="wait"><p><l>wait<s n="vblex"/></l><r>esperar<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>wake<s n="vblex"/></l><r>despertar<s n="vblex"/></r></p></e>
+
+
+
+<e r="LR">       <p><l>awaken<s n="vblex"/></l>          <r>despertar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>awake<s n="vblex"/></l>          <r>despertar<s n="vblex"/></r></p></e>
+<e r="LR" a="doriua"><p><l>wake<s n="vblex"/></l> <r>despertar<s n="vblex"/></r></p></e>
+<e><p><l>wake<g><b/>up</g><s n="vblex"/></l> <r>despertar<s n="vblex"/></r></p></e>
+
+
+
+
     <e>       <p><l>walk<s n="vblex"/></l><r>andar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>walk<s n="vblex"/></l><r>caminar<s n="vblex"/></r></p></e>
     <e>       <p><l>wander<s n="vblex"/></l><r>vagar<s n="vblex"/></r></p></e>
@@ -17245,6 +17261,7 @@
     <e r="LR"><p><l>adequately<s n="adv"/></l><r>adecuadamente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>affectionately<s n="adv"/></l><r>cariñosamente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>after<s n="adv"/></l><r>después<s n="adv"/></r></p></e>
+    <e><p><l>shortly<b/>after<s n="adv"/></l><r>poco<b/>después<s n="adv"/></r></p></e>
     <e r="RL"><p><l>after<b/>all<s n="adv"/></l><r>al<b/>fin<b/>y<b/>al<b/>cabo<s n="adv"/></r></p></e>
     <e>       <p><l>after<b/>all<s n="adv"/></l><r>después<b/>de<b/>todo<s n="adv"/></r></p></e>
     <e r="LR"><p><l>after<b/>this<b/>manner<s n="adv"/></l><r>de<b/>este<b/>modo<s n="adv"/></r></p></e>
@@ -17332,6 +17349,7 @@
     <e>       <p><l>basically<s n="adv"/></l><r>básicamente<s n="adv"/></r></p></e>
     <e r="RL" c="@check"><p><l>because<b/>you<b/>say<b/>so<s n="adv"/></l><r>por<b/>tu<b/>cara<b/>bonita<s n="adv"/></r></p></e>
     <e>       <p><l>before<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
+    <e>       <p><l>shortly<b/>before<s n="adv"/></l><r>poco<b/>antes<s n="adv"/></r></p></e>
     <e>       <p><l>behind<s n="adv"/></l><r>detrás<s n="adv"/></r></p></e>
     <e r="LR"><p><l>behind<s n="adv"/></l><r>detrás<s n="adv"/></r></p></e>
     <e r="LR"><p><l>below<s n="adv"/></l><r>abajo<s n="adv"/></r></p></e>
@@ -18050,7 +18068,7 @@
     <e>       <p><l>temporarily<s n="adv"/></l><r>temporalmente<s n="adv"/></r></p></e>
     <e>       <p><l>terribly<s n="adv"/></l><r>terriblemente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>thankfully<s n="adv"/></l><r>afortunadamente<s n="adv"/></r></p></e>
-    <e c="check"><p><l>the<b/>other<b/>way<b/>around<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
+    <e><p><l>the<b/>other<b/>way<b/>around<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
     <e c="Faltaria potser un 'igual' adjectiu"><p><l>the<b/>same<s n="adv"/></l><r>igual<s n="adv"/></r></p></e>
     <e r="LR"><p><l>then<b/>and<b/>there<s n="adv"/></l><r>enseguida<s n="adv"/></r></p></e>
     <e>       <p><l>theoretically<s n="adv"/></l><r>teóricamente<s n="adv"/></r></p></e>
@@ -18382,6 +18400,7 @@
     <e r="RL"><p><l>after<s n="pr"/></l><r>tras<s n="pr"/></r></p></e>
     <e r="RL"><p><l>after<s n="pr"/></l><r>tras<b/>de<s n="pr"/></r></p></e>
     <e>       <p><l>after<s n="pr"/></l><r>después<b/>de<s n="pr"/></r></p></e>
+    <e>       <p><l>shortly<b/>after<s n="pr"/></l><r>poco<b/>después<b/>de<s n="pr"/></r></p></e>
     <e>       <p><l>against<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
     <e>       <p><l>along<s n="pr"/></l><r>a<b/>lo<b/>largo<b/>de<s n="pr"/></r></p></e>
     <e r="LR"><p><l>along<b/>with<s n="pr"/></l><r>junto<b/>con<s n="pr"/></r></p></e>
@@ -18398,6 +18417,7 @@
     <e>       <p><l>at<b/>the<b/>expense<b/>of<s n="pr"/></l><r>a<b/>expensas<b/>de<s n="pr"/></r></p></e>
     <e>       <p><l>because<b/>of<s n="pr"/></l><r>debido<b/>a<s n="pr"/></r></p></e>
     <e>       <p><l>before<s n="pr"/></l><r>antes<b/>de<s n="pr"/></r></p></e>
+    <e>       <p><l>shortly<b/>before<s n="pr"/></l><r>poco<b/>antes<b/>de<s n="pr"/></r></p></e>
     <e>       <p><l>behind<s n="pr"/></l><r>detrás<b/>de<s n="pr"/></r></p></e>
     <e>       <p><l>beside<s n="pr"/></l><r>junto<b/>a<s n="pr"/></r></p></e>
     <e srl="between D"><p><l>between<s n="pr"/></l><r>entre<s n="pr"/></r></p></e>
@@ -19167,7 +19187,7 @@
     
 <!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>wholesale<s n="adv"/></l><r>al<b/>por<b/>mayor<s n="adv"/></r></p></e>
-        <e>      <p>        <l>wrong<b/>side<b/>out<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
+        <e r="LR">      <p>        <l>wrong<b/>side<b/>out<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
     
 <!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>wrongside<b/>out<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
@@ -23969,6 +23989,170 @@
     <e>       <p><l>United<b/>Nations<s n="np"/><s n="al"/></l><r>Naciones<b/>Unidas<s n="np"/><s n="al"/><s n="f"/></r></p></e>
         <e>      <p>        <l>uvula<s n="n"/></l><r>úvula<s n="n"/><s n="f"/></r></p></e>
     <e>       <p><l>point<g><b/>of<b/>view</g><s n="n"/></l><r>punto<g><b/>de<b/>vista</g><s n="n"/><s n="m"/></r></p></e>
+
+    <e><p><l>christmas<s n="n"/></l>       <r>navidad<s n="n"/><s n="f"/></r></p></e>
+
+<e><p><l>as<b/>if<s n="cnjadv"/></l><r>como<b/>si<s n="cnjadv"/></r></p></e>
+
+<e r="LR"><p><l>as<b/>though<s n="cnjadv"/></l>   <r>como<b/>si<s n="cnjadv"/></r></p></e>
+<e srl="prescription"><p><l>prescription<s n="n"/></l>   <r>receta<s n="n"/><s n="f"/></r></p></e>
+<e srl="recipe D"><p><l>recipe<s n="n"/></l>   <r>receta<s n="n"/><s n="f"/></r></p></e>
+
+
+
+<e>       <p><l>the<b/>day<b/>after<b/>tomorrow<s n="adv"/></l><r>pasado<b/>mañana<s n="adv"/></r></p></e>
+
+<e>       <p><l>the<b/>day<b/>after<s n="adv"/></l><r>el<b/>dia<b/>después<s n="adv"/></r></p></e>
+<e>       <p><l>the<b/>day<b/>before<s n="adv"/></l><r>el<b/>dia<b/>antes<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>evening<b/>before<b/>last<s n="adv"/></l><r>anteayer<b/>por<b/>la<b/>noche<s n="adv"/></r></p></e>
+
+<e r="LR">       <p><l>the<b/>evening<b/>before<s n="adv"/></l><r>la<b/>noche<b/>anterior<s n="adv"/></r></p></e>
+
+<e>       <p><l>as<b/>far<b/>as<b/>possible<s n="adv"/></l><r>lo<b/>más<b/>lejos<b/>posible<s n="adv"/></r></p></e>
+
+<e r="LR"><p><l>the<b/>farther<b/>the<b/>better<s n="adv"/></l><r>lo<b/>más<b/>lejos<b/>posible<s n="adv"/></r></p></e>
+
+<e>       <p><l>the<b/>last<b/>time<s n="adv"/></l><r>la<b/>última<b/>vez<s n="adv"/></r></p></e>
+<e>       <p><l>the<b/>next<b/>day<s n="adv"/></l><r>al<b/>día<b/>siguiente<s n="adv"/></r></p></e>
+<e>       <p><l>the<b/>night<b/>before<b/>last<s n="adv"/></l><r>anteayer<b/>por<b/>la<b/>noche<s n="adv"/></r></p></e>
+
+<e>       <p><l>the<b/>night<b/>before<s n="adv"/></l><r>la<b/>noche<b/>anterior<s n="adv"/></r></p></e>
+
+<e>       <p><l>the<b/>way<b/>things<b/>are<b/>going<s n="adv"/></l><r>tal<b/>como<b/>van<b/>las<b/>cosas<s n="adv"/></r></p></e>
+
+<e r="RL">       <p><l>next<b/>week<s n="adv"/></l>      <r>semana<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>week<s n="adv"/></l>      <r>la<b/>semana<b/>que<b/>viene<s n="adv"/></r></p></e>
+
+<e r="RL">       <p><l>next<b/>year<s n="adv"/></l>      <r>año<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>year<s n="adv"/></l>      <r>el<b/>año<b/>que<b/>viene<s n="adv"/></r></p></e>
+
+
+<e>       <p><l>next<b/>Monday<s n="adv"/></l>    <r>el<b/>próximo<b/>lunes<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>Tuesday<s n="adv"/></l>   <r>el<b/>próximo<b/>martes<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>Wednesday<s n="adv"/></l> <r>el<b/>próximo<b/>miércoles<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>Thursday<s n="adv"/></l>  <r>el<b/>próximo<b/>jueves<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>Friday<s n="adv"/></l>    <r>el<b/>próximo<b/>viernes<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>Saturday<s n="adv"/></l>  <r>el<b/>próximo<b/>sábado<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>Sunday<s n="adv"/></l>    <r>el<b/>próximo<b/>domingo<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>January<s n="adv"/></l>   <r>el<b/>próximo<b/>enero<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>February<s n="adv"/></l>  <r>el<b/>próximo<b/>febrero<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>March<s n="adv"/></l>     <r>el<b/>próximo<b/>marzo<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>April<s n="adv"/></l>     <r>el<b/>próximo<b/>abril<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>May<s n="adv"/></l>       <r>el<b/>próximo<b/>mayo<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>June<s n="adv"/></l>      <r>el<b/>próximo<b/>junio<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>July<s n="adv"/></l>      <r>el<b/>próximo<b/>julio<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>August<s n="adv"/></l>    <r>el<b/>próximo<b/>agosto<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>September<s n="adv"/></l> <r>el<b/>próximo<b/>septiembre<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>October<s n="adv"/></l>   <r>el<b/>próximo<b/>octubre<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>November<s n="adv"/></l>  <r>el<b/>próximo<b/>noviembre<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>December<s n="adv"/></l>  <r>el<b/>próximo<b/>diciembre<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>spring<s n="adv"/></l>    <r>la<b/>próxima<b/>primavera<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>summer<s n="adv"/></l>    <r>el<b/>próximo<b/>verano<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>autumn<s n="adv"/></l>    <r>el<b/>próximo<b/>otoño<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>winter<s n="adv"/></l>    <r>el<b/>próximo<b/>invierno<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>Christmas<s n="adv"/></l> <r>las<b/>próximas<b/>Navidades<s n="adv"/></r></p></e>
+<e>       <p><l>next<b/>Easter<s n="adv"/></l>    <r>la<b/>próxima<b/>Pascua<s n="adv"/></r></p></e>
+<e r="LR"><p><l>next<b/>fall<s n="adv"/></l>      <r>el<b/>próximo<b/>otoño<s n="adv"/></r></p></e>
+
+
+
+<e r="RL">      <p><l>next<b/>Monday<s n="adv"/></l>    <r>el<b/>lunes<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL" >      <p><l>next<b/>Tuesday<s n="adv"/></l>   <r>el<b/>martes<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>Wednesday<s n="adv"/></l> <r>el<b/>miércoles<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>Thursday<s n="adv"/></l>  <r>el<b/>jueves<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>Friday<s n="adv"/></l>    <r>el<b/>viernes<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>Saturday<s n="adv"/></l>  <r>el<b/>sábado<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>Sunday<s n="adv"/></l>    <r>el<b/>domingo<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>January<s n="adv"/></l>   <r>el<b/>enero<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>February<s n="adv"/></l>  <r>el<b/>febrero<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>March<s n="adv"/></l>     <r>el<b/>marzo<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>April<s n="adv"/></l>     <r>el<b/>abril<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>May<s n="adv"/></l>       <r>el<b/>mayo<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>June<s n="adv"/></l>      <r>el<b/>junio<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>July<s n="adv"/></l>      <r>el<b/>julio<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>August<s n="adv"/></l>    <r>el<b/>agosto<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>September<s n="adv"/></l> <r>el<b/>septiembre<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>October<s n="adv"/></l>   <r>el<b/>octubre<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>November<s n="adv"/></l>  <r>el<b/>noviembre<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>December<s n="adv"/></l>  <r>el<b/>diciembre<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>spring<s n="adv"/></l>    <r>la<b/>primavera<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>summer<s n="adv"/></l>    <r>el<b/>verano<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>autumn<s n="adv"/></l>    <r>el<b/>otoño<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>winter<s n="adv"/></l>    <r>el<b/>invierno<b/>que<b/>viene<s n="adv"/></r></p></e>
+
+
+<e r="RL">       <p><l>next<b/>January<s n="adv"/></l>   <r>enero<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>February<s n="adv"/></l>  <r>febrero<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>March<s n="adv"/></l>     <r>marzo<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>April<s n="adv"/></l>     <r>abril<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>May<s n="adv"/></l>       <r>mayo<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>June<s n="adv"/></l>      <r>junio<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>July<s n="adv"/></l>      <r>julio<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>August<s n="adv"/></l>    <r>agosto<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>September<s n="adv"/></l> <r>septiembre<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>October<s n="adv"/></l>   <r>octubre<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>November<s n="adv"/></l>  <r>noviembre<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>December<s n="adv"/></l>  <r>diciembre<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>spring<s n="adv"/></l>    <r>la<b/>primavera<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>summer<s n="adv"/></l>    <r>verano<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>autumn<s n="adv"/></l>    <r>otoño<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>next<b/>winter<s n="adv"/></l>    <r>invierno<b/>que<b/>viene<s n="adv"/></r></p></e>
+
+<e r="LR">       <p><l>the<b/>next<b/>Monday<s n="adv"/></l>    <r>el<b/>próximo<b/>lunes<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>Tuesday<s n="adv"/></l>   <r>el<b/>próximo<b/>martes<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>Wednesday<s n="adv"/></l> <r>el<b/>próximo<b/>miércoles<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>Thursday<s n="adv"/></l>  <r>el<b/>próximo<b/>jueves<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>Friday<s n="adv"/></l>    <r>el<b/>próximo<b/>viernes<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>Saturday<s n="adv"/></l>  <r>el<b/>próximo<b/>sábado<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>Sunday<s n="adv"/></l>    <r>el<b/>próximo<b/>domingo<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>January<s n="adv"/></l>   <r>el<b/>próximo<b/>enero<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>February<s n="adv"/></l>  <r>el<b/>próximo<b/>febrero<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>March<s n="adv"/></l>     <r>el<b/>próximo<b/>marzo<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>April<s n="adv"/></l>     <r>el<b/>próximo<b/>abril<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>May<s n="adv"/></l>       <r>el<b/>próximo<b/>mayo<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>June<s n="adv"/></l>      <r>el<b/>próximo<b/>junio<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>July<s n="adv"/></l>      <r>el<b/>próximo<b/>julio<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>August<s n="adv"/></l>    <r>el<b/>próximo<b/>agosto<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>September<s n="adv"/></l> <r>el<b/>próximo<b/>septiembre<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>October<s n="adv"/></l>   <r>el<b/>próximo<b/>octubre<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>November<s n="adv"/></l>  <r>el<b/>próximo<b/>noviembre<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>December<s n="adv"/></l>  <r>el<b/>próximo<b/>diciembre<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>spring<s n="adv"/></l>    <r>la<b/>próxima<b/>primavera<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>summer<s n="adv"/></l>    <r>el<b/>próximo<b/>verano<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>autumn<s n="adv"/></l>    <r>el<b/>próximo<b/>otoño<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>winter<s n="adv"/></l>    <r>el<b/>próximo<b/>invierno<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>Christmas<s n="adv"/></l> <r>las<b/>próximas<b/>Navidades<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>Easter<s n="adv"/></l>    <r>la<b/>próxima<b/>Pascua<s n="adv"/></r></p></e>
+<e r="LR"><p><l>the<b/>next<b/>fall<s n="adv"/></l>      <r>el<b/>próximo<b/>otoño<s n="adv"/></r></p></e>
+
+<e r="LR">       <p><l>the<b/>next<b/>week<s n="adv"/></l>    <r>la<b/>próxima<b/>semana<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>the<b/>next<b/>year<s n="adv"/></l>    <r>el<b/>próximo<b/>año<s n="adv"/></r></p></e>
+
+
+
+<e slr="atravesar" r="LR">       <p><l>get<g><b/>across</g><s n="vblex"/><s n="sep"/></l>            <r>atravesar<s n="vblex"/></r></p></e>
+<e slr="comunicar D" r="LR">       <p><l>get<g><b/>across</g><s n="vblex"/><s n="sep"/></l>            <r>comunicar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>along</g><s n="vblex"/></l>            <r>marchar<s n="vblex"/></r></p></e>
+<e r="RL">       <p><l>get<g><b/>along</g><s n="vblex"/></l>            <r>llevarse<g><b/>bien</g><s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>get<g><b/>along<b/>with</g><s n="vblex"/></l>            <r>llevarse<g><b/>bien<b/>con</g><s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>get<g><b/>away</g><s n="vblex"/></l>            <r>escaparse<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>get<g><b/>dirty</g><s n="vblex"/></l>            <r>ensuciarse<s n="vblex"/><s n="pron"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>back</g><s n="vblex"/></l>            <r>volver<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>better</g><s n="vblex"/></l>            <r>mejorar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>bigger</g><s n="vblex"/></l>            <r>crecer<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>down</g><s n="vblex"/></l>            <r>bajar<s n="vblex"/></r></p></e>
+<e>       <p><l>get<g><b/>dressed</g><s n="vblex"/></l>            <r>vestirse<s n="vblex"/><s n="pron"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>in</g><s n="vblex"/></l>            <r>entrar<s n="vblex"/></r></p></e>
+
+<e>       <p><l>get<g><b/>in<b/>trouble</g><s n="vblex"/></l>            <r>meterse<g><b/>en<b/>problemas</g><s n="vblex"/><s n="pron"/></r></p></e>
+
+<e r="LR">       <p><l>get<g><b/>off</g><s n="vblex"/></l>            <r>marchar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>on</g><s n="vblex"/></l>            <r>subir<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>out</g><s n="vblex"/></l>            <r>salir<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>started</g><s n="vblex"/></l>            <r>empezar<s n="vblex"/></r></p></e>
+<e>       <p><l>get<g><b/>up</g><s n="vblex"/></l>            <r>levantarse<s n="vblex"/><s n="pron"/></r></p></e>
+<e r="LR">       <p><l>get<g><b/>worse</g><s n="vblex"/></l>            <r>empeorar<s n="vblex"/></r></p></e>
+
 
   </section>  
 

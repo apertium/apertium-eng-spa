@@ -18051,7 +18051,7 @@
     <e lm="monument"><i>monument</i><par n="house__n"/>    </e>
     <e lm="mood"><i>mood</i><par n="house__n"/>    </e>
     <e lm="moon"><i>moon</i><par n="house__n"/>    </e>
-    <e lm="Moor"><i>Moor</i><par n="house__n"/>    </e>
+    <e lm="moor"><i>moor</i><par n="house__n"/>     </e>
     <e lm="moped"><i>moped</i><par n="house__n"/>    </e>
     <e lm="morality"><i>moralit</i><par n="bab/y__n"/>    </e>
     <e lm="moratorium"><i>moratorium</i><par n="house__n"/>    </e>
@@ -19873,6 +19873,7 @@
     <e lm="trouble"><i>trouble</i><par n="house__n"/>    </e>
     <e lm="handkerchief"><i>handkerchie</i><par n="wol/f__n"/>    </e>
     <e lm="trousers"><i>trousers</i><par n="personnel__n"/>    </e>
+    <e lm="suspenders"><i>suspenders</i><par n="personnel__n"/>    </e>
     <e lm="trousseau"><i>trousseau</i><par n="tableau__n"/>    </e>
     <e lm="truce"><i>truce</i><par n="house__n"/>    </e>
     <e lm="truck"><i>truck</i><par n="house__n"/>    </e>
@@ -20214,7 +20215,7 @@
     <e lm="Persian"><i>Persian</i><par n="house__n"/>    </e>
     <e lm="Peruvian"><i>Peruvian</i><par n="house__n"/>    </e>
     <e lm="plenary"><i>plenar</i><par n="bab/y__n"/>    </e>
-    <e lm="Pole" c="el guió és una trampa perquè es tradueixi 'polaco' per 'Pole' i no entri per l'entrada 'pole' (palo)"><p><l>Pole</l><r>Pole-</r></p><par n="house__n"/>    </e>
+    <e lm="Pole" c="lema artificial per a diferenciar 'polaco' de 'palo'"><p><l>Pole</l><r>Pole_person</r></p><par n="house__n"/>    </e>
     <e lm="pole"><i>pole</i><par n="house__n"/>    </e>
     <e lm="republican"><i>republican</i><par n="house__n"/>    </e>
     <e lm="reverend"><i>reverend</i><par n="house__n"/>    </e>
@@ -24672,6 +24673,7 @@
     <e lm="by the present" a="jimregan"><i>by<b/>the<b/>present</i><par n="maybe__adv"/>    </e>
     <e lm="where appropriate" a="jimregan"><i>where<b/>appropriate</i><par n="maybe__adv"/>    </e>
     <e lm="the undersigned">      <p>	<l>the<b/>undersigned</l>	<r>the<s n="det"/><s n="def"/><s n="sp"/><j/>undersigned</r></p><par n="politics__n"/>    </e>
+    <e lm="undersigned">      <p>	<l>undersigned</l>	<r>undersigned</r></p><par n="politics__n"/>    </e>
     <e lm="that"><i>that</i><par n="that__cnjsub"/>    </e>
     
 <!-- numerals -->
@@ -24768,6 +24770,7 @@
     <e lm="theirs"><i>theirs</i><par n="mine__prn"/>    </e>
     <e lm="what"><i>what</i><par n="what__prn"/>    </e>
     <e lm="whatever"><i>whatever</i><par n="everyone__prn"/>    </e>
+    <e lm="whoever"><i>whoever</i><par n="everyone__prn"/>    </e>
     <e lm="which"><i>which</i><par n="what__prn"/>    </e>
     <e lm="which one"><i>which<b/>one</i><par n="which_one__prn"/>    </e>
     <e lm="who"><i>who</i><par n="what__prn"/>    </e>
@@ -25642,6 +25645,7 @@
     <e lm="ballistic"><i>ballistic</i><par n="expensive__adj"/>     </e>
     <e lm="balneotherapy"><i>balneotherap</i><par n="bab/y__n"/>     </e>
     <e lm="baluster"><i>baluster</i><par n="house__n"/>     </e>
+    <e lm="feather duster"><i>feather<b/>duster</i><par n="house__n"/>     </e>
     <e lm="bandage"><i>bandage</i><par n="house__n"/>     </e>
     <e lm="banishment"><i>banishment</i><par n="house__n"/>     </e>
     <e lm="bankruptcy" a="doriua"><i>bankruptc</i><par n="bab/y__n"/>     </e>
@@ -27061,6 +27065,7 @@
     <e lm="halide"><i>halide</i><par n="house__n"/>     </e>
     <e lm="halite"><i>halite</i><par n="house__n"/>     </e>
     <e lm="hallelujah"><i>hallelujah</i><par n="house__n"/>     </e>
+    <e lm="hallelujah"><i>hallelujah</i><par n="hello__ij"/>     </e>
     <e lm="hallucinogen"><i>hallucinogen</i><par n="house__n"/>     </e>
     <e lm="halter"><i>halter</i><par n="house__n"/>     </e>
     <e lm="hamburger"><i>hamburger</i><par n="house__n"/>     </e>
@@ -27874,7 +27879,6 @@
     <e lm="monotreme"><i>monotreme</i><par n="house__n"/>     </e>
     <e lm="monotype"><i>monotype</i><par n="house__n"/>     </e>
     <e lm="moonlighting"><i>moonlighting</i><par n="house__n"/>     </e>
-    <e lm="moor"><i>moor</i><par n="house__n"/>     </e>
     <e lm="morganatic"><i>morganatic</i><par n="expensive__adj"/>     </e>
     <e lm="morph"><i>morph</i><par n="house__n"/>     </e>
     <e lm="morpheme"><i>morpheme</i><par n="house__n"/>     </e>
@@ -29051,6 +29055,7 @@
     <e lm="spheroidal"><i>spheroidal</i><par n="expensive__adj"/>     </e>
     <e lm="sphincter"><i>sphincter</i><par n="house__n"/>     </e>
     <e lm="spice"><i>spice</i><par n="house__n"/>     </e>
+    <e lm="sausage"><i>sausage</i><par n="house__n"/>     </e>
     <e lm="spill"><i>spil</i><par n="spel/l__vblex"/>     </e>
     <e lm="spill"><i>spill</i><par n="house__n"/>     </e>
     <e lm="spin"><i>spin</i><par n="house__n"/>     </e>
@@ -29103,6 +29108,7 @@
     <e lm="steelworks"><i>steelworks</i><par n="politics__n"/>     </e>
     <e lm="steep"><i>steep</i><par n="long/__adj"/>     </e>
     <e lm="stepson"><i>stepson</i><par n="house__n"/>     </e>
+    <e lm="stepdaughter"><i>stepdaughter</i><par n="house__n"/>     </e>
     <e lm="steradian"><i>steradian</i><par n="house__n"/>     </e>
     <e lm="stereophonic"><i>stereophonic</i><par n="expensive__adj"/>     </e>
     <e lm="stereoscopy"><i>stereoscop</i><par n="bab/y__n"/>     </e>
@@ -29662,6 +29668,7 @@
     <e lm="as though"><i>as<b/>though</i><par n="after__cnjadv"/></e>
     <e lm="prescription"><i>prescription</i><par n="house__n"/></e>
     <e lm="recipe"><i>recipe</i><par n="house__n"/></e>
+    <e lm="mainstay"><i>mainstay</i><par n="house__n"/></e>
 
 
 <e lm="the day after tomorrow"><i>the<b/>day<b/>after<b/>tomorrow</i><par n="maybe__adv"/></e>

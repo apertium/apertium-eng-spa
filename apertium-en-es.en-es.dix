@@ -7481,7 +7481,7 @@
     <e r="LR" slr="molde"><p><l>cast<s n="n"/></l><r>molde<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="reparto D"><p><l>cast<s n="n"/></l><r>reparto<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>caste<s n="n"/></l><r>casta<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>casting<s n="n"/></l><r>fundición<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR">  <p><l>casting<s n="n"/></l><r>fundición<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>castle<s n="n"/></l><r>castillo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>castration<s n="n"/></l><r>castración<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>cat<s n="n"/></l><r>gato<s n="n"/><s n="GD"/></r></p></e>
@@ -7675,6 +7675,8 @@
     <e r="LR"><p><l>climber<s n="n"/></l><r>escalador<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>climber<s n="n"/></l><r>escalador<s n="n"/></r></p></e>
     <e>  <p><l>shiver<s n="n"/></l><r>escalofrío<s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>shudder<s n="n"/></l><r>estremecimiento<s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>shudder<s n="vblex"/></l><r>estremecerse<s n="vblex"/><s n="pron"/></r></p></e>
     <e>  <p><l>climbing<s n="n"/></l><r>escalada<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>clip<s n="n"/></l><r>clip<s n="n"/><s n="m"/></r></p></e>
     <e srl="clock D"><p><l>clock<s n="n"/></l><r>reloj<s n="n"/><s n="m"/></r></p></e>
@@ -9303,9 +9305,10 @@
     <e slr="tacón D"><p><l>heel<s n="n"/></l><r>tacón<s n="n"/><s n="m"/></r></p></e>
     <e slr="talón"><p><l>heel<s n="n"/></l><r>talón<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>hegemony<s n="n"/></l><r>hegemonía<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>height<s n="n"/></l><r>alzada<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL">  <p><l>height<s n="n"/></l><r>alzada<s n="n"/><s n="f"/></r></p></e>
+    <e>  <p><l>height<s n="n"/></l><r>altura<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>height<s n="n"/></l><r>cota<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>height<s n="n"/></l><r>estatura<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>height<s n="n"/></l><r>estatura<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>helicopter<s n="n"/></l><r>helicóptero<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>hell<s n="n"/></l><r>infierno<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>helmet<s n="n"/></l><r>casco<s n="n"/><s n="m"/></r></p></e>
@@ -10506,7 +10509,6 @@
     <e>  <p><l>order<s n="n"/></l><r>orden<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>organ<s n="n"/></l><r>órgano<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>organ<s n="n"/></l><r>órgano<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>organisation<s n="n"/></l><r>organización<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>organism<s n="n"/></l><r>organismo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>organist<s n="n"/></l><r>organista<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>organiser<s n="n"/></l><r>organizador<s n="n"/><s n="GD"/></r></p></e>
@@ -11597,7 +11599,7 @@
     <e>  <p><l>scratch<s n="n"/></l><r>arañazo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>screen<s n="n"/></l><r>pantalla<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>screw<s n="n"/></l><r>tornillo<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>script<s n="n"/></l><r>guión<s n="n"/><s n="m"/></r></p></e>
+    <e slr="script D">  <p><l>script<s n="n"/></l><r>guión<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>scruple<s n="n"/></l><r>escrúpulo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>scuffle<s n="n"/></l><r>trifulca<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>sculptor<s n="n"/></l><r>escultor<s n="n"/><s n="GD"/></r></p></e>
@@ -11968,17 +11970,20 @@
     <e>  <p><l>stabilization<s n="n"/></l><r>estabilización<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>security<b/>forces<s n="n"/></l><r>fuerzas<b/>de<b/>seguridad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>armed<b/>forces<s n="n"/></l><r>fuerzas<b/>armadas<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>stable<s n="n"/></l><r>cuadra<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>stadium<s n="n"/></l><r>estadio<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>staff<s n="n"/><s n="sg"/></l><r>personal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>staff<s n="n"/><s n="pl"/></l><r>personal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="RL" srl="staff D"><p><l>staff<s n="n"/></l><r>plantilla<s n="n"/><s n="f"/></r></p></e>
-    <e slr="escenario"><p><l>stage<s n="n"/></l><r>escenario<s n="n"/><s n="m"/></r></p></e>
+    <e slr="escenario" srl="stage D"><p><l>stage<s n="n"/></l><r>escenario<s n="n"/><s n="m"/></r></p></e>
     <e slr="etapa D"><p><l>stage<s n="n"/></l><r>etapa<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>stagnation<s n="n"/></l><r>estancamiento<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>stain<s n="n"/></l><r>mancha<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>stake<s n="n"/></l><r>participación<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>stall<s n="n"/></l><r>establo<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR">  <p><l>stall<s n="n"/></l><r>parada<s n="n"/><s n="f"/></r></p></e>
+    <e>  <p><l>stable<s n="n"/></l><r>establo<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR">  <p>  <l>cowshed<s n="n"/></l><r>establo<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL">  <p><l>stable<s n="n"/></l><r>cuadra<s n="n"/><s n="f"/></r></p></e>
+
     <e srl="stamp D"><p><l>stamp<s n="n"/></l><r>sello<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="soporte"><p><l>stand<s n="n"/></l><r>soporte<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="puesto"><p><l>stand<s n="n"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e>
@@ -14562,8 +14567,8 @@
     <e>  <p><l>picaresque<s n="adj"/></l><r>picaresco<s n="adj"/></r></p></e>
     <e>  <p><l>pictorial<s n="adj"/></l><r>pictórico<s n="adj"/></r></p></e>
     <e>  <p><l>picturesque<s n="adj"/></l><r>pintoresco<s n="adj"/></r></p></e>
-    <e>  <p><l>piercing<s n="adj"/></l><r>penetrante<s n="adj"/><s n="mf"/></r></p></e>
-    <e r="RL"><p><l>piercing<s n="adj"/></l><r>penetrante<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR">  <p><l>piercing<s n="adj"/></l><r>penetrante<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>penetrating<s n="adj"/></l><r>penetrante<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>pink<s n="adj"/><s n="sint"/></l><r>rosa<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>pink<s n="adj"/><s n="sint"/></l><r>rosado<s n="adj"/></r></p></e>
     <e>  <p><l>pious<s n="adj"/></l><r>piadoso<s n="adj"/></r></p></e>
@@ -16431,6 +16436,7 @@
     <e>  <p><l>locate<s n="vblex"/></l><r>localizar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>lock<s n="vblex"/></l><r>cerrar<s n="vblex"/></r></p></e>
     <e>  <p><l>lodge<s n="vblex"/></l><r>alojar<s n="vblex"/></r></p></e>
+    <e r="LR">  <p><l>billet<s n="vblex"/></l><r>alojar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>lodge<s n="vblex"/></l><r>hospedar<s n="vblex"/></r></p></e>
     <e slr="mirar D"><p><l>look<s n="vblex"/></l><r>mirar<s n="vblex"/></r></p></e>
     <e slr="parecer" srl="look" c="(he looks tired)"><p><l>look<s n="vblex"/></l><r>parecer<s n="vblex"/></r></p></e>
@@ -16528,9 +16534,8 @@
     <e r="LR" slr="manejar"><p><l>operate<s n="vblex"/></l><r>manejar<s n="vblex"/></r></p></e>
     <e slr="operar D"><p><l>operate<s n="vblex"/></l><r>operar<s n="vblex"/></r></p></e>
     <e>  <p><l>opt<s n="vblex"/></l><r>optar<s n="vblex"/></r></p></e>
-    <e>  <p><l>optimise<s n="vblex"/></l><r>optimizar<s n="vblex"/></r></p></e>
+    <e r="LR">  <p><l>optimise<s n="vblex"/></l><r>optimizar<s n="vblex"/></r></p></e>
     <e>  <p><l>orbit<s n="vblex"/></l><r>orbitar<s n="vblex"/></r></p></e>
-    <e>  <p><l>organise<s n="vblex"/></l><r>organizar<s n="vblex"/></r></p></e>
     <e>  <p><l>originate<s n="vblex"/></l><r>originar<s n="vblex"/></r></p></e>
     <e>  <p><l>outline<s n="vblex"/></l><r>perfilar<s n="vblex"/></r></p></e>
     <e srl="overcome"><p><l>overcome<s n="vblex"/></l><r>vencer<s n="vblex"/></r></p></e>
@@ -16598,7 +16603,6 @@
     <e>  <p><l>poll<s n="vblex"/></l><r>encuestar<s n="vblex"/></r></p></e>
     <e>  <p><l>pollute<s n="vblex"/></l><r>contaminar<s n="vblex"/></r></p></e>
     <e>  <p><l>pop<s n="vblex"/></l><r>reventar<s n="vblex"/></r></p></e>
-    <e>  <p><l>popularise<s n="vblex"/></l><r>popularizar<s n="vblex"/></r></p></e>
     <e>  <p><l>populate<s n="vblex"/></l><r>poblar<s n="vblex"/></r></p></e>
     <e slr="plantear"><p><l>pose<s n="vblex"/></l><r>plantear<s n="vblex"/></r></p></e>
     <e>  <p><l>posit<s n="vblex"/></l><r>postular<s n="vblex"/></r></p></e>
@@ -17122,7 +17126,7 @@
     <e>  <p><l>truncate<s n="vblex"/></l><r>truncar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>try<s n="vblex"/></l><r>intentar<s n="vblex"/></r></p></e>
     <e srl="try"><p><l>try<s n="vblex"/></l><r>probar<s n="vblex"/></r></p></e>
-    <e>  <p><l>turn<s n="vblex"/></l><r>girar<s n="vblex"/></r></p></e>
+    <e srl="turn D">  <p><l>turn<s n="vblex"/></l><r>girar<s n="vblex"/></r></p></e>
     <e>  <p><l>turn<g><b/>off</g><s n="vblex"/><s n="sep"/></l><r>apagar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>turn<g><b/>out</g><s n="vblex"/></l><r>resultar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>turn<g><b/>up</g><s n="vblex"/></l><r>aparecer<s n="vblex"/></r></p></e>
@@ -17563,7 +17567,6 @@
     <e>  <p><l>further<s n="adv"/></l><r>más<b/>allá<s n="adv"/></r></p></e>
     <e r="LR"><p><l>furthermore<s n="adv"/></l><r>además<s n="adv"/></r></p></e>
     <e>  <p><l>generally<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>generally<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
     <e r="RL"><p><l>generally<s n="adv"/></l><r>por<b/>lo<b/>general<s n="adv"/></r></p></e>
     <e r="LR"><p><l>gently<s n="adv"/></l><r>suavemente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>genuinely<s n="adv"/></l><r>sinceramente<s n="adv"/></r></p></e>
@@ -18853,7 +18856,6 @@
     <e a="prompsit2cdl"><p><l>Pozuelo<b/>de<b/>Alarcón<s n="np"/><s n="loc"/></l><r>Pozuelo<b/>de<b/>Alarcón<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e r="RL" a="prompsit2cdl"><p><l>discontinue<s n="vblex"/></l><r>descatalogar<s n="vblex"/></r></p></e>
     <e r="LR" a="prompsit2cdl"><p><l>discontinue<s n="vblex"/></l><r>interrumpir<s n="vblex"/></r></p></e>
-    <e a="prompsit2cdl"><p><l>encode<s n="vblex"/></l><r>encriptar<s n="vblex"/></r></p></e>
     <e a="prompsit2cdl"><p><l>scheme<s n="vblex"/></l><r>maquinar<s n="vblex"/></r></p></e>
     <e>  <p><l>boyfriend<s n="n"/></l><r>novio<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>girlfriend<s n="n"/></l><r>novio<s n="n"/><s n="f"/></r></p></e>
@@ -20727,30 +20729,20 @@
     <e>  <p>  <l>in<b/>vain<s n="adv"/></l><r>en<b/>vano<s n="adv"/></r></p></e>
         <e>  <p>  <l>conversely<s n="adv"/></l><r>en<b/>cambio<s n="adv"/></r></p></e>
     
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>all<b/>in<b/>all<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
-    
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>by<b/>and<b/>large<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
-    
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>generally<b/>speaking<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
         <e>  <p>  <l>in<b/>general<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
-    
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>in<b/>the<b/>generality<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
-    
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>in<b/>the<b/>main<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
-    
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>on<b/>the<b/>whole<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
-    
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>overall<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
+
+
+
         <e r="RL"><p><l>from<b/>now<b/>on<s n="adv"/></l><r>en<b/>lo<b/>sucesivo<s n="adv"/></r></p></e>
         <e>  <p>  <l>nowhere<s n="adv"/></l><r>en<b/>ninguna<b/>parte<s n="adv"/></r></p></e>
-        <e>  <p>  <l>all<b/>around<s n="adv"/></l><r>en<b/>todas<b/>partes<s n="adv"/></r></p></e>
+        <e r="LR">  <p>  <l>all<b/>around<s n="adv"/></l><r>en<b/>todas<b/>partes<s n="adv"/></r></p></e>
     
 <!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>worldwide<s n="adv"/></l><r>en<b/>todo<b/>el<b/>mundo<s n="adv"/></r></p></e>
@@ -20770,8 +20762,7 @@
         <e>  <p>  <l>shrinkage<s n="n"/></l><r>encogimiento<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>encrypt<s n="vblex"/></l><r>encriptar<s n="vblex"/></r></p></e>
     
-<!-- 	forced 'RL' restriction      defaultRL    -->
-    <e r="LR"><p><l>encode<s n="vblex"/></l><r>encriptar<s n="vblex"/></r></p></e>
+        <e><p><l>encode<s n="vblex"/></l><r>codificar<s n="vblex"/></r></p></e>
         <e>  <p>  <l>encephalon<s n="n"/></l><r>encéfalo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>endemism<s n="n"/></l><r>endemismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>endive<s n="n"/></l><r>endibia<s n="n"/><s n="f"/></r></p></e>
@@ -20898,7 +20889,7 @@
         <e>  <p>  <l>erythrocyte<s n="n"/></l><r>eritrocito<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>eructation<s n="n"/></l><r>eructo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>that's<b/>why<s n="cnjadv"/></l><r>es<b/>por<b/>eso<b/>que<s n="cnjadv"/></r></p></e>
-        <e>  <p>  <l>chill<s n="n"/></l><r>escalofrío<s n="n"/><s n="m"/></r></p></e>
+        <e r="LR">  <p>  <l>chill<s n="n"/></l><r>frío<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>hoarfrost<s n="n"/></l><r>escarcha<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>scarification<s n="n"/></l><r>escarificación<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>scarlet<s n="adj"/></l><r>escarlata<s n="adj"/><s n="mf"/></r></p></e>
@@ -20906,7 +20897,7 @@
         <e>  <p>  <l>escarole<s n="n"/></l><r>escarola<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>escarpment<s n="n"/></l><r>escarpadura<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>eschatology<s n="n"/></l><r>escatología<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p>  <l>scenario<s n="n"/></l><r>escenario<s n="n"/><s n="m"/></r></p></e>
+    <e srl="scenario">  <p>  <l>scenario<s n="n"/></l><r>escenario<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>scenographical<s n="adj"/></l><r>escenográfico<s n="adj"/></r></p></e>
         <e>  <p>  <l>sclerenchyma<s n="n"/></l><r>esclerénquima<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>scholastic<s n="adj"/></l><r>escolástico<s n="adj"/></r></p></e>
@@ -20963,13 +20954,12 @@
         <e>  <p>  <l>skimmer<s n="n"/></l><r>espumadera<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>specimen<s n="n"/></l><r>espécimen<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>spin<s n="n"/></l><r>espín<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p>  <l>spin<s n="vblex"/></l><r>girar<s n="vblex"/></r></p></e>
+    <e srl="spin">  <p>  <l>spin<s n="vblex"/></l><r>girar<s n="vblex"/></r></p></e>
         <e>  <p>  <l>skeletal<s n="adj"/></l><r>esquelético<s n="adj"/></r></p></e>
         <e>  <p>  <l>schematic<s n="adj"/></l><r>esquemático<s n="adj"/></r></p></e>
         <e>  <p>  <l>schizophrenic<s n="adj"/></l><r>esquizofrénico<s n="adj"/></r></p></e>
         <e>  <p>  <l>stabilizer<s n="n"/></l><r>estabilizador<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>stabilize<s n="vblex"/></l><r>estabilizar<s n="vblex"/></r></p></e>
-        <e>  <p>  <l>cowshed<s n="n"/></l><r>establo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>stabling<s n="n"/></l><r>estabulación<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>palisade<s n="n"/></l><r>estacada<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>stalactite<s n="n"/></l><r>estalactita<s n="n"/><s n="f"/></r></p></e>
@@ -20983,7 +20973,7 @@
         <e>  <p>  <l>stagflation<s n="n"/></l><r>estanflación<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>statism<s n="n"/></l><r>estatismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>stator<s n="n"/></l><r>estator<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>stature<s n="n"/></l><r>estatura<s n="n"/><s n="f"/></r></p></e>
+        <e r="LR">  <p>  <l>stature<s n="n"/></l><r>estatura<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>steatite<s n="n"/></l><r>esteatita<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>stoichiometry<s n="n"/></l><r>estequiometría<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>stoichiometric<s n="adj"/></l><r>estequiométrico<s n="adj"/></r></p></e>
@@ -20997,7 +20987,7 @@
         <e>  <p>  <l>stereoscope<s n="n"/></l><r>estereoscopio<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>esterification<s n="n"/></l><r>esterificación<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>sternum<s n="n"/></l><r>esternón<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>breastbone<s n="n"/></l><r>esternón<s n="n"/><s n="m"/></r></p></e>
+        <e r="LR">  <p>  <l>breastbone<s n="n"/></l><r>esternón<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>rale<s n="n"/></l><r>estertor<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>aestheticism<s n="n"/></l><r>esteticismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>stethoscope<s n="n"/></l><r>estetoscopio<s n="n"/><s n="m"/></r></p></e>
@@ -21468,7 +21458,7 @@
         <e>  <p>  <l>gravitation<s n="n"/></l><r>gravitación<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>gregale<s n="n"/></l><r>gregal<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>gremial<s n="adj"/></l><r>gremial<s n="adj"/><s n="mf"/></r></p></e>
-        <e>  <p>  <l>griffin<s n="n"/></l><r>grifo<s n="n"/><s n="m"/></r></p></e>
+        <e r="LR">  <p>  <l>griffin<s n="n"/></l><r>grifo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>grisaille<s n="n"/></l><r>grisalla<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>granule<s n="n"/></l><r>gránulo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>guanaco<s n="n"/></l><r>guanaco<s n="n"/><s n="m"/></r></p></e>
@@ -21481,7 +21471,7 @@
         <e>  <p>  <l>pebble<s n="n"/></l><r>guijarro<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>hodgepodge<s n="n"/></l><r>guirigay<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pea<s n="n"/></l><r>guisante<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>hyphen<s n="n"/></l><r>guión<s n="n"/><s n="m"/></r></p></e>
+        <e srl="hyphen">  <p>  <l>hyphen<s n="n"/></l><r>guión<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>gargoyle<s n="n"/></l><r>gárgola<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>gastric<s n="adj"/></l><r>gástrico<s n="adj"/></r></p></e>
         <e>  <p>  <l>gastrula<s n="n"/></l><r>gástrula<s n="n"/><s n="f"/></r></p></e>
@@ -21564,6 +21554,7 @@
     <e r="RL"><p><l>meadow<s n="n"/></l><r>pradera<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>herbicide<s n="n"/></l><r>herbicida<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>herbivore<s n="n"/></l><r>herbívoro<s n="n"/><s n="m"/></r></p></e>
+        <e>  <p>  <l>herbivorous<s n="adj"/></l><r>herbívoro<s n="adj"/></r></p></e>
         <e>  <p>  <l>inheritable<s n="adj"/></l><r>heredable<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>hernia<s n="n"/></l><r>hernia<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>horseshoe<s n="n"/></l><r>herradura<s n="n"/><s n="f"/></r></p></e>
@@ -21680,6 +21671,7 @@
     
 <!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>billet<s n="n"/></l><r>hospedaje<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>accommodation<s n="n"/></l><r>hospedaje<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>hospice<s n="n"/></l><r>hospicio<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>for<b/>the<b/>time<b/>being<s n="adv"/></l><r>hoy<b/>por<b/>hoy<s n="adv"/></r></p></e>
         <e>  <p>  <l>humanistic<s n="adj"/></l><r>humanístico<s n="adj"/></r></p></e>
@@ -21840,6 +21832,7 @@
         <e>  <p>  <l>inorganic<s n="adj"/></l><r>inorgánico<s n="adj"/></r></p></e>
         <e>  <p>  <l>unsatisfactory<s n="adj"/></l><r>insatisfactorio<s n="adj"/></r></p></e>
         <e>  <p>  <l>insectivore<s n="n"/></l><r>insectívoro<s n="n"/><s n="m"/></r></p></e>
+        <e>  <p>  <l>insectivorous<s n="adj"/></l><r>insectívoro<s n="adj"/></r></p></e>
     <e>  <p><l>developing<s n="adj"/></l><r>en<b/>desarrollo<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>unimportance<s n="n"/></l><r>insignificancia<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>insolence<s n="n"/></l><r>insolencia<s n="n"/><s n="f"/></r></p></e>
@@ -21960,6 +21953,7 @@
         <e>  <p>  <l>jeep<s n="n"/></l><r>jeep<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>ginger<s n="n"/></l><r>jengibre<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>hieroglyph<s n="n"/></l><r>jeroglífico<s n="n"/><s n="m"/></r></p></e>
+        <e>  <p>  <l>hieroglyphic<s n="adj"/></l><r>jeroglífico<s n="adj"/></r></p></e>
         <e>  <p>  <l>hierarchical<s n="adj"/></l><r>jerárquico<s n="adj"/></r></p></e>
         <e>  <p>  <l>jet<s n="n"/></l><r>jet<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>giraffe<s n="n"/></l><r>jirafa<s n="n"/><s n="f"/></r></p></e>
@@ -22140,6 +22134,7 @@
         <e>  <p>  <l>margarine<s n="n"/></l><r>margarina<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>butterfly<s n="n"/></l><r>mariposa<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>marshal<s n="n"/></l><r>mariscal<s n="n"/><s n="m"/></r></p></e>
+        <e r="RL">  <p>  <l>marshal<s n="n"/></l><r>mariscal<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>marital<s n="adj"/></l><r>marital<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>marquetry<s n="n"/></l><r>marquetería<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>marsupial<s n="n"/></l><r>marsupial<s n="n"/><s n="m"/></r></p></e>
@@ -22343,8 +22338,6 @@
         <e>  <p>  <l>monomer<s n="n"/></l><r>monómero<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>monotonously<s n="adv"/></l><r>monótonamente<s n="adv"/></r></p></e>
         <e>  <p>  <l>blackberry<s n="n"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
-        <e>  <p>  <l>blue<s n="n"/></l><r>moratón<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>bruise<s n="n"/></l><r>moratón<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>morpheme<s n="n"/></l><r>morfema<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>morphine<s n="n"/></l><r>morfina<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>morph<s n="n"/></l><r>morfo<s n="n"/><s n="m"/></r></p></e>
@@ -22366,7 +22359,8 @@
         <e>  <p>  <l>mucin<s n="n"/></l><r>mucina<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>mucilage<s n="n"/></l><r>mucílago<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>sampling<s n="n"/></l><r>muestreo<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>mule<s n="n"/></l><r>mulo<s n="n"/><s n="m"/></r></p></e>
+        <e>  <p>  <l>mule<s n="n"/></l><r>mulo<s n="n"/><s n="f"/></r></p></e>
+        <e r="RL">  <p>  <l>mule<s n="n"/></l><r>mulo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>multilingual<s n="adj"/></l><r>multilingüe<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>multilingualism<s n="n"/></l><r>multilingüismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>multiplexer<s n="n"/></l><r>multiplexor<s n="n"/><s n="m"/></r></p></e>
@@ -22554,7 +22548,6 @@
         <e>  <p>  <l>goldsmithing<s n="n"/></l><r>orfebrería<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>organicism<s n="n"/></l><r>organicismo<s n="n"/><s n="m"/></r></p></e>
     
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>organisation<s n="n"/></l><r>organización<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>organization<s n="n"/></l><r>organización<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>organizer<s n="n"/></l><r>organizador<s n="n"/><s n="m"/></r></p></e>
@@ -22562,11 +22555,8 @@
 <!-- 	forced 'LR' restriction      defaultLR    -->
     <e r="RL"><p><l>organizer<s n="n"/></l><r>organizador<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>organize<s n="vblex"/></l><r>organizar<s n="vblex"/></r></p></e>
-    
-<!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>organise<s n="vblex"/></l><r>organizar<s n="vblex"/></r></p></e>
     
-<!-- 	forced 'LR' restriction      defaultLR    -->
     <e r="RL"><p><l>proudly<s n="adv"/></l><r>orgullosamente<s n="adv"/></r></p></e>
     <e>  <p>  <l>proudly<s n="adv"/></l><r>con<b/>orgullo<s n="adv"/></r></p></e>
         <e>  <p>  <l>organelle<s n="n"/></l><r>orgánulo<s n="n"/><s n="m"/></r></p></e>
@@ -22704,7 +22694,7 @@
         <e>  <p>  <l>pascal<s n="n"/></l><r>pascal<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>passivation<s n="n"/></l><r>pasivación<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>sinkhole<s n="n"/></l><r>pasma<s n="n"/><s n="f"/></r></p></e>
-        <e>  <p>  <l>pi<s n="n"/></l><r>pastel<s n="n"/><s n="m"/></r></p></e>
+        <e r="LR">  <p>  <l>pie<s n="n"/></l><r>pastel<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pastoralism<s n="n"/></l><r>pastoralismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pathos<s n="n"/></l><r>patetismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pathogeny<s n="n"/></l><r>patogenia<s n="n"/><s n="f"/></r></p></e>
@@ -22729,9 +22719,10 @@
         <e>  <p>  <l>pegmatite<s n="n"/></l><r>pegmatita<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>pellagra<s n="n"/></l><r>pelagra<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>furrier<s n="n"/></l><r>peletero<s n="n"/><s n="m"/></r></p></e>
+        <e r="RL">  <p>  <l>furrier<s n="n"/></l><r>peletero<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>pellet<s n="n"/></l><r>pelotita<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>plume<s n="n"/></l><r>penacho<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>pungent<s n="adj"/></l><r>penetrante<s n="adj"/><s n="mf"/></r></p></e>
+        <e r="LR">  <p>  <l>pungent<s n="adj"/></l><r>penetrante<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>penicillin<s n="n"/></l><r>penicilina<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>penny<s n="n"/></l><r>penique<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pentagonal<s n="adj"/></l><r>pentagonal<s n="adj"/><s n="mf"/></r></p></e>
@@ -22787,6 +22778,7 @@
         <e>  <p>  <l>petrochemical<s n="adj"/></l><r>petroquímico<s n="adj"/></r></p></e>
     <e>  <p>  <l>petrochemical<s n="n"/></l><r>producto<b/>petroquímico<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>hodman<s n="n"/></l><r>peón<s n="n"/><s n="m"/></r></p></e>
+        <e r="RL" >  <p>  <l>hodman<s n="n"/></l><r>peón<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>picnic<s n="n"/></l><r>picnic<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>picofarad<s n="n"/></l><r>picofarad<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pillory<s n="n"/></l><r>picota<s n="n"/><s n="f"/></r></p></e>
@@ -22864,6 +22856,7 @@
         <e>  <p>  <l>poikilothermal<s n="adj"/></l><r>poiquilotermo<s n="adj"/></r></p></e>
         <e>  <p>  <l>polarizer<s n="n"/></l><r>polarizador<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>polarize<s n="vblex"/></l><r>polarizar<s n="vblex"/></r></p></e>
+        <e r="LR">  <p>  <l>polarise<s n="vblex"/></l><r>polarizar<s n="vblex"/></r></p></e>
         <e>  <p>  <l>polarography<s n="n"/></l><r>polarografía<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>polarimeter<s n="n"/></l><r>polarímetro<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>polyamide<s n="n"/></l><r>poliamida<s n="n"/><s n="f"/></r></p></e>
@@ -22912,6 +22905,7 @@
         <e>  <p>  <l>pony<s n="n"/></l><r>poney<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pontificate<s n="n"/></l><r>pontificado<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>popularize<s n="vblex"/></l><r>popularizar<s n="vblex"/></r></p></e>
+    <e r="LR">  <p><l>popularise<s n="vblex"/></l><r>popularizar<s n="vblex"/></r></p></e>
     
 <!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>beforehand<s n="adv"/></l><r>por<b/>adelantado<s n="adv"/></r></p></e>
@@ -22972,7 +22966,8 @@
         <e>  <p>  <l>prestissimo<s n="adv"/></l><r>prestissimo<s n="adv"/></r></p></e>
         <e>  <p>  <l>presupposition<s n="n"/></l><r>presupuesto<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>praetorium<s n="n"/></l><r>pretorio<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>prevaricator<s n="n"/></l><r>prevaricador<s n="n"/><s n="m"/></r></p></e>
+        <e r="LR">  <p>  <l>prevaricator<s n="n"/></l><r>prevaricador<s n="n"/><s n="GD"/></r></p></e>
+        <e r="RL">  <p>  <l>prevaricator<s n="n"/></l><r>prevaricador<s n="n"/></r></p></e>
         <e>  <p>  <l>premium<s n="n"/></l><r>prima<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>primacy<s n="n"/></l><r>primacía<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>primogeniture<s n="n"/></l><r>primogenitura<s n="n"/><s n="f"/></r></p></e>
@@ -23044,6 +23039,7 @@
 	<e><p><l>polish<s n="n"/></l><r>abrillantador<s n="n"/><s n="m"/></r></p></e>
         <e r="RL">  <p>  <l>shine<s n="n"/></l><r>lustre<s n="n"/><s n="m"/></r></p></e>
         <e r="RL">  <p>  <l>polishing<s n="n"/></l><r>pulido<s n="n"/><s n="m"/></r></p></e>
+        <e>  <p>  <l>shine<s n="n"/></l><r>brillo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>polishing<s n="n"/></l><r>pulimento<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>cougar<s n="n"/></l><r>puma<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pupa<s n="n"/></l><r>pupa<s n="n"/><s n="f"/></r></p></e>
@@ -23065,8 +23061,8 @@
         <e>  <p>  <l>portico<s n="n"/></l><r>pórtico<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pubic<s n="adj"/></l><r>púbico<s n="adj"/></r></p></e>
         <e>  <p>  <l>purple<s n="n"/></l><r>púrpura<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p>  <l>purple<s n="adj"/></l><r>púrpura<s n="adj"/><s n="mf"/></r></p></e>
-        <e>  <p>  <l>purpura<s n="n"/></l><r>púrpura<s n="n"/><s n="f"/></r></p></e>
+    <e>  <p>  <l>purple<s n="adj"/><s n="sint"/></l><r>púrpura<s n="adj"/><s n="mf"/></r></p></e>
+        <e r="LR">  <p>  <l>purpura<s n="n"/></l><r>púrpura<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>pustule<s n="n"/></l><r>pústula<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>quadruped<s n="adj"/></l><r>quadrúpedo<s n="adj"/></r></p></e>
         <e>  <p>  <l>quark<s n="n"/></l><r>quark<s n="n"/><s n="m"/></r></p></e>
@@ -23143,6 +23139,7 @@
     
 <!-- 	forced 'LR' restriction      defaultLR    -->
     <e r="RL"><p><l>replacement<s n="n"/></l><r>reemplazo<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>replacement<s n="n"/></l><r>remplazo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>rewrite<s n="vblex"/></l><r>reescribir<s n="vblex"/></r></p></e>
         <e>  <p>  <l>rewriting<s n="n"/></l><r>reescritura<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>referential<s n="adj"/></l><r>referencial<s n="adj"/><s n="mf"/></r></p></e>
@@ -23263,7 +23260,8 @@
 <!-- 	forced 'RL' restriction      defaultRL    -->
     <e r="LR"><p><l>loudly<s n="adv"/></l><r>ruidosamente<s n="adv"/></r></p></e>
         <e>  <p>  <l>noisily<s n="adv"/></l><r>ruidosamente<s n="adv"/></r></p></e>
-        <e>  <p>  <l>rumiant<s n="n"/></l><r>rumiante<s n="n"/><s n="m"/></r></p></e>
+        <e>  <p>  <l>ruminant<s n="n"/></l><r>rumiante<s n="n"/><s n="m"/></r></p></e>
+        <e>  <p>  <l>ruminant<s n="adj"/></l><r>rumiante<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>rumour<s n="n"/></l><r>rumor<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>rupestrian<s n="adj"/></l><r>rupestre<s n="adj"/><s n="mf"/></r></p></e>
     
@@ -23389,7 +23387,9 @@
     <e r="LR"><p><l>disengagable<s n="adj"/></l><r>separable<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>offprint<s n="n"/></l><r>separata<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>sepia<s n="n"/></l><r>sepia<s n="n"/><s n="f"/></r></p></e>
-        <e>  <p>  <l>sepsis<s n="n"/></l><r>sepsis<s n="n"/><s n="f"/></r></p></e>
+        <e r="RL">  <p>  <l>sepsis<s n="n"/><s n="ND"/></l><r>sepsis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+        <e r="LR">  <p>  <l>sepsis<s n="n"/><s n="sg"/></l><r>sepsis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+        <e r="LR">  <p>  <l>sepsis<s n="n"/><s n="pl"/></l><r>sepsis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
         <e>  <p>  <l>septet<s n="n"/></l><r>septeto<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>septicemia<s n="n"/></l><r>septicemia<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>serenade<s n="n"/></l><r>serenata<s n="n"/><s n="f"/></r></p></e>
@@ -23585,7 +23585,8 @@
         <e>  <p>  <l>syllable<s n="n"/></l><r>sílaba<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>flint<s n="n"/></l><r>sílex<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>silica<s n="n"/></l><r>sílice<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>syndic<s n="n"/></l><r>síndico<s n="n"/><s n="m"/></r></p></e>
+        <e r="LR">  <p>  <l>syndic<s n="n"/></l><r>síndico<s n="n"/><s n="GD"/></r></p></e>
+        <e r="RL">  <p>  <l>syndic<s n="n"/></l><r>síndico<s n="n"/></r></p></e>
         <e>  <p>  <l>synod<s n="n"/></l><r>sínodo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>systole<s n="n"/></l><r>sístole<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>septum<s n="n"/></l><r>tabique<s n="n"/><s n="m"/></r></p></e>
@@ -23612,11 +23613,7 @@
         <e>  <p>  <l>loom<s n="n"/></l><r>telar<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>teleconferencing<s n="n"/></l><r>teleconferencia<s n="n"/><s n="f"/></r></p></e>
     
-<!-- 	forced 'RL' restriction      defaultRL    -->
-    <e r="LR"><p><l>newscast<s n="n"/></l><r>telediario<s n="n"/><s n="m"/></r></p></e>
-    
-<!-- 	forced 'LR' restriction      defaultLR    -->
-    <e r="RL"><p><l>newscast<s n="n"/><s n="ND"/></l><r>telediario<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+	<e><p><l>newscast<s n="n"/></l><r>telediario<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>telediffusion<s n="n"/></l><r>teledifusión<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>ropeway<s n="n"/></l><r>teleférico<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>telegraphy<s n="n"/></l><r>telegrafía<s n="n"/><s n="f"/></r></p></e>
@@ -23864,8 +23861,9 @@
         <e>  <p>  <l>variance<s n="n"/></l><r>varianza<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>variscite<s n="n"/></l><r>variscita<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>vassalage<s n="n"/></l><r>vasallaje<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>vassal<s n="n"/></l><r>vasallo<s n="n"/><s n="m"/></r></p></e>
-            <e>  <p>  <l>vascular<s n="adj"/></l><r>vascular<s n="adj"/><s n="mf"/></r></p></e>
+        <e r="LR">  <p>  <l>vassal<s n="n"/></l><r>vasallo<s n="n"/><s n="GD"/></r></p></e>
+	<e r="RL">  <p>  <l>vassal<s n="n"/></l><r>vasallo<s n="n"/></r></p></e>
+	<e>  <p>  <l>vascular<s n="adj"/></l><r>vascular<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>vasodilation<s n="n"/></l><r>vasodilatación<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>vectorial<s n="adj"/></l><r>vectorial<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>vehement<s n="adj"/></l><r>vehemente<s n="adj"/><s n="mf"/></r></p></e>
@@ -23934,6 +23932,7 @@
         <e>  <p>  <l>vulcanology<s n="n"/></l><r>vulcanología<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>vulva<s n="n"/></l><r>vulva<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>vandal<s n="n"/></l><r>vándalo<s n="n"/><s n="m"/></r></p></e>
+        <e r="RL">  <p>  <l>vandal<s n="n"/></l><r>vándalo<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>vertebra<s n="n"/></l><r>vértebra<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>Wagnerism<s n="n"/></l><r>wagnerismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>walkie-talkie<s n="n"/></l><r>walkie-talkie<s n="n"/><s n="m"/></r></p></e>

@@ -11121,7 +11121,7 @@
     <e>  <p><l>pumping<s n="n"/></l><r>bombeo<s n="n"/><s n="m"/></r></p></e>
     <e srl="punctuation D"><p><l>punctuation<s n="n"/></l><r>puntuación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>punishment<s n="n"/></l><r>castigo<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>punishment<s n="n"/></l><r>sanción<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sanction<s n="n"/></l><r>sanción<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>pupil<s n="n"/></l><r>alumno<s n="n"/><s n="GD"/></r></p></e>
     <e>  <p><l>puppet<s n="n"/></l><r>títere<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>purchase<s n="n"/></l><r>compra<s n="n"/><s n="f"/></r></p></e>
@@ -11178,7 +11178,9 @@
     <e>  <p><l>radiology<s n="n"/></l><r>radiología<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>barrel<s n="n"/></l><r>barril<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>radiotherapy<s n="n"/></l><r>radioterapia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cholera<s n="n"/></l><r>cólera<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>rage<s n="n"/></l><r>arrebato<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>rage<s n="n"/></l><r>cólera<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>rage<s n="n"/></l><r>rabia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>rail<s n="n"/></l><r>baranda<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>rail<s n="n"/></l><r>barandilla<s n="n"/><s n="f"/></r></p></e>
@@ -24160,6 +24162,26 @@
 <e>  <p><l>get<g><b/>up</g><s n="vblex"/></l>            <r>levantarse<s n="vblex"/><s n="pron"/></r></p></e>
 <e r="LR">  <p><l>get<g><b/>worse</g><s n="vblex"/></l>            <r>empeorar<s n="vblex"/></r></p></e>
 
+
+
+<e r="LR">  <p><l>envoy<s n="n"/></l>            <r>enviado<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL">  <p><l>envoy<s n="n"/></l>            <r>enviado<s n="n"/></r></p></e>
+<e>  <p><l>sanction<s n="vblex"/></l>            <r>sancionar<s n="vblex"/></r></p></e>
+<e r="LR">  <p><l>stall<s n="vblex"/></l>            <r>parar<s n="vblex"/></r></p></e>
+<e>  <p><l>surrender<s n="vblex"/></l>            <r>rendirse<s n="vblex"/><s n="pron"/></r></p></e>
+<e>  <p><l>surrender<s n="n"/></l>            <r>rendición<s n="n"/><s n="f"/></r></p></e>
+<e>  <p><l>invade<s n="vblex"/></l>            <r>invadir<s n="vblex"/></r></p></e>
+<e>  <p><l>wolf<s n="n"/></l>            <r>lobo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>wolf<s n="n"/></l>            <r>lobo<s n="n"/><s n="f"/></r></p></e>
+<e>  <p><l>pregnant<s n="adj"/></l>            <r>embarazado<s n="adj"/><s n="f"/></r></p></e>
+<e r="RL">  <p><l>pregnant<s n="adj"/></l>            <r>embarazado<s n="adj"/><s n="m"/></r></p></e>
+<e>  <p><l>Wales<s n="np"/><s n="loc"/></l>            <r>Gales<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>media<s n="n"/><s n="pl"/></l>    <r>medio<g><b/>de<b/>comunicación</g><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>media<s n="n"/><s n="sg"/></l>    <r>medio<g><b/>de<b/>comunicación</g><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>media<s n="n"/><s n="sg"/></l>    <r>medio<g><b/>de<b/>comunicación</g><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e r="LR"><p><l>be<g><b/>sorry</g><s n="vblex"/></l><r>sentir<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>be<g><b/>very<b/>sorry</g><s n="vblex"/></l><r>sentir<g><b/>mucho</g><s n="vblex"/></r></p></e>
 
   </section>  
 

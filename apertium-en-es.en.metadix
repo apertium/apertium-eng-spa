@@ -2748,6 +2748,15 @@
         </p>
       </e>
     </pardef>
+
+                                     
+<pardef n="contraction_be__vblex">
+  <e><p><l>'m</l><r>be<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e><p><l>'re</l><r>be<s n="vblex"/><s n="pres"/></r></p></e>
+  <e><p><l>'s</l><r>be<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+</pardef>
+
+
     <pardef n="ha/ve__vblex">
       <e c="CP: verb to have paradigme">
         <p>
@@ -8950,6 +8959,7 @@
     <e lm="what"><i>what</i><par n="what__det"/>    </e>
     <e lm="whatever"><i>whatever</i><par n="another__det"/>    </e>
     <e lm="which"><i>which</i><par n="what__det"/>    </e>
+  <!--  <e lm="whose"><i>whose</i><par n="what__det"/></e>-->
     <e lm="your"><i>your</i><par n="her__det"/>    </e>
     <e lm="last"><i>last</i><par n="second__det"/>    </e>
     <e lm="all"><i>all</i><par n="all__predet"/>    </e>
@@ -22772,7 +22782,6 @@
     <e lm="enrol"><i>enrol</i><par n="control__vblex"/>    </e>
     <e lm="ensure"><i>ensur</i><par n="liv/e__vblex"/>    </e>
     <e lm="enter"><i>enter</i><par n="accept__vblex"/>    </e>
-    <e lm="enter"><i>enter</i><par n="accept__vblex"/>    </e>
     <e lm="entertain"><i>entertain</i><par n="accept__vblex"/>    </e>
     <e lm="entitle"><i>entitl</i><par n="liv/e__vblex"/>    </e>
     <e lm="entrust"><i>entrust</i><par n="accept__vblex"/>    </e>
@@ -23721,16 +23730,19 @@
     <e lm="write"><i>wr</i><par n="wr/ite__vblex"/>      <p>        <l><b/>about</l><r><j/>about<s n="pr"/></r></p></e>
     <e lm="wrap"><i>wrap</i><par n="step__vblex"/>    </e>
     <e lm="zone"><i>zon</i><par n="liv/e__vblex"/>    </e>
-    <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+
+<!--verb contractions -->
+    
+  <!--  <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e> 
     <e lm="you're"><p><l>you're</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
     <e lm="she's"><p><l>she's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="she's"><p><l>she's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="she's" i="yes" c="el tagger es confon, és més freqüent 'she is'"><p><l>she's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="he's"><p><l>he's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="he's"><p><l>he's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="he's" i="yes" c="el tagger es confon, és més freqüent 'he is'"><p><l>he's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="it's"><p><l>it's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="it's"><p><l>it's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="it's" i="yes" c="el tagger es confon, és més freqüent 'she is'"><p><l>it's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="we're"><p><l>we're</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
-    <e lm="they're"><p><l>they're</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
+    <e lm="they're"><p><l>they're</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e> -->
     <e lm="I'll"><p><l>I'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
     <e lm="you'll"><p><l>you'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
     <e lm="she'll"><p><l>she'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
@@ -23740,9 +23752,6 @@
     <e lm="they'll"><p><l>they'll</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>will<s n="vaux"/><s n="inf"/></r></p></e>
     <e lm="I've"><p><l>I've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
     <e lm="you've"><p><l>you've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
-    <e lm="she's" i="yes" c="el tagger es confon, és més freqüent 'she is'"><p><l>she's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="he's" i="yes" c="el tagger es confon, és més freqüent 'he is'"><p><l>he's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="it's" i="yes" c="el tagger es confon, és més freqüent 'she is'"><p><l>it's</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="we've"><p><l>we've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
     <e lm="they've"><p><l>they've</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
     <e lm="I've got"><p><l>I've<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r></p></e>
@@ -24773,6 +24782,7 @@
     <e lm="which"><i>which</i><par n="what__prn"/>    </e>
     <e lm="which one"><i>which<b/>one</i><par n="which_one__prn"/>    </e>
     <e lm="who"><i>who</i><par n="what__prn"/>    </e>
+    <!--<e lm="whose"><i>whose</i><par n="whose__prn"/></e>-->
     <e lm="yours"><i>yours</i><par n="mine__prn"/>    </e>
     <e lm="that"><i>that</i><par n="that__rel"/>    </e>
     <e lm="the one who"><i>the<b/>one<b/>who</i><par n="what__rel"/>    </e>
@@ -25795,8 +25805,6 @@
     <e lm="bouillabaisse"><i>bouillabaisse</i><par n="house__n"/>     </e>
     <e lm="boulevard"><i>boulevard</i><par n="house__n"/>     </e>
 
-<!--    <e lm="be sorry"><i></i><par n="/be__vblex"/><p><l><b/>sorry</l><r><g><b/>sorry</g></r></p></e>
- -->
     <e lm="bring down"><i>br</i><par n="br/ing__vblex" sa="sep" />         <par n="probj_dem__prn"/>       <p>        <l><b/>down</l><r><g><b/>down</g></r></p></e>
     <e lm="bra"><i>bra</i><par n="house__n"/>     </e>
     <e lm="brachistochrone"><i>brachistochrone</i><par n="house__n"/>     </e>
@@ -29778,14 +29786,62 @@
 <e lm="get up"><i>g</i><par n="g/et__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
 <e lm="get worse"><i>g</i><par n="g/et__vblex"/><p><l><b/>worse</l><r><g><b/>worse</g></r></p></e>
 
+
+
+<e lm="cholera"><i>cholera</i><par n="house__n"/></e>
+<e lm="envoy"><i>envoy</i><par n="house__n"/></e>
+<e lm="sanction"><i>sanction</i><par n="house__n"/></e>
+<e lm="sanction"><i>sanction</i><par n="accept__vblex"/></e>
+<e lm="stall"><i>stall</i><par n="accept__vblex"/></e>
+<e lm="surrender"><i>surrender</i><par n="accept__vblex"/></e>
+<e lm="surrender"><i>surrender</i><par n="house__n"/></e>
+<e lm="invade"><i>invad</i><par n="liv/e__vblex"/>    </e>
+<e lm="wolf"><i>wol</i><par n="wol/f__n"/>    </e>
+<e lm="pregnant"><i>pregnant</i><par n="expensive__adj"/>     </e>
+<e lm="Wales"><i>Wales</i><par n="Barcelona__np"/>    </e>
+<e lm="media"><i>media</i><par n="politics__n"/></e>
+
+
+<e lm="be sorry"><i/><par n="/be__vblex"/><p><l><b/>sorry</l><r><g><b/>sorry</g></r></p></e>
+
+<e lm="be very sorry"><i/><par n="/be__vblex"/><p><l><b/>very<b/>sorry</l><r><g><b/>very<b/>sorry</g></r></p></e>
+
+<e lm="be not sorry"><i/><par n="/be__vblex"/><p><l><b/>not<b/>sorry</l><r><j/>not<s n="adv"/><g><b/>sorry</g></r></p></e>
+
+
   </section>   
+
+
+  <section id="apostrophes" type="preblank">
+
+<e lm="'m" r="LR"><p><l>'m</l><r>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e> 
+<e lm="'re" r="LR"><p><l>'re</l><r>be<s n="vbser"/><s n="pres"/></r></p></e>
+
+<e lm="'s" r="LR"><p><l>'s</l><r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> 
+
+
+<e lm="be sorry" r="LR"><par n="contraction_be__vblex"/><p><l><b/>sorry</l><r><g><b/>sorry</g></r></p></e>
+
+<e lm="be left" r="LR"><par n="contraction_be__vblex"/><p><l><b/>left</l><r><g><b/>left</g></r></p></e>
+<e lm="be missing" r="LR"><par n="contraction_be__vblex"/><p><l><b/>missing</l><r><g><b/>missing</g></r></p></e>
+<e lm="be born" r="LR"><par n="contraction_be__vblex"/><p><l><b/>born</l><r><g><b/>born</g></r></p></e>
+<e lm="be worth" r="LR"><par n="contraction_be__vblex"/><p><l><b/>worth</l><r><g><b/>worth</g></r></p></e>
+<e lm="be worthwhile" r="LR"><par n="contraction_be__vblex"/><p><l><b/>worthwhile</l><r><g><b/>worthwhile</g></r></p></e>
+<e lm="be hungry" r="LR"><par n="contraction_be__vblex"/><p><l><b/>hungry</l><r><g><b/>hungry</g></r></p></e>
+
+
+  </section> 
+
+
+
+
 
   <section id="regexp" type="standard">    
     <e>      <par n="emails"/>    </e>
     <e>      <par n="urls"/>    </e>
     <e>      <par n="ordinals"/>    </e>
     <e>      <par n="acronimos"/>    </e>
-     <e>      <par n="time"/>    </e>
+    <e>      <par n="time"/>    </e>
     <e>      <par n="currency"/>    </e>
     <e>      <par n="proper_names"/>    </e>
   </section>  

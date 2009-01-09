@@ -540,6 +540,10 @@
       <cat-item lemma="be" tags="vbser.*"/>
     </def-cat>
 
+    <def-cat n="be_sorry">
+      <cat-item lemma="be# sorry" tags="vblex.*"/>
+      <cat-item lemma="be# very sorry" tags="vblex.*"/>
+    </def-cat>
     <def-cat n="be_past_pres">
       <cat-item lemma="be" tags="vbser.past"/>
       <cat-item lemma="be" tags="vbser.past.*"/>
@@ -568,6 +572,10 @@
       <cat-item tags="guio"/>
     </def-cat>
 
+    <def-cat n="comasent">
+      <cat-item tags="sent"/>
+      <cat-item tags="cm"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -15137,6 +15145,235 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
+
+ <rule comment="REGLA: be_sorry coma/punt">
+      <pattern>
+	<pattern-item n="be_sorry"/>
+	<pattern-item n="comasent"/>
+      </pattern>
+      <action>    
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="tipus_verbs">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" side="sl" part="tags"/>
+		<lit-tag v="sent"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="lema"/>
+	      <lit v="punt"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema"/>
+	      <lit v="coma"/>
+	    </let>
+	  </otherwise>
+	</choose>		
+	    <out>
+	      <chunk name="pro_verbcj" case="caseFirstWord">
+		<tags>	       
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><var n="tipus_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><var n="pers_chunk"/></tag>
+		  <tag><var n="nbr_chunk"/></tag>
+		</tags> 
+		<lu>
+		  <lit v="lo"/>
+		  <lit-tag v="prn.pro.p3.nt"/>
+		</lu>
+		<b/>
+		<lu>
+		  <var n="verbfinal"/>
+		</lu>
+	      </chunk>	
+	      <b pos="1"/>
+	      <chunk namefrom="lema">
+		<tags>
+		  <tag><clip pos="2" side="tl" part="tags"/></tag>
+		</tags>
+		<lu>
+		  <clip pos="2" side="tl" part="whole"/>
+		</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+
+
+    <rule comment="REGLA: be sorry ADV">
+      <pattern>
+	<pattern-item n="be_sorry"/>    
+	<pattern-item n="adv_not"/>  
+      </pattern>
+      <action>    
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="tipus_verbs">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="sl" part="lem"/>
+		<list n="adv_neg"/>
+	      </in>
+	    </test>
+	    <let>
+	      <var n="neg"/>
+	      <lit-tag v="NEG"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="neg"/>
+	      <lit v=""/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out>
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+	      <tag><var n="neg"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk namefrom="lema_SV">
+	    <tags>	       
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags> 		
+	    <lu>
+	      <var n="verbfinal"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: be sorry ADV coma/punt">
+      <pattern>
+	<pattern-item n="be_sorry"/>    
+	<pattern-item n="adv_not"/>  
+	<pattern-item n="comasent"/>
+      </pattern>
+      <action>    
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="tipus_verbs">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="sl" part="lem"/>
+		<list n="adv_neg"/>
+	      </in>
+	    </test>
+	    <let>
+	      <var n="neg"/>
+	      <lit-tag v="NEG"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="neg"/>
+	      <lit v=""/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out>
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+	      <tag><var n="neg"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" side="sl" part="tags"/>
+		<lit-tag v="sent"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="lema"/>
+	      <lit v="punt"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema"/>
+	      <lit v="coma"/>
+	    </let>
+	  </otherwise>
+	</choose>		
+	    <out>
+	      <b pos="1"/>
+	      <chunk name="pro_verbcj" case="caseFirstWord">
+		<tags>	       
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><var n="tipus_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><var n="pers_chunk"/></tag>
+		  <tag><var n="nbr_chunk"/></tag>
+		</tags> 
+		<lu>
+		  <lit v="lo"/>
+		  <lit-tag v="prn.pro.p3.nt"/>
+		</lu>
+		<b/>
+		<lu>
+		  <var n="verbfinal"/>
+		</lu>
+	      </chunk>	
+	      <b pos="2"/>
+	      <chunk namefrom="lema">
+		<tags>
+		  <tag><clip pos="3" side="tl" part="tags"/></tag>
+		</tags>
+		<lu>
+		  <clip pos="3" side="tl" part="whole"/>
+		</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: VERB">

@@ -239,6 +239,9 @@
   <def-label name="RELAN" closed="true">
     <tags-item tags="rel.an.*"/>
   </def-label>
+  <def-label name="RELAA" closed="true">
+    <tags-item tags="rel.aa.*"/>
+  </def-label>
   <def-label name="RELNN" closed="true">
     <tags-item tags="rel.nn.*"/>
   </def-label>
@@ -271,6 +274,14 @@
     <label-sequence>
       <label-item label="PRNALTRES"/>
       <label-item label="NOMPL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNALTRES"/>
+      <label-item label="CANNOM"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNALTRES"/>
+      <label-item label="WILLNOM"/>
     </label-sequence>
    <label-sequence>
       <label-item label="VHAVEPP"/>
@@ -345,6 +356,14 @@
     <label-sequence>
       <label-item label="PRNSUBJ"/>
       <label-item label="NOMPL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNSUBJ"/>
+      <label-item label="CANNOM"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNSUBJ"/>
+      <label-item label="WILLNOM"/>
     </label-sequence>
     <label-sequence>
       <label-item label="PRNSUBJ"/>
@@ -543,6 +562,14 @@
     <label-sequence>
       <label-item label="ADJPOS"/>
       <label-item label="NOMPL"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ADJPOS"/>
+      <label-item label="CANNOM"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ADJPOS"/>
+      <label-item label="WILLNOM"/>
     </label-sequence>
     <label-sequence>
       <label-item label="PRNSUBJ"/>
@@ -767,6 +794,14 @@
       <label-item label="NOADV"/>
       <label-item label="NOMPL"/>
     </label-sequence>
+    <label-sequence>
+      <label-item label="NOADV"/>
+      <label-item label="CANNOM"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOADV"/>
+      <label-item label="WILLNOM"/>
+    </label-sequence>
 
   <!--  <label-sequence>
       <label-item label="VERBS_DISCURS"/>
@@ -781,7 +816,7 @@
       <label-item label="VERBS_DISCURS_PP"/>
     </label-sequence> -->
    <!-- <label-sequence>
-      <label-item label="VERBS_DISCURS"/>mireia
+      <label-item label="VERBS_DISCURS"/>
       <label-item label="DET"/>
     </label-sequence>
     <label-sequence>
@@ -840,6 +875,8 @@
       <label-set>
         <label-item label="NOMSG"/>
         <label-item label="NOMPL"/>
+        <label-item label="CANNOM"/>
+        <label-item label="WILLNOM"/>
 	<label-item label="ADJ"/>
 	<label-item label="DET"/>
       </label-set>
@@ -849,12 +886,25 @@
       <label-set>
         <label-item label="NOMSG"/>
         <label-item label="NOMPL"/>
+        <label-item label="CANNOM"/>
+        <label-item label="WILLNOM"/>
 	<label-item label="ADJ"/>
 	<label-item label="DETQNT_ORD"/>
 	<label-item label="NUM"/>
 	<label-item label="ANTROPONIM"/>
 	<label-item label="TOPONIM"/>
 	<label-item label="NPALTRES"/>
+      </label-set>
+    </enforce-after>
+     <enforce-after label="RELAA">
+      <label-set>
+        <label-item label="NOMSG"/>
+        <label-item label="NOMPL"/>
+        <label-item label="CANNOM"/>
+        <label-item label="WILLNOM"/>
+	<label-item label="ADJ"/>
+	<label-item label="DET"/>
+	<label-item label="DETQNT_ORD"/>
       </label-set>
     </enforce-after>
 

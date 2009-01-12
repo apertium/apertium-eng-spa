@@ -83,6 +83,7 @@
       <cat-item tags="det.itg.*"/>
       <cat-item tags="det.ord.*"/>
       <cat-item tags="predet.*"/>
+      <cat-item tags="rel.aa.*"/>
     </def-cat>
 
     <def-cat n="det2"><!--Poden anar precedits d'un altre determinant i anar després d'un genitiu saxó -->
@@ -622,6 +623,7 @@
       <attr-item tags="adj.pos"/>
       <attr-item tags="num"/>
       <attr-item tags="predet"/>
+      <attr-item tags="rel.aa"/>
     </def-attr>
 
     <def-attr n="a_prnpro">

@@ -7541,7 +7541,8 @@
     <e r="RL"><p><l>chairman<s n="n"/></l><r>presidente<s n="n"/></r></p></e>
     <e r="LR"><p><l>chairperson<s n="n"/></l><r>presidente<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>chairperson<s n="n"/></l><r>presidente<s n="n"/></r></p></e>
-    <e>  <p><l>challenge<s n="n"/></l><r>desafío<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL">  <p><l>challenge<s n="n"/></l><r>desafío<s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>challenge<s n="n"/></l><r>reto<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>chamber<s n="n"/></l><r>cuarto<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>chamfer<s n="n"/></l><r>chaflán<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>champagne<s n="n"/></l><r>champán<s n="n"/><s n="m"/></r></p></e>
@@ -7756,6 +7757,8 @@
     <e>  <p><l>comedy<s n="n"/></l><r>comedia<s n="n"/><s n="f"/></r></p></e>
     <e slr="comodidad D"><p><l>comfort<s n="n"/></l><r>comodidad<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="consuelo"><p><l>comfort<s n="n"/></l><r>consuelo<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>reassurance<s n="n"/></l><r>tranquilidad<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>peace<s n="n"/></l><r>tranquilidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>comic<s n="n"/></l><r>cómic<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>comic<s n="n"/></l><r>cómico<s n="n"/></r></p></e>
     <e r="RL"><p><l>comic<s n="n"/></l><r>tebeo<s n="n"/><s n="m"/></r></p></e>
@@ -8689,7 +8692,9 @@
     <e r="LR"><p><l>estate<s n="n"/></l><r>propiedad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>estimate<s n="n"/></l><r>estimación<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" srl="estimate"><p><l>estimate<s n="n"/></l><r>presupuesto<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>estrus<s n="n"/></l><r>celo<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR">  <p><l>estrus<s n="n"/></l><r>celo<s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>zeal<s n="n"/><s n="sg"/></l><r>celo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR">  <p><l>zeal<s n="n"/><s n="pl"/></l><r>celo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e>  <p><l>etching<s n="n"/></l><r>aguafuerte<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>eternity<s n="n"/></l><r>eternidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>ethanol<s n="n"/></l><r>etanol<s n="n"/><s n="m"/></r></p></e>
@@ -15877,7 +15882,8 @@
     <e>  <p><l>defend<s n="vblex"/></l><r>defender<s n="vblex"/></r></p></e>
     <e>  <p><l>define<s n="vblex"/></l><r>definir<s n="vblex"/></r></p></e>
     <e>  <p><l>defraud<s n="vblex"/></l><r>defraudar<s n="vblex"/></r></p></e>
-    <e>  <p><l>defy<s n="vblex"/></l><r>desafiar<s n="vblex"/></r></p></e>
+    <e srl="defy">  <p><l>defy<s n="vblex"/></l><r>desafiar<s n="vblex"/></r></p></e>
+    <e srl="challenge D">  <p><l>challenge<s n="vblex"/></l><r>desafiar<s n="vblex"/></r></p></e>
     <e>  <p><l>degrade<s n="vblex"/></l><r>degradar<s n="vblex"/></r></p></e>
     <e>  <p><l>delay<s n="vblex"/></l><r>retrasar<s n="vblex"/></r></p></e>
     <e>  <p><l>delegate<s n="vblex"/></l><r>delegar<s n="vblex"/></r></p></e>
@@ -16183,6 +16189,7 @@
     <e>  <p><l>forbid<s n="vblex"/></l><r>prohibir<s n="vblex"/></r></p></e>
     <e>  <p><l>force<s n="vblex"/></l><r>forzar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>force<s n="vblex"/></l><r>obligar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>compel<s n="vblex"/></l><r>obligar<s n="vblex"/></r></p></e>
     <e>  <p><l>foresee<s n="vblex"/></l><r>prever<s n="vblex"/></r></p></e>
     <e>  <p><l>forget<s n="vblex"/></l><r>olvidar<s n="vblex"/></r></p></e>
     <e>  <p><l>forgive<s n="vblex"/></l><r>perdonar<s n="vblex"/></r></p></e>
@@ -16260,7 +16267,7 @@
     <e>  <p><l>hang<s n="vblex"/></l><r>colgar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>hang<s n="vblex"/></l><r>pender<s n="vblex"/></r></p></e>
     <e srl="happen D"><p><l>happen<s n="vblex"/></l><r>pasar<s n="vblex"/></r></p></e>
-    <e>  <p><l>harm<s n="vblex"/></l><r>hacer<g><b/>daño</g><s n="vblex"/></r></p></e>
+    <e r="LR">  <p><l>harm<s n="vblex"/></l><r>hacer<g><b/>daño</g><s n="vblex"/></r></p></e>
     <e>  <p><l>harmonize<s n="vblex"/></l><r>armonizar<s n="vblex"/></r></p></e>
     <e>  <p><l>harvest<s n="vblex"/></l><r>cosechar<s n="vblex"/></r></p></e>
     <e>  <p><l>hatch<s n="vblex"/></l><r>empollar<s n="vblex"/></r></p></e>
@@ -16309,6 +16316,7 @@
     <e>  <p><l>impoverish<s n="vblex"/></l><r>empobrecer<s n="vblex"/></r></p></e>
     <e>  <p><l>impregnate<s n="vblex"/></l><r>impregnar<s n="vblex"/></r></p></e>
     <e>  <p><l>impress<s n="vblex"/></l><r>impresionar<s n="vblex"/></r></p></e>
+    <e r="LR">  <p><l>shock<s n="vblex"/></l><r>impresionar<s n="vblex"/></r></p></e>
     <e>  <p><l>imprison<s n="vblex"/></l><r>encarcelar<s n="vblex"/></r></p></e>
     <e>  <p><l>improve<s n="vblex"/></l><r>mejorar<s n="vblex"/></r></p></e>
     <e>  <p><l>improvise<s n="vblex"/></l><r>improvisar<s n="vblex"/></r></p></e>
@@ -16810,7 +16818,8 @@
     <e slr="revisar D"><p><l>review<s n="vblex"/></l><r>revisar<s n="vblex"/></r></p></e>
     <e>  <p><l>revive<s n="vblex"/></l><r>revivir<s n="vblex"/></r></p></e>
     <e>  <p><l>revoke<s n="vblex"/></l><r>revocar<s n="vblex"/></r></p></e>
-    <e>  <p><l>revolt<s n="vblex"/></l><r>repugnar<s n="vblex"/></r></p></e>
+    <e r="LR">  <p><l>revolt<s n="vblex"/></l><r>repugnar<s n="vblex"/></r></p></e>
+    <e>  <p><l>disgust<s n="vblex"/></l><r>repugnar<s n="vblex"/></r></p></e>
     <e>  <p><l>revolutionize<s n="vblex"/></l><r>revolucionar<s n="vblex"/></r></p></e>
     <e>  <p><l>reward<s n="vblex"/></l><r>premiar<s n="vblex"/></r></p></e>
     <e>  <p><l>rhyme<s n="vblex"/></l><r>rimar<s n="vblex"/></r></p></e>
@@ -16936,6 +16945,7 @@
     <e r="LR"><p><l>smile<s n="vblex"/></l><r>sonreír<s n="vblex"/></r></p></e>
     <e>  <p><l>smoke<s n="vblex"/></l><r>fumar<s n="vblex"/></r></p></e>
     <e>  <p><l>soften<s n="vblex"/></l><r>suavizar<s n="vblex"/></r></p></e>
+    <e r="LR">  <p><l>smooth<s n="vblex"/></l><r>suavizar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>solicit<s n="vblex"/></l><r>solicitar<s n="vblex"/></r></p></e>
     <e>  <p><l>solve<s n="vblex"/></l><r>solucionar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>solve<s n="vblex"/></l><r>solventar<s n="vblex"/></r></p></e>
@@ -24189,9 +24199,29 @@
 <e>       <p><l>media<s n="n"/><s n="pl"/></l>    <r>medio<g><b/>de<b/>comunicación</g><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>media<s n="n"/><s n="sg"/></l>    <r>medio<g><b/>de<b/>comunicación</g><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>media<s n="n"/><s n="sg"/></l>    <r>medio<g><b/>de<b/>comunicación</g><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR">  <p><l>sorry<s n="adj"/></l><r>triste<s n="adj"/><s n="mf"/></r></p></e>
 
+<e r="RL"><p><l>I'm<b/>sorry<s n="adv"/></l><r>lo<b/>siento<s n="adv"/></r></p></e>
 <e r="LR"><p><l>be<g><b/>sorry</g><s n="vblex"/></l><r>sentir<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>be<g><b/>very<b/>sorry</g><s n="vblex"/></l><r>sentir<g><b/>mucho</g><s n="vblex"/></r></p></e>
+<e><p><l>misunderstand<s n="vblex"/></l><r>entender<g><b/>mal</g><s n="vblex"/></r></p></e>
+<e r="LR">  <p><l>jealousy<s n="n"/><s n="sg"/></l>            <r>celo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e>  <p><l>jealousy<s n="n"/><s n="pl"/></l>            <r>celo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e>  <p><l>challenging<s n="adj"/></l>            <r>desafiante<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>upside<b/>down<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>back<b/>to<b/>front<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>inside<b/>out<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
+<e r="LR">  <p><l>ashamed<s n="adj"/></l>            <r>avergonzado<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL">  <p><l>ashamed<s n="adj"/></l>            <r>avergonzado<s n="adj"/></r></p></e>
+
+<e slr="hacer daño D"><p><l>hurt<s n="vblex"/></l><r>hacer<g><b/>daño</g><s n="vblex"/></r></p></e>
+<e slr="doler"><p><l>hurt<s n="vblex"/></l><r>doler<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>inflict<s n="vblex"/></l><r>causar<s n="vblex"/></r></p></e>
+<e>  <p><l>comma<s n="n"/></l>            <r>coma<s n="n"/><s n="f"/></r></p></e>
+<e>  <p><l>esteem<s n="n"/></l>            <r>estima<s n="n"/><s n="f"/></r></p></e>
+<e>  <p><l>self-esteem<s n="n"/></l>            <r>autoestima<s n="n"/><s n="f"/></r></p></e>
+<e>  <p><l>repetitive<s n="adj"/></l>            <r>repetitivo<s n="adj"/></r></p></e>
+
 
   </section>  
 

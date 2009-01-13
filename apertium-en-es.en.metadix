@@ -6673,56 +6673,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="read__vblex">
-      <e>
-        <p>
-          <l/>
-          <r><s n="vblex"/><sa/><s n="inf"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l/>
-          <r><s n="vblex"/><sa/><s n="pres"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>s</l>
-          <r><s n="vblex"/><sa/><s n="pri"/><s n="p3"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l/>
-          <r><s n="vblex"/><sa/><s n="past"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l/>
-          <r><s n="vblex"/><sa/><s n="pp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ing</l>
-          <r><s n="vblex"/><sa/><s n="ger"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ing</l>
-          <r><s n="vblex"/><sa/><s n="pprs"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ing</l>
-          <r><s n="vblex"/><sa/><s n="subs"/></r>
-        </p>
-      </e>
-    </pardef>
+  
     <pardef n="st/and__vblex">
       <e>
         <p>
@@ -16159,7 +16110,6 @@
     <e lm="conversation"><i>conversation</i><par n="house__n"/>    </e>
     <e lm="conversion"><i>conversion</i><par n="house__n"/>    </e>
     <e lm="convict"><i>convict</i><par n="house__n"/>    </e>
-    <e lm="convict"><i>convict</i><par n="house__n"/>    </e>
     <e lm="conviction" a="doriua"><i>conviction</i><par n="house__n"/>    </e>
     <e lm="convulsion"><i>convulsion</i><par n="house__n"/>    </e>
     <e lm="cook"><i>cook</i><par n="house__n"/>    </e>
@@ -21385,6 +21335,7 @@
     <e lm="mere"><i>mere</i><par n="expensive__adj"/>    </e>
     <e lm="meridional"><i>meridional</i><par n="expensive__adj"/>    </e>
     <e lm="merry"><i>merr</i><par n="happ/y__adj"/>    </e>
+    <e lm="sorry"><i>sorr</i><par n="happ/y__adj"/>    </e>
     <e lm="metallic"><i>metallic</i><par n="expensive__adj"/>    </e>
     <e lm="metaphorical"><i>metaphorical</i><par n="expensive__adj"/>    </e>
     <e lm="metaphysical"><i>metaphysical</i><par n="expensive__adj"/>    </e>
@@ -23390,7 +23341,7 @@
     <e lm="request"><i>request</i><par n="accept__vblex"/>    </e>
     <e lm="require"><i>requir</i><par n="liv/e__vblex"/>    </e>
     <e lm="requisition"><i>requisition</i><par n="accept__vblex"/>    </e>
-    <e lm="reread"><i>reread</i><par n="read__vblex"/>    </e>
+    <e lm="reread"><i>reread</i><par n="cost__vblex"/>    </e>
     <e lm="rescue"><i>rescu</i><par n="liv/e__vblex"/>    </e>
     <e lm="research"><i>research</i><par n="approach__vblex"/>    </e>
     <e lm="reserve"><i>reserv</i><par n="liv/e__vblex"/>    </e>
@@ -23539,7 +23490,7 @@
     <e lm="split"><i>split</i><par n="cut__vblex"/>    </e>
     <e lm="sponsor"><i>sponsor</i><par n="accept__vblex"/>    </e>
     <e lm="spring"><i>spr</i><par n="r/ing__vblex"/>    </e>
-    <e lm="spread"><i>spread</i><par n="read__vblex"/>    </e>
+    <e lm="spread"><i>spread</i><par n="cost__vblex"/>    </e>
     <e lm="spur"><i>spur</i><par n="occur__vblex"/>    </e>
     <e lm="squeeze"><i>squeez</i><par n="liv/e__vblex"/>    </e>
     <e lm="steal"><i>st</i><par n="st/eal__vblex"/>    </e>
@@ -29771,6 +29722,7 @@
 <e lm="the next winter"><i>the<b/>next<b/>winter</i><par n="maybe__adv"/></e>
 <e lm="the next Christmas"><i>the<b/>next<b/>Christmas</i><par n="maybe__adv"/></e>
 <e lm="the next Easter"><i>the<b/>next<b/>Easter</i><par n="maybe__adv"/></e>
+<e lm="I'm sorry" r="RL"><i>I'm<b/>sorry</i><par n="maybe__adv"/></e>
 
 
 
@@ -29816,6 +29768,27 @@
 <e lm="be very sorry"><i/><par n="/be__vblex"/><p><l><b/>very<b/>sorry</l><r><g><b/>very<b/>sorry</g></r></p></e>
 
 <e lm="be not sorry"><i/><par n="/be__vblex"/><p><l><b/>not<b/>sorry</l><r><j/>not<s n="adv"/><g><b/>sorry</g></r></p></e>
+
+<e lm="misunderstand"><i>misunderst</i><par n="st/and__vblex"/></e>
+<e lm="jealousy"><i>jealous</i><par n="bab/y__n"/>     </e>
+<e lm="zeal"><i>zeal</i><par n="house__n"/></e>
+<e lm="shock"><i>shock</i><par n="accept__vblex"/>    </e>
+<e lm="smooth"><i>smooth</i><par n="accept__vblex"/>    </e>
+<e lm="reassurance"><i>reassurance</i><par n="house__n"/>    </e>
+<e lm="challenging"><i>challenging</i><par n="expensive__adj"/>     </e>
+<e lm="challenge"><i>challeng</i><par n="liv/e__vblex"/>    </e>
+<e lm="upside down"><i>upside<b/>down</i><par n="maybe__adv"/>     </e>
+<e lm="back to front"><i>back<b/>to<b/>front</i><par n="maybe__adv"/>     </e>
+<e lm="inside out"><i>inside<b/>out</i><par n="maybe__adv"/>     </e>
+<e lm="ashamed"><i>ashamed</i><par n="expensive__adj"/>     </e>
+<e lm="hurt"><i>hurt</i><par n="cost__vblex"/>    </e>
+<e lm="inflict"><i>inflict</i><par n="accept__vblex"/>    </e>
+<e lm="comma"><i>comma</i><par n="house__n"/></e>
+<e lm="compel"><i>compel</i><par n="control__vblex"/>    </e>
+<e lm="disgust"><i>disgust</i><par n="accept__vblex"/>    </e>
+<e lm="esteem"><i>esteem</i><par n="house__n"/></e>
+<e lm="self-esteem"><i>self-esteem</i><par n="house__n"/></e>
+<e lm="repetitive"><i>repetitive</i><par n="expensive__adj"/>     </e>
 
 
   </section>   

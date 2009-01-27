@@ -7417,13 +7417,13 @@
           <r>ink<s n="vblex"/><sa/><s n="past"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ank</l>
           <r>ink<s n="vblex"/><sa/><s n="pp"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>unk</l>
           <r>ink<s n="vblex"/><sa/><s n="pp"/></r>
@@ -28913,8 +28913,6 @@
     <e lm="sexology"><i>sexolog</i><par n="bab/y__n"/>     </e>
     <e lm="sextant"><i>sextant</i><par n="house__n"/>     </e>
     <e lm="sextet"><i>sextet</i><par n="house__n"/>     </e>
-    <e lm="shake"><i>sh</i><par n="t/ake__vblex"/>     </e>
-    <e lm="shake"><i>shake</i><par n="house__n"/>     </e>
     <e lm="shaman"><i>shaman</i><par n="house__n"/>     </e>
     <e lm="shamanism"><i>shamanism</i><par n="house__n"/>     </e>
     <e lm="shaving"><i>shaving</i><par n="house__n"/>     </e>
@@ -29562,6 +29560,7 @@
     <e lm="wallet"><i>wallet</i><par n="house__n"/>     </e>
     <e lm="walrus"><i>walrus</i><par n="access__n"/>     </e>
     <e lm="warily"><i>warily</i><par n="maybe__adv"/>     </e>
+    <e lm="faithfully"><i>faithfully</i><par n="maybe__adv"/></e>
     <e lm="warp"><i>warp</i><par n="house__n"/>     </e>
     <e lm="washbowl"><i>washbowl</i><par n="house__n"/>     </e>
     <e lm="waterfall"><i>waterfall</i><par n="house__n"/>     </e>
@@ -29785,11 +29784,28 @@
 <e lm="hurt"><i>hurt</i><par n="cost__vblex"/>    </e>
 <e lm="inflict"><i>inflict</i><par n="accept__vblex"/>    </e>
 <e lm="comma"><i>comma</i><par n="house__n"/></e>
+<e lm="coma"><i>coma</i><par n="house__n"/></e>
 <e lm="compel"><i>compel</i><par n="control__vblex"/>    </e>
 <e lm="disgust"><i>disgust</i><par n="accept__vblex"/>    </e>
 <e lm="esteem"><i>esteem</i><par n="house__n"/></e>
 <e lm="self-esteem"><i>self-esteem</i><par n="house__n"/></e>
 <e lm="repetitive"><i>repetitive</i><par n="expensive__adj"/>     </e>
+<e lm="handshake"><i>handshake</i><par n="house__n"/>    </e>
+<e lm="portray"><i>portray</i><par n="enjoy__vblex"/>     </e>
+<e lm="headline"><i>headline</i><par n="house__n"/></e>
+<e lm="trip"><i>trip</i><par n="step__vblex"/>    </e>
+<e lm="hopeless"><i>hopeless</i><par n="expensive__adj"/>     </e>
+<e lm="dismantle"><i>dismantl</i><par n="liv/e__vblex"/>    </e>
+<e lm="whistle"><i>whistl</i><par n="liv/e__vblex"/>    </e>
+<e lm="crowd"><i>crowd</i><par n="accept__vblex"/>    </e>
+<e lm="regard"><i>regard</i><par n="accept__vblex"/>    </e>
+<e lm="paramount"><i>paramount</i><par n="expensive__adj"/>     </e>
+<e lm="distress"><i>distress</i><par n="access__n"/>    </e>
+<e lm="distress"><i>distress</i><par n="approach__vblex"/>    </e>
+<e lm="afflict"><i>afflict</i><par n="accept__vblex"/>    </e>
+<e lm="desperate"><i>desperate</i><par n="expensive__adj"/>     </e>
+<e lm="horrify"><i>horrif</i><par n="appl/y__vblex"/>     </e>
+<e lm="turbulent"><i>turbulent</i><par n="expensive__adj"/>     </e>
 
 
   </section>   

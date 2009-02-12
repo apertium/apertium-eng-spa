@@ -16705,7 +16705,8 @@
     <e r="LR" slr="aumentar"><p><l>raise<s n="vblex"/></l><r>aumentar<s n="vblex"/></r></p></e>
     <e r="LR" slr="criar"><p><l>raise<s n="vblex"/></l><r>criar<s n="vblex"/></r></p></e>
     <e slr="levantar D"><p><l>raise<s n="vblex"/></l><r>levantar<s n="vblex"/></r></p></e>
-    <e slr="abarcar D" c="en el sentido de extenderse"><p><l>range<s n="vblex"/></l><r>abarcar<s n="vblex"/></r></p></e>
+    <e><p><l>oscillate<s n="vblex"/></l><r>oscilar<s n="vblex"/></r></p></e>
+    <e slr="variar D" r="LR"><p><l>range<s n="vblex"/></l><r>variar<s n="vblex"/></r></p></e>
     <e slr="alinear" c="alinear o colocar"><p><l>range<s n="vblex"/></l><r>alinear<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>rate<s n="vblex"/></l><r>valorar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>reach<s n="vblex"/></l><r>lograr<s n="vblex"/></r></p></e>
@@ -20859,7 +20860,8 @@
         <e>  <p>  <l>then<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
         <e>  <p>  <l>intermission<s n="n"/></l><r>entreacto<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>crosslinking<s n="n"/></l><r>entrecruzamiento<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>junction<s n="n"/></l><r>entroncamiento<s n="n"/><s n="m"/></r></p></e>
+        <e r="RL">  <p>  <l>junction<s n="n"/></l><r>entroncamiento<s n="n"/><s n="m"/></r></p></e>
+        <e r="LR">  <p>  <l>junction<s n="n"/></l><r>cruce<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>entropy<s n="n"/></l><r>entropía<s n="n"/><s n="f"/></r></p></e>
     
 <!-- 	forced 'LR' restriction      defaultLR    -->

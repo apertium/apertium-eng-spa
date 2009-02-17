@@ -9,6 +9,8 @@
 <dictionary>
   <alphabet></alphabet>
   <sdefs>
+    <sdef n="S1"/>
+
     <sdef n="acr" /> 
     <sdef n="predet" /> 
     <sdef n="detnt" /> 
@@ -15713,7 +15715,6 @@
     <e slr="coleccionar"><p><l>collect<s n="vblex"/></l><r>coleccionar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>collect<s n="vblex"/></l><r>recabar<s n="vblex"/></r></p></e>
     <e slr="recaudar" c="recaudar impuestos"><p><l>collect<s n="vblex"/></l><r>recaudar<s n="vblex"/></r></p></e>
-    <e slr="recoger D"><p><l>collect<s n="vblex"/></l><r>recoger<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>colour<s n="vblex"/></l><r>pintar<s n="vblex"/></r></p></e>
     <e>  <p><l>comb<s n="vblex"/></l><r>peinar<s n="vblex"/></r></p></e>
     <e>  <p><l>combat<s n="vblex"/></l><r>combatir<s n="vblex"/></r></p></e>
@@ -16590,7 +16591,11 @@
     <e>  <p><l>photocopy<s n="vblex"/></l><r>fotocopiar<s n="vblex"/></r></p></e>
     <e>  <p><l>photograph<s n="vblex"/></l><r>fotografiar<s n="vblex"/></r></p></e>
     <e r="LR" slr="elegir D"><p><l>pick<s n="vblex"/></l><r>elegir<s n="vblex"/></r></p></e>
+
+    <e slr="recoger D"><p><l>collect<s n="vblex"/></l><r>recoger<s n="vblex"/></r></p></e>
     <e r="LR" slr="recoger"><p><l>pick<s n="vblex"/></l><r>recoger<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>pick<g><b/>up</g><s n="vblex"/></l><r>recoger<s n="vblex"/><s n="S1"/></r></p></e>
+
     <e r="LR"><p><l>pick<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>coger<s n="vblex"/></r></p></e>
     <e>  <p><l>pilot<s n="vblex"/></l><r>pilotar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>pin<s n="vblex"/></l><r>clavar<s n="vblex"/></r></p></e>

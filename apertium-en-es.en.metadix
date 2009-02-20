@@ -3995,7 +3995,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="bestr/ide__vblex">
+    <pardef n="r/ide__vblex">
       <e>
         <p>
           <l>ide</l>
@@ -17709,6 +17709,7 @@
     <e lm="letter"><i>letter</i><par n="house__n"/>    </e>
     <e lm="lettuce"><i>lettuce</i><par n="house__n"/>    </e>
     <e lm="leukaemia"><i>leukaemia</i><par n="house__n"/>    </e>
+    <e lm="leukemia"><i>leukemia</i><par n="house__n"/>    </e>
     <e lm="level"><i>level</i><par n="house__n"/>    </e>
     <e lm="levitation"><i>levitation</i><par n="house__n"/>    </e>
     <e lm="life"><i>li</i><par n="li/fe__n"/>    </e>
@@ -23694,6 +23695,9 @@
     <e lm="wrap"><i>wrap</i><par n="step__vblex"/>    </e>
     <e lm="zone"><i>zon</i><par n="liv/e__vblex"/>    </e>
 
+    <e lm="ride"><i>r</i><par n="r/ide__vblex"/></e>
+
+
 <!--verb contractions -->
     
   <!--  <e lm="I'm"><p><l>I'm</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e> 
@@ -24083,6 +24087,7 @@
     <e lm="hardly"><i>hardly</i><par n="maybe__adv"/>    </e>
     <e lm="headed by"><i>headed<b/>by</i><par n="maybe__adv"/>    </e>
     <e lm="heavily"><i>heavily</i><par n="maybe__adv"/>    </e>
+    <e lm="hence"><i>hence</i><par n="maybe__adv"/></e>
     <e lm="here"><i>here</i><par n="maybe__adv"/>    </e>
     <e lm="high"><i>high</i><par n="maybe__adv"/>    </e>
     <e lm="highly"><i>highly</i><par n="maybe__adv"/>    </e>
@@ -29810,6 +29815,7 @@
 <e lm="desperate"><i>desperate</i><par n="expensive__adj"/>     </e>
 <e lm="horrify"><i>horrif</i><par n="appl/y__vblex"/>     </e>
 <e lm="turbulent"><i>turbulent</i><par n="expensive__adj"/>     </e>
+<e lm="sustainability"><i>sustainabilit</i><par n="bab/y__n"/></e>
 
 
   </section>   

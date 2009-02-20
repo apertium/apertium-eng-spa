@@ -182,6 +182,7 @@
       <cat-item lemma="continue" tags="vblex.inf"/>
       <cat-item lemma="resolve" tags="vblex.inf"/>
       <cat-item lemma="try" tags="vblex.inf"/>
+      <cat-item lemma="like" tags="vblex.inf"/>
 
 
       <cat-item lemma="desire" tags="vblex.pres"/>
@@ -206,6 +207,7 @@
       <cat-item lemma="continue" tags="vblex.pres"/>
       <cat-item lemma="resolve" tags="vblex.pres"/>
       <cat-item lemma="try" tags="vblex.pres"/>
+      <cat-item lemma="like" tags="vblex.pres"/>
 
 
 
@@ -231,6 +233,7 @@
       <cat-item lemma="continue" tags="vblex.past"/>
       <cat-item lemma="resolve" tags="vblex.past"/>
       <cat-item lemma="try" tags="vblex.past"/>
+      <cat-item lemma="like" tags="vblex.past"/>
 
 
       <cat-item lemma="desire" tags="vblex.pri.*"/>
@@ -255,6 +258,7 @@
       <cat-item lemma="continue" tags="vblex.pri.*"/>
       <cat-item lemma="resolve" tags="vblex.pri.*"/>
       <cat-item lemma="try" tags="vblex.pri.*"/>
+      <cat-item lemma="like" tags="vblex.pri.*"/>
 
 
       <cat-item lemma="desire" tags="vblex.ger"/>
@@ -279,10 +283,11 @@
       <cat-item lemma="continue" tags="vblex.ger"/>
       <cat-item lemma="resolve" tags="vblex.ger"/>
       <cat-item lemma="try" tags="vblex.ger"/>
+      <cat-item lemma="like" tags="vblex.ger"/>
     </def-cat>
 
 
-    <def-cat n="controlverbger"> <!-- BCN -->
+    <def-cat n="controlverbger"> 
       <cat-item lemma="desire" tags="vblex.ger"/>
       <cat-item lemma="need" tags="vblex.ger"/>
       <cat-item lemma="wish" tags="vblex.ger"/>
@@ -305,10 +310,11 @@
       <cat-item lemma="continue" tags="vblex.ger"/>
       <cat-item lemma="resolve" tags="vblex.ger"/>
       <cat-item lemma="try" tags="vblex.ger"/>
+      <cat-item lemma="like" tags="vblex.ger"/>
     </def-cat>
 
 
-    <def-cat n="controlverbpp"> <!-- BCN -->
+    <def-cat n="controlverbpp"> 
       <cat-item lemma="desire" tags="vblex.pp"/>
       <cat-item lemma="need" tags="vblex.pp"/>
       <cat-item lemma="wish" tags="vblex.pp"/>
@@ -331,6 +337,7 @@
       <cat-item lemma="continue" tags="vblex.pp"/>
       <cat-item lemma="resolve" tags="vblex.pp"/>
       <cat-item lemma="try" tags="vblex.pp"/>
+      <cat-item lemma="like" tags="vblex.pp"/>
     </def-cat>
 
     <def-cat n="copulatiu">
@@ -494,6 +501,9 @@
     <def-cat n="ago">
       <cat-item lemma="ago" tags="adv"/>
     </def-cat>
+    <def-cat n="hence">
+      <cat-item lemma="hence" tags="adv"/>
+    </def-cat>
 
     <def-cat n="preadv">
       <cat-item tags="preadv"/>
@@ -527,6 +537,18 @@
 
     <def-cat n="old">
       <cat-item lemma="old" tags="adj.sint"/>
+    </def-cat>
+
+  <def-cat n="periode">
+	    <cat-item lemma="minute" tags="n.*"/>
+	    <cat-item lemma="hour" tags="n.*"/>
+	    <cat-item lemma="day" tags="n.*"/>
+	    <cat-item lemma="week" tags="n.*"/>
+	    <cat-item lemma="fortnight" tags="n.*"/>
+	    <cat-item lemma="month" tags="n.*"/>
+	    <cat-item lemma="year" tags="n.*"/>
+	    <cat-item lemma="decade" tags="n.*"/>
+	    <cat-item lemma="century" tags="n.*"/>
     </def-cat>
 
     <def-cat n="there">
@@ -571,6 +593,10 @@
 
     <def-cat n="guio">
       <cat-item tags="guio"/>
+    </def-cat>
+
+    <def-cat n="descon">
+      <cat-item lemma="**" tags=""/>
     </def-cat>
 
     <def-cat n="comasent">
@@ -867,6 +893,49 @@
    <list-item v="should"/>
    <list-item v="may"/>
    <list-item v="might"/>
+
+ </def-list>
+
+<def-list n="numeros25">
+
+   <list-item v="1"/>
+   <list-item v="2"/>
+   <list-item v="3"/>
+   <list-item v="4"/>
+   <list-item v="5"/>
+   <list-item v="6"/>
+   <list-item v="7"/>
+   <list-item v="8"/>
+   <list-item v="9"/>
+   <list-item v="10"/>
+   <list-item v="11"/>
+   <list-item v="12"/>
+   <list-item v="13"/>
+   <list-item v="14"/>
+   <list-item v="15"/>
+   <list-item v="16"/>
+   <list-item v="17"/>
+   <list-item v="18"/>
+   <list-item v="19"/>
+   <list-item v="one"/>
+   <list-item v="two"/>
+   <list-item v="three"/>
+   <list-item v="four"/>
+   <list-item v="five"/>
+   <list-item v="six"/>
+   <list-item v="seven"/>
+   <list-item v="eight"/>
+   <list-item v="nine"/>
+   <list-item v="ten"/>
+   <list-item v="eleven"/>
+   <list-item v="twelve"/>
+   <list-item v="thirteen"/>
+   <list-item v="fourteen"/>
+   <list-item v="fifteen"/>
+   <list-item v="sixteen"/>
+   <list-item v="seventeen"/>
+   <list-item v="eighteen"/>
+   <list-item v="nineteen"/>
 
  </def-list>
 
@@ -12405,6 +12474,54 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
     <!-- SINTAGMES NOMINALS ALTRES-->
 
+
+
+    <rule comment="REGRA: NUM NOM1 OLD -> NUM NOM1 (300 years old - 300 años)">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="yearmonth"/>
+	<pattern-item n="old"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="million">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="flexio_numerals">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out> 
+	  <chunk name="num_yearold" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.NUM"/></tag>
+	      <tag><clip pos="2" side="tl" part="gen"/></tag>
+	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu> 
+	    <b pos="1"/> 
+	    <lu>   
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu> 		
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
     <rule comment="REGLA: NUM-NOM1-OLD NOM3 -> NOM3 de NUM NOM1(pl) (48-year-old man - home de 48 anys)">
       <pattern>
 	<pattern-item n="num"/>
@@ -12429,6 +12546,32 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="1" side="sl" part="lem"/> 
+		  <lit v="1"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="lem"/> 
+		  <lit v="one"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <clip pos="3" side="tl" part="nbr"/> 
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="3" side="tl" part="nbr"/> 
+	      <lit-tag v="pl"/>
+	    </let>
+	  </otherwise>
+	</choose>
 	<out> 
 	  <chunk name="num_yearold_nom" case="caseFirstWord">
 	    <tags>
@@ -12457,7 +12600,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <clip pos="3" side="tl" part="lemh"/> 
 	      <clip pos="3" side="tl" part="a_nom"/>
 	      <clip pos="3" side="tl" part="gen"/>
-	      <lit-tag v="pl"/><!--MG: atenció! i quan és 'one-month'? - arreglar -->
+	      <clip pos="3" side="tl" part="nbr"/>
 	      <clip pos="3" side="tl" part="lemq"/>
 	    </lu> 
 	  </chunk>
@@ -12494,6 +12637,32 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="lem"/> 
+		  <lit v="1"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="lem"/> 
+		  <lit v="one"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <clip pos="4" side="tl" part="nbr"/> 
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="4" side="tl" part="nbr"/> 
+	      <lit-tag v="pl"/>
+	    </let>
+	  </otherwise>
+	</choose>
 	<out> 
 	  <chunk name="det_num_yearold_nom" case="caseFirstWord">
 	    <tags>
@@ -12533,13 +12702,434 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <clip pos="4" side="tl" part="lemh"/> 
 	      <clip pos="4" side="tl" part="a_nom"/>
 	      <clip pos="4" side="tl" part="gen"/>
-	      <lit-tag v="pl"/><!--MG: atenció! i quan és 'one-month'? - arreglar -->
+	      <clip pos="4" side="tl" part="nbr"/>
 	      <clip pos="4" side="tl" part="lemq"/>
 	    </lu> 
 	  </chunk>
 	</out>
       </action>
     </rule>
+
+
+
+
+
+    <rule comment="REGLA: NUM-NOM1-OLD NOM3 -> NOM3 de NUM NOM1(pl) (9-year-old - (nen) de 9 anys)">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="yearmonth"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="old"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<list n="numeros25"/>
+	      </in>
+	    </test>
+	    <let>
+	      <var n="paraula1"/>
+	      <concat>
+		<lit v="niño"/>
+		<lit-tag v="n.3.4"/>
+	      </concat>
+	    </let>
+	    <let>
+		<var n="gen_chunk"/>
+		<lit-tag v="GD"/>
+	    </let>
+	    <let>
+		<var n="nbr_chunk"/>
+		<lit-tag v="sg"/>
+	    </let>
+	  </when>
+	    <otherwise>
+	      <let>
+		<var n="paraula1"/>
+		<concat>
+		  <lit v="persona"/>
+		  <lit-tag v="n.f.sg"/>
+		</concat>
+	      </let>
+	    <let>
+		<var n="gen_chunk"/>
+		<lit-tag v="f"/>
+	    </let>
+	    <let>
+		<var n="nbr_chunk"/>
+		<lit-tag v="sg"/>
+	    </let>
+	    </otherwise>
+	</choose>  
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="1" side="sl" part="lem"/> 
+		  <lit v="1"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="1" side="sl" part="lem"/> 
+		  <lit v="one"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <clip pos="3" side="tl" part="nbr"/> 
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="3" side="tl" part="nbr"/> 
+	      <lit-tag v="pl"/>
+	    </let>
+	  </otherwise>
+	</choose> 
+	<out> 
+	  <chunk name="n_num_yearold" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>	
+	    <lu> 
+	      <var n="paraula1"/>
+	    </lu> 
+	    <b/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+	    <lu>   
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu> 
+	    <b/>
+	    <lu>   
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
+    <rule comment="REGLA: NUM-NOM1-OLD NOM3 unknown -> NOM3 de NUM NOM1(pl) unknown (9-year-old xxxxxx - de 9 anys xxxxxx) - quan va abans d'una desconeguda no s'afegeix el nom (nen/persona)">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="yearmonth"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="old"/>
+	<pattern-item n="descon"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro> 
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="1" side="sl" part="lem"/> 
+		  <lit v="1"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="lem"/> 
+		  <lit v="one"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <clip pos="3" side="tl" part="nbr"/> 
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="3" side="tl" part="nbr"/> 
+	      <lit-tag v="pl"/>
+	    </let>
+	  </otherwise>
+	</choose> 
+	<out> 
+	  <chunk name="num_yearold" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SA.mf.sp"/></tag>
+	    </tags>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+	    <lu>   
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu> 
+	    <b/>
+	    <lu>   
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	  <b pos="5"/>	  
+	  <chunk name="unknown">
+	    <tags>
+	    <tag><lit-tag v="unknown"/></tag>
+	  </tags>
+	  <lu>
+	    <clip pos="6" side="tl" part="whole"/> 
+	  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DET NUM-NOM1-OLD NOM3 -> DET NOM3 de NUM NOM1(pl) (the 9-year-old - el nen de 9 anys)">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="num"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="yearmonth"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="old"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="4"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="sl" part="lem"/>
+		<list n="numeros25"/>
+	      </in>
+	    </test>
+	    <let>
+	      <var n="paraula1"/>
+	      <concat>
+		<lit v="niño"/>
+		<lit-tag v="n.3.4"/>
+	      </concat>
+	    </let>
+	    <let>
+		<var n="gen_chunk"/>
+		<lit-tag v="GD"/>
+	    </let>
+	    <let>
+		<var n="nbr_chunk"/>
+		<lit-tag v="sg"/>
+	    </let>
+	  </when>
+	    <otherwise>
+	      <let>
+		<var n="paraula1"/>
+		<concat>
+		  <lit v="persona"/>
+		  <lit-tag v="n.f.sg"/>
+		</concat>
+	      </let>
+	    <let>
+		<var n="gen_chunk"/>
+		<lit-tag v="f"/>
+	    </let>
+	    <let>
+		<var n="nbr_chunk"/>
+		<lit-tag v="sg"/>
+	    </let>
+	    </otherwise>
+	</choose>  
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="lem"/> 
+		  <lit v="1"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="2" side="sl" part="lem"/> 
+		  <lit v="one"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <clip pos="4" side="tl" part="nbr"/> 
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="4" side="tl" part="nbr"/> 
+	      <lit-tag v="pl"/>
+	    </let>
+	  </otherwise>
+	</choose> 
+	<out> 
+	  <chunk name="det_n_num_yearold" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.DET"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	    <b pos="1"/>
+	    <lu> 
+	      <var n="paraula1"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="whole"/> 
+	    </lu> 
+	    <b/> 
+	    <lu>   
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <clip pos="4" side="tl" part="nbr"/>
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+  <rule comment="REGLA: DET NUM-NOM1-OLD NOM3 unknown-> DET NOM3 de NUM NOM1(pl) unknown (the 9-year-old xxxxxx - de 9 anys xxxxx)">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="num"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="yearmonth"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="old"/>
+	<pattern-item n="descon"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="4"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="lem"/> 
+		  <lit v="1"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="2" side="sl" part="lem"/> 
+		  <lit v="one"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <clip pos="4" side="tl" part="nbr"/> 
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="4" side="tl" part="nbr"/> 
+	      <lit-tag v="pl"/>
+	    </let>
+	  </otherwise>
+	</choose> 
+	<out> 
+	  <chunk name="det_n_num_yearold" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.DET"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="whole"/> 
+	    </lu> 
+	    <b/> 
+	    <lu>   
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <clip pos="4" side="tl" part="nbr"/>
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	  <b pos="6"/>	  
+	  <chunk name="unknown">
+	    <tags>
+	    <tag><lit-tag v="unknown"/></tag>
+	  </tags>
+	  <lu>
+	    <clip pos="7" side="tl" part="whole"/> 
+	  </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
 
 
  <rule comment="REGLA: DET NOM ago (a week ago)"> 
@@ -12651,6 +13241,115 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
+ <rule comment="REGLA: DET NOM ago (several years hence)"> 
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="periode"/>
+	<pattern-item n="hence"/>
+      </pattern>
+      <action>
+	<call-macro n="det_no">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="pr_det_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.DET"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	      <tag><var n="tipus_det"/></tag> 
+	    </tags>
+	    <lu>	      
+	      <lit v="dentro de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="1"/>	    
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	    <b pos="2"/>
+	    <lu> 
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="2" side="tl" part="gen_mf"/>
+	      <clip pos="2" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="2" side="tl" part="nbr_sp"/>
+	      <clip pos="2" side="tl" part="lemq"/> 
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule> 
+
+ <rule comment="REGLA: NUM NOM ago (two weeks ago)">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="periode"/>
+	<pattern-item n="hence"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="flexio_numerals">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro> 
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out> 
+	  <chunk name="pr_num_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.NUM"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>	   	      
+	      <lit v="dentro de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="1"/>  
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_num"/> 
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/> 
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	    <b pos="2"/>
+	    <lu> 
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/> 
+	      <clip pos="2" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="2" side="tl" part="gen_mf"/>  
+	      <clip pos="2" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="2" side="tl" part="nbr_sp"/>
+	      <clip pos="2" side="tl" part="lemq"/> 
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
 
 
     <!--    <rule comment="REGLA: DET PP NOM  (The preferred model - el model preferit. An increased risk - un risc augmentat (major)">   BCN OJO OJO sobra

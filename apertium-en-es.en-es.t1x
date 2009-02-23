@@ -12608,6 +12608,87 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
+
+<rule comment="REGLA: NUM NOM1 OLD NOM3 -> NOM3 de NUM NOM1(pl) (48 year old man - home de 48 anys)">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="yearmonth"/>
+	<pattern-item n="old"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="1" side="sl" part="lem"/> 
+		  <lit v="1"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="lem"/> 
+		  <lit v="one"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="nbr"/> 
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="2" side="tl" part="nbr"/> 
+	      <lit-tag v="pl"/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out> 
+	  <chunk name="num_yearold_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><clip pos="4" side="tl" part="gen"/></tag>
+	      <tag><clip pos="4" side="tl" part="nbr"/></tag>
+	    </tags>	
+	    <lu> 
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="gen" link-to="3"/>
+	      <clip pos="4" side="tl" part="nbr" link-to="4"/>
+	      <clip pos="4" side="tl" part="lemq"/>  
+	    </lu> 
+	    <b pos="1"/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>   
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: DET NUM-NOM1-OLD NOM3 -> DET NOM3 de NUM NOM1(pl) (the 48-year-old man - l'home de 48 anys)">
       <pattern>
 	<pattern-item n="det"/>
@@ -12711,7 +12792,101 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-
+  <rule comment="REGLA: DET NUM NOM1 OLD NOM3 -> DET NOM3 de NUM NOM1(pl) (the 48 year old man - l'home de 48 anys)">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="num"/>
+	<pattern-item n="yearmonth"/>
+	<pattern-item n="old"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="5"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="lem"/> 
+		  <lit v="1"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="lem"/> 
+		  <lit v="one"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <clip pos="3" side="tl" part="nbr"/> 
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="3" side="tl" part="nbr"/> 
+	      <lit-tag v="pl"/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out> 
+	  <chunk name="det_num_yearold_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.DET"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	    <b pos="1"/>
+	    <lu> 
+	      <clip pos="5" side="tl" part="lemh"/> 
+	      <clip pos="5" side="tl" part="a_nom"/>
+	      <clip pos="5" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="5" side="tl" part="gen_mf"/>
+	      <clip pos="5" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="5" side="tl" part="nbr_sp"/>
+	      <clip pos="5" side="tl" part="lemq"/>  
+	    </lu> 
+	    <b pos="2"/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="whole"/> 
+	    </lu> 
+	    <b pos="4"/>
+	    <lu>   
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: NUM-NOM1-OLD NOM3 -> NOM3 de NUM NOM1(pl) (9-year-old - (nen) de 9 anys)">
@@ -13241,7 +13416,41 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
- <rule comment="REGLA: DET NOM ago (several years hence)"> 
+
+
+ <rule comment="REGLA: NOM ago (years ago)"> 
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="ago"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="fa_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.DET"/></tag>
+	      <tag><clip pos="1" side="tl" part="gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>	      
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu> 
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen" link-to="3"/>
+	      <clip pos="1" side="tl" part="nbr" link-to="4"/>
+	      <clip pos="1" side="tl" part="lemq"/> 
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+ <rule comment="REGLA: DET NOM hence (several years hence)"> 
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="periode"/>
@@ -13295,7 +13504,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule> 
 
- <rule comment="REGLA: NUM NOM ago (two weeks ago)">
+ <rule comment="REGLA: NUM NOM hence (two weeks hence)">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="periode"/>
@@ -13352,60 +13561,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <!--    <rule comment="REGLA: DET PP NOM  (The preferred model - el model preferit. An increased risk - un risc augmentat (major)">   BCN OJO OJO sobra
-	 <pattern>
-	 <pattern-item n="det"/>
-	 <pattern-item n="ppadj"/>
-	 <pattern-item n="nom"/>
-	 </pattern>
-	 <action>
-	 <call-macro n="genere_nombre">
-	 <with-param pos="3"/>
-	 </call-macro>
-	 <call-macro n="firstWord">
-	 <with-param pos="1"/>
-	 </call-macro>
-	 <out> 
-	 <chunk name="det_adj_nom" case="caseFirstWord">
-	 <tags>
-	 <tag><lit-tag v="SN.DET"/></tag>
-	 <tag><clip pos="3" side="tl" part="gen"/></tag>
-	 <tag><clip pos="3" side="tl" part="nbr"/></tag>
-	 </tags>
-	 <lu>   
-	 <clip pos="1" side="tl" part="lem"/> 
-	 <clip pos="1" side="tl" part="a_det"/>
-	 <clip pos="3" side="tl" part="gen" link-to="3"/>
-	 <clip pos="3" side="tl" part="nbr" link-to="4"/>
-	 </lu> 
-	 <b pos="1"/>
-	 <lu> 
-	 <clip pos="3" side="tl" part="lemh"/> 
-	 <clip pos="3" side="tl" part="a_nom"/>
-	 <clip pos="3" side="tl" part="gen" link-to="3"/>
-	 <clip pos="3" side="tl" part="nbr" link-to="4"/>
-	 <clip pos="3" side="tl" part="lemq"/>  
-	 </lu> 
-	 <b pos="2"/>
-	 <lu> 
-	 <clip pos="2" side="tl" part="lemh"/> 
-	 <clip pos="2" side="tl" part="a_pp"/>
-	 <clip pos="3" side="tl" part="gen" link-to="3"/>
-	 <clip pos="3" side="tl" part="nbr" link-to="4"/>
-	 <clip pos="2" side="tl" part="lemq"/> 
-	 </lu> 
-	 </chunk>
-	 </out>
-	 <let>
-	 <var n="caseFirstWord"/>
-	 <lit v="aa"/>
-	 </let>
-	 </action>
-	 </rule>-->
-
-
-
-
+ 
 
 
     <rule comment="REGLA: COMA WHICH (BCN noun, which noun -> el qual)"> 

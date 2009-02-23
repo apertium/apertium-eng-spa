@@ -1558,7 +1558,9 @@
 		</test>		    
 		<let>
 		  <clip pos="1" part="lem"/>
-		  <lit v="hay"/>
+		  <get-case-from pos="0">
+		    <lit v="hay"/>
+		  </get-case-from>
 		</let>
 		<let>
 		  <clip pos="1" part="a_verb"/>
@@ -1568,7 +1570,9 @@
 	      <otherwise>
 		<let>
 		  <clip pos="1" part="lem"/>
-		  <lit v="haber"/>
+		  <get-case-from pos="0">
+		    <lit v="haber"/>
+		  </get-case-from>
 		</let>
 		<let>
 		  <clip pos="1" part="a_verb"/>
@@ -1802,7 +1806,9 @@
 		</test>
 		<let>
 		  <clip pos="2" part="lem"/>
-		  <lit v="haber"/>
+		  <get-case-from pos="0">
+		    <lit v="haber"/>
+		  </get-case-from>
 		</let>
 		<let>
 		  <clip pos="2" part="a_verb"/>
@@ -2841,7 +2847,9 @@
 			</test>		    
 			<let>
 			  <clip pos="1" part="lem"/>
-			  <lit v="hay"/>
+			  <get-case-from pos="0">
+			    <lit v="hay"/>
+			  </get-case-from>
 			</let>
 			<let>
 			  <clip pos="1" part="a_verb"/>
@@ -2851,7 +2859,9 @@
 		      <otherwise>
 			<let>
 			  <clip pos="1" part="lem"/>
-			  <lit v="haber"/>
+			  <get-case-from pos="0">
+			    <lit v="haber"/>
+			  </get-case-from>
 			</let>
 			<let>
 			  <clip pos="1" part="a_verb"/>
@@ -3148,7 +3158,9 @@
       <action>
 	<let>
 	    <clip pos="1" part="lem"/>
-	    <lit v="tener"/>
+	    <get-case-from pos="0">
+	      <lit v="tener"/>
+	    </get-case-from>
 	</let>
 	<let>
 	    <clip pos="1" part="a_verb"/>

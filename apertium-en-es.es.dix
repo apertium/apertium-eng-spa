@@ -1840,7 +1840,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="absolut/o__adj">
+    <pardef n="absolut/o__adj" c="sin formas superlativas">
       <e>
         <p>
           <l>as</l>
@@ -1863,6 +1863,56 @@
         <p>
           <l>o</l>
           <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+       <pardef n="abstract/o__adj" c="como 'absolut/o' pero con formas superlativas">
+      <e>
+        <p>
+          <l>as</l>
+          <r>o<s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>o<s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r>o<s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimas</l>
+          <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísima</l>
+          <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimos</l>
+          <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimo</l>
+          <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -1916,56 +1966,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="abstract/o__adj">
-      <e>
-        <p>
-          <l>as</l>
-          <r>o<s n="adj"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>a</l>
-          <r>o<s n="adj"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>os</l>
-          <r>o<s n="adj"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>o</l>
-          <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ísimas</l>
-          <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ísima</l>
-          <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ísimos</l>
-          <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ísimo</l>
-          <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
+ 
     <pardef n="otr/o__adj">
       <e>
         <p>
@@ -95701,6 +95702,9 @@
     <e lm="horrorizar"><i>horrori</i><par n="abalan/zar__vblex"/></e>
     <e lm="horrorizar"><p><l>horrorí</l>              <r>horrori</r></p><par n="abalán/zar__vblex"/></e>
     <e lm="turbulento"><i>turbulent</i><par n="abstract/o__adj"/></e>
+    <e lm="zoológico"><i>zoológico</i><par n="abismo__n"/>     </e>
+    <e lm="zoológico"><i>zoológic</i><par n="absolut/o__adj"/>     </e>
+    <e lm="zoo"><i>zoo</i><par n="abismo__n"/>     </e>
 
   </section>   
 
@@ -95708,7 +95712,7 @@
     <e>      <par n="emails"/>    </e>
     <e>      <par n="urls"/>    </e>
     <e>      <par n="ordinals"/>    </e>
-    <e>      <par n="acronimos"/>    </e>
+  <!--  <e>      <par n="acronimos"/>    </e>-->
     <e>      <par n="time"/>    </e>
     <e>      <par n="currency"/>    </e>
     <e r="RL"><par n="proper_names"/>    </e>

@@ -498,6 +498,16 @@
       <cat-item lemma="never" tags="adv"/>
     </def-cat>
 
+    <def-cat n="non">
+      <cat-item lemma="non" tags="adv"/>
+    </def-cat>
+    <def-cat n="no">
+      <cat-item lemma="no" tags="adv"/>
+      <cat-item lemma="no" tags="det.*"/>
+    </def-cat>
+    <def-cat n="withno">
+      <cat-item lemma="with no" tags="pr"/>
+    </def-cat>
     <def-cat n="ago">
       <cat-item lemma="ago" tags="adv"/>
     </def-cat>
@@ -7601,6 +7611,14 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		    <clip pos="2" side="tl" part="a_nom"/>
 		    <lit-tag v="np.cog"/>
 		  </equal>
+		  <equal>
+		    <clip pos="1" side="tl" part="a_nom"/>
+		    <lit-tag v="np.ant"/>
+		  </equal>
+		  <equal>
+		    <clip pos="1" side="tl" part="a_nom"/>
+		    <lit-tag v="np.cog"/>
+		  </equal>
 		  <in caseless="yes">
 		    <clip pos="1" side="sl" part="lem"/>
 		    <list n="tractaments"/>
@@ -7703,6 +7721,14 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		  </equal>
 		  <equal>
 		    <clip pos="3" side="tl" part="a_nom"/>
+		    <lit-tag v="np.cog"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" side="tl" part="a_nom"/>
+		    <lit-tag v="np.ant"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" side="tl" part="a_nom"/>
 		    <lit-tag v="np.cog"/>
 		  </equal>
 		  <in caseless="yes">
@@ -7844,6 +7870,14 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		  </equal>
 		  <equal>
 		    <clip pos="3" side="tl" part="a_nom"/>
+		    <lit-tag v="np.cog"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" side="tl" part="a_nom"/>
+		    <lit-tag v="np.ant"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" side="tl" part="a_nom"/>
 		    <lit-tag v="np.cog"/>
 		  </equal>
 		  <in caseless="yes">
@@ -12476,7 +12510,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGRA: NUM NOM1 OLD -> NUM NOM1 (300 years old - 300 años)">
+    <rule comment="REGLA: NUM NOM1 OLD -> NUM NOM1 (300 years old - 300 años)">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="yearmonth"/>
@@ -17501,6 +17535,336 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	</call-macro>
       </action>
     </rule>
+
+
+
+
+    <rule comment="REGLA: non-GER NOM, non-eating area > àrea de no menjar "> 
+      <pattern>
+	<pattern-item n="non"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="ger"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="3"/>
+	</call-macro>
+	<let>
+	  <clip pos="3" side="tl" part="temps"/>
+	  <lit-tag v="inf"/>
+	</let>
+	<out>
+	  <chunk name="non_ger_nom" case="caseFirstWord">
+	    <tags>	       
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="4" side="tl" part="gen"/></tag>
+	      <tag><clip pos="4" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="gen" link-to="4"/>
+	      <clip pos="4" side="tl" part="nbr" link-to="5"/>
+	      <clip pos="4" side="tl" part="lemq"/> 
+	    </lu>
+	    <b/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <lit v="no"/>
+	      <lit-tag v="adv"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu>	
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <clip pos="3" side="tl" part="temps"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+   <rule comment="REGLA: non GER NOM, non eating area > àrea de no menjar"> 
+      <pattern>
+	<pattern-item n="non"/>
+	<pattern-item n="ger"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="2"/>
+	</call-macro>
+	<let>
+	  <clip pos="2" side="tl" part="temps"/>
+	  <lit-tag v="inf"/>
+	</let>
+	<out>
+	  <chunk name="non_ger_nom" case="caseFirstWord">
+	    <tags>	       
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="3" side="tl" part="gen"/></tag>
+	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="gen" link-to="4"/>
+	      <clip pos="3" side="tl" part="nbr" link-to="5"/>
+	      <clip pos="3" side="tl" part="lemq"/> 
+	    </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <lit v="no"/>
+	      <lit-tag v="adv"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>	
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <clip pos="2" side="tl" part="temps"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
+   <rule comment="REGLA: det GER NOM, no eating area > cap àrea de menjar / an eating area - una àrea de menjar"> 
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="ger"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="det_no">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="tipus_verbs">
+	  <with-param pos="2"/>
+	</call-macro>
+	<let>
+	  <clip pos="2" side="tl" part="temps"/>
+	  <lit-tag v="inf"/>
+	</let>
+	<out>
+	  <chunk name="det_ger_nom" case="caseFirstWord">
+	    <tags>	       
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	      <tag><var n="tipus_det"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="4"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="5"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	    <b pos="1"/>
+	    <lu> 
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="gen_sense_mf" link-to="4"/>
+	      <clip pos="3" side="tl" part="gen_mf"/>
+	      <clip pos="3" side="tl" part="nbr_sense_sp" link-to="5"/>
+	      <clip pos="3" side="tl" part="nbr_sp"/>
+	      <clip pos="3" side="tl" part="lemq"/> 
+	    </lu> 
+	    <b/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>	
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <clip pos="2" side="tl" part="temps"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+ <rule comment="REGLA: with no GER NOM, with no eating disorders > sense desordres de menjar"> 
+      <pattern>
+	<pattern-item n="withno"/>
+	<pattern-item n="ger"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="tipus_verbs">
+	  <with-param pos="2"/>
+	</call-macro>
+	<let>
+	  <clip pos="2" side="tl" part="temps"/>
+	  <lit-tag v="inf"/>
+	</let>
+	<out>
+	  <chunk name="pr_ger_nom" case="caseFirstWord">
+	    <tags>	       
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="3" side="tl" part="gen"/></tag>
+	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
+	      <tag><lit-tag v="negacio"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/> 
+	    </lu> 
+	    <b pos="1"/>
+	    <lu> 
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="gen" link-to="4"/>
+	      <clip pos="3" side="tl" part="nbr" link-to="5"/>
+	      <clip pos="3" side="tl" part="lemq"/> 
+	    </lu> 
+	    <b/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>	
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <clip pos="2" side="tl" part="temps"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+
+   <rule comment="REGLA: no GER: no eating  > no menjar"> 
+      <pattern>
+	<pattern-item n="no"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="tipus_verbs">
+	  <with-param pos="2"/>
+	</call-macro>
+	<let>
+	  <clip pos="2" side="tl" part="temps"/>
+	  <lit-tag v="inf"/>
+	</let>
+	<out> 
+	  <chunk name="no_inf" case="caseFirstWord">
+	    <tags>	       
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="2" side="tl" part="temps"/></tag>
+	    </tags>
+	    <lu>
+	      <lit v="no"/>
+	      <lit-tag v="adv"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <clip pos="2" side="tl" part="temps"/>	
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+   </rule>
+	  
+
+ <rule comment="REGLA: ADV-GER: fast-growing > que creix/en ràpidament"> 
+      <pattern>
+	<pattern-item n="adv"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="3"/>
+	</call-macro>
+	<let>
+	  <clip pos="3" side="tl" part="temps"/>
+	  <lit-tag v="pri"/>
+	</let>
+	<out>
+	  <chunk name="adv_ger" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SA"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="3" side="tl" part="temps"/></tag>
+	      <tag><lit-tag v="p3"/></tag>  
+	      <tag><lit-tag v="ND"/></tag>
+	    </tags>  
+	    <lu>
+	      <lit v="que"/>
+	      <lit-tag v="rel.an.mf.sp"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <clip pos="3" side="tl" part="temps"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="5"/>	      
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+ </rule>
+	    
+	      
 
 
 

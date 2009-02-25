@@ -183,6 +183,7 @@
       <cat-item lemma="resolve" tags="vblex.inf"/>
       <cat-item lemma="try" tags="vblex.inf"/>
       <cat-item lemma="like" tags="vblex.inf"/>
+      <cat-item lemma="vow" tags="vblex.inf"/>
 
 
       <cat-item lemma="desire" tags="vblex.pres"/>
@@ -208,6 +209,7 @@
       <cat-item lemma="resolve" tags="vblex.pres"/>
       <cat-item lemma="try" tags="vblex.pres"/>
       <cat-item lemma="like" tags="vblex.pres"/>
+      <cat-item lemma="vow" tags="vblex.pres"/>
 
 
 
@@ -234,6 +236,7 @@
       <cat-item lemma="resolve" tags="vblex.past"/>
       <cat-item lemma="try" tags="vblex.past"/>
       <cat-item lemma="like" tags="vblex.past"/>
+      <cat-item lemma="vow" tags="vblex.past"/>
 
 
       <cat-item lemma="desire" tags="vblex.pri.*"/>
@@ -259,6 +262,7 @@
       <cat-item lemma="resolve" tags="vblex.pri.*"/>
       <cat-item lemma="try" tags="vblex.pri.*"/>
       <cat-item lemma="like" tags="vblex.pri.*"/>
+      <cat-item lemma="vow" tags="vblex.pri.*"/>
 
 
       <cat-item lemma="desire" tags="vblex.ger"/>
@@ -284,6 +288,7 @@
       <cat-item lemma="resolve" tags="vblex.ger"/>
       <cat-item lemma="try" tags="vblex.ger"/>
       <cat-item lemma="like" tags="vblex.ger"/>
+      <cat-item lemma="vow" tags="vblex.ger"/>
     </def-cat>
 
 
@@ -311,6 +316,7 @@
       <cat-item lemma="resolve" tags="vblex.ger"/>
       <cat-item lemma="try" tags="vblex.ger"/>
       <cat-item lemma="like" tags="vblex.ger"/>
+      <cat-item lemma="vow" tags="vblex.ger"/>
     </def-cat>
 
 
@@ -338,6 +344,7 @@
       <cat-item lemma="resolve" tags="vblex.pp"/>
       <cat-item lemma="try" tags="vblex.pp"/>
       <cat-item lemma="like" tags="vblex.pp"/>
+      <cat-item lemma="vow" tags="vblex.pp"/>
     </def-cat>
 
     <def-cat n="copulatiu">
@@ -1082,12 +1089,10 @@
      <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
        <when>
 	 <test>
-	   <not>
 	     <equal>
 	       <clip pos="2" side="tl" part="a_num"/>
-	       <lit-tag v="num"/>
+	       <lit v=""/>
 	     </equal>
-	   </not>
 	 </test>
 	 <choose><!--si no te valor per a gènere i , per tant, tampoc per a nombre: -->
 	   <when>
@@ -1370,12 +1375,10 @@
      <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
        <when>
 	 <test>
-	   <not>
 	     <equal>
 	       <clip pos="2" side="tl" part="a_num"/>
-	       <lit-tag v="num"/>
+	       <lit v=""/>
 	     </equal>
-	   </not>
 	 </test>
 	 <choose>
 	   <when><!--si la paraula no té valor per a gènere (i en aquest cas, tampoc per a nombre) -->
@@ -1428,12 +1431,10 @@
      <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
        <when>
 	 <test>
-	   <not>
 	     <equal>
 	       <clip pos="3" side="tl" part="a_num"/>
-	       <lit-tag v="num"/>
+	       <lit v=""/>
 	     </equal>
-	   </not>
 	 </test>
 
 
@@ -1800,12 +1801,10 @@
     <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
       <when>
 	<test>
-	  <not>
 	    <equal>
 	      <clip pos="2" side="tl" part="a_num"/>
-	      <lit-tag v="num"/>
+	      <lit v=""/>
 	    </equal>
-	  </not>
 	</test>
 	<choose>
 	  <when><!--si la paraula no té valor per a gènere (i en aquest cas, tampoc per a nombre) -->
@@ -1858,12 +1857,10 @@
     <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
       <when>
 	<test>
-	  <not>
 	    <equal>
 	      <clip pos="3" side="tl" part="a_num"/>
-	      <lit-tag v="num"/>
+	      <lit v=""/>
 	    </equal>
-	  </not>
 	</test>
 	<choose>
 	  <when><!--si la paraula no té valor per a gènere (i en aquest cas, tampoc per a nombre) -->
@@ -1915,12 +1912,10 @@
     <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
       <when>
 	<test>
-	  <not>
 	    <equal>
 	      <clip pos="4" side="tl" part="a_num"/>
-	      <lit-tag v="num"/>
+	      <lit v=""/>
 	    </equal>
-	  </not>
 	</test>
 
 	<choose>
@@ -2362,12 +2357,10 @@
      <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
        <when>
 	 <test>
-	   <not>
 	     <equal>
 	       <clip pos="2" side="tl" part="a_num"/>
-	       <lit-tag v="num"/>
+	       <lit v=""/>
 	     </equal>
-	   </not>
 	 </test>
 	 <choose>
 	   <when><!--si la paraula no té valor per a gènere (i en aquest cas, tampoc per a nombre) -->
@@ -2420,12 +2413,10 @@
      <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
        <when>
 	 <test>
-	   <not>
 	     <equal>
 	       <clip pos="3" side="tl" part="a_num"/>
-	       <lit-tag v="num"/>
+	       <lit v=""/>
 	     </equal>
-	   </not>
 	 </test>
 	 <choose>
 	   <when><!--si la paraula no té valor per a gènere (i en aquest cas, tampoc per a nombre) -->
@@ -2478,12 +2469,10 @@
      <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
        <when>
 	 <test>
-	   <not>
 	     <equal>
 	       <clip pos="4" side="tl" part="a_num"/>
-	       <lit-tag v="num"/>
+	       <lit v=""/>
 	     </equal>
-	   </not>
 	 </test>
 	 
 	 <choose>
@@ -2537,12 +2526,10 @@
      <choose><!--posa GD i ND a la paraula si no té valor per a gènere o per a nombre (excepte números) -->
        <when>
 	 <test>
-	   <not>
 	     <equal>
 	       <clip pos="5" side="tl" part="a_num"/>
-	       <lit-tag v="num"/>
+	       <lit v=""/>
 	     </equal>
-	   </not>
 	 </test>
 	 <choose>
 	   <when><!--si la paraula no té valor per a gènere (i en aquest cas, tampoc per a nombre) -->
@@ -15219,7 +15206,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </lu> 
 	    <b/>
 	    <lu>
-	      <lit v="a"/>
+	      <lit v="en"/>
 	      <lit-tag v="pr"/>
 	    </lu> 
 	    <b/>
@@ -15273,7 +15260,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </lu> 
 	    <b/>
 	    <lu>
-	      <lit v="a"/>
+	      <lit v="en"/>
 	      <lit-tag v="pr"/>
 	    </lu> 
 	    <b/>
@@ -17866,6 +17853,326 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    
 	      
 
+
+
+ <rule comment="REGLA: ADJ-GER: fast-growing > que creix/en ràpidament (tagger tria adj i no adv)"> 
+      <pattern>
+	<pattern-item n="adj"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="3"/>
+	</call-macro>
+	<let>
+	  <clip pos="3" side="tl" part="temps"/>
+	  <lit-tag v="pri"/>
+	</let>
+	<out>
+	  <chunk name="adj_ger" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SA"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="3" side="tl" part="temps"/></tag>
+	      <tag><lit-tag v="p3"/></tag>  
+	      <tag><lit-tag v="GD"/></tag> 
+	      <tag><lit-tag v="ND"/></tag>
+	    </tags>  
+	    <lu>
+	      <lit v="que"/>
+	      <lit-tag v="rel.an.mf.sp"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <clip pos="3" side="tl" part="temps"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="6"/>	      
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <lit-tag v="5"/>
+	      <lit-tag v="6"/>	      
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+ </rule>
+
+
+
+ <rule comment="REGLA: NOM-GER: Holocaust-denying (bishop) > (bisbe) que nega holocaust"> 
+      <pattern>
+	<pattern-item n="nomcomu"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="elimina_GDND">
+	  <with-param pos="1"/>
+	</call-macro>
+	<let>
+	  <clip pos="3" side="tl" part="temps"/>
+	  <lit-tag v="pri"/>
+	</let>
+	<out>
+	  <chunk name="nom_ger" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SA"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="3" side="tl" part="temps"/></tag>
+	      <tag><lit-tag v="p3"/></tag>  
+	      <tag><lit-tag v="ND"/></tag>
+	    </tags>  
+	    <lu>
+	      <lit v="que"/>
+	      <lit-tag v="rel.an.mf.sp"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <clip pos="3" side="tl" part="temps"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="5"/>	      
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+ </rule>
+	    
+	      
+<!-- les 3 regles anteriors amb un det al davant, que es fa concordar amb el nom en el t2x-->
+
+
+ <rule comment="REGLA: DET ADV-GER: the fast-growing > que creix/en ràpidament"> 
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<let>
+	  <clip pos="4" side="tl" part="temps"/>
+	  <lit-tag v="pri"/>
+	</let>
+	<out>
+	  <chunk name="det" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="DET"/></tag>
+	      <tag><clip pos="1" side="tl" part="gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <lit-tag v="2"/>
+	      <lit-tag v="3"/>
+	    </lu>	
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk name="adv_ger">
+	    <tags>
+	      <tag><lit-tag v="SA"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="4" side="tl" part="temps"/></tag>
+	      <tag><lit-tag v="p3"/></tag>  
+	      <tag><lit-tag v="ND"/></tag>
+	    </tags>  
+	    <lu>
+	      <lit v="que"/>
+	      <lit-tag v="rel.an.mf.sp"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/>
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <clip pos="4" side="tl" part="temps"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="5"/>	      
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+ </rule>
+
+
+
+ <rule comment="REGLA: DET ADJ-GER: the fast-growing > que creix/en ràpidament (tagger tria adj i no adv)"> 
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<let>
+	  <clip pos="4" side="tl" part="temps"/>
+	  <lit-tag v="pri"/>
+	</let>
+	<out>
+	  <chunk name="det" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="DET"/></tag>
+	      <tag><clip pos="1" side="tl" part="gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <lit-tag v="2"/>
+	      <lit-tag v="3"/>
+	    </lu>	
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk name="adj_ger">
+	    <tags>
+	      <tag><lit-tag v="SA"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="4" side="tl" part="temps"/></tag>
+	      <tag><lit-tag v="p3"/></tag>  
+	      <tag><lit-tag v="GD"/></tag> 
+	      <tag><lit-tag v="ND"/></tag>
+	    </tags>  
+	    <lu>
+	      <lit v="que"/>
+	      <lit-tag v="rel.an.mf.sp"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/>
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <clip pos="4" side="tl" part="temps"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="6"/>	      
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
+	      <clip pos="2" side="tl" part="a_adj"/>
+	      <lit-tag v="5"/>
+	      <lit-tag v="6"/>	      
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+ </rule>
+
+
+ <rule comment="REGLA: DET NOM-GER: the Holocaust-denying (bishop) > el (bisbe) que nega holocaust"> 
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nomcomu"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="elimina_GDND">
+	  <with-param pos="2"/>
+	</call-macro>
+	<let>
+	  <clip pos="4" side="tl" part="temps"/>
+	  <lit-tag v="pri"/>
+	</let>
+	<out>
+	  <chunk name="det" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="DET"/></tag>
+	      <tag><clip pos="1" side="tl" part="gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <lit-tag v="2"/>
+	      <lit-tag v="3"/>
+	    </lu>	
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk name="nom_ger">
+	    <tags>
+	      <tag><lit-tag v="SA"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><clip pos="4" side="tl" part="temps"/></tag>
+	      <tag><lit-tag v="p3"/></tag>  
+	      <tag><lit-tag v="ND"/></tag>
+	    </tags>  
+	    <lu>
+	      <lit v="que"/>
+	      <lit-tag v="rel.an.mf.sp"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/>
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <clip pos="4" side="tl" part="temps"/>
+	      <lit-tag v="4"/>
+	      <lit-tag v="5"/>	      
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu>
+	    <b/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+ </rule>
+	
 
 
     

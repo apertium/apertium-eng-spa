@@ -141,6 +141,8 @@
       <cat-item lemma="adj"  tags="SA.*"/>
       <cat-item lemma="np_pp"  tags="SA.*"/>
       <cat-item lemma="adv_ger"  tags="SA.*"/>
+      <cat-item lemma="adj_ger"  tags="SA.*"/>
+      <cat-item lemma="nom_ger"  tags="SA.*"/>
     </def-cat>
 
     <def-cat n="DET">
@@ -7095,6 +7097,211 @@ Your mother and you will come - La vostra mare i tu vindran
     </rule>
 
 
+  <rule comment="REGLA: DET SA SN (a London-based design company)">
+      <pattern>
+	<pattern-item n="DET"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="SNundet"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="3" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <not>
+		    <or>
+		      <equal>
+			<clip pos="1" part="nbr"/>
+			<lit-tag v="sp"/>
+		      </equal>
+		      <equal>
+			<clip pos="1" part="nbr"/>
+			<lit-tag v="ND"/>
+		      </equal>
+		    </or>
+		  </not>
+		</test>		      
+		<let>
+		  <clip pos="3" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</let>
+	      </when>
+	      <otherwise>		      
+		<let>
+		  <clip pos="3" part="nbr"/>
+		  <lit-tag v="sg"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <not>
+		    <equal>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		</test>
+		<let>
+		  <clip pos="2" part="gen"/>
+		  <clip pos="3" part="gen"/>
+		</let>
+	      </when>
+	      <otherwise>		
+		<let>
+		  <clip pos="2" part="gen"/>
+		  <lit-tag v="m"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <not>
+		    <equal>
+		      <clip pos="3" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		  </not>
+		</test>
+		<let>
+		  <clip pos="2" part="nbr"/>
+		  <clip pos="3" part="nbr"/>
+		</let>		
+	      </when>
+	      <otherwise>		
+		<let>
+		  <clip pos="2" part="nbr"/>
+		  <lit-tag v="sg"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>
+	<choose><!--fem que el DET concordi amb el SN -->
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <not>
+		    <equal>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		</test>
+		<let>
+		  <clip pos="1" part="gen"/>
+		  <clip pos="3" part="gen"/>
+		</let>
+	      </when>
+	      <otherwise>		
+		<let>
+		  <clip pos="1" part="gen"/>
+		  <lit-tag v="m"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <not>
+		    <equal>
+		      <clip pos="3" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		  </not>
+		</test>
+		<let>
+		  <clip pos="1" part="nbr"/>
+		  <clip pos="3" part="nbr"/>
+		</let>		
+	      </when>
+	      <otherwise>		
+		<let>
+		  <clip pos="1" part="nbr"/>
+		  <lit-tag v="sg"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>	      
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <clip pos="3" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="2" part="whole"/>
+	  </chunk>	  
+	</out>
+	<call-macro n="determina_nbr_gen_SN">
+	  <with-param pos="3"/>
+	</call-macro>
+      </action>
+    </rule>
 
 
     <!--Regles per a sintagmes sols que han pogut quedarse amb GD, ND o PD -->

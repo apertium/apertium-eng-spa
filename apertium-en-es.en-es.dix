@@ -14502,6 +14502,7 @@
     <e>  <p><l>oneiric<s n="adj"/></l><r>onírico<s n="adj"/></r></p></e>
     <e r="LR"><p><l>ongoing<s n="adj"/></l><r>actual<s n="adj"/><s n="mf"/></r></p></e>
     <e srl="only D"><p><l>only<s n="adj"/></l><r>único<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>sole<s n="adj"/></l><r>único<s n="adj"/></r></p></e>
     <e>  <p><l>opaque<s n="adj"/></l><r>opaco<s n="adj"/></r></p></e>
     <e>  <p><l>open<s n="adj"/></l><r>abierto<s n="adj"/></r></p></e>
     <e r="LR" c="MG: cal fer regla ca-en per al superlatiu"><p><l>open<s n="adj"/></l><r>abierto<s n="adj"/></r></p></e>
@@ -24290,6 +24291,8 @@
 
 <e r="LR" slr="atacar D">  <p><l>blast<s n="vblex"/></l>            <r>atacar<s n="vblex"/></r></p></e>
 <e r="LR" slr="volar">  <p><l>blast<s n="vblex"/></l>            <r>volar<s n="vblex"/></r></p></e>
+<e>  <p><l>spanish<b/>state<s n="n"/></l>            <r>estado<b/>español<s n="n"/><s n="m"/></r></p></e>
+<e>  <p><l>french<b/>state<s n="n"/></l>            <r>estado<b/>francés<s n="n"/><s n="m"/></r></p></e>
 
   </section>  
 
@@ -24322,26 +24325,26 @@
     <e>       <re>[A-Z][A-Z][A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
-    <e r="LR"><p><l>Mr<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Mr<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
 
-    <e r="LR"><p><l>Mr<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Mr.<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Mr.<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Miss<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Miss<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Miss.<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Miss.<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Ms<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Ms<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Ms.<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Ms.<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Mrs<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Mrs<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Mrs.<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Mrs.<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Dr<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Dr<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Dr.<b/></l><r></r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
-    <e r="LR"><p><l>Dr.<b/></l><r></r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Mr<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Mr.<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Mr.<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Miss<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Miss<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Miss.<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Miss.<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Ms<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Ms<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Ms.<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Ms.<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Mrs<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Mrs<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Mrs.<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Mrs.<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Dr<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Dr<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Dr.<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+    <e r="LR"><p><l>Dr.<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
   </section>
 </dictionary>

@@ -305,14 +305,22 @@
     </pardef>
 
  <pardef n="proper_names">
-      <e>
+      <e c="s'ha posat un prefix en la part dreta, que s'elimina en generar, perquè sinó la generació durava 6 vegades més a causa de la multiplicitat de camins del transductor">
+	<p>
+	  <l/>
+	  <r>pn000</r>
+	</p>
         <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
         <p>
           <l/>
          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>     
-      <e>
+      <e c="s'ha posat un prefix en la part dreta, que s'elimina en generar, perquè sinó la generació durava 6 vegades més a causa de la multiplicitat de camins del transductor">
+	<p>
+	  <l/>
+	  <r>pn000</r>
+	</p>
         <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
         <i><b/></i>
         <re>[ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜABCDEFGHIJKLMNOPQRSTUVWXYZ][ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]*</re>
@@ -95713,6 +95721,8 @@
     <e lm="arbusto"><i>arbusto</i><par n="abismo__n"/>     </e>
     <e lm="holocausto"><i>holocausto</i><par n="abismo__n"/>     </e>
     <e lm="graduación"><i>graduaci</i><par n="acci/ón__n"/></e>
+    <e lm="Estado español"><p><l>Estado<b/>español</l><r>estado<b/>español<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="Estado francés"><p><l>Estado<b/>francés</l><r>estado<b/>francés<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
   </section>   
 

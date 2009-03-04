@@ -1479,12 +1479,12 @@
           <r>um<s n="n"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+    <!--  <e r="LR">
         <p>
           <l>ums</l>
           <r>um<s n="n"/><s n="pl"/></r>
         </p>
-      </e>
+      </e> -->
     </pardef>
     <pardef n="mon/ey__n">
       <e c="CP: nouns which add -s or remove -y and add -ies (LR)">
@@ -8934,7 +8934,6 @@
     <e lm="tenth"><i>tenth</i><par n="second__det"/>    </e>
     <e lm="fewer"><i>fewer</i><par n="many__det"/>    </e>
     <e lm="few"><i>few</i><par n="many__det"/>    </e>
-    <e lm="most of"><i>most<b/>of</i><par n="enough__det"/>    </e>
     <e lm="the most"><i>the<b/>most</i><par n="enough__det"/>    </e>
     <e lm="a lot of"><i>a<b/>lot<b/>of</i><par n="enough__det"/>    </e>
     <e lm="so many"><i>so<b/>many</i><par n="many__det"/>    </e>
@@ -15395,7 +15394,7 @@
     <e lm="blackhead"><i>blackhead</i><par n="house__n"/>    </e>
     <e lm="backrest"><i>backrest</i><par n="house__n"/>    </e>
     <e lm="backstitch"><i>backstitch</i><par n="access__n"/>    </e>
-    <e lm="bacterium"><i>bacterium</i><par n="house__n"/>    </e>
+    <e lm="bacterium"><i>bacteri</i><par n="maxim/um__n"/>    </e>
     <e lm="badger"><i>badger</i><par n="house__n"/>    </e>
     <e lm="bag"><i>bag</i><par n="house__n"/>    </e>
     <e lm="baggage"><i>baggage</i><par n="house__n"/>    </e>
@@ -22185,6 +22184,7 @@
     <e lm="be born">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>born</l><r><g><b/>born</g></r></p></e>
     <e lm="go down">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>down</l><r><g><b/>down</g></r></p></e>
     <e lm="be worth">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>worth</l><r><g><b/>worth</g></r></p></e>
+    <e lm="be worthwhile"><i></i><par n="/be__vblex"/><p><l><b/>worthwhile</l><r><g><b/>worthwhile</g></r></p></e>
     <e lm="be left">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>left</l><r><g><b/>left</g></r></p></e>
     <e lm="be missing">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>missing</l><r><g><b/>missing</g></r></p></e>
     <e lm="be a member of" r="RL">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>a<b/>member<b/>of</l><r><g><b/>a<b/>member<b/>of</g></r></p></e>
@@ -23181,7 +23181,6 @@
     <e lm="photocopy"><i>photocop</i><par n="appl/y__vblex"/>    </e>
     <e lm="photograph"><i>photograph</i><par n="accept__vblex"/>    </e>
     <e lm="pick"><i>pick</i><par n="accept__vblex"/>    </e>
-    <e lm="pick up"><i>pick</i><par n="accept__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
 
     <e lm="pick up"><i>pick</i><par n="accept__vblex" sa="sep"/>      <par n="probj_dem__prn"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
     <e lm="note down"><i>not</i><par n="liv/e__vblex" sa="sep"/>      <par n="probj_dem__prn"/>      <p>        <l><b/>down</l><r><g><b/>down</g></r></p></e>
@@ -24583,7 +24582,6 @@
     <e lm="widely"><i>widely</i><par n="maybe__adv"/>    </e>
     <e lm="willingly"><i>willingly</i><par n="maybe__adv"/>    </e>
     <e lm="willingly or by force"><i>willingly<b/>or<b/>by<b/>force</i><par n="maybe__adv"/>    </e>
-    <e lm="with great dificulty" c="check"><i>with<b/>great<b/>difficulty</i><par n="maybe__adv"/>    </e>
     <e lm="with great difficulty"><i>with<b/>great<b/>difficulty</i><par n="maybe__adv"/>    </e>
     <e lm="with great pain"><i>with<b/>great<b/>pain</i><par n="maybe__adv"/>    </e>
     <e lm="with impunity"><i>with<b/>impunity</i><par n="maybe__adv"/>    </e>
@@ -24725,6 +24723,7 @@
     <e lm="everything"><i>everything</i><par n="everyone__prn"/>    </e>
     <e lm="many"><i>many</i><par n="both__prn"/>    </e>
     <e lm="few"><i>few</i><par n="both__prn"/>    </e>
+    <e lm="quite a lot" r="RL"><i>quite<b/>a<b/>lot</i><par n="both__prn"/>    </e>
     <e lm="hers"><i>hers</i><par n="mine__prn"/>    </e>
     <e lm="his"><i>his</i><par n="mine__prn"/>    </e>
     <e lm="how many"><i>how<b/>many</i><par n="how_many__prn"/>    </e>
@@ -24735,6 +24734,7 @@
 <!--    <e lm="most of"><i>most<b/>of</i><par n="enough__det"/>    </e>
  -->
     <e lm="most of"><p><l>most<b/>of</l><r>most<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/><j/>of<s n="pr"/></r></p></e>
+    <e lm="the majority" r="RL"><i>the<b/>majority</i><par n="both__prn"/></e>
     <e lm="no one"><i>no<b/>one</i><par n="everyone__prn"/>    </e>
     <e lm="no-one" r="LR"><p><l>no-one</l><r>no<b/>one</r></p><par n="everyone__prn"/></e>
     <e lm="nobody"><i>nobody</i><par n="everyone__prn"/>    </e>
@@ -25315,7 +25315,6 @@
     <e lm="aestheticism"><i>aestheticism</i><par n="house__n"/>     </e>
     <e lm="affixation"><i>affixation</i><par n="house__n"/>     </e>
     <e lm="affliction"><i>affliction</i><par n="house__n"/>     </e>
-    <e lm="affluent"><i>affluent</i><par n="house__n"/>     </e>
     <e lm="africanism"><i>africanism</i><par n="house__n"/>     </e>
     <e lm="agate"><i>agate</i><par n="house__n"/>     </e>
     <e lm="agglutination"><i>agglutination</i><par n="house__n"/>     </e>
@@ -25393,7 +25392,6 @@
     <e lm="ammonia"><i>ammonia</i><par n="house__n"/>     </e>
     <e lm="ammonium"><i>ammonium</i><par n="house__n"/>     </e>
     <e lm="amoeba"><i>amoeba</i><par n="larva__n"/>     </e>
-    <e lm="amortize"><i>amortiz</i><par n="liv/e__vblex"/>     </e>
     <e lm="ampelography"><i>ampelograph</i><par n="bab/y__n"/>     </e>
     <e lm="ampere"><i>ampere</i><par n="house__n"/>     </e>
     <e lm="amperometry"><i>amperometr</i><par n="bab/y__n"/>     </e>
@@ -25416,11 +25414,9 @@
     <e lm="andesine"><i>andesine</i><par n="house__n"/>     </e>
     <e lm="andesite"><i>andesite</i><par n="house__n"/>     </e>
     <e lm="andrology"><i>androlog</i><par n="bab/y__n"/>     </e>
-    <e lm="anemia"><i>anemia</i><par n="house__n"/>     </e>
     <e lm="anemograph"><i>anemograph</i><par n="house__n"/>     </e>
     <e lm="anemometer"><i>anemometer</i><par n="house__n"/>     </e>
     <e lm="anemone"><i>anemone</i><par n="house__n"/>     </e>
-    <e lm="anesthesia"><i>anesthesia</i><par n="house__n"/>     </e>
     <e lm="anesthesiology"><i>anesthesiolog</i><par n="bab/y__n"/>     </e>
     <e lm="aneurism"><i>aneurism</i><par n="house__n"/>     </e>
     <e lm="anger"><i>anger</i><par n="house__n"/>     </e>
@@ -25568,7 +25564,7 @@
     <e lm="at the front"><i>at<b/>the<b/>front</i><par n="maybe__adv"/>     </e>
     <e lm="at the maximum"><i>at<b/>the<b/>maximum</i><par n="maybe__adv"/>     </e>
     <e lm="at the most"><i>at<b/>the<b/>most</i><par n="maybe__adv"/>     </e>
-    <e lm="at the outside"><i>at<b/>the<b/>outside</i><par n="maybe__adv"/>     </e>
+    <e lm="at the outside" r="RL"><i>at<b/>the<b/>outside</i><par n="maybe__adv"/>     </e>
     <e lm="at the very most"><i>at<b/>the<b/>very<b/>most</i><par n="maybe__adv"/>     </e>
     <e lm="ataxia"><i>ataxia</i><par n="house__n"/>     </e>
     <e lm="atheism"><i>atheism</i><par n="house__n"/>     </e>
@@ -25618,7 +25614,6 @@
     <e lm="bacitracin"><i>bacitracin</i><par n="house__n"/>     </e>
     <e lm="backflow"><i>backflow</i><par n="house__n"/>     </e>
     <e lm="background"><i>background</i><par n="house__n"/>     </e>
-    <e lm="bacteria"><i>bacteria</i><par n="staff__n"/>     </e>
     <e lm="bacteriology"><i>bacteriolog</i><par n="bab/y__n"/>     </e>
     <e lm="bacteriological"><i>bacteriological</i><par n="expensive__adj"/>     </e>
     <e lm="badminton"><i>badminton</i><par n="house__n"/>     </e>
@@ -25754,8 +25749,6 @@
     <e lm="blocking"><i>blocking</i><par n="house__n"/>     </e>
     <e lm="bloodless"><i>bloodless</i><par n="expensive__adj"/>     </e>
     <e lm="bloodsucker"><i>bloodsucker</i><par n="house__n"/>     </e>
-    <e lm="blue"><i>blue</i><par n="expensive__adj"/>     </e>
-    <e lm="blue"><i>blue</i><par n="house__n"/>     </e>
     <e lm="bluff"><i>bluff</i><par n="house__n"/>     </e>
     <e lm="blunder"><i>blunder</i><par n="house__n"/>     </e>
     <e lm="boa"><i>boa</i><par n="house__n"/>     </e>
@@ -28415,7 +28408,6 @@
     <e lm="poikilothermal"><i>poikilothermal</i><par n="expensive__adj"/>     </e>
     <e lm="poker"><i>poker</i><par n="house__n"/>     </e>
     <e lm="polarimeter"><i>polarimeter</i><par n="house__n"/>     </e>
-    <e lm="polarize"><i>polariz</i><par n="liv/e__vblex"/>     </e>
     <e lm="polarizer"><i>polarizer</i><par n="house__n"/>     </e>
     <e lm="polarography"><i>polarograph</i><par n="bab/y__n"/>     </e>
     <e lm="polecat"><i>polecat</i><par n="house__n"/>     </e>
@@ -28703,7 +28695,6 @@
     <e lm="relocatable"><i>relocatable</i><par n="expensive__adj"/>     </e>
     <e lm="removable"><i>removable</i><par n="expensive__adj"/>     </e>
     <e lm="rennet"><i>rennet</i><par n="house__n"/>     </e>
-    <e lm="reorganization"><i>reorganization</i><par n="house__n"/>     </e>
     <e lm="repairable"><i>repairable</i><par n="expensive__adj"/>     </e>
     <e lm="replacement"><i>replacement</i><par n="house__n"/>     </e>
     <e lm="repopulation"><i>repopulation</i><par n="house__n"/>     </e>
@@ -29602,7 +29593,6 @@
     <e lm="windward"><i>windward</i><par n="house__n"/>     </e>
     <e lm="witchcraft"><i>witchcraft</i><par n="house__n"/>     </e>
     <e lm="with flying colors"><i>with<b/>flying<b/>colors</i><par n="maybe__adv"/>     </e>
-    <e lm="with great dificulty"><i>with<b/>great<b/>dificulty</i><par n="maybe__adv"/>     </e>
     <e lm="with hindsight"><i>with<b/>hindsight</i><par n="maybe__adv"/>     </e>
     <e lm="with one accord"><i>with<b/>one<b/>accord</i><par n="maybe__adv"/>     </e>
     <e lm="without a doubt"><i>without<b/>a<b/>doubt</i><par n="maybe__adv"/>     </e>
@@ -29632,7 +29622,7 @@
     <e lm="zapping"><i>zapping</i><par n="house__n"/>     </e>
     <e lm="zeolite"><i>zeolite</i><par n="house__n"/>     </e>
     <e lm="zero"><i>zero</i><par n="house__n"/>     </e>
-    <e lm="zero"><i>zero</i><par n="two__num"/>     </e>
+    <e lm="zero"><i>zero</i><par n="million__num"/>     </e>
     <e lm="nil"><i>nil</i><par n="east__n"/></e>
     <e lm="zirconium"><i>zirconium</i><par n="house__n"/>     </e>
     <e lm="zither"><i>zither</i><par n="house__n"/>     </e>
@@ -29844,9 +29834,11 @@
 <e lm="blast"><i>blast</i><par n="house__n"/></e>
 <e lm="blast"><i>blast</i><par n="accept__vblex" /></e>
 <e lm="sole"><i>sole</i><par n="expensive__adj"/>     </e>
+<e lm="cabin"><i>cabin</i><par n="house__n"/></e>
 
 <e lm="Spanish State"><p><l>Spanish<b/>State</l><r>spanish<b/>state<s n="n"/><s n="sg"/></r></p></e>
 <e lm="French State"><p><l>French<b/>State</l><r>french<b/>state<s n="n"/><s n="sg"/></r></p></e>
+<e lm="bow"><i>bow</i><par n="accept__vblex"/></e>
 
   </section>   
 

@@ -155,6 +155,10 @@
       <!--<cat-item tags="SN.an.*"/>-->
     </def-cat>
     
+    <def-cat n="RELNN">
+      <cat-item tags="REL.nn.*"/>
+    </def-cat>
+
     <def-cat n="NUM">
       <cat-item tags="NUM.*"/>
     </def-cat>
@@ -7393,6 +7397,8 @@ Your mother and you will come - La vostra mare i tu vindran
 
 
 
+
+
     <rule comment="REGLA: DET (per assignar gènere i nombre si hi ha GD i ND que no s'han pogut determinar, com passa en alguns pronoms: both, etc.)">
       <pattern>
 	<pattern-item n="DET"/>
@@ -7548,6 +7554,50 @@ Your mother and you will come - La vostra mare i tu vindran
 	</out>
       </action>
     </rule>
+
+
+
+  <rule comment="REGLA: RELNN (per assignar gènere i nombre si hi ha GD i ND que no s'han pogut determinar (whom).)">
+      <pattern>
+	<pattern-item n="RELNN"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
 
 
     <rule> <!-- REGLA: reset variables-->

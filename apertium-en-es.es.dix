@@ -6081,12 +6081,7 @@
       </e>
     </pardef>
     <pardef n="cuant/o__rel">
-      <e>
-        <p>
-          <l>o</l>
-          <r>o<s n="rel"/><s n="adv"/></r>
-        </p>
-      </e>
+     
       <e>
         <p>
           <l>as</l>
@@ -74019,7 +74014,6 @@
     <e lm="demasiado"><i>demasiad</i><par n="poc/o__det"/>    </e>
     <e lm="qué"><i>qué</i><par n="qué__det"/>    </e>
     <e lm="de quién" r="RL" c="MG: a tractar pel transfer, entrada provisional"><i>de<b/>quién</i><par n="qué__det"/>    </e>
-    <e lm="la mayoría de"><i>la<b/>mayoría<b/>de</i><par n="menos__det"/>    </e>
     <e lm="tal"><i>tal</i><par n="tal__det"/>    </e>
     <e lm="unos cuantos"><i>un</i><par n="un/os_cuantos__det"/>    </e>
     <e lm="el mismo">      <i/>      <par n="/el_mismo__det"/>    </e>
@@ -82880,10 +82874,13 @@
     <e lm="japonés"><i>japon</i><par n="aragon/és__n"/>    </e>
     <e lm="jarabe" a=" alseoane@gmail.com"><i>jarabe</i><par n="abismo__n"/>    </e>
     <e lm="jardín"><i>jard</i><par n="bot/ín__n"/>    </e>
+    <e lm="sillín"><i>sill</i><par n="bot/ín__n"/>    </e>
     <e lm="jardinero"><i>jardiner</i><par n="abogad/o__n"/>    </e>
     <e lm="jardinería"><i>jardinería</i><par n="abeja__n"/>    </e>
     <e lm="jarrón"><i>jarr</i><par n="aluvi/ón__n"/>    </e>
     <e lm="jarro"><i>jarro</i><par n="abismo__n"/>    </e>
+    <e lm="calabozo"><i>calabozo</i><par n="abismo__n"/>    </e>
+    <e lm="revuelo"><i>revuelo</i><par n="abismo__n"/>    </e>
     <e lm="jaula"><i>jaula</i><par n="abeja__n"/>    </e>
     <e lm="jazz"><i>jazz</i><par n="atletismo__n"/>    </e>
     <e lm="jefe"><i>jef</i><par n="asistent/e__n"/>    </e>
@@ -85706,6 +85703,7 @@
     <e lm="coherente"><i>coherente</i><par n="abundante__adj"/>    </e>
     <e lm="colateral"><i>colateral</i><par n="abdominal__adj"/>    </e>
     <e lm="colectivo"><i>colectiv</i><par n="absolut/o__adj"/>    </e>
+    <e lm="predictivo"><i>predictiv</i><par n="absolut/o__adj"/>    </e>
     <e lm="colombiano"><i>colombian</i><par n="absolut/o__adj"/>    </e>
     <e lm="colonial" a="prompsit2adn"><i>colonial</i><par n="abdominal__adj"/>    </e>
     <e lm="colonialista" a="prompsit2adn"><i>colonialista</i><par n="abundante__adj"/>    </e>
@@ -87202,7 +87200,6 @@
     <e lm="abandonar"><p><l>abandón</l><r>abandon</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="abanicar"><i>abani</i><par n="ata/car__vblex"/>    </e>
     <e lm="abanicar"><p><l>abaní</l><r>abani</r></p><par n="atá/car__vblex"/>    </e>
-    <e lm="abarcar"><i>abar</i><par n="ata/car__vblex"/>    </e>
     <e lm="abolir" a="prompsit2adn"><i>abol</i><par n="par/ir__vblex"/>    </e>
     <e lm="abolir" a="prompsit2adn"><p><l>abolí</l><r>aboli</r></p><par n="parí/r__vblex"/>    </e>
     <e lm="abonar"><i>abon</i><par n="abandon/ar__vblex"/>    </e>
@@ -88445,6 +88442,8 @@
     <e lm="escanciar"><i>escanci</i><par n="abandon/ar__vblex"/>    </e>
     <e lm="escanear"><i>escane</i><par n="abandon/ar__vblex"/>    </e>
     <e lm="escanear"><p><l>escané</l><r>escane</r></p><par n="abandón/ar__vblex"/>    </e>
+    <e lm="tintinear"><i>tintine</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="tintinear"><p><l>tintiné</l><r>tintine</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="escayolar" a="prompsit2adn"><i>escayol</i><par n="abandon/ar__vblex"/>    </e>
     <e lm="escayolar" a="prompsit2adn"><p><l>escayól</l><r>escayol</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="escenificar"><i>escenifi</i><par n="ata/car__vblex"/>    </e>
@@ -89817,6 +89816,7 @@
     <e lm="vacilar"><p><l>vacíl</l><r>vacil</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="vagar" a="prompsit2adn"><i>vag</i><par n="aleg/ar__vblex"/>    </e>
     <e lm="valer"><i>val</i><par n="equival/er__vblex"/>    </e>
+    <e lm="valer"><p><l>vál</l><r>val</r></p><par n="equivál/er__vblex"/>    </e>
     <e lm="validar"><i>valid</i><par n="abandon/ar__vblex"/>    </e>
     <e lm="valorar"><i>valor</i><par n="abandon/ar__vblex"/>    </e>
     <e lm="valorar"><p><l>valór</l><r>valor</r></p><par n="abandón/ar__vblex"/>    </e>
@@ -89836,7 +89836,6 @@
     <e lm="viajar"><p><l>viáj</l><r>viaj</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="votar"><i>vot</i><par n="abandon/ar__vblex"/>    </e>
     <e lm="vagar" a="prompsit2adn"><p><l>vág</l><r>vag</r></p><par n="alég/ar__vblex"/>    </e>
-    <e lm="valer"><p><l>vál</l><r>val</r></p><par n="equivál/er__vblex"/>    </e>
     <e lm="vencer"><p><l>vén</l><r>ven</r></p><par n="convén/cer__vblex"/>    </e>
     <e lm="vender"><p><l>vénd</l><r>vend</r></p><par n="vénd/er__vblex"/>    </e>
     <e lm="vengar"><p><l>véng</l><r>veng</r></p><par n="alég/ar__vblex"/>    </e>
@@ -89863,6 +89862,8 @@
     <e lm="osar"><p><l>ós</l><r>os</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="unir"><p><l>ún</l><r>un</r></p><par n="abát/ir__vblex"/>    </e>
     <e lm="usar"><p><l>ús</l><r>us</r></p><par n="abandón/ar__vblex"/>    </e>
+    <e lm="valer la pena"><i>val</i><par n="equival/er__vblex"/><p><l><b/>la<b/>pena</l><r><g><b/>la<b/>pena</g></r></p>    </e>
+    <e lm="valer la pena"><p><l>vál</l><r>val</r></p><par n="equivál/er__vblex"/><p><l><b/>la<b/>pena</l><r><g><b/>la<b/>pena</g></r></p> </e>
     <e lm="tener hambre"><i>t</i><par n="t/ener__vblex"/>      <p>        <l><b/>hambre</l><r><g><b/>hambre</g></r></p></e>
     <e lm="tener éxito"><i>t</i><par n="t/ener__vblex"/>      <p>        <l><b/>éxito</l><r><g><b/>éxito</g></r></p></e>
     <e lm="pedir disculpas"><i>p</i><par n="desp/edir__vblex"/>      <p>        <l><b/>disculpas</l><r><g><b/>disculpas</g></r></p></e>
@@ -90339,7 +90340,6 @@
     <e lm="moralmente"><i>moralmente</i><par n="ahora__adv"/>    </e>
     <e lm="mortalmente" a="prompsit2adn"><i>mortalmente</i><par n="ahora__adv"/>    </e>
     <e lm="mucho"><i>mucho</i><par n="ahora__adv"/>    </e>
-    <e lm="mucho"><i>mucho</i><par n="ahora__adv"/>    </e>
     <e lm="mucho mejor"><i>mucho<b/>mejor</i><par n="ahora__adv"/>    </e>
     <e lm="mucho menos"><i>mucho<b/>menos</i><par n="ahora__adv"/>    </e>
     <e lm="mucho más"><i>mucho<b/>más</i><par n="ahora__adv"/>    </e>
@@ -90682,10 +90682,15 @@
     <e lm="todo"><i>tod</i><par n="algun/o__prn"/>    </e>
     <e r="RL" lm="todo el mundo"><i>todo<b/>el<b/>mundo</i><par n="alguien__prn"/>    </e>
     <e lm="la mayoría" r="RL"><i>la<b/>mayoría</i><par n="la_mayoría__prn"/>    </e>
+    <e lm="la mayoría de" r="RL"><i>la<b/>mayoría<b/>de</i><par n="menos__det"/>    </e>
+
+    <e lm="la mayoría de"><p><l>la<b/>mayoría<b/>de</l><r>la<b/>mayoría<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/><j/>de<s n="pr"/></r></p></e>
+
     <e lm="uno"><i>un</i><par n="un/o__prn"/>    </e>
     <e lm="ése"><i>és</i><par n="es/e__prn"/>    </e>
     <e lm="éste"><i>ést</i><par n="es/e__prn"/>    </e>
     <e lm="muchos"><i>much</i><par n="much/os__prn"/>    </e>
+    <e lm="bastantes"><p><l>bastantes</l><r>bastantes<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p> </e>
     <e lm="pocos"><i>poc</i><par n="much/os__prn"/>    </e>
     <e lm="pronombres personales fuertes">      <i/>      <par n="prfuerte__prn"/>    </e>
     <e lm="pronombres personales febles">      <i/>      <par n="prpro__prn"/>    </e>
@@ -91680,7 +91685,6 @@
     <e lm="basal" a="prompsit2uoc"><i>basal</i><par n="abdominal__adj"/>     </e>
     <e lm="basalto" a="prompsit2uoc"><i>basalto</i><par n="abismo__n"/>     </e>
     <e lm="basofilia" a="prompsit2uoc"><i>basofilia</i><par n="abeja__n"/>     </e>
-    <e lm="bastante"><i>bastante</i><par n="abundante__adj"/>     </e>
     <e lm="bastante"><i>bastante</i><par n="ahora__adv"/>     </e>
     <e lm="bastante"><i>bastante</i><par n="bien__preadv"/>     </e>
     <e lm="batista" a="prompsit2uoc"><i>batista</i><par n="abeja__n"/>     </e>
@@ -92238,6 +92242,7 @@
     <e lm="cuajo" a="prompsit2uoc"><i>cuajo</i><par n="abismo__n"/>     </e>
     <e lm="cualquiera"><i>cual</i><par n="cual/quiera__prn"/>     </e>
     <e lm="cuanto"><i>cuant</i><par n="cuant/o__rel"/>     </e>
+    <e lm="cuanto" i="yes" c="cuanto mayores son sus problemas,..."><i>cuanto</i><par n="bien__preadv"/>     </e>
     <e lm="cuyo"><i>cuy</i><par n="cuy/o__rel"/></e>
     <e lm="cuantificable" a="prompsit2uoc"><i>cuantificable</i><par n="abundante__adj"/>     </e>
     <e lm="cuantificador" a="prompsit2uoc"><i>cuantificador</i><par n="abril__n"/>     </e>
@@ -92330,7 +92335,6 @@
     <e lm="defoliante" a="prompsit2uoc"><i>defoliante</i><par n="abismo__n"/>     </e>
     <e lm="defraudación" a="prompsit2uoc"><i>defraudaci</i><par n="acci/ón__n"/>     </e>
     <e lm="delantal" a="prompsit"><i>delantal</i><par n="abril__n"/>     </e>
-    <e lm="delante"><i>delante</i><par n="ahora__adv"/>     </e>
     <e lm="delator" a="prompsit"><i>delator</i><par n="señor__n"/>     </e>
     <e lm="deliberadamente" a="prompsit2adn"><i>deliberadamente</i><par n="ahora__adv"/>     </e>
     <e lm="delimitador" a="prompsit2uoc"><i>delimitador</i><par n="abril__n"/>     </e>
@@ -94288,9 +94292,6 @@
     <e lm="otorrinolaringología" a="cursestiu"><i>otorrinolaringología</i><par n="abeja__n"/>     </e>
     <e lm="otorrinolaringología"><i>otorrinolaringología</i><par n="abeja__n"/>     </e>
     <e lm="otorrinolaringología" a="prompsit2uoc"><i>otorrinolaringología</i><par n="abeja__n"/>     </e>
-    <e lm="otro"><i>otr</i><par n="otr/o__adj"/>     </e>
-    <e lm="otro"><i>otr</i><par n="ciert/o__det"/>     </e>
-    <e lm="otro"><i>otr</i><par n="algun/o__prn"/>     </e>
     <e lm="oviducto" a="prompsit2uoc"><i>oviducto</i><par n="abismo__n"/>     </e>
     <e lm="ovocito" a="prompsit2uoc"><i>ovocito</i><par n="abismo__n"/>     </e>
     <e lm="ovoide" a="prompsit2uoc"><i>ovoide</i><par n="abundante__adj"/>     </e>
@@ -95678,6 +95679,7 @@
     <e lm="invadir"><i>invad</i><par n="abat/ir__vblex"/></e>
     <e lm="invadir"><p><l>invád</l>                   <r>invad</r></p><par n="abát/ir__vblex"/></e>
     <e lm="lobo"><i>lob</i><par n="abogad/o__n"/></e>
+    <e lm="mocoso"><i>mocos</i><par n="abogad/o__n"/></e>
     <e lm="embarazado"><i>embarazad</i><par n="abstract/o__adj"/>     </e>
     <e lm="Gales" a="prompsit2adn"><i>Gales</i><par n="Afganistán__np"/>    </e>
     <e lm="medio de comunicación"><i>medio</i><par n="abismo__n"/><p><l><b/>de<b/>comunicación</l><r><g><b/>de<b/>comunicación</g></r></p>    </e>
@@ -95695,6 +95697,7 @@
     <e lm="coma"><i>coma</i><par n="abeja__n"/>     </e>
     <e lm="coma"><i>coma</i><par n="abismo__n"/>    </e>
     <e lm="estima"><i>estima</i><par n="abeja__n"/>     </e>
+    <e lm="chapa"><i>chapa</i><par n="abeja__n"/>     </e>
     <e lm="autoestima"><i>autoestima</i><par n="abeja__n"/>     </e>
     <e lm="repetitivo"><i>repetitiv</i><par n="absolut/o__adj"/>     </e>
     <e lm="apretón"><i>apret</i><par n="aluvi/ón__n"/><p><l><b/>de<b/>manos</l><r><g><b/>de<b/>manos</g></r></p>    </e>
@@ -95723,6 +95726,11 @@
     <e lm="graduación"><i>graduaci</i><par n="acci/ón__n"/></e>
     <e lm="Estado español"><p><l>Estado<b/>español</l><r>estado<b/>español<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="Estado francés"><p><l>Estado<b/>francés</l><r>estado<b/>francés<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+    <e lm="cabina"><i>cabina</i><par n="abeja__n"/>     </e>
+    <e lm="cauce"><i>cauce</i><par n="abismo__n"/>     </e>
+
+
 
   </section>   
 

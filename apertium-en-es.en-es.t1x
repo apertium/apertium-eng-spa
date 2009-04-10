@@ -12472,6 +12472,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
+
     <rule comment="REGLA: NOM GENITIU NOM NOM (Mexico's emergencies ministry)">
       <pattern>
 	<pattern-item n="nom"/>
@@ -12556,6 +12557,97 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <clip pos="1" side="tl" part="gen"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="lemq"/>  
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DET NOM GENITIU NOM NOM (The car's petrol tank)">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="genitiu"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="elimina_GDND">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="elimina_GDND">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose><!-- concordança nom4 amb det afegit-->
+	  <when>
+	    <test>
+	      <not>
+		<equal>
+		  <clip pos="5" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	    </test>
+	    <let>
+	      <var n="gen_chunk"/>
+	      <clip pos="5" side="tl" part="gen"/>
+	    </let>
+	  </when>
+	  <otherwise>	    
+	    <let>
+	      <var n="gen_chunk"/>
+	      <lit-tag v="GD"/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out> 
+	  <chunk name="det_nom_genitiu_nom_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.DET"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><clip pos="5" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <lit v="el"/>
+	      <lit-tag v="det.def.3.4"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu> 
+	      <clip pos="5" side="tl" part="lemh"/> 
+	      <clip pos="5" side="tl" part="a_nom"/>
+	      <clip pos="5" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="5" side="tl" part="gen_mf"/>
+	      <clip pos="5" side="tl" part="nbr" link-to="4"/>
+	      <clip pos="5" side="tl" part="lemq"/>  
+	    </lu> 
+	    <b/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu> 
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <clip pos="4" side="tl" part="nbr"/>
+	      <clip pos="4" side="tl" part="lemq"/> 
+	    </lu>
+	    <b/>
+	    <lu>   
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+	    <lu> 
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <clip pos="2" side="tl" part="lemq"/>  
 	    </lu> 
 	  </chunk>
 	</out>

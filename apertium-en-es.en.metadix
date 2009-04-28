@@ -16452,6 +16452,7 @@
     <e lm="diplomacy"><i>diplomac</i><par n="bab/y__n"/>    </e>
     <e lm="direction"><i>direction</i><par n="house__n"/>    </e>
     <e lm="director"><i>director</i><par n="house__n"/>    </e>
+    <e lm="inspector"><i>inspector</i><par n="house__n"/></e>
     <e lm="directory"><i>director</i><par n="bab/y__n"/>    </e>
     <e lm="dirt"><i>dirt</i><par n="house__n"/>    </e>
     <e lm="disability"><i>disabilit</i><par n="bab/y__n"/>    </e>
@@ -25636,7 +25637,6 @@
     <e lm="azimuth"><i>azimuth</i><par n="house__n"/>     </e>
     <e lm="azimuthal"><i>azimuthal</i><par n="expensive__adj"/>     </e>
     <e lm="azurite"><i>azurite</i><par n="house__n"/>     </e>
-    <e lm="bear"><i>b</i><par n="b/ear__vblex"/>     </e>
     <e lm="baboon"><i>baboon</i><par n="house__n"/>     </e>
     <e lm="bacitracin"><i>bacitracin</i><par n="house__n"/>     </e>
     <e lm="backflow"><i>backflow</i><par n="house__n"/>     </e>
@@ -29866,6 +29866,13 @@
 <e lm="Spanish State"><p><l>Spanish<b/>State</l><r>spanish<b/>state<s n="n"/><s n="sg"/></r></p></e>
 <e lm="French State"><p><l>French<b/>State</l><r>french<b/>state<s n="n"/><s n="sg"/></r></p></e>
 <e lm="bow"><i>bow</i><par n="accept__vblex"/></e>
+
+
+<e lm="enclosure">      <i>enclosure</i>      <par n="house__n"/>    </e>
+<e lm="alert">      <i>alert</i>      <par n="house__n"/>    </e>
+<e lm="alert"><i>alert</i><par n="accept__vblex" /></e>
+
+
 
   </section>   
 

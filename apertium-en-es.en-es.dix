@@ -6802,7 +6802,6 @@
     <e r="LR">  <p><l>airliner<s n="n"/></l><r>avión<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>airport<s n="n"/></l><r>aeropuerto<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>alarm<s n="n"/></l><r>alarma<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>alarm<s n="n"/></l><r>alarma<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>alarmism<s n="n"/></l><r>alarmismo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>album<s n="n"/></l><r>álbum<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>alcohol<s n="n"/></l><r>alcohol<s n="n"/><s n="m"/></r></p></e>
@@ -8373,6 +8372,8 @@
     <e r="RL" srl="direction"><p><l>direction<s n="n"/></l><r>sentido<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>director<s n="n"/></l><r>director<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>director<s n="n"/></l><r>director<s n="n"/></r></p></e>
+    <e r="LR"><p><l>inspector<s n="n"/></l>  <r>inspector<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>inspector<s n="n"/></l><r>inspector<s n="n"/></r></p></e>
     <e>  <p><l>directory<s n="n"/></l><r>directorio<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>dirt<s n="n"/></l><r>suciedad<s n="n"/><s n="f"/></r></p></e>
     <e srl="disability"><p><l>disability<s n="n"/></l><r>incapacidad<s n="n"/><s n="f"/></r></p></e>
@@ -24307,6 +24308,13 @@
 <e r="LR"><p><l>blast<s n="n"/></l>               <r>explosión<s n="n"/><s n="f"/></r></p></e>
 <e>  <p><l>spanish<b/>state<s n="n"/></l>            <r>estado<b/>español<s n="n"/><s n="m"/></r></p></e>
 <e>  <p><l>french<b/>state<s n="n"/></l>            <r>estado<b/>francés<s n="n"/><s n="m"/></r></p></e>
+
+<e>       <p><l>enclosure<s n="n"/></l>           <r>recinto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>alert<s n="vblex"/></l>           <r>alertar<s n="vblex"/></r></p></e>
+<e><p><l>alert<s n="n"/></l>               <r>alerta<s n="n"/><s n="f"/></r></p></e>
+
+
+
   </section>  
 
   <section  id="regexp" type="standard">

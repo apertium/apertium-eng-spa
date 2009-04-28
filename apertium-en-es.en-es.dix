@@ -9055,8 +9055,8 @@
     <e>  <p><l>freshness<s n="n"/></l><r>frescura<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>friar<s n="n"/></l><r>fraile<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fridge<s n="n"/></l><r>nevera<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" c="MG: per defecte en masculí?"><p><l>friend<s n="n"/></l><r>amigo<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL" c="MG: per defecte en masculí?"><p><l>friend<s n="n"/></l><r>amigo<s n="n"/></r></p></e>
+    <e r="LR"><p><l>friend<s n="n"/></l><r>amigo<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>friend<s n="n"/></l><r>amigo<s n="n"/></r></p></e>
     <e>  <p><l>friendliness<s n="n"/></l><r>amabilidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>friendship<s n="n"/></l><r>amistad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>frigate<s n="n"/></l><r>fragata<s n="n"/><s n="f"/></r></p></e>
@@ -13205,7 +13205,7 @@
     <e c="té polisèmia amb 'every', però no he posat marca de polisèmia"><p><l>each<s n="det"/><s n="ind"/></l><r>cada<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
     <e r="LR" c="frases negatives" i="yes"><p><l>either<s n="det"/><s n="ind"/></l><r>ninguno<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
     <e r="LR"><p><l>either<s n="det"/><s n="ind"/></l><r>cualquier<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
-    <e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r>ninguno<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>no<s n="det"/><s n="ind"/><s n="sp"/></l><r>ninguno<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>other<s n="det"/></l><r>demás<s n="det"/></r></p></e>
     <e r="LR"><p><l>other<s n="det"/><s n="ind"/><s n="sp"/></l><r>otro<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r></p></e>
     <e r="LR"><p><l>every<s n="det"/><s n="ind"/></l><r>cada<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
@@ -13542,6 +13542,7 @@
     <e>  <p><l>axial<s n="adj"/></l><r>axial<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>back<s n="adj"/></l><r>posterior<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>bad<s n="adj"/><s n="sint"/></l><r>mal<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>good<s n="adj"/><s n="sint"/></l><r>buen<s n="adj"/></r></p></e>
     <e>  <p><l>bad<s n="adj"/><s n="sint"/></l><r>malo<s n="adj"/></r></p></e>
     <e>  <p><l>bad<s n="adj"/><s n="sint"/><s n="comp"/></l><r>peor<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>bad<s n="adj"/><s n="sint"/><s n="sup"/></l><r>peor<s n="adj"/><s n="mf"/></r></p></e>
@@ -18704,6 +18705,8 @@
     <e>  <p><l>goodbye<s n="ij"/></l><r>adiós<s n="ij"/></r></p></e>
     <e>  <p><l>hello<s n="ij"/></l><r>hola<s n="ij"/></r></p></e>
     <e>  <p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
+    <e>  <p><l>thank<b/>you<s n="ij"/></l> <r>gracias<s n="ij"/></r></p></e>
+    <e r="LR"> <p><l>thanks<s n="ij"/></l> <r>gracias<s n="ij"/></r></p></e>
     <e r="RL"><p><l>well<s n="ij"/></l><r>bueno<s n="ij"/></r></p></e>
     <e r="RL"><p><l>fuck<s n="ij"/></l><r>coño<s n="ij"/></r></p></e>
     <e>  <p><l>see<b/>you<b/>later<s n="ij"/></l><r>hasta<b/>luego<s n="ij"/></r></p></e>

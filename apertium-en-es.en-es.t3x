@@ -53,22 +53,80 @@
       <cat-item name="nom"/>
     </def-cat>
 
-    <def-cat n="nom_nom">
-      <cat-item name="nom_nom"/>
+
+
+ <def-cat n="SN_2words3">
+      <cat-item name="num_nom"/><!-- 2 words-->
+      <cat-item name="det_nom"/><!-- 2 words. els chunks det_nom en què el det és un ordinal (first house) també poden arribar com a PDET i per tant caldrà afegir-los també un determinant -->
+      <cat-item name="nom_adj"/><!-- 2, maybe 3 -->
     </def-cat>
 
-    <def-cat n="adj_nom">
-      <cat-item name="adj_nom"/>
-    </def-cat>
 
-    <def-cat n="adj_adj_nom">
-      <cat-item name="adj_adj_nom"/>
-    </def-cat>
-
-    <def-cat n="nom_i_nom">
+    <def-cat n="SN_3words"><!--3 words -->
+      <cat-item name="nom_adj_adv"/>
+      <cat-item name="nom_nom_nom"/>
+      <cat-item name="num_nom_nom"/>
+      <cat-item name="num_num_nom"/>
+      <cat-item name="nom_pr_nom"/>
+      <cat-item name="nom_nom_nom"/>
       <cat-item name="nom_conj_nom"/>
+      <cat-item name="nom_to_inf"/>
     </def-cat>
 
+    <def-cat n="SN_4words"><!--4 words-->
+      <cat-item name="num_nom_pr_nom"/>
+      <cat-item name="nom_pr_num_nom"/>
+      <cat-item name="nom_num_yearold"/>
+      <cat-item name="non_ger_nom"/>
+    </def-cat>
+
+
+    <def-cat n="nom_i_nom"><!--3 words, 2 articles -->
+      <cat-item name="nom_conj_nom"/><!-- ok -->
+    </def-cat>
+ <def-cat n="SN_3words5"><!--3 words, maybe 4 or 5 -->
+      <cat-item name="nom_adv_adj"/><!-- 3 words, maybe 4-->
+      <cat-item name="nom_adj_adv"/><!-- 3 words, maybe 4-->
+      <cat-item name="num_nom_adj"/><!-- 3 words, maybe 4-->
+      <cat-item name="nom_adj_nom"/><!-- 3 words, maybe 4-->
+      <cat-item name="nom_adj_adj"/><!-- 3 words, maybe 4 or 5-->
+</def-cat>
+
+
+     <def-cat n="SN_4words6"><!--4 words, maybe 5 or 6-->
+      <cat-item name="adj_num_nom_adj"/><!--4 words, maybe 5-->
+      <cat-item name="nom_conj_nom_adj"/><!--4 words, maybe 5-->
+       <cat-item name="num_nom_adv_adj"/><!--4 words, maybe 5-->
+       <cat-item name="num_nom_adj_adj"/><!--4 words, maybe 5 or 6-->
+      <cat-item name="nom_'adj'"/><!--4 words, maybe 5-->
+      <cat-item name="'nom'_adj"/><!--4 words, maybe 5-->
+      <cat-item name="nom_pr_nom_adj"/><!--4 words, maybe 5-->
+     </def-cat>
+
+
+
+     <def-cat n="SN_5words">
+       <cat-item name="nom_conj_nom_pr_nom"/>
+      <cat-item name="num_nom_pr_nom_adj"/>
+      <cat-item name="nom_pr_det_nom_nom"/>
+     </def-cat>
+
+     <def-cat n="SN_5words7"><!--5 words, maybe 6 or 7-->
+       <cat-item name="nom_pr_nom_adj_nom"/><!--5 words, maybe 6 -->
+       <cat-item name="num_nom_adj_adv_adj"/><!--5 words, maybe 6 or 7 -->
+     </def-cat>
+
+     <def-cat n="SN_6words">
+       <cat-item name="nom_pr_nom_pr_det_nom"/> 
+     </def-cat>
+     <def-cat n="SN_6words7"><!--6 words, maybe 7 -->
+      <cat-item name="nom_pr_nom_pr_nom_adj"/>
+     </def-cat>
+
+
+     <def-cat n="SN_7words">
+      <cat-item name="nom_pr_nom_pr_nom_pr_nom"/>
+     </def-cat>
  
 
     <def-cat n="pottenirpronom">
@@ -91,12 +149,12 @@
       <cat-item name="pro_going_to_inf"/>
     </def-cat>   
 
-<def-cat n="pottenirenclitic"><!--MG: canviar tot això pel nou mecanisme, sense mlu en el t1x, i aquí fabricar les mlu -->
+<!--<def-cat n="pottenirenclitic">
       <cat-item name="verbcj_inf"/>
       <cat-item name="auxmod_inf_inf"/>
       <cat-item name="have_pp_inf"/>
       <cat-item name="be_inf_inf"/>
-</def-cat>
+</def-cat> -->
 
 
   <def-cat n="reflexiu">
@@ -128,6 +186,9 @@
       <cat-item name="verbcj_inf_enc"/>
     </def-cat>
 
+    <def-cat n="inf_inf_enc">
+      <cat-item name="inf_inf_enc"/>
+    </def-cat>
   <def-cat n="auxmod_have_pp_inf">
       <cat-item name="auxmod_have_pp_inf"/>
     </def-cat>
@@ -208,11 +269,6 @@
     </def-attr>
 
 
-    <def-attr n="a_preadv"><!--BCN (per generar bé els adj_nom quan hi ha comparatius/superlatius-->
-      <attr-item tags="preadv"/>	  
-    </def-attr>
-
-
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>	  
       <attr-item tags="vblex.pron"/>
@@ -225,6 +281,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np"/> 
+      <attr-item tags="n.acr"/> 
     </def-attr>
 
     <def-attr n="a_np">
@@ -364,6 +421,12 @@
 		    <lit-tag v="np"/>
 		  </equal>
 		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
 	      </and>
 	    </test>
 	    <out>
@@ -377,6 +440,10 @@
 	      </lu>
 	      <b/>
 	    </out>
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>
 	  </when>
 	</choose>	 
 	<out>
@@ -387,9 +454,10 @@
       </action>
     </rule> 
 
-    <rule comment="CHUNK: adj nom">
+
+ <rule comment="CHUNK: SN_2words3">
       <pattern>
-	<pattern-item n="adj_nom"/>
+	<pattern-item n="SN_2words3"/>
       </pattern>
       <action>
 	<call-macro n="gen_nbr_determinante">
@@ -398,10 +466,24 @@
 	<choose>
 	  <when>
 	    <test>
+	      <and>
 	      <equal>
 		<clip pos="0" part="a_SN"/>
 		<lit-tag v="PDET"/>
 	      </equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
 	    </test>
 	    <out>
 	      <lu>
@@ -414,6 +496,10 @@
 	      </lu>
 	      <b/>
 	    </out>
+	      <modify-case>
+		<clip pos="1" part="lem"/>
+		<lit v="aa"/>
+	      </modify-case>
 	  </when>
 	</choose>	 
 	<out>
@@ -425,12 +511,12 @@
 	    <clip pos="2" part="whole"/>
 	  </lu>
 	</out> 
-	<choose> <!-- BCN si s'ha afegit l'adverbi 'més' no genera l'adjectiu-->
+	<choose> <!-- si s'ha afegit l'adverbi 'més' davant adj, cal enviar una posició més -->
 	  <when>
 	    <test>
 	      <equal>
-		<clip pos="2" part="a_preadv"/>
-		<lit-tag v="preadv"/>
+		<lu-count/>
+		<lit v="3"/>
 	      </equal>
 	    </test>
 	    <out>
@@ -442,7 +528,9 @@
 	  </when>
 	</choose> 
       </action>
-    </rule> 
+    </rule>
+
+ 
 
     <rule comment="CHUNK: nom conj nom">
       <pattern>
@@ -463,8 +551,18 @@
 		    <lit-tag v="np"/>
 		  </equal>
 		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
 	      </and>
-	    </test>	    
+	    </test>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  	    
 	    <call-macro n="gen_nbr_determinante">
 	      <with-param pos="1"/>
 	    </call-macro>
@@ -479,9 +577,7 @@
 	      </lu>
 	      <b/>
 	      <lu>
-		<clip pos="1" part="lem"/>
-		<clip pos="1" part="tags"/>
-		<clip pos="1" part="chcontent"/>
+		<clip pos="1" part="whole"/>
 	      </lu>
 	      <b pos="1"/>
 	      <lu>
@@ -527,9 +623,10 @@
     </rule> 
 
 
-    <rule comment="CHUNK: adj adj nom">
+
+    <rule comment="CHUNK: SN_3words5">
       <pattern>
-	<pattern-item n="adj_adj_nom"/>
+	<pattern-item n="SN_3words5"/>
       </pattern>
       <action>	    
 	<call-macro n="gen_nbr_determinante">
@@ -538,10 +635,24 @@
 	<choose>
 	  <when>
 	    <test>
-	      <equal>
-		<clip pos="0" part="a_SN"/>
-		<lit-tag v="PDET"/>
-	      </equal>
+	      <and>
+		<equal>
+		  <clip pos="0" part="a_SN"/>
+		  <lit-tag v="PDET"/>
+		</equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
 	    </test>
 	    <out>
 	      <lu>
@@ -553,7 +664,11 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
 	  </when>
 	</choose>	 
 	<out>
@@ -568,11 +683,715 @@
 	  <lu>
 	    <clip pos="3" part="whole"/>
 	  </lu>
-	</out>   
+	</out>  
+	<choose> <!-- si s'ha afegit l'adverbi 'més' davant adj, cal enviar una posició (o dues) més -->
+	  <when>
+	    <test>
+	      <equal>
+		<lu-count/>
+		<lit v="4"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <b pos="3"/>
+	      <lu>
+		<clip pos="4" part="whole"/>
+	      </lu>
+	    </out> 
+	  </when>
+	  <when>
+	    <test>
+	      <equal>
+		<lu-count/>
+		<lit v="5"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <b pos="3"/>
+	      <lu>
+		<clip pos="4" part="whole"/>
+	      </lu>
+	      <b pos="4"/>
+	      <lu>
+		<clip pos="5" part="whole"/>
+	      </lu>
+	    </out> 
+	  </when>
+	</choose> 
       </action>
-    </rule> 
+    </rule>
+
+
+    <rule comment="CHUNK: SN_3words">
+      <pattern>
+	<pattern-item n="SN_3words"/>
+      </pattern>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="0" part="a_SN"/>
+		  <lit-tag v="PDET"/>
+		</equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="0">
+		  <lit v="el"/>
+		</get-case-from>
+		<lit-tag v="det.def"/>
+		<var n="genero"/>
+		<var n="numero"/>
+	      </lu>
+	      <b/>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
+	  </when>
+	</choose>	 
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" part="whole"/>
+	  </lu>
+	</out>  
+      </action>
+    </rule>
 
  
+
+ 
+
+  <rule comment="CHUNK: SN_4words6">
+      <pattern>
+	<pattern-item n="SN_4words6"/>
+      </pattern>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+	      <equal>
+		<clip pos="0" part="a_SN"/>
+		<lit-tag v="PDET"/>
+	      </equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="0">
+		  <lit v="el"/>
+		</get-case-from>
+		<lit-tag v="det.def"/>
+		<var n="genero"/>
+		<var n="numero"/>
+	      </lu>
+	      <b/>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
+	  </when>
+	</choose>	 
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" part="whole"/>
+	  </lu>
+	</out>  
+	<choose> <!-- si s'ha afegit l'adverbi 'més' davant adj, cal enviar una posició (o dues) més -->
+	  <when>
+	    <test>
+	      <equal>
+		<lu-count/>
+		<lit v="5"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <b pos="4"/>
+	      <lu>
+		<clip pos="5" part="whole"/>
+	      </lu>
+	    </out> 
+	  </when>
+	  <when>
+	    <test>
+	      <equal>
+		<lu-count/>
+		<lit v="6"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <b pos="4"/>
+	      <lu>
+		<clip pos="5" part="whole"/>
+	      </lu>
+	      <b pos="5"/>
+	      <lu>
+		<clip pos="6" part="whole"/>
+	      </lu>
+	    </out> 
+	  </when>
+	</choose> 
+
+
+      </action>
+    </rule>
+
+
+
+  <rule comment="CHUNK: SN de 5 paraules: es posa det si son PDET">
+      <pattern>
+	<pattern-item n="SN_5words"/>
+      </pattern>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+	      <equal>
+		<clip pos="0" part="a_SN"/>
+		<lit-tag v="PDET"/>
+	      </equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="0">
+		  <lit v="el"/>
+		</get-case-from>
+		<lit-tag v="det.def"/>
+		<var n="genero"/>
+		<var n="numero"/>
+	      </lu>
+	      <b/>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
+	  </when>
+	</choose>	 
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" part="whole"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" part="whole"/>
+	  </lu>
+	</out> 
+      </action>
+    </rule>
+
+
+
+  <rule comment="CHUNK: SN de 6 paraules: es posa det si son PDET">
+      <pattern>
+	<pattern-item n="SN_6words"/>
+      </pattern>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+	      <equal>
+		<clip pos="0" part="a_SN"/>
+		<lit-tag v="PDET"/>
+	      </equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="0">
+		  <lit v="el"/>
+		</get-case-from>
+		<lit-tag v="det.def"/>
+		<var n="genero"/>
+		<var n="numero"/>
+	      </lu>
+	      <b/>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
+	  </when>
+	</choose>	 
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" part="whole"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" part="whole"/>
+	  </lu>
+	  <b pos="5"/>
+	  <lu>
+	    <clip pos="6" part="whole"/>
+	  </lu>
+	</out> 
+      </action>
+    </rule>
+
+
+
+
+  <rule comment="CHUNK: SN de 5 paraules: es posa det si son PDET">
+      <pattern>
+	<pattern-item n="SN_5words7"/>
+      </pattern>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+	      <equal>
+		<clip pos="0" part="a_SN"/>
+		<lit-tag v="PDET"/>
+	      </equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="0">
+		  <lit v="el"/>
+		</get-case-from>
+		<lit-tag v="det.def"/>
+		<var n="genero"/>
+		<var n="numero"/>
+	      </lu>
+	      <b/>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
+	  </when>
+	</choose>	 
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" part="whole"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" part="whole"/>
+	  </lu>
+	</out> 	
+	<choose> <!-- si s'ha afegit l'adverbi 'més' davant adj, cal enviar una posició (o dues) més -->
+	  <when>
+	    <test>
+	      <equal>
+		<lu-count/>
+		<lit v="6"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <b pos="5"/>
+	      <lu>
+		<clip pos="6" part="whole"/>
+	      </lu>
+	    </out> 
+	  </when>
+	  <when>
+	    <test>
+	      <equal>
+		<lu-count/>
+		<lit v="7"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <b pos="5"/>
+	      <lu>
+		<clip pos="6" part="whole"/>
+	      </lu>
+	      <b pos="6"/>
+	      <lu>
+		<clip pos="7" part="whole"/>
+	      </lu>
+	    </out> 
+	  </when>
+	  
+	</choose>
+      </action>
+    </rule>
+
+
+
+
+  <rule comment="CHUNK: SN de 6 o 7 paraules: es posa det si son PDET, i s'envia la 7a paraula si hi ha un 'més' preadv">
+      <pattern>
+	<pattern-item n="SN_6words7"/>
+      </pattern>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+	      <equal>
+		<clip pos="0" part="a_SN"/>
+		<lit-tag v="PDET"/>
+	      </equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="0">
+		  <lit v="el"/>
+		</get-case-from>
+		<lit-tag v="det.def"/>
+		<var n="genero"/>
+		<var n="numero"/>
+	      </lu>
+	      <b/>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
+	  </when>
+	</choose>	 
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" part="whole"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" part="whole"/>
+	  </lu>
+	  <b pos="5"/>
+	  <lu>
+	    <clip pos="6" part="whole"/>
+	  </lu>
+	</out>  
+	<choose> <!-- si s'ha afegit l'adverbi 'més' davant adj, cal enviar una posició (o dues) més -->
+	  <when>
+	    <test>
+	      <equal>
+		<lu-count/>
+		<lit v="7"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <b pos="6"/>
+	      <lu>
+		<clip pos="7" part="whole"/>
+	      </lu>
+	    </out> 
+	  </when>
+	</choose>
+      </action>
+    </rule>
+
+
+
+  <rule comment="CHUNK: SN de 7 paraules: es posa det si son PDET">
+      <pattern>
+	<pattern-item n="SN_7words"/>
+      </pattern>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+	      <equal>
+		<clip pos="0" part="a_SN"/>
+		<lit-tag v="PDET"/>
+	      </equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="0">
+		  <lit v="el"/>
+		</get-case-from>
+		<lit-tag v="det.def"/>
+		<var n="genero"/>
+		<var n="numero"/>
+	      </lu>
+	      <b/>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
+	  </when>
+	</choose>	 
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" part="whole"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" part="whole"/>
+	  </lu>
+	  <b pos="5"/>
+	  <lu>
+	    <clip pos="6" part="whole"/>
+	  </lu>
+	  <b pos="6"/>
+	  <lu>
+	    <clip pos="7" part="whole"/>
+	  </lu>
+	</out> 
+      </action>
+    </rule>
+
+  <rule comment="CHUNK: SN_4words">
+      <pattern>
+	<pattern-item n="SN_4words"/>
+      </pattern>
+      <action>	    
+	<call-macro n="gen_nbr_determinante">
+	  <with-param pos="0"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+	      <equal>
+		<clip pos="0" part="a_SN"/>
+		<lit-tag v="PDET"/>
+	      </equal>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="np"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="1" part="a_nom"/>
+		    <lit-tag v="n.acr"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="0">
+		  <lit v="el"/>
+		</get-case-from>
+		<lit-tag v="det.def"/>
+		<var n="genero"/>
+		<var n="numero"/>
+	      </lu>
+	      <b/>
+	    </out>	
+	    <modify-case>
+	      <clip pos="1" part="lem"/>
+	      <lit v="aa"/>
+	    </modify-case>  
+	  </when>
+	</choose>	 
+	<out>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" part="whole"/>
+	  </lu>
+	</out>  
+      </action>
+    </rule>
 
 
     <rule comment="CHUNK: INF">
@@ -1019,6 +1838,178 @@
       </action>
 </rule>
 
+
+
+
+ <rule comment="CHUNK: INF +INF + enc">
+      <pattern>
+	<pattern-item n="inf_inf_enc"/>
+      </pattern>
+      <action>
+        <choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" part="a_verb"/>
+		<lit-tag v="vblex.pron"/>
+	      </equal>
+	    </test>
+	    <choose><!--Si no ha rebut persona i nombre, el pronom es torna reflexiu. Si ha rebut persona i nbr, s'enllaçarà automàticament pers i nbr del verb amb pers i nbr del pronom (pronom afegit en el t1x en veure que era un verb pronominal) -->
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="0" part="pers"/>
+		    <lit-tag v="PD"/>
+		  </equal>
+		</test>	
+		<let>
+		  <clip pos="3" part="lem"/>
+		  <lit v="se"/>
+		</let>  
+		<let>
+		  <clip pos="3" part="a_prn"/>
+		  <lit-tag v="prn.enc.ref"/>
+		</let>
+		<let>
+		  <clip pos="3" part="pers"/>
+		  <lit-tag v="p3"/>
+		</let> 
+		<let>
+		  <clip pos="3" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</let> 
+		<out><!--creem una mlu amb el verb i l'enclític -->
+		  
+		    <lu>
+		      <clip pos="1" part="whole"/>
+		    </lu>
+		    <b pos="1"/>
+		    <mlu>
+		      <lu>
+			<clip pos="2" part="whole"/>
+		      </lu>
+		      <lu>
+			<clip pos="3" part="whole"/>
+		      </lu>
+		      <lu>
+			<clip pos="4" part="whole"/>
+		      </lu>
+		  </mlu>
+		</out>
+	      </when>
+	      <otherwise><!--si ha rebut pers i nbr i per tant ja no és infinitiu -->
+		<choose>
+		  <when><!-- si és p3, posa lema i etiquetes de reflexiu. Si no, pers i nbr s'enllacen automàticament amb etiquetes del xunc (regla del t1x ha posat enllaços)-->
+		    <test>
+		      <equal>
+			<clip pos="0" part="pers"/>
+			<lit-tag v="p3"/>
+		      </equal>
+		    </test>	
+		    <let>
+		      <clip pos="3" part="lem"/>
+		      <lit v="se"/>
+		    </let>  
+		    <let>
+		      <clip pos="3" part="a_prn"/>
+		      <lit-tag v="prn.enc.ref"/>
+		    </let>
+		    <let>
+		      <clip pos="3" part="pers"/>
+		      <lit-tag v="p3"/>
+		    </let> 
+		    <let>
+		      <clip pos="3" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </let> 
+		  </when>
+		</choose>
+		<out>
+		  <lu>
+		    <clip pos="1" part="lemh"/>
+		    <clip pos="1" part="tags"/>
+		    <clip pos="0" part="pers"/>
+		    <clip pos="0" part="nbr"/>
+		    <clip pos="1" part="lemq"/>
+		  </lu> 
+		  <b pos="1"/>
+		  <mlu>
+		    <lu>
+		      <clip pos="2" part="whole"/>
+		    </lu> 
+		    <lu>
+		      <clip pos="3" part="whole"/>
+		    </lu> 
+		      <lu>
+			<clip pos="4" part="whole"/>
+		      </lu>
+		  </mlu>
+		  </out>
+	      </otherwise>
+	    </choose>
+	  </when>
+	  <otherwise><!--si no és un verb pronominal -->
+
+	<choose>
+	  <when>
+	    <test><!--Mirem si ha deixat de ser 'inf' i ha rebut persona i nombre. Si no és PD tampoc serà ND, en principi -->	    
+	      <and>
+		<not>
+		  <equal>
+		    <clip pos="0" part="pers"/>
+		    <lit-tag v="PD"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="0" part="temps"/>
+		    <lit-tag v="inf"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>  
+	    <out>		
+	      <lu>
+		<clip pos="1" part="lemh"/>
+		<clip pos="1" part="tags"/>
+		<clip pos="0" part="pers"/>
+		<clip pos="0" part="nbr"/>
+		<clip pos="1" part="lemq"/>
+	      </lu> 
+	      <b pos="1"/>
+	      <mlu>
+		<lu>
+		  <clip pos="2" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="3" part="whole"/>
+		</lu>
+	      </mlu>  	  
+	      
+	    </out>  
+	  </when>
+	  <otherwise><!--si és inf sense pers ni nbr -->
+	    <out><!--creem una mlu amb el verb i l'enclític -->
+	      <lu>
+		<clip pos="1" part="whole"/>
+	      </lu>
+	      <b pos="1"/>		
+	      <mlu>
+		<lu>
+		  <clip pos="2" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="3" part="whole"/>
+		</lu>
+	      </mlu>
+	    </out>
+	  </otherwise>	    
+	</choose>
+	  </otherwise>
+	</choose>
+	    
+      </action>
+</rule>
 
 <rule>
       <pattern>
@@ -2651,7 +3642,6 @@
 	      </choose>
 	    </action>
 	  </rule>
-
 
 
 

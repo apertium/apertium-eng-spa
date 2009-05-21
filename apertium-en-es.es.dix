@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*-nxml-*- -->
 <!--
 	Dictionary:
 	Sections: 1
@@ -74018,6 +74019,7 @@
     <e lm="Fortunata"><i>Fortunata</i><par n="María__np"/>    </e>
     <e lm="Franca"><i>Franca</i><par n="María__np"/>    </e>
     <e lm="Francesca"><i>Francesca</i><par n="María__np"/>    </e>
+    <e lm="Francisca"><i>Francisca</i><par n="María__np"/>    </e>
     <e lm="Francina"><i>Francina</i><par n="María__np"/>    </e>
     <e lm="Fredesvinda"><i>Fredesvinda</i><par n="María__np"/>    </e>
     <e lm="Fresia"><i>Fresia</i><par n="María__np"/>    </e>
@@ -79254,6 +79256,7 @@
     <e lm="Girona"><i>Girona</i><par n="Barcelona__np"/>    </e>
     <e lm="Google"><i>Google</i><par n="ABC__np"/></e>
     <e lm="Google Summer of Code"><i>Google<b/>Summer<b/>of<b/>Code</i><par n="ABC__np"/></e>
+    <e lm="Greenpeace"><i>Greenpeace</i><par n="ABC__np"/></e>
     <e lm="Grace" a="prompsit2adn"><i>Grace</i><par n="María__np"/>    </e>
     <e lm="Gran Bretaña" a="mginesti"><i>Gran<b/>Bretaña</i><par n="Barcelona__np"/>    </e>
     <e lm="Granada" a="mginesti"><i>Granada</i><par n="Barcelona__np"/>    </e>
@@ -79321,6 +79324,9 @@
     <e lm="Libia"><i>Libia</i><par n="Barcelona__np"/>    </e>
     <e lm="Lima" a="mginesti"><i>Lima</i><par n="Barcelona__np"/>    </e>
     <e lm="Linux"><i>Linux</i><par n="ABC__np"/>    </e>
+    <e lm="Banco Mundial"><i>Banco<b/>Mundial</i><par n="ABC__np"/>    </e>
+    <e lm="Banco Internacional de Reconstrucción y Fomento"><i>Banco<b/>Internacional<b/>de<b/>Reconstrucción<b/>y<b/>Fomento</i><par n="ABC__np"/>    </e>
+    <e lm="Athletic Club Bilbao"><i>Athletic<b/>Club<b/>Bilbao</i><par n="ABC__np"/>    </e>
     <e lm="Lisboa"><i>Lisboa</i><par n="Barcelona__np"/>    </e>
     <e lm="Lituania"><i>Lituania</i><par n="Barcelona__np"/>    </e>
     <e lm="Lleida"><i>Lleida</i><par n="Barcelona__np"/>    </e>
@@ -79551,6 +79557,10 @@
     <e lm="Duran"><i>Rodríguez</i><par n="García__np"/>    </e>
     <e lm="Gore"><i>Gore</i><par n="García__np"/>    </e>
     <e lm="Bush"><i>Bush</i><par n="García__np"/>    </e>
+    <e lm="Ferrari"><i>Ferrari</i><par n="García__np"/>    </e>
+    <e lm="Forcada"><i>Forcada</i><par n="García__np"/>    </e>
+    <e lm="Ford"><i>Ford</i><par n="García__np"/>    </e>
+    <e lm="Gates"><i>Gates</i><par n="García__np"/>    </e>
     <e lm="McCreedy"><i>McCreedy</i><par n="García__np"/>    </e>
     <e lm="Sarkozy"><i>Sarkozy</i><par n="García__np"/>    </e>
     <e lm="Barroso"><i>Barroso</i><par n="García__np"/>    </e>
@@ -90395,9 +90405,12 @@
     <e lm="vía"><i>vía</i><par n="a__pr"/></e>
     <e lm="Dow Jones"><i>Dow<b/>Jones</i><par n="ABC__np"/>   </e>
     <e lm="Gran Depresión"><i>Gran<b/>Depresión</i><par n="Telefónica__np"/>   </e>
+    <e lm="batalla de Austerlitz"><i>batalla<b/>de<b/>Austerlitz</i><par n="Telefónica__np"/>   </e>
     <e lm="Gran Guerra"><i>Gran<b/>Guerra</i><par n="Telefónica__np"/>   </e>
     <e lm="Primera Guerra Mundial"><i>Primera<b/>Guerra<b/>Mundial</i><par n="Telefónica__np"/>   </e>
     <e lm="Segunda Guerra Mundial"><i>Segunda<b/>Guerra<b/>Mundial</i><par n="Telefónica__np"/>   </e>
+    <e lm="Primera Guerra mundial"><i>Primera<b/>Guerra<b/>mundial</i><par n="Telefónica__np"/>   </e>
+    <e lm="Segunda Guerra mundial"><i>Segunda<b/>Guerra<b/>mundial</i><par n="Telefónica__np"/>   </e>
     <e lm="Agencia Europea de Defensa"><i>Agencia<b/>Europea<b/>de<b/>Defensa</i><par n="Telefónica__np"/>   </e>
     <e lm="Jacobo I"><i>Jacobo<b/>I</i><par n="Jaime__np"/>   </e>
     <e lm="Jacobo II"><i>Jacobo<b/>I</i><par n="Jaime__np"/>   </e>
@@ -90515,7 +90528,7 @@
     <e lm="brindar" a="prompsit2cdl" r="LR"><i>brind</i><par n="abandon/ar__vblex"/></e>
     <e lm="brindar" a="prompsit2cdl" r="LR"><p><l>brínd</l><r>brind</r></p><par n="abandón/ar__vblex"/></e>
     <e lm="ceder" a="prompsit2cdl"><i>ced</i><par n="vend/er__vblex"/></e>
-    <e lm="ceder" a="prompsit2cdl" ><p><l>céd</l><r>ced</r></p><par n="vénd/er__vblex"/></e>
+    <e lm="ceder" a="prompsit2cdl"><p><l>céd</l><r>ced</r></p><par n="vénd/er__vblex"/></e>
     <e lm="colaborar" a="prompsit2cdl"><i>colabor</i><par n="abandon/ar__vblex"/></e>
     <e lm="colaborar" a="prompsit2cdl"><p><l>colabór</l><r>colabor</r></p><par n="abandón/ar__vblex"/></e>
     <e lm="discriminar" a="prompsit2cdl"><i>discrimin</i><par n="abandon/ar__vblex"/></e>
@@ -90626,7 +90639,7 @@
     <e lm="Aruba" a="prompsit"><i>Aruba</i><par n="Barcelona__np"/>     </e>
     <e lm="Augsburgo" a="prompsit"><i>Augsburgo</i><par n="Afganistán__np"/>     </e>
     <e lm="Azerbaiyán" a="prompsit"><i>Azerbaiyán</i><par n="Afganistán__np"/>     </e>
-    <e lm="Azores>" a="prompsit"><i>Azores></i><par n="Bahamas__np"/>     </e>
+    <e lm="Azores" a="prompsit"><i>Azores</i><par n="Bahamas__np"/>     </e>
     <e lm="Bahamas" a="prompsit"><i>Bahamas</i><par n="Bahamas__np"/>     </e>
     <e lm="Balcanes" a="prompsit"><i>Balcanes</i><par n="Estados_Unidos__np"/>     </e>
     <e lm="Bangladesh" a="prompsit2adn"><i>Bangladesh</i><par n="Barcelona__np"/>     </e>

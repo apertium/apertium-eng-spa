@@ -95792,9 +95792,45 @@
       <i>milésim</i>
       <par n="últim/o__det"/>
     </e>
-
-
-  </section>   
+    <e lm="día de trabajo">
+      <i>día</i>
+      <par n="abismo__n"/>
+      <p>
+        <l><b/>de<b/>trabajo</l>
+        <r><g><b/>de<b/>trabajo</g></r>
+      </p>
+    </e>
+    <e lm="jornada de trabajo">
+      <i>jornada</i>
+      <par n="abeja__n"/>
+      <p>
+        <l><b/>de<b/>trabajo</l>
+        <r><g><b/>de<b/>trabajo</g></r>
+      </p>
+    </e>
+    <e lm="día de boda">
+      <i>día</i>
+      <par n="abismo__n"/>
+      <p>
+        <l><b/>de<b/>boda</l>
+        <r><g><b/>de<b/>boda</g></r>
+      </p>
+    </e>
+    <e lm="día de pago">
+      <i>día</i>
+      <par n="abismo__n"/>
+      <p>
+        <l><b/>de<b/>pago</l>
+        <r><g><b/>de<b/>pago</g></r>
+      </p>
+    </e>
+    <e lm="día laborable"><p><l>día<b/>laborable</l><r>día<b/>laborable<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="día laborable"><p><l>días<b/>laborables</l><r>día<b/>laborable<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="día laboral"><p><l>día<b/>laboral</l><r>día<b/>laboral<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="día laboral"><p><l>días<b/>laborales</l><r>día<b/>laboral<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="jornada laboral"><p><l>jornada<b/>laboral</l><r>jornada<b/>laboral<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="jornada laboral"><p><l>jornadas<b/>laborales</l><r>jornada<b/>laboral<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  </section>
 
   <section id="regexp" type="standard">   
     <e>      <par n="emails"/>    </e>

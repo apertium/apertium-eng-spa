@@ -3277,6 +3277,56 @@
         </p>
       </e>
     </pardef>
+    <pardef n="rot__vblex">
+      <e>
+        <p>
+          <l/>
+          <r><s n="vblex"/><sa/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r><s n="vblex"/><sa/><s n="pres"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="vblex"/><sa/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ted</l>
+          <r><s n="vblex"/><sa/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ten</l>
+          <r><s n="vblex"/><sa/><s n="pp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ting</l>
+          <r><s n="vblex"/><sa/><s n="ger"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ting</l>
+          <r><s n="vblex"/><sa/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ting</l>
+          <r><s n="vblex"/><sa/><s n="subs"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="fit__vblex">
       <e>
         <p>
@@ -30182,7 +30232,9 @@
     <e lm="drain"><i>drain</i><par n="accept__vblex"/>    </e>
     <e lm="seed"><i>seed</i><par n="accept__vblex"/>    </e>
     <e lm="madden"><i>madden</i><par n="accept__vblex"/>    </e>
-
+    <e lm="irrigate"><i>irrigat</i><par n="liv/e__vblex"/>    </e>
+    <e lm="rot"><i>rot</i><par n="rot__vblex"/>    </e>
+    <e lm="ruin"><i>ruin</i><par n="accept__vblex"/>    </e>
   </section>   
 
 

@@ -19218,7 +19218,7 @@
     <e a="prompsit2cdl"><p><l>dd/mm/yyyy<s n="n"/></l><r>dd/mm/aaaa<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" a="prompsit2cdl"><p><l>link<s n="n"/></l><r>link<s n="n"/><s n="m"/></r></p></e>
     <e a="prompsit2cdl"><p><l>bestseller<s n="n"/></l><r>best<b/>seller<s n="n"/><s n="m"/></r></p></e>
-    <e a="prompsit2cdl"><p><l>website<s n="n"/></l><r>website<s n="n"/><s n="m"/></r></p></e>
+    <e a="prompsit2cdl" r="RL"><p><l>website<s n="n"/></l><r>website<s n="n"/><s n="m"/></r></p></e>
     <e a="prompsit2cdl"><p><l>email<s n="n"/></l><r>email<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" a="prompsit2cdl"><p><l>bookseller<s n="n"/></l><r>librero<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" a="prompsit2cdl"><p><l>bookseller<s n="n"/></l><r>librero<s n="n"/></r></p></e>
@@ -24853,6 +24853,14 @@
 <e r="RL"><p><l>mountaineer<s n="n"/></l><r>montañero<s n="n"/></r></p></e>
 <e><p><l>monastery<s n="n"/></l><r>monasterio<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>international<b/>community<s n="n"/></l><r>comunidad<b/>internacional<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ice<b/>cream<b/>parlour<s n="n"/></l><r>heladería<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>website<s n="n"/></l><r>sitio<g><b/>web</g><s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>holiday<s n="n"/></l><r>día<b/>festivo<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>business<b/>day<s n="n"/></l><r>día<b/>laborable<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>peculiarity<s n="n"/></l><r>peculiaridad<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>fecundity<s n="n"/></l><r>fecundidad<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>encyclopaedia<s n="n"/></l><r>enciclopedia<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>culpability<s n="n"/></l><r>culpabilidad<s n="n"/><s n="f"/></r></p></e>
   </section>  
 
   <section  id="regexp" type="standard">

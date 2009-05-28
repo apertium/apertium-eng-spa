@@ -6029,7 +6029,7 @@
     <e>  <p><l>Barclay<s n="np"/></l><r>Barclay<s n="np"/></r></p></e>
     <e>  <p><l>Basauri<s n="np"/><s n="loc"/></l><r>Basauri<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>Pyrenees<s n="np"/><s n="loc"/></l><r>Pirineos<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>Pyrenees<s n="np"/><s n="loc"/><s n="pl"/></l><r>Pirineo<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>Pyrenees<s n="np"/><s n="loc"/><s n="pl"/></l><r>Pirineo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
     <e>  <p><l>Vitoria-Gasteiz<s n="np"/><s n="loc"/></l><r>Vitoria-Gasteiz<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Vitoria<s n="np"/><s n="loc"/></l><r>Vitoria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Barclay<s n="np"/><s n="cog"/><s n="sg"/></l><r>Barclay<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -6703,6 +6703,8 @@
 <!-- nouns -->
     <e r="LR" c="traducció per defecte en masculí, per ara"><p><l>American<s n="n"/></l><r>americano<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" c="traducció per defecte en masculí, per ara"><p><l>American<s n="n"/></l><r>americano<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Aragonese<s n="n"/></l><r>aragonés<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>Aragonese<s n="n"/></l><r>aragonés<s n="n"/></r></p></e>
     <e>  <p><l>April<s n="n"/></l><r>abril<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>Asian<s n="n"/></l><r>asiático<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>Asian<s n="n"/></l><r>asiático<s n="n"/></r></p></e>
@@ -8597,7 +8599,7 @@
     <e><p><l>pastoral<s n="adj"/></l><r>pastoral<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>peninsular<s n="adj"/></l><r>peninsular<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>pre-existing<s n="adj"/></l><r>preexistente<s n="adj"/><s n="mf"/></r></p></e>
-    <e><p><l>parisian<s n="adj"/></l><r>parisiense<s n="adj"/></r></p></e>
+    <e><p><l>parisian<s n="adj"/></l><r>parisiense<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>parisian<s n="n"/></l><r>parisiense<s n="n"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>parisian<s n="n"/></l><r>parisino<s n="n"/></r></p></e>
     <e r="RL"><p><l>parisian<s n="adj"/></l><r>parisino<s n="adj"/></r></p></e>
@@ -13566,7 +13568,7 @@
     <e r="RL"><p><l>overwhelming<s n="adj"/></l><r>abrumador<s n="adj"/></r></p></e>
     <e><p><l>accompanying<s n="adj"/></l><r>acompañante<s n="adj"/></r></p></e>
     <e r="RL"><p><l>companion<s n="n"/></l><r>acompañante<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>antarctic<s n="n"/></l><r>antárctico<s n="adj"/></r></p></e>
+    <e><p><l>antarctic<s n="adj"/></l><r>antárctico<s n="adj"/></r></p></e>
 
     <e>  <p><l>afghan<s n="adj"/></l><r>afgano<s n="adj"/></r></p></e>
     <e>  <p><l>african<s n="adj"/></l><r>africano<s n="adj"/></r></p></e>
@@ -19062,8 +19064,8 @@
     <e>  <p><l>European<b/>Defence<b/>Agency<s n="np"/><s n="al"/></l><r>Agencia<b/>Europea<b/>de<b/>Defensa<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e>  <p><l>St.<b/>James's<b/>Palace<s n="np"/><s n="loc"/></l><r>Palacio<b/>de<b/>St.<b/>James<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>Buckingham<b/>Palace<s n="np"/><s n="loc"/></l><r>Palacio<b/>de<b/>Buckingham<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>World<b/>War<b/>I<s n="np"/><s n="al"/></l><r>Primera<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>World<b/>War<b/>II<s n="np"/><s n="al"/></l><r>Segunda<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>World<b/>War<b/>I<s n="np"/><s n="al"/></l><r>Primera<b/>Guerra<b/>mundial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>World<b/>War<b/>II<s n="np"/><s n="al"/></l><r>Segunda<b/>Guerra<b/>mundial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e>  <p><l>breadwinner<s n="n"/></l><r>sostén<g><b/>de<b/>la<b/>familia</g><s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>Jacobite<s n="n"/></l><r>jacobita<s n="n"/><s n="mf"/></r></p></e>
     <e>  <p><l>solar<b/>cooker<s n="n"/></l><r>cocina<b/>solar<s n="n"/><s n="f"/></r></p></e>
@@ -24719,7 +24721,7 @@
 <e>  <p><l>reedit<s n="vblex"/></l><r>reeditar<s n="vblex"/></r></p></e>
 <e>  <p><l>rearm<s n="vblex"/></l><r>rearmar<s n="vblex"/></r></p></e>
 <e>  <p><l>reexamine<s n="vblex"/></l><r>reexaminar<s n="vblex"/></r></p></e>
-<e>  <p><l>rerun<s n="vblex"/></l><r>reestrenar<s n="vblex"/></r></p></e>
+<e r="LR">  <p><l>rerun<s n="vblex"/></l><r>reestrenar<s n="vblex"/></r></p></e>
 <e>  <p><l>ratify<s n="vblex"/></l><r>ratificar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>enforce<s n="vblex"/></l><r>hacer<g><b/>cumplir</g><s n="vblex"/></r></p></e>
 <e>  <p><l>perpetuate<s n="vblex"/></l><r>perpetuar<s n="vblex"/></r></p></e>
@@ -24750,7 +24752,7 @@
 <e r="RL"><p><l>steal<s n="vblex"/></l><r>hurtar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>adapt<s n="vblex"/></l><r>adecuar<s n="vblex"/></r></p></e>
 <e>  <p><l>grind<s n="vblex"/></l><r>moler<s n="vblex"/></r></p></e>
-<e>  <p><l>sieve<s n="vblex"/></l><r>cribar<s n="vblex"/></r></p></e>
+<e r="LR">  <p><l>sieve<s n="vblex"/></l><r>cribar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>remove<s n="vblex"/></l><r>quitar<s n="vblex"/></r></p></e>
 <e>  <p><l>seed<s n="vblex"/></l><r>sembrar<s n="vblex"/></r></p></e>
 <e>  <p><l>madden<s n="vblex"/></l><r>enloquecer<s n="vblex"/></r></p></e>
@@ -24771,7 +24773,7 @@
 <e r="LR">  <p><l>fuse<s n="vblex"/></l><r>fusionar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>realise<s n="vblex"/></l><r>caer<g><b/>en<b/>la<b/>cuenta</g><s n="vblex"/></r></p></e>
 <e>  <p><l>grease<s n="vblex"/></l><r>engrasar<s n="vblex"/></r></p></e>
-<e>  <p><l>grease<s n="n"/></l><r>grasa<s n="n"/><s n="f"/></r></p></e>
+<e r="LR">  <p><l>grease<s n="n"/></l><r>grasa<s n="n"/><s n="f"/></r></p></e>
 <e>  <p><l>fuse<s n="n"/></l><r>fusible<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">  <p><l>fuse<s n="n"/></l><r>mecha<s n="n"/><s n="f"/></r></p></e>
 <e r="RL">  <p><l>hesitate<s n="vblex"/></l><r>titubear<s n="vblex"/></r></p></e>
@@ -24796,8 +24798,7 @@
 <e>  <p><l>spy<s n="vblex"/></l><r>espiar<s n="vblex"/></r></p></e>
 <e>  <p><l>première<s n="vblex"/></l><r>estrenar<s n="vblex"/></r></p></e>
 <e>  <p><l>transcribe<s n="vblex"/></l><r>transcribir<s n="vblex"/></r></p></e>
-<e r="RL">  <p><l>threaten<s n="vblex"/></l><r>acechar<s n="vblex"/></r></p></e>
-<e>  <p><l>threaten<s n="vblex"/></l><r>amenazar<s n="vblex"/></r></p></e>
+<e>  <p><l>threaten<s n="vblex"/></l><r>acechar<s n="vblex"/></r></p></e>
 <e>  <p><l>congratulate<s n="vblex"/></l><r>felicitar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>explode<s n="vblex"/></l><r>hacer<g><b/>explotar</g><s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>settle<g><b/>down</g><s n="vblex"/></l><r>sentar<g><b/>la<b/>cabeza</g><s n="vblex"/></r></p></e>

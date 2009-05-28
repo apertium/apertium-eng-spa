@@ -7404,6 +7404,8 @@
     <e slr="tablero D"><p><l>board<s n="n"/></l><r>tablero<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>boat<s n="n"/></l><r>barca<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>body<s n="n"/></l><r>cuerpo<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>bodyguard<s n="n"/></l><r>guardaespaldas<s n="n"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>bodyguard<s n="n"/><s n="ND"/></l><r>guardaespaldas<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
     <e>  <p><l>bodywork<s n="n"/></l><r>carrocería<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>boiler<s n="n"/></l><r>caldera<s n="n"/><s n="f"/></r></p></e>
     <e srl="bomb D"><p><l>bomb<s n="n"/></l><r>bomba<s n="n"/><s n="f"/></r></p></e>
@@ -9713,7 +9715,9 @@
     <e>  <p><l>independentism<s n="n"/></l><r>independentismo<s n="n"/><s n="m"/></r></p></e>
     <e srl="index D"><p><l>index<s n="n"/></l><r>índice<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>indication<s n="n"/></l><r>indicación<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>indication<s n="n"/></l><r>indicio<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>indictment<s n="n"/></l><r>acusación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>indifference<s n="n"/></l><r>indiferencia<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>indignation<s n="n"/></l><r>indignación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>indisposition<s n="n"/></l><r>indisposición<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>individual<s n="n"/></l><r>individuo<s n="n"/><s n="GD"/></r></p></e>
@@ -10088,6 +10092,8 @@
     <e r="RL"><p><l>lieutenant<s n="n"/></l><r>lugarteniente<s n="n"/><s n="mf"/></r></p></e>
     <e>  <p><l>life<s n="n"/></l><r>vida<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>lifeguard<s n="n"/></l><r>socorrista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>lifestyle<s n="n"/></l><r>estilo<g><b/>de<b/>vida</g><s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>life<b/>style<s n="n"/></l><r>estilo<g><b/>de<b/>vida</g><s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="ascensor D"><p><l>lift<s n="n"/></l><r>ascensor<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="impulso"><p><l>lift<s n="n"/></l><r>impulso<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>ligament<s n="n"/></l><r>ligamento<s n="n"/><s n="m"/></r></p></e>
@@ -12155,6 +12161,7 @@
     <e>  <p><l>gunman<s n="n"/></l><r>hombre<b/>armado<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>kidnapper<s n="n"/></l><r>secuestrador<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>kidnapper<s n="n"/></l><r>secuestrador<s n="n"/></r></p></e>
+    <e><p><l>kidnapping<s n="n"/></l><r>secuestro<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>sprain<s n="n"/></l><r>esguince<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="fuente"><p><l>spring<s n="n"/></l><r>fuente<s n="n"/><s n="f"/></r></p></e>
     <e slr="muelle" srl="spring"><p><l>spring<s n="n"/></l><r>muelle<s n="n"/><s n="m"/></r></p></e>
@@ -12919,6 +12926,7 @@
     <e>  <p><l>vulture<s n="n"/></l><r>buitre<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>wage<s n="n"/></l><r>salario<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>wage<s n="n"/></l><r>sueldo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>wagon<s n="n"/></l><r>vagón<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>wail<s n="n"/></l><r>lamento<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>waist<s n="n"/></l><r>cintura<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>waistcoat<s n="n"/></l><r>chaleco<s n="n"/><s n="m"/></r></p></e>
@@ -12963,6 +12971,7 @@
     <e r="RL" srl="way D"><p><l>way<s n="n"/></l><r>camino<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>way<s n="n"/></l><r>manera<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>way<s n="n"/></l><r>modo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>way<g><b/>of<b/>life</g><s n="n"/></l><r>modo<g><b/>de<b/>vida</g><s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>waystation<s n="n"/></l><r>apeadero<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>weakness<s n="n"/></l><r>debilidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>wealth<s n="n"/></l><r>riqueza<s n="n"/><s n="f"/></r></p></e>

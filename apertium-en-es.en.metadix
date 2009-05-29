@@ -2164,6 +2164,32 @@
         </p>
       </e>
     </pardef>
+    <pardef n="cent/re__n">
+      <e c="CP: en-US/en-GB dialect variation" r="LR">
+        <p>
+          <l>er</l>
+          <r>re</r>
+        </p>
+        <par n="house__n"/>
+      </e>
+      <e>
+        <i>re</i>
+        <par n="house__n"/>
+      </e>
+    </pardef>
+    <pardef n="col/our__n">
+      <e c="CP: en-US/en-GB dialect variation" r="LR">
+        <p>
+          <l>or</l>
+          <r>our</r>
+        </p>
+        <par n="house__n"/>
+      </e>
+      <e>
+        <i>our</i>
+        <par n="house__n"/>
+      </e>
+    </pardef>
     <pardef n="Barcelona__np">
       <e>
         <p>
@@ -30300,14 +30326,46 @@
     <e lm="marquess"><i>marquess</i><par n="bass__n"/></e>
     <e lm="marchioness"><i>marchioness</i><par n="bass__n"/></e>
     <e lm="marquise"><i>marquise</i><par n="house__n"/></e>
-    <e lm="ice cream parlor" c="en-US" r="LR"><p><l>ice<b/>cream<b/>parlor</l><r>ice<b/>cream<b/>parlour</r></p><par n="house__n"/></e>
-    <e lm="ice cream parlour"><i>ice<b/>cream<b/>parlour</i><par n="house__n"/></e>
+    <e lm="ice cream parlour"><i>ice<b/>cream<b/>parl</i><par n="col/our__n"/></e>
     <e lm="peculiarity"><i>peculiarit</i><par n="bab/y__n"/></e>
     <e lm="fecundity"><i>fecundit</i><par n="bab/y__n"/></e>
     <e lm="encyclopedia" c="en-US" r="LR"><p><l>encyclopedia</l><r>encyclopaedia</r></p><par n="house__n"/></e>
     <e lm="encyclopaedia"><i>encyclopaedia</i><par n="house__n"/></e>
     <e lm="business day"><i>business<b/>day</i><par n="house__n"/></e>
     <e lm="culpability"><i>culpabilit</i><par n="bab/y__n"/></e>
+    <e lm="conversation piece"><i>conversation<b/>piece</i><par n="house__n"/></e>
+    <e lm="topic of conversation"><i>topic</i><par n="house__n"/><p><l><b/>of<b/>conversation</l><r><g><b/>of<b/>conversation</g></r></p></e>
+    <e lm="reelection"><i>reelection</i><par n="house__n"/></e>
+    <e lm="reeducation"><i>reeducation</i><par n="house__n"/></e>
+    <e lm="resurrection"><i>resurrection</i><par n="house__n"/></e>
+    <e lm="balcony"><i>balcon</i><par n="bab/y__n"/></e>
+    <e lm="elected"><i>elected</i><par n="politics__n"/></e>
+    <e lm="linguistics"><i>linguistics</i><par n="politics__n"/></e>
+    <e lm="linguistically"><i>linguistically</i><par n="maybe__adv"/></e>
+    <e lm="chaplain"><i>chaplain</i><par n="house__n"/></e>
+    <e lm="commissioner"><i>commissioner</i><par n="house__n"/></e>
+    <e lm="coffee with milk"><i>coffee</i><par n="house__n"/><p><l><b/>with<b/>milk</l><r><g><b/>with<b/>milk</g></r></p></e>
+    <e lm="bamboo"><i>bamboo</i><par n="house__n"/></e>
+    <e lm="barrack"><i>barrack</i><par n="house__n"/></e>
+    <e lm="shortage"><i>shortage</i><par n="house__n"/></e>
+    <e lm="eyelash"><i>eyelash</i><par n="access__n"/></e>
+    <e lm="vault"><i>vault</i><par n="house__n"/></e>
+    <e lm="Brazilian"><i>Brazilian</i><par n="house__n"/></e>
+    <e lm="infidelity"><i>infidelit</i><par n="bab/y__n"/></e>
+    <e lm="diffusion"><i>diffusion</i><par n="house__n"/></e>
+    <e lm="resignation"><i>resignation</i><par n="house__n"/></e>
+    <e lm="emperor"><i>emperor</i><par n="house__n"/></e>
+    <e lm="euro-deputy"><i>euro-deput</i><par n="bab/y__n"/></e>
+    <e lm="stranger"><i>stranger</i><par n="house__n"/></e>
+    <e lm="fidelity"><i>fidelit</i><par n="bab/y__n"/></e>
+    <e lm="semifinal"><i>semifinal</i><par n="house__n"/></e>
+    <e lm="fixation"><i>fixation</i><par n="house__n"/></e>
+    <e lm="prefixation"><i>fixation</i><par n="house__n"/></e>
+    <e lm="linguist"><i>linguist</i><par n="house__n"/></e>
+    <e lm="work centre"><i>work<b/>cent</i><par n="cent/re__n"/></e>
+    <e lm="job centre"><i>job<b/>cent</i><par n="cent/re__n"/></e>
+    <e lm="youth centre"><i>youth<b/>cent</i><par n="cent/re__n"/></e>
+    <e lm="pound"><i>pound</i><par n="house__n"/></e>
   </section>   
 
 

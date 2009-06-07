@@ -12005,7 +12005,7 @@
     <e r="RL" srl="breast D"><p><l>breast<s n="n"/></l><r>seno<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" srl="heart"><p><l>heart<s n="n"/></l><r>seno<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>sir<s n="n"/></l><r>señor<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>sir<s n="n"/></l><r>señor<s n="n"/></r></p></e>
+    <!--<e r="RL"><p><l>sir<s n="n"/></l><r>señor<s n="n"/></r></p></e>-->
     <e r="LR"><p><l>sister<s n="n"/></l><r>hermano<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>sister<s n="n"/></l><r>hermano<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>site<s n="n"/></l><r>sitio<s n="n"/><s n="m"/></r></p></e>
@@ -25006,6 +25006,33 @@
 <e a="greenbreen"><p><l>pest<s n="n"/></l><r>plaga<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="greenbreen"><p><l>voyage<s n="n"/></l><r>viaje<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>hydrant<s n="n"/></l><r>hidrante<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>crook<s n="n"/></l><r>sinvergüenza<s n="n"/><s n="mf"/></r></p></e>
+<e a="greenbreen"><p><l>eggnog<s n="n"/></l><r>ponche<g><b/>de<b/>huevo</g><s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>heavily<s n="adv"/></l><r>pesadamente<s n="adv"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>carpenter<s n="n"/></l><r>carpintero<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>carpenter<s n="n"/></l><r>carpintero<s n="n"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>ransom<s n="n"/></l><r>rescate<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>marsh<s n="n"/></l><r>pantano<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>punch<s n="n"/></l><r>ponche<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>anxiously<s n="adv"/></l><r>ansiosamente<s n="adv"/></r></p></e>
+<e a="greenbreen"><p><l>cannon<s n="n"/></l><r>cañón<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>landing<s n="n"/></l><r>rellano<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>firefighter<s n="n"/></l><r>bombero<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>firefighter<s n="n"/></l><r>bombero<s n="n"/></r></p></e>
+<e a="greenbreen"><p><l>ladybug<s n="n"/></l><r>mariquita<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>honeymoon<s n="n"/></l><r>luna<g><b/>de<b/>miel</g><s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>shop<b/>window<s n="n"/></l><r>escaparate<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>informally<s n="adv"/></l><r>informalmente<s n="adv"/></r></p></e>
+<e a="greenbreen"><p><l>glasses<s n="n"/><s n="pl"/></l><r>gafas<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="greenbreen"><p><l>insistence<s n="n"/></l><r>insistencia<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>squirrel<s n="n"/></l><r>ardilla<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>quilt<s n="n"/></l><r>edredón<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>storm<s n="n"/></l><r>temporal<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>rainstorm<s n="n"/></l><r>temporal<g><b/>de<b/>lluvias</g><s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>scarf<s n="n"/></l><r>bufanda<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>twig<s n="n"/></l><r>ramita<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>beast<s n="n"/></l><r>bestia<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>beetle<s n="n"/></l><r>escarabajo<s n="n"/><s n="m"/></r></p></e>
   </section>  
 
   <section  id="regexp" type="standard">

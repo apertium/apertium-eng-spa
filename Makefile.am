@@ -183,6 +183,9 @@ $(PREFIX1).mode: modes.xml
 $(PREFIX2).mode: modes.xml
 	apertium-gen-modes modes.xml
 
+$(PREFIX2b).mode: modes.xml
+	apertium-gen-modes modes.xml
+
 modes: modes.xml
 	apertium-gen-modes modes.xml
 
@@ -190,6 +193,7 @@ install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
 	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_en_modesdir)
 	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_en_modesdir)
+	$(INSTALL_DATA) $(PREFIX2b).mode $(apertium_en_modesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(apertium_en_esdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(apertium_en_esdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(apertium_en_esdir)

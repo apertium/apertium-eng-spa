@@ -30,6 +30,36 @@
       </program>
     </pipeline>
   </mode>
+  <mode name="es-en_US" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-en.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-en-es.es-en.t1x"/>
+        <file name="es-en.t1x.bin"/>
+        <file name="es-en.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-es.es-en.t2x"/>
+        <file name="es-en.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-es.es-en.t3x"/>
+        <file name="es-en.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-en_US.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="es-en.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
 
   <mode name="es-en-latin1">
@@ -181,6 +211,33 @@
       </program>
       <program name="lt-proc $1">
         <file name="es-en.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="es-en_US-generador">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-en.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-en-es.es-en.t1x"/>
+        <file name="es-en.t1x.bin"/>
+        <file name="es-en.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-es.es-en.t2x"/>
+        <file name="es-en.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-es.es-en.t3x"/>
+        <file name="es-en.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-en_US.autogen.bin"/>
       </program>
     </pipeline>
   </mode>

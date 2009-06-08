@@ -15665,6 +15665,7 @@
     <e lm="biomass"><i>biomass</i><par n="access__n"/>    </e>
     <e lm="biopsy"><i>biops</i><par n="bab/y__n"/>    </e>
     <e lm="bird"><i>bird</i><par n="house__n"/>    </e>
+    <e lm="ladybird"><i>ladybird</i><par n="house__n"/>    </e>
     <e lm="birth"><i>birth</i><par n="house__n"/>    </e>
     <e lm="childbirth"><i>childbirth</i><par n="house__n"/>    </e>
     <e lm="birthday"><i>birthday</i><par n="house__n"/>    </e>
@@ -17993,6 +17994,8 @@
     <e lm="lyricism"><i>lyricism</i><par n="house__n"/>    </e>
     <e lm="mouse"><i>m</i><par n="m/ouse__n"/>    </e>
     <e lm="man"><i>m</i><par n="m/an__n"/>    </e>
+    <e lm="fireman"><i>firem</i><par n="m/an__n"/>    </e>
+    <e lm="firewoman"><i>firewom</i><par n="m/an__n"/>    </e>
     <e lm="machination"><i>machination</i><par n="house__n"/>    </e>
     <e lm="machine"><i>machine</i><par n="house__n"/>    </e>
     <e lm="machinery"><i>machiner</i><par n="bab/y__n"/>    </e>
@@ -30388,7 +30391,6 @@
     <e lm="blueberry" a="greenbreen"><i>blueberr</i><par n="bab/y__n"/></e>
     <e lm="USB" a="greenbreen"><i>USB</i><par n="BBC__n"/></e>
     <e lm="electronics" a="greenbreen"><i>electronics</i><par n="politics__n"/></e>
-    <e lm="aluminum" a="greenbreen"><i>aluminum</i><par n="house__n"/></e>
     <e lm="americium" a="greenbreen"><i>americium</i><par n="house__n"/></e>
     <e lm="argon" a="greenbreen"><i>argon</i><par n="house__n"/></e>
     <e lm="bromine" a="greenbreen"><i>bromine</i><par n="house__n"/></e>
@@ -30411,7 +30413,12 @@
     <e lm="pointer" a="greenbreen"><i>pointer</i><par n="house__n"/></e>
     <e lm="photocopier" a="greenbreen"><i>photocopier</i><par n="house__n"/></e>
     <e lm="jar" a="greenbreen"><i>jar</i><par n="house__n"/></e>
-    <e lm="mom" a="greenbreen"><i>mom</i><par n="house__n"/></e>
+    <e lm="aluminum" a="greenbreen" r="US variant" r="LR"><p><l>aluminum</l><r>aluminium</r><par n="house__n"/></e>
+    <e lm="mom" a="greenbreen" c="US variant" r="LR"><p><l>mom</l><r>mum</r></p><par n="house__n"/></e>
+    <e lm="mailbox" a="greenbreen" c="ambiguous - maybe postbox?"><i>mailbox</i><par n="access__n"/></e>
+    <e lm="lunchroom" a="greenbreen" c="ambiguous - maybe canteen?"><i>lunchroom</i><par n="house__n"/></e>
+    <e lm="firefighter" a="greenbreen" c="ambiguous - maybe fireman?"><i>firefighter</i><par n="house__n"/></e>
+    <e lm="ladybug" a="greenbreen" c="US variant"><p><l>ladybug</l><r>ladybird</r><par n="house__n"/></e>
     <e lm="tub" a="greenbreen"><i>tub</i><par n="house__n"/></e>
     <e lm="crib" a="greenbreen"><i>crib</i><par n="house__n"/></e>
     <e lm="fog" a="greenbreen"><i>fog</i><par n="house__n"/></e>
@@ -30420,12 +30427,10 @@
     <e lm="soda" a="greenbreen"><i>soda</i><par n="house__n"/></e>
     <e lm="straw" a="greenbreen"><i>straw</i><par n="house__n"/></e>
     <e lm="vest" a="greenbreen"><i>vest</i><par n="house__n"/></e>
-    <e lm="lunchroom" a="greenbreen"><i>lunchroom</i><par n="house__n"/></e>
     <e lm="pail" a="greenbreen"><i>pail</i><par n="house__n"/></e>
     <e lm="spark" a="greenbreen"><i>spark</i><par n="house__n"/></e>
     <e lm="tray" a="greenbreen"><i>tray</i><par n="house__n"/></e>
     <e lm="coil" a="greenbreen"><i>coil</i><par n="house__n"/></e>
-    <e lm="mailbox" a="greenbreen"><i>mailbox</i><par n="access__n"/></e>
     <e lm="friction" a="greenbreen"><i>friction</i><par n="house__n"/></e>
     <e lm="cactus" a="greenbreen"><i>cact</i><par n="cact/us__n"/></e>
     <e lm="arithmetic" a="greenbreen"><i>arithmetic</i><par n="house__n"/></e>
@@ -30456,8 +30461,6 @@
     <e lm="marsh" a="greenbreen"><i>marsh</i><par n="access__n"/></e>
     <e lm="anxiously" a="greenbreen"><i>anxiously</i><par n="maybe__adv"/></e>
     <e lm="cannon" a="greenbreen"><i>cannon</i><par n="house__n"/></e>
-    <e lm="firefighter" a="greenbreen"><i>firefighter</i><par n="house__n"/></e>
-    <e lm="ladybug" a="greenbreen"><i>ladybug</i><par n="house__n"/></e>
     <e lm="honeymoon" a="greenbreen"><i>honeymoon</i><par n="house__n"/></e>
     <e lm="shop window" a="greenbreen"><i>shop<b/>window</i><par n="house__n"/></e>
     <e lm="informally" a="greenbreen"><i>informally</i><par n="maybe__adv"/></e>

@@ -8965,7 +8965,7 @@
       </e>
     </pardef>
     <pardef n="e_oe">
-      <e c="en_GB, en_ZA, en_IE, en_CA">
+      <e c="en_GB, en_ZA, en_IE, en_CA" r="LR">
 	<p>
 	  <l>oe</l>
 	  <r>oe</r>
@@ -8977,9 +8977,21 @@
 	  <r>oe</r>
 	</p>
       </e>
+      <e r="RL" alt="en_GB">
+	<p>
+	  <l>oe</l>
+	  <r>oe</r>
+	</p>
+      </e>
+      <e r="RL" alt="en_US">
+	<p>
+	  <l>e</l>
+	  <r>oe</r>
+	</p>
+      </e>
     </pardef>
     <pardef n="organi/ze__vblex">
-      <e c="en_GB, en_ZA, en_IE">
+      <e r="LR" c="en_GB, en_ZA, en_IE">
 	<p>
 	  <l>s</l>
 	  <r>s</r>
@@ -8987,6 +8999,20 @@
 	<par n="liv/e__vblex"/>
       </e>
       <e r="LR" c="en_US, en_CA">
+	<p>
+	  <l>z</l>
+	  <r>s</r>
+	</p>
+      <par n="liv/e__vblex"/>
+      </e>
+      <e r="RL" alt="en_GB">
+	<p>
+	  <l>s</l>
+	  <r>s</r>
+	</p>
+	<par n="liv/e__vblex"/>
+      </e>
+      <e r="RL" alt="en_US">
 	<p>
 	  <l>z</l>
 	  <r>s</r>
@@ -18565,9 +18591,10 @@
     <e lm="painter"><i>painter</i><par n="house__n"/>    </e>
     <e lm="painting"><i>painting</i><par n="house__n"/>    </e>
     <e lm="pair"><i>pair</i><par n="house__n"/>    </e>
-    <e lm="pajamas"><i>pajamas</i><par n="politics__n"/>    </e>
-    <e lm="pajamas"><i>pajamas</i><par n="politics__n"/>    </e>
-    <e lm="pyjamas"><i>pyjamas</i><par n="politics__n"/>    </e>
+    <e lm="pyjamas" r="LR"><i>pyjamas</i><par n="politics__n"/>    </e>
+    <e lm="pyjamas" r="LR"><p><l>pajamas</l><r>pyjamas</r></p><par n="politics__n"/>    </e>
+    <e lm="pyjamas" r="RL" alt="en_GB"><i>pyjamas</i><par n="politics__n"/>    </e>
+    <e lm="pyjamas" r="RL" alt="en_US"><p><l>pajamas</l><r>pyjamas</r></p><par n="politics__n"/>    </e>
     <e lm="palace"><i>palace</i><par n="house__n"/>    </e>
     <e lm="palaentologist"><i>palaentologist</i><par n="house__n"/>    </e>
     <e lm="palate"><i>palate</i><par n="house__n"/>    </e>
@@ -27158,7 +27185,6 @@
     <e lm="fervent"><i>fervent</i><par n="expensive__adj"/>     </e>
     <e lm="fetishism"><i>fetishism</i><par n="house__n"/>     </e>
     <e lm="fetishistic"><i>fetishistic</i><par n="expensive__adj"/>     </e>
-    <e lm="fetus"><i>fetus</i><par n="access__n"/>     </e>
     <e lm="feudal"><i>feudal</i><par n="expensive__adj"/>     </e>
     <e lm="feudalism"><i>feudalism</i><par n="house__n"/>     </e>
     <e lm="feverishly"><i>feverishly</i><par n="maybe__adv"/>     </e>

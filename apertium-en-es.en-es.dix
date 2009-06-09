@@ -10359,8 +10359,7 @@
     <e r="LR"><p><l>milligram<s n="n"/></l><r>miligramo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>milligramme<s n="n"/></l><r>miligramo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>millilitre<s n="n"/></l><r>mililitro<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>millimeter<s n="n"/></l><r>milímetro<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>millimetre<s n="n"/></l><r>milímetro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>millimetre<s n="n"/></l><r>milímetro<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>million<s n="n"/></l><r>millón<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>millionaire<s n="n"/></l><r>millonario<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>millionaire<s n="n"/></l><r>millonario<s n="n"/></r></p></e>
@@ -10783,7 +10782,6 @@
     <e r="RL"><p><l>painter<s n="n"/></l><r>pintor<s n="n"/></r></p></e>
     <e>  <p><l>painting<s n="n"/></l><r>pintura<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>pair<s n="n"/></l><r>par<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>pajamas<s n="n"/></l><r>pijama<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>pyjamas<s n="n"/></l><r>pijama<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>palace<s n="n"/></l><r>palacio<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>palaentologist<s n="n"/></l><r>paleontólogo<s n="n"/><s n="GD"/></r></p></e>
@@ -21593,11 +21591,6 @@
         <e>  <p>  <l>fetishism<s n="n"/></l><r>fetichismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>fetishistic<s n="adj"/></l><r>fetichista<s n="adj"/><s n="mf"/></r></p></e>
     
-<!-- 	forced 'RL' restriction      defaultRL    -->
-    <e r="LR"><p><l>fetus<s n="n"/></l><r>feto<s n="n"/><s n="m"/></r></p></e>
-    
-<!-- 	forced 'LR' restriction      defaultLR    -->
-    <e r="RL"><p><l>fetus<s n="n"/><s n="ND"/></l><r>feto<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
         <e>  <p>  <l>feudal<s n="adj"/></l><r>feudal<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>feudalism<s n="n"/></l><r>feudalismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>fiasco<s n="n"/></l><r>fiasco<s n="n"/><s n="m"/></r></p></e>

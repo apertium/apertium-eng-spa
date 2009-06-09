@@ -21369,10 +21369,12 @@
     <e lm="gradual"><i>gradual</i><par n="expensive__adj"/>    </e>
     <e lm="graphic"><i>graphic</i><par n="expensive__adj"/>    </e>
     <e lm="grave"><i>grave</i><par n="nice/__adj"/>    </e>
-    <e lm="gray" a="doriua"><i>gray</i><par n="sly/__adj"/>    </e>
     <e lm="great"><i>great</i><par n="long/__adj"/>    </e>
     <e lm="green"><i>green</i><par n="long/__adj"/>    </e>
-    <e lm="grey"><i>grey</i><par n="sly/__adj"/>    </e>
+    <e lm="grey" r="LR"><i>grey</i><par n="sly/__adj"/>    </e>
+    <e lm="grey" r="LR"><p><l>gray</l><r>grey</r></p><par n="sly/__adj"/>    </e>
+    <e lm="grey" r="RL" alt="en_GB"><i>grey</i><par n="sly/__adj"/>    </e>
+    <e lm="grey" r="RL" alt="en_US"><p><l>gray</l><r>grey</r></p><par n="sly/__adj"/>    </e>
     <e lm="grim"><i>grim</i><par n="dim/__adj"/>    </e>
     <e lm="gross"><i>gross</i><par n="long/__adj"/>    </e>
     <e lm="groundless"><i>groundless</i><par n="expensive__adj"/>    </e>

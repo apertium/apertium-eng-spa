@@ -40,6 +40,7 @@ $(BASENAME).$(PREFIX2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
 	apertium-gen-lextorbil lr $(BASENAME).$(PREFIX1).dix $@
 
 .deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix
+	if [ ! -d .deps ]; then mkdir .deps; fi
 	xsltproc --stringparam alt $(LANG1a) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 .deps/$(LANG1).dix: .deps/$(LANG1).metadix
@@ -47,6 +48,7 @@ $(BASENAME).$(PREFIX2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
 	xsltproc $$$$tmp1 .deps/$(LANG1).metadix > $@ && rm $$$$tmp1
 
 .deps/$(LANG1b).metadix: $(BASENAME).$(LANG1).metadix
+	if [ ! -d .deps ]; then mkdir .deps; fi
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 .deps/$(LANG1b).dix: .deps/$(LANG1b).metadix

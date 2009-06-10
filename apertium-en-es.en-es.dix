@@ -7082,7 +7082,7 @@
     <e r="LR"><p><l>architect<s n="n"/></l><r>arquitecto<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>architect<s n="n"/></l><r>arquitecto<s n="n"/></r></p></e>
     <e>  <p><l>architecture<s n="n"/></l><r>arquitectura<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>ardor<s n="n"/></l><r>ardor<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL">  <p><l>ardour<s n="n"/></l><r>ardor<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>ardour<s n="n"/></l><r>fervor<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>area<s n="n"/></l><r>área<s n="n"/><s n="f"/></r></p></e>
     <e slr="argumento D"><p><l>argument<s n="n"/></l><r>argumento<s n="n"/><s n="m"/></r></p></e>
@@ -9121,7 +9121,6 @@
     <e>  <p><l>flap<s n="n"/></l><r>solapa<s n="n"/><s n="f"/></r></p></e>
     <e srl="flat D"><p><l>flat<s n="n"/></l><r>piso<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>flautist<s n="n"/></l><r>flautista<s n="n"/><s n="mf"/></r></p></e>
-    <e r="LR"><p><l>flavor<s n="n"/></l><r>sabor<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>flavour<s n="n"/></l><r>sabor<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>flea<s n="n"/></l><r>pulga<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>fleet<s n="n"/></l><r>flota<s n="n"/><s n="f"/></r></p></e>
@@ -9606,7 +9605,6 @@
     <e>  <p><l>humidity<s n="n"/></l><r>humedad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>humiliation<s n="n"/></l><r>humillación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>humility<s n="n"/></l><r>humildad<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>humor<s n="n"/></l><r>humor<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>humorist<s n="n"/></l><r>humorista<s n="n"/><s n="mf"/></r></p></e>
     <e>  <p><l>humour<s n="n"/></l><r>humor<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>hundred<s n="n"/></l><r>centenar<s n="n"/><s n="m"/></r></p></e>
@@ -9981,7 +9979,6 @@
     <e>  <p><l>label<s n="n"/></l><r>etiqueta<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>label<s n="n"/></l><r>rótulo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>labeling<s n="n"/></l><r>marcaje<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>labor<s n="n"/></l><r>trabajo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>laboratory<s n="n"/></l><r>laboratorio<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>labour<s n="n"/></l><r>trabajo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>labyrinth<s n="n"/></l><r>laberinto<s n="n"/><s n="m"/></r></p></e>
@@ -25054,6 +25051,9 @@
 <e r="RL" a="greenbreen"><p><l>native<b/>language<s n="n"/></l><r>lengua<b/>materna<s n="n"/><s n="f"/></r></p></e>
 <e a="greenbreen"><p><l>wrench<s n="n"/></l><r>llave<b/>inglesa<s n="n"/><s n="f"/></r></p></e>
 <e a="greenbreen"><p><l>Pacific<b/>Ocean<s n="np"/><s n="loc"/></l><r>Océano<b/>Pacífico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>Costa<b/>Rica<s n="np"/><s n="loc"/></l><r>Costa<b/>Rica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>quaint<s n="adj"/></l><r>pintoresco<s n="adj"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>inexpensive<s n="adj"/></l><r>económico<s n="adj"/></r></p></e>
   </section>  
 
   <section  id="regexp" type="standard">

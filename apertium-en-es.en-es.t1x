@@ -15040,6 +15040,28 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <lit v="ti"/>
 	    </let>
 	  </when>
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="2" side="sl" part="pers"/> 
+		  <lit-tag v="p2"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/> 
+		  <lit-tag v="pl"/>
+		</equal>
+	      </and>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="lem"/>
+	      <lit v="prpers"/> <!-- vosotros -->
+	    </let>
+	    <let>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
 	</choose>
 	<out>
 	  <chunk name="pr" case="caseFirstWord">

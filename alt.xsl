@@ -21,9 +21,9 @@
  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
  xmlns:str="http://exslt.org/strings"
  extension-element-prefixes="str">
+<xsl:import href="str.replace.function.xsl"/>
 <xsl:output method="text" encoding="UTF-8"/>
 <xsl:param name="alt"/>
-<xsl:import href="str.replace.function.xsl"/>
 
 <xsl:template match="/">
   <xsl:value-of select="string('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;')"/>

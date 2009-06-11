@@ -23,6 +23,7 @@
  extension-element-prefixes="str">
 <xsl:output method="text" encoding="UTF-8"/>
 <xsl:param name="alt"/>
+<xsl:import href="str.replace.function.xsl"/>
 
 <xsl:template match="/">
   <xsl:value-of select="string('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;')"/>

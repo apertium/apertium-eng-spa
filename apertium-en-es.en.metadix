@@ -22618,9 +22618,11 @@
     <e lm="amortize"><i>amorti</i><par n="organi/ze__vblex"/>    </e>
     <e lm="amplify"><i>amplif</i><par n="appl/y__vblex"/>    </e>
     <e lm="amuse"><i>amus</i><par n="liv/e__vblex"/>    </e>
-    <e lm="anaesthetise" c="en_GB, en_IE"><i>anaesthetis</i><par n="liv/e__vblex"/>    </e>
+    <e lm="anaesthetise" alt="en_GB" r="RL"><i>anaesthetis</i><par n="liv/e__vblex"/>    </e>
+    <e lm="anaesthetise" r="LR"><i>anaesthetis</i><par n="liv/e__vblex"/>    </e>
     <e lm="anaesthetise" c="en_CA" r="LR">      <p>	    <l>anaesthetiz</l>	    <r>anaesthetis</r></p><par n="liv/e__vblex"/>    </e>
-    <e lm="anaesthetise" c="en_US" r="LR">      <p>	    <l>anesthetiz</l>	    <r>anaesthetis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="anaesthetise" alt="en_US" r="RL">      <p>	    <l>anesthetiz</l>	    <r>anaesthetis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="anaesthetise" r="LR">      <p>	    <l>anesthetiz</l>	    <r>anaesthetis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="analyse"><i>analy</i><par n="organi/ze__vblex"/>    </e>
     <e lm="anchor"><i>anchor</i><par n="accept__vblex"/>    </e>
     <e lm="annex"><i>annex</i><par n="accept__vblex"/>    </e>
@@ -22781,8 +22783,10 @@
     <e lm="cause"><i>caus</i><par n="liv/e__vblex"/>    </e>
     <e lm="celebrate"><i>celebrat</i><par n="liv/e__vblex"/>    </e>
     <e lm="censor"><i>censor</i><par n="accept__vblex"/>    </e>
-    <e lm="center"><i>center</i><par n="accept__vblex"/>    </e>
-    <e lm="centre"><i>centr</i><par n="liv/e__vblex"/>    </e>
+    <e lm="center" r="LR"><i>center</i><par n="accept__vblex"/>    </e>
+    <e lm="centre" r="LR"><i>centr</i><par n="liv/e__vblex"/>    </e>
+    <e lm="center" r="RL" alt="en_US"><i>center</i><par n="accept__vblex"/>    </e>
+    <e lm="centre" r="RL" alt="en_GB"><i>centr</i><par n="liv/e__vblex"/>    </e>
     <e lm="centralize"><i>centrali</i><par n="organi/ze__vblex"/>    </e>
     <e lm="certify"><i>certif</i><par n="appl/y__vblex"/>    </e>
     <e lm="chain"><i>chain</i><par n="accept__vblex"/>    </e>

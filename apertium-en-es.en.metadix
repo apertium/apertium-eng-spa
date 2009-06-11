@@ -8730,6 +8730,20 @@
         </p>
       </e>
     </pardef>
+    <pardef n="travel__vblex">
+      <e r="LR">
+        <i></i><par n="control__vblex"/>
+      </e>
+      <e r="LR">
+        <i></i><par n="accept__vblex"/>
+      </e>
+      <e r="RL" alt="en_GB">
+        <i></i><par n="control__vblex"/>
+      </e>
+      <e r="RL" alt="en_US">
+        <i></i><par n="accept__vblex"/>
+      </e>
+    </pardef>
     <pardef n="prsubj__prn">
       <e>
         <p>
@@ -8996,6 +9010,32 @@
 	<p>
 	  <l>e</l>
 	  <r>ae</r>
+	</p>
+      </e>
+      </e>
+    </pardef>
+    <pardef n="l_ll">
+      <e c="en_GB, en_ZA, en_IE, en_CA" r="LR">
+	<p>
+	  <l>ll</l>
+	  <r>ll</r>
+	</p>
+      </e>
+      <e r="LR" c="en_US">
+	<p>
+	  <l>l</l>
+	  <r>ll</r>
+	</p>
+      <e r="RL" alt="en_GB">
+	<p>
+	  <l>ll</l>
+	  <r>ll</r>
+	</p>
+      </e>
+      <e r="RL" alt="en_US">
+	<p>
+	  <l>ll</l>
+	  <r>l</r>
 	</p>
       </e>
       </e>
@@ -20116,7 +20156,7 @@
     <e lm="traumatology"><i>traumatolog</i><par n="bab/y__n"/>    </e>
     <e lm="traumatologist"><i>traumatologist</i><par n="house__n"/>    </e>
     <e lm="travel"><i>travel</i><par n="house__n"/>    </e>
-    <e lm="traveller" c="UE"><i>traveller</i><par n="house__n"/>    </e>
+    <e lm="traveller"><i>trave</i><par n="l_ll"/><i>er</i><par n="house__n"/>    </e>
     <e lm="treasure"><i>treasure</i><par n="house__n"/>    </e>
     <e lm="treasurer"><i>treasurer</i><par n="house__n"/>    </e>
     <e lm="treaty"><i>treat</i><par n="bab/y__n"/>    </e>
@@ -24000,7 +24040,7 @@
     <e lm="transplant"><i>transplant</i><par n="accept__vblex"/>    </e>
     <e lm="transport"><i>transport</i><par n="accept__vblex"/>    </e>
     <e lm="trap"><i>trap</i><par n="step__vblex"/>    </e>
-    <e lm="travel"><i>travel</i><par n="control__vblex"/>    </e>
+    <e lm="travel"><i>travel</i><par n="travel__vblex"/>    </e>
     <e lm="travel across"><i>travel</i><par n="control__vblex"/>      <p>        <l><b/>across</l><r><g><b/>across</g></r></p></e>
     <e lm="treasure"><i>treasur</i><par n="liv/e__vblex"/>    </e>
     <e lm="treat"><i>treat</i><par n="accept__vblex"/>    </e>

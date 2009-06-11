@@ -8975,7 +8975,7 @@
       </e>
     </pardef>
     <pardef n="e_ae">
-      <e c="en_GB, en_ZA, en_IE, en_CA">
+      <e c="en_GB, en_ZA, en_IE, en_CA" r="LR">
 	<p>
 	  <l>ae</l>
 	  <r>ae</r>
@@ -8986,6 +8986,18 @@
 	  <l>e</l>
 	  <r>ae</r>
 	</p>
+      <e r="RL" alt="en_GB">
+	<p>
+	  <l>ae</l>
+	  <r>ae</r>
+	</p>
+      </e>
+      <e r="RL" alt="en_US">
+	<p>
+	  <l>e</l>
+	  <r>ae</r>
+	</p>
+      </e>
       </e>
     </pardef>
     <pardef n="e_oe">
@@ -15463,7 +15475,7 @@
     <e lm="amplitude"><i>amplitude</i><par n="house__n"/>    </e>
     <e lm="amputation"><i>amputation</i><par n="house__n"/>    </e>
     <e lm="anachronism"><i>anachronism</i><par n="house__n"/>    </e>
-    <e lm="anaesthetist"><i>anaesthetist</i><par n="house__n"/>    </e>
+    <e lm="anaesthetist"><i>an</i><par n="e_ae"/><i>sthetist</i><par n="house__n"/>    </e>
     <e lm="analysis"><i>analys</i><par n="analys/is__n"/>    </e>
     <e lm="analyst"><i>analyst</i><par n="house__n"/>    </e>
     <e lm="anarchy"><i>anarch</i><par n="bab/y__n"/>    </e>
@@ -27023,7 +27035,7 @@
     <e lm="encode" a="prompsit2cdl"><i>encod</i><par n="liv/e__vblex"/>     </e>
     <e lm="encouragement"><i>encouragement</i><par n="house__n"/>     </e>
     <e lm="encrypt"><i>encrypt</i><par n="accept__vblex"/>     </e>
-    <e lm="encyclopedic"><i>encyclopedic</i><par n="expensive__adj"/>     </e>
+    <e lm="encyclopedic"><i>encyclop</i><par n="e_ae"/><i>dic</i><par n="expensive__adj"/>     </e>
     <e lm="endemism"><i>endemism</i><par n="house__n"/>     </e>
     <e lm="endive"><i>endive</i><par n="house__n"/>     </e>
     <e lm="endless"><i>endless</i><par n="expensive__adj"/>     </e>
@@ -30428,8 +30440,7 @@
     <e lm="ice cream parlour"><i>ice<b/>cream<b/>parl</i><par n="col/our__n"/></e>
     <e lm="peculiarity"><i>peculiarit</i><par n="bab/y__n"/></e>
     <e lm="fecundity"><i>fecundit</i><par n="bab/y__n"/></e>
-    <e lm="encyclopedia" c="en-US" r="LR"><p><l>encyclopedia</l><r>encyclopaedia</r></p><par n="house__n"/></e>
-    <e lm="encyclopaedia"><i>encyclopaedia</i><par n="house__n"/></e>
+    <e lm="encyclopaedia"><i>encyclop</i><par n="e_ae"/><i>dia</i><par n="house__n"/></e>
     <e lm="business day"><i>business<b/>day</i><par n="house__n"/></e>
     <e lm="culpability"><i>culpabilit</i><par n="bab/y__n"/></e>
     <e lm="conversation piece"><i>conversation<b/>piece</i><par n="house__n"/></e>

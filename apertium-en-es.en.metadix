@@ -9000,6 +9000,7 @@
 	  <l>e</l>
 	  <r>ae</r>
 	</p>
+      </e>
       <e r="RL" alt="en_GB">
 	<p>
 	  <l>ae</l>
@@ -9011,7 +9012,6 @@
 	  <l>e</l>
 	  <r>ae</r>
 	</p>
-      </e>
       </e>
     </pardef>
     <pardef n="l_ll">
@@ -9026,6 +9026,7 @@
 	  <l>l</l>
 	  <r>ll</r>
 	</p>
+      </e>
       <e r="RL" alt="en_GB">
 	<p>
 	  <l>ll</l>
@@ -9037,7 +9038,6 @@
 	  <l>ll</l>
 	  <r>l</r>
 	</p>
-      </e>
       </e>
     </pardef>
     <pardef n="e_oe">
@@ -30650,6 +30650,10 @@
     <e lm="clumsy" a="greenbreen"><i>clums</i><par n="happ/y__adj"/></e>
     <e lm="inconsiderate" a="greenbreen"><i>inconsiderate</i><par n="expensive__adj"/></e>
     <e lm="thoughtless" a="greenbreen"><i>thoughtless</i><par n="expensive__adj"/></e>
+    <e lm="glamorous" a="greenbreen"><i>glamorous</i><par n="expensive__adj"/></e>
+    <e lm="skinny" a="greenbreen"><i>skinn</i><par n="happ/y__adj"/></e>
+    <e lm="agreeable" a="greenbreen"><i>agreeable</i><par n="expensive__adj"/></e>
+    <e lm="obedient" a="greenbreen"><i>obedient</i><par n="expensive__adj"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

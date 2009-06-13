@@ -21164,6 +21164,37 @@
     <e lm="hurtful"><i>hurtful</i><par n="expensive__adj"/></e>
     <e lm="barbaric"><i>barbaric</i><par n="expensive__adj"/></e>
 
+    <e lm="majesty"><i>majest</i><par n="bab/y__n"/></e>
+    <e lm="Your Majesty"><i>Your<b/>Majest</i><par n="bab/y__n"/></e>
+    <e lm="Her Majesty"><i>Her<b/>Majesty</i><par n="east__n"/></e>
+    <e lm="His Majesty"><i>His<b/>Majesty</i><par n="east__n"/></e>
+    <e lm="Her Majesty the Queen"><i>Her<b/>Majesty<b/>the<b/>Queen</i><par n="east__n"/></e>
+    <e lm="His Majesty the King"><i>His<b/>Majesty<b/>the<b/>King</i><par n="east__n"/></e>
+    <e lm="Their Majesties"><i>Their<b/>Majesties</i><par n="personnel__n"/></e>
+    <e lm="Your Highness"><i>Your<b/>Highness</i><par n="access__n"/></e>
+    <e lm="Your Royal Highness"><i>Your<b/>Royal<b/>Highness</i><par n="access__n"/></e>
+    <e lm="Her Highness"><i>Her<b/>Highness</i><par n="east__n"/></e>
+    <e lm="His Highness"><i>His<b/>Highness</i><par n="east__n"/></e>
+    <e lm="Their Highnesses"><i>Their<b/>Highnesses</i><par n="personnel__n"/></e>
+    <e lm="Her Royal Highness"><i>Her<b/>Royal<b/>Highness</i><par n="east__n"/></e>
+    <e lm="His Royal Highness"><i>His<b/>Royal<b/>Highness</i><par n="east__n"/></e>
+    <e lm="Their Royal Highnesses"><i>Their<b/>Royal<b/>Highnesses</i><par n="personnel__n"/></e>
+    <!-- case adjustments -->
+    <e lm="Her Majesty" r="LR"><p><l>her<b/>majesty</l><r>Her<b/>Majesty</r></p><par n="east__n"/></e>
+    <e lm="His Majesty" r="LR"><p><l>his<b/>majesty</l><r>His<b/>Majesty</r></p><par n="east__n"/></e>
+    <e lm="Your Majesty" r="LR"><p><l>your<b/>majest</l><r>Your<b/>Majest</r></p><par n="bab/y__n"/></e>
+    <e lm="Their Majesties" r="LR"><p><l>their<b/>majesties</l><r>Their<b/>Majesties</r></p><par n="personnel__n"/></e>
+    <e lm="Her Majesty the Queen" r="LR"><p><l>her<b/>majesty<b/>the<b/>queen</l><r>Her<b/>Majesty<b/>the<b/>Queen</r></p><par n="east__n"/></e>
+    <e lm="His Majesty the King" r="LR"><p><l>his<b/>majesty<b/>the<b/>king</l><r>His<b/>Majesty<b/>the<b/>King</r></p><par n="east__n"/></e>
+    <e lm="Your Highness" r="LR"><p><l>your<b/>highness</l><r>Your<b/>Highness</r></p><par n="access__n"/></e>
+    <e lm="Her Highness" r="LR"><p><l>her<b/>highness</l><r>Her<b/>Highness</r></p><par n="east__n"/></e>
+    <e lm="His Highness" r="LR"><p><l>his<b/>highness</l><r>His<b/>Highness</r></p><par n="east__n"/></e>
+    <e lm="Their Highnesses" r="LR"><p><l>their<b/>highnesses</l><r>Their<b/>Highnesses</r></p><par n="personnel__n"/></e>
+    <e lm="Your Royal Highness" r="LR"><p><l>your<b/>royal<b/>highness</l><r>Your<b/>Royal<b/>Highness</r></p><par n="access__n"/></e>
+    <e lm="Her Royal Highness" r="LR"><p><l>her<b/>royal<b/>highness</l><r>Her<b/>Royal<b/>Highness</r></p><par n="east__n"/></e>
+    <e lm="His Royal Highness" r="LR"><p><l>his<b/>royal<b/>highness</l><r>His<b/>Royal<b/>Highness</r></p><par n="east__n"/></e>
+    <e lm="Their Royal Highnesses" r="LR"><p><l>their<b/>royal<b/>highnesses</l><r>Their<b/>Royal<b/>Highnesses</r></p><par n="personnel__n"/></e>
+
     <e lm="abdominal"><i>abdominal</i><par n="expensive__adj"/>    </e>
     <e lm="able"><i>able</i><par n="nice/__adj"/>    </e>
     <e lm="abnormal"><i>abnormal</i><par n="expensive__adj"/>    </e>

@@ -751,34 +751,34 @@
       </e>
     </pardef>
     <pardef n="fun/__adj">
-      <e c="CP: adjectives that may form the comparative and superlative forms either doubling the final consonant and adding -er and -est or directly adding -er and -est respectively">
+      <e c="CP: adjectives that may incorrectly form the comparative and superlative forms either doubling the final consonant and adding -er and -est or directly adding -er and -est respectively">
         <p>
           <l/>
-          <r><s n="adj"/><s n="sint"/></r>
+          <r><s n="adj"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>ner</l>
-          <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
+          <r><s n="adj"/><s n="comp"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>nest</l>
-          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
+          <r><s n="adj"/><s n="sup"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>er</l>
-          <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
+          <r><s n="adj"/><s n="comp"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>est</l>
-          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
+          <r><s n="adj"/><s n="sup"/></r>
         </p>
       </e>
     </pardef>

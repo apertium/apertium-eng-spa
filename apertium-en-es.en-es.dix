@@ -9572,7 +9572,7 @@
     <e>  <p><l>bombardment<s n="n"/></l><r>bombardeo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>bomber<s n="n"/></l><r>bombardero<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>bomber<s n="n"/></l><r>bombardero<s n="n"/></r></p></e>
-    <e r="LR"><p><l>bond<s n="n"/></l><r>vínculo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bond<s n="n"/></l><r>vínculo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>bone<s n="n"/></l><r>hueso<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>bonfire<s n="n"/></l><r>hoguera<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>bonnet<s n="n"/></l><r>sombrero<s n="n"/><s n="m"/></r></p></e>
@@ -12272,7 +12272,6 @@
     <e r="RL"><p><l>link<s n="n"/></l><r>atadura<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>link<s n="n"/></l><r>eslabón<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>link<s n="n"/></l><r>ligazón<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>link<s n="n"/></l><r>vínculo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>lion<s n="n"/></l><r>león<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>lion<s n="n"/></l><r>león<s n="n"/></r></p></e>
     <e>  <p><l>lip<s n="n"/></l><r>labio<s n="n"/><s n="m"/></r></p></e>
@@ -25485,8 +25484,7 @@
         <e>  <p>  <l>petrology<s n="n"/></l><r>petrología<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>petrochemical<s n="adj"/></l><r>petroquímico<s n="adj"/></r></p></e>
     <e>  <p>  <l>petrochemical<s n="n"/></l><r>producto<b/>petroquímico<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>hodman<s n="n"/></l><r>peón<s n="n"/><s n="m"/></r></p></e>
-        <e r="RL" >  <p>  <l>hodman<s n="n"/></l><r>peón<s n="n"/><s n="f"/></r></p></e>
+        <e r="LR">  <p>  <l>hodman<s n="n"/></l><r>peón<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>picnic<s n="n"/></l><r>picnic<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>picofarad<s n="n"/></l><r>picofarad<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pillory<s n="n"/></l><r>picota<s n="n"/><s n="f"/></r></p></e>
@@ -27475,6 +27473,33 @@
 <e r="LR" a="greenbreen"><p><l>interloper<s n="n"/></l><r>intruso<s n="n"/><s n="GD"/></r></p></e>
 <e a="greenbreen"><p><l>interminable<s n="adj"/></l><r>interminable<s n="adj"/><s n="mf"/></r></p></e>
 <e a="greenbreen"><p><l>admirably<s n="adv"/></l><r>admirablemente<s n="adv"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>intern<s n="n"/></l><r>interno<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>intern<s n="n"/></l><r>interno<s n="n"/></r></p></e>
+<e a="greenbreen"><p><l>intrinsically<s n="adv"/></l><r>intrínsecamente<s n="adv"/></r></p></e>
+<e a="greenbreen"><p><l>introspective<s n="adj"/></l><r>introspectivo<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>irrepressible<s n="adj"/></l><r>incontenible<s n="adj"/><s n="mf"/></r></p></e>
+<e a="greenbreen"><p><l>disrespectful<s n="adj"/></l><r>irrespetuoso<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>disrespectfully<s n="adv"/></l><r>irrespetuosamente<s n="adv"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>disrespect<s n="n"/></l><r>falta<g><b/>de<b/>respeto</g><s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>lack<g><b/>of<b/>respect</g><s n="n"/></l><r>falta<g><b/>de<b/>respeto</g><s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>irreverent<s n="adj"/></l><r>irreverente<s n="adj"/><s n="mf"/></r></p></e>
+<e a="greenbreen"><p><l>irresponsibly<s n="adv"/></l><r>irresponsablemente<s n="adv"/></r></p></e>
+<e a="greenbreen"><p><l>jalapeño<s n="n"/></l><r>jalapeño<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>jaunty<s n="adj"/><s n="sint"/></l><r>desenfadado<s n="adj"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>confident<s n="adj"/></l><r>desenfadado<s n="adj"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>jauntily<s n="adv"/></l><r>con<b/>desenfado<s n="adv"/></r></p></e>
+<e a="greenbreen"><p><l>with<b/>confidence<s n="adv"/></l><r>con<b/>desenfado<s n="adv"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>confidence<s n="n"/></l><r>desenfado<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>jest<s n="n"/></l><r>broma<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>kickoff<s n="n"/></l><r>saque<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>skill<s n="n"/></l><r>maña<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>knack<s n="n"/></l><r>maña<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>labourer<s n="n"/></l><r>peón<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>labourer<s n="n"/></l><r>peón<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>lastly<s n="adv"/></l><r>finalmente<s n="adv"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>lawless<s n="adj"/></l><r>anárquico<s n="adj"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>liaison<s n="n"/></l><r>enlace<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>link<s n="n"/></l><r>enlace<s n="n"/><s n="m"/></r></p></e>
   </section>  
 
   <section  id="regexp" type="standard">

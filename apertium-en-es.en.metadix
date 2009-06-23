@@ -20824,7 +20824,7 @@
     <e lm="poster"><i>poster</i><par n="house__n"/>    </e>
     <e lm="posterity"><i>posterit</i><par n="bab/y__n"/>    </e>
     <e lm="postgraduate"><i>postgraduate</i><par n="house__n"/>    </e>
-    <e lm="postman"><i>postm</i><par n="m/an__n"/>    </e>
+    <e r="LR" lm="postman"><i>postm</i><par n="m/an__n"/>    </e>
     <e lm="postproduction"><i>postproduction</i><par n="house__n"/>    </e>
     <e lm="postulate"><i>postulate</i><par n="house__n"/>    </e>
     <e lm="posture"><i>posture</i><par n="house__n"/>    </e>
@@ -32802,11 +32802,17 @@
     <e lm="knack" a="greenbreen"><i>knack</i><par n="house__n"/></e>
     <e lm="labourer" r="LR" a="greenbreen"><i>labourer</i><par n="house__n"/></e>
     <e lm="labourer" r="LR" a="greenbreen"><p><l>laborer</l><r>labourer</r></p><par n="house__n"/></e>
-    <e lm="labourer" r="RL" alt="en_GB" a="greenbreen"><i>labourer</i><par n="house__n"/>    </e>
-    <e lm="labourer" r="RL" alt="en_US" a="greenbreen"><p><l>laborer</l><r>labourer</r></p><par n="house__n"/>    </e>
+    <e lm="labourer" r="RL" alt="en_GB" a="greenbreen"><i>labourer</i><par n="house__n"/></e>
+    <e lm="labourer" r="RL" alt="en_US" a="greenbreen"><p><l>laborer</l><r>labourer</r></p><par n="house__n"/></e>
     <e lm="lastly" a="greenbreen"><i>lastly</i><par n="maybe__adv"/></e>
     <e lm="lawless" a="greenbreen"><i>lawless</i><par n="expensive__adj"/></e>
     <e lm="liaison" a="greenbreen"><i>liaison</i><par n="house__n"/></e>
+    <e lm="linkage" a="greenbreen"><i>linkage</i><par n="house__n"/></e>
+    <e lm="liqueur" a="greenbreen"><i>liqueur</i><par n="house__n"/></e>
+    <e lm="postman" r="LR" a="greenbreen"><p><l>mailm</l><r>postm</r></p><par n="m/an__n"/></e>
+    <e lm="postman" r="RL" alt="en_GB" a="greenbreen"><i>postm</i><par n="m/an__n"/>    </e>
+    <e lm="postman" r="RL" alt="en_US" a="greenbreen"><p><l>mailm</l><r>postm</r></p><par n="m/an__n"/></e>
+    <e lm="make-up" r="LR" a="greenbreen"><p><l>makeup</l><r>make-up</r></p><par n="house__n"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

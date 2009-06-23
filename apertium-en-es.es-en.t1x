@@ -61,9 +61,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </def-cat>
 
     <def-cat n="majestad">
-      <cat-item lemma="Su Majestad" tags="n.f.sg"/>
-      <cat-item lemma="Su Alteza" tags="n.f.sg"/>
-      <cat-item lemma="Su Alteza Real" tags="n.f.sg"/>
+      <cat-item lemma="su majestad" tags="n.f.sg"/>
+      <cat-item lemma="su alteza" tags="n.f.sg"/>
+      <cat-item lemma="su alteza real" tags="n.f.sg"/>
     </def-cat>
 
     <def-cat n="num">
@@ -1327,6 +1327,26 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  </let>
 	</when>
       </choose>
+      <choose>	    
+	<when>
+	  <test>
+	    <equal caseless="yes">
+	      <clip pos="2" side="sl" part="lem"/> 
+	      <lit v="poder"/>
+	    </equal>
+	  </test>
+	  <let>		     
+	    <clip pos="2" side="tl" part="lem"/>
+	    <get-case-from pos="2">
+	      <lit v="be able to"/>
+	    </get-case-from>
+	  </let>
+	  <let>		     
+	    <clip pos="2" side="tl" part="a_verb"/>
+	    <lit-tag v="vbmod"/>
+	  </let>
+	</when>
+      </choose>
       <choose>
 	<when>
 	  <test>
@@ -1345,26 +1365,6 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <var n="tempsv"/>
 	    <lit v="ger"/>
 	  </let>
-	  <choose>	    
-	    <when>
-	      <test>
-		<equal caseless="yes">
-		  <clip pos="2" side="sl" part="lem"/> 
-		  <lit v="poder"/>
-		</equal>
-	      </test>
-	      <let>		     
-		<clip pos="2" side="tl" part="lem"/>
-		<get-case-from pos="2">
-		  <lit v="be able to"/>
-		</get-case-from>
-	      </let>
-	      <let>		     
-		<clip pos="2" side="tl" part="a_verb"/>
-		<lit-tag v="vbmod"/>
-	      </let>
-	    </when>
-	  </choose>
 	</when>
 	<otherwise>
 	  <let>
@@ -2659,36 +2659,36 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <when>
     	        <test>
                   <equal>
-                    <clip pos="2" side="sl" part="lem"/>
+                    <clip pos="1" side="sl" part="lem"/>
                     <lit v="Su Majestad"/>
                   </equal>
                 </test>
                 <let>
-                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="lem"/>
                   <lit v="Her Majesty"/>
                 </let>
               </when>
 	      <when>
     	        <test>
                   <equal>
-                    <clip pos="2" side="sl" part="lem"/>
+                    <clip pos="1" side="sl" part="lem"/>
                     <lit v="Su Alteza"/>
                   </equal>
                 </test>
                 <let>
-                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="lem"/>
                   <lit v="Her Highness"/>
                 </let>
               </when>
 	      <when>
     	        <test>
                   <equal>
-                    <clip pos="2" side="sl" part="lem"/>
+                    <clip pos="1" side="sl" part="lem"/>
                     <lit v="Su Alteza Real"/>
                   </equal>
                 </test>
                 <let>
-                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="lem"/>
                   <lit v="Her Royal Highness"/>
                 </let>
               </when>
@@ -8027,7 +8027,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="PER + INF (per no oblidar - not to forget">
+    <rule comment="PER + NO + INF (per no oblidar - not to forget">
       <pattern>
 	<pattern-item n="para"/> 
 	<pattern-item n="no"/> 

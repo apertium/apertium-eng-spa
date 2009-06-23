@@ -15040,7 +15040,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <lit v="ti"/>
 	    </let>
 	  </when>
-	  <when>
+	 <when>
 	    <test>
 	      <and>
 		<equal>
@@ -15061,7 +15061,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <clip pos="2" side="tl" part="gen"/>
 	      <lit-tag v="m"/>
 	    </let>
-	  </when>
+	  </when> 
 	</choose>
 	<out>
 	  <chunk name="pr" case="caseFirstWord">

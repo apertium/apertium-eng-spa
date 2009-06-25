@@ -18013,6 +18013,16 @@
     <e lm="cheque" r="LR"><i>cheque</i><par n="house__n"/>    </e>
     <e lm="cheque" r="RL" alt="en-GB"><i>cheque</i><par n="house__n"/>    </e>
     <e lm="cheque" r="RL" alt="en-US"><p><r>check</r><l>cheque</l></p><par n="house__n"/>    </e>
+    <e lm="blank cheque" r="LR"><i>blank<b/>cheque</i><par n="house__n"/>    </e>
+    <e lm="blank cheque" r="LR" c="'blank check' should be relatively unambiguous, but 'check' alone is not"><p><r>blank<b/>check</r><l>blank<b/>cheque</l></p><par n="house__n"/>    </e>
+    <e lm="blank cheque" r="RL" alt="en-GB"><i>blank<b/>cheque</i><par n="house__n"/>    </e>
+    <e lm="blank cheque" r="RL" alt="en-US"><p><r>blank<b/>check</r><l>blank<b/>cheque</l></p><par n="house__n"/>    </e>
+    <e lm="chequebook" r="LR"><i>chequebook</i><par n="house__n"/>    </e>
+    <e lm="chequebook" r="LR"><p><r>cheque<b/>book</r><l>chequebook</l></p><par n="house__n"/>    </e>
+    <e lm="chequebook" r="LR"><p><r>checkbook</r><l>chequebook</l></p><par n="house__n"/>    </e>
+    <e lm="chequebook" r="LR"><p><r>check<b/>book</r><l>chequebook</l></p><par n="house__n"/>    </e>
+    <e lm="chequebook" r="RL" alt="en-GB"><i>chequebook</i><par n="house__n"/>    </e>
+    <e lm="chequebook" r="RL" alt="en-US"><p><r>checkbook</r><l>chequebook</l></p><par n="house__n"/>    </e>
     <e lm="cherry"><i>cherr</i><par n="bab/y__n"/>    </e>
     <e lm="chest"><i>chest</i><par n="house__n"/>    </e>
     <e lm="chestnuttree" r="LR"><p><l>chestnuttree</l><r>chestnut<b/>tree</r></p><par n="house__n"/>    </e>
@@ -18023,7 +18033,7 @@
     <e lm="chief" a="carmentano"><i>chief</i><par n="house__n"/>    </e>
     <e lm="child"><i>child</i><par n="child__n"/>    </e>
     <e lm="childhood" a="carmentano"><i>childhood</i><par n="house__n"/>    </e>
-    <e lm="chimaera"><i>chimaera</i><par n="house__n"/>    </e>
+    <e lm="chimaera"><i>chim</i><par n="e_ae"/><i>ra</i><par n="house__n"/>    </e>
     <e lm="chimpanzee"><i>chimpanzee</i><par n="house__n"/>    </e>
     <e lm="chin"><i>chin</i><par n="house__n"/>    </e>
     <e lm="china"><i>china</i><par n="house__n"/>    </e>
@@ -24747,7 +24757,7 @@
     <e lm="calm"><i>calm</i><par n="accept__vblex"/>    </e>
     <e lm="camp"><i>camp</i><par n="accept__vblex"/>    </e>
     <e lm="campaign"><i>campaign</i><par n="accept__vblex"/>    </e>
-    <e lm="cancel"><i>cancel</i><par n="control__vblex"/>    </e>
+    <e lm="cancel"><i>cancel</i><par n="travel__vblex"/>    </e>
     <e lm="capitalize"><i>capitali</i><par n="organi/ze__vblex"/>    </e>
     <e lm="capsize"><i>capsiz</i><par n="liv/e__vblex"/>    </e>
     <e lm="captivate"><i>captivat</i><par n="liv/e__vblex"/>    </e>

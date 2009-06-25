@@ -18010,10 +18010,13 @@
     <e lm="chemical"><i>chemical</i><par n="house__n"/>    </e>
     <e lm="chemist"><i>chemist</i><par n="house__n"/>    </e>
     <e lm="chemotherapy"><i>chemotherap</i><par n="bab/y__n"/>    </e>
-    <e lm="cheque"><i>cheque</i><par n="house__n"/>    </e>
+    <e lm="cheque" r="LR"><i>cheque</i><par n="house__n"/>    </e>
+    <e lm="cheque" r="RL" alt="en-GB"><i>cheque</i><par n="house__n"/>    </e>
+    <e lm="cheque" r="RL" alt="en-US"><p><r>check</r><l>cheque</l></p><par n="house__n"/>    </e>
     <e lm="cherry"><i>cherr</i><par n="bab/y__n"/>    </e>
     <e lm="chest"><i>chest</i><par n="house__n"/>    </e>
-    <e lm="chestnuttree"><i>chestnuttree</i><par n="house__n"/>    </e>
+    <e lm="chestnuttree" r="LR"><p><l>chestnuttree</l><r>chestnut<b/>tree</r></p><par n="house__n"/>    </e>
+    <e lm="chestnut tree"><i>chestnut<b/>tree</i><par n="house__n"/>    </e>
     <e lm="chevron"><i>chevron</i><par n="house__n"/>    </e>
     <e lm="chewing gum"><i>chewing<b/>gum</i><par n="house__n"/>    </e>
     <e lm="chicken"><i>chicken</i><par n="house__n"/>    </e>

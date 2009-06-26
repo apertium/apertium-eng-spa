@@ -2165,7 +2165,7 @@
       </e>
     </pardef>
     <pardef n="cent/re__n">
-      <e c="CP: en-US/en-GB dialect variation" r="LR">
+      <e c="CP: en_US/en_GB dialect variation" r="LR">
         <p>
           <l>er</l>
           <r>re</r>
@@ -2189,7 +2189,7 @@
       </e>
     </pardef>
     <pardef n="col/our__n">
-      <e c="CP: en-US/en-GB dialect variation" r="LR">
+      <e c="CP: en_US/en_GB dialect variation" r="LR">
         <p>
           <l>or</l>
           <r>our</r>
@@ -2213,7 +2213,7 @@
       </e>
     </pardef>
     <pardef n="globali/sation__n">
-      <e c="CP: en-US/en-GB dialect variation" r="LR">
+      <e c="CP: en_US/en_GB dialect variation" r="LR">
         <p>
           <l>zation</l>
           <r>sation</r>
@@ -18013,26 +18013,26 @@
     <e lm="chemist"><i>chemist</i><par n="house__n"/>    </e>
     <e lm="chemotherapy"><i>chemotherap</i><par n="bab/y__n"/>    </e>
     <e lm="cheque" r="LR"><i>cheque</i><par n="house__n"/>    </e>
-    <e lm="cheque" r="RL" alt="en-GB"><i>cheque</i><par n="house__n"/>    </e>
-    <e lm="cheque" r="RL" alt="en-US"><p><r>check</r><l>cheque</l></p><par n="house__n"/>    </e>
+    <e lm="cheque" r="RL" alt="en_GB"><i>cheque</i><par n="house__n"/>    </e>
+    <e lm="cheque" r="RL" alt="en_US"><p><l>check</l><r>cheque</r></p><par n="house__n"/>    </e>
     <e lm="blank cheque" r="LR"><i>blank<b/>cheque</i><par n="house__n"/>    </e>
-    <e lm="blank cheque" r="LR" c="'blank check' should be relatively unambiguous, but 'check' alone is not"><p><r>blank<b/>check</r><l>blank<b/>cheque</l></p><par n="house__n"/>    </e>
-    <e lm="blank cheque" r="RL" alt="en-GB"><i>blank<b/>cheque</i><par n="house__n"/>    </e>
-    <e lm="blank cheque" r="RL" alt="en-US"><p><r>blank<b/>check</r><l>blank<b/>cheque</l></p><par n="house__n"/>    </e>
+    <e lm="blank cheque" r="LR" c="'blank check' should be relatively unambiguous, but 'check' alone is not"><p><l>blank<b/>check</l><r>blank<b/>cheque</r></p><par n="house__n"/>    </e>
+    <e lm="blank cheque" r="RL" alt="en_GB"><i>blank<b/>cheque</i><par n="house__n"/>    </e>
+    <e lm="blank cheque" r="RL" alt="en_US"><p><l>blank<b/>check</l><r>blank<b/>cheque</r></p><par n="house__n"/>    </e>
     <e lm="chequebook" r="LR"><i>chequebook</i><par n="house__n"/>    </e>
-    <e lm="chequebook" r="LR"><p><r>cheque<b/>book</r><l>chequebook</l></p><par n="house__n"/>    </e>
-    <e lm="chequebook" r="LR"><p><r>checkbook</r><l>chequebook</l></p><par n="house__n"/>    </e>
-    <e lm="chequebook" r="LR"><p><r>check<b/>book</r><l>chequebook</l></p><par n="house__n"/>    </e>
-    <e lm="chequebook" r="RL" alt="en-GB"><i>chequebook</i><par n="house__n"/>    </e>
-    <e lm="chequebook" r="RL" alt="en-US"><p><r>checkbook</r><l>chequebook</l></p><par n="house__n"/>    </e>
+    <e lm="chequebook" r="LR"><p><l>cheque<b/>book</l><r>chequebook</r></p><par n="house__n"/>    </e>
+    <e lm="chequebook" r="LR"><p><l>checkbook</l><r>chequebook</r></p><par n="house__n"/>    </e>
+    <e lm="chequebook" r="LR"><p><l>check<b/>book</l><r>chequebook</r></p><par n="house__n"/>    </e>
+    <e lm="chequebook" r="RL" alt="en_GB"><i>chequebook</i><par n="house__n"/>    </e>
+    <e lm="chequebook" r="RL" alt="en_US"><p><l>checkbook</l><r>chequebook</r></p><par n="house__n"/>    </e>
     <e lm="traveller's cheque" r="LR"><i>traveller's<b/>cheque</i><par n="house__n"/>    </e>
-    <e lm="traveller's cheque" r="LR"><p><r>traveler's<b/>check</r><l>traveller's<b/>cheque</l></p><par n="house__n"/>    </e>
-    <e lm="traveller's cheque" r="LR"><p><r>travellers<b/>cheque</r><l>traveller's<b/>cheque</l></p><par n="house__n"/>    </e>
-    <e lm="traveller's cheque" r="LR"><p><r>travelers<b/>check</r><l>traveller's<b/>cheque</l></p><par n="house__n"/>    </e>
-    <e lm="traveller's cheque" r="LR"><p><r>travellers'<b/>cheque</r><l>traveller's<b/>cheque</l></p><par n="house__n"/>    </e>
-    <e lm="traveller's cheque" r="LR"><p><r>travelers'<b/>check</r><l>traveller's<b/>cheque</l></p><par n="house__n"/>    </e>
-    <e lm="traveller's cheque" r="RL" alt="en-GB"><i>traveller's<b/>cheque</i><par n="house__n"/>    </e>
-    <e lm="traveller's cheque" r="RL" alt="en-US"><p><r>traveler's<b/>check</r><l>traveller's<b/>cheque</l></p><par n="house__n"/>    </e>
+    <e lm="traveller's cheque" r="LR"><p><l>traveler's<b/>check</l><r>traveller's<b/>cheque</r></p><par n="house__n"/>    </e>
+    <e lm="traveller's cheque" r="LR"><p><l>travellers<b/>cheque</l><r>traveller's<b/>cheque</r></p><par n="house__n"/>    </e>
+    <e lm="traveller's cheque" r="LR"><p><l>travelers<b/>check</l><r>traveller's<b/>cheque</r></p><par n="house__n"/>    </e>
+    <e lm="traveller's cheque" r="LR"><p><l>travellers'<b/>cheque</l><r>traveller's<b/>cheque</r></p><par n="house__n"/>    </e>
+    <e lm="traveller's cheque" r="LR"><p><l>travelers'<b/>check</l><r>traveller's<b/>cheque</r></p><par n="house__n"/>    </e>
+    <e lm="traveller's cheque" r="RL" alt="en_GB"><i>traveller's<b/>cheque</i><par n="house__n"/>    </e>
+    <e lm="traveller's cheque" r="RL" alt="en_US"><p><l>traveler's<b/>check</l><r>traveller's<b/>cheque</r></p><par n="house__n"/>    </e>
     <e lm="cherry"><i>cherr</i><par n="bab/y__n"/>    </e>
     <e lm="chest"><i>chest</i><par n="house__n"/>    </e>
     <e lm="chestnuttree" r="LR"><p><l>chestnuttree</l><r>chestnut<b/>tree</r></p><par n="house__n"/>    </e>
@@ -32461,7 +32461,7 @@
     <e lm="discern"><i>discern</i><par n="accept__vblex"/>    </e>
     <e lm="kneel"><i>kneel</i><par n="accept__vblex"/>    </e>
     <e lm="equalise"><i>equalis</i><par n="liv/e__vblex"/>    </e>
-    <e lm="equalize" c="en-US" r="LR"><p><l>equaliz</l><r>equalis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="equalize" c="en_US" r="LR"><p><l>equaliz</l><r>equalis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="reanimate"><i>reanimat</i><par n="liv/e__vblex"/>    </e>
     <e lm="reedit"><i>reedit</i><par n="accept__vblex"/>    </e>
     <e lm="rearm"><i>rearm</i><par n="accept__vblex"/>    </e>
@@ -32480,11 +32480,11 @@
     <e lm="trick"><i>trick</i><par n="accept__vblex"/>    </e>
     <e lm="exasperate"><i>exasperat</i><par n="liv/e__vblex"/>    </e>
     <e lm="demoralise"><i>demoralis</i><par n="liv/e__vblex"/>    </e>
-    <e lm="demoralize" c="en-US" r="LR"><p><l>demoraliz</l><r>demoralis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="demoralize" c="en_US" r="LR"><p><l>demoraliz</l><r>demoralis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="denaturalise"><i>denaturalis</i><par n="liv/e__vblex"/>    </e>
-    <e lm="denaturalize" c="en-US" r="LR"><p><l>denaturaliz</l><r>denaturalis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="denaturalize" c="en_US" r="LR"><p><l>denaturaliz</l><r>denaturalis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="denationalise"><i>denationalis</i><par n="liv/e__vblex"/>    </e>
-    <e lm="denationalize" c="en-US" r="LR"><p><l>denationaliz</l><r>denationalis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="denationalize" c="en_US" r="LR"><p><l>denationaliz</l><r>denationalis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="differentiate"><i>differentiat</i><par n="liv/e__vblex"/>    </e>
     <e lm="dissemble"><i>dissembl</i><par n="liv/e__vblex"/>    </e>
     <e lm="dispense"><i>dispens</i><par n="liv/e__vblex"/>    </e>
@@ -32510,17 +32510,17 @@
     <e lm="stutter"><i>stutter</i><par n="house__n"/>    </e>
     <e lm="stammer"><i>stammer</i><par n="house__n"/>    </e>
     <e lm="colonise"><i>colonis</i><par n="liv/e__vblex"/>    </e>
-    <e lm="colonize" c="en-US" r="LR"><p><l>coloniz</l><r>colonis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="colonize" c="en_US" r="LR"><p><l>coloniz</l><r>colonis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="compress"><i>compress</i><par n="approach__vblex"/>    </e>
     <e lm="crystallise"><i>crystallis</i><par n="liv/e__vblex"/>    </e>
-    <e lm="crystallize" c="en-US" r="LR"><p><l>crystalliz</l><r>crystallis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="crystallize" c="en_US" r="LR"><p><l>crystalliz</l><r>crystallis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="conserve"><i>conserv</i><par n="liv/e__vblex"/>    </e>
     <e lm="reign"><i>reign</i><par n="accept__vblex"/>    </e>
     <e lm="remedy"><i>remed</i><par n="appl/y__vblex"/>    </e>
     <e lm="scandalise"><i>scandalis</i><par n="liv/e__vblex"/>    </e>
-    <e lm="scandalise" c="en-US" r="LR"><p><l>scandaliz</l><r>scandalis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="scandalise" c="en_US" r="LR"><p><l>scandaliz</l><r>scandalis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="specialise"><i>specialis</i><par n="liv/e__vblex"/>    </e>
-    <e lm="specialise" c="en-US" r="LR"><p><l>specializ</l><r>specialis</r></p><par n="liv/e__vblex"/>    </e>
+    <e lm="specialise" c="en_US" r="LR"><p><l>specializ</l><r>specialis</r></p><par n="liv/e__vblex"/>    </e>
     <e lm="spy"><i>sp</i><par n="appl/y__vblex"/>    </e>
     <e lm="première"><i>premièr</i><par n="liv/e__vblex"/>    </e>
     <e lm="congratulate"><i>congratulat</i><par n="liv/e__vblex"/>    </e>
@@ -32861,6 +32861,11 @@
     <e lm="without sense" a="greenbreen"><i>without<b/>sense</i><par n="expensive__adj"/></e>
     <e lm="memorial" a="greenbreen"><i>memorial</i><par n="expensive__adj"/></e>
     <e lm="memorial" a="greenbreen"><i>memorial</i><par n="house__n"/></e>
+    <e lm="Marx" a="greenbreen"><i>Marx</i><par n="Bush__np"/></e>
+    <e lm="marketable" a="greenbreen"><i>marketable</i><par n="expensive__adj"/></e>
+    <e lm="mentor" a="greenbreen"><i>mentor</i><par n="house__n"/></e>
+    <e lm="tutor" a="greenbreen"><i>tutor</i><par n="house__n"/></e>
+    <e lm="shampoo" a="greenbreen"><i>shampoo</i><par n="house__n"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

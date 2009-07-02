@@ -1042,9 +1042,9 @@
     <e><i>Juste<s n="np"/><s n="ant"/></i></e>
     <e><i>Lammert<s n="np"/><s n="ant"/></i></e>
     <e r="RL"><i>Lancelot<s n="np"/><s n="ant"/></i></e>
-    <e><p><l>Lancelot<s n="np"/><s n="ant"/></l><r><p><l>Lanzarote<s n="np"/><s n="ant"/></r></e>
-    <e><p><l>Lancelot<b/>du<b/>Lac<s n="np"/><s n="ant"/></l><r><p><l>Lanzarote<b/>del<b/>Lago<s n="np"/><s n="ant"/></r></e>
-    <e r="LR"><p><l>Lancelot<b/>of<b/>the<b/>Lake<s n="np"/><s n="ant"/></l><r><p><l>Lanzarote<b/>del<b/>Lago<s n="np"/><s n="ant"/></r></e>
+    <e><p><l>Lancelot<s n="np"/><s n="ant"/></l><r>Lanzarote<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Lancelot<b/>du<b/>Lac<s n="np"/><s n="ant"/></l><r>Lanzarote<b/>del<b/>Lago<s n="np"/><s n="ant"/></r></p></e>
+    <e r="LR"><p><l>Lancelot<b/>of<b/>the<b/>Lake<s n="np"/><s n="ant"/></l><r>Lanzarote<b/>del<b/>Lago<s n="np"/><s n="ant"/></r></p></e>
     <e><i>Launce<s n="np"/><s n="ant"/></i></e>
     <e><i>Launcelot<s n="np"/><s n="ant"/></i></e>
     <e><i>Laurentin<s n="np"/><s n="ant"/></i></e>
@@ -27613,6 +27613,11 @@
 <e a="greenbreen"><p><l>painkiller<s n="n"/></l><r>calmante<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>tranquilizer<s n="n"/></l><r>tranquilizante<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>sedative<s n="n"/></l><r>sedante<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>deadly<s n="adj"/><s n="sint"/></l><r>mortífero<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>paracetamol<s n="n"/></l><r>paracetamol<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>paracetamol<s n="n"/></l><r>acetaminofén<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>ibuprofen<s n="n"/></l><r>ibuprofeno<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>nonetheless<s n="adv"/></l><r>empero<s n="adv"/></r></p></e>
   </section>  
 
   <section  id="regexp" type="standard">

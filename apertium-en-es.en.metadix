@@ -17392,7 +17392,8 @@
     <e lm="alternative medicine"><i>alternative<b/>medicine</i><par n="house__n"/>    </e>
     <e lm="altitude"><i>altitude</i><par n="house__n"/>    </e>
     <e lm="altruist"><i>altruist</i><par n="house__n"/>    </e>
-    <e lm="aluminium"><i>aluminium</i><par n="house__n"/>    </e>
+    <e lm="aluminium" r="LR"><i>aluminium</i><par n="house__n"/>    </e>
+    <e lm="aluminium" alt="en-GB" r="RL"><i>aluminium</i><par n="house__n"/>    </e>
     <e lm="amateur"><i>amateur</i><par n="house__n"/>    </e>
     <e lm="ambassador"><i>ambassador</i><par n="house__n"/>    </e>
     <e lm="ambiguity"><i>ambiguit</i><par n="bab/y__n"/>    </e>
@@ -17710,7 +17711,8 @@
     <e lm="biopsy"><i>biops</i><par n="bab/y__n"/>    </e>
     <e lm="bird"><i>bird</i><par n="house__n"/>    </e>
     <e lm="bird flu"><i>bird<b/>flu</i><par n="east__n"/>    </e>
-    <e lm="ladybird"><i>ladybird</i><par n="house__n"/>    </e>
+    <e lm="ladybird" r="LR"><i>ladybird</i><par n="house__n"/>    </e>
+    <e lm="ladybird" alt="en-GB" r="RL"><i>ladybird</i><par n="house__n"/>    </e>
     <e lm="birth"><i>birth</i><par n="house__n"/>    </e>
     <e lm="childbirth"><i>childbirth</i><par n="house__n"/>    </e>
     <e lm="birthday"><i>birthday</i><par n="house__n"/>    </e>
@@ -20323,7 +20325,8 @@
     <e lm="multinational"><i>multinational</i><par n="house__n"/>    </e>
     <e lm="multiple"><i>multiple</i><par n="house__n"/>    </e>
     <e lm="multiplicity"><i>multiplicit</i><par n="bab/y__n"/>    </e>
-    <e lm="mum"><i>mum</i><par n="house__n"/>    </e>
+    <e lm="mum" alt="en-GB" r="RL"><i>mum</i><par n="house__n"/>    </e>
+    <e lm="mum" r="LR"><i>mum</i><par n="house__n"/>    </e>
     <e lm="mummy"><i>mumm</i><par n="bab/y__n"/>    </e>
     <e lm="municipality"><i>municipalit</i><par n="bab/y__n"/>    </e>
     <e lm="murder"><i>murder</i><par n="house__n"/>    </e>
@@ -27414,7 +27417,7 @@
     <e lm="Albert I of Monaco"><i>Albert<b/>I<b/>of<b/>Monaco</i><par n="Mark__np"/>     </e>
     <e lm="Albert II of Monaco"><i>Albert<b/>II<b/>of<b/>Monaco</i><par n="Mark__np"/>     </e>
     <e lm="Stéphanie of Monaco"><i>Stéphanie<b/>of<b/>Monaco</i><par n="Mary__np"/>     </e>
-    <e lm="Stéphanie of Monaco"><p><l>Stephanie<b/>of<b/>Monaco</l><r>Stéphanie<b/>of<b/>Monaco</r></p><par n="Mary__np"/>     </e>
+    <e lm="Stéphanie of Monaco" r="LR"><p><l>Stephanie<b/>of<b/>Monaco</l><r>Stéphanie<b/>of<b/>Monaco</r></p><par n="Mary__np"/>     </e>
     <e lm="Jehovah"><i>Jehovah</i><par n="Mark__np"/>     </e>
     <e lm="Isocrates"><i>Isocrates</i><par n="Mark__np"/>     </e>
     <e lm="Socrates"><i>Socrates</i><par n="Mark__np"/>     </e>
@@ -32629,12 +32632,15 @@
     <e lm="pointer" a="greenbreen"><i>pointer</i><par n="house__n"/></e>
     <e lm="photocopier" a="greenbreen"><i>photocopier</i><par n="house__n"/></e>
     <e lm="jar" a="greenbreen"><i>jar</i><par n="house__n"/></e>
+    <e lm="aluminum" a="greenbreen" alt="en-US" r="RL"><p><l>aluminum</l><r>aluminium</r></p><par n="house__n"/></e>
     <e lm="aluminum" a="greenbreen" c="US variant" r="LR"><p><l>aluminum</l><r>aluminium</r></p><par n="house__n"/></e>
     <e lm="mom" a="greenbreen" c="US variant" r="LR"><p><l>mom</l><r>mum</r></p><par n="house__n"/></e>
+    <e lm="mom" a="greenbreen" alt="en-US" r="RL"><p><l>mom</l><r>mum</r></p><par n="house__n"/></e>
     <e lm="mailbox" a="greenbreen" c="ambiguous - maybe postbox?"><i>mailbox</i><par n="access__n"/></e>
     <e lm="lunchroom" a="greenbreen" c="ambiguous - maybe canteen?"><i>lunchroom</i><par n="house__n"/></e>
     <e lm="firefighter" a="greenbreen" c="ambiguous - maybe fireman?"><i>firefighter</i><par n="house__n"/></e>
-    <e lm="ladybug" a="greenbreen" c="US variant"><p><l>ladybug</l><r>ladybird</r></p><par n="house__n"/></e>
+    <e lm="ladybug" a="greenbreen" alt="en-US" r="RL"><p><l>ladybug</l><r>ladybird</r></p><par n="house__n"/></e>
+    <e lm="ladybug" a="greenbreen" r="LR"><p><l>ladybug</l><r>ladybird</r></p><par n="house__n"/></e>
     <e lm="tub" a="greenbreen"><i>tub</i><par n="house__n"/></e>
     <e lm="crib" a="greenbreen"><i>crib</i><par n="house__n"/></e>
     <e lm="fog" a="greenbreen"><i>fog</i><par n="house__n"/></e>

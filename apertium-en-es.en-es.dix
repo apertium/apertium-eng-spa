@@ -11486,8 +11486,8 @@
     <e>  <p><l>genocide<s n="n"/></l><r>genocidio<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>genome<s n="n"/></l><r>genoma<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>genre<s n="n"/></l><r>género<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR" c="potser senyor i senyora hauria de traduir-se 'man' i 'woman'"><p><l>gentleman<s n="n"/></l><r>señor<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL" c="potser senyor i senyora hauria de traduir-se 'man' i 'woman'"><p><l>gentleman<s n="n"/></l><r>señor<s n="n"/></r></p></e>
+    <e r="LR"><p><l>gentleman<s n="n"/></l><r>señor<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>gentleman<s n="n"/></l><r>señor<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>geography<s n="n"/></l><r>geografía<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>geography<s n="n"/></l><r>geografía<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>geography<s n="n"/></l><r>geografía<s n="n"/><s n="f"/></r></p></e>
@@ -12172,8 +12172,8 @@
     <e>  <p><l>lactation<s n="n"/></l><r>amamantamiento<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>lad<s n="n"/></l><r>chico<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>lad<s n="n"/></l><r>chico<s n="n"/></r></p></e>
-    <e r="LR"><p><l>lady<s n="n"/></l><r>señor<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>lady<s n="n"/></l><r>señor<s n="n"/></r></p></e>
+    <e r="LR"><p><l>lady<s n="n"/></l><r>señor<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>lady<s n="n"/></l><r>señor<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>laicism<s n="n"/></l><r>laicidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>laicism<s n="n"/></l><r>laicismo<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>lake<s n="n"/></l><r>estanque<s n="n"/><s n="m"/></r></p></e>
@@ -13547,8 +13547,8 @@
     <e r="LR" slr="barrio"><p><l>quarter<s n="n"/></l><r>barrio<s n="n"/><s n="m"/></r></p></e>
     <e slr="trimestre D"><p><l>quarter<s n="n"/></l><r>trimestre<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>quartet<s n="n"/></l><r>cuarteto<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>queen<s n="n"/></l><r>rey<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>queen<s n="n"/></l><r>rey<s n="n"/></r></p></e>
+    <e r="LR"><p><l>queen<s n="n"/></l><r>rey<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>queen<s n="n"/></l><r>rey<s n="n"/><s n="f"/></r></p></e>
     <e srl="query D"><p><l>query<s n="n"/></l><r>consulta<s n="n"/><s n="f"/></r></p></e>
     <e slr="cuestión D"><p><l>question<s n="n"/></l><r>cuestión<s n="n"/><s n="f"/></r></p></e>
     <e slr="pregunta"><p><l>question<s n="n"/></l><r>pregunta<s n="n"/><s n="f"/></r></p></e>
@@ -27654,7 +27654,33 @@
 <e a="greenbreen"><p><l>anti-inflammatory<s n="n"/></l><r>antiinflamatorio<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>intraocular<s n="adj"/></l><r>intraocular<s n="adj"/><s n="mf"/></r></p></e>
 <e a="greenbreen"><p><l>LASIK<s n="n"/><s n="acr"/></l><r>LASIK<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-  </section>  
+<e a="greenbreen"><p><l>chess<s n="n"/></l><r>ajedrez<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>board<b/>game<s n="n"/></l><r>juego<g><b/>de<b/>mesa</g><s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>recreational<s n="adj"/></l><r>recreativo<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>competitively<s n="adv"/></l><r>competitivamente<s n="adv"/></r></p></e>
+<e a="greenbreen"><p><l>chess<b/>player<s n="n"/></l><r>ajedrecista<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>lady<s n="n"/></l><r>dama<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>bishop<s n="n"/></l><r>alfil<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>chess<b/>piece<s n="n"/></l><r>trebejo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>square<s n="n"/></l><r>escaque<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>commonly<s n="adv"/></l><r>comúnmente<s n="adv"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>chance<s n="n"/></l><r>azar<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>database<s n="n"/></l><r>base<g><b/>de<b/>datos</g><s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>checkmate<s n="n"/></l><r>jaque<b/>mate<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>rook<s n="n"/></l><r>torre<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>pawn<s n="n"/></l><r>peón<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>effective<s n="adj"/></l><r>efectivo<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>impasse<s n="n"/></l><r>impasse<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>stalemate<s n="n"/></l><r>impasse<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>grandmaster<s n="n"/></l><r>gran<b/>maestro<s n="n"/><s n="GD"/></r></p></e>
+<e a="greenbreen"><p><l>grandmaster<s n="n"/></l><r>gran<b/>maestro<s n="n"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>grand<s n="adj"/><s n="sint"/></l><r>magnífico<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>inexorably<s n="adv"/></l><r>inexorablemente<s n="adv"/></r></p></e>
+<e a="greenbreen"><p><l>chessboard<s n="n"/></l><r>tablero<g><b/>de<b/>ajedrez</g><s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>optionally<s n="adv"/></l><r>opcionalmente<s n="adv"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>opponent<s n="n"/></l><r>contrincante<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>proof<s n="n"/></l><r>constancia<s n="n"/><s n="f"/></r></p></e>
+  </section>
 
   <section  id="regexp" type="standard">
     <e>  <p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>

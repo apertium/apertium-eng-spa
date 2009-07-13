@@ -2297,6 +2297,44 @@
         </p>
       </e>
     </pardef>
+    <pardef n="/ágil__adj">
+      <e>
+        <p>
+          <l>ágiles</l>
+          <r>ágil<s n="adj"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ágil</l>
+          <r>ágil<s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>agilísimas</l>
+          <r>ágil<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>agilísima</l>
+          <r>ágil<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>agilísimos</l>
+          <r>ágil<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>agilísimo</l>
+          <r>ágil<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="anfitri/ón__adj">
       <e>
         <p>
@@ -88190,7 +88228,7 @@
     <e lm="fresco"><i>fresc</i><par n="absolut/o__adj"/>    </e>
     <e lm="frontal"><i>frontal</i><par n="abdominal__adj"/>    </e>
     <e lm="fructífero" a="prompsit2adn"><i>fructífer</i><par n="absolut/o__adj"/>    </e>
-    <e lm="frágil"><i>frágil</i><par n="abdominal__adj"/>    </e>
+    <e lm="frágil"><i>fr</i><par n="/ágil__adj"/>    </e>
     <e lm="frío"><i>frí</i><par n="abstract/o__adj"/>    </e>
     <e lm="frívolo"><i>frívol</i><par n="absolut/o__adj"/>    </e>
     <e lm="fuerte"><i>fuerte</i><par n="abundante__adj"/>    </e>
@@ -99769,6 +99807,31 @@
 <e lm="androide" a="greenbreen"><i>androide</i><par n="abismo__n"/></e>
 <e lm="rastreador" a="greenbreen"><i>rastreador</i><par n="señor__n"/></e>
 <e lm="pabellón" a="greenbreen"><i>pabell</i><par n="aluvi/ón__n"/></e>
+<e lm="recopilación" a="greenbreen"><i>recopilaci</i><par n="acci/ón__n"/></e>
+<e lm="prosódico" a="greenbreen"><i>prosódic</i><par n="absolut/o__adj"/></e>
+<e lm="elevación" a="greenbreen"><i>elevaci</i><par n="acci/ón__n"/></e>
+<e lm="átono" a="greenbreen"><i>áton</i><par n="absolut/o__adj"/></e>
+<e lm="polisílabo" a="greenbreen"><i>polisílab</i><par n="absolut/o__adj"/></e>
+<e lm="estepa" a="greenbreen"><i>estepa</i><par n="abeja__n"/></e>
+<e lm="sortija" a="greenbreen"><i>sortija</i><par n="abeja__n"/></e>
+<e lm="esdrújulo" a="greenbreen"><i>esdrújul</i><par n="absolut/o__adj"/></e>
+<e lm="antepenúltimo" a="greenbreen"><i>antepenúltim</i><par n="absolut/o__adj"/></e>
+<e lm="virrey" a="greenbreen"><i>virrey</i><par n="abril__n"/></e>
+<e lm="convoy" a="greenbreen"><i>convoy</i><par n="abril__n"/></e>
+<e lm="ágil" a="greenbreen"><i></i><par n="/ágil__adj"/></e>
+<e lm="fonetista" a="greenbreen"><i>fonetista</i><par n="accionista__n"/></e>
+<e lm="oxítono" a="greenbreen"><i>oxíton</i><par n="absolut/o__adj"/></e>
+<e lm="paroxítono" a="greenbreen"><i>paroxíton</i><par n="absolut/o__adj"/></e>
+<e lm="proparoxítono" a="greenbreen"><i>proparoxíton</i><par n="absolut/o__adj"/></e>
+<e lm="bíceps" a="greenbreen"><i>bíceps</i><par n="alrededores__n"/></e>
+<e lm="fórceps" a="greenbreen"><i>fórceps</i><par n="alrededores__n"/></e>
+<e lm="irónico" a="greenbreen"><i>irónic</i><par n="absolut/o__adj"/></e>
+<e lm="anteojos" a="greenbreen"><i>anteojos</i><par n="alrededores__n"/></e>
+<e lm="simulación" a="greenbreen"><i>simulaci</i><par n="acci/ón__n"/></e>
+<e lm="oponente" a="greenbreen"><i>oponente</i><par n="accionista__n"/></e>
+<e lm="sermón" a="greenbreen"><i>serm</i><par n="aluvi/ón__n"/></e>
+<e lm="puño" a="greenbreen"><i>puño</i><par n="abismo__n"/></e>
+<e lm="tocino" a="greenbreen"><i>tocino</i><par n="abismo__n"/></e>
   </section>
 
   <section id="regexp" type="standard">   

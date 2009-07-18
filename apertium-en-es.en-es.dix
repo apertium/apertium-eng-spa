@@ -17679,7 +17679,6 @@
     <e>  <p><l>weekly<s n="adj"/></l><r>semanal<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>weird<s n="adj"/></l><r>extraño<s n="adj"/></r></p></e>
     <e>  <p><l>western<s n="adj"/></l><r>occidental<s n="adj"/><s n="mf"/></r></p></e>
-    <e r="LR"><p><l>wet<s n="adj"/></l><r>húmedo<s n="adj"/></r></p></e>
     <e>  <p><l>white<s n="adj"/><s n="sint"/></l><r>blanco<s n="adj"/></r></p></e>
     <e>  <p><l>whole<s n="adj"/></l><r>entero<s n="adj"/></r></p></e>
     <e r="RL"><p><l>wide<s n="adj"/><s n="sint"/></l><r>amplio<s n="adj"/></r></p></e>
@@ -27776,13 +27775,18 @@
 <e a="greenbreen"><p><l>granary<s n="n"/></l><r>granero<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>doll<s n="n"/></l><r>muñeco<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>transmitter<s n="n"/></l><r>transmisor<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="greenbreen"><p><l>wet<s n="adj"/><s n="sint"/></l><r>mojado<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>wet<s n="adj"/><s n="sint"/></l><r>mojado<s n="adj"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>request<s n="n"/></l><r>pedido<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>problem<s n="n"/></l><r>inconveniente<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>cookie<s n="n"/></l><r>cookie<s n="n"/><s n="f"/></r></p></e>
 <e a="greenbreen"><p><l>inconvenience<s n="n"/></l><r>inconveniencia<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="greenbreen"><p><l>thorax<s n="n"/></l><r>tórax<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>thorax<s n="n"/><s n="ND"/></l><r>tórax<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>damp<s n="adj"/><s n="sint"/></l><r>húmedo<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>Beijing<s n="np"/><s n="loc"/></l><r>Beijing<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>descent<s n="n"/></l><r>bajada<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>video<b/>game<s n="n"/></l><r>videojuego<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>follower<s n="n"/></l><r>seguidor<s n="n"/><s n="GD"/></r></p></e>
   </section>
 
   <section  id="regexp" type="standard">

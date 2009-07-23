@@ -1441,6 +1441,44 @@
         </p>
       </e>
     </pardef>
+    <pardef n="criminal__adj">
+      <e>
+        <p>
+          <l>es</l>
+          <r><s n="adj"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimas</l>
+          <r><s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísima</l>
+          <r><s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimos</l>
+          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimo</l>
+          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="clarisa__adj">
       <e>
         <p>
@@ -99908,6 +99946,11 @@
 <e lm="socorro" a="greenbreen"><i>socorro</i><par n="abismo__n"/></e>
 <e lm="felicitación" a="greenbreen"><i>felicitaci</i><par n="acci/ón__n"/></e>
 <e lm="rostro" a="greenbreen"><i>rostro</i><par n="abismo__n"/></e>
+<e lm="suelto" a="greenbreen"><i>suelt</i><par n="abstract/o__adj"/></e>
+<e lm="guerrero" a="greenbreen"><i>guerrer</i><par n="abogad/o__n"/></e>
+<e lm="rumbo" a="greenbreen"><i>rumbo</i><par n="abismo__n"/></e>
+<e lm="honesto" a="greenbreen"><i>honest</i><par n="abstract/o__adj"/></e>
+<e lm="criminal" a="greenbreen"><i>criminal</i><par n="criminal__adj"/></e>
   </section>
 
   <section id="regexp" type="standard">   

@@ -15961,6 +15961,7 @@
     <e>  <p><l>alcoholic<s n="adj"/></l><r>alcohólico<s n="adj"/></r></p></e>
     <e r="RL"><p><l>alcoholic<s n="adj"/></l><r>alcohólico<s n="adj"/></r></p></e>
     <e>  <p><l>alike<s n="adj"/></l><r>parecido<s n="adj"/></r></p></e>
+    <e>  <p><l>unknown<s n="adj"/></l><r>desconocido<s n="adj"/></r></p></e>
     <e>  <p><l>boring<s n="adj"/></l><r>aburrido<s n="adj"/></r></p></e>
     <e>  <p><l>alimentary<s n="adj"/></l><r>alimentario<s n="adj"/></r></p></e>
     <e r="RL"><p><l>alimentary<s n="adj"/></l><r>alimenticio<s n="adj"/></r></p></e>
@@ -17809,7 +17810,8 @@
     <e c="check"><p><l>west<s n="adj"/></l><r>del<b/>oeste<s n="adj"/><s n="mf"/></r></p></e>
     <e c="check"><p><l>north<s n="adj"/><s n="sint"/></l><r>del<b/>norte<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>northern<s n="adj"/></l><r>del<b/>norte<s n="adj"/><s n="mf"/></r></p></e>
-    <e c="check"><p><l>south<s n="adj"/><s n="sint"/></l><r>del<b/>sur<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>south<s n="adj"/><s n="sint"/></l><r>del<b/>sur<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>southern<s n="adj"/></l>          <r>del<b/>sur<s n="adj"/><s n="mf"/></r></p></e>
     <e c="check"><p><l>expert<s n="adj"/></l><r>experto<s n="adj"/></r></p></e>
     <e c="check"><p><l>extremist<s n="adj"/></l><r>extremista<s n="adj"/><s n="mf"/></r></p></e>
     <e c="check"><p><l>fat<s n="adj"/><s n="sint"/></l><r>gordo<s n="adj"/></r></p></e>
@@ -27872,7 +27874,7 @@
     <e>       <re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
     <e>  <p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
     <e>       <re>[a-z.]+@[a-z.]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-    <e>       <re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e>       <re>(((www.)|(http://))[áéíóúàèìòùñça-z0-9\-]+([.][áéíóúàèìòùñça-z]+)+(/[áéíóúàèìòùñça-z0-9_]+)*([.][áéíóúàèìòùñça-z]+)*)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="RL"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><re>[0-9]+</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/><s n="GD"/><s n="sg"/></r></p></e>

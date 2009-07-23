@@ -194,15 +194,16 @@
           <r><s n="num"/></r>
         </p>
       </e>
-    </pardef>
+    </pardef> 
     <pardef n="urls">
-      <e>
-	<re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re>
-        <p>
-          <l/>
-          <r><s n="num"/></r>
-        </p>
-      </e>
+    <e>
+      <re>(((www.)|(http://))[áéíóúàèìòùñça-z0-9\-]+([.][áéíóúàèìòùñça-z]+)+(/[áéíóúàèìòùñça-z0-9_]+)*([.][áéíóúàèìòùñça-z]+)*)</re>
+      <p>
+        <l></l> 
+        <r><s n="num"/></r> 
+      </p>
+    </e>
+
     </pardef>
 	
    <pardef n="ordinals">
@@ -23874,6 +23875,7 @@
     <e lm="past"><i>past</i><par n="expensive__adj"/>    </e>
     <e lm="paternal"><i>paternal</i><par n="expensive__adj"/>    </e>
     <e lm="pathological"><i>pathological</i><par n="expensive__adj"/>    </e>
+    <e lm="unknown"><i>unknown</i><par n="expensive__adj"/></e>
     <e lm="patient"><i>patient</i><par n="expensive__adj"/>    </e>
     <e lm="patriotic"><i>patriotic</i><par n="expensive__adj"/>    </e>
     <e lm="peaceful"><i>peaceful</i><par n="expensive__adj"/>    </e>
@@ -24119,6 +24121,7 @@
     <e lm="shy"><i>sh</i><par n="sh/y__adj"/>    </e>
     <e lm="shady"><i>shad</i><par n="happ/y__adj"/>    </e>
     <e lm="shallow"><i>shallow</i><par n="long/__adj"/>    </e>
+    <e lm="southern"><i>southern</i><par n="expensive__adj"/></e>
     <e lm="shameful"><i>shameful</i><par n="expensive__adj"/>    </e>
     <e lm="sharp"><i>sharp</i><par n="long/__adj"/>    </e>
     <e lm="shiny"><i>shin</i><par n="happ/y__adj"/>    </e>

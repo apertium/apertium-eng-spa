@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- -*-nxml-*- -->
+<?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
+
 <!--
 	Dictionary:
 	Sections: 1
@@ -192,14 +192,16 @@
         </p>
       </e>
     </pardef>
+    
     <pardef n="urls">
-      <e>
-	<re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re>
-        <p>
-          <l/>
-          <r><s n="num"/></r>
-        </p>
-      </e>
+    <e>
+      <re>(((www.)|(http://))[áéíóúàèìòùñça-z0-9\-]+([.][áéíóúàèìòùñça-z]+)+(/[áéíóúàèìòùñça-z0-9_]+)*([.][áéíóúàèìòùñça-z]+)*)</re>
+      <p>
+        <l></l> 
+        <r><s n="num"/></r> 
+      </p>
+    </e>
+
     </pardef>
     <pardef n="ordinals">
       <e>
@@ -88824,6 +88826,7 @@
     <e lm="paramétrico" a=" alseoane@gmail.com"><i>paramétric</i><par n="absolut/o__adj"/>    </e>
     <e lm="parcial"><i>parcial</i><par n="abdominal__adj"/>    </e>
     <e lm="parecido"><i>parecid</i><par n="absolut/o__adj"/>    </e>
+    <e lm="desconocido"><i>desconocid</i><par n="absolut/o__adj"/>    </e>
     <e lm="parlamentario"><i>parlamentari</i><par n="absolut/o__adj"/>    </e>
     <e lm="participativo" a="greenbreen"><i>participativ</i><par n="absolut/o__adj"/>    </e>
     <e lm="particular"><i>particular</i><par n="abdominal__adj"/>    </e>

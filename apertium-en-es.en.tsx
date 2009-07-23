@@ -93,6 +93,9 @@
     <tags-item tags="num.*"/>
     <tags-item tags="num"/>
   </def-label>
+  <def-label name="WEB" closed="true">
+    <tags-item tags="web"/>
+  </def-label>
   <def-label name="NOMSG">
     <tags-item tags="n.sg"/>
     <tags-item tags="n.acr.sg"/>

@@ -1696,6 +1696,12 @@
           <r>fe<s n="n"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ves'</l>
+          <r>fe<s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="p/erson__n">
       <e c="CP: nouns which remove -erson and add eople or directly add -s (LR; formal/legal English mainly)">
@@ -1734,6 +1740,18 @@
         <p>
           <l>s</l>
           <r><s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>'s</l>
+          <r><s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>s'</l>
+          <r><s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
         </p>
       </e>
     </pardef>
@@ -21489,9 +21507,9 @@
     <e lm="row"><i>row</i><par n="house__n"/>    </e>
     <e lm="rubber"><i>rubber</i><par n="house__n"/>    </e>
     <e lm="rubbish" r="LR"><i>rubbish</i><par n="access__n"/>    </e>
-    <e lm="rubbish" r="LR"><p><l>trash</l><r>rubbish</r></p><par n="access__n"/>    </e>
+    <e lm="rubbish" r="LR" a="greenbreen"><p><l>trash</l><r>rubbish</r></p><par n="access__n"/>    </e>
     <e lm="rubbish" r="RL" alt="en_GB"><i>rubbish</i><par n="access__n"/>    </e>
-    <e lm="rubbish" r="RL" alt="en_US"><p><l>trash</l><r>rubbish</r></p><par n="access__n"/>    </e>
+    <e lm="rubbish" r="RL" alt="en_US" a="greenbreen"><p><l>trash</l><r>rubbish</r></p><par n="access__n"/>    </e>
     <e lm="rubella"><i>rubella</i><par n="house__n"/>    </e>
     <e lm="rucksack"><i>rucksack</i><par n="house__n"/>    </e>
     <e lm="rudder"><i>rudder</i><par n="house__n"/>    </e>
@@ -21819,7 +21837,10 @@
     <e lm="sovereign"><i>sovereign</i><par n="house__n"/>    </e>
     <e lm="sovereignty"><i>sovereignt</i><par n="bab/y__n"/>    </e>
     <e lm="sow"><i>sow</i><par n="house__n"/>    </e>
-    <e lm="soya"><i>soya</i><par n="house__n"/>    </e>
+    <e lm="soya" r="LR"><i>soya</i><par n="house__n"/>    </e>
+    <e lm="soya" r="LR" a="greenbreen"><p><l>soy</l><r>soya</r></p><par n="house__n"/>    </e>
+    <e lm="soya" r="RL" alt="en_GB"><i>soya</i><par n="house__n"/>    </e>
+    <e lm="soya" r="RL" alt="en_US" a="greenbreen"><p><l>soy</l><r>soya</r></p><par n="house__n"/>    </e>
     <e lm="spy"><i>sp</i><par n="bab/y__n"/>    </e>
     <e lm="spa"><i>spa</i><par n="house__n"/>    </e>
     <e lm="space"><i>space</i><par n="house__n"/>    </e>
@@ -33323,6 +33344,40 @@
     <e lm="toilet paper" a="greenbreen"><i>toilet<b/>paper</i><par n="house__n"/></e>
     <e lm="laundry" a="greenbreen"><i>laundr</i><par n="bab/y__n"/></e>
     <e lm="dirty clothes" a="greenbreen"><i>dirty<b/>clothes</i><par n="alms__n"/></e>
+    <e lm="bowl" a="greenbreen"><i>bowl</i><par n="house__n"/></e>
+    <e lm="trash bag" a="greenbreen"><i>trash<b/>bag</i><par n="house__n"/></e>
+    <e lm="paper plate" a="greenbreen"><i>paper<b/>plate</i><par n="house__n"/></e>
+    <e lm="ramen" a="greenbreen"><i>ramen</i><par n="staff__n"/></e>
+    <e lm="cornflour" r="LR" a="greenbreen"><i>cornflour</i><par n="house__n"/></e>
+    <e lm="cornflour" r="LR" a="greenbreen"><i>corn</i><p><l>starch</l><r>flour</r></p><par n="access__n"/></e>
+    <e lm="cornflour" alt="en_GB" r="RL" a="greenbreen"><i>cornflour</i><par n="house__n"/></e>
+    <e lm="cornflour" alt="en_US" r="RL" a="greenbreen"><i>corn</i><p><l>starch</l><r>flour</r></p><par n="access__n"/></e>
+    <e lm="rapeseed oil" a="greenbreen"><i>rapeseed<b/>oil</i><par n="house__n"/></e>
+    <e lm="rapeseed" a="greenbreen"><i>rapeseed</i><par n="house__n"/></e>
+    <e lm="safflower" a="greenbreen"><i>safflower</i><par n="house__n"/></e>
+    <e lm="iodized" a="greenbreen"><i>iodized</i><par n="expensive__adj"/></e>
+    <e lm="baking powder" a="greenbreen"><i>baking<b/>powder</i><par n="house__n"/></e>
+    <e lm="baking soda" a="greenbreen"><i>baking<b/>soda</i><par n="house__n"/></e>
+    <e lm="MP3 player" a="greenbreen"><i>MP3<b/>player</i><par n="house__n"/></e>
+    <e lm="mobile phone" r="LR" a="greenbreen"><i>mobile<b/>phone</i><par n="house__n"/></e>
+    <e lm="mobile phone" r="LR" a="greenbreen"><p><l>cell<b/>phone</l><r>mobile<b/>phone</r></p><par n="house__n"/></e>
+    <e lm="mobile phone" r="RL" alt="en_GB" a="greenbreen"><i>mobile<b/>phone</i><par n="house__n"/></e>
+    <e lm="mobile phone" r="RL" alt="en_US" a="greenbreen"><p><l>cell<b/>phone</l><r>mobile<b/>phone</r></p><par n="house__n"/></e>
+    <e lm="badge" a="greenbreen"><i>badge</i><par n="house__n"/></e>
+    <e lm="identification badge" a="greenbreen"><i>identification<b/>badge</i><par n="house__n"/></e>
+    <e lm="identification badge" r="LR" a="greenbreen"><p><l>ID<b/>badge</l><r>identification<b/>badge</r></p><par n="house__n"/></e>
+    <e lm="torch" r="LR" a="greenbreen"><i>torch</i><par n="access__n"/>    </e>
+    <e lm="torch" r="LR" a="greenbreen"><p><l>flashlight</l><r>torch</r></p><par n="house__n"/></e>
+    <e lm="torch" r="RL" alt="en_GB" a="greenbreen"><i>torch</i><par n="access__n"/>    </e>
+    <e lm="torch" r="RL" alt="en_US" a="greenbreen"><p><l>flashlight</l><r>torch</r></p><par n="house__n"/></e>
+    <e lm="penknife" a="greenbreen"><i>penkni</i><par n="li/fe__n"/></e>
+    <e lm="bus pass" a="greenbreen"><i>bus<b/>pass</i><par n="access__n"/></e>
+    <e lm="laptop" a="greenbreen"><i>laptop</i><par n="house__n"/></e>
+    <e lm="backpack" a="greenbreen"><i>backpack</i><par n="house__n"/></e>
+    <e lm="heart rate" a="greenbreen"><i>heart<b/>rate</i><par n="house__n"/></e>
+    <e lm="multivitamin" a="greenbreen"><i>multivitamin</i><par n="expensive__adj"/></e>
+    <e lm="eye examination" a="greenbreen"><i>eye<b/>examination</i><par n="house__n"/></e>
+    <e lm="eye examination" r="LR" a="greenbreen"><p><l>eye<b/>exam</l><r>eye<b/>examination</r></p><par n="house__n"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

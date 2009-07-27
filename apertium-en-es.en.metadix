@@ -266,10 +266,12 @@
       <e><i></i></e>
       <e><i><b/>BC</i></e>
       <e><i><b/>CE</i></e>
+      <e><i><b/>BCE</i></e>
       <e><i><b/>AD</i></e>
       <!-- As this can be sentence final, allow sentence to be grabbed as usual -->
       <e><i><b/>B.C</i></e>
       <e><i><b/>C.E</i></e>
+      <e><i><b/>B.C.E</i></e>
       <e><i><b/>A.D</i></e>
       <e><i><b/>B.<b/>C</i></e>
       <e><i><b/>C.<b/>E</i></e>
@@ -16164,6 +16166,7 @@
     <e lm="Duran Duran"><i>Duran<b/>Duran</i><par n="Linux__np"/>    </e>
     <e lm="Alice in Chains"><i>Alice<b/>in<b/>Chains</i><par n="Linux__np"/>    </e>
     <e lm="World Bank"><i>World<b/>Bank</i><par n="Linux__np"/>    </e>
+    <e lm="20th Century Fox"><i>20th<b/>Century<b/>Fox</i><par n="Linux__np"/>    </e>
     <e lm="International Bank for Reconstruction and Development"><i>International<b/>Bank<b/>for<b/>Reconstruction<b/>and<b/>Development</i><par n="Linux__np"/>    </e>
     <e lm="Battle of Austerlitz"><i>Battle<b/>of<b/>Austerlitz</i><par n="Linux__np"/>    </e>
     <e lm="Athletic Bilbao"><i>Athletic<b/>Bilbao</i><par n="Linux__np"/>    </e>
@@ -32412,6 +32415,8 @@
 
 
 <e lm="(x)th century (AD|BC)"><par n="ordinals-century"/><i><b/>century</i><par n="BC"/><i/><par n="east__n"/></e>
+<e lm="(x)th and (y)th centuries (AD|BC)"><par n="ordinals-century"/><i><b/>and<b/></i><par n="ordinals-century"/><i><b/>centuries</i><par n="BC"/><i/><par n="personnel__n"/></e>
+<e lm="(x)th-(y)th centuries (AD|BC)"><par n="ordinals-century"/><i>-</i><par n="ordinals-century"/><i><b/>centuries</i><par n="BC"/><i/><par n="personnel__n"/></e>
 
 <e lm="be sorry"><i/><par n="/be__vblex"/><p><l><b/>sorry</l><r><g><b/>sorry</g></r></p></e>
 

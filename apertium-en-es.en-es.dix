@@ -429,6 +429,8 @@
   <e r="LR"><p><l><b/>CE</l><r><b/>dC</r></p></e>
   <e r="LR"><p><l><b/>C.E</l><r><b/>d.C</r></p></e>
   <e r="LR"><p><l><b/>C.<b/>E</l><r><b/>d.<b/>C</r></p></e>
+  <e r="LR"><p><l><b/>BCE</l><r><b/>aC</r></p></e>
+  <e r="LR"><p><l><b/>B.C.E</l><r><b/>a.C</r></p></e>
   <e r="RL"><p><l><b/>AD</l><r><b/>AD</r></p></e>
   <e r="RL"><p><l><b/>A.D</l><r><b/>A.D</r></p></e>
   <e r="RL"><p><l><b/>A.<b/>D</l><r><b/>A.<b/>D</r></p></e>
@@ -8663,6 +8665,7 @@
     <e>  <p><l>Libya<s n="np"/><s n="loc"/></l><r>Libia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Lima<s n="np"/><s n="loc"/></l><r>Lima<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Linux<s n="np"/><s n="al"/></l><r>Linux<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e>  <p><l>20th<b/>Century<b/>Fox<s n="np"/><s n="al"/></l><r>20th<b/>Century<b/>Fox<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>Le<b/>Monde<s n="np"/><s n="al"/></l><r>Le<b/>Monde<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>El<b/>Correo<s n="np"/><s n="al"/></l><r>El<b/>Correo<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>E.H.<b/>Sukarra<s n="np"/><s n="al"/></l><r>E.H.<b/>Sukarra<s n="np"/><s n="al"/><s n="m"/></r></p></e>
@@ -28021,6 +28024,45 @@
   <par n="arabic-roman-ord"/>
   <p>
     <l><b/>century</l>
+    <r></r>
+  </p>
+  <par n="B.C.-a._C."/>
+  <p>
+    <l><s n="n"/></l>
+    <r><s n="n"/><s n="m"/></r>
+  </p>
+</e>
+<e c="hic sunt dracones!">
+  <p>
+    <l></l>
+    <r>siglos<b/></r>
+  </p>
+  <par n="arabic-roman-ord"/>
+  <p>
+    <l><b/>and<b/></l>
+    <r><b/>y<b/></r>
+  </p>
+  <par n="arabic-roman-ord"/>
+  <p>
+    <l><b/>centuries</l>
+    <r></r>
+  </p>
+  <par n="B.C.-a._C."/>
+  <p>
+    <l><s n="n"/></l>
+    <r><s n="n"/><s n="m"/></r>
+  </p>
+</e>
+<e c="hic sunt dracones!">
+  <p>
+    <l></l>
+    <r>siglos<b/></r>
+  </p>
+  <par n="arabic-roman-ord"/>
+  <i>-</i>
+  <par n="arabic-roman-ord"/>
+  <p>
+    <l><b/>centuries</l>
     <r></r>
   </p>
   <par n="B.C.-a._C."/>

@@ -244,7 +244,37 @@
         </p>
       </e>
     </pardef>
-
+    <pardef n="ordinals-century">
+      <e>
+        <re>([2-9][4-9]|1[0-9])</re>
+        <i>th</i>
+      </e>
+      <e>
+        <re>([2-9]1|1)</re>
+        <i>st</i>
+      </e>
+      <e>
+        <re>([2-9]2|2)</re>
+        <i>nd</i>
+      </e>
+      <e>
+        <re>([2-9]3|3)</re>
+        <i>rd</i>
+      </e>
+    </pardef>
+    <pardef n="BC">
+      <e><i></i></e>
+      <e><i><b/>BC</i></e>
+      <e><i><b/>CE</i></e>
+      <e><i><b/>AD</i></e>
+      <!-- As this can be sentence final, allow sentence to be grabbed as usual -->
+      <e><i><b/>B.C</i></e>
+      <e><i><b/>C.E</i></e>
+      <e><i><b/>A.D</i></e>
+      <e><i><b/>B.<b/>C</i></e>
+      <e><i><b/>C.<b/>E</i></e>
+      <e><i><b/>A.<b/>D</i></e>
+    </pardef>
   <pardef n="acronimos">
       <e>
         <re>[A-Z][A-Z]</re>
@@ -32380,6 +32410,8 @@
 <e lm="Wales"><i>Wales</i><par n="Barcelona__np"/>    </e>
 <e lm="media"><i>media</i><par n="politics__n"/></e>
 
+
+<e lm="(x)th century (AD|BC)"><par n="ordinals-century"/><i><b/>century</i><par n="BC"/><i/><par n="east__n"/></e>
 
 <e lm="be sorry"><i/><par n="/be__vblex"/><p><l><b/>sorry</l><r><g><b/>sorry</g></r></p></e>
 

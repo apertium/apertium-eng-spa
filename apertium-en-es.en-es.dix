@@ -376,6 +376,64 @@
     </e>
 
     </pardef>
+
+<pardef n="arabic-roman-ones-ord(1)">
+  <e><p><l>1st</l><r>I</r></p></e>
+  <e><p><l>2nd</l><r>II</r></p></e>
+  <e><p><l>3rd</l><r>III</r></p></e>
+  <e><p><l>4th</l><r>IV</r></p></e>
+  <e><p><l>5th</l><r>V</r></p></e>
+  <e><p><l>6th</l><r>VI</r></p></e>
+  <e><p><l>7th</l><r>VII</r></p></e>
+  <e><p><l>8th</l><r>VIII</r></p></e>
+  <e><p><l>9th</l><r>IX</r></p></e>
+</pardef>
+<pardef n="arabic-roman-ones-ord">
+  <e><p><l>0th</l><r></r></p></e>
+  <e><par n="arabic-roman-ones-ord(1)"/></e>
+</pardef>
+<pardef n="arabic-roman-tens-ord">
+  <e><p><l></l><r></r></p><par n="arabic-roman-ones-ord(1)"/></e>
+  <e><p><l>2</l><r>XX</r></p><par n="arabic-roman-ones-ord"/></e>
+  <e><p><l>3</l><r>XXX</r></p><par n="arabic-roman-ones-ord"/></e>
+  <e><p><l>4</l><r>XL</r></p><par n="arabic-roman-ones-ord"/></e>
+  <e><p><l>5</l><r>L</r></p><par n="arabic-roman-ones-ord"/></e>
+  <e><p><l>6</l><r>LX</r></p><par n="arabic-roman-ones-ord"/></e>
+  <e><p><l>7</l><r>LXX</r></p><par n="arabic-roman-ones-ord"/></e>
+  <e><p><l>8</l><r>LXXX</r></p><par n="arabic-roman-ones-ord"/></e>
+  <e><p><l>9</l><r>XC</r></p><par n="arabic-roman-ones-ord"/></e>
+</pardef>
+<pardef n="arabic-roman-ord">
+  <e><p><l>10th</l><r>X</r></p></e>
+  <e><p><l>11th</l><r>XI</r></p></e>
+  <e><p><l>12th</l><r>XII</r></p></e>
+  <e><p><l>13th</l><r>XIII</r></p></e>
+  <e><p><l>14th</l><r>XIV</r></p></e>
+  <e><p><l>15th</l><r>XV</r></p></e>
+  <e><p><l>16th</l><r>XVI</r></p></e>
+  <e><p><l>17th</l><r>XVII</r></p></e>
+  <e><p><l>18th</l><r>XVIII</r></p></e>
+  <e><p><l>19th</l><r>XIX</r></p></e>
+  <e><par n="arabic-roman-tens-ord"/></e>
+</pardef>
+<pardef n="B.C.-a._C.">
+  <e><p><l></l><r></r></p></e>
+  <e><p><l><b/>BC</l><r><b/>aC</r></p></e>
+  <e><p><l><b/>B.C</l><r><b/>a.<b/>C</r></p></e>
+  <e r="RL"><p><l><b/>B.C</l><r><b/>a.C</r></p></e>
+  <e r="LR"><p><l><b/>B.<b/>C</l><r><b/>a.<b/>C</r></p></e>
+  <e><p><l><b/>AD</l><r><b/>dC</r></p></e>
+  <e><p><l><b/>A.D</l><r><b/>d.<b/>C</r></p></e>
+  <e r="RL"><p><l><b/>A.D</l><r><b/>d.C</r></p></e>
+  <e r="LR"><p><l><b/>A.<b/>D</l><r><b/>d.<b/>C</r></p></e>
+  <e r="LR"><p><l><b/>CE</l><r><b/>dC</r></p></e>
+  <e r="LR"><p><l><b/>C.E</l><r><b/>d.C</r></p></e>
+  <e r="LR"><p><l><b/>C.<b/>E</l><r><b/>d.<b/>C</r></p></e>
+  <e r="RL"><p><l><b/>AD</l><r><b/>AD</r></p></e>
+  <e r="RL"><p><l><b/>A.D</l><r><b/>A.D</r></p></e>
+  <e r="RL"><p><l><b/>A.<b/>D</l><r><b/>A.<b/>D</r></p></e>
+</pardef>
+
   </pardefs>
 
   <section  id="main" type="standard">
@@ -27954,6 +28012,23 @@
     <e r="LR"><p><l>Dr<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
     <e r="LR"><p><l>Dr.<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
     <e r="LR"><p><l>Dr.<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+
+<e c="hic sunt dracones!">
+  <p>
+    <l></l>
+    <r>siglo<b/></r>
+  </p>
+  <par n="arabic-roman-ord"/>
+  <p>
+    <l><b/>century</l>
+    <r></r>
+  </p>
+  <par n="B.C.-a._C."/>
+  <p>
+    <l><s n="n"/></l>
+    <r><s n="n"/><s n="m"/></r>
+  </p>
+</e>
   </section>
 </dictionary>
 

@@ -192,6 +192,46 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="romana(1)">
+      <e><i>I</i></e>
+      <e><i>II</i></e>
+      <e><i>III</i></e>
+      <e><i>IV</i></e>
+      <e><i>V</i></e>
+      <e><i>VI</i></e>
+      <e><i>VII</i></e>
+      <e><i>VIII</i></e>
+      <e><i>IX</i></e>
+    </pardef>
+    <pardef n="romana(2)">
+      <e><i></i></e>
+      <e><i></i><par n="romana(1)"/></e>
+    </pardef>
+    <pardef n="romana(3)">
+      <e><i></i><par n="romana(1)"/></e>
+      <e><i>X</i><par n="romana(2)"/></e>
+      <e><i>XX</i><par n="romana(2)"/></e>
+      <e><i>XXX</i><par n="romana(2)"/></e>
+      <e><i>XL</i><par n="romana(2)"/></e>
+      <e><i>L</i><par n="romana(2)"/></e>
+      <e><i>LX</i><par n="romana(2)"/></e>
+      <e><i>LXX</i><par n="romana(2)"/></e>
+      <e><i>LXXX</i><par n="romana(2)"/></e>
+      <e><i>XC</i><par n="romana(2)"/></e>
+    </pardef>
+    <pardef n="a._C.">
+      <e><i></i></e>
+      <e><i>aC</i></e>
+      <e><i>dC</i></e>
+      <e><i>AD</i></e>
+      <e><i>a.C</i></e>
+      <e><i>d.C</i></e>
+      <e><i>A.D</i></e>
+      <e><i>a.<b/>C</i></e>
+      <e><i>d.<b/>C</i></e>
+      <e><i>A.<b/>D</i></e>
+    </pardef>
     
     <pardef n="urls">
     <e>
@@ -98169,6 +98209,8 @@
 
     <e lm="sentir mucho" r="RL"><i>s</i><par n="m/entir__vblex"/><p><l><b/>mucho</l><r><g><b/>mucho</g></r></p>    </e>
 
+    <e><i>siglo<b/></i><par n="romana(3)"/><par n="atletismo__n"/></e>
+    <e><i>siglo<b/></i><par n="romana(3)"/><i><b/></i><par n="a._C."/><par n="atletismo__n"/></e>
 
     <e lm="entender mal"><i>ent</i><par n="asc/ender__vblex"/><p><l><b/>mal</l><r><g><b/>mal</g></r></p></e>
     <e lm="tranquilidad"><i>tranquilidad</i><par n="accesibilidad__n"/>    </e>

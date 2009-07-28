@@ -1543,6 +1543,32 @@
         </p>
       </e>
     </pardef>
+    <pardef n="violeta__adj">
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="abdominal__adj">
       <e>
         <p>
@@ -100160,6 +100186,10 @@
 <e lm="ritmo cardíaco" a="greenbreen"><p><l>ritmos<b/>cardíacos</l><r>ritmo<b/>cardíaco</r></p><par n="alrededores__n"/></e>
 <e lm="multivitamínico" a="greenbreen"><i>multivitamínic</i><par n="absolut/o__adj"/></e>
 <e lm="examen de la vista" a="greenbreen"><i>examen</i><par n="abril__n"/><p><l><b/>de<b/>la<b/>vista</l><r><g><b/>de<b/>la<b/>vista</g></r></p></e>
+<e lm="actualización" a="greenbreen"><i>actualizaci</i><par n="acci/ón__n"/></e>
+<e lm="violet" a="greenbreen"><i>violeta</i><par n="violeta__adj"/></e>
+<e lm="recomendable" a="greenbreen"><i>recomendable</i><par n="abundante__adj"/></e>
+<e lm="ancho de banda" a="greenbreen"><i>ancho</i><par n="abismo__n"/><p><l><b/>de<b/>banda</l><r><g><b/>de<b/>banda</g></r></p></e>
   </section>
 
   <section id="regexp" type="standard">   

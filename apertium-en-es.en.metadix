@@ -32922,10 +32922,12 @@
     <e lm="agreeable" a="greenbreen"><i>agreeable</i><par n="expensive__adj"/></e>
     <e lm="obedient" a="greenbreen"><i>obedient</i><par n="expensive__adj"/></e>
     <e lm="feng shui"><i>feng<b/>shui</i><par n="east__n"/></e>
-    <e lm="Hebrew" a="greenbreen"><i>Hebrew</i><par n="house__n"/></e>
+    <e lm="Hebrew" r="LR" a="greenbreen"><i>Hebrew</i><par n="house__n"/></e>
+    <e lm="Hebrew" r="RL" a="greenbreen"><p><l>Hebrew</l><r>hebrew</r></p><par n="house__n"/></e>
     <e lm="Hebrew" a="greenbreen"><p><l>Hebrew</l><r>hebrew</r></p><par n="expensive__adj"/></e>
     <e lm="Aramaic" a="greenbreen"><i>Aramaic</i><par n="house__n"/></e>
-    <e lm="Phoenician" a="greenbreen"><i>Phoenician</i><par n="house__n"/></e>
+    <e lm="Phoenician" r="LR" a="greenbreen"><i>Phoenician</i><par n="house__n"/></e>
+    <e lm="Phoenician" r="RL" a="greenbreen"><p><l>Phoenician</l><r>phoenician</r></p><par n="house__n"/></e>
     <e lm="handicrafts" a="greenbreen"><i>handicrafts</i><par n="alms__n"/></e>
     <e lm="Punic War" a="greenbreen"><i>Punic War</i><par n="house__n"/></e>
     <e lm="Carthage" a="greenbreen"><i>Carthage</i><par n="Barcelona__np"/></e>
@@ -33387,6 +33389,9 @@
     <e lm="dependent" a="greenbreen"><i>dependent</i><par n="expensive__adj"/></e>
     <e lm="superlative" a="greenbreen"><i>superlative</i><par n="expensive__adj"/></e>
     <e lm="superlative" a="greenbreen"><i>superlative</i><par n="house__n"/></e>
+    <e lm="Haitian" a="greenbreen"><p><l>Haitian</l><r>haitian</r></p><par n="expensive__adj"/></e>
+    <e lm="Haitian" r="LR" a="greenbreen"><i>Haitian</i><par n="house__n"/></e>
+    <e lm="Haitian" r="RL" a="greenbreen"><p><l>Haitian</l><r>haitian</r></p><par n="house__n"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

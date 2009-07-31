@@ -1532,12 +1532,32 @@
           <r>um<s n="n"/><s n="pl"/></r>
         </p>
       </e>
-    <!--  <e r="LR">
+      <e r="LR">
         <p>
           <l>ums</l>
           <r>um<s n="n"/><s n="pl"/></r>
         </p>
-      </e> -->
+      </e>
+      <e r="LR">
+        <p>
+          <l>ums'</l>
+          <r>um<s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bacteri/um__n">
+      <e c="CP: nouns which remove -um and add -a">
+        <p>
+          <l>um</l>
+          <r>um<s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>um<s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="mon/ey__n">
       <e c="CP: nouns which add -s or remove -y and add -ies (LR)">
@@ -17786,7 +17806,7 @@
     <e lm="blackhead"><i>blackhead</i><par n="house__n"/>    </e>
     <e lm="backrest"><i>backrest</i><par n="house__n"/>    </e>
     <e lm="backstitch"><i>backstitch</i><par n="access__n"/>    </e>
-    <e lm="bacterium"><i>bacteri</i><par n="maxim/um__n"/>    </e>
+    <e lm="bacterium"><i>bacteri</i><par n="bacteri/um__n"/>    </e>
     <e lm="badger"><i>badger</i><par n="house__n"/>    </e>
     <e lm="bag"><i>bag</i><par n="house__n"/>    </e>
     <e lm="baggage"><i>baggage</i><par n="house__n"/>    </e>
@@ -33392,6 +33412,11 @@
     <e lm="Haitian" a="greenbreen"><p><l>Haitian</l><r>haitian</r></p><par n="expensive__adj"/></e>
     <e lm="Haitian" r="LR" a="greenbreen"><i>Haitian</i><par n="house__n"/></e>
     <e lm="Haitian" r="RL" a="greenbreen"><p><l>Haitian</l><r>haitian</r></p><par n="house__n"/></e>
+    <e lm="pay slip" a="greenbreen"><i>pay<b/>slip</i><par n="house__n"/></e>
+    <e lm="propagation" a="greenbreen"><i>propagation</i><par n="house__n"/></e>
+    <e lm="fluid" a="greenbreen"><i>fluid</i><par n="house__n"/></e>
+    <e lm="momentum" a="greenbreen"><i>moment</i><par n="maxim/um__n"/></e>
+    <e lm="mechanic" a="greenbreen"><i>mechanic</i><par n="house__n"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

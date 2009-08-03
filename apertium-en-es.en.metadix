@@ -1518,6 +1518,18 @@
           <r>is<s n="n"/><s n="pl"/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l>is'</l>
+          <r>is<s n="n"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>es'</l>
+          <r>is<s n="n"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="maxim/um__n">
       <e c="CP: nouns which remove -um and add -a or directly add -s (LR)">
@@ -17593,7 +17605,7 @@
     <e lm="altitude"><i>altitude</i><par n="house__n"/>    </e>
     <e lm="altruist"><i>altruist</i><par n="house__n"/>    </e>
     <e lm="aluminium" r="LR"><i>aluminium</i><par n="house__n"/>    </e>
-    <e lm="aluminium" alt="en-GB" r="RL"><i>aluminium</i><par n="house__n"/>    </e>
+    <e lm="aluminium" alt="en_GB" r="RL"><i>aluminium</i><par n="house__n"/>    </e>
     <e lm="amateur"><i>amateur</i><par n="house__n"/>    </e>
     <e lm="ambassador"><i>ambassador</i><par n="house__n"/>    </e>
     <e lm="ambiguity"><i>ambiguit</i><par n="bab/y__n"/>    </e>
@@ -17912,7 +17924,7 @@
     <e lm="bird"><i>bird</i><par n="house__n"/>    </e>
     <e lm="bird flu"><i>bird<b/>flu</i><par n="east__n"/>    </e>
     <e lm="ladybird" r="LR"><i>ladybird</i><par n="house__n"/>    </e>
-    <e lm="ladybird" alt="en-GB" r="RL"><i>ladybird</i><par n="house__n"/>    </e>
+    <e lm="ladybird" alt="en_GB" r="RL"><i>ladybird</i><par n="house__n"/>    </e>
     <e lm="birth"><i>birth</i><par n="house__n"/>    </e>
     <e lm="childbirth"><i>childbirth</i><par n="house__n"/>    </e>
     <e lm="birthday"><i>birthday</i><par n="house__n"/>    </e>
@@ -20525,8 +20537,10 @@
     <e lm="multinational"><i>multinational</i><par n="house__n"/>    </e>
     <e lm="multiple"><i>multiple</i><par n="house__n"/>    </e>
     <e lm="multiplicity"><i>multiplicit</i><par n="bab/y__n"/>    </e>
-    <e lm="mum" alt="en-GB" r="RL"><i>mum</i><par n="house__n"/>    </e>
     <e lm="mum" r="LR"><i>mum</i><par n="house__n"/>    </e>
+    <e lm="mum" r="LR" a="greenbreen"><p><l>mom</l><r>mum</r></p><par n="house__n"/>    </e>
+    <e lm="mum" alt="en_GB" r="RL"><i>mum</i><par n="house__n"/>    </e>
+    <e lm="mum" alt="en_US" r="RL" a="greenbreen"><p><l>mom</l><r>mum</r></p><par n="house__n"/>    </e>
     <e lm="mummy"><i>mumm</i><par n="bab/y__n"/>    </e>
     <e lm="municipality"><i>municipalit</i><par n="bab/y__n"/>    </e>
     <e lm="murder"><i>murder</i><par n="house__n"/>    </e>
@@ -32844,14 +32858,12 @@
     <e lm="pointer" a="greenbreen"><i>pointer</i><par n="house__n"/></e>
     <e lm="photocopier" a="greenbreen"><i>photocopier</i><par n="house__n"/></e>
     <e lm="jar" a="greenbreen"><i>jar</i><par n="house__n"/></e>
-    <e lm="aluminum" a="greenbreen" alt="en-US" r="RL"><p><l>aluminum</l><r>aluminium</r></p><par n="house__n"/></e>
+    <e lm="aluminum" a="greenbreen" alt="en_US" r="RL"><p><l>aluminum</l><r>aluminium</r></p><par n="house__n"/></e>
     <e lm="aluminum" a="greenbreen" c="US variant" r="LR"><p><l>aluminum</l><r>aluminium</r></p><par n="house__n"/></e>
-    <e lm="mom" a="greenbreen" c="US variant" r="LR"><p><l>mom</l><r>mum</r></p><par n="house__n"/></e>
-    <e lm="mom" a="greenbreen" alt="en-US" r="RL"><p><l>mom</l><r>mum</r></p><par n="house__n"/></e>
     <e lm="mailbox" a="greenbreen" c="ambiguous - maybe postbox?"><i>mailbox</i><par n="access__n"/></e>
     <e lm="lunchroom" a="greenbreen" c="ambiguous - maybe canteen?"><i>lunchroom</i><par n="house__n"/></e>
     <e lm="firefighter" a="greenbreen" c="ambiguous - maybe fireman?"><i>firefighter</i><par n="house__n"/></e>
-    <e lm="ladybug" a="greenbreen" alt="en-US" r="RL"><p><l>ladybug</l><r>ladybird</r></p><par n="house__n"/></e>
+    <e lm="ladybug" a="greenbreen" alt="en_US" r="RL"><p><l>ladybug</l><r>ladybird</r></p><par n="house__n"/></e>
     <e lm="ladybug" a="greenbreen" r="LR"><p><l>ladybug</l><r>ladybird</r></p><par n="house__n"/></e>
     <e lm="tub" a="greenbreen"><i>tub</i><par n="house__n"/></e>
     <e lm="crib" a="greenbreen"><i>crib</i><par n="house__n"/></e>
@@ -33422,6 +33434,26 @@
     <e lm="flake" a="greenbreen"><i>flake</i><par n="house__n"/></e>
     <e lm="physiologically" a="greenbreen"><i>physiologically</i><par n="maybe__adv"/></e>
     <e lm="carpel" a="greenbreen"><i>carpel</i><par n="house__n"/></e>
+    <e lm="meters above sea level" a="greenbreen"><i>meters<b/>above<b/>sea<b/>level</i><par n="personnel__n"/></e>
+    <e lm="per capita" a="greenbreen"><i>per<b/>capita</i><par n="expensive__adj"/></e>
+    <e lm="hospitality industry" a="greenbreen"><i>hospitality<b/>industr</i><par n="bab/y__n"/></e>
+    <e lm="lookout" a="greenbreen"><i>lookout</i><par n="house__n"/></e>
+    <e lm="rooted" a="greenbreen"><i>rooted</i><par n="expensive__adj"/></e>
+    <e lm="Ash Wednesday" a="greenbreen"><i>Ash<b/>Wednesday</i><par n="house__n"/></e>
+    <e lm="reunion" a="greenbreen"><i>reunion</i><par n="house__n"/></e>
+    <e lm="diver" a="greenbreen"><i>diver</i><par n="house__n"/></e>
+    <e lm="narcosis" a="greenbreen"><i>narcos</i><par n="analys/is__n"/></e>
+    <e lm="blood" r="RL" a="greenbreen"><i>blood</i><par n="expensive__adj"/></e>
+    <e lm="fertilization" a="greenbreen"><i>fertilization</i><par n="house__n"/></e>
+    <e lm="adaptative" a="greenbreen"><i>adaptative</i><par n="expensive__adj"/></e>
+    <e lm="interrelationship" a="greenbreen"><i>interrelationship</i><par n="house__n"/></e>
+    <e lm="interrelation" a="greenbreen"><i>interrelation</i><par n="house__n"/></e>
+    <e lm="french fry" r="LR" a="greenbreen"><i>french<b/>fr</i><par n="bab/y__n"/></e>
+    <e lm="french fry" r="RL" alt="en_GB" a="greenbreen"><p><l>chip></l><r>french<b/>fry</r></p><par n="house__n"/></e>
+    <e lm="french fry" r="RL" alt="en_US" a="greenbreen"><i>french<b/>fr</i><par n="bab/y__n"/></e>
+    <e lm="donut" a="greenbreen"><i>donut</i><par n="house__n"/></e>
+    <e lm="isolation" a="greenbreen"><i>isolation</i><par n="house__n"/></e>
+    <e lm="bearer" a="greenbreen"><i>bearer</i><par n="house__n"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

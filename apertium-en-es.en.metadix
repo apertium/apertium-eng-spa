@@ -2432,8 +2432,34 @@
       </e>
       <e r="LR">
         <p>
-          <l>s'</l>
+          <l>es'</l>
           <r><s n="np"/><s n="cog"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="Gauss__np">
+      <e c="CP: paradigm for family names">
+        <p>
+          <l/>
+          <r><s n="np"/><s n="cog"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>es</l>
+          <r><s n="np"/><s n="cog"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>es'</l>
+          <r><s n="np"/><s n="cog"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>'</l>
+          <r><s n="np"/><s n="cog"/><s n="sg"/><j/>'s<s n="gen"/></r>
         </p>
       </e>
     </pardef>
@@ -33454,6 +33480,31 @@
     <e lm="donut" a="greenbreen"><i>donut</i><par n="house__n"/></e>
     <e lm="isolation" a="greenbreen"><i>isolation</i><par n="house__n"/></e>
     <e lm="bearer" a="greenbreen"><i>bearer</i><par n="house__n"/></e>
+    <e lm="Einstein" a="greenbreen"><i>Einstein</i><par n="Smith__np"/></e>
+    <e lm="Gauss" a="greenbreen"><i>Gauss</i><par n="Gauss__np"/></e>
+    <e lm="Leonhard" a="greenbreen"><i>Leonhard</i><par n="Mark__np"/></e>
+    <e lm="Euler" a="greenbreen"><i>Euler</i><par n="Smith__np"/></e>
+    <e lm="Archimedes" a="greenbreen"><i>Archimedes</i><par n="James__np"/></e>
+    <e lm="Cauchy" a="greenbreen"><i>Cauchy</i><par n="Smith__np"/></e>
+    <e lm="Curie" a="greenbreen"><i>Curie</i><par n="Smith__np"/></e>
+    <e lm="Hilbert" a="greenbreen"><i>Hilbert</i><par n="Smith__np"/></e>
+    <e lm="Galilei" a="greenbreen"><i>Galilei</i><par n="Smith__np"/></e>
+    <e lm="Faraday" a="greenbreen"><i>Faraday</i><par n="Smith__np"/></e>
+    <e lm="Nikola" a="greenbreen"><i>Nikola</i><par n="Mark__np"/></e>
+    <e lm="Hawking" a="greenbreen"><i>Hawking</i><par n="Smith__np"/></e>
+    <e lm="Niels" a="greenbreen"><i>Niels</i><par n="James__np"/></e>
+    <e lm="Bohr" a="greenbreen"><i>Bohr</i><par n="Smith__np"/></e>
+    <e lm="Planck" a="greenbreen"><i>Planck</i><par n="Smith__np"/></e>
+    <e lm="Linus" a="greenbreen"><i>Linus</i><par n="James__np"/></e>
+    <e lm="Pauling" a="greenbreen"><i>Pauling</i><par n="Smith__np"/></e>
+    <e lm="Feynman" a="greenbreen"><i>Feynman</i><par n="Smith__np"/></e>
+    <e lm="Heisenberg" a="greenbreen"><i>Heisenberg</i><par n="Smith__np"/></e>
+    <e lm="Schrödinger" a="greenbreen"><i>Schrödinger</i><par n="Smith__np"/></e>
+    <e lm="Turing" a="greenbreen"><i>Turing</i><par n="Smith__np"/></e>
+    <e lm="von Neumann" a="greenbreen"><i>von<b/>Neumann</i><par n="Smith__np"/></e>
+    <e lm="Gottfried" a="greenbreen"><i>Gottfried</i><par n="Mark__np"/></e>
+    <e lm="Leibniz" a="greenbreen"><i>Leibniz</i><par n="Bush__np"/></e>
+    <e lm="Lavoisier" a="greenbreen"><i>Lavoisier</i><par n="Smith__np"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

@@ -21089,7 +21089,10 @@
     <e lm="possession"><i>possession</i><par n="house__n"/>    </e>
     <e lm="possessor"><i>possessor</i><par n="house__n"/>    </e>
     <e lm="possibility"><i>possibilit</i><par n="bab/y__n"/>    </e>
-    <e lm="post"><i>post</i><par n="house__n"/>    </e>
+    <e lm="post" r="LR"><i>post</i><par n="house__n"/>    </e>
+    <e lm="post" r="LR" a="greenbreen"><p><l>mail</l><r>post</r></p><par n="house__n"/>    </e>
+    <e lm="post" r="RL" alt="en_GB"><i>post</i><par n="house__n"/>    </e>
+    <e lm="post" r="RL" alt="en_US" a="greenbreen"><p><l>mail</l><r>post</r></p><par n="house__n"/>    </e>
     <e lm="postcard"><i>postcard</i><par n="house__n"/>    </e>
     <e lm="poster"><i>poster</i><par n="house__n"/>    </e>
     <e lm="poster"><i>poster</i><par n="house__n"/>    </e>
@@ -33509,6 +33512,11 @@
     <e lm="km" a="greenbreen"><i>km</i><par n="politics__n"/></e>
     <e lm="stretch" a="greenbreen"><i>stretch</i><par n="access__n"/></e>
     <e lm="dilapidated" a="greenbreen"><i>dilapidated</i><par n="expensive__adj"/></e>
+    <e lm="tourist" a="greenbreen"><i>tourist</i><par n="expensive__adj"/></e>
+    <e lm="practicable" a="greenbreen"><i>practicable</i><par n="expensive__adj"/></e>
+    <e lm="Bolivian" r="LR" a="greenbreen"><i>Bolivian</i><par n="house__n"/></e>
+    <e lm="Bolivian" r="RL" a="greenbreen"><p><l>Bolivian</l><r>bolivian</r></p><par n="house__n"/></e>
+    <e lm="Bolivian" a="greenbreen"><p><l>Bolivian</l><r>bolivian</r></p><par n="expensive__adj"/></e>
   </section>
 
   <section id="apostrophes" type="preblank">

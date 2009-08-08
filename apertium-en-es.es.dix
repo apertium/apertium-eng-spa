@@ -4437,32 +4437,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="pr/íncipe__n">
-      <e>
-        <p>
-          <l>incesas</l>
-          <r>íncipe<s n="n"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>incesa</l>
-          <r>íncipe<s n="n"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>íncipes</l>
-          <r>íncipe<s n="n"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>íncipe</l>
-          <r>íncipe<s n="n"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="bar/ón__n">
       <e>
         <p>
@@ -86175,7 +86149,8 @@
     <e lm="postre"><i>postre</i><par n="abismo__n"/>    </e>
     <e lm="postulado" a="prompsit2adn"><i>postulado</i><par n="abismo__n"/>    </e>
     <e lm="postura"><i>postura</i><par n="abeja__n"/>    </e>
-    <e lm="príncipe"><i>pr</i><par n="pr/íncipe__n"/>    </e>
+    <e lm="príncipe"><i>príncipe</i><par n="abismo__n"/>    </e>
+    <e lm="princesa" a="greenbreen"><i>princesa</i><par n="abeja__n"/>    </e>
     <e lm="practicante"><i>practicante</i><par n="accionista__n"/>    </e>
     <e lm="prado"><i>prado</i><par n="abismo__n"/>    </e>
     <e lm="pragmatismo" a="prompsit2adn"><i>pragmatismo</i><par n="abismo__n"/>    </e>
@@ -100279,6 +100254,9 @@
 <e lm="Fat Man" a="greenbreen"><i>Fat<b/>Man</i><par n="ABC__np"/></e>
 <e lm="enfrentamiento" a="greenbreen"><i>enfrentamiento</i><par n="abismo__n"/></e>
 <e lm="esfera" a="greenbreen"><i>esfera</i><par n="abeja__n"/></e>
+<e lm="neerlandés" a="greenbreen"><i>neerland</i><par n="aragon/és__n"/></e>
+<e lm="neerlandés" a="greenbreen"><i>neerland</i><par n="aragon/és__adj"/></e>
+<e lm="báscula" a="greenbreen"><i>báscula</i><par n="abeja__n"/></e>
   </section>
 
   <section id="regexp" type="standard">   

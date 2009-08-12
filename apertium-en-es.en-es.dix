@@ -17651,7 +17651,7 @@
     <e>  <p><l>technological<s n="adj"/></l><r>tecnológico<s n="adj"/></r></p></e>
     <e>  <p><l>tedious<s n="adj"/></l><r>tedioso<s n="adj"/></r></p></e>
     <e>  <p><l>telematic<s n="adj"/></l><r>telemático<s n="adj"/></r></p></e>
-    <e>  <p><l>telephonic<s n="adj"/></l><r>telefónico<s n="adj"/></r></p></e>
+    <e r="LR">  <p><l>telephonic<s n="adj"/></l><r>telefónico<s n="adj"/></r></p></e>
     <e>  <p><l>telescopic<s n="adj"/></l><r>telescópico<s n="adj"/></r></p></e>
     <e>  <p><l>telluric<s n="adj"/></l><r>telúrico<s n="adj"/></r></p></e>
     <e r="LR"><p><l>temporary<s n="adj"/></l><r>provisional<s n="adj"/><s n="mf"/></r></p></e>
@@ -28283,6 +28283,11 @@
 <e a="greenbreen"><p><l>death<b/>threat<s n="n"/></l><r>amenaza<g><b/>de<b/>muerte</g><s n="n"/><s n="f"/></r></p></e>
 <e a="greenbreen"><p><l>greasy<s n="adj"/><s n="sint"/></l><r>grasiento<s n="adj"/></r></p></e>
 <e r="LR" a="greenbreen"><p><l>oily<s n="adj"/><s n="sint"/></l><r>grasiento<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>telephone<s n="adj"/></l><r>telefónico<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>television<s n="adj"/></l><r>televisivo<s n="adj"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>tidy<s n="adj"/><s n="sint"/></l><r>ordenado<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>orderly<s n="adj"/></l><r>ordenado<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>cylinder<s n="n"/></l><r>cilindro<s n="n"/><s n="m"/></r></p></e>
   </section>
 
   <section  id="regexp" type="standard">

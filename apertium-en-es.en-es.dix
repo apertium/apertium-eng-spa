@@ -10140,7 +10140,7 @@
     <e r="LR"><p><l>clap<s n="n"/></l><r>aplauso<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>clarinet<s n="n"/></l><r>clarinete<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>clarity<s n="n"/></l><r>claridad<s n="n"/><s n="f"/></r></p></e>
-    <e srl="class"><p><l>class<s n="n"/></l><r>clase<s n="n"/><s n="f"/></r></p></e>
+    <e srl="class D"><p><l>class<s n="n"/></l><r>clase<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>classicism<s n="n"/></l><r>clasicismo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>classification<s n="n"/></l><r>clasificación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>classroom<s n="n"/></l><r>aula<s n="n"/><s n="f"/></r></p></e>
@@ -12300,7 +12300,7 @@
     <e>  <p><l>kilogram<s n="n"/></l><r>kilogramo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>kilogramme<s n="n"/></l><r>kilogramo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kilometre<s n="n"/></l><r>kilómetro<s n="n"/><s n="m"/></r></p></e>
-    <e srl="kind D"><p><l>kind<s n="n"/></l><r>clase<s n="n"/><s n="f"/></r></p></e>
+    <e srl="kind"><p><l>kind<s n="n"/></l><r>clase<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>kindergarten<s n="n"/></l><r>guardería<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>kindness<s n="n"/></l><r>bondad<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>king<s n="n"/></l><r>rey<s n="n"/><s n="GD"/></r></p></e>
@@ -28368,6 +28368,12 @@
 <e a="greenbreen"><p><l>spur<s n="n"/></l><r>espolón<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>Shaw<s n="np"/><s n="cog"/><s n="sg"/></l><r>Shaw<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" a="greenbreen"><p><l>Shaw<s n="np"/><s n="cog"/><s n="pl"/></l><r>Shaw<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="greenbreen"><p><l>cordless<b/>phone<s n="n"/></l><r>teléfono<b/>inalámbrico<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>answering<b/>machine<s n="n"/></l><r>contestador<b/>automático<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>soundtrack<s n="n"/></l><r>banda<b/>sonora<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>receiver<s n="n"/><s n="sg"/></l><r>auricular<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>receiver<s n="n"/><s n="pl"/></l><r>auricular<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="greenbreen"><p><l>headphones<s n="n"/><s n="pl"/></l><r>auriculares<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   </section>
 
   <section  id="regexp" type="standard">

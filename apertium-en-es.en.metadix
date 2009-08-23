@@ -2086,6 +2086,12 @@
           <r><s n="n"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>s'</l>
+          <r><s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="t/ooth__n">
       <e>
@@ -17265,6 +17271,7 @@
     <e lm="Kabul"><i>Kabul</i><par n="Barcelona__np"/>    </e>
     <e lm="Kennedy"><i>Kennedy</i><par n="Smith__np"/>    </e>
     <e lm="Korea"><i>Korea</i><par n="Barcelona__np"/>    </e>
+    <e lm="Korea" a="greenbreen"><p><l>Koreas</l><r>Korea</r></p><par n="United_States__np"/>    </e>
     <e lm="Kosovo"><i>Kosovo</i><par n="Barcelona__np"/>    </e>
     <e lm="Lara"><i>Lara</i><par n="Mary__np"/>    </e>
     <e lm="Latin America"><i>Latin<b/>America</i><par n="Barcelona__np"/>    </e>
@@ -23621,7 +23628,7 @@
     <e lm="faecal"><i>faecal</i><par n="expensive__adj"/>    </e>
     <e lm="fair"><i>fair</i><par n="long/__adj"/>    </e>
     <e lm="faithful"><i>faithful</i><par n="expensive__adj"/>    </e>
-    <e lm="false"><i>false</i><par n="long/__adj"/>    </e>
+    <e lm="false"><i>false</i><par n="nice/__adj"/>    </e>
     <e lm="familiar"><i>familiar</i><par n="expensive__adj"/>    </e>
     <e lm="family"><i>family</i><par n="expensive__adj"/>    </e>
     <e lm="famous"><i>famous</i><par n="expensive__adj"/>    </e>
@@ -33803,6 +33810,28 @@
     <e lm="deceitful" a="greenbreen"><i>deceitful</i><par n="expensive__adj"/></e>
     <e lm="deceptive" a="greenbreen"><i>deceptive</i><par n="expensive__adj"/></e>
     <e lm="discoloration" a="greenbreen"><i>discoloration</i><par n="house__n"/></e>
+    <e lm="North Korea" a="greenbreen"><i>North<b/>Korea</i><par n="Barcelona__np"/></e>
+    <e lm="South Korea" a="greenbreen"><i>South<b/>Korea</i><par n="Barcelona__np"/></e>
+    <e lm="contraceptive" a="greenbreen"><i>contraceptive</i><par n="house__n"/></e>
+    <e lm="contraceptive" a="greenbreen"><i>contraceptive</i><par n="expensive__adj"/></e>
+    <e lm="deceitfulness" a="greenbreen"><i>deceitfulness</i><par n="access__n"/></e>
+    <e lm="deceitfully" a="greenbreen"><i>deceitfully</i><par n="maybe__adv"/></e>
+    <e lm="fallacious" a="greenbreen"><i>fallacious</i><par n="expensive__adj"/></e>
+    <e lm="wildcat" a="greenbreen"><i>wildcat</i><par n="house__n"/></e>
+    <e lm="ergonomic" a="greenbreen"><i>ergonomic</i><par n="expensive__adj"/></e>
+    <e lm="bottlenose dolphin" a="greenbreen"><i>bottlenose<b/>dolphin</i><par n="house__n"/></e>
+    <e lm="rooster" a="greenbreen"><i>rooster</i><par n="house__n"/></e>
+    <e lm="grouse" a="greenbreen"><i>grouse</i><par n="staff__n"/></e>
+    <e lm="endemic" a="greenbreen"><i>endemic</i><par n="expensive__adj"/></e>
+    <e lm="reef" a="greenbreen"><i>reef</i><par n="house__n"/></e>
+    <e lm="coral reef" a="greenbreen"><i>coral<b/>reef</i><par n="house__n"/></e>
+    <e lm="frost" a="greenbreen"><i>frost</i><par n="house__n"/></e>
+    <e lm="freezing" a="greenbreen"><i>freezing</i><par n="expensive__adj"/></e>
+    <e lm="salmon" a="greenbreen"><i>salmon</i><par n="staff__n"/></e>
+    <e lm="deciduous" a="greenbreen"><i>deciduous</i><par n="expensive__adj"/></e>
+    <e lm="coniferous" a="greenbreen"><i>coniferous</i><par n="expensive__adj"/></e>
+    <e lm="Pleistocene" a="greenbreen"><i>Pleistocene</i><par n="Linux__np"/></e>
+    <e lm="Scandinavia" a="greenbreen"><i>Scandinavia</i><par n="Barcelona__np"/></e>
     <e lm="Abad"><i>Abad</i><par n="Smith__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Bush__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Bush__np"/></e>

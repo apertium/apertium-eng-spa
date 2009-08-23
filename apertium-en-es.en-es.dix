@@ -8690,7 +8690,7 @@
     <e>  <p><l>González<s n="np"/><s n="cog"/><s n="sg"/></l><r>González<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>González<s n="np"/><s n="cog"/><s n="pl"/></l><r>González<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e>  <p><l>Grace<s n="np"/></l><r>Grace<s n="np"/></r></p></e>
-    <e r="LR"><p><l>Great<b/>Britain<s n="np"/><s n="loc"/></l><r>Gran<b/>Bretaña<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e><p><l>Great<b/>Britain<s n="np"/><s n="loc"/></l><r>Gran<b/>Bretaña<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Greece<s n="np"/><s n="loc"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Grenada<s n="np"/><s n="loc"/></l><r>Granada<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Guadeloupe<s n="np"/><s n="loc"/></l><r>Guadalupe<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -8965,7 +8965,6 @@
     <e r="LR"><p><l>US<s n="np"/><s n="loc"/><s n="sg"/></l><r>EE.UU.<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
     <e>  <p><l>USA<s n="np"/><s n="loc"/><s n="sg"/></l><r>EE.UU.<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
     <e>  <p><l>Ukraine<s n="np"/><s n="loc"/></l><r>Ucrania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>United<b/>Kingdom<s n="np"/><s n="loc"/></l><r>Gran<b/>Bretaña<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>United<b/>Kingdom<s n="np"/><s n="loc"/></l><r>Reino<b/>Unido<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>United<b/>States<s n="np"/><s n="loc"/></l><r>Estados<b/>Unidos<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>The<b/>New<b/>York<b/>Times<s n="np"/><s n="al"/></l><r>The<b/>New<b/>York<b/>Times<s n="np"/><s n="al"/><s n="m"/></r></p></e>
@@ -16521,7 +16520,7 @@
     <e>  <p><l>emotional<s n="adj"/></l><r>emocional<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>empirical<s n="adj"/></l><r>empírico<s n="adj"/></r></p></e>
     <e srl="empty D"><p><l>empty<s n="adj"/><s n="sint"/></l><r>vacío<s n="adj"/></r></p></e>
-    <e>  <p><l>endemical<s n="adj"/></l><r>endémico<s n="adj"/></r></p></e>
+    <e r="LR">  <p><l>endemical<s n="adj"/></l><r>endémico<s n="adj"/></r></p></e>
     <e>  <p><l>energetic<s n="adj"/></l><r>energético<s n="adj"/></r></p></e>
     <e>  <p><l>enormous<s n="adj"/></l><r>enorme<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>enthusiastic<s n="adj"/></l><r>entusiasta<s n="adj"/><s n="mf"/></r></p></e>
@@ -27718,7 +27717,6 @@
 <e r="LR" a="greenbreen"><p><l>strenuous<s n="adj"/></l><r>agotador<s n="adj"/><s n="mf"/></r></p></e>
 <e a="greenbreen"><p><l>exhausting<s n="adj"/></l><r>agotador<s n="adj"/><s n="mf"/></r></p></e>
 <e a="greenbreen"><p><l>vigorously<s n="adv"/></l><r>enérgicamente<s n="adv"/></r></p></e>
-<e r="LR" a="greenbreen"><p><l>forcefully<s n="adv"/></l><r>con<b/>energía<s n="adv"/></r></p></e>
 <e a="greenbreen"><p><l>forcefully<s n="adv"/></l><r>con<b/>energía<s n="adv"/></r></p></e>
 <e a="greenbreen"><p><l>with<b/>energy<s n="adv"/></l><r>con<b/>energía<s n="adv"/></r></p></e>
 <e a="greenbreen"><p><l>bar<b/>code<s n="n"/></l><r>código<g><b/>de<b/>barras</g><s n="n"/><s n="m"/></r></p></e>
@@ -28401,6 +28399,31 @@
 <e a="greenbreen"><p><l>deceptive<s n="adj"/></l><r>engañoso<s n="adj"/></r></p></e>
 <e r="LR" a="greenbreen"><p><l>deceitful<s n="adj"/></l><r>engañoso<s n="adj"/></r></p></e>
 <e a="greenbreen"><p><l>discoloration<s n="n"/></l><r>decoloración<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>North<b/>Korea<s n="np"/><s n="loc"/></l><r>Corea<b/>del<b/>Norte<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>South<b/>Korea<s n="np"/><s n="loc"/></l><r>Corea<b/>del<b/>Sur<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>contraceptive<s n="n"/></l><r>anticonceptivo<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>contraceptive<s n="adj"/></l><r>anticonceptivo<s n="adj"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>deceitfulness<s n="n"/></l><r>falsedad<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>deceitfully<s n="adv"/></l><r>con<b/>falsedad<s n="adv"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>false<s n="adj"/><s n="sint"/></l><r>falaz<s n="adj"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>fallacious<s n="adj"/></l><r>falaz<s n="adj"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>wild<s n="adj"/><s n="sint"/></l><r>silvestre<s n="adj"/><s n="mf"/></r></p></e>
+<e a="greenbreen"><p><l>wildcat<s n="n"/></l><r>gato<b/>montés<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>ergonomic<s n="adj"/></l><r>ergonómico<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>bottlenose<b/>dolphin<s n="n"/></l><r>delfín<b/>mular<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>rooster<s n="n"/></l><r>gallo<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>grouse<s n="n"/></l><r>urogallo<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>endemic<s n="adj"/></l><r>endémico<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>reef<s n="n"/></l><r>arrecife<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>coral<b/>reef<s n="n"/></l><r>arrecife<g><b/>de<b/>coral</g><s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>frost<s n="n"/></l><r>helada<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>freezing<s n="adj"/></l><r>helado<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>salmon<s n="n"/></l><r>salmón<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>plateau<s n="n"/></l><r>meseta<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>deciduous<s n="adj"/></l><r>caducifolio<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>coniferous<s n="adj"/></l><r>conífero<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>Pleistocene<s n="np"/><s n="al"/></l><r>pleistoceno<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>Scandinavia<s n="np"/><s n="loc"/></l><r>Escandinavia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e><p><l>Abad<s n="np"/><s n="cog"/><s n="sg"/></l><r>Abad<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>Abad<s n="np"/><s n="cog"/><s n="pl"/></l><r>Abad<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>Martínez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Martínez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>

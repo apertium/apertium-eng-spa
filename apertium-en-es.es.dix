@@ -1543,32 +1543,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="violeta__adj">
-      <e>
-        <p>
-          <l>s</l>
-          <r><s n="adj"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>s</l>
-          <r><s n="adj"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l/>
-          <r><s n="adj"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l/>
-          <r><s n="adj"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="abdominal__adj">
       <e>
         <p>
@@ -94070,6 +94044,7 @@
     <e lm="amistosamente" a="prompsit2uoc"><i>amistosamente</i><par n="ahora__adv"/>     </e>
     <e lm="amonio" a="prompsit2uoc"><i>amonio</i><par n="abismo__n"/>     </e>
     <e lm="amoníaco" a="prompsit2uoc"><i>amoníaco</i><par n="abismo__n"/>     </e>
+    <e lm="amoníaco" r="LR" a="greenbreen"><p><l>amoniaco</l><r>amoníaco</r></p><par n="abismo__n"/>     </e>
     <e lm="amortizar" a="prompsit2adn"><i>amorti</i><par n="abalan/zar__vblex"/>     </e>
     <e lm="amortizar" a="prompsit2adn"><p><l>amortí</l><r>amorti</r></p><par n="abalán/zar__vblex"/>     </e>
     <e lm="amotinamiento" a="prompsit2uoc"><i>amotinamiento</i><par n="abismo__n"/>     </e>
@@ -100159,7 +100134,7 @@
 <e lm="pasillo" a="greenbreen"><i>pasillo</i><par n="abismo__n"/></e>
 <e lm="infrarrojo" a="greenbreen"><i>infrarroj</i><par n="absolut/o__adj"/></e>
 <e lm="violeta" a="greenbreen"><i>violeta</i><par n="abeja__n"/></e>
-<e lm="ultravioleta" a="greenbreen"><i>ultravioleta</i><par n="multimedia__adj"/></e>
+<e lm="ultravioleta" a="greenbreen"><i>ultravioleta</i><par n="abundante__adj"/></e>
 <e lm="rayo X" a="greenbreen"><i>rayo</i><par n="abismo__n"/><p><l><b/>X</l><r><g><b/>X</g></r></p></e>
 <e lm="radiografía" a="greenbreen"><i>radiografía</i><par n="abeja__n"/></e>
 <e lm="cobertizo" a="greenbreen"><i>cobertizo</i><par n="abismo__n"/></e>
@@ -100210,7 +100185,7 @@
 <e lm="multivitamínico" a="greenbreen"><i>multivitamínic</i><par n="absolut/o__adj"/></e>
 <e lm="examen de la vista" a="greenbreen"><i>examen</i><par n="abril__n"/><p><l><b/>de<b/>la<b/>vista</l><r><g><b/>de<b/>la<b/>vista</g></r></p></e>
 <e lm="actualización" a="greenbreen"><i>actualizaci</i><par n="acci/ón__n"/></e>
-<e lm="violet" a="greenbreen"><i>violeta</i><par n="violeta__adj"/></e>
+<e lm="violet" a="greenbreen"><i>violeta</i><par n="abundante__adj"/></e>
 <e lm="recomendable" a="greenbreen"><i>recomendable</i><par n="abundante__adj"/></e>
 <e lm="ancho de banda" a="greenbreen"><i>ancho</i><par n="abismo__n"/><p><l><b/>de<b/>banda</l><r><g><b/>de<b/>banda</g></r></p></e>
 <e lm="aportación" a="greenbreen"><i>aportaci</i><par n="acci/ón__n"/></e>
@@ -100391,7 +100366,7 @@
 <e lm="accionario" a="greenbreen"><i>accionari</i><par n="absolut/o__adj"/></e>
 <e lm="reconocible" a="greenbreen"><i>reconocible</i><par n="abundante__adj"/></e>
 <e lm="macho" a="greenbreen"><i>macho</i><par n="abismo__n"/></e>
-<e lm="macho" a="greenbreen"><i>macho</i><par n="violeta__adj"/></e>
+<e lm="macho" a="greenbreen"><i>macho</i><par n="abundante__adj"/></e>
 <e lm="suceso" a="greenbreen"><i>suceso</i><par n="abismo__n"/></e>
 <e lm="Calderón" a="greenbreen"><i>Calderón</i><par n="García__np"/></e>
 <e lm="Robledo" a="greenbreen"><i>Robledo</i><par n="García__np"/></e>
@@ -100518,6 +100493,32 @@
 <e lm="Chaikovski" a="greenbreen"><i>Chaikovski</i><par n="García__np"/></e>
 <e lm="cascanueces" a="greenbreen"><i>cascanueces</i><par n="campus__n"/></e>
 <e lm="salpicado" a="greenbreen"><i>salpicad</i><par n="absolut/o__adj"/></e>
+<e lm="Johannes" a="greenbreen"><i>Johannes</i><par n="Jaime__np"/></e>
+<e lm="Kepler" a="greenbreen"><i>Kepler</i><par n="García__np"/></e>
+<e lm="designación" a="greenbreen"><i>designaci</i><par n="acci/ón__n"/></e>
+<e lm="semieje mayor" a="greenbreen"><i>semieje<b/>mayor</i><par n="atletismo__n"/></e>
+<e lm="semieje mayor" a="greenbreen"><p><l>semiejes<b/>mayores</l><r>semieje<b/>mayor</r></p><par n="alrededores__n"/></e>
+<e lm="semieje menor" a="greenbreen"><i>semieje<b/>menor</i><par n="atletismo__n"/></e>
+<e lm="semieje menor" a="greenbreen"><p><l>semiejes<b/>menores</l><r>semieje<b/>menor</r></p><par n="alrededores__n"/></e>
+<e lm="calistiano" a="greenbreen"><i>calistian</i><par n="absolut/o__adj"/></e>
+<e lm="perturbación" a="greenbreen"><i>perturbaci</i><par n="acci/ón__n"/></e>
+<e lm="rotacional" a="greenbreen"><i>rotacional</i><par n="abdominal__adj"/></e>
+<e lm="apreciable" a="greenbreen"><i>apreciable</i><par n="abundante__adj"/></e>
+<e lm="fuerza de marea" a="greenbreen"><i>fuerza</i><par n="abeja__n"/><p><l><b/>de<b/>marea</l><r><g><b/>de<b/>marea</g></r></p></e>
+<e lm="radioactivo" a="greenbreen"><i>radioactiv</i><par n="absolut/o__adj"/></e>
+<e lm="ordinario" a="greenbreen"><i>ordinar</i><par n="limp/io__adj"/></e>
+<e lm="longitud de onda" a="greenbreen"><i>longitud</i><par n="accesibilidad__n"/><p><l><b/>de<b/>onda</l><r><g><b/>de<b/>onda</g></r></p></e>
+<e lm="dióxido de azufre" a="greenbreen"><i>dióxido</i><par n="abismo__n"/><p><l><b/>de<b/>azufre</l><r><g><b/>de<b/>azufre</g></r></p></e>
+<e lm="carbónico" a="greenbreen"><i>carbónic</i><par n="absolut/o__adj"/></e>
+<e lm="grueso" a="greenbreen"><i>grueso</i><par n="abismo__n"/></e>
+<e lm="salado" a="greenbreen"><i>salad</i><par n="absolut/o__adj"/></e>
+<e lm="conductor" a="greenbreen"><i>conductor</i><par n="abrumador__adj"/></e>
+<e lm="anticongelante" a="greenbreen"><i>anticongelante</i><par n="abismo__n"/></e>
+<e lm="saturado" a="greenbreen"><i>saturad</i><par n="absolut/o__adj"/></e>
+<e lm="tectónica" a="greenbreen"><i>tectónica</i><par n="abeja__n"/></e>
+<e lm="escarpa" a="greenbreen"><i>escarpa</i><par n="abeja__n"/></e>
+<e lm="endógeno" a="greenbreen"><i>endógen</i><par n="absolut/o__adj"/></e>
+<e lm="nudoso" a="greenbreen"><i>nudos</i><par n="absolut/o__adj"/></e>
     <e lm="abastecer"><i>abaste</i><par n="agrade/cer__vblex"/></e>
     <e lm="abastecer"><p><l>abasté</l><r>abaste</r></p><par n="agradé/cer__vblex"/></e>
     <e lm="abatir"><i>abat</i><par n="abat/ir__vblex"/></e>

@@ -25150,6 +25150,7 @@
     <e lm="burn"><i>burn</i><par n="accept__vblex"/>    </e>
     <e r="LR" lm="burn"><i>burn</i><par n="deal__vblex"/>    </e>
     <e lm="burst"><i>burst</i><par n="cost__vblex"/>    </e>
+    <e lm="burst into"><i>burst</i><par n="cost__vblex"/><p><l><b/>into</l><r><g><b/>into</g></r></p></e>
     <e lm="come out"><i>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>out</l><r><g><b/>out</g></r></p></e>
     <e lm="come"><i>c</i><par n="bec/ome__vblex"/>    </e>
     <e lm="come in"><i>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>in</l><r><g><b/>in</g></r></p></e>
@@ -25809,6 +25810,7 @@
     <e lm="learn"><i>learn</i><par n="deal__vblex"/>    </e>
     <e r="LR" lm="learn"><i>learn</i><par n="accept__vblex"/>    </e>
     <e lm="lease"><i>leas</i><par n="liv/e__vblex"/>    </e>
+    <e lm="aggregate"><i>aggregat</i><par n="liv/e__vblex"/>    </e>
     <e lm="legalize"><i>legali</i><par n="organi/ze__vblex"/>    </e>
     <e lm="legitimate"><i>legitimat</i><par n="liv/e__vblex"/>    </e>
     <e lm="lend"><i>len</i><par n="ben/d__vblex"/>    </e>
@@ -26604,6 +26606,8 @@
     <e lm="overly"><i>overly</i><par n="very__preadv"/>    </e>
     <e lm="very"><i>very</i><par n="very__preadv"/>    </e>
     <e lm="God willing"><i>God<b/>willing</i><par n="maybe__adv"/>    </e>
+    <e lm="long-windedly"><i>long-windedly</i><par n="maybe__adv"/>    </e>
+    <e lm="expertise"><i>expertise</i><par n="politics__n"/>    </e>
     <e lm="a.m."><i>a.m.</i><par n="maybe__adv"/>    </e>
     <e lm="a bit"><i>a<b/>bit</i><par n="maybe__adv"/>    </e>
     <e lm="a little bit"><i>a<b/>little<b/>bit</i><par n="maybe__adv"/>    </e>
@@ -27891,6 +27895,10 @@
     <e lm="Dopplr"><i>Dopplr</i><par n="Linux__np"/>     </e>
     <e lm="iTunes"><i>iTunes</i><par n="Linux__np"/>     </e>
     <e lm="IHeardItOn"><i>IHeardItOn</i><par n="Linux__np"/>     </e>
+    <e lm="Microsoft Bing"><i>Microsoft<b/>Bing</i><par n="Linux__np"/>     </e>
+    <e lm="Bing"><i>Bing</i><par n="Linux__np"/>     </e>
+    <e lm="Nike"><i>Nike</i><par n="Linux__np"/>     </e>
+    <e lm="Garmin"><i>Garmin</i><par n="Linux__np"/>     </e>
     <e lm="First World War"><i>First<b/>World<b/>War</i><par n="Linux__np"/>     </e>
     <e lm="Great Depression"><i>Great<b/>Depression</i><par n="Linux__np"/>     </e>
     <e lm="Great War"><i>Great<b/>War</i><par n="Linux__np"/>     </e>
@@ -27968,6 +27976,7 @@
     <e lm="impaler"><i>impaler</i><par n="house__n"/></e>
     <e lm="unemployed person"><i>unemployed<b/>person</i><par n="east__n"/></e>
     <e lm="dear"><i>dear</i><par n="long/__adj"/></e>
+    <e lm="tempting"><i>tempting</i><par n="expensive__adj"/></e>
     <e lm="banking" a="prompsit2cdl"><i>banking</i><par n="expensive__adj"/></e>
     <e lm="addressee" a="prompsit2cdl"><i>addressee</i><par n="house__n"/></e>
     <e lm="pertaining" a="prompsit2cdl"><i>pertaining</i><par n="expensive__adj"/></e>

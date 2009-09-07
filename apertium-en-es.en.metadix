@@ -25639,7 +25639,10 @@
     <e lm="freshen"><i>freshen</i><par n="accept__vblex"/>    </e>
     <e lm="frighten"><i>frighten</i><par n="accept__vblex"/>    </e>
     <e lm="frustrate"><i>frustrat</i><par n="liv/e__vblex"/>    </e>
-    <e lm="fulfil"><i>fulfil</i><par n="control__vblex"/>    </e>
+    <e lm="fulfil" r="LR"><i>fulfil</i><par n="control__vblex"/>    </e>
+    <e lm="fulfil" r="LR" a="greenbreen"><p><l>fulfill</l><r>fulfil</r></p><par n="accept__vblex"/>    </e>
+    <e lm="fulfil" r="RL" alt="en_GB"><i>fulfil</i><par n="control__vblex"/>    </e>
+    <e lm="fulfil" r="RL" alt="en_US" a="greenbreen"><p><l>fulfill</l><r>fulfil</r></p><par n="accept__vblex"/>    </e>
     <e lm="function"><i>function</i><par n="accept__vblex"/>    </e>
     <e lm="fund"><i>fund</i><par n="accept__vblex"/>    </e>
     <e lm="furnish"><i>furnish</i><par n="approach__vblex"/>    </e>
@@ -33992,6 +33995,24 @@
     <e lm="fuzzy logic" a="greenbreen"><i>fuzzy<b/>logic</i><par n="house__n"/></e>
     <e lm="syntax" a="greenbreen"><i>syntax</i><par n="access__n"/></e>
     <e lm="PHP" a="greenbreen"><i>PHP</i><par n="BBC__n"/></e>
+    <e lm="suspense" a="greenbreen"><i>suspense</i><par n="house__n"/></e>
+    <e lm="custom" a="greenbreen"><i>custom</i><par n="expensive__adj"/></e>
+    <e lm="AT&amp;T" a="greenbreen"><i>AT&amp;T</i><par n="BBC__n"/></e>
+    <e lm="control bit" a="greenbreen"><i>control<b/>bit</i><par n="house__n"/></e>
+    <e lm="IEEE" a="greenbreen"><i>IEEE</i><par n="BBC__n"/></e>
+    <e lm="EPROM" a="greenbreen"><i>EPROM</i><par n="BBC__n"/></e>
+    <e lm="Ethernet" a="greenbreen"><i>Ethernet</i><par n="house__n"/></e>
+    <e lm="MS-DOS" a="greenbreen"><i>MS-DOS</i><par n="BBC__n"/></e>
+    <e lm="MB" a="greenbreen"><i>MB</i><par n="BBC__n"/></e>
+    <e lm="operating system" a="greenbreen"><i>operating<b/>system</i><par n="house__n"/></e>
+    <e lm="base address" a="greenbreen"><i>base<b/>address</i><par n="access__n"/></e>
+    <e lm="signaling" a="greenbreen"><i>signaling</i><par n="house__n"/></e>
+    <e lm="serial port" a="greenbreen"><i>serial<b/>port</i><par n="house__n"/></e>
+    <e lm="compact disc player" a="greenbreen"><i>compact<b/>disc<b/>player</i><par n="house__n"/></e>
+    <e lm="Lexmark" a="greenbreen"><i>Lexmark</i><par n="Linux__np"/></e>
+    <e lm="Texas Instruments" a="greenbreen"><i>Texas<b/>Instruments</i><par n="Linux__np"/></e>
+    <e lm="megabyte" a="greenbreen"><i>megabyte</i><par n="house__n"/></e>
+    <e lm="radius" a="greenbreen"><i>radi</i><par n="stimul/us__n"/></e>
     <e lm="Abad"><i>Abad</i><par n="Smith__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Bush__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Bush__np"/></e>

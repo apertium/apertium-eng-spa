@@ -9212,17 +9212,23 @@
       </e>
     </pardef>
     <pardef n="z_s">
-      <e c="en_GB, en_ZA, en_IE">
-	<p>
-	  <l>s</l>
-	  <r>s</r>
-	</p>
+      <e c="en_GB, en_ZA, en_IE" r="LR">
+        <p>
+          <l>z</l>
+          <r>s</r>
+        </p>
       </e>
-      <e r="LR" c="en_US, en_CA">
-	<p>
-	  <l>z</l>
-	  <r>s</r>
-	</p>
+      <e r="LR">
+        <i>s</i>
+      </e>
+      <e alt="en_US" r="RL">
+        <p>
+          <l>z</l>
+          <r>s</r>
+        </p>
+      </e>
+      <e alt="en_GB" r="RL">
+        <i>s</i>
       </e>
     </pardef>
     <pardef n="e_ae">
@@ -20848,7 +20854,6 @@
     <e lm="organ"><i>organ</i><par n="house__n"/>    </e>
     <e lm="organism" a="carmentano"><i>organism</i><par n="house__n"/>    </e>
     <e lm="organist"><i>organist</i><par n="house__n"/>    </e>
-    <e lm="organisation"><i>organi</i><par n="z_s"/><i>ation</i><par n="house__n"/>    </e>
     <e lm="organiser"><i>organi</i><par n="z_s"/><i>er</i><par n="house__n"/>    </e>
     <e lm="orgasm"><i>orgasm</i><par n="house__n"/>    </e>
     <e lm="oriel"><i>oriel</i><par n="house__n"/>    </e>
@@ -21526,7 +21531,7 @@
     <e lm="rent"><i>rent</i><par n="house__n"/>    </e>
     <e lm="rental"><i>rental</i><par n="house__n"/>    </e>
     <e lm="reopening"><i>reopening</i><par n="house__n"/>    </e>
-    <e lm="reorganisation"><i>reorgani</i><par n="z_s"/><i>ation</i><par n="house__n"/>    </e>
+    <e lm="reorganisation"><i>reorgani</i><par n="globali/sation__n"/>    </e>
     <e lm="repair"><i>repair</i><par n="house__n"/>    </e>
     <e lm="repatriation"><i>repatriation</i><par n="house__n"/>    </e>
     <e lm="repayment"><i>repayment</i><par n="house__n"/>    </e>
@@ -25295,7 +25300,7 @@
     <e lm="contrast"><i>contrast</i><par n="accept__vblex"/>    </e>
     <e lm="contravene"><i>contraven</i><par n="liv/e__vblex"/>    </e>
     <e lm="contribute"><i>contribut</i><par n="liv/e__vblex"/>    </e>
-    <e lm="contrive"><i>contrive</i><par n="accept__vblex"/>    </e>
+    <e lm="contrive"><i>contriv</i><par n="liv/e__vblex"/>    </e>
     <e lm="control"><i>control</i><par n="control__vblex"/>    </e>
     <e lm="converge"><i>converg</i><par n="liv/e__vblex"/>    </e>
     <e lm="convert"><i>convert</i><par n="accept__vblex"/>    </e>
@@ -31106,8 +31111,7 @@
     <e lm="organelle"><i>organelle</i><par n="house__n"/>     </e>
     <e lm="organicism"><i>organicism</i><par n="house__n"/>     </e>
     <e lm="organize"><i>organi</i><par n="organi/ze__vblex"/>     </e>
-    <e lm="organization"><i>organi</i><par n="globali/sation__n"/>     </e>
-    <e lm="organizer"><i>organizer</i><par n="house__n"/>     </e>
+    <e lm="organisation"><i>organi</i><par n="globali/sation__n"/>     </e>
     <e lm="orgeat"><i>orgeat</i><par n="house__n"/>     </e>
     <e lm="orientalism"><i>orientalism</i><par n="house__n"/>     </e>
     <e lm="orle"><i>orle</i><par n="house__n"/>     </e>
@@ -34022,6 +34026,10 @@
     <e lm="redwood" a="greenbreen"><i>redwood</i><par n="house__n"/></e>
     <e lm="evergreen" a="greenbreen"><i>evergreen</i><par n="expensive__adj"/></e>
     <e lm="longevous" a="greenbreen"><i>longevous</i><par n="expensive__adj"/></e>
+    <e lm="statistician" a="greenbreen"><i>statistician</i><par n="house__n"/></e>
+    <e lm="adipose" a="greenbreen"><i>adipose</i><par n="expensive__adj"/></e>
+    <e lm="World Health Organisation" a="greenbreen"><i>World<b/>Health<b/>Organi</i><par n="z_s"/><i>ation</i><par n="Linux__np"/></e>
+    <e lm="WHO" a="greenbreen"><i>WHO</i><par n="BBC__n"/></e>
     <e lm="Abad"><i>Abad</i><par n="Smith__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Bush__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Bush__np"/></e>

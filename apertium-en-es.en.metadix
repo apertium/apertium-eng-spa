@@ -20167,8 +20167,10 @@
     <e lm="journey"><i>journey</i><par n="house__n"/>    </e>
     <e lm="joy"><i>joy</i><par n="house__n"/>    </e>
     <e lm="judge"><i>judge</i><par n="house__n"/>    </e>
-    <e lm="judgement"><i>judgement</i><par n="house__n"/>    </e>
-    <e lm="judgment"><i>judgment</i><par n="house__n"/>    </e>
+    <e lm="judgement" r="LR"><i>judgement</i><par n="house__n"/>    </e>
+    <e lm="judgment" r="LR"><p><l>judgment</l><r>judgement</l></p><par n="house__n"/>    </e>
+    <e lm="judgement" r="RL" alt="en_GB"><i>judgement</i><par n="house__n"/>    </e>
+    <e lm="judgment" r="RL" alt="en_US"><p><l>judgment</l><r>judgement</l></p><par n="house__n"/>    </e>
     <e lm="judicature"><i>judicature</i><par n="house__n"/>    </e>
     <e lm="juggler"><i>juggler</i><par n="house__n"/>    </e>
     <e lm="juice"><i>juice</i><par n="house__n"/>    </e>

@@ -42,11 +42,7 @@ then MODES="";
 else MODES="modes";
 fi
 
-if test $(xsltproc --dumpextensions|grep '\{http:\/\/exslt.org\/strings\}replace') != ""; 
-then ALTXSL="alt.xsl";
-else ALTXSL="alt-pure.xsl";
-fi
-
+ALTXSL="alt.xsl";
 
 AC_SUBST(MODES)
 AC_SUBST(ALTXSL)

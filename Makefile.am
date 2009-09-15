@@ -149,7 +149,7 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(LANG1).tsx \
 	   $(BASENAME).$(LANG2).tsx \
 	   $(PREFIX1).prob $(PREFIX2).prob \
-	   buscaPar.xsl principal.xsl alt.xsl alt-pure.xsl str.replace.function.xsl \
+	   buscaPar.xsl principal.xsl alt.xsl \
            translate-to-default-equivalent.xsl \
 	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
 	   $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \

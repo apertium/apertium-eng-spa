@@ -17,12 +17,30 @@
  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
  02111-1307, USA.
 -->
-<xsl:stylesheet version="1.0" 
- xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
- xmlns:str="http://exslt.org/strings"
- extension-element-prefixes="str">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="text" encoding="UTF-8"/>
 <xsl:param name="alt"/>
+
+<xsl:template name="replaceString">
+  <xsl:param name="haystack"/>
+  <xsl:param name="needle"/>
+  <xsl:param name="replacement"/>
+  <xsl:choose>
+    <xsl:when test="contains($haystack, $needle)">
+      <xsl:value-of select="substring-before($haystack, $needle)"/>
+      <xsl:value-of select="$replacement"/>
+      <xsl:call-template name="replaceString">
+	<xsl:with-param name="haystack" 
+			select="substring-after($haystack, $needle)"/>
+	<xsl:with-param name="needle" select="$needle"/>
+	<xsl:with-param name="replacement" select="$replacement"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="$haystack"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
 
 <xsl:template match="/">
   <xsl:value-of select="string('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;')"/>
@@ -39,7 +57,11 @@
           <xsl:value-of select="string(' ')"/>
           <xsl:value-of select="local-name(.)"/>
           <xsl:value-of select="string('=&quot;')"/>
-          <xsl:value-of select="str:replace (., '&amp;', '&amp;amp;')"/>
+	  <xsl:call-template name="replaceString">
+            <xsl:with-param name="haystack" select="."/>
+            <xsl:with-param name="needle" select="string('&amp;')"/>
+            <xsl:with-param name="replacement" select="string('&amp;amp;')"/>          
+          </xsl:call-template>
           <xsl:value-of select="string('&quot;')"/>
         </xsl:if>
       </xsl:for-each>
@@ -66,7 +88,11 @@
 </xsl:template>
 
 <xsl:template match="text()">
-  <xsl:value-of select="str:replace (., '&amp;', '&amp;amp;')"/>
+  <xsl:call-template name="replaceString">
+    <xsl:with-param name="haystack" select="."/>
+    <xsl:with-param name="needle" select="string('&amp;')"/>
+    <xsl:with-param name="replacement" select="string('&amp;amp;')"/>          
+  </xsl:call-template>
 </xsl:template>
 
 </xsl:stylesheet>

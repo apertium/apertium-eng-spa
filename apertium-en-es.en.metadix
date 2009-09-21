@@ -18911,7 +18911,10 @@
     <e lm="deduction" a="doriua"><i>deduction</i><par n="house__n"/>    </e>
     <e lm="defeat"><i>defeat</i><par n="house__n"/>    </e>
     <e lm="defeatist"><i>defeatist</i><par n="house__n"/>    </e>
-    <e lm="defence" c="UE"><i>defence</i><par n="house__n"/>    </e>
+    <e lm="defence" r="LR" c="UE"><i>defence</i><par n="house__n"/>    </e>
+    <e lm="defence" r="LR" a="greenbreen"><p><l>defense</l><r>defence</r></p><par n="house__n"/>    </e>
+    <e lm="defence" r="RL" alt="en_GB"><i>defence</i><par n="house__n"/>    </e>
+    <e lm="defence" r="RL" alt="en_US" a="greenbreen"><p><l>defense</l><r>defence</r></p><par n="house__n"/>    </e>
     <e lm="deficit"><i>deficit</i><par n="house__n"/>    </e>
     <e lm="definition"><i>definition</i><par n="house__n"/>    </e>
     <e lm="deformity"><i>deformit</i><par n="bab/y__n"/>    </e>
@@ -34182,6 +34185,26 @@
     <e lm="precursor" a="greenbreen"><i>precursor</i><par n="house__n"/></e>
     <e lm="Ludwig" a="greenbreen"><i>Ludwig</i><par n="Mark__np"/></e>
     <e lm="uniformly" a="greenbreen"><i>uniformly</i><par n="maybe__adv"/></e>
+    <e lm="SPICE" r="RL" a="greenbreen"><i>SPICE</i><par n="Linux__np"/></e>
+    <e lm="integrated" a="greenbreen"><i>integrated</i><par n="expensive__adj"/></e>
+    <e lm="Berkeley" a="greenbreen"><i>Berkeley</i><par n="Barcelona__np"/></e>
+    <e lm="Pederson" a="greenbreen"><i>Pederson</i><par n="Smith__np"/></e>
+    <e lm="analog" a="greenbreen"><i>analog</i><par n="expensive__adj"/></e>
+    <e lm="condenser" a="greenbreen"><i>condenser</i><par n="house__n"/></e>
+    <e lm="Nagel" a="greenbreen"><i>Nagel</i><par n="Smith__np"/></e>
+    <e lm="liberalism" a="greenbreen"><i>liberalism</i><par n="house__n"/></e>
+    <e lm="proprietary" a="greenbreen"><i>proprietary</i><par n="expensive__adj"/></e>
+    <e lm="public domain" a="greenbreen"><i>public<b/>domain</i><par n="house__n"/></e>
+    <e lm="FORTRAN" a="greenbreen"><i>FORTRAN</i><par n="Linux__np"/></e>
+    <e lm="graduate student" a="greenbreen"><i>graduate<b/>student</i><par n="house__n"/></e>
+    <e lm="open source" a="greenbreen"><i>open<b/>source</i><par n="house__n"/></e>
+    <e lm="open source program" a="greenbreen"><i>open<b/>source<b/>program</i><par n="house__n"/></e>
+    <e lm="reciprocally" a="greenbreen"><i>reciprocally</i><par n="maybe__adv"/></e>
+    <e lm="latency" a="greenbreen"><i>latenc</i><par n="bab/y__n"/></e>
+    <e lm="drain" a="greenbreen"><i>drain</i><par n="house__n"/></e>
+    <e lm="substrate" a="greenbreen"><i>substrate</i><par n="house__n"/></e>
+    <e lm="exciting" a="greenbreen"><i>exciting</i><par n="expensive__adj"/></e>
+    <e lm="yoga" a="greenbreen"><i>yoga</i><par n="house__n"/></e>
     <e lm="Abad"><i>Abad</i><par n="Smith__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Bush__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Bush__np"/></e>

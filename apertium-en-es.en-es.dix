@@ -9268,7 +9268,7 @@
     <e>  <p><l>air<s n="n"/></l><r>aire<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>aircraft<s n="n"/></l><r>aeronave<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>airfield<s n="n"/></l><r>aeródromo<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>airplane<s n="n"/></l><r>avión<s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>aeroplane<s n="n"/></l><r>avión<s n="n"/><s n="m"/></r></p></e>
     <e r="LR">  <p><l>airliner<s n="n"/></l><r>avión<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>airport<s n="n"/></l><r>aeropuerto<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>alarm<s n="n"/></l><r>alarma<s n="n"/><s n="f"/></r></p></e>
@@ -17251,7 +17251,7 @@
     <e srl="outside"><p><l>outside<s n="adj"/></l><r>exterior<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>outstanding<s n="adj"/></l><r>excepcional<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>oval<s n="adj"/></l><r>ovalado<s n="adj"/></r></p></e>
-    <e>  <p><l>overhead<s n="adj"/></l><r>elevado<s n="adj"/></r></p></e>
+    <e r="LR">  <p><l>overhead<s n="adj"/></l><r>elevado<s n="adj"/></r></p></e>
     <e r="LR">  <p><l>overriding<s n="adj"/></l><r>primordial<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>paramount<s n="adj"/></l><r>primordial<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>overwhelming<s n="adj"/></l><r>agobiante<s n="adj"/><s n="mf"/></r></p></e>
@@ -28931,6 +28931,35 @@
 <e r="RL" a="greenbreen"><p><l>celestial<s n="adj"/></l><r>celeste<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>original<s n="adj"/></l><r>primigenio<s n="adj"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>inclination<s n="n"/></l><r>oblicuidad<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>pulsar<s n="n"/></l><r>púlsar<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>neutron<b/>star<s n="n"/></l><r>estrella<g><b/>de<b/>neutrones</g><s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>Big<b/>Bang<s n="n"/></l><r>Big<b/>Bang<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>cosmological<s n="adj"/></l><r>cosmológico<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>quantum<s n="adj"/></l><r>cuántico<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>zenithal<s n="adj"/></l><r>cenital<s n="adj"/><s n="mf"/></r></p></e>
+<e a="greenbreen"><p><l>eclipse<s n="n"/></l><r>eclipse<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>galactic<s n="adj"/></l><r>galáctico<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>stellar<s n="adj"/></l><r>estelar<s n="adj"/><s n="mf"/></r></p></e>
+<e a="greenbreen"><p><l>ephemeris<s n="n"/></l><r>efeméride<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>Greenwich<s n="np"/><s n="loc"/></l><r>Greenwich<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>parsec<s n="n"/></l><r>pársec<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>radio<b/>astronomy<s n="n"/></l><r>radioastronomía<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>neutrino<s n="n"/></l><r>neutrino<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>gamma<b/>rays<s n="n"/></l><r>rayos<b/>gamma<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>refrigeration<s n="n"/></l><r>refrigeración<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>radio<b/>telescope<s n="n"/></l><r>radiotelescopio<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>analyzable<s n="adj"/></l><r>analizable<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>aeroplane<s n="n"/></l><r>aeroplano<s n="n"/><s n="m"/></r></p></e>
+<e a="greenbreen"><p><l>interstellar<s n="adj"/></l><r>interestelar<s n="adj"/><s n="mf"/></r></p></e>
+<e a="greenbreen"><p><l>intergalactic<s n="adj"/></l><r>intergaláctico<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>supernova<s n="n"/></l><r>supernova<s n="n"/><s n="f"/></r></p></e>
+<e a="greenbreen"><p><l>Magellan<s n="np"/><s n="cog"/><s n="sg"/></l><r>Magallanes<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>Magellan<s n="np"/><s n="cog"/><s n="pl"/></l><r>Magallanes<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" a="greenbreen"><p><l>Scorpio<s n="n"/></l><r>escorpio<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>Scorpio<s n="n"/></l><r>escorpio<s n="n"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>high<s n="adj"/><s n="sint"/></l><r>elevado<s n="adj"/></r></p></e>
+<e a="greenbreen"><p><l>spicy<s n="adj"/><s n="sint"/></l><r>picante<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL" a="greenbreen"><p><l>spicy<s n="adj"/><s n="sint"/></l><r>picante<s n="adj"/></r></p></e>
     <e><p><l>Abad<s n="np"/><s n="cog"/><s n="sg"/></l><r>Abad<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>Abad<s n="np"/><s n="cog"/><s n="pl"/></l><r>Abad<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>Martínez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Martínez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>

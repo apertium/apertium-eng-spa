@@ -1793,6 +1793,26 @@
         </p>
       </e>
     </pardef>
+    <pardef n="ephemeri/s__n">
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>des</l>
+          <r>s<s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>des'</l>
+          <r>s<s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="staff__n">
       <e c="CP: singular spelling">
         <p>
@@ -17681,7 +17701,10 @@
     <e lm="air"><i>air</i><par n="house__n"/>    </e>
     <e lm="aircraft"><i>aircraft</i><par n="politics__n"/>    </e>
     <e lm="airfield"><i>airfield</i><par n="house__n"/>    </e>
-    <e lm="airplane"><i>airplane</i><par n="house__n"/>    </e>
+    <e lm="aeroplane" r="LR" a="greenbreen"><i>aeroplane</i><par n="house__n"/>    </e>
+    <e lm="aeroplane" r="LR" ><p><l>airplane</l><r>aeroplane</r></p><par n="house__n"/>    </e>
+    <e lm="aeroplane" r="RL" alt="en_GB"><i>airplane</i><par n="house__n"/>    </e>
+    <e lm="aeroplane" r="RL" alt="en_US" a="greenbreen"><p><l>airplane</l><r>aeroplane</r></p><par n="house__n"/>    </e>
     <e lm="airport"><i>airport</i><par n="house__n"/>    </e>
     <e lm="alarm"><i>alarm</i><par n="house__n"/>    </e>
     <e lm="alarmism"><i>alarmism</i><par n="house__n"/>    </e>
@@ -34250,6 +34273,31 @@
     <e lm="ad hoc" r="LR" a="greenbreen"><p><l>ad-hoc</l><r>ad<b/>hoc</r></p><par n="expensive__adj"/></e>
     <e lm="astrophysics" a="greenbreen"><i>astrophysics</i><par n="staff__n"/></e>
     <e lm="astrophysicist" a="greenbreen"><i>astrophysicist</i><par n="house__n"/></e>
+    <e lm="pulsar" a="greenbreen"><i>pulsar</i><par n="house__n"/></e>
+    <e lm="neutron star" a="greenbreen"><i>neutron<b/>star</i><par n="house__n"/></e>
+    <e lm="Big Bang" a="greenbreen"><i>Big<b/>Bang</i><par n="house__n"/></e>
+    <e lm="Big Bang" r="LR" a="greenbreen"><p><l>big<b/>bang</l><r>Big<b/>Bang</r></p><par n="house__n"/></e>
+    <e lm="cosmological" a="greenbreen"><i>cosmological</i><par n="expensive__adj"/></e>
+    <e lm="quantum" a="greenbreen"><i>quantum</i><par n="expensive__adj"/></e>
+    <e lm="zenithal" a="greenbreen"><i>zenithal</i><par n="expensive__adj"/></e>
+    <e lm="eclipse" a="greenbreen"><i>eclipse</i><par n="house__n"/></e>
+    <e lm="galactic" a="greenbreen"><i>galactic</i><par n="expensive__adj"/></e>
+    <e lm="stellar" a="greenbreen"><i>stellar</i><par n="expensive__adj"/></e>
+    <e lm="ephemeris" a="greenbreen"><i>ephemeri</i><par n="ephemeri/s__n"/></e>
+    <e lm="Greenwich" a="greenbreen"><i>Greenwich</i><par n="Barcelona__np"/></e>
+    <e lm="parsec" a="greenbreen"><i>parsec</i><par n="house__n"/></e>
+    <e lm="radio astronomy" a="greenbreen"><i>radio<b/>astronom</i><par n="bab/y__n"/></e>
+    <e lm="neutrino" a="greenbreen"><i>neutrino</i><par n="house__n"/></e>
+    <e lm="gamma rays" a="greenbreen"><i>gamma<b/>rays</i><par n="alms__n"/></e>
+    <e lm="refrigeration" a="greenbreen"><i>refrigeration</i><par n="house__n"/></e>
+    <e lm="radio telescope" a="greenbreen"><i>radio<b/>telescope</i><par n="house__n"/></e>
+    <e lm="analyzable" a="greenbreen"><i>analyzable</i><par n="expensive__adj"/></e>
+    <e lm="interstellar" a="greenbreen"><i>interstellar</i><par n="expensive__adj"/></e>
+    <e lm="intergalactic" a="greenbreen"><i>intergalactic</i><par n="expensive__adj"/></e>
+    <e lm="supernova" a="greenbreen"><i>supernova</i><par n="house__n"/></e>
+    <e lm="Magellan" a="greenbreen"><i>Magellan</i><par n="Smith__np"/></e>
+    <e lm="Scorpio" a="greenbreen"><i>Scorpio</i><par n="house__n"/></e>
+    <e lm="spicy" a="greenbreen"><i>spic</i><par n="happ/y__adj"/></e>
     <e lm="Abad"><i>Abad</i><par n="Smith__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Bush__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Bush__np"/></e>

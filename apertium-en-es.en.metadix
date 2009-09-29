@@ -1726,6 +1726,18 @@
           <r><s n="n"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>'s</l>
+          <r><s n="n"/><s n="sg"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>'</l>
+          <r><s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="wol/f__n">
       <e c="CP: nouns that remove -f and add -ves or -s(EEUU; LR)">
@@ -1835,7 +1847,7 @@
       <e r="LR">
         <p>
           <l>'s</l>
-          <r><s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+          <r><s n="n"/><s n="sg"/><j/>'s<s n="gen"/></r>
         </p>
       </e>
       <e r="LR">
@@ -34267,11 +34279,11 @@
     <e lm="heliocentric" a="greenbreen"><i>heliocentric</i><par n="expensive__adj"/></e>
     <e lm="green bean" a="greenbreen"><i>green<b/>bean</i><par n="house__n"/></e>
     <e lm="Wi-Fi" a="greenbreen"><i>Wi-Fi</i><par n="Linux__np"/></e>
-    <e lm="fluid mechanics" a="greenbreen"><i>fluid<b/>mechanics</i><par n="staff__n"/></e>
+    <e lm="fluid mechanics" a="greenbreen"><i>fluid<b/>mechanics</i><par n="politics__n"/></e>
     <e lm="quasar" a="greenbreen"><i>quasar</i><par n="house__n"/></e>
     <e lm="ad hoc" a="greenbreen"><i>ad<b/>hoc</i><par n="expensive__adj"/></e>
     <e lm="ad hoc" r="LR" a="greenbreen"><p><l>ad-hoc</l><r>ad<b/>hoc</r></p><par n="expensive__adj"/></e>
-    <e lm="astrophysics" a="greenbreen"><i>astrophysics</i><par n="staff__n"/></e>
+    <e lm="astrophysics" a="greenbreen"><i>astrophysics</i><par n="politics__n"/></e>
     <e lm="astrophysicist" a="greenbreen"><i>astrophysicist</i><par n="house__n"/></e>
     <e lm="pulsar" a="greenbreen"><i>pulsar</i><par n="house__n"/></e>
     <e lm="neutron star" a="greenbreen"><i>neutron<b/>star</i><par n="house__n"/></e>
@@ -34298,6 +34310,10 @@
     <e lm="Magellan" a="greenbreen"><i>Magellan</i><par n="Smith__np"/></e>
     <e lm="Scorpio" a="greenbreen"><i>Scorpio</i><par n="house__n"/></e>
     <e lm="spicy" a="greenbreen"><i>spic</i><par n="happ/y__adj"/></e>
+    <e lm="whipped cream" a="greenbreen"><i>whipped<b/>cream</i><par n="house__n"/></e>
+    <e lm="stripping agent" a="greenbreen"><i>stripping<b/>agent</i><par n="house__n"/></e>
+    <e lm="string theory" a="greenbreen"><i>string<b/>theor</i><par n="bab/y__n"/></e>
+    <e lm="statistics" a="greenbreen"><i>statistics</i><par n="politics__n"/></e>
     <e lm="Abad"><i>Abad</i><par n="Smith__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Bush__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Bush__np"/></e>

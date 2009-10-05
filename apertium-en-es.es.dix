@@ -52,21 +52,21 @@
     <sdef n="vbhaver"/>
     <sdef n="vblex"/>
     <sdef n="vbmod"/>
-    <sdef n="inf"/>
-    <sdef n="ger"/>
-    <sdef n="pp"/>
-    <sdef n="pri"/>
-    <sdef n="p1"/>
-    <sdef n="p2"/>
-    <sdef n="p3"/>
-    <sdef n="pii"/>
-    <sdef n="ifi"/>
-    <sdef n="fti"/>
-    <sdef n="cni"/>
-    <sdef n="prs"/>
-    <sdef n="pis"/>
-    <sdef n="fts"/>
-    <sdef n="imp"/>
+    <sdef n="inf"/>  <!-- infinitivo -->
+    <sdef n="ger"/>  <!-- gerundio -->
+    <sdef n="pp"/>   <!-- participio pasado -->
+    <sdef n="pri"/>  <!-- presente de indicativo -->
+    <sdef n="p1"/>   <!-- primera persona -->
+    <sdef n="p2"/>   <!-- segunda persona -->
+    <sdef n="p3"/>   <!-- tercera persona -->
+    <sdef n="pii"/>  <!-- pretérito imperfecto de indicativo -->
+    <sdef n="ifi"/>  <!-- pretérito de indicativo -->
+    <sdef n="fti"/>  <!-- futuro de indicativo -->
+    <sdef n="cni"/>  <!-- condicional de indicativo -->
+    <sdef n="prs"/>  <!-- presente de subjuntivo -->
+    <sdef n="pis"/>  <!-- pretérito imperfecto de subjuntivo -->
+    <sdef n="fts"/>  <!-- futuro de subjuntivo -->
+    <sdef n="imp"/>  <!-- imperativo -->
     <sdef n="pos"/>
     <sdef n="sp"/>
     <sdef n="ref"/>
@@ -101001,6 +101001,33 @@
 <e lm="estirpe" a="greenbreen"><i>estirpe</i><par n="abeja__n"/></e>
 <e lm="ancestro" a="greenbreen"><i>ancestro</i><par n="abismo__n"/></e>
 <e lm="noción" a="greenbreen"><i>noci</i><par n="acci/ón__n"/></e>
+<e lm="subdisciplina" a="greenbreen"><i>subdisciplina</i><par n="abeja__n"/></e>
+<e lm="ARN" a="greenbreen"><i>ARN</i><par n="BBVA__n"/></e>
+<e lm="apreciación" a="greenbreen"><i>apreciaci</i><par n="acci/ón__n"/></e>
+<e lm="morfogénesis" a="greenbreen"><i>morfogénesis</i><par n="Tm__n"/></e>
+<e lm="endocrino" a="greenbreen"><i>endocrin</i><par n="absolut/o__adj"/></e>
+<e lm="circulatorio" a="greenbreen"><i>circulatori</i><par n="absolut/o__adj"/></e>
+<e lm="morfofisiológico" a="greenbreen"><i>morfofisiológic</i><par n="absolut/o__adj"/></e>
+<e lm="organísmico" a="greenbreen"><i>organísmic</i><par n="absolut/o__adj"/></e>
+<e lm="ecofisiología" a="greenbreen"><i>ecofisiología</i><par n="abeja__n"/></e>
+<e lm="cladístico" a="greenbreen"><i>cladístic</i><par n="absolut/o__adj"/></e>
+<e lm="inerte" a="greenbreen"><i>inerte</i><par n="abundante__adj"/></e>
+<e lm="teriología" a="greenbreen"><i>teriología</i><par n="abeja__n"/></e>
+<e lm="herpetología" a="greenbreen"><i>herpetología</i><par n="abeja__n"/></e>
+<e lm="tempo" a="greenbreen"><i>tempo</i><par n="abismo__n"/></e>
+<e lm="abiótico" a="greenbreen"><i>abiótic</i><par n="absolut/o__adj"/></e>
+<e lm="intraespecífico" a="greenbreen"><i>intraespecífic</i><par n="absolut/o__adj"/></e>
+<e lm="interespecífico" a="greenbreen"><i>interespecífic</i><par n="absolut/o__adj"/></e>
+<e lm="pilar" a="greenbreen"><i>pilar</i><par n="accesibilidad__n"/></e>
+<e lm="red trófica" a="greenbreen"><i>red<b/>trófica</i><par n="cuaresma__n"/></e>
+<e lm="red trófica" a="greenbreen"><p><l>redes<b/>tróficas</l><r>red<b/>trófica</r></p><par n="afueras__n"/></e>
+<e lm="detritívoro" a="greenbreen"><i>detritívoro</i><par n="abismo__n"/></e>
+<e lm="reduccionismo" a="greenbreen"><i>reduccionismo</i><par n="abismo__n"/></e>
+<e lm="heterotrófico" a="greenbreen"><i>heterotrófic</i><par n="absolut/o__adj"/></e>
+<e lm="multidisciplinar" a="greenbreen"><i>multidisciplinar</i><par n="abdominal__adj"/></e>
+<e lm="etólogo" a="greenbreen"><i>etólog</i><par n="abogad/o__n"/></e>
+<e lm="ser vivo" a="greenbreen"><i>ser<b/>vivo</i><par n="atletismo__n"/></e>
+<e lm="ser vivo" a="greenbreen"><p><l>seres<b/>vivos</l><r>ser<b/>vivo</r></p><par n="alrededores__n"/></e>
     <e lm="abastecer"><i>abaste</i><par n="agrade/cer__vblex"/></e>
     <e lm="abastecer"><p><l>abasté</l><r>abaste</r></p><par n="agradé/cer__vblex"/></e>
     <e lm="abatir"><i>abat</i><par n="abat/ir__vblex"/></e>

@@ -2307,6 +2307,32 @@
         </p>
       </e>
     </pardef>
+    <pardef n="calcul/us__n">
+      <e a="greenbreen">
+        <p>
+          <l>us</l>
+          <r>us<s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e a="greenbreen">
+        <p>
+          <l>i</l>
+          <r>us<s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR" a="greenbreen">
+        <p>
+          <l>uses</l>
+          <r>us<s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR" a="greenbreen">
+        <p>
+          <l>uses'</l>
+           <r>us<s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="cact/us__n">
       <e c="CP: nouns which remove -us and add -i or -es (LR)">
         <p>
@@ -21158,7 +21184,7 @@
     <e lm="pharaoh"><i>pharaoh</i><par n="house__n"/>    </e>
     <e lm="pharmacy"><i>pharmac</i><par n="bab/y__n"/>    </e>
     <e lm="phase"><i>phase</i><par n="house__n"/>    </e>
-    <e lm="phenomenon"><i>phenomenon</i><par n="house__n"/>    </e>
+    <e lm="phenomenon"><i>phenomen</i><par n="criteri/on__n"/>    </e>
     <e lm="philology"><i>philolog</i><par n="bab/y__n"/>    </e>
     <e lm="philologist"><i>philologist</i><par n="house__n"/>    </e>
     <e lm="philosophy"><i>philosoph</i><par n="bab/y__n"/>    </e>
@@ -34425,6 +34451,28 @@
     <e lm="oscillating" a="greenbreen"><i>oscillating</i><par n="expensive__adj"/></e>
     <e lm="bioelectromagnetism" a="greenbreen"><i>bioelectromagnetism</i><par n="house__n"/></e>
     <e lm="transformer" a="greenbreen"><i>transformer</i><par n="house__n"/></e>
+    <e lm="relay" a="greenbreen"><i>relay</i><par n="house__n"/></e>
+    <e lm="Minkowski" a="greenbreen"><i>Minkowski</i><par n="Smith__np"/></e>
+    <e lm="tread" a="greenbreen"><i>tread</i><par n="house__n"/></e>
+    <e lm="lining" a="greenbreen"><i>lining</i><par n="house__n"/></e>
+    <e lm="puncture" a="greenbreen"><i>puncture</i><par n="house__n"/></e>
+    <e lm="particle accelerator" a="greenbreen"><i>particle<b/>accelerator</i><par n="house__n"/></e>
+    <e lm="electrostatics" a="greenbreen"><i>electrostatics</i><par n="politics__n"/></e>
+    <e lm="electrodynamics" a="greenbreen"><i>electrodynamics</i><par n="politics__n"/></e>
+    <e lm="mathematically" a="greenbreen"><i>mathematically</i><par n="maybe__adv"/></e>
+    <e lm="tensor calculus" a="greenbreen"><i>tensor<b/>calcul</i><par n="calcul/us__n"/></e>
+    <e lm="calculus" a="greenbreen"><i>calcul</i><par n="calcul/us__n"/></e>
+    <e lm="analytically" a="greenbreen"><i>analytically</i><par n="maybe__adv"/></e>
+    <e lm="wave" a="greenbreen"><i>wave</i><par n="expensive__adj"/></e>
+    <e lm="formalism" a="greenbreen"><i>formalism</i><par n="house__n"/></e>
+    <e lm="de Broglie" a="greenbreen"><i>de<b/>Broglie</i><par n="Smith__np"/></e>
+    <e lm="photoelectric" a="greenbreen"><i>photoelectric</i><par n="expensive__adj"/></e>
+    <e lm="matrix" a="greenbreen"><i>matrix</i><par n="expensive__adj"/></e>
+    <e lm="antiparticle" a="greenbreen"><i>antiparticle</i><par n="house__n"/></e>
+    <e lm="multidimensional" a="greenbreen"><i>multidimensional</i><par n="expensive__adj"/></e>
+    <e lm="Bose-Einstein condensate" a="greenbreen"><i>Bose-Einstein<b/>condensate</i><par n="house__n"/></e>
+    <e lm="superconducting" a="greenbreen"><i>superconducting</i><par n="expensive__adj"/></e>
+    <e lm="ferromagnetic" a="greenbreen"><i>ferromagnetic</i><par n="expensive__adj"/></e>
     <e lm="Abad"><i>Abad</i><par n="Smith__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Bush__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Bush__np"/></e>

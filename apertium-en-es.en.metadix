@@ -2024,6 +2024,12 @@
           <r>on<s n="n"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ons'</l>
+          <r>on<s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="ox__n">
       <e c="CP: nouns which add -en">
@@ -31309,7 +31315,10 @@
     <e lm="palaeography"><i>palaeograph</i><par n="bab/y__n"/>     </e>
     <e lm="palaeographical"><i>palaeographical</i><par n="expensive__adj"/>     </e>
     <e lm="palaeomagnetism"><i>palaeomagnetism</i><par n="house__n"/>     </e>
-    <e lm="palaeontology"><i>palaeontolog</i><par n="bab/y__n"/>     </e>
+    <e lm="palaeontology" r="LR"><i>palaeontolog</i><par n="bab/y__n"/>     </e>
+    <e lm="palaeontology" r="LR" a="greenbreen"><p><l>paleontolog</l><r>palaeontolog</r></p><par n="bab/y__n"/>     </e>
+    <e lm="palaeontology" r="RL" alt="en_GB"><i>palaeontolog</i><par n="bab/y__n"/>     </e>
+    <e lm="palaeontology" r="RL" alt="en_US" a="greenbreen"><p><l>paleontolog</l><r>palaeontolog</r></p><par n="bab/y__n"/>     </e>
     <e lm="palaeotropical"><i>palaeotropical</i><par n="expensive__adj"/>     </e>
     <e lm="palatal"><i>palatal</i><par n="expensive__adj"/>     </e>
     <e lm="palatalisation"><i>palatali</i><par n="globali/sation__n"/>     </e>
@@ -34628,12 +34637,16 @@
     <e lm="aerodynamics" a="greenbreen"><i>aerodynamics</i><par n="politics__n"/></e>
     <e lm="superstring theory" a="greenbreen"><i>superstring<b/>theor</i><par n="bab/y__n"/></e>
     <e lm="M-theory" a="greenbreen"><i>M-theor</i><par n="bab/y__n"/></e>
-    <e lm="live in" a="greenbreen"><i>liv</i><par n="liv/e__vblex"/><p><l><b/>in</l><r><g><b/>in</g></r></p></e>
+    <e r="RL" lm="live in" a="greenbreen"><i>liv</i><par n="liv/e__vblex"/><p><l><b/>in</l><r><g><b/>in</g></r></p></e>
     <e lm="wane" a="greenbreen"><i>wan</i><par n="liv/e__vblex"/></e>
     <e lm="rehabilitate" a="greenbreen"><i>rehabilitat</i><par n="liv/e__vblex"/></e>
     <e lm="wall" a="greenbreen"><i>wall</i><par n="accept__vblex"/></e>
     <e lm="wall" a="greenbreen"><i>wall</i><par n="accept__vblex"/></e>
     <e lm="axle" a="greenbreen"><i>axle</i><par n="house__n"/></e>
+    <e lm="inhabit" a="greenbreen"><i>inhabit</i><par n="accept__vblex"/></e>
+    <e lm="thereof" a="greenbreen"><i>thereof</i><par n="maybe__adv"/></e>
+    <e lm="lexicon" a="greenbreen"><i>lexic</i><par n="criteri/on__n"/></e>
+    <e lm="biogenesis" a="greenbreen"><i>biogenes</i><par n="analys/is__n"/></e>
     <e lm="Abad"><i>Abad</i><par n="Smith__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Bush__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Bush__np"/></e>

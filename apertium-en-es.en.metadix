@@ -17482,7 +17482,6 @@
     <e lm="Prague"><i>Prague</i><par n="Barcelona__np"/>    </e>
     <e lm="Pujol"><i>Pujol</i><par n="Smith__np"/>    </e>
     <e lm="Zapatero"><i>Zapatero</i><par n="Smith__np"/>    </e>
-    <e lm="Pérez"><i>Pérez</i><par n="Smith__np"/>    </e>
     <e lm="Qatar"><i>Qatar</i><par n="Barcelona__np"/>    </e>
     <e lm="Queensland"><i>Queensland</i><par n="Barcelona__np"/>    </e>
     <e lm="Rabat"><i>Rabat</i><par n="Barcelona__np"/>    </e>
@@ -17500,7 +17499,6 @@
     <e lm="Romania"><i>Romania</i><par n="Barcelona__np"/>    </e>
     <e lm="Rome"><i>Rome</i><par n="Barcelona__np"/>    </e>
     <e lm="Rosa"><i>Rosa</i><par n="Mary__np"/>    </e>
-    <e lm="Ruiz"><i>Ruiz</i><par n="Smith__np"/>    </e>
     <e lm="Russia"><i>Russia</i><par n="Barcelona__np"/>    </e>
     <e lm="Rwanda"><i>Rwanda</i><par n="Barcelona__np"/>    </e>
     <e lm="Sabadell"><i>Sabadell</i><par n="Barcelona__np"/>    </e>
@@ -17753,10 +17751,8 @@
     <e lm="air"><i>air</i><par n="house__n"/>    </e>
     <e lm="aircraft"><i>aircraft</i><par n="politics__n"/>    </e>
     <e lm="airfield"><i>airfield</i><par n="house__n"/>    </e>
-    <e lm="aeroplane" r="LR" a="greenbreen"><i>aeroplane</i><par n="house__n"/>    </e>
-    <e lm="aeroplane" r="LR" ><p><l>airplane</l><r>aeroplane</r></p><par n="house__n"/>    </e>
-    <e lm="aeroplane" r="RL" alt="en_GB"><i>airplane</i><par n="house__n"/>    </e>
-    <e lm="aeroplane" r="RL" alt="en_US" a="greenbreen"><p><l>airplane</l><r>aeroplane</r></p><par n="house__n"/>    </e>
+    <e lm="airplane"><i>airplane</i><par n="house__n"/>    </e>
+    <e lm="aeroplane"><i>aeroplane</i><par n="house__n"/>    </e>
     <e lm="airport"><i>airport</i><par n="house__n"/>    </e>
     <e lm="alarm"><i>alarm</i><par n="house__n"/>    </e>
     <e lm="alarmism"><i>alarmism</i><par n="house__n"/>    </e>
@@ -25742,7 +25738,8 @@
     <e lm="fancy"><i>fanc</i><par n="appl/y__vblex"/>    </e>
     <e lm="farm"><i>farm</i><par n="accept__vblex"/>    </e>
     <e lm="fatten"><i>fatten</i><par n="accept__vblex"/>    </e>
-    <e lm="favour" c="UE"><i>fav</i><par n="o_ou"/><i>r</i><par n="accept__vblex"/>    </e>
+    <e lm="favour"><i>fav</i><par n="o_ou"/><i>r</i><par n="accept__vblex"/>    </e>
+    <e lm="favour"><i>fav</i><par n="o_ou"/><i>r</i><par n="house__n"/>    </e>
     <e lm="feed"><i>fe</i><par n="ble/ed__vblex"/>    </e>
     <e lm="feel"><i>fe</i><par n="fe/el__vblex"/>    </e>
     <e lm="fear"><i>fear</i><par n="accept__vblex"/>    </e>

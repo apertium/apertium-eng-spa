@@ -513,8 +513,8 @@
     <e><i>Charlton<s n="np"/><s n="ant"/></i></e>
     <e><i>Sven<s n="np"/><s n="ant"/></i></e>
     <e><i>Wassily<s n="np"/><s n="ant"/></i></e>
-    <e><i>Fedra<s n="np"/><s n="ant"/></i></e>
-    <e><i>Ifigenia<s n="np"/><s n="ant"/></i></e>
+    <e r="LR"><i>Fedra<s n="np"/><s n="ant"/></i></e>
+    <e r="LR"><i>Ifigenia<s n="np"/><s n="ant"/></i></e>
     <e><i>María<b/>Casares<s n="np"/><s n="ant"/></i></e>
     <e><i>Gwyneth<s n="np"/><s n="ant"/></i></e>
     <e><i>Iria<s n="np"/><s n="ant"/></i></e>
@@ -8403,6 +8403,7 @@
     <e>  <p><l>aircraft<s n="n"/></l><r>aeronave<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>airfield<s n="n"/></l><r>aeródromo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>aeroplane<s n="n"/></l><r>avión<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR">  <p><l>airplane<s n="n"/></l><r>avión<s n="n"/><s n="m"/></r></p></e>
     <e r="LR">  <p><l>airliner<s n="n"/></l><r>avión<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>airport<s n="n"/></l><r>aeropuerto<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>alarm<s n="n"/></l><r>alarma<s n="n"/><s n="f"/></r></p></e>
@@ -17238,7 +17239,6 @@
     <e r="RL"><p><l>therefore<s n="cnjadv"/></l><r>por<b/>eso<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>therefore<s n="cnjadv"/></l><r>por<b/>tanto<s n="cnjadv"/></r></p></e>
     <e>  <p><l>thus<s n="cnjadv"/></l><r>por<b/>ello<s n="cnjadv"/></r></p></e>
-    <e><p><l>hence<s n="adv"/></l>             <r>por<b/>ello<s n="cnjadv"/></r></p></e>
     <e r="LR"><p><l>hence<s n="adv"/></l>             <r>por<b/>ello<s n="cnjadv"/></r></p></e>
     <e r="LR"><p><l>though<s n="cnjadv"/></l><r>aunque<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>unless<s n="cnjadv"/></l><r>a<b/>menos<b/>que<s n="cnjadv"/></r></p></e>

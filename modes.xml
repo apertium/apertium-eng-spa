@@ -287,6 +287,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -373,6 +377,22 @@
     </pipeline>
   </mode>
 
+  <mode name="en-es-genitive">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="en-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="en-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="en-es-chunker">
     <pipeline>
       <program name="lt-proc">
@@ -382,6 +402,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -399,6 +423,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -420,6 +448,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -445,6 +477,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -700,6 +736,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -753,6 +793,22 @@
     </pipeline>
   </mode>
 
+  <mode name="test-en-es-genitive">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="en-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="en-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="test-en-es-chunker">
     <pipeline>
       <program name="lt-proc">
@@ -762,6 +818,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -779,6 +839,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -800,6 +864,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
@@ -825,6 +893,10 @@
         <file name="en-es.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-en-es.en-es.genitive.t1x"/>
+        <file name="en-es.genitive.bin"/>
+      </program>
       <program name="apertium-transfer">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>

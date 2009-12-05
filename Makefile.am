@@ -155,6 +155,9 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(PREFIX1).prob $(PREFIX2).prob \
 	   buscaPar.xsl principal.xsl alt.xsl \
            translate-to-default-equivalent.xsl \
+	   $(BASENAME).$(LANG1).metadix \
+	   $(BASENAME).$(LANG2).dix \
+	   $(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
 	   $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
            $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \

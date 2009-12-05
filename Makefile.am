@@ -158,6 +158,7 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(LANG1).metadix \
 	   $(BASENAME).$(LANG2).dix \
 	   $(BASENAME).$(PREFIX1).dix \
+	   $(BASENAME).$(PREFIX1).genitive.t1x \
 	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
 	   $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
            $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
@@ -179,6 +180,7 @@ apertium_en_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
+	            $(BASENAME).$(PREFIX1).genitive.t1x \
 		    $(PREFIX1).genitive.bin  \
 		    $(PREFIX1).mode $(PREFIX2).mode \
 		    $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \

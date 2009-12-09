@@ -82978,6 +82978,7 @@
     <e lm="borracho"><i>borrach</i><par n="abogad/o__n"/>    </e>
     <e lm="borrador"><i>borrador</i><par n="señor__n"/>    </e>
     <e lm="borroso"><i>borros</i><par n="absolut/o__adj"/>     </e>
+    <e lm="basado en regles"><i>basad</i><par n="absolut/o__adj"/><p><l><b/>en<b/>regles</l><r><g><b/>en<b/>regles</g></r></p></e>
     <e lm="bosque"><i>bosque</i><par n="abismo__n"/>    </e>
     <e lm="bosquejo"><i>bosquejo</i><par n="abismo__n"/>    </e>
     <e lm="botín"><i>bot</i><par n="bot/ín__n"/>    </e>
@@ -90351,6 +90352,15 @@
     <e lm="contestar"><p><l>contést</l><r>contest</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="convenir"><i>conv</i><par n="conv/enir__vblex"/>    </e>
     <e lm="convertir"><i>conv</i><par n="adv/ertir__vblex"/>    </e>
+    <e lm="convertir en"><i>conv</i><par n="adv/ertir__vblex"/><p><l><b/>en</l><r><g><b/>en</g></r></p></e>
+<e lm="concentrar"><i>concentr</i><par n="abandon/ar__vblex"/></e>
+<e lm="concentrar"><p><l>concéntr</l>             <r>concentr</r></p><par n="abandón/ar__vblex"/></e>
+<e lm="contaminar"><i>contamin</i><par n="abandon/ar__vblex"/></e>
+<e lm="contaminar"><p><l>contamín</l>             <r>contamin</r></p><par n="abandón/ar__vblex"/></e>
+<e lm="inmigrar"><i>inmigr</i><par n="abandon/ar__vblex"/></e>
+<e lm="inmigrar"><p><l>inmígr</l>                 <r>inmigr</r></p><par n="abandón/ar__vblex"/></e>
+<e lm="notar"><i>not</i><par n="abandon/ar__vblex"/></e>
+<e lm="notar"><p><l>nót</l>                      <r>not</r></p><par n="abandón/ar__vblex"/></e>
     <e lm="convencer"><i>conven</i><par n="conven/cer__vblex"/>    </e>
     <e lm="converger" a="prompsit2adn"><i>conver</i><par n="aco/ger__vblex"/>    </e>
     <e lm="convocar"><i>convo</i><par n="ata/car__vblex"/>    </e>
@@ -90444,6 +90454,8 @@
     <e lm="cuñar"><p><l>cúñ</l><r>cuñ</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="dar un beso"><i>d</i><par n="d/ar__vblex"/>      <p>        <l><b/>un<b/>beso</l><r><g><b/>un<b/>beso</g></r></p></e>
     <e lm="dar un paso"><i>d</i><par n="d/ar__vblex"/>      <p>        <l><b/>un<b/>paso</l><r><g><b/>un<b/>paso</g></r></p></e>
+    <e lm="dar las gracias a"><i>d</i><par n="d/ar__vblex"/>      <p>        <l><b/>las<b/>gracias<b/>a</l><r><g><b/>las<b/>gracias<b/>a</g></r></p></e>
+    <e lm="dar la bienvenida a"><i>d</i><par n="d/ar__vblex"/>      <p>        <l><b/>la<b/>bienvenida<b/>a</l><r><g><b/>la<b/>bienvenida<b/>a</g></r></p></e>
     <e lm="dar"><i>d</i><par n="d/ar__vblex"/>    </e>
     <e lm="darse prisa"><i>d</i><par n="d/arse__vblex"/>      <p>        <l><b/>prisa</l><r><g><b/>prisa</g></r></p></e>
     <e lm="dormir"><i>d</i><par n="d/ormir__vblex"/>    </e>
@@ -95057,6 +95069,7 @@
     <e lm="crisolita" a="prompsit2uoc"><i>crisolita</i><par n="abeja__n"/>     </e>
     <e lm="cristalería" a="prompsit2uoc"><i>cristalería</i><par n="abeja__n"/>     </e>
     <e lm="cristalino" a="prompsit"><i>cristalin</i><par n="absolut/o__adj"/>     </e>
+    <e lm="microcristalino"><i>microcristalin</i><par n="absolut/o__adj"/>     </e>
     <e lm="cristalografía" a="prompsit2uoc"><i>cristalografía</i><par n="abeja__n"/>     </e>
     <e lm="criticismo" a="prompsit2uoc"><i>criticismo</i><par n="abismo__n"/>     </e>
     <e lm="cromatina" a="prompsit2uoc"><i>cromatina</i><par n="abeja__n"/>     </e>
@@ -101965,7 +101978,7 @@
 <e lm="mucho ruido por nada"><i>mucho<b/>ruido<b/>por<b/>nada</i><par n="ahora__adv"/></e>
 <e lm="muy profundamente"><i>muy<b/>profundamente</i><par n="ahora__adv"/></e>
 <e lm="una vez más"><i>una<b/>vez<b/>más</i><par n="ahora__adv"/></e>
-<e lm="una golpe más"><i>una<b/>golpe<b/>más</i><par n="ahora__adv"/></e>
+<e lm="un golpe más"><i>un<b/>golpe<b/>más</i><par n="ahora__adv"/></e>
   </section>
 
   <section id="regexp" type="standard">   

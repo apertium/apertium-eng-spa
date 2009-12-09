@@ -29405,6 +29405,7 @@
     <e lm="cryptophyte"><i>cryptophyte</i><par n="house__n"/>     </e>
     <e lm="cryptorchidism"><i>cryptorchidism</i><par n="house__n"/>     </e>
     <e lm="crystalline"><i>crystalline</i><par n="expensive__adj"/>     </e>
+    <e lm="microcrystalline"><i>microcrystalline</i><par n="expensive__adj"/>     </e>
     <e lm="crystallography"><i>crystallograph</i><par n="bab/y__n"/>     </e>
     <e lm="cube"><i>cube</i><par n="house__n"/>     </e>
     <e lm="cube"><i>cube</i><par n="house__n"/>     </e>
@@ -32666,7 +32667,8 @@
     <e lm="uneconomic"><i>uneconomic</i><par n="expensive__adj"/>     </e>
     <e lm="unevenly"><i>unevenly</i><par n="maybe__adv"/>     </e>
     <e lm="unicellular"><i>unicellular</i><par n="expensive__adj"/>     </e>
-    <e lm="unicolored"><i>unicolored</i><par n="expensive__adj"/>     </e>
+    <e lm="unicolored"><i>unicol</i><par n="o_ou"/><i>red</i><par n="expensive__adj"/>     </e>
+    <e lm="tricolor"><i>tricol</i><par n="o_ou"/><i>r</i><par n="expensive__adj"/>     </e>
     <e lm="unimportance"><i>unimportance</i><par n="house__n"/>     </e>
     <e lm="unintelligible"><i>unintelligible</i><par n="expensive__adj"/>     </e>
     <e lm="unipolar"><i>unipolar</i><par n="expensive__adj"/>     </e>
@@ -34667,6 +34669,10 @@
     <e r="RL" lm="live in" a="greenbreen"><i>liv</i><par n="liv/e__vblex"/><p><l><b/>in</l><r><g><b/>in</g></r></p></e>
     <e lm="wane" a="greenbreen"><i>wan</i><par n="liv/e__vblex"/></e>
     <e lm="rehabilitate" a="greenbreen"><i>rehabilitat</i><par n="liv/e__vblex"/></e>
+    <e lm="concentrate"><i>concentrat</i><par n="liv/e__vblex"/></e>
+    <e lm="contaminate"><i>contaminat</i><par n="liv/e__vblex"/></e>
+    <e lm="immigrate"><i>immigrat</i><par n="liv/e__vblex"/></e>
+    <e lm="notice"><i>notic</i><par n="liv/e__vblex"/></e>
     <e lm="wall" a="greenbreen"><i>wall</i><par n="accept__vblex"/></e>
     <e lm="wall" a="greenbreen"><i>wall</i><par n="accept__vblex"/></e>
     <e lm="axle" a="greenbreen"><i>axle</i><par n="house__n"/></e>
@@ -35207,7 +35213,9 @@
 <e lm="much ado about nothing"><i>much<b/>ado<b/>about<b/>nothing</i><par n="maybe__adv"/></e>
 <e lm="most deeply"><i>most<b/>deeply</i><par n="maybe__adv"/></e>
 <e lm="once again"><i>once<b/>again</i><par n="maybe__adv"/></e>
-<e lm="once again"><i>once<b/>again</i><par n="maybe__adv"/></e>
+<e lm="rule-based"><i>rule-based</i><par n="expensive__adj"/></e>
+<e lm="turn into"><i>turn</i><par n="accept__vblex" sa="sep"/><par n="probj_dem__prn"/><p><l><b/>into</l><r><g><b/>into</g></r></p></e>
+
   </section>
 
   <section id="apostrophes" type="preblank">

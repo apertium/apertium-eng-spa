@@ -110,6 +110,11 @@
       <cat-item tags="prn.subj.*"/>
     </def-cat>
 
+    <def-cat n="prnobjsubj">
+      <cat-item tags="prn.obj.*"/>
+      <cat-item tags="prn.subj.*"/>
+    </def-cat>
+
     <def-cat n="prnref">
       <cat-item tags="prn.ref.*"/>
     </def-cat>
@@ -146,6 +151,13 @@
       
     </def-cat>
 
+
+    <def-cat n="verbcjser">
+      <cat-item tags="vbser.pres"/>
+      <cat-item tags="vbser.past"/>
+      <cat-item tags="vbser.past.*"/>
+      <cat-item tags="vbser.pri.*"/>
+    </def-cat>
 
     <def-cat n="verbcjnoser"> <!-- BCN -->
       <cat-item tags="vblex.pres"/>
@@ -17397,10 +17409,53 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
+    <rule comment="REGLA: VbSER + PRN(SUBJECT) are you...  eres...">
+      <pattern>
+	<pattern-item n="verbcjser"/>
+	<pattern-item n="prnobjsubj"/>
+      </pattern>
+      <action>    
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>		 
+	<call-macro n="tipus_verbs">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="pron">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="1"/>
+	</call-macro>
+	    <out>
+	      <chunk name="verbcj" case="caseFirstWord">
+		<tags>	       
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><var n="tipus_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="2" side="tl" part="pers"/></tag>
+		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu>
+		  <var n="verbfinal"/>
+		</lu> 	
+		<b pos="1"/>	
+		<lu>
+		  <var n="pronom"/>
+		  <clip pos="2" side="tl" part="lem"/>
+		  <lit-tag v="prn.subj"/>
+		  <clip pos="2" side="tl" part="pers"/>
+		  <clip pos="2" side="tl" part="gen"/>
+		  <clip pos="2" side="tl" part="nbr"/>
+		</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: VERB+clític: finds it-> el troba">
       <pattern>
-	<pattern-item n="verbcj"/>
+	<pattern-item n="verbcjnoser"/>
 	<pattern-item n="probj"/>
       </pattern>
       <action>    
@@ -17429,7 +17484,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><var n="tipus_verb"/></tag>
 		  <tag><var n="temps_chunk"/></tag>
-		  <tag><var n="pers_chunk"/></tag>
+		  <tag><clip pos="2" side="tl" part="pers"/></tag>
 		  <tag><var n="nbr_chunk"/></tag>
 		</tags> 		
 		<lu>
@@ -17448,6 +17503,8 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </out>
       </action>
     </rule>
+
+
 
 
 

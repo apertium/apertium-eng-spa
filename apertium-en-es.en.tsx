@@ -270,6 +270,12 @@
 </tagset>
 
  <forbid>
+
+    <label-sequence>
+      <label-item label="VSER"/>
+      <label-item label="PRNOBJ"/>
+    </label-sequence>
+
     <label-sequence>
       <label-item label="PRNALTRES"/>
       <label-item label="NOMSG"/>
@@ -368,10 +374,10 @@
       <label-item label="PRNSUBJ"/>
       <label-item label="WILLNOM"/>
     </label-sequence>
-    <label-sequence>
+<!--    <label-sequence>
       <label-item label="PRNSUBJ"/>
       <label-item label="DET"/>
-    </label-sequence>
+    </label-sequence>-->
     <label-sequence>
       <label-item label="PRNSUBJ"/>
       <label-item label="DETQNT_ORD"/>
@@ -873,6 +879,14 @@
 	<label-item label="NOT"/>
       </label-set>
     </enforce-after>
+
+
+     <enforce-after label="VSER"> <!-- "am I" wrong? --> 
+      <label-set>
+        <label-item label="PRNSUBJ"/>
+      </label-set>
+    </enforce-after>
+
 
      <enforce-after label="PREDET">
       <label-set>

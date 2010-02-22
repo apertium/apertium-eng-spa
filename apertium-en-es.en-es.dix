@@ -17230,6 +17230,7 @@
     <e r="RL"><p><l>casual<s n="adj"/></l><r>para<b/>andar<b/>por<b/>casa<s n="adj"/></r></p></e>
     <e r="RL"><p><l>low<b/>quality<s n="adj"/></l><r>de<b/>pacotilla<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>low<b/>quality<s n="adj"/></l><r>de<b/>baja<b/>calidad<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR">  <p><l>shoddy<s n="adj"/><s n="sint"/></l><r>de<b/>baja<b/>calidad<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>working-class<s n="adj"/></l><r>de<b/>clase<b/>trabajadora<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>wooden<s n="adj"/></l><r>de<b/>madera<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>fashionable<s n="adj"/></l><r>de<b/>moda<s n="adj"/><s n="mf"/></r></p></e>
@@ -27905,7 +27906,7 @@
 <e a="greenbreen"><p><l>sulphur<b/>dioxide<s n="n"/></l><r>dióxido<g><b/>de<b/>azufre</g><s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>carbonaceous<s n="adj"/></l><r>carbónico<s n="adj"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>thickness<s n="n"/></l><r>grueso<s n="n"/><s n="m"/></r></p></e>
-<e a="greenbreen"><p><l>salty<s n="adj"/><s n="sint"/></l><r>salado<s n="adj"/></r></p></e>
+<e a="greenbreen" r="RL"><p><l>salty<s n="adj"/><s n="sint"/></l><r>salado<s n="adj"/></r></p></e>
 <e a="greenbreen"><p><l>conductive<s n="adj"/></l><r>conductor<s n="adj"/></r></p></e>
 <e a="greenbreen"><p><l>antifreeze<s n="n"/></l><r>anticongelante<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>saturated<s n="adj"/></l><r>saturado<s n="adj"/></r></p></e>
@@ -28134,6 +28135,14 @@
 <e><p><l>anthropophagus<s n="adj"/></l><r>antropófago<s n="adj"/></r></p></e>
 <e><p><l>algerian<s n="adj"/></l><r>argelino<s n="adj"/></r></p></e>
 <e><p><l>salty<s n="adj"/><s n="sint"/></l><r>salobre<s n="adj"/><s n="mf"/></r></p></e>
+<e><p><l>fleshy<s n="adj"/><s n="sint"/></l><r>carnoso<s n="adj"/></r></p></e>
+<e r="LR"><p><l>meaty<s n="adj"/><s n="sint"/></l><r>carnoso<s n="adj"/></r></p></e>
+<e><p><l>skew<s n="adj"/><s n="sint"/></l><r>torcido<s n="adj"/></r></p></e>
+<e><p><l>milky<s n="adj"/><s n="sint"/></l><r>lechoso<s n="adj"/></r></p></e>
+<e><p><l>woody<s n="adj"/><s n="sint"/></l><r>leñoso<s n="adj"/></r></p></e>
+<e><p><l>pasty<s n="adj"/><s n="sint"/></l><r>pastoso<s n="adj"/></r></p></e>
+<e><p><l>scaly<s n="adj"/><s n="sint"/></l><r>escamoso<s n="adj"/></r></p></e>
+<e r="LR"><p><l>flaky<s n="adj"/><s n="sint"/></l><r>escamoso<s n="adj"/></r></p></e>
 <e r="LR"><p><l>brackish<s n="adj"/></l><r>salobre<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>mass<s n="adj"/></l><r>másico<s n="adj"/></r></p></e>
 <e a="greenbreen"><p><l>multilayered<s n="adj"/></l><r>multicapa<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -29909,7 +29918,7 @@
 <e><p><l>quintic<s n="adj"/></l><r>quintico<s n="adj"/></r></p></e>
 <e><p><l>absolutive<s n="adj"/></l><r>absolutivo<s n="adj"/></r></p></e>
 <e><p><l>abusive<s n="adj"/></l><r>abusivo<s n="adj"/></r></p></e>
-<e><p><l>anisotropic<s n="adj"/></l><r>anisotrópico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anisotropic<s n="adj"/></l><r>anisotrópico<s n="adj"/></r></p></e>
 <e><p><l>antiparallel<s n="adj"/></l><r>antiparalelo<s n="adj"/></r></p></e>
 <e><p><l>astatic<s n="adj"/></l><r>astático<s n="adj"/></r></p></e>
 <e><p><l>asyndetic<s n="adj"/></l><r>asindético<s n="adj"/></r></p></e>
@@ -30100,7 +30109,7 @@
 <e><p><l>communicability<s n="n"/></l><r>comunicabilidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>concavity<s n="n"/></l><r>concavidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>confraternity<s n="n"/></l><r>confraternidad<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>communicability<s n="n"/></l><r>conmunicabilidad<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>communicability<s n="n"/></l><r>conmunicabilidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>corruptibility<s n="n"/></l><r>corruptibilidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>convexity<s n="n"/></l><r>convexidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>corporeality<s n="n"/></l><r>corporalidad<s n="n"/><s n="f"/></r></p></e>

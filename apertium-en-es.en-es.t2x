@@ -361,10 +361,22 @@
 	      <when>
 		<test>
 		  <and>
-		    <equal>
-		      <clip pos="2" part="pers"/>
-		      <lit-tag v="PD"/>
-		    </equal>
+                    <or>
+                      <and>
+		        <equal>
+		          <clip pos="2" part="pers"/>
+		          <lit-tag v="p3"/>
+		        </equal>
+		        <equal caseless="yes">
+		          <clip pos="2" part="lem"/>
+		          <lit v="pro_verbcj"/>
+		        </equal>
+                      </and>
+		      <equal>
+		        <clip pos="2" part="pers"/>
+		        <lit-tag v="PD"/>
+		      </equal>
+                    </or>
 		    <not><!--en les regles de SV no hi entren els 'ger', però s'ha afegit perquè en les regles de reporting verbs hi entren tots els temps -->
 		      <equal>
 			<clip pos="2" part="temps"/>

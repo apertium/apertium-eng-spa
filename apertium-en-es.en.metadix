@@ -99,7 +99,7 @@
   <pardefs>
     <pardef n="anys">
       <e>
-        <re>[MCDXLVI]*</re>
+        <re>[MCDXLVI]+</re>
         <p>
           <l></l>
           <r><s n="num"/><s n="mf"/><s n="sg"/></r>
@@ -39247,6 +39247,6 @@
     <e>      <par n="pardret"/>    </e>
     <e>      <par n="separ"/>    </e>
     <e>      <par n="guionet"/>    </e>
-    <e i="yes">      <par n="anys"/>    </e>
+    <e>      <par n="anys"/>    </e>
   </section>
 </dictionary>

@@ -106,6 +106,15 @@
   </sdefs>
  
   <pardefs>
+    <pardef n="anys">
+      <e>
+        <re>[MCDXLVI]*</re>
+        <p>
+          <l></l>
+          <r><s n="num"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
     
     <pardef n="guionet">
       <e>
@@ -3826,6 +3835,20 @@
         <p>
           <l>ermen</l>
           <r>ermen<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+     <pardef n="abor/igen__n">
+      <e>
+        <p>
+          <l>ígenes</l>
+          <r>igen<s n="n"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>igen</l>
+          <r>igen<s n="n"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -13147,6 +13170,7 @@
         </p>
       </e>
     </pardef>
+    
     <pardef n="abandon/ar__vblex">
       <e>
         <p>
@@ -13602,6 +13626,7 @@
         </p>
       </e>
     </pardef>
+    
     <pardef n="abandon/arse__vblex">
       <e>
         <p>
@@ -75094,6 +75119,568 @@
   </pardefs>
   <section id="main" type="standard">
     
+<e lm="abyecto" a="eleka"><i>abyect</i><par n="abstract/o__adj"/></e>
+    <e lm="en fila de a" a="eleka"><i>en<b/>fila<b/>de<b/>a</i><par n="a_fe_que__cnjadv"/></e>
+    <e lm="en filas de a" a="eleka"><i>en<b/>filas<b/>de<b/>a</i><par n="a_fe_que__cnjadv"/></e>
+    <e lm="estar al corriente de" a="eleka"><i>est</i><par n="est/ar__vblex"/>      <p>        <l><b/>al<b/>corriente</l><r><g><b/>al<b/>corriente</g></r></p></e>
+    <e lm="empezar de nuevo" a="eleka"><i>emp</i><par n="emp/ezar__vblex"/>      <p>        <l><b/>de<b/>nuevo</l><r><g><b/>de<b/>nuevo</g></r></p></e>
+    <e lm="atener a" a="eleka"><i>at</i><par n="t/ener__vblex"/>      <p>        <l><b/>a</l><r><g><b/>a</g></r></p></e>
+    <e lm="erizo de mar" a="eleka"><i>erizo</i><par n="abismo__n"/>      <p>        <l><b/>de<b/>mar</l><r><g><b/>de<b/>mar</g></r></p></e>
+    <e lm="brusquedad" a="eleka"><i>brusquedad</i><par n="accesibilidad__n"/></e>
+    <e lm="morada" a="eleka"><i>morada</i><par n="abeja__n"/></e>
+    <e lm="estar en llamas" a="eleka"><i>est</i><par n="est/ar__vblex"/>      <p>        <l><b/>en<b/>llamas</l><r><g><b/>en<b/>llamas</g></r></p></e>
+    <e lm="contrabajo" a="eleka"><i>contrabajo</i><par n="abismo__n"/></e>
+    <e lm="bombo" a="eleka"><i>bombo</i><par n="abismo__n"/></e>
+    <e lm="abominable" a="eleka"><i>abominable</i><par n="abundante__adj"/></e>
+    <e lm="desenfreno" a="eleka"><i>desenfreno</i><par n="abismo__n"/></e>
+    <e lm="escuela de equitación" a="eleka"><i>escuela</i><par n="abeja__n"/>      <p>        <l><b/>de<b/>equitación</l><r><g><b/>de<b/>equitación</g></r></p></e> 
+    <e lm="aborigen" a="eleka"><i>abor</i><par n="abor/igen__adj"/></e>
+    <e lm="atajar" a="eleka"><i>ataj</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="atajar" a="eleka"><p><l>atáj</l><r>ataj</r></p><par n="abandón/ar__vblex"/>    </e>
+    <e lm="al otro lado de" a="eleka"><i>al<b/>otro<b/>lado<b/></i><par n="contde__pr"/>    </e>
+    <e lm="directo a través" a="eleka"><i>directo<b/>a<b/>través</i><par n="a__pr"/>    </e>
+    <e lm="al otro lado del charco" a="eleka"><i>al<b/>otro<b/>lado<b/>del<b/>charco</i><par n="a__pr"/>    </e>
+    <e lm="a través de la carretera" a="eleka"><i>a<b/>través<b/>de<b/>la<b/>carretera</i><par n="ahora__adv"/>    </e>
+    <e lm="espectro político" a="eleka"><p><l>espectro<b/>político</l><r>espectro<b/>político<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+    <e lm="espectro político" a="eleka"><p><l>espectros<b/>políticos</l><r>espectro<b/>político<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="todo el trayecto a través" a="eleka"><i>todo<b/>el<b/>trayecto<b/>a<b/>través</i><par n="a_fe_que__cnjadv"/></e>
+    <e lm="malogrado" a="eleka"><i>malograd</i><par n="abstract/o__adj"/></e>
+    <e lm="ciertamente" a="eleka"><i>ciertamente</i><par n="ahora__adv"/>    </e>
+    <e lm="abrasivo" a="eleka"><i>abrasiv</i><par n="abstract/o__adj"/></e>
+    <e lm="sin domicilio fijo" a="eleka"><i>sin<b/>domicilio<b/>fijo</i><par n="a_fe_que__cnjadv"/></e>
+    <e lm="despistado" a="eleka"><i>despistad</i><par n="abstract/o__adj"/></e>
+    <e lm="desgracidamente" a="eleka"><i>desgraciadamente</i><par n="ahora__adv"/>    </e>
+    <e lm="abolición" a="eleka"><i>abolici</i><par n="acci/ón__n"/>    </e>
+    <e lm="jabalí" a="eleka"><i>jabalí</i><par n="abismo__n"/></e>
+    <e lm="aborigen" a="eleka"><i>abor</i><par n="abor/igen__n"/>    </e>
+     <e lm="pesca costera" a="eleka"><p><l>pesca<b/>costera</l><r>pesca<b/>costera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e lm="pesca costera" a="eleka"><p><l>pescas<b/>costeras</l><r>pesca<b/>costera<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="pesca de bajura" a="eleka"><i>pesca</i><par n="abeja__n"/>      <p>        <l><b/>de<b/>bajura</l><r><g><b/>de<b/>bajura</g></r></p></e>
+    <e lm="declinatorio" a="eleka"><i>declinatorio</i><par n="abismo__n"/></e>
+    <e lm="sprint" a="eleka"><i>sprint</i><par n="abismo__n"/></e>
+    <e lm="sobriedad" a="eleka"><i>sobriedad</i><par n="accesibilidad__n"/></e>
+    <e lm="abstemio" a="eleka"><i>abstemi</i><par n="absolut/o__adj"/>    </e>
+    <e lm="sobre la marcha" a="eleka"><i>sobre<b/>la<b/>marcha</i><par n="a_fe_que__cnjadv"/>    </e>
+    <e lm="ver la gracia" a="eleka"><i>v</i><par n="v/er__vblex"/>      <p>        <l><b/>la<b/>gracia</l><r><g><b/>la<b/>gracia</g></r></p></e>
+    <e lm="ir la gracia" a="eleka"><i></i><par n="/ir__vblex"/>      <p>        <l><b/>la<b/>gracia</l><r><g><b/>la<b/>gracia</g></r></p></e>
+    <e lm="con mucha gracia" a="eleka"><i>con<b/>mucha<b/>gracia</i><par n="a_fe_que__cnjadv"/>    </e>
+    <e lm="ACT" a="eleka"><i>ACT</i><par n="ABC__np"/>    </e>
+    <e lm="Ayto." a="eleka"><i>Ayto.</i><par n="atletismo__n"/>    </e>
+    <e lm="Aytos." a="eleka"><i>Aytos.</i><par n="alrededores__n"/>    </e>
+    <e lm="Garai" a="eleka"><i>Garai</i><par n="García__np"/>    </e>
+    <e lm="Arruabarrena" a="eleka"><i>Arruabarrena</i><par n="García__np"/>    </e>
+    <e lm="Guzman" a="eleka"><i>Guzman</i><par n="García__np"/>    </e>
+    <e lm="Aranaga" a="eleka"><i>Aranaga</i><par n="García__np"/>    </e>
+    <e lm="Olasagasti" a="eleka"><i>Olasagasti</i><par n="García__np"/>    </e>
+    <e lm="Aranegi" a="eleka"><i>Aranegi</i><par n="García__np"/>    </e>
+    <e lm="Lete" a="eleka"><i>Lete</i><par n="García__np"/>    </e>
+    <e lm="regata" a="eleka"><i>regata</i><par n="abeja__n"/></e>
+    <e lm="Urdaibai" a="eleka"><i>Urdaibai</i><par n="ABC__np"/>    </e>
+    <e lm="Hondarribia" a="eleka"><i>Hondarribia</i><par n="ABC__np"/>    </e>
+    <e lm="Orio" a="eleka"><i>Orio</i><par n="ABC__np"/>    </e>
+    <e lm="tanda" a="eleka"><i>tanda</i><par n="abeja__n"/></e>
+    <e lm="trainera" a="eleka"><i>trainera</i><par n="abeja__n"/></e>
+    <e lm="Zarautz" a="eleka"><i>Zarautz</i><par n="ABC__np"/>    </e>
+    <e lm="Pasai San Pedro" a="eleka"><i>Pasai<b/>San<b/>Pedro</i><par n="ABC__np"/>    </e>
+    <e lm="impulsar"><i>impuls</i><par n="abandon/ar__vblex"/></e>
+    <e lm="impulsar"><p><l>impúls</l>                   <r>encuadr</r></p><par n="abandón/ar__vblex"/></e>
+    <e lm="Laredo" a="eleka"><i>Laredo</i><par n="ABC__np"/>    </e>
+    <e lm="Orioko Txanpa" a="eleka"><i>Orioko<b/>Txanpa</i><par n="ABC__np"/>    </e>
+    <e lm="Donibane" a="eleka"><i>Donibane</i><par n="ABC__np"/>    </e>
+    <e lm="ikurrina" a="eleka"><i>ikurrina</i><par n="abeja__n"/></e>
+    <e r="LR" lm="ikurriña" a="eleka"><i>ikurriña</i><par n="abeja__n"/></e>
+    <e lm="Pedreña" a="eleka"><i>Pedreña</i><par n="ABC__np"/>    </e>
+    <e lm="Trintxerpe" a="eleka"><i>Trintxerpe</i><par n="ABC__np"/>    </e>
+    <e lm="Bermeo" a="eleka"><i>Bermeo</i><par n="ABC__np"/>    </e>
+    <e lm="Zumaia" a="eleka"><i>Zumaia</i><par n="ABC__np"/>    </e>
+    <e lm="prueba puntuable" a="eleka"><p><l>prueba<b/>puntuable</l><r>prueba<b/>puntuable<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e lm="prueba puntuable" a="eleka"><p><l>pruebas<b/>puntuables</l><r>prueba<b/>puntuable<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="temporada puntuable" a="eleka"><p><l>temporada<b/>puntuable</l><r>temporada<b/>puntuable<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e lm="temporada puntuable" a="eleka"><p><l>temporadas<b/>puntuables</l><r>temporada<b/>puntuable<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="regata puntuable" a="eleka"><p><l>regata<b/>puntuable</l><r>regata<b/>puntuable<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e lm="regata puntuable" a="eleka"><p><l>regatas<b/>puntuables</l><r>regata<b/>puntuable<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="jornada puntuable" a="eleka"><p><l>jornada<b/>puntuable</l><r>jornada<b/>puntuable<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e lm="jornada puntuable" a="eleka"><p><l>jornadas<b/>puntuables</l><r>jornada<b/>puntuable<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="remero" a="eleka"><i>remer</i><par n="abogad/o__n"/></e>
+    <e lm="Umpro" a="eleka"><i>Umpro</i><par n="ABC__np"/>    </e>
+    <e lm="GP" a="eleka"><i>GP</i><par n="BBVA__n"/>    </e>
+    <e lm="G.P." a="eleka"><i>G.P.</i><par n="BBVA__n"/>    </e>
+    <e lm="Urdiales" a="eleka"><i>Urdiales</i><par n="ABC__np"/>    </e>
+    <e lm="Mecos" a="eleka"><i>Mecos</i><par n="Jaime__np"/>    </e>
+    <e lm="Arkote" a="eleka"><i>Arkote</i><par n="ABC__np"/>    </e>
+    <e lm="Candy" a="eleka"><i>Candy</i><par n="ABC__np"/>    </e>
+    <e lm="bandeira" a="eleka"><i>bandeira</i><par n="abeja__n"/>    </e>
+    <e lm="Concello de Moaña" a="eleka"><i>Concello<b/>de<b/>Moaña</i><par n="Afganistán__np"/>    </e>
+    <e lm="Santiago de Compostela" a="eleka"><i>Santiago<b/>de<b/>Compostela</i><par n="Afganistán__np"/>    </e>
+    <e lm="Concello de Boiro" a="eleka"><i>Concello<b/>de<b/>Boiro</i><par n="Afganistán__np"/>    </e>
+    <e lm="Concello de Riveira" a="eleka"><i>Concello<b/>de<b/>Riveira</i><par n="Afganistán__np"/>    </e>
+    <e lm="Outón" a="eleka"><i>Outón</i><par n="Afganistán__np"/>    </e>
+    <e lm="Liébana" a="eleka"><i>Liébana</i><par n="Afganistán__np"/>    </e>
+    <e lm="Gorliz" a="eleka"><i>Gorliz</i><par n="Afganistán__np"/>    </e>
+    <e lm="Rías Bajas" a="eleka"><i>Rías<b/>Bajas</i><par n="Afganistán__np"/>    </e>
+    <e lm="Aiete" a="eleka"><i>Aiete</i><par n="Afganistán__np"/>    </e>
+    <e lm="SDR" a="eleka"><i>SDR</i><par n="Tm__n"/>    </e>
+    <e lm="S.D." a="eleka"><i>S.D.</i><par n="Tm__n"/>    </e>
+    <e lm="S.D.R." a="eleka"><i>S.D.R.</i><par n="Tm__n"/>    </e>
+    <e lm="Avia" a="eleka"><i>Avia</i><par n="ABC__np"/>    </e>
+    <e lm="Talaiberri Txakolindegia" a="eleka"><i>Talaiberri<b/>Txakolindegia</i><par n="ABC__np"/>    </e>
+    <e lm="Laredo RC" a="eleka"><i>Laredo<b/>RC</i><par n="ABC__np"/>    </e>
+    <e lm="Isuntza" a="eleka"><i>Isuntza</i><par n="ABC__np"/>    </e>
+    <e lm="Samertolameu" a="eleka"><i>Samertolameu</i><par n="ABC__np"/>    </e>
+    <e lm="Carglass" a="eleka"><i>Carglass</i><par n="ABC__np"/>    </e>
+    <e lm="Pasaia" a="eleka"><i>Pasaia</i><par n="ABC__np"/>    </e>
+    <e lm="Iberdrola" a="eleka"><i>Iberdrola</i><par n="ABC__np"/>    </e>
+    <e lm="doña" a="eleka"><i>doña</i><par n="abeja__n"/></e>
+    <e lm="Tirán" a="eleka"><i>Tirán</i><par n="ABC__np"/>    </e>
+    <e lm="Tostartean" a="eleka"><i>Tostartean</i><par n="ABC__np"/>    </e>
+    <e lm="Grafilur" a="eleka"><i>Grafilur</i><par n="ABC__np"/>    </e>
+    <e lm="por tandas"><i>por<b/>tandas</i><par n="a_fe_que__cnjadv"/>    </e>
+    <e lm="Pasquier" a="eleka"><i>Pasquier</i><par n="ABC__np"/>    </e>
+    <e lm="Euskadi Irratia" a="eleka"><i>Euskadi<b/>Irratia</i><par n="ABC__np"/>    </e>
+    <e lm="Moaña" a="eleka"><i>Moaña</i><par n="Afganistán__np"/>    </e>
+    <e lm="Castro Urdiales" a="eleka"><i>Castro<b/>Urdiales</i><par n="Afganistán__np"/>    </e>
+    <e lm="Euskadi" a="eleka"><i>Euskadi</i><par n="Afganistán__np"/>    </e>
+    <e lm="Pontevedra" a="eleka"><i>Pontevedra</i><par n="Afganistán__np"/>    </e>
+    <e lm="Oiartzun" a="eleka"><i>Oiartzun</i><par n="Afganistán__np"/>    </e>
+    <e lm="Mikeo" a="eleka"><i>Mikeo</i><par n="García__np"/>    </e>
+    <e lm="Manu" a="eleka"><i>Manu</i><par n="Jaime__np"/>    </e>
+    <e lm="Maritxalar" a="eleka"><i>Maritxalar</i><par n="García__np"/>    </e>
+    <e lm="Revolvo" a="eleka"><i>Revolvo</i><par n="García__np"/>    </e>
+    <e lm="Souto" a="eleka"><i>Souto</i><par n="García__np"/>    </e>
+    <e lm="Cotado" a="eleka"><i>Cotado</i><par n="García__np"/>    </e>
+    <e lm="Anglada" a="eleka"><i>Anglada</i><par n="García__np"/>    </e>
+    <e lm="Brizuela" a="eleka"><i>Brizuela</i><par n="García__np"/>    </e>
+    <e lm="Hijazo" a="eleka"><i>Hijazo</i><par n="García__np"/>    </e>
+    <e lm="Urien" a="eleka"><i>Urien</i><par n="García__np"/>    </e>
+    <e lm="Oribe" a="eleka"><i>Oribe</i><par n="García__np"/>    </e>
+    <e lm="Arraun Elkartea" a="eleka"><i>Arraun<b/>Elkartea</i><par n="ABC__np"/>    </e>
+    <e lm="adscribir" a="eleka"><i>adscri</i><par n="descri/bir__vblex"/>    </e>
+    <e lm="adscribir" a="eleka"><p><l>adscrí</l><r>adscri</r></p><par n="descrí/bir__vblex"/>    </e>
+    <e lm="prevenir" a="eleka"><i>prev</i><par n="v/enir__vblex"/>    </e>
+    <e lm="acudir" a="eleka"><i>acud</i><par n="abat/ir__vblex"/>    </e>
+    <e lm="acudir" a="eleka"><p><l>acúd</l><r>acud</r></p><par n="abát/ir__vblex"/>    </e>
+    <e lm="pasaiako portuko" a="eleka"><i>pasaiako<b/>portuko</i><par n="ABC__np"/>    </e>
+    <e lm="getxoko estropaden" a="eleka"><i>getxoko<b/>estropaden</i><par n="ABC__np"/>    </e>
+    <e lm="pasaiako portuko ikurriña" a="eleka"><i>pasaiako<b/>portuko<b/>ikurriña</i><par n="ABC__np"/>    </e>
+    <e lm="Zumaiako Arraun Elkartea" a="eleka"><i>Zumaiako<b/>Arraun<b/>Elkartea</i><par n="ABC__np"/>    </e>
+    <e lm="Zumaiako" a="eleka"><i>Zumaiako</i><par n="ABC__np"/>    </e>
+    <e lm="Naturhouse" a="eleka"><i>Naturhouse</i><par n="ABC__np"/>    </e>
+    <e lm="Naturhouse Castro" a="eleka"><i>Naturhouse<b/>Castro</i><par n="ABC__np"/>    </e>
+    <e lm="Astillero" a="eleka"><i>Astillero</i><par n="ABC__np"/>    </e>
+    <e lm="Plentziako" a="eleka"><i>Plentziako</i><par n="ABC__np"/>    </e>
+    <e lm="kofradiaren" a="eleka"><i>kofradiaren</i><par n="ABC__np"/>    </e>
+    <e lm="Relax" a="eleka"><i>Relax</i><par n="ABC__np"/>    </e>
+    <e lm="Hondarribiko" a="eleka"><i>Hondarribiko</i><par n="ABC__np"/>    </e>
+    <e lm="Zarauzko" a="eleka"><i>Zarauzko</i><par n="ABC__np"/>    </e>
+    <e lm="estropadak" a="eleka"><i>estropadak</i><par n="Tm__n"/>    </e>
+    <e lm="Xunta de Galicia" a="eleka"><i>Xunta<b/>de<b/>Galicia</i><par n="ABC__np"/>    </e>
+    <e lm="memoria antidopaje" a="eleka"><p><l>memoria<b/>antidopaje</l><r>memoria<b/>antidopaje<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e lm="memoria antidopaje" a="eleka"><p><l>memorias<b/>antidopaje</l><r>memoria<b/>antidopaje<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="antidopaje" a="eleka"><i>antidopaje</i><par n="abundante__adj"/></e>
+    <e lm="antidoping" a="eleka"><i>antidoping</i><par n="abundante__adj"/></e>
+    <e lm="antidóping" a="eleka"><i>antidóping</i><par n="abundante__adj"/></e>
+    <e lm="órgano antidopaje" a="eleka"><p><l>órgano<b/>antidopaje</l><r>órgano<b/>antidopaje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+    <e lm="órgano antidopaje" a="eleka"><p><l>órganos<b/>antidopaje</l><r>órgano<b/>antidopaje<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="control antidopaje" a="eleka"><p><l>control<b/>antidopaje</l><r>control<b/>antidopaje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+    <e lm="control antidopaje" a="eleka"><p><l>controles<b/>antidopaje</l><r>control<b/>antidopaje<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="comité antidopaje" a="eleka"><p><l>comité<b/>antidopaje</l><r>comité<b/>antidopaje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+    <e lm="comité antidopaje" a="eleka"><p><l>comités<b/>antidopaje</l><r>comité<b/>antidopaje<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="Agencia Mundial Antidopaje" a="eleka"><i>Agencia<b/>Mundial<b/>Antidopaje</i><par n="ABC__np"/>    </e>
+    <e lm="Agencia Estatal Antidopaje" a="eleka"><i>Agencia<b/>Estatal<b/>Antidopaje</i><par n="ABC__np"/>    </e>
+
+    <e lm="plan antidopaje" a="eleka"><p><l>plan<b/>antidopaje</l><r>plan<b/>antidopaje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="plan antidopaje" a="eleka"><p><l>planes<b/>antidopaje</l><r>plan<b/>antidopaje<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+     <e lm="agencia antidopaje" a="eleka"><p><l>agencia<b/>antidopaje</l><r>agencia<b/>antidopaje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="agencia antidopaje" a="eleka"><p><l>agencias<b/>antidopaje</l><r>agencia<b/>antidopaje<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
+    <e lm="materia antidopaje" a="eleka"><p><l>materia<b/>antidopaje</l><r>materia<b/>antidopaje<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="materia antidopaje" a="eleka"><p><l>materias<b/>antidopaje</l><r>materia<b/>antidopaje<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+    <e lm="normativa antidopaje" a="eleka"><p><l>normativa<b/>antidopaje</l><r>normativa<b/>antidopaje<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="normativa antidopaje" a="eleka"><p><l>normativas<b/>antidopaje</l><r>normativa<b/>antidopaje<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+    <e lm="reglamento antidopaje" a="eleka"><p><l>reglamento<b/>antidopaje</l><r>reglamento<b/>antidopaje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="reglamento antidopaje" a="eleka"><p><l>reglamentos<b/>antidopaje</l><r>reglamento<b/>antidopaje<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
+    <e lm="Riveira" a="eleka"><i>Riveira</i><par n="Afganistán__np"/>    </e>
+    <e lm="retransmitir"><i>retransmit</i><par n="abat/ir__vblex"/>    </e>
+    <e lm="retransmitir"><p><l>retransmít</l><r>retransmit</r></p><par n="abát/ir__vblex"/>    </e>
+    <e lm="laudo" a="eleka"><i>laudo</i><par n="abismo__n"/></e>
+    <e lm="Boiro" a="eleka"><i>Boiro</i><par n="Afganistán__np"/>    </e>
+    <e lm="Altuna" a="eleka"><i>Altuna</i><par n="ABC__np"/>    </e>
+    <e lm="bandeira cidade riveira" a="eleka"><i>bandeira<b/>cidade<b/>riveira</i><par n="ABC__np"/>    </e>
+    <e lm="bandeira cidade de riveira" a="eleka"><i>bandeira<b/>cidade<b/>de<b/>riveira</i><par n="ABC__np"/>    </e>
+    <e lm="Eibar" a="eleka"><i>Eibar</i><par n="ABC__np"/>    </e>
+    <e lm="contrarreloj" a="eleka"><i>contrarreloj</i><par n="accesibilidad__n"/></e>
+    <e lm="prueba contrarreloj" a="eleka"><p><l>prueba<b/>contrarreloj</l><r>prueba<b/>contrarreloj<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="prueba contrarreloj" a="eleka"><p><l>pruebas<b/>contrarreloj</l><r>prueba<b/>contrarreloj<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="puntuable" a="eleka"><i>puntuable</i><par n="abundante__adj"/></e>
+    <e lm="tendente" a="eleka"><i>tendente</i><par n="abundante__adj"/></e>
+    <e lm="ETB"><i>ETB</i><par n="BBC__n"/>    </e>
+    <e lm="TVG"><i>TVG</i><par n="BBC__n"/>    </e>
+    <e lm="encuadrar"><i>encuadr</i><par n="abandon/ar__vblex"/></e>
+    <e lm="encuadrar"><p><l>encuádr</l>                   <r>encuadr</r></p><par n="abandón/ar__vblex"/></e>
+    <e lm="Cudeyo" a="eleka"><i>Cudeyo</i><par n="Afganistán__np"/>    </e>
+    <e lm="consolidación" a="eleka"><i>consolidaci</i><par n="acci/ón__n"/></e>
+    <e lm="Vigo" a="eleka"><i>Vigo</i><par n="Afganistán__np"/>    </e>
+    <e lm="play off" a="eleka"><i>play<b/>off</i><par n="campus__n"/></e>
+    <e lm="play-off" a="eleka"><i>play-off</i><par n="campus__n"/></e>
+    <e lm="Uria" a="eleka"><i>Uria</i><par n="ABC__np"/>    </e>
+    <e lm="SPIUK"><i>SPIUK</i><par n="BBC__n"/>    </e>
+    <e lm="Servicristal"><i>Servicristal</i><par n="ABC__np"/>    </e>
+    <e lm="Santander" a="eleka"><i>Santander</i><par n="Afganistán__np"/>    </e>
+    <e lm="Zabalondo" a="eleka"><i>Zabalondo</i><par n="García__np"/>    </e>
+    <e lm="Portugalete" a="eleka"><i>Portugalete</i><par n="Afganistán__np"/>    </e>
+    <e lm="Gipuzkoa" a="eleka"><i>Gipuzkoa</i><par n="Afganistán__np"/>    </e>
+    <e lm="O Grove" a="eleka"><i>O<b/>Grove</i><par n="Afganistán__np"/>    </e>
+    <e lm="Ogrove" a="eleka"><i>Ogrove</i><par n="Afganistán__np"/>    </e>
+    <e lm="Getxo" a="eleka"><i>Getxo</i><par n="Afganistán__np"/>    </e>
+    <e lm="Bandera Flaviobriga" a="eleka"><i>Bandera<b/>Flaviobriga</i><par n="ABC__np"/>    </e>
+    <e lm="Euskotren" a="eleka"><i>Euskotren</i><par n="ABC__np"/>    </e>
+    <e lm="Ecolmare" a="eleka"><i>Ecolmare</i><par n="ABC__np"/>    </e>
+    <e lm="Aquarium" a="eleka"><i>Aquarium</i><par n="ABC__np"/>    </e>
+    <e lm="Grupo Barbanza" a="eleka"><i>Grupo<b/>Barbanza</i><par n="ABC__np"/>    </e>
+    <e lm="ciaboga" a="eleka"><i>ciaboga</i><par n="abeja__n"/>    </e>
+    <e lm="póliza" a="eleka"><i>póliza</i><par n="abeja__n"/>    </e>
+    <e lm="póliza de seguro" a="eleka"><i>póliza</i><par n="abeja__n"/>      <p>        <l><b/>de<b/>seguro</l><r><g><b/>de<b/>seguro</g></r></p></e>
+    <e lm="póliza de seguros" a="eleka"><i>póliza</i><par n="abeja__n"/>      <p>        <l><b/>de<b/>seguros</l><r><g><b/>de<b/>seguros</g></r></p></e>
+    <e lm="renuncia" a="eleka"><i>renuncia</i><par n="abeja__n"/>    </e>
+    <e lm="Cantábrico" a="eleka"><i>Cantábrico</i><par n="Afganistán__np"/>    </e>
+    <e lm="Barbanza" a="eleka"><i>Barbanza</i><par n="Afganistán__np"/>    </e>
+    <e lm="Bizkaia" a="eleka"><i>Bizkaia</i><par n="Afganistán__np"/>    </e>
+    <e lm="AUT" a="eleka"><i>AUT</i><par n="cuaresma__n"/>    </e>
+    <e lm="autorización para uso terapéutico" a="eleka"><i>autorizaci</i><par n="acci/ón__n"/>      <p>        <l><b/>para<b/>uso<b/>terapéutico</l><r><g><b/>para<b/>uso<b/>terapéutico</g></r></p></e>
+    <e lm="ARC" a="eleka"><i>ARC</i><par n="BBC__n"/>    </e>
+    <e lm="LGT" a="eleka"><i>LGT</i><par n="BBC__n"/>    </e>
+    <e lm="asociación de remo del cantábrico" a="eleka"><i>asociaci</i><par n="acci/ón__n"/>      <p>        <l><b/>de<b/>remo<b/>del<b/>cantábrico</l><r><g><b/>de<b/>remo<b/>del<b/>cantábrico</g></r></p></e>
+    <e lm="liga gallega de traineras" a="eleka"><i>liga</i><par n="abeja__n"/>      <p>        <l><b/>gallega<b/>de<b/>traineras</l><r><g><b/>gallega<b/>de<b/>traineras</g></r></p></e>
+    <e lm="Plentzia" a="eleka"><i>Plentzia</i><par n="ABC__np"/>    </e>
+    <e lm="Pereira" a="eleka"><i>Pereira</i><par n="Afganistán__np"/>    </e>
+    <e lm="Joxemi" a="eleka"><i>Joxemi</i><par n="Jaime__np"/>    </e>
+    <e lm="Joserra" a="eleka"><i>Joserra</i><par n="Jaime__np"/>    </e>
+    <e lm="Antton" a="eleka"><i>Antton</i><par n="Jaime__np"/>    </e>
+    <e lm="Igon" a="eleka"><i>Igon</i><par n="Jaime__np"/>    </e>
+    <e lm="Karlos" a="eleka"><i>Karlos</i><par n="Jaime__np"/>    </e>
+    <e lm="Xoxe" a="eleka"><i>Xoxe</i><par n="Jaime__np"/>    </e>
+    <e lm="teniente" a="eleka"><i>teniente</i><par n="abismo__n"/>    </e>
+    <e lm="júbilo" a="eleka"><i>júbilo</i><par n="abismo__n"/>    </e>
+    <e lm="teniente alcalde" a="eleka"><p><l>teniente<b/>alcalde</l><r>teniente<b/>alcalde<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="teniente alcalde" a="eleka"><p><l>tenientes<b/>alcaldes</l><r>teniente<b/>alcalde<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="teniente de alcalde" a="eleka"><i>teniente</i><par n="abismo__n"/>      <p>        <l><b/>de<b/>alcalde</l><r><g><b/>de<b/>alcalde</g></r></p></e>
+    <e lm="nº" a="eleka"><i>nº</i><par n="campus__n"/>    </e>
+    <e lm="Mecos Mondariz" a="eleka"><i>Mecos<b/>Mondariz</i><par n="ABC__np"/>    </e>
+    <e lm="Batura Mobile Solutions" a="eleka"><i>Batura<b/>Mobile<b/>Solutions</i><par n="ABC__np"/>    </e>
+    <e lm="Urcabal" a="eleka"><i>Urcabal</i><par n="ABC__np"/>    </e>
+    <e lm="Bermeo Hiriko" a="eleka"><i>Bermeo<b/>Hiriko</i><par n="ABC__np"/>    </e>
+    <e lm="Eusko Trenbideak" a="eleka"><i>Eusko<b/>Trenbideak</i><par n="ABC__np"/>    </e>
+    <e lm="Eusko Label" a="eleka"><i>Eusko<b/>Label</i><par n="ABC__np"/>    </e>
+    <e lm="Eusko Tren" a="eleka"><i>Eusko<b/>Tren</i><par n="ABC__np"/>    </e>
+    <e lm="Iberia Ashland" a="eleka"><i>Iberia<b/>Ashland</i><par n="ABC__np"/>    </e>
+    <e lm="Sanz" a="eleka"><i>Sanz</i><par n="García__np"/>    </e>
+    <e lm="Silva" a="eleka"><i>Silva</i><par n="García__np"/>    </e>
+    <e lm="Torrado" a="eleka"><i>Torrado</i><par n="García__np"/>    </e>
+    <e lm="Tenorio" a="eleka"><i>Tenorio</i><par n="García__np"/>    </e>
+    <e lm="Koxtape" a="eleka"><i>Koxtape</i><par n="ABC__np"/>    </e>
+    <e lm="Kaiku" a="eleka"><i>Kaiku</i><par n="ABC__np"/>    </e>
+    <e lm="Bravo" a="eleka"><i>Bravo</i><par n="García__np"/>    </e>
+    <e lm="Legarreta" a="eleka"><i>Legarreta</i><par n="García__np"/>    </e>
+    <e lm="Illarramendi" a="eleka"><i>Illarramendi</i><par n="García__np"/>    </e>
+    <e lm="Lasa" a="eleka"><i>Lasa</i><par n="García__np"/>    </e>
+    <e lm="Hoyo" a="eleka"><i>Hoyo</i><par n="García__np"/>    </e>
+    <e lm="informe adverse" a="eleka"><i>informe</i><par n="abismo__n"/>      <p>        <l><b/>adverse</l><r><g><b/>adverse</g></r></p></e>
+
+    <e lm="autoridad portuaria" a="eleka"><p><l>autoridad<b/>portuaria</l><r>autoridad<b/>portuaria<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="autoridad portuaria" a="eleka"><p><l>autoridades<b/>portuarias</l><r>autoridad<b/>portuaria<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+    <e lm="infracción disciplinaria" a="eleka"><p><l>infracción<b/>disciplinaria</l><r>infracción<b/>disciplinaria<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="infracción disciplinaria" a="eleka"><p><l>infracciones<b/>disciplinarias</l><r>infracción<b/>disciplinaria<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="infracción procesal" a="eleka"><p><l>infracción<b/>procesal</l><r>infracción<b/>procesal<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="infracción procesal" a="eleka"><p><l>infracciones<b/>procesales</l><r>infracción<b/>procesal<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="infracción leve" a="eleka"><p><l>infracción<b/>leve</l><r>infracción<b/>leve<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="infracción leve" a="eleka"><p><l>infracciones<b/>leves</l><r>infracción<b/>leve<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="evento idóneo" a="eleka"><p><l>evento<b/>idóneo</l><r>evento<b/>idóneo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="evento idóneo" a="eleka"><p><l>eventos<b/>idóneos</l><r>evento<b/>idóneo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="acontecimiento idóneo" a="eleka"><p><l>acontecimiento<b/>idóneo</l><r>acontecimiento<b/>idóneo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="acontecimiento idóneo" a="eleka"><p><l>acontecimientos<b/>idóneos</l><r>acontecimiento<b/>idóneo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="finalizar" a="eleka"><i>finali</i><par n="abalan/zar__vblex"/>    </e>
+    <e lm="finalizar" a="eleka"><p><l>finalí</l><r>finali</r></p><par n="abalán/zar__vblex"/> </e>
+    <e lm="bogar"><i>bog</i><par n="abandon/ar__vblex"/></e>
+    <e lm="bogar"><p><l>bóg</l>                 <r>bog</r></p><par n="abandón/ar__vblex"/></e>
+    <e lm="renunciar"><i>renunci</i><par n="abandon/ar__vblex"/></e>
+    <e lm="renunciar"><p><l>renúnci</l>                 <r>renunci</r></p><par n="abandón/ar__vblex"/></e>
+    <e lm="arbitral" a="eleka"><i>arbitral</i><par n="abdominal__adj"/>    </e>
+    <e lm="laudo arbitral" a="eleka"><p><l>laudo<b/>arbitral</l><r>laudo<b/>arbitral<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="laudo arbitral" a="eleka"><p><l>laudos<b/>arbitrales</l><r>laudo<b/>arbitral<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="órgano arbitral" a="eleka"><p><l>órgano<b/>arbitral</l><r>órgano<b/>arbitral<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="órgano arbitral" a="eleka"><p><l>órganos<b/>arbitrales</l><r>órgano<b/>arbitral<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="control arbitral" a="eleka"><p><l>control<b/>arbitral</l><r>control<b/>arbitral<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="control arbitral" a="eleka"><p><l>controles<b/>arbitrales</l><r>control<b/>arbitral<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="acercamiento"><i>acercamiento</i><par n="abismo__n"/>    </e>
+    <e lm="vaciado"><i>vaciado</i><par n="abismo__n"/>    </e>
+    <e lm="Super BM" a="eleka"><i>Super<b/>BM</i><par n="ABC__np"/>    </e>
+    <e lm="Ashland" a="eleka"><i>Ashland</i><par n="ABC__np"/>    </e>
+    <e lm="pontevedrés"><i>pontevedr</i><par n="aragon/és__adj"/>    </e>
+    <e lm="palmarés"><i>palmarés</i><par n="campus__n"/>    </e>
+    <e lm="Noja" a="eleka"><i>Noja</i><par n="Afganistán__np"/>    </e>
+    <e lm="Muguruza" a="eleka"><i>Muguruza</i><par n="García__np"/>    </e>
+    <e lm="Mugartegi" a="eleka"><i>Mugartegi</i><par n="García__np"/>    </e>
+    <e lm="Lertxundi" a="eleka"><i>Lertxundi</i><par n="García__np"/>    </e>
+    <e lm="Prieto" a="eleka"><i>Prieto</i><par n="García__np"/>    </e>
+    <e lm="Colomer" a="eleka"><i>Colomer</i><par n="García__np"/>    </e>
+    <e lm="lasartearra" a="eleka"><i>lasartearra</i><par n="abundante__adj"/>    </e>
+    <e lm="ostentar" a="eleka"><i>ostent</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="ostentar" a="eleka"><p><l>ostent</l><r>ostent</r></p><par n="abandón/ar__vblex"/> </e>
+    <e lm="forjar" a="eleka"><i>forj</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="forjar" a="eleka"><p><l>fórj</l><r>forj</r></p><par n="abandón/ar__vblex"/> </e>
+    <e lm="finalización" a="eleka"><i>finalizaci</i><par n="acci/ón__n"/>    </e>  
+    <e lm="encuadre"><i>encuadre</i><par n="abismo__n"/>    </e>
+    <e lm="dotación" a="eleka"><i>dotaci</i><par n="acci/ón__n"/>    </e> 
+    <e lm="Donostia" a="eleka"><i>Donostia</i><par n="Afganistán__np"/>    </e>
+    <e lm="San Sebastián" a="eleka"><i>San<b/>Sebastián</i><par n="Afganistán__np"/>    </e>
+    <e lm="Euskal Herria" a="eleka"><i>Euskal<b/>Herria</i><par n="Afganistán__np"/>    </e>
+    <e lm="Euskal Telebista" a="eleka"><i>Euskal<b/>Telebista</i><par n="ABC__np"/>    </e>
+    <e lm="Getaria" a="eleka"><i>Getaria</i><par n="Afganistán__np"/>    </e>
+    <e lm="Guarnizo" a="eleka"><i>Guarnizo</i><par n="Afganistán__np"/>    </e>
+    <e lm="confección" a="eleka"><i>confecci</i><par n="acci/ón__n"/>    </e>
+    <e lm="cántabro" a="eleka"><i>cántabr</i><par n="absolut/o__adj"/>    </e>
+    <e lm="puntero" a="eleka"><i>punter</i><par n="absolut/o__adj"/>    </e>
+    <e lm="hematológico" a="eleka"><i>hematológic</i><par n="absolut/o__adj"/>    </e>
+    <e lm="muchísimo" a="eleka"><i>muchísim</i><par n="absolut/o__adj"/>    </e>
+    <e lm="muchísimo"><i>muchísimo</i><par n="ahora__adv"/>    </e>
+    <e lm="asambleario" a="eleka"><i>asambleari</i><par n="absolut/o__adj"/>    </e>
+    <e lm="arrancar" a="eleka"><i>arran</i><par n="ata/car__vblex"/></e>
+    <e lm="arrancar" a="eleka"><p><l>arrán</l>                    <r>arran</r></p><par n="atá/car__vblex"/></e>
+    <e lm="alterno" a="eleka"><i>altern</i><par n="absolut/o__adj"/>    </e>
+    <e lm="preciado" a="eleka"><i>preciad</i><par n="absolut/o__adj"/>    </e>
+    <e lm="Algorri" a="eleka"><i>Algorri</i><par n="ABC__np"/>    </e>
+    <e lm="Localia" a="eleka"><i>Localia</i><par n="ABC__np"/>    </e>
+    <e lm="Aiestaran" a="eleka"><i>Aiestaran</i><par n="García__np"/>    </e>
+    <e lm="Zabala" a="eleka"><i>Zabala</i><par n="García__np"/>    </e>
+    <e lm="Prat" a="eleka"><i>Prat</i><par n="García__np"/>    </e>
+    <e lm="Oñate" a="eleka"><i>Oñate</i><par n="García__np"/>    </e>
+    <e lm="Navalón" a="eleka"><i>Navalón</i><par n="García__np"/>    </e>
+    <e lm="Marcano" a="eleka"><i>Marcano</i><par n="García__np"/>    </e>
+    <e lm="Korta" a="eleka"><i>Korta</i><par n="García__np"/>    </e>
+    <e lm="Legarretaetxeberría" a="eleka"><i>Legarretaetxeberría</i><par n="García__np"/>    </e>
+    <e lm="Zurich" a="eleka"><i>Zurich</i><par n="ABC__np"/>    </e>
+    <e lm="Kursaal" a="eleka"><i>Kursaal</i><par n="ABC__np"/>    </e>
+    <e lm="Seguros Zurich" a="eleka"><i>Seguros<b/>Zurich</i><par n="ABC__np"/>    </e>
+    <e lm="Erriko Kirolak" a="eleka"><i>Erriko<b/>Kirolak</i><par n="ABC__np"/>    </e>
+    <e lm="Ur Kirolak" a="eleka"><i>Ur<b/>Kirolak</i><par n="ABC__np"/>    </e>
+    <e lm="Xunqueiriña" a="eleka"><i>Xunqueiriña</i><par n="ABC__np"/>    </e>
+    <e lm="Diario Montañés" a="eleka"><i>Diario<b/>Montañés</i><par n="ABC__np"/>    </e>
+    <e lm="Zaragoza" a="eleka"><i>Zaragoza</i><par n="Afganistán__np"/>    </e>
+    <e lm="Nervión" a="eleka"><i>Nervión</i><par n="Afganistán__np"/>    </e>
+    <e lm="Pasai Donibane" a="eleka"><i>Pasai<b/>Donibane</i><par n="Afganistán__np"/>    </e>
+    <e lm="Donostia-San Sebastián" a="eleka"><i>Donostia-San<b/>Sebastián</i><par n="Afganistán__np"/>    </e>
+    <e lm="pues bien"><i>pues<b/>bien</i><par n="ahora__adv"/>    </e>
+    <e lm="pues"><i>pues</i><par n="a_fe_que__cnjadv"/>    </e>
+    <e lm="maillot" a="eleka"><i>maillot</i><par n="abril__n"/>    </e>
+    <e lm="mallote" a="eleka"><i>mallote</i><par n="abismo__n"/>    </e>
+    <e lm="dopante" a="eleka"><i>dopante</i><par n="abundante__adj"/>    </e>
+    <e lm="dolencia" a="eleka"><i>dolencia</i><par n="abeja__n"/>    </e>
+    <e lm="degustar" a="eleka"><i>degust</i><par n="abandon/ar__vblex"/></e>
+    <e lm="degustar" a="eleka"><p><l>degúst</l>                 <r>degust</r></p><par n="abandón/ar__vblex"/></e>
+    <e lm="consejería" a="eleka"><i>consejería</i><par n="abeja__n"/>    </e>
+    <e lm="boya" a="eleka"><i>boya</i><par n="abeja__n"/>    </e>
+    <e lm="babor" a="eleka"><i>babor</i><par n="abril__n"/>    </e>
+    <e lm="a babor" a="eleka"><i>a<b/>babor</i><par n="a_fe_que__cnjadv"/>    </e>
+    <e lm="aliciente" a="eleka"><i>aliciente</i><par n="abismo__n"/>    </e>
+    <e lm="protagonismo" a="eleka"><i>protagonismo</i><par n="abismo__n"/>    </e>
+    <e lm="programar" a="eleka"><i>program</i><par n="abandon/ar__vblex"/></e>
+    <e lm="programar" a="eleka"><p><l>prográm</l>                 <r>program</r></p><par n="abandón/ar__vblex"/></e>
+    <e lm="proel" a="eleka"><i>proel</i><par n="abril__n"/>    </e>
+    <e lm="plasmar" a="eleka"><i>plasm</i><par n="abandon/ar__vblex"/></e>
+    <e lm="plasmar" a="eleka"><p><l>plásm</l>                 <r>plasm</r></p><par n="abandón/ar__vblex"/></e>
+    <e lm="pistoletazo" a="eleka"><i>pistoletazo</i><par n="abismo__n"/>    </e>
+    <e lm="ensenada" a="eleka"><i>ensenada</i><par n="abeja__n"/>    </e>
+    <e lm="parroquia" a="eleka"><i>parroquia</i><par n="abeja__n"/>    </e>
+    <e lm="pistoletazo de salida" a="eleka"><i>pistoletazo</i><par n="abismo__n"/><p><l><b/>de<b/>salida</l><r><g><b/>de<b/>salida</g></r></p></e>
+    <e lm="aferrar a" a="eleka"><i>aferr</i><par n="abandon/ar__vblex"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>
+    <e lm="remontar el vuelo" a="eleka"><i>remont</i><par n="abandon/ar__vblex"/><p><l><b/>el<b/>vuelo</l><r><g><b/>el<b/>vuelo</g></r></p></e>
+    <e lm="perjuicio" a="eleka"><i>perjuicio</i><par n="abismo__n"/>    </e>
+    <e lm="sin perjuicio de" a="eleka"><i>sin<b/>perjuicio<b/>de</i><par n="a_fe_que__cnjadv"/>    </e>
+    <e lm="Mirari" a="eleka"><i>Mirari</i><par n="María__np"/>    </e>
+    <e lm="Leire" a="eleka"><i>Leire</i><par n="María__np"/>    </e>
+    <e lm="Lore" a="eleka"><i>Lore</i><par n="María__np"/>    </e>
+    <e lm="memorial" a="eleka"><i>memorial</i><par n="abril__n"/>    </e>
+    <e lm="Meira" a="eleka"><i>Meira</i><par n="Afganistán__np"/>    </e>
+    <e lm="Brazomar" a="eleka"><i>Brazomar</i><par n="Afganistán__np"/>    </e>
+    <e lm="Santa Eugenia de Riveira" a="eleka"><i>Santa<b/>Eugenia<b/>de<b/>Riveira</i><par n="Afganistán__np"/>    </e>
+    <e lm="lehendakari" a="eleka"><i>lehendakari</i><par n="abismo__n"/>    </e>
+    <e lm="club de remo" a="eleka"><i>club</i><par n="abril__n"/><p><l><b/>de<b/>remo</l><r><g><b/>de<b/>remo</g></r></p></e>
+    <e lm="salón de plenos del ayuntamiento" a="eleka"><i>sal</i><par n="aluvi/ón__n"/><p><l><b/>de<b/>plenos<b/>del<b/>ayuntamiento</l><r><g><b/>de<b/>plenos<b/>del<b/>ayuntamiento</g></r></p></e>
+    <e lm="profesionalidad"><i>profesionalidad</i><par n="accesibilidad__n"/>    </e>
+    <e lm="baliza" a="eleka"><i>baliza</i><par n="abeja__n"/>    </e>
+    <e lm="aspirante" a="eleka"><i>aspirante</i><par n="abismo__n"/>    </e>
+    <e lm="aspirante" a="eleka"><i>aspirante</i><par n="abundante__adj"/>    </e>
+    <e lm="multiuso" a="eleka"><i>multiuso</i><par n="abundante__adj"/>    </e>
+    <e lm="chaval" a="eleka"><i>chaval</i><par n="abeja__n"/>    </e>
+    <e lm="adjudicar"><i>adjudi</i><par n="ata/car__vblex"/></e>
+    <e lm="adjudicar"><p><l>adjudí</l>          <r>adjudi</r></p><par n="atá/car__vblex"/></e>
+    <e lm="en detrimento de" a="eleka"><i>en<b/>detrimento<b/></i><par n="contde__pr"/>    </e>
+    <e lm="al mismo tiempo" a="eleka"><i>al<b/>mismo<b/>tiempo</i><par n="ahora__adv"/></e>
+    <e lm="Sociedad Ondartza" a="eleka"><i>Sociedad<b/>Ondartza</i><par n="ABC__np"/>    </e>
+    <e lm="Aiten Etxe" a="eleka"><i>Aiten<b/>Etxe</i><par n="ABC__np"/>    </e>
+    <e lm="chaval" a="eleka"><i>chaval</i><par n="señor__n"/>    </e>
+    <e lm="tal y como"><i>tal<b/>y<b/>como</i><par n="a_fe_que__cnjadv"/></e>
+    <e lm="Kerejeta" a="eleka"><i>Kerejeta</i><par n="García__np"/>    </e>
+    <e lm="Abando" a="eleka"><i>Abando</i><par n="Afganistán__np"/>    </e>
+    <e lm="Reizabal" a="eleka"><i>Reizabal</i><par n="García__np"/>    </e>
+    <e lm="Miguel Buen" a="eleka"><i>Miguel<b/>Buen</i><par n="García__np"/>    </e>
+    <e lm="Rua" a="eleka"><i>Rua</i><par n="García__np"/>    </e>
+    <e lm="Poza" a="eleka"><i>Poza</i><par n="García__np"/>    </e>
+    <e lm="Egurrola" a="eleka"><i>Egurrola</i><par n="García__np"/>    </e>
+    <e lm="Pombo" a="eleka"><i>Pombo</i><par n="García__np"/>    </e>
+    <e lm="elaboración" a="eleka"><i>elaboraci</i><par n="acci/ón__n"/>    </e>
+    <e lm="Rosendo" a="eleka"><i>Rosendo</i><par n="Jaime__np"/>    </e>
+    <e lm="Ander" a="eleka"><i>Ander</i><par n="Jaime__np"/>    </e>
+    <e lm="Moreira" a="eleka"><i>Moreira</i><par n="García__np"/>    </e>
+    <e lm="Juaristi" a="eleka"><i>Juaristi</i><par n="García__np"/>    </e>
+    <e lm="Ayestaran" a="eleka"><i>Ayestaran</i><par n="García__np"/>    </e>
+    <e lm="Ayestarán" a="eleka"><i>Ayestarán</i><par n="García__np"/>    </e>
+    <e lm="Goienetxea" a="eleka"><i>Goienetxea</i><par n="García__np"/>    </e>
+    <e lm="Pena" a="eleka"><i>Pena</i><par n="García__np"/>    </e>
+    <e lm="Arrupe" a="eleka"><i>Arrupe</i><par n="García__np"/>    </e>
+    <e lm="Arrupe" a="eleka"><i>Arrupe</i><par n="García__np"/>    </e>
+    <e lm="Anduela" a="eleka"><i>Anduela</i><par n="García__np"/>    </e>
+    <e lm="Lujanbio" a="eleka"><i>Lujanbio</i><par n="García__np"/>    </e>
+    <e lm="Espel" a="eleka"><i>Espel</i><par n="García__np"/>    </e>
+    <e lm="Agirrezabalaga" a="eleka"><i>Agirrezabalaga</i><par n="García__np"/>    </e>
+    <e lm="Goikoetxea" a="eleka"><i>Goikoetxea</i><par n="García__np"/>    </e>
+    <e lm="CAIXANOVA" a="eleka"><i>CAIXANOVA</i><par n="ABC__np"/>    </e>
+    <e lm="El Corte Inglés" a="eleka"><i>El<b/>Corte<b/>Inglés</i><par n="ABC__np"/>    </e>
+    <e lm="Museo del Pescador" a="eleka"><i>Museo<b/>del<b/>Pescador</i><par n="ABC__np"/>    </e>
+    <e lm="Trintxerpeko" a="eleka"><i>Trintxerpeko</i><par n="ABC__np"/>    </e>
+    <e lm="Sala Chile" a="eleka"><i>Sala<b/>Chile</i><par n="ABC__np"/>    </e>
+    <e lm="Inmobiliaria Orio" a="eleka"><i>Inmobiliaria<b/>Orio</i><par n="ABC__np"/>    </e>
+    <e lm="riveirense" a="eleka"><i>riveirense</i><par n="abundante__adj"/></e>
+    <e lm="plentziarra" a="eleka"><i>plentziarra</i><par n="abundante__adj"/></e>
+    <e lm="castreño" a="eleka"><i>castreñ</i><par n="absolut/o__adj"/></e>
+    <e lm="costero" a="eleka"><i>coster</i><par n="absolut/o__adj"/></e>
+    <e lm="morado" a="eleka"><i>morad</i><par n="absolut/o__adj"/></e>
+    <e lm="vibrante" a="eleka"><i>vibrante</i><par n="abundante__adj"/></e>
+    <e lm="residir" a="eleka"><i>resid</i><par n="abat/ir__vblex"/>    </e>
+    <e lm="residir" a="eleka"><p><l>resíd</l><r>acud</r></p><par n="abát/ir__vblex"/>    </e>
+    <e lm="Sainz de la Maza" a="eleka"><i>Sainz<b/>de<b/>la<b/>Maza</i><par n="García__np"/>    </e>
+    <e lm="racha" a="eleka"><i>racha</i><par n="abeja__n"/>    </e>
+    <e lm="afición" a="eleka"><i>afici</i><par n="acci/ón__n"/>    </e>
+    <e lm="Maza" a="eleka"><i>Maza</i><par n="García__np"/>    </e>
+    <e lm="Arias" a="eleka"><i>Arias</i><par n="García__np"/>    </e>
+    <e lm="Julen" a="eleka"><i>Julen</i><par n="Jaime__np"/>    </e>
+    <e lm="Irakoitz" a="eleka"><i>Irakoitz</i><par n="Jaime__np"/>    </e>
+    <e lm="invernal" a="eleka"><i>invernal</i><par n="abdominal__adj"/>    </e>
+    <e lm="infracción" a="eleka"><i>infracci</i><par n="acci/ón__n"/>    </e>
+    <e lm="amonestación" a="eleka"><i>amonestaci</i><par n="acci/ón__n"/>    </e>
+    <e lm="Indaux" a="eleka"><i>Indaux</i><par n="ABC__np"/>    </e>
+    <e lm="Federación Cántabra" a="eleka"><i>Federación<b/>Cántabra</i><par n="ABC__np"/>    </e>
+    <e lm="Corona Caja Madrid" a="eleka"><i>Corona<b/>Caja<b/>Madrid</i><par n="ABC__np"/>    </e>
+    <e lm="Abra-Real Sporting Club" a="eleka"><i>Abra-Real<b/>Sporting<b/>Club</i><par n="ABC__np"/>    </e>
+    <e lm="AOL" a="eleka"><i>AOL</i><par n="ABC__np"/>    </e>
+    <e lm="DMOZ" a="eleka"><i>DMOZ</i><par n="ABC__np"/>    </e>
+    <e lm="LOTURA" a="eleka"><i>LOTURA</i><par n="ABC__np"/>    </e>
+    <e lm="Open Directory" a="eleka"><i>Open<b/>Directory</i><par n="ABC__np"/>    </e>
+    <e lm="Hondarribiako Arraun Elkartea" a="eleka"><i>Hondarribiako<b/>Arraun<b/>Elkartea</i><par n="ABC__np"/>    </e>
+    <e lm="BBK" a="eleka"><i>BBK</i><par n="BBC__n"/>    </e>
+    <e lm="Ensenada de Brazomar" a="eleka"><i>Ensenada<b/>de<b/>Brazomar</i><par n="ABC__np"/>    </e>
+    <e lm="Iker" a="eleka"><i>Iker</i><par n="Jaime__np"/>    </e>
+    <e lm="homologar" a="eleka"><i>homolog</i><par n="aleg/ar__vblex"/></e>
+    <e lm="homologar"><p><l>homológ</l><r>homolog</r></p><par n="alég/ar__vblex"/></e>
+    <e lm="guipuzcoano" a="eleka"><i>guipuzcoan</i><par n="absolut/o__adj"/>    </e>
+    <e lm="sancionador" a="eleka"><i>sancionador</i><par n="abrumador__adj"/>    </e>
+    <e lm="Garaizar" a="eleka"><i>Garaizar</i><par n="García__np"/>    </e>
+    <e lm="Bretos" a="eleka"><i>Bretos</i><par n="García__np"/>    </e>
+    <e lm="Lepanto" a="eleka"><i>Lepanto</i><par n="Afganistán__np"/>    </e>
+    <e lm="Algorta" a="eleka"><i>Algorta</i><par n="Afganistán__np"/>    </e>
+    <e lm="Fundación Deporte Galego" a="eleka"><i>Fundación<b/>Deporte<b/>Galego</i><par n="ABC__np"/>    </e>
+    <e lm="federativo" a="eleka"><i>federativ</i><par n="absolut/o__adj"/>    </e>
+    <e lm="tinerfeño" a="eleka"><i>tinerfeñ</i><par n="absolut/o__adj"/>    </e>
+    <e lm="expo" a="eleka"><i>expo</i><par n="abeja__n"/>    </e>
+    <e lm="olimpiada" a="eleka"><i>olimpiada</i><par n="abeja__n"/>    </e>
+    <e lm="Etxebarria" a="eleka"><i>Etxebarria</i><par n="García__np"/>    </e>
+    <e lm="Etxaniz" a="eleka"><i>Etxaniz</i><par n="García__np"/>    </e>
+    <e lm="Esnal" a="eleka"><i>Esnal</i><par n="García__np"/>    </e>
+    <e lm="EPO" a="eleka"><i>EPO</i><par n="ABC__np"/>    </e>
+    <e lm="emotivo" a="eleka"><i>emotiv</i><par n="absolut/o__adj"/>    </e>
+    <e lm="embarcadero" a="eleka"><i>embarcadero</i><par n="abismo__n"/>    </e>
+    <e lm="detrimento" a="eleka"><i>detrimento</i><par n="abismo__n"/>    </e>
+    <e lm="remo" a="eleka"><i>remo</i><par n="abismo__n"/>    </e>
+    <e lm="montaje" a="eleka"><i>montaje</i><par n="abismo__n"/>    </e>
+    <e lm="Elduayen" a="eleka"><i>Elduayen</i><par n="García__np"/>    </e>
+    <e lm="destinar" a="eleka"><i>destin</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="destinar" a="eleka"><p><l>destín</l><r>destin</r></p><par n="abandón/ar__vblex"/>    </e>
+    <e lm="alucinar" a="eleka"><i>alucin</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="alucinar" a="eleka"><p><l>alucín</l><r>alucin</r></p><par n="abandón/ar__vblex"/>    </e>
+    <e lm="confeccionar" a="eleka"><i>confeccion</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="confeccionar" a="eleka"><p><l>confección</l><r>confeccion</r></p><par n="abandón/ar__vblex"/>    </e>
+    <e lm="hermanar" a="eleka"><i>herman</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="hermanar" a="eleka"><p><l>hermán</l><r>herman</r></p><par n="abandón/ar__vblex"/>    </e>
+    <e lm="agrupar" a="eleka"><i>agrup</i><par n="abandon/ar__vblex"/>    </e>
+    <e lm="agrupar" a="eleka"><p><l>agrúp</l><r>agrup</r></p><par n="abandón/ar__vblex"/>    </e>
+    <e lm="desembarcar"><i>desembar</i><par n="ata/car__vblex"/></e>
+    <e lm="desembarcar"><p><l>desembár</l>          <r>desembar</r></p><par n="atá/car__vblex"/></e>
+    <e lm="dedicación" a="eleka"><i>dedicaci</i><par n="acci/ón__n"/>    </e>
+    <e lm="profesión de dedicación humanitaria" a="eleka"><i>profesi</i><par n="aluvi/ón__n"/>      <p>        <l><b/>de<b/>dedicación<b/>humanitaria</l><r><g><b/>de<b/>dedicación<b/>humanitaria</g></r></p></e>
+     <e lm="puerto pesquero" a="eleka"><p><l>puerto<b/>pesquero</l><r>puerto<b/>pesquero<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+     <e lm="puerto pesquero" a="eleka"><p><l>puertos<b/>pesqueros</l><r>puerto<b/>pesquero<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+     <e lm="puerto pesquero de bajura" a="eleka"><p><l>puerto<b/>pesquero<b/>de<b/>bajura</l><r>puerto<b/>pesquero<b/>de<b/>bajura<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+     <e lm="puerto pesquero" a="eleka"><p><l>puertos<b/>pesqueros<b/>de<b/>bajura</l><r>puerto<b/>pesquero<b/>de<b/>bajura<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      
+     <e lm="dedicación exclusiva" a="eleka"><p><l>dedicación<b/>exclusiva</l><r>dedicación<b/>exclusiva<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+     <e lm="dedicación exclusiva" a="eleka"><p><l>dedicaciones<b/>exclusivas</l><r>dedicación<b/>exclusiva<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+     <e lm="dedicación plena" a="eleka"><p><l>dedicación<b/>plena</l><r>dedicación<b/>plena<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+     <e lm="dedicación plena" a="eleka"><p><l>dedicaciones<b/>plenas</l><r>dedicación<b/>plena<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+     <e lm="A Coruña" a="eleka"><i>A<b/>Coruña</i><par n="Afganistán__np"/>    </e>
+     <e lm="Adeje" a="eleka"><i>Adeje</i><par n="Afganistán__np"/>    </e>
+     <e lm="Newark" a="eleka"><i>Newark</i><par n="Afganistán__np"/>    </e>
+     <e lm="New Jersey" a="eleka"><i>New<b/>Jersey</i><par n="Afganistán__np"/>    </e>
+     <e lm="Cabo da Cruz" a="eleka"><i>Cabo<b/>da<b/>Cruz</i><par n="Afganistán__np"/>    </e>
+     <e lm="Ereaga" a="eleka"><i>Ereaga</i><par n="Afganistán__np"/>    </e>
+     <e lm="Liga San Miguel" a="eleka"><i>Liga<b/>San<b/>Miguel</i><par n="ABC__np"/>    </e>
+     <e lm="San Miguel" a="eleka"><i>San<b/>Miguel</i><par n="ABC__np"/>    </e>
+     <e lm="Caja Madrid" a="eleka"><i>Caja<b/>Madrid</i><par n="ABC__np"/>    </e>
+     <e lm="San Juan" a="eleka"><i>San<b/>Juan</i><par n="ABC__np"/>    </e>
+     <e lm="San Pedro" a="eleka"><i>San<b/>Pedro</i><par n="ABC__np"/>    </e>
+     <e lm="Orsa" a="eleka"><i>Orsa</i><par n="ABC__np"/>    </e>
+     <e lm="Ambilamp" a="eleka"><i>Ambilamp</i><par n="ABC__np"/>    </e>
+     <e lm="Amenabar" a="eleka"><i>Amenabar</i><par n="ABC__np"/>    </e>
+     <e lm="Arantzazu" a="eleka"><i>Arantzazu</i><par n="ABC__np"/>    </e>
+     <e lm="Zarautz Inmob. Orio" a="eleka"><i>Zarautz<b/>Inmob.<b/>Orio</i><par n="ABC__np"/>    </e>
+     <e lm="castrado" a="eleka"><i>castrad</i><par n="abstract/o__adj"/></e>
+     <e lm="mejor patrón" a="eleka"><p><l>mejor<b/>patrón</l><r>mejor<b/>patrón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+     <e lm="mejor patrón" a="eleka"><p><l>mejores<b/>patrones</l><r>mejor<b/>patrón<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+     <e lm="Reta" a="eleka"><i>Reta</i><par n="ABC__np"/>    </e>
+     <e lm="Endesa" a="eleka"><i>Endesa</i><par n="ABC__np"/>    </e>
+     <e lm="Euskolabel" a="eleka"><i>Euskolabel</i><par n="ABC__np"/>    </e>
+     <e lm="Erriko Kirolak Eguna" a="eleka"><i>Erriko<b/>Kirolak<b/>Eguna</i><par n="ABC__np"/>    </e>
+     <e lm="Pasajes San Juan" a="eleka"><i>Pasajes<b/>San<b/>Juan</i><par n="ABC__np"/>    </e>
+     <e lm="Pasajes San Pedro" a="eleka"><i>Pasajes<b/>San<b/>Pedro</i><par n="ABC__np"/>    </e>
+     <e lm="selección masculina" a="eleka"><p><l>selección<b/>masculina</l><r>selección<b/>masculina<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+     <e lm="selección masculina" a="eleka"><p><l>selecciones<b/>masculinas</l><r>selección<b/>masculina<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+     <e lm="selección femenina" a="eleka"><p><l>selección<b/>femenina</l><r>selección<b/>femenina<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+     <e lm="selección femenina" a="eleka"><p><l>selecciones<b/>femeninas</l><r>selección<b/>femenina<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+     <e lm="política de privacidad" a="eleka"><i>política</i><par n="abeja__n"/>      <p>        <l><b/>de<b/>privacidad</l><r><g><b/>de<b/>privacidad</g></r></p></e>
+     <e lm="EPO-rh" a="eleka"><i>EPO-rh</i><par n="ABC__np"/>    </e>
+     <e lm="colectivamente" a="eleka"><i>colectivamente</i><par n="ahora__adv"/>    </e>
+     <e lm="exitosamente" a="eleka"><i>exitosamente</i><par n="ahora__adv"/>    </e>
+     <e lm="accesoriamente" a="eleka"><i>accesoriamente</i><par n="ahora__adv"/>    </e>
+     <e lm="nota de prensa" a="eleka"><i>nota</i><par n="abeja__n"/>      <p>        <l><b/>de<b/>prensa</l><r><g><b/>de<b/>prensa</g></r></p></e>
+     <e lm="condición de uso" a="eleka"><i>condici</i><par n="acci/ón__n"/>      <p>        <l><b/>de<b/>uso</l><r><g><b/>de<b/>uso</g></r></p></e>
+     <e lm="mapa del sitio" a="eleka"><i>mapa</i><par n="abeja__n"/>      <p>        <l><b/>del<b/>sitio</l><r><g><b/>del<b/>sitio</g></r></p></e>
+     
+
+
+
 <!-- conjunctions -->
     <e r="LR" lm="de que"><p><l>de<b/>que</l><r>de<b/>que<s n="cnjsub"/></r></p></e>
     <e lm="que"><i>que</i><par n="que__cnjsub"/>    </e>
@@ -80118,7 +80705,6 @@
     <e lm="Pastor"><i>Pastor</i><par n="Jaime__np"/>    </e>
     <e lm="Patric"><i>Patric</i><par n="Jaime__np"/>    </e>
     <e lm="Patricio"><i>Patricio</i><par n="Jaime__np"/>    </e>
-    <e lm="Patrocinio"><i>Patrocinio</i><par n="Jaime__np"/>    </e>
     <e lm="Paucides"><i>Paucides</i><par n="Jaime__np"/>    </e>
     <e lm="Paul"><i>Paul</i><par n="Jaime__np"/>    </e>
     <e lm="Paúl"><i>Paúl</i><par n="Jaime__np"/>    </e>
@@ -91609,7 +92195,9 @@
     <e lm="castigar"><p><l>castíg</l><r>castig</r></p><par n="alég/ar__vblex"/>    </e>
     <e lm="albergar"><i>alberg</i><par n="aleg/ar__vblex"/>    </e>
     <e lm="albergar"><p><l>albérg</l><r>alberg</r></p><par n="alég/ar__vblex"/>    </e>
+<!--
     <e lm="castrar" a="prompsit2adn"><i>castr</i><par n="abandon/ar__vblex"/>    </e>
+-->
     <e lm="catalogar" a="prompsit2adn"><i>catalog</i><par n="aleg/ar__vblex"/>    </e>
     <e lm="catalogar" a="prompsit2adn"><p><l>catalóg</l><r>catalog</r></p><par n="alég/ar__vblex"/>    </e>
     <e lm="catapultar" a="prompsit2adn"><i>catapult</i><par n="abandon/ar__vblex"/>    </e>
@@ -91911,7 +92499,9 @@
     <e lm="cantar"><p><l>cánt</l><r>cant</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="cargar"><p><l>cárg</l><r>carg</r></p><par n="alég/ar__vblex"/>    </e>
     <e lm="cascar"><p><l>cás</l><r>cas</r></p><par n="atá/car__vblex"/>    </e>
+<!--Liga ACTn "Castro" ondo itzultzeko
     <e lm="castrar" a="prompsit2adn"><p><l>cástr</l><r>castr</r></p><par n="abandón/ar__vblex"/>    </e>
+-->
     <e lm="causar"><p><l>cáus</l><r>caus</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="cavar"><p><l>cáv</l><r>cav</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="centrar"><p><l>céntr</l><r>centr</r></p><par n="abandón/ar__vblex"/>    </e>
@@ -92661,6 +93251,8 @@
     <e lm="hacer huelga"><i>h</i><par n="h/acer__vblex"/>      <p>        <l><b/>huelga</l><r><g><b/>huelga</g></r></p></e>
     <e lm="hacer posible"><i>h</i><par n="h/acer__vblex"/>      <p>        <l><b/>posible</l><r><g><b/>posible</g></r></p></e>
     <e lm="hacer imposible"><i>h</i><par n="h/acer__vblex"/>      <p>        <l><b/>imposible</l><r><g><b/>imposible</g></r></p></e>
+
+
 <e lm="imposibilitar"><i>imposibilit</i><par n="abandon/ar__vblex"/></e>
 <e lm="imposibilitar"><p><l>imposibilít</l>       <r>imposibilit</r></p><par n="abandón/ar__vblex"/></e>
 <e lm="posibilitar"><i>posibilit</i><par n="abandon/ar__vblex"/></e>
@@ -92720,8 +93312,6 @@
     <e lm="implantar"><p><l>implánt</l><r>implant</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="implicar"><p><l>implí</l><r>impli</r></p><par n="atá/car__vblex"/>    </e>
     <e lm="importar"><i>import</i><par n="abandon/ar__vblex"/>    </e>
-    <e lm="imposibilitar"><i>imposibilit</i><par n="abandon/ar__vblex"/>    </e>
-    <e lm="imposibilitar"><p><l>imposibilít</l><r>imposibilit</r></p><par n="abandón/ar__vblex"/>    </e>
     <e lm="impregnar"><i>impregn</i><par n="abandon/ar__vblex"/>    </e>
     <e lm="impresionar"><i>impresion</i><par n="abandon/ar__vblex"/>    </e>
     <e lm="impresionar"><p><l>impresión</l><r>impresion</r></p><par n="abandón/ar__vblex"/>    </e>
@@ -95108,7 +95698,11 @@
     <e lm="Rod"><i>Rod</i><par n="Jaime__np"/></e>
     <e lm="Michelangelo"><i>Michelangelo</i><par n="Jaime__np"/></e>
     <e lm="Al Gore"><i>Al<b/>Gore</i><par n="Jaime__np"/></e>
+<<<<<<< .mine
+    <e r="RL" lm="Al"><i>Al</i><par n="Jaime__np"/></e>
+=======
     <e lm="Al" r="RL"><i>Al</i><par n="Jaime__np"/></e>
+>>>>>>> .r23022
     <e lm="Stan"><i>Stan</i><par n="Jaime__np"/></e>
     <e lm="Lech"><i>Lech</i><par n="Jaime__np"/></e>
     <e lm="Lech Kaczynski"><i>Lech<b/>Kaczynski</i><par n="Jaime__np"/></e>
@@ -101845,6 +102439,7 @@
 <e lm="fórceps" a="greenbreen"><i>fórceps</i><par n="alrededores__n"/></e>
 <e lm="irónico" a="greenbreen"><i>irónic</i><par n="absolut/o__adj"/></e>
 <e lm="anteojos de seguridad"><i>anteojos<b/>de<b/>seguridad</i><par n="alrededores__n"/></e>
+<e lm="anteojos"><i>anteojos</i><par n="alrededores__n"/></e>
 <e lm="simulación" a="greenbreen"><i>simulaci</i><par n="acci/ón__n"/></e>
 <e lm="oponente" a="greenbreen"><i>oponente</i><par n="accionista__n"/></e>
 <e lm="sermón" a="greenbreen"><i>serm</i><par n="aluvi/ón__n"/></e>
@@ -104038,5 +104633,6 @@
     <e>      <par n="pardret"/>    </e>
     <e>      <par n="separ"/>    </e>
     <e>      <par n="guionet"/>    </e>
+    <e>      <par n="anys"/>    </e>
   </section>
 </dictionary>

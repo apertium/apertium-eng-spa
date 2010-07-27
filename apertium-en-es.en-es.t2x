@@ -389,6 +389,20 @@
 		  <clip pos="2" part="pers"/>
 		  <clip pos="1" part="pers"/>
 		</let>
+	    <choose>
+	      <when>
+		<test>
+		    <equal>
+		      <clip pos="1" part="pers"/>
+		      <lit-tag v="p3"/>
+		    </equal>
+		</test>
+		<let>
+		  <clip pos="2" part="temps"/>
+		  <lit-tag v="prs"/>
+		</let>
+	      </when>
+	      </choose>
 	      </when>
 	    </choose>
 	    <choose>

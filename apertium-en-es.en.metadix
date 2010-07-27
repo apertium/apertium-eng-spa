@@ -9332,6 +9332,85 @@
         </p>
       </e>
     </pardef>
+    <pardef n="pos_as_probj_dem_sg__prn">
+      <e>
+        <i/>
+      </e>
+      <e>
+        <p>
+          <l><b/>my</l>
+          <r><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>your</l>
+          <r><j/>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>his</l>
+          <r><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>her</l>
+          <r><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>its</l>
+          <r><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>this</l>
+          <r><j/>this<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>that</l>
+          <r><j/>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="pos_as_probj_dem_pl__prn">
+      <e>
+        <p>
+          <l><b/>our</l>
+          <r><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e i="yes" c="In the context this is intended, p2.pl is clear, but needs a rule change">
+        <p>
+          <l><b/>our</l>
+          <r><j/>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>their</l>
+          <r><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>these</l>
+          <r><j/>this<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>those</l>
+          <r><j/>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
 
 
     <pardef n="ouml">
@@ -9532,6 +9611,8 @@
     <e lm="stir"><i>stir</i><par n="occur__vblex"/>    </e>
     <e lm="stir up"><i>stir</i><par n="occur__vblex" sa="sep"/>      <par n="probj_dem__prn"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
     <e lm="stop"><i>stop</i><par n="step__vblex"/>    </e>
+    <e lm="rack [one's] brain" c="singular possessor"><i>rack</i><par n="approach__vblex" sa="sep"/><par n="pos_as_probj_dem_sg__prn"/><p><l><b/>brain</l><r><g><b/>brain</g></r></p></e>
+    <e lm="rack [one's] brain" c="plural possessor"><i>rack</i><par n="approach__vblex" sa="sep"/><par n="pos_as_probj_dem_pl__prn"/><p><l><b/>brains</l><r><g><b/>brain</g></r></p></e>
     <e lm="store"><i>stor</i><par n="liv/e__vblex"/>    </e>
     <e lm="strain"><i>strain</i><par n="accept__vblex"/>    </e>
     <e lm="strengthen"><i>strengthen</i><par n="accept__vblex"/>    </e>

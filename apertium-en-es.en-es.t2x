@@ -392,10 +392,16 @@
 	    <choose>
 	      <when>
 		<test>
+		<and>
+		    <equal>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="sg"/>
+		    </equal>
 		    <equal>
 		      <clip pos="1" part="pers"/>
 		      <lit-tag v="p3"/>
 		    </equal>
+		</and>
 		</test>
 		<let>
 		  <clip pos="2" part="temps"/>

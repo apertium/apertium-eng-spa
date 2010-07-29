@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
+<?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <!-- symbols -->
@@ -36420,6 +36420,10 @@
 <e lm="(x)th and (y)th centuries (AD|BC)"><par n="ordinals-century"/><i><b/>and<b/></i><par n="ordinals-century"/><i><b/>centuries</i><par n="BC"/><i/><par n="personnel__n"/></e>
 <e lm="(x)th-(y)th centuries (AD|BC)"><par n="ordinals-century"/><i>-</i><par n="ordinals-century"/><i><b/>centuries</i><par n="BC"/><i/><par n="personnel__n"/></e>
 
+<e lm="be likely"><i/><par n="/be__vblex"/><p><l><b/>likely</l><r><g><b/>likely</g></r></p></e>
+<e lm="be unlikely"><i/><par n="/be__vblex"/><p><l><b/>unlikely</l><r><g><b/>unlikely</g></r></p></e>
+
+
 <e lm="be sorry"><i/><par n="/be__vblex"/><p><l><b/>sorry</l><r><g><b/>sorry</g></r></p></e>
 
 <e lm="be very sorry"><i/><par n="/be__vblex"/><p><l><b/>very<b/>sorry</l><r><g><b/>very<b/>sorry</g></r></p></e>
@@ -37270,6 +37274,7 @@
     <e lm="hedge" a="greenbreen"><i>hedge</i><par n="house__n"/></e>
     <e lm="update" a="greenbreen"><i>update</i><par n="house__n"/></e>
     <e lm="violet" a="greenbreen"><i>violet</i><par n="expensive__adj"/></e>
+    <e lm="up to date"><i>up<b/>to<b/>date</i><par n="expensive__adj"/></e>
     <e lm="recommended" a="greenbreen"><i>recommended</i><par n="expensive__adj"/></e>
     <e lm="bandwidth" a="greenbreen"><i>bandwidth</i><par n="house__n"/></e>
     <e lm="forest" r="RL" a="greenbreen"><i>forest</i><par n="expensive__adj"/></e>

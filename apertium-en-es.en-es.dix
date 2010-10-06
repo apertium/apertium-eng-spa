@@ -31572,6 +31572,7 @@
     <e>  <p><l>€</l><r></r></p><re>[0-9]+([. ,][0-9][0-9][0-9])*([.,][0-9]+)?m</re><p><l><s n="num"/><s n="mon"/></l><r>€<s n="num"/><s n="mon"/></r></p></e>
     <e>       <re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[MCDXLVI]+</re><i><s n="num"/><s n="mf"/><s n="sg"/></i></e>
+    <e><re>[$€£]</re><i><s n="mon"/></i></e>
   </section>  
 
 

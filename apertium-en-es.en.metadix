@@ -6056,6 +6056,56 @@
         </p>
       </e>
     </pardef>
+    <pardef n="/go_nul__vblex">
+      <e>
+        <p>
+          <l>go</l>
+          <r>go</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>go</l>
+          <r>go</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>goes</l>
+          <r>go</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>went</l>
+          <r>go</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>gone</l>
+          <r>go</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>going</l>
+          <r>go</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>going</l>
+          <r>go</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>going</l>
+          <r>go</r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="/go__vblex">
       <e>
         <p>
@@ -9149,6 +9199,63 @@
         <i></i><par n="accept__vblex"/>
       </e>
     </pardef>
+    <pardef n="prsubj_nul__prn">
+      <e>
+        <p>
+          <l>I</l>
+          <r>prn</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>you</l>
+          <r>prn</r>
+        </p>
+      </e>
+      <e i="yes">
+        <p>
+          <l>you<b/>all</l>
+          <r>prn</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>y'all</l>
+          <r>prn</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>he</l>
+          <r>prn</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>she</l>
+          <r>prn</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>it</l>
+          <r>prn</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>we</l>
+          <r>prn</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>they</l>
+          <r>prn</r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="prsubj__prn">
       <e>
         <p>
@@ -10304,6 +10411,7 @@
     <e lm="jokingly"><i>jokingly</i><par n="maybe__adv"/>    </e>
     <e lm="just"><i>just</i><par n="maybe__adv"/>    </e>
     <e lm="just in case"><i>just<b/>in<b/>case</i><par n="maybe__adv"/>    </e>
+    <e lm="just around the corner"><i>just<b/>around<b/>the<b/>corner</i><par n="maybe__adv"/>    </e>
     <e lm="just right"><i>just<b/>right</i><par n="maybe__adv"/>    </e>
     <e lm="kindly"><i>kindly</i><par n="maybe__adv"/>    </e>
     <e lm="knowingly"><i>knowingly</i><par n="maybe__adv"/>    </e>
@@ -27059,7 +27167,7 @@
     <e lm="delightful"><i>delightful</i><par n="expensive__adj"/>    </e>
     <e lm="delinquent"><i>delinquent</i><par n="expensive__adj"/>    </e>
     <e lm="democratic"><i>democratic</i><par n="expensive__adj"/>    </e>
-    <e lm="demographical"><i>demographical</i><par n="expensive__adj"/>    </e>
+    <e lm="demographic"><i>demographic</i><par n="expensive__adj"/>    </e>
     <e lm="dense"><i>dense</i><par n="nice/__adj"/>    </e>
     <e lm="deplorable"><i>deplorable</i><par n="expensive__adj"/>    </e>
     <e lm="depository"><i>depository</i><par n="expensive__adj"/>    </e>
@@ -28467,6 +28575,16 @@
     <e lm="may"><i>may</i><par n="will/__vbmod"/>    </e>
     <e lm="might"><i>might</i><par n="will/__vbmod"/>    </e>
     <e lm="be"><par n="/be__vbser"/>    </e>
+
+    <e lm="as PRN go along" r="LR">
+      <i>as<b/></i>
+      <par n="prsubj_nul__prn"/>
+      <i><b/></i>
+      <par n="/go_nul__vblex"/>
+      <i><b/>along</i>
+      <par n="after__cnjadv"/>
+    </e>
+
     <e lm="go out">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>out</l><r><g><b/>out</g></r></p></e>
     <e lm="be born">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>born</l><r><g><b/>born</g></r></p></e>
     <e lm="go down">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>down</l><r><g><b/>down</g></r></p></e>

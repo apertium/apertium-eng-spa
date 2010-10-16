@@ -9,7 +9,6 @@
 <dictionary>
   <alphabet></alphabet>
   <sdefs>
-    <sdef n="S1"/>
 
     <sdef n="acr" /> 
     <sdef n="predet" /> 
@@ -1118,6 +1117,7 @@
 <e a="eleka"><p><l>EPO-rh<s n="np"/><s n="al"/><s n="sg"/></l><r>EPO-rh<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL" a="eleka"><p><l>collectively<s n="adv"/></l><r>colectivamente<s n="adv"/></r></p></e>
 <e a="eleka"><p><l>successfully<s n="adv"/></l><r>exitosamente<s n="adv"/></r></p></e>
+<e a=""><p><l>just<b/>around<b/>the<b/>corner<s n="adv"/></l><r>a<b/>la<b/>vuelta<b/>de<b/>la<b/>esquina<s n="adv"/></r></p></e>
 <e a="eleka"><p><l>accessorily<s n="adv"/></l><r>accesoriamente<s n="adv"/></r></p></e>
 <e a="eleka"><p><l>press<b/>release<s n="n"/></l><r>nota<g><b/>de<b/>prensa</g><s n="n"/><s n="f"/></r></p></e>
 
@@ -16603,7 +16603,7 @@
     <e r="LR"><p><l>delightful<s n="adj"/></l><r>delicioso<s n="adj"/></r></p></e>
     <e>  <p><l>delinquent<s n="adj"/></l><r>moroso<s n="adj"/></r></p></e>
     <e>  <p><l>democratic<s n="adj"/></l><r>democrático<s n="adj"/></r></p></e>
-    <e>  <p><l>demographical<s n="adj"/></l><r>demográfico<s n="adj"/></r></p></e>
+    <e>  <p><l>demographic<s n="adj"/></l><r>demográfico<s n="adj"/></r></p></e>
     <e>  <p><l>dense<s n="adj"/><s n="sint"/></l><r>denso<s n="adj"/></r></p></e>
     <e r="RL"><p><l>dense<s n="adj"/><s n="sint"/></l><r>espeso<s n="adj"/></r></p></e>
     <e>  <p><l>deplorable<s n="adj"/></l><r>deplorable<s n="adj"/><s n="mf"/></r></p></e>
@@ -19703,9 +19703,8 @@
 
     <e slr="recoger D"><p><l>collect<s n="vblex"/></l><r>recoger<s n="vblex"/></r></p></e>
     <e r="LR" slr="recoger"><p><l>pick<s n="vblex"/></l><r>recoger<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>pick<g><b/>up</g><s n="vblex"/></l><r>recoger<s n="vblex"/><s n="S1"/></r></p></e>
-
     <e r="LR"><p><l>pick<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>coger<s n="vblex"/></r></p></e>
+
     <e>  <p><l>pilot<s n="vblex"/></l><r>pilotar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>pin<s n="vblex"/></l><r>clavar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>pin<s n="vblex"/></l><r>hincar<s n="vblex"/></r></p></e>

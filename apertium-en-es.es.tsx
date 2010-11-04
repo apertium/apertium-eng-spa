@@ -125,6 +125,9 @@
   <def-label name="PRNTNNT" closed="true">
     <tags-item tags="prn.tn.nt"/>
   </def-label>
+ <def-label name="PRNTNREF" closed="true"><!--sólo el pronombre 'sí' -->
+    <tags-item tags="prn.tn.ref.p3.mf.sp"/>
+  </def-label>
   <def-label name="PRNTN" closed="true">
     <tags-item tags="prn.tn.*"/>
   </def-label>
@@ -1030,7 +1033,8 @@
       <label-item label="DETMF"/>
       <label-item label="PRNENC"/>
     </label-sequence>
-    <label-sequence>
+  
+  <label-sequence>
       <label-item label="DETM"/>
       <label-item label="DETM"/>
     </label-sequence>
@@ -1038,7 +1042,7 @@
       <label-item label="DETM"/>
       <label-item label="DETF"/>
     </label-sequence>
-    <label-sequence>
+    <label-sequence> 
       <label-item label="DETM"/>
       <label-item label="DETMF"/>
     </label-sequence>
@@ -1046,23 +1050,23 @@
       <label-item label="DETF"/>
       <label-item label="DETM"/>
     </label-sequence>
-    <label-sequence>
+    <label-sequence> 
       <label-item label="DETF"/>
       <label-item label="DETF"/>
-    </label-sequence>
+    </label-sequence> 
     <label-sequence>
       <label-item label="DETF"/>
       <label-item label="DETMF"/>
-    </label-sequence>
-    <label-sequence>
+    </label-sequence> 
+   <label-sequence> 
       <label-item label="DETMF"/>
       <label-item label="DETM"/>
     </label-sequence>
-    <label-sequence>
+    <label-sequence> 
       <label-item label="DETMF"/>
       <label-item label="DETF"/>
-    </label-sequence>
-    <label-sequence>
+    </label-sequence> 
+    <label-sequence> 
       <label-item label="DETMF"/>
       <label-item label="DETMF"/>
     </label-sequence>
@@ -1339,6 +1343,164 @@
       <label-item label="PREPDET"/>
       <label-item label="SENT"/>
     </label-sequence>
+    <label-sequence><!--aunque sí piensa -->
+      <label-item label="CNJADV"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence><!--pero sí llegó -->
+      <label-item label="CNJCOORD"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="CNJSUBS"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="QUECNJ"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="QUEREL"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence><!--ello sí significa -->
+      <label-item label="PRNTNNT"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence><!--yo sí quiero -->
+      <label-item label="PRNTN"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNPOS"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMM"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMF"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMMF"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ADV"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXINF"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence><!--hablando sí se entiende la gente -->
+      <label-item label="VLEXGER"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPARTPI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPFCI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIPI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXSUBJ"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIMP"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERINF"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERGER"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERPFCI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIPI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERSUBJ"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIMP"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERINF"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERGER"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERPARTPI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERPFCI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERIPI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERSUBJ"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALINF"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALGER"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALPFCI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIPI"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALSUBJ"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIMP"/>
+      <label-item label="PRNTNREF"/>
+    </label-sequence>
+
+
     <label-sequence>
       <label-item label="NOMM"/>
       <label-item label="NOMM"/>
@@ -2186,6 +2348,315 @@
       <label-item label="ADV"/>
       <label-item label="VMODALIMP"/>
     </label-sequence>
+    <label-sequence><!--se incluye -->
+      <label-item label="PRNPROREF"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNPROREF"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNPROREF"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PRNPROREF"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence><!--el recuento muestra que -->
+      <label-item label="NOMM"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMM"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMM"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+  <!--  <label-sequence>
+      <label-item label="NOMM"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence> -->
+    <label-sequence>
+      <label-item label="NOMF"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMF"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMF"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+  <!--  <label-sequence>
+      <label-item label="NOMF"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence> -->
+    <label-sequence>
+      <label-item label="NOMMF"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMMF"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="NOMMF"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+  <!--  <label-sequence>
+      <label-item label="NOMMF"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence> -->
+    <label-sequence><!--para saber -->
+      <label-item label="PARAVBPRI"/>
+      <label-item label="VLEXINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="VLEXINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="VSERINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="VSERINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="VHABERINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="VHABERINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="VMODALINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="VMODALINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="INFLEXPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="INFLEXPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="INFSERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="INFSERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="INFHABERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="INFHABERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="INFMODPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="INFMODPRNENC"/>
+    </label-sequence>
+    <label-sequence><!--sirven para -->
+      <label-item label="VLEXPFCI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPFCI"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIPI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIPI"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXSUBJ"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXSUBJ"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIMP"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIMP"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXINF"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXGER"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPARTPI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="VSERPFCI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERPFCI"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIPI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIPI"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERSUBJ"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERSUBJ"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIMP"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIMP"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERINF"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERGER"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="VHABERPFCI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERPFCI"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERIPI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERIPI"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERSUBJ"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERSUBJ"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERIMP"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERIMP"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERINF"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERGER"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERPARTPI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="VMODALPFCI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALPFCI"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIPI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIPI"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALSUBJ"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALSUBJ"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIMP"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIMP"/>
+      <label-item label="PARAVBIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALINF"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALGER"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PARAVBPRI"/>
+    </label-sequence>
+
+
 
   </forbid>
 

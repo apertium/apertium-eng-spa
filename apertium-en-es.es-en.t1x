@@ -85,11 +85,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <def-cat n="prpers">
       <cat-item lemma="prpers" tags="prn.*"/>
     </def-cat>
+    <def-cat n="prpers_tn">
+      <cat-item lemma="prpers" tags="prn.tn.*"/>
+    </def-cat>
 
     <def-cat n="tn_itg_pos"><!--Aquí no hi entren els pronoms personals, caldrà fer-ne un xunc a part. -->
       <cat-item tags="prn.tn.m.*"/>
       <cat-item tags="prn.tn.f.*"/>
       <cat-item tags="prn.tn.mf.*"/>
+      <cat-item tags="prn.tn.nt"/>
       <cat-item tags="prn.itg.*"/>
       <cat-item tags="prn.pos.*"/>
     </def-cat>
@@ -105,6 +109,42 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <cat-item tags="prn.pro.p1.*"/>
       <cat-item tags="prn.pro.p2.*"/>
       <cat-item tags="prn.pro.p3.*"/>
+    </def-cat>
+
+    <def-cat n="pro_lola">
+      <cat-item lemma="lo" tags="prn.pro.p3.nt"/>
+      <cat-item lemma="prpers" tags="prn.pro.p3.m.sg"/>
+      <cat-item lemma="prpers" tags="prn.pro.p3.f.sg"/>
+    </def-cat>
+    <def-cat n="enc_lola">
+      <cat-item lemma="lo" tags="prn.enc.p3.nt"/>
+      <cat-item lemma="prpers" tags="prn.enc.p3.m.sg"/>
+      <cat-item lemma="prpers" tags="prn.enc.p3.f.sg"/>
+    </def-cat>
+
+
+    <def-cat n="verb_pronlex" c="verbos con pronombre lexicalizado">      
+      <cat-item lemma="pasar# bien" tags="vblex.*"/>    
+      <cat-item lemma="pasar# mal" tags="vblex.*"/>
+    </def-cat>
+
+    <def-cat n="verb_pronlex_pp" c="verbos con pronombre lexicalizado">      
+      <cat-item lemma="pasar# bien" tags="vblex.pp.m.sg"/>    
+      <cat-item lemma="pasar# mal" tags="vblex.pp.m.sg"/>
+    </def-cat>
+    <def-cat n="verb_pronlex_infger" c="verbos con pronombre lexicalizado">      
+      <cat-item lemma="pasar# bien" tags="vblex.inf"/>     
+      <cat-item lemma="pasar# bien" tags="vblex.ger"/>    
+      <cat-item lemma="pasar# mal" tags="vblex.inf"/>     
+      <cat-item lemma="pasar# mal" tags="vblex.ger"/>
+    </def-cat>
+    <def-cat n="verb_pronlex_imp" c="verbos con pronombre lexicalizado">      
+      <cat-item lemma="pasar# bien" tags="vblex.imp.*"/>     
+      <cat-item lemma="pasar# mal" tags="vblex.imp.*"/>    
+    </def-cat>
+    <def-cat n="verb_pronlex_ger" c="verbos con pronombre lexicalizado">  
+      <cat-item lemma="pasar# bien" tags="vblex.ger"/> 
+      <cat-item lemma="pasar# mal" tags="vblex.ger"/>
     </def-cat>
 
     <def-cat n="verbnm_inf_ger"><!--verb no modal, infinitiu i gerundi -->
@@ -292,6 +332,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <def-cat n="de">
       <cat-item lemma="de" tags="pr"/>
+    </def-cat>
+    <def-cat n="porello">
+      <cat-item lemma="por ello" tags="cnjadv"/>
     </def-cat>
 
     <def-cat n="rel">
@@ -487,6 +530,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <def-var n="verbfinal"/>
     <def-var n="superlatiu1"/>
     <def-var n="superlatiu2"/>
+    <def-var n="prepo"/>
+    <def-var n="espai"/>
   </section-def-vars>
 
   <section-def-lists>
@@ -521,6 +566,26 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <list-item v="Sunday"/>
  </def-list>
 
+ <def-list n="añadir_prep_pron" c="verbos a los que hay que añadir preposición cuando llevan pronombre clítico">
+   <list-item v="ser# propio"/>
+   <list-item v="ser# de gran ayuda"/>
+ </def-list>
+
+<def-list n="adv_intercalados">
+      <list-item v="siempre"/>
+      <list-item v="sólo"/>
+      <list-item v="sólamente"/>
+      <list-item v="todavía"/>
+      <list-item v="aún"/>
+      <list-item v="nunca"/>
+      <list-item v="muy"/>
+      <list-item v="jamás"/>
+      <list-item v="también"/>
+      <list-item v="tampoco"/>
+      <list-item v="ya"/>
+      <list-item v="ya no"/>
+      <list-item v="pronto"/>
+</def-list>
 
 
   </section-def-lists>
@@ -896,7 +961,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <test>
 		<equal caseless="yes">
 		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="menys"/>
+		  <lit v="menos"/>
 		</equal>
 	      </test>
 	      <choose>
@@ -934,7 +999,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <test>
 		<equal caseless="yes">
 		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="massa"/>
+		  <lit v="demasiado"/>
 		</equal>
 	      </test>
 	      <choose>
@@ -1465,8 +1530,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <clip pos="1" side="tl" part="whole"/> 
 		  <lit v="$ ^"/>
 		  <var n="superlatiu1"/>
-		  <clip pos="2" side="tl" part="lem"/> 
+		  <clip pos="2" side="tl" part="lemh"/> 
 		  <clip pos="2" side="tl" part="a_adj"/>
+		  <clip pos="2" side="tl" part="lemq"/>
 		</concat>
 	    </let>
 	  </otherwise>
@@ -1576,8 +1642,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<concat>
 		  <clip pos="2" side="tl" part="whole"/> 
 		  <lit v="$ ^"/>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lemh"/> 
 		  <clip pos="3" side="tl" part="a_adj"/>
+		  <clip pos="3" side="tl" part="lemq"/>
 		</concat>
 	    </let>
 	  </when>
@@ -1616,8 +1683,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <clip pos="2" side="tl" part="whole"/> 
 		  <lit v="$ ^"/>
 		  <var n="superlatiu1"/>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lemh"/> 
 		  <clip pos="3" side="tl" part="a_adj"/>
+		  <clip pos="3" side="tl" part="lemq"/>
 		</concat>
 	    </let>
 	  </otherwise>
@@ -2554,7 +2622,6 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-
   </section-def-macros> 
 
   <section-rules>
@@ -2947,7 +3014,148 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
+  <!-- <rule comment="REGLA: DET DET NOM ADJ">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adj"/>
+      </pattern>
+      <action>	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="nombre_nom">
+	  <with-param pos="3"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="4"/>
+	</call-macro>	
+	<call-macro n="canvia_det">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>	
+	<call-macro n="canvia_det">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_concord4">
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<out>  
+	  <chunk name="det_det_nom_adj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><clip pos="3" side="sl" part="gen"/></tag>
+	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="a_det"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>   
+	      <var n="superlatiu1"/>
+	      <clip pos="4" side="tl" part="lem"/> 
+	      <clip pos="4" side="tl" part="a_adj"/>
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>       
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="nbr" link-to="3"/>
+	      <clip pos="3" side="tl" part="lemq"/>  
+	    </lu>
+	  </chunk>
+	</out>     
+      </action>
+    </rule>
 
+   <rule comment="REGLA: DET DET NOM (los muchos casos)">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="nombre_nom">
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="canvia_det">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>	
+	<call-macro n="canvia_det">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>	
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="3" side="tl" part="nbr"/>
+		  <lit-tag v="pl"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="tl" part="lem"/>
+		  <lit v="a lot of"/>
+		</equal>
+	      </and>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="lem"/>
+	      <lit v="many"/>
+	    </let>
+	  </when>
+	</choose>	      
+	<out>  
+	  <chunk name="det_det_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><clip pos="3" side="sl" part="gen"/></tag>
+	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="a_det"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	    </lu> 
+	    <b pos="2"/>
+	    <lu>       
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_nom"/>
+	      <clip pos="3" side="tl" part="nbr" link-to="3"/>
+	      <clip pos="3" side="tl" part="lemq"/>  
+	    </lu>
+	  </chunk>
+	</out>    
+      </action>
+    </rule> -->
 
     <rule comment="REGLA: DET ADJ NOM">
       <pattern>
@@ -3007,6 +3215,78 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</out>    
       </action>
     </rule>
+
+
+<!-- <rule comment="REGLA: DET DET ADJ NOM">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="det"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="nombre_nom">
+	  <with-param pos="4"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="3"/>
+	</call-macro>	
+	<call-macro n="canvia_det">
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>	
+	<call-macro n="canvia_det">
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>	
+	<call-macro n="el_millor_pitjor">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_concord4">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>  
+	  <chunk name="det_det_adj_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><clip pos="4" side="sl" part="gen"/></tag>
+	      <tag><clip pos="4" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="a_det"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>   
+	      <var n="superlatiu1"/>
+	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="a_adj"/>
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>       
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="nbr" link-to="3"/>
+	      <clip pos="4" side="tl" part="lemq"/>  
+	    </lu>
+	  </chunk>
+	</out>    
+      </action>
+    </rule> -->
 
 
  <rule comment="REGLA: DET ADJ NOM ADJ">
@@ -4435,6 +4715,72 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
+    <rule comment="lo/la HAVER + pasar bien (lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general 'pro HAVER + PP' ">
+      <pattern>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="haver"/> 
+	<pattern-item n="verb_pronlex_pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>    	
+	<call-macro n="conj_verb1">
+	  <with-param pos="2"/>
+	</call-macro>
+
+	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="temps"/>
+		  <lit-tag v="cni"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="temps"/>
+		  <lit-tag v="fti"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="aux_haver_pp"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="haver_pp"/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out>
+	  <chunk namefrom="lema_SV" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><clip pos="2" side="tl" part="pers"/></tag>
+	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="verbfinal"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_pp"/>
+	      <clip pos="3" side="tl" part="lemq"/>    
+	    </lu> 
+	  </chunk>
+	</out>	
+	<call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+      </action>
+    </rule>
 
     <rule comment="pro HAVER + PP (l'han vist - have seen it)">
       <pattern>
@@ -4552,10 +4898,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <lit-tag v="sep"/>	
 		    </equal>
 		    <not>
-		      <equal>
-			<clip pos="3" side="sl" part="pron"/>
-			<lit-tag v="pron"/>
-		      </equal>
+			<equal>
+			  <clip pos="3" side="sl" part="pron"/>
+			  <lit-tag v="pron"/>
+			</equal>
 		    </not>
 		  </and>
 		</test>
@@ -4745,6 +5091,73 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</choose>
       </action>
     </rule>
+
+ <rule comment="pro + lo/la + HAVER + pasar bien (se lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general 'pro + pro + HAVER + PP' ">
+      <pattern>
+	<pattern-item n="pro"/>
+	<pattern-item n="pro_lola"/> 
+	<pattern-item n="haver"/> 
+	<pattern-item n="verb_pronlex_pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="3"/>
+	</call-macro>
+	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="cni"/>
+		</equal>
+		<equal>
+		  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fti"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="aux_haver_pp"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="haver_pp"/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out>
+	  <chunk namefrom="lema_SV" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><clip pos="3" side="tl" part="pers"/></tag>
+	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="verbfinal"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_pp"/>
+	      <clip pos="4" side="tl" part="lemq"/>    
+	    </lu> 
+	  </chunk>
+	</out>
+	  <call-macro n="f_bcond"> 
+	    <with-param pos="3"/>
+	    <with-param pos="4"/>
+	  </call-macro>	
+	</action>
+      </rule>
 
   <rule comment="pro + pro + HAVER + PP (se lo han dado - have given it to him)">
       <pattern>
@@ -5011,7 +5424,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      </action>
 	    </rule>
 	    
-	    
+ 	 
+   
 	    <rule comment="REGLA: PROCLÍTIC HAY">
       <pattern>
 	<pattern-item n="pro_noref"/>
@@ -5071,7 +5485,39 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
 </rule>
 
-
+  <rule comment="REGLA: PROCLÍTIC pasar bien - regla lexicalizada antes de la correspondiente regla general 'PROCLÍTIC VERB conjugat'">
+      <pattern>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="verb_pronlex"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	 
+	<call-macro n="conj_verb1">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="2" side="tl" part="pers"/></tag>
+		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu>
+		  <var n="verbfinal"/> 
+		  <clip pos="2" side="tl" part="lemq"/> 
+		</lu>
+	      </chunk>
+	    </out>	
+	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	      <with-param pos="1"/>
+	      <with-param pos="2"/>
+	    </call-macro> 
+      </action>
+    </rule>
 
     <rule comment="REGLA: PROCLÍTIC VERB conjugat">
       <pattern>
@@ -5210,6 +5656,42 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			  <var n="nom_chunk"/>
 			  <lit-tag v="SN"/>
 			</let>
+			<choose>
+			  <when>
+			    <test>
+			      <in caseless="yes">
+				<clip pos="2" side="sl" part="lem"/>
+				<list n="añadir_prep_pron"/>
+			      </in>
+			    </test>
+			    <let>
+			      <var n="prepo"/>
+			      <concat>
+				<get-case-from pos="2">
+				  <lit v="for"/>
+				</get-case-from>
+				<lit-tag v="pr"/>
+			      </concat>
+			    </let>
+			    <out>
+			      <b/>
+			      <chunk name="pr">
+				<tags>
+				  <tag><lit-tag v="PREP"/></tag>
+				</tags>
+				<lu>
+				  <var n="prepo"/>
+				</lu>
+			      </chunk>
+			    </out>
+			  </when>
+			  <otherwise>
+			    <let>
+			      <var n="prepo"/>
+			      <lit v=""/>
+			    </let>
+			  </otherwise>
+			</choose>
 		      </otherwise>
 		    </choose>	
 		<out>
@@ -5234,6 +5716,41 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
+ <rule comment="REGLA: PROCL + lo/la + pasar bien - regla lexicalizada antes de la correspondiente regla general 'PROCL + PROCL + VERB conjugat">
+      <pattern>
+	<pattern-item n="pro"/>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="verb_pronlex"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="3"/>
+	</call-macro>	    
+	    <out>
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="3" side="tl" part="pers"/></tag>
+		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu>
+		  <var n="verbfinal"/> 
+		  <clip pos="3" side="tl" part="lemq"/> 
+		</lu>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond"> 
+	      <with-param pos="1"/>
+	      <with-param pos="2"/>
+	      <with-param pos="3"/>
+	    </call-macro>
+      </action>
+    </rule>
 
   <rule comment="REGLA: PROCL + PROCL + VERB conjugat (se lo digo)">
       <pattern>
@@ -5424,7 +5941,89 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="VERB + ENCL (ajudar-me - help me)">
+   <rule comment="pasar bien + lo/la (pasarlo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL'">
+      <pattern>
+	<pattern-item n="verb_pronlex_infger"/>
+	<pattern-item n="enc_lola"/>
+      </pattern>
+      <action>          	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		  <clip pos="1" side="tl" part="temps"/> 
+		  <lit-tag v="inf"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="inf"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="ger"/>
+	    </let>  
+	  </otherwise>	
+	</choose>
+	    <out>
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+		  <tag><clip pos="1" side="sl" part="temps"/></tag>
+		</tags> 
+		<lu>
+		  <clip pos="1" side="tl" part="lemh"/>
+		  <clip pos="1" side="tl" part="a_verb"/>
+		  <clip pos="1" side="tl" part="sep"/>
+		  <clip pos="1" side="tl" part="temps" link-to="3"/> 	           
+		  <clip pos="1" side="tl" part="lemq"/>
+		</lu>  
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+ <rule comment="pasar bien + lo/la (pásalo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL'">
+      <pattern>
+	<pattern-item n="verb_pronlex_imp"/>
+	<pattern-item n="enc_lola"/> 
+      </pattern>
+      <action>          	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>    
+	<let>
+	  <clip pos="1" side="tl" part="temps"/>
+	  <lit-tag v="inf"/>
+	</let>
+	    <out>
+	      <chunk name="imp" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+		  <tag><clip pos="1" side="sl" part="temps"/></tag>
+		  <tag><clip pos="1" side="sl" part="pers"/></tag>
+		  <tag><clip pos="1" side="sl" part="nbr"/></tag>
+		</tags> 
+		<lu>
+		  <clip pos="1" side="tl" part="lemh"/>
+		  <clip pos="1" side="tl" part="a_verb"/>
+		  <clip pos="1" side="tl" part="sep"/>
+		  <clip pos="1" side="tl" part="temps"/> 	           
+		  <clip pos="1" side="tl" part="lemq"/>
+		</lu>  
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+   <rule comment="VERB + ENCL (ajudar-me - help me)">
       <pattern>
 	<pattern-item n="verbnm_inf_ger"/>
 	<pattern-item n="enc"/> 
@@ -5432,8 +6031,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <action>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>
-	
+	</call-macro>	
 	<choose>      
 	  <when>
 	    <test>
@@ -5470,8 +6068,47 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </out>
 	  </when>
 	  <otherwise>
+	    <choose>
+	      <when>
+		<test>
+		  <in caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <list n="añadir_prep_pron"/>
+		  </in>
+		</test>
+		<let>
+		  <var n="prepo"/>
+		     <concat>
+		       <lit v="for"/>
+		       <lit-tag v="pr"/>
+		     </concat>
+		</let>
+		<let>
+		  <var n="espai"/>
+		  <lit v=" "/>
+		</let>
+		<let>
+		  <var n="lema_SV"/>
+		  <lit v="verb_pr_enc"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <var n="prepo"/>
+		  <lit v=""/>
+		</let>
+		<let>
+		  <var n="espai"/>
+		  <lit v=""/>
+		</let>
+		<let>
+		  <var n="lema_SV"/>
+		  <lit v="verb_enc"/>
+		</let>
+	      </otherwise>
+	    </choose>
 	    <out>
-	      <chunk name="verb_enc" case="caseFirstWord">
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
@@ -5481,13 +6118,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_verb"/>
 		  <clip pos="1" side="tl" part="sep"/>
-		  <clip pos="1" side="tl" part="temps" link-to="3"/> 	           
+		  <clip pos="1" side="tl" part="temps" link-to="3"/> 	        
 		  <clip pos="1" side="tl" part="lemq"/>
 		</lu>   
 		<b/>
 		<lu>
+		  <var n="prepo"/>
+		</lu>
+		<var n="espai"/>
+		<lu>
 		  <clip pos="2" side="tl" part="whole"/>	
-		</lu> 
+		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>	   
@@ -5603,6 +6244,90 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
+   <rule comment="pasar bien + ENCL + lo/la (pasárselo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL + ENCL'">
+      <pattern>
+	<pattern-item n="verb_pronlex_infger"/> 
+	<pattern-item n="enc"/> 
+	<pattern-item n="enc_lola"/> 
+      </pattern>
+      <action>           	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro> 	
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		  <clip pos="1" side="tl" part="temps"/> 
+		  <lit-tag v="inf"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="inf"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="ger"/>
+	    </let>  
+	  </otherwise>	 
+	</choose>
+	<out>
+	  <chunk namefrom="lema_SV" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+	      <tag><clip pos="1" side="sl" part="temps"/></tag>
+	    </tags> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <clip pos="1" side="tl" part="sep"/>
+	      <clip pos="1" side="tl" part="temps" link-to="3"/>	           
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>  
+	  </chunk>
+	</out>
+      </action>
+   </rule>
+
+  <rule comment="pasar bien + ENCL + lo/la (pásatelo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL + ENCL'">
+      <pattern>
+	<pattern-item n="verb_pronlex_imp"/> 
+	<pattern-item n="enc"/> 
+	<pattern-item n="enc_lola"/> 
+      </pattern>
+      <action>           	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>  
+	<let>
+	  <clip pos="1" side="tl" part="temps"/>
+	  <lit-tag v="inf"/>
+	</let>
+	<out>
+	  <chunk name="imp" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+	      <tag><clip pos="1" side="sl" part="temps"/></tag>
+	      <tag><clip pos="1" side="sl" part="pers"/></tag>
+	      <tag><clip pos="1" side="sl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <clip pos="1" side="tl" part="sep"/>
+	      <clip pos="1" side="tl" part="temps"/>	           
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>  
+	  </chunk>
+	</out>
+      </action>
+  </rule>
+  
 
     <rule comment="VERB + ENCL + ENCL (portar-me'ls - bring them to me)">
       <pattern>
@@ -6403,7 +7128,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      </and>
 	    </test>   
 	    <out>
-	      <chunk name="mod_inf_enc" case="caseFirstWord">
+	      <chunk name="modcj_inf_enc" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
@@ -6442,7 +7167,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  </when>
 	  <otherwise><!--si no és un verb separable...-->
 	    <out>
-	      <chunk name="mod_inf" case="caseFirstWord">
+	      <chunk name="modcj_inf" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
@@ -7156,6 +7881,93 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
+ <rule comment="REGLA: lo/la ESTAR pasar bien (lo están pasando bien) - regla lexicalizada antes de la correspondiente regla general 'PROCLÍTIC ESTAR GER'">
+      <pattern>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="estar"/>
+	<pattern-item n="verb_pronlex_ger"/>
+      </pattern>
+      <action>
+	<call-macro n="conj_verb1">
+	  <with-param pos="2"/>
+	</call-macro>
+	<append n="lema_SV">
+	  <lit v="_ger"/>
+	</append>
+	    <out>
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="2" side="tl" part="pers"/></tag>
+		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu>
+		  <var n="verbfinal"/> 
+		</lu>
+		<b pos="1"/>	    
+		<lu>
+		  <clip pos="3" side="tl" part="lemh"/> 
+		  <clip pos="3" side="tl" part="a_verb"/>
+		  <clip pos="3" side="tl" part="sep"/>
+		  <clip pos="3" side="tl" part="temps"/>
+		  <clip pos="3" side="tl" part="lemq"/>    
+		</lu>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	      <with-param pos="2"/>
+	      <with-param pos="3"/>
+	    </call-macro>
+      </action>
+ </rule>
+
+
+
+ <rule comment="REGLA: PROCL + lo/la + ESTAR + pasar bien (se lo están pasando bien) ">
+      <pattern>
+	<pattern-item n="pro"/>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="estar"/>
+	<pattern-item n="verb_pronlex_ger"/>
+      </pattern>
+      <action>
+	<call-macro n="conj_verb1">
+	  <with-param pos="3"/>
+	</call-macro>
+	<append n="lema_SV">
+	  <lit v="_ger"/>
+	</append>
+	    <out>
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="3" side="tl" part="pers"/></tag>
+		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu>
+		  <var n="verbfinal"/> 
+		</lu>
+		<b pos="1"/>	    
+		<lu>
+		  <clip pos="4" side="tl" part="lemh"/> 
+		  <clip pos="4" side="tl" part="a_verb"/>
+		  <clip pos="4" side="tl" part="sep"/>
+		  <clip pos="4" side="tl" part="temps"/>
+		  <clip pos="4" side="tl" part="lemq"/>    
+		</lu>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	      <with-param pos="2"/>
+	      <with-param pos="3"/>
+	      <with-param pos="4"/>
+	    </call-macro>
+      </action>
+ </rule>
 
 
 
@@ -7375,8 +8187,28 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<var n="caseSecondWord"/>
 		<case-of pos="2" side="sl" part="lem"/>
 	    </let>
+	    <choose>
+	      <when>
+		<test> 
+		  <in caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <list n="adv_intercalados"/>
+		  </in>
+		</test>
+		<let>
+		  <var n="lema"/>
+		  <lit v="adv-interc"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <var n="lema"/>
+		  <lit v="adv"/>
+		</let>
+	      </otherwise>
+	    </choose>		    
 	    <out>
-	      <chunk name="adv" case="caseFirstWord">
+	      <chunk namefrom="lema" case="caseFirstWord">
 		<tags>
 		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
 		</tags>
@@ -7466,8 +8298,28 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<var n="caseSecondWord"/>
 		<case-of pos="2" side="sl" part="lem"/>
 	    </let>
+	    <choose>
+	      <when>
+		<test> 
+		  <in caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <list n="adv_intercalados"/>
+		  </in>
+		</test>
+		<let>
+		  <var n="lema"/>
+		  <lit v="adv-interc"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <var n="lema"/>
+		  <lit v="adv"/>
+		</let>
+	      </otherwise>
+	    </choose>
 	    <out>
-	      <chunk name="adv" case="caseFirstWord">
+	      <chunk namefrom="lema" case="caseFirstWord">
 		<tags>
 		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
 		</tags>
@@ -7542,8 +8394,28 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<var n="caseSecondWord"/>
 		<case-of pos="2" side="sl" part="lem"/>
 	    </let>
+	    <choose>
+	      <when>
+		<test> <!--para hacerlo mejor, habría que poner el adverbio entre 'have' y 'pp' -->
+		  <in caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <list n="adv_intercalados"/>
+		  </in>
+		</test>
+		<let>
+		  <var n="lema"/>
+		  <lit v="adv-interc"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <var n="lema"/>
+		  <lit v="adv"/>
+		</let>
+	      </otherwise>
+	    </choose>	
 	    <out>
-	      <chunk name="adv" case="caseFirstWord">
+	      <chunk namefrom="lema" case="caseFirstWord">
 		<tags>
 		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
 		</tags>
@@ -7690,6 +8562,226 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
+    <rule comment="ADV pro (lo/la) HAVER + PP(pasar bien) (no lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general">
+      <pattern>
+	<pattern-item n="adv"/> 
+	<pattern-item n="pro_lola"/> 
+	<pattern-item n="haver"/> 
+	<pattern-item n="verb_pronlex_pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>    
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<lit v="no"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SVneg"/>
+	    </let>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	      <with-param pos="2"/>
+	    </call-macro>
+	    <let>
+	      <var n="caseSecondWord"/>
+	      <var n="caseFirstWord"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SV"/>
+	    </let>
+	    <let>
+	      <var n="caseSecondWord"/>
+	      <case-of pos="2" side="sl" part="lem"/>
+	    </let>
+	    <out>
+	      <chunk name="adv" case="caseFirstWord">
+		<tags>
+		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
+		</tags>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>		 
+	      </chunk>
+	      <b pos="1"/>
+	    </out>
+	  </otherwise>
+	</choose> 
+	<call-macro n="conj_verb1">
+	  <with-param pos="3"/>
+	</call-macro>
+	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="cni"/>
+		</equal>
+		<equal>
+		  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fti"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="aux_haver_pp"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="haver_pp"/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out>
+	  <chunk namefrom="lema_SV" case="caseSecondWord">
+	    <tags>
+	      <tag><var n="SVnegatiu"/></tag>
+	      <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><clip pos="3" side="tl" part="pers"/></tag>
+	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="verbfinal"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_pp"/>
+	      <clip pos="4" side="tl" part="lemq"/>    
+	    </lu> 
+	  </chunk>
+	</out>
+	<call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+      </action>
+    </rule>
+
+ <rule comment="ADV + pro + pro (lo/la) HAVER + PP(pasar bien) (no se lo han pasado bien)- regla lexicalizada antes de la correspondiente regla general">
+      <pattern>
+	<pattern-item n="adv"/> 
+	<pattern-item n="pro"/> 
+	<pattern-item n="pro_lola"/> 
+	<pattern-item n="haver"/> 
+	<pattern-item n="verb_pronlex_pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>    
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<lit v="no"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SVneg"/>
+	    </let>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	    </call-macro>
+	    <let>
+	      <var n="caseSecondWord"/>
+	      <var n="caseFirstWord"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SV"/>
+	    </let>
+	    <let>
+	      <var n="caseSecondWord"/>
+	      <case-of pos="2" side="sl" part="lem"/>
+	    </let>
+	    <out>
+	      <chunk name="adv" case="caseFirstWord">
+		<tags>
+		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
+		</tags>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>		 
+	      </chunk>
+	      <b pos="1"/>
+	    </out>
+	  </otherwise>
+	</choose> 
+	<call-macro n="conj_verb1">
+	  <with-param pos="4"/>
+	</call-macro>
+	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="4" side="sl" part="temps"/>
+		  <lit-tag v="cni"/>
+		</equal>
+		<equal>
+		  <clip pos="4" side="sl" part="temps"/>
+		  <lit-tag v="fti"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="aux_haver_pp"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="haver_pp"/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<out>
+	  <chunk namefrom="lema_SV" case="caseSecondWord">
+	    <tags>
+	      <tag><var n="SVnegatiu"/></tag>
+	      <tag><clip pos="5" side="tl" part="a_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><clip pos="4" side="tl" part="pers"/></tag>
+	      <tag><clip pos="4" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="verbfinal"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>
+	      <clip pos="5" side="tl" part="lemh"/> 
+	      <clip pos="5" side="tl" part="a_pp"/>
+	      <clip pos="5" side="tl" part="lemq"/>    
+	    </lu> 
+	  </chunk>
+	</out>
+	<call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>
+      </action>
+    </rule>
 
 
     <rule comment="ADV pro HAVER + PP (no els han vist - have not seen them)">
@@ -8207,7 +9299,164 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
  </rule>
 
 
+    <rule comment="REGLA: ADV PROCLÍTIC (lo/la) pasar bien (no lo paso bien) - regla lexicalizada antes de la correspondiente regla general">
+      <pattern>
+	<pattern-item n="adv"/>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="verb_pronlex"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<lit v="no"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SVneg"/>
+	    </let>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	      <with-param pos="2"/>
+	    </call-macro>
+	    <let>
+	      <var n="caseSecondWord"/>
+	      <var n="caseFirstWord"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SV"/>
+	    </let>
+	    <let>
+	      <var n="caseSecondWord"/>
+	      <case-of pos="2" side="sl" part="lem"/>
+	    </let>
+	    <out>
+	      <chunk name="adv" case="caseFirstWord">
+		<tags>
+		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
+		</tags>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>		 
+	      </chunk>
+	      <b pos="1"/>
+	    </out>
+	  </otherwise>
+	</choose>  	 
+	<call-macro n="conj_verb1">
+	  <with-param pos="3"/>
+	</call-macro>
+	<out>
+	      <chunk namefrom="lema_SV" case="caseSecondWord">
+		<tags>
+		  <tag><var n="SVnegatiu"/></tag>
+		  <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="3" side="tl" part="pers"/></tag>
+		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu>
+		  <var n="verbfinal"/> 
+		  <clip pos="3" side="tl" part="lemq"/> 
+		</lu>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	      <with-param pos="2"/>
+	      <with-param pos="3"/>
+	    </call-macro>
+      </action>
+    </rule>
 
+
+    <rule comment="REGLA: ADV PROCLÍTIC (lo/la) pasar bien (no lo paso bien) - regla lexicalizada antes de la correspondiente regla general">
+      <pattern>
+	<pattern-item n="adv"/>
+	<pattern-item n="pro"/>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="verb_pronlex"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<lit v="no"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SVneg"/>
+	    </let>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	      <with-param pos="2"/>
+	    </call-macro>
+	    <let>
+	      <var n="caseSecondWord"/>
+	      <var n="caseFirstWord"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SV"/>
+	    </let>
+	    <let>
+	      <var n="caseSecondWord"/>
+	      <case-of pos="2" side="sl" part="lem"/>
+	    </let>
+	    <out>
+	      <chunk name="adv" case="caseFirstWord">
+		<tags>
+		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
+		</tags>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>		 
+	      </chunk>
+	      <b pos="1"/>
+	    </out>
+	  </otherwise>
+	</choose>  	 
+	<call-macro n="conj_verb1">
+	  <with-param pos="4"/>
+	</call-macro>
+	<out>
+	      <chunk namefrom="lema_SV" case="caseSecondWord">
+		<tags>
+		  <tag><var n="SVnegatiu"/></tag>
+		  <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><clip pos="4" side="tl" part="pers"/></tag>
+		  <tag><clip pos="4" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu>
+		  <var n="verbfinal"/> 
+		  <clip pos="4" side="tl" part="lemq"/> 
+		</lu>
+	      </chunk>
+	    </out>
+	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
+	      <with-param pos="2"/>
+	      <with-param pos="3"/>
+	      <with-param pos="4"/>
+	    </call-macro>
+      </action>
+    </rule>
 
     <rule comment="REGLA: ADV PROCLÍTIC VERB conjugat (no el veig)">
       <pattern>
@@ -8448,6 +9697,42 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			  <var n="nom_chunk"/>
 			  <lit-tag v="SN"/>
 			</let>
+			<choose>
+			  <when>
+			    <test>
+			      <in caseless="yes">
+				<clip pos="3" side="sl" part="lem"/>
+				<list n="añadir_prep_pron"/>
+			      </in>
+			    </test>
+			    <let>
+			      <var n="prepo"/>
+			      <concat>
+				<get-case-from pos="2">
+				  <lit v="for"/>
+				</get-case-from>
+				<lit-tag v="pr"/>
+			      </concat>
+			    </let>
+			    <out>
+			      <b/>
+			      <chunk name="pr">
+				<tags>
+				  <tag><lit-tag v="PREP"/></tag>
+				</tags>
+				<lu>
+				  <var n="prepo"/>
+				</lu>
+			      </chunk>
+			    </out>
+			  </when>
+			  <otherwise>
+			    <let>
+			      <var n="prepo"/>
+			      <lit v=""/>
+			    </let>
+			  </otherwise>
+			</choose>		
 		      </otherwise>
 		    </choose>	
 		    <out>
@@ -8534,8 +9819,47 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </out>
 	  </when>
 	  <otherwise>
+	    <choose>
+	      <when>
+		<test>
+		  <in caseless="yes">
+		    <clip pos="2" side="sl" part="lem"/>
+		    <list n="añadir_prep_pron"/>
+		  </in>
+		</test>
+		<let>
+		  <var n="prepo"/>
+		     <concat>
+		       <lit v="for"/>
+		       <lit-tag v="pr"/>
+		     </concat>
+		</let>
+		<let>
+		  <var n="espai"/>
+		  <lit v=" "/>
+		</let>
+		<let>
+		  <var n="lema_SV"/>
+		  <lit v="to_verb_pr_enc"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <var n="prepo"/>
+		  <lit v=""/>
+		</let>
+		<let>
+		  <var n="espai"/>
+		  <lit v=""/>
+		</let>
+		<let>
+		  <var n="lema_SV"/>
+		  <lit v="to_verb_enc"/>
+		</let>
+	      </otherwise>
+	    </choose>
 	    <out>
-	      <chunk name="to_verb_enc" case="caseFirstWord">
+	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
@@ -8563,6 +9887,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>   
 		<b/>
+		<lu>
+		  <var n="prepo"/>
+		</lu>
+		<var n="espai"/>
 		<lu>
 		  <clip pos="3" side="tl" part="whole"/>	
 		</lu> 
@@ -9488,8 +10816,28 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </let>
 	  </when>
 	</choose>
+	<choose>
+	  <when>
+	    <test> 
+	      <in caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<list n="adv_intercalados"/>
+	      </in>
+	    </test>
+	    <let>
+	      <var n="lema"/>
+	      <lit v="adv-interc"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema"/>
+	      <lit v="adv"/>
+	    </let>
+	  </otherwise>
+	</choose>	
 	<out>
-	  <chunk name="adv" case="caseFirstWord">
+	  <chunk namefrom="lema" case="caseFirstWord">
 	    <tags>
 	      <tag><clip pos="1" side="tl" part="a_adv"/></tag>
 	      <tag><clip pos="1" side="tl" part="neg"/></tag>		
@@ -9588,7 +10936,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
   <rule comment="PREP PRN personal (amb ell = with him (prn obj))">
       <pattern>
 	<pattern-item n="prep"/>
-	<pattern-item n="prpers"/>
+	<pattern-item n="prpers_tn"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
@@ -9650,7 +10998,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
     
 
-  <rule comment="PREP PRN personal (amb ell = with him (prn obj))">
+  <rule comment="PREP relatiu (amb el que)">
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="el_que"/>
@@ -9659,8 +11007,16 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<let>
+	  <var n="prepo"/>
+	  <clip pos="1" side="sl" part="lem"/>
+	</let>
+	<let>
+	  <var n="lema"/>
+	  <clip pos="2" side="sl" part="lem"/>
+	</let>
 	<out>
-	  <chunk name="pr" case="caseFirstWord">
+	  <chunk namefrom="prepo" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="PREP"/></tag>
 	    </tags>
@@ -9669,7 +11025,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	  </chunk>
 	  <b pos="1"/>
-	  <chunk name="rel">
+	  <chunk namefrom="lema">
 	    <tags>
 	      <tag><clip pos="2" side="tl" part="a_rel"/></tag>
 	    </tags>
@@ -9728,7 +11084,60 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
- <rule comment="de">
+<rule comment="por ello + sent">
+      <pattern>
+	<pattern-item n="porello"/>
+	<pattern-item n="sent"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<out>
+	  <chunk name="pr" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="PREP"/></tag>
+	    </tags>
+	    <lu>
+	      <get-case-from pos="1">
+		<lit v="for"/>
+	      </get-case-from>
+	      <lit-tag v="pr"/>
+	    </lu>
+	  </chunk>
+	  <b/>
+	  <chunk name="prn">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><lit-tag v="tn"/></tag>
+	      <tag><lit-tag v="mf"/></tag>
+	      <tag><lit-tag v="sg"/></tag>
+	    </tags>
+	    <lu>
+	      <get-case-from pos="1">
+		<lit v="that"/>
+	      </get-case-from>
+	      <lit-tag v="prn.tn"/>
+	      <lit-tag v="3"/>
+	      <lit-tag v="4"/>
+	    </lu> 
+	  </chunk>
+	  <chunk name="punt">
+	    <tags>
+	      <tag><lit-tag v="sent"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+
+<!--
+ <rule comment="de"> ahora queda incluida en la regla siguiente
       <pattern>
 	<pattern-item n="de"/>
       </pattern>
@@ -9747,7 +11156,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  </chunk>
 	</out>
       </action>
-    </rule>
+    </rule> -->
 
 
     <rule comment="PREP">
@@ -9758,8 +11167,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<let>
+	  <var n="lema"/>
+	  <clip pos="1" side="sl" part="lem"/>
+	</let>
 	<out>
-	  <chunk name="pr" case="caseFirstWord">
+	  <chunk namefrom="lema" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="PREP"/></tag>
 	    </tags>
@@ -9772,7 +11185,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-  <rule comment="REL">
+  <rule comment="REL"><!--a lo mejor habría que cambiar lema del chunk también para 'el que' y 'el cual', para luego aplicar la rgla del t2x de generación de sujeto tras ciertos relativos -->
       <pattern>
 	<pattern-item n="rel"/>
       </pattern>
@@ -9780,8 +11193,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<let>
+	  <var n="lema"/>
+	  <clip pos="1" side="sl" part="lem"/>
+	</let>	
 	<out>
-	  <chunk name="rel" case="caseFirstWord">
+	  <chunk namefrom="lema" case="caseFirstWord">
 	    <tags>
 	      <tag><clip pos="1" side="tl" part="a_rel"/></tag>
 	    </tags>

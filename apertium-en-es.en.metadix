@@ -1455,6 +1455,50 @@
         </p>
       </e>
     </pardef>
+    <pardef n="host__n">
+      <e c="CP: nouns which add -ess for the feminine">
+        <p>
+          <l/>
+          <r><s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ess</l>
+          <r><s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>esses</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>s'</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ess'</l>
+          <r><s n="n"/><s n="f"/><s n="sg"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>esses'</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/><j/>'s<s n="gen"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="access__n">
       <e c="CP: nouns which add -es">
         <p>
@@ -3331,6 +3375,68 @@
         <p>
           <l>ing</l>
           <r>e<s n="vblex"/><sa/><s n="subs"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="spoil__vblex">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="vblex"/><sa/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="vblex"/><sa/><s n="pres"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="vblex"/><sa/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t</l>
+          <r><s n="vblex"/><sa/><s n="past"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ed</l>
+          <r><s n="vblex"/><sa/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t</l>
+          <r><s n="vblex"/><sa/><s n="pp"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ed</l>
+          <r><s n="vblex"/><sa/><s n="pp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ing</l>
+          <r><s n="vblex"/><sa/><s n="ger"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ing</l>
+          <r><s n="vblex"/><sa/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ing</l>
+          <r><s n="vblex"/><sa/><s n="subs"/></r>
         </p>
       </e>
     </pardef>
@@ -9709,7 +9815,7 @@
 
   </pardefs>
   <section id="main" type="standard">
-<e lm="abject" a="eleka"><i>abject</i><par n="expensive__adj"/></e>
+<e lm="abject" a="eleka"><i>abject</i><par n="common/__adj"/></e>
     <e lm="abreast" a="eleka"><i>abreast</i><par n="after__cnjadv"/></e>
     <e lm="be abreast" a="eleka"><par n="/be__vblex"/>      <p>        <l><b/>abreast</l><r><g><b/>abreast</g></r></p></e>
 
@@ -10001,6 +10107,7 @@
     <e lm="shoot in the dark" r="RL"><i>sho</i><par n="sho/ot__vblex"/>      <p>        <l><b/>in<b/>the<b/>dark</l><r><g><b/>in<b/>the<b/>dark</g></r></p></e>
     <e lm="take for granted"><i>t</i><par n="t/ake__vblex" sa="sep"/>      <par n="probj_dem__prn"/>      <p>        <l><b/>for<b/>granted</l><r><g><b/>for<b/>granted</g></r></p></e>
     <e lm="be hesitant" r="RL"><par n="/be__vblex"/>      <p>        <l><b/>hesitant</l><r><g><b/>hesitant</g></r></p></e>
+    <e lm="be suitable" r="RL"><par n="/be__vblex"/>      <p>        <l><b/>suitable</l><r><g><b/>suitable</g></r></p></e>
     <e lm="be necessary" r="RL"><i></i><par n="/be__vblex"/><p><l><b/>necessary</l><r><g><b/>necessary</g></r></p></e>
     <e lm="be necessary to" r="RL"><i></i><par n="/be__vblex"/><p><l><b/>necessary<b/>to</l><r><g><b/>necessary<b/>to</g></r></p></e>
     <e lm="hous"><i>hous</i><par n="liv/e__vblex"/>    </e>
@@ -10077,7 +10184,7 @@
     <e lm="approximately"><i>approximately</i><par n="maybe__adv"/>    </e>
     <e lm="around"><i>around</i><par n="maybe__adv"/>    </e>
     <e lm="as a matter of fact"><i>as<b/>a<b/>matter<b/>of<b/>fact</i><par n="maybe__adv"/>    </e>
-    <e lm="as soon as"><i>as<b/>soon<b/>as</i><par n="maybe__adv"/>    </e>
+    <e lm="as soon as"><i>as<b/>soon<b/>as</i><par n="after__cnjadv"/>    </e>
     <e lm="as well"><i>as<b/>well</i><par n="maybe__adv"/>    </e>
     <e lm="aside"><i>aside</i><par n="maybe__adv"/>    </e>
     <e lm="askance"><i>askance</i><par n="maybe__adv"/>    </e>
@@ -10835,6 +10942,7 @@
     <e lm="and"><i>and</i><par n="and__cnjcoo"/>    </e>
     <e lm="both"><i>both</i><par n="and__cnjcoo"/>    </e>
     <e lm="but"><i>but</i><par n="and__cnjcoo"/>    </e>
+    <e lm="but" r="RL"><i>but</i><par n="after__cnjadv"/>    </e>
     <e lm="but rather"><i>but<b/>rather</i><par n="and__cnjcoo"/>    </e>
     <e lm="either"><i>either</i><par n="and__cnjcoo"/>    </e>
     <e lm="neither"><i>neither</i><par n="and__cnjcoo"/>    </e>
@@ -12176,7 +12284,7 @@
     <e lm="double bass" a="eleka"><i>double<b/>bass</i><par n="house__n"/></e>
     <e lm="bass drum" a="eleka"><i>bass<b/>drum</i><par n="house__n"/></e>
     <e lm="abominable" a="eleka"><i>abominable</i><par n="expensive__adj"/></e>
-    <e lm="abrupt" a="eleka"><i>abrupt</i><par n="expensive__adj"/></e>
+    <e lm="abrupt" a="eleka"><i>abrupt</i><par n="common/__adj"/></e>
     <e lm="reckless abandon" a="eleka"><i>reckless<b/>abandon</i><par n="house__n"/></e>
     <e lm="wild abandon" a="eleka"><i>wild<b/>abandon</i><par n="house__n"/></e>
     <e lm="abduct" a="eleka"><i>abduct</i><par n="accept__vblex"/></e>
@@ -12253,6 +12361,10 @@
     <e lm="rower" a="eleka"><i>rower</i><par n="house__n"/>    </e>
     <e lm="Umpro" a="eleka"><i>Umpro</i><par n="Linux__np"/>    </e>
     <e lm="GP" a="eleka"><i>GP</i><par n="BBC__n"/>    </e>
+    <e lm="BP" a="eleka"><i>BP</i><par n="BBC__n"/>    </e>
+    <e lm="AFP"><i>AFP</i><par n="BBC__n"/>    </e>
+    <e lm="CIA" a="eleka"><i>CIA</i><par n="BBC__n"/>    </e>
+    <e lm="FARC" a="eleka"><i>FARC</i><par n="BBC__n"/>    </e>
     <e lm="G.P." a="eleka"><i>G.P.</i><par n="BBC__n"/>    </e>
     <e lm="Urdiales" a="eleka"><i>Urdiales</i><par n="Linux__np"/>    </e>
     <e lm="Mecos" a="eleka"><i>Mecos</i><par n="James__np"/>    </e>
@@ -12282,7 +12394,6 @@
     <e lm="navigation trade" a="eleka"><i>navigation<b/>trade</i><par n="house__n"/>    </e>
     <e lm="fishing port" a="eleka"><i>fishing<b/>port</i><par n="house__n"/>    </e>
     <e lm="coastal fishing port" a="eleka"><i>coastal<b/>fishing<b/>port</i><par n="house__n"/>    </e>
-    <e lm="leadership role" a="eleka"><i>leadership<b/>role</i><par n="house__n"/>    </e>
     <e lm="Avia" a="eleka"><i>Avia</i><par n="Linux__np"/>    </e>
     <e lm="Talaiberri Txakolindegia" a="eleka"><i>Talaiberri<b/>Txakolindegia</i><par n="Linux__np"/>    </e>
     <e lm="Laredo RC" a="eleka"><i>Laredo<b/>RC</i><par n="Linux__np"/>    </e>
@@ -12683,11 +12794,46 @@
      <e lm="Kepa" a="eleka"><i>Kepa</i><par n="Mark__np"/>    </e>
      <e lm="Iagoba" a="eleka"><i>Iagoba</i><par n="Mark__np"/>    </e>
      <e lm="Doctor Deseo" a="eleka"><i>Doctor<b/>Deseo</i><par n="Linux__np"/>    </e>
+     <e lm="Euskaltel" a="eleka"><i>Euskaltel</i><par n="Linux__np"/>    </e>
+     <e lm="ICU" a="eleka"><i>ICU</i><par n="BBC__n"/>    </e>
+     <e lm="PDA" a="eleka"><i>PDA</i><par n="BBC__n"/>    </e>
+     <e lm="FMI" a="eleka"><i>FMI</i><par n="BBC__n"/>    </e>
+     <e lm="GBC" a="eleka"><i>GBC</i><par n="BBC__n"/>    </e>
+     <e lm="PSM" a="eleka"><i>PSM</i><par n="BBC__n"/>    </e>
+     <e lm="PSP" a="eleka"><i>PSP</i><par n="BBC__n"/>    </e>
+     <e lm="Seat" a="eleka"><i>Seat</i><par n="Linux__np"/>    </e>
+     <e lm="Anfac" a="eleka"><i>Anfac</i><par n="Linux__np"/>    </e>
+     <e lm="Ganvam" a="eleka"><i>Ganvam</i><par n="Linux__np"/>    </e>
+     <e lm="Plan 2000E" a="eleka"><i>Plan<b/>2000E</i><par n="Linux__np"/>    </e>
+     <e lm="Udalbiltza" a="eleka"><i>Udalbiltza</i><par n="Linux__np"/>    </e>
+     <e lm="PSE" a="eleka"><i>PSE</i><par n="Linux__np"/>    </e>
+     <e lm="Cajasur" a="eleka"><i>Cajasur</i><par n="Linux__np"/>    </e>
+     <e lm="Astelena" a="eleka"><i>Astelena</i><par n="Linux__np"/>    </e>
+     <e lm="Solis" a="eleka"><i>Solis</i><par n="Linux__np"/>    </e>
+     <e lm="Tour de France" a="eleka"><i>Tour<b/>de<b/>France</i><par n="Linux__np"/>    </e>
+     <e lm="ertzaintza" a="eleka"><i>ertzaintza</i><par n="Linux__np"/>    </e>
+     <e lm="Heineken Jazzaldia" a="eleka"><i>Heineken<b/>Jazzaldia</i><par n="Linux__np"/>    </e>
+     <e lm="El Diario Vasco" a="eleka"><i>El<b/>Diario<b/>Vasco</i><par n="Linux__np"/>    </e>
+     <e lm="Diario Vasco" a="eleka"><i>Diario<b/>Vasco</i><par n="Linux__np"/>    </e>
+     <e lm="The Sun" a="eleka"><i>The<b/>Sun</i><par n="Linux__np"/>    </e>
+     <e lm="Kilometroak" a="eleka"><i>Kilometroak</i><par n="Linux__np"/>    </e>
+     <e lm="ACB league" a="eleka"><i>ACB<b/>league</i><par n="Linux__np"/>    </e>
+     <e lm="ACB" a="eleka"><i>ACB</i><par n="Linux__np"/>    </e>
+     <e lm="N-1" a="eleka"><i>N-1</i><par n="Linux__np"/>    </e>
+     <e lm="Lagun Aro" a="eleka"><i>Lagun<b/>Aro</i><par n="Linux__np"/>    </e>
+     <e lm="High Court of Justice of the Basque Country" a="eleka"><i>High<b/>Court<b/>of<b/>Justice<b/>of<b/>the<b/>Basque<b/>Country</i><par n="Linux__np"/>    </e>
+     <e lm="Villareal" a="eleka"><i>Villareal</i><par n="Linux__np"/>    </e>
+     <e lm="Aralar" a="eleka"><i>Aralar</i><par n="Linux__np"/>    </e>
+     <e lm="SUMMA" a="eleka"><i>SUMMA</i><par n="Linux__np"/>    </e>
+     <e lm="EFE" a="eleka"><i>EFE</i><par n="Linux__np"/>    </e>
+     <e lm="Jazzaldia" a="eleka"><i>Jazzaldia</i><par n="Linux__np"/>    </e>
+     <e lm="Kubo" a="eleka"><i>Kubo</i><par n="Linux__np"/>    </e>
      <e lm="AlhóndigaBilbao" a="eleka"><i>AlhóndigaBilbao</i><par n="Linux__np"/>    </e>
      <e lm="Alhóndiga" a="eleka"><i>Alhóndiga</i><par n="Linux__np"/>    </e>
      <e lm="Tecnalia" a="eleka"><i>Tecnalia</i><par n="Linux__np"/>    </e>
      <e lm="Real Sociedad" a="eleka"><i>Real<b/>Sociedad</i><par n="Linux__np"/>    </e>
      <e lm="Aiko Taldea" a="eleka"><i>Aiko<b/>Taldea</i><par n="Linux__np"/>    </e>
+     <e lm="Tour" a="eleka"><i>Tour</i><par n="Linux__np"/>    </e>
      <e lm="Generalitat" a="eleka"><i>Generalitat</i><par n="Linux__np"/>    </e>
      <e lm="Government of Catalonia" a="eleka"><i>Government<b/>of<b/>Catalonia</i><par n="Linux__np"/>    </e>
      <e lm="Basque Government" a="eleka"><i>Basque<b/>Government</i><par n="Linux__np"/>    </e>
@@ -12698,6 +12844,45 @@
      <e lm="Mendiguren" a="eleka"><i>Mendiguren</i><par n="Smith__np"/></e>
      <e lm="Zubeldia" a="eleka"><i>Zubeldia</i><par n="Smith__np"/></e>
      <e lm="Junkera" a="eleka"><i>Junkera</i><par n="Smith__np"/></e>
+     <e lm="Ibargutxi" a="eleka"><i>Ibargutxi</i><par n="Smith__np"/></e>
+     <e lm="Becerril" a="eleka"><i>Becerril</i><par n="Smith__np"/></e>
+     <e lm="López del Burro" a="eleka"><i>López<b/>del<b/>Burro</i><par n="Smith__np"/></e>
+     <e lm="Garmendia" a="eleka"><i>Garmendia</i><par n="Smith__np"/></e>
+     <e lm="Pataky" a="eleka"><i>Pataky</i><par n="Smith__np"/></e>
+     <e lm="Salgado" a="eleka"><i>Salgado</i><par n="Smith__np"/></e>
+     <e lm="Verdasco" a="eleka"><i>Verdasco</i><par n="Smith__np"/></e>
+     <e lm="Nadal" a="eleka"><i>Nadal</i><par n="Smith__np"/></e>
+     <e lm="Soderling" a="eleka"><i>Soderling</i><par n="Smith__np"/></e>
+     <e lm="Djokovic" a="eleka"><i>Djokovic</i><par n="Smith__np"/></e>
+     <e lm="Federer" a="eleka"><i>Federer</i><par n="Smith__np"/></e>
+     <e lm="Munilla" a="eleka"><i>Munilla</i><par n="Smith__np"/></e>
+     <e lm="Izquierdo" a="eleka"><i>Izquierdo</i><par n="Smith__np"/></e>
+     <e lm="Basagoiti" a="eleka"><i>Basagoiti</i><par n="Smith__np"/></e>
+     <e lm="Mendiola" a="eleka"><i>Mendiola</i><par n="Smith__np"/></e>
+     <e lm="Llorente" a="eleka"><i>Llorente</i><par n="Smith__np"/></e>
+     <e lm="Neira" a="eleka"><i>Neira</i><par n="Smith__np"/></e>
+     <e lm="Corbacho" a="eleka"><i>Corbacho</i><par n="Smith__np"/></e>
+     <e lm="Moreno" a="eleka"><i>Moreno</i><par n="Smith__np"/></e>
+     <e lm="Manning" a="eleka"><i>Manning</i><par n="Smith__np"/></e>
+     <e lm="Ahmadinejad" a="eleka"><i>Ahmadinejad</i><par n="Smith__np"/></e>
+     <e lm="Rodriguez" a="eleka"><i>Rodriguez</i><par n="Smith__np"/></e>
+     <e lm="Barrichello" a="eleka"><i>Barrichello</i><par n="Smith__np"/></e>
+     <e lm="Mourinho" a="eleka"><i>Mourinho</i><par n="Smith__np"/></e>
+     <e lm="Oier Fano" a="eleka"><i>Oier<b/>Fano</i><par n="Smith__np"/></e>
+     <e lm="Amiri" a="eleka"><i>Amiri</i><par n="Smith__np"/></e>
+     <e lm="Bardem" a="eleka"><i>Bardem</i><par n="Smith__np"/></e>
+     <e lm="Pitt" a="eleka"><i>Pitt</i><par n="Smith__np"/></e>
+     <e lm="Ares" a="eleka"><i>Ares</i><par n="Smith__np"/></e>
+     <e lm="Toquinho" a="eleka"><i>Toquinho</i><par n="Smith__np"/></e>
+     <e lm="Txomin Perurena" a="eleka"><i>Txomin<b/>Perurena</i><par n="Smith__np"/></e>
+     <e lm="Patti Smith" a="eleka"><i>Patti<b/>Smith</i><par n="Smith__np"/></e>
+     <e lm="Urraburu" a="eleka"><i>Urraburu</i><par n="Smith__np"/></e>
+     <e lm="Rossi" a="eleka"><i>Rossi</i><par n="Smith__np"/></e>
+     <e lm="Cavendish" a="eleka"><i>Cavendish</i><par n="Smith__np"/></e>
+     <e lm="Renshaw" a="eleka"><i>Renshaw</i><par n="Smith__np"/></e>
+     <e lm="Contador" a="eleka"><i>Contador</i><par n="Smith__np"/></e>
+     <e lm="Ormazabal" a="eleka"><i>Ormazabal</i><par n="Smith__np"/></e>
+     <e lm="Labein" a="eleka"><i>Labein</i><par n="Smith__np"/></e>
      <e lm="Paco Sutil" a="eleka"><i>Paco<b/>Sutil</i><par n="Smith__np"/></e>
      <e lm="Montilla" a="eleka"><i>Montilla</i><par n="Smith__np"/></e>
      <e lm="Laboa" a="eleka"><i>Laboa</i><par n="Smith__np"/></e>
@@ -12706,16 +12891,33 @@
      <e lm="news media" a="eleka"><i>news<b/>media</i><par n="politics__n"/></e>
      <e lm="Estibaliz" a="eleka"><i>Estibaliz</i><par n="Mary__np"/>    </e>
      <e lm="Jalón" a="eleka"><i>Jalón</i><par n="Barcelona__np"/>    </e>
+     <e lm="Zumárraga" a="eleka"><i>Zumárraga</i><par n="Barcelona__np"/>    </e>
+     <e lm="Ategorrieta" a="eleka"><i>Ategorrieta</i><par n="Barcelona__np"/>    </e>
+     <e lm="Valdebebas" a="eleka"><i>Valdebebas</i><par n="Barcelona__np"/>    </e>
+     <e lm="Côte d'Azur" a="eleka"><i>Côte<b/>d'Azur</i><par n="Barcelona__np"/>    </e>
+     <e lm="Costa Blanca" a="eleka"><i>Costa<b/>Blanca</i><par n="Barcelona__np"/>    </e>
+     <e lm="Costa Brava" a="eleka"><i>Costa<b/>Brava</i><par n="Barcelona__np"/>    </e>
+     <e lm="Costa del Sol" a="eleka"><i>Costa<b/>del<b/>Sol</i><par n="Barcelona__np"/>    </e>
+     <e lm="Gold Coast" a="eleka"><i>Gold<b/>Coast</i><par n="Barcelona__np"/>    </e>
+     <e lm="Sachsenring" a="eleka"><i>Sachsenring</i><par n="Barcelona__np"/>    </e>
+     <e lm="Álava" a="eleka"><i>Álava</i><par n="Barcelona__np"/>    </e>
+     <e lm="Ordizia" a="eleka"><i>Ordizia</i><par n="Barcelona__np"/>    </e>
      <e lm="Ollerías" a="eleka"><i>Ollerías</i><par n="Barcelona__np"/>    </e>
+     <e lm="Ondarreta" a="eleka"><i>Ondarreta</i><par n="Barcelona__np"/>    </e>
      <e lm="Lasarte" a="eleka"><i>Lasarte</i><par n="Barcelona__np"/>    </e>
      <e lm="Fanlo" a="eleka"><i>Fanlo</i><par n="Barcelona__np"/>    </e>
      <e lm="Vizcaya" a="eleka"><i>Vizcaya</i><par n="Barcelona__np"/>    </e>
      <e lm="media library" a="eleka"><i>media<b/>librar</i><par n="bab/y__n"/></e>
+     <e lm="webcam" a="eleka"><i>webcam</i><par n="house__n"/></e>
+     <e lm="videoclub" a="eleka"><i>videoclub</i><par n="house__n"/></e>
      <e lm="basque observatory of culture" a="eleka"><i>basque<b/>observator</i><par n="bab/y__n"/><p><l><b/>of<b/>culture</l><r><g><b/>of<b/>culture</g></r></p></e>
+     <e lm="entertainment guide" a="eleka"><i>entertainment</i><par n="house__n"/><p><l><b/>guide</l><r><g><b/>guide</g></r></p></e>
      <e lm="craftsmanship" a="eleka"><i>craftsmanship</i><par n="house__n"/></e>
      <e lm="trikitixa" a="eleka"><i>trikitixa</i><par n="house__n"/></e>
      <e lm="short film" a="eleka"><i>short<b/>film</i><par n="house__n"/></e>
      <e lm="feature film" a="eleka"><i>feature<b/>film</i><par n="house__n"/></e>
+     <e lm="bulletin board" a="eleka"><i>bulletin<b/>board</i><par n="house__n"/></e>
+     <e lm="publicity board" a="eleka"><i>publicity<b/>board</i><par n="house__n"/></e>
      <e lm="performing arts" a="eleka"><i>performing<b/>arts</i><par n="personnel__n"/></e>
      <e lm="musical arts" a="eleka"><i>musical<b/>arts</i><par n="personnel__n"/></e>
      <e lm="ministry of culture"><i>ministr</i><par n="bab/y__n"/><p><l><b/>of<b/>culture</l><r><g><b/>of<b/>culture</g></r></p></e>
@@ -12738,25 +12940,25 @@
      <e lm="audiovisual projection" a="eleka"><i>audiovisual<b/>projection</i><par n="house__n"/></e>
      <e lm="démodé" a="eleka"><i>démodé</i><par n="expensive__adj"/>    </e>
      <e lm="joint production" a="eleka"><i>joint<b/>production</i><par n="house__n"/></e>
-     <e lm="see the point"><i>s</i><par n="s/ee__vblex"/><p><l><b/>the<b/>point</l><r><g><b/>the<b/>point</g></r></p></e>
+     <e lm="see the point" a="eleka"><i>s</i><par n="s/ee__vblex"/><p><l><b/>the<b/>point</l><r><g><b/>the<b/>point</g></r></p></e>
 
-     <e lm="be graceful">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>graceful</l><r><g><b/>graceful</g></r></p></e>
+     <e lm="be graceful" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>graceful</l><r><g><b/>graceful</g></r></p></e>
 
-     <e lm="be funny">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>funny</l><r><g><b/>funny</g></r></p></e>
+     <e lm="be funny" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>funny</l><r><g><b/>funny</g></r></p></e>
 
-     <e lm="be very funny">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>very<b/>funny</l><r><g><b/>very<b/>funny</g></r></p></e>
+     <e lm="be very funny" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>very<b/>funny</l><r><g><b/>very<b/>funny</g></r></p></e>
 
-     <e lm="be in a state of grace">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>in<b/>a<b/>state<b/>of<b/>grace</l><r><g><b/>in<b/>a<b/>state<b/>of<b/>grace</g></r></p></e>
+     <e lm="be in a state of grace" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>in<b/>a<b/>state<b/>of<b/>grace</l><r><g><b/>in<b/>a<b/>state<b/>of<b/>grace</g></r></p></e>
 
      <e lm="how funny" a="eleka"><i>how<b/>funny</i><par n="hello__ij"/></e>
 
-     <e lm="move gracefully"><i>mov</i><par n="liv/e__vblex"/><p><l><b/>gracefully</l><r><g><b/>gracefully</g></r></p></e>
+     <e lm="move gracefully" a="eleka"><i>mov</i><par n="liv/e__vblex"/><p><l><b/>gracefully</l><r><g><b/>gracefully</g></r></p></e>
 
      <e lm="ungraceful" a="eleka"><i>ungraceful</i><par n="expensive__adj"/>    </e>
 
-     <e lm="play a prank on"><i>play</i><par n="accept__vblex"/><p><l><b/>a<b/>prank<b/>on</l><r><g><b/>a<b/>prank<b/>on</g></r></p></e>
+     <e lm="play a prank on" a="eleka"><i>play</i><par n="accept__vblex"/><p><l><b/>a<b/>prank<b/>on</l><r><g><b/>a<b/>prank<b/>on</g></r></p></e>
 
-     <e lm="laugh along with"><i>laugh</i><par n="accept__vblex"/><p><l><b/>along<b/>with</l><r><g><b/>along<b/>with</g></r></p></e>
+     <e lm="laugh along with" a="eleka"><i>laugh</i><par n="accept__vblex"/><p><l><b/>along<b/>with</l><r><g><b/>along<b/>with</g></r></p></e>
 
      <e lm="thank you very much" a="eleka"><i>thank<b/>you<b/>very<b/>much</i><par n="hello__ij"/></e>
 
@@ -12789,8 +12991,1003 @@
       <e lm="premier" a="eleka"><i>premier</i><par n="house__n"/></e>
       <e lm="prime minister" a="eleka"><i>prime<b/>minister</i><par n="house__n"/></e>
       <e lm="signing" a="eleka"><i>signing</i><par n="house__n"/></e>
-      
+      <e lm="fissure" a="eleka"><i>fissure</i><par n="house__n"/></e>
+      <e lm="cleft palate" a="eleka"><i>cleft<b/>palate</i><par n="house__n"/></e>
+      <e lm="Biscayan" a="eleka"><i>Biscayan</i><par n="expensive__adj"/></e>
+      <e lm="veto" a="eleka"><i>veto</i><par n="house__n"/></e>
+      <e lm="veto" a="eleka"><i>veto</i><par n="approach__vblex"/></e>
+      <e lm="have a veto"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>veto</l><r><g><b/>a<b/>veto</g></r></p></e>
+      <e lm="spring tide" a="eleka"><i>spring<b/>tide</i><par n="house__n"/></e>
+      <e lm="high tide" a="eleka"><i>high<b/>tide</i><par n="house__n"/></e>
+      <e lm="high water" a="eleka"><i>high<b/>water</i><par n="house__n"/></e>
+      <e lm="low tide" a="eleka"><i>low<b/>tide</i><par n="house__n"/></e>
+      <e lm="low water" a="eleka"><i>low<b/>water</i><par n="house__n"/></e>
+      <e lm="rising tide" a="eleka"><i>rising<b/>tide</i><par n="house__n"/></e>
+      <e lm="ebb tide" a="eleka"><i>ebb<b/>tide</i><par n="house__n"/></e>
+      <e lm="neap tide" a="eleka"><i>neap<b/>tide</i><par n="house__n"/></e>
+      <e lm="oil slick" a="eleka"><i>oil<b/>slick</i><par n="house__n"/></e>
+      <e lm="tide of revolt" a="eleka"><i>tide</i><par n="house__n"/><p><l><b/>of<b/>revolt</l><r><g><b/>of<b/>revolt</g></r></p></e>
+      <e lm="flood of people" a="eleka"><i>flood</i><par n="house__n"/><p><l><b/>of<b/>people</l><r><g><b/>of<b/>people</g></r></p></e>
+      <e lm="bale out" a="eleka"><i>bal</i><par n="liv/e__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
+      <e lm="get smaller" a="eleka"><i>g</i><par n="g/et__vblex"/><p><l><b/>smaller</l><r><g><b/>smaller</g></r></p></e>
+      <e lm="dodge the issue" a="eleka"><i>dodg</i><par n="liv/e__vblex"/><p><l><b/>the<b/>issue</l><r><g><b/>the<b/>issue</g></r></p></e>
+      <e lm="boxing ball" a="eleka"><i>boxing<b/>ball</i><par n="house__n"/></e>
+      <e lm="punchball" a="eleka"><i>punchball</i><par n="house__n"/></e>
+      <e lm="beach ball" a="eleka"><i>beach<b/>ball</i><par n="house__n"/></e>
+      <e lm="regulation ball" a="eleka"><i>regulation<b/>ball</i><par n="house__n"/></e>
+      <e lm="loose ball" a="eleka"><i>loose<b/>ball</i><par n="house__n"/></e>
+      <e lm="oxygen cylinder" a="eleka"><i>oxygen<b/>cylinder</i><par n="house__n"/></e>
+      <e lm="heavy sea" a="eleka"><i>heavy<b/>sea</i><par n="house__n"/></e>
+      <e lm="lessen" a="eleka"><i>lessen</i><par n="accept__vblex"/></e>
+      <e lm="without no loss of" a="eleka"><i>without<b/>no<b/>loss<b/>of</i><par n="at__pr"/>    </e>
 
+      <e lm="be damaged" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>damaged</l><r><g><b/>damaged</g></r></p></e>
+      <e lm="sandy area" a="eleka"><i>sandy<b/>area</i><par n="house__n"/></e>
+      <e lm="peace initiative" a="eleka"><i>peace<b/>initiative</i><par n="house__n"/></e>
+      <e lm="on his initiative" a="eleka"><i>on<b/>his<b/>initiative</i><par n="maybe__adv"/></e>
+      <e lm="own initiative" a="eleka"><i>own<b/>initiative</i><par n="house__n"/></e>
+      <e lm="lack initiative" a="eleka"><i>lack</i><par n="accept__vblex"/><p><l><b/>initiative</l><r><g><b/>initiative</g></r></p></e>
+      <e lm="take the initiative" a="eleka"><i>take</i><par n="accept__vblex"/><p><l><b/>the<b/>initiative</l><r><g><b/>the<b/>initiative</g></r></p></e>
+      <e lm="private enterprise" a="eleka"><i>private<b/>enterprise</i><par n="house__n"/></e>
+      <e lm="unobjectionable" a="eleka"><i>unobjectionable</i><par n="expensive__adj"/></e>
+      <e lm="under the leadership of" a="eleka"><i>under<b/>the<b/>leadership<b/>of</i><par n="at__pr"/>    </e>
+      <e lm="party leadership" a="eleka"><i>party<b/>leadership</i><par n="house__n"/></e>
+      <e lm="police headquarters" a="eleka"><i>police<b/>headquarters</i><par n="alms__n"/></e>
+      <e lm="urge to be in the limelight" a="eleka"><i>urge</i><par n="house__n"/><p><l><b/>to<b/>be<b/>in<b/>the<b/>limelight</l><r><g><b/>to<b/>be<b/>in<b/>the<b/>limelight</g></r></p></e>
+      <e lm="grant power" a="eleka"><i>grant</i><par n="accept__vblex"/><p><l><b/>power</l><r><g><b/>power</g></r></p></e>
+      <e lm="make big showing" a="eleka"><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>big<b/>showing</l><r><g><b/>big<b/>showing</g></r></p></e>
+      <e lm="make little showing" a="eleka"><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>little<b/>showing</l><r><g><b/>little<b/>showing</g></r></p></e>
+      <e lm="give prominence" a="eleka"><i>g</i><par n="g/ive__vblex"/><p><l><b/>prominence</l><r><g><b/>prominence</g></r></p></e>
+      <e lm="take off prominence"><i>t</i><par n="t/ake__vblex" sa="sep"/>      <par n="probj_dem__prn"/>      <p>        <l><b/>off<b/>prominence</l><r><g><b/>off<b/>prominence</g></r></p></e>
+      <e lm="major prominence" a="eleka"><i>major<b/>prominence</i><par n="east__n"/></e>
+      <e lm="wihout making a fuss" a="eleka"><i>wihout<b/>making<b/>a<b/>fuss</i><par n="east__n"/></e>
+      <e lm="little prominence" a="eleka"><i>little<b/>prominence</i><par n="east__n"/></e>
+      <e lm="launch" a="eleka"><i>launch</i><par n="expensive__adj"/></e>
+      <e lm="have prominence"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>prominence</l><r><g><b/>prominence</g></r></p></e>
+      <e lm="obtain prominence"><i>obtain</i><par n="accept__vblex"/>      <p>        <l><b/>prominence</l><r><g><b/>prominence</g></r></p></e>
+      <e lm="thrower" a="eleka"><i>thrower</i><par n="house__n"/></e>
+      <e lm="shot-putter" a="eleka"><i>shot-putter</i><par n="house__n"/></e>
+      <e lm="knife thrower" a="eleka"><i>knife<b/>thrower</i><par n="house__n"/></e>
+      <e lm="javelin thrower" a="eleka"><i>javelin<b/>thrower</i><par n="house__n"/></e>
+      <e lm="hammer thrower" a="eleka"><i>hammer<b/>thrower</i><par n="house__n"/></e>
+      <e lm="shot-putter" a="eleka"><i>shot-putter</i><par n="house__n"/></e>
+      <e lm="launcher" a="eleka"><i>launcher</i><par n="house__n"/></e>
+      <e lm="head butt" a="eleka"><i>head<b/>butt</i><par n="house__n"/></e>
+      <e lm="disqualify" a="eleka"><i>disqualif</i><par n="appl/y__vblex"/></e>
+      <e lm="discredit" a="eleka"><i>discredit</i><par n="accept__vblex"/></e>
+      <e lm="stage win" a="eleka"><i>stage<b/>win</i><par n="house__n"/></e>
+      <e lm="race start" a="eleka"><i>race<b/>start</i><par n="house__n"/></e>
+      <e lm="sweep" a="eleka"><i>sweep</i><par n="house__n"/></e>
+      <e lm="tell to go to hell"><i>t</i><par n="s/ell__vblex"/>      <p>        <l><b/>to<b/>go<b/>to<b/>hell</l><r><g><b/>to<b/>go<b/>to<b/>hell</g></r></p></e>
+      <e lm="go to hell"><i>go<b/>to<b/>hell</i><par n="hello__ij"/>    </e>
+      <e lm="take action"><i>t</i><par n="t/ake__vblex"/>      <p>        <l><b/>action</l><r><g><b/>action</g></r></p></e>
+      <e lm="be time to" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>time<b/>to</l><r><g><b/>time<b/>to</g></r></p></e>
+      <e lm="programme of action"><i>programme</i><par n="house__n"/>      <p>        <l><b/>of<b/>action</l><r><g><b/>of<b/>action</g></r></p></e>
+      <e lm="in action"><i>in<b/>action</i><par n="maybe__adv"/>    </e>
+      <e lm="put the plan in action"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>the<b/>plan<b/>in<b/>action</l><r><g><b/>the<b/>plan<b/>in<b/>action</g></r></p></e>
+      <e lm="go into action"><i></i><par n="/go__vblex"/>      <p>        <l><b/>into<b/>action</l><r><g><b/>into<b/>action</g></r></p></e>
+      <e lm="man of action"><i>m</i><par n="m/an__n"/>      <p>        <l><b/>of<b/>action</l><r><g><b/>of<b/>action</g></r></p></e>
+      <e lm="woman of action"><i>wom</i><par n="m/an__n"/>      <p>        <l><b/>of<b/>action</l><r><g><b/>of<b/>action</g></r></p></e>
+      <e lm="person of action"><i>p</i><par n="p/erson__n"/>      <p>        <l><b/>of<b/>action</l><r><g><b/>of<b/>action</g></r></p></e>
+      <e lm="action film" a="eleka"><i>action<b/>film</i><par n="house__n"/></e>
+      <e lm="action movie" a="eleka"><i>action<b/>movie</i><par n="house__n"/></e>
+      <e lm="direct action" a="eleka"><i>direct<b/>action</i><par n="house__n"/></e>
+      <e lm="reprehensible act" a="eleka"><i>reprehensible<b/>act</i><par n="house__n"/></e>
+      <e lm="good deed" a="eleka"><i>good<b/>deed</i><par n="house__n"/></e>
+      <e lm="evil deed" a="eleka"><i>evil<b/>deed</i><par n="house__n"/></e>
+      <e lm="suit the deed to the word"><i>suit</i><par n="accept__vblex"/>      <p>        <l><b/>the<b/>deed<b/>to<b/>the<b/>word</l><r><g><b/>the<b/>deed<b/>to<b/>the<b/>word</g></r></p></e>
+      <e lm="thanksgiving" a="eleka"><i>thanksgiving</i><par n="house__n"/></e>
+      <e lm="thanksgiving day" a="eleka"><i>thanksgiving<b/>day</i><par n="house__n"/></e> 
+      <e lm="fast-acting" a="eleka"><i>fast-acting</i><par n="house__n"/></e> 
+      <e lm="relaxing effect" a="eleka"><i>relaxing<b/>effect</i><par n="house__n"/></e>
+      <e lm="delayed action" a="eleka"><i>delayed<b/>action</i><par n="house__n"/></e>
+      <e lm="military action" a="eleka"><i>military<b/>action</i><par n="house__n"/></e>
+      <e lm="guerrillas' action" a="eleka"><i>guerrillas'<b/>action</i><par n="house__n"/></e>
+      <e lm="nervous system" a="eleka"><i>nervous<b/>system</i><par n="house__n"/></e>
+      <e lm="killed in action" a="eleka"><i>killed<b/>in<b/>action</i><par n="expensive__adj"/></e>
+      <e lm="rapid action force" a="eleka"><i>rapid<b/>action<b/>force</i><par n="house__n"/></e>
+      <e lm="military operation" a="eleka"><i>military<b/>operation</i><par n="house__n"/></e>
+      <e lm="legal action" a="eleka"><i>legal<b/>action</i><par n="house__n"/></e>
+      <e lm="lawsuit" a="eleka"><i>lawsuit</i><par n="house__n"/></e>
+      <e lm="criminal action" a="eleka"><i>criminal<b/>action</i><par n="house__n"/></e>
+      <e lm="people's action" a="eleka"><i>people's<b/>action</i><par n="house__n"/></e>
+      <e lm="share capital" a="eleka"><i>share<b/>capital</i><par n="east__n"/></e>
+      <e lm="share issue" a="eleka"><i>share<b/>issue</i><par n="house__n"/></e>
+      <e lm="stock issue" a="eleka"><i>stock<b/>issue</i><par n="house__n"/></e>
+      <e lm="listed share" a="eleka"><i>listed<b/>share</i><par n="house__n"/></e>
+      <e lm="quoted share" a="eleka"><i>quoted<b/>share</i><par n="house__n"/></e>
+      <e lm="golden share" a="eleka"><i>golden<b/>share</i><par n="house__n"/></e>
+      <e lm="fully-paid share" a="eleka"><i>fully-paid<b/>share</i><par n="house__n"/></e>
+      <e lm="ordinary share" a="eleka"><i>ordinary<b/>share</i><par n="house__n"/></e>
+      <e lm="common stock" a="eleka"><i>common<b/>stock</i><par n="house__n"/></e>
+      <e lm="preference share" a="eleka"><i>preference<b/>share</i><par n="house__n"/></e>
+      <e lm="preferred stock" a="eleka"><i>preferred<b/>stock</i><par n="house__n"/></e>
+      <e lm="priority share" a="eleka"><i>priority<b/>share</i><par n="house__n"/></e>
+      <e lm="non-voting share" a="eleka"><i>non-voting<b/>share</i><par n="house__n"/></e>
+      <e lm="awaiting" a="eleka"><i>awaiting</i><par n="at__pr"/></e>
+
+      <e lm="be born">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>born</l><r><g><b/>born</g></r></p></e>
+
+
+      <e lm="be expecting"> <i/><par n="/be__vblex"/>      <p>        <l><b/>expecting</l><r><g><b/>expecting</g></r></p></e>
+
+      <e lm="look forward to"><i>look</i><par n="accept__vblex"/>      <p>        <l><b/>forward<b/>to</l><r><g><b/>forward<b/>to</g></r></p></e>
+      <e lm="look forward to hearing from you"><i>look</i><par n="accept__vblex"/>      <p>        <l><b/>forward<b/>to</l><r><g><b/>forward<b/>to<b/>hearing<b/>from<b/>you</g></r></p></e>
+      <e lm="wait" a="eleka"><i>wait</i><par n="house__n"/></e>
+      <e lm="costs report" a="eleka"><i>costs<b/>report</i><par n="house__n"/></e>
+      <e lm="Mediterranean coast" a="eleka"><i>Mediterranean<b/>coast</i><par n="house__n"/></e>
+      <e lm="Pacific coast" a="eleka"><i>Pacific<b/>coast</i><par n="house__n"/></e>
+      <e lm="Atlantic coast" a="eleka"><i>Atlantic<b/>coast</i><par n="house__n"/></e>
+      <e lm="laugh to the expense of" a="eleka"><i>laugh</i><par n="accept__vblex"/>      <p>        <l><b/>to<b/>the<b/>expense<b/>of</l><r><g><b/>to<b/>the<b/>expense<b/>of</g></r></p></e>
+      <e lm="by the expense of" a="eleka"><i>by<b/>the<b/>expense<b/>of</i><par n="at__pr"/></e>
+      <e lm="at all costs" a="eleka"><i>at<b/>all<b/>costs</i><par n="maybe__adv"/>    </e>
+      <e lm="spend holidays on the coast" a="eleka"><i>spen</i><par n="ben/d__vblex"/>      <p>        <l><b/>holidays<b/>on<b/>the<b/>coast</l><r><g><b/>holidays<b/>on<b/>the<b/>coast</g></r></p></e>
+      <e lm="have an accident" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>an<b/>accident</l><r><g><b/>an<b/>accident</g></r></p></e>
+      <e lm="offshore" a="eleka"><i>offshore</i><par n="house__n"/></e>
+      <e lm="be still showing" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>still<b/>showing</l><r><g><b/>still<b/>showing</g></r></p></e>
+      <e lm="run for" a="eleka"><i>r</i><par n="r/un__vblex"/>      <p>        <l><b/>for</l><r><g><b/>for</g></r></p></e>
+      <e lm="photo report" a="eleka"><i>photo<b/>report</i><par n="house__n"/></e>
+      <e lm="pedestrianization" a="eleka"><i>pedestrianization</i><par n="house__n"/></e>
+      <e lm="point of sale" a="eleka"><i>point</i><par n="house__n"/>      <p>        <l><b/>of<b/>sale</l><r><g><b/>of<b/>sale</g></r></p></e>
+      <e lm="dotted line" a="eleka"><i>dotted<b/>line</i><par n="house__n"/></e>
+      <e lm="down to the last detail" a="eleka"><i>down<b/>to<b/>the<b/>last<b/>detail</i><par n="after__cnjadv"/></e>
+      <e lm="dot the i's and cross the t's" a="eleka"><i>dot</i><par n="admit__vblex"/>      <p>        <l><b/>the<b/>i's<b/>and<b/>cross<b/>the<b/>t's</l><r><g><b/>the<b/>i's<b/>and<b/>cross<b/>the<b/>t's</g></r></p></e>
+      <e lm="that's that" a="eleka"><i>that's<b/>that</i><par n="hello__ij"/></e>
+      <e lm="full stop" a="eleka"><i>full<b/>stop</i><par n="house__n"/></e>
+      <e lm="suspension point" a="eleka"><i>suspension<b/>point</i><par n="house__n"/></e>
+      <e lm="semicolon" a="eleka"><i>semicolon</i><par n="house__n"/></e>
+      <e lm="point for" a="eleka"><i>point</i><par n="house__n"/>      <p>        <l><b/>for</l><r><g><b/>for</g></r></p></e>
+      <e lm="point against" a="eleka"><i>point</i><par n="house__n"/>      <p>        <l><b/>against</l><r><g><b/>against</g></r></p></e>
+      <e lm="be level on points" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>level<b/>on<b/>points</l><r><g><b/>level<b/>on<b/>points</g></r></p></e>
+      <e lm="win on points" a="eleka"><i>w</i><par n="w/in__vblex"/>      <p>        <l><b/>on<b/>points</l><r><g><b/>on<b/>points</g></r></p></e>
+      <e lm="be exceptional" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>exceptional</l><r><g><b/>exceptional</g></r></p></e>
+      <e lm="lose by" a="eleka"><i>lo</i><par n="lo/se__vblex"/>      <p>        <l><b/>by</l><r><g><b/>by</g></r></p></e>
+      <e lm="be supported" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>supported</l><r><g><b/>supported</g></r></p></e>
+      <e lm="elaborate on" a="eleka"><i>elaborat</i><par n="liv/e__vblex"/>      <p>        <l><b/>on</l><r><g><b/>on</g></r></p></e>
+      <e lm="rural tourism" a="eleka"><i>rural<b/>tourism</i><par n="house__n"/></e>
+      <e lm="marrow" a="eleka"><i>marrow</i><par n="house__n"/></e>
+      <e lm="heart of the matter" a="eleka"><i>heart</i><par n="house__n"/>      <p>        <l><b/>of<b/>the<b/>matter</l><r><g><b/>of<b/>the<b/>matter</g></r></p></e>
+      <e lm="crux of the matter" a="eleka"><i>crux</i><par n="east__n"/>      <p>        <l><b/>of<b/>the<b/>matter</l><r><g><b/>of<b/>the<b/>matter</g></r></p></e>
+      <e lm="crux of the problem" a="eleka"><i>crux</i><par n="east__n"/>      <p>        <l><b/>of<b/>the<b/>problem</l><r><g><b/>of<b/>the<b/>problem</g></r></p></e>
+      <e lm="crux" a="eleka"><i>crux</i><par n="east__n"/></e>
+      <e lm="rack"><i>rack</i><par n="accept__vblex"/>    </e>
+
+      <e lm="go to rack and ruin" a="eleka"><i></i><par n="/go__vblex"/><p><l><b/>to<b/>rack<b/>and<b/>ruin</l><r><g><b/>to<b/>rack<b/>and<b/>ruin</g></r></p></e>
+      <e lm="be racked with pain" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>racked<b/>with<b/>pain</l><r><g><b/>racked<b/>with<b/>pain</g></r></p></e>
+      <e lm="be racked with guilt" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>racked<b/>with<b/>guilt</l><r><g><b/>racked<b/>with<b/>guilt</g></r></p></e>
+      <e lm="agenda" a="eleka"><i>agenda</i><par n="house__n"/></e>
+      <e lm="item on the agenda" a="eleka"><i>item</i><par n="house__n"/>      <p>        <l><b/>on<b/>the<b/>agenda</l><r><g><b/>on<b/>the<b/>agenda</g></r></p></e>
+      <e lm="answer point by point" a="eleka"><i>answer</i><par n="accept__vblex"/><p><l><b/>point<b/>by<b/>point</l><r><g><b/>point<b/>by<b/>point</g></r></p></e>
+      <e lm="crucial point" a="eleka"><i>crucial<b/>point</i><par n="house__n"/></e>
+      <e lm="matter to be discussed" a="eleka"><i>matter</i><par n="house__n"/>      <p>        <l><b/>to<b/>be<b/>discussed</l><r><g><b/>to<b/>be<b/>discussed</g></r></p></e>
+      <e lm="term of reference" a="eleka"><i>term</i><par n="house__n"/>      <p>        <l><b/>of<b/>reference</l><r><g><b/>of<b/>reference</g></r></p></e>
+      <e lm="knitwear" a="eleka"><i>knitwear</i><par n="house__n"/></e>
+      <e lm="knited skirt" a="eleka"><i>knited<b/>skirt</i><par n="house__n"/></e>
+      <e lm="cardigan" a="eleka"><i>cardigan</i><par n="house__n"/></e>
+      <e lm="cross stitch" a="eleka"><i>cross<b/>stitch</i><par n="house__n"/></e>
+      <e lm="stitch" a="eleka"><i>stitch</i><par n="house__n"/></e>
+      <e lm="at this point" a="eleka"><i>at<b/>this<b/>point</i><par n="after__cnjadv"/>    </e>
+      <e lm="at this stage" a="eleka"><i>at<b/>this<b/>stage</i><par n="after__cnjadv"/>    </e>
+      <e lm="cardinal point" a="eleka"><i>cardinal<b/>point</i><par n="house__n"/></e>
+      <e lm="blind spot" a="eleka"><i>blind<b/>spot</i><par n="house__n"/></e>
+      <e lm="key point" a="eleka"><i>key<b/>point</i><par n="house__n"/></e>
+      <e lm="critical point" a="eleka"><i>critical<b/>point</i><par n="house__n"/></e>
+      <e lm="high point" a="eleka"><i>high<b/>point</i><par n="house__n"/></e>
+      <e lm="checkpoint" a="eleka"><i>checkpoint</i><par n="house__n"/></e>
+      <e lm="weak point" a="eleka"><i>weak<b/>point</i><par n="house__n"/></e>
+      <e lm="weak spot" a="eleka"><i>weak<b/>spot</i><par n="house__n"/></e>
+      <e lm="heat source" a="eleka"><i>heat<b/>source</i><par n="house__n"/></e>
+      <e lm="freezing point" a="eleka"><i>freezing<b/>point</i><par n="house__n"/></e>
+      <e lm="point of contact" a="eleka"><i>point</i><par n="house__n"/>      <p>        <l><b/>of<b/>contact</l><r><g><b/>of<b/>contact</g></r></p></e>
+      <e lm="boiling-point" a="eleka"><i>boiling-point</i><par n="house__n"/></e>
+      <e lm="meeting point" a="eleka"><i>meeting<b/>point</i><par n="house__n"/></e>
+      <e lm="break-even point" a="eleka"><i>break-even<b/>point</i><par n="house__n"/></e>
+      <e lm="vanishing point" a="eleka"><i>vanishing<b/>point</i><par n="house__n"/></e>
+      <e lm="melting-point" a="eleka"><i>melting-point</i><par n="house__n"/></e>
+      <e lm="flashpoint" a="eleka"><i>flashpoint</i><par n="house__n"/></e>
+      <e lm="information centre" a="eleka"><i>information<b/>centre</i><par n="house__n"/></e>
+      <e lm="come under scrutiny" a="eleka"><i>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>under<b/>scrutiny</l><r><g><b/>under<b/>scrutiny</g></r></p></e>
+      <e lm="turning point" a="eleka"><i>turning<b/>point</i><par n="house__n"/></e>
+      <e lm="point of no return" a="eleka"><i>point</i><par n="house__n"/>      <p>        <l><b/>of<b/>no<b/>return</l><r><g><b/>of<b/>no<b/>return</g></r></p></e>
+      <e lm="starting point" a="eleka"><i>starting<b/>point</i><par n="house__n"/></e>
+      <e lm="penalty spot" a="eleka"><i>penalty<b/>spot</i><par n="house__n"/></e>
+      <e lm="point of reference" a="eleka"><i>point</i><par n="house__n"/>      <p>        <l><b/>of<b/>reference</l><r><g><b/>of<b/>reference</g></r></p></e>
+      <e lm="taxi stand" a="eleka"><i>taxi<b/>stand</i><par n="house__n"/></e>
+      <e lm="cab rank" a="eleka"><i>cab<b/>rank</i><par n="house__n"/></e>
+      <e lm="weak point" a="eleka"><i>weak<b/>point</i><par n="house__n"/></e>
+      <e lm="weak spot" a="eleka"><i>weak<b/>spot</i><par n="house__n"/></e>
+      <e lm="be deadlocked" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>deadlocked</l><r><g><b/>deadlocked</g></r></p></e>
+      <e lm="deadlock" a="eleka"><i>deadlock</i><par n="house__n"/></e>
+      <e lm="key point" a="eleka"><i>key<b/>point</i><par n="house__n"/></e>
+      <e lm="dead centre" a="eleka"><i>dead<b/>centre</i><par n="house__n"/></e>
+      <e lm="be ready" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>ready</l><r><g><b/>ready</g></r></p></e>
+      <e lm="come just at the right moment" a="eleka"><i>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>just<b/>at<b/>the<b/>right<b/>moment</l><r><g><b/>just<b/>at<b/>the<b/>right<b/>moment</g></r></p></e>
+      <e lm="tune" a="eleka"><i>tun</i><par n="liv/e__vblex"/></e>
+      <e lm="fall off" a="eleka"><i>f</i><par n="f/all__vblex"/>      <p>        <l><b/>off</l><r><g><b/>off</g></r></p></e>
+      <e lm="fall away" a="eleka"><i>f</i><par n="f/all__vblex"/>      <p>        <l><b/>away</l><r><g><b/>away</g></r></p></e>
+      <e lm="caramelized" a="eleka"><i>caramelized</i><par n="expensive__adj"/></e>
+      <e lm="in good condition" a="eleka"><i>in<b/>good<b/>condition</i><par n="expensive__adj"/></e>
+      <e lm="on the dot" a="eleka"><i>on<b/>the<b/>dot</i><par n="expensive__adj"/></e>
+      <e lm="be about to do" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>about<b/>to<b/>do</l><r><g><b/>about<b/>to<b/>do</g></r></p></e>
+      <e lm="be about to go" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>about<b/>to<b/>go</l><r><g><b/>about<b/>to<b/>go</g></r></p></e>
+      <e lm="be about to" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>about<b/>to</l><r><g><b/>about<b/>to</g></r></p></e>
+      <e lm="arrive right on time" a="eleka"><i>arriv</i><par n="liv/e__vblex"/>      <p>        <l><b/>right<b/>on<b/>time</l><r><g><b/>right<b/>on<b/>time</g></r></p></e>
+      <e lm="store in a cool dry place" a="eleka"><i>stor</i><par n="liv/e__vblex"/>      <p>        <l><b/>in<b/>a<b/>cool<b/>dry<b/>place</l><r><g><b/>in<b/>a<b/>cool<b/>dry<b/>place</g></r></p></e>
+
+      <e lm="keep out of the reach of children" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>out<b/>of<b/>the<b/>reach<b/>of<b/>children</l><r><g><b/>out<b/>of<b/>the<b/>reach<b/>of<b/>children</g></r></p></e>
+
+      <e lm="keep hot" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>hot</l><r><g><b/>hot</g></r></p></e>
+      <e lm="keep balanced" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>balanced</l><r><g><b/>balanced</g></r></p></e>
+      <e lm="keep a secret" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>a<b/>secret</l><r><g><b/>a<b/>secret</g></r></p></e>
+      <e lm="keep the peace" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>the<b/>peace</l><r><g><b/>the<b/>peace</g></r></p></e>
+      <e lm="keep a distance" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>a<b/>distance</l><r><g><b/>a<b/>distance</g></r></p></e>
+      <e lm="keep in shape" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>in<b/>shape</l><r><g><b/>in<b/>shape</g></r></p></e>
+      <e lm="keep the peace" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>the<b/>peace</l><r><g><b/>the<b/>peace</g></r></p></e>
+      <e lm="keep a safe distance" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>a<b/>safe<b/>distance</l><r><g><b/>a<b/>safe<b/>distance</g></r></p></e>
+      <e lm="keep the fire going" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>the<b/>fire<b/>going</l><r><g><b/>the<b/>fire<b/>going</g></r></p></e>
+      <e lm="keep to the right" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>to<b/>the<b/>right</l><r><g><b/>to<b/>the<b/>right</g></r></p></e>
+      <e lm="keep to the left" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>to<b/>the<b/>left</l><r><g><b/>to<b/>the<b/>left</g></r></p></e>
+      <e lm="keep fit" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>fit</l><r><g><b/>fit</g></r></p></e>
+      <e lm="live on" a="eleka"><i>liv</i><par n="liv/e__vblex"/>      <p>        <l><b/>on</l><r><g><b/>on</g></r></p></e>
+      <e lm="keep in shape" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>in<b/>shape</l><r><g><b/>in<b/>shape</g></r></p></e>
+      <e lm="keep up to date" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>up<b/>to<b/>date</l><r><g><b/>up<b/>to<b/>date</g></r></p></e>
+      <e lm="keep in touch" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>in<b/>touch</l><r><g><b/>in<b/>touch</g></r></p></e>
+      <e lm="maintain a balance" a="eleka"><i>maintain</i><par n="accept__vblex"/>      <p>        <l><b/>a<b/>balance</l><r><g><b/>a<b/>balance</g></r></p></e>
+      <e lm="remain in existence" a="eleka"><i>remain</i><par n="accept__vblex"/>      <p>        <l><b/>in<b/>existence</l><r><g><b/>in<b/>existence</g></r></p></e>
+      <e lm="remain in force" a="eleka"><i>remain</i><par n="accept__vblex"/>      <p>        <l><b/>in<b/>force</l><r><g><b/>in<b/>force</g></r></p></e>
+      <e lm="maintain a family" a="eleka"><i>maintain</i><par n="accept__vblex"/>      <p>        <l><b/>a<b/>family</l><r><g><b/>a<b/>family</g></r></p></e>
+      <e lm="maintain the opposite" a="eleka"><i>maintain</i><par n="accept__vblex"/>      <p>        <l><b/>the<b/>opposite</l><r><g><b/>the<b/>opposite</g></r></p></e>
+       <e lm="hold a conversation" a="eleka"><i>h</i><par n="h/old__vblex"/>      <p>        <l><b/>a<b/>conversation</l><r><g><b/>a<b/>conversation</g></r></p></e>
+       <e lm="stand up" a="eleka"><i>st</i><par n="st/and__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+       <e lm="remain stable" a="eleka"><i>remain</i><par n="accept__vblex"/>      <p>        <l><b/>stable</l><r><g><b/>stable</g></r></p></e>
+       <e lm="remain awake" a="eleka"><i>remain</i><par n="accept__vblex"/>      <p>        <l><b/>awake</l><r><g><b/>awake</g></r></p></e>
+       <e lm="correspond with" a="eleka"><i>correspond</i><par n="accept__vblex"/>      <p>        <l><b/>with</l><r><g><b/>with</g></r></p></e>
+       <e lm="have sexual relations" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>sexual<b/>relations</l><r><g><b/>sexual<b/>relations</g></r></p></e>
+      <e lm="be just right" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>just<b/>right</l><r><g><b/>just<b/>right</g></r></p></e>
+      <e lm="be supported by" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>supported<b/>by</l><r><g><b/>supported<b/>by</g></r></p></e>
+      <e lm="be in perfect condition" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>in<b/>perfect<b/>condition</l><r><g><b/>in<b/>perfect<b/>condition</g></r></p></e>
+      <e lm="up to a point" a="eleka"><i>up<b/>to<b/>a<b/>point</i><par n="maybe__adv"/></e>
+      <e lm="to such an extent" a="eleka"><i>to<b/>such<b/>an<b/>extent</i><par n="maybe__adv"/></e>
+      <e lm="break-point" a="eleka"><i>break-point</i><par n="house__n"/></e>
+      <e lm="on sale" a="eleka"><i>on<b/>sale</i><par n="expensive__adj"/></e>
+      <e lm="go on sale" a="eleka"><i></i><par n="/go__vblex"/>      <p>        <l><b/>on<b/>sale</l><r><g><b/>on<b/>sale</g></r></p></e>
+      <e lm="be on sale" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>on<b/>sale</l><r><g><b/>on<b/>sale</g></r></p></e>
+      <e lm="put up for sale" a="eleka"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>up<b/>for<b/>sale</l><r><g><b/>up<b/>for<b/>sale</g></r></p></e>
+      <e lm="put in order" a="eleka"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>in<b/>order</l><r><g><b/>in<b/>order</g></r></p></e>
+      <e lm="be up for sale" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>up<b/>for<b/>sale</l><r><g><b/>up<b/>for<b/>sale</g></r></p></e>
+      <e lm="be on the market" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>on<b/>the<b/>market</l><r><g><b/>on<b/>the<b/>market</g></r></p></e>
+      <e lm="door-to-door selling" a="eleka"><i>door-to-door<b/>selling</i><par n="house__n"/></e>
+      <e lm="cash sale" a="eleka"><i>cash<b/>sale</i><par n="house__n"/></e>
+      <e lm="retail" a="eleka"><i>retail</i><par n="house__n"/></e>
+      <e lm="wholesail" a="eleka"><i>wholesail</i><par n="house__n"/></e>
+      <e lm="hire purchase" a="eleka"><i>hire<b/>purchase</i><par n="house__n"/></e>
+      <e lm="installment plan" a="eleka"><i>installment<b/>plan</i><par n="house__n"/></e>
+      <e lm="peddling" a="eleka"><i>peddling</i><par n="house__n"/></e>
+      <e lm="hawking" a="eleka"><i>hawking</i><par n="house__n"/></e>
+      <e lm="garage sale" a="eleka"><i>garage<b/>sale</i><par n="house__n"/></e>
+      <e lm="clearance sale" a="eleka"><i>clearance<b/>sale</i><par n="house__n"/></e>
+      <e lm="direct selling" a="eleka"><i>direct<b/>selling</i><par n="house__n"/></e>
+      <e lm="pyramid selling" a="eleka"><i>pyramid<b/>selling</i><par n="house__n"/></e>
+      <e lm="stocktaking sale" a="eleka"><i>stocktaking<b/>sale</i><par n="house__n"/></e>
+      <e lm="mail-order selling" a="eleka"><i>mail-order<b/>selling</i><par n="house__n"/></e>
+      <e lm="inertia selling" a="eleka"><i>inertia<b/>selling</i><par n="house__n"/></e>
+      <e lm="stocktaking sale" a="eleka"><i>stocktaking<b/>sale</i><par n="house__n"/></e>
+      <e lm="public sale" a="eleka"><i>public<b/>sale</i><par n="house__n"/></e>
+      <e lm="auction" a="eleka"><i>auction</i><par n="house__n"/></e>
+      <e lm="forward sale" a="eleka"><i>forward<b/>sale</i><par n="house__n"/></e>
+      <e lm="gross sale" a="eleka"><i>gross<b/>sale</i><par n="house__n"/></e>
+      <e lm="export sale" a="eleka"><i>export<b/>sale</i><par n="house__n"/></e>
+      <e lm="telephone sale" a="eleka"><i>telephone<b/>sale</i><par n="house__n"/></e>
+      <e lm="social order" a="eleka"><i>social<b/>order</i><par n="house__n"/></e>
+      <e lm="alphabetical order" a="eleka"><i>alphabetical<b/>order</i><par n="house__n"/></e>
+      <e lm="protective order" a="eleka"><i>protective<b/>order</i><par n="house__n"/></e>
+      <e lm="order of arrival" a="eleka"><i>order</i><par n="house__n"/>      <p>        <l><b/>of<b/>arrival</l><r><g><b/>of<b/>arrival</g></r></p></e>
+      <e lm="in order of seniority"><i>in<b/>order<b/>of<b/>seniority</i><par n="maybe__adv"/>    </e>
+      <e lm="in chronological order"><i>in<b/>chronological<b/>order</i><par n="maybe__adv"/>    </e>
+      <e lm="in order of importance"><i>in<b/>order<b/>of<b/>importance</i><par n="maybe__adv"/>    </e>
+      <e lm="sort out" a="eleka"><i>sort</i><par n="accept__vblex"/>      <p>        <l><b/>out</l><r><g><b/>out</g></r></p></e>
+      <e lm="in battle order"><i>in<b/>battle<b/>order</i><par n="maybe__adv"/>    </e>
+      <e lm="natural order" a="eleka"><i>natural<b/>order</i><par n="house__n"/></e>
+      <e lm="order of succession" a="eleka"><i>order</i><par n="house__n"/>      <p>        <l><b/>of<b/>succession</l><r><g><b/>of<b/>succession</g></r></p></e>
+      <e lm="force of law and order" a="eleka"><i>force</i><par n="house__n"/>      <p>        <l><b/>of<b/>law<b/>and<b/>order</l><r><g><b/>of<b/>law<b/>and<b/>order</g></r></p></e>
+      <e lm="established order" a="eleka"><i>established<b/>order</i><par n="house__n"/></e>
+      <e lm="call to order" a="eleka"><i>call</i><par n="accept__vblex"/>      <p>        <l><b/>to<b/>order</l><r><g><b/>to<b/>order</g></r></p></e>
+      <e lm="keep order" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>order</l><r><g><b/>order</g></r></p></e>
+      <e lm="reestablish order" a="eleka"><i>reestablish</i><par n="approach__vblex"/>      <p>        <l><b/>order</l><r><g><b/>order</g></r></p></e>
+      <e lm="restore order" a="eleka"><i>restor</i><par n="liv/e__vblex"/>      <p>        <l><b/>order</l><r><g><b/>order</g></r></p></e>
+      <e lm="reestablish" a="eleka"><i>reestablish</i><par n="approach__vblex"/></e>
+      <e lm="public order" a="eleka"><i>public<b/>order</i><par n="house__n"/></e>
+      <e lm="law and order" a="eleka"><i>law<b/>and<b/>order</i><par n="house__n"/></e>
+      <e lm="moral reason" a="eleka"><i>moral<b/>reason</i><par n="house__n"/></e>
+      <e lm="of prime importance"><i>of<b/>prime<b/>importance</i><par n="maybe__adv"/>    </e>
+      <e lm="leading political figure" a="eleka"><i>leading<b/>political<b/>figure</i><par n="house__n"/></e>
+      <e lm="first-rate thinker" a="eleka"><i>first-rate<b/>thinker</i><par n="house__n"/></e>
+      <e lm="major problem" a="eleka"><i>major<b/>problem</i><par n="house__n"/></e>
+      <e lm="on all fronts"><i>on<b/>all<b/>fronts</i><par n="maybe__adv"/>    </e>
+      <e lm="in the order of"><i>in<b/>the<b/>order<b/>of</i><par n="at__pr"/>    </e>
+      <e lm="in the region of"><i>in<b/>the<b/>region<b/>of</i><par n="at__pr"/>    </e>
+      <e lm="be under orders" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>under<b/>orders</l><r><g><b/>under<b/>orders</g></r></p></e>
+      <e lm="give an order" a="eleka"><i>g</i><par n="g/ive__vblex"/>      <p>        <l><b/>an<b/>order</l><r><g><b/>an<b/>order</g></r></p></e>
+      <e lm="by order of"><i>by<b/>order<b/>of</i><par n="at__pr"/>    </e>
+      <e lm="become the norm" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>the<b/>norm</l><r><g><b/>the<b/>norm</g></r></p></e>
+      <e lm="arrest warrant" a="eleka"><i>arrest<b/>warrant</i><par n="house__n"/></e>
+      <e lm="eviction order" a="eleka"><i>eviction<b/>order</i><par n="house__n"/></e>
+      <e lm="order of the day" a="eleka"><i>order</i><par n="house__n"/>      <p>        <l><b/>of<b/>the<b/>day</l><r><g><b/>of<b/>the<b/>day</g></r></p></e>
+      <e lm="search warrant" a="eleka"><i>search<b/>warrant</i><par n="house__n"/></e>
+      <e lm="court order" a="eleka"><i>court<b/>order</i><par n="house__n"/></e>
+      <e lm="ministerial order" a="eleka"><i>ministerial<b/>order</i><par n="house__n"/></e>
+      <e lm="ministerial decree" a="eleka"><i>ministerial<b/>decree</i><par n="house__n"/></e>
+      <e lm="banker's order" a="eleka"><i>banker's<b/>order</i><par n="house__n"/></e>
+      <e lm="purchase order" a="eleka"><i>purchase<b/>order</i><par n="house__n"/></e>
+      <e lm="money order" a="eleka"><i>money<b/>order</i><par n="house__n"/></e>
+      <e lm="in order of arrival" a="eleka"><i>in<b/>order<b/>of<b/>arrival</i><par n="maybe__adv"/>    </e>
+      <e lm="state of the nation" a="eleka"><i>state</i><par n="house__n"/>      <p>        <l><b/>of<b/>the<b/>nation</l><r><g><b/>of<b/>the<b/>nation</g></r></p></e>
+      <e lm="debate on the state of the nation" a="eleka"><i>debate</i><par n="house__n"/>      <p>        <l><b/>on<b/>the<b/>state<b/>of<b/>the<b/>nation</l><r><g><b/>on<b/>the<b/>state<b/>of<b/>the<b/>nation</g></r></p></e>
+      <e lm="innkeeper" a="eleka"><i>innkeeper</i><par n="house__n"/></e>
+      <e lm="hotel and catering industry" a="eleka"><i>hotel<b/>and<b/>catering<b/>industr</i><par n="bab/y__n"/></e>
+      <e lm="ministry responsible for public works" a="eleka"><i>ministr</i><par n="bab/y__n"/>      <p>        <l><b/>responsible<b/>for<b/>public<b/>works</l><r><g><b/>responsible<b/>for<b/>public<b/>works</g></r></p></e>
+      <e lm="registration date" a="eleka"><i>registration<b/>date</i><par n="house__n"/></e>
+      <e lm="proof of enrollment" a="eleka"><i>proof</i><par n="house__n"/>      <p>        <l><b/>of<b/>enrollment</l><r><g><b/>of<b/>enrollment</g></r></p></e>
+      <e lm="certified copy" a="eleka"><i>certified<b/>cop</i><par n="bab/y__n"/></e>
+      <e lm="car registration" a="eleka"><i>car<b/>registration</i><par n="house__n"/></e>
+      <e lm="tax free registration" a="eleka"><i>tax<b/>free<b/>registration</i><par n="house__n"/></e>
+      <e lm="tuition fee" a="eleka"><i>tuition<b/>fee</i><par n="house__n"/></e>
+      <e lm="university fee" a="eleka"><i>university<b/>fee</i><par n="house__n"/></e>
+      <e lm="private tuition" a="eleka"><i>private<b/>tuition</i><par n="house__n"/></e>
+      <e lm="private lesson" a="eleka"><i>private<b/>lesson</i><par n="house__n"/></e>
+      <e lm="nothing special" a="eleka"><i>nothing<b/>special</i><par n="maybe__adv"/></e>
+      <e lm="be nothing special" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>nothing<b/>special</l><r><g><b/>nothing<b/>special</g></r></p></e>
+      <e lm="be remarkable" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>remarkable</l><r><g><b/>remarkable</g></r></p></e>
+       <e lm="in this particular case" a="eleka"><i>in<b/>this<b/>particular<b/>case</i><par n="maybe__adv"/></e>
+       <e lm="have a flavour on its own" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>flavour<b/>on<b/>its<b/>own</l><r><g><b/>a<b/>flavour<b/>on<b/>its<b/>own</g></r></p></e>
+       <e lm="most importantly" a="eleka"><i>most<b/>importantly</i><par n="maybe__adv"/></e>
+       <e lm="private home" a="eleka"><i>private<b/>home</i><par n="house__n"/></e>
+       <e lm="about this matter" a="eleka"><i>about<b/>this<b/>matter</i><par n="after__cnjadv"/></e>
+       <e lm="with nothing further to add" a="eleka"><i>with<b/>nothing<b/>further<b/>to<b/>add</i><par n="after__cnjadv"/></e>
+       <e lm="without further ado" a="eleka"><i>without<b/>further<b/>ado</i><par n="after__cnjadv"/></e>
+       
+       <e lm="in this regard" a="eleka"><i>in<b/>this<b/>regard</i><par n="after__cnjadv"/></e>
+       <e lm="as a private individual" a="eleka"><i>as<b/>a<b/>private<b/>individual</i><par n="after__cnjadv"/></e>
+       <e lm="private prosecution" a="eleka"><i>private<b/>prosecution</i><par n="house__n"/></e>
+       <e lm="particular use" a="eleka"><i>particular<b/>use</i><par n="house__n"/></e>
+       <e lm="individual client" a="eleka"><i>individual<b/>client</i><par n="house__n"/></e>
+       <e lm="commercial client" a="eleka"><i>commercial<b/>client</i><par n="house__n"/></e>
+       <e lm="residential client" a="eleka"><i>residential<b/>client</i><par n="house__n"/></e>
+       <e lm="private car" a="eleka"><i>private<b/>car</i><par n="house__n"/></e>
+       <e lm="private school" a="eleka"><i>private<b/>school</i><par n="house__n"/></e>
+       <e lm="from generals to specifics" a="eleka"><i>from<b/>generals<b/>to<b/>specifics</i><par n="after__cnjadv"/></e>
+       <e lm="from specifics to generals" a="eleka"><i>from<b/>specifics<b/>to<b/>generals</i><par n="after__cnjadv"/></e>
+        <e lm="home address" a="eleka"><i>home<b/>address</i><par n="access__n"/></e>
+	<e lm="private organization" a="eleka"><i>private<b/>organization</i><par n="house__n"/></e>
+	<e lm="particular area" a="eleka"><i>particular<b/>area</i><par n="house__n"/></e>
+	<e lm="private doctor" a="eleka"><i>private<b/>doctor</i><par n="house__n"/></e>
+	<e lm="nothing in particular" a="eleka"><i>nothing<b/>in<b/>particular</i><par n="after__cnjadv"/></e>
+	<e lm="particular attention" a="eleka"><i>particular<b/>attention</i><par n="house__n"/></e>
+	<e lm="of particular use" a="eleka"><i>of<b/>particular<b/>use</i><par n="expensive__adj"/></e>
+	<e lm="private patient" a="eleka"><i>private<b/>patient</i><par n="house__n"/></e>
+	<e lm="particular final cost objective" a="eleka"><i>particular<b/>final<b/>cost<b/>objective</i><par n="house__n"/></e>
+	<e lm="particular focus" a="eleka"><i>particular<b/>focus</i><par n="house__n"/></e>
+	<e lm="particular importance" a="eleka"><i>particular<b/>importance</i><par n="house__n"/></e>
+	<e lm="have particular importance"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>particular<b/>importance</l><r><g><b/>particular<b/>importance</g></r></p></e>
+	<e lm="individual lesson" a="eleka"><i>individual<b/>lesson</i><par n="house__n"/></e>
+	<e lm="particular market" a="eleka"><i>particular<b/>market</i><par n="house__n"/></e>
+	<e lm="particular reason" a="eleka"><i>particular<b/>reason</i><par n="house__n"/></e>
+	<e lm="owner's apartment" a="eleka"><i>owner's<b/>apartment</i><par n="house__n"/></e>
+	<e lm="private teacher" a="eleka"><i>private<b/>teacher</i><par n="house__n"/></e>
+	<e lm="private citizen" a="eleka"><i>private<b/>citizen</i><par n="house__n"/></e>
+	<e lm="particular interest" a="eleka"><i>particular<b/>interest</i><par n="house__n"/></e>
+	<e lm="particular injured interest" a="eleka"><i>particular<b/>injured<b/>interest</i><par n="house__n"/></e>
+	<e lm="private secretary" a="eleka"><i>private<b/>secretar</i><par n="bab/y__n"/></e>
+	<e lm="regarding this matter" a="eleka"><i>regarding<b/>this<b/>matter</i><par n="maybe__adv"/></e>
+	<e lm="particular measure" a="eleka"><i>particular<b/>measure</i><par n="house__n"/></e>
+	<e lm="particular requirement" a="eleka"><i>particular<b/>requirement</i><par n="house__n"/></e>
+	<e lm="particular enthusiasm" a="eleka"><i>particular<b/>enthusiasm</i><par n="house__n"/></e>
+	<e lm="particular character" a="eleka"><i>particular<b/>character</i><par n="house__n"/></e>
+	<e lm="particular vote" a="eleka"><i>particular<b/>vote</i><par n="house__n"/></e>
+	<e lm="particular request" a="eleka"><i>particular<b/>request</i><par n="house__n"/></e>
+	<e lm="with particular attention to" a="eleka"><i>with<b/>particular<b/>attention<b/>to</i><par n="after__cnjadv"/>    </e>
+	<e lm="with particular reference to" a="eleka"><i>with<b/>particular<b/>reference<b/>to</i><par n="after__cnjadv"/>    </e>
+	<e lm="on his own two feet" a="eleka"><i>on<b/>his<b/>own<b/>two<b/>feet</i><par n="after__cnjadv"/>    </e>
+	<e lm="see it with my own eyes" a="eleka"><i>s</i><par n="s/ee__vblex"/>      <p>        <l><b/>it<b/>with<b/>my<b/>own<b/>eyes</l><r><g><b/>it<b/>with<b/>my<b/>own<b/>eyes</g></r></p></e>
+	<e lm="under my very nose" a="eleka"><i>under<b/>my<b/>very<b/>nose</i><par n="after__cnjadv"/>    </e>
+	<e lm="home help" a="eleka"><i>home<b/>help</i><par n="house__n"/></e>
+	<e lm="purchasing aid" a="eleka"><i>purchasing<b/>aid</i><par n="house__n"/></e>
+	<e lm="navigational aid" a="eleka"><i>navigational<b/>aid</i><par n="house__n"/></e>
+	<e lm="income support" a="eleka"><i>income<b/>support</i><par n="house__n"/></e>
+	<e lm="economic aid" a="eleka"><i>economic<b/>aid</i><par n="house__n"/></e>
+	<e lm="humanitarian aid" a="eleka"><i>humanitarian<b/>aid</i><par n="house__n"/></e>
+	<e lm="visual aid" a="eleka"><i>visual<b/>aid</i><par n="house__n"/></e>
+	<e lm="audiovisual aid" a="eleka"><i>audiovisual<b/>aid</i><par n="house__n"/></e>
+	<e lm="family allowance" a="eleka"><i>family<b/>allowance</i><par n="house__n"/></e>
+	<e lm="valet" a="eleka"><i>valet</i><par n="house__n"/></e>
+
+	<e lm="go to his aid" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>to<b/>his<b/>aid</l><r><g><b/>to<b/>his<b/>aid</g></r></p></e>
+	<e lm="incentive for investment" a="eleka"><i>incentive</i><par n="house__n"/>      <p>        <l><b/>for<b/>investment</l><r><g><b/>for<b/>investment</g></r></p></e>
+	<e lm="be a great help" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>a<b/>great<b/>help</l><r><g><b/>a<b/>great<b/>help</g></r></p></e>
+	<e lm="help to set the table" a="eleka"><i>help</i><par n="accept__vblex"/>      <p>        <l><b/>to<b/>set<b/>the<b/>table</l><r><g><b/>to<b/>set<b/>the<b/>table</g></r></p></e>
+	<e lm="do anything to help" a="eleka"><i>d</i><par n="d/o__vblex"/>      <p>        <l><b/>anything<b/>to<b/>help</l><r><g><b/>anything<b/>to<b/>help</g></r></p></e>
+	<e lm="the early bird catches the worm" a="eleka"><i>the<b/>early<b/>bird<b/>catches<b/>the<b/>worm</i><par n="after__cnjadv"/>    </e>
+	<e lm="but the early worm was eaten" a="eleka"><i>but<b/>the<b/>early<b/>worm<b/>was<b/>eaten</i><par n="after__cnjadv"/>    </e>
+	<e lm="spoil" a="eleka"><i>spoil</i><par n="spoil__vblex"/></e>
+	<e lm="squander a fortune" a="eleka"><i>squander</i><par n="accept__vblex"/>      <p>        <l><b/>a<b/>fortune</l><r><g><b/>a<b/>fortune</g></r></p></e>
+	<e lm="squander" a="eleka"><i>squander</i><par n="accept__vblex"/></e>
+	<e lm="ruin plans" a="eleka"><i>ruin</i><par n="accept__vblex"/>      <p>        <l><b/>plans</l><r><g><b/>plans</g></r></p></e>
+	<e lm="fall through" a="eleka"><i>f</i><par n="f/all__vblex"/>      <p>        <l><b/>through</l><r><g><b/>through</g></r></p></e>
+	<e lm="car" a="eleka"><i>car</i><par n="expensive__adj"/></e>
+	<e lm="car accident" a="eleka"><i>car<b/>accident</i><par n="house__n"/></e>
+	<e lm="car industry" a="eleka"><i>car<b/>industr</i><par n="bab/y__n"/></e>
+	<e lm="car sector" a="eleka"><i>car<b/>sector</i><par n="house__n"/></e>
+	<e lm="private sector" a="eleka"><i>private<b/>sector</i><par n="house__n"/></e>
+	<e lm="public sector" a="eleka"><i>public<b/>sector</i><par n="house__n"/></e>
+	<e lm="tertiary sector" a="eleka"><i>tertiary<b/>sector</i><par n="house__n"/></e>
+	<e lm="service sector" a="eleka"><i>service<b/>sector</i><par n="house__n"/></e>
+	<e lm="service industries" a="eleka"><i>service<b/>industries</i><par n="personnel__n"/></e>
+	<e lm="industrial state" a="eleka"><i>industrial<b/>state</i><par n="house__n"/></e>
+	<e lm="association of manufacturers" a="eleka"><i>association</i><par n="house__n"/>      <p>        <l><b/>of<b/>manufacturers</l><r><g><b/>of<b/>manufacturers</g></r></p></e>
+	<e lm="registration of cars" a="eleka"><i>registration</i><par n="house__n"/>      <p>        <l><b/>of<b/>cars</l><r><g><b/>of<b/>cars</g></r></p></e>
+	<e lm="immersed" a="eleka"><i>immersed</i><par n="expensive__adj"/>    </e>
+	<e lm="circumstantial" a="eleka"><i>circumstantial</i><par n="expensive__adj"/>    </e>
+	<e lm="relevant data" a="eleka"><i>relevant<b/>data</i><par n="house__n"/></e>
+	<e lm="relevant measure" a="eleka"><i>relevant<b/>measure</i><par n="house__n"/></e>
+	<e lm="interim solution" a="eleka"><i>interim<b/>solution</i><par n="house__n"/></e>
+	<e lm="contextual situation" a="eleka"><i>contextual<b/>situation</i><par n="house__n"/></e>
+	<e lm="contemporary theatre" a="eleka"><i>contemporary<b/>theatre</i><par n="house__n"/></e>
+	<e lm="theory of contextual economics" a="eleka"><i>theor</i><par n="bab/y__n"/>      <p>        <l><b/>of<b/>contextual<b/>economics</l><r><g><b/>of<b/>contextual<b/>economics</g></r></p></e>
+	<e lm="incentive program" a="eleka"><i>incentive<b/>program</i><par n="house__n"/></e>
+	<e lm="voluntary redundancy" a="eleka"><i>voluntary<b/>redundanc</i><par n="bab/y__n"/></e>
+	<e lm="tax incentive" a="eleka"><i>tax<b/>incentive</i><par n="house__n"/></e>
+	<e lm="incentive plan" a="eleka"><i>incentive<b/>plan</i><par n="house__n"/></e>
+	<e lm="individual incentive plan" a="eleka"><i>individual<b/>incentive<b/>plan</i><par n="house__n"/></e>
+	<e lm="exhaustion" a="eleka"><i>exhaustion</i><par n="house__n"/></e>
+	<e lm="purchase incentive" a="eleka"><i>purchase<b/>incentive</i><par n="house__n"/></e>
+	<e lm="export incentive" a="eleka"><i>export<b/>incentive</i><par n="house__n"/></e>
+	<e lm="incentive trip" a="eleka"><i>incentive<b/>trip</i><par n="house__n"/></e>
+	<e lm="nervous strain" a="eleka"><i>nervous<b/>strain</i><par n="house__n"/></e>
+	<e lm="heat exhaustion" a="eleka"><i>heat<b/>exhaustion</i><par n="house__n"/></e>
+	<e lm="ozone depletion" a="eleka"><i>ozone<b/>depletion</i><par n="house__n"/></e>
+	<e lm="stratospheric ozone depletion" a="eleka"><i>stratospheric<b/>ozone<b/>depletion</i><par n="house__n"/></e>
+	<e lm="SOD" a="eleka"><i>SOD</i><par n="BBC__n"/>    </e>
+	<e lm="credit expiration" a="eleka"><i>credit<b/>expiration</i><par n="house__n"/></e>
+	<e lm="provident fund" a="eleka"><i>provident<b/>fund</i><par n="house__n"/></e>
+	<e lm="put up the price of" a="eleka"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>up<b/>the<b/>price<b/>of</l><r><g><b/>up<b/>the<b/>price<b/>of</g></r></p></e>
+	<e lm="registered car" a="eleka"><i>registered<b/>car</i><par n="house__n"/></e>
+	<e lm="keep on being" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>on<b/>being</l><r><g><b/>on<b/>being</g></r></p></e>
+	<e lm="see again" a="eleka"><i>s</i><par n="s/ee__vblex"/>      <p>        <l><b/>again</l><r><g><b/>again</g></r></p></e>
+	<e lm="extention" a="eleka"><i>extention</i><par n="house__n"/></e>
+	<e lm="extension of the plan" a="eleka"><i>extension</i><par n="house__n"/>      <p>        <l><b/>of<b/>the<b/>plan</l><r><g><b/>of<b/>the<b/>plan</g></r></p></e>
+	<e lm="minister of industry" a="eleka"><i>minister</i><par n="house__n"/>      <p>        <l><b/>of<b/>industry</l><r><g><b/>of<b/>industry</g></r></p></e>
+	<e lm="economic recovery" a="eleka"><i>economic<b/>recovery</i><par n="house__n"/></e>
+	<e lm="be in force">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>in<b/>force</l><r><g><b/>in<b/>force</g></r></p></e>
+	<e lm="rush forward" a="eleka"><i>rush</i><par n="approach__vblex"/>      <p>        <l><b/>forward</l><r><g><b/>forward</g></r></p></e>
+	<e lm="smash into" a="eleka"><i>smash</i><par n="approach__vblex"/>      <p>        <l><b/>into</l><r><g><b/>into</g></r></p></e>
+	<e lm="be far from">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>far<b/>from</l><r><g><b/>far<b/>from</g></r></p></e>
+	<e lm="thump" a="eleka"><i>thump</i><par n="house__n"/></e>
+	<e lm="be in the history">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>in<b/>the<b/>history</l><r><g><b/>in<b/>the<b/>history</g></r></p></e>
+	<e lm="annus horribilis" a="eleka"><i>annus<b/>horribilis</i><par n="politics__n"/></e>
+	<e lm="full stop" a="eleka"><i>full<b/>stop</i><par n="house__n"/></e>
+	<e lm="put an end" a="eleka"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>an<b/>end</l><r><g><b/>an<b/>end</g></r></p></e>
+	<e lm="golden age" a="eleka"><i>golden<b/>age</i><par n="house__n"/></e>
+	<e lm="colour slide" a="eleka"><i>colour<b/>slide</i><par n="house__n"/></e>
+	<e lm="color slide" a="eleka"><i>color<b/>slide</i><par n="house__n"/></e>
+	<e lm="Spanish American" a="eleka"><i>Spanish<b/>American</i><par n="house__n"/></e>
+	<e lm="Hispanic American" a="eleka"><i>Hispanic<b/>American</i><par n="house__n"/></e>
+	<e lm="Latin American" a="eleka"><i>Latin<b/>American</i><par n="house__n"/></e>
+	<e lm="have more than enough" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>more<b/>than<b/>enough</l><r><g><b/>more<b/>than<b/>enough</g></r></p></e>
+	<e lm="run over" a="eleka"><i>r</i><par n="r/un__vblex"/>      <p>        <l><b/>over</l><r><g><b/>over</g></r></p></e>
+	<e lm="fleamarket in Madrid" a="eleka"><i>fleamarket</i><par n="house__n"/>      <p>        <l><b/>in<b/>Madrid</l><r><g><b/>in<b/>Madrid</g></r></p></e>
+	<e lm="events organiser" a="eleka"><i>events<b/>organiser</i><par n="house__n"/></e>
+	<e lm="entertainment manager" a="eleka"><i>entertainment<b/>manager</i><par n="house__n"/></e>
+	<e lm="tourist coordinator" a="eleka"><i>tourist<b/>coordinator</i><par n="house__n"/></e>
+	<e lm="bullfighting" a="eleka"><i>bullfighting</i><par n="expensive__adj"/></e>
+	<e lm="bullfighting business" a="eleka"><i>bullfighting<b/>business</i><par n="access__n"/></e>
+	<e lm="bullfighting magazine" a="eleka"><i>bullfighting<b/>magazine</i><par n="house__n"/></e>
+	<e lm="bullfighting amateur" a="eleka"><i>bullfighting<b/>amateur</i><par n="house__n"/></e>
+	<e lm="abolitionist" a="eleka"><i>abolitionist</i><par n="house__n"/></e>
+	<e lm="unpresentable" a="eleka"><i>unpresentable</i><par n="expensive__adj"/></e>
+	<e lm="consultancy" a="eleka"><i>consultancy</i><par n="house__n"/></e>
+	<e lm="legal advice" a="eleka"><i>legal<b/>advice</i><par n="house__n"/></e>
+	<e lm="technical consultancy" a="eleka"><i>technical<b/>consultancy</i><par n="house__n"/></e>
+	<e lm="bull's horn" a="eleka"><i>bull's<b/>horn</i><par n="house__n"/></e>
+	<e lm="bull" a="eleka"><i>bull</i><par n="house__n"/></e>
+	<e lm="bullfighting world" a="eleka"><i>bullfighting<b/>world</i><par n="house__n"/></e>
+	<e lm="gossip shop" a="eleka"><i>gossip<b/>shop</i><par n="house__n"/></e>
+	<e lm="own eye" a="eleka"><i>own<b/>eye</i><par n="house__n"/></e>
+	<e lm="follow suit" a="eleka"><i>follow</i><par n="accept__vblex"/>      <p>        <l><b/>suit</l><r><g><b/>suit</g></r></p></e>
+	<e lm="at the same time"><i>at<b/>the<b/>same<b/>time</i><par n="after__cnjadv"/>    </e>
+	<e lm="self-defense" a="eleka"><i>self-defense</i><par n="house__n"/></e>
+	<e lm="for myself" a="eleka"><i>for<b/>myself</i><par n="after__cnjadv"/>    </e>
+	<e lm="typical of" a="eleka"><i>typical<b/>of</i><par n="at__pr"/>    </e>
+	<e lm="all of its own" a="eleka"><i>all<b/>of<b/>its<b/>own</i><par n="after__cnjadv"/>    </e>
+	<e lm="suitable for" a="eleka"><i>suitable<b/>for</i><par n="at__pr"/>    </e>
+	<e lm="in strict sense" a="eleka"><i>in<b/>strict<b/>sense</i><par n="maybe__adv"/>    </e>
+	<e lm="all and sundry" a="eleka"><i>all<b/>and<b/>sundry</i><par n="after__cnjadv"/>    </e>
+	<e lm="own good" a="eleka"><i>own<b/>good</i><par n="after__cnjadv"/>    </e>
+        <e lm="for its own gain" a="eleka"><i>for<b/>its<b/>own<b/>gain</i><par n="after__cnjadv"/>    </e>
+	<e lm="president himself" a="eleka"><i>president<b/>himself</i><par n="east__n"/>    </e>
+	<e lm="president herself" a="eleka"><i>president<b/>herself</i><par n="east__n"/>    </e>
+	<e lm="presidents themselves" a="eleka"><i>presidents<b/>themselves</i><par n="alms__n"/>    </e>
+	<e lm="person concerned" a="eleka"><i>person</i><par n="house__n"/>      <p>        <l><b/>concerned</l><r><g><b/>concerned</g></r></p></e>
+	<e lm="on its own name" a="eleka"><i>on<b/>its<b/>own<b/>name</i><par n="maybe__adv"/>    </e>
+	<e lm="own judgment and discretion" a="eleka"><p><l>own<b/>judgment<b/>and<b/>discretion</l><r>own<b/>judgment<b/>and<b/>discretion<s n="n"/><s n="sg"/></r></p></e>
+	<e lm="own judgment and discretion" a="eleka"><p><l>own<b/>judgments<b/>and<b/>discretions</l><r>own<b/>judgment<b/>and<b/>discretion<s n="n"/><s n="pl"/></r></p></e>
+	<e lm="as its own" a="eleka"><i>as<b/>its<b/>own</i><par n="maybe__adv"/>    </e>
+	<e lm="as their own" a="eleka"><i>as<b/>their<b/>own</i><par n="maybe__adv"/>    </e>
+	<e lm="describe as characteristic of" a="eleka"><i>describ</i><par n="liv/e__vblex"/>      <p>        <l><b/>as<b/>characteristic<b/>of</l><r><g><b/>as<b/>characteristic<b/>of</g></r></p></e>
+	<e lm="as its name suggests" a="eleka"><i>as<b/>its<b/>name<b/>suggests</i><par n="after__cnjadv"/>    </e>
+	<e lm="aid to navigation" a="eleka"><i>aid</i><par n="house__n"/>      <p>        <l><b/>to<b/>navigation</l><r><g><b/>to<b/>navigation</g></r></p></e>
+	<e lm="make love" a="eleka"><i>ma</i><par n="ma/ke__vblex"/>      <p>        <l><b/>love</l><r><g><b/>love</g></r></p></e>
+	<e lm="do the shopping" a="eleka"><i>d</i><par n="d/o__vblex"/>      <p>        <l><b/>the<b/>shopping</l><r><g><b/>the<b/>shopping</g></r></p></e>
+	<e lm="have to do the shopping" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>to<b/>do<b/>the<b/>shopping</l><r><g><b/>to<b/>do<b/>the<b/>shopping</g></r></p></e>
+	<e lm="go shopping" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>shopping</l><r><g><b/>shopping</g></r></p></e>
+	<e lm="proof of purchase" a="eleka"><i>proof</i><par n="house__n"/>      <p>        <l><b/>of<b/>purchase</l><r><g><b/>of<b/>purchase</g></r></p></e>
+	<e lm="buying on credit" a="eleka"><i>buying</i><par n="house__n"/>      <p>        <l><b/>on<b/>credit</l><r><g><b/>on<b/>credit</g></r></p></e>
+	<e lm="bulk buying" a="eleka"><i>bulk<b/>buying</i><par n="house__n"/>    </e>
+	<e lm="cash purchase" a="eleka"><i>cash<b/>purchase</i><par n="house__n"/>    </e>
+	<e lm="hire purchase" a="eleka"><i>hire<b/>purchase</i><par n="house__n"/>    </e>
+	<e lm="installment plan" a="eleka"><i>installment<b/>plan</i><par n="house__n"/>    </e>
+	<e lm="mail order" a="eleka"><i>mail<b/>order</i><par n="house__n"/>    </e>
+	<e lm="support buying" a="eleka"><i>support<b/>buying</i><par n="house__n"/>    </e>
+	<e lm="buying and selling" a="eleka"><i>buying<b/>and<b/>selling</i><par n="house__n"/>    </e>
+	<e lm="good buy" a="eleka"><i>good<b/>buy</i><par n="house__n"/>    </e>
+	<e lm="teleshopping" a="eleka"><i>teleshopping</i><par n="house__n"/>    </e>
+	<e lm="on hire purchase" a="eleka"><i>on<b/>hire<b/>purchase</i><par n="maybe__adv"/>    </e>
+	<e lm="agreement for the purchase" a="eleka"><i>agreement</i><par n="house__n"/>      <p>        <l><b/>for<b/>the<b/>purchase</l><r><g><b/>for<b/>the<b/>purchase</g></r></p></e>
+	<e lm="purchase and sale agreement" a="eleka"><i>purchase<b/>and<b/>sale<b/>agreement</i><par n="house__n"/>    </e>
+	<e lm="purchase order" a="eleka"><i>purchase<b/>order</i><par n="house__n"/>    </e>
+	<e lm="delivery note" a="eleka"><i>delivery<b/>note</i><par n="house__n"/>    </e>
+	<e lm="lease with purchase option" a="eleka"><i>lease</i><par n="house__n"/>      <p>        <l><b/>with<b/>purchase<b/>option</l><r><g><b/>with<b/>purchase<b/>option</g></r></p></e>
+	<e lm="shopping trolley" a="eleka"><i>shopping<b/>trolley</i><par n="house__n"/>    </e>
+	<e lm="letter of intent to purchase" a="eleka"><i>letter</i><par n="house__n"/>      <p>        <l><b/>of<b/>intent<b/>to<b/>purchase</l><r><g><b/>of<b/>intent<b/>to<b/>purchase</g></r></p></e>
+	<e lm="conveyance with option to buy" a="eleka"><i>conveyance</i><par n="house__n"/>      <p>        <l><b/>with<b/>option<b/>to<b/>buy</l><r><g><b/>with<b/>option<b/>to<b/>buy</g></r></p></e>
+	<e lm="market basket" a="eleka"><i>market<b/>basket</i><par n="house__n"/>    </e>
+	<e lm="charge card" a="eleka"><i>charge<b/>card</i><par n="house__n"/>    </e>
+	<e lm="clause of a sale and purchase agreement" a="eleka"><i>clause</i><par n="house__n"/>      <p>        <l><b/>of<b/>a<b/>sale<b/>and<b/>purchase<b/>agreement</l><r><g><b/>of<b/>a<b/>sale<b/>and<b/>purchase<b/>agreement</g></r></p></e>
+	<e lm="be ruined" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>ruined</l><r><g><b/>ruined</g></r></p></e>
+	<e lm="as far as" a="eleka"><i>as<b/>far<b/>as</i><par n="maybe__adv"/>    </e>
+	<e lm="depending on" a="eleka"><i>depending<b/>on</i><par n="after__cnjadv"/>    </e>
+	<e lm="depending upon" a="eleka"><i>depending<b/>upon</i><par n="after__cnjadv"/>    </e>
+	<e lm="as I know for a fact" a="eleka"><i>as<b/>I<b/>know<b/>for<b/>a<b/>fact</i><par n="maybe__adv"/>    </e>
+	<e lm="as you go in" a="eleka"><i>as<b/>you<b/>go<b/>in</i><par n="maybe__adv"/>    </e>
+<!--	<e lm="as go" a="eleka"><i>as<b/></i><par n="/go__vblex"/></e>
+	<e lm="as come in" a="eleka"><i>as<b/>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>in</l><r><g><b/>in</g></r></p></e> -->
+	<e lm="up to a certain point" a="eleka"><i>up<b/>to<b/>a<b/>certain<b/>point</i><par n="maybe__adv"/>    </e>
+	<e lm="have evidence that"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>evidence<b/>that</l><r><g><b/>evidence<b/>that</g></r></p></e>
+	<e lm="for the record" a="eleka"><i>for<b/>the<b/>record</i><par n="after__cnjadv"/>    </e>	
+	<e lm="put the record straight"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>the<b/>record<b/>straight</l><r><g><b/>the<b/>record<b/>straight</g></r></p></e>
+	<e lm="let's put the record straight" a="eleka"><i>let's<b/>put<b/>the<b/>record<b/>straight</i><par n="after__cnjadv"/>    </e>
+	<e lm="consist of"><i>consist</i><par n="accept__vblex"/>      <p>        <l><b/>of</l><r><g><b/>of</g></r></p></e>
+	<e lm="be recorded in" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>recorded<b/>in</l><r><g><b/>recorded<b/>in</g></r></p></e>
+	<e lm="execute in writing"><i>execute</i><par n="accept__vblex"/>      <p>        <l><b/>in<b/>writing</l><r><g><b/>in<b/>writing</g></r></p></e>
+	<e lm="certify that"><i>certif</i><par n="appl/y__vblex"/>      <p>        <l><b/>that</l><r><g><b/>that</g></r></p></e>
+	<e lm="by association of ideas" a="eleka"><i>by<b/>association<b/>of<b/>ideas</i><par n="after__cnjadv"/>    </e>
+	<e lm="customs union" a="eleka"><i>customs<b/>union</i><par n="house__n"/>    </e>
+	<e lm="parent-teacher association" a="eleka"><i>parent-teacher<b/>association</i><par n="house__n"/>    </e>
+	<e lm="residents' association" a="eleka"><i>residents'<b/>association</i><par n="house__n"/>    </e>
+	<e lm="free association" a="eleka"><i>free<b/>association</i><par n="house__n"/>    </e>
+	<e lm="be recorded in the minutes of proceedings" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>recorded<b/>in<b/>the<b/>minutes<b/>of<b/>proceedings</l><r><g><b/>recorded<b/>in<b/>the<b/>minutes<b/>of<b/>proceedings</g></r></p></e>
+	<e lm="criminal conspiracy" a="eleka"><i>criminal<b/>conspirac</i><par n="bab/y__n"/>    </e>
+	<e lm="association of ideas"><i>association</i><par n="house__n"/>      <p>        <l><b/>of<b/>ideas</l><r><g><b/>of<b/>ideas</g></r></p></e>
+	<e lm="association agreement" a="eleka"><i>association<b/>agreement</i><par n="house__n"/>    </e>
+	<e lm="legal entity" a="eleka"><i>legal<b/>entit</i><par n="bab/y__n"/>    </e>
+	<e lm="long lasting partnership" a="eleka"><i>long<b/>lasting<b/>partnership</i><par n="house__n"/>    </e>
+	<e lm="de facto limited partnership" a="eleka"><i>de<b/>facto<b/>limited<b/>partnership</i><par n="house__n"/>    </e>
+	<e lm="voluntary agency" a="eleka"><i>voluntary<b/>agenc</i><par n="bab/y__n"/>    </e>
+	<e lm="science association" a="eleka"><i>science<b/>association</i><par n="house__n"/>    </e>
+	<e lm="civil association" a="eleka"><i>civil<b/>association</i><par n="house__n"/>    </e>
+	<e lm="non-profit" a="eleka"><i>non-profit</i><par n="expensive__adj"/>    </e>
+	<e lm="non-profit organisation" a="eleka"><i>non-profit<b/>organisation</i><par n="house__n"/>    </e>
+	<e lm="cultural association" a="eleka"><i>cultural<b/>association</i><par n="house__n"/>    </e>
+	<e lm="agricultural exporters' association" a="eleka"><i>agricultural<b/>exporters'<b/>association</i><par n="house__n"/>    </e>
+	<e lm="association of peasants"><i>association</i><par n="house__n"/>      <p>        <l><b/>of<b/>peasants</l><r><g><b/>of<b/>peasants</g></r></p></e>
+	<e lm="merchants association" a="eleka"><i>merchants<b/>association</i><par n="house__n"/>    </e>
+	<e lm="forest defense" a="eleka"><i>forest<b/>defense</i><par n="house__n"/>    </e>
+	<e lm="forest defense association" a="eleka"><i>forest<b/>defense<b/>association</i><par n="house__n"/>    </e>
+	<e lm="employers' association" a="eleka"><i>employers'<b/>association</i><par n="house__n"/>    </e>
+	<e lm="door-to-door salesman" a="eleka"><i>door-to-door<b/>salesm</i><par n="m/an__n"/>    </e>
+	<e lm="door-to-door saleswoman" a="eleka"><i>door-to-door<b/>saleswom</i><par n="m/an__n"/>    </e>
+	<e lm="hawker" a="eleka"><i>hawker</i><par n="house__n"/>    </e>
+	<e lm="insurance salesman" a="eleka"><i>insurance<b/>salesm</i><par n="m/an__n"/>    </e>
+	<e lm="insurance saleswoman" a="eleka"><i>insurance<b/>saleswom</i><par n="m/an__n"/> </e>
+	<e lm="newspaper vendor" a="eleka"><i>newspaper<b/>vendor</i><par n="house__n"/>    </e>
+	<e lm="vendor's option" a="eleka"><i>vendor's<b/>option</i><par n="house__n"/>    </e>
+	<e lm="salesman" a="eleka"><i>salesm</i><par n="m/an__n"/>    </e>
+	<e lm="saleswoman" a="eleka"><i>saleswom</i><par n="m/an__n"/> </e>
+	<e lm="insurance agent" a="eleka"><i>insurance<b/>agent</i><par n="house__n"/>    </e>
+	<e lm="balloons seller" a="eleka"><i>balloons<b/>seller</i><par n="house__n"/>    </e>
+	<e lm="car dealer" a="eleka"><i>car<b/>dealer</i><par n="house__n"/>    </e>
+	<e lm="fruit seller" a="eleka"><i>fruit<b/>seller</i><par n="house__n"/>    </e>
+	<e lm="petrol pump attendant" a="eleka"><i>petrol<b/>pump<b/>attendant</i><par n="house__n"/>    </e>
+	<e lm="deceitful salesman" a="eleka"><i>deceitful<b/>salesm</i><par n="m/an__n"/>    </e>
+        <e lm="deceitful saleswoman" a="eleka"><i>deceitful<b/>saleswom</i><par n="m/an__n"/>    </e>
+	<e lm="ticket agent" a="eleka"><i>ticket<b/>agent</i><par n="house__n"/>    </e>
+	<e lm="first-class salesperson" a="eleka"><i>first-class<b/>salesperson</i><par n="house__n"/>    </e>
+	<e lm="professional salesperson" a="eleka"><i>professional<b/>salesperson</i><par n="house__n"/>    </e>
+	<e lm="greengrocer" a="eleka"><i>greengrocer</i><par n="house__n"/>    </e>
+	<e lm="winter holiday" a="eleka"><i>winter<b/>holiday</i><par n="house__n"/>    </e>
+	<e lm="cultural tourism" a="eleka"><i>cultural<b/>tourism</i><par n="house__n"/>    </e>
+	<e lm="quality tourism" a="eleka"><i>quality<b/>tourism</i><par n="house__n"/>    </e>
+	<e lm="eco-tourism" a="eleka"><i>eco-tourism</i><par n="house__n"/>    </e>
+	<e lm="space tourism" a="eleka"><i>space<b/>tourism</i><par n="house__n"/>    </e>
+        <e lm="domestic tourism" a="eleka"><i>domestic<b/>tourism</i><par n="house__n"/>    </e>
+	<e lm="country holiday" a="eleka"><i>country<b/>holiday</i><par n="house__n"/>    </e>
+	<e lm="green tourism" a="eleka"><i>green<b/>tourism</i><par n="house__n"/>    </e>
+	<e lm="promote tourism in rural areas"><i>promot</i><par n="liv/e__vblex"/>      <p>        <l><b/>tourism<b/>in<b/>rural<b/>areas</l><r><g><b/>tourism<b/>in<b/>rural<b/>areas</g></r></p></e>
+	<e lm="holiday cottage" a="eleka"><i>holiday<b/>cottage</i><par n="house__n"/>    </e>
+	<e lm="sex tourism" a="eleka"><i>sex<b/>tourism</i><par n="house__n"/>    </e>
+	<e lm="tourist office" a="eleka"><i>tourist<b/>office</i><par n="house__n"/>    </e>
+	<e lm="travel around"><i>travel</i><par n="travel__vblex"/>      <p>        <l><b/>around</l><r><g><b/>around</g></r></p></e>
+	<e lm="tourism school" a="eleka"><i>tourism<b/>school</i><par n="house__n"/>    </e>
+	<e lm="tourism administration" a="eleka"><i>tourism<b/>administration</i><par n="house__n"/>    </e>
+	<e lm="travel agency" a="eleka"><i>travel<b/>agenc</i><par n="bab/y__n"/>    </e>
+	<e lm="bird watching" a="eleka"><i>bird<b/>watching</i><par n="house__n"/>    </e>
+	<e lm="marketing venue" a="eleka"><i>marketing<b/>venue</i><par n="house__n"/>    </e>
+	<e lm="tourism package deal" a="eleka"><i>tourism<b/>package<b/>deal</i><par n="house__n"/>    </e>
+	<e lm="airfare deal" a="eleka"><i>airfare<b/>deal</i><par n="house__n"/>    </e>
+	<e lm="hotel deal" a="eleka"><i>hotel<b/>deal</i><par n="house__n"/>    </e>
+	<e lm="tourism center" a="eleka"><i>tourism<b/>center</i><par n="house__n"/>    </e>
+	<e lm="county council department of tourism"><i>county<b/>council<b/>department</i><par n="house__n"/>      <p>        <l><b/>of<b/>tourism</l><r><g><b/>of<b/>tourism</g></r></p></e>
+	<e lm="county council department of tourism, environment and territorial policy"><i>county<b/>council<b/>department</i><par n="house__n"/>      <p>        <l><b/>of<b/>tourism,<b/>environment<b/>and<b/>territorial<b/>policy</l><r><g><b/>of<b/>tourism,<b/>environment<b/>and<b/>territorial<b/>policy</g></r></p></e>
+	<e lm="local office" a="eleka"><i>local<b/>office</i><par n="house__n"/>    </e>
+	<e lm="local tourism office" a="eleka"><i>local<b/>tourism<b/>office</i><par n="house__n"/>    </e>
+	<e lm="tourism law" a="eleka"><i>tourism<b/>law</i><par n="house__n"/>    </e>
+	<e lm="bachelor of arts in tourism"><i>bachelor</i><par n="house__n"/>      <p>        <l><b/>of<b/>arts<b/>in<b/>tourism</l><r><g><b/>of<b/>arts<b/>in<b/>tourism</g></r></p></e>
+	<e lm="ecotourism" a="eleka"><i>ecotourism</i><par n="house__n"/>    </e>
+	<e lm="ethnic tourism" a="eleka"><i>ethnic<b/>tourism</i><par n="house__n"/>    </e>
+	<e lm="department of tourism"><i>department</i><par n="house__n"/>      <p>        <l><b/>of<b/>tourism</l><r><g><b/>of<b/>tourism</g></r></p></e>
+	<e lm="tour-guide" a="eleka"><i>tour-guide</i><par n="house__n"/>    </e>
+	<e lm="school of hotel management and tourism"><i>school</i><par n="house__n"/>      <p>        <l><b/>of<b/>hotel<b/>management<b/>and<b/>tourism</l><r><g><b/>of<b/>hotel<b/>management<b/>and<b/>tourism</g></r></p></e>
+	<e lm="car dealer" a="eleka"><i>car<b/>dealer</i><par n="house__n"/>    </e>
+	<e lm="authorised car dealer" a="eleka"><i>authorised<b/>car<b/>dealer</i><par n="house__n"/>    </e>
+	<e lm="exclusive dealership" a="eleka"><i>exclusive<b/>dealership</i><par n="house__n"/>    </e>
+	<e lm="deep in thought" a="eleka"><i>deep<b/>in<b/>thought</i><par n="expensive__adj"/>    </e>
+	<e lm="underworld" a="eleka"><i>underworld</i><par n="east__n"/>    </e>
+	<e lm="case with a false bottom"><i>case</i><par n="house__n"/>      <p>        <l><b/>with<b/>a<b/>false<b/>bottom</l><r><g><b/>with<b/>a<b/>false<b/>bottom</g></r></p></e>
+	<e lm="double meaning" a="eleka"><i>double<b/>meaning</i><par n="house__n"/>    </e>
+	<e lm="sink to the bottom" a="eleka"><i>s</i><par n="st/ink__vblex"/>      <p>        <l><b/>to<b/>the<b/>bottom</l><r><g><b/>to<b/>the<b/>bottom</g></r></p></e>
+	<e lm="at the bottom of the sea" a="eleka"><i>at<b/>the<b/>bottom<b/>of<b/>the<b/>sea</i><par n="after__cnjadv"/>    </e>
+	<e lm="bottom of the sea" a="eleka"><i>bottom</i><par n="house__n"/>      <p>        <l><b/>of<b/>the<b/>sea</l><r><g><b/>of<b/>the<b/>sea</g></r></p></e>
+	<e lm="bottomless" a="eleka"><i>bottomless</i><par n="expensive__adj"/>    </e>
+	<e lm="hit rock bottom" a="eleka"><i>hit</i><par n="cut__vblex"/>      <p>        <l><b/>rock<b/>bottom</l><r><g><b/>rock<b/>bottom</g></r></p></e>
+	<e lm="reach rock bottom" a="eleka"><i>reach</i><par n="approach__vblex"/>      <p>        <l><b/>rock<b/>bottom</l><r><g><b/>rock<b/>bottom</g></r></p></e>
+	<e lm="be deep" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>deep</l><r><g><b/>deep</g></r></p></e>
+	<e lm="be shallow" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>shallow</l><r><g><b/>shallow</g></r></p></e>
+	<e lm="at the heart of" a="eleka"><i>at<b/>the<b/>heart<b/>of</i><par n="at__pr"/>    </e>
+	<e lm="at the bottom of" a="eleka"><i>at<b/>the<b/>bottom<b/>of</i><par n="at__pr"/>    </e>
+	<e lm="fundamental issue" a="eleka"><i>fundamental<b/>issue</i><par n="house__n"/>    </e>
+	<e lm="basic issue" a="eleka"><i>basic<b/>issue</i><par n="house__n"/>    </e>
+	<e lm="basic problem" a="eleka"><i>basic<b/>problem</i><par n="house__n"/>    </e>
+	<e lm="fundamental problem" a="eleka"><i>fundamental<b/>problem</i><par n="house__n"/>    </e>
+	<e lm="underlying problem" a="eleka"><i>underlying<b/>problem</i><par n="house__n"/>    </e>
+	<e lm="form and content" a="eleka"><p><l>form<b/>and<b/>content</l><r>form<b/>and<b/>content<s n="n"/><s n="sg"/></r></p></e>
+        <e lm="form and content" a="eleka"><p><l>forms<b/>and<b/>contents</l><r>form<b/>and<b/>content<s n="n"/><s n="pl"/></r></p></e>
+	<e lm="get to the bottom of the matter" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>to<b/>the<b/>bottom<b/>of<b/>the<b/>matter</l><r><g><b/>to<b/>the<b/>bottom<b/>of<b/>the<b/>matter</g></r></p></e>
+	<e lm="background music" a="eleka"><i>background<b/>music</i><par n="house__n"/>    </e>
+	<e lm="background noise" a="eleka"><i>background<b/>noise</i><par n="house__n"/>    </e>
+	<e lm="desktop wallpaper" a="eleka"><i>desktop<b/>wallpaper</i><par n="house__n"/>    </e>
+	<e lm="thorough investigation" a="eleka"><i>thorough<b/>investigation</i><par n="house__n"/>    </e>
+	<e lm="thorough clean" a="eleka"><i>thorough<b/>clean</i><par n="house__n"/>    </e>
+	<e lm="have a good time" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>good<b/>time</l><r><g><b/>a<b/>good<b/>time</g></r></p></e>
+	<e lm="have a bad time" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>bad<b/>time</l><r><g><b/>a<b/>bad<b/>time</g></r></p></e>
+	<e lm="have a thorough knowledge" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>thorough<b/>knowledge</l><r><g><b/>a<b/>thorough<b/>knowledge</g></r></p></e>
+	<e lm="have an in-depth knowledge" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>an<b/>in-depth<b/>knowledge</l><r><g><b/>an<b/>in-depth<b/>knowledge</g></r></p></e>
+	<e lm="conduct a thorough investigation" a="eleka"><i>conduct</i><par n="accept__vblex"/>      <p>        <l><b/>a<b/>thorough<b/>investigation</l><r><g><b/>a<b/>thorough<b/>investigation</g></r></p></e>
+	<e lm="study in great depth" a="eleka"><i>stud</i><par n="appl/y__vblex"/>      <p>        <l><b/>in<b/>great<b/>depth</l><r><g><b/>in<b/>great<b/>depth</g></r></p></e>
+	<e lm="use all its skill" a="eleka"><i>us</i><par n="liv/e__vblex"/>      <p>        <l><b/>all<b/>its<b/>skill</l><r><g><b/>all<b/>its<b/>skill</g></r></p></e>
+	<e lm="put the foot down" a="eleka"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>the<b/>foot<b/>down</l><r><g><b/>the<b/>foot<b/>down</g></r></p></e>
+	<e lm="put the foot down on the accelerator" a="eleka"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>the<b/>foot<b/>down<b/>on<b/>the<b/>accelerator</l><r><g><b/>the<b/>foot<b/>down<b/>on<b/>the<b/>accelerator</g></r></p></e>
+	<e lm="deep down" a="eleka"><i>deep<b/>down</i><par n="maybe__adv"/>    </e>
+	<e lm="long-distance race" a="eleka"><i>long-distance<b/>race</i><par n="house__n"/>    </e>
+	<e lm="cross-country skiing" a="eleka"><i>cross-country<b/>skiing</i><par n="house__n"/>    </e>
+	<e lm="middle-distance runner" a="eleka"><i>middle-distance<b/>runner</i><par n="house__n"/>    </e>
+	<e lm="middle-distance event" a="eleka"><i>middle-distance<b/>event</i><par n="house__n"/>    </e>
+	<e lm="long-distance road-racing" a="eleka"><i>long-distance<b/>road-racing</i><par n="house__n"/>    </e>
+	<e lm="contingency fund" a="eleka"><i>contingency<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="budget for grants" a="eleka"><i>budget</i><par n="house__n"/>      <p>        <l><b/>for<b/>grants</l><r><g><b/>for<b/>grants</g></r></p></e>
+	<e lm="kitty for the food" a="eleka"><i>kitt</i><par n="bab/y__n"/>      <p>        <l><b/>for<b/>the<b/>food</l><r><g><b/>for<b/>the<b/>food</g></r></p></e>
+	<e lm="non-recoverable" a="eleka"><i>non-recoverable</i><par n="expensive__adj"/>    </e>
+	<e lm="non-refundable" a="eleka"><i>non-refundable</i><par n="expensive__adj"/>    </e>
+	<e lm="on permanent loan" a="eleka"><i>on<b/>permanent<b/>loan</i><par n="expensive__adj"/>    </e>
+	<e lm="capital grant" a="eleka"><i>capital<b/>grant</i><par n="house__n"/>    </e>
+	<e lm="common fund" a="eleka"><i>common<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="consolidated fund" a="eleka"><i>consolidated<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="sinking fund" a="eleka"><i>sinking<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="development aid fund" a="eleka"><i>development<b/>aid<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="cohesion fund" a="eleka"><i>cohesion<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="goodwill" a="eleka"><i>goodwill</i><par n="house__n"/>    </e>
+	<e lm="system of financial redistribution between the autonomous regions of Spain" a="eleka"><i>system</i><par n="house__n"/>      <p>        <l><b/>of<b/>financial<b/>redistribution<b/>between<b/>the<b/>autonomous<b/>regions<b/>of<b/>Spain</l><r><g><b/>of<b/>financial<b/>redistribution<b/>between<b/>the<b/>autonomous<b/>regions<b/>of<b/>Spain</g></r></p></e>
+	<e lm="loan fund" a="eleka"><i>loan<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="investment fund" a="eleka"><i>investment<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="pension fund" a="eleka"><i>pension<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="provident fund" a="eleka"><i>provident<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="ethical investment fund" a="eleka"><i>ethical<b/>investment<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="international monetary funds" a="eleka"><p><l>international<b/>monetary<b/>funds</l><r>international<b/>monetary<b/>fund<s n="n"/><s n="pl"/></r></p></e>
+	<e lm="mutual fund" a="eleka"><i>mutual<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="raise funds" a="eleka"><i>rais</i><par n="liv/e__vblex"/>      <p>        <l><b/>funds</l><r><g><b/>funds</g></r></p></e>
+	<e lm="be out of funds" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>out<b/>of<b/>funds</l><r><g><b/>out<b/>of<b/>funds</g></r></p></e>
+	<e lm="bounced cheque" a="eleka"><i>bounced<b/>cheque</i><par n="house__n"/>    </e>
+	<e lm="rubber check" a="eleka"><i>rubber<b/>check</i><par n="house__n"/>    </e>
+	<e lm="frozen asset" a="eleka"><i>frozen<b/>asset</i><par n="house__n"/>    </e>
+	<e lm="public fund" a="eleka"><i>public<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="secret fund" a="eleka"><i>secret<b/>fund</i><par n="house__n"/>    </e>
+	<e lm="art collection" a="eleka"><i>art<b/>collection</i><par n="house__n"/>    </e>
+	<e lm="basis of truth" a="eleka"><i>bas</i><par n="analys/is__n"/>      <p>        <l><b/>of<b/>truth</l><r><g><b/>of<b/>truth</g></r></p></e>
+	<e lm="boundless energy" a="eleka"><i>boundless<b/>energ</i><par n="bab/y__n"/>    </e>
+	<e lm="basic wardrobe" a="eleka"><i>basic<b/>wardrobe</i><par n="house__n"/>    </e>
+	<e lm="list of titles" a="eleka"><i>list</i><par n="house__n"/>      <p>        <l><b/>of<b/>titles</l><r><g><b/>of<b/>titles</g></r></p></e>
+	<e lm="cheery disposition" a="eleka"><i>cheery<b/>disposition</i><par n="house__n"/>    </e>
+	<e lm="cheerful disposition" a="eleka"><i>cheerful<b/>disposition</i><par n="house__n"/>    </e>
+	<e lm="be good-natured" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>good-natured</l><r><g><b/>good-natured</g></r></p></e>
+	<e lm="be irrepressibly cheerful" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>irrepressibly<b/>cheerful</l><r><g><b/>irrepressibly<b/>cheerful</g></r></p></e>
+	<e lm="have a long endurance"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>long<b/>endurance</l><r><g><b/>a<b/>long<b/>endurance</g></r></p></e>
+	<e lm="have little endurance"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>little<b/>endurance</l><r><g><b/>little<b/>endurance</g></r></p></e>
+	<e lm="main dish" a="eleka"><i>main<b/>dish</i><par n="access__n"/>    </e>
+	<e lm="be very deep" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>very<b/>deep</l><r><g><b/>very<b/>deep</g></r></p></e>
+	<e lm="be not very deep" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>not<b/>very<b/>deep</l><r><g><b/>not<b/>very<b/>deep</g></r></p></e>
+	<e lm="know the subject really well"><i>kn</i><par n="bl/ow__vblex"/>      <p>        <l><b/>the<b/>subject<b/>really<b/>well</l><r><g><b/>the<b/>subject<b/>really<b/>well</g></r></p></e>
+	<e lm="background"><i>background</i><par n="expensive__adj"/>    </e>
+	<e lm="core of the matter"><i>core</i><par n="house__n"/>      <p>        <l><b/>of<b/>the<b/>matter</l><r><g><b/>of<b/>the<b/>matter</g></r></p></e>
+	<e lm="leading article" a="eleka"><i>leading<b/>article</i><par n="house__n"/>    </e>
+	<e lm="long-distance runner" a="eleka"><i>long-distance<b/>runner</i><par n="house__n"/>    </e>
+	<e lm="batch of documents"><i>batch</i><par n="access__n"/>      <p>        <l><b/>of<b/>documents</l><r><g><b/>of<b/>documents</g></r></p></e>
+	<e lm="monitor events"><i>monitor</i><par n="accept__vblex"/>      <p>        <l><b/>events</l><r><g><b/>events</g></r></p></e>
+	<e lm="step by step" a="eleka"><i>step<b/>by<b/>step</i><par n="maybe__adv"/>    </e>
+	<e lm="trace step by step"><i>trac</i><par n="liv/e__vblex"/>      <p>        <l><b/>step<b/>by<b/>step</l><r><g><b/>step<b/>by<b/>step</g></r></p></e>
+	<e lm="course of the river"><i>course</i><par n="house__n"/>      <p>        <l><b/>of<b/>the<b/>river</l><r><g><b/>of<b/>the<b/>river</g></r></p></e>
+	<e lm="independent film-maker" a="eleka"><i>independent<b/>film-maker</i><par n="house__n"/>    </e>
+	<e lm="continue on its way"><i>continu</i><par n="liv/e__vblex"/>      <p>        <l><b/>on<b/>its<b/>way</l><r><g><b/>on<b/>its<b/>way</g></r></p></e>
+	<e lm="continue on its course"><i>continu</i><par n="liv/e__vblex"/>      <p>        <l><b/>on<b/>its<b/>course</l><r><g><b/>on<b/>its<b/>course</g></r></p></e>
+	<e lm="be still ill" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>still<b/>ill</l><r><g><b/>still<b/>ill</g></r></p></e>
+	<e lm="be still in" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>still<b/>in</l><r><g><b/>still<b/>in</g></r></p></e>
+	<e lm="be still not working" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>still<b/>not<b/>working</l><r><g><b/>still<b/>not<b/>working</g></r></p></e>
+	<e lm="be still single" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>still<b/>single</l><r><g><b/>still<b/>single</g></r></p></e>
+	<e lm="keep well" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>well</l><r><g><b/>well</g></r></p></e>
+	<e lm="go on with an idea" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>on<b/>with<b/>an<b/>idea</l><r><g><b/>on<b/>with<b/>an<b/>idea</g></r></p></e>
+	<e lm="continue in its error" a="eleka"><i>continu</i><par n="liv/e__vblex"/>      <p>        <l><b/>in<b/>its<b/>error</l><r><g><b/>in<b/>its<b/>error</g></r></p></e>
+	<e lm="still have not got a phone" a="eleka"><i>still<b/>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>not<b/>got<b/>a<b/>phone</l><r><g><b/>not<b/>got<b/>a<b/>phone</g></r></p></e>
+	<e lm="still have not heard anything" a="eleka"><i>still<b/>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>not<b/>heard<b/>anything</l><r><g><b/>not<b/>heard<b/>anything</g></r></p></e>
+	<e lm="still do not understand" a="eleka"><i>still<b/>do<b/>not<b/>underst</i><par n="st/and__vblex"/>    </e>
+	<e lm="remain unanswered" a="eleka"><i>remain</i><par n="accept__vblex"/>      <p>        <l><b/>unanswered</l><r><g><b/>unanswered</g></r></p></e>
+	<e lm="go on doing" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>on<b/>doing</l><r><g><b/>on<b/>doing</g></r></p></e>
+	<e lm="go on looking" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>on<b/>looking</l><r><g><b/>on<b/>looking</g></r></p></e>
+	<e lm="go on speaking" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>on<b/>speaking</l><r><g><b/>on<b/>speaking</g></r></p></e>
+	<e lm="be still working" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>still<b/>working</l><r><g><b/>still<b/>working</g></r></p></e>
+	<e lm="be still thinking" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>still<b/>thinking</l><r><g><b/>still<b/>thinking</g></r></p></e>
+	<e lm="be still raining" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>still<b/>raining</l><r><g><b/>still<b/>raining</g></r></p></e>
+	<e lm="as follows" a="eleka"><i>as<b/>follows</i><par n="maybe__adv"/>    </e>
+	<e lm="what follows" a="eleka"><i>what<b/>follows</i><par n="after__cnjadv"/>    </e>
+	<e lm="amongst other" a="eleka"><i>amongst<b/>other</i><par n="after__cnjadv"/>    </e>
+	<e lm="stand out" a="eleka"><i>st</i><par n="st/and__vblex"/>      <p>        <l><b/>out</l><r><g><b/>out</g></r></p></e>
+	<e lm="follow in its footsteps" a="eleka"><i>follow</i><par n="accept__vblex"/>      <p>        <l><b/>in<b/>its<b/>footsteps</l><r><g><b/>in<b/>its<b/>footsteps</g></r></p></e>
+	<e lm="go straight on" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>straight<b/>on</l><r><g><b/>straight<b/>on</g></r></p></e>
+	<e lm="go on down" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>on<b/>down</l><r><g><b/>on<b/>down</g></r></p></e>
+	<e lm="go straight past" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>straight<b/>past</l><r><g><b/>straight<b/>past</g></r></p></e>
+	<e lm="decide to go ahead" a="eleka"><i>decid</i><par n="liv/e__vblex"/>      <p>        <l><b/>to<b/>go<b/>ahead</l><r><g><b/>to<b/>go<b/>ahead</g></r></p></e>
+	<e lm="follow with its eyes" a="eleka"><i>follow</i><par n="accept__vblex"/>      <p>        <l><b/>with<b/>its<b/>eyes</l><r><g><b/>with<b/>its<b/>eyes</g></r></p></e>
+	<e lm="follow the plot" a="eleka"><i>follow</i><par n="accept__vblex"/>      <p>        <l><b/>the<b/>plot</l><r><g><b/>the<b/>plot</g></r></p></e>
+	<e lm="do a course" a="eleka"><i>d</i><par n="d/o__vblex"/>      <p>        <l><b/>a<b/>course</l><r><g><b/>a<b/>course</g></r></p></e>
+	<e lm="continue tomorrow" a="eleka"><i>continu</i><par n="liv/e__vblex"/>      <p>        <l><b/>tomorrow</l><r><g><b/>tomorrow</g></r></p></e>
+	<e lm="keep on pulling at the rope" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>on<b/>pulling<b/>at<b/>the<b/>rope</l><r><g><b/>on<b/>pulling<b/>at<b/>the<b/>rope</g></r></p></e>
+	<e lm="to be followed" a="eleka"><i>to<b/>be<b/>followed</i><par n="after__cnjadv"/>    </e>
+	<e lm="take care" a="eleka"><i>take<b/>care</i><par n="after__cnjadv"/>    </e>
+	<e lm="before moving forward" a="eleka"><i>before<b/>moving<b/>forward</i><par n="maybe__adv"/>    </e>
+	<e lm="before moving ahead" a="eleka"><i>before<b/>moving<b/>ahead</i><par n="maybe__adv"/>    </e>
+	<e lm="before continuing" a="eleka"><i>before<b/>continuing</i><par n="maybe__adv"/>    </e>
+	<e lm="role model" a="eleka"><i>role<b/>model</i><par n="house__n"/>    </e>
+	<e lm="keep on maintaining" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>on<b/>maintaining</l><r><g><b/>on<b/>maintaining</g></r></p></e>
+	<e lm="keep growing" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>growing</l><r><g><b/>growing</g></r></p></e>
+	<e lm="continue our collaboration" a="eleka"><i>continu</i><par n="liv/e__vblex"/>      <p>        <l><b/>our<b/>collaboration</l><r><g><b/>our<b/>collaboration</g></r></p></e>
+	<e lm="look forward to" a="eleka"><i>look</i><par n="accept__vblex"/>      <p>        <l><b/>forward<b/>to</l><r><g><b/>forward<b/>to</g></r></p></e>
+	<e lm="hope you will continue to be interested in" a="eleka"><i>hop</i><par n="liv/e__vblex"/>      <p>        <l><b/>you<b/>will<b/>continue<b/>to<b/>be<b/>interested<b/>in</l><r><g><b/>you<b/>will<b/>continue<b/>to<b/>be<b/>interested<b/>in</g></r></p></e>
+	<e lm="frown" a="eleka"><i>frown</i><par n="accept__vblex"/>    </e>
+	<e lm="with its head held high" a="eleka"><i>with<b/>its<b/>head<b/>held<b/>high</i><par n="after__cnjadv"/>    </e>
+	<e lm="face to face" a="eleka"><i>face<b/>to<b/>face</i><par n="after__cnjadv"/>    </e>
+	<e lm="at the head of" a="eleka"><i>at<b/>the<b/>head<b/>of</i><par n="at__pr"/>    </e>
+	<e lm="face up to" a="eleka"><i>fac</i><par n="liv/e__vblex"/>      <p>        <l><b/>up<b/>to</l><r><g><b/>up<b/>to</g></r></p></e>
+	<e lm="directly opposite" a="eleka"><i>directly<b/>opposite</i><par n="after__cnjadv"/>    </e>
+	<e lm="coalface" a="eleka"><i>coalface</i><par n="house__n"/>    </e>
+	<e lm="make a frontal attack" a="eleka"><i>ma</i><par n="ma/ke__vblex"/>      <p>        <l><b/>a<b/>frontal<b/>attack</l><r><g><b/>a<b/>frontal<b/>attack</g></r></p></e>
+	<e lm="crash head-on" a="eleka"><i>crash</i><par n="approach__vblex"/>      <p>        <l><b/>head-on</l><r><g><b/>head-on</g></r></p></e>
+	<e lm="go forward" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>forward</l><r><g><b/>forward</g></r></p></e>
+	<e lm="look straight ahead" a="eleka"><i>look</i><par n="accept__vblex"/>      <p>        <l><b/>straight<b/>ahead</l><r><g><b/>straight<b/>ahead</g></r></p></e>
+	<e lm="go straight on" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>straight<b/>on</l><r><g><b/>straight<b/>on</g></r></p></e>
+	<e lm="go straight ahead" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>straight<b/>ahead</l><r><g><b/>straight<b/>ahead</g></r></p></e>
+	<e lm="be a car heading straight for us" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>a<b/>car<b/>heading<b/>straight<b/>for<b/>us</l><r><g><b/>a<b/>car<b/>heading<b/>straight<b/>for<b/>us</g></r></p></e>
+	<e lm="form a united front" a="eleka"><i>form</i><par n="accept__vblex"/>      <p>        <l><b/>a<b/>united<b/>front</l><r><g><b/>a<b/>united<b/>front</g></r></p></e>
+	<e lm="form an alliance against" a="eleka"><i>form</i><par n="accept__vblex"/>      <p>        <l><b/>an<b/>alliance<b/>against</l><r><g><b/>an<b/>alliance<b/>against</g></r></p></e>
+	<e lm="battle front" a="eleka"><i>battle<b/>front</i><par n="house__n"/>    </e>
+	<e lm="western front" a="eleka"><i>western<b/>front</i><par n="house__n"/>    </e>
+	<e lm="polisario front" a="eleka"><i>polisario<b/>front</i><par n="house__n"/>    </e>
+	<e lm="popular front" a="eleka"><i>popular<b/>front</i><par n="house__n"/>    </e>
+	<e lm="united front" a="eleka"><i>united<b/>front</i><par n="house__n"/>    </e>
+	<e lm="warm front" a="eleka"><i>warm<b/>front</i><par n="house__n"/>    </e>
+	<e lm="cold front" a="eleka"><i>cold<b/>front</i><par n="house__n"/>    </e>
+	<e lm="face up" a="eleka"><i>fac</i><par n="liv/e__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="take a step forward" a="eleka"><i>t</i><par n="t/ake__vblex"/>      <p>        <l><b/>a<b/>step<b/>forward</l><r><g><b/>a<b/>step<b/>forward</g></r></p></e>
+	<e lm="live opposite" a="eleka"><i>liv</i><par n="liv/e__vblex"/>      <p>        <l><b/>opposite</l><r><g><b/>opposite</g></r></p></e>
+	<e lm="be at the top" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>at<b/>the<b/>top</l><r><g><b/>at<b/>the<b/>top</g></r></p></e>
+	<e lm="head on" a="eleka"><i>head<b/>on</i><par n="maybe__adv"/>    </e>
+	<e lm="full-face photo" a="eleka"><i>full-face<b/>photo</i><par n="house__n"/>    </e>
+	<e lm="facing" a="eleka"><i>facing</i><par n="at__pr"/>    </e>
+	<e lm="be faced with" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>faced<b/>with</l><r><g><b/>faced<b/>with</g></r></p></e>
+	<e lm="have common sense"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>common<b/>sense</l><r><g><b/>common<b/>sense</g></r></p></e>
+	<e lm="establish a frontline"><i>establish</i><par n="approach__vblex"/>      <p>        <l><b/>a<b/>frontline</l><r><g><b/>a<b/>frontline</g></r></p></e>
+	<e lm="receding hairline" a="eleka"><i>receding<b/>hairline</i><par n="house__n"/>    </e>
+	<e lm="change with regard to"><i>chang</i><par n="liv/e__vblex"/>      <p>        <l><b/>with<b/>regard<b/>to</l><r><g><b/>with<b/>regard<b/>to</g></r></p></e>
+	<e lm="walk backwards"><i>walk</i><par n="accept__vblex"/>      <p>        <l><b/>backwards</l><r><g><b/>backwards</g></r></p></e>
+	<e lm="walk sideways"><i>walk</i><par n="accept__vblex"/>      <p>        <l><b/>sideways</l><r><g><b/>sideways</g></r></p></e>
+	<e lm="walk forwards"><i>walk</i><par n="accept__vblex"/>      <p>        <l><b/>forwards</l><r><g><b/>forwards</g></r></p></e>
+	<e lm="with dignity"><i>with<b/>dignity</i><par n="after__cnjadv"/>    </e>
+	<e lm="the thing is that"><i>the<b/>thing<b/>is<b/>that</i><par n="after__cnjadv"/>    </e>
+	<e lm="whatever happens"><i>whatever<b/>happens</i><par n="after__cnjadv"/>    </e>
+	<e lm="go by" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>by</l><r><g><b/>by</g></r></p></e>
+	<e lm="pass by"><i>pass</i><par n="approach__vblex"/>      <p>        <l><b/>by</l><r><g><b/>by</g></r></p></e>
+	<e lm="pay at the cash desk"><i>pa</i><par n="pa/y__vblex"/>      <p>        <l><b/>at<b/>the<b/>cash<b/>desk</l><r><g><b/>at<b/>the<b/>cash<b/>desk</g></r></p></e>
+	<e lm="go through customs" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>through<b/>customs</l><r><g><b/>through<b/>customs</g></r></p></e>
+	<e lm="be going through a bad patch" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>going<b/>through<b/>a<b/>bad<b/>patch</l><r><g><b/>going<b/>through<b/>a<b/>bad<b/>patch</g></r></p></e>
+	<e lm="be time for action" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>time<b/>for<b/>action</l><r><g><b/>time<b/>for<b/>action</g></r></p></e>
+	<e lm="manage without" a="eleka"><i>manag</i><par n="liv/e__vblex"/>      <p>        <l><b/>without</l><r><g><b/>without</g></r></p></e>
+	<e lm="make a fresh start" a="eleka"><i>ma</i><par n="ma/ke__vblex"/>      <p>        <l><b/>a<b/>fresh<b/>start</l><r><g><b/>a<b/>fresh<b/>start</g></r></p></e>
+	<e lm="spend the holidays" a="eleka"><i>spen</i><par n="ben/d__vblex"/>      <p>        <l><b/>the<b/>holidays</l><r><g><b/>the<b/>holidays</g></r></p></e>
+	<e lm="spend the weekend" a="eleka"><i>spen</i><par n="ben/d__vblex"/>      <p>        <l><b/>the<b/>weekend</l><r><g><b/>the<b/>weekend</g></r></p></e>
+	<e lm="spend the day" a="eleka"><i>spen</i><par n="ben/d__vblex"/>      <p>        <l><b/>the<b/>day</l><r><g><b/>the<b/>day</g></r></p></e>
+	<e lm="be over the worst" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>over<b/>the<b/>worst</l><r><g><b/>over<b/>the<b/>worst</g></r></p></e>
+	<e lm="be through a bad patch" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>through<b/>a<b/>bad<b/>patch</l><r><g><b/>through<b/>a<b/>bad<b/>patch</g></r></p></e>
+	<e lm="have a lot of illnesses"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>lot<b/>of<b/>illnesses</l><r><g><b/>a<b/>lot<b/>of<b/>illnesses</g></r></p></e>
+	<e lm="be cold" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>cold</l><r><g><b/>cold</g></r></p></e>
+	<e lm="be hungry" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>hungry</l><r><g><b/>hungry</g></r></p></e>
+	<e lm="miss the turn"><i>miss</i><par n="approach__vblex"/>      <p>        <l><b/>the<b/>turn</l><r><g><b/>the<b/>turn</g></r></p></e>
+	<e lm="go to the bank" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>to<b/>the<b/>bank</l><r><g><b/>to<b/>the<b/>bank</g></r></p></e>
+	<e lm="modest competence" a="eleka"><i>modest<b/>competence</i><par n="house__n"/>    </e>
+	<e lm="be well off" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>well<b/>off</l><r><g><b/>well<b/>off</g></r></p></e>
+	<e lm="be just passing by" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>just<b/>passing<b/>by</l><r><g><b/>just<b/>passing<b/>by</g></r></p></e>
+	<e lm="go past" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>past</l><r><g><b/>past</g></r></p></e>
+
+	<e lm="go too far" a="eleka" r="RL">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>too<b/>far</l><r><g><b/>too<b/>far</g></r></p></e>
+	<e lm="drop by sometime"><i>drop</i><par n="step__vblex"/>      <p>        <l><b/>by<b/>sometime</l><r><g><b/>by<b/>sometime</g></r></p></e>
+	<e lm="come by sometime"><i>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>by<b/>sometime</l><r><g><b/>by<b/>sometime</g></r></p></e>
+	<e lm="drop by"><i>drop</i><par n="step__vblex"/>      <p>        <l><b/>by</l><r><g><b/>by</g></r></p></e>
+	<e lm="come by"><i>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>by</l><r><g><b/>by</g></r></p></e>
+	<e lm="come and pick"><i>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>and<b/>pick</l><r><g><b/>and<b/>pick</g></r></p></e>
+	<e lm="go from one side to the other" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>from<b/>one<b/>side<b/>to<b/>other</l><r><g><b/>from<b/>one<b/>side<b/>to<b/>other</g></r></p></e>
+	<e lm="cross from one side to the other"><i>cross</i><par n="approach__vblex"/>      <p>        <l><b/>from<b/>one<b/>side<b/>to<b/>other</l><r><g><b/>from<b/>one<b/>side<b/>to<b/>other</g></r></p></e>
+	<e lm="get through the end-of-year exams"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>through<b/>the<b/>end-of-year<b/>exams</l><r><g><b/>through<b/>the<b/>end-of-year<b/>exams</g></r></p></e>
+	<e lm="go through a crisis" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>through<b/>a<b/>crisis</l><r><g><b/>through<b/>a<b/>crisis</g></r></p></e>
+	<e lm="put the sauce through a sieve"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>the<b/>sauce<b/>through<b/>a<b/>sieve</l><r><g><b/>the<b/>sauce<b/>through<b/>a<b/>sieve</g></r></p></e>
+	<e lm="hoover" a="eleka"><i>hoover</i><par n="accept__vblex"/>    </e>
+	<e lm="be frightened" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>frightened</l><r><g><b/>frightened</g></r></p></e>
+	<e lm="come round to see" a="eleka"><i>c</i><par n="bec/ome__vblex"/>      <p>        <l><b/>round<b/>to<b/>see</l><r><g><b/>round<b/>to<b/>see</g></r></p></e>
+	<e lm="spend the whole day" a="eleka"><i>spen</i><par n="ben/d__vblex"/>      <p>        <l><b/>the<b/>whole<b/>day</l><r><g><b/>the<b/>whole<b/>day</g></r></p></e>
+	<e lm="go over to the enemy" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>over<b/>to<b/>the<b/>enemy</l><r><g><b/>over<b/>to<b/>the<b/>enemy</g></r></p></e>
+	<e lm="be too clever by half" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>too<b/>clever<b/>by<b/>half</l><r><g><b/>too<b/>clever<b/>by<b/>half</g></r></p></e>
+	<e lm="go too far" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>too<b/>far</l><r><g><b/>too<b/>far</g></r></p></e>
+	<e lm="stop feeling dizzy" a="eleka"><i>stop</i><par n="step__vblex"/>      <p>        <l><b/>feeling<b/>dizzy</l><r><g><b/>feeling<b/>dizzy</g></r></p></e>
+	<e lm="have a roll in the hay"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>roll<b/>in<b/>the<b/>hay</l><r><g><b/>a<b/>roll<b/>in<b/>the<b/>hay</g></r></p></e>
+	<e lm="get in the quarter finals"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>in<b/>the<b/>quarter<b/>finals</l><r><g><b/>in<b/>the<b/>quarter<b/>finals</g></r></p></e>
+	<e lm="left Basque nationalism" a="eleka"><i>left<b/>Basque<b/>nationalism</i><par n="house__n"/>    </e>
+	<e lm="national high court's edict" a="eleka"><i>national<b/>high<b/>court's<b/>edict</i><par n="house__n"/>    </e>
+	<e lm="charge at" a="eleka"><i>charg</i><par n="liv/e__vblex"/>      <p>        <l><b/>at</l><r><g><b/>at</g></r></p></e>
+	<e lm="running of the bulls" a="eleka"><i>running</i><par n="house__n"/>      <p>        <l><b/>of<b/>the<b/>bulls</l><r><g><b/>of<b/>the<b/>bulls</g></r></p></e>
+	<e lm="Arganda del Rey" a="eleka"><i>Arganda<b/>del<b/>Rey</i><par n="Barcelona__np"/>    </e>
+	<e lm="Santa Clara" a="eleka"><i>Santa<b/>Clara</i><par n="Barcelona__np"/>    </e>
+	<e lm="Almería" a="eleka"><i>Almería</i><par n="Barcelona__np"/>    </e>
+	<e lm="european parliament" a="eleka"><i>european<b/>parliament</i><par n="house__n"/>    </e>
+	<e lm="reprove" a="eleka"><i>reprov</i><par n="liv/e__vblex"/>    </e>
+	<e lm="serve a sentence" a="eleka"><i>serv</i><par n="liv/e__vblex"/>      <p>        <l><b/>a<b/>sentence</l><r><g><b/>a<b/>sentence</g></r></p></e>
+	<e lm="life sentence" a="eleka"><i>life<b/>sentence</i><par n="house__n"/>    </e>
+	<e lm="sentence of life imprisonment" a="eleka"><i>sentence</i><par n="house__n"/>      <p>        <l><b/>of<b/>life<b/>imprisonment</l><r><g><b/>of<b/>life<b/>imprisonment</g></r></p></e>
+	<e lm="intoxicated" a="eleka"><i>intoxicated</i><par n="expensive__adj"/>    </e>
+	<e lm="blind with" a="eleka"><i>blind<b/>with</i><par n="expensive__adj"/>    </e>
+	<e lm="peasant" a="eleka"><i>peasant</i><par n="expensive__adj"/>    </e>
+	<e lm="drive drunk" a="eleka"><i>dr</i><par n="dr/ive__vblex"/>      <p>        <l><b/>drunk</l><r><g><b/>drunk</g></r></p></e>
+	<e lm="formality" a="eleka"><i>formalit</i><par n="bab/y__n"/>    </e>
+	<e lm="labour reform" a="eleka"><i>labour<b/>reform</i><par n="house__n"/>    </e>
+	<e lm="start to process" a="eleka"><i>start</i><par n="accept__vblex"/>      <p>        <l><b/>to<b/>process</l><r><g><b/>to<b/>process</g></r></p></e>
+	<e lm="decalogue" a="eleka"><i>decalogue</i><par n="house__n"/>    </e>
+	<e lm="from Hondarribia" a="eleka"><i>from<b/>Hondarribia</i><par n="expensive__adj"/>    </e>
+	<e lm="txuri urdin" a="eleka"><i>txuri<b/>urdin</i><par n="expensive__adj"/>    </e>
+	<e lm="increase of capital" a="eleka"><i>increase</i><par n="house__n"/>      <p>        <l><b/>of<b/>capital</l><r><g><b/>of<b/>capital</g></r></p></e>
+	<e lm="anti-smoking law" a="eleka"><i>anti-smoking<b/>law</i><par n="house__n"/>    </e>
+	<e lm="anti-smoking campaign" a="eleka"><i>anti-smoking<b/>campaign</i><par n="house__n"/>    </e>
+	<e lm="tour of Spain" a="eleka"><i>tour</i><par n="house__n"/>      <p>        <l><b/>of<b/>Spain</l><r><g><b/>of<b/>Spain</g></r></p></e>
+	<e lm="without respite" a="eleka"><i>without<b/>respite</i><par n="maybe__adv"/>    </e>
+	<e lm="give no respite" a="eleka"><i>g</i><par n="g/ive__vblex"/>      <p>        <l><b/>no<b/>respite</l><r><g><b/>no<b/>respite</g></r></p></e>
+	<e lm="give respite" a="eleka"><i>g</i><par n="g/ive__vblex"/>      <p>        <l><b/>respite</l><r><g><b/>respite</g></r></p></e>
+	<e lm="let up from time to time" a="eleka"><i>let</i><par n="cut__vblex"/>      <p>        <l><b/>up<b/>from<b/>time<b/>to<b/>time</l><r><g><b/>up<b/>from<b/>time<b/>to<b/>time</g></r></p></e>
+	<e lm="tennis tournament" a="eleka"><i>tennis<b/>tournament</i><par n="house__n"/>    </e>
+	<e lm="olympic tournament" a="eleka"><i>olympic<b/>tournament</i><par n="house__n"/>    </e>
+	<e lm="team tournament" a="eleka"><i>team<b/>tournament</i><par n="house__n"/>    </e>
+	<e lm="tennis match" a="eleka"><i>tennis<b/>match</i><par n="house__n"/>    </e>
+	<e lm="quarter-finals" a="eleka"><i>quarter-finals</i><par n="personnel__n"/>    </e>
+	<e lm="men's double" a="eleka"><i>men's<b/>double</i><par n="house__n"/>    </e>
+	<e lm="women's double" a="eleka"><i>women's<b/>double</i><par n="house__n"/>    </e>
+	<e lm="speed" a="eleka"><i>speed</i><par n="house__n"/>    </e>
+	<e lm="be worth it">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>worth<b/>it</l><r><g><b/>worth<b/>it</g></r></p></e>
+	<e lm="be worth to know">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>worth<b/>to<b/>know</l><r><g><b/>worth<b/>to<b/>know</g></r></p></e>
+	<e lm="at good cost" a="eleka"><i>at<b/>good<b/>cost</i><par n="maybe__adv"/>    </e>
+	<e lm="today it must" a="eleka"><i>today<b/>it<b/>must</i><par n="after__cnjadv"/>    </e>
+	<e lm="validation" a="eleka"><i>validation</i><par n="house__n"/>    </e>
+	<e lm="official school of languages" a="eleka"><i>official<b/>school</i><par n="house__n"/>      <p>        <l><b/>of<b/>languages</l><r><g><b/>of<b/>languages</g></r></p></e>
+	<e lm="school of languages" a="eleka"><i>school</i><par n="house__n"/>      <p>        <l><b/>of<b/>languages</l><r><g><b/>of<b/>languages</g></r></p></e>
+	<e lm="North Ossetia" a="eleka"><i>North<b/>Ossetia</i><par n="Barcelona__np"/>    </e>
+	<e lm="Alania" a="eleka"><i>Alania</i><par n="Barcelona__np"/>    </e>
+	<e lm="Tamaulipas" a="eleka"><i>Tamaulipas</i><par n="Barcelona__np"/>    </e>
+	<e lm="Palencia" a="eleka"><i>Palencia</i><par n="Barcelona__np"/>    </e>
+	<e lm="Morlans" a="eleka"><i>Morlans</i><par n="Barcelona__np"/>    </e>
+	<e lm="Urola Kosta" a="eleka"><i>Urola<b/>Kosta</i><par n="Barcelona__np"/>    </e>
+	<e lm="Gros" a="eleka"><i>Gros</i><par n="Barcelona__np"/>    </e>
+	<e lm="Goierri" a="eleka"><i>Goierri</i><par n="Barcelona__np"/>    </e>
+	<e lm="Legazpi" a="eleka"><i>Legazpi</i><par n="Barcelona__np"/>    </e>
+	<e lm="Errenteria" a="eleka"><i>Errenteria</i><par n="Barcelona__np"/>    </e>
+	<e lm="Talanquera" a="eleka"><i>Talanquera</i><par n="Barcelona__np"/>    </e>
+	<e lm="Sardinero" a="eleka"><i>Sardinero</i><par n="Barcelona__np"/>    </e>
+	<e lm="Guadalajara" a="eleka"><i>Guadalajara</i><par n="Barcelona__np"/>    </e>
+	<e lm="Lezo" a="eleka"><i>Lezo</i><par n="Barcelona__np"/>    </e>
+	<e lm="Velilla de San Antonio" a="eleka"><i>Velilla<b/>de<b/>San<b/>Antonio</i><par n="Barcelona__np"/>    </e>
+	<e lm="ex" a="eleka"><i>ex</i><par n="expensive__adj"/>    </e>
+	<e lm="signpost" a="eleka"><i>signpost</i><par n="accept__vblex"/>    </e>
+	<e lm="pedestrian" a="eleka"><i>pedestrian</i><par n="expensive__adj"/>    </e>
+	<e lm="gastronomic" a="eleka"><i>gastronomic</i><par n="expensive__adj"/>    </e>
+	<e lm="gastronomy" a="eleka"><i>gastronom</i><par n="bab/y__n"/>    </e>
+	<e lm="gastronome" a="eleka"><i>gastronome</i><par n="expensive__adj"/>    </e>
+	<e lm="left behind" a="eleka"><i>left<b/>behind</i><par n="expensive__adj"/>    </e>
+	<e lm="be left behind">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>left<b/>behind</l><r><g><b/>left<b/>behind</g></r></p></e>
+	<e lm="unclaimed letter" a="eleka"><i>unclaimed<b/>letter</i><par n="house__n"/>    </e>
+	<e lm="lean out" a="eleka"><i>lean</i><par n="accept__vblex"/>      <p>        <l><b/>out</l><r><g><b/>out</g></r></p></e>
+	<e lm="goring" a="eleka"><i>goring</i><par n="house__n"/>    </e>
+	<e lm="be gored">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>gored</l><r><g><b/>gored</g></r></p></e>
+	<e lm="traumatic brain injury" a="eleka"><i>traumatic<b/>brain<b/>injur</i><par n="bab/y__n"/>    </e>
+	<e lm="intracranial" a="eleka"><i>intracranial</i><par n="expensive__adj"/>    </e>
+	<e lm="face-to-face" a="eleka"><i>face-to-face</i><par n="expensive__adj"/>    </e>
+	<e lm="eyewitness" a="eleka"><i>eyewitness</i><par n="access__n"/>    </e>
+	<e lm="death cause" a="eleka"><i>death<b/>cause</i><par n="house__n"/>    </e>
+	<e lm="horn wound" a="eleka"><i>horn<b/>wound</i><par n="house__n"/>    </e>
+	<e lm="bull's horn wound" a="eleka"><i>bull's<b/>horn<b/>wound</i><par n="house__n"/>    </e>
+	<e lm="bullfighting party" a="eleka"><i>bullfighting<b/>part</i><par n="bab/y__n"/>    </e>
+	<e lm="be hit by">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>hit<b/>by</l><r><g><b/>hit<b/>by</g></r></p></e>
+	<e lm="fenced" a="eleka"><i>fenced</i><par n="expensive__adj"/>    </e>
+	<e lm="fence in" a="eleka"><i>fenc</i><par n="liv/e__vblex"/>      <p>        <l><b/>in</l><r><g><b/>in</g></r></p></e>
+	<e lm="a short" a="eleka"><i>a<b/>short</i><par n="long/__adj"/>    </e>
+	<e lm="civil defence" a="eleka"><i>civil<b/>defence</i><par n="house__n"/>    </e>
+	<e lm="data protection" a="eleka"><i>data<b/>protection</i><par n="house__n"/>    </e>
+	<e lm="police protection" a="eleka"><i>police<b/>protection</i><par n="house__n"/>    </e>
+	<e lm="intensive care unit" a="eleka"><i>intensive<b/>care<b/>unit</i><par n="house__n"/>    </e>
+	<e lm="mobile intensive care unit" a="eleka"><i>mobile<b/>intensive<b/>care<b/>unit</i><par n="house__n"/>    </e>
+	<e lm="bullfight with young bulls" a="eleka"><i>bullfight</i><par n="house__n"/>      <p>        <l><b/>with<b/>young<b/>bulls</l><r><g><b/>with<b/>young<b/>bulls</g></r></p></e>
+	<e lm="planned" a="eleka"><i>planned</i><par n="expensive__adj"/>    </e>
+	<e lm="sign of mouring" a="eleka"><i>sign</i><par n="house__n"/>      <p>        <l><b/>of<b/>mouring</l><r><g><b/>of<b/>mouring</g></r></p></e>
+	<e lm="indie" a="eleka"><i>indie</i><par n="expensive__adj"/>    </e>
+	<e lm="be a disappointment">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>a<b/>disappointment</l><r><g><b/>a<b/>disappointment</g></r></p></e>
+	<e lm="feel dizzy" a="eleka"><i>fe</i><par n="fe/el__vblex"/>      <p>        <l><b/>dizzy</l><r><g><b/>dizzy</g></r></p></e>
+	<e lm="in the middle of" a="eleka"><i>in<b/>the<b/>middle<b/>of</i><par n="at__pr"/>    </e>
+	<e lm="retention" a="eleka"><i>retention</i><par n="house__n"/>    </e>
+	<e lm="suspender belt" a="eleka"><i>suspender<b/>belt</i><par n="house__n"/>    </e>
+	<e lm="league start" a="eleka"><i>league<b/>start</i><par n="house__n"/>    </e>
+	<e lm="league leader" a="eleka"><i>league<b/>leader</i><par n="house__n"/>    </e>
+	<e lm="ikastola" a="eleka"><i>ikastola</i><par n="house__n"/>    </e>
+	<e lm="be due to">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>due<b/>to</l><r><g><b/>due<b/>to</g></r></p></e>
+	<e lm="follower" a="eleka"><i>follower</i><par n="expensive__adj"/>    </e>
+	<e lm="blinding" a="eleka"><i>blinding</i><par n="expensive__adj"/>    </e>
+	<e lm="blinding" a="eleka"><i>blinding</i><par n="house__n"/>    </e>
+	<e lm="blinding light" a="eleka"><i>blinding<b/>light</i><par n="house__n"/>    </e>
+	<e lm="blinding headache" a="eleka"><i>blinding<b/>headache</i><par n="house__n"/>    </e>
+	<e lm="hard-working" a="eleka"><i>hard-working</i><par n="expensive__adj"/>    </e>
+	
+	
+	
+
+	
+	
+	
+	
+        
+
+
+
+
+	
+
+
+  <e lm="go through">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>through</l><r><g><b/>through</g></r></p></e>
 
 
 
@@ -21461,7 +22658,6 @@
     <e lm="forehead"><i>forehead</i><par n="house__n"/>    </e>
     <e lm="pelvis"><i>pelvis</i><par n="access__n"/>    </e>
     <e lm="jaw"><i>jaw</i><par n="house__n"/>    </e>
-    <e lm="meeting point"><i>meeting<b/>point</i><par n="access__n"/>    </e>
     <e lm="odour"><i>od</i><par n="o_ou"/><i>r</i><par n="access__n"/>    </e>
     <e lm="cock"><i>cock</i><par n="house__n"/>    </e>
     <e lm="radish"><i>radish</i><par n="access__n"/>    </e>
@@ -30404,7 +31600,7 @@
     <e lm="approximately"><i>approximately</i><par n="maybe__adv"/>    </e>
     <e lm="around"><i>around</i><par n="maybe__adv"/>    </e>
     <e lm="as a matter of fact"><i>as<b/>a<b/>matter<b/>of<b/>fact</i><par n="maybe__adv"/>    </e>
-    <e lm="as soon as"><i>as<b/>soon<b/>as</i><par n="maybe__adv"/>    </e>
+    <!-- eleka <e lm="as soon as"><i>as<b/>soon<b/>as</i><par n="maybe__adv"/>    </e>-->
     <e lm="as well"><i>as<b/>well</i><par n="maybe__adv"/>    </e>
     <e lm="aside"><i>aside</i><par n="maybe__adv"/>    </e>
     <e lm="askance"><i>askance</i><par n="maybe__adv"/>    </e>
@@ -38500,6 +39696,8 @@
     <e lm="Zidane"><i>Zidane</i><par n="Smith__np"/></e>
     <e lm="Zurbarán"><i>Zurbarán</i><par n="Smith__np"/></e>
 
+    <e lm="taking" r="RL"><i>taking</i><par n="house__n"/></e>
+    <e lm="takeover"><i>takeover</i><par n="house__n"/></e>
     <e lm="meeting room"><i>meeting<b/>room</i><par n="house__n"/></e>
 <e lm="fade"><i>fad</i><par n="liv/e__vblex"/></e>
 <e lm="welcome"><i>welcom</i><par n="liv/e__vblex" /></e>
@@ -39632,6 +40830,7 @@
     <e lm="two-phase"><i>two-phase</i><par n="expensive__adj"/>    </e>
     <e lm="morphemic"><i>morphemic</i><par n="expensive__adj"/>    </e>
     <e lm="Jacobite">	  <i>Jacobite</i> 	  <par n="expensive__adj"/> 	</e>
+    <e lm="record">	  <i>record</i> 	  <par n="expensive__adj"/> 	</e>
 <e lm="windy"><i>wind</i><par n="happ/y__adj"/></e>
 <e lm="silty"><i>silt</i><par n="happ/y__adj"/></e>
 <e lm="hasty"><i>hast</i><par n="happ/y__adj"/></e>

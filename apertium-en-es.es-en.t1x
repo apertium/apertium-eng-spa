@@ -431,6 +431,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <attr-item tags="num.ord"/>
       <attr-item tags="num.percent"/>
       <attr-item tags="num.mon"/>
+      <attr-item tags="num.time"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -2697,7 +2698,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<out>
 	  <chunk name="pr_num" case="caseFirstWord">
 	    <tags>
-	      <tag><lit-tag v="ADV"/></tag>
+	      <tag><lit-tag v="adv"/></tag>
 	    </tags>
 	    <lu>   
 	      <lit v="at"/>
@@ -2709,6 +2710,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>  
 	  </chunk>
 	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>  
       </action>
     </rule>
 

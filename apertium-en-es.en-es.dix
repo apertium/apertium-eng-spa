@@ -82,6 +82,7 @@
     <sdef n="web" /> 
     <sdef n="apos" /> 
     <sdef n="percent" /> 
+    <sdef n="time"/>
     <sdef n="guio" /> 
     <sdef n="past" /> 
     <sdef n="sep" /> 
@@ -14873,9 +14874,11 @@
     <e>  <p><l>polarisation<s n="n"/></l><r>polarización<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="poste" c="telegraph pole"><p><l>pole<s n="n"/></l><r>poste<s n="n"/><s n="m"/></r></p></e>
     <e slr="polo D"><p><l>pole<s n="n"/></l><r>polo<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>police<s n="n"/><s n="pl"/></l><r>policía<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e>  <p><l>police<s n="n"/><s n="pl"/></l><r>policía<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL">  <p><l>police<s n="n"/><s n="pl"/></l><r>policía<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>police<s n="n"/><s n="pl"/></l><r>policía<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e>  <p><l>policeman<s n="n"/></l><r>policía<s n="n"/><s n="mf"/></r></p></e>
+    <e r="LR">  <p><l>policeman<s n="n"/></l><r>policía<s n="n"/><s n="mf"/></r></p></e>
+    <e r="RL">  <p><l>policeman<s n="n"/><s n="pl"/></l><r>policía<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     <e r="LR"><p><l>policewoman<s n="n"/></l><r>policía<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" srl="policeman D"><p><l>policeman<s n="n"/></l><r>guardia<s n="n"/><s n="mf"/></r></p></e>
     <e srl="policy"><p><l>policy<s n="n"/></l><r>política<s n="n"/><s n="f"/></r></p></e>
@@ -22262,7 +22265,7 @@
     <e r="LR"><p><l>maybe<s n="adv"/></l><r>quizás<s n="adv"/></r></p></e>
     <e r="LR"><p><l>meantime<s n="adv"/></l><r>mientras<b/>tanto<s n="adv"/></r></p></e>
     <e>  <p><l>meanwhile<s n="adv"/></l><r>entretanto<s n="adv"/></r></p></e>
-    <e r="RL">  <p><l>meanwhile<s n="adv"/></l><r>mientras<s n="adv"/></r></p></e>
+   <!-- <e r="RL">  <p><l>meanwhile<s n="adv"/></l><r>mientras<s n="adv"/></r></p></e> -->
     <e>  <p><l>mentally<s n="adv"/></l><r>mentalmente<s n="adv"/></r></p></e>
     <e>  <p><l>merely<s n="adv"/></l><r>meramente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>mildly<s n="adv"/></l><r>un<b/>poco<s n="adv"/></r></p></e>
@@ -22464,6 +22467,9 @@
     <e r="LR"><p><l>rarely<s n="adv"/></l><r>raramente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>rather<s n="adv"/></l><r>bastante<s n="adv"/></r></p></e>
     <e r="LR"><p><l>readily<s n="adv"/></l><r>fácilmente<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>rather<s n="preadv"/></l><r>más<b/>bien<s n="preadv"/></r></p></e>
+    <e r="RL"><p><l>rather<s n="adv"/></l><r>más<b/>bien<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>rather<s n="preadv"/></l><r>bastante<s n="preadv"/></r></p></e>
     <e>  <p><l>really<s n="adv"/></l><r>realmente<s n="adv"/></r></p></e>
     <e>  <p><l>reasonably<s n="adv"/></l><r>razonablemente<s n="adv"/></r></p></e>
     <e>  <p><l>recently<s n="adv"/></l><r>recientemente<s n="adv"/></r></p></e>
@@ -22984,6 +22990,7 @@
     <e r="RL"><p><l>in<b/>front<b/>of<s n="pr"/></l><r>ante<s n="pr"/></r></p></e>
     <e>  <p><l>in<b/>front<b/>of<s n="pr"/></l><r>delante<b/>de<s n="pr"/></r></p></e>
     <e r="RL"><p><l>in<b/>front<b/>of<s n="pr"/></l><r>en<b/>frente<b/>de<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>in<b/>front<b/>of<s n="pr"/></l><r>frente<b/>a<s n="pr"/></r></p></e>
     <e>  <p><l>in<b/>regard<b/>to<s n="pr"/></l><r>con<b/>relación<b/>a<s n="pr"/></r></p></e>
     <e>  <p><l>in<b/>spite<b/>of<s n="pr"/></l><r>a<b/>pesar<b/>de<s n="pr"/></r></p></e>
     <e r="RL"><p><l>in<b/>spite<b/>of<s n="pr"/></l><r>pese<b/>a<s n="pr"/></r></p></e>
@@ -23062,6 +23069,7 @@
 <!-- numerals -->
     <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e>       <re>[0-9]+([.,][0-9]+)?%</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
+    <e>       <re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM|h)</re><p><l><s n="num"/><s n="time"/></l><r><s n="num"/><s n="time"/></r></p></e>
     <e>  <p><l>ten<s n="num"/></l><r>diez<s n="num"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>ten<b/>hundred<s n="num"/></l><r>mil<s n="num"/><s n="mf"/></r></p></e>
     <e>  <p><l>ten<b/>thousand<s n="num"/></l><r>diez<b/>mil<s n="num"/><s n="mf"/></r></p></e>
@@ -23071,11 +23079,18 @@
     <e>  <p><l>one<b/>million<s n="num"/></l><r>un<b/>millón<s n="num"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>one<b/>million<s n="num"/></l><r>un<b/>millón<b/>de<s n="num"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>million<s n="num"/></l><r>millón<b/>de<s n="num"/><s n="mf"/></r></p></e>
-    <e>  <p><l>billion<s n="num"/></l><r>billón<s n="num"/><s n="mf"/></r></p></e>
+    <e r="LR">  <p><l>billion<s n="num"/></l><r>billón<s n="num"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>a<b/>billion<s n="num"/></l><r>un<b/>billón<s n="num"/><s n="mf"/></r></p></e>
-    <e>  <p><l>one<b/>billion<s n="num"/></l><r>un<b/>billón<s n="num"/><s n="mf"/></r></p></e>
-    <e r="RL"><p><l>one<b/>billion<s n="num"/></l><r>un<b/>billón<b/>de<s n="num"/><s n="mf"/></r></p></e>
-    <e r="RL"><p><l>billion<s n="num"/></l><r>billón<b/>de<s n="num"/><s n="mf"/></r></p></e>
+    <e r="LR">  <p><l>one<b/>billion<s n="num"/></l><r>un<b/>billón<s n="num"/><s n="mf"/></r></p></e>
+   <!-- <e r="RL"><p><l>one<b/>billion<s n="num"/></l><r>un<b/>billón<b/>de<s n="num"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>billion<s n="num"/></l><r>billón<b/>de<s n="num"/><s n="mf"/></r></p></e> -->
+
+    <e>  <p><l>trillion<s n="num"/></l><r>billón<s n="num"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>a<b/>trillion<s n="num"/></l><r>un<b/>billón<s n="num"/><s n="mf"/></r></p></e>
+    <e>  <p><l>one<b/>trillion<s n="num"/></l><r>un<b/>billón<s n="num"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>one<b/>trillion<s n="num"/></l><r>un<b/>billón<b/>de<s n="num"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>trillion<s n="num"/></l><r>billón<b/>de<s n="num"/><s n="mf"/></r></p></e>
+
     <e r="LR"><p><l>one<s n="num"/></l><r>un<s n="num"/><s n="GD"/></r></p></e>
     <e>  <p><l>two</l><r>dos</r></p><par n="three__num"/></e>
     <e>  <p><l>three</l><r>tres</r></p><par n="three__num"/></e>
@@ -32721,6 +32736,10 @@
 <e><p><l>virginity<s n="n"/></l><r>virginidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>volubility<s n="n"/></l><r>volubilidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>voracity<s n="n"/></l><r>voracidad<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>wait<s n="n"/></l><r>espera<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>waiting<s n="adv"/></l><r>a<b/>la<b/>espera<s n="adv"/></r></p></e>
+<e r="RL"><p><l>waiting<b/>for<s n="pr"/></l><r>a<b/>la<b/>espera<b/>de<s n="pr"/></r></p></e>
+<e><p><l>waiting<b/>for<s n="pr"/></l><r>esperando<b/>a<s n="pr"/></r></p></e>
     <e><p><l>cartilaginous<s n="adj"/></l><r>cartilaginoso<s n="adj"/></r></p></e>
     <e><p><l>cavalier<s n="adj"/></l><r>caballero<s n="adj"/></r></p></e>
     <e><p><l>characterologic<s n="adj"/></l><r>caracterológico<s n="adj"/></r></p></e>

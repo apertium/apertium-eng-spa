@@ -3697,7 +3697,7 @@
     </def-macro>
 
 
-    <def-macro n="firstWord" npar="1">
+    <def-macro n="firstWord" npar="1" c="modified by mginesti 11/nov/10">
       <choose>
 	<when>
 	  <test>
@@ -3731,11 +3731,27 @@
 	    </otherwise>
 	  </choose>
 	</when>
-	<otherwise>
-	  <let>
-	    <var n="caseFirstWord"/>
-	    <lit v="aa"/>
-	  </let>
+	<otherwise><!--when it is np or n.acr -->
+	  <choose>
+	    <when>
+	      <test>
+		<equal> 
+		  <var n="EOS"/>
+		  <lit v="true"/>
+		</equal> 
+	      </test>
+	      <let>
+		<var n="caseFirstWord"/>
+		<lit v="Aa"/>
+	      </let>
+	    </when>
+	    <otherwise> 
+	      <let>
+		<var n="caseFirstWord"/>
+		<lit v="aa"/>
+	      </let>
+	    </otherwise>
+	  </choose> 
 	</otherwise>
       </choose>
       <let>

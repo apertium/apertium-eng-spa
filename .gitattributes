@@ -33,6 +33,8 @@
 /es-en-supervised.make -text
 /es-en-unsupervised.make -text
 /es-en.prob -text svneol=unset#unset
+es-tagger-data/es.tagged -text
+es-tagger-data/es.tagged.txt -text
 incubator/en-es-please-check.dix -text
 incubator/en-es-to-translate.dix -text
 incubator/en-unknown.txt -text

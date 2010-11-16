@@ -17838,7 +17838,7 @@
     <e>  <p><l>colloquial<s n="adj"/></l><r>coloquial<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>colonial<s n="adj"/></l><r>colonial<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>comfortable<s n="adj"/></l><r>cómodo<s n="adj"/></r></p></e>
-    <e>  <p><l>commercial<s n="adj"/></l><r>comercial<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="commercial D">  <p><l>commercial<s n="adj"/></l><r>comercial<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>common<s n="adj"/></l><r>común<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>common<s n="adj"/></l><r>común<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>communal<s n="adj"/></l><r>comunal<s n="adj"/><s n="mf"/></r></p></e>
@@ -32962,13 +32962,19 @@
     <e a="imaxinsoftware"><p><l>arabo-andalusian<s n="adj"/></l><r>arábigo-andaluz<s n="adj"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>retailer<s n="n"/></l><r>minorista<s n="n"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>retail<s n="adj"/></l><r>minorista<s n="adj"/><s n="mf"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>CNE<s n="n"/><s n="acr"/></l><r>CNE<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>CNE<s n="n"/><s n="acr"/></l><r>CNE<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>board<g><b/>of<b/>directors</g><s n="n"/></l><r>consejo<g><b/>de<b/>administración</g><s n="n"/><s n="m"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>government<g><b/>procurement</g><s n="n"/></l><r>contratación<g><b/>administrativa</g><s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>government<b/>procurement<s n="n"/></l><r>contratación<g><b/>administrativa</g><s n="n"/><s n="f"/></r></p></e>
     <e srl="contracting D" a="imaxinsoftware"><p><l>contracting<s n="n"/></l><r>contratación<s n="n"/><s n="f"/></r></p></e>
     <e srl="hiring" a="imaxinsoftware"><p><l>contracting<s n="n"/></l><r>contratación<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Directorate<b/>General<b/>for<b/>Energy<b/>and<b/>Mines<s n="np"/><s n="al"/></l><r>Dirección<b/>General<b/>de<b/>Política<b/>Energética<b/>y<b/>Minas<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>gas<s n="adj"/></l><r>gasista<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>advisory<b/>council<s n="n"/></l><r>consejo<g><b/>consultivo</g><s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>reply<s n="n"/></l><r>contestación<s n="n"/><s n="f"/></r></p></e>
+    <e srl="trading" a="imaxinsoftware"><p><l>trading<s n="adj"/></l><r>comercial<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>trading<b/>company<s n="n"/></l><r>comercializador<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>trading<b/>company<s n="n"/></l><r>comercializador<s n="n"/><s n="f"/></r></p></e>
+    
     
   </section>
 

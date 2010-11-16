@@ -12891,7 +12891,7 @@
     <e>  <p><l>filter<s n="n"/></l><r>filtro<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>final<s n="n"/></l><r>final<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>finalist<s n="n"/></l><r>finalista<s n="n"/><s n="mf"/></r></p></e>
-    <e>  <p><l>finance<s n="n"/></l><r>finanza<s n="n"/><s n="f"/></r></p></e>
+    <e slr="finanza D">  <p><l>finance<s n="n"/></l><r>finanza<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>finding<s n="n"/></l><r>hallazgo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fine<s n="n"/></l><r>multa<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>fine<s n="n"/></l><r>multa<s n="n"/><s n="f"/></r></p></e>
@@ -13039,7 +13039,7 @@
     <e r="LR"><p><l>functioning<s n="n"/></l><r>funcionamiento<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fundamentalism<s n="n"/></l><r>fundamentalismo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fundamentalist<s n="n"/></l><r>fundamentalista<s n="n"/><s n="mf"/></r></p></e>
-    <e>  <p><l>funding<s n="n"/></l><r>financiación<s n="n"/><s n="f"/></r></p></e>
+    <e slr="financiación">  <p><l>finance<s n="n"/></l><r>financiación<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>funding<s n="n"/></l><r>financiación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>funeral<s n="n"/></l><r>funeral<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fungus<s n="n"/></l><r>hongo<s n="n"/><s n="m"/></r></p></e>
@@ -32939,7 +32939,6 @@
     <e><p><l>mongolian<s n="adj"/></l><r>mongol<s n="adj"/></r></p></e>
     
     <e r="RL" a="imaxinsoftware"><p><l>limit<s n="vblex"/></l><r>acotar<s n="vblex"/></r></p></e>
-    <e r="RL" a="imaxinsoftware"><p><l>supporting<s n="vblex"/></l><r>acotar<s n="vblex"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>supporting<s n="adj"/></l><r>acreditativo<s n="adj"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>supporting<s n="adj"/></l><r>de<b/>apoyo<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>DSL<s n="n"/><s n="acr"/></l><r>ADSL<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
@@ -32959,7 +32958,15 @@
     <e r="RL" a="imaxinsoftware"><p><l>apocalypse<s n="n"/><s n="ND"/></l><r>apocalipsis<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>arabo-andalusian<s n="adj"/></l><r>arábigoandaluz<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>arabo-andalusian<s n="adj"/></l><r>arábigo-andaluz<s n="adj"/></r></p></e>
-    
+    <e r="RL" a="imaxinsoftware"><p><l>retailer<s n="n"/></l><r>minorista<s n="n"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>retail<s n="adj"/></l><r>minorista<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>CNE<s n="n"/><s n="acr"/></l><r>CNE<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>board<g><b/>of<b/>directors</g><s n="n"/></l><r>consejo<g><b/>de<b/>administración</g><s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>government<g><b/>procurement</g><s n="n"/></l><r>contratación<g><b/>administrativa</g><s n="n"/><s n="f"/></r></p></e>
+    <e srl="contracting D" a="imaxinsoftware"><p><l>contracting<s n="n"/></l><r>contratación<s n="n"/><s n="f"/></r></p></e>
+    <e srl="hiring" a="imaxinsoftware"><p><l>contracting<s n="n"/></l><r>contratación<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Directorate<b/>General<b/>for<b/>Energy<b/>and<b/>Mines<s n="np"/><s n="al"/></l><r>Dirección<b/>General<b/>de<b/>Política<b/>Energética<b/>y<b/>Minas<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>gas<s n="adj"/></l><r>gasista<s n="adj"/><s n="mf"/></r></p></e>
     
   </section>
 

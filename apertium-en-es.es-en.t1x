@@ -352,7 +352,6 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <cat-item tags="cnjadv"/>
     </def-cat>
 
-
     <def-cat n="para">
       <cat-item lemma="para" tags="pr"/>
     </def-cat>
@@ -360,6 +359,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <def-cat n="de">
       <cat-item lemma="de" tags="pr"/>
     </def-cat>
+
     <def-cat n="porello">
       <cat-item lemma="por ello" tags="cnjadv"/>
     </def-cat>
@@ -380,8 +380,24 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <cat-item tags="sent"/>
     </def-cat>
 
-  <def-cat n="coma">
+    <def-cat n="coma">
       <cat-item tags="cm"/>
+    </def-cat>
+
+    <def-cat n="mes">
+      <cat-item lemma="enero" tags="n.m.sg"/>
+      <cat-item lemma="febrero" tags="n.m.sg"/>
+      <cat-item lemma="marzo" tags="n.m.sg"/>
+      <cat-item lemma="abril" tags="n.m.sg"/>
+      <cat-item lemma="mayo" tags="n.m.sg"/>
+      <cat-item lemma="junio" tags="n.m.sg"/>
+      <cat-item lemma="julio" tags="n.m.sg"/>
+      <cat-item lemma="agosto" tags="n.m.sg"/>
+      <cat-item lemma="septiembre" tags="n.m.sg"/>
+      <cat-item lemma="setiembre" tags="n.m.sg"/>
+      <cat-item lemma="octubre" tags="n.m.sg"/>
+      <cat-item lemma="noviembre" tags="n.m.sg"/>
+      <cat-item lemma="diciembre" tags="n.m.sg"/>
     </def-cat>
 
   </section-def-cats>
@@ -10764,9 +10780,6 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-
-
-
     <rule comment="REGLA: NO + INF (no jugar - not playing)">
       <pattern>
 	<pattern-item n="no"/>
@@ -10880,7 +10893,284 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</out>  
       </action>
     </rule>
+    
+    <rule comment="REGLA: PREP el NUM de MES de NUM (desde el 27 de diciembre de 2002- from 27 December 2002)">
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="el"/>
+	<pattern-item n="num"/>
+	<pattern-item n="de"/>
+	<pattern-item n="mes"/>
+	<pattern-item n="de"/>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>  	  
+	  <chunk name="pr" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="PREP"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk name="el_num_de_mes_de_ano">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="tags"/>
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>     
+	      <clip pos="5" side="tl" part="whole"/> 
+	    </lu>
+	    <b pos="6"/>
+	    <lu>     
+	      <clip pos="7" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>  
+	<call-macro n="f_bcond">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>  
+	<call-macro n="f_bcond">
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>  
+	<call-macro n="f_bcond">
+	  <with-param pos="5"/>
+	  <with-param pos="6"/>
+	</call-macro>  
+      </action>
+    </rule>
 
+    <rule comment="REGLA: el NUM de MES de NUM  (el 27 de diciembre de 2002 - On 27 December 2002)">
+      <pattern>
+	<pattern-item n="el"/>
+	<pattern-item n="num"/>
+	<pattern-item n="de"/>
+	<pattern-item n="mes"/>
+	<pattern-item n="de"/>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>  	  
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="adv"/></tag>
+	    </tags>
+	    <lu>
+	      <get-case-from pos="1">
+		<lit v="on"/>
+	      </get-case-from>
+	      <lit-tag v="adv"/>
+	    </lu>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk name="el_num_de_mes_de_ano">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="tags"/>
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>     
+	      <clip pos="4" side="tl" part="whole"/> 
+	    </lu>
+	    <b pos="5"/>
+	    <lu>     
+	      <clip pos="6" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>  
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>  
+	<call-macro n="f_bcond">
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>  
+      </action>
+    </rule>
+
+    <rule comment="REGLA: NUM de MES de NUM (27 de diciembre de 2002 - 27 December 2002)">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="de"/>
+	<pattern-item n="mes"/>
+	<pattern-item n="de"/>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>  
+	  <chunk name="num_de_mes_de_ano" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="tags"/>
+	    </lu> 
+	    <b pos="1"/>
+	    <lu>     
+	      <clip pos="3" side="tl" part="whole"/> 
+	    </lu>
+	    <b pos="4"/>
+	    <lu>     
+	      <clip pos="5" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>  
+	<call-macro n="f_bcond">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>  
+	<call-macro n="f_bcond">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>  
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PREP el NUM de MES (desde el 27 de diciembre - from 27 December)">
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="el"/>
+	<pattern-item n="num"/>
+	<pattern-item n="de"/>
+	<pattern-item n="mes"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>  	  
+	  <chunk name="pr" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="PREP"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk name="el_num_de_mes">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="tags"/>
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>     
+	      <clip pos="5" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>  
+	<call-macro n="f_bcond">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>  
+	<call-macro n="f_bcond">
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>  
+      </action>
+    </rule>
+
+    <rule comment="REGLA: el NUM de MES (el 27 de diciembre - On 27 December)">
+      <pattern>
+	<pattern-item n="el"/>
+	<pattern-item n="num"/>
+	<pattern-item n="de"/>
+	<pattern-item n="mes"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>  	  
+	  <chunk name="adv" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="adv"/></tag>
+	    </tags>
+	    <lu>
+	      <get-case-from pos="1">
+		<lit v="on"/>
+	      </get-case-from>
+	      <lit-tag v="adv"/>
+	    </lu>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk name="el_num_de_mes">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="tags"/>
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>     
+	      <clip pos="4" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>  
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>  
+      </action>
+    </rule>
+
+    <rule comment="REGLA: NUM de MES (27 de diciembre - 27 December)">
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="de"/>
+	<pattern-item n="mes"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>  
+	  <chunk name="num_de_mes" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="tags"/>
+	    </lu> 
+	    <b pos="1"/>
+	    <lu>     
+	      <clip pos="3" side="tl" part="whole"/> 
+	    </lu>
+	  </chunk>
+	</out>  
+	<call-macro n="f_bcond">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>  
+      </action>
+    </rule>
 
     <!--************************************ ALTRES ************************************************ -->
 

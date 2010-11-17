@@ -11692,7 +11692,7 @@
     <e>  <p><l>compassion<s n="n"/></l><r>compasión<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>compatibility<s n="n"/></l><r>compatibilidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>compatriot<s n="n"/></l><r>compatriota<s n="n"/><s n="mf"/></r></p></e>
-    <e>  <p><l>compensation<s n="n"/></l><r>indemnización<s n="n"/><s n="f"/></r></p></e>
+    <e slr="indemnización">  <p><l>compensation<s n="n"/></l><r>indemnización<s n="n"/><s n="f"/></r></p></e>
     <e slr="competencia"><p><l>competition<s n="n"/></l><r>competencia<s n="n"/><s n="f"/></r></p></e>
     <e slr="competición D"><p><l>competition<s n="n"/></l><r>competición<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>competitiveness<s n="n"/></l><r>competitividad<s n="n"/><s n="f"/></r></p></e>
@@ -11741,7 +11741,7 @@
     <e r="LR"><p><l>conduct<s n="n"/></l><r>conducta<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>conductivity<s n="n"/></l><r>conductividad<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>conductor<s n="n"/></l><r>director<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>conductor<s n="n"/></l><r>director<s n="n"/></r></p></e>
+    <e r="RL" srl="conductor"><p><l>conductor<s n="n"/></l><r>director<s n="n"/></r></p></e>
     <e>  <p><l>cone<s n="n"/></l><r>cono<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>confectionery<s n="n"/></l><r>pastelería<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>confederation<s n="n"/></l><r>confederación<s n="n"/><s n="f"/></r></p></e>
@@ -12263,7 +12263,7 @@
     <e><p><l>wind<b/>speed<s n="n"/></l><r>velocidad<g><b/>del<b/>viento</g><s n="n"/><s n="f"/></r></p></e>
     <e r="RL" srl="direction"><p><l>direction<s n="n"/></l><r>sentido<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>director<s n="n"/></l><r>director<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>director<s n="n"/></l><r>director<s n="n"/></r></p></e>
+    <e r="RL" srl="director D"><p><l>director<s n="n"/></l><r>director<s n="n"/></r></p></e>
     <e r="LR"><p><l>casting<b/>director<s n="n"/></l><r>director<g><b/>de<b/>casting</g><s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>casting<b/>director<s n="n"/></l><r>director<g><b/>de<b/>casting</g><s n="n"/></r></p></e>
     <e r="LR"><p><l>inspector<s n="n"/></l>  <r>inspector<s n="n"/><s n="GD"/></r></p></e>
@@ -13038,7 +13038,7 @@
     <e r="LR"><p><l>functioning<s n="n"/></l><r>funcionamiento<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fundamentalism<s n="n"/></l><r>fundamentalismo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fundamentalist<s n="n"/></l><r>fundamentalista<s n="n"/><s n="mf"/></r></p></e>
-    <e slr="financiación">  <p><l>finance<s n="n"/></l><r>financiación<s n="n"/><s n="f"/></r></p></e>
+    <e slr="financiación" srl="finance D">  <p><l>finance<s n="n"/></l><r>financiación<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>funding<s n="n"/></l><r>financiación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>funeral<s n="n"/></l><r>funeral<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fungus<s n="n"/></l><r>hongo<s n="n"/><s n="m"/></r></p></e>
@@ -14015,10 +14015,10 @@
     <e>  <p><l>mammal<s n="n"/></l><r>mamífero<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>man<s n="n"/></l><r>hombre<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>man<s n="n"/></l><r>varón<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>management<s n="n"/></l><r>administración<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="administración D"><p><l>management<s n="n"/></l><r>administración<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>management<s n="n"/><s n="sg"/></l><r>gestión<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" c="en masculí per defecte"><p><l>manager<s n="n"/></l><r>director<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL" c="en masculí per defecte"><p><l>manager<s n="n"/></l><r>director<s n="n"/></r></p></e>
+    <e r="RL" c="en masculí per defecte" srl="manager"><p><l>manager<s n="n"/></l><r>director<s n="n"/></r></p></e>
     <e r="RL"><p><l>manager<s n="n"/></l><r>responsable<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>mandator<s n="n"/></l><r>mandatario<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>mandator<s n="n"/></l><r>mandatario<s n="n"/></r></p></e>
@@ -14475,7 +14475,7 @@
     <e r="LR" slr="delito" c="Jur."><p><l>offence<s n="n"/></l><r>delito<s n="n"/><s n="m"/></r></p></e>
     <e slr="ofensa D"><p><l>offence<s n="n"/></l><r>ofensa<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>offer<s n="n"/></l><r>oferta<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>office<s n="n"/></l><r>oficina<s n="n"/><s n="f"/></r></p></e>
+    <e slr="oficina D">  <p><l>office<s n="n"/></l><r>oficina<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>officer<s n="n"/></l><r>agente<s n="n"/><s n="mf"/></r></p></e>
     <e>  <p><l>official<s n="n"/></l><r>oficial<s n="n"/><s n="mf"/></r></p></e>
     <e>  <p><l>officiality<s n="n"/></l><r>oficialidad<s n="n"/><s n="f"/></r></p></e>
@@ -15652,7 +15652,7 @@
     <e>  <p><l>secrecy<s n="n"/></l><r>clandestinidad<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>secret<s n="n"/></l><r>entresijo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>secret<s n="n"/></l><r>secreto<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>secretariat<s n="n"/></l><r>secretariado<s n="n"/><s n="m"/></r></p></e>
+    <e slr="secretariado">  <p><l>secretariat<s n="n"/></l><r>secretariado<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>secretary<s n="n"/></l><r>secretario<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>secretary<s n="n"/></l><r>secretario<s n="n"/></r></p></e>
     <e r="LR"><p><l>Secretary<g><b/>of<b/>State</g><s n="n"/></l><r>Secretario<g><b/>de<b/>Estado</g><s n="n"/><s n="GD"/></r></p></e>
@@ -27948,7 +27948,7 @@
         <e>  <p>  <l>rewrite<s n="vblex"/></l><r>reescribir<s n="vblex"/></r></p></e>
         <e>  <p>  <l>rewriting<s n="n"/></l><r>reescritura<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>referential<s n="adj"/></l><r>referencial<s n="adj"/><s n="mf"/></r></p></e>
-        <e>  <p>  <l>refining<s n="n"/></l><r>refinado<s n="n"/><s n="m"/></r></p></e>
+        <e slr="refinado D">  <p>  <l>refining<s n="n"/></l><r>refinado<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>refinement<s n="n"/></l><r>refinamiento<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>reflectance<s n="n"/></l><r>reflectancia<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>reflector<s n="n"/></l><r>reflector<s n="n"/><s n="m"/></r></p></e>
@@ -33027,9 +33027,33 @@
     <e a="imaxinsoftware"><p><l>Fernández<b/>Rozado<s n="np"/><s n="cog"/></l><r>Fernández<b/>Rozado<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Peón<b/>Torre<s n="np"/><s n="cog"/></l><r>Peón<b/>Torre<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><i>José<b/>Sierra<s n="np"/><s n="ant"/></i></e>
-    
-    
-    
+    <e a="imaxinsoftware"><i>Joan<b/>Batalla<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Mª<b/>Dolores<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>María<b/>Dolores<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Abad<b/>Corrales<s n="np"/><s n="cog"/></l><r>Abad<b/>Corrales<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Sánchez<b/>de<b/>Tembleque<s n="np"/><s n="cog"/></l><r>Sánchez<b/>de<b/>Tembleque<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Samaniego<b/>Guerra<s n="np"/><s n="cog"/></l><r>Samaniego<b/>Guerra<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><i>Javier<b/>Notario<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Pedro<b/>Miras<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Mamen<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Gómez<b/>de<b/>Barreda<s n="np"/><s n="cog"/></l><r>Gómez<b/>de<b/>Barreda<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Avedillo<b/>Carretero<s n="np"/><s n="cog"/></l><r>Avedillo<b/>Carretero<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Salinas<b/>la<b/>Casta<s n="np"/><s n="cog"/></l><r>Salinas<b/>la<b/>Casta<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>organisation<b/>chart<s n="n"/></l><r>organigrama<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>deputy<b/>director<s n="n"/></l><r>subdirector<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>deputy<b/>director<s n="n"/></l><r>subdirector<s n="n"/></r></p></e>
+    <e slr="secretaría" srl="office D" a="imaxinsoftware"><p><l>office<s n="n"/></l><r>secretaría<s n="n"/><s n="f"/></r></p></e>
+    <e slr="secretaría D" srl="secretariat" a="imaxinsoftware"><p><l>secretariat<s n="n"/></l><r>secretaría<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>assistant<b/>secretary<s n="n"/></l><r>vicesecretario<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>assistant<b/>secretary<s n="n"/></l><r>vicesecretario<s n="n"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>vice<b/>secretary<s n="n"/></l><r>vicesecretario<s n="n"/><s n="GD"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>vicesecretary<s n="n"/></l><r>vicesecretario<s n="n"/><s n="GD"/></r></p></e>
+    <e slr="compensación D" a="imaxinsoftware"><p><l>compensation<s n="n"/></l><r>compensación<s n="n"/><s n="f"/></r></p></e>
+    <e slr="gerencia" a="imaxinsoftware"><p><l>management<s n="n"/></l><r>gerencia<s n="n"/><s n="f"/></r></p></e>
+    <e slr="refino" a="imaxinsoftware"><p><l>refining<s n="n"/></l><r>refino<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>email<s n="n"/></l><r>correo<b/>electrónico<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>email<b/>address<s n="n"/></l><r>dirección<g><b/>de<b/>correo<b/>electrónico</g><s n="n"/><s n="f"/></r></p></e>
+    <e srl="financing" a="imaxinsoftware"><p><l>financing<s n="n"/></l><r>financiación<s n="n"/><s n="f"/></r></p></e>
     
   </section>
 

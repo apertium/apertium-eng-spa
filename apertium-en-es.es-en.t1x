@@ -11031,7 +11031,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <lu>     
 	      <clip pos="3" side="tl" part="whole"/> 
 	    </lu>
-	    <b pos="4"/>
+	    <b pos="3"/>
 	    <lu>     
 	      <clip pos="5" side="tl" part="whole"/> 
 	    </lu>
@@ -11042,8 +11042,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="3"/>
 	</call-macro>  
 	<call-macro n="f_bcond">
-	  <with-param pos="3"/>
 	  <with-param pos="4"/>
+	  <with-param pos="5"/>
 	</call-macro>  
       </action>
     </rule>

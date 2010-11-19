@@ -11218,7 +11218,7 @@
     <e>  <p><l>brothel<s n="n"/></l><r>burdel<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>brother<s n="n"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>brother<s n="n"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>brotherhood<s n="n"/></l><r>fraternidad<s n="n"/><s n="f"/></r></p></e>
+    <e slr="fraternidad" srl="brotherhood">  <p><l>brotherhood<s n="n"/></l><r>fraternidad<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>browser<s n="n"/></l><r>navegador<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>browser<s n="n"/></l><r>navegador<s n="n"/></r></p></e>
     <e>  <p><l>bruise<s n="n"/></l><r>moratón<s n="n"/><s n="m"/></r></p></e>
@@ -14396,7 +14396,7 @@
     <e>  <p><l>northeast<s n="n"/></l><r>nordeste<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>northwest<s n="n"/></l><r>noroeste<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>nose<s n="n"/></l><r>nariz<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>nostalgia<s n="n"/></l><r>nostalgia<s n="n"/><s n="f"/></r></p></e>
+    <e slr="nostalgia D">  <p><l>nostalgia<s n="n"/></l><r>nostalgia<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>notary<s n="n"/></l><r>notario<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>notary<s n="n"/></l><r>notario<s n="n"/></r></p></e>
     <e slr="billete"><p><l>note<s n="n"/></l><r>billete<s n="n"/><s n="m"/></r></p></e>
@@ -32295,7 +32295,7 @@
 <e><p><l>angolan<s n="adj"/></l><r>angoleño<s n="adj"/></r></p></e>
 <e><p><l>annular<s n="adj"/></l><r>anular<s n="adj"/><s n="mf"/></r></p></e>
 <e><p><l>armed<s n="adj"/></l><r>armado<s n="adj"/></r></p></e>
-<e slr="blindado D"><p><l>armored<s n="adj"/></l><r>blindado<s n="adj"/></r></p></e>
+<e slr="blindado D"><p><l>armoured<s n="adj"/></l><r>blindado<s n="adj"/></r></p></e>
 <e><p><l>articular<s n="adj"/></l><r>articular<s n="adj"/><s n="mf"/></r></p></e>
 <e><p><l>aseptic<s n="adj"/></l><r>aséptico<s n="adj"/></r></p></e>
 <e><p><l>asleep<s n="adj"/></l><r>dormido<s n="adj"/></r></p></e>
@@ -33285,7 +33285,7 @@
     <e slr="antitanque D" a="imaxinsoftware"><p><l>antitank<s n="adj"/></l><r>antitanque<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>counterintelligence<s n="n"/></l><r>contrainteligencia<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>counter-intelligence<s n="n"/></l><r>contrainteligencia<s n="n"/><s n="f"/></r></p></e>
-    <e slr="acorazado" a="imaxinsoftware"><p><l>armored<s n="adj"/></l><r>acorazado<s n="adj"/></r></p></e>
+    <e slr="acorazado" a="imaxinsoftware"><p><l>armoured<s n="adj"/></l><r>acorazado<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>dissimilar<s n="adj"/></l><r>disímil<s n="adj"/><s n="mf"/></r></p></e>
     <e slr="abastecimiento" srl="supply D" a="imaxinsoftware"><p><l>supply<s n="n"/></l><r>abastecimiento<s n="n"/><s n="m"/></r></p></e>
     <e srl="supplying" a="imaxinsoftware"><p><l>supplying<s n="n"/></l><r>abastecimiento<s n="n"/><s n="m"/></r></p></e>
@@ -33304,6 +33304,16 @@
     <e a="imaxinsoftware"><p><l>missile<b/>launcher<s n="adj"/></l><r>lanzamisiles<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>self-propelled<s n="adj"/></l><r>autopropulsado<s n="adj"/></r></p></e>
     <e slr="subacuático D" a="imaxinsoftware"><p><l>underwater<s n="adj"/></l><r>subacuático<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>air-to-ground<s n="adj"/></l><r>aire-tierra<s n="adj"/><s n="mf"/></r></p></e>
+    <e slr="fraternidad D" srl="fraternity D" a="imaxinsoftware"><p><l>fraternity<s n="n"/></l><r>fraternidad<s n="n"/><s n="f"/></r></p></e>
+    <e slr="hermandad" srl="fraternity D" a="imaxinsoftware"><p><l>fraternity<s n="n"/></l><r>hermandad<s n="n"/><s n="f"/></r></p></e>
+    <e srl="brotherhood" a="imaxinsoftware"><p><l>brotherhood<s n="n"/></l><r>hermandad<s n="n"/><s n="f"/></r></p></e>
+    <e srl="sisterhood" a="imaxinsoftware"><p><l>sisterhood<s n="n"/></l><r>hermandad<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Croat<s n="n"/></l><r>croata<s n="n"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>croatian<s n="adj"/></l><r>croata<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="homesickness D" a="imaxinsoftware"><p><l>homesickness<s n="n"/></l><r>morriña<s n="n"/><s n="f"/></r></p></e>
+    <e slr="morriña" srl="nostalgia" a="imaxinsoftware"><p><l>nostalgia<s n="n"/></l><r>morriña<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>frying<b/>pan<s n="n"/></l><r>sartén<s n="n"/><s n="f"/></r></p></e>
     
   </section>
 

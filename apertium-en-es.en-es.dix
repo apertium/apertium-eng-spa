@@ -1172,7 +1172,7 @@
 <e a="eleka"><p><l>Villareal<s n="np"/><s n="al"/><s n="sg"/></l><r>Villareal<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="eleka"><p><l>Aralar<s n="np"/><s n="al"/><s n="sg"/></l><r>Aralar<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="eleka"><p><l>SUMMA<s n="np"/><s n="al"/><s n="sg"/></l><r>SUMMA<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="eleka"><p><l>EFE<s n="np"/><s n="al"/><s n="sg"/></l><r>EFE<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<!--<e a="eleka"><p><l>EFE<s n="np"/><s n="al"/><s n="sg"/></l><r>EFE<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>-->
 <e a="eleka"><p><l>Diario<b/>Vasco<s n="np"/><s n="al"/><s n="sg"/></l><r>Diario<b/>Vasco<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="eleka"><p><l>Jazzaldia<s n="np"/><s n="al"/><s n="sg"/></l><r>Jazzaldia<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="eleka"><p><l>Kubo<s n="np"/><s n="al"/><s n="sg"/></l><r>Kubo<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
@@ -10025,7 +10025,7 @@
     <e>  <p><l>Dublin<s n="np"/><s n="loc"/></l><r>Dublín<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>Copenhagen<s n="np"/><s n="loc"/></l><r>Copenhague<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>Brno<s n="np"/><s n="loc"/></l><r>Brno<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-    <e>  <p><l>Manchester<s n="np"/><s n="loc"/></l><r>Manchester<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e r="RL">  <p><l>Manchester<s n="np"/><s n="loc"/></l><r>Manchester<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>Vrchlabí<s n="np"/><s n="loc"/></l><r>Vrchlabí<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>Brighton<s n="np"/><s n="loc"/></l><r>Brighton<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>Johannesburg<s n="np"/><s n="loc"/></l><r>Johannesburgo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -10060,7 +10060,7 @@
     <e>  <p><l>Francesc<s n="np"/></l><r>Francesc<s n="np"/></r></p></e>
     <e>  <p><l>Francis<s n="np"/></l><r>Francis<s n="np"/></r></p></e>
     <e>  <p><l>Francisco<s n="np"/></l><r>Francisco<s n="np"/></r></p></e>
-    <e>  <p><l>Frankfurt<s n="np"/><s n="loc"/></l><r>Frankfurt<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e r="RL">  <p><l>Frankfurt<s n="np"/><s n="loc"/></l><r>Frankfurt<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e>  <p><l>Gabriel<s n="np"/></l><r>Gabriel<s n="np"/></r></p></e>
     <e>  <p><l>Gabriela<s n="np"/></l><r>Gabriela<s n="np"/></r></p></e>
     <e>  <p><l>Galicia<s n="np"/><s n="loc"/></l><r>Galicia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -10946,8 +10946,10 @@
     <e r="LR">  <p><l>avian<b/>influenza<s n="n"/></l><r>gripe<b/>aviaria<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>aviation<s n="n"/></l><r>aviación<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>award<s n="n"/></l><r>premio<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>Nobel<b/>prize<s n="n"/></l><r>premio<g><b/>Nobel</g><s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>Nobel<b/>Peace<b/>prize<s n="n"/></l><r>premio<g><b/>Nobel<b/>de<b/>la<b/>Paz</g><s n="n"/><s n="m"/></r></p></e>
+    <e r="RL">  <p><l>Nobel<b/>prize<s n="n"/></l><r>premio<g><b/>Nobel</g><s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>Nobel<b/>prize<s n="n"/></l><r>premio<g><b/>Nóbel</g><s n="n"/><s n="m"/></r></p></e>
+    <e r="RL">  <p><l>Nobel<b/>Peace<b/>prize<s n="n"/></l><r>premio<g><b/>Nobel<b/>de<b/>la<b/>Paz</g><s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>Nobel<b/>Peace<b/>prize<s n="n"/></l><r>premio<g><b/>Nóbel<b/>de<b/>la<b/>Paz</g><s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>awareness<s n="n"/></l><r>concienciación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>awning<s n="n"/></l><r>toldo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>axe<s n="n"/></l><r>hacha<s n="n"/><s n="f"/></r></p></e>
@@ -23660,7 +23662,7 @@
         <e>  <p>  <l>Marshall<b/>Islands<s n="np"/><s n="loc"/></l><r>Islas<b/>Marshall<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
         <e>  <p>  <l>Jersey<s n="np"/><s n="loc"/></l><r>Jersey<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
         <e>  <p>  <l>Júlia<s n="np"/></l><r>Júlia<s n="np"/></r></p></e>
-        <e>  <p>  <l>Kazakhstan<s n="np"/><s n="loc"/></l><r>Kazajistán<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+        <e slr="Kazajistán D">  <p>  <l>Kazakhstan<s n="np"/><s n="loc"/></l><r>Kazajistán<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
         <e>  <p>  <l>Kurdistan<s n="np"/><s n="loc"/></l><r>Kurdistán<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
         <e>  <p>  <l>Kuwait<s n="np"/><s n="loc"/></l><r>Kuwait<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
         <e>  <p>  <l>Laia<s n="np"/></l><r>Laia<s n="np"/></r></p></e>
@@ -30274,7 +30276,7 @@
 <e a="greenbreen"><p><l>fabulist<s n="n"/></l><r>fabulista<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>fabulist<s n="n"/></l><r>fabulador<s n="n"/></r></p></e>
 <e a="greenbreen"><p><l>Antarctic<b/>Ocean<s n="np"/><s n="loc"/></l><r>océano<b/>Antártico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-<e a="greenbreen"><p><l>Indian<b/>Ocean<s n="np"/><s n="loc"/></l><r>océano<b/>Índico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e a="greenbreen" slr="océano_Índico D"><p><l>Indian<b/>Ocean<s n="np"/><s n="loc"/></l><r>océano<b/>Índico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e r="LR" a="greenbreen"><p><l>Venezuelan<s n="n"/></l><r>venezolano<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>Venezuelan<s n="n"/></l><r>venezolano<s n="n"/></r></p></e>
 <e a="greenbreen"><p><l>venezuelan<s n="adj"/></l><r>venezolano<s n="adj"/></r></p></e>
@@ -32654,6 +32656,274 @@
 <e a="prompsit" r="RL"><p><l>lady<s n="n"/><s n="pl"/></l><r>sras.<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e a="prompsit" r="RL"><p><l>gentleman<s n="n"/><s n="pl"/></l><r>sres.<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
+    <e a="imaxinsoftware"><i>Soraya<b/>Rodríguez<b/>Ramos<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Antonio<b/>López<b/>Martínez<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Mercedes<b/>Elvira<b/>del<b/>Palacio<b/>Tascón<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Mercedes<b/>López<b/>Revilla<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Carlos<b/>Alberdi<b/>Alonso<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Santos<b/>Castro<b/>Fernández<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Fernando<b/>Rojas<b/>Urtasun<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>José<b/>Manuel<b/>Martínez<b/>Sierra<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Carmen<b/>Caffarel<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Soledad<b/>Puértolas<b/>Villanueva<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Humberto<b/>López<b/>Morales<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Carmen<b/>Pérez-Fragero<b/>Rodríguez<b/>de<b/>Tembleque<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Spanish<b/>Agency<b/>of<b/>International<b/>Cooperation<b/>for<b/>Development<s n="np"/><s n="al"/></l><r>Agencia<b/>Española<b/>de<b/>Cooperación<b/>Internacional<b/>de<b/>Desarrollo<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>AECID<s n="np"/><s n="al"/></l><r>AECID<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <!--<e r="RL" a="imaxinsoftware"><p><l>Mrs.<s n="n"/><s n="sg"/></l><r>Dña<s n="n"/><s n="f"/></r></p></e>-->
+    <e a="imaxinsoftware"><i>Gonzalo<b/>Torrente<b/>Ballester<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Marilyn<b/>Monroe<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Radio<b/>Televisión<b/>Española<s n="np"/><s n="al"/></l><r>Radio<b/>Televisión<b/>Española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>RTVE<s n="np"/><s n="al"/></l><r>RTVE<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Universidad<b/>Complutense<s n="np"/><s n="al"/></l><r>Universidad<b/>Complutense<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><i>Miguel<b/>Hernández<s n="np"/><s n="ant"/></i></e>
+    <e r="LR" a="imaxinsoftware"><p><l>Instituto<b/>Cervantes<s n="np"/><s n="al"/></l><r>Instituto<b/>Cervantes<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Cervantes<b/>Institute<s n="np"/><s n="al"/></l><r>Instituto<b/>Cervantes<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Royal<b/>Palace<b/>of<b/>Madrid<s n="np"/><s n="loc"/></l><r>Palacio<b/>Real<b/>de<b/>Madrid<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><i>Francisco<b/>Ayala<s n="np"/><s n="ant"/></i></e>
+    <e r="RL" a="imaxinsoftware"><p><l>Board<b/>of<b/>Trustees<s n="np"/><s n="al"/></l><r>Patronato<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Medellín<s n="np"/><s n="loc"/></l><r>Medellín<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Certificate<b/>of<b/>Spanish<b/>as<b/>a<b/>Foreign<b/>Language<s n="np"/><s n="al"/></l><r>Certificación<b/>del<b/>Español<b/>como<b/>Lengua<b/>Extranjera<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Gamoneda<s n="np"/><s n="cog"/></l><r>Gamoneda<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Tàpies<s n="np"/><s n="cog"/></l><r>Tàpies<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Curitiba<s n="np"/><s n="loc"/></l><r>Curitiba<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Marrakech<s n="np"/><s n="loc"/></l><r>Marrakech<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Calgary<s n="np"/><s n="loc"/></l><r>Calgary<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/></l><r>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Cartagena<b/>of<b/>the<b/>Indies<s n="np"/><s n="loc"/></l><r>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Royal<b/>Spanish<b/>Academy<s n="np"/><s n="al"/></l><r>Real<b/>Academia<b/>Española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Spanish<b/>Broadcasting<b/>Corporation<s n="np"/><s n="al"/></l><r>Corporación<b/>Radiotelevisión<b/>Española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Belo<b/>Horizonte<s n="np"/><s n="loc"/></l><r>Belo<b/>Horizonte<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Toronto<s n="np"/><s n="loc"/></l><r>Toronto<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Recife<s n="np"/><s n="loc"/></l><r>Recife<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Florianópolis<s n="np"/><s n="loc"/></l><r>Florianópolis<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Kiev<s n="np"/><s n="loc"/></l><r>Kiev<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>St.<b/>Petersburg<s n="np"/><s n="loc"/></l><r>San<b/>Petersburgo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Thessaloniki<s n="np"/><s n="loc"/></l><r>Salónica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>New<b/>Delhi<s n="np"/><s n="loc"/></l><r>Nueva<b/>Delhi<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Hanoi<s n="np"/><s n="loc"/></l><r>Hanoi<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Osaka<s n="np"/><s n="loc"/></l><r>Osaka<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Bangalore<s n="np"/><s n="loc"/></l><r>Bangalore<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Dubai<s n="np"/><s n="loc"/></l><r>Dubai<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Lagos<s n="np"/><s n="loc"/></l><r>Lagos<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware" slr="Hispanoamérica D"><p><l>Latin<b/>America<s n="np"/><s n="loc"/></l><r>Hispanoamérica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>São<b/>Paulo<s n="np"/><s n="loc"/></l><r>São<b/>Paulo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Manila<s n="np"/><s n="loc"/></l><r>Manila<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Spanish<b/>Broadcasting<s n="np"/><s n="al"/></l><r>Radiotelevisión<b/>Española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Machado<s n="np"/><s n="cog"/></l><r>Machado<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Soria<s n="np"/><s n="loc"/></l><r>Soria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Gabilondo<s n="np"/><s n="cog"/></l><r>Gabilondo<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Sinde<s n="np"/><s n="cog"/></l><r>Sinde<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Serra<s n="np"/><s n="cog"/></l><r>Serra<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Reig<s n="np"/><s n="cog"/></l><r>Reig<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Herrera<s n="np"/><s n="cog"/></l><r>Herrera<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Sábato<s n="np"/><s n="cog"/></l><r>Sábato<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Macías<s n="np"/><s n="cog"/></l><r>Macías<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Llosa<s n="np"/><s n="cog"/></l><r>Llosa<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Edwards<s n="np"/><s n="cog"/></l><r>Edwards<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Mutis<s n="np"/><s n="cog"/></l><r>Mutis<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Jaramillo<s n="np"/><s n="cog"/></l><r>Jaramillo<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Lozano<s n="np"/><s n="cog"/></l><r>Lozano<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Rojas<s n="np"/><s n="cog"/></l><r>Rojas<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Ferlosio<s n="np"/><s n="cog"/></l><r>Ferlosio<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Pitol<s n="np"/><s n="cog"/></l><r>Pitol<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Gelman<s n="np"/><s n="cog"/></l><r>Gelman<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Pacheco<s n="np"/><s n="cog"/></l><r>Pacheco<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><i>Gonzalo<b/>Rojas<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Marsé<s n="np"/><s n="cog"/></l><r>Marsé<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Aldecoa<s n="np"/><s n="cog"/></l><r>Aldecoa<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Berganza<s n="np"/><s n="cog"/></l><r>Berganza<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Cobos<s n="np"/><s n="cog"/></l><r>Cobos<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Matute<s n="np"/><s n="cog"/></l><r>Matute<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Ausejo<s n="np"/><s n="cog"/></l><r>Ausejo<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Villoro<s n="np"/><s n="cog"/></l><r>Villoro<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Luppi<s n="np"/><s n="cog"/></l><r>Luppi<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Mastretta<s n="np"/><s n="cog"/></l><r>Mastretta<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Iriarte<s n="np"/><s n="cog"/></l><r>Iriarte<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Esguerra<s n="np"/><s n="cog"/></l><r>Esguerra<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Garcíadiego<s n="np"/><s n="cog"/></l><r>Garcíadiego<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Galván<s n="np"/><s n="cog"/></l><r>Galván<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Gimeno<s n="np"/><s n="cog"/></l><r>Gimeno<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Ullastres<s n="np"/><s n="cog"/></l><r>Ullastres<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Alario<s n="np"/><s n="cog"/></l><r>Alario<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Alario<b/>Franco<s n="np"/><s n="cog"/></l><r>Alario<b/>Franco<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Lavilla<s n="np"/><s n="cog"/></l><r>Lavilla<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Alsina<s n="np"/><s n="cog"/></l><r>Alsina<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Mendoza<s n="np"/><s n="cog"/></l><r>Mendoza<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Inciarte<s n="np"/><s n="cog"/></l><r>Inciarte<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Fragero<s n="np"/><s n="cog"/></l><r>Fragero<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Ruipérez<s n="np"/><s n="cog"/></l><r>Ruipérez<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Caro<b/>and<b/>Cuervo<b/>Institute<s n="np"/><s n="al"/></l><r>Instituto<b/>Caro<b/>y<b/>Cuervo<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Royal<b/>Academy<s n="np"/><s n="al"/></l><r>Real<b/>Academia<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Royal<b/>Academy<b/>of<b/>Exact,<b/>Physical<b/>and<b/>Natural<b/>Sciences<s n="np"/><s n="al"/></l><r>Real<b/>Academia<b/>de<b/>las<b/>Ciencias<b/>Exactas,<b/>Físicas<b/>y<b/>Naturales<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Royal<b/>Academies<s n="np"/><s n="al"/></l><r>Reales<b/>Academias<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><i>Alex<b/>de<b/>la<b/>Iglesia<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Allende<s n="np"/><s n="cog"/></l><r>Allende<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Las<b/>Palmas<b/>de<b/>Gran<b/>Canaria<s n="np"/><s n="loc"/></l><r>Las<b/>Palmas<b/>de<b/>Gran<b/>Canaria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><i>Juan<b/>A.<b/>Gimeno<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Miguel<b/>de<b/>Cervantes<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Spanish<b/>Language<s n="np"/><s n="al"/></l><r>Lengua<b/>Española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Royal<b/>Palace<s n="np"/><s n="loc"/></l><r>Palacio<b/>Real<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware" slr="Iberoamérica"><p><l>Latin<b/>America<s n="np"/><s n="loc"/></l><r>Iberoamérica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><i>Infanta<b/>Elena<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><i>Infanta<b/>Cristina<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Language<b/>Congress<s n="np"/><s n="al"/></l><r>Congreso<b/>de<b/>la<b/>Lengua<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Molina<s n="np"/><s n="cog"/></l><r>Molina<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Krakow<s n="np"/><s n="loc"/></l><r>Cracovia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Reykiavik<s n="np"/><s n="loc"/></l><r>Reykiavik<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Palermo<s n="np"/><s n="loc"/></l><r>Palermo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware" slr="Alburquerque D"><p><l>Albuquerque<s n="np"/><s n="loc"/></l><r>Alburquerque<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Delhi<s n="np"/><s n="loc"/></l><r>Delhi<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Cabrera<s n="np"/><s n="cog"/></l><r>Cabrera<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Borau<s n="np"/><s n="cog"/></l><r>Borau<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Echenique<s n="np"/><s n="cog"/></l><r>Echenique<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Efe<s n="np"/><s n="al"/></l><r>Efe<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>DELE<s n="np"/><s n="al"/></l><r>DELE<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Bibliodoc<s n="np"/><s n="al"/></l><r>Bibliodoc<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>RBIC<s n="np"/><s n="al"/></l><r>RBIC<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>ELE<s n="np"/><s n="al"/></l><r>ELE<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>FEDELE<s n="np"/><s n="al"/></l><r>FEDELE<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Quijote<s n="np"/><s n="al"/></l><r>Quijote<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware" slr="Albuquerque"><p><l>Albuquerque<s n="np"/><s n="loc"/></l><r>Albuquerque<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Algiers<s n="np"/><s n="loc"/></l><r>Argel<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Bremen<s n="np"/><s n="loc"/></l><r>Bremen<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Casablanca<s n="np"/><s n="loc"/></l><r>Casablanca<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Istanbul<s n="np"/><s n="loc"/></l><r>Estambul<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Fez<s n="np"/><s n="loc"/></l><r>Fez<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Frankfurt<s n="np"/><s n="loc"/></l><r>Fráncfort<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Manchester<s n="np"/><s n="loc"/></l><r>Mánchester<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Naples<s n="np"/><s n="loc"/></l><r>Nápoles<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Oran<s n="np"/><s n="loc"/></l><r>Oran<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Rio<b/>de<b/>Janeiro<s n="np"/><s n="loc"/></l><r>Río<b/>de<b/>Janeiro<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Tel<b/>Aviv<s n="np"/><s n="loc"/></l><r>Tel<b/>Aviv<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Tetouan<s n="np"/><s n="loc"/></l><r>Tetuán<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Toulouse<s n="np"/><s n="loc"/></l><r>Toulouse<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Utrecht<s n="np"/><s n="loc"/></l><r>Utrecht<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Quart<b/>de<b/>Poblet<s n="np"/><s n="loc"/></l><r>Quart<b/>de<b/>Poblet<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Chacón<s n="np"/><s n="cog"/></l><r>Chacón<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Aden<s n="np"/><s n="loc"/></l><r>Adén<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Herzegovina<s n="np"/><s n="loc"/></l><r>Herzegovina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Armed<b/>Forces<s n="np"/><s n="al"/></l><r>Fuerzas<b/>Armadas<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>FAS<s n="np"/><s n="al"/></l><r>FAS<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>UTC<s n="np"/><s n="al"/></l><r>UTC<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>ROA<s n="np"/><s n="al"/></l><r>ROA<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>ISFAS<s n="np"/><s n="al"/></l><r>ISFAS<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>UME<s n="np"/><s n="al"/></l><r>UME<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>MDE<s n="np"/><s n="al"/></l><r>MDE<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>INTA<s n="np"/><s n="al"/></l><r>INTA<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>CEHIPAR<s n="np"/><s n="al"/></l><r>CEHIPAR<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>GIED<s n="np"/><s n="al"/></l><r>GIED<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>COE<b/>C-IED<s n="np"/><s n="al"/></l><r>COE<b/>C-IED<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>INVIFAS<s n="np"/><s n="al"/></l><r>INVIFAS<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>CNI<s n="np"/><s n="al"/></l><r>CNI<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Brindisi<s n="np"/><s n="loc"/></l><r>Brindisi<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>Data<b/>Center<s n="np"/><s n="al"/></l><r>Data<b/>Center<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Eurofighter<s n="np"/><s n="al"/></l><r>Eurofighter<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>RG<s n="np"/><s n="al"/></l><r>RG<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>EF<s n="np"/><s n="al"/></l><r>EF<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware">  <p><l>lynx<s n="n"/></l><r>lince<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>La<b/>Marañosa<s n="np"/><s n="loc"/></l><r>La<b/>Marañosa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Torrejón<s n="np"/><s n="loc"/></l><r>Torrejón<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Torrejón<b/>de<b/>Ardoz<s n="np"/><s n="loc"/></l><r>Torrejón<b/>de<b/>Ardoz<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>JEMAD<s n="np"/><s n="al"/></l><r>JEMAD<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>EUFOR<b/>Althea<s n="np"/><s n="al"/></l><r>EUFOR<b/>Althea<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Herrezuelo<s n="np"/><s n="cog"/></l><r>Herrezuelo<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Sarajevo<s n="np"/><s n="loc"/></l><r>Sarajevo<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Coll<s n="np"/><s n="cog"/></l><r>Coll<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Rebollo<s n="np"/><s n="cog"/></l><r>Rebollo<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Mostar<s n="np"/><s n="loc"/></l><r>Mostar<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><i>Ricard<b/>Pérez<b/>Casado<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Westendorp<s n="np"/><s n="cog"/></l><r>Westendorp<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Pertierra<s n="np"/><s n="cog"/></l><r>Pertierra<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>United<b/>Nations<b/>Force<b/>of<b/>Protection<s n="np"/><s n="al"/></l><r>Fuerza<b/>de<b/>Protección<b/>de<b/>Naciones<b/>Unidas<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>UNPROFOR<s n="np"/><s n="al"/></l><r>UNPROFOR<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Zorzo<s n="np"/><s n="cog"/></l><r>Zorzo<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Santamaría<s n="np"/><s n="al"/></l><r>Santamaría<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Tramontana<s n="np"/><s n="al"/></l><r>Tramontana<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>P3<s n="np"/><s n="al"/></l><r>P3<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Orión<s n="np"/><s n="al"/></l><r>Orión<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>F-18<s n="np"/><s n="al"/></l><r>F-18<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>KC-130<s n="np"/><s n="al"/></l><r>KC-130<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Aviocar<s n="np"/><s n="al"/></l><r>Aviocar<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Aviano<s n="np"/><s n="loc"/></l><r>Aviano<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>IFOR<s n="np"/><s n="al"/></l><r>IFOR<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Implementation<b/>Force<s n="np"/><s n="al"/></l><r>Fuerza<b/>de<b/>Implementación<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Icarus<s n="np"/><s n="al"/></l><r>Ícaro<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Sapper<b/>Squad<s n="np"/><s n="al"/></l><r>Escuadrilla<b/>de<b/>Zapadores<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Stabilization<b/>Force<s n="np"/><s n="al"/></l><r>Fuerza<b/>de<b/>Estabilización<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>SFOR<s n="np"/><s n="al"/></l><r>SFOR<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Advanced<b/>Logistics<b/>Steps<s n="np"/><s n="al"/></l><r>Escalones<b/>Logísticos<b/>Avanzados<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Westerndorp<s n="np"/><s n="cog"/></l><r>Westerndorp<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>EUFOR<s n="np"/><s n="al"/></l><r>EUFOR<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Althea<s n="np"/><s n="al"/></l><r>Althea<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Multinational<b/>Force<b/>Command<s n="np"/><s n="al"/></l><r>Mando<b/>de<b/>la<b/>Fuerza<b/>Multinacional<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Multinational<b/>Battalion<s n="np"/><s n="al"/></l><r>Batallón<b/>Multinacional<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Villalaín<s n="np"/><s n="cog"/></l><r>Villalaín<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Toledo<s n="np"/><s n="loc"/></l><r>Toledo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>European<b/>Union<b/>Forces<s n="np"/><s n="al"/></l><r>Fuerzas<b/>de<b/>la<b/>Unión<b/>Europea<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>H.M.<s n="np"/><s n="al"/></l><r>S.M.<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Camp<b/>Butmir<s n="np"/><s n="al"/></l><r>Camp<b/>Butmir<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Deny<b/>Flight<s n="np"/><s n="al"/></l><r>Deny<b/>Flight<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Sharp<b/>Guard<s n="np"/><s n="al"/></l><r>Sharp<b/>Guard<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Los<b/>Rosales<s n="np"/><s n="al"/></l><r>Los<b/>Rosales<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Atalanta<s n="np"/><s n="al"/></l><r>Atalanta<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware" slr="Índico"><p><l>Indian<b/>Ocean<s n="np"/><s n="loc"/></l><r>Índico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware" slr="Armada"><p><l>Spanish<b/>Navy<s n="np"/><s n="al"/></l><r>Armada<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware" slr="Kazajstán"><p><l>Kazakhstan<s n="np"/><s n="loc"/></l><r>Kazajstán<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><i>Adilbek<b/>Jaxybekov<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Jaxybekov<s n="np"/><s n="cog"/></l><r>Jaxybekov<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Airbus<s n="np"/><s n="al"/></l><r>Airbus<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Airbus<b/>Military<s n="np"/><s n="al"/></l><r>Airbus<b/>Military<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>EADS<s n="np"/><s n="al"/></l><r>EADS<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>ISDEFE<s n="np"/><s n="al"/></l><r>ISDEFE<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Indra<s n="np"/><s n="al"/></l><r>Indra<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>School<b/>of<b/>Command,<b/>Control<b/>and<b/>Telecommunications<s n="np"/><s n="al"/></l><r>Escuela<b/>de<b/>Mando,<b/>Control<b/>y<b/>Telecomunicaciones<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>EMACOT<s n="np"/><s n="al"/></l><r>EMACOT<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>ISAF<s n="np"/><s n="al"/></l><r>ISAF<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>OSCE<s n="np"/><s n="al"/></l><r>OSCE<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Astana<s n="np"/><s n="loc"/></l><r>Astaná<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>General<b/>Headquarters<s n="np"/><s n="al"/></l><r>Cuarteles<b/>Generales<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><i>María<b/>Victoria<b/>San<b/>José<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>Centelles<s n="np"/><s n="cog"/></l><r>Centelles<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Tortosa<s n="np"/><s n="loc"/></l><r>Tortosa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Flores<s n="np"/><s n="cog"/></l><r>Flores<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Mateos<s n="np"/><s n="cog"/></l><r>Mateos<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Tejada<s n="np"/><s n="cog"/></l><r>Tejada<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Alameda<s n="np"/><s n="loc"/></l><r>Alameda<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Senior<b/>Civil<b/>Service<b/>Corps<s n="np"/><s n="al"/></l><r>Cuerpo<b/>Superior<b/>de<b/>Administradores<b/>Civiles<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Home<b/>Office<s n="np"/><s n="al"/></l><r>Ministerio<b/>del<b/>Interior<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Economic<b/>and<b/>Patrimonial<b/>Management<s n="np"/><s n="al"/></l><r>Gestión<b/>Económica<b/>y<b/>Patrimonial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Badghis<s n="np"/><s n="loc"/></l><r>Badghis<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>OMLT<s n="np"/><s n="al"/></l><r>OMLT<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Ring<b/>Road<s n="np"/><s n="al"/></l><r>Ring<b/>Road<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Qala-i-Naw<s n="np"/><s n="loc"/></l><r>Qala-i-Naw<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Muqur<s n="np"/><s n="loc"/></l><r>Muqur<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Ludina<s n="np"/><s n="loc"/></l><r>Ludina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Herat<s n="np"/><s n="loc"/></l><r>Herat<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Camp<b/>Stone<s n="np"/><s n="al"/></l><r>Camp<b/>Stone<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><i>Ruy<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>de<b/>Clavijo<s n="np"/><s n="cog"/></l><r>de<b/>Clavijo<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>International<b/>Security<b/>Assistance<b/>Force<s n="np"/><s n="al"/></l><r>Fuerza<b/>Internacional<b/>de<b/>Asistencia<b/>para<b/>la<b/>Seguridad<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Provincial<b/>Reconstruction<b/>Team<s n="np"/><s n="al"/></l><r>Equipo<b/>de<b/>Reconstrucción<b/>Provincial<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>PRT<s n="np"/><s n="al"/></l><r>PRT<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+
+
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+
+
+
 
 <e><p><l>pointed<s n="adj"/></l><r>apuntado<s n="adj"/></r></p></e>
 <e><p><l>acerbity<s n="n"/></l><r>acerbidad<s n="n"/><s n="f"/></r></p></e>
@@ -33084,7 +33354,7 @@
     <e a="imaxinsoftware"><p><l>reservist<s n="n"/></l><r>reservista<s n="n"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Defence<b/>Staff<s n="np"/><s n="al"/></l><r>Estado<b/>Mayor<b/>de<b/>la<b/>Defensa<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>Spanish<b/>Army<s n="np"/><s n="al"/></l><r>Ejército<b/>de<b/>Tierra<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>Spanish<b/>Navy<s n="np"/><s n="al"/></l><r>Armada<b/>española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware" slr="Armada_española D"><p><l>Spanish<b/>Navy<s n="np"/><s n="al"/></l><r>Armada<b/>española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>Spanish<b/>Air<b/>Force<s n="np"/><s n="al"/></l><r>Ejército<b/>del<b/>Aire<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>horse<s n="adj"/></l><r>caballar<s n="adj"/><s n="mf"/></r></p></e>
     <e slr="reportaje" a="imaxinsoftware"><p><l>report<s n="n"/></l><r>reportaje<s n="n"/><s n="m"/></r></p></e>

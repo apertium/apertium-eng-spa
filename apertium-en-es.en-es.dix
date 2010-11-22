@@ -29128,8 +29128,7 @@
 <e>  <p><l>groan<s n="vblex"/></l><r>gemir<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>encourage<s n="vblex"/></l><r>esforzar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>fit<s n="vblex"/></l><r>encajar<s n="vblex"/></r></p></e>
-<e r="RL">  <p><l>separate<s n="vblex"/></l><r>apartar<s n="vblex"/></r></p></e>
-<e r="RL">  <p><l>remove<s n="vblex"/></l><r>alejar<s n="vblex"/></r></p></e>
+<e slr="apartar" srl="separate D">  <p><l>separate<s n="vblex"/></l><r>apartar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>advocate<s n="vblex"/></l><r>propugnar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>concern<s n="vblex"/></l><r>preocupar<s n="vblex"/></r></p></e>
 <e>  <p><l>thin<s n="vblex"/></l><r>adelgazar<s n="vblex"/></r></p></e>
@@ -29190,7 +29189,6 @@
 <e>  <p><l>madden<s n="vblex"/></l><r>enloquecer<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>claim<s n="vblex"/></l><r>reivindicar<s n="vblex"/></r></p></e>
 <e>  <p><l>irrigate<s n="vblex"/></l><r>regar<s n="vblex"/></r></p></e>
-<e r="RL">  <p><l>remove<s n="vblex"/></l><r>alejar<s n="vblex"/></r></p></e>
 <e>  <p><l>rot<s n="vblex"/></l><r>pudrir<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>interest<s n="vblex"/></l><r>aficionar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>ride<s n="vblex"/></l><r>cabalgar<s n="vblex"/></r></p></e>
@@ -33585,6 +33583,10 @@
     <e srl="homesickness D" a="imaxinsoftware"><p><l>homesickness<s n="n"/></l><r>morriña<s n="n"/><s n="f"/></r></p></e>
     <e slr="morriña" srl="nostalgia" a="imaxinsoftware"><p><l>nostalgia<s n="n"/></l><r>morriña<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>frying<b/>pan<s n="n"/></l><r>sartén<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>edge<g><b/>away<b/>from</g><s n="vblex"/></l><r>alejarse<g><b/>poco<b/>a<b/>poco<b/>de</g><s n="vblex"/><s n="pron"/></r></p></e>
+    <e slr="apartar D" srl="move away"><p><l>move<g><b/>away</g><s n="vblex"/><s n="sep"/></l><r>apartar<s n="vblex"/></r></p></e>
+    <e slr="alejarse"><p><l>move<g><b/>away</g><s n="vblex"/><s n="sep"/></l><r>alejarse<s n="vblex"/><s n="pron"/></r></p></e>
+    <e slr="alejar"><p><l>move<g><b/>away</g><s n="vblex"/><s n="sep"/></l><r>alejar<s n="vblex"/></r></p></e>
     
   </section>
 

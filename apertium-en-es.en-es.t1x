@@ -12389,9 +12389,10 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <var n="adjectiu1"/>   
 	      <clip pos="1" side="tl" part="lemh"/> 
 	      <clip pos="1" side="tl" part="a_adj"/>
-	      <clip pos="1" side="tl" part="gen"/>
-	      <clip pos="1" side="tl" part="nbr"/>
-	      <clip pos="1" side="tl" part="lemq"/> 
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
 	    </lu> 
 	  </chunk>
 	</out>

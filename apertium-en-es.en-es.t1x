@@ -511,6 +511,17 @@
       <cat-item tags="vbmod.pp"/>
     </def-cat>
 
+    <def-cat n="pp_past"><!-- Se incluyen las formas en pasado porque el tagger se equivoca en casos como 'for having created jobs' -->
+      <cat-item tags="vblex.pp"/>
+      <cat-item tags="vblex.sep.pp"/>
+      <cat-item tags="vbser.pp"/>
+      <cat-item tags="vbmod.pp"/>
+      <cat-item tags="vblex.past"/>
+      <cat-item tags="vblex.sep.past"/>
+      <cat-item tags="vbser.past"/>
+      <cat-item tags="vbmod.past"/>
+    </def-cat>
+
     <def-cat n="pprs">
       <cat-item tags="vblex.pprs"/>
       <cat-item tags="vblex.sep.pprs"/>
@@ -18658,7 +18669,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <pattern>
 	<pattern-item n="prep_cnjadv"/>
 	<pattern-item n="haveger"/>
-	<pattern-item n="pp"/>
+	<pattern-item n="pp_past"/><!-- Se incluyen las formas en pasado porque el tagger se equivoca en casos como 'for having created jobs' -->
       </pattern>
       <action>
 	<call-macro n="firstWord">
@@ -18671,6 +18682,20 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	  <clip pos="2" side="tl" part="temps"/>
 	  <lit-tag v="inf"/>
 	</let>	
+	<choose>
+	  <when><!-- Por si el tagger se equivoca e identifica el participio como pasado -->
+	    <test>
+		<equal>
+		  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="past"/>
+		</equal>
+	    </test>
+	    <let><!-- Se indica que el pasado debe ser participio -->
+	      <clip pos="3" side="tl" part="temps"/>
+	      <lit-tag v="pp"/>
+	    </let>
+	  </when>
+	</choose>
 	<choose>
 	  <when>
 	    <test>

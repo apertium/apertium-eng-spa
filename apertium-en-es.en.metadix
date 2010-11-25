@@ -10436,7 +10436,7 @@
     <e r="RL" lm="if that weren't enough"><i>if<b/>that<b/>weren't<b/>enough</i><par n="maybe__adv"/>    </e>
     <e lm="illegally"><i>illegally</i><par n="maybe__adv"/>    </e>
     <e lm="immediately"><i>immediately</i><par n="maybe__adv"/>    </e>
-    <e lm="in"><i>in</i><par n="maybe__adv"/>    </e>
+    <!-- <e lm="in"><i>in</i><par n="maybe__adv"/>    </e> -->
     <e lm="in Indian file"><i>in<b/>Indian<b/>file</i><par n="maybe__adv"/>    </e>
     <e lm="in a big way"><i>in<b/>a<b/>big<b/>way</i><par n="maybe__adv"/>    </e>
     <e lm="in a blink of the eye"><i>in<b/>a<b/>blink<b/>of<b/>the<b/>eye</i><par n="maybe__adv"/>    </e>
@@ -28898,7 +28898,7 @@
     <e lm="marine"><i>marine</i><par n="expensive__adj"/>    </e>
     <e lm="maritime"><i>maritime</i><par n="expensive__adj"/>    </e>
     <e lm="marked"><i>marked</i><par n="expensive__adj"/>    </e>
-    <e lm="marvellous"><i>marvellous</i><par n="expensive__adj"/>    </e>
+    <e lm="marvellous"><i>marve</i><par n="l_ll"/><i>ous</i><par n="expensive__adj"/>    </e>
     <e lm="masculine"><i>masculine</i><par n="expensive__adj"/>    </e>
     <e lm="massive"><i>massive</i><par n="expensive__adj"/>    </e>
     <e lm="material"><i>material</i><par n="expensive__adj"/>    </e>
@@ -31863,7 +31863,7 @@
     <e r="RL" lm="if that weren't enough"><i>if<b/>that<b/>weren't<b/>enough</i><par n="maybe__adv"/>    </e>
     <e lm="illegally"><i>illegally</i><par n="maybe__adv"/>    </e>
     <e lm="immediately"><i>immediately</i><par n="maybe__adv"/>    </e>
-    <e lm="in"><i>in</i><par n="maybe__adv"/>    </e>
+<!--     <e lm="in"><i>in</i><par n="maybe__adv"/>    </e> -->
     <e lm="in Indian file"><i>in<b/>Indian<b/>file</i><par n="maybe__adv"/>    </e>
     <e lm="in a big way"><i>in<b/>a<b/>big<b/>way</i><par n="maybe__adv"/>    </e>
     <e lm="in a blink of the eye"><i>in<b/>a<b/>blink<b/>of<b/>the<b/>eye</i><par n="maybe__adv"/>    </e>
@@ -41149,7 +41149,6 @@
     <e lm="IED" a="imaxinsoftware"><i>IED</i><par n="Linux__np"/></e>
     <e lm="Buj" a="imaxinsoftware"><i>Buj</i><par n="Smith__np"/></e>
     <e lm="Asarta" a="imaxinsoftware"><i>Asarta</i><par n="Smith__np"/></e>
-    <e lm="UNIFIL" a="imaxinsoftware"><i>UNIFIL</i><par n="Linux__np"/></e>
     <e lm="Gadjar" a="imaxinsoftware"><i>Gadjar</i><par n="Barcelona__np"/></e>
     <e lm="Trascasa" a="imaxinsoftware"><i>Trascasa</i><par n="Smith__np"/></e>
     <e lm="Buenavista" a="imaxinsoftware"><i>Buenavista</i><par n="Barcelona__np"/></e>
@@ -41956,7 +41955,6 @@
     <e lm="reunite" a="imaxinsoftware"><i>reunit</i><par n="liv/e__vblex"/></e>
     <e lm="bespoke" a="imaxinsoftware"><i>bespoke</i><par n="expensive__adj"/></e>
     <e lm="custom-made" a="imaxinsoftware"><i>custom-made</i><par n="expensive__adj"/></e>
-    <e lm="slur" a="imaxinsoftware"><i>slur</i><par n="occur__vblex"/></e>
     <e lm="slur" a="imaxinsoftware"><i>slur</i><par n="house__n"/></e>
     <e lm="slander" a="imaxinsoftware"><i>slander</i><par n="house__n"/></e>
     <e lm="slander" a="imaxinsoftware"><i>slander</i><par n="accept__vblex"/></e>
@@ -42041,9 +42039,70 @@
     <e lm="lofty" a="imaxinsoftware"><i>loft</i><par n="happ/y__adj"/></e>
     <e lm="bell-tower" a="imaxinsoftware"><i>bell-tower</i><par n="house__n"/></e>
     <e lm="bell tower" a="imaxinsoftware"><i>bell<b/>tower</i><par n="house__n"/></e>
-    <e lm="pencil"><i>pencil</i><par n="travel__vblex"/>    </e>
-    <e lm="loveliness" a="imaxinsoftware"><i>loveliness</i><par n="house__n"/></e>
+    <e lm="pencil"><i>pencil</i><par n="travel__vblex"/></e>
+    <e lm="loveliness" a="imaxinsoftware"><i>loveliness</i><par n="access__n"/></e>
     <e lm="falling" a="imaxinsoftware"><i>falling</i><par n="expensive__adj"/></e>
+    <e lm="edifice" a="imaxinsoftware"><i>edifice</i><par n="house__n"/></e>
+    <e lm="wrong" a="imaxinsoftware"><i>wrong</i><par n="house__n"/></e>
+    <e lm="ugliness" a="imaxinsoftware"><i>ugliness</i><par n="access__n"/></e>
+    <e lm="no rest" a="imaxinsoftware"><i>no<b/>rest</i><par n="maybe__adv"/></e>
+    <e lm="shovel"><i>shovel</i><par n="travel__vblex"/></e>
+    <e lm="canal" a="imaxinsoftware"><i>canal</i><par n="house__n"/></e>
+    <e lm="smite" a="imaxinsoftware"><i>sm</i><par n="wr/ite__vblex"/></e>
+    <e lm="twilight" a="imaxinsoftware"><i>twilight</i><par n="house__n"/></e>
+    <e lm="twilight" a="imaxinsoftware"><i>twilight</i><par n="expensive__adj"/></e>
+    <e lm="toil" a="imaxinsoftware"><i>toil</i><par n="house__n"/></e>
+    <e lm="toil" a="imaxinsoftware"><i>toil</i><par n="spoil__vblex"/></e>
+    <e lm="hard work" a="imaxinsoftware"><i>hard<b/>work</i><par n="house__n"/></e>
+    <e lm="work hard"><i>work</i><par n="accept__vblex"/><p><l><b/>hard</l><r><g><b/>hard</g></r></p></e>
+    <e lm="be hard at work" a="imaxinsoftware"><i/><par n="/be__vblex"/><p><l><b/>hard<b/>at<b/>work</l><r><g><b/>hard<b/>at<b/>work</g></r></p></e>
+    <e lm="compassionate" a="imaxinsoftware"><i>compassionate</i><par n="expensive__adj"/></e>
+    <e lm="understanding" a="imaxinsoftware"><i>understanding</i><par n="expensive__adj"/></e>
+    <e lm="facade" a="imaxinsoftware"><i>facade</i><par n="house__n"/></e>
+    <e lm="gracious" a="imaxinsoftware"><i>gracious</i><par n="expensive__adj"/></e>
+    <e lm="gracious living" a="imaxinsoftware"><i>gracious<b/>living</i><par n="house__n"/></e>
+    <e lm="scroll" a="imaxinsoftware"><i>scroll</i><par n="house__n"/></e>
+    <e lm="scrolling" a="imaxinsoftware"><i>scrolling</i><par n="house__n"/></e>
+    <e lm="scroll down" a="imaxinsoftware"><i>scroll</i><par n="accept__vblex"/><p><l><b/>down</l><r><g><b/>down</g></r></p></e>
+    <e lm="scroll up" a="imaxinsoftware"><i>scroll</i><par n="accept__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="leafy" a="imaxinsoftware"><i>leaf</i><par n="happ/y__adj"/></e>
+    <e lm="airily" a="imaxinsoftware"><i>airily</i><par n="maybe__adv"/></e>
+    <e lm="hastily" a="imaxinsoftware"><i>hastily</i><par n="maybe__adv"/></e>
+    <e lm="whiteness" a="imaxinsoftware"><i>whiteness</i><par n="access__n"/></e>
+    <e lm="plumed" a="imaxinsoftware"><i>plumed</i><par n="expensive__adj"/></e>
+    <e lm="robed" a="imaxinsoftware"><i>robed</i><par n="expensive__adj"/></e>
+    <e lm="exulting" a="imaxinsoftware"><i>exulting</i><par n="expensive__adj"/></e>
+    <e lm="evanescent" a="imaxinsoftware"><i>evanescent</i><par n="expensive__adj"/></e>
+    <e lm="lifeless" a="imaxinsoftware"><i>lifeless</i><par n="expensive__adj"/></e>
+    <e lm="yearning" a="imaxinsoftware"><i>yearning</i><par n="house__n"/></e>
+    <e lm="longing" a="imaxinsoftware"><i>longing</i><par n="house__n"/></e>
+    <e lm="long for" a="imaxinsoftware"><i>long</i><par n="accept__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+    <e lm="yearn for" a="imaxinsoftware"><i>yearn</i><par n="accept__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
+    <e lm="yearn" a="imaxinsoftware"><i>yearn</i><par n="accept__vblex"/></e>
+    <e lm="seminude" a="imaxinsoftware"><i>seminude</i><par n="expensive__adj"/></e>
+    <e lm="half-naked" a="imaxinsoftware"><i>half-naked</i><par n="expensive__adj"/></e>
+    <e lm="semidarkness" a="imaxinsoftware"><i>semidarkness</i><par n="access__n"/></e>
+    <e lm="semi-darkness" a="imaxinsoftware"><i>semi-darkness</i><par n="access__n"/></e>
+    <e lm="bloody" a="imaxinsoftware"><i>blood</i><par n="happ/y__adj"/></e>
+    <e lm="bloodstained" a="imaxinsoftware"><i>bloodstained</i><par n="expensive__adj"/></e>
+    <e lm="cab driver" a="imaxinsoftware"><i>cab<b/>driver</i><par n="house__n"/></e>
+    <e lm="cab" a="imaxinsoftware"><i>cab</i><par n="house__n"/></e>
+    <e lm="deservedly" a="imaxinsoftware"><i>deservedly</i><par n="maybe__adv"/></e>
+    <e lm="flair" a="imaxinsoftware"><i>flair</i><par n="house__n"/></e>
+    <e lm="shake up" a="imaxinsoftware"><i>sh</i><par n="t/ake__vblex" sa="sep"/><par n="probj_dem__prn"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="shake-up" a="imaxinsoftware"><i>shake-up</i><par n="house__n"/></e>
+    <e lm="obsessed" a="imaxinsoftware"><i>obsessed</i><par n="expensive__adj"/></e>
+    <e lm="glib" a="imaxinsoftware"><i>glib</i><par n="drab/__adj"/></e>
+    <e lm="simplistic" a="imaxinsoftware"><i>simplistic</i><par n="expensive__adj"/></e>
+    <e lm="prime time" a="imaxinsoftware"><i>prime<b/>time</i><par n="house__n"/></e>
+    <e lm="primetime" a="imaxinsoftware"><i>primetime</i><par n="house__n"/></e>
+    <e lm="butt" a="imaxinsoftware"><i>butt</i><par n="house__n"/></e>
+    <e lm="backside" a="imaxinsoftware"><i>backside</i><par n="house__n"/></e>
+    <e lm="mourn" a="imaxinsoftware"><i>mourn</i><par n="accept__vblex"/></e>
+    <e lm="booklet" a="imaxinsoftware"><i>booklet</i><par n="house__n"/></e>
+    <e lm="brochure" a="imaxinsoftware"><i>brochure</i><par n="house__n"/></e>
+    <e lm="graphologist" a="imaxinsoftware"><i>graphologist</i><par n="house__n"/></e>
+    
     
   </section>
 

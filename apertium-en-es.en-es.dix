@@ -5509,7 +5509,7 @@
     <e> <i>Melquiades<s n="np"/><s n="ant"/></i></e>
     <e> <i>Melquíades<s n="np"/><s n="ant"/></i></e>
     <e> <i>Menelao<s n="np"/><s n="ant"/></i></e>
-    <e><p><l>Mercury<s n="np"/><s n="ant"/></l><r>Mercurio<s n="np"/><s n="ant"/></r></p></e>
+    <e> <i>Mercury<s n="np"/><s n="ant"/></i></e>
     <e> <i>Merlín<s n="np"/><s n="ant"/></i></e>
     <e> <i>Meyer<s n="np"/><s n="ant"/></i></e>
     <e> <i>Micael<s n="np"/><s n="ant"/></i></e>
@@ -10080,7 +10080,7 @@
     <e>  <p><l>Grace<s n="np"/></l><r>Grace<s n="np"/></r></p></e>
     <e><p><l>Great<b/>Britain<s n="np"/><s n="loc"/></l><r>Gran<b/>Bretaña<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Greece<s n="np"/><s n="loc"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-    <e>  <p><l>Grenada<s n="np"/><s n="loc"/></l><r>Granada<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e srl="Grenada">  <p><l>Grenada<s n="np"/><s n="loc"/></l><r>Granada<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Guadeloupe<s n="np"/><s n="loc"/></l><r>Guadalupe<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Guatemala<s n="np"/><s n="loc"/></l><r>Guatemala<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>Guatemala<s n="np"/><s n="loc"/></l><r>Guatemala<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -32687,8 +32687,8 @@
     <e a="imaxinsoftware"><p><l>Curitiba<s n="np"/><s n="loc"/></l><r>Curitiba<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Marrakech<s n="np"/><s n="loc"/></l><r>Marrakech<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Calgary<s n="np"/><s n="loc"/></l><r>Calgary<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/></l><r>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>Cartagena<b/>of<b/>the<b/>Indies<s n="np"/><s n="loc"/></l><r>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e srl="Cartagena de Indias D" a="imaxinsoftware"><p><l>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/></l><r>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e srl="Cartagena of the Indies" a="imaxinsoftware"><p><l>Cartagena<b/>of<b/>the<b/>Indies<s n="np"/><s n="loc"/></l><r>Cartagena<b/>de<b/>Indias<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Royal<b/>Spanish<b/>Academy<s n="np"/><s n="al"/></l><r>Real<b/>Academia<b/>Española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Spanish<b/>Broadcasting<b/>Corporation<s n="np"/><s n="al"/></l><r>Corporación<b/>Radiotelevisión<b/>Española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Belo<b/>Horizonte<s n="np"/><s n="loc"/></l><r>Belo<b/>Horizonte<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -32940,10 +32940,9 @@
     <e a="imaxinsoftware"><p><l>ONCE<s n="np"/><s n="al"/></l><r>ONCE<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Course<b/>of<b/>Advisor<b/>on<b/>Gender<b/>in<b/>Peacekeeping<b/>Operations<s n="np"/><s n="al"/></l><r>Curso<b/>de<b/>Asesor<b/>de<b/>Género<b/>en<b/>Operaciones<b/>de<b/>Paz<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Training<b/>and<b/>Doctrine<b/>Control<s n="np"/><s n="al"/></l><r>Mando<b/>de<b/>Adiestramiento<b/>y<b/>Doctrina<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>Granada<s n="np"/><s n="loc"/></l><r>Granada<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e srl="Granada D" a="imaxinsoftware"><p><l>Granada<s n="np"/><s n="loc"/></l><r>Granada<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Women's<b/>Institute<s n="np"/><s n="al"/></l><r>Instituto<b/>de<b/>la<b/>Mujer<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Women's<b/>Observatory<s n="np"/><s n="al"/></l><r>Observatorio<b/>de<b/>la<b/>Mujer<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-    <e r="RL" a="imaxinsoftware"><p><l>NATO<s n="n"/><s n="np"/><s n="al"/></l><r>NATO<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Bl-SC<s n="np"/><s n="al"/></l><r>Bl-SC<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Villacé<s n="np"/><s n="cog"/></l><r>Villacé<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>La<b/>Remonta<s n="np"/><s n="loc"/></l><r>La<b/>Remonta<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -33305,7 +33304,7 @@
     <e a="imaxinsoftware"><p><l>World<b/>Wide<b/>Web<s n="np"/><s n="al"/></l><r>World<b/>Wide<b/>Web<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>El<b/>País<s n="np"/><s n="al"/></l><r>El<b/>País<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>de<b/>Loyola<s n="np"/><s n="cog"/></l><r>de<b/>Loyola<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>Loyola<s n="np"/><s n="cog"/></l><r>Welles<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Loyola<s n="np"/><s n="cog"/></l><r>Loyola<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>RENFE<s n="np"/><s n="al"/></l><r>RENFE<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Albacete<s n="np"/><s n="loc"/></l><r>Albacete<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Madridejos<s n="np"/><s n="loc"/></l><r>Madridejos<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -34050,7 +34049,7 @@
     <e srl="become interested" a="imaxinsoftware"><p><l>become<g><b/>interested</g><s n="vblex"/></l><r>interesarse<s n="vblex"/><s n="pron"/></r></p></e>
     <e slr="interesarse" srl="interest D" a="imaxinsoftware"><p><l>interest<s n="vblex"/></l><r>interesarse<s n="vblex"/><s n="pron"/></r></p></e>
     <e slr="interesarse" srl="ask after" a="imaxinsoftware"><p><l>ask<g><b/>after</g><s n="vblex"/></l><r>interesarse<s n="vblex"/><s n="pron"/></r></p></e>
-    <e slr="preguntar por D" srl="ask after" a="imaxinsoftware"><p><l>ask<g><b/>after</g><s n="vblex"/></l><r>preguntar<g><b/>por</g><s n="vblex"/></r></p></e>
+    <e slr="preguntar por D" a="imaxinsoftware"><p><l>ask<g><b/>after</g><s n="vblex"/></l><r>preguntar<g><b/>por</g><s n="vblex"/></r></p></e>
     <e srl="feud" a="imaxinsoftware"><p><l>feud<s n="n"/></l><r>contienda<s n="n"/><s n="f"/></r></p></e>
     <e srl="feud" a="imaxinsoftware"><p><l>feud<s n="vblex"/></l><r>contender<s n="vblex"/></r></p></e>
     <e srl="contend D" a="imaxinsoftware"><p><l>contend<s n="vblex"/></l><r>contender<s n="vblex"/></r></p></e>
@@ -34092,7 +34091,7 @@
     <e slr="juegos olímpicos" a="imaxinsoftware"><p><l>olympic<b/>game<s n="n"/><s n="pl"/></l><r>juegos<b/>olímpicos<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e srl="browse" a="imaxinsoftware"><p><l>browse<s n="vblex"/></l><r>explorar<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>crossword<s n="n"/></l><r>crucigrama<s n="n"/><s n="m"/></r></p></e>
-    <e srl="lure D" a="imaxinsoftware"><p><l>lure<s n="n"/></l><r>señuelo<s n="n"/><s n="m"/></r></p></e>
+    <e srl="lure" a="imaxinsoftware"><p><l>lure<s n="n"/></l><r>señuelo<s n="n"/><s n="m"/></r></p></e>
     <e srl="lure" a="imaxinsoftware"><p><l>lure<s n="vblex"/></l><r>engañar<s n="vblex"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>meningitis<s n="n"/><s n="sg"/></l><r>meningitis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>meningitis<s n="n"/><s n="pl"/></l><r>meningitis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
@@ -34119,7 +34118,9 @@
     <e srl="log" a="imaxinsoftware"><p><l>log<s n="n"/></l><r>registro<s n="n"/><s n="m"/></r></p></e>
     <e srl="dud" a="imaxinsoftware"><p><l>dud<s n="n"/></l><r>inutilidad<s n="n"/><s n="f"/></r></p></e>
     <e srl="dud" a="imaxinsoftware"><p><l>dud<s n="adj"/></l><r>falso<s n="adj"/></r></p></e>
-    <e srl="uselessness D" a="imaxinsoftware"><p><l>uselessness<s n="n"/></l><r>inutilidad<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL" srl="uselessness D" a="imaxinsoftware"><p><l>uselessness<s n="n"/><s n="sg"/></l><r>inutilidad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL" srl="uselessness D" a="imaxinsoftware"><p><l>uselessness<s n="n"/><s n="sg"/></l><r>inutilidad<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>uselessness<s n="n"/><s n="sg"/></l><r>inutilidad<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
     <e slr="inutilidad D" srl="futility" a="imaxinsoftware"><p><l>futility<s n="n"/></l><r>inutilidad<s n="n"/><s n="f"/></r></p></e>
     <e slr="futilidad" a="imaxinsoftware"><p><l>futility<s n="n"/></l><r>futilidad<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>triviality<s n="n"/></l><r>trivialidad<s n="n"/><s n="f"/></r></p></e>
@@ -34187,7 +34188,7 @@
     <e r="LR" a="imaxinsoftware"><p><l>be<g><b/>up<b/>to<b/>them</g><s n="vblex"/></l><r>depender<g><b/>de<b/>ellos</g><s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>reactive<s n="adj"/></l><r>reactivo<s n="adj"/></r></p></e>
     <e slr="expulsar D" srl="eject" a="imaxinsoftware"><p><l>eject<s n="vblex"/></l><r>expulsar<s n="vblex"/></r></p></e>
-    <e slr="eyectar" srl="eject" a="imaxinsoftware"><p><l>eject<s n="vblex"/></l><r>eyectar<s n="vblex"/></r></p></e>
+    <e slr="eyectar" a="imaxinsoftware"><p><l>eject<s n="vblex"/></l><r>eyectar<s n="vblex"/></r></p></e>
     <e srl="spectre" a="imaxinsoftware"><p><l>spectre<s n="n"/></l><r>espectro<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>plummet<s n="n"/></l><r>plomada<s n="n"/><s n="f"/></r></p></e>
     <e srl="plummet" a="imaxinsoftware"><p><l>plummet<s n="vblex"/></l><r>desplomarse<s n="vblex"/><s n="pron"/></r></p></e>
@@ -34207,7 +34208,9 @@
     <e a="imaxinsoftware"><p><l>be<g><b/>back</g><s n="vblex"/></l><r>estar<g><b/>de<b/>vuelta</g><s n="vblex"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>seeker<s n="n"/></l><r>buscador<s n="n"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>seeker<s n="n"/></l><r>buscador<s n="n"/><s n="GD"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>homelessness<s n="n"/></l><r>falta<b/>de<b/>vivienda<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>homelessness<s n="n"/><s n="sg"/></l><r>falta<b/>de<b/>vivienda<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>homelessness<s n="n"/><s n="sg"/></l><r>falta<b/>de<b/>vivienda<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>homelessness<s n="n"/><s n="sg"/></l><r>falta<b/>de<b/>vivienda<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e a="imaxinsoftware"><p><l>needy<s n="adj"/><s n="sint"/></l><r>necesitado<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>pensioner<s n="n"/></l><r>pensionista<s n="n"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>snowfall<s n="n"/></l><r>nevada<s n="n"/><s n="f"/></r></p></e>
@@ -34227,7 +34230,7 @@
     <e srl="disused" a="imaxinsoftware"><p><l>disused<s n="adj"/></l><r>abandonado<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>scrutiny<s n="n"/></l><r>escrutinio<s n="n"/><s n="m"/></r></p></e>
     <e srl="walkout" a="imaxinsoftware"><p><l>walkout<s n="n"/></l><r>huelga<s n="n"/><s n="f"/></r></p></e>
-    <e srl="pointy D" a="imaxinsoftware"><p><l>pointy<s n="adj"/><s n="sint"/></l><r>puntiagudo<s n="adj"/></r></p></e>
+    <e srl="pointy" a="imaxinsoftware"><p><l>pointy<s n="adj"/><s n="sint"/></l><r>puntiagudo<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>anglican<s n="adj"/></l><r>anglicano<s n="adj"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>Anglican<s n="n"/></l><r>anglicano<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>Anglican<s n="n"/></l><r>anglicano<s n="n"/></r></p></e>
@@ -34306,8 +34309,8 @@
     <e srl="shake up" a="imaxinsoftware"><p><l>shake<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>reorganizar<s n="vblex"/></r></p></e>
     <e srl="shake-up" a="imaxinsoftware"><p><l>shake-up<s n="n"/></l><r>reorganización<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>obsessed<s n="adj"/></l><r>obsesionado<s n="adj"/></r></p></e>
-    <e slr="simplista D" srl="glib" a="imaxinsoftware"><p><l>glib<s n="adj"/></l><r>simplista<s n="adj"/><s n="mf"/></r></p></e>
-    <e slr="de mucha labia" a="imaxinsoftware"><p><l>glib<s n="adj"/></l><r>de<b/>mucha<b/>labia<s n="adj"/><s n="mf"/></r></p></e>
+    <e slr="simplista D" srl="glib" a="imaxinsoftware"><p><l>glib<s n="adj"/><s n="sint"/></l><r>simplista<s n="adj"/><s n="mf"/></r></p></e>
+    <e slr="de mucha labia" a="imaxinsoftware"><p><l>glib<s n="adj"/><s n="sint"/></l><r>de<b/>mucha<b/>labia<s n="adj"/><s n="mf"/></r></p></e>
     <e srl="simplistic D" a="imaxinsoftware"><p><l>simplistic<s n="adj"/></l><r>simplista<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>prime<b/>time<s n="n"/></l><r>horario<g><b/>de<b/>máxima<b/>audiencia</g><s n="n"/><s n="m"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>primetime<s n="n"/></l><r>horario<g><b/>de<b/>máxima<b/>audiencia</g><s n="n"/><s n="m"/></r></p></e>

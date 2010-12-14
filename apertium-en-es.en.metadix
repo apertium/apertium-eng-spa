@@ -9825,8 +9825,8 @@
     <e lm="stir"><i>stir</i><par n="occur__vblex"/>    </e>
     <e lm="stir up"><i>stir</i><par n="occur__vblex" sa="sep"/>      <par n="probj_dem__prn"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
     <e lm="stop"><i>stop</i><par n="step__vblex"/>    </e>
-    <e lm="rack [one's] brain" c="singular possessor"><i>rack</i><par n="approach__vblex" sa="sep"/><par n="pos_as_probj_dem_sg__prn"/><p><l><b/>brain</l><r><g><b/>brain</g></r></p></e>
-    <e lm="rack [one's] brain" c="plural possessor"><i>rack</i><par n="approach__vblex" sa="sep"/><par n="pos_as_probj_dem_pl__prn"/><p><l><b/>brains</l><r><g><b/>brain</g></r></p></e>
+    <!--<e lm="rack [one's] brain" c="singular possessor"><i>rack</i><par n="approach__vblex" sa="sep"/><par n="pos_as_probj_dem_sg__prn"/><p><l><b/>brain</l><r><g><b/>brain</g></r></p></e>-->
+    <!--<e lm="rack [one's] brain" c="plural possessor"><i>rack</i><par n="approach__vblex" sa="sep"/><par n="pos_as_probj_dem_pl__prn"/><p><l><b/>brains</l><r><g><b/>brain</g></r></p></e>-->
     <e lm="store"><i>stor</i><par n="liv/e__vblex"/>    </e>
     <e lm="strain"><i>strain</i><par n="accept__vblex"/>    </e>
     <e lm="strengthen"><i>strengthen</i><par n="accept__vblex"/>    </e>
@@ -13979,6 +13979,330 @@
 	<e lm="blinding light" a="eleka"><i>blinding<b/>light</i><par n="house__n"/>    </e>
 	<e lm="blinding headache" a="eleka"><i>blinding<b/>headache</i><par n="house__n"/>    </e>
 	<e lm="hard-working" a="eleka"><i>hard-working</i><par n="expensive__adj"/>    </e>
+	<e lm="hurl" a="eleka"><i>hurl</i><par n="accept__vblex"/>    </e>
+	<e lm="rush forward" a="eleka"><i>rush</i><par n="approach__vblex"/>      <p>        <l><b/>forward</l><r><g><b/>forward</g></r></p></e>
+	<e lm="champion" a="eleka"><i>champion</i><par n="accept__vblex"/>    </e>
+	<e lm="slap" a="eleka"><i>slap</i><par n="step__vblex"/>    </e>
+	<e lm="abominate" a="eleka"><i>abominate</i><par n="accept__vblex"/>    </e>
+	<e lm="warm up" a="eleka"><i>warm</i><par n="accept__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="be bulky">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>bulky</l><r><g><b/>bulky</g></r></p></e>
+	<e lm="hoard" a="eleka"><i>hoard</i><par n="accept__vblex"/>    </e>
+	<e lm="catch a cold" a="eleka"><i>catch</i><par n="approach__vblex"/>      <p>        <l><b/>a<b/>cold</l><r><g><b/>a<b/>cold</g></r></p></e>
+	<e lm="roast" a="eleka"><i>roast</i><par n="accept__vblex"/>    </e>
+	<e lm="roast" a="eleka"><i>roast</i><par n="accept__vblex"/>    </e>
+	<e lm="dress up" a="eleka"><i>dress</i><par n="accept__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="be intimidated">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>intimidated</l><r><g><b/>intimidated</g></r></p></e>
+	<e lm="mark the rhythm" a="eleka"><i>mark</i><par n="accept__vblex"/>      <p>        <l><b/>the<b/>rhythm</l><r><g><b/>the<b/>rhythm</g></r></p></e>
+	<e lm="give complex" a="eleka"><i>g</i><par n="g/ive__vblex"/>      <p>        <l><b/>complex</l><r><g><b/>complex</g></r></p></e>
+	<e lm="get a complex" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>a<b/>complex</l><r><g><b/>a<b/>complex</g></r></p></e>
+	<e lm="become distressed" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>distressed</l><r><g><b/>distressed</g></r></p></e>
+	<e lm="join up" a="eleka"><i>join</i><par n="accept__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="armour plate" a="eleka"><i>armour</i><par n="accept__vblex"/>      <p>        <l><b/>plate</l><r><g><b/>plate</g></r></p></e>
+	<e lm="steel" a="eleka"><i>steel</i><par n="accept__vblex"/>    </e>
+	<e lm="lace up" a="eleka"><i>lac</i><par n="liv/e__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="corner" a="eleka"><i>corner</i><par n="accept__vblex"/>    </e>
+	<e lm="put to bed" a="eleka"><i>put</i><par n="cut__vblex"/>      <p>        <l><b/>to<b/>bed</l><r><g><b/>to<b/>bed</g></r></p></e>
+	<e lm="go to bed" a="eleka"><i></i><par n="/go__vblex"/>      <p>        <l><b/>to<b/>bed</l><r><g><b/>to<b/>bed</g></r></p></e>
+	<e lm="pepper" a="eleka"><i>pepper</i><par n="accept__vblex"/>    </e>
+	<e lm="stab" a="eleka"><i>stab</i><par n="dub__vblex"/>    </e>
+	<e lm="hasten" a="eleka"><i>hasten</i><par n="accept__vblex"/>    </e>
+	<e lm="boringly" a="eleka"><i>boringly</i><par n="maybe__adv"/>    </e>
+	<e lm="academically" a="eleka"><i>academically</i><par n="maybe__adv"/>    </e>
+	<e lm="heatedly" a="eleka"><i>heatedly</i><par n="maybe__adv"/>    </e>
+	<e lm="accidentally" a="eleka"><i>accidentally</i><par n="maybe__adv"/>    </e>
+	<e lm="rapidly" a="eleka"><i>rapidly</i><par n="maybe__adv"/>    </e>
+	<e lm="accentuatedly" a="eleka"><i>accentuatedly</i><par n="maybe__adv"/>    </e>
+	<e lm="accommodatedly" a="eleka"><i>accommodatedly</i><par n="maybe__adv"/>    </e>
+	<e lm="adaptedly" a="eleka"><i>adaptedly</i><par n="maybe__adv"/>    </e>
+	<e lm="advancedly" a="eleka"><i>advancedly</i><par n="maybe__adv"/>    </e>
+	<e lm="administratively" a="eleka"><i>administratively</i><par n="maybe__adv"/>    </e>
+	<e lm="warningly" a="eleka"><i>warningly</i><par n="maybe__adv"/>    </e>
+	<e lm="affably" a="eleka"><i>affably</i><par n="maybe__adv"/>    </e>
+	<e lm="shavedly" a="eleka"><i>shavedly</i><par n="maybe__adv"/>    </e>
+	<e lm="effeminately" a="eleka"><i>effeminately</i><par n="maybe__adv"/>    </e>
+	<e lm="stubbornly" a="eleka"><i>stubbornly</i><par n="maybe__adv"/>    </e>
+	<e lm="tuningly" a="eleka"><i>tuningly</i><par n="maybe__adv"/>    </e>
+	<e lm="settledly" a="eleka"><i>settledly</i><par n="maybe__adv"/>    </e>
+	<e lm="assertedly" a="eleka"><i>assertedly</i><par n="maybe__adv"/>    </e>
+	<e lm="aflictedly" a="eleka"><i>aflictedly</i><par n="maybe__adv"/>    </e>
+	<e lm="fluently" a="eleka"><i>fluently</i><par n="maybe__adv"/>    </e>
+	<e lm="gracefully" a="eleka"><i>gracefully</i><par n="maybe__adv"/>    </e>
+	<e lm="aggravatingly" a="eleka"><i>aggravatingly</i><par n="maybe__adv"/>    </e>
+	<e lm="offencedly" a="eleka"><i>offencedly</i><par n="maybe__adv"/>    </e>
+	<e lm="aggressively" a="eleka"><i>aggressively</i><par n="maybe__adv"/>    </e>
+	<e lm="sharply" a="eleka"><i>sharply</i><par n="maybe__adv"/>    </e>
+	<e lm="earnestly" a="eleka"><i>earnestly</i><par n="maybe__adv"/>    </e>
+	<e lm="economisedly" a="eleka"><i>economisedly</i><par n="maybe__adv"/>    </e>
+	<e lm="isolatedly" a="eleka"><i>isolatedly</i><par n="maybe__adv"/>    </e>
+	<e lm="tightly" a="eleka"><i>tightly</i><par n="maybe__adv"/>    </e>
+	<e lm="extendedly" a="eleka"><i>extendedly</i><par n="maybe__adv"/>    </e>
+	<e lm="jubilantly" a="eleka"><i>jubilantly</i><par n="maybe__adv"/>    </e>
+	<e lm="crazily" a="eleka"><i>crazily</i><par n="maybe__adv"/>    </e>
+	<e lm="alternately" a="eleka"><i>alternately</i><par n="maybe__adv"/>    </e>
+	<e lm="gobsmackedly" a="eleka"><i>gobsmackedly</i><par n="maybe__adv"/>    </e>	
+	<e lm="lovesickly" a="eleka"><i>lovesickly</i><par n="maybe__adv"/>    </e>
+	<e lm="ambitiously" a="eleka"><i>ambitiously</i><par n="maybe__adv"/>    </e>
+	<e lm="ambiguously" a="eleka"><i>ambiguously</i><par n="maybe__adv"/>    </e>
+	<e lm="amicably" a="eleka"><i>amicably</i><par n="maybe__adv"/>    </e>
+	<e lm="in heaps" a="eleka"><i>in<b/>heaps</i><par n="maybe__adv"/>    </e>
+	<e lm="lovingly" a="eleka"><i>lovingly</i><par n="maybe__adv"/>    </e>
+	<e lm="analogously" a="eleka"><i>analogously</i><par n="maybe__adv"/>    </e>
+	<e lm="analogically" a="eleka"><i>analogically</i><par n="maybe__adv"/>    </e>
+	<e lm="anatomically" a="eleka"><i>anatomically</i><par n="maybe__adv"/>    </e>
+	<e lm="widely" a="eleka"><i>widely</i><par n="maybe__adv"/>    </e>
+	<e lm="agedly" a="eleka"><i>agedly</i><par n="maybe__adv"/>    </e>
+	<e lm="raggedly" a="eleka"><i>raggedly</i><par n="maybe__adv"/>    </e>
+	<e lm="angelically" a="eleka"><i>angelically</i><par n="maybe__adv"/>    </e>
+	<e lm="angularly" a="eleka"><i>angularly</i><par n="maybe__adv"/>    </e>
+	<e lm="bravely" a="eleka"><i>bravely</i><par n="maybe__adv"/>    </e>
+	<e lm="childlikely" a="eleka"><i>childlikely</i><par n="maybe__adv"/>    </e>
+	<e lm="anticipatively" a="eleka"><i>anticipatively</i><par n="maybe__adv"/>    </e>
+	<e lm="capriciously" a="eleka"><i>capriciously</i><par n="maybe__adv"/>    </e>
+	<e lm="antonomastically" a="eleka"><i>antonomastically</i><par n="maybe__adv"/>    </e>
+	<e lm="spectacularly" a="eleka"><i>spectacularly</i><par n="maybe__adv"/>    </e>
+	<e lm="devotedly" a="eleka"><i>devotedly</i><par n="maybe__adv"/>    </e>
+	<e lm="thickly" a="eleka"><i>thickly</i><par n="maybe__adv"/>    </e>
+	<e lm="distressedly" a="eleka"><i>distressedly</i><par n="maybe__adv"/>    </e>
+	<e lm="apocryphally" a="eleka"><i>apocryphally</i><par n="maybe__adv"/>    </e>
+	<e lm="empowerly" a="eleka"><i>empowerly</i><par n="maybe__adv"/>    </e>
+	<e lm="apostolically" a="eleka"><i>apostolically</i><par n="maybe__adv"/>    </e>
+	<e lm="esteemedly" a="eleka"><i>esteemedly</i><par n="maybe__adv"/>    </e>
+	<e lm="urgently" a="eleka"><i>urgently</i><par n="maybe__adv"/>    </e>
+	<e lm="violently" a="eleka"><i>violently</i><par n="maybe__adv"/>    </e>
+	<e lm="profitably" a="eleka"><i>profitably</i><par n="maybe__adv"/>    </e>
+	<e lm="neatly" a="eleka"><i>neatly</i><par n="maybe__adv"/>    </e>
+	<e lm="with great difficulty" a="eleka"><i>with<b/>great<b/>difficulty</i><par n="maybe__adv"/>    </e>
+	<e lm="hastily" a="eleka"><i>hastily</i><par n="maybe__adv"/>    </e>
+	<e lm="vehemently" a="eleka"><i>vehemently</i><par n="maybe__adv"/>    </e>
+	<e lm="arbitrarily" a="eleka"><i>arbitrarily</i><par n="maybe__adv"/>    </e>
+	<e lm="mysteriously" a="eleka"><i>mysteriously</i><par n="maybe__adv"/>    </e>
+	<e lm="ardourously" a="eleka"><i>ardourously</i><par n="maybe__adv"/>    </e>
+	<e lm="ardently" a="eleka"><i>ardently</i><par n="maybe__adv"/>    </e>
+	<e lm="arduously" a="eleka"><i>arduously</i><par n="maybe__adv"/>    </e>
+	<e lm="harmoniously" a="eleka"><i>harmoniously</i><par n="maybe__adv"/>    </e>
+	<e lm="in an orderly fashion" a="eleka"><i>in<b/>an<b/>orderly<b/>fashion</i><par n="maybe__adv"/>    </e>
+	<e lm="tidy up" a="eleka"><i>tidy</i><par n="approach__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="adhere" a="eleka"><i>adher</i><par n="liv/e__vblex"/>    </e>
+	<e lm="use adjectivally" a="eleka"><i>us</i><par n="liv/e__vblex"/>      <p>        <l><b/>adjectivally</l><r><g><b/>adjectivally</g></r></p></e>
+	<e lm="indoctrinate" a="eleka"><i>indoctrinat</i><par n="liv/e__vblex"/>    </e>
+	<e lm="suffer from" a="eleka"><i>suffer</i><par n="accept__vblex"/>      <p>        <l><b/>from</l><r><g><b/>from</g></r></p></e>
+	<e lm="pave" a="eleka"><i>pav</i><par n="liv/e__vblex"/>    </e>
+	<e lm="send to sleep" a="eleka"><i>sen</i><par n="ben/d__vblex"/>      <p>        <l><b/>to<b/>sleep</l><r><g><b/>to<b/>sleep</g></r></p></e>
+	<e lm="become sleepy" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>sleepy</l><r><g><b/>sleepy</g></r></p></e>
+	<e lm="airlift" a="eleka"><i>airlift</i><par n="accept__vblex"/>    </e>
+	<e lm="disfigure" a="eleka"><i>disfigure</i><par n="accept__vblex"/>    </e>
+	<e lm="cling" a="eleka"><i>cl</i><par n="cl/ing__vblex"/>    </e>
+	<e lm="flow into" a="eleka"><i>flow</i><par n="accept__vblex"/>      <p>        <l><b/>into</l><r><g><b/>into</g></r></p></e>
+	<e lm="go French">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>French</l><r><g><b/>French</g></r></p></e>
+	<e lm="go African">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>African</l><r><g><b/>African</g></r></p></e>
+	<e lm="Afrikaner" a="eleka"><i>Afrikaner</i><par n="house__n"/>    </e>
+	<e lm="Afrikaner" a="eleka"><i>Afrikaner</i><par n="expensive__adj"/>    </e>
+	<e lm="bend down" a="eleka"><i>ben</i><par n="ben/d__vblex"/>      <p>        <l><b/>down</l><r><g><b/>down</g></r></p></e>
+	<e lm="hold on" a="eleka"><i>h</i><par n="h/old__vblex"/>      <p>        <l><b/>on</l><r><g><b/>on</g></r></p></e>
+	<e lm="hold on to" a="eleka"><i>h</i><par n="h/old__vblex"/>      <p>        <l><b/>on<b/>to</l><r><g><b/>on<b/>to</g></r></p></e>
+	<e lm="stiffen" a="eleka"><i>stiffen</i><par n="accept__vblex"/>    </e>
+	<e lm="obtain" a="eleka"><i>obtain</i><par n="accept__vblex"/>    </e>
+	<e lm="get much bigger" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>much<b/>bigger</l><r><g><b/>much<b/>bigger</g></r></p></e>
+	<e lm="speed up" a="eleka"><i>speed</i><par n="accept__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="agglomerate" a="eleka"><i>agglomerate</i><par n="accept__vblex"/>    </e>
+	<e lm="be offended">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>offended</l><r><g><b/>offended</g></r></p></e>
+	<e lm="turn sour" a="eleka"><i>turn</i><par n="accept__vblex"/>      <p>        <l><b/>sour</l><r><g><b/>sour</g></r></p></e>
+	<e lm="become embittered" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>embittered</l><r><g><b/>embittered</g></r></p></e>
+	<e lm="get flu" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>flu</l><r><g><b/>flu</g></r></p></e>
+	<e lm="spoil fun to" a="eleka"><i>spoil</i><par n="spoil__vblex"/>      <p>        <l><b/>fun<b/>to</l><r><g><b/>fun<b/>to</g></r></p></e>
+	<e lm="pierce" a="eleka"><i>pierc</i><par n="liv/e__vblex"/>    </e>
+	<e lm="prick up its ears" a="eleka"><i>prick</i><par n="accept__vblex"/>      <p>        <l><b/>up<b/>its<b/>ears</l><r><g><b/>up<b/>its<b/>ears</g></r></p></e>
+	<e lm="keep its eyes peeled" a="eleka"><i>keep</i><par n="accept__vblex"/>      <p>        <l><b/>its<b/>eyes<b/>peeled</l><r><g><b/>its<b/>eyes<b/>peeled</g></r></p></e>
+	<e lm="have flu" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>flu</l><r><g><b/>flu</g></r></p></e>
+	<e lm="frighten off" a="eleka"><i>frighten</i><par n="accept__vblex"/>      <p>        <l><b/>off</l><r><g><b/>off</g></r></p></e>
+	<e lm="run away" a="eleka"><i>run</i><par n="accept__vblex"/>      <p>        <l><b/>away</l><r><g><b/>away</g></r></p></e>
+	<e lm="air" a="eleka"><i>air</i><par n="accept__vblex"/>    </e>
+	<e lm="take the air" a="eleka"><i>t</i><par n="t/ake__vblex"/>      <p>        <l><b/>the<b/>air</l><r><g><b/>the<b/>air</g></r></p></e>
+	<e lm="clear the air" a="eleka"><i>clear</i><par n="accept__vblex"/>      <p>        <l><b/>the<b/>air</l><r><g><b/>the<b/>air</g></r></p></e>
+	<e lm="crumple" a="eleka"><i>crumpl</i><par n="liv/e__vblex"/>    </e>
+	<e lm="get wrinkled" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>wrinkled</l><r><g><b/>wrinkled</g></r></p></e>
+	<e lm="ladscape" a="eleka"><i>ladscap</i><par n="liv/e__vblex"/>    </e>
+	<e lm="landscaped area" a="eleka"><i>landscaped<b/>area</i><par n="house__n"/>    </e>
+	<e lm="bustle" a="eleka"><i>bustl</i><par n="liv/e__vblex"/>    </e>
+	<e lm="bustle about" a="eleka"><i>bustl</i><par n="liv/e__vblex"/>      <p>        <l><b/>about</l><r><g><b/>about</g></r></p></e>
+	<e lm="execute" a="eleka"><i>execut</i><par n="liv/e__vblex"/>    </e>
+	<e lm="wire" a="eleka"><i>wir</i><par n="liv/e__vblex"/>    </e>
+	<e lm="lengthen" a="eleka"><i>lengthen</i><par n="accept__vblex"/>    </e>
+	<e lm="dawn" a="eleka"><i>dawn</i><par n="accept__vblex"/>    </e>
+	<e lm="gossip" a="eleka"><i>gossip</i><par n="accept__vblex"/>    </e>
+	<e lm="alcalinise" a="eleka"><i>alcalinis</i><par n="liv/e__vblex"/>    </e>
+	<e lm="lay drains in" a="eleka"><i>la</i><par n="pa/y__vblex"/>      <p>        <l><b/>drains<b/>in</l><r><g><b/>drains<b/>in</g></r></p></e>
+	<e lm="alcoholise" a="eleka"><i>alcoholis</i><par n="liv/e__vblex"/>    </e>
+	<e lm="in an orderly way" a="eleka"><i>in<b/>an<b/>orderly<b/>way</i><par n="maybe__adv"/>    </e>
+	<e lm="boldly" a="eleka"><i>boldly</i><par n="maybe__adv"/>    </e>
+	<e lm="distinctly" a="eleka"><i>distinctly</i><par n="maybe__adv"/>    </e>
+	<e lm="helter-skelter" a="eleka"><i>helter-skelter</i><par n="maybe__adv"/>    </e>
+	<e lm="run helter-skelter" a="eleka"><i>r</i><par n="r/un__vblex"/>      <p>        <l><b/>helter-skelter</l><r><g><b/>helter-skelter</g></r></p></e>
+	<e lm="gabble" a="eleka"><i>gabbl</i><par n="liv/e__vblex"/>    </e>
+	<e lm="rush into a decision" a="eleka"><i>rush</i><par n="approach__vblex"/>      <p>        <l><b/>into<b/>a<b/>decision</l><r><g><b/>into<b/>a<b/>decision</g></r></p></e>
+	<e lm="authoritatively" a="eleka"><i>authoritatively</i><par n="maybe__adv"/>    </e>
+	<e lm="avariciously" a="eleka"><i>avariciously</i><par n="maybe__adv"/>    </e>
+	<e lm="adventurously" a="eleka"><i>adventurously</i><par n="maybe__adv"/>    </e>
+	<e lm="wisely" a="eleka"><i>wisely</i><par n="maybe__adv"/>    </e>
+	<e lm="hazardously" a="eleka"><i>hazardously</i><par n="maybe__adv"/>    </e>
+	<e lm="cheaply" a="eleka"><i>cheaply</i><par n="maybe__adv"/>    </e>
+	<e lm="tremendously" a="eleka"><i>tremendously</i><par n="maybe__adv"/>    </e>
+	<e lm="barbarically" a="eleka"><i>barbarically</i><par n="maybe__adv"/>    </e>
+	<e lm="sufficiently" a="eleka"><i>sufficiently</i><par n="maybe__adv"/>    </e>
+	<e lm="beautifully" a="eleka"><i>beautifully</i><par n="maybe__adv"/>    </e>
+	<e lm="benevolently" a="eleka"><i>benevolently</i><par n="maybe__adv"/>    </e>
+	<e lm="savagely" a="eleka"><i>savagely</i><par n="maybe__adv"/>    </e>
+	<e lm="biennially" a="eleka"><i>biennially</i><par n="maybe__adv"/>    </e>
+	<e lm="blasphemously" a="eleka"><i>blasphemously</i><par n="maybe__adv"/>    </e>
+	<e lm="brilliantly" a="eleka"><i>brilliantly</i><par n="maybe__adv"/>    </e>
+	<e lm="like a gentleman" a="eleka"><i>like<b/>a<b/>gentleman</i><par n="maybe__adv"/>    </e>
+	<e lm="melodiously" a="eleka"><i>melodiously</i><par n="maybe__adv"/>    </e>
+	<e lm="calamitously" a="eleka"><i>calamitously</i><par n="maybe__adv"/>    </e>
+	<e lm="calculatedly" a="eleka"><i>calculatedly</i><par n="maybe__adv"/>    </e>
+	<e lm="qualifiedly" a="eleka"><i>qualifiedly</i><par n="maybe__adv"/>    </e>
+	<e lm="slanderously" a="eleka"><i>slanderously</i><par n="maybe__adv"/>    </e>
+	<e lm="warmly" a="eleka"><i>warmly</i><par n="maybe__adv"/>    </e>
+	<e lm="cheerfully" a="eleka"><i>cheerfully</i><par n="maybe__adv"/>    </e>
+	<e lm="ingenuously" a="eleka"><i>ingenuously</i><par n="maybe__adv"/>    </e>
+	<e lm="canonically" a="eleka"><i>canonically</i><par n="maybe__adv"/>    </e>
+	<e lm="characteristically" a="eleka"><i>characteristically</i><par n="maybe__adv"/>    </e>
+	<e lm="expensively" a="eleka"><i>expensively</i><par n="maybe__adv"/>    </e>
+	<e lm="affectionately" a="eleka"><i>affectionately</i><par n="maybe__adv"/>    </e>
+	<e lm="carnally" a="eleka"><i>carnally</i><par n="maybe__adv"/>    </e>
+	<e lm="in a Castilian way" a="eleka"><i>in<b/>a<b/>Castilian<b/>way</i><par n="maybe__adv"/>    </e>
+	<e lm="authentically" a="eleka"><i>authentically</i><par n="maybe__adv"/>    </e>
+	<e lm="catholically" a="eleka"><i>catholically</i><par n="maybe__adv"/>    </e>
+	<e lm="abundantly" a="eleka"><i>abundantly</i><par n="maybe__adv"/>    </e>
+	<e lm="caustically" a="eleka"><i>caustically</i><par n="maybe__adv"/>    </e>
+	<e lm="suspiciously" a="eleka"><i>suspiciously</i><par n="maybe__adv"/>    </e>
+	<e lm="celestially" a="eleka"><i>celestially</i><par n="maybe__adv"/>    </e>
+	<e lm="allegorize" a="eleka"><i>allegoriz</i><par n="liv/e__vblex"/>    </e>
+	<e lm="make drowsy" a="eleka"><i>ma</i><par n="ma/ke__vblex"/>      <p>        <l><b/>drowsy</l><r><g><b/>drowsy</g></r></p></e>
+	<e lm="grow drowsy" a="eleka"><i>gr</i><par n="bl/ow__vblex"/>      <p>        <l><b/>drowsy</l><r><g><b/>drowsy</g></r></p></e>
+	<e lm="teach to read and write" a="eleka"><i>t</i><par n="t/each__vblex"/>      <p>        <l><b/>to<b/>read<b/>and<b/>write</l><r><g><b/>to<b/>read<b/>and<b/>write</g></r></p></e>
+	<e lm="straighten" a="eleka"><i>straighten</i><par n="accept__vblex"/>    </e>
+	<e lm="play it cool" a="eleka"><i>play</i><par n="accept__vblex"/>      <p>        <l><b/>it<b/>cool</l><r><g><b/>it<b/>cool</g></r></p></e>
+	<e lm="preserve in syrup" a="eleka"><i>preserv</i><par n="liv/e__vblex"/>      <p>        <l><b/>in<b/>syrup</l><r><g><b/>in<b/>syrup</g></r></p></e>
+	<e lm="use honeyed words" a="eleka"><i>us</i><par n="liv/e__vblex"/>      <p>        <l><b/>honeyed<b/>words</l><r><g><b/>honeyed<b/>words</g></r></p></e>
+	<e lm="starch" a="eleka"><i>starch</i><par n="accept__vblex"/>    </e>
+	<e lm="unstarched" a="eleka"><i>unstarched</i><par n="expensive__adj"/>    </e>
+	<e lm="have lunch" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>lunch</l><r><g><b/>lunch</g></r></p></e>
+	<e lm="drive mad" a="eleka"><i>dr</i><par n="dr/ive__vblex"/>      <p>        <l><b/>mad</l><r><g><b/>mad</g></r></p></e>
+	<e lm="go crazy" a="eleka">      <i/>      <par n="/go__vblex"/>      <p>        <l><b/>crazy</l><r><g><b/>crazy</g></r></p></e>
+	<e lm="light up" a="eleka"><i>light</i><par n="accept__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="land on the moon" a="eleka"><i>land</i><par n="accept__vblex"/>      <p>        <l><b/>on<b/>the<b/>moon</l><r><g><b/>on<b/>the<b/>moon</g></r></p></e>
+	<e lm="be godmother to">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>godmother<b/>to</l><r><g><b/>godmother<b/>to</g></r></p></e>
+	<e lm="amalgamate" a="eleka"><i>amalgamat</i><par n="liv/e__vblex"/>    </e>
+	<e lm="be skilful">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>skilful</l><r><g><b/>skilful</g></r></p></e>
+	<e lm="become affected" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>affected</l><r><g><b/>affected</g></r></p></e>
+	<e lm="soothe" a="eleka"><i>sooth</i><par n="liv/e__vblex"/>    </e>
+	<e lm="calm down" a="eleka"><i>calm</i><par n="accept__vblex"/>      <p>        <l><b/>down</l><r><g><b/>down</g></r></p></e>
+	<e lm="be yellowish" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>yellowish</l><r><g><b/>yellowish</g></r></p></e>
+	<e lm="tie up" a="eleka"><i>tie</i><par n="accept__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="get tight" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>tight</l><r><g><b/>tight</g></r></p></e>
+	<e lm="have an ambition to be" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>an<b/>ambition<b/>to<b/>be</l><r><g><b/>an<b/>ambition<b/>to<b/>be</g></r></p></e>
+	<e lm="be scared" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>scared</l><r><g><b/>scared</g></r></p></e>
+	<e lm="make pleasant" a="eleka"><i>ma</i><par n="ma/ke__vblex"/>      <p>        <l><b/>pleasant</l><r><g><b/>pleasant</g></r></p></e>
+	<e lm="americanise" a="eleka"><i>americanis</i><par n="liv/e__vblex"/>    </e>
+	<e lm="become Americanised" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>Americanised</l><r><g><b/>Americanised</g></r></p></e>
+	<e lm="machine-gun" a="eleka"><i>machine-gun</i><par n="plan__vblex"/>    </e>
+	<e lm="become friends" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>friends</l><r><g><b/>friends</g></r></p></e>
+	<e lm="scare" a="eleka"><i>scar</i><par n="liv/e__vblex"/>    </e>
+	<e lm="reduce" a="eleka"><i>reduc</i><par n="liv/e__vblex"/>    </e>
+	<e lm="bring together" a="eleka"><i>br</i><par n="br/ing__vblex"/>      <p>        <l><b/>together</l><r><g><b/>together</g></r></p></e>
+	<e lm="become friends with" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>friends<b/>with</l><r><g><b/>friends<b/>with</g></r></p></e>
+	<e lm="grant an amnesty to" a="eleka"><i>grant</i><par n="accept__vblex"/>      <p>        <l><b/>an<b/>amnesty<b/>to</l><r><g><b/>an<b/>amnesty<b/>to</g></r></p></e>
+	<e lm="gag" a="eleka"><i>gag</i><par n="plug__vblex"/>    </e>
+	<e lm="shroud" a="eleka"><i>shroud</i><par n="accept__vblex"/>    </e>
+	<e lm="deaden" a="eleka"><i>deaden</i><par n="accept__vblex"/>    </e>
+	<e lm="cushion" a="eleka"><i>cushion</i><par n="accept__vblex"/>    </e>
+	<e lm="incite to riot" a="eleka"><i>incit</i><par n="liv/e__vblex"/>      <p>        <l><b/>to<b/>riot</l><r><g><b/>to<b/>riot</g></r></p></e>
+	<e lm="riot" a="eleka"><i>riot</i><par n="accept__vblex"/>    </e>
+	<e lm="seek protection" a="eleka"><i>s</i><par n="s/eek__vblex"/>      <p>        <l><b/>protection</l><r><g><b/>protection</g></r></p></e>
+	<e lm="get bored" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>bored</l><r><g><b/>bored</g></r></p></e>
+	<e lm="anathematise" a="eleka"><i>anathematis</i><par n="liv/e__vblex"/>    </e>
+	<e lm="dissolve into tears" a="eleka"><i>dissolv</i><par n="liv/e__vblex"/>      <p>        <l><b/>into<b/>tears</l><r><g><b/>into<b/>tears</g></r></p></e>
+	<e lm="narrow" a="eleka"><i>narrow</i><par n="accept__vblex"/>    </e>
+	<e lm="get anxious" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>anxious</l><r><g><b/>anxious</g></r></p></e>
+	<e lm="get anxious about" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>anxious<b/>about</l><r><g><b/>anxious<b/>about</g></r></p></e>
+	<e lm="shelter" a="eleka"><i>shelter</i><par n="accept__vblex"/>    </e>
+	<e lm="become brutalised" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>brutalised</l><r><g><b/>brutalised</g></r></p></e>
+	<e lm="stun" a="eleka"><i>stun</i><par n="plan__vblex"/>    </e>
+	<e lm="be overwhelmed" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>overwhelmed</l><r><g><b/>overwhelmed</g></r></p></e>
+	<e lm="place in front" a="eleka"><i>plac</i><par n="liv/e__vblex"/>      <p>        <l><b/>in<b/>front</l><r><g><b/>in<b/>front</g></r></p></e>
+	<e lm="place in front of" a="eleka"><i>plac</i><par n="liv/e__vblex"/>      <p>        <l><b/>in<b/>front<b/>of</l><r><g><b/>in<b/>front<b/>of</g></r></p></e>
+	<e lm="feel unfriendly" a="eleka"><i>fe</i><par n="fe/el__vblex"/>      <p>        <l><b/>unfriendly</l><r><g><b/>unfriendly</g></r></p></e>
+	<e lm="knot" a="eleka"><i>knot</i><par n="admit__vblex"/>    </e>
+	<e lm="get into knots" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>into<b/>knots</l><r><g><b/>into<b/>knots</g></r></p></e>
+	<e lm="have a lump in the throat" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>lump<b/>in<b/>the<b/>throat</l><r><g><b/>a<b/>lump<b/>in<b/>the<b/>throat</g></r></p></e>
+	<e lm="agree to" a="eleka"><i>agree</i><par n="agree__vblex"/>      <p>        <l><b/>to</l><r><g><b/>to</g></r></p></e>
+	<e lm="reducedly" a="eleka"><i>reducedly</i><par n="maybe__adv"/>    </e>
+	<e lm="in a closed way" a="eleka"><i>in<b/>a<b/>closed<b/>way</i><par n="maybe__adv"/>    </e>
+	<e lm="certifiably" a="eleka"><i>certifiably</i><par n="maybe__adv"/>    </e>
+	<e lm="veneeredly" a="eleka"><i>veneeredly</i><par n="maybe__adv"/>    </e>
+	<e lm="funnily" a="eleka"><i>funnily</i><par n="maybe__adv"/>    </e>
+	<e lm="in code" a="eleka"><i>in<b/>code</i><par n="maybe__adv"/>    </e>
+	<e lm="cynically" a="eleka"><i>cynically</i><par n="maybe__adv"/>    </e>
+	<e lm="circularly" a="eleka"><i>circularly</i><par n="maybe__adv"/>    </e>
+	<e lm="in circunference" a="eleka"><i>in<b/>circunference</i><par n="maybe__adv"/>    </e>
+	<e lm="schismaticly" a="eleka"><i>schismaticly</i><par n="maybe__adv"/>    </e>
+	<e lm="civilly" a="eleka"><i>civilly</i><par n="maybe__adv"/>    </e>
+	<e lm="clandestinely" a="eleka"><i>clandestinely</i><par n="maybe__adv"/>    </e>
+	<e lm="clerically" a="eleka"><i>clerically</i><par n="maybe__adv"/>    </e>
+	<e lm="clinically" a="eleka"><i>clinically</i><par n="maybe__adv"/>    </e>
+	<e lm="dirty" a="eleka"><i>dirty</i><par n="maybe__adv"/>    </e>
+	<e lm="competently" a="eleka"><i>competently</i><par n="maybe__adv"/>    </e>
+	<e lm="communally" a="eleka"><i>communally</i><par n="maybe__adv"/>    </e>
+	<e lm="methodically" a="eleka"><i>methodically</i><par n="maybe__adv"/>    </e>
+	<e lm="conscientiously" a="eleka"><i>conscientiously</i><par n="maybe__adv"/>    </e>
+	<e lm="confidently" a="eleka"><i>confidently</i><par n="maybe__adv"/>    </e>
+	<e lm="confidentially" a="eleka"><i>confidentially</i><par n="maybe__adv"/>    </e>
+	<e lm="confirmedly" a="eleka"><i>confirmedly</i><par n="maybe__adv"/>    </e>
+	<e lm="comfortably" a="eleka"><i>comfortably</i><par n="maybe__adv"/>    </e>
+	<e lm="confusedly" a="eleka"><i>confusedly</i><par n="maybe__adv"/>    </e>
+	<e lm="talk muddled" a="eleka"><i>talk</i><par n="accept__vblex"/>      <p>        <l><b/>muddled</l><r><g><b/>muddled</g></r></p></e>
+	<e lm="have a vague memory" a="eleka"><i>ha</i><par n="ha/ve__vblex"/>      <p>        <l><b/>a<b/>vague<b/>memory</l><r><g><b/>a<b/>vague<b/>memory</g></r></p></e>
+	<e lm="congruently" a="eleka"><i>congruently</i><par n="maybe__adv"/>    </e>
+	<e lm="innately" a="eleka"><i>innately</i><par n="maybe__adv"/>    </e>
+	<e lm="skilfully" a="eleka"><i>skilfully</i><par n="maybe__adv"/>    </e>
+	<e lm="in a contiguous way" a="eleka"><i>in<b/>a<b/>contiguous<b/>way</i><par n="maybe__adv"/>    </e>
+	<e lm="with continence" a="eleka"><i>with<b/>continence</i><par n="maybe__adv"/>    </e>
+	<e lm="contingently" a="eleka"><i>contingently</i><par n="maybe__adv"/>    </e>
+	<e lm="contrary to" a="eleka"><i>contrary<b/>to</i><par n="maybe__adv"/>    </e>
+	<e lm="in community" a="eleka"><i>in<b/>community</i><par n="maybe__adv"/>    </e>
+	<e lm="convincingly" a="eleka"><i>convincingly</i><par n="maybe__adv"/>    </e>
+	<e lm="coordinatedly" a="eleka"><i>coordinatedly</i><par n="maybe__adv"/>    </e>
+	<e lm="copiously" a="eleka"><i>copiously</i><par n="maybe__adv"/>    </e>
+	<e lm="copulatively" a="eleka"><i>copulatively</i><par n="maybe__adv"/>    </e>
+	<e lm="choreographically" a="eleka"><i>choreographically</i><par n="maybe__adv"/>    </e>
+	<e lm="corporally" a="eleka"><i>corporally</i><par n="maybe__adv"/>    </e>
+	<e lm="corporately" a="eleka"><i>corporately</i><par n="maybe__adv"/>    </e>
+	<e lm="with reformatory" a="eleka"><i>with<b/>reformatory</i><par n="maybe__adv"/>    </e>
+	<e lm="correlatively" a="eleka"><i>correlatively</i><par n="maybe__adv"/>    </e>
+	<e lm="appropriately" a="eleka"><i>appropriately</i><par n="maybe__adv"/>    </e>
+	<e lm="corruptly" a="eleka"><i>corruptly</i><par n="maybe__adv"/>    </e>
+	<e lm="like a corsair" a="eleka"><i>like<b/>a<b/>corsair</i><par n="maybe__adv"/>    </e>
+	<e lm="scantily" a="eleka"><i>scantily</i><par n="maybe__adv"/>    </e>
+	<e lm="in a courtly manner" a="eleka"><i>in<b/>a<b/>courtly<b/>manner</i><par n="maybe__adv"/>    </e>
+	<e lm="expensively" a="eleka"><i>expensively</i><par n="maybe__adv"/>    </e>
+	<e lm="ignorantly" a="eleka"><i>ignorantly</i><par n="maybe__adv"/>    </e>
+	<e lm="outstandingly" a="eleka"><i>outstandingly</i><par n="maybe__adv"/>    </e>
+	<e lm="credulously" a="eleka"><i>credulously</i><par n="maybe__adv"/>    </e>
+	<e lm="mate" a="eleka"><i>mat</i><par n="liv/e__vblex"/>    </e>
+	<e lm="get ready" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>ready</l><r><g><b/>ready</g></r></p></e>
+	<e lm="be mad about" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>mad<b/>about</l><r><g><b/>mad<b/>about</g></r></p></e>
+	<e lm="get excited" a="eleka"><i>g</i><par n="g/et__vblex"/>      <p>        <l><b/>excited</l><r><g><b/>excited</g></r></p></e>
+	<e lm="take down" a="eleka"><i>t</i><par n="t/ake__vblex"/>      <p>        <l><b/>down</l><r><g><b/>down</g></r></p></e>
+	<e lm="take on" a="eleka"><i>t</i><par n="t/ake__vblex"/>      <p>        <l><b/>on</l><r><g><b/>on</g></r></p></e>
+	<e lm="stone" a="eleka"><i>ston</i><par n="liv/e__vblex"/>    </e>
+	<e lm="be damaged by hail" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>damaged<b/>by<b/>hail</l><r><g><b/>damaged<b/>by<b/>hail</g></r></p></e>
+	<e lm="become attached to" a="eleka"><i>bec</i><par n="bec/ome__vblex"/>      <p>        <l><b/>attached<b/>to</l><r><g><b/>attached<b/>to</g></r></p></e>
+	<e lm="be called" a="eleka">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>called</l><r><g><b/>called</g></r></p></e>
+	<e lm="grieve" a="eleka"><i>griev</i><par n="liv/e__vblex"/>    </e>
+	<e lm="grieve about" a="eleka"><i>griev</i><par n="liv/e__vblex"/>      <p>        <l><b/>about</l><r><g><b/>about</g></r></p></e>
+	<e lm="sink its teeth into" a="eleka"><i>s</i><par n="st/ink__vblex"/>      <p>        <l><b/>its<b/>teeth<b/>into</l><r><g><b/>its<b/>teeth<b/>into</g></r></p></e>
+	
+	
 	
 	
 	

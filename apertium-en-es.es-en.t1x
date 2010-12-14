@@ -2171,7 +2171,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<let>
 		  <var n="verbfinal"/>
 		  <concat>
+
 		  <!--  <get-case-from pos="1"> -->
+
 		      <lit v="will"/>
 		 <!--   </get-case-from> -->
 		      <lit-tag v="vaux.inf"/>
@@ -2978,8 +2980,6 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</out>  
       </action>
     </rule>
-
-
 
     <rule comment="REGLA: NOM ADJ">
       <pattern>

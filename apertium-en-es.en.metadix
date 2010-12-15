@@ -158,6 +158,46 @@
           <r><s n="num"/><s n="percent"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p><l>£</l><r/></p>
+        <re>[0-9]+([.,][0-9][0-9][0-9])*([.,][0-9]+)?</re>
+        <p><l>bn</l><r><s n="num"/><j/>billion<s n="num"/><s n="sp"/><j/>pound<s n="n"/><s n="pl"/></r></p>
+      </e>
+      <e r="LR">
+        <p><l>$</l><r/></p> 
+        <re>[0-9]+([.,][0-9][0-9][0-9])*([.,][0-9]+)?</re>
+        <p><l>bn</l><r><s n="num"/><j/>billion<s n="num"/><s n="sp"/><j/>dollar<s n="n"/><s n="pl"/></r></p>
+      </e>	
+      <e r="LR">
+        <p><l>€</l><r/></p>
+        <re>[0-9]+([.,][0-9][0-9][0-9])*([.,][0-9]+)?</re>
+        <p><l>bn</l><r><s n="num"/><j/>billion<s n="num"/><s n="sp"/><j/>euro<s n="n"/><s n="pl"/></r></p>
+      </e>
+      <e r="LR">
+        <p><l>¥</l><r/></p> 
+        <re>[0-9]+([.,][0-9][0-9][0-9])*([.,][0-9]+)?</re>
+        <p><l>bn</l><r><s n="num"/><j/>billion<s n="num"/><s n="sp"/><j/>yen<s n="n"/><s n="pl"/></r></p>
+      </e>
+      <e r="LR">
+        <p><l>£</l><r/></p>
+        <re>[0-9]+([.,][0-9][0-9][0-9])*([.,][0-9]+)?</re>
+        <p><l>m</l><r><s n="num"/><j/>million<s n="num"/><s n="sp"/><j/>pound<s n="n"/><s n="pl"/></r></p>
+      </e>
+      <e r="LR">
+        <p><l>$</l><r/></p>
+        <re>[0-9]+([.,][0-9][0-9][0-9])*([.,][0-9]+)?k</re>
+        <p><l>m</l><r><s n="num"/><j/>million<s n="num"/><s n="sp"/><j/>dollar<s n="n"/><s n="pl"/></r></p>
+      </e>
+      <e r="LR">
+        <p><l>€</l><r/></p>
+        <re>[0-9]+([.,][0-9][0-9][0-9])*([.,][0-9]+)?</re>
+        <p><l>m</l><r><s n="num"/><j/>million<s n="num"/><s n="sp"/><j/>euro<s n="n"/><s n="pl"/></r></p>
+      </e>
+      <e r="LR">
+        <p><l>¥</l><r/></p> 
+        <re>[0-9]+([.,][0-9][0-9][0-9])*([.,][0-9]+)?</re>
+        <p><l>m</l><r><s n="num"/><j/>million<s n="num"/><s n="sp"/><j/>yen<s n="n"/><s n="pl"/></r></p>
+      </e>
     </pardef>
     <pardef n="separa">
       <e>
@@ -42520,7 +42560,9 @@
     <e>      <par n="ordinals"/>    </e>
    <!-- <e>      <par n="acronimos"/>    </e>-->
     <e>      <par n="time"/>    </e>
-    <e>      <par n="currency"/>    </e>
+<!-- Sergio: replaced by compounds with "j", no other dictionaries need to be edited"-->
+<!--    <e>      <par n="currency"/>    </e> -->
+
     <e>      <par n="proper_names"/>    </e>
     <e>      <par n="anys"/>    </e>
   </section>  

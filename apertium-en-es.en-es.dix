@@ -10391,6 +10391,7 @@
     <e>  <p><l>Antoni<s n="np"/></l><r>Antoni<s n="np"/></r></p></e>
     <e>  <p><l>Antonio<s n="np"/></l><r>Antonio<s n="np"/></r></p></e>
     <e>  <p><l>Apertium<s n="np"/><s n="al"/></l><r>Apertium<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e>  <p><l>Windows<s n="np"/><s n="al"/></l><r>Windows<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>LanguageTool<s n="np"/><s n="al"/></l><r>LanguageTool<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>Metallica<s n="np"/><s n="al"/></l><r>Metallica<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>AC/DC<s n="np"/><s n="al"/></l><r>AC/DC<s n="np"/><s n="al"/><s n="m"/></r></p></e>
@@ -10605,6 +10606,7 @@
     <e>  <p><l>Libya<s n="np"/><s n="loc"/></l><r>Libia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Lima<s n="np"/><s n="loc"/></l><r>Lima<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Linux<s n="np"/><s n="al"/></l><r>Linux<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e>  <p><l>Apple<s n="np"/><s n="al"/></l><r>Apple<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>Aer<b/>Lingus<s n="np"/><s n="al"/></l><r>Aer<b/>Lingus<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>China<b/>National<b/>Petroleum<b/>Corporation<s n="np"/><s n="al"/></l><r>China<b/>National<b/>Petroleum<b/>Corporation<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>Victoria's<b/>Secret<s n="np"/><s n="al"/></l><r>Victoria's<b/>Secret<s n="np"/><s n="al"/><s n="m"/></r></p></e>
@@ -11127,6 +11129,8 @@
     <e>  <p><l>alluvium<s n="n"/></l><r>aluvión<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>ally<s n="n"/></l><r>aliado<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>ally<s n="n"/></l><r>aliado<s n="n"/></r></p></e>
+    <e r="LR"><p><l>respondent<s n="n"/></l><r>encuestado<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>respondent<s n="n"/></l><r>encuestado<s n="n"/></r></p></e>
     <e>  <p><l>almond<s n="n"/></l><r>almendra<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>alms<s n="n"/><s n="pl"/></l><r>limosna<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>alms<s n="n"/><s n="pl"/></l><r>limosna<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -17798,6 +17802,7 @@
     <e r="LR"><p><l>much<s n="det"/><s n="qnt"/></l><r>mucho<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
     <e r="LR"><p><l>many<s n="det"/><s n="qnt"/></l><r>mucho<s n="det"/><s n="qnt"/><s n="GD"/></r></p></e>
     <e r="LR"><p><l>a<b/>shitload<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>un<b/>mogollón<b/>de<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>more<b/>than<b/>half<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>más<b/>de<b/>la<b/>mitad<b/>de<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>a<b/>lot<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>un<b/>mogollón<b/>de<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>a<b/>lot<b/>of<s n="det"/><s n="qnt"/><s n="sp"/></l><r>mucho<s n="det"/><s n="qnt"/><s n="GD"/><s n="ND"/></r></p></e>
     <e r="RL"><p><l>a<b/>lot<b/>of<s n="det"/></l><r>mucho<s n="det"/></r></p></e>
@@ -21309,6 +21314,7 @@
     <e r="RL"><p><l>kill<s n="vblex"/></l><r>victimar<s n="vblex"/></r></p></e>
     <e>  <p><l>kiss<s n="vblex"/></l><r>dar<g><b/>un<b/>beso</g><s n="vblex"/></r></p></e>
     <e>  <p><l>thank<s n="vblex"/></l><r>dar<g><b/>las<b/>gracias<b/>a</g><s n="vblex"/></r></p></e>
+    <e>  <p><l>thank<g><b/>for</g><s n="vblex"/></l><r>dar<g><b/>las<b/>gracias<b/>por</g><s n="vblex"/></r></p></e>
     <e>  <p><l>welcome<s n="vblex"/></l><r>dar<g><b/>la<b/>bienvenida<b/>a</g><s n="vblex"/></r></p></e>
     <e>  <p><l>knit<s n="vblex"/></l><r>tejer<s n="vblex"/></r></p></e>
     <e srl="knock"><p><l>knock<s n="vblex"/></l><r>golpear<s n="vblex"/></r></p></e>
@@ -32598,6 +32604,7 @@
 <e><p><l>grosso<b/>modo<s n="adv"/></l><r>grosso<b/>modo<s n="adv"/></r></p></e>
 <e><p><l>yet<b/>still<s n="adv"/></l><r>y<b/>aún<b/>así<s n="adv"/></r></p></e>
 <e><p><l>and<b/>vice<b/>versa<s n="adv"/></l><r>y<b/>viceversa<s n="adv"/></r></p></e>
+<e><p><l>and<b/>somewhat<b/>ironically<s n="cnjadv"/></l><r>resulta<b/>irónico<b/>que<s n="cnjadv"/></r></p></e>
 <e><p><l>in<b/>extremis<s n="adv"/></l><r>in<b/>extremis<s n="adv"/></r></p></e>
 <e><p><l>in<b/>situ<s n="adv"/></l><r>in<b/>situ<s n="adv"/></r></p></e>
 <e><p><l>inter<b/>alia<s n="adv"/></l><r>inter<b/>alia<s n="adv"/></r></p></e>

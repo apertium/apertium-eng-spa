@@ -11467,6 +11467,8 @@
     <e lm="Czech Republic"><i>Czech<b/>Republic</i><par n="Barcelona__np"/>     </e>
     <e lm="Dow Jones"><i>Dow<b/>Jones</i><par n="Linux__np"/>     </e>
     <e lm="Prompsit"><i>Prompsit</i><par n="Linux__np"/>     </e>
+    <e lm="Windows"><i>Windows</i><par n="Linux__np"/>     </e>
+    <e lm="Apple"><i>Apple</i><par n="Linux__np"/>     </e>
     <e lm="Autodesk"><i>Autodesk</i><par n="Linux__np"/>     </e>
     <e lm="Yahoo!"><i>Yahoo!</i><par n="Linux__np"/>     </e>
     <e lm="Victoria's Secret"><i>Victoria's<b/>Secret</i><par n="Linux__np"/>     </e>
@@ -11503,6 +11505,7 @@
     <e lm="breadwinner">	<i>breadwinner</i> 	<par n="house__n"/>      </e>
     <e lm="Jacobite">	  <i>Jacobite</i> 	  <par n="house__n"/> 	</e>
     <e lm="solar cooker">	  <i>solar<b/>cooker</i> 	  <par n="house__n"/> 	</e>
+    <e lm="respondent">	  <i>respondent</i> 	  <par n="house__n"/> 	</e>
     <e lm="stability">	  <i>stabilit</i> 	  <par n="bab/y__n"/> 	</e>
     <e lm="ethnicity">	  <i>ethnicit</i> 	  <par n="bab/y__n"/> 	</e>
     <e lm="manoeuvrability" r="LR">	  <i>manoeuvrabilit</i> 	  <par n="bab/y__n"/> 	</e>
@@ -13814,6 +13817,7 @@
 	<e lm="follow with its eyes" a="eleka"><i>follow</i><par n="accept__vblex"/>      <p>        <l><b/>with<b/>its<b/>eyes</l><r><g><b/>with<b/>its<b/>eyes</g></r></p></e>
 	<e lm="follow the plot" a="eleka"><i>follow</i><par n="accept__vblex"/>      <p>        <l><b/>the<b/>plot</l><r><g><b/>the<b/>plot</g></r></p></e>
 	<e lm="do a course" a="eleka"><i>d</i><par n="d/o__vblex"/>      <p>        <l><b/>a<b/>course</l><r><g><b/>a<b/>course</g></r></p></e>
+	<!--<e lm="do so" a="ftyers"><i>d</i><par n="d/o__vblex"/>      <p>        <l><b/>so</l><r><g><b/>so</g></r></p></e>-->
 	<e lm="continue tomorrow" a="eleka"><i>continu</i><par n="liv/e__vblex"/>      <p>        <l><b/>tomorrow</l><r><g><b/>tomorrow</g></r></p></e>
 	<e lm="keep on pulling at the rope" a="eleka"><i>ke</i><par n="ke/ep__vblex"/>      <p>        <l><b/>on<b/>pulling<b/>at<b/>the<b/>rope</l><r><g><b/>on<b/>pulling<b/>at<b/>the<b/>rope</g></r></p></e>
 	<e lm="to be followed" a="eleka"><i>to<b/>be<b/>followed</i><par n="after__cnjadv"/>    </e>
@@ -14453,6 +14457,7 @@
     <e lm="the most"><i>the<b/>most</i><par n="enough__det"/>    </e>
     <e lm="a lot of"><i>a<b/>lot<b/>of</i><par n="enough__det"/>    </e>
     <e lm="a shitload of"><i>a<b/>shitload<b/>of</i><par n="enough__det"/>    </e>
+    <e lm="more than half of"><i>more<b/>than<b/>half<b/>of</i><par n="enough__det"/>    </e>
     <e lm="so many"><i>so<b/>many</i><par n="many__det"/>    </e>
     <e lm="too many"><i>too<b/>many</i><par n="many__det"/>    </e>
     <e lm="many"><i>many</i><par n="many__det"/>    </e>
@@ -40083,6 +40088,7 @@
 <e lm="fade"><i>fad</i><par n="liv/e__vblex"/></e>
 <e lm="welcome"><i>welcom</i><par n="liv/e__vblex" /></e>
 <e lm="thank"><i>thank</i><par n="accept__vblex"/></e>
+<e lm="thank for"><i>thank</i><par n="accept__vblex"/><p><l><b/>for</l><r><g><b/>for</g></r></p></e>
 <e lm="creep"><i>cre</i><par n="ke/ep__vblex" /></e>
 <e lm="overlook"><i>overlook</i><par n="accept__vblex"/></e>
 <e lm="assent"><i>assent</i><par n="accept__vblex"/></e>
@@ -40295,6 +40301,7 @@
 <e lm="grosso modo"><i>grosso<b/>modo</i><par n="maybe__adv"/></e>
 <e lm="yet still"><i>yet<b/>still</i><par n="maybe__adv"/></e>
 <e lm="and vice versa"><i>and<b/>vice<b/>versa</i><par n="maybe__adv"/></e>
+<e lm="and somewhat ironically"><i>and<b/>somewhat<b/>ironically</i><par n="after__cnjadv"/></e>
 <e lm="in extremis"><i>in<b/>extremis</i><par n="maybe__adv"/></e>
 <e lm="in situ"><i>in<b/>situ</i><par n="maybe__adv"/></e>
 <e lm="inter alia"><i>inter<b/>alia</i><par n="maybe__adv"/></e>

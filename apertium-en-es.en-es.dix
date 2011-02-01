@@ -22235,7 +22235,10 @@
     <e r="LR"><p><l>above<b/>all<s n="adv"/></l><r>sobre<b/>todo<s n="adv"/></r></p></e>
     <e>  <p><l>abroad<s n="adv"/></l><r>en<b/>el<b/>extranjero<s n="adv"/></r></p></e>
     <e>  <p><l>absolutely<s n="adv"/></l><r>absolutamente<s n="adv"/></r></p></e>
-    <e c="check"><p><l>absolutely<b/>not<s n="adv"/></l><r>en<b/>absoluto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>absolutely<b/>not<s n="adv"/></l><r>en<b/>absoluto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>not<b/>at<b/>all<s n="adv"/></l><r>en<b/>absoluto<s n="adv"/></r></p></e>
+    <e>  <p><l>at<b/>all<s n="adv"/></l><r>en<b/>absoluto<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>at<b/>all<s n="adv"/></l><r>nada<s n="adv"/></r></p></e>
     <e>  <p><l>abundantly<s n="adv"/></l><r>abundantemente<s n="adv"/></r></p></e>
     <e>  <p><l>accidentally<s n="adv"/></l><r>accidentalmente<s n="adv"/></r></p></e>
     <e>  <p><l>actively<s n="adv"/></l><r>activamente<s n="adv"/></r></p></e>
@@ -22296,8 +22299,6 @@
     <e r="RL"><p><l>askance<s n="adv"/></l><r>por<b/>el<b/>rabillo<b/>del<b/>ojo<s n="adv"/></r></p></e>
     <e r="RL"><p><l>at<b/>a<b/>guess<s n="adv"/></l><r>a<b/>ojo<b/>de<b/>buen<b/>cubero<s n="adv"/></r></p></e>
     <e r="LR"><p><l>at<b/>a<b/>time<s n="adv"/></l><r>a<b/>la<b/>vez<s n="adv"/></r></p></e>
-    <e>  <p><l>at<b/>all<s n="adv"/></l><r>nada<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>at<b/>all<s n="adv"/></l><r>nada<s n="adv"/></r></p></e>
     <e r="RL"><p><l>at<b/>first<s n="adv"/></l><r>a<b/>las<b/>primeras<b/>de<b/>cambio<s n="adv"/></r></p></e>
     <e r="RL"><p><l>at<b/>first<s n="adv"/></l><r>de<b/>primeras<s n="adv"/></r></p></e>
     <e r="LR"><p><l>at<b/>first<s n="adv"/></l><r>al<b/>principio<s n="adv"/></r></p></e>
@@ -29406,9 +29407,8 @@
 <e r="LR">  <p><l>the<b/>next<b/>Easter<s n="adv"/></l>    <r>la<b/>próxima<b/>Pascua<s n="adv"/></r></p></e>
 <e r="LR"><p><l>the<b/>next<b/>fall<s n="adv"/></l>      <r>el<b/>próximo<b/>otoño<s n="adv"/></r></p></e>
 
-<e r="LR">  <p><l>the<b/>next<b/>week<s n="adv"/></l>    <r>la<b/>próxima<b/>semana<s n="adv"/></r></p></e>
-<e r="LR">  <p><l>the<b/>next<b/>year<s n="adv"/></l>    <r>el<b/>próximo<b/>año<s n="adv"/></r></p></e>
-
+<e r="LR">  <p><l>the<b/>next<b/>week<s n="adv"/></l>    <r>la<b/>semana<b/>que<b/>viene<s n="adv"/></r></p></e>
+<e r="LR">  <p><l>the<b/>next<b/>year<s n="adv"/></l>    <r>el<b/>año<b/>que<b/>viene<s n="adv"/></r></p></e>
 
 
 <e slr="atravesar" r="LR">  <p><l>get<g><b/>across</g><s n="vblex"/><s n="sep"/></l>            <r>atravesar<s n="vblex"/></r></p></e>
@@ -33455,7 +33455,7 @@
     <e a="imaxinsoftware"><p><l>Bellacicco<s n="np"/><s n="cog"/></l><r>Bellacicco<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Guillén<s n="np"/><s n="cog"/></l><r>Guillén<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><i>Aisladin<b/>Jami<s n="np"/><s n="ant"/></i></e>
-    <e slr="I+D_D" a="imaxinsoftware">  <p><l>R&amp;D<s n="n"/><s n="acr"/></l><r>I+D<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+    <e slr="I+D D" a="imaxinsoftware">  <p><l>R&amp;D<s n="n"/><s n="acr"/></l><r>I+D<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Directorate<b/>General<b/>of<b/>Ordnance<s n="np"/><s n="al"/></l><r>Dirección<b/>General<b/>de<b/>Armamento<b/>y<b/>Material<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Centre<b/>for<b/>Industrial<b/>Technology<b/>Development<s n="np"/><s n="al"/></l><r>Centro<b/>para<b/>el<b/>Desarrollo<b/>Tecnológico<b/>Industrial<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Burzaco<s n="np"/><s n="cog"/></l><r>Burzaco<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>

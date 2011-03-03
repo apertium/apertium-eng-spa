@@ -11120,7 +11120,7 @@
     <e>  <p><l>alleviation<s n="n"/></l><r>atenuante<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>alley<s n="n"/></l><r>calleja<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>alley<s n="n"/></l><r>callejón<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>dead<b/>end<s n="n"/></l><r>callejón<g><b/>sin<b/>salida</g><s n="n"/><s n="m"/></r></p></e>
+    <e srl="dead end D">  <p><l>dead<b/>end<s n="n"/></l><r>callejón<g><b/>sin<b/>salida</g><s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>alliance<s n="n"/></l><r>alianza<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>allocation<s n="n"/></l><r>asignación<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>allowance<s n="n"/></l><r>pensión<s n="n"/><s n="f"/></r></p></e>
@@ -13689,7 +13689,7 @@
     <e>  <p><l>groceries<s n="n"/></l><r>víveres<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>groin<s n="n"/></l><r>ingle<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>ground<s n="n"/></l><r>tierra<s n="n"/><s n="f"/></r></p></e>
-    <e slr="conjunto" srl="group"><p><l>group<s n="n"/></l><r>conjunto<s n="n"/><s n="m"/></r></p></e>
+    <e slr="conjunto" srl="group D"><p><l>group<s n="n"/></l><r>conjunto<s n="n"/><s n="m"/></r></p></e>
     <e slr="grupo D">  <p><l>group<s n="n"/></l><r>grupo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>grouping<s n="n"/></l><r>agrupación<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>grouping<s n="n"/></l><r>agrupación<s n="n"/><s n="f"/></r></p></e>
@@ -24979,7 +24979,7 @@
         <e>  <p>  <l>calligraphy<s n="n"/></l><r>caligrafía<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>haze<s n="n"/></l><r>calima<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>limestone<s n="n"/></l><r>caliza<s n="n"/><s n="f"/></r></p></e>
-        <e>  <p>  <l>cul-de-sac<s n="n"/></l><r>callejón<g><b/>sin<b/>salida</g><s n="n"/><s n="m"/></r></p></e>
+        <e srl="cul-de-sac">  <p>  <l>cul-de-sac<s n="n"/></l><r>callejón<g><b/>sin<b/>salida</g><s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>calorimetry<s n="n"/></l><r>calorimetría<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>calorimeter<s n="n"/></l><r>calorímetro<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>colostrum<s n="n"/></l><r>calostro<s n="n"/><s n="m"/></r></p></e>
@@ -33113,7 +33113,7 @@
 <e a="prompsit"><p><l>et<b/>seq.<s n="adv"/></l><r>y<b/>ss.<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>para.<s n="n"/><s n="sg"/></l><r>párr.<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit"><p><l>subpara.<s n="n"/><s n="sg"/></l><r>subparr.<s n="n"/><s n="m"/></r></p></e>
-<e a="prompsit" r="RL"><p><l>no.<s n="n"/><s n="sg"/></l><r>núm.<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="prompsit"><p><l>no.<s n="n"/><s n="sg"/></l><r>núm.<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit" r="RL"><p><l>cf.<s n="adv"/></l><r>cfr.<s n="adv"/></r></p></e>
 
 <e a="prompsit" r="RL"><p><l>lady<s n="n"/><s n="pl"/></l><r>sras.<s n="n"/><s n="f"/><s n="pl"/></r></p></e>

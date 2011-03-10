@@ -14037,7 +14037,7 @@
 	<e lm="catch a cold" a="eleka"><i>catch</i><par n="approach__vblex"/>      <p>        <l><b/>a<b/>cold</l><r><g><b/>a<b/>cold</g></r></p></e>
 	<e lm="roast" a="eleka"><i>roast</i><par n="accept__vblex"/>    </e>
 	<e lm="roast" a="eleka"><i>roast</i><par n="accept__vblex"/>    </e>
-	<e lm="dress up" a="eleka"><i>dress</i><par n="accept__vblex"/>      <p>        <l><b/>up</l><r><g><b/>up</g></r></p></e>
+	<e lm="dress up" a="eleka"><i>dress</i><par n="accept__vblex" sa="sep"/><par n="probj_dem__prn"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
 	<e lm="be intimidated">      <i/>      <par n="/be__vblex"/>      <p>        <l><b/>intimidated</l><r><g><b/>intimidated</g></r></p></e>
 	<e lm="mark the rhythm" a="eleka"><i>mark</i><par n="accept__vblex"/>      <p>        <l><b/>the<b/>rhythm</l><r><g><b/>the<b/>rhythm</g></r></p></e>
 	<e lm="give complex" a="eleka"><i>g</i><par n="g/ive__vblex"/>      <p>        <l><b/>complex</l><r><g><b/>complex</g></r></p></e>
@@ -41259,7 +41259,7 @@
 <e lm="ie." a="prompsit"><i>ie.</i><par n="maybe__adv"/></e>
 <e lm="vs." a="prompsit"><i>vs.</i><par n="maybe__adv"/></e>
 <e lm="ff." a="prompsit"><i>ff.</i><par n="maybe__adv"/></e>
-<e lm="art." a="prompsit"><i>art.</i><par n="politics__n"/></e>
+<!-- <e lm="art." a="prompsit"><i>art.</i><par n="politics__n"/></e> -->
 <e lm="etc." a="prompsit"><i>etc.</i><par n="maybe__adv"/></e>
 <e lm="etcetera"><i>etcetera</i><par n="maybe__adv"/></e>
 <e lm="viz." a="prompsit"><i>viz.</i><par n="maybe__adv"/></e>
@@ -43220,7 +43220,83 @@
     <e lm="homecoming" a="imaxinsoftware"><i>homecoming</i><par n="house__n"/></e>
     <e lm="flawed" a="imaxinsoftware"><i>flawed</i><par n="expensive__adj"/></e>
     <e lm="sideline" a="imaxinsoftware"><i>sideline</i><par n="house__n"/></e>
-    
+    <e lm="West End" a="imaxinsoftware"><i>West<b/>End</i><par n="Barcelona__np"/></e>
+    <e lm="west end" a="imaxinsoftware"><i>west<b/>end</i><par n="east__n"/></e>
+    <e lm="funky" a="imaxinsoftware"><i>funk</i><par n="bab/y__n"/></e>
+    <e lm="Jude Law" a="imaxinsoftware"><i>Jude<b/>Law</i><par n="Mark__np"/></e>
+    <e lm="disguise" a="imaxinsoftware"><i>disguise</i><par n="house__n"/></e>
+    <e lm="disguise" a="imaxinsoftware"><i>disguis</i><par n="liv/e__vblex"/></e>
+    <e lm="disguised" a="imaxinsoftware"><i>disguised</i><par n="expensive__adj"/></e>
+    <e lm="in disguise" a="imaxinsoftware"><i>in<b/>disguise</i><par n="expensive__adj"/></e>
+    <e lm="paparazzi" a="imaxinsoftware"><i>paparazzi</i><par n="house__n"/></e>
+    <e lm="disown" a="imaxinsoftware"><i>disown</i><par n="accept__vblex"/></e>
+    <e lm="repudiate" a="imaxinsoftware"><i>repudiat</i><par n="liv/e__vblex"/></e>
+    <e lm="Salt Lake City" a="imaxinsoftware"><i>Salt<b/>Lake<b/>City</i><par n="Barcelona__np"/></e>
+    <e lm="rig" a="imaxinsoftware"><i>rig</i><par n="house__n"/></e>
+    <e lm="oil rig" a="imaxinsoftware"><i>oil<b/>rig</i><par n="house__n"/></e>
+    <e lm="rig" a="imaxinsoftware"><i>rig</i><par n="plug__vblex"/></e>
+    <e lm="swapping" a="imaxinsoftware"><i>swapping</i><par n="house__n"/></e>
+    <e lm="swap" a="imaxinsoftware"><i>swap</i><par n="house__n"/></e>
+    <e lm="short story" a="imaxinsoftware"><i>short<b/>stor</i><par n="bab/y__n"/></e>
+    <e lm="momma" a="imaxinsoftware"><i>momma</i><par n="house__n"/></e>
+    <e lm="mamma" a="imaxinsoftware"><i>mamma</i><par n="house__n"/></e>
+    <e lm="tuxedo-clad" a="imaxinsoftware"><i>tuxedo-clad</i><par n="expensive__adj"/></e>
+    <e lm="Dietrich" a="imaxinsoftware"><i>Dietrich</i><par n="Smith__np"/></e>
+    <e lm="Hoffman" a="imaxinsoftware"><i>Hoffman</i><par n="Smith__np"/></e>
+    <e lm="Marlene Dietrich" a="imaxinsoftware"><i>Marlene<b/>Dietrich</i><par n="Mary__np"/></e>
+    <e lm="Sri Lankan" a="imaxinsoftware"><p><l>Sri<b/>Lankan</l><r>sri<b/>lankan</r></p><par n="expensive__adj"/></e>
+    <e lm="farewell" a="imaxinsoftware"><i>farewell</i><par n="house__n"/></e>
+    <e lm="secondhand" a="imaxinsoftware"><i>secondhand</i><par n="expensive__adj"/></e>
+    <e lm="legendary" a="imaxinsoftware"><i>legendary</i><par n="expensive__adj"/></e>
+    <e lm="bombarded" a="imaxinsoftware"><i>bombarded</i><par n="expensive__adj"/></e>
+    <e lm="retell" a="imaxinsoftware"><i>ret</i><par n="s/ell__vblex"/></e>
+    <e lm="anthem" a="imaxinsoftware"><i>anthem</i><par n="house__n"/></e>
+    <e lm="shelve" a="imaxinsoftware"><i>shelv</i><par n="liv/e__vblex"/></e>
+    <e lm="put aside" a="imaxinsoftware"><i>put</i><par n="cut__vblex" sa="sep"/><par n="probj_dem__prn"/><p><l><b/>aside</l><r><g><b/>aside</g></r></p></e>
+    <e lm="Sheen" a="imaxinsoftware"><i>Sheen</i><par n="Smith__np"/></e>
+    <e lm="curate" a="imaxinsoftware"><i>curat</i><par n="liv/e__vblex"/></e>
+    <e lm="teen" a="imaxinsoftware"><i>teen</i><par n="house__n"/></e>
+    <e lm="cynical" a="imaxinsoftware"><i>cynical</i><par n="expensive__adj"/></e>
+    <e lm="Melville" a="imaxinsoftware"><i>Melville</i><par n="Smith__np"/></e>
+    <e lm="Minogue" a="imaxinsoftware"><i>Minogue</i><par n="Smith__np"/></e>
+    <e lm="Seinfeld" a="imaxinsoftware"><i>Seinfeld</i><par n="Smith__np"/></e>
+    <e lm="cinematic" a="imaxinsoftware"><i>cinematic</i><par n="expensive__adj"/></e>
+    <e lm="a-z" a="imaxinsoftware"><i>a-z</i><par n="BBC__n"/></e>
+    <e lm="RSS" a="imaxinsoftware"><i>RSS</i><par n="BBC__n"/></e>
+    <e lm="Shelley" a="imaxinsoftware"><i>Shelley</i><par n="Smith__np"/></e>
+    <e lm="Bowie" a="imaxinsoftware"><i>Bowie</i><par n="Smith__np"/></e>
+    <e lm="maverick" a="imaxinsoftware"><i>maverick</i><par n="house__n"/></e>
+    <e lm="maverick" a="imaxinsoftware"><i>maverick</i><par n="expensive__adj"/></e>
+    <e lm="nonconformist" a="imaxinsoftware"><i>nonconformist</i><par n="house__n"/></e>
+    <e lm="nonconformist" a="imaxinsoftware"><i>nonconformist</i><par n="expensive__adj"/></e>
+    <e lm="dissident" a="imaxinsoftware"><i>dissident</i><par n="house__n"/></e>
+    <e lm="Pet Shop Boys" a="imaxinsoftware"><i>Pet<b/>Shop<b/>Boys</i><par n="United_Nations__np"/></e>
+    <e lm="Beatles" a="imaxinsoftware"><i>Beatles</i><par n="United_Nations__np"/></e>
+    <e lm="Rolling Stones" a="imaxinsoftware"><i>Rolling<b/>Stones</i><par n="United_Nations__np"/></e>
+    <e lm="Hans Christian Andersen" a="imaxinsoftware"><i>Hans<b/>Christian<b/>Andersen</i><par n="Mark__np"/></e>
+    <e lm="grunge" a="imaxinsoftware"><i>grunge</i><par n="house__n"/></e>
+    <e lm="postwar" a="imaxinsoftware"><i>postwar</i><par n="expensive__adj"/></e>
+    <e lm="postwar period" a="imaxinsoftware"><i>postwar<b/>period</i><par n="house__n"/></e>
+    <e lm="overrun" a="imaxinsoftware"><i>overr</i><par n="r/un__vblex"/></e>
+    <e lm="cost overrun" a="imaxinsoftware"><i>cost<b/>overrun</i><par n="house__n"/></e>
+    <e lm="extra cost" a="imaxinsoftware"><i>extra<b/>cost</i><par n="house__n"/></e>
+    <e lm="hang up" a="imaxinsoftware"><i>h</i><par n="h/ang__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
+    <e lm="hang-up" a="imaxinsoftware"><i>h</i><par n="h/ang__vblex"/><p><l>-up</l><r><g>-up</g></r></p></e>
+    <e lm="hang-up" a="imaxinsoftware"><i>hang-up</i><par n="house__n"/></e>
+    <e lm="setback" a="imaxinsoftware"><i>setback</i><par n="house__n"/></e>
+    <e lm="tangled" a="imaxinsoftware"><i>tangled</i><par n="expensive__adj"/></e>
+    <e lm="harrowing" a="imaxinsoftware"><i>harrowing</i><par n="expensive__adj"/></e>
+    <e lm="heartbreaking" a="imaxinsoftware"><i>heartbreaking</i><par n="expensive__adj"/></e>
+    <e lm="oblige" a="imaxinsoftware"><i>oblig</i><par n="liv/e__vblex"/></e>
+    <e lm="warmth" a="imaxinsoftware"><i>warmth</i><par n="house__n"/></e>
+    <e lm="trifle" a="imaxinsoftware"><i>trifle</i><par n="house__n"/></e>
+    <e lm="Mansfield" a="imaxinsoftware"><i>Mansfield</i><par n="Barcelona__np"/></e>
+    <e lm="chaise" a="imaxinsoftware"><i>chaise</i><par n="house__n"/></e>
+    <e lm="tilbury" a="imaxinsoftware"><i>tilbur</i><par n="bab/y__n"/></e>
+    <e lm="delighted" a="imaxinsoftware"><i>delighted</i><par n="expensive__adj"/></e>
+    <e lm="whither" a="imaxinsoftware"><i>whither</i><par n="where__adv"/></e>
+    <e lm="punctually" a="imaxinsoftware"><i>punctually</i><par n="maybe__adv"/></e>
+    <e lm="rectify" a="imaxinsoftware"><i>rectif</i><par n="appl/y__vblex"/></e>
     
   </section>
 

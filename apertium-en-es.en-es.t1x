@@ -668,6 +668,28 @@
     <def-cat n="comasent">
       <cat-item tags="sent"/>
       <cat-item tags="cm"/>
+    </def-cat> 
+    
+    <def-cat n="weekdays"> 
+      <cat-item lemma="monday" tags="n.*"/>
+      <cat-item lemma="yuesday" tags="n.*"/>
+      <cat-item lemma="wednesday" tags="n.*"/>
+      <cat-item lemma="thursday" tags="n.*"/>
+      <cat-item lemma="friday" tags="n.*"/>
+      <cat-item lemma="saturday" tags="n.*"/>
+      <cat-item lemma="sunday" tags="n.*"/>
+    </def-cat>
+
+    <def-cat n="numord">
+      <cat-item tags="num.ord"/>
+    </def-cat>
+
+    <def-cat n="the">
+      <cat-item tags="det.def.sp"/>
+    </def-cat>
+
+    <def-cat n="of">
+      <cat-item tags="pr"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -4971,6 +4993,143 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 <!-- primer les regles lèxiques-->
 
+  <rule comment="REGLA: ON DAY THE NUMth OF MONTH YEAR (On Monday the 8h of April 2011 → El lunes 8 de abril de 2001)">
+      <pattern>
+	<pattern-item n="on"/>
+	<pattern-item n="weekdays"/>
+	<pattern-item n="the"/>
+	<pattern-item n="numord"/>
+	<pattern-item n="of"/>
+	<pattern-item n="months"/>
+    	<pattern-item n="num"/>
+      </pattern>
+      <action>    
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="6" side="sl" part="lem"/>
+		<lit v="March"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="6" side="tl" part="lem"/>
+	      <lit v="marzo"/>
+	    </let>
+            <choose>
+	      <when>
+	        <test>
+	          <equal>
+		    <clip pos="6" side="sl" part="a_nom"/>
+		    <lit-tag v="np.cog"/>
+	          </equal>
+	        </test>
+	        <let>
+	          <clip pos="6" side="tl" part="a_nom"/>
+	          <lit-tag v="n"/>
+	        </let>
+	        <let>
+	          <clip pos="6" side="tl" part="gen"/>
+	          <lit-tag v="m"/>
+	       </let>
+	        <let>
+	          <clip pos="6" side="tl" part="nbr"/>
+	          <lit-tag v="sg"/>
+	       </let>
+	      </when>
+            </choose>
+	  </when>
+	</choose>
+	<out>
+	  <chunk name="det_weekdays_num" case="caseFirstWord">
+	    <tags>
+	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+	      <tag><var n="neg"/></tag>
+	    </tags>
+	    <lu>
+              <lit v="el"/>
+              <lit-tag v="det.def"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+  	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+  	    <b pos="2"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lem"/> 
+	      <lit-tag v="num"/>
+	    </lu>
+	    <b pos="4"/>
+            <lu>
+              <clip pos="5" side="tl" part="whole"/>
+            </lu>
+  	    <b pos="5"/>
+	    <lu>
+	      <clip pos="6" side="tl" part="whole"/>
+	    </lu>
+  	    <b/>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+  	    <b pos="6"/>
+	    <lu>
+	      <clip pos="7" side="tl" part="whole"/>
+	    </lu>
+          </chunk>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: ON DAY THE NUMth (On Monday the 8h → El lunes 8)">
+      <pattern>
+	<pattern-item n="on"/>
+	<pattern-item n="weekdays"/>
+	<pattern-item n="the"/>
+	<pattern-item n="numord"/>
+      </pattern>
+      <action>    
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="det_weekdays_num" case="caseFirstWord">
+	    <tags>
+	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+	      <tag><var n="neg"/></tag>
+	    </tags>
+	    <lu>
+              <lit v="el"/>
+              <lit-tag v="det.def"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+  	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
+  	    <b pos="2"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lem"/> 
+	      <lit-tag v="num"/>
+	    </lu>
+          </chunk>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+      </action>
+    </rule>
 
     <rule comment="REGLA: ON NUM MONTH  (On 8 July → el 8 de juliol)">
       <pattern>

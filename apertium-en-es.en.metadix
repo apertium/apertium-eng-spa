@@ -23214,7 +23214,6 @@
     <e lm="bonnet" a="doriua"><i>bonnet</i><par n="house__n"/>    </e>
     <e lm="bonus" a="carmentano"><i>bonus</i><par n="access__n"/>    </e>
     <e lm="book"><i>book</i><par n="house__n"/>    </e>
-    <e lm="bookshop"><i>bookshop</i><par n="house__n"/>    </e>
     <e lm="boost" a="carmentano"><i>boost</i><par n="house__n"/>    </e>
     <e lm="boot"><i>boot</i><par n="house__n"/>    </e>
     <e lm="safety boot"><i>safety<b/>boot</i><par n="house__n"/>    </e>
@@ -43343,7 +43342,7 @@
     <e lm="worn out" a="imaxinsoftware"><i>worn<b/>out</i><par n="expensive__adj"/></e>
     <e lm="hackneyed" a="imaxinsoftware"><i>hackneyed</i><par n="expensive__adj"/></e>
     <e lm="trite" a="imaxinsoftware"><i>trite</i><par n="nice/__adj"/></e>
-    <e lm="stalker" a="imaxinsoftware"><i>stalker</i><par n="expensive__adj"/></e>
+    <e lm="stalker" a="imaxinsoftware"><i>stalker</i><par n="house__n"/></e>
     <e lm="stunt" a="imaxinsoftware"><i>stunt</i><par n="house__n"/></e>
     <e lm="unpaved" a="imaxinsoftware"><i>unpaved</i><par n="expensive__adj"/></e>
     <e lm="stronghold" a="imaxinsoftware"><i>stronghold</i><par n="house__n"/></e>
@@ -43387,10 +43386,66 @@
     <e lm="Steve Jobs" a="imaxinsoftware"><i>Steve<b/>Jobs</i><par n="Mark__np"/></e>
     <e lm="Cornish" a="imaxinsoftware"><p><l>Cornish</l><r>cornish</r></p><par n="expensive__adj"/></e>
     <e lm="daffodil" a="imaxinsoftware"><i>daffodil</i><par n="house__n"/></e>
-    <e lm="cosy" r="LR"><i>cos</i><par n="happ/y__adj"/></e>
+    <e lm="cosy" r="LR" a="imaxinsoftware"><i>cos</i><par n="happ/y__adj"/></e>
     <e lm="cosy" r="LR" a="imaxinsoftware"><p><l>coz</l><r>cos</r></p><par n="happ/y__adj"/>    </e>
-    <e lm="cosy" alt="en_GB" r="RL"><i>cos</i><par n="happ/y__adj"/></e>
+    <e lm="cosy" alt="en_GB" r="RL" a="imaxinsoftware"><i>cos</i><par n="happ/y__adj"/></e>
     <e lm="cosy" alt="en_US" r="RL" a="imaxinsoftware"><p><l>coz</l><r>cos</r></p><par n="happ/y__adj"/></e>
+    <e lm="cute" a="imaxinsoftware"><i>cute</i><par n="nice/__adj"/></e>
+    <e lm="licence" r="LR"><i>licenc</i><par n="liv/e__vblex"/></e>
+    <e lm="licence" r="LR" a="imaxinsoftware"><p><l>licens</l><r>licenc</r></p><par n="liv/e__vblex"/></e>
+    <e lm="licence" alt="en_GB" r="RL"><i>licenc</i><par n="liv/e__vblex"/></e>
+    <e lm="licence" alt="en_US" r="RL" a="imaxinsoftware"><p><l>licens</l><r>licenc</r></p><par n="liv/e__vblex"/></e>
+    <e lm="broadband" a="imaxinsoftware"><i>broadband</i><par n="house__n"/></e>
+    <e lm="broadband" a="imaxinsoftware"><i>broadband</i><par n="expensive__adj"/></e>
+    <e lm="Pompeii" a="imaxinsoftware"><i>Pompeii</i><par n="Barcelona__np"/></e>
+    <e lm="Sicily" a="imaxinsoftware"><i>Sicily</i><par n="Barcelona__np"/></e>
+    <e lm="perennial" a="imaxinsoftware"><i>perennial</i><par n="house__n"/></e>
+    <e lm="perennial" a="imaxinsoftware"><i>perennial</i><par n="expensive__adj"/></e>
+    <e lm="annual" a="imaxinsoftware"><i>annual</i><par n="house__n"/></e>
+    <e lm="shrub" a="imaxinsoftware"><i>shrub</i><par n="house__n"/></e>
+    <e lm="personalised" a="imaxinsoftware"><i>personali</i><par n="z_s"/><i>ed</i><par n="expensive__adj"/>    </e>
+    <e lm="masterclass" a="imaxinsoftware"><i>masterclass</i><par n="access__n"/></e>
+    <e lm="Ephesus" a="imaxinsoftware"><i>Ephesus</i><par n="Barcelona__np"/></e>
+    <e lm="Troy" a="imaxinsoftware"><i>Troy</i><par n="Barcelona__np"/></e>
+    <e lm="Haymarket" a="imaxinsoftware"><i>Haymarket</i><par n="Barcelona__np"/></e>
+    <e lm="Ken Burns" a="imaxinsoftware"><i>Ken<b/>Burns</i><par n="Mark__np"/></e>
+    <e lm="bookshop" r="LR"><i>bookshop</i><par n="house__n"/></e>
+    <e lm="bookshop" r="LR" a="imaxinsoftware"><p><l>bookstore</l><r>bookshop</r></p><par n="house__n"/></e>
+    <e lm="bookshop" alt="en_GB" r="RL"><i>bookshop</i><par n="house__n"/></e>
+    <e lm="bookshop" alt="en_US" r="RL" a="imaxinsoftware"><p><l>bookstore</l><r>bookshop</r></p><par n="house__n"/></e>
+    <e lm="wallchart" a="imaxinsoftware"><i>wallchart</i><par n="house__n"/></e>
+    <e lm="wall chart" a="imaxinsoftware"><i>wall<b/>chart</i><par n="house__n"/></e>
+    <e lm="machine operator" a="imaxinsoftware"><i>machine<b/>operator</i><par n="house__n"/></e>
+    <e lm="engine driver" a="imaxinsoftware"><i>engine<b/>driver</i><par n="house__n"/></e>
+    <e lm="subdelegate" a="imaxinsoftware"><i>subdelegate</i><par n="house__n"/></e>
+    <e lm="Chávarri" a="imaxinsoftware"><i>Chávarri</i><par n="Smith__np"/></e>
+    <e lm="reassign" a="imaxinsoftware"><i>reassign</i><par n="accept__vblex"/></e>
+    <e lm="profitability" a="imaxinsoftware"><i>profitabilit</i><par n="bab/y__n"/></e>
+    <e lm="cultivate the loyalty"><i>cultivat</i><par n="liv/e__vblex"/><p><l><b/>the<b/>loyalty</l><r><g><b/>the<b/>loyalty</g></r></p></e>
+    <e lm="build customer loyalty"><i>buil</i><par n="ben/d__vblex"/><p><l><b/>customer<b/>loyalty</l><r><g><b/>customer<b/>loyalty</g></r></p></e>
+    <e lm="José Rubio" a="imaxinsoftware"><i>José<b/>Rubio</i><par n="Mark__np"/></e>
+    <e lm="SME" a="imaxinsoftware"><i>SME</i><par n="house__n"/></e>
+    <e lm="rage" a="imaxinsoftware"><i>rag</i><par n="liv/e__vblex"/></e>
+    <e lm="bellow" a="imaxinsoftware"><i>bellow</i><par n="house__n"/></e>
+    <e lm="bellow" a="imaxinsoftware"><i>bellow</i><par n="accept__vblex"/></e>
+    <e lm="unresolved" a="imaxinsoftware"><i>unresolved</i><par n="expensive__adj"/></e>
+    <e lm="malfunction" a="imaxinsoftware"><i>malfunction</i><par n="house__n"/></e>
+    <e lm="malfunction" a="imaxinsoftware"><i>malfunction</i><par n="accept__vblex"/></e>
+    <e lm="charred" a="imaxinsoftware"><i>charred</i><par n="expensive__adj"/></e>
+    <e lm="wreckage" a="imaxinsoftware"><i>wreckage</i><par n="house__n"/></e>
+    <e lm="onlooker" a="imaxinsoftware"><i>onlooker</i><par n="house__n"/></e>
+    <e lm="sortie" a="imaxinsoftware"><i>sortie</i><par n="house__n"/></e>
+    <e lm="cruise" a="imaxinsoftware"><i>cruise</i><par n="house__n"/></e>
+    <e lm="firepower" a="imaxinsoftware"><i>firepower</i><par n="east__n"/></e>
+    <e lm="cruising speed" a="imaxinsoftware"><i>cruising<b/>speed</i><par n="east__n"/></e>
+    <e lm="cruise" a="imaxinsoftware"><i>cruis</i><par n="liv/e__vblex"/></e>
+    <e lm="embattled" a="imaxinsoftware"><i>embattled</i><par n="expensive__adj"/></e>
+    <e lm="besieged" a="imaxinsoftware"><i>besieged</i><par n="expensive__adj"/></e>
+    <e lm="wound" a="imaxinsoftware"><i>wound</i><par n="accept__vblex"/></e>
+    <e lm="airstrike" a="imaxinsoftware"><i>airstrike</i><par n="house__n"/></e>
+    <e lm="standoff" a="imaxinsoftware"><i>standoff</i><par n="house__n"/></e>
+    <e lm="stand-off" a="imaxinsoftware"><i>stand-off</i><par n="house__n"/></e>
+    <e lm="Ajdabiya" a="imaxinsoftware"><i>Ajdabiya</i><par n="Barcelona__np"/></e>
     
   </section>
 

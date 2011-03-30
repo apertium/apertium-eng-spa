@@ -11631,7 +11631,7 @@
     <e r="LR"><p><l>boundary<s n="n"/></l><r>frontera<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>bouquet<s n="n"/></l><r>ramo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>bourgeoisie<s n="n"/></l><r>burguesía<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>bowel<s n="n"/></l><r>intestino<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR">  <p><l>bowel<s n="n"/></l><r>intestino<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>box<s n="n"/></l><r>caja<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>boxing<s n="n"/></l><r>boxeo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>boy<s n="n"/></l><r>chico<s n="n"/><s n="m"/></r></p></e>
@@ -16862,8 +16862,8 @@
     <e r="LR" slr="consejo D"><p><l>tip<s n="n"/></l><r>consejo<s n="n"/><s n="m"/></r></p></e>
     <e slr="propina"><p><l>tip<s n="n"/></l><r>propina<s n="n"/><s n="f"/></r></p></e>
     <e slr="punta"><p><l>tip<s n="n"/></l><r>punta<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="pañuelo D"><p><l>tissue<s n="n"/></l><r>pañuelo<s n="n"/><s n="m"/></r></p></e>
-    <e slr="tejido" srl="tissue"><p><l>tissue<s n="n"/></l><r>tejido<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" slr="pañuelo"><p><l>tissue<s n="n"/></l><r>pañuelo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="tejido D" srl="tissue"><p><l>tissue<s n="n"/></l><r>tejido<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>handkerchief<s n="n"/></l><r>pañuelo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>title<s n="n"/></l><r>título<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>titularity<s n="n"/></l><r>titularidad<s n="n"/><s n="f"/></r></p></e>
@@ -20753,7 +20753,7 @@
     <e srl="unload"><p><l>unload<s n="vblex"/></l><r>descargar<s n="vblex"/></r></p></e>
     <e slr="reclutar" c="Mil."><p><l>draft<s n="vblex"/></l><r>reclutar<s n="vblex"/></r></p></e>
     <e slr="redactar D"><p><l>draft<s n="vblex"/></l><r>redactar<s n="vblex"/></r></p></e>
-    <e>  <p><l>drag<s n="vblex"/></l><r>arrastrar<s n="vblex"/></r></p></e>
+    <e srl="drag D">  <p><l>drag<s n="vblex"/></l><r>arrastrar<s n="vblex"/></r></p></e>
     <e srl="draw D">  <p><l>draw<s n="vblex"/></l><r>dibujar<s n="vblex"/></r></p></e>
     <e>  <p><l>dream<s n="vblex"/></l><r>soñar<s n="vblex"/></r></p></e>
     <e>  <p><l>dress<s n="vblex"/></l><r>vestir<s n="vblex"/></r></p></e>
@@ -35521,7 +35521,7 @@
     <e a="imaxinsoftware"><p><l>Camp<b/>Nou<s n="np"/><s n="al"/></l><r>Camp<b/>Nou<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e srl="disrupt" a="imaxinsoftware"><p><l>disrupt<s n="vblex"/></l><r>interrumpir<s n="vblex"/></r></p></e>
     <e srl="roving" a="imaxinsoftware"><p><l>roving<s n="adj"/></l><r>ambulante<s n="adj"/><s n="mf"/></r></p></e>
-    <e slr="ambulante" srl="travelling D" a="imaxinsoftware"><p><l>travelling<s n="adj"/></l><r>ambulante<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="travelling D" a="imaxinsoftware"><p><l>travelling<s n="adj"/></l><r>ambulante<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>travelling<b/>salesman<s n="n"/></l><r>viajante<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>travelling<b/>saleswoman<s n="n"/></l><r>viajante<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>travelling<s n="n"/></l><r>viajar<s n="n"/><s n="mf"/></r></p></e>
@@ -35868,6 +35868,40 @@
     <e slr="andadura" srl="career D" a="imaxinsoftware"><p><l>career<s n="n"/></l><r>andadura<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>grub<b/>screw<s n="n"/></l><r>tornillo<g><b/>de<b/>fijación</g><s n="n"/><s n="m"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>setscrew<s n="n"/></l><r>tornillo<g><b/>de<b/>fijación</g><s n="n"/><s n="m"/></r></p></e>
+    <e slr="tirón D" a="imaxinsoftware"><p><l>tug<s n="n"/></l><r>tirón<s n="n"/><s n="m"/></r></p></e>
+    <e slr="remolcador" a="imaxinsoftware"><p><l>tug<s n="n"/></l><r>remolcador<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>tug<b/>boat<s n="n"/></l><r>remolcador<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>tugboat<s n="n"/></l><r>remolcador<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>towing<s n="adj"/></l><r>remolcador<s n="adj"/></r></p></e>
+    <e srl="tug" a="imaxinsoftware"><p><l>tug<s n="vblex"/></l><r>arrastrar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>risk<b/>premium<s n="n"/><s n="sg"/></l><r>prima<g><b/>de<b/>riesgo</g><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>risk<b/>premia<s n="n"/><s n="pl"/></l><r>prima<g><b/>de<b/>riesgo</g><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>five-a-side<s n="n"/></l><r>fútbol<b/>sala<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>futsal<s n="n"/><s n="sg"/></l><r>futsal<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>five-a-side<b/>football<s n="n"/><s n="n"/><s n="sg"/></l><r>fútbol<b/>sala<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>five-a-side<b/>football<s n="n"/><s n="sg"/></l><r>futbito<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>five-a-side<b/>football<s n="n"/><s n="sg"/></l><r>fútbol<b/>de<b/>salón<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>adulthood<s n="n"/></l><r>edad<b/>adulta<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>tandem<s n="n"/></l><r>tándem<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>developed<b/>country<s n="n"/></l><r>país<b/>desarrollado<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>secondly<s n="adv"/></l><r>segundamente<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>puerperium<s n="n"/></l><r>puerperio<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>puerperium<s n="n"/></l><r>posparto<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>postnatal<s n="n"/><s n="sg"/></l><r>posparto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>musculoskeletal<s n="adj"/></l><r>musculoesquelético<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>integumentary<s n="adj"/></l><r>integumentario<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>urinary<s n="adj"/></l><r>urinario<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>immune<b/>system<s n="n"/></l><r>sistema<b/>inmunitario<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>immune<b/>system<s n="n"/></l><r>sistema<b/>inmunológico<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>reproductive<s n="adj"/></l><r>reproductivo<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>bicuspid<s n="adj"/></l><r>bicúspide<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>valve<s n="n"/></l><r>válvula<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>overview<s n="n"/></l><r>visión<b/>general<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>intestine<s n="n"/></l><r>intestino<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>report<s n="vblex"/></l><r>reportar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>decentralise<s n="vblex"/></l><r>descentralizar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Pamplona<s n="np"/><s n="loc"/></l><r>Pamplona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>spleen<s n="n"/></l><r>bazo<s n="n"/><s n="m"/></r></p></e>
     
     </section>
 

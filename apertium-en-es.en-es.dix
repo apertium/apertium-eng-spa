@@ -13583,7 +13583,7 @@
     <e r="RL"><p><l>girl<s n="n"/></l><r>niño<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>glacier<s n="n"/></l><r>glaciar<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>glance<s n="n"/></l><r>mirada<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>gland<s n="n"/></l><r>glandula<s n="n"/><s n="f"/></r></p></e>
+    <e>  <p><l>gland<s n="n"/></l><r>glándula<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" srl="glass D"><p><l>glass<s n="n"/></l><r>copa<s n="n"/><s n="f"/></r></p></e>
     <e slr="cristal" srl="glass D"><p><l>glass<s n="n"/></l><r>cristal<s n="n"/><s n="m"/></r></p></e>
     <e slr="vaso D"><p><l>glass<s n="n"/></l><r>vaso<s n="n"/><s n="m"/></r></p></e>
@@ -16073,7 +16073,7 @@
     <e>  <p><l>scratch<s n="n"/></l><r>arañazo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>screen<s n="n"/></l><r>pantalla<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>screw<s n="n"/></l><r>tornillo<s n="n"/><s n="m"/></r></p></e>
-    <e slr="script D">  <p><l>script<s n="n"/></l><r>guión<s n="n"/><s n="m"/></r></p></e>
+    <e srl="script D">  <p><l>script<s n="n"/></l><r>guión<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>scruple<s n="n"/></l><r>escrúpulo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>scuffle<s n="n"/></l><r>trifulca<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>sculptor<s n="n"/></l><r>escultor<s n="n"/><s n="GD"/></r></p></e>
@@ -18705,7 +18705,7 @@
     <e>  <p><l>graphic<s n="adj"/></l><r>gráfico<s n="adj"/></r></p></e>
     <e>  <p><l>grave<s n="adj"/><s n="sint"/></l><r>grave<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>grave<s n="adj"/><s n="sint"/></l><r>grave<s n="adj"/><s n="sup"/></r></p></e>
-    <e r="LR"><p><l>great<s n="adj"/><s n="sint"/></l><r>grande<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR" slr="grande D"><p><l>great<s n="adj"/><s n="sint"/></l><r>grande<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL" srl="great D"><p><l>great<s n="adj"/><s n="sint"/><s n="comp"/></l><r>mayor<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>green<s n="adj"/><s n="sint"/></l><r>verde<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>grey<s n="adj"/><s n="sint"/></l><r>gris<s n="adj"/><s n="mf"/></r></p></e>
@@ -20173,7 +20173,7 @@
     <e>  <p><l>agglutinate<s n="vblex"/></l><r>aglutinar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>agglutinate<s n="vblex"/></l><r>aglutinar<s n="vblex"/></r></p></e>
     <e>  <p><l>aggravate<s n="vblex"/></l><r>agravar<s n="vblex"/></r></p></e>
-    <e>  <p><l>agitate<s n="vblex"/></l><r>agitar<s n="vblex"/></r></p></e>
+    <e srl="agitate D">  <p><l>agitate<s n="vblex"/></l><r>agitar<s n="vblex"/></r></p></e>
     <e slr="acordar" srl="agree D"><p><l>agree<s n="vblex"/></l><r>acordar<s n="vblex"/></r></p></e>
     <e slr="concordar" c="Ling."><p><l>agree<s n="vblex"/></l><r>concordar<s n="vblex"/></r></p></e>
     <e slr="estar_de_acuerdo D"><p><l>agree<s n="vblex"/></l><r>estar<g><b/>de<b/>acuerdo</g><s n="vblex"/></r></p></e>
@@ -29029,7 +29029,7 @@
         <e>  <p>  <l>trigonal<s n="adj"/></l><r>trigonal<s n="adj"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>trigonometry<s n="n"/></l><r>trigonometría<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>sled<s n="n"/></l><r>trineo<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>trill<s n="n"/></l><r>trino<s n="n"/><s n="m"/></r></p></e>
+        <e srl="trill D">  <p>  <l>trill<s n="n"/></l><r>trino<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>trinomial<s n="n"/></l><r>trinomio<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>triode<s n="n"/></l><r>triodo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>trisection<s n="n"/></l><r>trisección<s n="n"/><s n="f"/></r></p></e>
@@ -34667,7 +34667,7 @@
     <e a="imaxinsoftware"><p><l>star<s n="vblex"/></l><r>protagonizar<s n="vblex"/></r></p></e>
     <e srl="splurge" a="imaxinsoftware"><p><l>splurge<s n="n"/></l><r>derroche<s n="n"/><s n="m"/></r></p></e>
     <e srl="filler" a="imaxinsoftware"><p><l>filler<s n="n"/></l><r>relleno<s n="n"/><s n="m"/></r></p></e>
-    <e slr="relleno D" a="imaxinsoftware"><p><l>filling<s n="n"/></l><r>relleno<s n="n"/><s n="m"/></r></p></e>
+    <e slr="relleno D" srl="filling D" a="imaxinsoftware"><p><l>filling<s n="n"/></l><r>relleno<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>slideshow<s n="n"/></l><r>presentación<g><b/>de<b/>diapositivas</g><s n="n"/><s n="f"/></r></p></e>
     <e srl="disused" a="imaxinsoftware"><p><l>disused<s n="adj"/></l><r>abandonado<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>scrutiny<s n="n"/></l><r>escrutinio<s n="n"/><s n="m"/></r></p></e>
@@ -34808,7 +34808,7 @@
     <e slr="espeluznante" srl="spine-chilling" a="imaxinsoftware"><p><l>spine-chilling<s n="adj"/></l><r>espeluznante<s n="adj"/><s n="mf"/></r></p></e>
     <e srl="hair-raising D" a="imaxinsoftware"><p><l>hair-raising<s n="adj"/></l><r>espeluznante<s n="adj"/><s n="mf"/></r></p></e>
     <e slr="escalofriante" srl="horrifying D" a="imaxinsoftware"><p><l>horrifying<s n="adj"/></l><r>escalofriante<s n="adj"/><s n="mf"/></r></p></e>
-    <e slr="horroroso D" a="imaxinsoftware"><p><l>horrifying<s n="adj"/></l><r>horroroso<s n="adj"/></r></p></e>
+    <e slr="horroroso D" srl="horrifying D" a="imaxinsoftware"><p><l>horrifying<s n="adj"/></l><r>horroroso<s n="adj"/></r></p></e>
     <e srl="pine marten" a="imaxinsoftware"><p><l>pine<b/>marten<s n="n"/></l><r>marta<s n="n"/><s n="f"/></r></p></e>
     <e srl="pine grove" a="imaxinsoftware"><p><l>pine<b/>grove<s n="n"/></l><r>pinar<s n="n"/><s n="m"/></r></p></e>
     <e srl="pine tree" a="imaxinsoftware"><p><l>pine<b/>tree<s n="n"/></l><r>pino<s n="n"/><s n="m"/></r></p></e>
@@ -35004,8 +35004,7 @@
     <e srl="outdoors" a="imaxinsoftware"><p><l>outdoors<s n="adv"/></l><r>al<b/>aire<b/>libre<s n="adv"/></r></p></e>
     <e srl="in the open air D" a="imaxinsoftware"><p><l>in<b/>the<b/>open<b/>air<s n="adv"/></l><r>al<b/>aire<b/>libre<s n="adv"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>the<b/>great<b/>outdoors<s n="n"/></l><r>la<b/>naturaleza<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>alga<s n="n"/></l><r>alga<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>algae<s n="n"/></l><r>alga<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>alga<s n="n"/></l><r>alga<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>alibi<s n="n"/></l><r>coartada<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>be<g><b/>alight</g><s n="vblex"/></l><r>estar<g><b/>ardiendo</g><s n="vblex"/></r></p></e>
     <e slr="apearse D" srl="alight" a="imaxinsoftware"><p><l>alight<s n="vblex"/></l><r>apearse<s n="vblex"/><s n="pron"/></r></p></e>
@@ -35874,11 +35873,10 @@
     <e r="LR" a="imaxinsoftware"><p><l>tugboat<s n="n"/></l><r>remolcador<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>towing<s n="adj"/></l><r>remolcador<s n="adj"/></r></p></e>
     <e srl="tug" a="imaxinsoftware"><p><l>tug<s n="vblex"/></l><r>arrastrar<s n="vblex"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>risk<b/>premium<s n="n"/><s n="sg"/></l><r>prima<g><b/>de<b/>riesgo</g><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>risk<b/>premia<s n="n"/><s n="pl"/></l><r>prima<g><b/>de<b/>riesgo</g><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>risk<b/>premium<s n="n"/></l><r>prima<g><b/>de<b/>riesgo</g><s n="n"/><s n="f"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>five-a-side<s n="n"/></l><r>fútbol<b/>sala<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>futsal<s n="n"/><s n="sg"/></l><r>futsal<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>five-a-side<b/>football<s n="n"/><s n="n"/><s n="sg"/></l><r>fútbol<b/>sala<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>five-a-side<b/>football<s n="n"/><s n="sg"/></l><r>fútbol<b/>sala<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>five-a-side<b/>football<s n="n"/><s n="sg"/></l><r>futbito<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>five-a-side<b/>football<s n="n"/><s n="sg"/></l><r>fútbol<b/>de<b/>salón<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e a="imaxinsoftware"><p><l>adulthood<s n="n"/></l><r>edad<b/>adulta<s n="n"/><s n="f"/></r></p></e>
@@ -35902,6 +35900,47 @@
     <e a="imaxinsoftware"><p><l>decentralise<s n="vblex"/></l><r>descentralizar<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Pamplona<s n="np"/><s n="loc"/></l><r>Pamplona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>spleen<s n="n"/></l><r>bazo<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>small<b/>intestine<s n="n"/></l><r>intestino<b/>delgado<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>large<b/>intestine<s n="n"/></l><r>intestino<b/>grueso<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>duodenum<s n="n"/></l><r>duodeno<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>gall<b/>bladder<s n="n"/></l><r>vesícula<b/>biliar<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>gallbladder<s n="n"/></l><r>vesícula<b/>biliar<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>jejunum<s n="n"/></l><r>yeyuno<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>rectum<s n="n"/></l><r>recto<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>peristalsis<s n="n"/><s n="sg"/></l><r>peristalsis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>peristalsis<s n="n"/><s n="pl"/></l><r>peristalsis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>peristalsis<s n="n"/><s n="ND"/></l><r>peristalsis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>rhythmic<s n="adj"/></l><r>rítmico<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>upside-down<s n="adj"/></l><r>al<b/>revés<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="churn" a="imaxinsoftware"><p><l>churn<s n="vblex"/></l><r>agitar<s n="vblex"/></r></p></e>
+    <e srl="churn up" a="imaxinsoftware"><p><l>churn<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>agitar<s n="vblex"/></r></p></e>
+    <e srl="coil" a="imaxinsoftware"><p><l>coil<s n="vblex"/></l><r>enrollar<s n="vblex"/></r></p></e>
+    <e srl="coil up" a="imaxinsoftware"><p><l>coil<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>enrollar<s n="vblex"/></r></p></e>
+    <e srl="roll up D" a="imaxinsoftware"><p><l>roll<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>enrollar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>chyme<s n="n"/></l><r>quimo<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>caecum<s n="n"/></l><r>intestino<b/>ciego<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>windpipe<s n="n"/></l><r>tráquea<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>trachea<s n="n"/></l><r>tráquea<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>epiglottis<s n="n"/><s n="sg"/></l><r>epiglotis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>epiglottis<s n="n"/><s n="pl"/></l><r>epiglotis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>epiglottis<s n="n"/><s n="ND"/></l><r>epiglotis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>sigmoid<s n="adj"/></l><r>sigmoideo<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>transverse<s n="adj"/></l><r>transversal<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>sac<s n="n"/></l><r>saco<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>digest<s n="vblex"/></l><r>digerir<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>parotid<s n="n"/></l><r>parótida<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>excrete<s n="vblex"/></l><r>excretar<s n="vblex"/></r></p></e>
+    <e slr="trino" srl="warble" a="imaxinsoftware"><p><l>warble<s n="n"/></l><r>trino<s n="n"/><s n="m"/></r></p></e>
+    <e slr="gorjeo D" a="imaxinsoftware"><p><l>warble<s n="n"/></l><r>gorjeo<s n="n"/><s n="m"/></r></p></e>
+    <e srl="warble" a="imaxinsoftware"><p><l>warble<s n="vblex"/></l><r>trinar<s n="vblex"/></r></p></e>
+    <e srl="trill D" a="imaxinsoftware"><p><l>trill<s n="vblex"/></l><r>trinar<s n="vblex"/></r></p></e>
+    <e srl="utmost" a="imaxinsoftware"><p><l>utmost<s n="adj"/></l><r>sumo<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>uttermost<s n="adj"/></l><r>sumo<s n="adj"/></r></p></e>
+    <e slr="sumo" srl="great D"><p><l>great<s n="adj"/><s n="sint"/></l><r>sumo<s n="adj"/></r></p></e>
+    <e srl="paleness D" a="imaxinsoftware"><p><l>paleness<s n="n"/></l><r>palidez<s n="n"/><s n="f"/></r></p></e>
+    <e srl="pallor" a="imaxinsoftware"><p><l>pallor<s n="n"/></l><r>palidez<s n="n"/><s n="f"/></r></p></e>
+    <e srl="ghastly" a="imaxinsoftware"><p><l>ghastly<s n="adj"/></l><r>horroroso<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><i>Mark<b/>Twain<s n="np"/><s n="ant"/></i></e>
     
     </section>
 

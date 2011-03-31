@@ -691,6 +691,11 @@
     <def-cat n="of">
       <cat-item tags="pr"/>
     </def-cat>
+    
+    <def-cat n="like"> 
+      <cat-item lemma="like" tags="pr"/>
+      <cat-item lemma="like" tags="vblex.*"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -24819,7 +24824,162 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		</out>
 	</action>
       </rule>
-      
+            
+  <rule comment="REGLA: NOM1-LIKE -> estilo NOM1 (dog-like - estilo perro)">
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="like"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="elimina_GDND">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<out> 
+	  <chunk name="nom_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><clip pos="1" side="tl" part="gen"/></tag>
+	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	    </tags>	
+	    <lu>
+	      <lit v="estilo"/>
+	      <lit-tag v="n.m.sg"/>
+	    </lu>
+	    <b/>
+	    <lu> 
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen" link-to="3"/>
+	      <clip pos="1" side="tl" part="nbr" link-to="4"/>
+	      <clip pos="1" side="tl" part="lemq"/>  
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+  <rule comment="REGLA: NOM1-LIKE NOM2 -> NOM2 estilo NOM1 (dog-like bat - murciélago estilo perro)">
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="like"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="elimina_GDND">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<out> 
+	  <chunk name="nom_nom_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><clip pos="4" side="tl" part="gen"/></tag>
+	      <tag><clip pos="4" side="tl" part="nbr"/></tag>
+	    </tags>	
+	    <lu> 
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="gen" link-to="3"/>
+	      <clip pos="4" side="tl" part="nbr" link-to="4"/>
+	      <clip pos="4" side="tl" part="lemq"/>  
+	    </lu> 
+	    <b/>
+	    <lu>
+	      <lit v="estilo"/>
+	      <lit-tag v="n.m.sg"/>
+	    </lu>
+	    <b/>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+      </action>
+    </rule>
+
+     
+  <rule comment="REGLA: NOM1-LIKE NOM2 -> NOM2 estilo NOM1 (bus-like muscle movements - movimientos de músculo estilo autobús)">
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="like"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="elimina_GDND">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<out> 
+	  <chunk name="nom_pr_nom_nom_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><clip pos="5" side="tl" part="gen"/></tag>
+	      <tag><clip pos="5" side="tl" part="nbr"/></tag>
+	    </tags>	
+	    <lu> 
+	      <clip pos="5" side="tl" part="lemh"/> 
+	      <clip pos="5" side="tl" part="a_nom"/>
+	      <clip pos="5" side="tl" part="gen" link-to="3"/>
+	      <clip pos="5" side="tl" part="nbr" link-to="4"/>
+	      <clip pos="5" side="tl" part="lemq"/>  
+	    </lu> 
+	    <b/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+	    <lu>   
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <clip pos="4" side="tl" part="nbr"/>
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>
+	      <lit v="estilo"/>
+	      <lit-tag v="n.m.sg"/>
+	    </lu>
+	    <b pos="4"/>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_bcond">
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>
+      </action>
+    </rule>
 <!--*********************************************************************************************** -->
 
     <rule comment="REL (funció de nom)"> 

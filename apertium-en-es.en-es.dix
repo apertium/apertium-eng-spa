@@ -12635,7 +12635,7 @@
     <e r="LR"><p><l>deserter<s n="n"/></l><r>desertor<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>deserter<s n="n"/></l><r>desertor<s n="n"/></r></p></e>
     <e>  <p><l>desertification<s n="n"/></l><r>desertificación<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>desertion<s n="n"/></l><r>deserción<s n="n"/><s n="f"/></r></p></e>
+    <e srl="desertion D">  <p><l>desertion<s n="n"/></l><r>deserción<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>desertisation<s n="n"/></l><r>desertización<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>desexualisation<s n="n"/></l><r>desexualización<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>deshumanisation<s n="n"/></l><r>deshumanización<s n="n"/><s n="f"/></r></p></e>
@@ -14907,7 +14907,7 @@
     <e r="RL"><p><l>observer<s n="n"/></l><r>observador<s n="n"/></r></p></e>
     <e r="RL"><p><l>observer<s n="n"/></l><r>ojeador<s n="n"/></r></p></e>
     <e>  <p><l>obsession<s n="n"/></l><r>obsesión<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>obstacle<s n="n"/></l><r>obstáculo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="obstáculo D">  <p><l>obstacle<s n="n"/></l><r>obstáculo<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>obstinacy<s n="n"/></l><r>empeño<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>obstinacy<s n="n"/></l><r>obstinación<s n="n"/><s n="f"/></r></p></e>
     <e srl="obstruction D">  <p><l>obstruction<s n="n"/></l><r>obstrucción<s n="n"/><s n="f"/></r></p></e>
@@ -21418,7 +21418,7 @@
     <e r="LR">  <p><l>scramble<s n="vblex"/></l><r>mezclar<s n="vblex"/></r></p></e>
     <e>  <p><l>moderate<s n="vblex"/></l><r>moderar<s n="vblex"/></r></p></e>
     <e>  <p><l>modify<s n="vblex"/></l><r>modificar<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>monitor<s n="vblex"/></l><r>controlar<s n="vblex"/></r></p></e>
+    <e r="LR" slr="controlar D"><p><l>monitor<s n="vblex"/></l><r>controlar<s n="vblex"/></r></p></e>
     <e>  <p><l>monopolise<s n="vblex"/></l><r>monopolizar<s n="vblex"/></r></p></e>
     <e>  <p><l>mortgage<s n="vblex"/></l><r>hipotecar<s n="vblex"/></r></p></e>
     <e>  <p><l>motivate<s n="vblex"/></l><r>motivar<s n="vblex"/></r></p></e>
@@ -35941,6 +35941,26 @@
     <e srl="pallor" a="imaxinsoftware"><p><l>pallor<s n="n"/></l><r>palidez<s n="n"/><s n="f"/></r></p></e>
     <e srl="ghastly" a="imaxinsoftware"><p><l>ghastly<s n="adj"/></l><r>horroroso<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><i>Mark<b/>Twain<s n="np"/><s n="ant"/></i></e>
+    <e srl="defection" a="imaxinsoftware"><p><l>defection<s n="n"/></l><r>deserción<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><i>Betty<b/>Boo<s n="np"/><s n="ant"/></i></e>
+    <e a="imaxinsoftware"><p><l>leakage<s n="n"/></l><r>escape<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" slr="mediador D" a="imaxinsoftware"><p><l>fixer<s n="n"/></l><r>mediador<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" srl="fixer" a="imaxinsoftware"><p><l>fixer<s n="n"/></l><r>mediador<s n="n"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>mediator<s n="n"/></l><r>mediador<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" srl="mediator D" a="imaxinsoftware"><p><l>mediator<s n="n"/></l><r>mediador<s n="n"/></r></p></e>
+    <e slr="fijador" a="imaxinsoftware"><p><l>fixer<s n="n"/></l><r>fijador<s n="n"/><s n="m"/></r></p></e>
+    <e slr="impedimento" srl="obstacle D" a="imaxinsoftware"><p><l>obstacle<s n="n"/></l><r>impedimento<s n="n"/><s n="m"/></r></p></e>
+    <e srl="impediment" a="imaxinsoftware"><p><l>impediment<s n="n"/></l><r>impedimento<s n="n"/><s n="m"/></r></p></e>
+    <e slr="monitorizar" a="imaxinsoftware"><p><l>monitor<s n="vblex"/></l><r>monitorizar<s n="vblex"/></r></p></e>
+    <e slr="monitorear" a="imaxinsoftware"><p><l>monitor<s n="vblex"/></l><r>monitorear<s n="vblex"/></r></p></e>
+    <e slr="diésel D" a="imaxinsoftware"><p><l>diesel<s n="n"/><s n="sg"/></l><r>diésel<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e slr="gasoil" a="imaxinsoftware"><p><l>diesel<s n="n"/><s n="sg"/></l><r>gasoil<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>diesel<s n="n"/><s n="sg"/></l><r>gasóleo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>diesel<s n="n"/><s n="sg"/></l><r>gasóleo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>diesel<s n="n"/><s n="sg"/></l><r>gasóleo<s n="n"/><s n="ND"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>fuel<b/>oil<s n="n"/><s n="sg"/></l><r>fueloil<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>prolong<s n="vblex"/></l><r>prolongar<s n="vblex"/></r></p></e>
+    
     
     </section>
 

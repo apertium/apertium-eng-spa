@@ -191,15 +191,19 @@ apertium_en_modesdir=$(prefix)/share/apertium/modes/
 
 $(PREFIX1).mode: modes.xml
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 $(PREFIX2).mode: modes.xml
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 $(PREFIX2b).mode: modes.xml
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 modes: modes.xml
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)

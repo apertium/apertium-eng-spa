@@ -22921,7 +22921,6 @@
     <e lm="artichoke"><i>artichoke</i><par n="house__n"/>    </e>
     <e lm="article"><i>article</i><par n="house__n"/>    </e>
     <e lm="articulation"><i>articulation</i><par n="house__n"/>    </e>
-    <e lm="artifact"><i>artifact</i><par n="house__n"/>    </e>
     <e lm="artillery"><i>artiller</i><par n="bab/y__n"/>    </e>
     <e lm="artisan"><i>artisan</i><par n="house__n"/>    </e>
     <e lm="artist"><i>artist</i><par n="house__n"/>    </e>
@@ -26924,7 +26923,6 @@
     <e lm="scene"><i>scene</i><par n="house__n"/>    </e>
     <e lm="scenography"><i>scenograph</i><par n="bab/y__n"/>    </e>
     <e lm="scepter"><i>scepter</i><par n="house__n"/>    </e>
-    <e lm="scepticism"><i>scepticism</i><par n="house__n"/>    </e>
     <e lm="schedule"><i>schedule</i><par n="house__n"/>    </e>
     <e lm="scheme"><i>scheme</i><par n="house__n"/>    </e>
     <e lm="scholar" a="carmentano"><i>scholar</i><par n="house__n"/>    </e>
@@ -43687,7 +43685,7 @@
     <e lm="carving" a="imaxinsoftware"><i>carving</i><par n="house__n"/></e>
     <e lm="flourishing" a="imaxinsoftware"><i>flourishing</i><par n="expensive__adj"/></e>
     <e lm="terracotta" a="imaxinsoftware"><i>terracotta</i><par n="house__n"/></e>
-    <e lm="emphasize"><i>emphasiz</i><par n="liv/e__vblex" /></e>
+    <e lm="emphasize" a="imaxinsoftware"><i>emphasiz</i><par n="liv/e__vblex" /></e>
     <e lm="geometer" a="imaxinsoftware"><i>geometer</i><par n="house__n"/></e>
     <e lm="monarchist" a="imaxinsoftware"><i>monarchist</i><par n="expensive__adj"/></e>
     <e lm="clockwork" a="imaxinsoftware"><i>clockwork</i><par n="house__n"/></e>
@@ -43714,6 +43712,56 @@
     <e lm="expressionist" a="imaxinsoftware"><i>expressionist</i><par n="house__n"/></e>
     <e lm="evenly" a="imaxinsoftware"><i>evenly</i><par n="maybe__adv"/></e>
     <e lm="snub" a="imaxinsoftware"><i>snub</i><par n="dub__vblex"/></e>
+    <e lm="Lichtenstein" a="imaxinsoftware"><i>Lichtenstein</i><par n="Barcelona__np"/></e>
+    <e lm="connote" a="imaxinsoftware"><i>connot</i><par n="liv/e__vblex" /></e>
+    <e lm="Leonardo da Vinci" a="imaxinsoftware"><i>Leonardo<b/>da<b/>Vinci</i><par n="Mark__np"/></e>
+    <e lm="endeavour"><i>endeav</i><par n="o_ou"/><i>r</i><par n="house__n"/></e>
+    <e lm="endeavour"><i>endeav</i><par n="o_ou"/><i>r</i><par n="accept__vblex"/></e>
+    <e lm="virtuosity" a="imaxinsoftware"><i>virtuosit</i><par n="bab/y__n"/></e>
+    <e lm="John Singer" a="imaxinsoftware"><i>John<b/>Singer</i><par n="Mark__np"/></e>
+    <e lm="scepticism" r="LR"><i>scepticism</i><par n="house__n"/></e>
+    <e lm="scepticism" r="LR" a="imaxinsoftware"><p><l>skepticism</l><r>scepticism</r></p><par n="house__n"/></e>
+    <e lm="scepticism" alt="en_GB" r="RL"><i>scepticism</i><par n="house__n"/></e>
+    <e lm="scepticism" alt="en_US" r="RL" a="imaxinsoftware"><p><l>skepticism</l><r>scepticism</r></p><par n="house__n"/></e>
+    <e lm="peripatetic" a="imaxinsoftware"><i>peripatetic</i><par n="expensive__adj"/></e>
+    <e lm="Peripatetic" a="imaxinsoftware"><i>Peripatetic</i><par n="house__n"/></e>
+    <e lm="iconoclast" a="imaxinsoftware"><i>iconoclast</i><par n="house__n"/></e>
+    <e lm="wherein" a="imaxinsoftware"><i>wherein</i><par n="where__rel"/></e>
+    <e lm="subjectivity" a="imaxinsoftware"><i>subjectivit</i><par n="bab/y__n"/></e>
+    <e lm="concurrently" a="imaxinsoftware"><i>concurrently</i><par n="maybe__adv"/></e>
+    <e lm="popularly" a="imaxinsoftware"><i>popularly</i><par n="maybe__adv"/></e>
+    <e lm="invigoration" a="imaxinsoftware"><i>invigoration</i><par n="house__n"/></e>
+    <e lm="reinvigoration" a="imaxinsoftware"><i>reinvigoration</i><par n="house__n"/></e>
+    <e lm="re-invigoration" a="imaxinsoftware"><i>re-invigoration</i><par n="house__n"/></e>
+    <e lm="rarity" a="imaxinsoftware"><i>rarit</i><par n="bab/y__n"/></e>
+    <e lm="trascend" a="imaxinsoftware"><i>trascend</i><par n="accept__vblex"/></e>
+    <e lm="rug" a="imaxinsoftware"><i>rug</i><par n="house__n"/></e>
+    <e lm="bath mat" a="imaxinsoftware"><i>bath<b/>mat</i><par n="house__n"/></e>
+    <e lm="term" a="imaxinsoftware"><i>term</i><par n="accept__vblex" /></e>
+    <e lm="ken" a="imaxinsoftware"><i>ken</i><par n="house__n"/></e>
+    <e lm="ken" a="imaxinsoftware"><i>ken</i><par n="accept__vblex"/></e>
+    <e lm="cairn" a="imaxinsoftware"><i>cairn</i><par n="house__n"/></e>
+    <e lm="illustrative" a="imaxinsoftware"><i>illustrative</i><par n="expensive__adj"/></e>
+    <e lm="artefact" r="LR"><i>artefact</i><par n="house__n"/></e>
+    <e lm="artefact" r="LR" a="imaxinsoftware"><p><l>artifact</l><r>artefact</r></p><par n="house__n"/></e>
+    <e lm="artefact" alt="en_GB" r="RL"><i>artefact</i><par n="house__n"/></e>
+    <e lm="artefact" alt="en_US" r="RL" a="imaxinsoftware"><p><l>artifact</l><r>artefact</r></p><par n="house__n"/></e>
+    <e lm="Saint Thomas Aquinas" a="imaxinsoftware"><i>Saint<b/>Thomas<b/>Aquinas</i><par n="Mark__np"/></e>
+    <e lm="Thomas Aquinas" a="imaxinsoftware"><i>Thomas<b/>Aquinas</i><par n="Mark__np"/></e>
+    <e lm="Anatole France" a="imaxinsoftware"><i>Anatole<b/>France</i><par n="Mark__np"/></e>
+    <e lm="loathe" a="imaxinsoftware"><i>loath</i><par n="liv/e__vblex" /></e>
+    <e lm="conceit" a="imaxinsoftware"><i>conceit</i><par n="house__n"/></e>
+    <e lm="stultify" a="imaxinsoftware"><i>stultif</i><par n="appl/y__vblex"/></e>
+    <e lm="assiduously" a="imaxinsoftware"><i>assiduously</i><par n="maybe__adv"/></e>
+    <e lm="diligently" a="imaxinsoftware"><i>diligently</i><par n="maybe__adv"/></e>
+    <e lm="bordering" a="imaxinsoftware"><i>bordering</i><par n="expensive__adj"/></e>
+    <e lm="therapist" a="imaxinsoftware"><i>therapist</i><par n="house__n"/></e>
+    <e lm="psychotherapist" a="imaxinsoftware"><i>psychotherapist</i><par n="house__n"/></e>
+    <e lm="subversive" a="imaxinsoftware"><i>subversive</i><par n="expensive__adj"/></e>
+    <e lm="subversive" a="imaxinsoftware"><i>subversive</i><par n="house__n"/></e>
+    <e lm="deconstructivist" a="imaxinsoftware"><i>deconstructivist</i><par n="house__n"/></e>
+    
+    
     
     
   </section>

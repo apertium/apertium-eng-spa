@@ -11237,8 +11237,7 @@
     <e>  <p><l>applicant<s n="n"/></l><r>solicitante<s n="n"/><s n="mf"/></r></p></e>
     <e slr="aplicación D" srl="application D"><p><l>application<s n="n"/></l><r>aplicación<s n="n"/><s n="f"/></r></p></e>
     <e slr="solicitud"><p><l>application<s n="n"/></l><r>solicitud<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>appointment<s n="n"/></l><r>cita<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>appointment<s n="n"/></l><r>cita<s n="n"/><s n="f"/></r></p></e>
+    <e srl="appointment D">  <p><l>appointment<s n="n"/></l><r>cita<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>appreciation<s n="n"/></l><r>agradecimiento<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>approximation<s n="n"/></l><r>aproximación<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>approach<s n="n"/></l><r>aproximación<s n="n"/><s n="f"/></r></p></e>
@@ -12374,7 +12373,7 @@
     <e>  <p><l>counterweight<s n="n"/></l><r>contrapeso<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>country<s n="n"/></l><r>país<s n="n"/><s n="m"/></r></p></e>
     <e srl="countryside"><p><l>countryside<s n="n"/></l><r>campo<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>county<s n="n"/></l><r>condado<s n="n"/><s n="m"/></r></p></e>
+    <e srl="county D">  <p><l>county<s n="n"/></l><r>condado<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>coup<s n="n"/></l><r>golpe<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>coup<g><b/>d'état</g><s n="n"/></l><r>golpe<g><b/>de<b/>estado</g><s n="n"/><s n="m"/></r></p></e>
     <e r="RL" srl="couple"><p><l>couple<s n="n"/></l><r>matrimonio<s n="n"/><s n="m"/></r></p></e>
@@ -12515,7 +12514,7 @@
     <e r="LR"><p><l>dark<s n="n"/></l><r>oscuridad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>darkness<s n="n"/></l><r>oscuridad<s n="n"/><s n="f"/></r></p></e>
     <e c="dada (cat) en plural (el tagger hauria d'escollar sg o pl en anglès). MG: Falta fer entrada específica ca-en per a 'dada' en singular, si cal (?)"><p><l>data<s n="n"/></l><r>dato<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>date<s n="n"/></l><r>fecha<s n="n"/><s n="f"/></r></p></e>
+    <e slr="fecha D">  <p><l>date<s n="n"/></l><r>fecha<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>deadline<s n="n"/></l><r>fecha<g><b/>límite</g><s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>dating<s n="n"/></l><r>datación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>daughter<s n="n"/></l><r>hijo<s n="n"/><s n="f"/></r></p></e>
@@ -14814,7 +14813,7 @@
     <e r="LR"><p><l>daily<b/>newspaper<s n="n"/></l><r>periódico<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>newspaper<s n="n"/></l><r>diario<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>niche<s n="n"/></l><r>nicho<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>nickname<s n="n"/></l><r>renombre<s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>nickname<s n="n"/></l><r>apodo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>nicotine<s n="n"/></l><r>nicotina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>niece<s n="n"/></l><r>sobrino<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>night<s n="n"/></l><r>noche<s n="n"/><s n="f"/></r></p></e>
@@ -18862,7 +18861,7 @@
     <e>  <p><l>inoperable<s n="adj"/></l><r>inoperante<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>insensitive<s n="adj"/></l><r>insensible<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>inseparable<s n="adj"/></l><r>inseparable<s n="adj"/><s n="mf"/></r></p></e>
-    <e>  <p><l>insignificant<s n="adj"/></l><r>insignificante<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="insignificant D">  <p><l>insignificant<s n="adj"/></l><r>insignificante<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>insistent<s n="adj"/></l><r>insistente<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>insolvent<s n="adj"/></l><r>insolvente<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>instantaneous<s n="adj"/></l><r>instantáneo<s n="adj"/></r></p></e>
@@ -20488,7 +20487,7 @@
     <e>  <p><l>conciliate<s n="vblex"/></l><r>conciliar<s n="vblex"/></r></p></e>
     <e>  <p><l>conclude<s n="vblex"/></l><r>concluir<s n="vblex"/></r></p></e>
     <e>  <p><l>concretise<s n="vblex"/></l><r>concretar<s n="vblex"/></r></p></e>
-    <e>  <p><l>condemn<s n="vblex"/></l><r>condenar<s n="vblex"/></r></p></e>
+    <e srl="condemn D">  <p><l>condemn<s n="vblex"/></l><r>condenar<s n="vblex"/></r></p></e>
     <e slr="acondicionar"><p><l>condition<s n="vblex"/></l><r>acondicionar<s n="vblex"/></r></p></e>
     <e slr="condicionar D" c="smth conditions smth"><p><l>condition<s n="vblex"/></l><r>condicionar<s n="vblex"/></r></p></e>
     <e r="LR" slr="conducir D"><p><l>conduct<s n="vblex"/></l><r>conducir<s n="vblex"/></r></p></e>
@@ -31183,7 +31182,7 @@
 <e r="RL" a="greenbreen"><p><l>origin<s n="n"/><s n="ND"/></l><r>génesis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e a="greenbreen"><p><l>multicellular<s n="adj"/></l><r>pluricelular<s n="adj"/><s n="mf"/></r></p></e>
 <e a="greenbreen"><p><l>descendant<s n="n"/></l><r>descendiente<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL" a="greenbreen"><p><l>descendant<s n="n"/><s n="pl"/></l><r>descendencia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" srl="descendant D" a="greenbreen"><p><l>descendant<s n="n"/><s n="pl"/></l><r>descendencia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="greenbreen"><p><l>astrobiology<s n="n"/></l><r>astrobiología<s n="n"/><s n="f"/></r></p></e>
 <e a="greenbreen"><p><l>xenobiology<s n="n"/></l><r>xenobiología<s n="n"/><s n="f"/></r></p></e>
 <e a="greenbreen"><p><l>photosynthetic<s n="adj"/></l><r>fotosintético<s n="adj"/></r></p></e>
@@ -36373,6 +36372,53 @@
     <e a="imaxinsoftware"><p><l>naysayer<s n="n"/></l><r>negativista<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>elf<s n="n"/></l><r>elfo<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>elf<s n="n"/></l><r>elfo<s n="n"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>mythographer<s n="n"/></l><r>mitógrafo<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>mythographer<s n="n"/></l><r>mitógrafo<s n="n"/></r></p></e>
+    <e srl="offspring" a="imaxinsoftware"><p><l>offspring<s n="n"/></l><r>descendencia<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>semi-divine<s n="adj"/></l><r>semidivino<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>teutonic<s n="adj"/></l><r>teutónico<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>Teutonic<s n="n"/></l><r>teutón<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>Teutonic<s n="n"/></l><r>teutón<s n="n"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>dwell<s n="vblex"/></l><r>morar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>obsess<s n="vblex"/></l><r>obsesionar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>be<g><b/>obsessed</g><s n="vblex"/></l><r>estar<g><b/>obsesionado</g><s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>get<g><b/>obsessed</g><s n="vblex"/></l><r>obsesionarse<s n="vblex"/><s n="pron"/></r></p></e>
+    <e srl="get obsessed with D" a="imaxinsoftware"><p><l>get<g><b/>obsessed<b/>with</g><s n="vblex"/></l><r>obsesionarse<g><b/>con</g><s n="vblex"/><s n="pron"/></r></p></e>
+    <e srl="dwell on" a="imaxinsoftware"><p><l>dwell<g><b/>on</g><s n="vblex"/></l><r>obsesionarse<g><b/>con</g><s n="vblex"/><s n="pron"/></r></p></e>
+    <e srl="dwell upon" a="imaxinsoftware"><p><l>dwell<g><b/>upon</g><s n="vblex"/></l><r>obsesionarse<g><b/>con</g><s n="vblex"/><s n="pron"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>nickname<s n="vblex"/></l><r>apodar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>renown<s n="n"/></l><r>renombre<s n="n"/><s n="m"/></r></p></e>
+    <e srl="norse"  a="imaxinsoftware"><p><l>norse<s n="adj"/></l><r>nórdico<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>Norse<s n="n"/></l><r>nórdico<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" srl="Norse" a="imaxinsoftware"><p><l>Norse<s n="n"/></l><r>nórdico<s n="n"/></r></p></e>
+    <e srl="nordic D" a="imaxinsoftware"><p><l>nordic<s n="adj"/></l><r>nórdico<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>Nordic<s n="n"/></l><r>nórdico<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" srl="Nordic D" a="imaxinsoftware"><p><l>Nordic<s n="n"/></l><r>nórdico<s n="n"/></r></p></e>
+    <e srl="petty"><p><l>petty<s n="adj"/><s n="sint"/></l><r>insignificante<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>petty<b/>cash<s n="n"/></l><r>dinero<b/>para<b/>gastos<b/>menores<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>petty<b/>officer<s n="n"/></l><r>suboficial<g><b/>de<b/>marina</g><s n="n"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>boatswain<s n="n"/></l><r>contramaestre<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>petty<b/>bourgeois<s n="adj"/></l><r>pequeñoburgués<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>petty<b/>bourgeois<s n="n"/></l><r>pequeñoburgués<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>petty<b/>bourgeois<s n="n"/></l><r>pequeñoburgués<s n="n"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>petty<b/>bourgeoisie<s n="n"/></l><r>pequeña<b/>burguesía<s n="n"/><s n="f"/></r></p></e>
+    <e srl="petty crime" a="imaxinsoftware"><p><l>petty<b/>crime<s n="n"/></l><r>delito<b/>menor<s n="n"/><s n="m"/></r></p></e>
+    <e srl="minor offence D" a="imaxinsoftware"><p><l>minor<b/>offence<s n="n"/></l><r>delito<b/>menor<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>petty<b/>theft<s n="n"/></l><r>pequeño<b/>hurto<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" slr="ladronzuelo D" a="imaxinsoftware"><p><l>petty<b/>thief<s n="n"/></l><r>ladronzuelo<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" srl="petty thief D" a="imaxinsoftware"><p><l>petty<b/>thief<s n="n"/></l><r>ladronzuelo<s n="n"/></r></p></e>
+    <e r="LR" slr="ladronzuelo" a="imaxinsoftware"><p><l>pilferer<s n="n"/></l><r>ladronzuelo<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" srl="pilferer" a="imaxinsoftware"><p><l>pilferer<s n="n"/></l><r>ladronzuelo<s n="n"/></r></p></e>
+    <e r="LR" slr="ratero D" a="imaxinsoftware"><p><l>pilferer<s n="n"/></l><r>ratero<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>pilferer<s n="n"/></l><r>ratero<s n="n"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>verification<s n="n"/></l><r>verificación<s n="n"/><s n="f"/></r></p></e>
+    <e srl="citation" a="imaxinsoftware"><p><l>citation<s n="n"/></l><r>cita<s n="n"/><s n="f"/></r></p></e>
+    <e slr="cita" srl="date" a="imaxinsoftware"><p><l>date<s n="n"/></l><r>cita<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>delineate<s n="vblex"/></l><r>delinear<s n="vblex"/></r></p></e>
+    <e srl="doom" a="imaxinsoftware"><p><l>doom<s n="vblex"/></l><r>condenar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>hobbit<s n="n"/></l><r>hobbit<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>pipe-weed<s n="n"/></l><r>hierba<g><b/>para<b/>pipa</g><s n="n"/><s n="f"/></r></p></e>
+    <e srl="shire" a="imaxinsoftware"><p><l>shire<s n="n"/></l><r>condado<s n="n"/><s n="m"/></r></p></e>
     
     
     </section>

@@ -18449,7 +18449,7 @@
     <e>  <p><l>domestic<s n="adj"/></l><r>doméstico<s n="adj"/></r></p></e>
     <e r="RL"><p><l>domestic<s n="adj"/></l><r>doméstico<s n="adj"/></r></p></e>
     <e>  <p><l>domiciliary<s n="adj"/></l><r>domiciliario<s n="adj"/></r></p></e>
-    <e>  <p><l>dominant<s n="adj"/></l><r>dominante<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="dominant D">  <p><l>dominant<s n="adj"/></l><r>dominante<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>dorsal<s n="adj"/></l><r>dorsal<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>double<s n="adj"/></l><r>doble<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>doubtful<s n="adj"/></l><r>dudoso<s n="adj"/></r></p></e>
@@ -22030,7 +22030,7 @@
     <e>  <p><l>think<g><b/>that</g><s n="vblex"/></l><r>creer<g><b/>que</g><s n="vblex"/></r></p></e>
     <e>  <p><l>think<g><b/>so</g><s n="vblex"/></l><r>creer<g><b/>que<b/>sí</g><s n="vblex"/></r></p></e>
     <e>  <p><l>thrill<s n="vblex"/></l><r>emocionar<s n="vblex"/></r></p></e>
-    <e>  <p><l>throw<s n="vblex"/></l><r>echar<s n="vblex"/></r></p></e>
+    <e srl="throw D">  <p><l>throw<s n="vblex"/></l><r>echar<s n="vblex"/></r></p></e>
     <e r="LR">  <p><l>chuck<s n="vblex"/></l><r>echar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>thrust<s n="vblex"/></l><r>empujar<s n="vblex"/></r></p></e>
     <e>  <p><l>thunder<s n="vblex"/></l><r>tronar<s n="vblex"/></r></p></e>
@@ -29578,7 +29578,7 @@
 <e>  <p><l>cease<s n="vblex"/></l><r>cesar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>step<s n="vblex"/></l><r>pisar<s n="vblex"/></r></p></e>
 <e>  <p><l>reproach<s n="vblex"/></l><r>reprochar<s n="vblex"/></r></p></e>
-<e r="RL">  <p><l>throw<s n="vblex"/></l><r>tirar<s n="vblex"/></r></p></e>
+<e r="RL" srl="throw D">  <p><l>throw<s n="vblex"/></l><r>tirar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>emerge<s n="vblex"/></l><r>aflorar<s n="vblex"/></r></p></e>
 <e>  <p><l>sift<s n="vblex"/></l><r>cribar<s n="vblex"/></r></p></e>
 <e r="RL">  <p><l>confine<s n="vblex"/></l><r>internar<s n="vblex"/></r></p></e>
@@ -36499,6 +36499,15 @@
     <e r="LR" a="imaxinsoftware"><p><l>miller<s n="n"/></l><r>molinero<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>miller<s n="n"/></l><r>molinero<s n="n"/></r></p></e>
     <e srl="inconsistency" a="imaxinsoftware"><p><l>inconsistency<s n="n"/></l><r>incongruencia<s n="n"/><s n="f"/></r></p></e>
+    <e srl="pervasive" a="imaxinsoftware"><p><l>pervasive<s n="adj"/></l><r>dominante<s n="adj"/><s n="mf"/></r></p></e>
+    <e slr="chispear D" a="imaxinsoftware"><p><l>spark<s n="vblex"/></l><r>chispear<s n="vblex"/></r></p></e>
+    <e slr="echar chispas" a="imaxinsoftware"><p><l>spark<s n="vblex"/></l><r>echar<g><b/>chispas</g><s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>sparking<b/>plug<s n="n"/></l><r>bujía<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>to<b/>this<b/>end<s n="adv"/></l><r>con<b/>este<b/>fin<s n="adv"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>part<g>-of-speech</g><s n="n"/></l><r>categoría<b/>gramatical<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>part<g><b/>of<b/>speech</g><s n="n"/></l><r>categoría<b/>gramatical<s n="n"/><s n="f"/></r></p></e>
+    <e slr="tirar D" srl="throw out" a="imaxinsoftware"><p><l>throw<g><b/>out</g><s n="vblex"/><s n="sep"/></l><r>tirar<s n="vblex"/></r></p></e>
+    <e slr="echar" srl="throw out" a="imaxinsoftware"><p><l>throw<g><b/>out</g><s n="vblex"/><s n="sep"/></l><r>echar<s n="vblex"/></r></p></e>
     
     </section>
 

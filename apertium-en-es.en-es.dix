@@ -21745,7 +21745,7 @@
     <e slr="invertir D" srl="reverse"><p><l>reverse<s n="vblex"/></l><r>invertir<s n="vblex"/></r></p></e>
     <e r="LR" slr="revocar" c="revocar una decisión"><p><l>reverse<s n="vblex"/></l><r>revocar<s n="vblex"/></r></p></e>
     <e slr="reseñar"><p><l>review<s n="vblex"/></l><r>reseñar<s n="vblex"/></r></p></e>
-    <e slr="revisar D"><p><l>review<s n="vblex"/></l><r>revisar<s n="vblex"/></r></p></e>
+    <e slr="revisar D" srl="review D"><p><l>review<s n="vblex"/></l><r>revisar<s n="vblex"/></r></p></e>
     <e>  <p><l>revive<s n="vblex"/></l><r>revivir<s n="vblex"/></r></p></e>
     <e>  <p><l>revoke<s n="vblex"/></l><r>revocar<s n="vblex"/></r></p></e>
     <e r="LR">  <p><l>revolt<s n="vblex"/></l><r>repugnar<s n="vblex"/></r></p></e>
@@ -36510,6 +36510,15 @@
     <e a="imaxinsoftware"><p><l>part<g><b/>of<b/>speech</g><s n="n"/></l><r>categoría<b/>gramatical<s n="n"/><s n="f"/></r></p></e>
     <e slr="tirar D" srl="throw out" a="imaxinsoftware"><p><l>throw<g><b/>out</g><s n="vblex"/><s n="sep"/></l><r>tirar<s n="vblex"/></r></p></e>
     <e slr="echar" srl="throw out" a="imaxinsoftware"><p><l>throw<g><b/>out</g><s n="vblex"/><s n="sep"/></l><r>echar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>unauthorised<s n="adj"/></l><r>no<b/>autorizado<s n="adj"/></r></p></e>
+    <e srl="hideout D" a="imaxinsoftware"><p><l>hideout<s n="n"/></l><r>guarida<s n="n"/><s n="f"/></r></p></e>
+    <e srl="lair" a="imaxinsoftware"><p><l>lair<s n="n"/></l><r>guarida<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>oppression<s n="n"/></l><r>opresión<s n="n"/><s n="f"/></r></p></e>
+    <e srl="revise" a="imaxinsoftware"><p><l>revise<s n="vblex"/></l><r>revisar<s n="vblex"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>nimble<s n="adj"/><s n="sint"/></l><r>ágil<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware" srl="deft"><p><l>deft<s n="adj"/><s n="sint"/></l><r>hábil<s n="adj"/><s n="mf"/></r></p></e>
+    
+    
     
     </section>
 

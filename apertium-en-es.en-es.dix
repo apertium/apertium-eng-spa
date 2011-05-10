@@ -18430,7 +18430,7 @@
     <e>  <p><l>disastrous<s n="adj"/></l><r>desastroso<s n="adj"/></r></p></e>
     <e>  <p><l>disciplinary<s n="adj"/></l><r>disciplinario<s n="adj"/></r></p></e>
     <e>  <p><l>discontinuous<s n="adj"/></l><r>discontinuo<s n="adj"/></r></p></e>
-    <e>  <p><l>discreet<s n="adj"/></l><r>discreto<s n="adj"/></r></p></e>
+    <e srl="discreet D">  <p><l>discreet<s n="adj"/></l><r>discreto<s n="adj"/></r></p></e>
     <e>  <p><l>discriminatory<s n="adj"/></l><r>discriminatorio<s n="adj"/></r></p></e>
     <e r="LR"><p><l>disgruntled<s n="adj"/></l><r>descontento<s n="adj"/></r></p></e>
     <e>  <p><l>dissatisfied<s n="adj"/></l><r>descontento<s n="adj"/></r></p></e>
@@ -29922,7 +29922,7 @@
 <e r="LR" a="greenbreen"><p><l>inexpensive<s n="adj"/></l><r>económico<s n="adj"/></r></p></e>
 <e a="greenbreen"><p><l>lazy<s n="adj"/><s n="sint"/></l><r>perezoso<s n="adj"/></r></p></e>
 <e a="greenbreen"><p><l>angry<s n="adj"/><s n="sint"/></l><r>enojado<s n="adj"/></r></p></e>
-<e a="greenbreen"><p><l>clumsy<s n="adj"/><s n="sint"/></l><r>torpe<s n="adj"/><s n="mf"/></r></p></e>
+<e srl="clumsy D" a="greenbreen"><p><l>clumsy<s n="adj"/><s n="sint"/></l><r>torpe<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>graceless<s n="adj"/></l><r>torpe<s n="adj"/><s n="mf"/></r></p></e>
 <e><p><l>fibular<s n="adj"/></l><r>fibular<s n="adj"/><s n="mf"/></r></p></e>
 <e><p><l>genicular<s n="adj"/></l><r>genicular<s n="adj"/><s n="mf"/></r></p></e>
@@ -36517,8 +36517,15 @@
     <e a="imaxinsoftware"><p><l>oppression<s n="n"/></l><r>opresión<s n="n"/><s n="f"/></r></p></e>
     <e srl="revise" a="imaxinsoftware"><p><l>revise<s n="vblex"/></l><r>revisar<s n="vblex"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>nimble<s n="adj"/><s n="sint"/></l><r>ágil<s n="adj"/><s n="mf"/></r></p></e>
-    <e a="imaxinsoftware" srl="deft"><p><l>deft<s n="adj"/><s n="sint"/></l><r>hábil<s n="adj"/><s n="mf"/></r></p></e>
-    
+    <e srl="deft" a="imaxinsoftware"><p><l>deft<s n="adj"/><s n="sint"/></l><r>hábil<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="unobtrusive" a="imaxinsoftware"><p><l>unobtrusive<s n="adj"/></l><r>discreto<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>water-mill<s n="n"/></l><r>molino<g><b/>de<b/>agua</g><s n="n"/><s n="m"/></r></p></e>
+    <e srl="blundering" a="imaxinsoftware"><p><l>blundering<s n="adj"/></l><r>torpe<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>magical<s n="adj"/></l><r>mágico<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>eagerly<s n="adv"/></l><r>con<b/>entusiasmo<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>elusiveness<s n="n"/></l><r>carácter<b/>esquivo<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>inimitable<s n="adj"/></l><r>inimitable<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>leathery<s n="adj"/></l><r>correoso<s n="adj"/></r></p></e>
     
     
     </section>

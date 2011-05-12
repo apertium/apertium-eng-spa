@@ -12798,7 +12798,7 @@
     <e>  <p><l>dissidence<s n="n"/></l><r>disidencia<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>dissociation<s n="n"/></l><r>disociación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>dissolution<s n="n"/></l><r>disolución<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>distance<s n="n"/></l><r>distancia<s n="n"/><s n="f"/></r></p></e>
+    <e slr="distancia D">  <p><l>distance<s n="n"/></l><r>distancia<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>distention<s n="n"/></l><r>distensión<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>distillation<s n="n"/></l><r>destilación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>distinction<s n="n"/></l><r>distinción<s n="n"/><s n="f"/></r></p></e>
@@ -18217,7 +18217,7 @@
     <e>  <p><l>brittle<s n="adj"/><s n="sint"/></l><r>quebradizo<s n="adj"/></r></p></e>
     <e r="LR">  <p><l>crumbly<s n="adj"/></l><r>quebradizo<s n="adj"/></r></p></e>
     <e r="LR"><p><l>broad<s n="adj"/><s n="sint"/></l><r>ancho<s n="adj"/></r></p></e>
-    <e>  <p><l>brown<s n="adj"/></l><r>marrón<s n="adj"/><s n="mf"/></r></p></e>
+    <e>  <p><l>brown<s n="adj"/><s n="sint"/></l><r>marrón<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>brutal<s n="adj"/></l><r>brutal<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>buccal<s n="adj"/></l><r>bucal<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>budgetary<s n="adj"/></l><r>presupuestario<s n="adj"/></r></p></e>
@@ -18666,7 +18666,7 @@
     <e>  <p><l>frivolous<s n="adj"/></l><r>frívolo<s n="adj"/></r></p></e>
     <e>  <p><l>frontal<s n="adj"/></l><r>frontal<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>fruitful<s n="adj"/></l><r>fructífero<s n="adj"/></r></p></e>
-    <e>  <p><l>fruitless<s n="adj"/></l><r>infructuoso<s n="adj"/></r></p></e>
+    <e srl="fruitless D">  <p><l>fruitless<s n="adj"/></l><r>infructuoso<s n="adj"/></r></p></e>
     <e r="LR">  <p><l>fucking<s n="adj"/></l><r>maldito<s n="adj"/></r></p></e>
     <e>  <p><l>full<s n="adj"/><s n="sint"/></l><r>lleno<s n="adj"/></r></p></e>
     <e r="RL"><p><l>full<s n="adj"/><s n="sint"/></l><r>pleno<s n="adj"/></r></p></e>
@@ -19464,8 +19464,7 @@
     <e r="LR" slr="correcto D"><p><l>right<s n="adj"/></l><r>correcto<s n="adj"/></r></p></e>
     <e slr="derecho"><p><l>right<s n="adj"/></l><r>derecho<s n="adj"/></r></p></e>
     <e r="LR"><p><l>right-hand<s n="adj"/></l><r>derecho<s n="adj"/></r></p></e>
-    <e srl="right-handed D"><p><l>right-handed<s n="adj"/></l><r>diestro<s n="adj"/></r></p></e>
-    <e r="RL" srl="skillful"><p><l>skillful<s n="adj"/></l><r>diestro<s n="adj"/></r></p></e>
+    <e><p><l>right-handed<s n="adj"/></l><r>diestro<s n="adj"/></r></p></e>
     <e srl="rigid D">  <p><l>rigid<s n="adj"/></l><r>rígido<s n="adj"/></r></p></e>
     <e>  <p><l>rigorous<s n="adj"/></l><r>riguroso<s n="adj"/></r></p></e>
     <e r="LR"><p><l>ripe<s n="adj"/></l><r>maduro<s n="adj"/></r></p></e>
@@ -19885,8 +19884,8 @@
     <e c="check"><p><l>attacker<s n="adj"/></l><r>atacante<s n="adj"/><s n="mf"/></r></p></e>
     <e c="check"><p><l>athlete<s n="adj"/></l><r>atleta<s n="adj"/><s n="mf"/></r></p></e>
     <e c="check"><p><l>bomber<s n="adj"/></l><r>bombardero<s n="adj"/></r></p></e>
-    <e c="check"><p><l>home-made<s n="adj"/></l><r>casero<s n="adj"/></r></p></e>
-    <e r="RL" c="check"><p><l>brown<s n="adj"/></l><r>castaño<s n="adj"/></r></p></e>
+    <e><p><l>home-made<s n="adj"/></l><r>casero<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>brown<s n="adj"/><s n="sint"/></l><r>castaño<s n="adj"/></r></p></e>
     <e c="check"><p><l>captive<s n="adj"/></l><r>cautivo<s n="adj"/></r></p></e>
     <e c="check"><p><l>blackmailer<s n="adj"/></l><r>chantajista<s n="adj"/><s n="mf"/></r></p></e>
     <e c="check"><p><l>key<s n="adj"/></l><r>clave<s n="adj"/><s n="mf"/></r></p></e>
@@ -20699,7 +20698,7 @@
     <e>  <p><l>direct<s n="vblex"/></l><r>dirigir<s n="vblex"/></r></p></e>
     <e r="LR" >  <p><l>disable<s n="vblex"/></l><r>imposibilitar<s n="vblex"/></r></p></e>
     <e>  <p><l>disagree<s n="vblex"/></l><r>discrepar<s n="vblex"/></r></p></e>
-    <e>  <p><l>disappear<s n="vblex"/></l><r>desaparecer<s n="vblex"/></r></p></e>
+    <e srl="disappear D">  <p><l>disappear<s n="vblex"/></l><r>desaparecer<s n="vblex"/></r></p></e>
     <e>  <p><l>disappoint<s n="vblex"/></l><r>decepcionar<s n="vblex"/></r></p></e>
     <e>  <p><l>disapprove<s n="vblex"/></l><r>desaprobar<s n="vblex"/></r></p></e>
     <e>  <p><l>disarm<s n="vblex"/></l><r>desarmar<s n="vblex"/></r></p></e>
@@ -21498,7 +21497,7 @@
     <e r="LR" c="MG: falten els altres sentits de perform"><p><l>perform<s n="vblex"/></l><r>actuar<s n="vblex"/></r></p></e>
     <e>  <p><l>perfume<s n="vblex"/></l><r>perfumar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>permit<s n="vblex"/></l><r>permitir<s n="vblex"/></r></p></e>
-    <e>  <p><l>persist<s n="vblex"/></l><r>persistir<s n="vblex"/></r></p></e>
+    <e srl="persist D">  <p><l>persist<s n="vblex"/></l><r>persistir<s n="vblex"/></r></p></e>
     <e>  <p><l>persuade<s n="vblex"/></l><r>persuadir<s n="vblex"/></r></p></e>
     <e r="LR">  <p><l>perturb<s n="vblex"/></l><r>perturbar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>phone<s n="vblex"/></l><r>telefonear<s n="vblex"/></r></p></e>
@@ -36526,6 +36525,34 @@
     <e a="imaxinsoftware"><p><l>elusiveness<s n="n"/></l><r>carácter<b/>esquivo<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>inimitable<s n="adj"/></l><r>inimitable<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>leathery<s n="adj"/></l><r>correoso<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>stocky<s n="adj"/><s n="sint"/></l><r>achaparrado<s n="adj"/></r></p></e>
+    <e srl="beehive D" a="imaxinsoftware"><p><l>beehive<s n="n"/></l><r>colmena<s n="n"/><s n="f"/></r></p></e>
+    <e srl="hive" a="imaxinsoftware"><p><l>hive<s n="n"/></l><r>colmena<s n="n"/><s n="f"/></r></p></e>
+    <e srl="dwindle" a="imaxinsoftware"><p><l>dwindle<s n="vblex"/></l><r>disminuir<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>curling<s n="n"/></l><r>curling<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>curling<s n="adj"/></l><r>rizado<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>shoemaking<s n="n"/></l><r>manufactura<b/>de<b/>calzado<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>shoe<b/>making<s n="n"/></l><r>manufactura<b/>de<b/>calzado<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>heartily<s n="adv"/></l><r>sinceramente<s n="adv"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>comely<s n="adj"/><s n="sint"/></l><r>atractivo<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>good-natured<s n="adj"/></l><r>afable<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>bright-eyed<s n="adj"/></l><r>de<b/>ojos<b/>brillantes<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>rosy<s n="adj"/><s n="sint"/></l><r>sonrosado<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>red-cheeked<s n="adj"/></l><r>de<b/>mejillas<b/>rojas<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>estrangement<s n="n"/></l><r>distanciamiento<s n="n"/><s n="m"/></r></p></e>
+    <e slr="distanciamiento" a="imaxinsoftware"><p><l>distance<s n="n"/></l><r>distanciamiento<s n="n"/><s n="m"/></r></p></e>
+    <e srl="vanish" a="imaxinsoftware"><p><l>vanish<s n="vblex"/></l><r>desaparecer<s n="vblex"/></r></p></e>
+    <e srl="linger" a="imaxinsoftware"><p><l>linger<s n="vblex"/></l><r>persistir<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>westward<s n="adv"/></l><r>hacia<b/>el<b/>oeste<s n="adv"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>westwards<s n="adv"/></l><r>hacia<b/>el<b/>oeste<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>westward<s n="adj"/></l><r>hacia<b/>el<b/>oeste<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>lore<s n="n"/></l><r>saber<b/>popular<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>beardless<s n="adj"/></l><r>barbilampiño<s n="adj"/></r></p></e>
+    <e srl="bootless" a="imaxinsoftware"><p><l>bootless<s n="adj"/></l><r>infructuoso<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>highland<s n="adj"/></l><r>de<b/>montaña<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>highlands<s n="n"/></l><r>tierras<b/>altas<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Highlands<s n="np"/><s n="loc"/></l><r>Tierras<b/>Altas<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Scottish<b/>Highlands<s n="np"/><s n="loc"/></l><r>Tierras<b/>Altas<b/>de<b/>Escocia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     
     
     </section>

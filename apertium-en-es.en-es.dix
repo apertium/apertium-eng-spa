@@ -2568,7 +2568,7 @@
 <e a="eleka">  <p><l>traumatic<b/>brain<b/>injury<s n="n"/></l><r>traumatismo<b/>craneoencefálico<s n="n"/><s n="m"/></r></p></e>
 <e a="eleka">  <p><l>face-to-face<s n="adj"/></l><r>presencial<s n="adj"/><s n="mf"/></r></p></e>
 <e a="eleka">  <p><l>eyewitness<s n="n"/></l><r>testigo<b/>presencial<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="eleka">  <p><l>help<s n="vblex"/></l><r>socorrer<s n="vblex"/></r></p></e>
+<e r="RL" srl="help D" a="eleka">  <p><l>help<s n="vblex"/></l><r>socorrer<s n="vblex"/></r></p></e>
 <e r="RL" a="eleka">  <p><l>help<s n="vblex"/></l><r>socorrer<g><b/>a</g><s n="vblex"/></r></p></e>
 <e a="eleka">  <p><l>death<b/>cause<s n="n"/></l><r>causa<g><b/>del<b/>fallecimiento</g><s n="n"/><s n="f"/></r></p></e>
 <e a="eleka">  <p><l>horn<b/>wound<s n="n"/></l><r>herida<g><b/>de<b/>asta</g><s n="n"/><s n="f"/></r></p></e>
@@ -28289,7 +28289,7 @@
 	<e><p><l>polish<s n="n"/></l><r>abrillantador<s n="n"/><s n="m"/></r></p></e>
         <e r="RL">  <p>  <l>shine<s n="n"/></l><r>lustre<s n="n"/><s n="m"/></r></p></e>
         <e r="RL">  <p>  <l>polishing<s n="n"/></l><r>pulido<s n="n"/><s n="m"/></r></p></e>
-        <e>  <p>  <l>shine<s n="n"/></l><r>brillo<s n="n"/><s n="m"/></r></p></e>
+        <e srl="shine D">  <p>  <l>shine<s n="n"/></l><r>brillo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>polishing<s n="n"/></l><r>pulimento<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>cougar<s n="n"/></l><r>puma<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>pupa<s n="n"/></l><r>pupa<s n="n"/><s n="f"/></r></p></e>
@@ -30423,7 +30423,7 @@
 <e r="RL" a="greenbreen"><p><l>wall<s n="n"/></l><r>muro<s n="n"/><s n="m"/></r></p></e>
 <e srl="tired D" a="greenbreen"><p><l>tired<s n="adj"/></l><r>cansado<s n="adj"/></r></p></e>
 <e a="greenbreen"><p><l>casino<s n="n"/></l><r>casino<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" a="greenbreen"><p><l>aid<s n="n"/></l><r>socorro<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" srl="aid D" a="greenbreen"><p><l>aid<s n="n"/></l><r>socorro<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>congratulation<s n="n"/></l><r>felicitación<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" a="greenbreen"><p><l>face<s n="n"/></l><r>rostro<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>loose<s n="adj"/><s n="sint"/></l><r>suelto<s n="adj"/></r></p></e>
@@ -35072,11 +35072,14 @@
     <e r="RL" srl="aviator"><p><l>aviator<s n="n"/></l><r>aviador<s n="n"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Portman<s n="np"/><s n="cog"/></l><r>Portman<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>jobless<s n="adj"/></l><r>sin<b/>trabajo<s n="adj"/><s n="mf"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>globetrotter<s n="n"/></l><r>trotamundos<s n="n"/><s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>globetrotter<s n="n"/><s n="sg"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>globetrotter<s n="n"/><s n="pl"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL" srl="wanderer" a="imaxinsoftware"><p><l>wanderer<s n="n"/><s n="ND"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>wanderer<s n="n"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>wanderer<s n="n"/><s n="sg"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>wanderer<s n="n"/><s n="pl"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL" srl="globe-trotter D" a="imaxinsoftware"><p><l>globe-trotter<s n="n"/><s n="ND"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>globe-trotter<s n="n"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>globe-trotter<s n="n"/><s n="sg"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>globe-trotter<s n="n"/><s n="pl"/></l><r>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
     <e srl="haunted" a="imaxinsoftware"><p><l>haunted<s n="adj"/></l><r>mordaz<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>bewitched<s n="adj"/></l><r>embrujado<s n="adj"/></r></p></e>
     <e srl="haunt" a="imaxinsoftware"><p><l>haunt<s n="vblex"/></l><r>perseguir<s n="vblex"/></r></p></e>
@@ -36545,7 +36548,7 @@
     <e srl="linger" a="imaxinsoftware"><p><l>linger<s n="vblex"/></l><r>persistir<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>westward<s n="adv"/></l><r>hacia<b/>el<b/>oeste<s n="adv"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>westwards<s n="adv"/></l><r>hacia<b/>el<b/>oeste<s n="adv"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>westward<s n="adj"/></l><r>hacia<b/>el<b/>oeste<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>westward<s n="adj"/></l><r>hacia<b/>el<b/>oeste<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>lore<s n="n"/></l><r>saber<b/>popular<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>beardless<s n="adj"/></l><r>barbilampiño<s n="adj"/></r></p></e>
     <e srl="bootless" a="imaxinsoftware"><p><l>bootless<s n="adj"/></l><r>infructuoso<s n="adj"/></r></p></e>
@@ -36570,7 +36573,7 @@
     <e srl="roam" a="imaxinsoftware"><p><l>roam<s n="vblex"/></l><r>vagar<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>southward<s n="adv"/></l><r>hacia<b/>el<b/>sur<s n="adv"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>southwards<s n="adv"/></l><r>hacia<b/>el<b/>sur<s n="adv"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>southward<s n="adj"/></l><r>hacia<b/>el<b/>sur<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>southward<s n="adj"/></l><r>hacia<b/>el<b/>sur<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>northerly<s n="adj"/></l><r>del<b/>norte<s n="adj"/><s n="mf"/></r></p></e>
     <e srl="mingle" a="imaxinsoftware"><p><l>mingle<s n="vblex"/></l><r>mezclarse<s n="vblex"/><s n="pron"/></r></p></e>
     <e slr="mezclarse" a="imaxinsoftware"><p><l>mix<s n="vblex"/></l><r>mezclarse<s n="vblex"/><s n="pron"/></r></p></e>
@@ -36583,6 +36586,15 @@
     <e a="imaxinsoftware"><p><l>ail<s n="vblex"/></l><r>aquejar<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>lordship<s n="n"/></l><r>señorío<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>meddle<s n="vblex"/></l><r>inmiscuirse<s n="vblex"/><s n="pron"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>warlike<s n="adj"/></l><r>belicoso<s n="adj"/></r></p></e>
+    <e srl="shimmer" a="imaxinsoftware"><p><l>shimmer<s n="n"/></l><r>brillo<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>shimmer<s n="vblex"/></l><r>rielar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>in<b/>olden<b/>days<s n="adv"/></l><r>en<b/>los<b/>viejos<b/>tiempos<s n="adv"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>in<b/>olden<b/>times<s n="adv"/></l><r>en<b/>los<b/>viejos<b/>tiempos<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>the<b/>olden<b/>days<s n="adv"/></l><r>los<b/>viejos<b/>tiempos<s n="adv"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>the<b/>olden<b/>times<s n="adv"/></l><r>los<b/>viejos<b/>tiempos<s n="adv"/></r></p></e>
+    <e srl="succour" a="imaxinsoftware"><p><l>succour<s n="n"/></l><r>socorro<s n="n"/><s n="m"/></r></p></e>
+    <e srl="succour" a="imaxinsoftware"><p><l>succour<s n="vblex"/></l><r>socorrer<s n="vblex"/></r></p></e>
     
     
     </section>

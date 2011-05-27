@@ -13072,7 +13072,7 @@
     <e r="LR"><p><l>ending<s n="n"/></l><r>final<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>endometrium<s n="n"/></l><r>endometrio<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>enemy<s n="n"/></l><r>enemigo<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>enemy<s n="n"/></l><r>enemigo<s n="n"/></r></p></e>
+    <e r="RL" srl="enemy D"><p><l>enemy<s n="n"/></l><r>enemigo<s n="n"/></r></p></e>
     <e>  <p><l>energy<s n="n"/></l><r>energía<s n="n"/><s n="f"/></r></p></e>
     <e srl="engagement"><p><l>engagement<s n="n"/></l><r>compromiso<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>engine<s n="n"/></l><r>motor<s n="n"/><s n="m"/></r></p></e>
@@ -13338,7 +13338,7 @@
     <e slr="ámbito" srl="field D"><p><l>field<s n="n"/></l><r>ámbito<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fig<s n="n"/></l><r>higo<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>fight<s n="n"/></l><r>combate<s n="n"/><s n="m"/></r></p></e>
-    <e srl="fight D">  <p><l>fight<s n="n"/></l><r>lucha<s n="n"/><s n="f"/></r></p></e>
+    <e slr="lucha D" srl="fight D">  <p><l>fight<s n="n"/></l><r>lucha<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>fighter<s n="n"/></l><r>luchador<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>fighter<s n="n"/></l><r>luchador<s n="n"/></r></p></e>
     <e slr="cifra"><p><l>figure<s n="n"/></l><r>cifra<s n="n"/><s n="f"/></r></p></e>
@@ -13504,7 +13504,7 @@
     <e r="LR"><p><l>funding<s n="n"/></l><r>financiación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>funeral<s n="n"/></l><r>funeral<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fungus<s n="n"/></l><r>hongo<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>funnel<s n="n"/></l><r>embudo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="embudo D">  <p><l>funnel<s n="n"/></l><r>embudo<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>funnel<s n="n"/></l><r>tapujo<s n="n"/><s n="m"/></r></p></e>
     <e slr="pellejo" srl="fur"><p><l>fur<s n="n"/></l><r>pellejo<s n="n"/><s n="m"/></r></p></e>
     <e slr="piel D" srl="fur"><p><l>fur<s n="n"/></l><r>piel<s n="n"/><s n="f"/></r></p></e>
@@ -22654,7 +22654,7 @@
     <e>  <p><l>internationally<s n="adv"/></l><r>internacionalmente<s n="adv"/></r></p></e>
     <e>  <p><l>telephonically<s n="adv"/></l><r>vía<b/>telefónica<s n="adv"/></r></p></e>
     <e r="LR"><p><l>intentionally<s n="adv"/></l><r>intencionadamente<s n="adv"/></r></p></e>
-    <e>  <p><l>interestingly<s n="adv"/></l><r>curiosamente<s n="adv"/></r></p></e>
+    <e r="LR">  <p><l>interestingly<s n="adv"/></l><r>curiosamente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>interestingly<b/>enough<s n="adv"/></l><r>curiosamente<s n="adv"/></r></p></e>
     <e>  <p><l>internally<s n="adv"/></l><r>internamente<s n="adv"/></r></p></e>
     <e r="RL"><p><l>internally<s n="adv"/></l><r>internamente<s n="adv"/></r></p></e>
@@ -29472,7 +29472,7 @@
 <e><p><l>afflict<s n="vblex"/></l><r>afligir<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>disturb<s n="vblex"/></l><r>trastornar<s n="vblex"/></r></p></e>
 <e srl="horrify D"><p><l>horrify<s n="vblex"/></l><r>horrorizar<s n="vblex"/></r></p></e>
-<e>  <p><l>turbulent<s n="adj"/></l>            <r>turbulento<s n="adj"/></r></p></e>
+<e srl="turbulent D">  <p><l>turbulent<s n="adj"/></l>            <r>turbulento<s n="adj"/></r></p></e>
 <e>  <p><l>sustainability<s n="n"/></l>            <r>sostenibilidad<s n="n"/><s n="f"/></r></p></e>
 <e>  <p><l>zoo<s n="n"/></l>            <r>zoológico<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">  <p><l>zoo<s n="n"/></l>            <r>zoo<s n="n"/><s n="m"/></r></p></e>
@@ -31612,7 +31612,7 @@
     <e srl="irritate D"><p><l>irritate<s n="vblex"/></l><r>irritar<s n="vblex"/></r></p></e>
     <e><p><l>inaugurate<s n="vblex"/></l><r>inaugurar<s n="vblex"/></r></p></e>
     <e><p><l>ignite<s n="vblex"/></l><r>incendiar<s n="vblex"/></r></p></e>
-    <e><p><l>intimidate<s n="vblex"/></l><r>intimidar<s n="vblex"/></r></p></e>
+    <e srl="intimidate D"><p><l>intimidate<s n="vblex"/></l><r>intimidar<s n="vblex"/></r></p></e>
     <e><p><l>infiltrate<s n="vblex"/></l><r>infiltrar<s n="vblex"/></r></p></e>
     <e><p><l>transliterate<s n="vblex"/></l><r>transliterar<s n="vblex"/></r></p></e>
     <e><p><l>triumph<s n="vblex"/></l><r>triunfar<s n="vblex"/></r></p></e>
@@ -36595,7 +36595,34 @@
     <e r="LR" a="imaxinsoftware"><p><l>the<b/>olden<b/>times<s n="adv"/></l><r>los<b/>viejos<b/>tiempos<s n="adv"/></r></p></e>
     <e srl="succour" a="imaxinsoftware"><p><l>succour<s n="n"/></l><r>socorro<s n="n"/><s n="m"/></r></p></e>
     <e srl="succour" a="imaxinsoftware"><p><l>succour<s n="vblex"/></l><r>socorrer<s n="vblex"/></r></p></e>
-    
+    <e a="imaxinsoftware"><p><l>famine<s n="n"/></l><r>hambruna<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>prosper<s n="vblex"/></l><r>prosperar<s n="vblex"/></r></p></e>
+    <e slr="turbulento" srl="troubled" a="imaxinsoftware"><p><l>troubled<s n="adj"/></l><r>turbulento<s n="adj"/></r></p></e>
+    <e slr="atribulado D" a="imaxinsoftware"><p><l>troubled<s n="adj"/></l><r>atribulado<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>troubled<b/>water<s n="n"/></l><r>agua<b/>turbulenta<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>perish<s n="vblex"/></l><r>perecer<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>curiously<s n="adv"/></l><r>curiosamente<s n="adv"/></r></p></e>
+    <e srl="daunt" a="imaxinsoftware"><p><l>daunt<s n="vblex"/></l><r>intimidar<s n="vblex"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>unwearyingly<s n="adv"/></l><r>incansablemente<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>untiringly<s n="adv"/></l><r>incansablemente<s n="adv"/></r></p></e>
+    <e srl="grief" a="imaxinsoftware"><p><l>grief<s n="n"/></l><r>dolor<s n="n"/><s n="m"/></r></p></e>
+    <e srl="hearth" a="imaxinsoftware"><p><l>hearth<s n="n"/></l><r>chimenea<s n="n"/><s n="f"/></r></p></e>
+    <e srl="chimney D" a="imaxinsoftware"><p><l>chimney<s n="n"/></l><r>chimenea<s n="n"/><s n="f"/></r></p></e>
+    <e srl="fireplace" a="imaxinsoftware"><p><l>fireplace<s n="n"/></l><r>chimenea<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>smokestack<s n="n"/></l><r>chimenea<s n="n"/><s n="f"/></r></p></e>
+    <e slr="chimenea" srl="funnel" a="imaxinsoftware"><p><l>funnel<s n="n"/></l><r>chimenea<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>foe<s n="n"/></l><r>enemigo<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" srl="foe" a="imaxinsoftware"><p><l>foe<s n="n"/></l><r>enemigo<s n="n"/></r></p></e>
+    <e srl="ravening" a="imaxinsoftware"><p><l>ravening<s n="adj"/></l><r>voraz<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="ravenous" a="imaxinsoftware"><p><l>ravenous<s n="adj"/></l><r>voraz<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="voracious D" a="imaxinsoftware"><p><l>voracious<s n="adj"/></l><r>voraz<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>belly<s n="n"/></l><r>vientre<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>belly-dance<s n="n"/></l><r>danza<g><b/>del<b/>vientre</g><s n="n"/><s n="f"/></r></p></e>
+    <e srl="quarrel D" a="imaxinsoftware"><p><l>quarrel<s n="n"/></l><r>pelea<s n="n"/><s n="f"/></r></p></e>
+    <e slr="pelea" srl="fight D" a="imaxinsoftware"><p><l>fight<s n="n"/></l><r>pelea<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>doughty<s n="adj"/></l><r>corajudo<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>trespass<s n="vblex"/></l><r>entrar<g><b/>sin<b/>autorización</g><s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>no<b/>trespassing<s n="adv"/></l><r>prohibido<b/>el<b/>paso<s n="adv"/></r></p></e>
     
     </section>
 

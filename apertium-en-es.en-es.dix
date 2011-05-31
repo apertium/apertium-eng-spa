@@ -11670,7 +11670,7 @@
     <e r="LR"><p><l>groom<s n="n"/></l><r>novio<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>bride<s n="n"/></l><r>novio<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>bridge<s n="n"/></l><r>puente<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>brink<s n="n"/></l><r>cariz<s n="n"/><s n="m"/></r></p></e>
+    <e slr="cariz" srl="brink">  <p><l>brink<s n="n"/></l><r>cariz<s n="n"/><s n="m"/></r></p></e>
     <e srl="broadcast D"><p><l>broadcast<s n="n"/></l><r>emisión<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>broadcast<s n="n"/></l><r>radiodifusión<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>bronze<s n="n"/></l><r>bronce<s n="n"/><s n="m"/></r></p></e>
@@ -12989,7 +12989,7 @@
     <e r="RL"><p><l>eddy<s n="n"/></l><r>torbellino<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>edema<s n="n"/></l><r>edema<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>edge<s n="n"/></l><r>arista<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>edge<s n="n"/></l><r>borde<s n="n"/><s n="m"/></r></p></e>
+    <e srl="edge D">  <p><l>edge<s n="n"/></l><r>borde<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" srl="edge"><p><l>edge<s n="n"/></l><r>canto<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>edge<s n="n"/></l><r>vera<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>edict<s n="n"/></l><r>bando<s n="n"/><s n="m"/></r></p></e>
@@ -16937,7 +16937,7 @@
     <e>  <p><l>train<s n="n"/></l><r>tren<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>trainer<s n="n"/></l><r>entrenador<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>trainer<s n="n"/></l><r>entrenador<s n="n"/></r></p></e>
-    <e slr="entrenamiento" c="Dep."><p><l>training<s n="n"/></l><r>entrenamiento<s n="n"/><s n="m"/></r></p></e>
+    <e slr="entrenamiento" srl="training D" c="Dep."><p><l>training<s n="n"/></l><r>entrenamiento<s n="n"/><s n="m"/></r></p></e>
     <e slr="formación D" srl="training D"><p><l>training<s n="n"/></l><r>formación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>tram<s n="n"/></l><r>tranvía<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>tramcar<s n="n"/></l><r>tranvía<s n="n"/><s n="m"/></r></p></e>
@@ -17003,7 +17003,7 @@
     <e>  <p><l>triple<s n="n"/></l><r>terna<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>triptych<s n="n"/></l><r>tríptico<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>triton<s n="n"/></l><r>tritón<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>triumph<s n="n"/></l><r>triunfo<s n="n"/><s n="m"/></r></p></e>
+    <e srl="triumph D">  <p><l>triumph<s n="n"/></l><r>triunfo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>troika<s n="n"/></l><r>troika<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>troop<s n="n"/></l><r>tropa<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>trophy<s n="n"/></l><r>trofeo<s n="n"/><s n="m"/></r></p></e>
@@ -21696,7 +21696,7 @@
     <e srl="renew D">  <p><l>renew<s n="vblex"/></l><r>renovar<s n="vblex"/></r></p></e>
     <e>  <p><l>rent<s n="vblex"/></l><r>alquilar<s n="vblex"/></r></p></e>
     <e srl="reorganise D">  <p><l>reorganise<s n="vblex"/></l><r>reorganizar<s n="vblex"/></r></p></e>
-    <e>  <p><l>repair<s n="vblex"/></l><r>reparar<s n="vblex"/></r></p></e>
+    <e srl="repair D">  <p><l>repair<s n="vblex"/></l><r>reparar<s n="vblex"/></r></p></e>
     <e>  <p><l>repeat<s n="vblex"/></l><r>repetir<s n="vblex"/></r></p></e>
     <e>  <p><l>repel<s n="vblex"/></l><r>repeler<s n="vblex"/></r></p></e>
     <e>  <p><l>replace<s n="vblex"/></l><r>reemplazar<s n="vblex"/></r></p></e>
@@ -21974,7 +21974,7 @@
     <e>  <p><l>suppose<s n="vblex"/></l><r>suponer<s n="vblex"/></r></p></e>
     <e>  <p><l>suppress<s n="vblex"/></l><r>suprimir<s n="vblex"/></r></p></e>
     <e>  <p><l>surface<s n="vblex"/></l><r>emerger<s n="vblex"/></r></p></e>
-    <e>  <p><l>surpass<s n="vblex"/></l><r>superar<s n="vblex"/></r></p></e>
+    <e srl="surpass D">  <p><l>surpass<s n="vblex"/></l><r>superar<s n="vblex"/></r></p></e>
     <e r="RL" srl="surprise"><p><l>surprise<s n="vblex"/></l><r>asombrar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>astonish<s n="vblex"/></l><r>asombrar<s n="vblex"/></r></p></e>
     <e>  <p><l>surprise<s n="vblex"/></l><r>sorprender<s n="vblex"/></r></p></e>
@@ -22060,7 +22060,7 @@
     <e r="RL"><p><l>trace<s n="vblex"/></l><r>trazar<s n="vblex"/></r></p></e>
     <e>  <p><l>trace<g><b/>back</g><s n="vblex"/><s n="sep"/></l><r>remontar<s n="vblex"/></r></p></e>
     <e>  <p><l>trade<s n="vblex"/></l><r>comerciar<s n="vblex"/></r></p></e>
-    <e>  <p><l>train<s n="vblex"/></l><r>entrenar<s n="vblex"/></r></p></e>
+    <e srl="train D">  <p><l>train<s n="vblex"/></l><r>entrenar<s n="vblex"/></r></p></e>
     <e>  <p><l>transact<s n="vblex"/></l><r>tramitar<s n="vblex"/></r></p></e>
     <e>  <p><l>transfer<s n="vblex"/></l><r>transferir<s n="vblex"/></r></p></e>
     <e>  <p><l>transform<s n="vblex"/></l><r>transformar<s n="vblex"/></r></p></e>
@@ -29515,7 +29515,7 @@
 <e><p><l>abstraction<s n="n"/></l><r>abstracción<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>indicator<s n="n"/></l><r>indicador<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>apparition<s n="n"/></l><r>aparición<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>mandate<s n="n"/></l><r>mandato<s n="n"/><s n="m"/></r></p></e>
+<e srl="mandate D"><p><l>mandate<s n="n"/></l><r>mandato<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>faculty<s n="n"/></l><r>facultad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>confession<s n="n"/></l><r>confesión<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>defecation<s n="n"/></l><r>defecación<s n="n"/><s n="f"/></r></p></e>
@@ -36635,14 +36635,25 @@
     <e slr="desplegar" srl="unfold" a="imaxinsoftware"><p><l>unfold<s n="vblex"/></l><r>desplegar<s n="vblex"/></r></p></e>
     <e slr="desdoblar D" a="imaxinsoftware"><p><l>unfold<s n="vblex"/></l><r>desdoblar<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>monstrously<s n="adv"/></l><r>monstruosamente<s n="adv"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>clampdown<s n="n"/><s n="pl"/></l><r>medidas<b/>drásticas<s n="n"/><s n="pl"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>clampdown<s n="n"/><s n="sg"/></l><r>medidas<b/>drásticas<s n="n"/><s n="pl"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>crackdown<s n="n"/><s n="pl"/></l><r>medidas<b/>severas<s n="n"/><s n="pl"/></r></p></e>
-    <e r="LR" a="imaxinsoftware"><p><l>crackdown<s n="n"/><s n="sg"/></l><r>medidas<b/>severas<s n="n"/><s n="pl"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>clampdown<s n="n"/><s n="pl"/></l><r>medidas<b/>drásticas<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>clampdown<s n="n"/><s n="sg"/></l><r>medidas<b/>drásticas<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>crackdown<s n="n"/><s n="pl"/></l><r>medidas<b/>severas<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>crackdown<s n="n"/><s n="sg"/></l><r>medidas<b/>severas<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e a="imaxinsoftware"><p><l>silverware<s n="n"/></l><r>vajilla<g><b/>de<b/>plata</g><s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Arctic<b/>Monkeys<s n="np"/><s n="al"/></l><r>Arctic<b/>Monkeys<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e srl="scorching D" a="imaxinsoftware"><p><l>scorching<s n="adj"/></l><r>abrasador<s n="adj"/></r></p></e>
     <e srl="blazing" a="imaxinsoftware"><p><l>blazing<s n="adj"/></l><r>abrasador<s n="adj"/></r></p></e>
+    <e srl="coaching" a="imaxinsoftware"><p><l>coaching<s n="n"/></l><r>entrenamiento<s n="n"/><s n="m"/></r></p></e>
+    <e srl="coach" a="imaxinsoftware"><p><l>coach<s n="vblex"/></l><r>entrenar<s n="vblex"/></r></p></e>
+    <e srl="trump" a="imaxinsoftware"><p><l>trump<s n="vblex"/></l><r>superar<s n="vblex"/></r></p></e>
+    <e srl="trump" a="imaxinsoftware"><p><l>trump<s n="n"/></l><r>triunfo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="borde D" srl="brink" a="imaxinsoftware"><p><l>brink<s n="n"/></l><r>borde<s n="n"/><s n="m"/></r></p></e>
+    <e slr="cariz" srl="look D"><p><l>look<s n="n"/></l><r>cariz<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>extradite<s n="vblex"/></l><r>extraditar<s n="vblex"/></r></p></e>
+    <e srl="redress" a="imaxinsoftware"><p><l>redress<s n="n"/></l><r>reparación<s n="n"/><s n="f"/></r></p></e>
+    <e srl="redress" a="imaxinsoftware"><p><l>redress<s n="vblex"/></l><r>reparar<s n="vblex"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>pay<g><b/>out</g><s n="vblex"/><s n="sep"/></l><r>pagar<s n="vblex"/></r></p></e>
+    <e srl="injunction" a="imaxinsoftware"><p><l>injunction<s n="n"/></l><r>mandato<s n="n"/><s n="m"/></r></p></e>
     
     </section>
 

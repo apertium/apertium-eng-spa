@@ -513,6 +513,10 @@
       <cat-item tags="vbmod.pp"/>
     </def-cat>
 
+    <def-cat n="been">
+      <cat-item tags="vbser.pp"/>
+    </def-cat>
+
     <def-cat n="pp_past"><!-- Se incluyen las formas en pasado porque el tagger se equivoca en casos como 'for having created jobs' -->
       <cat-item tags="vblex.pp"/>
       <cat-item tags="vblex.sep.pp"/>
@@ -24050,7 +24054,116 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	</out>
       </action>
     </rule>
-
+   <rule comment="AUXtemps HAVER SERpp GER (would have been giving - habria estado dando)">
+      <pattern>
+	<pattern-item n="auxtemps"/>
+	<pattern-item n="have_aux_inf"/>
+	<pattern-item n="been"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="pron">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="conj_verb_compost">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <chunk name="have_pp_ger" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags> 
+	    <lu>   
+	      <var n="pronom"/> 
+	      <var n="verbfinal"/>
+	    </lu> 
+	    <b pos="2"/>
+	    <lu>
+	      <lit v="estar"/>
+	      <lit-tag v="vblex.pp.m.sg"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <lit-tag v="ger"/>
+	      <clip pos="3" side="tl" part="lemq"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+   <rule comment="AUXmod HAVER PARTICIPI (might have finished - podria haver acabat)">
+      <pattern>
+	<pattern-item n="auxmod"/>
+	<pattern-item n="have_aux_inf"/>
+	<pattern-item n="been"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="pron">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="auxmod_have_pp_ger" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>   
+	    <lu>
+	      <var n="pronom"/>
+	      <var n="verbfinal"/> 
+	    </lu>
+	    <b pos="1"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lemh"/>
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <lit-tag v="inf"/>		
+	      <clip pos="2" side="tl" part="lemq"/> 
+	    </lu> 
+	    <b pos="2"/>
+	    <lu>
+	      <lit v="estar"/>
+	      <lit-tag v="vblex.pp.m.sg"/>
+	    </lu>
+	    <b pos="3"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <lit-tag v="ger"/>
+	      <clip pos="4" side="tl" part="lemq"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
 
 
     <rule comment="AUXtemps HAVER PARTICIPI clític (would have finished it - l'hauria acabat)">
@@ -24167,6 +24280,138 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <clip pos="3" side="tl" part="a_pp"/>
 	      <lit-tag v="m.sg"/>
 	      <clip pos="3" side="tl" part="lemq"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+  <rule comment="AUXtemps HAVER SERpp GER clític (might have been giving it - el podria haver acabat)">
+      <pattern>
+	<pattern-item n="auxtemps"/>
+	<pattern-item n="have_aux_inf"/>
+	<pattern-item n="been"/>
+	<pattern-item n="ger"/>
+	<pattern-item n="probj"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="pron">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="1"/>
+	</call-macro>
+
+	<out>
+	  <chunk name="pro_have_pp_ger" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags> 
+	    <lu>
+	      <var n="pronom"/>
+	      <clip pos="5" side="tl" part="lem"/>
+	      <clip pos="5" side="tl" part="a_prnpro"/>
+	      <clip pos="5" side="tl" part="pers"/>
+	      <clip pos="5" side="tl" part="gen"/>
+	      <clip pos="5" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <var n="verbfinal"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lemh"/>
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <lit-tag v="inf"/>		
+	      <clip pos="2" side="tl" part="lemq"/> 
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>   
+	      <lit v="estar"/>
+	      <lit-tag v="vblex.pp.m.sg"/>		
+	    </lu> 
+	    <b pos="4"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <lit-tag v="ger"/>
+	      <clip pos="4" side="tl" part="lemq"/> 
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+  <rule comment="AUXmod HAVER SERpp GER clític (might have been giving it - el podria haver acabat)">
+      <pattern>
+	<pattern-item n="auxmod"/>
+	<pattern-item n="have_aux_inf"/>
+	<pattern-item n="been"/>
+	<pattern-item n="ger"/>
+	<pattern-item n="probj"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="tipus_verbs">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="pron">
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="conj_verb1">
+	  <with-param pos="1"/>
+	</call-macro>
+
+	<out>
+	  <chunk name="pro_auxmod_have_pp_ger" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><var n="tipus_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><var n="pers_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags> 
+	    <lu>
+	      <var n="pronom"/>
+	      <clip pos="5" side="tl" part="lem"/>
+	      <clip pos="5" side="tl" part="a_prnpro"/>
+	      <clip pos="5" side="tl" part="pers"/>
+	      <clip pos="5" side="tl" part="gen"/>
+	      <clip pos="5" side="tl" part="nbr"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <var n="verbfinal"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>   
+	      <clip pos="2" side="tl" part="lemh"/>
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <lit-tag v="inf"/>		
+	      <clip pos="2" side="tl" part="lemq"/> 
+	    </lu> 
+	    <b pos="3"/>
+	    <lu>   
+	      <lit v="estar"/>
+	      <lit-tag v="vblex.pp.m.sg"/>		
+	    </lu> 
+	    <b pos="4"/>
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_verb"/>
+	      <lit-tag v="ger"/>
+	      <clip pos="4" side="tl" part="lemq"/> 
 	    </lu>
 	  </chunk>
 	</out>

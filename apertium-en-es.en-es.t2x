@@ -3671,6 +3671,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	      <with-param pos="1"/>
 	    </call-macro>
 	    <out>
+              <b pos="1"/>
 	      <chunk><!--el pronom no l'envio, només el 2n chunk -->
 		<get-case-from pos="1">
 		  <clip pos="2" part="lem"/>

@@ -24288,7 +24288,7 @@
         <e>  <p>  <l>acromion<s n="n"/></l><r>acromion<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>achromatic<s n="adj"/></l><r>acromático<s n="adj"/></r></p></e>
         <e>  <p>  <l>classicistic<s n="adj"/></l><r>clasicista<s n="adj"/><s n="mf"/></r></p></e>
-        <e>  <p>  <l>classicist<s n="n"/></l><r>clasicista<s n="adj"/><s n="mf"/></r></p></e>
+        <e>  <p>  <l>classicist<s n="n"/></l><r>clasicista<s n="n"/><s n="mf"/></r></p></e>
         <e>  <p>  <l>acrosome<s n="n"/></l><r>acrosoma<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>acronym<s n="n"/></l><r>acrónimo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>actin<s n="n"/></l><r>actina<s n="n"/><s n="f"/></r></p></e>
@@ -33103,8 +33103,8 @@
 <e><p><l>etcetera<s n="adv"/></l><r>etcétera<s n="adv"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>viz.<s n="adv"/></l><r>respectivamente<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>et<b/>seq.<s n="adv"/></l><r>y<b/>ss.<s n="adv"/></r></p></e>
-<e a="prompsit"><p><l>para.<s n="n"/><s n="sg"/></l><r>párr.<s n="n"/><s n="m"/></r></p></e>
-<e a="prompsit"><p><l>subpara.<s n="n"/><s n="sg"/></l><r>subparr.<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit"><p><l>para.<s n="n"/><s n="sg"/></l><r>párr.<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e a="prompsit"><p><l>subpara.<s n="n"/><s n="sg"/></l><r>subparr.<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e a="prompsit"><p><l>no.<s n="n"/><s n="sg"/></l><r>núm.<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e a="prompsit" r="RL"><p><l>cf.<s n="adv"/></l><r>cfr.<s n="adv"/></r></p></e>
 
@@ -36674,7 +36674,7 @@
     <e r="LR" a="imaxinsoftware"><p><l>footage<s n="n"/><s n="sg"/></l><r>imagen<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e slr="empapar" srl="soak D" a="imaxinsoftware"><p><l>soak<s n="vblex"/></l><r>empapar<s n="vblex"/></r></p></e>
     <e srl="drench" a="imaxinsoftware"><p><l>drench<s n="vblex"/></l><r>empapar<s n="vblex"/></r></p></e>
-    <e r="RL" srl="squalid" a="imaxinsoftware"><p><l>squalid<s n="adj"/></l><r>miserable<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="LR" srl="squalid" a="imaxinsoftware"><p><l>squalid<s n="adj"/></l><r>miserable<s n="adj"/><s n="mf"/></r></p></e>
     <e slr="tapadera" srl="cover D" a="imaxinsoftware"><p><l>cover<s n="n"/></l><r>tapadera<s n="n"/><s n="f"/></r></p></e>
     <e slr="tapadera" srl="whitewash" a="imaxinsoftware"><p><l>whitewash<s n="n"/></l><r>tapadera<s n="n"/><s n="f"/></r></p></e>
     <e slr="lechada" a="imaxinsoftware"><p><l>whitewash<s n="n"/></l><r>lechada<s n="n"/><s n="f"/></r></p></e>

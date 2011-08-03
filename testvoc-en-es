@@ -15,11 +15,11 @@ then xsltproc --stringparam alt en_GB alt.xsl $PREFIX.$1.metadix > $PREFIX.$1.me
      rm tmp1gen.xsl $PREFIX.$1.metatmp
      lt-expand $PREFIX.$1.dixtmp1 | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' |apertium-pretransfer | grep -v "REGEXP" > comp-$1-$2.expand
      rm $PREFIX.$1.dixtmp1
-else lt-expand $PREFIX.$1.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' |apertium-pretransfer | grep -v "REGEXP" > comp-$1-$2.expand
+else lt-expand $PREFIX.$1.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' |apertium-pretransfer | grep -v "REGEXP" |gzip > comp-$1-$2.expand.gz
 fi
 echo " fet.";
 echo -n "Calculant expansió filtrada...";
-grep -v "$FILTERTAG" comp-$1-$2.expand >comp-$1-$2.filtered
+zcat comp-$1-$2.expand.gz | grep -v "$FILTERTAG" >comp-$1-$2.filtered
 echo " fet.";
 echo -n "Executant el traductor..."
 apertium-transfer $PREFIX.$1-$2.t1x $1-$2.t1x.bin $1-$2.autobil.bin < comp-$1-$2.filtered | \

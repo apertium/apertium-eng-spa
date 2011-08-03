@@ -20013,7 +20013,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		<clip pos="1" side="tl" part="a_verb"/>
 		<clip pos="1" side="tl" part="temps" link-to="3"/>
 		<var n="pronomenc"/>
-		<clip pos="1" side="tl" part="lemq"/> 
 	      </lu>
 	      <lu>
 		<clip pos="2" side="tl" part="lem"/>
@@ -20021,6 +20020,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		<clip pos="2" side="tl" part="pers"/>
 		<clip pos="2" side="tl" part="gen"/>
 		<clip pos="2" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="lemq"/> 
 	      </lu>
 <!--	    </mlu>	-->
 	  </chunk>

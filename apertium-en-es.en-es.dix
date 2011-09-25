@@ -10992,6 +10992,7 @@
     <e r="RL">  <p><l>paving<s n="n"/></l><r>pavimento<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>esplanade<s n="n"/></l><r>explanada<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>gut<s n="n"/></l><r>tripa<s n="n"/><s n="f"/></r></p></e>
+    <e>  <p><l>tile<s n="n"/></l><r>azulejo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>flat<b/>roof<s n="n"/></l><r>azotea<s n="n"/><s n="f"/></r></p></e>
     <e r="RL">  <p><l>peace<s n="n"/></l><r>sosiego<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>acceleration<s n="n"/></l><r>aceleración<s n="n"/><s n="f"/></r></p></e>
@@ -11005,6 +11006,8 @@
     <e>  <p><l>accommodation<s n="n"/></l><r>alojamiento<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>accompaniment<s n="n"/></l><r>acompañamiento<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>accord<s n="n"/></l><r>acuerdo<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>outline<b/>agreement<s n="n"/></l><r>preacuerdo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>draft<b/>agreement<s n="n"/></l><r>preacuerdo<s n="n"/><s n="m"/></r></p></e>
     <e slr="cuenta D"><p><l>account<s n="n"/></l><r>cuenta<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="relación"><p><l>account<s n="n"/></l><r>relación<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>accountancy<s n="n"/></l><r>contabilidad<s n="n"/><s n="f"/></r></p></e>
@@ -11580,6 +11583,7 @@
     <e>  <p><l>bishopric<s n="n"/></l><r>obispado<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>bit<s n="n"/></l><r>bit<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" srl="bite D"><p><l>bite<s n="n"/></l><r>picadura<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>bite<s n="n"/></l><r>mordedura<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>bite<s n="n"/></l><r>mordisco<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>bitterness<s n="n"/></l><r>amargura<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>black<s n="n"/></l><r>negro<s n="n"/><s n="GD"/></r></p></e>
@@ -13460,7 +13464,8 @@
     <e>  <p><l>fortune<s n="n"/></l><r>fortuna<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>forum<s n="n"/></l><r>foro<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fossil<s n="n"/></l><r>fósil<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>foundation<s n="n"/></l><r>fundación<s n="n"/><s n="f"/></r></p></e>
+    <e slr="fundación D">  <p><l>foundation<s n="n"/></l><r>fundación<s n="n"/><s n="f"/></r></p></e>
+    <e slr="cimiento">  <p><l>foundation<s n="n"/></l><r>cimiento<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>founder<s n="n"/></l><r>fundador<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>founder<s n="n"/></l><r>fundador<s n="n"/></r></p></e>
     <e srl="fountain"><p><l>fountain<s n="n"/></l><r>fuente<s n="n"/><s n="f"/></r></p></e>

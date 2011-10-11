@@ -115,6 +115,18 @@
 
       </def-attr>
 
+
+      <def-attr n="flexio">
+          <attr-item tags="p1.sg"/>
+          <attr-item tags="p1.pl"/>
+          <attr-item tags="p2.sg"/>
+          <attr-item tags="p2.pl"/>
+          <attr-item tags="p2.sp"/>
+          <attr-item tags="p3.sg"/>
+          <attr-item tags="p3.pl"/>
+      </def-attr>
+
+
  <def-attr n="a_SV">
           <attr-item tags="SVneg"/>
           <attr-item tags="SV"/>
@@ -277,6 +289,92 @@
         <pattern-item n="verbcj"/>
       </pattern>
       <action>
+      <choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="1" part="temps"/>
+		  <lit-tag v="pri"/>
+		</equal>
+		<not>
+		  <or>
+		    <equal>
+		      <clip pos="1" part="flexio"/>
+		      <lit-tag v="p3.sg"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" part="flexio"/>
+		      <lit-tag v="p1.sg"/>
+		    </equal>
+		  </or>
+		</not>
+	      </and>
+	    </test>
+	    <let>
+		<clip pos="1" part="temps"/>
+		<lit-tag v="pres"/>
+	    </let>
+	    <let>
+		<clip pos="1" part="flexio"/>
+		<lit v=""/>
+	    </let>
+	  </when>
+	</choose>
+	
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="1" part="temps"/>
+		  <lit-tag v="past"/>
+		</equal>
+		<not>
+		  <or>
+		    <equal>
+		      <clip pos="1" part="flexio"/>
+		      <lit-tag v="p3.sg"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" part="flexio"/>
+		      <lit-tag v="p1.sg"/>
+		    </equal>
+		  </or>
+		</not>
+	      </and>
+	    </test>
+	    <let>
+		<clip pos="1" part="temps"/>
+		<lit-tag v="past"/>
+	    </let>
+	    <let>
+		<clip pos="1" part="flexio"/>
+		<lit v=""/>
+	    </let>
+	  </when>
+	</choose>
+
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		  <clip pos="1" part="temps"/>
+		  <lit-tag v="pii"/>
+		</equal>
+	    </test>
+	    <let>
+		<clip pos="1" part="temps"/>
+		<lit-tag v="past"/>
+	    </let>
+	    <let>
+		<clip pos="1" part="flexio"/>
+		<lit v=""/>
+	    </let>
+	  </when>
+	</choose>
+
+
 	<choose>
 	  <when>
 	    <test>

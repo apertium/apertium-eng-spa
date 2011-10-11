@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
+ <def-cat n="num-year-SN">
+      <cat-item lemma="num_year" tags="SN.*"/>
+    </def-cat>  
+ 
+   <def-cat n="have-SV">
+      <cat-item lemma="tohavevblex" tags="SV.*"/>
+    </def-cat>  
+
 
     <def-cat n="SN_fuerte"><!--SN que pueden ser sujetos. Excluye los pronombres clíticos (SN.obj.*) -->
       <cat-item tags="SN.m.*"/>
@@ -220,6 +228,7 @@
       <list-item v="verbcj_enc"/>
       <list-item v="verbcj_ger"/>
       <list-item v="verbcj_ger_enc"/>
+      <list-item v="tohavevblex"/>
     </def-list>
 
  </section-def-lists>
@@ -2640,6 +2649,45 @@ No posen la variable en no els xuncs: PREP (
       </action>
 </rule> -->
 
+
+   <rule comment="REGLA: tener + num + años -- be + num + years + old ">
+      <pattern>
+        <pattern-item n="have-SV"/>
+        <pattern-item n="num-year-SN"/>
+      </pattern>
+      <action>  
+        <call-macro n="generate_subject">
+          <with-param pos="1"/>
+        </call-macro>
+            <out>  
+              <chunk>                
+		<lit v="verbcj"/>
+                <lit-tag v="SV"/>
+                <lit v="{^"/>
+                <lit v="be"/>
+                <lit-tag v="vbser"/>
+                <clip pos="1" part="temps"/>
+                <clip pos="1" part="pers"/>
+                <clip pos="1" part="nbr"/>
+                <lit v="$}"/>
+              </chunk>
+              <b pos="1"/>
+              <chunk>
+                <clip pos="2" part="whole"/>
+              </chunk>
+              <b/>  
+             <chunk>
+                <lit v="nom"/>   
+                <lit-tag v="SN"/>
+                <lit v="{^"/> 
+                <lit v="old"/>
+                <lit-tag v="adj"/> 
+                <lit-tag v="sint"/>
+                <lit v="$}"/>
+              </chunk>
+            </out>   
+      </action>       
+    </rule>
 
 <rule comment="REGLA: unknown">
       <pattern>

@@ -2919,8 +2919,28 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>
+      <choose>   
+          <when>     
+            <test>   
+              <equal>
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="año"/>
+              </equal>
+            </test>          
+           <let>             
+             <var n="lema"/>
+             <lit v="num_year"/>
+           </let>
+          </when>
+          <otherwise>        
+           <let>             
+             <var n="lema"/>
+             <lit v="num_nom"/>
+           </let>
+          </otherwise>
+        </choose>
 	<out>  
-	  <chunk name="num_nom" case="caseFirstWord">
+	  <chunk namefrom="lema" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
@@ -4665,6 +4685,26 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="conj_verb1">
 	  <with-param pos="1"/>
 	</call-macro>
+        <choose>
+              <when>
+                <test>
+                    <equal caseless="yes">
+                      <clip pos="1" side="sl" part="lem"/>
+                      <lit v="tener"/>
+                    </equal>
+                </test>
+                <let>  
+                  <var n="lema_SV"/>
+                  <lit v="tohavevblex"/>
+                </let>
+              </when> 
+              <otherwise>
+                <let>
+                  <var n="lema_SV"/>
+                  <var n="lema_SV"/>
+                </let>
+               </otherwise>
+             </choose>  
 	<out>
 	  <chunk namefrom="lema_SV" case="caseFirstWord">
 	    <tags>

@@ -15668,7 +15668,8 @@
     <e>  <p><l>quality<s n="n"/></l><r>calidad<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>quality<s n="n"/></l><r>cualidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>quantity<s n="n"/></l><r>cantidad<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL">  <p><l>quantity<s n="n"/></l><r>cuantía<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL" srl="quantity D">  <p><l>quantity<s n="n"/></l><r>cuantía<s n="n"/><s n="f"/></r></p></e>
+    <e srl="significance" r="RL"><p><l>significance<s n="n"/></l><r>cuantía<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>quarantine<s n="n"/></l><r>cuarentena<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>quarry<s n="n"/></l><r>cantera<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="barrio"><p><l>quarter<s n="n"/></l><r>barrio<s n="n"/><s n="m"/></r></p></e>
@@ -36973,6 +36974,8 @@
 
 <e srl="index card D"><p><l>index<b/>card<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
 <e slr="ficha" srl="chip"><p><l>chip<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>insides<s n="n"/><s n="pl"/></l><r>tripa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>hairdressing<b/>salon<s n="n"/></l><r>peluquería<s n="n"/><s n="f"/></r></p></e>
 <!--
 <e><p><l>pile<s n="n"/></l><r>montón<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>motor-racing<b/>team<s n="n"/></l><r>escudería<s n="n"/><s n="f"/></r></p></e>
@@ -37069,7 +37072,6 @@
 <e><p><l>felt<s n="n"/></l><r>peluche<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>rafter<s n="n"/></l><r>cabrio<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>farm<s n="n"/></l><r>finca<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>hairdressing<b/>salon<s n="n"/></l><r>peluquería<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>soccer<s n="n"/></l><r>futbol<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>football<s n="n"/></l><r>futbol<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>manicure<s n="n"/></l><r>manicura<s n="n"/><s n="f"/></r></p></e>
@@ -37119,7 +37121,6 @@
 <e><p><l>display<s n="n"/></l><r>alarde<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>cubic<b/>capacity<s n="n"/></l><r>cilindrada<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>empire<s n="n"/></l><r>emporio<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>principality<s n="n"/></l><r>principado<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>saffron<s n="n"/></l><r>azafrán<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>delicacy<s n="n"/></l><r>manjar<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>warmth<s n="n"/></l><r>calidez<s n="n"/><s n="f"/></r></p></e>
@@ -37326,7 +37327,6 @@
 <e><p><l>blockbuster<s n="n"/></l><r>superproducción<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>lipstick<s n="n"/></l><r>pintalabios<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>structure<s n="n"/></l><r>entramado<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>significance<s n="n"/></l><r>cuantía<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>boxer<s n="n"/></l><r>boxeador<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>joint<s n="n"/></l><r>coyuntura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>situation<s n="n"/></l><r>coyuntura<s n="n"/><s n="f"/></r></p></e>
@@ -37370,8 +37370,6 @@
 <e><p><l>gossip<s n="n"/></l><r>cotilleo<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bedspread<s n="n"/></l><r>colcha<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>office<b/>automation<s n="n"/></l><r>ofimática<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>intestine<s n="n"/></l><r>tripa<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>insides<s n="n"/></l><r>tripa<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>height<s n="n"/></l><r>apogeo<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>lining<s n="n"/></l><r>revestimiento<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>covering<s n="n"/></l><r>revestimiento<s n="n"/><s n="m"/></r></p></e>
@@ -37498,7 +37496,6 @@
 <e><p><l>dandruff<s n="n"/></l><r>caspa<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>testosterone<s n="n"/></l><r>testosterona<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>hill<s n="n"/></l><r>collado<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>ordination<s n="n"/></l><r>ordenación<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>superimposition<s n="n"/></l><r>superposición<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>tombstone<s n="n"/></l><r>losa<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>honesty<s n="n"/></l><r>honestidad<s n="n"/><s n="f"/></r></p></e>
@@ -37607,7 +37604,6 @@
 <e><p><l>agreement<s n="n"/></l><r>concertación<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>lollipop<s n="n"/></l><r>piruleta<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>lactation<s n="n"/></l><r>lactancia<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>esplanade<s n="n"/></l><r>explanada<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>belly<s n="n"/></l><r>panza<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>pivot<s n="n"/></l><r>pivote<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ebony<s n="n"/></l><r>ébano<s n="n"/><s n="m"/></r></p></e>
@@ -37670,12 +37666,10 @@
 <e><p><l>sustenance<s n="n"/></l><r>sustento<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>construction<s n="n"/></l><r>edificación<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>head<s n="n"/></l><r>testa<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>reservoir<s n="n"/></l><r>embalse<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>blind<s n="n"/></l><r>persiana<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>armrest<s n="n"/></l><r>reposabrazos<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>speaker<s n="n"/></l><r>expositor<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bumper<s n="n"/></l><r>parachoques<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>paving<s n="n"/></l><r>pavimento<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sash<s n="n"/></l><r>fajín<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>pulley<s n="n"/></l><r>polea<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>galley<s n="n"/></l><r>galera<s n="n"/><s n="f"/></r></p></e>
@@ -37736,7 +37730,6 @@
 <e><p><l>faculty<s n="n"/></l><r>profesorado<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>shoe<b/>store<s n="n"/></l><r>zapatería<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>immensity<s n="n"/></l><r>inmensidad<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>supply<s n="n"/></l><r>abasto<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>shirtmaker<s n="n"/></l><r>camisero<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>property<s n="n"/></l><r>inmueble<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>road<s n="n"/></l><r>estrada<s n="n"/><s n="f"/></r></p></e>
@@ -38017,7 +38010,6 @@
 <e><p><l>distillery<s n="n"/></l><r>destilería<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>biennium<s n="n"/></l><r>bienio<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>string<s n="n"/></l><r>cordel<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>mist<s n="n"/></l><r>bruma<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>bitterness<s n="n"/></l><r>amargor<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bow<s n="n"/></l><r>proa<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>paralyzation<s n="n"/></l><r>paralización<s n="n"/><s n="f"/></r></p></e>
@@ -38285,7 +38277,6 @@
 <e><p><l>potion<s n="n"/></l><r>pócima<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>charity<s n="n"/></l><r>beneficencia<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>comradeship<s n="n"/></l><r>compañerismo<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>whistle<s n="n"/></l><r>silbato<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>gentleman<s n="n"/></l><r>gentilhombre<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>length<s n="n"/></l><r>eslora<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>sickle<s n="n"/></l><r>hoz<s n="n"/><s n="f"/></r></p></e>
@@ -38479,7 +38470,6 @@
 <e><p><l>tumble<s n="n"/></l><r>revolcón<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>refrigerator<s n="n"/></l><r>heladera<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>cubicle<s n="n"/></l><r>cubículo<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>flowering<s n="n"/></l><r>florecimiento<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>bloodhound<s n="n"/></l><r>sabueso<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>fish<b/>farm<s n="n"/></l><r>piscifactoría<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>rib<s n="n"/></l><r>cuaderna<s n="n"/><s n="f"/></r></p></e>

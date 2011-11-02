@@ -14330,7 +14330,7 @@
     <e>  <p><l>laurel<s n="n"/></l><r>laurel<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" srl="law"><p><l>law<s n="n"/></l><r>derecho<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>law<s n="n"/></l><r>ley<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>lawfulness<s n="n"/></l><r>legalidad<s n="n"/><s n="f"/></r></p></e>
+    <e srl="lawfulness">  <p><l>lawfulness<s n="n"/></l><r>legalidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>lawn<s n="n"/></l><r>césped<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>lawyer<s n="n"/></l><r>abogado<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>lawyer<s n="n"/></l><r>abogado<s n="n"/></r></p></e>
@@ -14544,7 +14544,7 @@
     <e>  <p><l>margin<s n="n"/></l><r>margen<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>marginalisation<s n="n"/></l><r>marginación<s n="n"/><s n="f"/></r></p></e>
     <e srl="mark D"><p><l>mark<s n="n"/></l><r>marca<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>market<s n="n"/></l><r>mercado<s n="n"/><s n="m"/></r></p></e>
+    <e slr="mercado D">  <p><l>market<s n="n"/></l><r>mercado<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>marketing<s n="n"/></l><r>marketing<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>marketing<s n="n"/></l><r>mercadotecnia<s n="n"/><s n="f"/></r></p></e>
     <e srl="marriage D"><p><l>marriage<s n="n"/></l><r>matrimonio<s n="n"/><s n="m"/></r></p></e>
@@ -18779,8 +18779,8 @@
     <e r="LR">  <p><l>stark<s n="adj"/><s n="sint"/></l><r>duro<s n="adj"/></r></p></e>
     <e>  <p><l>hard<s n="adj"/><s n="sint"/></l><r>duro<s n="adj"/></r></p></e>
     <e r="LR"><p><l>hard<s n="adj"/><s n="sint"/></l><r>duro<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>harmful<s n="adj"/></l><r>dañino<s n="adj"/></r></p></e>
-    <e>  <p><l>harmful<s n="adj"/></l><r>nocivo<s n="adj"/></r></p></e>
+    <e slr="dañino"><p><l>harmful<s n="adj"/></l><r>dañino<s n="adj"/></r></p></e>
+    <e slr="nocivo D">  <p><l>harmful<s n="adj"/></l><r>nocivo<s n="adj"/></r></p></e>
     <e>  <p><l>harmonic<s n="adj"/></l><r>armónico<s n="adj"/></r></p></e>
     <e r="LR"><p><l>harsh<s n="adj"/></l><r>duro<s n="adj"/></r></p></e>
     <e r="LR"><p><l>hazardous<s n="adj"/></l><r>peligroso<s n="adj"/></r></p></e>
@@ -20749,7 +20749,7 @@
     <e>  <p><l>dilute<s n="vblex"/></l><r>diluir<s n="vblex"/></r></p></e>
     <e srl="diminish D">  <p><l>diminish<s n="vblex"/></l><r>disminuir<s n="vblex"/></r></p></e>
     <e>  <p><l>direct<s n="vblex"/></l><r>dirigir<s n="vblex"/></r></p></e>
-    <e r="LR" >  <p><l>disable<s n="vblex"/></l><r>imposibilitar<s n="vblex"/></r></p></e>
+    <e r="LR" slr="imposibilitar">  <p><l>disable<s n="vblex"/></l><r>imposibilitar<s n="vblex"/></r></p></e>
     <e>  <p><l>disagree<s n="vblex"/></l><r>discrepar<s n="vblex"/></r></p></e>
     <e srl="disappear D">  <p><l>disappear<s n="vblex"/></l><r>desaparecer<s n="vblex"/></r></p></e>
     <e>  <p><l>disappoint<s n="vblex"/></l><r>decepcionar<s n="vblex"/></r></p></e>
@@ -21199,8 +21199,8 @@
     <e>  <p><l>invite<s n="vblex"/></l><r>invitar<s n="vblex"/></r></p></e>
     <e>  <p><l>invoice<s n="vblex"/></l><r>facturar<s n="vblex"/></r></p></e>
     <e>  <p><l>invoke<s n="vblex"/></l><r>invocar<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>involve<s n="vblex"/></l><r>acarrear<s n="vblex"/></r></p></e>
-    <e>  <p><l>involve<s n="vblex"/></l><r>implicar<s n="vblex"/></r></p></e>
+    <e slr="acarrear"><p><l>involve<s n="vblex"/></l><r>acarrear<s n="vblex"/></r></p></e>
+    <e slr="implicar D">  <p><l>involve<s n="vblex"/></l><r>implicar<s n="vblex"/></r></p></e>
     <e>  <p><l>iron<s n="vblex"/></l><r>planchar<s n="vblex"/></r></p></e>
     <e>  <p><l>isolate<s n="vblex"/></l><r>aislar<s n="vblex"/></r></p></e>
     <e slr="emitir D" srl="issue D" c="dinero"><p><l>issue<s n="vblex"/></l><r>emitir<s n="vblex"/></r></p></e>
@@ -36344,7 +36344,7 @@
     <e slr="cabrear" srl="make angry" a="imaxinsoftware"><p><l>make<g><b/>angry</g><s n="vblex"/><s n="sep"/></l><r>cabrear<s n="vblex"/></r></p></e>
     <e slr="cabrear" srl="get angry D" a="imaxinsoftware"><p><l>get<g><b/>angry</g><s n="vblex"/></l><r>cabrear<s n="vblex"/></r></p></e>
     <e slr="cabrearse" a="imaxinsoftware"><p><l>get<g><b/>angry</g><s n="vblex"/></l><r>cabrearse<s n="vblex"/><s n="pron"/></r></p></e>
-    <e slr="enfadarse D" srl="make angry D" a="imaxinsoftware"><p><l>make<g><b/>angry</g><s n="vblex"/><s n="sep"/></l><r>enfadarse<s n="vblex"/><s n="pron"/></r></p></e>
+    <e slr="enfadarse D" srl="make angry" a="imaxinsoftware"><p><l>make<g><b/>angry</g><s n="vblex"/><s n="sep"/></l><r>enfadarse<s n="vblex"/><s n="pron"/></r></p></e>
     <e a="imaxinsoftware"><p><l>advent<s n="n"/></l><r>advenimiento<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>illusionistic<s n="adj"/></l><r>ilusionista<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>illusionist<s n="n"/></l><r>ilusionista<s n="n"/><s n="mf"/></r></p></e>
@@ -36668,8 +36668,8 @@
     <e a="imaxinsoftware"><p><l>bright-eyed<s n="adj"/></l><r>de<b/>ojos<b/>brillantes<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>rosy<s n="adj"/><s n="sint"/></l><r>sonrosado<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>red-cheeked<s n="adj"/></l><r>de<b/>mejillas<b/>rojas<s n="adj"/><s n="mf"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>estrangement<s n="n"/></l><r>distanciamiento<s n="n"/><s n="m"/></r></p></e>
-    <e slr="distanciamiento" a="imaxinsoftware"><p><l>distance<s n="n"/></l><r>distanciamiento<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware" srl="estrangement"><p><l>estrangement<s n="n"/></l><r>distanciamiento<s n="n"/><s n="m"/></r></p></e>
+    <e slr="distanciamiento" srl="distance D" a="imaxinsoftware"><p><l>distance<s n="n"/></l><r>distanciamiento<s n="n"/><s n="m"/></r></p></e>
     <e srl="vanish" a="imaxinsoftware"><p><l>vanish<s n="vblex"/></l><r>desaparecer<s n="vblex"/></r></p></e>
     <e srl="linger" a="imaxinsoftware"><p><l>linger<s n="vblex"/></l><r>persistir<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>westward<s n="adv"/></l><r>hacia<b/>el<b/>oeste<s n="adv"/></r></p></e>
@@ -36744,7 +36744,7 @@
     <e srl="voracious D" a="imaxinsoftware"><p><l>voracious<s n="adj"/></l><r>voraz<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>belly<s n="n"/></l><r>vientre<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>belly-dance<s n="n"/></l><r>danza<g><b/>del<b/>vientre</g><s n="n"/><s n="f"/></r></p></e>
-    <e srl="quarrel D" a="imaxinsoftware"><p><l>quarrel<s n="n"/></l><r>pelea<s n="n"/><s n="f"/></r></p></e>
+    <e srl="quarrel" a="imaxinsoftware"><p><l>quarrel<s n="n"/></l><r>pelea<s n="n"/><s n="f"/></r></p></e>
     <e slr="pelea" srl="fight D" a="imaxinsoftware"><p><l>fight<s n="n"/></l><r>pelea<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>doughty<s n="adj"/></l><r>corajudo<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>trespass<s n="vblex"/></l><r>entrar<g><b/>sin<b/>autorización</g><s n="vblex"/></r></p></e>
@@ -36970,6 +36970,14 @@
     <e r="LR" a="imaxinsoftware"><p><l>real-estate<s n="n"/></l><r>inmueble<s n="n"/><s n="m"/></r></p></e>
     <e slr="inmueble D" a="imaxinsoftware"><p><l>real<b/>estate<s n="n"/></l><r>inmueble<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>real-estate<s n="adj"/></l><r>inmobiliario<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>intranet<s n="n"/></l><r>intranet<s n="n"/><s n="f"/></r></p></e>
+    <e slr="inutilizar D" a="imaxinsoftware"><p><l>disable<s n="vblex"/></l><r>inutilizar<s n="vblex"/></r></p></e>
+    <e slr="involucrar" a="imaxinsoftware"><p><l>involve<s n="vblex"/></l><r>involucrar<s n="vblex"/></r></p></e>
+    <e slr="lesivo" a="imaxinsoftware"><p><l>harmful<s n="adj"/></l><r>lesivo<s n="adj"/></r></p></e>
+    <e slr="legality" srl="legality D"><p><l>legality<s n="n"/></l><r>legalidad<s n="n"/><s n="f"/></r></p></e>
+    <e slr="licitud"><p><l>legality<s n="n"/></l><r>licitud<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>limiting<s n="adj"/></l><r>limitativo<s n="adj"/></r></p></e>
+    <e slr="lonja" a="imaxinsoftware"><p><l>market<s n="n"/></l><r>lonja<s n="n"/><s n="f"/></r></p></e>
 
 <e srl="index card D"><p><l>index<b/>card<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
 <e slr="ficha" srl="chip"><p><l>chip<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
@@ -37708,7 +37716,7 @@
 <e><p><l>laziness<s n="n"/></l><r>dejadez<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>cyclone<s n="n"/></l><r>ciclón<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>pastry<b/>cutter<s n="n"/></l><r>cortapastas<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>curler<s n="n"/></l><r>rizador<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>curler<s n="n"/></l><r>rizador<s n="n"/><s n="m"/></r></p></e>    <e srl="lawfulness">  <p><l>lawfulness<s n="n"/></l><r>legalidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>ideology<s n="n"/></l><r>ideario<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>riot<s n="n"/></l><r>motín<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>mutiny<s n="n"/></l><r>motín<s n="n"/><s n="m"/></r></p></e>

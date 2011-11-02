@@ -15746,7 +15746,7 @@
     <e srl="readjustment D">  <p><l>readjustment<s n="n"/></l><r>reajuste<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>reafforestation<s n="n"/></l><r>reforestación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>reagent<s n="n"/></l><r>reactivo<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>real<b/>estate<s n="n"/></l><r>inmobiliaria<s n="n"/><s n="f"/></r></p></e>
+    <e slr="inmobiliaria">  <p><l>real<b/>estate<s n="n"/></l><r>inmobiliaria<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>real<b/>estate<s n="n"/></l><r>inmobiliaria<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>realism<s n="n"/></l><r>realismo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>reality<s n="n"/></l><r>realidad<s n="n"/><s n="f"/></r></p></e>
@@ -22707,7 +22707,7 @@
     <e>  <p><l>inexplicably<s n="adv"/></l><r>inexplicablemente<s n="adv"/></r></p></e>
     <e>  <p><l>initially<s n="adv"/></l><r>inicialmente<s n="adv"/></r></p></e>
     <e r="RL"><p><l>inside<s n="adv"/></l><r>adentro<s n="adv"/></r></p></e>
-    <e>  <p><l>inside<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+    <e slr="dentro D">  <p><l>inside<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
     <e>  <p><l>inside<b/>and<b/>out<s n="adv"/></l><r>por<b/>dentro<b/>y<b/>por<b/>fuera<s n="adv"/></r></p></e>
     <e>  <p><l>instead<s n="adv"/></l><r>en<b/>cambio<s n="adv"/></r></p></e>
     <e>  <p><l>insufficiently<s n="adv"/></l><r>insuficientemente<s n="adv"/></r></p></e>
@@ -22851,7 +22851,7 @@
     <e r="LR"><p><l>on<b/>hand<s n="adv"/></l><r>a<b/>mano<s n="adv"/></r></p></e>
     <e c="@check"><p><l>on<b/>my<b/>own<s n="adv"/></l><r>por<b/>mi<b/>cuenta<s n="adv"/></r></p></e>
     <e>  <p><l>on<b/>no<b/>account<s n="adv"/></l><r>bajo<b/>ningún<b/>concepto<s n="adv"/></r></p></e>
-    <e>  <p><l>on<b/>purpose<s n="adv"/></l><r>expresamente<s n="adv"/></r></p></e>
+    <e r="RL">  <p><l>on<b/>purpose<s n="adv"/></l><r>expresamente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>on<b/>record<s n="adv"/></l><r>oficialmente<s n="adv"/></r></p></e>
     <e>  <p><l>on<b/>the<b/>contrary<s n="adv"/></l><r>al<b/>contrario<s n="adv"/></r></p></e>
     <e>  <p><l>on<b/>the<b/>defensive<s n="adv"/></l><r>a<b/>la<b/>defensiva<s n="adv"/></r></p></e>
@@ -33173,7 +33173,7 @@
     <e><p><l>right<b/>now<s n="adv"/></l><r>ahora<b/>mismo<s n="adv"/></r></p></e>
     <e><p><l>transparently<s n="adv"/></l><r>limpiamente<s n="adv"/></r></p></e>
     <e><p><l>under<b/>way<s n="adv"/></l><r>en<b/>marcha<s n="adv"/></r></p></e>
-    <e><p><l>unanimously<s n="adv"/></l><r>por<b/>unanimidad<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>unanimously<s n="adv"/></l><r>por<b/>unanimidad<s n="adv"/></r></p></e>
     <e><p><l>in<b/>a<b/>low<b/>voice<s n="adv"/></l><r>en<b/>voz<b/>baja<s n="adv"/></r></p></e>
     <e><p><l>on<b/>everyone's<b/>lips<s n="adv"/></l><r>en<b/>boca<b/>de<b/>todos<s n="adv"/></r></p></e>
     <e><p><l>face<b/>down<s n="adv"/></l><r>boca<b/>abajo<s n="adv"/></r></p></e>
@@ -33182,7 +33182,7 @@
     <e r="LR"><p><l>still<b/>more<s n="adv"/></l><r>aún<b/>más<s n="adv"/></r></p></e>
     <e><p><l>even<b/>less<s n="adv"/></l><r>menos<b/>aún<s n="adv"/></r></p></e>
     <e r="LR"><p><l>still<b/>less<s n="adv"/></l><r>menos<b/>aún<s n="adv"/></r></p></e>
-    <e><p><l>even<b/>more<s n="adv"/></l><r>todavía<b/>más<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>even<b/>more<s n="adv"/></l><r>todavía<b/>más<s n="adv"/></r></p></e>
     <e r="RL"><p><l>recently<s n="adv"/></l><r>hace<b/>poco<s n="adv"/></r></p></e>
     <e r="RL"><p><l>mildly<s n="adv"/></l><r>levemente<s n="adv"/></r></p></e>
     <e><p><l>yesterday<b/>afternoon<s n="adv"/></l><r>ayer<b/>por<b/>la<b/>tarde<s n="adv"/></r></p></e>
@@ -33193,7 +33193,7 @@
     <e><p><l>the<b/>coming<b/>month<s n="adv"/></l><r>el<b/>mes<b/>que<b/>viene<s n="adv"/></r></p></e>
     <e><p><l>inwards<s n="adv"/></l><r>hacia<b/>adentro<s n="adv"/></r></p></e>
     <e><p><l>to<b/>within<s n="adv"/></l><r>hasta<b/>dentro<s n="adv"/></r></p></e>
-    <e><p><l>inside<s n="adv"/></l><r>por<b/>dentro<s n="adv"/></r></p></e>
+    <e slr="por dentro"><p><l>inside<s n="adv"/></l><r>por<b/>dentro<s n="adv"/></r></p></e>
     <e><p><l>to<b/>the<b/>bottom<s n="adv"/></l><r>hasta<b/>abajo<s n="adv"/></r></p></e>
     <e r="LR"><p><l>all<b/>the<b/>way<b/>down<s n="adv"/></l><r>hasta<b/>abajo<s n="adv"/></r></p></e>
     <e><p><l>from<b/>below<s n="adv"/></l><r>desde<b/>abajo<s n="adv"/></r></p></e>
@@ -33210,10 +33210,10 @@
     <e><p><l>for<b/>adventure<s n="adv"/></l><r>a<b/>la<b/>aventura<s n="adv"/></r></p></e>
     <e><p><l>from<b/>above<s n="adv"/></l><r>de<b/>arriba<s n="adv"/></r></p></e>
     <e><p><l>to<b/>the<b/>top<s n="adv"/></l><r>hasta<b/>arriba<s n="adv"/></r></p></e>
-    <e><p><l>right<b/>there<s n="adv"/></l><r>allí<b/>mismo<s n="adv"/></r></p></e>
+    <e slr="allí mismo"><p><l>right<b/>there<s n="adv"/></l><r>allí<b/>mismo<s n="adv"/></r></p></e>
     <e><p><l>from<b/>here<s n="adv"/></l><r>de<b/>ahí<s n="adv"/></r></p></e>
     <e r="LR"><p><l>hence<s n="adv"/></l><r>de<b/>ahí<s n="adv"/></r></p></e>
-    <e><p><l>right<b/>there<s n="adv"/></l><r>ahí<b/>mismo<s n="adv"/></r></p></e>
+    <e slr="ahí mismo D"><p><l>right<b/>there<s n="adv"/></l><r>ahí<b/>mismo<s n="adv"/></r></p></e>
     <e><p><l>besides<b/>that<s n="adv"/></l><r>además<b/>de<b/>eso<s n="adv"/></r></p></e>
     <e><p><l>in<b/>no<b/>way<s n="adv"/></l><r>de<b/>ningún<b/>modo<s n="adv"/></r></p></e>
     <e><p><l>stupendously<s n="adv"/></l><r>estupendamente<s n="adv"/></r></p></e>
@@ -36898,7 +36898,6 @@
     <e a="imaxinsoftware"><p><l>Visual<b/>Publinet<s n="np"/><s n="al"/></l><r>Visual<b/>Publinet<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Wireless<b/>Galicia<s n="np"/><s n="al"/></l><r>Wireless<b/>Galicia<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Wordpress<s n="np"/><s n="al"/></l><r>Wordpress<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>Youtube<s n="np"/><s n="al"/></l><r>Youtube<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e srl="ameliorate" a="imaxinsoftware"><p><l>ameliorate<s n="vblex"/></l><r>mejorar<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>wire<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>cablear<s n="vblex"/></r></p></e>
     <e slr="capacitar" a="imaxinsoftware"><p><l>qualify<s n="vblex"/></l><r>capacitar<s n="vblex"/></r></p></e>
@@ -36969,7 +36968,7 @@
     <e srl="impact" a="imaxinsoftware"><p><l>impact<s n="vblex"/></l><r>impactar<s n="vblex"/></r></p></e>
     <e slr="impartición" a="imaxinsoftware"><p><l>teaching<s n="n"/></l><r>impartición<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>real-estate<s n="n"/></l><r>inmueble<s n="n"/><s n="m"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>real<b/>estate<s n="n"/></l><r>inmueble<s n="n"/><s n="m"/></r></p></e>
+    <e slr="inmueble D" a="imaxinsoftware"><p><l>real<b/>estate<s n="n"/></l><r>inmueble<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>real-estate<s n="adj"/></l><r>inmobiliario<s n="adj"/></r></p></e>
 
 <e srl="index card D"><p><l>index<b/>card<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>

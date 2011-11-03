@@ -16121,7 +16121,7 @@
     <e>  <p><l>scrap<s n="n"/></l><r>chatarra<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>scratch<s n="n"/></l><r>arañazo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>screen<s n="n"/></l><r>pantalla<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>screw<s n="n"/></l><r>tornillo<s n="n"/><s n="m"/></r></p></e>
+    <e srl="screw D">  <p><l>screw<s n="n"/></l><r>tornillo<s n="n"/><s n="m"/></r></p></e>
     <e srl="script D">  <p><l>script<s n="n"/></l><r>guión<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>scruple<s n="n"/></l><r>escrúpulo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>scuffle<s n="n"/></l><r>trifulca<s n="n"/><s n="f"/></r></p></e>
@@ -36994,15 +36994,14 @@
     <e a="imaxinsoftware"><p><l>Barreiro<s n="np"/><s n="ant"/></l><r>Barreiro<s n="np"/><s n="ant"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Negreira<s n="np"/><s n="ant"/></l><r>Negreira<s n="np"/><s n="ant"/></r></p></e>
     <e a="imaxinsoftware"><p><l>cash<b/>register<s n="n"/></l><r>caja<b/>registradora<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="registrador" a="imaxinsoftware"><p><l>recorder<s n="n"/></l><r>registrador<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL" slr="registrador" a="imaxinsoftware"><p><l>recorder<s n="n"/></l><r>registrador<s n="n"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>recorder<s n="adj"/></l><r>registrador<s n="adj"/></r></p></e>
     <e slr="segmentar" a="imaxinsoftware"><p><l>divide<s n="vblex"/></l><r>segmentar<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>synergy<s n="n"/></l><r>sinergia<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>smartphone<s n="n"/></l><r>smartphone<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>site<s n="n"/></l><r>site<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>fan<s n="n"/></l><r>fan<s n="n"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>SMS<s n="n"/><s n="acr"/></l><r>SMS<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>teleworking<s n="n"/></l><r>teletrabajo<s n="n"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>teleworking<s n="n"/></l><r>teletrabajo<s n="n"/><s n="m"/></r></p></e>
     <e slr="tramitación" a="imaxinsoftware"><p><l>processing<s n="n"/></l><r>tramitación<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>quietly<s n="adv"/></l><r>tranquilamente<s n="adv"/></r></p></e>
     <e a="imaxinsoftware"><p><l>trending<b/>topic<s n="n"/></l><r>trending<b/>topic<s n="n"/><s n="m"/></r></p></e>
@@ -37014,6 +37013,10 @@
     <e a="imaxinsoftware"><p><l>bale<s n="n"/></l><r>paca<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>trout<s n="n"/></l><r>trucha<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>harshly<s n="adv"/></l><r>severamente<s n="adv"/></r></p></e>
+    <e slr="perno" a="imaxinsoftware"><p><l>bolt<s n="n"/></l><r>perno<s n="n"/><s n="m"/></r></p></e>
+    <e slr="rayo" srl="bolt" a="imaxinsoftware"><p><l>bolt<s n="n"/></l><r>rayo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="tornillo D" srl="bolt" a="imaxinsoftware"><p><l>bolt<s n="n"/></l><r>tornillo<s n="n"/><s n="m"/></r></p></e>
+
 
 <e srl="index card D"><p><l>index<b/>card<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
 <e slr="ficha" srl="chip"><p><l>chip<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>

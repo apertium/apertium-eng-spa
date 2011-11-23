@@ -1,90 +1,80 @@
 <rules>
-<rule>
-	<skip lemma="savings" tags="*"/>
-	<select lemma="bank" tags="n.*">
-		<acception lemma="banco" tags="n.*"/>
-	</select>
-</rule>
-
-<rule>
-	<skip lemma="river" tags="*"/>
-	<select lemma="bank" tags="n.*">
-		<acception lemma="orilla" tags="n.*"/>
-	</select>
-</rule>	
-
-<rule>
-	<skip lemma="trade" tags="*"/>
-	<select lemma="union" tags="n.*">
-		<acception lemma="sindicato" tags="n.*"/>
-	</select>	
-</rule>
-
-<rule>
-	<skip lemma="doctor's" tags="*"/>
-	<select lemma="office" tags="n.*">
-		<acception lemma="consultorio" tags="n.*"/>
-	</select>
-</rule>
-
-<rule>
-	<skip lemma="have" tags="*"/>
-        <skip/>
-	<select lemma="argument" tags="n.*">
-		<acception lemma="discusión" tags="n.*"/>
-	</select>
-</rule>
-
-<rule>
-	<skip lemma="accept" tags="*"/>
-        <skip/>
-	<select lemma="argument" tags="n.*">
-		<acception lemma="argumento" tags="n.*"/>
-	</select>
-</rule>
-
-<rule> 
-	<skip lemma="take" tags="*"/>
-	<skip lemma="a" tags="*"/>
-	<select lemma="bow" tags="n.*">
-		<acception lemma="reverencia" tags="n.*"/>
-	</select>
-</rule>
-
-<rule>
-	<skip lemma="violin" tags="*"/>
-	<select lemma="bow" tags="n.*">
-		<acception lemma="arco" tags="n.*"/>
-	</select>
-</rule>
-
-<rule>
-	<skip lemma="strike" tags="*"/>
-        <skip/>
-	<select lemma="match" tags="n.*">
-		<acception lemma="cerilla" tags="n.*"/>
-	</select>
-</rule>
-
-<rule>
-	<skip lemma="play" tags="*"/>
-        <skip/>
-	<select lemma="match" tags="n.*">
-		<acception lemma="partido" tags="n.*"/>
-	</select>
-</rule>
-
-<rule>
-	<skip lemma="swimming" tags="*"/>
-	<select lemma="pool" tags="n.*">
-		<acception lemma="piscina" tags="n.*"/>
-	</select>
-</rule>	
-
-<rule>
-	<skip lemma="play" tags="*"/>
-	<select lemma="pool" tags="n.*">
-		<acception lemma="billar" tags="n.*"/>
-	</select>
-</rule>	
+  <rule>
+    <skip lemma="savings" tags="*"/>
+    <select lemma="bank" tags="n.*">
+      <acception lemma="banco" tags="n.*"/>
+    </select>
+  </rule>
+  <rule>
+    <skip lemma="river" tags="*"/>
+    <select lemma="bank" tags="n.*">
+      <acception lemma="orilla" tags="n.*"/>
+    </select>
+  </rule>  
+  <rule>
+    <skip lemma="trade" tags="*"/>
+    <select lemma="union" tags="n.*">
+      <acception lemma="sindicato" tags="n.*"/>
+    </select>  
+  </rule>
+  <rule>
+    <skip lemma="doctor's" tags="*"/>
+    <select lemma="office" tags="n.*">
+      <acception lemma="consultorio" tags="n.*"/>
+    </select>
+  </rule>
+  <rule>
+    <skip lemma="have" tags="*"/>
+          <skip/>
+    <select lemma="argument" tags="n.*">
+      <acception lemma="discusión" tags="n.*"/>
+    </select>
+  </rule>
+  <rule>
+    <skip lemma="accept" tags="*"/>
+          <skip/>
+    <select lemma="argument" tags="n.*">
+      <acception lemma="argumento" tags="n.*"/>
+    </select>
+  </rule>
+  <rule> 
+    <skip lemma="take" tags="*"/>
+    <skip lemma="a" tags="*"/>
+    <select lemma="bow" tags="n.*">
+      <acception lemma="reverencia" tags="n.*"/>
+    </select>
+  </rule>
+  <rule>
+    <skip lemma="violin" tags="*"/>
+    <select lemma="bow" tags="n.*">
+      <acception lemma="arco" tags="n.*"/>
+    </select>
+  </rule>
+  <rule>
+    <skip lemma="strike" tags="*"/>
+          <skip/>
+    <select lemma="match" tags="n.*">
+      <acception lemma="cerilla" tags="n.*"/>
+    </select>
+  </rule>
+  <rule>
+    <skip lemma="play" tags="*"/>
+          <skip/>
+    <select lemma="match" tags="n.*">
+      <acception lemma="partido" tags="n.*"/>
+    </select>
+  </rule>
+  <rule>
+    <skip lemma="play" tags="*"/>
+    <select lemma="pool" tags="n.*">
+      <acception lemma="billar" tags="n.*"/>
+    </select>
+  </rule>  
+  <rule>
+    <skip lemma="swimming" tags="*"/>
+    <select lemma="pool" tags="n.*">
+      <acception lemma="piscina" tags="n.*"/>
+    </select>
+  </rule>  
+  <!-- bank, passage, movement, occupation, plant -->
 </rules>

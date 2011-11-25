@@ -495,9 +495,12 @@
   </rule>
   
   <rule>
-    <skip lemma="metal" tags="*"/>
-    <select lemma="bar" tags="n.*">
-      <acception lemma="barra" tags="n.*"/>
+    <or>
+      <skip lemma="natural" tags="*"/>
+      <skip lemma="programming" tags="*"/>
+    </or>
+    <select lemma="language" tags="n.*">
+      <acception lemma="lenguaje" tags="n.*"/>
     </select>
   </rule>  
 

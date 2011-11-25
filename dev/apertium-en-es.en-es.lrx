@@ -12,31 +12,45 @@
     </select>
   </rule>  
   <rule>
+    <select lemma="bank" tags="n.*">
+      <acception lemma="orilla" tags="n.*"/>
+    </select>
+    <skip lemma="of" tags="pr.*"/>
+    <skip/>
+    <skip lemma="river" tags="*"/>
+  </rule>  
+
+  <rule>  <!-- MWE -->
     <skip lemma="trade" tags="*"/>
     <select lemma="union" tags="n.*">
       <acception lemma="sindicato" tags="n.*"/>
     </select>  
   </rule>
+
   <rule>
-    <skip lemma="doctor's" tags="*"/>
+    <skip lemma="doctor" tags="n.*"/>
+    <skip lemma="'s" tags="gen"/>
     <select lemma="office" tags="n.*">
       <acception lemma="consultorio" tags="n.*"/>
     </select>
   </rule>
-  <rule> <!-- "i have an argument against that" -->
+
+  <rule> <!-- COUNTER: "i have an argument against that" -->
     <skip lemma="have" tags="*"/>
-          <skip/>
+    <skip/>
     <select lemma="argument" tags="n.*">
       <acception lemma="discusión" tags="n.*"/>
     </select>
   </rule>
+
   <rule>
     <skip lemma="accept" tags="*"/>
-          <skip/>
+    <skip/>
     <select lemma="argument" tags="n.*">
       <acception lemma="argumento" tags="n.*"/>
     </select>
   </rule>
+
   <rule> 
     <skip lemma="take" tags="*"/>
     <skip lemma="a" tags="*"/>
@@ -44,46 +58,61 @@
       <acception lemma="reverencia" tags="n.*"/>
     </select>
   </rule>
+
   <rule>
     <skip lemma="violin" tags="*"/>
     <select lemma="bow" tags="n.*">
       <acception lemma="arco" tags="n.*"/>
     </select>
   </rule>
+
   <rule>
     <skip lemma="strike" tags="*"/>
-          <skip/>
+    <skip/>
     <select lemma="match" tags="n.*">
       <acception lemma="cerilla" tags="n.*"/>
     </select>
   </rule>
+
   <rule>
     <skip lemma="play" tags="*"/>
-          <skip/>
+    <skip/>
     <select lemma="match" tags="n.*">
       <acception lemma="partido" tags="n.*"/>
     </select>
   </rule>
+
   <rule>
     <skip lemma="play" tags="*"/>
     <select lemma="pool" tags="n.*">
       <acception lemma="billar" tags="n.*"/>
     </select>
   </rule>  
-  <rule>
+
+  <rule> <!-- MWE -->
     <skip lemma="swimming" tags="*"/>
     <select lemma="pool" tags="n.*">
       <acception lemma="piscina" tags="n.*"/>
     </select>
   </rule>  
+
   <rule>
     <skip lemma="car" tags="*"/>
     <select lemma="driver" tags="n.*">
       <acception lemma="conductor" tags="n.*"/>
     </select>
   </rule>
-  
+
   <rule>
+    <select lemma="driver" tags="n.*">
+      <acception lemma="conductor" tags="n.*"/>
+    </select>
+    <skip lemma="of" tags="pr.*"/>
+    <skip/>
+    <skip lemma="car" tags="n.*"/>
+  </rule>
+  
+  <rule> <!-- MWE -->
     <skip lemma="taxi" tags="*"/>
     <select lemma="driver" tags="n.*">
       <acception lemma="taxista" tags="n.*"/>
@@ -162,21 +191,21 @@
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE? -->
     <skip lemma="drinking" tags="*"/>
     <select lemma="trough" tags="n.*">
       <acception lemma="abrevadero" tags="n.*"/>
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE? -->
     <skip lemma="feeding" tags="*"/>
     <select lemma="trough" tags="n.*">
       <acception lemma="comedero" tags="n.*"/>
     </select>
   </rule>
   
-  <rule>
+  <rule> 
     <skip lemma="multiplication" tags="*"/>
     <select lemma="table" tags="n.*">
       <acception lemma="tabla" tags="n.*"/>
@@ -204,14 +233,14 @@
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE? -->
     <skip lemma="bowel" tags="*"/>
     <select lemma="movement" tags="n.*">
       <acception lemma="evacuación" tags="n.*"/>
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE -->
     <skip lemma="steering" tags="*"/>
     <select lemma="wheel" tags="n.*">
       <acception lemma="volante" tags="n.*"/>
@@ -226,41 +255,54 @@
   </rule>  
   
   <rule>
-    <skip lemma="water" tags="*"/>
+    <select lemma="wheel" tags="n.*">
+      <acception lemma="rueda" tags="n.*"/>
+    </select>
+    <skip lemma="of" tags="*"/>
+    <skip/>
+    <skip lemma="car" tags="n.*"/>
+  </rule>  
+ 
+  <rule>
     <select lemma="glass" tags="n.*">
       <acception lemma="vaso" tags="n.*"/>
     </select>
+    <skip lemma="of" tags="*"/>
+    <skip/>
+    <skip lemma="water" tags="*"/>
   </rule>
   
   <rule>
-    <skip lemma="wine" tags="*"/>
     <select lemma="glass" tags="n.*">
       <acception lemma="copa" tags="n.*"/>
     </select>
+    <skip lemma="of" tags="*"/>
+    <skip/>
+    <skip lemma="wine" tags="*"/>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE -->
     <skip lemma="bachelor's" tags="*"/>
     <select lemma="degree" tags="n.*">
       <acception lemma="bachillerato" tags="n.*"/>
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE -->
     <skip lemma="hand" tags="*"/>
     <select lemma="span" tags="n.*">
       <acception lemma="palmo" tags="n.*"/>
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE -->
     <skip lemma="wing" tags="*"/>
     <select lemma="span" tags="n.*">
       <acception lemma="envergadura" tags="n.*"/>
     </select>
   </rule>  
 
-  <rule>
+  <rule> <!-- MWE -->
     <skip lemma="bullet" tags="*"/>
     <select lemma="round" tags="n.*">
       <acception lemma="bala" tags="n.*"/>
@@ -268,27 +310,36 @@
   </rule>
   
   <rule>
-    <skip lemma="tournament" tags="*"/>
     <select lemma="round" tags="n.*">
       <acception lemma="ronda" tags="n.*"/>
     </select>
+    <skip lemma="of" tags="*"/>
+    <skip/>
+    <skip lemma="tournament" tags="*"/>
+  </rule>
+   
+  <rule> 
+    <skip lemma="ski" tags="*"/>
+    <select lemma="slope" tags="n.*">
+      <acception lemma="pista" tags="n.*"/>
+    </select>
   </rule>
   
-  <rule>
+  <rule> 
     <skip lemma="ski" tags="*"/>
     <select lemma="run" tags="n.*">
       <acception lemma="pista" tags="n.*"/>
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- ??? -->
     <skip lemma="dog" tags="*"/>
     <select lemma="run" tags="n.*">
       <acception lemma="corra" tags="n.*"/>
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE -->
     <skip lemma="around" tags="*"/>
     <skip lemma="the" tags="*"/>
     <select lemma="clock" tags="n.*">
@@ -303,7 +354,7 @@
     </select>
   </rule>
   
-  <rule>  
+  <rule>
     <skip lemma="union" tags="*"/>
     <select lemma="strike" tags="n.*">
       <acception lemma="huelga" tags="n.*"/>
@@ -318,13 +369,16 @@
   </rule>
   
   <rule>
-    <skip lemma="rubber" tags="*"/>
+    <or>
+      <skip lemma="rubber" tags="*"/>
+      <skip lemma="elastic" tags="*"/>
+    </or>
     <select lemma="band" tags="n.*">
       <acception lemma="banda" tags="n.*"/>
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE -->
     <skip lemma="strawberry" tags="*"/>
     <select lemma="jam" tags="n.*">
       <acception lemma="mermelada" tags="n.*"/>
@@ -338,7 +392,7 @@
     </select>
   </rule>
   
-  <rule>
+  <rule> <!-- MWE -->
     <skip lemma="green" tags="*"/>
     <select lemma="bean" tags="n.*">
       <acception lemma="judía" tags="n.*"/>
@@ -423,17 +477,21 @@
   </rule>
   
   <rule>
-    <skip lemma="art" tags="*"/>
     <select lemma="work" tags="n.*">
       <acception lemma="obra" tags="n.*"/>
     </select>
+    <skip lemma="of" tags="pr.*"/>
+    <skip/>
+    <skip lemma="art" tags="*"/>
   </rule>
   
   <rule>
-    <skip lemma="soap" tags="*"/>
     <select lemma="bar" tags="n.*">
       <acception lemma="pastilla" tags="n.*"/>
     </select>
+    <skip lemma="of" tags="pr.*"/>
+    <skip/>
+    <skip lemma="soap" tags="*"/>
   </rule>
   
   <rule>

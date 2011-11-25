@@ -23,7 +23,7 @@
       <acception lemma="consultorio" tags="n.*"/>
     </select>
   </rule>
-  <rule>
+  <rule> <!-- "i have an argument against that" -->
     <skip lemma="have" tags="*"/>
           <skip/>
     <select lemma="argument" tags="n.*">
@@ -259,6 +259,190 @@
       <acception lemma="envergadura" tags="n.*"/>
     </select>
   </rule>  
+
+  <rule>
+    <skip lemma="bullet" tags="*"/>
+    <select lemma="round" tags="n.*">
+      <acception lemma="bala" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="tournament" tags="*"/>
+    <select lemma="round" tags="n.*">
+      <acception lemma="ronda" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="ski" tags="*"/>
+    <select lemma="run" tags="n.*">
+      <acception lemma="pista" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="dog" tags="*"/>
+    <select lemma="run" tags="n.*">
+      <acception lemma="corra" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="around" tags="*"/>
+    <skip lemma="the" tags="*"/>
+    <select lemma="clock" tags="n.*">
+      <acception lemma="día" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="military" tags="*"/>
+    <select lemma="strike" tags="n.*">
+      <acception lemma="ataque" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>  
+    <skip lemma="union" tags="*"/>
+    <select lemma="strike" tags="n.*">
+      <acception lemma="huelga" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="rock" tags="*"/>
+    <select lemma="band" tags="n.*">
+      <acception lemma="grupo" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="rubber" tags="*"/>
+    <select lemma="band" tags="n.*">
+      <acception lemma="banda" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="strawberry" tags="*"/>
+    <select lemma="jam" tags="n.*">
+      <acception lemma="mermelada" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="coffee" tags="*"/>
+    <select lemma="bean" tags="n.*">
+      <acception lemma="grano" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="green" tags="*"/>
+    <select lemma="bean" tags="n.*">
+      <acception lemma="judía" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="publicity" tags="*"/>
+    <select lemma="stunt" tags="n.*">
+      <acception lemma="truco" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="paint" tags="*"/>
+    <select lemma="application" tags="n.*">
+      <acception lemma="aplicación" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="job" tags="*"/>
+    <select lemma="application" tags="n.*">
+      <acception lemma="solicitud" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="card" tags="*"/>
+    <select lemma="game" tags="n.*">
+      <acception lemma="partida" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="football" tags="*"/>
+    <select lemma="game" tags="n.*">
+      <acception lemma="partido" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="train" tags="*"/>
+    <select lemma="station" tags="n.*">
+      <acception lemma="estación" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="police" tags="*"/>
+    <select lemma="station" tags="n.*">
+      <acception lemma="comisaría" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="radio" tags="*"/>
+    <select lemma="station" tags="n.*">
+      <acception lemma="emisora" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="television" tags="*"/>
+    <select lemma="station" tags="n.*">
+      <acception lemma="canal" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="animal" tags="*"/>
+    <select lemma="leg" tags="n.*">
+      <acception lemma="pata" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="brain" tags="*"/>
+    <select lemma="stroke" tags="n.*">
+      <acception lemma="infarto" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="art" tags="*"/>
+    <select lemma="work" tags="n.*">
+      <acception lemma="obra" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="soap" tags="*"/>
+    <select lemma="bar" tags="n.*">
+      <acception lemma="pastilla" tags="n.*"/>
+    </select>
+  </rule>
+  
+  <rule>
+    <skip lemma="metal" tags="*"/>
+    <select lemma="bar" tags="n.*">
+      <acception lemma="barra" tags="n.*"/>
+    </select>
+  </rule>  
+
 
   <!-- bank, passage, movement, occupation, plant -->
 </rules>

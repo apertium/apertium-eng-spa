@@ -502,7 +502,182 @@
     <select lemma="language" tags="n.*">
       <acception lemma="lenguaje" tags="n.*"/>
     </select>
-  </rule>  
+  </rule> 
+  
+  <rule>
+		<skip lemma="wind" tags="*"/>
+		<select lemma="farm" tags="n.*">
+			<acception lemma="parque" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="ski" tags="*"/>
+		<select lemma="instructor" tags="n.*">
+			<acception lemma="monitor" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="driving" tags="*"/>
+		<select lemma="instructor" tags="n.*">
+			<acception lemma="profesor" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="store" tags="n.*">
+			<acception lemma="reserva" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="goods" tags="*"/>
+	</rule>
+	
+	<rule>
+		<select lemma="store" tags="n.*">
+			<acception lemma="cúmulo" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="knowledge" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="wood" tags="*"/>
+		<select lemma="chip" tags="n.*">
+			<acception lemma="viruta" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="marble" tags="*"/>
+		<select lemma="chip" tags="n.*">
+			<acception lemma="lasca" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="chocolate" tags="*"/>
+		<select lemma="chip" tags="n.*">
+			<acception lemma="trozo" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="tree" tags="*"/>
+		<select lemma="branch" tags="n.*">
+			<acception lemma="rama" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="bank" tags="*"/>
+		<select lemma="branch" tags="n.*">
+			<acception lemma="sucursal" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="branch" tags="n.*">
+			<acception lemma="afluente" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip/>
+		<skip lemma="river" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="toilet" tags="*"/>
+		<select lemma="bowl" tags="n.*">
+			<acception lemma="taza" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="work" tags="*"/>
+		<select lemma="shift" tags="n.*">
+			<acception lemma="turno" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="sales" tags="*"/>
+		<select lemma="drive" tags="n.*">
+			<acception lemma="campaña" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="disk" tags="*"/>
+		<select lemma="drive" tags="n.*">
+			<acception lemma="unidad" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="think" tags="*"/>
+		<select lemma="tank" tags="n.*">
+			<acception lemma="grupo" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="model" tags="n.*">
+			<acception lemma="maqueta" tags="n.*"/>
+		</select>	
+		<skip lemma="aircraft" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="fashion" tags="*"/>
+		<select lemma="modelo" tags="n.*">
+			<acception lemma="modelo" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>	
+		<skip lemma="return" tags="*"/>
+		<select lemma="rate" tags="n.*">
+			<acception lemma="tasa" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="at" tags="*"/>
+		<skip lemma="this" tags="*"/>
+		<select lemma="rate" tags="n.*">
+			<acception lemma="paso" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="business" tags="*"/>
+		<select lemma="rates" tags="n.*">
+			<acception lemma="contribución" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="first" tags="*"/>
+		<select lemma="course" tags="n.*">
+			<acception lemma="plato" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="last" tags="*"/>
+		<select lemma="resort" tags="n.*">
+			<acception lemma="recurso" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="holiday" tags="*"/>
+		<select lemma="resort" tags="n.*">
+			<acception lemma="centro" tags="n.*"/>
+		</select>
+	</rule>	
+  
+  
 
 
   <!-- bank, passage, movement, occupation, plant -->

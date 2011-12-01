@@ -278,6 +278,21 @@
   </mode>
 
   
+  <mode name="en-es-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="en-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="en-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="en-es.autobil.bin"/>
+    </pipeline>
+  </mode>
+  
+ 
   <mode name="en-es" install="yes">
     <pipeline>
       <program name="lt-proc">

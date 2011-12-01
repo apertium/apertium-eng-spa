@@ -702,7 +702,7 @@
 	
 	<rule>
 		<skip lemma="flat" tags="*"/>
-		<select lemma="tire" tags="n.*">
+		<select lemma="tyre" tags="n.*">
 			<acception lemma="rueda" tags="n.*"/>
 		</select>
 	</rule>	

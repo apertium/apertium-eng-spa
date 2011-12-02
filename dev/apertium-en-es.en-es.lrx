@@ -1,12 +1,19 @@
 <rules>
  
 <rule>
+    <select lemma="manually" tags="adv">
+      <acception lemma="manualmente" tags="adv"/>
+    </select>
+  </rule>
+
+  <rule>
     <skip lemma="savings" tags="*"/>
     <select lemma="bank" tags="n.*">
       <acception lemma="banco" tags="n.*"/>
     </select>
    </rule> 
   
+
   <rule>
     <select lemma="bank" tags="n.*">
       <acception lemma="orilla" tags="n.*"/>
@@ -720,14 +727,10 @@
 	</rule>
 
 	<rule>
-		<skip lemma="good" tags="*"/>
-		<select lemma="sign" tags="n.*">
-			<acception lemma="señal" tags="n.*"/>
-		</select>
-	</rule>
-
-	<rule>
-		<skip lemma="plus" tags="*"/>
+		<or>
+                  <skip lemma="plus" tags="*"/>
+		  <skip lemma="good" tags="*"/>
+                </or>
 		<select lemma="sign" tags="n.*">
 			<acception lemma="señal" tags="n.*"/>
 		</select>

@@ -18,7 +18,7 @@
   </rule>  
 
   <rule>
-    <skip lemma="doctor" tags="n.*"/>
+    <skip lemma="doctor" tags="*"/>
     <skip lemma="'s" tags="gen"/>
     <select lemma="office" tags="n.*">
       <acception lemma="consultorio" tags="n.*"/>
@@ -1071,5 +1071,370 @@
 		<skip/>
 		<skip lemma="time" tags="*"/>
 	</rule>	
-  
+	
+	<rule>
+		<skip lemma="send" tags="*"/>
+		<skip/>
+		<select lemma="letter" tags="n.*">
+			<acception lemma="carta" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="letter" tags="n.*">
+			<acception lemma="letra" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip/>
+		<skip lemma="alphabet" tags="*"/>
+	</rule>	
+	
+	<rule>
+		<skip lemma="jealous" tags="*"/>
+		<select lemma="nature" tags="n.*">
+			<acception lemma="carácter" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="chat" tags="*"/>
+		<select lemma="room" tags="n.*">
+			<acception lemma="sala" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="hotel" tags="*"/>
+		<select lemma="room" tags="n.*">
+			<acception lemma="habitación" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="miss" tags="*"/>
+		<skip/>
+		<select lemma="connection" tags="n.*">
+			<acception lemma="enlace" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="electrical" tags="*"/>
+		<select lemma="connection" tags="n.*">
+			<acception lemma="conexión" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="liberal" tags="n.*">
+			<acception lemma="abundante" tags="n.*"/>
+		</select>
+		<skip lemma="amount" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="propaganda" tags="*"/>
+		<select lemma="machine" tags="n.*">
+			<acception lemma="aparato" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="opinion" tags="*"/>
+		<select lemma="poll" tags="n.*">
+			<acception lemma="sondeo" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="go" tags="*"/>
+		<skip/>
+		<skip/>
+		<select lemma="polls" tags="n.*">
+			<acception lemma="urnas" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="chess" tags="*"/>
+		<select lemma="board" tags="n.*">
+			<acception lemma="tablero" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="board" tags="n.*">
+			<acception lemma="consejo" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="directors" tags="*"/>
+	</rule>
+	
+	<rule>
+		<select lemma="board" tags="n.*">
+			<acception lemma="comisión" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="inquiry" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="bus" tags="*"/>
+		<select lemma="pass" tags="n.*">
+			<acception lemma="abono" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="mountain" tags="*"/>
+		<select lemma="pass" tags="n.*">
+			<acception lemma="paso" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="volume" tags="*"/>
+		<select lemma="control" tags="n.*">
+			<acception lemma="mando" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="under" tags="*"/>
+		<select lemma="control" tags="n.*">
+			<acception lemma="control" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="short" tags="*"/>
+		<select lemma="term" tags="n.*">
+			<acception lemma="plazo" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="term" tags="n.*">
+			<acception lemma="periodo" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="imprisonment" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="conveyor" tags="*"/>
+		<select lemma="belt" tags="n.*">
+			<acception lemma="cinta" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="parent" tags="n.*">
+			<acception lemma="matriz" tags="n.*"/>
+		</select>
+		<skip lemma="company" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="computer" tags="*"/>
+		<select lemma="cord" tags="n.*">
+			<acception lemma="cable" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="point" tags="n.*">
+			<acception lemma="punto" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="sale" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="market" tags="*"/>
+		<select lemma="survey" tags="n.*">
+			<acception lemma="estudio" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="political" tags="*"/>
+		<select lemma="offshoot" tags="n.*">
+			<acception lemma="ramificación" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="candidate" tags="*"/>
+		<skip lemma="'s" tags="gen"/>
+		<select lemma="platform" tags="n.*">
+			<acception lemma="programa" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="out" tags="*"/>
+		<skip lemma="of" tags="*"/>
+		<select lemma="position" tags="n.*">
+			<acception lemma="sitio" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="position" tags="n.*">
+			<acception lemma="puesto" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="responsibility" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="rain" tags="*"/>
+		<select lemma="gear" tags="n.*">
+			<acception lemma="ropa" tags="n.*"/>
+		</select>
+	</rule>	
+	
+	<rule>
+		<skip lemma="first" tags="*"/>
+		<select lemma="gear" tags="n.*">
+			<acception lemma="marcha" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="foreign" tags="*"/>
+		<select lemma="affairs" tags="n.*">
+			<acception lemma="asuntos" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="flight" tags="n.*">
+			<acception lemma="tramo" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="stairs" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="flight" tags="*"/>
+		<select lemma="recorder" tags="n.*">
+			<acception lemma="caja" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="flight" tags="*"/>
+		<select lemma="path" tags="n.*">
+			<acception lemma="ruta" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="flight" tags="*"/>
+		<select lemma="deck" tags="n.*">
+			<acception lemma="cabina" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="cartoon" tags="*"/>
+		<select lemma="strip" tags="n.*">
+			<acception lemma="tira" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="landing" tags="*"/>
+		<select lemma="strip" tags="n.*">
+			<acception lemma="pista" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="academic" tags="*"/>
+		<select lemma="record" tags="n.*">
+			<acception lemma="expediente" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="criminal" tags="*"/>
+		<select lemma="record" tags="n.*">
+			<acception lemma="antecedentes" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="vinyl" tags="*"/>
+		<select lemma="record" tags="n.*">
+			<acception lemma="disco" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="world" tags="*"/>
+		<select lemma="record" tags="n.*">
+			<acception lemma="récord" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="case" tags="*"/>
+		<select lemma="record" tags="n.*">
+			<acception lemma="historial" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="trash" tags="*"/>
+		<select lemma="can" tags="n.*">
+			<acception lemma="cubo" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="necessary" tags="*"/>
+		<select lemma="measure" tags="n.*">
+			<acception lemma="medida" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="trust" tags="n.*">
+			<acception lemma="fiduciario" tags="n.*"/>
+		</select>	
+		<skip lemma="fund" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="ice" tags="*"/>
+		<select lemma="sheet" tags="n.*">
+			<acception lemma="capa" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<select lemma="display" tags="n.*">
+			<acception lemma="exposición" tags="n.*"/>
+		</select>
+		<skip lemma="of" tags="pr.*"/>
+		<skip lemma="paintings" tags="*"/>
+	</rule>
+	
+	<rule>
+		<skip lemma="flower" tags="*"/>
+		<select lemma="bouquet" tags="n.*">
+			<acception lemma="ramo" tags="n.*"/>
+		</select>
+	</rule>
+	
+	<rule>
+		<skip lemma="wine" tags="*"/>
+		<select lemma="bouquet" tags="n.*">
+			<acception lemma="buqué" tags="n.*"/>
+		</select>
+	</rule>	
+	
 </rules>

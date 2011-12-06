@@ -1167,6 +1167,7 @@
 			<acception lemma="consejo" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
+		</skip>
 		<skip lemma="directors" tags="*"/>
 	</rule>
 	
@@ -1175,6 +1176,7 @@
 			<acception lemma="comisión" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
+		</skip>
 		<skip lemma="inquiry" tags="*"/>
 	</rule>
 	
@@ -1218,6 +1220,7 @@
 			<acception lemma="periodo" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
+		</skip>
 		<skip lemma="imprisonment" tags="*"/>
 	</rule>
 	
@@ -1247,6 +1250,7 @@
 			<acception lemma="punto" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
+		</skip>
 		<skip lemma="sale" tags="*"/>
 	</rule>
 	
@@ -1285,6 +1289,7 @@
 			<acception lemma="puesto" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
+		</skip>
 		<skip lemma="responsibility" tags="*"/>
 	</rule>
 	
@@ -1314,6 +1319,7 @@
 			<acception lemma="tramo" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
+		</skip>
 		<skip lemma="stairs" tags="*"/>
 	</rule>
 	
@@ -1420,6 +1426,7 @@
 			<acception lemma="exposición" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
+		</skip>
 		<skip lemma="paintings" tags="*"/>
 	</rule>
 	

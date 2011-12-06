@@ -1444,4 +1444,189 @@
 		</select>
 	</rule>	
 	
+	<rule>
+		<match lemma="human" tags="*"/>
+		<match lemma="cell" tags="n.*">
+			<select lemma="célula" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="book" tags="*"/>
+		<match lemma="club" tags="n.*">
+			<select lemma="círculo" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="book" tags="*"/>
+		<match lemma="review" tags="n.*">
+			<select lemma="reseña" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="bike" tags="*"/>
+		<match lemma="shed" tags="n.*">
+			<select lemma="cobertizo" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="oven" tags="*"/>
+		<match lemma="gloves" tags="n.*">
+			<select lemma="manoplas" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="blanket" tags="n.*">
+			<select lemma="manto" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		</match>
+		<match lemma="fog" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="case" tags="n.*">
+			<select lemma="caja" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		</match>
+		<match lemma="wine" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="cash" tags="*"/>
+		<match lemma="crop" tags="n.*">
+			<select lemma="cultivo" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="cash" tags="*"/>
+		<match lemma="register" tags="n.*">
+			<select lemma="registradora" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="hospital" tags="*"/>
+		<match lemma="ward" tags="n.*">
+			<select lemma="sala" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="police" tags="*"/>
+		<match lemma="officer" tags="n.*">
+			<select lemma="agente" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="commissioned" tags="*"/>
+		<match lemma="officer" tags="n.*">
+			<select lemma="oficial" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="tax" tags="*"/>
+		<match lemma="break" tags="n.*">
+			<select lemma="ventaja" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="tax" tags="*"/>
+		<match lemma="bracket" tags="n.*">
+			<select lemma="banda" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="tax" tags="*"/>
+		<match lemma="form" tags="n.*">
+			<select lemma="declaración" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="tax" tags="*"/>
+		<match lemma="haven" tags="n.*">
+			<select lemma="paraíso" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="tax" tags="*"/>
+		<match lemma="cut" tags="n.*">
+			<select lemma="reducción" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="river" tags="*"/>
+		<match lemma="bed" tags="n.*">
+			<select lemma="lecho" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="software" tags="*"/>
+		<match lemma="bug" tags="n.*">
+			<select lemma="error" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="track" tags="*"/>
+		<match lemma="meet" tags="n.*">
+			<select lemma="competencia" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="length" tags="n.*">
+			<select lemma="periodo" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		</match>
+		<match lemma="time" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="violin" tags="*"/>
+		<match lemma="string" tags="n.*">
+			<select lemma="cuerda" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="string" tags="n.*">
+			<select lemma="rosario" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		</match>
+		<match lemma="islands" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="gum" tags="*"/>
+		<match lemma="stick" tags="n.*">
+			<select lemma="barra" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="stick" tags="n.*">
+			<select lemma="tallo" tags="n.*"/>
+		</match>	
+		<match lemma="of" tags="pr.*"/>
+		</match>
+		<match lemma="celery" tags="*"/>
+	</rule>	
+	
 </rules>

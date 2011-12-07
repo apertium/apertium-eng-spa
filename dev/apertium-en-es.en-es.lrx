@@ -1167,7 +1167,7 @@
 			<acception lemma="consejo" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
-		</skip>
+		<skip/>
 		<skip lemma="directors" tags="*"/>
 	</rule>
 	
@@ -1176,7 +1176,7 @@
 			<acception lemma="comisión" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
-		</skip>
+		<skip/>
 		<skip lemma="inquiry" tags="*"/>
 	</rule>
 	
@@ -1220,7 +1220,7 @@
 			<acception lemma="periodo" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
-		</skip>
+		<skip/>
 		<skip lemma="imprisonment" tags="*"/>
 	</rule>
 	
@@ -1250,7 +1250,7 @@
 			<acception lemma="punto" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
-		</skip>
+		<skip/>
 		<skip lemma="sale" tags="*"/>
 	</rule>
 	
@@ -1289,7 +1289,7 @@
 			<acception lemma="puesto" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
-		</skip>
+		<skip/>
 		<skip lemma="responsibility" tags="*"/>
 	</rule>
 	
@@ -1319,7 +1319,7 @@
 			<acception lemma="tramo" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
-		</skip>
+		<skip/>
 		<skip lemma="stairs" tags="*"/>
 	</rule>
 	
@@ -1426,7 +1426,7 @@
 			<acception lemma="exposición" tags="n.*"/>
 		</select>
 		<skip lemma="of" tags="pr.*"/>
-		</skip>
+		<skip/>
 		<skip lemma="paintings" tags="*"/>
 	</rule>
 	
@@ -1484,7 +1484,7 @@
 			<select lemma="manto" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
-		</match>
+		<match/>
 		<match lemma="fog" tags="*"/>
 	</rule>
 	
@@ -1493,7 +1493,7 @@
 			<select lemma="caja" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
-		</match>
+		<match/>
 		<match lemma="wine" tags="*"/>
 	</rule>
 	
@@ -1593,7 +1593,7 @@
 			<select lemma="periodo" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
-		</match>
+		<match/>
 		<match lemma="time" tags="*"/>
 	</rule>
 	
@@ -1609,7 +1609,7 @@
 			<select lemma="rosario" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
-		</match>
+		<match/>
 		<match lemma="island" tags="n.pl"/>
 	</rule>
 	
@@ -1625,7 +1625,7 @@
 			<select lemma="tallo" tags="n.*"/>
 		</match>	
 		<match lemma="of" tags="pr.*"/>
-		</match>
+		<match/>
 		<match lemma="celery" tags="*"/>
 	</rule>	
 	
@@ -1638,7 +1638,7 @@
 	
 	<rule>
 		<match lemma="take" tags="*"/>
-		</match>
+		<match/>
 		<match lemma="care" tags="n.*">
 			<select lemma="cuidado" tags="n.*"/>
 		</match>
@@ -1667,7 +1667,7 @@
 	
 	<rule>
 		<match lemma="dog" tags="*"/>
-		<match lemma="'s" tags="gen">
+		<match lemma="'s" tags="gen"/>
 		<match lemma="tail" tags="n.*">
 			<select lemma="cola" tags="n.*"/>
 		</match>
@@ -1706,7 +1706,7 @@
 			<select lemma="divisa" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
-		</match>
+		<match/>
 		<match lemma="honor" tags="*"/>
 	</rule>
 	

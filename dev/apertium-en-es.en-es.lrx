@@ -1610,7 +1610,7 @@
 		</match>
 		<match lemma="of" tags="pr.*"/>
 		</match>
-		<match lemma="islands" tags="*"/>
+		<match lemma="island" tags="n.pl"/>
 	</rule>
 	
 	<rule>
@@ -1628,5 +1628,172 @@
 		</match>
 		<match lemma="celery" tags="*"/>
 	</rule>	
+	
+	<rule>
+		<match lemma="medical" tags="*"/>
+		<match lemma="care" tags="n.*">
+			<select lemma="asistencia" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="take" tags="*"/>
+		</match>
+		<match lemma="care" tags="n.*">
+			<select lemma="cuidado" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="little" tags="*"/>
+		<match lemma="cost" tags="n.*">
+			<select lemma="precio" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="tree" tags="*"/>
+		<match lemma="trunk" tags="n.*">
+			<select lemma="tronco" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="elephant" tags="*"/>
+		<match lemma="trunk" tags="n.*">
+			<select lemma="tronco" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="dog" tags="*"/>
+		<match lemma="'s" tags="gen">
+		<match lemma="tail" tags="n.*">
+			<select lemma="cola" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="political" tags="*"/>
+		<match lemma="spin" tags="n.*">
+			<select lemma="sesgo" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="art" tags="*"/>
+		<match lemma="dealer" tags="n.*">
+			<select lemma="marchante" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="drug" tags="*"/>
+		<match lemma="dealer" tags="n.*">
+			<select lemma="traficante" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="car" tags="*"/>
+		<match lemma="dealer" tags="n.*">
+			<select lemma="concesionario" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="badge" tags="n.*">
+			<select lemma="divisa" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		</match>
+		<match lemma="honor" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="land" tags="*"/>
+		<match lemma="forces" tags="n.*">
+			<select lemma="ejército" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="sketch" tags="*"/>
+		<match lemma="pad" tags="n.*">
+			<select lemma="bloc" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="head" tags="n.*">
+			<select lemma="jefe" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match lemma="state" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="landing" tags="*"/>
+		<match lemma="craft" tags="n.*">
+			<select lemma="lancha" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="landing" tags="*"/>
+		<match lemma="gear" tags="n.*">
+			<select lemma="tren" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="art" tags="*"/>
+		<match lemma="form" tags="n.*">
+			<select lemma="manifestación" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="house" tags="n.*">
+			<select lemma="cámara" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match lemma="representatives" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="constitutional" tags="*"/>
+		<match lemma="amendment" tags="n.*">
+			<select lemma="enmienda" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="record" tags="*"/>
+		<match lemma="label" tags="n.*">
+			<select lemma="sello" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="pollution" tags="*"/>
+		<match lemma="scare" tags="n.*">
+			<select lemma="alarma" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="newspaper" tags="*"/>
+		<match lemma="stand" tags="n.*">
+			<select lemma="quiosco" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="wind" tags="*"/>
+		<match lemma="power" tags="n.*">
+			<select lemma="energía" tags="n.*"/>
+		</match>
+	</rule>
 	
 </rules>

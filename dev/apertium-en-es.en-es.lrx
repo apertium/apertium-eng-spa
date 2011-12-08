@@ -1790,4 +1790,204 @@
 		</match>
 	</rule>
 	
+	<rule>
+		<match lemma="fruit" tags="*"/>
+		<match lemma="stand" tags="n.*">
+			<select lemma="puesto" tags="n.*"/>
+		</match>	
+	</rule>
+	
+	<rule>
+		<match lemma="travel" tags="*"/>
+		<match lemma="by" tags="*"/>
+		<match lemma="rail" tags="n.*">
+			<select lemma="tren" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="product" tags="*"/>
+		<match lemma="launch" tags="n.*">
+			<select lemma="lanzamiento" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="shaft" tags="n.*">
+			<select lemma="rayo" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="light" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="elevator" tags="*"/>
+		<match lemma="shaft" tags="n.*">
+			<select lemma="hueco" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="drive" tags="*"/>
+		<match lemma="shaft" tags="n.*">
+			<select lemma="eje" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="elevator" tags="*"/>
+		<match lemma="car" tags="n.*">
+			<select lemma="caja" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="piece" tags="n.*">
+			<select lemma="pedazo" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="pie" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="piece" tags="n.*">
+			<select lemma="pieza" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="music" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="slice" tags="n.*">
+			<select lemma="loncha" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="ham" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="slice" tags="n.*">
+			<select lemma="trozo" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="cake" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="snippet" tags="n.*">
+			<select lemma="fragmento" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="news" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="article" tags="n.*">
+			<select lemma="prenda" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="clothing" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="definite" tags="*"/>
+		<match lemma="article" tags="n.*">
+			<select lemma="artículo" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="cube" tags="n.*">
+			<select lemma="cúbica" tags="n.*"/>
+		</match>
+		<match lemma="root" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="production" tags="*"/>
+		<match lemma="line" tags="n.*">
+			<select lemma="cadena" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="film" tags="*"/>
+		<match lemma="production" tags="n.*">
+			<select lemma="producción" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="own" tags="*"/>
+		<match/>
+		<match lemma="share" tags="n.*">
+			<select lemma="acción" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="wire" tags="*"/>
+		<match lemma="casing" tags="n.*">
+			<select lemma="revestimiento" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="take" tags="*"/>
+		<match lemma="cover" tags="n.*">
+			<select lemma="cubierto" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="magazine" tags="*"/>
+		<match lemma="cover" tags="n.*">
+			<select lemma="portada" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="snail" tags="*"/>
+		<match lemma="shell" tags="n.*">
+			<select lemma="concha" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="turtle" tags="*"/>
+		<match lemma="shell" tags="n.*">
+			<select lemma="caparazón" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="pack" tags="n.*">
+			<select lemma="pandilla" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="thieves" tags="n.pl"/>
+	</rule>
+	
+	<rule>
+		<match lemma="pack" tags="n.*">
+			<select lemma="carga" tags="n.*"/>
+		</match>
+		<match lemma="animal" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="milk" tags="*"/>
+		<match lemma="carton" tags="n.*">
+			<select lemma="cartón" tags="n.*"/>
+		</match>
+	</rule>	
+	
 </rules>

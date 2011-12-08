@@ -1752,7 +1752,7 @@
 			<select lemma="cámara" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
-		<match lemma="representatives" tags="*"/>
+		<match lemma="representatives" tags="n.pl"/>
 	</rule>
 	
 	<rule>
@@ -1791,7 +1791,11 @@
 	</rule>
 	
 	<rule>
+	  <or>
 		<match lemma="fruit" tags="*"/>
+		<match lemma="vegetable" tags="*"/>
+		<match lemma="lemonade" tags="*"/>
+	  </or>
 		<match lemma="stand" tags="n.*">
 			<select lemma="puesto" tags="n.*"/>
 		</match>	
@@ -1822,7 +1826,10 @@
 	</rule>
 	
 	<rule>
+	  <or>
 		<match lemma="elevator" tags="*"/>
+		<match lemma="lift" tags="*"/>
+	  </or>	
 		<match lemma="shaft" tags="n.*">
 			<select lemma="hueco" tags="n.*"/>
 		</match>
@@ -1897,7 +1904,12 @@
 	</rule>
 	
 	<rule>
+	  <or>	
 		<match lemma="definite" tags="*"/>
+		<match lemma="indefinite" tags="*"/>
+		<match lemma="newspaper" tags="*"/>
+		<match lemma="magazine" tags="*"/>
+	  </or>	
 		<match lemma="article" tags="n.*">
 			<select lemma="artículo" tags="n.*"/>
 		</match>

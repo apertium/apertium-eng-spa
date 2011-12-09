@@ -2002,4 +2002,199 @@
 		</match>
 	</rule>	
 	
+	<rule>
+		<match lemma="shock" tags="n.*">
+			<select lemma="choque" tags="n.*"/>
+		</match>
+		<match lemma="wave" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="shock" tags="n.*">
+			<select lemma="electrochoque" tags="n.*"/>
+		</match>
+		<match lemma="therapy" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="electric" tags="*"/>
+		<match lemma="shock" tags="n.*">
+			<select lemma="descarga" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="lock" tags="n.*">
+			<select lemma="mechón" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="hair" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="great" tags="*"/>
+		<match lemma="seal" tags="n.*">
+			<select lemma="sello" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="cut" tags="n.*">
+			<select lemma="pieza" tags="n.*"/>
+		</match>	
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="meat" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="cut" tags="n.*">
+			<select lemma="tajada" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="profits" tags="n.pl"/>
+	</rule>
+	
+	<rule>
+		<match lemma="price" tags="*"/>
+		<match lemma="cut" tags="n.*">
+			<select lemma="recorte" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="side" tags="*"/>
+		<match lemma="view" tags="n.*">
+			<select lemma="lateral" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="side" tags="n.*">
+			<select lemma="lado" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="house" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="side" tags="n.*">
+			<select lemma="ladera" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="mountain" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="side" tags="n.*">
+			<select lemma="acompañamiento" tags="n.*"/>
+		</match>
+		<match lemma="dish" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="border" tags="n.*">
+			<select lemma="fronterizo" tags="n.*"/>
+		</match>
+		<match lemma="guard" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="fringe" tags="n.*">
+			<select lemma="marginal" tags="n.*"/>
+		</match>
+		<match lemma="group" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="stone" tags="n.*">
+			<select lemma="piedra" tags="n.*"/>
+		</match>
+		<match lemma="age" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="newspaper" tags="*"/>
+		<match lemma="editor" tags="n.*">
+			<select lemma="director" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="text" tags="*"/>
+		<match lemma="editor" tags="n.*">
+			<select lemma="editor" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="body" tags="n.*">
+			<select lemma="conjunto" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="evidence" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="body" tags="n.*">
+			<select lemma="corporal" tags="n.*"/>
+		</match>
+		<match lemma="language" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="body" tags="n.*">
+			<select lemma="masa" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="water" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="collection" tags="n.*">
+			<select lemma="grupo" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="people" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="mass" tags="n.*">
+			<select lemma="común" tags="n.*"/>
+		</match>
+		<match lemma="grave" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="mass" tags="n.*">
+			<select lemma="colectiva" tags="n.*"/>
+		</match>
+		<match lemma="hysteria" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="heard" tags="n.*">
+			<select lemma="rebaño" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="cattle" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="heard" tags="n.*">
+			<select lemma="manada" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="horses" tags="n.pl"/>
+	</rule>	
+	
 </rules>

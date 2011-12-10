@@ -1923,7 +1923,10 @@
 	</rule>
 	
 	<rule>
+	  <or>
 		<match lemma="production" tags="*"/>
+		<match lemma="assembly" tags="*"/>
+	  </or>	
 		<match lemma="line" tags="n.*">
 			<select lemma="cadena" tags="n.*"/>
 		</match>
@@ -1989,10 +1992,10 @@
 	</rule>
 	
 	<rule>
-		<match lemma="pack" tags="n.*">
-			<select lemma="carga" tags="n.*"/>
-		</match>
-		<match lemma="animal" tags="*"/>
+		<match lemma="pack" tags="*"/>
+		<match lemma="animal" tags="n.*">
+			<select lemma="bestia" tags="n.*"/>
+		</match>	
 	</rule>
 	
 	<rule>
@@ -2001,20 +2004,6 @@
 			<select lemma="cartón" tags="n.*"/>
 		</match>
 	</rule>	
-	
-	<rule>
-		<match lemma="shock" tags="n.*">
-			<select lemma="choque" tags="n.*"/>
-		</match>
-		<match lemma="wave" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="shock" tags="n.*">
-			<select lemma="electrochoque" tags="n.*"/>
-		</match>
-		<match lemma="therapy" tags="*"/>
-	</rule>
 	
 	<rule>
 		<match lemma="electric" tags="*"/>
@@ -2087,35 +2076,7 @@
 		<match lemma="of" tags="pr.*"/>
 		<match/>
 		<match lemma="mountain" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="side" tags="n.*">
-			<select lemma="acompañamiento" tags="n.*"/>
-		</match>
-		<match lemma="dish" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="border" tags="n.*">
-			<select lemma="fronterizo" tags="n.*"/>
-		</match>
-		<match lemma="guard" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="fringe" tags="n.*">
-			<select lemma="marginal" tags="n.*"/>
-		</match>
-		<match lemma="group" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="stone" tags="n.*">
-			<select lemma="piedra" tags="n.*"/>
-		</match>
-		<match lemma="age" tags="*"/>
-	</rule>
+	</rule>	
 	
 	<rule>
 		<match lemma="newspaper" tags="*"/>
@@ -2142,13 +2103,6 @@
 	
 	<rule>
 		<match lemma="body" tags="n.*">
-			<select lemma="corporal" tags="n.*"/>
-		</match>
-		<match lemma="language" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="body" tags="n.*">
 			<select lemma="masa" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
@@ -2166,21 +2120,7 @@
 	</rule>
 	
 	<rule>
-		<match lemma="mass" tags="n.*">
-			<select lemma="común" tags="n.*"/>
-		</match>
-		<match lemma="grave" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="mass" tags="n.*">
-			<select lemma="colectiva" tags="n.*"/>
-		</match>
-		<match lemma="hysteria" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="heard" tags="n.*">
+		<match lemma="herd" tags="n.*">
 			<select lemma="rebaño" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
@@ -2189,12 +2129,92 @@
 	</rule>
 	
 	<rule>
-		<match lemma="heard" tags="n.*">
+		<match lemma="herd" tags="n.*">
 			<select lemma="manada" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
 		<match/>
 		<match lemma="horses" tags="n.pl"/>
 	</rule>	
+	
+	<rule>
+		<match lemma="herd" tags="n.*">
+			<select lemma="manada" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="people"/>
+	</rule>
+	
+	<rule>
+		<match lemma="smoke" tags="*"/>
+		<match/>
+		<match lemma="pack" tags="n.*">
+			<select lemma="paquete" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="flock" tags="n.*">
+			<select lemma="bandada" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="birds" tags="n.pl"/>
+	</rule>
+	
+	<rule>
+		<match lemma="read" tags="*"/>
+		<match/>
+		<match lemma="passage" tags="n.*">
+			<select lemma="pasaje" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="horse" tags="*"/>
+		<match lemma="rider" tags="n.*">
+			<select lemma="jinete" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="path" tags="n.*">
+			<select lemma="trayectoria" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="planet" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="blood" tags="*"/>
+		<match lemma="vessel" tags="n.*">
+			<select lemma="vaso" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="keep" tags="*"/>
+		<match/>
+		<match lemma="count" tags="n.*">
+			<select lemma="cuenta" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="price" tags="*"/>
+		<match lemma="tag" tags="n.*">
+			<select lemma="etiqueta" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="personal" tags="*"/>
+		<match lemma="gain" tags="n.*">
+			<select lemma="beneficio" tags="n.*"/>
+		</match>
+	</rule>	
+		
 	
 </rules>

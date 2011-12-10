@@ -102,7 +102,10 @@
   </rule>
   
   <rule>
+    <or>
     <match lemma="piano" tags="*"/>
+    <match lemma="typewriter" tags="*"/>
+    </or>
     <match lemma="key" tags="n.*">
       <select lemma="tecla" tags="n.*"/>
     </match>
@@ -123,7 +126,10 @@
   </rule>
   
   <rule>
+   <or>
     <match lemma="baseball" tags="*"/>
+    <match lemma="cricket" tags="*"/>
+   </or> 
     <match lemma="bat" tags="n.*">
       <select lemma="bate" tags="n.*"/>
     </match>
@@ -160,7 +166,10 @@
   </rule>
   
   <rule> 
+   <or>
     <match lemma="multiplication" tags="*"/>
+    <match lemma="league" tags="*"/>
+   </or> 
     <match lemma="table" tags="n.*">
       <select lemma="tabla" tags="n.*"/>
     </match>
@@ -181,26 +190,32 @@
   </rule>
   
   <rule>
+   <or>
     <match lemma="political" tags="*"/>
+    <match lemma="mass" tags="*"/>
+    <match lemma="lateral" tags="*"/>
+    <match lemma="vertical" tags="*"/>
+    <match lemma="horizontal" tags="*"/>
+    <match lemma="upwards" tags="*"/>
+    <match lemma="sideways" tags="*"/>
+    <match lemma="diagonal" tags="*"/>
+   </or> 
     <match lemma="movement" tags="n.*">
       <select lemma="movimiento" tags="n.*"/>
     </match>
   </rule>
   
   <rule>
+   <or>
+    <match lemma="trolley" tags="*"/>
     <match lemma="car" tags="*"/>
+    <match lemma="bicycle" tags="*"/>
+    <match lemma="tricycle" tags="*"/>
+    <match lemma="motorcycle" tags="*"/>
+   </or> 
     <match lemma="wheel" tags="n.*">
       <select lemma="rueda" tags="n.*"/>
     </match>
-  </rule>  
-  
-  <rule>
-    <match lemma="wheel" tags="n.*">
-      <select lemma="rueda" tags="n.*"/>
-    </match>
-    <match lemma="of" tags="pr.*"/>
-    <match/>
-    <match lemma="car" tags="*"/>
   </rule>  
  
   <rule>
@@ -259,7 +274,10 @@
   </rule>
   
   <rule>
+   <or>
     <match lemma="rock" tags="*"/>
+    <match lemma="pop" tags="*"/>
+   </or> 
     <match lemma="band" tags="n.*">
       <select lemma="grupo" tags="n.*"/>
     </match>
@@ -267,6 +285,10 @@
   
   <rule>
     <or>
+      <match lemma="jazz" tags="*"/>
+      <match lemma="concert" tags="*"/>
+      <match lemma="brass" tags="*"/>
+      <match lemma="military" tags="*"/>
       <match lemma="rubber" tags="*"/>
       <match lemma="elastic" tags="*"/>
     </or>
@@ -276,7 +298,14 @@
   </rule>
   
   <rule> 
+   <or>
+   	<match lemma="grape" tags="*"/>
+   	<match lemma="apricot" tags="*"/>
+   	<match lemma="peach" tags="*"/>
+   	<match lemma="blackberry" tags="*"/>
+   	<match lemma="plum" tags="*"/>
     <match lemma="strawberry" tags="*"/>
+   </or> 
     <match lemma="jam" tags="n.*">
       <select lemma="mermelada" tags="n.*"/>
     </match>
@@ -297,14 +326,20 @@
   </rule>
   
   <rule>
+  	<or>
+  	<match lemma="theoretical" tags="*"/>
     <match lemma="paint" tags="*"/>
+    </or>
     <match lemma="application" tags="n.*">
       <select lemma="aplicación" tags="n.*"/>
     </match>
   </rule>
   
   <rule>
+  	<or>
+  	<match lemma="patent" tags="*"/>
     <match lemma="job" tags="*"/>
+    </or>
     <match lemma="application" tags="n.*">
       <select lemma="solicitud" tags="n.*"/>
     </match>
@@ -318,6 +353,7 @@
   </rule>
   
   <rule>
+  
     <match lemma="football" tags="*"/>
     <match lemma="game" tags="n.*">
       <select lemma="partido" tags="n.*"/>
@@ -325,7 +361,11 @@
   </rule>
   
   <rule>
+   <or>
+    <match lemma="bus" tags="*"/>
     <match lemma="train" tags="*"/>
+    <match lemma="subway" tags="*"/>
+   </or> 
     <match lemma="station" tags="n.*">
       <select lemma="estación" tags="n.*"/>
     </match>

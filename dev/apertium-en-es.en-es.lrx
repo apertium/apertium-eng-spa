@@ -2454,6 +2454,188 @@
 		<match lemma="of" tags="pr.*"/>
 		<match/>
 		<match lemma="mountain" tags="*"/>
-	</rule>		
+	</rule>	
+	
+	<rule>
+		<match lemma="film" tags="*"/>
+		<match lemma="stunt" tags="n.*">
+			<select lemma="escena" tags="n.*"/>
+		</match>	
+	</rule>
+	
+	<rule>
+		<match lemma="gregorian" tags="*"/>
+		<match lemma="chant" tags="n.*">
+			<select lemma="canto" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="scientific" tags="*"/>
+		<match lemma="demonstration" tags="n.*">
+			<select lemma="demostración" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="political" tags="*"/>
+		<match lemma="demonstration" tags="n.*">
+			<select lemma="manifestación" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="spy" tags="*"/>
+		<match lemma="ring" tags="n.*">
+			<select lemma="red" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+	  <or>
+	    <match lemma="friendship" tags="*"/>
+	    <match lemma="diamond" tags="*"/>
+	    <match lemma="engagement" tags="*"/>
+		<match lemma="wedding" tags="*"/>
+	  </or>	
+		<match lemma="ring" tags="n.*">
+			<select lemma="anillo" tags="n.*"/>
+		</match>
+	</rule>	
+	
+	<rule>
+		<match lemma="criminal" tags="*"/>
+		<match lemma="court" tags="n.*">
+			<select lemma="juzgado" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="criminal" tags="*"/>
+		<match lemma="law" tags="n.*">
+			<select lemma="derecho" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="gang" tags="n.*">
+			<select lemma="pandilla" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+	  <or>
+	  	<match lemma="friends" tags="n.pl"/>
+	  	<match lemma="children" tags="*"/>
+	  </or>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="street" tags="*"/>
+	 	<match lemma="gang" tags="n.*">'
+	 		<select lemma="banda" tags="n.*"/>
+	 	</match>
+	 </rule>	
+	 
+	 <rule>
+	 	<match lemma="shoe" tags="*"/>
+	 	<match lemma="strap" tags="n.*">
+	 		<select lemma="tira" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="strap" tags="n.*">
+	 		<select lemma="correa" tags="n.*"/>
+	 	</match>
+	 	<match lemma="of" tags="pr.*"/>
+	 	<match/>
+	   <or>
+	    <match lemma="purse" tags="*"/>
+	 	<match lemma="bag" tags="*"/>
+	   </or>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="hit" tags="*"/>
+	 	<match lemma="squad" tags="n.*">
+	 		<select lemma="banda" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="police" tags="*"/>
+	 	<match lemma="squad" tags="n.*">
+	 		<select lemma="brigada" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="fire" tags="*"/>
+	 	<match lemma="drill" tags="n.*">
+	 		<select lemma="simulacro" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="hydraulic" tags="*"/>
+	 	<match lemma="drilL" tags="n.*">
+	 		<select lemma="taladro" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="pneumatic" tags="*"/>
+	 	<match lemma="drill" tags="n.*">
+	 		<select lemma="martillo" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="military" tags="*"/>
+	 	<match lemma="exercise" tags="n.*">
+	 		<select lemma="maniobra" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="game" tags="*"/>
+	 	<match lemma="reserve" tags="n.*">
+	 		<select lemma="coto" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="political" tags="*"/>
+	 	<match lemma="arena" tags="n.*">
+	 		<select lemma="arena" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="ice" tags="*"/>
+	 	<match lemma="arena" tags="n.*">
+	 		<select lemma="estadio" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	   <or>
+	   	<match lemma="economic" tags="*"/>
+	   	<match lemma="international" tags="*"/>
+	   </or>
+	 	<match lemma="arena" tags="n.*">
+	 		<select lemma="ruedo" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	   <or>
+	   	<match lemma="political" tags="*"/>
+	   	<match lemma="sporting" tags="*"/>
+	   </or>
+	   	<match lemma="scene" tags="n.*">
+	   		<select lemma="panorama" tags="n.*"/>
+	   	</match>
+	 </rule>	
 	
 </rules>

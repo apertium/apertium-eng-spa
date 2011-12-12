@@ -2511,6 +2511,15 @@
 	</rule>
 	
 	<rule>
+		<match lemma="court" tags="n.*">
+			<select lemma="tribunal" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="law" tags="*"/>
+	</rule>	
+	
+	<rule>
 		<match lemma="criminal" tags="*"/>
 		<match lemma="law" tags="n.*">
 			<select lemma="derecho" tags="n.*"/>
@@ -2531,7 +2540,7 @@
 	 
 	 <rule>
 	 	<match lemma="street" tags="*"/>
-	 	<match lemma="gang" tags="n.*">'
+	 	<match lemma="gang" tags="n.*">
 	 		<select lemma="banda" tags="n.*"/>
 	 	</match>
 	 </rule>	
@@ -2578,7 +2587,7 @@
 	 
 	 <rule>
 	 	<match lemma="hydraulic" tags="*"/>
-	 	<match lemma="drilL" tags="n.*">
+	 	<match lemma="drill" tags="n.*">
 	 		<select lemma="taladro" tags="n.*"/>
 	 	</match>
 	 </rule>

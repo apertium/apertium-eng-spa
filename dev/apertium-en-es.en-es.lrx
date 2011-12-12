@@ -2256,5 +2256,204 @@
 		</match>
 	</rule>	
 		
+	<rule>
+	  <or>
+	  	<match lemma="holiday" tags="*"/>
+		<match lemma="holy" tags="*"/>
+	  </or>	
+		<match lemma="spirit" tags="n.*">
+			<select lemma="espíritu" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="show" tags="*"/>
+		<match/>
+		<match lemma="spirit" tags="n.*">
+			<select lemma="valor" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+	  <or>
+	  	<match lemma="gold" tags="*"/>
+	  	<match lemma="dollar" tags="*"/>
+	  </or>
+	  	<match lemma="standard" tags="n.*">
+	  		<select lemma="patrón" tags="n.*"/>
+	  	</match>
+	</rule> 	
+	
+	<rule>
+		<match lemma="standard" tags="n.*">
+			<select lemma="nivel" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="living" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="mark" tags="n.*">
+			<select lemma="señal" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="respect" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="scuff" tags="*"/>
+		<match lemma="mark" tags="n.*">
+			<select lemma="marca" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+	  <or>
+		<match lemma="clock" tags="*"/>
+		<match lemma="watch" tags="*"/>
+	  </or>	
+		<match lemma="hand" tags="n.*">
+			<select lemma="manecilla" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="surplus" tags="n.*">
+			<select lemma="excedente" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="goods" tags="n.pl"/>
+	</rule>
+	
+	<rule>
+		<match lemma="budget" tags="*"/>
+		<match lemma="surplus" tags="n.*">
+			<select lemma="superávit" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="weather" tags="*"/>
+		<match lemma="forecast" tags="n.*">
+			<select lemma="pronóstico" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="economic" tags="*"/>
+		<match lemma="forecast" tags="n.*">
+			<select lemma="previsión" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="economic" tags="*"/>
+		<match lemma="outlook" tags="n.*">
+			<select lemma="perspectiva" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="bank" tags="*"/>
+		<match lemma="statement" tags="n.*">
+			<select lemma="extracto" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="legal" tags="*"/>
+		<match lemma="brief" tags="n.*">
+			<select lemma="escrito" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="make" tags="*"/>
+		<match/>
+		<match lemma="statement" tags="n.*">
+			<select lemma="declaración" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="bulletin" tags="*"/>
+		<match lemma="board" tags="n.*">
+			<select lemma="tablón" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="proof" tags="n.*">
+			<select lemma="documento" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="identity" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="proof" tags="n.*">
+			<select lemma="tíquet" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="purchase" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="reactor" tags="*"/>
+		<match lemma="core" tags="n.*">
+			<select lemma="núcleo" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="apple" tags="*"/>
+		<match lemma="core" tags="n.*">
+			<select lemma="corazón" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="order" tags="*"/>
+		<match lemma="form" tags="n.*">
+			<select lemma="hoja" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="restore" tags="*"/>
+		<match lemma="order" tags="n.*">
+			<select lemma="orden" tags="n.*"/>
+		</match>
+	</rule>
+	
+	<rule>
+		<match lemma="tree" tags="*"/>
+		<match lemma="top" tags="n.*">
+			<select lemma="copa" tags="n.*"/>
+		</match>
+	</rule>	
+
+	<rule>
+		<match lemma="top" tags="n.*">
+			<select lemma="cabeza" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="list" tags="*"/>
+	</rule>
+	
+	<rule>
+		<match lemma="top" tags="n.*">
+			<select lemma="cima" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="mountain" tags="*"/>
+	</rule>		
 	
 </rules>

@@ -2646,5 +2646,231 @@
 	   		<select lemma="panorama" tags="n.*"/>
 	   	</match>
 	 </rule>	
+	 
+	 <rule>
+	 	<match lemma="archaeological" tags="*"/>
+	 	<match lemma="site" tags="n.*">
+	 		<select lemma="yacimiento" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="cultural" tags="*"/>
+	 	<match lemma="site" tags="n.*">
+	 		<select lemma="sitio" tags="n.*"/>
+	 	</match>
+	</rule>
+
+	<rule>
+		<match lemma="site" tags="n.*">
+			<select lemma="emplazamiento" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="monument" tags="*"/>
+	</rule>
+	
+	<rule>
+	  	<match lemma="spot" tags="n.*">
+	  		<select lemma="algo" tags="n.*"/>
+	  	</match>
+	  	<match lemma="of" tags="pr.*"/>
+	  	<match/>
+	  	<match lemma="lunch" tags="*"/>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="spot" tags="*"/>
+	 	<match lemma="check" tags="n.*">
+	 		<select lemma="inspección" tags="n.*"/>
+	 	</match>
+	 </rule>
+	 
+	 <rule>
+	   <or>
+		<match lemma="television" tags="*"/>
+		<match lemma="radio" tags="*"/>
+	   </or>
+	   	<match lemma="spot" tags="n.*">
+	   		<select lemma="espacio" tags="n.*"/>
+	   	</match>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="dash" tags="n.*">
+	 		<select lemma="toque" tags="n.*"/>
+	 	</match>
+	 	<match lemma="of" tags="pr.*"/>
+	 	<match/>
+	   <or>
+	   	<match lemma="humor" tags="*"/>
+	   	<match lemma="color" tags="*"/>
+	   </or>
+	 </rule>
+	 
+	 <rule>
+	 	<match lemma="dash" tags="n.*">
+	 		<select lemma="pizca" tags="n.*"/>
+	 	</match>
+	 	<match lemma="of" tags="pr.*"/>
+	 	<match/>
+	 <or>
+		<match lemma="sugar" tags="*"/>
+	 	<match lemma="salt" tags="*"/>
+	 </or>	
+	 </rule>	
+	 
+	 <rule>
+	  <or>
+	  	<match lemma="television" tags="*"/>
+	  	<match lemma="radio" tags="*"/>
+	  </or>
+	  	<match lemma="slot" tags="n.*">
+	  		<select lemma="hueco" tags="n.*"/>
+	  	</match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="computer" tags="*"/>
+	  	<match lemma="slot" tags="n.*">
+	  		<select lemma="ranura" tags="n.*"/>
+	  	</match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="corner" tags="*"/>
+	  	<match lemma="kick" tags="n.*">
+	  		<select lemma="saque" tags="n.*"/>
+	  	</match>
+	  </rule>
+	  
+	  <rule>
+	   <or>
+	  	<match lemma="page" tags="*"/>
+	  	<match lemma="screen" tags="*"/>
+	  	<match lemma="street" tags="*"/>
+	   </or>
+	   	<match lemma="corner" tags="n.*">
+	   		<select lemma="esquina" tags="n.*"/>
+	   	</match>
+	  </rule>
+	  
+	  <rule>
+	   <or>
+	  	<match lemma="telephone" tags="*"/>
+	  	<match lemma="voting" tags="*"/>
+	   </or>
+	    <match lemma="booth" tags="n.*">
+	    	<select lemma="cabina" tags="n.*"/>
+	    </match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="vote" tags="n.*">
+	  		<select lemma="voto" tags="n.*"/>
+	  	</match>
+	  	<match lemma="of" tags="pr.*"/>
+	  	<match lemma="confidence" tags="*"/>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="vote" tags="n.*">
+	  		<select lemma="moción" tags="n.*"/>
+	  	</match>
+	  	<match lemma="of" tags="pr.*"/>
+	  	<match lemma="no" tags="*"/>
+	  	<match lemma="confidence" tags="*"/>
+	  </rule>
+	  
+	  <rule>
+	  	<or>
+	  	 <match lemma="warm" tags="*"/>
+	  	 <match lemma="cold" tags="*"/>
+	  	</or>
+	  	 <match lemma="spell" tags="n.*">
+	  	 	<select lemma="ola" tags="n.*"/>
+	  	 </match>
+	  </rule>
+	  
+	  <rule>
+	    <or>
+	     <match lemma="good" tags="*"/>
+	     <match lemma="bad" tags="*"/>
+	    </or>
+	     <match lemma="spell" tags="n.*">
+	     	<select lemma="racha" tags="n.*"/>
+	     </match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="job" tags="*"/>
+	  	<match lemma="opening" tags="n.*">
+	  		<select lemma="vacante" tags="n.*"/>
+	  	</match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="opening" tags="n.*">
+	  		<select lemma="entrada" tags="n.*"/>
+	  	</match>
+	  	<match lemma="of" tags="pr.*"/>
+	  	<match/>
+	   <or>
+	    <match lemma="cave" tags="*"/>
+	    <match lemma="tunnel" tags="*"/>
+	   </or>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="cast" tags="n.*">
+	  		<select lemma="reparto" tags="n.*"/>
+	  	</match>
+	  	<match lemma="of" tags="pr.*"/>
+	  	<match/>
+	   <or>
+	    <match lemma="play" tags="*"/>
+	    <match lemma="movie" tags="*"/>
+	   </or>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="job" tags="*"/>
+	  	<match lemma="description" tags="n.*">
+	  		<select lemma="responsabilidades" tags="n.*"/>
+	  	</match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="explosive" tags="*"/>
+	  	<match lemma="charge" tags="n.*">
+	  		<select lemma="carga" tags="n.*"/>
+	  	</match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="university" tags="*"/>
+	  	<match lemma="president" tags="n.*">
+	  		<select lemma="rector" tags="n.*"/>
+	  	</match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="get" tags="*"/>
+	  	<match/>
+	   <or>
+	    <match lemma="good" tags="*"/>
+	    <match lemma="bad" tags="*"/>
+	   </or>
+	   	<match lemma="deal" tags="n.*">
+	   		<select lemma="trato" tags="n.*"/>
+	   	</match>
+	  </rule>
+	  
+	  <rule>
+	  	<match lemma="soccer" tags="*"/>
+	  	<match lemma="pitch" tags="n.*">
+	  		<select lemma="campo" tags="n.*"/>
+	  	</match>
+	  </rule>
 	
 </rules>

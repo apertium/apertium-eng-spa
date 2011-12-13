@@ -2830,13 +2830,14 @@
 	   <or>
 	    <match lemma="play" tags="*"/>
 	    <match lemma="movie" tags="*"/>
+	    <match lemma="film" tags="*"/>
 	   </or>
 	  </rule>
 	  
 	  <rule>
 	  	<match lemma="job" tags="*"/>
 	  	<match lemma="description" tags="n.*">
-	  		<select lemma="responsabilidades" tags="n.*"/>
+	  		<select lemma="responsabilidad" tags="n.pl"/>
 	  	</match>
 	  </rule>
 	  
@@ -2867,7 +2868,10 @@
 	  </rule>
 	  
 	  <rule>
+	   <or>
 	  	<match lemma="soccer" tags="*"/>
+	  	<match lemma="football" tags="*"/>
+	   </or>	
 	  	<match lemma="pitch" tags="n.*">
 	  		<select lemma="campo" tags="n.*"/>
 	  	</match>

@@ -136,7 +136,15 @@
   </rule>
   
   <rule>
+   <or>
+    <match lemma="democratic" tags="*"/>
+    <match lemma="republican" tags="*"/>
+    <match lemma="labour" tags="*"/>
+    <match lemma="conservative" tags="*"/>
+    <match lemma="communist" tags="*"/>
+    <match lemma="liberatarian" tags="*"/>
     <match lemma="political" tags="*"/>
+   </or> 
     <match lemma="party" tags="n.*">
       <select lemma="partido" tags="n.*"/>
     </match>
@@ -353,8 +361,7 @@
   </rule>
   
   <rule>
-  
-    <match lemma="football" tags="*"/>
+  	<match lemma="football" tags="*"/>
     <match lemma="game" tags="n.*">
       <select lemma="partido" tags="n.*"/>
     </match>
@@ -3131,5 +3138,236 @@
 		<match/>
 		<match lemma="disease" tags="*"/>
 	</rule>	
+	
+	<rule>
+		<match lemma="do" tags="*"/>
+		<match/>
+ 	 <or>
+  		<match lemma="good" tags="*"/>
+  		<match lemma="bad" tags="*"/>
+ 	 </or>
+  		<match lemma="deed" tags="n.*">
+  			<select lemma="acción" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="property" tags="*"/>
+  		<match lemma="deed" tags="n.*">
+  			<select lemma="escritura" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="bomb" tags="*"/>
+  		<match lemma="scare" tags="n.*">
+  			<select lemma="amenaza" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="instrument" tags="*"/>
+  		<match lemma="panel" tags="n.*">
+  			<select lemma="panel" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="jury" tags="*"/>
+  		<match lemma="box" tags="n.*">
+  			<select lemma="tribuna" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  	  <or>
+  		<match lemma="political" tags="*"/>
+  		<match lemma="state" tags="*"/>
+  	  </or>
+  	  	<match lemma="function" tags="n.*">
+  	  		<select lemma="acto" tags="n.*"/>
+  	  	</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="wedding" tags="*"/>
+  		<match lemma="reception" tags="n.*">
+  			<select lemma="banquete" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  	 <or>
+  		<match lemma="brick" tags="*"/>
+  		<match lemma="stone" tags="*"/>
+  	 </or>	
+  		<match lemma="wall" tags="n.*">
+  			<select lemma="muro" tags="n.*"/>
+  		</match>
+  	</rule>	
+  	
+  	<rule>
+  		<match lemma="ocean" tags="*"/>
+  		<match lemma="floor" tags="n.*">
+  			<select lemma="fondo" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  	  <or>
+  		<match lemma="picture" tags="*"/>
+  		<match lemma="door" tags="*"/>
+  	  </or>	
+  		<match lemma="frame" tags="n.*">
+  			<select lemma="marco" tags="n.*"/>
+  		</match>	
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="layer" tags="n.*">
+  			<select lemma="capa" tags="n.*"/>
+  		</match>
+  		<match lemma="of" tags="pr.*"/>
+  		<match/>
+  		<match lemma="paint" tags="*"/>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="layer" tags="n.*">
+  			<select lemma="estrato" tags="n.*"/>
+  		</match>
+  		<match lemma="of" tags="pr.*"/>
+  		<match/>
+  		<match lemma="rock" tags="*"/>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="vein" tags="n.*">
+  			<select lemma="veta" tags="n.*"/>
+  		</match>
+  		<match lemma="of" tags="pr.*"/>
+  		<match/>
+  	  <or>
+  	  	<match lemma="silver" tags="*"/>
+  	  	<match lemma="gold" tags="*"/>
+  	  	<match lemma="iron" tags="*"/>
+  	  	<match lemma="coal" tags="*"/>
+  	  	<match lemma="copper" tags="*"/>
+  	  </or>
+  	</rule>
+  	
+  	<rule>
+  	  <or>
+  	  	<match lemma="winning" tags="*"/>
+  	  	<match lemma="losing" tags="*"/>
+  	  </or>
+  	  	<match lemma="streak" tags="n.*">
+  	  		<select lemma="racha" tags="n.*"/>
+  	  	</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="make" tags="*"/>
+  		<match/>
+  		<match lemma="deposit" tags="n.*">
+  			<select lemma="depósito" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="put" tags="*"/>
+  		<match lemma="down" tags="*"/>
+  		<match/>
+  		<match lemma="deposit" tags="n.*">
+  			<select lemma="entrada" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="pay" tags="*"/>
+  		<match/>
+  		<match lemma="installment" tags="n.*">
+  			<select lemma="plazo" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  	  <or>
+  	  	<match lemma="wooden" tags="*"/>
+  	  	<match lemma="metal" tags="*"/>
+  	  </or>
+  	  	<match lemma="stake" tags="n.*">
+  	  		<select lemma="estaca" tags="n.*"/>
+  	  	</match>
+  	</rule>
+  	
+  	<rule>
+  	  <or>
+  		<match lemma="bank" tags="*"/>
+  		<match lemma="seed" tags="*"/>
+  	  </or>	
+  		<match lemma="vault" tags="n.*">
+  			<select lemma="bóveda" tags="n.*"/>
+  		</match>
+  	</rule>	
+  	
+  	<rule>
+  		<match lemma="serve" tags="*"/>
+  		<match/>
+  		<match lemma="purpose" tags="n.*">
+  			<select lemma="finalidad" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  	  <or>
+  	  	<match lemma="public" tags="*"/>
+  	  	<match lemma="controlling" tags="*"/>
+  	  	<match lemma="common" tags="*"/>
+  	  </or>
+  	  	<match lemma="interest" tags="n.*">
+  	  		<select lemma="interés" tags="n.*"/>
+  	  	</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="be" tags="*"/>
+  		<match lemma="in" tags="pr"/>
+  		<match lemma="style" tags="n.*">
+  			<select lemma="moda" tags="n.*"/>
+  		</match>
+  	</rule>
+  	
+  	<rule>
+  		<match lemma="style" tags="n.*">
+  			<select lemma="estilo" tags="n.*"/>
+  		</match>
+  		<match lemma="of" tags="pr.*"/>
+  		<match/>
+  	  <or>
+  	  	<match lemma="music" tags="*"/>
+  		<match lemma="dress" tags="*"/>
+  		<match lemma="art" tags="*"/>
+  	  </or>	
+  	</rule>	
+  	
+  	<rule>
+  		<match lemma="mode" tags="n.*">
+  			<select lemma="medio" tags="n.*"/>
+  		</match>
+  		<match lemma="of" tags="pr.*"/>
+  		<match/>
+  		<match lemma="transport" tags="*"/>
+  	</rule>
+  	
+  	<rule>
+  	  <or>
+  	  	<match lemma="dictionary" tags="*"/>
+  	  	<match lemma="encyclopedia" tags="*"/>
+  	  </or>
+  	  	<match lemma="entry" tags="n.*">
+  	  		<select lemma="entrada" tags="n.*"/>
+  	  	</match>
+  	</rule>
 	
 </rules>

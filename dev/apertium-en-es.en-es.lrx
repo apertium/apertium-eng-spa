@@ -3821,5 +3821,282 @@
 	  	</match>
 	</rule>  	
 
+<!--Member States today must promote physical exercise as a school subject in
+order to prepare children for a healthy lifestyle. Los Estados miembros deben
+fomentar hoy el ejercicio físico como asignatura escolar, con el fin de preparar
+a los niños para un estilo de vida sano.-->
+
+<!-- More PE lessons and a balanced diet for children and young people would be
+among the first steps towards a healthier lifestyle, and nutritional science
+should be a compulsory subject in every European school. Los primeros pasos 
+hacia un estilo de vida más saludable pasan por dar más clases de Educación 
+Física y una dieta equilibrada para los niños y los jóvenes, además debería ser 
+obligatoria la asignatura de ciencias de la nutrición en todas las escuelas 
+europeos. -->
+
+	<rule>
+	  <or>
+	  	<match lemma="compulsory" tags="*"/>
+		<match lemma="school" tags="*"/>	
+		<match lemma="college" tags="*"/>
+		<match lemma="university" tags="*"/>
+	  </or>	
+		<match lemma="subject" tags="n.*">
+			<select lemma="asignatura" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- Any peaceful and political solution to the Kurdish issue will involve the
+lifting of the ban on the language and the incorporation of Kurdish as a subject
+in the curriculum.	La abolición de la prohibición lingüística y la introducción
+del kurdo como asignatura en los planes de estudios contribuirá a una solución
+pacífica y política de la cuestión kurda. -->	
+	
+	<rule>
+		<match lemma="subject" tags="n.*">
+			<select lemma="asignatura" tags="n.*"/>
+		</match>
+		<match lemma="in" tags="pr"/>
+		<match/>
+		<match lemma="curriculum" tags="*"/>
+	</rule>	
+	
+<!-- That means that a service provider is subject only to the control and the
+legal system of the Member State in which he is established. Por ello ha de
+entenderse que el prestador de servicios sólo está sujeto a la vigilancia y
+al ordenamiento jurídico del Estado miembro en el que tiene su establecimiento.-->	
+	
+<!-- Mr Harbour will be familiar with my view that as a consequence of making
+that central and measurable change, subject continually to examination, we will
+get a reverberating change of culture in the wider managerial style and operation
+of the House.	El Sr. Harbour ha de conocer mi tesis de que, a consecuencia
+de ese cambio fundamental y mensurable, sujeto a continuo examen, vamos a
+conseguir el consiguiente cambio de usos en el estilo de gestión, en sentido
+amplio, y en el funcionamiento de la Comisión. -->
+
+<!-- In a sector which is subject to such swift technological change, it is
+important to ensure that the regime is able to deal with unforeseen issues
+that might arise in the future.	En un sector sujeto a semejantes cambios
+tecnológicos, es importante garantizar que el régimen está en condiciones
+de hacer frente a asuntos imprevistos que pueden surgir en el futuro. -->
+
+	<rule>
+		<match lemma="subject" tags="n.*">
+			<select lemma="sujeto" tags="n.*"/>
+		</match>
+		<match lemma="to" tags="*"/>
+		<match/>
+	  <or>
+	  	<match lemma="control" tags="*"/>
+		<match lemma="examination" tags="*"/>
+		<match lemma="change" tags="*"/>
+	  </or>	
+	</rule>	
+		
+<!-- For if we are not able to tackle this humanitarian issue jointly, we will
+be presented with the political bill in due course.	Si no estamos en situación
+de abordar de forma conjunta esa cuestión humanitaria, llegará el momento en
+que nos pasen la cuenta política. -->
+	
+	<rule>
+		<match lemma="political" tags="*"/>
+		<match lemma="bill" tags="n.*">
+			<select lemma="cuenta" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- But I myself have been unable to use this bill for weeks, even here in
+Strasbourg or in Brussels, to pay for anything.	Yo mismo no he tenido ocasión
+de usar ese billete para pagar nada aquí en Estrasburgo o en Bruselas durante
+varias semanas.-->
+
+	<rule>
+		<match lemma="use" tags="*"/>
+		<match/>
+		<match lemma="bill" tags="n.*">
+			<select lemma="billete" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- The amendment to the directive on today's agenda does not therefore affect
+the existing harmonisation of the transport of dangerous goods in the Community.
+Por consiguiente, la modificación de la directiva, que figura hoy en el orden
+del día, no produce ningún cambio en la armonización del transporte de mercancías
+peligrosas que se está llevando a cabo en la Comunidad.-->
+	
+<!-- I shall now, therefore, put this proposal for an amendment to the agenda
+to the vote.	Así, pues, voy a someter a votación la propuesta de modificación
+del orden del día. -->	
+	
+	<rule>
+		<match lemma="amendment" tags="n.*">
+			<select lemma="modificación" tags="n.*"/>
+		</match>
+		<match/>
+		<match/>
+	  <or>	
+		<match lemma="directive" tags="*"/>
+		<match lemma="agenda" tags="*"/>
+	  </or>	
+	</rule>	
+	
+<!-- This is totally unacceptable. I therefore appeal to the German delegates in
+particular to prevent major political damage occurring today!	Por ello, hago
+un particular llamamiento a los diputados alemanes: ¡no permitan que se cause
+hoy un grave perjuicio político! -->	
+	
+<!-- Fiji has already suffered enormous economic damage at this point.	Fidji ha
+sufrido ya un enorme perjuicio económico. -->
+
+	<rule>
+	  <or>
+		<match lemma="economic" tags="*"/>
+		<match lemma="political" tags="*"/>
+	  </or>	
+		<match lemma="damage" tags="n.*">
+			<select lemma="perjuicio" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- But Commissioner, I would also like, and I feel that this is essential, the
+institutions of the European Union to bear witness to the solidarity which unites
+the Member States, in particular in the event of exceptional disasters such as
+the storms of 26 December last which caused such unprecedented damage to a number
+of forest regions in France, Germany and Austria.	Pero, señora Comisaria,
+quisiera también, y creo que es esencial, que las instituciones de la Unión
+Europea den testimonio de la solidaridad que une a los Estados miembros, 
+especialmente con ocasión de catástrofes o de siniestros extraordinarios, como
+ocurrió el 26 de diciembre último con el temporal que causó un perjuicio sin
+precedentes en varias regiones forestales de Francia, Alemania y Austria. -->
+
+	<rule>
+		<match lemma="damage" tags="n.*">
+			<select lemma="perjuicio" tags="n.*"/>
+		</match>
+		<match/>
+		<match/>
+	 	<match lemma="forest" tags="*"/>
+	</rule>
+	
+<!-- Today it was revealed that the Austrian entrant in a show jumping competition
+in Grenoble had his invitation withdrawn.	Hoy se ha dado a conocer que se
+retira la invitación del jinete austríaco que tenía previsto participar en el
+concurso hípico de Grenoble. -->	
+
+<!-- Appoint the director of the board after open competition and a parliamentary
+hearing.	Nómbrese al Director de la Junta Directiva después de celebrar un
+concurso abierto y una audición parlamentaria. -->
+	
+	<rule>
+	  <or>
+		<match lemma="jumping" tags="*"/>
+		<match lemma="open" tags="*"/>
+	  </or>	
+		<match lemma="competition" tags="n.*">
+			<select lemma="concurso" tags="n.*"/>
+		</match>	
+	</rule>		
+	
+<!-- With regard to this debate, I tell you in advance that my group will require
+the acceptance of further specific commitments in terms of policies on employment,
+social and economic cohesion and the modernisation of our economies, taking into
+account people, enlargement, the Mediterranean and the defence of human rights
+throughout the world, as cornerstones of our foreign policy. De cara a ese debate,
+le adelanto que mi Grupo querrá alcanzar mayores concreciones en políticas de
+empleo, de cohesión económica y social, de modernización de nuestras economías
+que tengan en cuenta a las personas, a la ampliación, al Mediterráneo y a la
+defensa de los derechos humanos en todo el mundo, como ejes de nuestra política
+exterior. -->
+
+	<rule>
+		<match lemma="tell" tags="*"/>
+		<match/>
+		<match lemma="in" tags="pr"/>
+		<match lemma="advance" tags="n.*">
+			<select lemma="adelanto" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- The fund plays a vital role in this process and the purpose of the fund is
+to promote economic and social advance and to encourage contact, dialogue and
+reconciliation between nationalists and unionists throughout the island of
+Ireland.	El Fondo desempeña un papel capital en este proceso, y su finalidad
+es promover el adelanto económico y social y estimular los contactos, el diálogo
+y la reconciliación entre nacionalistas y unionistas en toda la isla de
+Irlanda. -->
+
+	<rule>
+	  <or>
+	  	<match lemma="economic" tags="*"/>
+	  	<match lemma="social" tags="*"/>
+	  </or>
+	  	<match lemma="advance" tags="n.*">
+	  		<select lemma="adelanto" tags="n.*"/>
+	  	</match>
+	</rule> 	
+	
+<!-- The refusal of the European Parliament to grant discharge and the definitive
+refusal for the 1996 budget; the motion of censure tabled in this House a year
+ago for differing reasons; and the first report of the Committee of Independent
+Experts on the reform of the Commission which led to the mass resignation of the
+Commission itself, are now part of European folklore.	La negativa del Parlamento
+Europeo a aprobar la gestión y el definitivo rechazo del presupuesto de 1996,
+la moción de censura presentada por diversas causas en esta Asamblea hace un año,
+y el primer informe del Comité de Expertos sobre la reforma de la Comisión que
+condujo a la dimisión masiva de la propia Comisión, constituyen ahora parte del
+folklore europeo. -->
+
+	<rule>
+		<match lemma="motion" tags="n.*">
+			<select lemma="moción" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="censure" tags="*"/>
+	</rule>
+	
+<!-- Madam President, please note that the French socialists in the House will
+not take part in the vote as we consider that the tabled motion is not impartial.
+Señora Presidenta, le ruego tome usted buena nota de que los socialistas franceses
+presentes en esta sala no participarán en la votación. Opinan que la moción que
+se les propone no es equitativa. -->
+
+	<rule>
+		<match lemma="tabled" tags="*"/>
+		<match lemma="motion" tags="n.*">
+			<select lemma="moción" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!--Some of Parliament' s amendments were in fact incorporated into the proposal
+for a regulation, which is a point I wish to stress. La verdad es que se han
+integrado algunas de las enmiendas del Parlamento Europeo en el texto del
+proyecto de reglamento, aspecto que se debe subrayar. -->
+
+	<rule>
+		<match lemma="proposal" tags="n.*">
+			<select lemma="proyecto" tags="n.*"/>
+		</match>
+		<match lemma="for" tags="pr.*"/>
+		<match/>
+		<match lemma="regulation" tags="*"/>
+	</rule>
+	
+<!-- This sector needs to be given a right to constant weekly and daily rest and,
+if necessary, the public authorities should intervene in order to impose what is
+the fundamental right of any worker.	Hay que reconocer a este sector su
+derecho a un descanso semanal y diario continuado y, si es necesario, los poderes
+públicos deben intervenir para imponer este derecho elemental de cualquier
+trabajador. -->
+
+	<rule>
+	  <or>
+		<match lemma="weekly" tags="*"/>
+		<match lemma="daily" tags="*"/>
+	  </or>
+	  	<match lemma="rest" tags="n.*">
+	  		<select lemma="descanso" tags="n.*"/>
+	  	</match>
+	</rule>
 	
 </rules>

@@ -3821,282 +3821,265 @@
 	  	</match>
 	</rule>  	
 
-<!--Member States today must promote physical exercise as a school subject in
-order to prepare children for a healthy lifestyle. Los Estados miembros deben
-fomentar hoy el ejercicio físico como asignatura escolar, con el fin de preparar
-a los niños para un estilo de vida sano.-->
-
-<!-- More PE lessons and a balanced diet for children and young people would be
-among the first steps towards a healthier lifestyle, and nutritional science
-should be a compulsory subject in every European school. Los primeros pasos 
-hacia un estilo de vida más saludable pasan por dar más clases de Educación 
-Física y una dieta equilibrada para los niños y los jóvenes, además debería ser 
-obligatoria la asignatura de ciencias de la nutrición en todas las escuelas 
-europeos. -->
+<!-- Nevertheless, further devastating attacks - in Kaluchak and in Srinagar - 
+border skirmishes and the re-emergence of the dialectic of confrontation, with
+the recent missile tests by Pakistan that matched those by India in January, have
+brought both armies to the brink of war.	Sin embargo, nuevos y devastadores
+atentados -en Kaluchak y en Srinagar-, escaramuzas fronterizas y la reaparición
+de la dialéctica de confrontación con los últimos ensayos balísticos de Pakistán,
+que se añaden a los de India en el mes de enero, han colocado a ambos ejércitos
+al borde de la guerra. -->
 
 	<rule>
-	  <or>
-	  	<match lemma="compulsory" tags="*"/>
-		<match lemma="school" tags="*"/>	
-		<match lemma="college" tags="*"/>
-		<match lemma="university" tags="*"/>
-	  </or>	
-		<match lemma="subject" tags="n.*">
-			<select lemma="asignatura" tags="n.*"/>
-		</match>
-	</rule>
-	
-<!-- Any peaceful and political solution to the Kurdish issue will involve the
-lifting of the ban on the language and the incorporation of Kurdish as a subject
-in the curriculum.	La abolición de la prohibición lingüística y la introducción
-del kurdo como asignatura en los planes de estudios contribuirá a una solución
-pacífica y política de la cuestión kurda. -->	
-	
-	<rule>
-		<match lemma="subject" tags="n.*">
-			<select lemma="asignatura" tags="n.*"/>
-		</match>
-		<match lemma="in" tags="pr"/>
-		<match/>
-		<match lemma="curriculum" tags="*"/>
-	</rule>	
-	
-<!-- That means that a service provider is subject only to the control and the
-legal system of the Member State in which he is established. Por ello ha de
-entenderse que el prestador de servicios sólo está sujeto a la vigilancia y
-al ordenamiento jurídico del Estado miembro en el que tiene su establecimiento.-->	
-	
-<!-- Mr Harbour will be familiar with my view that as a consequence of making
-that central and measurable change, subject continually to examination, we will
-get a reverberating change of culture in the wider managerial style and operation
-of the House.	El Sr. Harbour ha de conocer mi tesis de que, a consecuencia
-de ese cambio fundamental y mensurable, sujeto a continuo examen, vamos a
-conseguir el consiguiente cambio de usos en el estilo de gestión, en sentido
-amplio, y en el funcionamiento de la Comisión. -->
-
-<!-- In a sector which is subject to such swift technological change, it is
-important to ensure that the regime is able to deal with unforeseen issues
-that might arise in the future.	En un sector sujeto a semejantes cambios
-tecnológicos, es importante garantizar que el régimen está en condiciones
-de hacer frente a asuntos imprevistos que pueden surgir en el futuro. -->
-
-	<rule>
-		<match lemma="subject" tags="n.*">
-			<select lemma="sujeto" tags="n.*"/>
-		</match>
-		<match lemma="to" tags="*"/>
-		<match/>
-	  <or>
-	  	<match lemma="control" tags="*"/>
-		<match lemma="examination" tags="*"/>
-		<match lemma="change" tags="*"/>
-	  </or>	
-	</rule>	
-		
-<!-- For if we are not able to tackle this humanitarian issue jointly, we will
-be presented with the political bill in due course.	Si no estamos en situación
-de abordar de forma conjunta esa cuestión humanitaria, llegará el momento en
-que nos pasen la cuenta política. -->
-	
-	<rule>
-		<match lemma="political" tags="*"/>
-		<match lemma="bill" tags="n.*">
-			<select lemma="cuenta" tags="n.*"/>
-		</match>
-	</rule>
-	
-<!-- But I myself have been unable to use this bill for weeks, even here in
-Strasbourg or in Brussels, to pay for anything.	Yo mismo no he tenido ocasión
-de usar ese billete para pagar nada aquí en Estrasburgo o en Bruselas durante
-varias semanas.-->
-
-	<rule>
-		<match lemma="use" tags="*"/>
-		<match/>
-		<match lemma="bill" tags="n.*">
-			<select lemma="billete" tags="n.*"/>
-		</match>
-	</rule>
-	
-<!-- The amendment to the directive on today's agenda does not therefore affect
-the existing harmonisation of the transport of dangerous goods in the Community.
-Por consiguiente, la modificación de la directiva, que figura hoy en el orden
-del día, no produce ningún cambio en la armonización del transporte de mercancías
-peligrosas que se está llevando a cabo en la Comunidad.-->
-	
-<!-- I shall now, therefore, put this proposal for an amendment to the agenda
-to the vote.	Así, pues, voy a someter a votación la propuesta de modificación
-del orden del día. -->	
-	
-	<rule>
-		<match lemma="amendment" tags="n.*">
-			<select lemma="modificación" tags="n.*"/>
-		</match>
-		<match/>
-		<match/>
-	  <or>	
-		<match lemma="directive" tags="*"/>
-		<match lemma="agenda" tags="*"/>
-	  </or>	
-	</rule>	
-	
-<!-- This is totally unacceptable. I therefore appeal to the German delegates in
-particular to prevent major political damage occurring today!	Por ello, hago
-un particular llamamiento a los diputados alemanes: ¡no permitan que se cause
-hoy un grave perjuicio político! -->	
-	
-<!-- Fiji has already suffered enormous economic damage at this point.	Fidji ha
-sufrido ya un enorme perjuicio económico. -->
-
-	<rule>
-	  <or>
-		<match lemma="economic" tags="*"/>
-		<match lemma="political" tags="*"/>
-	  </or>	
-		<match lemma="damage" tags="n.*">
-			<select lemma="perjuicio" tags="n.*"/>
-		</match>
-	</rule>
-	
-<!-- But Commissioner, I would also like, and I feel that this is essential, the
-institutions of the European Union to bear witness to the solidarity which unites
-the Member States, in particular in the event of exceptional disasters such as
-the storms of 26 December last which caused such unprecedented damage to a number
-of forest regions in France, Germany and Austria.	Pero, señora Comisaria,
-quisiera también, y creo que es esencial, que las instituciones de la Unión
-Europea den testimonio de la solidaridad que une a los Estados miembros, 
-especialmente con ocasión de catástrofes o de siniestros extraordinarios, como
-ocurrió el 26 de diciembre último con el temporal que causó un perjuicio sin
-precedentes en varias regiones forestales de Francia, Alemania y Austria. -->
-
-	<rule>
-		<match lemma="damage" tags="n.*">
-			<select lemma="perjuicio" tags="n.*"/>
-		</match>
-		<match/>
-		<match/>
-	 	<match lemma="forest" tags="*"/>
-	</rule>
-	
-<!-- Today it was revealed that the Austrian entrant in a show jumping competition
-in Grenoble had his invitation withdrawn.	Hoy se ha dado a conocer que se
-retira la invitación del jinete austríaco que tenía previsto participar en el
-concurso hípico de Grenoble. -->	
-
-<!-- Appoint the director of the board after open competition and a parliamentary
-hearing.	Nómbrese al Director de la Junta Directiva después de celebrar un
-concurso abierto y una audición parlamentaria. -->
-	
-	<rule>
-	  <or>
-		<match lemma="jumping" tags="*"/>
-		<match lemma="open" tags="*"/>
-	  </or>	
-		<match lemma="competition" tags="n.*">
-			<select lemma="concurso" tags="n.*"/>
-		</match>	
-	</rule>		
-	
-<!-- With regard to this debate, I tell you in advance that my group will require
-the acceptance of further specific commitments in terms of policies on employment,
-social and economic cohesion and the modernisation of our economies, taking into
-account people, enlargement, the Mediterranean and the defence of human rights
-throughout the world, as cornerstones of our foreign policy. De cara a ese debate,
-le adelanto que mi Grupo querrá alcanzar mayores concreciones en políticas de
-empleo, de cohesión económica y social, de modernización de nuestras economías
-que tengan en cuenta a las personas, a la ampliación, al Mediterráneo y a la
-defensa de los derechos humanos en todo el mundo, como ejes de nuestra política
-exterior. -->
-
-	<rule>
-		<match lemma="tell" tags="*"/>
-		<match/>
-		<match lemma="in" tags="pr"/>
-		<match lemma="advance" tags="n.*">
-			<select lemma="adelanto" tags="n.*"/>
-		</match>
-	</rule>	
-	
-<!-- The fund plays a vital role in this process and the purpose of the fund is
-to promote economic and social advance and to encourage contact, dialogue and
-reconciliation between nationalists and unionists throughout the island of
-Ireland.	El Fondo desempeña un papel capital en este proceso, y su finalidad
-es promover el adelanto económico y social y estimular los contactos, el diálogo
-y la reconciliación entre nacionalistas y unionistas en toda la isla de
-Irlanda. -->
-
-	<rule>
-	  <or>
-	  	<match lemma="economic" tags="*"/>
-	  	<match lemma="social" tags="*"/>
-	  </or>
-	  	<match lemma="advance" tags="n.*">
-	  		<select lemma="adelanto" tags="n.*"/>
-	  	</match>
-	</rule> 	
-	
-<!-- The refusal of the European Parliament to grant discharge and the definitive
-refusal for the 1996 budget; the motion of censure tabled in this House a year
-ago for differing reasons; and the first report of the Committee of Independent
-Experts on the reform of the Commission which led to the mass resignation of the
-Commission itself, are now part of European folklore.	La negativa del Parlamento
-Europeo a aprobar la gestión y el definitivo rechazo del presupuesto de 1996,
-la moción de censura presentada por diversas causas en esta Asamblea hace un año,
-y el primer informe del Comité de Expertos sobre la reforma de la Comisión que
-condujo a la dimisión masiva de la propia Comisión, constituyen ahora parte del
-folklore europeo. -->
-
-	<rule>
-		<match lemma="motion" tags="n.*">
-			<select lemma="moción" tags="n.*"/>
+		<match lemma="brink" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr.*"/>
 		<match/>
-		<match lemma="censure" tags="*"/>
-	</rule>
+		<match lemma="war" tags="*"/>
+	</rule>	
 	
-<!-- Madam President, please note that the French socialists in the House will
-not take part in the vote as we consider that the tabled motion is not impartial.
-Señora Presidenta, le ruego tome usted buena nota de que los socialistas franceses
-presentes en esta sala no participarán en la votación. Opinan que la moción que
-se les propone no es equitativa. -->
+<!-- The text must be in black lettering, with a black border of minimum 3 mm and
+maximum 4 mm thickness, the font must be Helvetica, and so on and so forth.	Las
+letras del texto deben ser negras, con un borde negro cuyo espesor debe tener
+un mínimo de 3 mm y un máximo de 4 mm; la fuente debe ser Helvetica, etcétera,
+etcétera. -->
+	
+	<rule>
+	  <or>
+	  	<match lemma="brown" tags="*"/>
+	  	<match lemma="orange" tags="*"/>
+		<match lemma="black" tags="*"/>
+		<match lemma="yellow" tags="*"/>
+		<match lemma="green" tags="*"/>
+		<match lemma="blue" tags="*"/>
+		<match lemma="purple" tags="*"/>
+		<match lemma="pink" tags="*"/>
+		<match lemma="red" tags="*"/>
+		<match lemma="gray" tags="*"/>
+		<match lemma="white" tags="*"/>
+	  </or>	
+		<match lemma="border" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- Europe must learn to land more punches, but it will not do that on the basis
+on Nice or of 'Nice minus'; that will not make Europe a better fighter, but rather
+less able to take the action that needs to be taken in such situations as that in
+the Middle East, where, it is worth remembering, 13 000 European troops are
+stationed on the border between Lebanon and Israel in pursuance of the UNIFIL
+mandate, and I ask you also to think of the Gaza Strip in Palestine, where we
+are in the thick of the chaos, and where the place is getting like Somalia.
+Europa tiene que aprender a golpear con más fuerza, pero no lo hará sobre la
+base de Niza o de "Niza menos"; esto no hará que Europa sea mejor luchadora,
+sino que hará que sea menos capaz de dar los pasos que necesita dar en
+situaciones como la de Oriente Próximo, donde -merece la pena recordarlo- hay
+desplegados 13 000 soldados europeos en la frontera entre el Líbano e Israel
+bajo el mando de la FPNUL y también le pido que piense en la Franja de Gaza
+en Palestina, donde estamos al borde del caos y donde la situación se parece
+cada vez más a la de Somalia. -->	
 
 	<rule>
-		<match lemma="tabled" tags="*"/>
-		<match lemma="motion" tags="n.*">
-			<select lemma="moción" tags="n.*"/>
+		<match lemma="thick" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
 		</match>
-	</rule>
-	
-<!--Some of Parliament' s amendments were in fact incorporated into the proposal
-for a regulation, which is a point I wish to stress. La verdad es que se han
-integrado algunas de las enmiendas del Parlamento Europeo en el texto del
-proyecto de reglamento, aspecto que se debe subrayar. -->
-
-	<rule>
-		<match lemma="proposal" tags="n.*">
-			<select lemma="proyecto" tags="n.*"/>
-		</match>
-		<match lemma="for" tags="pr.*"/>
+		<match lemma="of" tags="pr.*"/>
 		<match/>
-		<match lemma="regulation" tags="*"/>
+		<match lemma="chaos" tags="*"/>
 	</rule>
 	
-<!-- This sector needs to be given a right to constant weekly and daily rest and,
-if necessary, the public authorities should intervene in order to impose what is
-the fundamental right of any worker.	Hay que reconocer a este sector su
-derecho a un descanso semanal y diario continuado y, si es necesario, los poderes
-públicos deben intervenir para imponer este derecho elemental de cualquier
-trabajador. -->
+<!-- That does not sound like a species on the verge of collapse. No me parece
+que sea una especie al borde del colapso. -->
+
+<!-- Half a million Zimbabweans are now on the verge of starvation.	Medio millón
+de zimbabwenses se encuentran ya al borde de la inanición. -->
+
+<!-- This is a choice that we will eventually have to explain to those affected
+by the disaster who are on the verge of bankruptcy and to the municipalities that
+have put an enormous effort into cleaning up the coastline and which are awaiting
+appropriate compensation.	Se trata de una opción que un día habrá que explicar
+a los damnificados que están al borde de la quiebra y a los municipios que han
+realizado grandes esfuerzos para limpiar el litoral y que esperan una legítima
+indemnización. -->
+
+	<rule>
+		<match lemma="verge" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+	  <or>	
+		<match lemma="collapse" tags="*"/>
+		<match lemma="starvation" tags="*"/>
+		<match lemma="bankruptcy" tags="*"/>
+	  </or>	
+	</rule>	
+
+<!-- Now others stand on the edge of that very same precipice.	Ahora hay otros
+que se encuentran al borde de ese mismo precipicio. -->
+
+	<rule>
+		<match lemma="stand" tags="*"/>
+		<match lemma="on" tags="pr"/>
+		<match/>
+		<match lemma="edge" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- I was pleased to hear you saying yesterday that Portugal may be on the edge
+of Europe geographically speaking, but that it is nevertheless at the heart of
+Europe.	Ha sido un placer oírle decir ayer que Portugal puede estar en el borde
+de Europa en términos geográficos, pero que aun así se halla en el corazón de
+Europa. -->
+
+<!-- I have just heard the news that one of the assistants from my office in
+Brussels has been robbed at knifepoint, at the edge of the woods which are only
+yards away from the Parliament building. Acabo de enterarme de que han robado
+a uno de los asistentes de mi oficina en Bruselas a punta de navaja al borde del
+bosque que se encuentra apenas a unos metros del edificio del Parlamento. -->
+
+	<rule>
+		<match lemma="edge" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+	  <or>
+	  	<match lemma="wood" tags="n.pl"/>
+	  	<match lemma="forest" tags="*"/>
+		<match lemma="europe" tags="*"/>
+	  </or>	
+	</rule>	
+	
+<!-- Support for these measures from British Labour and Liberal Democrat Members
+comes at a time when our own government has had to admit that immigration systems
+are already at breaking point in the United Kingdom. El apoyo a estas medidas por
+parte de los diputados laboristas y liberales demócratas británicos se presta en
+un momento en que nuestro propio Gobierno ha tenido que admitir que los sistemas
+de inmigración ya están al borde del colapso en el Reino Unido. -->
+
+	<rule>
+		<match lemma="breaking" tags="*"/>
+		<match lemma="point" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- It has to be said, with regret, that we have in some respects gone backwards,
+for both Kofi Annan and Henry Kissinger have said that the campaign against the
+proliferation of nuclear weapons and the efforts at nuclear disarmament are on
+the point of complete and final failure. Hay que decir, con pena, que en algunos
+aspectos hemos retrocedido, ya que tanto Kofi Annan como Henry Kissinger han
+dicho que la campaña contra la proliferación de armas nucleares y los esfuerzos
+por el desarme nuclear están al borde del fracaso completo y definitivo. -->
+
+<!-- I condemn the increasingly difficult living conditions that are rife in Gaza:
+the blockade preventing the movement of people and goods, partial privatisation
+of access to water, food and electricity, destruction of agricultural land, and
+basic services such as refuse collection that no longer operate properly and are
+on the point of collapse.	Denuncio las condiciones de vida cada vez más
+difíciles reinantes en Gaza: el bloqueo, que impide la circulación de las
+personas y las mercancías, la privatización parcial del acceso al agua, la
+comida y la electricidad, la destrucción de las tierras agrícolas y el mal
+funcionamiento de servicios básicos como la recogida de basuras, que se
+encuentran al borde del colapso. -->
+
+
+	<rule>
+		<match lemma="point" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+	 <or>
+	 	<match lemma="failure" tags="*"/>
+	 	<match lemma="collapse" tags="*"/>
+	 </or>
+	</rule>
+	
+<!-- and end in a tendon , which occupies the anterior  border of the muscle , passes through a
+distinct -->
+
+<!-- ateral surface of the radius refers to the lateral  border of the radius bone ( which
+curves outwards -->
+
+<!-- ateral epicondyle of the humerus and the posterior  border of the ulna , and crosses the
+forearm to -->
 
 	<rule>
 	  <or>
-		<match lemma="weekly" tags="*"/>
-		<match lemma="daily" tags="*"/>
+	  	<match lemma="posterior" tags="*"/>
+	  	<match lemma="anterior" tags="*"/>
+	  	<match lemma="lateral" tags="*"/>
 	  </or>
-	  	<match lemma="rest" tags="n.*">
-	  		<select lemma="descanso" tags="n.*"/>
+	  	<match lemma="border" tags="n.*">
+	  		<select lemma="borde" tags="n.*"/>
 	  	</match>
 	</rule>
+	
+<!-- Europe has found itself truly at the threshold of a global crisis. Europa
+se encontrado a sí misma en el borde de una crisis mundial. -->
+
+	<rule>
+		<match lemma="threshold" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+	  	<match lemma="crisis" tags="*"/>
+	</rule>  
+	
+<!-- as miniature sheets with a decorative or inclusive  border ; in booklets ; or any combination
+/ siz -->
+
+	<rule>
+	  <or>
+		<match lemma="decorative" tags="*"/>
+		<match lemma="inclusive" tags="*"/>
+	  </or>
+	  	<match lemma="border" tags="n.*">
+	  		<select lemma="borde" tags="n.*"/>
+	  	</match>
+	</rule>
+	
+<!-- which is on the  border of realism and fantasy -->
+
+	<rule>
+		<match lemma="border" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+	  <or>
+	  	<match lemma="realism" tags="*"/>
+	  	<match lemma="fantasy" tags="*"/>
+	  </or>
+	</rule>
+	
+<!-- Epiléptico muere al golpearse la cabeza contra el borde de la banqueta -->
+<!-- from http://www.e-consulta.com/veracruz/component/content/article/81-policia
+-veracruz/14698-epileptico-muere-al-golpearse-la-cabeza-contra-el-borde-de-la-
+banqueta -->
+	
+	<rule>
+		<match lemma="street" tags="*"/>
+		<match lemma="curb" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- Handing over such information is at the thin end of the wedge, leading us
+into a frightening Big Brother of Europe. La entrega de esta información nos
+lleva al borde del abismo y nos conduce a un aterrador Gran Hermano de Europa. -->
+
+	<rule>
+		<match lemma="end" tags="n.*">
+			<select lemma="borde" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="wedge" tags="*"/>
+	</rule>	
 	
 </rules>

@@ -4081,5 +4081,284 @@ lleva al borde del abismo y nos conduce a un aterrador Gran Hermano de Europa. -
 		<match/>
 		<match lemma="wedge" tags="*"/>
 	</rule>	
+
+<!--Or have industrialisation, nuclear power and biotechnology led to greater
+justice in the past? ¿Es que la industrialización, la energía atómica, y la
+biotecnología han conducido hacia una mayor justicia? -->
+
+<!-- Hydroelectric power in the Nordic countries is an environmentally friendly
+and natural energy source that can often be produced at a competitive price, as
+is the case at present, thanks to a good water supply. La energía hidroeléctrica
+de los países nórdicos es una fuente de energía natural y ecológica que puede
+ser producida a precios muy competitivos por lo general, como es el caso hoy
+por hoy gracias a la gran abundancia de agua. -->
+
+	<rule>
+	  <or>
+	  	<match lemma="wave" tags="*"/>
+	  	<match lemma="solar" tags="*"/>
+	  	<match lemma="geothermal" tags="*"/>
+	  	<match lemma="nuclear" tags="*"/>
+	  	<match lemma="hydroelectic" tags="*"/>
+	  	<match lemma="natural" tags="*"/>
+	  </or>	
+		<match lemma="power" tags="n.*">
+			<select lemma="energía" tags="n.*"/>
+		</match>
+	</rule>		
+	
+<!-- I do not know if we can speak today of the European Union as the main economic power,
+the main industrial power or the main financial power in the world.	Yo no sé si
+podemos decir hoy que la Unión Europea es la primera potencia económica, la
+primera potencia industrial o la primera potencia financiera del planeta. -->
+
+<!-- Mr President, on 28 June the EU held its first summit with the largest
+democracy in the world and the second-largest trading power in Asia. Señor
+Presidente, el día 28 de junio tuvo lugar la primera cumbre de la UE con la
+mayor democracia del mundo y con la segunda potencia comercial de Asia. -->
+
+	<rule>
+	  <or>
+	  	<match lemma="economic" tags="*"/>
+	  	<match lemma="industrial" tags="*"/>
+	  	<match lemma="financial" tags="*"/>
+	  	<match lemma="trading" tags="*"/>
+	  </or>
+	  	<match lemma="power" tags="n.*">
+	  		<select lemma="potencia" tags="n.*"/>
+	  	</match>
+	</rule>	  
+	
+<!-- In my opinion, it should be crystal clear, and this is not included in the
+present texts, that the EU has autonomous power of decision and that the EU
+countries must be able to decide for themselves on their level of commitment,
+without needing permission from NATO - or should that be the US? Pienso que debe
+quedar muy claro, y eso no ocurre en los textos actuales, que la UE tiene
+capacidad de decisión autónoma y que los países de la UE deben poder decidir
+por sí mismos sobre la intervención sin la autorización de la OTAN, es decir, de
+los EE.UU. -->
+
+<!-- The power of codecision proved to be decisive.	El Parlamento Europeo actuó
+aquí como colegislador, la capacidad de codecisión ha jugado un papel decisivo. -->
+
+	<rule>
+		<match lemma="power" tags="n.*">
+			<select lemma="capacidad" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+	  <or>
+		<match lemma="decision" tags="*"/>
+		<match lemma="codecision" tags="*"/>
+	  </or>	
+	</rule>
+	
+<!-- It is crucially important for this Intergovernmental Conference to score a
+hat trick; that of the power to act, democratic legitimacy and transparency. Lo 
+decisivo de esta Conferencia Intergubernamental es que se logre la triple
+sintonía, es decir, la capacidad de actuación, la legitimación democrática y
+la transparencia. -->
+
+	<rule>
+		<match lemma="power" tags="n.*">
+			<select lemma="capacidad" tags="n.*"/>
+		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="act" tags="*"/>
+	</rule>
+	
+<!-- If its aim were to improve the standard of living of workers, increase their
+purchasing power and guarantee safe jobs, it would support public-sector and
+social investment and equal opportunities, combat all forms of discrimination
+in connection with access to employment and jobs and act as a barrier to policies
+based on privatisation, low wages and lack of social protection, flexible and
+temporary work and the constant exclusion of women, the young and people with
+special needs from the job market.	Si el objetivo fuera la mejora del nivel
+de vida de los trabajadores y el aumento de su capacidad adquisitiva; si el
+objetivo fuera garantizar puestos de trabajo estables, se reforzarían las
+inversiones públicas y sociales, la igualdad de oportunidades y la lucha contra
+toda forma de discriminación relacionada con el acceso al empleo y con las
+relaciones laborales, se pondría freno a las políticas basadas en las
+privatizaciones, en los salarios bajos y la falta de protección social, en la
+flexibilidad y la precariedad del trabajo, en la persistente exclusión del
+mercado de trabajo de las mujeres, de los jóvenes y de las personas
+discapacitadas. -->
+
+	<rule>
+		<match lemma="purchasing" tags="*"/>
+		<match lemma="power" tags="n.*">
+			<select lemma="capacidad" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- At the request of a French Member, Mr Zimeray, a petition has already been
+presented, which many people signed, including myself. However, I would ask you,
+in accordance with the line which is now constantly followed by the European
+Parliament and by the whole of the European Community, to make representations,
+using the weight of your prestigious office and the institution you represent,
+to the President and to the Governor of Texas, Mr Bush, who has the power to
+order a stay of execution and to reprieve the condemned person.	A petición de un
+diputado francés, el Sr. Zimeray, se ha presentado una solicitud, cuyos
+firmantes han sido numerosos y entre los cuales me cuento, sin embargo, de
+conformidad con la posición constantemente expresada por el Parlamento Europeo
+y por toda la Comunidad europea, le pido que intervenga con el prestigio de su
+cargo y de la Institución que representa ante el Presidente y el Gobernador
+del Estado de Texas, Sr. Bush, que tiene la facultad de suspender la condena
+a muerte y de indultar al condenado. -->
+
+	<rule>
+		<match lemma="power" tags="n.*">
+			<select lemma="facultad" tags="n.*"/>
+		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="suspend" tags="pr"/>
+	</rule>
+	
+<!-- In view of the flexibility of the new model, which very prudently extends
+the scope of intervention of the international regulatory authorities, the main
+thrust of the new regulatory framework must be the need to guarantee the
+supervisory power that the Commission has laid down in respect of the national
+authorities, in order to ensure correct interpretation of the new framework
+and thereby avoid distortion of the competitiveness of the European market
+between geographical areas.	Teniendo en cuenta la flexibilidad del nuevo modelo,
+que amplía con gran discrecionalidad el ámbito de intervención de las autoridades
+reguladoras internacionales, la estructura básica del nuevo marco normativo debe
+caracterizarse por la exigencia de garantizar la facultad de supervisión de las
+resoluciones de las autoridades nacionales prevista por la Comisión con el fin de
+garantizar la interpretación correcta del nuevo marco y evitar, así, efectos
+distorsionantes para la competitividad del mercado europeo en las distintas áreas
+geográficas. -->
+
+	<rule>
+		<match lemma="supervisory" tags="*"/>
+		<match lemma="power" tags="n.*">
+			<select lemma="facultad" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- In my opinion, the discharge procedure is a fundamental part of our work and
+is one of the distinguishing powers of our institution: the power by virtue of
+which we verify, year after year, that the good intentions and resolves, and also
+the expectations of the citizens who elected us and for whom we are responsible
+first and foremost, are fulfilled.	A mi juicio, el procedimiento de aprobación
+de la gestión es un trámite fundamental y la expresión de una facultad que
+caracteriza a nuestra Institución y que nos permite comprobar año tras año que
+se cumplen las buenas intenciones, los propósitos, pero también las expectativas
+que han depositado en nosotros los ciudadanos que nos han elegido. -->
+
+	<rule>
+		<match lemma="distinguishing" tags="*"/>
+		<match lemma="power" tags="n.*">
+			<select lemma="facultad" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="institution" tags="*"/>
+	</rule>
+	
+<!-- I repeat, it is an absurd, illogical thing which should make those in power
+- and I certainly do not mean the Members of this Parliament - think about
+changing things so that technical matters are left to the technical experts and
+political matters are dealt with by the politicians, because we have codecision
+on those things, and then other things, more comprehensible and more political,
+are decided by someone else instead.	Es algo, repito, absurdo, ilógico, que
+debería hacer reflexionar a quien tiene la facultad - y no cabe duda de que no
+somos nosotros, los diputados - de cambiar las cosas de tal manera que los temas
+técnicos se dejen a los técnicos y los temas políticos a los políticos, ya que
+en lo que respecta a estos temas tenemos la codecisión y, por el contrario,
+respecto a otros, más comprensibles y más políticos, deciden los demás. -->
+
+	<rule>
+		<match lemma="those" tags="*"/>
+		<match lemma="in" tags="pr"/>
+		<match lemma="power" tags="n.*">
+			<select lemma="facultad" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- As Parliament is aware, it is the Commission that has the power of
+legislative initiative, not the Council, and therefore the proposals that the
+Council adopts will be based on what the Commission proposes to us.	Como sabe
+el Parlamento Europeo, la competencia en materia de iniciativa legislativa
+corresponde a la Comisión y no al Consejo, por lo que las propuestas que el
+Consejo llegue a aprobar se basarán en lo que nos proponga la Comisión. -->
+
+	<rule>
+		<match lemma="power" tags="n.*">
+			<select lemma="competencia" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="legislative" tags="*"/>
+		<match lemma="initiative" tags="*"/>
+	</rule>
+	
+<!-- And more than this - and this is more prosaic, Madam President, it means
+that we have the ability to learn from previous policy initiatives by putting
+them into action in new programmes that are comprehensive, that are cross-cutting
+and that benefit our creative industries to the extent that they now require. Y 
+además de eso, y esto es más prosaico, señora Presidenta, significa que tenemos 
+la capacidad de aprender de iniciativas políticas anteriores y de ponerlo en 
+práctica en nuevos programas que sean amplios, que sean transversales y que 
+beneficien a nuestras industrias creativas en la medida que sea necesario. -->
+
+	<rule>
+		<match lemma="ability" tags="n.*">
+			<select lemma="capacidad" tags="n.*"/>
+		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="learn" tags="pr"/>
+	</rule>
+	
+<!-- We shall nevertheless continue to devote all our attention to this problem
+because the entire credibility of the authorities and of the organisations
+representing Albanians in the region also depends on the ability of these
+organisations to prove themselves capable of implementing measures which will
+guarantee the region' s multi-ethnic nature. Ahora bien, no dejaremos de centrar
+toda nuestra atención en ese problema, porque todo el crédito de las autoridades
+y de las estructuras representativas albanesas en el territorio depende también
+de la capacidad de dichas estructuras para demostrar que pueden aplicar medidas
+que garanticen el carácter multiétnico dentro de dicho territorio. -->
+
+	<rule>
+		<match lemma="ability" tags="n.*">
+			<select lemma="capacidad" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="organisations" tags="*"/>
+	</rule>	
+	
+<!-- Too little operational capacity upstream or, in fact, excessive use, can
+cause problems downstream.	La poca capacidad de actuación río arriba, o tan
+sólo un uso excesivo, puede ocasionar problemas río abajo. -->
+
+	<rule>
+		<match lemma="operational" tags="*"/>
+		<match lemma="capacity" tags="n.*">
+			<select lemma="capacidad" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- This is undoubtedly a complex issue, and one where we should like to see the
+Commission informing us of the latest development in the matter, particularly in
+terms of the capacity of the economies involved in the accession process to
+comply with competition rules and, as far as state aid is concerned, the need, in
+all probability, to have specific rules on state aid used to assist restructuring
+of their sectors.	Se trata aquí ciertamente de una cuestión compleja sobre la
+que desearíamos que la Comisión nos dé a conocer el estado actual del dossier, en
+particular, desde el punto de vista de la capacidad de las economías en vía de
+adhesión de cumplir las normas de competencia y, en lo que respecta a las ayudas
+estatales, la probable necesidad de establecer normas específicas en materia de
+ayudas estatales que favorezcan la reestructuración de sus sectores. -->
+
+	<rule>
+		<match lemma="capacity" tags="n.*">
+			<select lemma="capacidad" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr.*"/>
+		<match/>
+		<match lemma="economy" tags="n.pl"/>
+	</rule>			
 	
 </rules>

@@ -4138,19 +4138,12 @@ capacidad de decisión autónoma y que los países de la UE deben poder decidir
 por sí mismos sobre la intervención sin la autorización de la OTAN, es decir, de
 los EE.UU. -->
 
-<!-- The power of codecision proved to be decisive.	El Parlamento Europeo actuó
-aquí como colegislador, la capacidad de codecisión ha jugado un papel decisivo. -->
-
 	<rule>
 		<match lemma="power" tags="n.*">
 			<select lemma="capacidad" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-	  <or>
+		<match lemma="of" tags="pr"/>
 		<match lemma="decision" tags="*"/>
-		<match lemma="codecision" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- It is crucially important for this Intergovernmental Conference to score a
@@ -4164,7 +4157,7 @@ la transparencia. -->
 			<select lemma="capacidad" tags="n.*"/>
 		</match>
 		<match lemma="to" tags="pr"/>
-		<match lemma="act" tags="*"/>
+		<match lemma="act" tags="vblex.*"/>
 	</rule>
 	
 <!-- If its aim were to improve the standard of living of workers, increase their
@@ -4211,7 +4204,7 @@ a muerte y de indultar al condenado. -->
 			<select lemma="facultad" tags="n.*"/>
 		</match>
 		<match lemma="to" tags="pr"/>
-		<match lemma="order" tags="pr"/>
+		<match lemma="order" tags="vblex.*"/>
 	</rule>
 	
 <!-- In view of the flexibility of the new model, which very prudently extends
@@ -4245,16 +4238,13 @@ de la gestión es un trámite fundamental y la expresión de una facultad que
 caracteriza a nuestra Institución y que nos permite comprobar año tras año que
 se cumplen las buenas intenciones, los propósitos, pero también las expectativas
 que han depositado en nosotros los ciudadanos que nos han elegido. -->
-
+	
 	<rule>
-		<match lemma="distinguishing" tags="*"/>
-		<match lemma="power" tags="n.*">
-			<select lemma="facultad" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="institution" tags="*"/>
-	</rule>
+		<match lemma="distinguish" tags="*"/>
+ 	    <match lemma="power" tags="n.*">
+  			<select lemma="facultad" tags="n.*"/>
+  	   </match>
+ 	</rule>
 	
 <!-- I repeat, it is an absurd, illogical thing which should make those in power
 - and I certainly do not mean the Members of this Parliament - think about
@@ -4269,7 +4259,6 @@ en lo que respecta a estos temas tenemos la codecisión y, por el contrario,
 respecto a otros, más comprensibles y más políticos, deciden los demás. -->
 
 	<rule>
-		<match lemma="those" tags="*"/>
 		<match lemma="in" tags="pr"/>
 		<match lemma="power" tags="n.*">
 			<select lemma="facultad" tags="n.*"/>
@@ -4287,8 +4276,7 @@ Consejo llegue a aprobar se basarán en lo que nos proponga la Comisión. -->
 		<match lemma="power" tags="n.*">
 			<select lemma="competencia" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
+		<match lemma="of" tags="pr"/>
 		<match lemma="legislative" tags="*"/>
 		<match lemma="initiative" tags="*"/>
 	</rule>
@@ -4307,27 +4295,8 @@ beneficien a nuestras industrias creativas en la medida que sea necesario. -->
 			<select lemma="capacidad" tags="n.*"/>
 		</match>
 		<match lemma="to" tags="pr"/>
-		<match lemma="learn" tags="pr"/>
+		<match lemma="learn" tags="vblex.*"/>
 	</rule>
-	
-<!-- We shall nevertheless continue to devote all our attention to this problem
-because the entire credibility of the authorities and of the organisations
-representing Albanians in the region also depends on the ability of these
-organisations to prove themselves capable of implementing measures which will
-guarantee the region' s multi-ethnic nature. Ahora bien, no dejaremos de centrar
-toda nuestra atención en ese problema, porque todo el crédito de las autoridades
-y de las estructuras representativas albanesas en el territorio depende también
-de la capacidad de dichas estructuras para demostrar que pueden aplicar medidas
-que garanticen el carácter multiétnico dentro de dicho territorio. -->
-
-	<rule>
-		<match lemma="ability" tags="n.*">
-			<select lemma="capacidad" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="organisations" tags="*"/>
-	</rule>	
 	
 <!-- Too little operational capacity upstream or, in fact, excessive use, can
 cause problems downstream.	La poca capacidad de actuación río arriba, o tan
@@ -4339,26 +4308,6 @@ sólo un uso excesivo, puede ocasionar problemas río abajo. -->
 			<select lemma="capacidad" tags="n.*"/>
 		</match>
 	</rule>
-	
-<!-- This is undoubtedly a complex issue, and one where we should like to see the
-Commission informing us of the latest development in the matter, particularly in
-terms of the capacity of the economies involved in the accession process to
-comply with competition rules and, as far as state aid is concerned, the need, in
-all probability, to have specific rules on state aid used to assist restructuring
-of their sectors.	Se trata aquí ciertamente de una cuestión compleja sobre la
-que desearíamos que la Comisión nos dé a conocer el estado actual del dossier, en
-particular, desde el punto de vista de la capacidad de las economías en vía de
-adhesión de cumplir las normas de competencia y, en lo que respecta a las ayudas
-estatales, la probable necesidad de establecer normas específicas en materia de
-ayudas estatales que favorezcan la reestructuración de sus sectores. -->
-
-	<rule>
-		<match lemma="capacity" tags="n.*">
-			<select lemma="capacidad" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="economy" tags="n.pl"/>
-	</rule>			
+			
 	
 </rules>

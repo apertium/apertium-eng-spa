@@ -2621,26 +2621,9 @@
 	 </rule>
 	 
 	 <rule>
-	 	<match lemma="political" tags="*"/>
-	 	<match lemma="arena" tags="n.*">
-	 		<select lemma="arena" tags="n.*"/>
-	 	</match>
-	 </rule>
-	 
-	 <rule>
 	 	<match lemma="ice" tags="*"/>
 	 	<match lemma="arena" tags="n.*">
 	 		<select lemma="estadio" tags="n.*"/>
-	 	</match>
-	 </rule>
-	 
-	 <rule>
-	   <or>
-	   	<match lemma="economic" tags="*"/>
-	   	<match lemma="international" tags="*"/>
-	   </or>
-	 	<match lemma="arena" tags="n.*">
-	 		<select lemma="ruedo" tags="n.*"/>
 	 	</match>
 	 </rule>
 	 
@@ -4308,6 +4291,261 @@ sólo un uso excesivo, puede ocasionar problemas río abajo. -->
 			<select lemma="capacidad" tags="n.*"/>
 		</match>
 	</rule>
+
+<!-- The Confederal Group of the European United Left/Nordic Green Left, on the
+other hand, does not seem to see any direct link between the continuous presence
+of Slobodan Milosevic on the political stage of the Balkans and the continuing
+instability in the region, one year on from the end of NATO' s intervention
+against Serbia' s ethnic cleansing which affected Kosovo on a massive scale. Sin
+embargo, resulta que el Grupo parlamentario GUE/NGL no ve una relación directa
+entre la constante presencia de la persona de Slobodan Milosevic en el escenario
+político de los Balcanes y la inestabilidad permanente en la región, un año
+después de haber finalizado la intervención por parte de la OTAN para luchar
+contra las acciones masivas de limpieza étnica realizadas por Serbia en Kosovo.-->
+
+<!-- If we wish to place European society at the forefront of the world stage as
+an example of the knowledge society, then clearly, the extremely high quality of
+teaching in schools in every Member State, area and village should be the raison
+d' être for social equality amongst citizens. Porque si queremos que la sociedad
+europea se sitúe en el primer plano del escenario mundial como sociedad del
+conocimiento, queda muy claro que en todos nuestros Estados miembros, en todas
+nuestras regiones, en todas nuestras aldeas, la calidad extremadamente positiva
+de la enseñanza escolar debe constituir la razón de ser de la igualdad social
+de los ciudadanos. -->
+
+<!-- They too will eventually need to adopt a different position in such a huge
+world nation which has the pretension of occupying a place on the world stage of
+the future and of playing a role there as well.	Finalmente deberán adoptar una
+nueva postura si desean que un país tan enorme desempeñe un papel destacado en
+el escenario mundial. -->
+
+<!-- Mr President, Commissioner, ladies and gentlemen, I have limited speaking
+time and the fire drill did not, of course, help and for this I apologise. Out of
+all that has been said, however, I should like to take up, in conclusion, the
+three following aspects: a strong Europe, a Europe that is able to project its
+influence onto the international stage is, above all, a Europe in which internal
+cohesion supports external action; secondly, it is a Europe in which the
+synergies between Presidency, Member States, Commission and High Representatives
+are exploited to the full and, lastly, it is a Europe in which action, whether
+it be in the field of justice, defence, cooperation or anything else, matches
+the rhetoric.	Señor Presidente, señor Comisario, señoras y señores, tengo
+poco tiempo, y, evidentemente, el ejercicio de evacuación no ha ayudado - les
+pido disculpas -, pero de todo lo anterior desearía, en conclusión, recordar
+los tres elementos siguientes: una Europa fuerte, una Europa capaz de proyectar
+su influencia en el escenario internacional, es ante todo una Europa donde la
+cohesión interna sostiene la acción externa; en segundo lugar, es una Europa
+donde las sinergias entre Presidencia, Estados miembros, Comisión y Altos
+Representantes juegan de lleno; es una Europa, finalmente, donde la acción, ya
+sea en el ámbito judicial, de la defensa, de la cooperación, etcétera, es el
+complemento de la retórica. -->
+
+	<rule>
+	  <or>
+		<match lemma="political" tags="*"/>
+		<match lemma="world" tags="*"/>
+		<match lemma="global" tags="*"/>
+		<match lemma="international" tags="*"/>
+	  </or>	
+		<match lemma="stage" tags="n.*">
+			<select lemma="escenario" tags="n.*"/>
+		</match>
+	</rule>		
+
+	
+<!-- We will not achieve concrete results during this stage of negotiations, which
+is a delicate and sensitive phase, by exploiting tensions. En esa delicada fase
+negociadora, explotando las tensiones no será como podremos precisamente obtener
+resultados concretos. -->
+
+	<rule>
+		<match lemma="stage" tags="n.*">
+			<select lemma="fase" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="negotiation" tags="*"/>
+	</rule>
+	
+<!-- In view of this, in accordance with the decision on the 97/99 guidelines
+(Howitts report), the Commission should have consulted Parliament in time. In
+fact, it found a sort of convenient excuse in the shortening of the programming
+stage in the Member States, and it published the guidelines back in July 1999,
+even before the new Parliament had taken up its legislative duties, thereby
+preventing Parliament itself from having any influence on the current content of
+the guidelines.	Un handicap considerable es la incapacidad y la imposibilidad de
+las regiones y de los demás agentes de programar a tiempo, por lo que la Comisión
+que, sobre la base de la Decisión 97/99 sobre las líneas directrices
+(informe Howitts)) tenía que haber consultado en su día al Parlamento, de hecho
+encontró una especie de cómoda excusa en el establecimiento de la reducida fase
+de programación en los Estados miembros y ya hizo publicas las directrices en
+julio de 1999, antes de que el recién elegido Parlamento emprendiera sus
+actividades legislativas impidiendo al Parlamento incidir en la actual estructura
+de las líneas directrices. -->
+
+<!-- The activities of the ALTENER programme will promote renewable energy
+sources and I believe that such programmes merit financial support at the
+developmental stage as they offer enormous commercial potential in the future. Las
+actividades del programa ALTENER fomentarán las energías renovables, y creo que
+programas como éste merecen recibir ayuda financiera en la fase de desarrollo,
+porque tienen un enorme potencial comercial en el futuro. -->
+
+	<rule>
+	  <or>
+		<match lemma="programming" tags="*"/>
+		<match lemma="developmental" tags="*"/>
+	  </or>	
+		<match lemma="stage" tags="n.*">
+			<select lemma="fase" tags="n.*"/>
+		</match>
+	</rule>
+
+<!-- In practical terms, Africa will achieve the first stage in growth...
+En términos prácticos, África logrará la primera fase de crecimiento... -->
+
+	<rule>
+		<match lemma="stage" tags="n.*">
+			<select lemma="fase" tags="n.*"/>
+		</match>
+		<match lemma="in" tags="pr"/>
+		<match lemma="growth" tags="*"/>
+	</rule>
+	
+<!-- It is not possible at this initial stage of the process of drawing up the
+Charter to prejudge its content in more detail.	En esta fase inicial del proceso
+de elaboración de la Carta, no es posible prejuzgar de su contenido de forma más
+detallada. -->
+
+	<rule>
+		<match lemma="stage" tags="n.*">
+			<select lemma="fase" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="process" tags="*"/>
+	</rule>	
+	
+<!-- In a short space of time Mr. Schmidt has managed to bring it forward to this
+final stage within Parliament.	En un breve espacio de tiempo, el Sr. Schmidt ha
+conseguido sacarlo adelante en el Parlamento hasta esta fase final. -->
+
+	<rule>
+		<match lemma="final" tags="*"/>
+		<match lemma="stage" tags="n.*">
+			<select lemma="fase" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- What we should do now, I feel, is wait, particularly until we know the
+economic and social impact of this phase of liberalisation before taking the risk
+of destabilising an entire section of our universal public service, which many
+of our fellow citizens still value highly.	Creo, pues, que debemos esperar, y
+sobre todo conocer los efectos económicos y sociales de esta fase de liberalización,
+antes de correr el riesgo de desestabilizar un sector completo de nuestro
+servicio público universal, al que muchos de nuestros conciudadanos están
+habituados. -->
+
+	<rule>
+		<match lemma="phase" tags="n.*">
+			<select lemma="fase" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="liberalisation" tags="*"/>
+	</rule>
+	
+<!-- On the basis of the experience gained over the past eight years, an attempt
+is being made to increase the effectiveness of action on behalf of the
+environment in the third development phase of that financial instrument. Basándonos
+en la experiencia que hemos adquirido en los últimos ocho años, queremos hacer más
+efectivas las acciones por el medio ambiente en la tercera fase de desarrollo de
+este instrumento financiero. -->	
+	
+<!-- We have all noted that the conversion phase will bring uncertainty and risks
+with it. Todos hemos señalado que la fase de adaptación provoca inseguridades y
+peligros. -->
+
+	<rule>
+	  <or>
+	  	<match lemma="development" tags="*"/>
+		<match lemma="conversion" tags="*"/>
+	  </or>	
+		<match lemma="phase" tags="n.*">
+			<select lemma="fase" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- Mr President, there are so many worrying things on the international scene
+that ought to spur us to action that we no longer know which way to look. Señor
+Presidente, hay muchos aspectos preocupantes en el escenario internacional que
+deberían obligarnos a adoptar medidas que ya no sabemos cómo mirar. -->
+
+	<rule>
+		<match lemma="international" tags="*"/>
+		<match lemma="scene" tags="n.*">
+			<select lemma="escenario" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- Over the same period of time, however, the Turkish prisons have been the
+scene of riots that were suppressed by particularly bloody means, followed by
+hunger strikes that turned into death fasts. Pero, al mismo tiempo, las prisiones
+turcas han sido escenario de motines reprimidos de manera particularmente
+sangrienta y de huelgas de hambre que sus autores llevan a cabo hasta sus
+fatales consecuencias. -->
+
+	<rule>
+		<match lemma="scene" tags="n.*">
+			<select lemma="escenario" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="riot" tags="n.pl"/>
+	</rule>
+	
+<!-- We must now set the scene for full liberalisation in the medium term, and
+the step we are now taking is the first step in this process. En este momento,
+debemos fijar el escenario en el que se desarrolle la liberalización íntegra a
+medio y largo plazo y éste es el primer paso. -->
+
+	<rule>
+		<match lemma="scene" tags="n.*">
+			<select lemma="escenario" tags="n.*"/>
+		</match>
+		<match lemma="for" tags="pr"/>
+		<match/>
+		<match lemma="liberalisation" tags="*"/>
+	</rule>	
+	
+<!-- I believe that the setting up of the ESDP mission in Bosnia and Herzegovina
+and the setting up of peace-keeping operations elsewhere in the world are signs
+of the European Union’s growing foreign policy agenda and of the attempts of
+Member States to speak with a single voice in the international arena. Creo que
+el establecimiento de la misión de la PESD en Bosnia y Herzegovina y el
+establecimiento de las operaciones de mantenimiento de la paz en otras partes
+del mundo son indicios de una creciente política exterior de la Unión y de los
+intentos de los Estados miembros de hablar con una sola voz en el escenario
+internacional. -->
+
+	<rule>
+		<match lemma="international" tags="*"/>
+		<match lemma="arena" tags="n.*">
+			<select lemma="escenario" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- I hope that nothing, and certainly not a disaster, will happen to temper the
+Commissioner’s optimism and that neither the Mediterranean nor any other
+landlocked sea will be the arena for a tragedy of such proportions.	Espero que
+nada, y sobre todo no una catástrofe, temple el optimismo de la Sra. Comisaria
+y que ni el Mediterráneo, ni ningún otro mar cerrado, sean escenario de un drama
+de tal magnitud. -->
+
+	<rule>
+		<match lemma="arena" tags="n.*">
+			<select lemma="escenario" tags="n.*"/>
+		</match>
+		<match lemma="for" tags="pr"/>
+		<match/>
+		<match lemma="tragedy" tags="*"/>
+	</rule>	
+
 			
 	
 </rules>

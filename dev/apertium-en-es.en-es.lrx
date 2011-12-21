@@ -4253,12 +4253,16 @@ técnicos se dejen a los técnicos y los temas políticos a los políticos, ya q
 en lo que respecta a estos temas tenemos la codecisión y, por el contrario,
 respecto a otros, más comprensibles y más políticos, deciden los demás. -->
 
+<!-- COUNTEREXAMPLE: Kim Jong-il was in power for six years before he visited China 
+                     Kim Jong-il llevaba en el poder seis años antes de visitar China
+
 	<rule>
 		<match lemma="in" tags="pr"/>
 		<match lemma="power" tags="n.*">
 			<select lemma="facultad" tags="n.*"/>
 		</match>
 	</rule>
+-->
 	
 <!-- As Parliament is aware, it is the Commission that has the power of
 legislative initiative, not the Council, and therefore the proposals that the

@@ -1,14 +1,14 @@
 <rules>
+
+<!-- Nevertheless, a central bank that depended on being bailed out repeatedly
+would not be very credible.	Sin embargo, un banco central dependiente de un
+reflote que se repitiera no sería muy creíble. -->
  
   <rule>
-    <match lemma="*" tags="det.pos.*"/>
-    <match lemma="body" tags="n.*">
-      <select lemma="cuerpo" tags="n.*"/>
-    </match>
-   </rule> 
-
-   <rule>
+   <or>
+    <match lemma="central" tags="*"/>
     <match lemma="savings" tags="*"/>
+   </or> 
     <match lemma="bank" tags="n.*">
       <select lemma="banco" tags="n.*"/>
     </match>
@@ -1841,11 +1841,6 @@
 		<match lemma="wind" tags="*"/>
 		<match lemma="power" tags="n.*">
 			<select lemma="energía" tags="n.*"/>
-		</match>
-	</rule>
-		<rule>
-		<match lemma="manually" tags="adv">
-			<select lemma="a mano" tags="adv"/>
 		</match>
 	</rule>
 	
@@ -4253,16 +4248,12 @@ técnicos se dejen a los técnicos y los temas políticos a los políticos, ya q
 en lo que respecta a estos temas tenemos la codecisión y, por el contrario,
 respecto a otros, más comprensibles y más políticos, deciden los demás. -->
 
-<!-- COUNTEREXAMPLE: Kim Jong-il was in power for six years before he visited China 
-                     Kim Jong-il llevaba en el poder seis años antes de visitar China
-
 	<rule>
 		<match lemma="in" tags="pr"/>
 		<match lemma="power" tags="n.*">
 			<select lemma="facultad" tags="n.*"/>
 		</match>
 	</rule>
--->
 	
 <!-- As Parliament is aware, it is the Commission that has the power of
 legislative initiative, not the Council, and therefore the proposals that the
@@ -4561,6 +4552,196 @@ de tal magnitud. -->
 		<match/>
 		<match lemma="tragedy" tags="*"/>
 	</rule>	
+	
+<!-- I still remember what used to happen when, as a child, I used to go swimming
+in the sea in Genoa, my native city. We would often come back up the beach
+covered in tar like the character in the advertisement, Calimero, who is always
+black all over and rightly complains about this. Todavía guardo en la memoria lo
+que me sucedía cuando siendo joven me bañaba en el mar en Génova, mi ciudad natal,
+y a menudo volvía a la playa lleno de alquitrán como el personaje de tebeos,
+Calimero, que siempre está todo negro y justamente se queja de ello. -->
+
+	<rule>
+		<match lemma="character" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+		<match lemma="in" tags="pr"/>
+		<match/>
+		<match lemma="advertisement" tags="*"/>
+	</rule>	
+
+<!-- I have the impression that what we are seeing reflects the attitude of a
+female character from a novel who, convinced that she lives under the
+absolute authority of her husband, is happy because he beats her 'no more than
+usual'.	Tengo la impresión de que estamos ante la actitud del personaje femenino
+que, convencido de estar bajo la autoridad absoluta del marido -y cito una novela - 
+se alegra porque el suyo sólo la pega «lo normal». -->
+
+	<rule>
+		<match lemma="character" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+		<match lemma="from" tags="pr"/>
+		<match/>
+		<match lemma="novel" tags="*"/>
+	</rule>
+	
+<!-- We know that in criminal terms, there are other penalties, including life
+imprisonment, which would be nothing were it not for forced labour - as a
+character in a film says: 'There are many, many other forms of punishment'
+. Y sabemos que en materia penal, hay muchas otras penas, empezando por la
+perpetuidad, que no sería nada sin los trabajos forzados, como dice un personaje
+de una película: »Existen muchos, muchos otros castigos». -->
+
+	<rule>
+		<match lemma="character" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+		<match lemma="in" tags="pr"/>
+		<match/>
+		<match lemma="film" tags="*"/>
+	</rule>
+	
+<!-- But at least the character of Pluto is as nice as Sissi, which will mean
+that Austria will get out while the going is good. Pero estoy de acuerdo en que
+Pluto es un personaje al menos tan simpático como Sissí, lo que hace que Austria
+salga adelante. -->
+
+	<rule>
+		<match lemma="character" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="Pluto" tags="*"/>
+	</rule>	
+	
+<!-- There is a Molière character who said that he thought he had been speaking in
+verse, but had in fact been speaking in prose without realising. I believe that
+the discussions now being held by the Ministers in the Eurogroup under the
+presidency of Jean Claude Juncker, by the Ministers in the Ecofin Council and by
+the Ministers at the Washington meeting are discussions which fit perfectly with
+the priorities and need for coordination reflected in the Commission's report and
+in your report, although some of them are probably not aware of this. Había un
+personaje de Molière que decía que creyendo hablar en verso hablaba en prosa y no
+lo sabía, yo creo que las discusiones que están manteniendo los Ministros en el
+Eurogrupo, bajo la presidencia de Jean Claude Juncker, los Ministros en el Ecofin,
+los Ministros en la reunión de Washington, son discusiones que entran
+perfectamente en las prioridades y en la necesidad de coordinación que está
+reflejada en el informe de la Comisión y en su informe, aunque, a lo mejor, algunos
+de ellos no lo sepan. -->
+
+	<rule>
+		<match lemma="Molière" tags="*"/>
+		<match lemma="character" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- The protagonist is the main character of a drama or story. El protagonista es el personaje
+principal de un drama o historia. -->	
+<!-- From: http://es.wikipedia.org/wiki/Protagonista -->
+
+	<rule>
+		<match lemma="character" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+	  <or>	
+		<match lemma="drama" tags="*"/>
+		<match lemma="story" tags="*"/>
+	  </or>
+	</rule>	  
+	
+<!-- How to create a character Cómo crear un personaje  -->
+<!-- From: http://es.wikihow.com/crear-un-personaje-carismático -->
+
+	<rule>
+		<match lemma="create" tags="*"/>
+		<match/>
+		<match lemma="character" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- What an unpleasant individual! ¡menudo personaje! -->
+<!-- From: http://www.spanishdict.com/translate/personaje -->
+
+	<rule>
+		<match lemma="what" tags="*"/>
+		<match lemma="a" tags="*"/>
+		<match lemma="unpleasant" tags="*"/>
+		<match lemma="individual" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- He's quite a character! Es todo un personaje. -->
+<!-- From: http://www.spanishdict.com/translate/character -->
+
+	<rule>
+		<match lemma="quite" tags="*"/>
+		<match/>
+		<match lemma="character" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- She's a biblical figure. Ella es una personaje bíblico -->
+<!-- From: http://es.wikipedia.org/wiki/Categor%C3%ADa:Personajes_b%C3%ADblicos -->
+
+	<rule>
+		<match lemma="biblical" tags="*"/>
+		<match lemma="figure" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- The party was attended by some of the best-known personages in show buisness
+and politics. A la fiesta asistieron algunos de los personajes más conocidos del
+mundo del espectáculo y la política. -->
+<!-- From:http://www.merriam-webster.com/spanish/personaje -->
+
+	<rule>
+		<match lemma="best\-known" tags="*"/>
+		<match lemma="personage" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- The ordinary procedure of the nineteenth century is that when a powerful and
+noble personage encounters a man of feeling, he kills, exiles, imprisons or so
+humiliates him that the other, like a fool, dies of grief. El procedimiento
+ordinario del siglo diecinueve es que cuando un poderoso y noble personaje se
+encuentra con un hombre de corazón, mata, exilia, encarcela a más o menos
+humilla al que la otra, como un tonto, muere de pena. -->
+<!-- He may never become a fashionable or important personage. Él nunca puede
+convertirse en un personaje de moda o importante. -->
+<!-- From: http://quotes.dictionary.com/search/personage?__utma=1.740755527.1283137853.1286904876.1286910575.66&__utmb=1.3.9.1324506725711&__utmc=1&__utmx=-&__utmz=1.1319689399.67.12.utmcsr=google%7Cutmccn=(organic)%7Cutmcmd=organic%7Cutmctr=what%20is%20great%20grand%20niece&__utmv=-&__utmk=52443816 -->
+
+	<rule>
+	  <or>
+	  	<match lemma="powerful" tags="*"/>
+	  	<match lemma="noble" tags="*"/>
+	  	<match lemma="fashionable" tags="*"/>
+	  	<match lemma="important" tags="*"/>
+	  </or>
+	  	<match lemma="personage" tags="n.*">
+	  		<select lemma="personaje" tags="n.*"/>
+	  	</match>
+	</rule>	 
+	
+<!-- He may never become a fashionable or important personage. Él nunca puede
+convertirse en un personaje de moda o importante. -->
+<!-- From: http://quotes.dictionary.com/search/personage?__utma=1.740755527.1283137853.1286904876.1286910575.66&__utmb=1.3.9.1324506725711&__utmc=1&__utmx=-&__utmz=1.1319689399.67.12.utmcsr=google%7Cutmccn=(organic)%7Cutmcmd=organic%7Cutmctr=what%20is%20great%20grand%20niece&__utmv=-&__utmk=52443816 -->
+
+	<rule>
+		<match lemma="become" tags="*"/>
+		<match/>
+		<match lemma="personage" tags="n.*">
+			<select lemma="personaje" tags="n.*"/>
+		</match>
+	</rule>		
 
 			
 	

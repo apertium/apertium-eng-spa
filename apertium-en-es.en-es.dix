@@ -12416,7 +12416,7 @@
     <e>  <p><l>coupon<s n="n"/></l><r>cupón<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>courage<s n="n"/></l><r>valor<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>course<s n="n"/></l><r>curso<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>court<s n="n"/></l><r>juzgado<s n="n"/><s n="m"/></r></p></e>
+    <e slr="juzgado"><p><l>court<s n="n"/></l><r>juzgado<s n="n"/><s n="m"/></r></p></e>
     <e slr="tribunal D"><p><l>court<s n="n"/></l><r>tribunal<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>courtship<s n="n"/></l><r>cortejo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" c="check"><p><l>courtship<s n="n"/></l><r>noviazgo<s n="n"/><s n="m"/></r></p></e>
@@ -22775,7 +22775,6 @@
     <e r="RL"><p><l>luckily<s n="adv"/></l><r>por<b/>suerte<s n="adv"/></r></p></e>
     <e>  <p><l>mainly<s n="adv"/></l><r>principalmente<s n="adv"/></r></p></e>
     <e>  <p><l>manifestly<s n="adv"/></l><r>manifiestamente<s n="adv"/></r></p></e>
-    <e slr="a mano">  <p><l>manually<s n="adv"/></l><r>a<b/>mano<s n="adv"/></r></p></e>
     <e>  <p><l>marginally<s n="adv"/></l><r>marginalmente<s n="adv"/></r></p></e>
     <e>  <p><l>massively<s n="adv"/></l><r>masivamente<s n="adv"/></r></p></e>
     <e r="LR"><p><l>maybe<s n="adv"/></l><r>quizás<s n="adv"/></r></p></e>
@@ -36986,7 +36985,14 @@
     <e slr="licitud"><p><l>legality<s n="n"/></l><r>licitud<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>limiting<s n="adj"/></l><r>limitativo<s n="adj"/></r></p></e>
     <e slr="lonja" a="imaxinsoftware"><p><l>market<s n="n"/></l><r>lonja<s n="n"/><s n="f"/></r></p></e>
+
+<!--
+    <e slr="a mano">  <p><l>manually<s n="adv"/></l><r>a<b/>mano<s n="adv"/></r></p></e>
     <e slr="manualmente D" a="imaxinsoftware"><p><l>manually<s n="adv"/></l><r>manualmente<s n="adv"/></r></p></e>
+-->
+    <e>  <p><l>manually<s n="adv"/></l><r>a<b/>mano<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>manually<s n="adv"/></l><r>manualmente<s n="adv"/></r></p></e>
+
     <e slr="maquetación" a="imaxinsoftware"><p><l>layout<s n="n"/></l><r>maquetación<s n="n"/><s n="f"/></r></p></e>
     <e slr="diseño D" srl="layout" a="imaxinsoftware"><p><l>layout<s n="n"/></l><r>diseño<s n="n"/><s n="m"/></r></p></e>
     <e slr="trazado" srl="layout" a="imaxinsoftware"><p><l>layout<s n="n"/></l><r>trazado<s n="n"/><s n="m"/></r></p></e>

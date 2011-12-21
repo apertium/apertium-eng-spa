@@ -1,6 +1,13 @@
 <rules>
  
   <rule>
+    <match lemma="*" tags="det.pos.*"/>
+    <match lemma="body" tags="n.*">
+      <select lemma="cuerpo" tags="n.*"/>
+    </match>
+   </rule> 
+
+   <rule>
     <match lemma="savings" tags="*"/>
     <match lemma="bank" tags="n.*">
       <select lemma="banco" tags="n.*"/>
@@ -1834,6 +1841,11 @@
 		<match lemma="wind" tags="*"/>
 		<match lemma="power" tags="n.*">
 			<select lemma="energía" tags="n.*"/>
+		</match>
+	</rule>
+		<rule>
+		<match lemma="manually" tags="adv">
+			<select lemma="a mano" tags="adv"/>
 		</match>
 	</rule>
 	

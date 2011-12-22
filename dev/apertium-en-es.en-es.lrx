@@ -13,8 +13,13 @@ reflote que se repitiera no sería muy creíble. -->
       <select lemma="banco" tags="n.*"/>
     </match>
    </rule> 
+   
+<!-- We must also do away with aid policies, which are equivalent to giving fish
+to people living on the bank of the river, as the saying goes, instead of helping
+them to make fishing rods.	También hay que acabar con las políticas de
+asistencia, que equivalen a dar un pescado -como dice el proverbio- a quienes
+viven a la orilla del río en lugar de ayudarlos a fabricar cañas de pescar. -->   
   
-
   <rule>
     <match lemma="bank" tags="n.*">
       <select lemma="orilla" tags="n.*"/>
@@ -24,35 +29,64 @@ reflote que se repitiera no sería muy creíble. -->
     <match lemma="river" tags="*"/>
   </rule>  
 
-  <rule>
-    <match lemma="doctor" tags="*"/>
-    <match lemma="'s" tags="gen"/>
-    <match lemma="office" tags="n.*">
-      <select lemma="consultorio" tags="n.*"/>
-    </match>
-  </rule>
+<!-- I am totally in support of the idea outlined by Mr Ferber regarding the
+setting up of an interinstitutional recruitment office because I believe it will
+help reduce costs and reduce competition between the institutions in attracting
+new personnel.	Estoy totalmente a favor de la idea esbozada por el Sr. Ferber
+relativa a la creación de una oficina de contratación interinstitucional, porque
+creo que permitirá reducir costes y reducir la competencia entre las
+instituciones a la hora de atraer a nuevo personal. -->
 
   <rule>
-    <match lemma="accept" tags="*"/>
-    <match/>
+   <or>
+    <match lemma="recruitment" tags="*"/>
+    <match lemma="post" tags="*"/>
+   </or> 
+    <match lemma="office" tags="n.*">
+      <select lemma="oficina" tags="n.*"/>
+    </match>
+  </rule>
+  
+<!-- The main argument put forward by the United States in this context is that
+the present provisions are, they say, incompatible with international trade law.
+El principal argumento de Estados Unidos es la incompatibilidad de esas normas
+con las del Derecho Mercantil Internacional. -->  
+
+  <rule>
+    <match lemma="main" tags="*"/>
     <match lemma="argument" tags="n.*">
       <select lemma="argumento" tags="n.*"/>
     </match>
   </rule>
+  
+<!-- The agreement on CO2 emissions from cars is a bow to the car industry and it
+only serves to confirm that the EU's promises in relation to climate change are
+not worth the paper they are written on. El acuerdo sobre las emisiones de CO2 de
+los coches es una reverencia a la industria automovilística y solo sirve para
+confirmar que las promesas de la UE en relación con el cambio climático no valen
+el papel en el que están redactadas. -->  
 
   <rule> 
-    <match lemma="take" tags="*"/>
-    <match lemma="a" tags="*"/>
     <match lemma="bow" tags="n.*">
-      <select lemma="reverencia" tags="n.*"/>
+    	<select lemma="reverencia" tags="n.*"/>	
     </match>
+    <match lemma="to" tags="pr"/>
+    <match/>
+    <match/>
+    <match lemma="industry" tags="*"/>
   </rule>
+  
+<!-- Ladies and gentlemen, many of you are wearing the little red bow at this
+time. Señorías, muchos de ustedes llevan un pequeño lazo rojo en este momento. -->  
 
   <rule>
-    <match lemma="violin" tags="*"/>
+    <match lemma="wear" tags="*"/>
+    <match/>
+    <match/>
+    <match/>
     <match lemma="bow" tags="n.*">
-      <select lemma="arco" tags="n.*"/>
-    </match>
+    	<select lemma="lazo" tags="n.*"/>
+    </match>	
   </rule>
 
   <rule>
@@ -62,71 +96,121 @@ reflote que se repitiera no sería muy creíble. -->
       <select lemma="cerilla" tags="n.*"/>
     </match>
   </rule>
+  
+<!-- Having the nationality of a given Member State and wanting to attend a
+football match are not sufficient grounds for being turned back at the border. No
+basta con tener la nacionalidad de un Estado miembro determinado y desear asistir
+a un partido de fútbol para poder ser rechazado en la frontera. -->  
 
   <rule>
-    <match lemma="play" tags="*"/>
-    <match/>
+   <or>
+    <match lemma="soccer" tags="*"/>
+    <match lemma="football" tags="*"/>
+   </or> 
     <match lemma="match" tags="n.*">
       <select lemma="partido" tags="n.*"/>
     </match>
   </rule>
+  
+<!-- The Internet is a powerful tool, without borders, open to all, and it gives
+everyone access to a pool of knowledge and documents and an ability to exchange
+information that have never been equalled in the history of humanity. Internet
+es una herramienta fantástica, sin fronteras, abierta a todos y que pone a
+disposición de todos un conjunto de conocimientos y documentos y una capacidad
+de intercambio de información jamás igualada en la historia de la humanidad. -->
+  
 
   <rule>
-    <match lemma="play" tags="*"/>
     <match lemma="pool" tags="n.*">
-      <select lemma="billar" tags="n.*"/>
-    </match>
+    	<select lemma="conjunto" tags="n.*"/>
+    </match>	
+    <match lemma="of" tags="pr"/>
+   <or> 
+    <match lemma="knowledge" tags="*"/>
+    <match lemma="document" tags="n.pl"/>
+   </or> 
   </rule>  
+  
+<!-- It appears that the limit set by the directive would restrict a truck driver
+to six hours work, a tractor driver to two or three hours and a brush cutter to
+15 minutes.	Resulta que el límite establecido por la directiva limitaría a un
+conductor de camión a seis horas de trabajo, a un conductor de tractor a dos o
+tres horas y a un cortador de matorrales a 15 minutos. -->  
 
   <rule>
-    <match lemma="car" tags="*"/>
+   <or>
+    <match lemma="truck" tags="*"/>
+    <match lemma="tractor" tags="*"/>
+   </or> 
     <match lemma="driver" tags="n.*">
       <select lemma="conductor" tags="n.*"/>
     </match>
   </rule>
-
-  <rule>
-    <match lemma="driver" tags="n.*">
-      <select lemma="conductor" tags="n.*"/>
-    </match>
-    <match lemma="of" tags="pr.*"/>
-    <match/>
-    <match lemma="car" tags="*"/>
-  </rule>
+  
+<!-- In my opinion, this report is an opportunity to thank Alexander Stubb for
+his efforts to give some impetus to the Baltic region, which is actually a driver
+of modernisation in Northern Europe, and in this case could even be a driver
+of modernisation for the entire European Union.	A mi juicio, este informe es una
+oportunidad de agradecer al señor Stubb sus esfuerzos por impulsar de alguna
+manera la región báltica, que es motor de modernización en el norte de Europa,
+y en este caso podría ser incluso motor de modernización para la totalidad de
+la Unión Europea. -->  
   
   <rule>
-    <match lemma="golf" tags="*"/>
     <match lemma="driver" tags="n.*">
-      <select lemma="driver" tags="n.*"/>
-    </match>
+    	<select lemma="motor" tags="n.*"/>
+    </match>	
+    <match lemma="of" tags="pr"/>
+    <match lemma="modernisation" tags="*"/>
   </rule>
   
+<!-- New technology is not the key to the future; we need non-conventional
+thinking in all fields, in firms as well as in public administration. Las nuevas
+tecnologías no son la llave para el futuro, sino que todos los ámbitos-tanto
+las empresas privadas como la administración pública- están necesitados de ideas
+no convencionales. -->
+  
   <rule>
-    <match lemma="door" tags="*"/>
     <match lemma="key" tags="n.*">
-      <select lemma="llave" tags="n.*"/>
+    	<select lemma="llave" tags="n.*"/>
     </match>
+    <match lemma="to" tags="pr"/>
+    <match/>
+    <match lemma="future" tags="*"/>
   </rule>
   
+<!-- Neither does it make sense to criminalise a series of activities - those of
+critics, journalists, intellectuals or teachers, who, as a result of simple
+meeting, may end up 'behind bars' - or that of an innocent user of the broadcast
+media that Internet technology provides us with these days, as a result of which,
+by pressing a key at a particular time, one may find oneself accused of a
+criminal infringement. Tampoco tiene sentido criminalizar una serie de
+actividades -las de los críticos, periodistas, intelectuales o profesores, que
+por una simple cita se pueden colocar "entre rejas" ni la de un utilizador
+inocente de los medios de difusión que nos facilita hoy la tecnología de
+Internet, en virtud de la cual, por tocar una tecla en un momento determinado,
+uno puede encontrarse sometido a una infracción de ámbito penal. -->  
+  
   <rule>
-    <or>
-    <match lemma="piano" tags="*"/>
-    <match lemma="typewriter" tags="*"/>
-    </or>
+    <match lemma="press" tags="*"/>
+    <match/>
     <match lemma="key" tags="n.*">
       <select lemma="tecla" tags="n.*"/>
     </match>
   </rule>
   
-  <rule>
-    <match lemma="wooden" tags="*"/>
-    <match lemma="post" tags="n.*">
-      <select lemma="poste" tags="n.*"/>
-    </match>
-  </rule>
+<!-- Mr David O' Sullivan, for instance, will take up his post by rotation as
+provided for under the Staff Regulations and equally as provided for under the
+Staff Regulations, Mr Ricardo Levi is a temporary official and moves with his
+post to his new position. El Sr. David O'Sullivan, por ejemplo, ocupará su puesto
+por rotación, como establece el Estatuto de los funcionarios y, como también
+establece dicho Estatuto, el Sr. Ricardo Levi es un funcionario temporal y se
+traslada con su puesto a su nuevo cargo. -->  
   
   <rule>
-    <match lemma="military" tags="*"/>
+    <match lemma="take" tags="*"/>
+    <match lemma="up" tags="*"/>
+    <match/>
     <match lemma="post" tags="n.*">
       <select lemma="puesto" tags="n.*"/>
     </match>
@@ -142,8 +226,12 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
+<!-- The FPÖ party is established in Austria' s political landscape. El FPÖ es un
+partido anclado en el paisaje político de Austria. -->  
+  
   <rule>
    <or>
+   	<match lemma="FPÖ" tags="*"/>
     <match lemma="democratic" tags="*"/>
     <match lemma="republican" tags="*"/>
     <match lemma="labour" tags="*"/>
@@ -157,31 +245,67 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
+<!-- I should be concerned to think that the Commission had in fact made no
+attempts to use its imagination and commitment, thinking that it would be
+unseemly to spoil the party – a party that involves so many economic and
+advertising interests.	Me preocuparía pensar que la Comisión no haya intentado
+de hecho usar su imaginación y compromiso, pensando que estaría mal visto
+estropear la fiesta, una fiesta que implica tantos intereses económicos y
+publicitarios. -->  
+  
+<!-- We ought to throw a party when the figure reaches 100% in the near
+future, which is indeed what the new Convention is aiming at. Debemos celebrar
+una fiesta cuando próximamente alcancemos el 100%, tal y como se quiere con
+el nuevo convenio. -->  
+  
   <rule>
+   <or>
+   	<match lemma="spoil" tags="*"/>
     <match lemma="throw" tags="*"/>
+   </or> 
     <match/>
     <match lemma="party" tags="n.*">
       <select lemma="fiesta" tags="n.*"/>
     </match>
   </rule>
   
+<!-- In Italy, Commissioner Liikanen, Goodyear is not carrying out restructuring
+but closing a plant whose production covers 14% of the market and which Goodyear
+itself defined as, 'having the most highly-skilled workforce of all its plants',
+a plant which was opened with a total of EUR 85 million of European capital. En
+Italia, señor comisario Liikanen, Goodyear no está llevando a cabo una
+reestructuración, sino el cierre de una fábrica que con su producción cubre el
+14% del mercado y que la misma Goodyear ha definido "para la mayor cualificación
+de sus empleados" , una fábrica que se abrió invirtiendo dinero europeo por un
+total de 85 millones de euros. -->  
+  
   <rule>
-    <match lemma="manufacturing" tags="*"/>
+    <match lemma="close" tags="*"/>
+    <match/>
     <match lemma="plant" tags="n.*">
       <select lemma="fábrica" tags="n.*"/>
     </match>
   </rule>
   
+<!-- They think it is just another piece of paper saying how wonderful they are.
+Lo que piensan es que se trata únicamente de unas cuantas hojas de papel que les
+cubren de elogios y nada más. -->  
+  
   <rule>
     <match lemma="piece" tags="*"/>
-    <match lemma="of" tags="*"/>
+    <match lemma="of" tags="pr"/>
     <match lemma="paper" tags="n.*">
       <select lemma="papel" tags="n.*"/>
     </match>
   </rule>
   
+<!-- We cannot even find a statistical table of the numbers of refugees currently
+residing in the various countries of Europe. Ni siquiera hay una tabla con cifras
+que muestre cuantos refugiados existen hoy en los distintos países de Europa. -->  
+  
   <rule> 
    <or>
+   	<match lemma="statistical" tags="*"/>
     <match lemma="multiplication" tags="*"/>
     <match lemma="league" tags="*"/>
    </or> 
@@ -190,22 +314,64 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
-  <rule>
-    <match lemma="drinking" tags="*"/>
-    <match lemma="cup" tags="n.*">
-      <select lemma="taza" tags="n.*"/>
-    </match>
-  </rule>
+<!-- At half-time millions of kettles are turned on to make a cup of tea - for
+those who have not been drinking beer since the start of the match at least. En
+el descanso se ponen al fuego millones de teteras para que quienes no hayan
+estado bebiendo cerveza desde el comienzo del partido al menos tomen una taza de
+té. -->  
+
+<!-- It may also be the case that a cup of cocoa and a bedtime story are essential
+for everyone but this is not something which should be done at EU level. También
+es posible que una taza de cacao y un poco de lectura en la cama sean esenciales
+para todos, pero no es algo que deba resolverse en el plano de la UE. -->
+
+<!-- If you go down to the Sheraton in Kampala, you pay one thousand Ugandan
+shillings for one single cup of coffee.	Sin embargo, si bajamos al Sheraton de
+Kampala, pagaremos mil chelines ugandeses por una sola taza de café. -->
+
   
   <rule>
-    <match lemma="trophy" tags="*"/>
+    <match lemma="cup" tags="n.*">
+    	<select lemma="taza" tags="n.*"/>
+    </match>
+    <match lemma="of" tags="pr"/>
+   <or> 
+    <match lemma="tea" tags="*"/>
+    <match lemma="cocoa" tags="*"/>
+    <match lemma="coffee" tags="*"/>
+   </or> 
+  </rule>
+  
+<!-- I can tell you that we have carried out an assessment of the results of
+police cooperation during the football world cup in Germany, the conclusions of
+which we will publish, and there will then be a debate in which, in my view, the
+European Parliament should be fully involved. Puedo decirles que hemos realizado
+una evaluación de los resultados de la cooperación policial durante la copa
+mundial de fútbol celebrada en Alemania, cuyas conclusiones publicaremos, y
+entonces habrá un debate en el que creo que debería participar plenamente el
+Parlamento Europeo. -->  
+
+<!-- Perhaps we should launch a plan for a transatlantic football cup in Feira.
+Además, en Feira, sería quizás necesario lanzar el proyecto de una copa
+transatlántica de fútbol. -->
+  
+  <rule>
+   <or>
+   	<match lemma="world" tags="*"/>
+    <match lemma="football" tags="*"/>
+   </or>
     <match lemma="cup" tags="n.*">
       <select lemma="copa" tags="n.*"/>
     </match>
   </rule>
   
+<!-- The German approach is no guarantee that this radical movement will not
+grow again.	El modo en que hemos actuado en Alemania no garantiza que el
+movimiento radical no se fortalezca de nuevo. -->  
+  
   <rule>
    <or>
+   	<match lemma="radical" tags="*"/>
     <match lemma="political" tags="*"/>
     <match lemma="mass" tags="*"/>
     <match lemma="lateral" tags="*"/>
@@ -220,44 +386,81 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
+<!-- Where the Community can step in is to put the local activators in touch with
+each other so that they can actually not re-invent the wheel in every region. La
+Comunidad puede intervenir poniendo en contacto a los activistas locales entre sí
+con el fin de evitar que no intenten reinventar la rueda en cada región. -->  
+  
   <rule>
-   <or>
-    <match lemma="trolley" tags="*"/>
-    <match lemma="car" tags="*"/>
-    <match lemma="bicycle" tags="*"/>
-    <match lemma="tricycle" tags="*"/>
-    <match lemma="motorcycle" tags="*"/>
-   </or> 
+    <match lemma="re\-invent" tags="*"/>
+    <match/>
     <match lemma="wheel" tags="n.*">
       <select lemma="rueda" tags="n.*"/>
     </match>
   </rule>  
+  
+<!-- I remember the time when an elderly person came into my father's bar, where
+I worked when I was a child, and asked for a glass of milk, saying, 'I drank milk
+when I was born and I want to die drinking milk!'. Recuerdo, pues en mi juventud
+trabajé en el bar de mi padre, que cuando una persona mayor entraba en el bar y
+pedía un vaso de leche decía: "¡Yo me crié con leche y con leche quiero morir!" -->
+
+<!-- Mr President, Minister, ladies and gentlemen, I will do my best to be very
+brief, not least because I have already made one speech today in this House and
+because Mr Rato y Figaredo has already given a detailed explanation of events as
+regards Lisbon. With any luck, this will also mean that I do not need the
+Presidential glass of water. (IT) Señor Presidente, señor Ministro, Señorías,
+espero ser muy breve, ya que hoy es mi segundo discurso en el Parlamento y puesto
+que el Ministro Rato ya ha explicado de manera analítica lo que se hace en
+Lisboa, y, en consecuencia, también espero ahorrarle a la Presidencia un vaso de
+agua. -->
  
   <rule>
     <match lemma="glass" tags="n.*">
       <select lemma="vaso" tags="n.*"/>
     </match>
-    <match lemma="of" tags="pr.*"/>
+    <match lemma="of" tags="pr"/>
     <match/>
+   <or> 
     <match lemma="water" tags="*"/>
+    <match lemma="milk" tags="*"/>
+   </or> 
   </rule>
+  
+<!-- But is it right that the tax systems of our States should benefit every
+single time we drink a glass of wine? I do not think so! ¿Pero es posible que los
+sistemas fiscales de nuestros Estados tengan que sacar beneficios cada vez que
+bebemos una copa de vino? -->  
   
   <rule>
     <match lemma="glass" tags="n.*">
       <select lemma="copa" tags="n.*"/>
     </match>
-    <match lemma="of" tags="pr.*"/>
+    <match lemma="of" tags="pr"/>
     <match/>
     <match lemma="wine" tags="*"/>
   </rule>
+  
+<!-- At the beginning of December 1999, the first round of negotiations were held
+in New York, after an interruption of several years in negotiations between the
+Cypriot communities in the north and south of the island. Quisiera subrayar que a
+comienzos de diciembre del año pasado se celebró en Nueva York la primera ronda
+de negociaciones -desde hace varios años interrumpidas- entre las comunidades
+chipriotas del norte y del sur de la isla. -->  
+
+<!-- Research is particularly essential with regard also to the EU' s next round
+of enlargement.	La investigación también desempeña un papel fundamental en el
+marco de la próxima ronda de negociaciones para la ampliación de la UE. -->
   
   <rule>
     <match lemma="round" tags="n.*">
       <select lemma="ronda" tags="n.*"/>
     </match>
-    <match lemma="of" tags="pr.*"/>
-    <match/>
-    <match lemma="tournament" tags="*"/>
+    <match lemma="of" tags="pr"/>
+   <or>
+    <match lemma="negotiation" tags="n.pl"/>
+   	<match lemma="enlargement" tags="*"/>
+   </or>  
   </rule>
    
   <rule> 
@@ -274,6 +477,10 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
+<!-- They will be adopting an anti-secession law, intended to back up a possible
+military strike against Taiwan.	Van a aprobar una ley antisecesión con la que
+pretenden respaldar un posible ataque militar contra Taiwán. -->  
+  
   <rule>
     <match lemma="military" tags="*"/>
     <match lemma="strike" tags="n.*">
@@ -281,25 +488,56 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
+<!-- Right now, there are two people on hunger strike in Tunisia because they
+want passports in order to be able to travel, specifically a publisher, the wife
+of Mr Ksila who was one of the people nominated for the Sakharov Prize.	En este
+momento hay dos personas que hacen huelga de hambre en Túnez, porque quieren un
+pasaporte para poder viajar, en particular, una editora, la mujer del Sr. Ksila,
+que fue una de las personas propuestas para el premio Sájarov. -->  
+  
   <rule>
+   <or>
+   	<match lemma="hunger" tags="*"/>
     <match lemma="union" tags="*"/>
+   </or> 
     <match lemma="strike" tags="n.*">
       <select lemma="huelga" tags="n.*"/>
     </match>
   </rule>
   
+<!-- The latter Commissioner-designate has emerged from a select band of people
+who will scarcely go down in history as the most assiduous defenders of justice
+or as unrivalled promoters of freedoms.	El segundo Comisario propuesto procede
+de un selecto grupo de personas que difícilmente pasarán a la historia como los
+más ardientes defensores de la justicia o como campeones de la promoción de las
+libertades. -->
+
+<!-- They see the UK like that explorer in the jungle who, when the band of
+explorers froze at the sight of a tiger ready to pounce on them, slowly took off
+his jungle boots and slipped on a pair of running shoes. Ven al Reino Unido como
+a ese explorador en la jungla que, cuando el grupo de exploradores se queda de
+piedra al ver a un tigre a punto de atacarles, lentamente se quita sus botas y se
+calza un par de zapatillas para correr. -->
+  
   <rule>
-   <or>
-    <match lemma="rock" tags="*"/>
-    <match lemma="pop" tags="*"/>
-   </or> 
     <match lemma="band" tags="n.*">
-      <select lemma="grupo" tags="n.*"/>
-    </match>
+    	<select lemma="grupo" tags="n.*"/>
+    </match>	
+    <match lemma="of" tags="pr"/>
+   <or> 
+    <match lemma="people" tags="*"/>
+    <match lemma="explorer" tags="n.pl"/>
+   </or> 
   </rule>
+  
+<!-- It is not good enough that, for example, the Council’s brass band starts and
+finishes at the same time; the tune should also be worth listening to. No basta
+con que, por ejemplo, la banda de música del Consejo comience y termine al mismo
+tiempo, sino que la melodía debe valer la pena. -->
   
   <rule>
     <or>
+      <match lemma="brass" tags="*"/>
       <match lemma="jazz" tags="*"/>
       <match lemma="concert" tags="*"/>
       <match lemma="brass" tags="*"/>
@@ -312,46 +550,85 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
+  <!-- Against this, let me put to you the liberal idea, which certainly does not
+  represent a particularly strong attack on the power of the state, that there
+  are things which are simply no concern of government, such as the flavour of
+  jam people like to eat, how many layers of clothing they wear in winter or
+  which narcotic substance they like to smoke, sniff, drink or inject. Frente a
+  esto, permítanme exponerles la idea liberal, que ciertamente no representa un
+  ataque particularmente fuerte contra el poder del estado, de que hay cosas que
+  sencillamente no conciernen al gobierno, como el sabor de la mermelada que nos
+  gusta tomar, cuántas prendas de abrigo llevamos en invierno o qué sustancia
+  narcótica deseamos fumar, esnifar, beber o inyectarnos. -->
+  
   <rule> 
-   <or>
-   	<match lemma="grape" tags="*"/>
-   	<match lemma="apricot" tags="*"/>
-   	<match lemma="peach" tags="*"/>
-   	<match lemma="blackberry" tags="*"/>
-   	<match lemma="plum" tags="*"/>
-    <match lemma="strawberry" tags="*"/>
-   </or> 
-    <match lemma="jam" tags="n.*">
+   <match lemma="flavour" tags="*"/>
+   <match lemma="of" tags="pr"/>
+   <match lemma="jam" tags="n.*">
       <select lemma="mermelada" tags="n.*"/>
-    </match>
+   </match>
   </rule>
   
+<!-- The European industry must use its influence to ensure that transgenic soya
+is supplied separately, because that industry is a very large customer and must
+be able to insist that the Americans, for example, send us the transgenic soya
+beans separately from the ordinary ones, because in this way the raw transgenic
+bean can be labelled.	La industria europea deberá hacer uso de su influencia
+para velar por que la soja tratada genéticamente sea suministrada por separado,
+dado el elevado volumen de adquisición por parte de esta industria, debiendo
+además estar en capacidad de solicitar a Estados Unidos por ejemplo que el
+suministro de las habas de soja tratadas genéticamente se efectúe separadamente
+de las normales. De esta manera será posible proceder al etiquetado del grano
+de soja crudo tratado genéticamente. -->  
+  
   <rule>
+   <or>
+   	<match lemma="transgenic" tags="*"/>
     <match lemma="coffee" tags="*"/>
+   </or> 
     <match lemma="bean" tags="n.*">
       <select lemma="grano" tags="n.*"/>
     </match>
   </rule>
   
+<!-- The speech demonstrated that the political elites’ claim to be listening to
+the people of Europe is as phoney as the latest suggestion of a cosmetic stunt of
+dropping the title ‘Constitution’.En su intervención ha demostrado que la
+afirmación de que las elites políticas escuchan a los ciudadanos europeos es tan
+falsa como el truco cosmético sugerido recientemente de quitarle el título de
+«Constitución». -->  
+  
   <rule>
+   <or>
+   	<match lemma="cosmetic" tags="*"/>
     <match lemma="publicity" tags="*"/>
+   </or> 
     <match lemma="stunt" tags="n.*">
       <select lemma="truco" tags="n.*"/>
     </match>
   </rule>
   
+<!-- In that event we would not have moved forward, but rather backwards, in the
+application of competition policy in the Union.	En ese caso no habríamos avanzado
+sino que, por el contrario, habríamos retrocedido en la aplicación de la política
+de competencia dentro de la Unión. -->  
+  
   <rule>
-  	<or>
-  	<match lemma="theoretical" tags="*"/>
-    <match lemma="paint" tags="*"/>
-    </or>
-    <match lemma="application" tags="n.*">
-      <select lemma="aplicación" tags="n.*"/>
-    </match>
+  	<match lemma="application" tags="n.*">
+  		<select lemma="aplicación" tags="n.*"/>
+  	</match>
+  	<match lemma="of" tags="pr"/>
+  	<match/>
+  	<match lemma="policy" tags="*"/>
   </rule>
+  
+<!-- A few days ago Mr Racan announced that Croatia' s formal membership
+application would be presented at the end of 2000. El Sr. Racan anunció hace
+unos días la solicitud de adhesión formal de Croacia para el final del año 2000.-->  
   
   <rule>
   	<or>
+  	<match lemma="membership" tags="*"/>
   	<match lemma="patent" tags="*"/>
     <match lemma="job" tags="*"/>
     </or>
@@ -360,30 +637,54 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
+<!-- But I am also aware that this is a poker game and I am a rotten poker player.
+Pero también sé que estamos en una partida de póker y yo soy un pésimo jugador de
+póker. --> 
+  
   <rule>
+   <or>
+    <match lemma="poker" tags="*"/>
     <match lemma="card" tags="*"/>
+   </or> 
     <match lemma="game" tags="n.*">
       <select lemma="partida" tags="n.*"/>
     </match>
   </rule>
   
+<!-- Otherwise, we shall have a situation where on one half of the field a game
+of tennis is being played but on the other a game of rugby.	De lo contrario,
+tendremos una situación en la que en una mitad del terreno se está jugando un
+partido de tenis y la otra mitad uno de rugby. -->  
+  
   <rule>
-  	<match lemma="football" tags="*"/>
-    <match lemma="game" tags="n.*">
-      <select lemma="partido" tags="n.*"/>
+  	<match lemma="game" tags="n.*">
+  		<select lemma="partido" tags="n.*"/>
     </match>
+    <match lemma="of" tags="pr"/>
+    <match lemma="tennis" tags="*"/> 
   </rule>
+  
+<!-- Indeed, a former Shetland Islands MEP was fond of pointing out that the
+nearest mainline railway station to Shetland is in fact Bergen.	De hecho, un
+antiguo diputado de las Islas Shetland se jactaba de que la estación de la red
+principal de ferrocarril más próxima a Shetland es en realidad Bergen. -->  
   
   <rule>
    <or>
     <match lemma="bus" tags="*"/>
     <match lemma="train" tags="*"/>
     <match lemma="subway" tags="*"/>
+    <match lemma="railway" tags="*"/>
    </or> 
     <match lemma="station" tags="n.*">
       <select lemma="estación" tags="n.*"/>
     </match>
   </rule>
+  
+<!-- In return, an old police station located in Ras Al-Amud, in the centre of
+the Arab quarter of East Jerusalem, will be handed over. A su vez, una antigua
+comisaría situada en Ras Al-Amud, en el centro del barrio árabe de Jerusalén Este,
+será entregada. -->  
   
   <rule>
     <match lemma="police" tags="*"/>
@@ -392,12 +693,25 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
+<!-- His radio station Moscow Echo was selected by President Clinton a few days
+ago for the only substantive interview that he gave to a Russian outlet. Su
+emisora de radio, el "Eco de Moscú", fue seleccionada hace unos días por el
+Presidente Clinton para la única entrevista sustanciosa que dio a una agencia
+rusa. -->  
+  
   <rule>
     <match lemma="radio" tags="*"/>
     <match lemma="station" tags="n.*">
       <select lemma="emisora" tags="n.*"/>
     </match>
   </rule>
+  
+<!-- In my country, a television station recently presented a docu-drama on the
+reception of poor Dutch elderly people in an African country where the care is
+more efficient because wages in the care sector are lower. En mi país, un canal
+de televisión presentó recientemente un documental-drama sobre la recepción de
+personas mayores neerlandesas pobres en un país africano donde la atención es
+más eficiente porque los salarios en el sector de la asistencia son más bajos. -->  
   
   <rule>
     <match lemma="television" tags="*"/>
@@ -406,33 +720,55 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule>
   
-  <rule>
-    <match lemma="brain" tags="*"/>
-    <match lemma="stroke" tags="n.*">
-      <select lemma="infarto" tags="n.*"/>
-    </match>
-  </rule>
+<!-- (A5-0157/2000) by Mr Turco, on behalf of the Committee on Citizens' Freedoms
+and Rights, Justice and Home Affairs on the proposal for a Council decision on
+the conclusion of an agreement between the European Community and the Kingdom of
+Norway on the participation of Norway in the work of the Centre for Drugs and
+Drug Addiction (COM(1999) 496 - C5-0054/2000 - 1999/0203(CNS)). Informe
+(A5-0157/2000) del Sr. Turco, en nombre de la Comisión de Libertades y
+Derechos de los Ciudadanos, de Justicia y de Asuntos Interiores, s obre la
+propuesta de decisión del Consejo sobre la celebración de un Acuerdo entre la
+Comunidad Europea y el Reino de Noruega relativo a la participación de Noruega en
+las actividades del Observatorio de la Droga y las Toxicomanías
+(COM(1999) 496 - C5-0054/2000 - 1999/0203(CNS)). -->
   
   <rule>
     <match lemma="work" tags="n.*">
       <select lemma="obra" tags="n.*"/>
     </match>
-    <match lemma="of" tags="pr.*"/>
+    <match lemma="of" tags="pr"/>
     <match/>
-    <match lemma="art" tags="*"/>
+   	<match lemma="centre" tags="*"/>
   </rule>
+  
+<!-- The ordinary Iraqi family's purchase, even of one bar of soap, was
+politically directed and controlled. Cualquier compra por parte de una familia
+iraquí normal, aunque fuera de una pastilla de jabón, estaba dirigida y
+controlada políticamente. -->  
   
   <rule>
     <match lemma="bar" tags="n.*">
       <select lemma="pastilla" tags="n.*"/>
     </match>
-    <match lemma="of" tags="pr.*"/>
-    <match/>
+    <match lemma="of" tags="pr"/>
     <match lemma="soap" tags="*"/>
   </rule>
   
+<!-- Above all, Madam President - and here I will end - we must be able to express
+this in plain language, clearly, by changing to some extent the jargon which we
+use, because we cannot ask the Europeans, who are living through profound changes,
+to take part and show enthusiasm towards us if we continue to use a form of
+language which they find completely inaccessible. Y, sobre todo, y con ello
+concluyo, señora Presidenta, Señorías, tenemos que ser capaces de expresar esto
+en lenguaje llano, con claridad, cambiando en cierto modo la jerga que manejamos,
+porque no podemos pedir a los europeos, que están viviendo tiempos de profundos
+cambios, que se adhieran y que se entusiasmen con nosotros si seguimos
+manteniendo un lenguaje absolutamente cerrado y de espaldas a ellos. -->  
+  
   <rule>
     <or>
+      <match lemma="common" tags="*"/>
+      <match lemma="plain" tags="*"/>
       <match lemma="natural" tags="*"/>
       <match lemma="programming" tags="*"/>
     </or>
@@ -441,6 +777,15 @@ reflote que se repitiera no sería muy creíble. -->
     </match>
   </rule> 
   
+<!-- A short time ago, we, along with eight other Member States and another
+non-Member State, which also happens to have platforms and engages in oil
+exploration and drilling - Norway - took the initiative to sign, all 10 of us,
+an agreement to jointly build a wind farm in the North Sea.	Hace poco, Bélgica,
+junto con otros ocho Estados miembros y un Estado no miembro, que casualmente
+también tiene plataformas y participa en actividades de exploración y perforación
+de petróleo -Noruega- firmó, con los 9 países restantes, un acuerdo para
+construir de forma conjunta un parque eólico en el Mar del Norte. -->  
+  
   <rule>
 		<match lemma="wind" tags="*"/>
 		<match lemma="farm" tags="n.*">
@@ -448,12 +793,26 @@ reflote que se repitiera no sería muy creíble. -->
 		</match>
 	</rule>
 	
+<!-- As I speak, French ski instructors and authorities have prevented a single
+British ski instructor from working in the French Alps.	En estos mismos momentos
+en que hablo, los monitores de esquí y las autoridades franceses han impedido a
+un único monitor de esquí británico que trabaje en los Alpes franceses. -->	
+	
 	<rule>
 		<match lemma="ski" tags="*"/>
 		<match lemma="instructor" tags="n.*">
 			<select lemma="monitor" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- If I take Italy – which at the moment holds the presidency of the European
+Union – as an example, in February 1999 the Italian Supreme Court overturned on
+appeal, a court verdict which had found a male driving instructor guilty of
+raping his 18-year-old student.	Si pensamos por ejemplo en Italia, que en esos
+momentos detenta la presidencia de la Unión Europea, en febrero de 1999 el
+Tribunal Supremo italiano revocó en un recurso de apelación una sentencia
+judicial que había considerado a un profesor de autoescuela culpable de violar
+a su alumna de dieciocho años. -->	
 	
 	<rule>
 		<match lemma="driving" tags="*"/>

@@ -13844,7 +13844,7 @@
     <e r="RL" srl="hint"><p><l>hint<s n="n"/></l><r>cancha<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>hint<s n="n"/></l><r>pista<s n="n"/><s n="f"/></r></p></e>
     <e srl="clue"><p><l>clue<s n="n"/></l><r>pista<s n="n"/><s n="f"/></r></p></e>
-    <e>  <p><l>hip<s n="n"/></l><r>cadera<s n="n"/><s n="f"/></r></p></e>
+    <e slr="cadera D">  <p><l>hip<s n="n"/></l><r>cadera<s n="n"/><s n="f"/></r></p></e>
     <e srl="hire"><p><l>hire<s n="n"/></l><r>alquiler<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>historian<s n="n"/></l><r>historiador<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>historian<s n="n"/></l><r>historiador<s n="n"/></r></p></e>
@@ -15398,7 +15398,7 @@
     <e srl="politics D"><p><l>politics<s n="n"/></l><r>política<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>politisation<s n="n"/></l><r>politización<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>pollen<s n="n"/></l><r>polen<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>pollution<s n="n"/></l><r>contaminación<s n="n"/><s n="f"/></r></p></e>
+    <e srl="pollution D"><p><l>pollution<s n="n"/></l><r>contaminación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>polonium<s n="n"/></l><r>polonio<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>polygamy<s n="n"/></l><r>poligamia<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>polygon<s n="n"/></l><r>polígono<s n="n"/><s n="m"/></r></p></e>
@@ -37073,6 +37073,23 @@
     <e r="LR"><p><l>Malay<s n="n"/></l><r>malayo<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>Malay<s n="n"/></l><r>malayo<s n="n"/></r></p></e>
     <e r="LR"><p><l>Malayan<s n="n"/></l><r>malayo<s n="n"/><s n="GD"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>blackcurrant<s n="n"/></l><r>grosella<b/>negra<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>redcurrant<s n="n"/></l><r>grosella<b/>roja<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>gooseberry<s n="n"/></l><r>grosella<b/>espinosa<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>guava<s n="n"/></l><r>guayaba<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>lucuma<s n="n"/></l><r>lúcuma<s n="n"/><s n="f"/></r></p></e>
+    <e srl="kiwi D" a="imaxinsoftware"><p><l>kiwi<s n="n"/></l><r>kiwi<s n="n"/><s n="m"/></r></p></e>
+    <e srl="kiwifruit" a="imaxinsoftware"><p><l>kiwifruit<s n="n"/></l><r>kiwi<s n="n"/><s n="m"/></r></p></e>
+    <e srl="pumpkin D" a="imaxinsoftware"><p><l>pumpkin<s n="n"/></l><r>calabaza<s n="n"/><s n="f"/></r></p></e>
+    <e srl="gourd" a="imaxinsoftware"><p><l>gourd<s n="n"/></l><r>calabaza<s n="n"/><s n="f"/></r></p></e>
+    <e slr="escaramujo" srl="hip D" a="imaxinsoftware"><p><l>hip<s n="n"/></l><r>escaramujo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="escaramujo" srl="hiprose" a="imaxinsoftware"><p><l>hip<s n="n"/></l><r>escaramujo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="escaramujo" srl="hip rose" a="imaxinsoftware"><p><l>hip<s n="n"/></l><r>escaramujo<s n="n"/><s n="m"/></r></p></e>
+    <e srl="contamination" a="imaxinsoftware"><p><l>contamination<s n="n"/></l><r>contaminación<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>foodborne<s n="adj"/></l><r>transmitido<g><b/>por<b/>los<b/>alimentos</g><s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>bruised<s n="vblex"/></l><r>magullar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>refrigerate<s n="vblex"/></l><r>refrigerar<s n="vblex"/></r></p></e>
+
 
 <e srl="index card D"><p><l>index<b/>card<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
 <e slr="ficha" srl="chip"><p><l>chip<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>

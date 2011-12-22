@@ -18126,7 +18126,7 @@
     <e>  <p><l>abysmal<s n="adj"/></l><r>abismal<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>academic<s n="adj"/></l><r>académico<s n="adj"/></r></p></e>
     <e r="RL"><p><l>academic<s n="adj"/></l><r>académico<s n="adj"/></r></p></e>
-    <e>  <p><l>acceptable<s n="adj"/></l><r>aceptable<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="acceptable D">  <p><l>acceptable<s n="adj"/></l><r>aceptable<s n="adj"/><s n="mf"/></r></p></e>
     <e srl="accessible D">  <p><l>accessible<s n="adj"/></l><r>accesible<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>accidental<s n="adj"/></l><r>accidental<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>acoustic<s n="adj"/></l><r>acústico<s n="adj"/></r></p></e>
@@ -28562,7 +28562,7 @@
         <e>  <p>  <l>giggle<s n="n"/></l><r>risita<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>ritualism<s n="n"/></l><r>ritualismo<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>ritualistic<s n="adj"/></l><r>ritualista<s n="adj"/><s n="mf"/></r></p></e>
-        <e>  <p>  <l>rhizome<s n="n"/></l><r>rizoma<s n="n"/><s n="m"/></r></p></e>
+        <e srl="rhizome D">  <p>  <l>rhizome<s n="n"/></l><r>rizoma<s n="n"/><s n="m"/></r></p></e>
         <e>  <p>  <l>robotic<s n="adj"/></l><r>robótico<s n="adj"/></r></p></e>
     
 <!-- 	forced 'LR' restriction      defaultLR    -->
@@ -37049,8 +37049,30 @@
     <e srl="inspiring D" a="imaxinsoftware"><p><l>inspiring<s n="adj"/></l><r>inspirador<s n="adj"/></r></p></e>
     <e srl="inspirational" a="imaxinsoftware"><p><l>inspirational<s n="adj"/></l><r>inspirador<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>NBA<s n="n"/><s n="acr"/></l><r>NBA<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>cider<s n="n"/></l><r>sidra<s n="n"/><s n="f"/></r></p></e>
-
+    <e c="hard cider_US" a="imaxinsoftware"><p><l>cider<s n="n"/></l><r>sidra<s n="n"/><s n="f"/></r></p></e>
+    <e srl="cuisine" a="imaxinsoftware"><p><l>cuisine<s n="n"/></l><r>cocina<s n="n"/><s n="f"/></r></p></e>
+    <e srl="cookery" a="imaxinsoftware"><p><l>cookery<s n="n"/></l><r>cocina<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>sweetish<s n="adj"/></l><r>algo<b/>dulce<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>botanically<s n="adv"/></l><r>botánicamente<s n="adv"/></r></p></e>
+    <e c="zucchini_US" a="imaxinsoftware"><p><l>courgette<s n="n"/></l><r>calabacín<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>breadfruit<s n="n"/></l><r>árbol<g><b/>del<b/>pan</g><s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>breadfruit<s n="n"/></l><r>frutipan<s n="n"/><s n="m"/></r></p></e>
+    <e srl="palatable" a="imaxinsoftware"><p><l>palatable<s n="adj"/></l><r>aceptable<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="incomestible D" a="imaxinsoftware"><p><l>inedible<s n="adj"/></l><r>incomestible<s n="adj"/><s n="mf"/></r></p></e>
+    <e srl="incomible" a="imaxinsoftware"><p><l>inedible<s n="adj"/></l><r>incomible<s n="adj"/><s n="mf"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>mango<s n="n"/></l><r>mango<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>elder<s n="n"/></l><r>saúco<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>elderberry<s n="n"/></l><r>baya<g><b/>de<b/>saúco</g><s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>chestnut<s n="n"/></l><r>castaña<s n="n"/><s n="f"/></r></p></e>
+    <e srl="rootstock" a="imaxinsoftware"><p><l>rootstock<s n="n"/></l><r>rizoma<s n="n"/><s n="m"/></r></p></e>
+    <e srl="papaya D" a="imaxinsoftware"><p><l>papaya<s n="n"/></l><r>papaya<s n="n"/><s n="f"/></r></p></e>
+    <e srl="pawpaw" a="imaxinsoftware"><p><l>pawpaw<s n="n"/></l><r>papaya<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>persimmon<s n="n"/></l><r>caqui<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>malay<s n="adj"/></l><r>malayo<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>malayan<s n="adj"/></l><r>malayo<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>Malay<s n="n"/></l><r>malayo<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>Malay<s n="n"/></l><r>malayo<s n="n"/></r></p></e>
+    <e r="LR"><p><l>Malayan<s n="n"/></l><r>malayo<s n="n"/><s n="GD"/></r></p></e>
 
 <e srl="index card D"><p><l>index<b/>card<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
 <e slr="ficha" srl="chip"><p><l>chip<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>

@@ -842,20 +842,46 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
-	<rule>
-		<match lemma="bank" tags="*"/>
-		<match lemma="branch" tags="n.*">
-			<select lemma="sucursal" tags="n.*"/>
-		</match>
-	</rule>
+<!-- In most Member States, the post office is no longer a branch of the
+government, but a commercial enterprise operating under commercial law.	En la
+mayoría de Estados miembros, la oficina de correos ya no es una sucursal del
+Gobierno, sino una empresa comercial sujeta al derecho mercantil. -->
 	
 	<rule>
 		<match lemma="branch" tags="n.*">
-			<select lemma="afluente" tags="n.*"/>
+			<select lemma="sucursal" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
-		<match lemma="river" tags="*"/>
+	  <or>
+		<match lemma="bank" tags="*"/>
+		<match lemma="government" tags="*"/>
+	  </or>	
+	</rule>
+	
+<!-- So it is somewhat upsetting that there is not so much as a mention of this
+branch of the economy is this paper. Siendo así, resulta ciertamente molesto que
+esta rama económica ni siquiera se mencione en el documento presentado. -->
+	
+	<rule>
+		<match lemma="branch" tags="n.*">
+			<select lemma="rama" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr."/>
+		<match/>
+		<match lemma="economy" tags="*"/>
+	</rule>
+	
+<!-- A final point, Mr President. You have offered the Council an olive branch in
+the form of practical and pragmatic dialogue. Y una última cuestión, señor
+Presidente, usted ha ofrecido una rama de olivo al Consejo con un diálogo
+práctico y pragmático. -->
+
+	<rule>
+		<match lemma="olive" tags="*"/>
+		<match lemma="branch" tags="n.*">
+			<select lemma="rama" tags="n.*"/>
+		</match>
 	</rule>
 	
 	<rule>
@@ -865,22 +891,68 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- This region is, of course, marked by criminality, hatred and conflicts, but
+if we do not even send two-thirds of the police officers we have promised to the
+area, so that a whole shift is missing in this crisis region, and on top of that
+there is no night shift, and all this happens simply because we are not meeting
+our own obligations, then we can scarcely point the finger of blame at others. 
+Instead we should now ensure that we build up this region' s police force and 
+administration.	Naturalmente que existe criminalidad, odio y conflictos en esta
+región pero si ni siquiera enviamos las dos terceras partes de los policías
+prometidos por nosotros a esta región, si en esta región en crisis no existe todo
+un turno, además el turno de noche, porque no cumplimos nuestras obligaciones,
+entonces no debemos señalar a otros con el dedo sino adoptar por fin las medidas
+necesarias para construir la administración y la policía en esta región. -->
+
+<!-- What you propose would be a bit like the automobile industry reducing or
+abolishing the Christmas break and organising an extra shift to increase the
+stockpile of cars.	Lo que usted propone sería un poco como el sector del
+automóvil que reduce o suprime las vacaciones de Navidad y organiza un turno
+extra para aumentar la provisión de coches. -->
+	
 	<rule>
-		<match lemma="work" tags="*"/>
+	  <or>
+	  	<match lemma="extra" tags="*"/>
+		<match lemma="night" tags="*"/>
+	  </or>	
 		<match lemma="shift" tags="n.*">
 			<select lemma="turno" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- Whenever some states misbehave we ask the Commission to do something, but
+the Commission cannot do very much and I am not convinced that Mr Frattini’s
+information drive will help. Cada vez que algún Estado miembro se porta mal,
+pedimos a la Comisión que haga algo, pero la Comisión no puede hacer gran cosa y
+no estoy seguro de que la campaña informativa del señor Frattini resulte útil. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="information" tags="*"/>
 		<match lemma="sales" tags="*"/>
+	  </or>	
 		<match lemma="drive" tags="n.*">
 			<select lemma="campaña" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- Sometimes a moment of crisis brings new fluidity: Hizbollah’s statement 
+conceding it had neither planned nor anticipated the conflict, the prisoners’
+initiative, the possible national unity government for Palestine and the
+recognition by Israeli politicians and public alike of the failings of
+unilateralism must presage a diplomatic drive to return to a negotiated solution.
+A veces un momento de crisis pone las cosas en movimiento: la declaración de
+Hezbolá en que admite que no había planeado ni previsto el conflicto, la
+iniciativa de los prisioneros, el posible Gobierno de unidad nacional en
+Palestina y el reconocimiento por parte de los políticos y de la opinión
+pública de Israel de los fracasos del unilateralismo presagian un intento
+diplomático de volver a una solución negociada. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="diplomatic" tags="*"/>
 		<match lemma="disk" tags="*"/>
+	  </or>	
 		<match lemma="drive" tags="n.*">
 			<select lemma="unidad" tags="n.*"/>
 		</match>
@@ -893,33 +965,91 @@ a su alumna de dieciocho años. -->
 		<match lemma="aircraft" tags="*"/>
 	</rule>
 	
+<!-- I am sure that he is aware of the very serious threat to the European model
+which is based on family farming, mainly those farmers involved in beef and
+sheepmeat production who are now expected to sell their produce at or below
+production costs.	Estoy convencido de que es consciente de la muy seria amenaza
+que se cierne sobre el modelo europeo basado en la explotación ganadera familiar,
+especialmente sobre aquellos ganaderos que producen carne de vacuno y de cordero
+y que, según se prevé, van a tener que vender sus productos al precio de coste o
+por debajo del mismo. -->	
+
+<!-- We understand that the first priority is the economic and social agenda,
+which also includes what is known as 'quality of life' priorities, that is to say,
+the rights of citizens as consumers and as people, in relation to those questions
+which we always talk about, but never give sufficient priority to, that is, the
+European social model and its adaptation to the new circumstances, consumer
+rights, respect for the environment and sustainable development. Nosotros
+entendemos que la primera prioridad es la agenda económica y social, que incluye
+lo que también se llama en sus prioridades la calidad de vida, es decir, los
+derechos de los ciudadanos como consumidores y también como personas en relación
+con cuestiones que siempre afirmamos, pero que no destacamos suficientemente, que
+son el modelo social europeo y su adaptación a nuevas circunstancias, los
+derechos de los consumidores y el respeto del medio ambiente y un desarrollo
+sostenible. -->
+	
 	<rule>
+	  <or>
+	  	<match lemma="european" tags="*"/>
 		<match lemma="fashion" tags="*"/>
+		<match lemma="social" tags="*"/>
+	  </or>	
 		<match lemma="model" tags="n.*">
 			<select lemma="modelo" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- An average productivity increase of 2% requires a growth rate of 3.5% for
+full employment to be able to be achieved within ten years.	En condiciones de un
+aumento medio de la productividad del 2% es necesaria una tasa de crecimiento del
+3,5% para poder alcanzar el pleno empleo dentro de diez años. -->	
+	
 	<rule>	
+	  <or>
+	  	<match lemma="growth" tags="*"/>
 		<match lemma="return" tags="*"/>
+	  </or>	
 		<match lemma="rate" tags="n.*">
 			<select lemma="tasa" tags="n.*"/>
 		</match>
 	</rule>
 	
-	<rule>
-		<match lemma="business" tags="*"/>
-		<match lemma="rate" tags="n.pl">
-			<select lemma="contribución" tags="n.*"/>
-		</match>
-	</rule>
+<!-- But this also serves to make a claim, on the part of the European Union, for
+a degree of political participation in the process which is consistent with its
+economic contribution - we do not have aspirations to be bankers - and which will
+be suitably visible to the public.	Pero también sirve de llamada de atención
+para reclamar para la Unión Europea una participación política en el proceso,
+coherente con su contribución económica -tampoco nosotros tenemos aspiraciones
+de banqueros-, que tenga su correspondiente visibilidad pública. -->	
 	
 	<rule>
+		<match lemma="economic" tags="*"/>
+		<match lemma="contribution" tags="n.*">
+			<select lemma="contribución" tags="n.*"/>
+		</match>	
+	</rule>
+	
+<!-- One might describe it as the of a menu, the main course of which is yet to
+be served.	Cabría describirlo como los entremeses de un menú, en el que aún no
+se ha servido el plato principal. -->	
+	
+	<rule>
+	  <or>
 		<match lemma="first" tags="*"/>
+		<match lemma="main" tags="*"/>
+	  </or>	
 		<match lemma="course" tags="n.*">
 			<select lemma="plato" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- But incineration has to be considered as a last resort and - as has been
+said already - waste reduction, re-use and recycling are the main things we
+should be striving for.	Pero la incineración ha de ser considerada como último
+recurso y, tal como ya se ha dicho, la reducción, la reutilización y el reciclado
+de los residuos son las cosas principales por las que tendríamos que estar
+luchando. -->
+	
 	
 	<rule>
 		<match lemma="last" tags="*"/>
@@ -928,19 +1058,45 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- The income obtained by districts and businesses, particularly in the
+Małopolska province, constitutes a significant contribution to the development of
+the region and its attractiveness as a health resort and tourism destination. Los
+ingresos conseguidos por distritos y empresas, en particular en la provincia de
+Pequeña Polonia, constituyen una contribución importante al desarrollo de la
+región y de su atractivo como centro de salud y destino turístico. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="health" tags="*"/>
 		<match lemma="holiday" tags="*"/>
+	  </or>	
 		<match lemma="resort" tags="n.*">
 			<select lemma="centro" tags="n.*"/>
 		</match>
 	</rule>	
 	
+<!-- An example here could be the field of education, which will deserve and need
+special support in the ACP states in future. Un ejemplo de ello sería el campo de
+la educación, que de cara al futuro merece y necesita un decidido impulso en los
+Estados ACP. -->	
+	
 	<rule>
-		<match lemma="football" tags="*"/>
 		<match lemma="field" tags="n.*">
 			<select lemma="campo" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="education" tags="*"/>
 	</rule>
+	
+<!-- I hope this is a solution which the Council can also endorse, for an
+immediate and unconditional inclusion of these events will hardly do justice to
+the general belief that music - whether in the concert hall or the night-club -
+is noise and should therefore be treated restrictively from the outset.	Espero
+que sea una solución que pueda seguir también el Consejo. Pues una inclusión
+inmediata y sin reservas de estas actividades apenas tiene en cuenta el
+convencimiento general de que la música, ya sea en la sala de conciertos o en la
+discoteca, es ruido, por lo que tiene que tratarse de antemano de modo
+restrictivo. -->	
 	
 	<rule>
 		<match lemma="concert" tags="*"/>
@@ -949,19 +1105,43 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- I am not talking about the standard blood transfusion service that comes
+around to your church hall and you pop in for half an hour, have a cup of tea,
+and go back to work. No estoy hablando del servicio de donación de sangre
+habitual que viene al salón parroquial y al que uno se acerca durante media hora,
+se toma una taza de té y vuelve a trabajar. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="church" tags="*"/>
 		<match lemma="dance" tags="*"/>
+	  </or>	
 		<match lemma="hall" tags="n.*">
 			<select lemma="salón" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- The production line was invented about a hundred years ago, I believe, by
+Henry Ford and what we are proposing to do here is to create a sort of nineteenth
+century production line in reverse - to dismantle vehicles, to take the pieces
+apart and seek to recycle them.	La línea de producción fue inventada hace más o
+menos cien años, creo que por Henry Ford, y lo que estamos proponiendo que se
+haga es la creación de una línea de producción al estilo del siglo diecinueve,
+pero a la inversa - desmantelando vehículos, separando piezas y persiguiendo su
+reciclaje. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="production" tags="*"/>
 		<match lemma="party" tags="*"/>
+	  </or>	
 		<match lemma="line" tags="n.*">
 			<select lemma="línea" tags="n.*"/>
 		</match>
 	</rule>	
+	
+<!-- Mr. President, they say it is better to give a fishing rod than a fish. Señor
+Presidente, dicen que es mejor dar una caña de pescar que un pescado. -->	
 	
 	<rule>
 		<match lemma="fishing" tags="*"/>
@@ -977,26 +1157,42 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- You are the only person who ever decided, when President-in-Office of the
+Council, to enter an election campaign by founding, in a fit of megalomania which
+finds no parallel in the history of western democracy, a party which bears your
+own name.	Usted es el único que, como Presidente del Consejo, ha considerado
+oportuno participar en la campaña electoral fundando, en un acceso de megalomanía
+que no tiene parangón en la historia de las democracias occidentales, un partido
+que lleva su apellido. -->
+	
+	
 	<rule>
-		<match lemma="coughing" tags="*"/>
 		<match lemma="fit" tags="n.*">
 			<select lemma="acceso" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="megalomania" tags="*"/>
 	</rule>
 	
-	<rule>
-		<match lemma="parking" tags="*"/>
-		<match lemma="ticket" tags="n.*">
-			<select lemma="multa" tags="n.*"/>
-		</match>
-	</rule>
+<!-- One thousand and fifty passengers are denied boarding in Europe every year
+despite having a valid ticket in their pockets. – Todos los años se niega el
+embarque a mil cincuenta pasajeros en Europa a pesar de contar con un billete
+válido. -->	
 	
 	<rule>
+	  <or>
+	  	<match lemma="valid" tags="*"/>
 		<match lemma="lottery" tags="*"/>
+	  </or>	
 		<match lemma="ticket" tags="n.*">
 			<select lemma="billete" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- This would certainly be a key element if we are to be able to act within a
+time frame similar to that available to other economic authorities.	Es, sin duda
+alguna, un elemento clave para poder actuar con un plazo de tiempo semejante al
+que disponen otras autoridades económicas. -->	
 	
 	<rule>
 		<match lemma="time" tags="*"/>
@@ -1005,6 +1201,13 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- An improvised explosive device is an explosive device used frequently in
+unconventional warfare or asymmetrical warfare by commando forces, guerrillas and terrorists.
+Un artefacto explosivo improvisado es un dispositivo explosivo usado
+frecuentemente en la guerra no convencional o guerra asimétrica, por fuerzas
+comando, guerrillas y terroristas. -->
+<!-- From: http://es.wikipedia.org/wiki/Artefacto_explosivo_improvisado -->
+	
 	<rule>
 		<match lemma="explosive" tags="*"/>
 		<match lemma="device" tags="n.*">
@@ -1012,29 +1215,51 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
-	<rule>
-		<match lemma="make" tags="*"/>
-		<match lemma="the" tags="*"/>
-		<match lemma="grade" tags="n.*">
-			<select lemma="talla" tags="n.*"/>
-		</match>
-	</rule>
+<!-- I also support the joint declaration from the Commission, Council and
+Parliament concerning the members of the management board of the authority.
+También apoyo la declaración conjunta de la Comisión, el Consejo y el Parlamento
+sobre los miembros de la junta directiva del organismo. -->	
 	
 	<rule>
+	  <or>
+	  	<match lemma="management" tags="*"/>
 		<match lemma="school" tags="*"/>
+	  </or>	
 		<match lemma="board" tags="n.*">
 			<select lemma="junta" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- We are neither an assembly of managers nor a board of directors seeking the
+maximum in bureaucratic efficiency.	No somos ni una junta de gestores ni un
+consejo de administración que buscan el máximo de eficacia burocrática. -->
+
 	<rule>
-		<match lemma="fill" tags="*"/>
-		<match/>
-		<match/>
+		<match lemma="board" tags="n.*">
+			<select lemma="junta" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="director" tags="n.pl"/>
+	</rule>	
+	
+<!-- All those safeguards are now gone and, providing the extradition form has
+been filled out correctly, a British citizen can be shipped off with as little
+ceremony as posting a parcel. Ahora todas esas garantías han desaparecido y, con
+tan solo rellenar correctamente un impreso de extradición, se puede despachar a
+un ciudadano británico con la misma falta de ceremonia con que se envía un
+paquete. -->	
+	
+	<rule>
+		<match lemma="extradition" tags="*"/>
 		<match lemma="form" tags="n.*">
 			<select lemma="impreso" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- If I lodge EUR 10 000 in my bank account in Ireland, the bank manager is
+obliged to ask me where the money came from. Si ingreso 10 000 euros en mi cuenta
+bancaria en Irlanda, el director del banco está obligado a preguntarme de dónde
+viene ese dinero. -->	
 	
 	<rule>
 		<match lemma="bank" tags="*"/>
@@ -1043,12 +1268,27 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- As a Member, I am sick and tired of cheap jokes about the 'gravy train': let
+us recall that the basic salary we, the UK Members, receive is, so I am told,
+about the same as that of a decent-sized supermarket manager in a provincial
+town.	Como diputado, estoy harto de bromas baratas sobre nuestro «chollo»:
+recordemos que el salario base que nosotros, los diputados británicos, percibimos
+es, o eso me dicen, aproximadamente el mismo que recibe un gerente de un
+supermercado de cierto tamaño en una ciudad de provincias. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="supermarket" tags="*"/>
 		<match lemma="shop" tags="*"/>
+	  </or>	
 		<match lemma="manager" tags="n.*">
 			<select lemma="gerente" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- A clear majority of consumers feel uncertain of their position on the dance
+floor of trade.	La clara mayoría de los ciudadanos se sienten inseguros en la
+pista de baile del comercio. -->	
 	
 	<rule>
 		<match lemma="dance" tags="*"/>
@@ -1057,6 +1297,11 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- The social package represents the insurance policy for the future of the
+Union and it is essential for its long-term development. El paquete social
+representa la póliza de seguro en el futuro de la Unión y es esencial para su
+desarrollo a largo plazo. -->	
+	
 	<rule>
 		<match lemma="insurance" tags="*"/>
 		<match lemma="policy" tags="n.*">
@@ -1064,12 +1309,35 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- Therefore, we support the establishment of an agricultural and rural
+development policy which is consistent with the objectives we have set. We want
+rural areas, at the dawn of the 21st century, to be competitive and
+multi-functional, both with regard to agriculture and with regard to opening up
+to the diversity of non-agricultural activities. Por lo tanto, defendemos el
+establecimiento de una política agrícola y de desarrollo rural coherente con los
+objetivos que hemos marcado y que las zonas rurales, en los albores del siglo
+XXI, deben ser competitivas y multifuncionales, tanto en el aspecto agrícola como
+abriéndose a la diversidad de actividades no agrícolas. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="development" tags="*"/>
 		<match lemma="foreign" tags="*"/>
+	  </or>	
 		<match lemma="policy" tags="n.*">
 			<select lemma="política" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- As a follow-up to this debate, the Commission recently asked the Council to
+submit a proposal for a regulation to enhance the security of this category of
+visas, by including a digital photograph on these, so that we can ensure that
+the passport holder really is the person to whom the document was issued. Como
+consecuencia de este debate, la Comisión acaba de someter al Consejo una
+propuesta de reglamento con vistas a asegurar más esta categoría de visados
+previendo la posibilidad de incluir una fotografía digital, con el fin de
+asegurar que el titular del pasaporte sea efectivamente la persona a la que se
+ha expedido el documento. -->	
 	
 	<rule>
 		<match lemma="passport" tags="*"/>
@@ -1078,26 +1346,74 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
+<!-- I hope that next time, also if any other airline company is involved, things
+will run more smoothly.	Espero que la próxima vez se haga mejor, también en
+cuanto a la cooperación con otra compañía aérea. -->
+
+<!-- The European Union could not substitute itself for the mining company for
+any compensation payments due.	La Unión Europea no puede suplantar a la compañía
+minera en el pago de compensaciones debidas. -->
+	
 	<rule>
+	  <or>
+	  	<match lemma="airline" tags="*"/>
+	  	<match lemma="mining" tags="*"/>
 		<match lemma="keep" tags="*"/>
+	 </or>	
 		<match lemma="company" tags="n.*">
 			<select lemma="compañía" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- Mr President, together with those who submitted the joint resolution, I, too,
+would like to express my deepest sympathy to the relatives of the Kursk nuclear
+submarine crew who died. Señor Presidente, al igual que los promotores de la
+resolución conjunta, acompaño en el sentimiento a los familiares de la 
+tripulación del accidentado submarino atómico Kursk. -->
+
+<!-- Sufficient regulation is already in place, which does not allow on board
+hand baggage which cannot be safely stowed - I can vouch for that as a cabin
+crew member for 26 years.	Ya existe regulación suficiente que no permite
+llevar a bordo el equipaje de mano que no pueda ser guardado de manera segura;
+puedo responder de eso por haber sido miembro de la tripulación de cabina
+durante 26 años. -->
+	
 	<rule>
+	  <or>
+	  	<match lemma="cabin" tags="*"/>
+	  	<match lemma="submarine" tags="*"/>
 		<match lemma="flight" tags="*"/>
+	  </or>	
 		<match lemma="crew" tags="n.*">
 			<select lemma="tripulación" tags="n.*"/>
 		</match>
 	</rule>	
 	
+<!-- The truth of the matter though is that we believe - and this is also shown
+in the way the conclusions have been drafted - that the Commission must take
+account of what is adopted by this Parliament, particularly in the face of an
+interim revision of these directives. Pero la verdad es que nosotros creemos, y
+eso se refleja también en la letra de las conclusiones, que la Comisión debe
+tener en cuenta lo que se apruebe en este Parlamento, fundamentalmente de cara a
+la revisión de estas directrices a mitad de período. -->	
+	
 	<rule>
-		<match lemma="savings" tags="*"/>
+		<match lemma="take" tags="*"/>
 		<match lemma="account" tags="n.*">
 			<select lemma="cuenta" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- I say to Members of the Liberal Group - we usually see eye to eye, but today,
+exceptionally, we do not - that we have to set a flat rate of compensation for
+two reasons: firstly, the prejudice suffered by anyone who is denied boarding
+is always the same, whether they have paid EUR 150, EUR 500 or more for their
+ticket.	Quiero decir a los diputados del Grupo Liberal -normalmente estamos de
+acuerdo, pero hoy, de manera excepcional, no lo estamos- que tenemos que
+establecer una única tarifa de indemnización por dos razones: en primer lugar, el
+perjuicio que una persona sufre cuando se le deniega el embarque es siempre el
+mismo, con independencia de si ha pagado 150 euros, 500 euros o más por su
+billete. -->	
 	
 	<rule>
 		<match lemma="flat" tags="*"/>
@@ -1106,12 +1422,43 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>	
 	
+<!-- Subject: Financial control problems in Nicaragua I visited Nicaragua from
+17-21 February and was alarmed to find, when I went to the Commission office in
+Waspam Rio Coco that no work appeared to be carried out and the people at the
+office were watching television; a caretaker showed us round and said the project
+manager had gone to Managua in December and had not returned. The skeleton staff
+had not been paid for several months, there were no files in the filing cabinet,
+the Land Rover outside had lost its spare tyre and was not properly locked and
+another Commission car was lying wrecked in another part of the village. Asunto:
+Problemas de control financiero en Nicaragua Del 17 al 21 de febrero viajé a
+Nicaragua y me alarmó comprobar que, cuando visité la oficina de la Comisión en
+Waspam Río Coco, no parecía que se estuviera realizando ningún trabajo, las
+personas que estaban en la oficina estaban viendo la televisión, un conserje nos
+enseñó los locales y nos dijo que el gestor del proyecto se había ido a Managua
+en el mes de diciembre y todavía no había vuelto, al personal de base no se le
+había pagado desde hacía algunos meses, no había documentos en el archivo, el
+Land Rover que estaba aparcado fuera había perdido la rueda de repuesto y no
+estaba cerrado con llave y otro coche de la Comisión estaba desguazado en otra
+parte del pueblo, por lo que tengo serias dudas en cuanto a la conveniencia de
+esta extraña oficina de la Comisión en este pequeño pueblo perdido. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="spare" tags="*"/>
 		<match lemma="flat" tags="*"/>
+	  </or>	
 		<match lemma="tyre" tags="n.*">
 			<select lemma="rueda" tags="n.*"/>
 		</match>
 	</rule>	
+	
+<!-- In my opinion, this is an impossible criterion for granting aid, given the
+current situation. Remember, only one act of terrorism committed by an Albanian
+or Serb is all it takes to cause a setback within an entire region.	A mi juicio,
+este es un criterio imposible dadas las circunstancias actuales, ya que con sólo
+una acción terrorista de un albanés o un serbio se podría perjudicar a toda una
+región. -->
+	
 	
 	<rule>
 		<match lemma="act" tags="n.*">
@@ -1119,15 +1466,27 @@ a su alumna de dieciocho años. -->
 		</match>
 		<match lemma="of" tags="pr.*"/>
 		<match/>
+	  <or>
+	  	<match lemma="terrorism" tags="*"/>
 		<match lemma="war" tags="*"/>
+	  </or>	
 	</rule>
+	
+<!-- I am an English lawyer. I am not entitled to practise law in Scotland, and
+that means I could not plead before a Scottish court unless I went through
+special procedures.	Soy un abogado inglés, pero no tengo derecho a practicar la
+abogacía en Escocia, y eso significa que no podría ejercer la defensa ante un
+tribunal escocés, a menos que supere una serie de trámites especiales. -->	
 
 	<rule>
-		<match lemma="practice" tags="*"/>
+		<match lemma="practise" tags="*"/>
 		<match lemma="law" tags="n.*">
 			<select lemma="abogacía" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- That I regard as very helpful and a good sign for the future. Lo considero
+una señal muy útil y positiva de cara al futuro. -->
 
 	<rule>
 		<or>
@@ -1138,38 +1497,40 @@ a su alumna de dieciocho años. -->
 			<select lemma="señal" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- After all, different media, including the weekly magazine , have also reminded us that
+Flemish managers warned the Belgian Government that Belgium, and thus Flemish
+industry – which is already being weighed down by excessive labour costs – has
+been placed in a bad light in the United States.	Después de todo, diferentes
+medios de comunicación, incluida la revista semanal , nos han recordado también
+que la dirección flamenca advirtió al Gobierno belga de que Bélgica, y por tanto,
+la industria flamenca – que ya está hundida por el excesivo coste de la mano de
+obra– estaba muy mal situada con respecto a los Estados Unidos. -->	
 
 	<rule>
-		<match lemma="fly" tags="*"/>
-		<match/>
-		<match lemma="chopper" tags="n.*">
-			<select lemma="helicóptero" tags="n.*"/>
-		</match>
-	</rule>
-
-	<rule>
-		<match lemma="eat" tags="*"/>
-		<match/>
-		<match lemma="roll" tags="n.*">
-			<select lemma="panecillo" tags="n.*"/>
-		</match>
-	</rule>
-
-	<rule>
-		<match lemma="read" tags="*"/>
-		<match/>
+		<match lemma="weekly" tags="*"/>
 		<match lemma="magazine" tags="n.*">
 			<select lemma="revista" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- The preparatory work will be carried out at administrative level by a group
+of officials of the rank of Director-General, coordinated by the Secretary-General.
+El trabajo preparatorio se realizará a nivel administrativo por parte de un grupo
+de funcionarios del rango del Director General, coordinados por el Secretario
+General. -->	
 
 	<rule>
-		<match lemma="rank" tags="*"/>
-		<match lemma="of" tags="*"/>
-		<match lemma="major" tags="n.*">
-			<select lemma="comandante" tags="n.*"/>
-		</match>
+		<match lemma="rank" tags="n.*">
+			<select lemma="rango" tags="n.*"/>
+		</match>	
+		<match lemma="of" tags="pr"/>
+		<match lemma="Director\-General" tags="*">
 	</rule>
+	
+<!-- A major key plus a minor key form a major third 5:4 ratio. Un tono
+mayor más un tono menor forman una tercera mayor de relación 5:4. -->
+<!-- From: http://es.wikipedia.org/wiki/Tono_(intervalo_musical) -->
 
 	<rule>
 		<match lemma="major" tags="*"/>
@@ -1177,25 +1538,38 @@ a su alumna de dieciocho años. -->
 			<select lemma="tono" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- If we can inject a spirit of entrepreneurial activity into our poor and
+structurally weak regions we will eventually get them back onto the road of
+attracting substantial investor confidence, which will be the key to success. 
+Si podemos inculcar un espíritu de actividad empresarial en nuestras
+regiones pobres y estructuralmente débiles, las situaremos a la larga en el
+camino de atraer la confianza de los inversores, algo que será la clave del
+éxito. -->	
 
 	<rule>
-		<match lemma="computer" tags="*"/>
 		<match lemma="key" tags="n.*">
 			<select lemma="clave" tags="n.*"/>
-		</match>
+		</match>	
+		<match lemma="to" tags="pr"/>
+		<match lemma="success" tags="*"/>
 	</rule>
+	
+<!-- That is why we decided in the committee even before the summer break that
+we would enter into detailed consultations now in the first reading, complete
+the normal procedure of first and second readings and then await the Council's
+common position.	Por esta razón decidimos en la comisión antes de la pausa de
+verano ir de manera concreta ahora a las deliberaciones en primera lectura,
+seguir el procedimiento normal de la primera y de la segunda lectura y esperar
+a la posición común del Consejo. -->	
 
 	<rule>
+	  <or>
+	  	<match lemma="summer" tags="*"/>
 		<match lemma="commercial" tags="*"/>
+	  </or>	
 		<match lemma="break" tags="n.*">
 			<select lemma="pausa" tags="n.*"/>
-		</match>
-	</rule>
-
-	<rule>
-		<match lemma="lucky" tags="*"/>
-		<match lemma="break" tags="n.*">
-			<select lemma="golpe" tags="n.*"/>
 		</match>
 	</rule>
 
@@ -1205,114 +1579,231 @@ a su alumna de dieciocho años. -->
 			<select lemma="pujanza" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- However, in a world in which both parents may be frantically fighting their
+way into a busy career rat race, a world in which both parents may be consumed
+in the daily fight of earning more, a world in which the forces of social strain
+may have destroyed family cohesion, a world in which geographical separation may
+have diminished the invaluable assistance of grandparents and other close family
+members - in such a world parental childcare may suffer severely. Sin embargo,
+en un mundo en el que ambos padres pueden estar luchando frenéticamente por
+abrirse camino en medio de una feroz competencia, un mundo en el que ambos padres
+pueden consumirse en la lucha diaria por ganar más, un mundo en el que las
+fuerzas de la tensión social pueden haber destruido la cohesión familiar, un
+mundo en el que la separación geográfica puede haber mermado la valiosa ayuda de
+los abuelos y otros familiares próximos, en ese mundo el cuidado de los niños por
+los padres a puede sufrir un serio menoscabo. -->	
 
 	<rule>
+	  <or>
+	  	<match lemma="social" tags="*"/>
 		<match lemma="muscle" tags="*"/>
+	  </or>	
 		<match lemma="strain" tags="n.*">
 			<select lemma="tensión" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- Its adoption could lead to a dramatic fall in income for the eleven million
+people earning a living from cocoa in West Africa and for all the producing
+regions. Su adopción produciría una caída de ingresos dramática para los once
+millones de personas que viven del cacao en África Occidental y para el conjunto
+de las regiones productivas. -->	
 
 	<rule>
 		<match lemma="fall" tags="n.*">
-			<select lemma="otoño" tags="n.*"/>
-		</match>
-		<match lemma="season" tags="*"/>
+			<select lemma="caída" tags="n.*"/>
+		</match>	
+		<match lemma="in" tags="pr"/>
+		<match lemma="income" tags="*"/>
 	</rule>
+	
+<!-- I personally would not expect either myself or anyone else in the European
+Union to accept a situation in which the varnish on the door of a private house
+soon flakes just as quickly as the paints on the wall of the house fade. 
+Personalmente, no espero de mí ni de nadie en la Unión Europea que acepte que el
+barniz de la puerta de una casa privada se descascarille pronto y tan rápidamente
+como las pinturas de la pared de la fachada de una casa. -->	
 
 	<rule>
-		<match lemma="bedroom" tags="*"/>
 		<match lemma="wall" tags="n.*">
 			<select lemma="pared" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="house" tags="*"/>
 	</rule>
+	
+<!-- This is not so much about learning from what is happening before our eyes
+but about taking action against those Member States who are guilty of not
+submitting to the obligations of a text that now constitutes a vice that is
+holding back economic revival in an unsustainable way. No se trata tanto de
+aprender de lo que ha pasado antes delante de nuestras narices como de tomar
+medidas contra los Estados miembros que son culpables de no haberse sometido a
+las obligaciones de un texto que ahora constituye una lacra insostenible que
+impide el renacimiento económico. -->	
 
 	<rule>
+	  <or>
+	  	<match lemma="economic" tags="*"/>
 		<match lemma="religious" tags="*"/>
+	  </or>	
 		<match lemma="revival" tags="n.*">
 			<select lemma="renacimiento" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- I am convinced that this seventh amendment offers the industry a new range
+of opportunities for research and development of new products, which, while
+guaranteeing their effectiveness and above all their safety, will need to be
+tested on animals.	Estoy convencida de que esta séptima enmienda abre ante la
+industria un campo nuevo de oportunidades para la investigación y el desarrollo
+de nuevos productos que, garantizando su eficacia y sobre todo su seguridad, no
+será necesario experimentar en animales. -->	
+	
 	<rule>
-		<match lemma="shooting" tags="*"/>
 		<match lemma="range" tags="n.*">
 			<select lemma="campo" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="opportunity" tags="n.pl"/>
 	</rule>
+	
+<!-- The range of vehicles has been transformed by innovation in battery
+technology. La autonomía de los vehículos se han transformado a través de la
+innovación en la tecnología de las baterías.-->
 
 	<rule>
-		<match lemma="bomber" tags="*"/>
 		<match lemma="range" tags="n.*">
 			<select lemma="autonomía" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="vehicle" tags="n.pl"/>
 	</rule>
+	
+<!-- Tourism must therefore be thought of as the whole range of goods and
+services required by individuals moving from their habitual place of residence
+and thus confers mobility, the characteristic feature of contemporary society. 
+En consecuencia, el turismo debe considerarse como un conjunto de bienes y
+servicios necesarios para el ciudadano cuando éste se traslada de su residencia
+habitual, un factor que permite la movilidad que es la característica de la forma
+de vivir de la sociedad contemporánea. -->	
 
 	<rule>
-		<match lemma="vocal" tags="*"/>
 		<match lemma="range" tags="n.*">
 			<select lemma="registro" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+	  <or>
+	  	<match lemma="good" tags="n.pl"/>
+	  	<match lemma="service" tags="n.pl"/>
+	  </or>	
 	</rule>
+	
+<!-- It has also made it clear that it may wish to extend the range of data being
+collected by Member States at a later stage. También ha aclarado que podría
+desear ampliar la gama de datos que recogen los Estados miembros en una etapa
+posterior. -->	
 
 	<rule>
-		<match lemma="price" tags="*"/>
 		<match lemma="range" tags="n.*">
 			<select lemma="gama" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="data" tags="*"/>
 	</rule>
+	
+<!-- This is the most detailed and comprehensive report to date on the
+environmental effects of the Kosovo conflict and I recommend it to those who have
+not yet studied it.	Es el informe más detallado y completo realizado hasta la
+fecha acerca de los efectos del conflicto de Kosovo sobre el medio ambiente y
+lo recomiendo a todos aquellos que no lo hayan estudiado todavía. -->	
 
 	<rule>
+		<match lemma="report" tags="*"/>
+		<match lemma="to" tags="pr"/>
 		<match lemma="date" tags="n.*">
 			<select lemma="fecha" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="birth" tags="*"/>
 	</rule>
+	
+<!-- On the other hand - and here I do agree with you - we do not want a criminal
+court to be no more than a rubber stamp in the hands of the major powers. Por
+otra parte - y en eso estoy de acuerdo con usted, tampoco queremos una corte
+penal que no sea más que un sello de caucho en manos de los poderes
+principales. -->	
 
 	<rule>
-		<match lemma="date" tags="*"/>
+		<match lemma="rubber" tags="*"/>
 		<match lemma="stamp" tags="n.*">
 			<select lemma="sello" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- We have an important part to play in the Community in the European Union in
+this regard. Debemos desempeñar un papel importante en la Comunidad de la Unión
+Europea en este sentido. -->	
+<!-- Firse 100 Corpus Sentences -->
 
 	<rule>
-		<match lemma="play" tags="*"/>
-		<match/>
 		<match lemma="part" tags="n.*">
 			<select lemma="papel" tags="n.*"/>
 		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="play" tags="*"/>
 	</rule>	
 	
+<!-- More generally speaking, the proposal to set up a research foundation has
+already been made to the Commission on several occasions, in particular in the
+course of the discussion in the Council, but it was rejected. Hablando en
+términos más generales, la propuesta de crear una fundación de investigación ha
+sido formulada ya en varias ocasiones a la Comisión, en particular durante
+deliberaciones del Consejo, pero fue rechazada. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="research" tags="*"/>
 		<match lemma="charitable" tags="*"/>
+	  </or>	
 		<match lemma="foundation" tags="n.*">
 			<select lemma="fundación" tags="n.*"/>
 		</match>
 	</rule>	
 	
+<!-- We aim to push on with reform of the financial markets, with regard to which
+the important Lamfalussy report will provide the foundation for discussions in
+Stockholm.	Queremos impulsar la reforma del mercado financiero. En relación con
+este último, el importante informe Lamfalussy será la base de las discusiones. -->	
+	
 	<rule>
 		<match lemma="foundation" tags="n.*">
 			<select lemma="base" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="building" tags="*"/>
+		<match lemma="for" tags="pr"/>
+		<match lemma="discussion" tags="n.pl"/>
 	</rule>	
+	
+<!-- I hope now that the meeting of political and economic leaders will be the
+first page in a book in which young people from universities, schools and
+businesses will also play their part. Espero ahora que la reunión de los
+responsables políticos y económicos sea la primera página de un libro en
+el que se encuentren reflejados también los jóvenes procedentes de las
+universidades, de las escuelas y de los centros de producción. -->	
 	
 	<rule>
 		<match lemma="page" tags="n.*">
 			<select lemma="página" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="in" tags="pr"/>
 		<match/>
 		<match lemma="book" tags="*"/>
 	</rule>
 	
+<!-- We have kicked the ball back. La pelota está ahora de nuevo en su campo. -->	
+	
 	<rule>
-		<match lemma="golf" tags="*"/>
+		<match lemma="kick" tags="*"/>
+		<match/>
 		<match lemma="ball" tags="n.*">
 			<select lemma="pelota" tags="n.*"/>
 		</match>

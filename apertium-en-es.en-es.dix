@@ -17162,7 +17162,7 @@
     <e r="LR"><p><l>user<s n="n"/></l><r>usuario<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>user<s n="n"/></l><r>usuario<s n="n"/></r></p></e>
     <e>  <p><l>utensil<s n="n"/></l><r>enser<s n="n"/><s n="m"/></r></p></e>
-    <e>  <p><l>utility<s n="n"/></l><r>utilidad<s n="n"/><s n="f"/></r></p></e>
+    <e srl="utility D">  <p><l>utility<s n="n"/></l><r>utilidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>utilisation<s n="n"/></l><r>utilización<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>utopia<s n="n"/></l><r>utopía<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>vacancy<s n="n"/></l><r>vacante<s n="n"/><s n="f"/></r></p></e>
@@ -19569,7 +19569,7 @@
     <e r="RL" a="greenbreen">  <p><l>secular<s n="adj"/></l><r>laico<s n="adj"/></r></p></e>
     <e r="LR"><p><l>secure<s n="adj"/></l><r>seguro<s n="adj"/></r></p></e>
     <e>  <p><l>selective<s n="adj"/></l><r>selectivo<s n="adj"/></r></p></e>
-    <e>  <p><l>selfless<s n="adj"/></l><r>desinteresado<s n="adj"/></r></p></e>
+    <e srl="selfless D">  <p><l>selfless<s n="adj"/></l><r>desinteresado<s n="adj"/></r></p></e>
     <e>  <p><l>semantic<s n="adj"/></l><r>semántico<s n="adj"/></r></p></e>
     <e>  <p><l>semiannual<s n="adj"/></l><r>semestral<s n="adj"/><s n="mf"/></r></p></e>
     <e>  <p><l>seminal<s n="adj"/></l><r>seminal<s n="adj"/><s n="mf"/></r></p></e>
@@ -37089,7 +37089,26 @@
     <e a="imaxinsoftware"><p><l>foodborne<s n="adj"/></l><r>transmitido<g><b/>por<b/>los<b/>alimentos</g><s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>bruised<s n="vblex"/></l><r>magullar<s n="vblex"/></r></p></e>
     <e a="imaxinsoftware"><p><l>refrigerate<s n="vblex"/></l><r>refrigerar<s n="vblex"/></r></p></e>
-
+    <e a="imaxinsoftware"><p><l>disambiguation<s n="n"/></l><r>desambiguación<s n="n"/><s n="f"/></r></p></e>
+    <e srl="usefulness" a="imaxinsoftware"><p><l>usefulness<s n="n"/></l><r>utilidad<s n="n"/><s n="f"/></r></p></e>
+    <e srl="disinterested" a="imaxinsoftware"><p><l>disinterested<s n="adj"/></l><r>desinteresado<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Thucydides<s n="np"/><s n="ant"/></l><r>Tucídides<s n="np"/><s n="ant"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Herodotus<s n="np"/><s n="ant"/></l><r>Heródoto<s n="np"/><s n="ant"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>spawn<s n="n"/></l><r>hueva<s n="n"/><s n="f"/></r></p></e>
+    <e slr="desovar" a="imaxinsoftware"><p><l>spawn<s n="vblex"/></l><r>desovar<s n="vblex"/></r></p></e>
+    <e slr="engendrar D" srl="spawn" a="imaxinsoftware"><p><l>spawn<s n="vblex"/></l><r>engendrar<s n="vblex"/></r></p></e>
+    <e srl="engender D" a="imaxinsoftware"><p><l>engender<s n="vblex"/></l><r>engendrar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>homeric<s n="adj"/></l><r>homérico<s n="adj"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>usefully<s n="adv"/></l><r>útilmente<s n="adv"/></r></p></e>
+    <e srl="unearth" a="imaxinsoftware"><p><l>unearth<s n="vblex"/></l><r>desenterrar<s n="vblex"/></r></p></e>
+    <e srl="dig up D" a="imaxinsoftware"><p><l>dig<g><b/>up</g><s n="vblex"/><s n="sep"/></l><r>desenterrar<s n="vblex"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>digger<s n="n"/></l><r>excavadora<s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>excavator<s n="adj"/></l><r>excavador<s n="adj"/></r></p></e>
+    <e r="LR" a="imaxinsoftware"><p><l>excavator<s n="n"/></l><r>excavador<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL" a="imaxinsoftware"><p><l>excavator<s n="n"/></l><r>excavador<s n="n"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>territorially<s n="adv"/></l><r>territorialmente<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>thematically<s n="adv"/></l><r>temáticamente<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>culturally<s n="adv"/></l><r>culturalmente<s n="adv"/></r></p></e>
 
 <e srl="index card D"><p><l>index<b/>card<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
 <e slr="ficha" srl="chip"><p><l>chip<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>

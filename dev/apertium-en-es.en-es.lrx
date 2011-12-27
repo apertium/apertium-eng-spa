@@ -24,7 +24,7 @@ viven a la orilla del río en lugar de ayudarlos a fabricar cañas de pescar. --
     <match lemma="bank" tags="n.*">
       <select lemma="orilla" tags="n.*"/>
     </match>
-    <match lemma="of" tags="pr.*"/>
+    <match lemma="of" tags="pr"/>
     <match/>
     <match lemma="river" tags="*"/>
   </rule>  
@@ -1464,7 +1464,7 @@ región. -->
 		<match lemma="act" tags="n.*">
 			<select lemma="acción" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="terrorism" tags="*"/>
@@ -1743,7 +1743,7 @@ principales. -->
 <!-- We have an important part to play in the Community in the European Union in
 this regard. Debemos desempeñar un papel importante en la Comunidad de la Unión
 Europea en este sentido. -->	
-<!-- Firse 100 Corpus Sentences -->
+<!-- First 100 Corpus Sentences -->
 
 	<rule>
 		<match lemma="part" tags="n.*">
@@ -1809,64 +1809,80 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>
 	
+<!-- I have no crystal ball to see where the multilateral talks in the DDA will
+go from where we left them in July.	No tengo una bola de cristal para saber hacia 
+dónde irán los debates multilaterales del Programa de Doha para el Desarrollo a
+partir de donde los dejamos en julio. -->	
+	
 	<rule>
-		<match lemma="attend" tags="*"/>
-		<match/>
+		<match lemma="crystal" tags="*"/>
 		<match lemma="ball" tags="n.*">
-			<select lemma="baile" tags="n.*"/>
+			<select lemma="bola" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- Nevertheless, a scale published by the, measuring the results achieved by
+the candidate countries joining this year and in coming years, shows that the
+first candidate countries joining the European Union in May get an overall score
+of 80%, whereas Croatia is only at 50%.	Sin embargo, una escala publicada por el,
+evaluando los resultados alcanzados por los países candidatos que ingresarán este
+año y en los próximos, demuestra que los primeros países candidatos que entren en
+la Unión Europea en mayo obtienen una puntuación general del 80%, mientras que la
+de Croacia es del 50%. -->	
+	
 	<rule>
+		<match lemma="overall" tags="*"/>
 		<match lemma="score" tags="n.*">
-			<select lemma="resultado" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="game" tags="*"/>
+			<select lemma="puntuación" tags="n.*"/>
+		</match>	
 	</rule>
 	
+<!-- On approaching them, I decided to kneel down and to sit on the floor and
+they said to me as I went to sit, ‘You cannot sit on the floor.	Al acercarme
+decidí arrodillarme y sentarme en el suelo y, según me sentaba, me dijeron:
+«No puede sentarse en el suelo. -->	
+	
 	<rule>
-		<match lemma="bedroom" tags="*"/>
+		<match lemma="sit" tags="*"/>
+		<match lemma="on" tags="pr"/>
+		<match/>
 		<match lemma="floor" tags="n.*">
 			<select lemma="suelo" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- Secondly, we passed punishable offences to the courts in a one-off show of
+strength during the last parliamentary term. En segundo lugar, en la legislatura
+anterior remitimos a la justicia las irregularidades punibles en una demostración
+de firmeza sin precedentes. -->	
+	
 	<rule>
-		<match lemma="air" tags="*"/>
 		<match lemma="show" tags="n.*">
 			<select lemma="demostración" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="strength" tags="*"/>
 	</rule>	
 	
+<!-- The October episode and the one-off show of unity that it gave rise to left
+one in no doubt. El episodio de octubre y el excepcional espectáculo de unidad
+que produjo no dan lugar a ningún tipo de dudas. -->	
+	
 	<rule>
-		<match lemma="television" tags="*"/>
 		<match lemma="show" tags="n.*">
-			<select lemma="programa" tags="n.*"/>
+			<select lemma="espectáculo" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="unity" tags="*"/>
 	</rule>
 	
-	<rule>
-		<match lemma="show" tags="*"/>
-		<match lemma="business" tags="n.*">
-			<select lemma="mundo" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="ticket" tags="*"/>
-		<match lemma="punch" tags="n.*">
-			<select lemma="canceladora" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="tie" tags="n.*">
-			<select lemma="empate" tags="n.*"/>
-		</match>
-		<match lemma="game" tags="*"/>
-	</rule>	
+<!-- I wanted to ask the Commissioner whether it is true that soldiers of the
+NATO armed forces now stationed in that region undergo special controls against
+nuclear radiation and that the same measures are not applied to civilians living
+in the area? Quisiera preguntar a la Comisaria si es cierto que los soldados
+de las fuerzas armadas de la OTAN ahora estacionadas en la región se someten a
+controles especiales contra la radiación nuclear y que no se aplican las mismas
+medidas a los civiles que viven en la zona. -->	
 	
 	<rule>
 		<match lemma="armed" tags="*"/>
@@ -1875,20 +1891,43 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>
 	
+<!-- I voted for the Atkins report because it is extremely important for
+pensioners, who do not have much time left, to arrive at their destination on
+time when they travel by air as they are always short of time. En efecto, he
+votado a favor del informe Atkins porque para los pensionistas, a los que les
+queda poco tiempo de vida, la puntualidad a la hora de llegar a su destino cuando
+toman un avión es muy importante, al tener poco tiempo a disposición. -->	
+	
 	<rule>
 		<match lemma="travel" tags="*"/>
-		<match lemma="by" tags="*"/>
+		<match lemma="by" tags="pr"/>
 		<match lemma="air" tags="n.*">
 			<select lemma="avión" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- The result of this economic boom has transformed China into the world's
+fourth-largest exporter and, as we have seen in today's earlier debate, has made
+it extremely competitive in a number of industrial sectors.	El resultado de este
+auge económico ha convertido a China en el cuarto mayor exportador del mundo y,
+como hemos visto en el debate anterior de hoy, ha pasado a ser altamente
+competitiva en una serie de sectores industriales. -->	
+	
 	<rule>
-		<match lemma="thunder" tags="*"/>
-		<match lemma="clap" tags="n.*">
-			<select lemma="estampido" tags="n.*"/>
+		<match lemma="economic" tags="*"/>
+		<match lemma="boom" tags="n.*">
+			<select lemma="auge" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- Patents have already been requested for ideas that are not new, such as the
+mouse click to carry out a command or the inequality operator in open source
+software, and for other unoriginal ideas that are today used in practically every
+software package in circulation. Ya se han solicitado patentes para ideas que no
+son nuevas, como el clic del ratón para ejecutar un comando o el operador de
+desigualdad en el software de código fuente abierto y para otras ideas nada
+originales que se utilizan hoy en día en prácticamente todo paquete de software
+en circulación. -->	
 	
 	<rule>
 		<match lemma="mouse" tags="*"/>
@@ -1897,109 +1936,220 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>
 	
+<!-- It prefers the click of the rifle to the click of the camera. Prefiere el
+clic del fusil al clic de la cámara. -->
+
 	<rule>
-		<match lemma="play" tags="*"/>
-		<match/>
-		<match lemma="horn" tags="n.*">
-			<select lemma="trompa" tags="n.*"/>
+		<match lemma="click" tags="n.*">
+			<select lemma="clic" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+	 <or>
+	 	<match lemma="rifle" tags="*"/>
+	 	<match lemma="camera" tags="*"/>
+	 </or>
 	</rule>
+	
+<!-- EU funds are not a horn of plenty that can constantly finance measures
+within the agricultural sphere.	Los fondos de la UE no son el cuerno de la
+abundancia que pueda financiar constantemente medidas en el ámbito agrícola. -->	
+	
+	<rule>
+		<match lemma="horn" tags="n.*">
+			<select lemma="cuerno" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="plenty" tags="*"/>
+	</rule>
+	
+<!-- This agreement turned out to be a mere scrap of paper.	Resultó que este
+acuerdo solo era un trozo de papel. -->	
 	
 	<rule>
 		<match lemma="scrap" tags="n.*">
 			<select lemma="trozo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
+	  <or>	
 		<match lemma="fabric" tags="*"/>
+		<match lemma="paper" tags="*"/>
+	  </or>	
 	</rule>
+	
+<!-- Madam President, the Council Presidency' s tour of capitals has identified
+three areas about which the President-in-Office has spoken this morning: asylum
+and immigration, the fight against cross-border crime and the establishment of a
+European judicial area.	Señora Presidenta, el recorrido de la Presidencia del
+Consejo por las capitales europeas ha permitido identificar tres esferas a las
+que la Presidenta en ejercicio se ha referido esta mañana: el asilo y la
+inmigración, la lucha contra la delincuencia transfronteriza, y el
+establecimiento de un espacio jurídico europeo. -->	
 	
 	<rule>
 		<match lemma="tour" tags="n.*">
-			<select lemma="periodo" tags="n.*"/>
+			<select lemma="recorrido" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="duty" tags="*"/>
+		<match lemma="of" tags="pr"/>
+		<match lemma="capital" tags="n.pl"/>
 	</rule>
 	
+<!-- If we take all these aspects together we have the potential of really doing
+something in Europe and maybe extending the tourism season by staggering holidays
+right across Europe. Si tomamos todos estos aspectos tendremos el potencial de
+realmente hacer algo en Europa y puede que de extender la temporada turística
+escalonando las vacaciones a lo largo de Europa. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="tourism" tags="*"/>
 		<match lemma="peak" tags="*"/>
+	  </or>	
 		<match lemma="season" tags="n.*">
 			<select lemma="temporada" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- I object to the fact that we are cutting back the time for Question Time; it
+is one of the few occasions when backbenchers have a chance to get their time on
+the floor and I do ask you to extend it to one and a half hours as is on the
+agenda.	Desapruebo que reduzcamos el tiempo del turno de preguntas; es una de las
+pocas ocasiones en que los diputados de a pie tienen la oportunidad de hacer uso
+de la palabra, por lo que le pido que lo amplíe a una hora y media, como figura
+en el orden del día. -->	
+	
 	<rule>
-		<match lemma="give" tags="*"/>
+		<match lemma="have" tags="*"/>
 		<match/>
-		<match lemma="a" tags="*"/>
 		<match lemma="chance" tags="n.*">
 			<select lemma="oportunidad" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- Enlargement has been described as a problem area, and in it we have a number
+of things to sort out both internally and externally; whilst Mr Ferber says that
+there are calls to rethink the relationship between Categories 7 and 8, we must
+also note that, as opposed to the original estimates, on the basis of which we
+assumed that the first six States could be added as early as 2002, this position
+has of course changed, and that is something we have to be allowed to discuss. 
+Se ha descrito la ampliación como un campo de problemas. Aquí tenemos que
+solucionar algunas cosas interna y externamente y cuando el colega Ferber dice
+que hay que recapacitar sobre cómo es la relación entre las Categorías 7 y 8, hay
+que constatar lo siguiente: frente a los enfoques originarios, en los que se
+partía del hecho de que en el año 2002 podrían adherirse ya los seis primeros
+Estados, ha cambiado naturalmente esta base y hay que hablar sobre ello. -->	
+	
 	<rule>
-		<match lemma="golf" tags="*"/>
-		<match lemma="course" tags="n.*">
+		<match lemma="problem" tags="*"/>
+		<match lemma="area" tags="n.*">
 			<select lemma="campo" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- If you had trouble getting on a higher education course in Austria for
+example, because you were of a certain race, this place would have been in a
+complete uproar. Si alguien tuviera dificultades para participar en un curso
+de educación superior en Austria, por ejemplo, por pertenecer a una raza
+determinada, se habría producido un gran alboroto en este Parlamento. -->	
+	
 	<rule>
-		<match lemma="take" tags="*"/>
-		<match/>
+		<match lemma="education" tags="*"/>
 		<match lemma="course" tags="n.*">
 			<select lemma="curso" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- Neither government must forget that we are accountable to the court of public
+opinion. Ningún gobierno debe olvidar que somos responsables ante la corte de
+la opinión pública. -->	
+	
 	<rule>
-		<match lemma="basketball" tags="*"/>
 		<match lemma="court" tags="n.*">
-			<select lemma="cancha" tags="n.*"/>
+			<select lemma="corte" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="opinion" tags="*"/>
 	</rule>
+	
+<!-- Those who trust in the idea that, thanks to official equality and the
+passage of time, self-regulatory mechanisms will work in favour of social
+balance, are mistaken, because they do not appreciate the fact that, although
+equality before the law and equality of opportunity are necessary conditions,
+they are not sufficient in themselves. Aquellos que confían en que, gracias a
+la igualdad formal y al paso del tiempo, los mecanismos de autorregulación
+funcionarán en favor del equilibrio social se equivocan, porque ignoran que la
+igualdad ante la ley y la igualdad de oportunidades son condiciones necesarias
+pero no suficientes. -->	
 	
 	<rule>
 		<match lemma="passage" tags="n.*">
 			<select lemma="paso" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
+		<match lemma="of" tags="pr"/>
 		<match lemma="time" tags="*"/>
 	</rule>	
+
+<!-- I simply wish to remind you that the European Parliament has already sent
+a letter to the three kings through its reports. Yo simplemente quiero recordarle
+que el Parlamento Europeo ha mandado ya la carta a los Reyes Magos con sus
+informes. -->
 	
 	<rule>
-		<match lemma="send" tags="*"/>
+		<match lemma="send" tags="*"/>	
 		<match/>
 		<match lemma="letter" tags="n.*">
 			<select lemma="carta" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- As Commissioner Barnier has stated, it is as important to comply with the
+spirit of additionality as with the letter of the law. Como ha declarado el
+Comisario Barnier, es tan importante cumplir con el espíritu de la adicionalidad
+como con la letra de la ley. -->	
+	
 	<rule>
 		<match lemma="letter" tags="n.*">
 			<select lemma="letra" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
+	  <or>
+	  	<match lemma="law" tags="*"/>
 		<match lemma="alphabet" tags="*"/>
+	  </or>	
 	</rule>	
 	
+<!-- However, I was disappointed with the nature of the proposal for the
+establishment of a European food authority in the recent White Paper. No obstante,
+me ha decepcionado el carácter de la propuesta relativa a la creación de una
+agencia alimentaria europea que se incluye en el reciente Libro Blanco. -->	
+	
 	<rule>
-		<match lemma="jealous" tags="*"/>
 		<match lemma="nature" tags="n.*">
 			<select lemma="carácter" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="proposal" tags="*"/>
 	</rule>
 	
+<!-- Smoking was completely forbidden in the meeting room itself. En la propia
+sala de reuniones no estaba permitido fumar. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="meeting" tags="*"/>
 		<match lemma="chat" tags="*"/>
+	  </or>	
 		<match lemma="room" tags="n.*">
 			<select lemma="sala" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- We booked her a hotel room with disabled people's access. Le reservamos una
+habitación de hotel con acceso para personas con discapacidad. -->	
 	
 	<rule>
 		<match lemma="hotel" tags="*"/>
@@ -2008,34 +2158,56 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>
 	
+<!-- I should like to spotlight one project which is of extreme importance to me,
+as someone from Flanders and Antwerp: the Iron Rhine, the railway connection
+between the port of Antwerp and the Ruhr area, a railway line which already
+exists and which therefore does not need to be constructed, and which only needs
+modernising and re-commissioning. Quisiera destacar un proyecto que para mí,
+como flamenco y ciudadano de Amberes, reviste especial importancia: la denominada
+línea férrea del Rin -Ijzeren Rijn-, el enlace ferroviario entre el puerto de
+Amberes y la cuenca del Ruhr. Esta línea de ferrocarril ya existe. -->	
+	
 	<rule>
-		<match lemma="miss" tags="*"/>
-		<match/>
+		<match lemma="railway" tags="*"/>
 		<match lemma="connection" tags="n.*">
 			<select lemma="enlace" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- We must also encourage stronger competition on the local telephone markets
+to make Internet connection cheaper. Asimismo, debemos velar por una mayor
+competencia en los mercados de telefonía local, de modo que la conexión a
+Internet se abarate. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="internet" tags="*"/>
 		<match lemma="electrical" tags="*"/>
+	  </or>	
 		<match lemma="connection" tags="n.*">
 			<select lemma="conexión" tags="n.*"/>
 		</match>
 	</rule>
 	
-	<rule>
-		<match lemma="liberal" tags="n.*">
-			<select lemma="abundante" tags="n.*"/>
-		</match>
-		<match lemma="amount" tags="*"/>
-	</rule>
+<!-- Mr President, my voting machine is making a very strange noise and it has a
+lot of lights on it. Señor Presidente, mi aparato de votación hace un ruido muy
+extraño y tiene un montón de luces. -->	
 	
 	<rule>
+	  <or>
+	  	<match lemma="voting" tags="*"/>
 		<match lemma="propaganda" tags="*"/>
+	  </or>	
 		<match lemma="machine" tags="n.*">
 			<select lemma="aparato" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- A recent opinion poll conducted by the showed that more than 71% of Germans
+think that Islam is intolerant; 91% of Germans equate Islam with violence against
+women.	Un reciente sondeo de opinión realizado por el reveló que más del 71 % de
+los alemanes cree que el Islam es intolerante; el 91 % de los alemanes identifica
+el islam con la violencia contra las mujeres. -->	
 	
 	<rule>
 		<match lemma="opinion" tags="*"/>
@@ -2043,6 +2215,12 @@ universidades, de las escuelas y de los centros de producción. -->
 			<select lemma="sondeo" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- This is essential to ensure that when the voters go to the polls in June,
+they know what they are voting for, namely a strong and united Europe with a
+strong Commission and Commission President.Esto es esencial para asegurar que
+cuando los votantes acudan a las urnas en junio, sepan lo que votan, que es una
+Europa fuerte y unida con una Comisión y un Presidente de la Comisión fuertes. -->	
 	
 	<rule>
 		<match lemma="go" tags="*"/>
@@ -2053,6 +2231,13 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>
 	
+<!-- One day, the chess player’s teacher wished to teach the champion a lesson
+and, with a swipe of his hand, threw all the pieces from the chess board and
+said: "Now, with the board empty, invent the great move". Un día, el maestro del
+ajedrecista quiso dar una lección al campeón y, de un manotazo, le tiró todas
+las fichas del tablero de ajedrez y le dijo: "ahora, con el tablero vacío, diseña
+la gran jugada". -->	
+	
 	<rule>
 		<match lemma="chess" tags="*"/>
 		<match lemma="board" tags="n.*">
@@ -2060,51 +2245,100 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>
 	
+<!-- The solution we have reached is to create a board of directors which will
+oversee and politically be the managerial part of running the new office or
+EuropeAid or whatever SCR is going to be called. La solución a la que hemos
+llegado es crear un consejo de administración que supervise y que, desde una
+perspectiva política, sea la parte gerente encargada de dirigir la nueva
+oficina o la EuropeAid o como quiera que vaya a llamarse el SCR. -->	
+	
 	<rule>
 		<match lemma="board" tags="n.*">
 			<select lemma="consejo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="directors" tags="*"/>
+		<match lemma="of" tags="pr"/>
+		<match lemma="director" tags="n.pl"/>
 	</rule>
 	
+<!-- In the meantime, our notice board and computer are going wrong. Mientras
+tanto, nuestro tablón de anuncios y nuestro ordenador funcionan mal. -->	
+	
 	<rule>
+		<match lemma="notice" tags="*"/>
 		<match lemma="board" tags="n.*">
-			<select lemma="comisión" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="inquiry" tags="*"/>
+			<select lemma="tablón" tags="n.*"/>
+		</match>	
 	</rule>
 	
+<!-- We would like to see a job-funded pass for public transport, in other
+words, we want to prove ourselves to be responsible from both a financial and an
+environmental policy point of view.	Nos gustaría ver un abono subvencionado para
+los trabajadores en el transporte público, es decir, queremos demostrarnos
+a nosotros mismos que somos responsables tanto desde un punto de vista de
+política financiera como de política ambiental. -->	
+	
 	<rule>
-		<match lemma="bus" tags="*"/>
 		<match lemma="pass" tags="n.*">
 			<select lemma="abono" tags="n.*"/>
 		</match>
+		<match lemma="for" tags="pr"/>
+		<match lemma="public" tags="*"/>
+		<match lemma="transport" tags="*"/>
 	</rule>
 	
+<!-- As you say, undoubtedly both the Spanish and the French governments will
+have to consider alternatives, because for that great central Pyrenean pass we
+are talking in terms of around 2015 to 2020, that is, in 15-20 years time, and
+this type of project has to be planned that far in advance and they have to be
+dealt with and initiated within that timescale.	Como dice su Señoría,
+indudablemente tanto el Gobierno francés como el español, tendrán que considerar
+alternativas, porque ese gran paso central de los Pirineos, estamos hablando de
+un horizonte de 2015 a 2020, estamos hablando de 15-20 años, ese tipo de
+proyectos, hay que planificarlos con esta previsión y tratarlos e iniciarlos con
+este margen de tiempo. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="pyrenean" tags="*"/>
 		<match lemma="mountain" tags="*"/>
+	  </or>	
 		<match lemma="pass" tags="n.*">
 			<select lemma="paso" tags="n.*"/>
 		</match>
 	</rule>
 	
-	<rule>
-		<match lemma="volume" tags="*"/>
-		<match lemma="control" tags="n.*">
-			<select lemma="mando" tags="n.*"/>
-		</match>
-	</rule>
+<!-- However, what we can show, structurally, is that, for the last year or so
+we have had a civilian control and planning instrument on the Council side and 
+that there is now a clear chain of command from the building over there right
+down to those who have to carry out operations on the ground. Sin embargo, lo
+que sí podemos señalar, desde el punto de vista estructural, es que, desde hace
+aproximadamente un año, contamos con un instrumento de planificación y control
+civil del lado del Consejo y que ahora hay una cadena de mando bien definida,
+desde el edificio de enfrente hasta las personas que llevan a cabo las
+operaciones sobre el terreno. -->	
 	
 	<rule>
-		<match lemma="under" tags="*"/>
+		<match lemma="civilian" tags="*"/>
 		<match lemma="control" tags="n.*">
 			<select lemma="control" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- The structure and control of the operation are vital to the command of the
+operation. La estructura y el control de la operación son vitales para el mando
+de la operación. -->	
+	
+	<rule>
+		<match lemma="command" tags="*">
+			<select lemma="mando" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemmma="operation" tags="*"/>
+	</rule>
+	
+<!-- The market favours the short term and immediate profits. El mercado da
+prioridad al corto plazo y a los beneficios inmediatos. -->	
 	
 	<rule>
 		<match lemma="short" tags="*"/>
@@ -2113,14 +2347,27 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>
 	
+<!-- If we all work together properly on that, and if the Council is well
+disposed, we will manage to get this report adopted by the end of this
+Parliamentary term - I think, at second reading stage or perhaps after a
+conciliation procedure - and then legal certainty will have been created. Si
+todos trabajamos de forma conjunta y aplicada y el Consejo está de buen talante,
+conseguiremos antes del final de este periodo legislativo que se apruebe el
+informe -posiblemente en segunda lectura o tal vez después de un procedimiento de
+conciliación- y se cree certidumbre jurídica. -->	
+	
 	<rule>
+		<match lemma="parliamentary" tags="*"/>
 		<match lemma="term" tags="n.*">
 			<select lemma="periodo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="imprisonment" tags="*"/>
 	</rule>
+	
+<!-- Instead of using the opportunity to apply maximum pressure to gain reform,
+we seem determined to set it on a conveyor belt to automatic accession.	En lugar
+de aprovechar la oportunidad para aplicar la máxima presión con miras a que se
+pongan en marcha las reformas, parecemos decididos a situar al país en la cinta
+transportadora que le llevará a la adhesión automática. -->	
 	
 	<rule>
 		<match lemma="conveyor" tags="*"/>
@@ -2129,102 +2376,183 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>
 	
-	<rule>
-		<match lemma="parent" tags="n.*">
-			<select lemma="matriz" tags="n.*"/>
-		</match>
-		<match lemma="company" tags="*"/>
-	</rule>
+<!-- We voted last week to support the funding of uncontroversial stem-cell
+research using placenta, umbilical cord and adult stem cells. La semana pasada
+votamos en favor de apoyar la financiación de investigaciones aceptadas sobre las
+células germinales utilizando células de la placenta, del cordón umbilical y
+células germinales de adultos. -->	
 	
 	<rule>
-		<match lemma="computer" tags="*"/>
+		<match lemma="umbilical" tags="*"/>
 		<match lemma="cord" tags="n.*">
-			<select lemma="cable" tags="n.*"/>
+			<select lemma="cordón" tags="n.*"/>
 		</match>
 	</rule>
+	
+<!-- Mr President, our committee views these issues very differently and, to
+start, I will speak from the point of view of research.	Señor Presidente, nuestra
+comisión trata estos asuntos desde muy diversos puntos de vista, y, en primer
+lugar, hablaré desde el punto de vista de la investigación. -->	
 	
 	<rule>
 		<match lemma="point" tags="n.*">
 			<select lemma="punto" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="sale" tags="*"/>
+		<match lemma="of" tags="pr"/>
+	  <or>
+	  	<match lemma="sale" tags="*"/>
+		<match lemma="view" tags="*"/>
+	  </or>	
 	</rule>
 	
+<!-- We may recall that the European Consumers' Association, which represents the
+consumers of the European Union, carried out an extensive survey of charges for
+cross-border payments only last year.Cabría recordar que la Asociación Europea de
+Consumidores, que representa a los consumidores de la Unión Europea, realizó el
+pasado año un estudio en profundidad de los costes de los pagos transfronterizos.
+-->
+	
 	<rule>
-		<match lemma="market" tags="*"/>
 		<match lemma="survey" tags="n.*">
 			<select lemma="estudio" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="charge" tags="n.pl"/>
 	</rule>
 	
+<!-- I call on them urgently to act decisively against Laskar Jihad and this
+offshoot of Al-Qaeda, as there is no time to lose. Hago un llamamiento para que
+actúen de forma decisiva contra Laskar Yihad y esta rama de Al-Qaeda; esto no
+admite más demora. -->	
+	
 	<rule>
-		<match lemma="political" tags="*"/>
 		<match lemma="offshoot" tags="n.*">
-			<select lemma="ramificación" tags="n.*"/>
+			<select lemma="rama" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match lemma="al-\qaeda" tags="*"/>
 	</rule>
 	
+<!-- The declared platform of the party that won the elections and formed the
+government does not conform to my platform and the commitments and prior
+agreements of the Palestinian Authority. El programa presentado por el partido
+que ganó las elecciones y formó Gobierno no se corresponde con mi programa ni
+los compromisos y acuerdos previos de la Autoridad Palestina. -->	
+	
 	<rule>
-		<match lemma="candidate" tags="*"/>
-		<match lemma="'s" tags="gen"/>
 		<match lemma="platform" tags="n.*">
 			<select lemma="programa" tags="n.*"/>
 		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="party" tags="*"/>
 	</rule>
 	
+<!-- There are some considerable differences in approach to this Mediterranean
+product, famous for its dietary qualities and effects on the health of consumers:
+some defend the European olive oil production policy, in order to protect Europe's
+position as world leader in terms of production. Este producto mediterráneo,
+conocido por sus cualidades dietéticas y por sus efectos en la salud de los
+consumidores, presenta una notable diferencia en cuanto al enfoque: algunos
+desean defender una política de producción europea de aceite de oliva,
+conservando de este modo el sitio de líder mundial de la producción europea. -->	
+	
 	<rule>
-		<match lemma="out" tags="*"/>
-		<match lemma="of" tags="*"/>
 		<match lemma="position" tags="n.*">
 			<select lemma="sitio" tags="n.*"/>
 		</match>
+		<match lemma="as" tags="pr"/>
+		<match/>
+		<match lemma="leader" tags="*"/>
 	</rule>
 	
+<!-- The BBC this morning reported that a British Member of this House, holding a
+senior position within his delegation, continues to offer strategic advice to
+private clients, but does not state in the Register of Interests who these
+clients are.	La BBC ha informado esta mañana de que un diputado británico de
+esta Cámara que ocupa un puesto de gran responsabilidad dentro de su delegación
+sigue ofreciendo asesoramiento estratégico a clientes del sector privado, sin
+declarar en el Registro de intereses quiénes son dichos clientes. -->	
+	
 	<rule>
+		<match lemma="senior" tags="*"/>
 		<match lemma="position" tags="n.*">
 			<select lemma="puesto" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="responsibility" tags="*"/>
+		</match>	
 	</rule>
 	
+<!-- A change of gear in the European Union's strategy is necessary and urgent.
+Es necesario y urgente un cambio de marcha en la estrategia de la Unión Europea.-->	
+	
 	<rule>
-		<match lemma="rain" tags="*"/>
+		<match lemma="change" tags="*"/>
+		<match lemma="of" tags="pr"/>
 		<match lemma="gear" tags="n.*">
-			<select lemma="ropa" tags="n.*"/>
+			<select lemma="marcha" tags="n.*"/>
 		</match>
 	</rule>	
 	
+<!-- Everyone in it needs to put themselves into reverse gear in order to get
+back out again, or else the troops will end up being sent in. Todos los que están
+en él tienen que poner la marcha atrás para salir de nuevo, pues de lo contrario
+acabaremos mandando las tropas. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="reverse" tags="*"/>
 		<match lemma="first" tags="*"/>
+	  </or>	
 		<match lemma="gear" tags="n.*">
 			<select lemma="marcha" tags="n.*"/>
 		</match>
 	</rule>
 	
+<!-- In yesterday's debate in the European Parliament some Members of this
+Parliament expressed worry that we were interfering in the internal affairs of a
+Member State. En el debate de ayer en el Parlamento Europeo algunos
+diputados expresaron su preocupación por que estemos interfiriendo en los asuntos
+internos de un Estado miembro. -->	
+	
 	<rule>
+	  <or>
+	  	<match lemma="internal" tags="*"/>
 		<match lemma="foreign" tags="*"/>
+	  </or>	
 		<match lemma="affairs" tags="n.*">
 			<select lemma="asuntos" tags="n.*"/>
 		</match>
 	</rule>
 	
-	<rule>
-		<match lemma="flight" tags="n.*">
-			<select lemma="tramo" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr.*"/>
-		<match/>
-		<match lemma="stairs" tags="*"/>
-	</rule>
+<!-- I continue to ponder this question, Vice-President, as I ponder the question
+of the appointment of senior Commission officials - officials or chefs de cabinet
+- who then unexpectedly book a flight and, via some European airport, London
+rather than Malpensa, desert the Commission for the private sector.	Señor
+Vicepresidente, continúo haciéndome esta pregunta y, además de la cuestión de
+los nombramientos en el seno de la Comisión, me planteo el tema de los
+nombramientos de los altos funcionarios de la Comisión -funcionarios o tal vez
+jefes de gabinete- que de repente levantan el vuelo y que pasando por algún
+aeropuerto europeo, por Londres más que por Malpensa, se van al sector privado.-->	
 	
 	<rule>
-		<match lemma="flight" tags="*"/>
+		<match lemma="book" tags="*"/>
+		<match/>
+		<match lemma="flight" tags="n.*">
+			<select lemma="vuelo" tags="n.*"/>
+		</match>	
+	</rule>
+	
+<!-- We reject Amendment No 13 because it intends to assign the representative of
+the terminal the task of checking that standards for the installation of the
+black box or voyage data recorder are complied with. En cuanto a la enmienda nº
+13, la rechazamos, porque en ella se plantea asignar al representante de la
+terminal la tarea de comprobar la conformidad con las normas de la instalación de
+la caja negra o registrador de datos de la travesía. -->
+<!-- 155 sentences -->
+	
+	<rule>
+		<match lemma="data" tags="*"/>
 		<match lemma="recorder" tags="n.*">
-			<select lemma="caja" tags="n.*"/>
+			<select lemma="registrador" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -2323,7 +2651,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="display" tags="n.*">
 			<select lemma="exposición" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="paintings" tags="*"/>
 	</rule>
@@ -2381,7 +2709,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="blanket" tags="n.*">
 			<select lemma="manto" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="fog" tags="*"/>
 	</rule>
@@ -2390,7 +2718,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="case" tags="n.*">
 			<select lemma="caja" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="wine" tags="*"/>
 	</rule>
@@ -2490,7 +2818,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="length" tags="n.*">
 			<select lemma="periodo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="time" tags="*"/>
 	</rule>
@@ -2506,7 +2834,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="string" tags="n.*">
 			<select lemma="rosario" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="island" tags="n.pl"/>
 	</rule>
@@ -2522,7 +2850,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="stick" tags="n.*">
 			<select lemma="tallo" tags="n.*"/>
 		</match>	
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="celery" tags="*"/>
 	</rule>	
@@ -2603,7 +2931,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="badge" tags="n.*">
 			<select lemma="divisa" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="honor" tags="*"/>
 	</rule>
@@ -2626,7 +2954,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="head" tags="n.*">
 			<select lemma="jefe" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match lemma="state" tags="*"/>
 	</rule>
 	
@@ -2655,7 +2983,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="house" tags="n.*">
 			<select lemma="cámara" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match lemma="representatives" tags="n.pl"/>
 	</rule>
 	
@@ -2724,7 +3052,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="shaft" tags="n.*">
 			<select lemma="rayo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="light" tags="*"/>
 	</rule>
@@ -2757,7 +3085,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="piece" tags="n.*">
 			<select lemma="pedazo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="pie" tags="*"/>
 	</rule>
@@ -2766,7 +3094,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="piece" tags="n.*">
 			<select lemma="pieza" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="music" tags="*"/>
 	</rule>
@@ -2775,7 +3103,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="slice" tags="n.*">
 			<select lemma="loncha" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="ham" tags="*"/>
 	</rule>
@@ -2784,7 +3112,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="slice" tags="n.*">
 			<select lemma="trozo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="cake" tags="*"/>
 	</rule>
@@ -2793,7 +3121,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="snippet" tags="n.*">
 			<select lemma="fragmento" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="news" tags="*"/>
 	</rule>
@@ -2802,7 +3130,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="article" tags="n.*">
 			<select lemma="prenda" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="clothing" tags="*"/>
 	</rule>
@@ -2890,7 +3218,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="pack" tags="n.*">
 			<select lemma="pandilla" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="thieves" tags="n.pl"/>
 	</rule>
@@ -2920,7 +3248,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="lock" tags="n.*">
 			<select lemma="mechón" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="hair" tags="*"/>
 	</rule>
@@ -2936,7 +3264,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="cut" tags="n.*">
 			<select lemma="pieza" tags="n.*"/>
 		</match>	
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="meat" tags="*"/>
 	</rule>
@@ -2945,7 +3273,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="cut" tags="n.*">
 			<select lemma="tajada" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="profits" tags="n.pl"/>
 	</rule>
@@ -2968,7 +3296,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="side" tags="n.*">
 			<select lemma="lado" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="house" tags="*"/>
 	</rule>
@@ -2977,7 +3305,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="side" tags="n.*">
 			<select lemma="ladera" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="mountain" tags="*"/>
 	</rule>	
@@ -3000,7 +3328,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="body" tags="n.*">
 			<select lemma="conjunto" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="evidence" tags="*"/>
 	</rule>
@@ -3009,7 +3337,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="body" tags="n.*">
 			<select lemma="masa" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="water" tags="*"/>
 	</rule>
@@ -3018,7 +3346,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="collection" tags="n.*">
 			<select lemma="grupo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="people" tags="*"/>
 	</rule>
@@ -3027,7 +3355,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="herd" tags="n.*">
 			<select lemma="rebaño" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="cattle" tags="*"/>
 	</rule>
@@ -3036,7 +3364,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="herd" tags="n.*">
 			<select lemma="manada" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="horses" tags="n.pl"/>
 	</rule>	
@@ -3045,7 +3373,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="herd" tags="n.*">
 			<select lemma="manada" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="people"/>
 	</rule>
@@ -3062,7 +3390,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="flock" tags="n.*">
 			<select lemma="bandada" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="birds" tags="n.pl"/>
 	</rule>
@@ -3086,7 +3414,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="path" tags="n.*">
 			<select lemma="trayectoria" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="planet" tags="*"/>
 	</rule>
@@ -3152,7 +3480,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="standard" tags="n.*">
 			<select lemma="nivel" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="living" tags="*"/>
 	</rule>
@@ -3161,7 +3489,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="mark" tags="n.*">
 			<select lemma="señal" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="respect" tags="*"/>
 	</rule>
@@ -3187,7 +3515,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="surplus" tags="n.*">
 			<select lemma="excedente" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="goods" tags="n.pl"/>
 	</rule>
@@ -3253,7 +3581,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="proof" tags="n.*">
 			<select lemma="documento" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="identity" tags="*"/>
 	</rule>
@@ -3262,7 +3590,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="proof" tags="n.*">
 			<select lemma="tíquet" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="purchase" tags="*"/>
 	</rule>
@@ -3306,7 +3634,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="top" tags="n.*">
 			<select lemma="cabeza" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="list" tags="*"/>
 	</rule>
@@ -3315,7 +3643,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="top" tags="n.*">
 			<select lemma="cima" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="mountain" tags="*"/>
 	</rule>	
@@ -3367,10 +3695,20 @@ universidades, de las escuelas y de los centros de producción. -->
 		</match>
 	</rule>	
 	
+<!-- If we do not want the courts needed for genocide and recurrent crimes against
+humanity to be wrongly denigrated as victor's justice or one-off justice, then we
+need a permanent criminal court to which all are equally subject, large and small
+states alike, whatever the nationality of the perpetrator or criminal. Si no
+queremos que los tribunales necesarios para genocidios y delitos recurrentes
+contra la humanidad sean desacreditados erróneamente como la justicia del vencedor
+o justicia extraordinaria, entonces necesitamos una corte penal permanente a la
+que nos sometamos todos en las mismas condiciones, estados grandes y pequeños por
+igual, independientemente de la nacionalidad del autor o delincuente. -->	
+	
 	<rule>
 		<match lemma="criminal" tags="*"/>
 		<match lemma="court" tags="n.*">
-			<select lemma="juzgado" tags="n.*"/>
+			<select lemma="corte" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -3378,7 +3716,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="court" tags="n.*">
 			<select lemma="tribunal" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="law" tags="*"/>
 	</rule>	
@@ -3394,7 +3732,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="gang" tags="n.*">
 			<select lemma="pandilla" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="friends" tags="n.pl"/>
@@ -3420,7 +3758,7 @@ universidades, de las escuelas y de los centros de producción. -->
 	 	<match lemma="strap" tags="n.*">
 	 		<select lemma="correa" tags="n.*"/>
 	 	</match>
-	 	<match lemma="of" tags="pr.*"/>
+	 	<match lemma="of" tags="pr"/>
 	 	<match/>
 	   <or>
 	    <match lemma="purse" tags="*"/>
@@ -3512,7 +3850,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="site" tags="n.*">
 			<select lemma="emplazamiento" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="monument" tags="*"/>
 	</rule>
@@ -3521,7 +3859,7 @@ universidades, de las escuelas y de los centros de producción. -->
 	  	<match lemma="spot" tags="n.*">
 	  		<select lemma="algo" tags="n.*"/>
 	  	</match>
-	  	<match lemma="of" tags="pr.*"/>
+	  	<match lemma="of" tags="pr"/>
 	  	<match/>
 	  	<match lemma="lunch" tags="*"/>
 	 </rule>
@@ -3547,7 +3885,7 @@ universidades, de las escuelas y de los centros de producción. -->
 	 	<match lemma="dash" tags="n.*">
 	 		<select lemma="toque" tags="n.*"/>
 	 	</match>
-	 	<match lemma="of" tags="pr.*"/>
+	 	<match lemma="of" tags="pr"/>
 	 	<match/>
 	   <or>
 	   	<match lemma="humor" tags="*"/>
@@ -3559,7 +3897,7 @@ universidades, de las escuelas y de los centros de producción. -->
 	 	<match lemma="dash" tags="n.*">
 	 		<select lemma="pizca" tags="n.*"/>
 	 	</match>
-	 	<match lemma="of" tags="pr.*"/>
+	 	<match lemma="of" tags="pr"/>
 	 	<match/>
 	 <or>
 		<match lemma="sugar" tags="*"/>
@@ -3616,7 +3954,7 @@ universidades, de las escuelas y de los centros de producción. -->
 	  	<match lemma="vote" tags="n.*">
 	  		<select lemma="voto" tags="n.*"/>
 	  	</match>
-	  	<match lemma="of" tags="pr.*"/>
+	  	<match lemma="of" tags="pr"/>
 	  	<match lemma="confidence" tags="*"/>
 	  </rule>
 	  
@@ -3624,7 +3962,7 @@ universidades, de las escuelas y de los centros de producción. -->
 	  	<match lemma="vote" tags="n.*">
 	  		<select lemma="moción" tags="n.*"/>
 	  	</match>
-	  	<match lemma="of" tags="pr.*"/>
+	  	<match lemma="of" tags="pr"/>
 	  	<match lemma="no" tags="*"/>
 	  	<match lemma="confidence" tags="*"/>
 	  </rule>
@@ -3660,7 +3998,7 @@ universidades, de las escuelas y de los centros de producción. -->
 	  	<match lemma="opening" tags="n.*">
 	  		<select lemma="entrada" tags="n.*"/>
 	  	</match>
-	  	<match lemma="of" tags="pr.*"/>
+	  	<match lemma="of" tags="pr"/>
 	  	<match/>
 	   <or>
 	    <match lemma="cave" tags="*"/>
@@ -3672,7 +4010,7 @@ universidades, de las escuelas y de los centros de producción. -->
 	  	<match lemma="cast" tags="n.*">
 	  		<select lemma="reparto" tags="n.*"/>
 	  	</match>
-	  	<match lemma="of" tags="pr.*"/>
+	  	<match lemma="of" tags="pr"/>
 	  	<match/>
 	   <or>
 	    <match lemma="play" tags="*"/>
@@ -3741,7 +4079,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="block" tags="n.*">
 			<select lemma="bloque" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	 <or>
 	 	<match lemma="ice" tags="*"/>
@@ -3754,7 +4092,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="block" tags="n.*">
 			<select lemma="grupo" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="seats" tags="n.pl"/>
@@ -3766,7 +4104,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="coming" tags="n.*">
 			<select lemma="mayoría" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="age" tags="*"/>
 	</rule>
@@ -3775,7 +4113,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="onset" tags="n.*">
 			<select lemma="estallido" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="war" tags="*"/>
 	</rule>
@@ -3784,7 +4122,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="onset" tags="n.*">
 			<select lemma="inicio" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	 <or>	
 		<match lemma="disease" tags="*"/>
@@ -3804,7 +4142,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="mouth" tags="n.*">
 			<select lemma="desembocadura" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="river" tags="*"/>
 	</rule>
@@ -3813,7 +4151,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="emergence" tags="n.*">
 			<select lemma="surgimiento" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="nation" tags="*"/>
@@ -3826,7 +4164,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="emergence" tags="n.*">
 			<select lemma="aparición" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="facts" tags="n.pl"/>
@@ -3838,7 +4176,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="event" tags="n.*">
 			<select lemma="caso" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="fire" tags="*"/>
@@ -3867,7 +4205,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="plot" tags="n.*">
 			<select lemma="argumento" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>	
 		<match lemma="story" tags="*"/>
@@ -3928,7 +4266,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="ear" tags="n.*">
 			<select lemma="mazorca" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="corn" tags="*"/>
 	</rule>
@@ -3937,7 +4275,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="sphere" tags="n.*">
 			<select lemma="ámbito" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="influence" tags="*"/>
 	</rule>
@@ -3946,7 +4284,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="seizure" tags="n.*">
 			<select lemma="confiscación" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="land" tags="*"/>
 	</rule>
@@ -3955,7 +4293,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="seizure" tags="n.*">
 			<select lemma="incautación" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>	
 		<match lemma="property" tags="*"/>
@@ -3974,7 +4312,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="spread" tags="n.*">
 			<select lemma="propagación" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="disease" tags="*"/>
 	</rule>	
@@ -4067,7 +4405,7 @@ universidades, de las escuelas y de los centros de producción. -->
   		<match lemma="layer" tags="n.*">
   			<select lemma="capa" tags="n.*"/>
   		</match>
-  		<match lemma="of" tags="pr.*"/>
+  		<match lemma="of" tags="pr"/>
   		<match/>
   		<match lemma="paint" tags="*"/>
   	</rule>
@@ -4076,7 +4414,7 @@ universidades, de las escuelas y de los centros de producción. -->
   		<match lemma="layer" tags="n.*">
   			<select lemma="estrato" tags="n.*"/>
   		</match>
-  		<match lemma="of" tags="pr.*"/>
+  		<match lemma="of" tags="pr"/>
   		<match/>
   		<match lemma="rock" tags="*"/>
   	</rule>
@@ -4085,7 +4423,7 @@ universidades, de las escuelas y de los centros de producción. -->
   		<match lemma="vein" tags="n.*">
   			<select lemma="veta" tags="n.*"/>
   		</match>
-  		<match lemma="of" tags="pr.*"/>
+  		<match lemma="of" tags="pr"/>
   		<match/>
   	  <or>
   	  	<match lemma="silver" tags="*"/>
@@ -4182,7 +4520,7 @@ universidades, de las escuelas y de los centros de producción. -->
   		<match lemma="style" tags="n.*">
   			<select lemma="estilo" tags="n.*"/>
   		</match>
-  		<match lemma="of" tags="pr.*"/>
+  		<match lemma="of" tags="pr"/>
   		<match/>
   	  <or>
   	  	<match lemma="music" tags="*"/>
@@ -4195,7 +4533,7 @@ universidades, de las escuelas y de los centros de producción. -->
   		<match lemma="mode" tags="n.*">
   			<select lemma="medio" tags="n.*"/>
   		</match>
-  		<match lemma="of" tags="pr.*"/>
+  		<match lemma="of" tags="pr"/>
   		<match/>
   		<match lemma="transport" tags="*"/>
   	</rule>
@@ -4214,7 +4552,7 @@ universidades, de las escuelas y de los centros de producción. -->
   	 	<match lemma="stretch" tags="n.*">
   	 		<select lemma="extensión" tags="n.*"/>
   	 	</match>
-  	 	<match lemma="of" tags="pr.*"/>
+  	 	<match lemma="of" tags="pr"/>
   	 	<match/>
   	  <or>
   	  	<match lemma="water" tags="*"/>
@@ -4226,7 +4564,7 @@ universidades, de las escuelas y de los centros de producción. -->
   		<match lemma="stretch" tags="n.*">
   			<select lemma="período" tags="n.*"/>
   		</match>
-  		<match lemma="of" tags="pr.*"/>
+  		<match lemma="of" tags="pr"/>
   		<match/>
   		<match lemma="time" tags="*"/>
   	</rule>	
@@ -4262,7 +4600,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="bark" tags="n.*">
 			<select lemma="corteza" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="tree" tags="*"/>
 	</rule>	
@@ -4459,7 +4797,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="storm" tags="n.*">
 			<select lemma="aluvión" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="protest" tags="*"/>
@@ -4471,7 +4809,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="barrage" tags="n.*">
 			<select lemma="lluvia" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>	
 		<match lemma="complaint" tags="n.pl"/>
@@ -4502,7 +4840,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="shower" tags="n.*">
 			<select lemma="lluvia" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="spark" tags="n.pl"/>
@@ -4521,7 +4859,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="discharge" tags="n.*">
 			<select lemma="alta" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="patient" tags="*"/>
 	</rule>
@@ -4530,7 +4868,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="discharge" tags="n.*">
 			<select lemma="descarga" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>	
 		<match lemma="firearm" tags="*"/>
@@ -4543,7 +4881,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="discharge" tags="n.*">
 			<select lemma="emisión" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	 	<match lemma="gas" tags="*"/>
@@ -4555,7 +4893,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="release" tags="n.*">
 			<select lemma="liberación" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="prisoner" tags="*"/>
 	</rule>
@@ -4564,7 +4902,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="release" tags="n.*">
 			<select lemma="publicación" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="book" tags="*"/>
@@ -4576,7 +4914,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="release" tags="n.*">
 			<select lemma="estreno" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="film" tags="*"/>
@@ -4643,7 +4981,7 @@ universidades, de las escuelas y de los centros de producción. -->
 		<match lemma="conductor" tags="n.*">
 			<select lemma="conductor" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="electricity" tags="*"/>
@@ -4674,7 +5012,7 @@ al borde de la guerra. -->
 		<match lemma="brink" tags="n.*">
 			<select lemma="borde" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="war" tags="*"/>
 	</rule>	
@@ -4724,7 +5062,7 @@ cada vez más a la de Somalia. -->
 		<match lemma="thick" tags="n.*">
 			<select lemma="borde" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="chaos" tags="*"/>
 	</rule>
@@ -4747,7 +5085,7 @@ indemnización. -->
 		<match lemma="verge" tags="n.*">
 			<select lemma="borde" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>	
 		<match lemma="collapse" tags="*"/>
@@ -4784,7 +5122,7 @@ bosque que se encuentra apenas a unos metros del edificio del Parlamento. -->
 		<match lemma="edge" tags="n.*">
 			<select lemma="borde" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  <or>
 	  	<match lemma="wood" tags="n.pl"/>
@@ -4831,7 +5169,7 @@ encuentran al borde del colapso. -->
 		<match lemma="point" tags="n.*">
 			<select lemma="borde" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	 <or>
 	 	<match lemma="failure" tags="*"/>
@@ -4866,7 +5204,7 @@ se encontrado a sí misma en el borde de una crisis mundial. -->
 		<match lemma="threshold" tags="n.*">
 			<select lemma="borde" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 	  	<match lemma="crisis" tags="*"/>
 	</rule>  
@@ -4890,7 +5228,7 @@ se encontrado a sí misma en el borde de una crisis mundial. -->
 		<match lemma="border" tags="n.*">
 			<select lemma="borde" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 	  <or>
 	  	<match lemma="realism" tags="*"/>
 	  	<match lemma="fantasy" tags="*"/>
@@ -4917,7 +5255,7 @@ lleva al borde del abismo y nos conduce a un aterrador Gran Hermano de Europa. -
 		<match lemma="end" tags="n.*">
 			<select lemma="borde" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr.*"/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="wedge" tags="*"/>
 	</rule>	

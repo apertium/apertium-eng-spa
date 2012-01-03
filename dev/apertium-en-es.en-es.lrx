@@ -5,10 +5,7 @@ would not be very credible.	Sin embargo, un banco central dependiente de un
 reflote que se repitiera no sería muy creíble. -->
  
   <rule>
-   <or>
     <match lemma="central" tags="*"/>
-    <match lemma="savings" tags="*"/>
-   </or> 
     <match lemma="bank" tags="n.*">
       <select lemma="banco" tags="n.*"/>
     </match>
@@ -38,10 +35,7 @@ creo que permitirá reducir costes y reducir la competencia entre las
 instituciones a la hora de atraer a nuevo personal. -->
 
   <rule>
-   <or>
-    <match lemma="recruitment" tags="*"/>
-    <match lemma="post" tags="*"/>
-   </or> 
+    <match lemma="recruitment" tags="*"/> 
     <match lemma="office" tags="n.*">
       <select lemma="oficina" tags="n.*"/>
     </match>
@@ -72,29 +66,20 @@ el papel en el que están redactadas. -->
     </match>
     <match lemma="to" tags="pr"/>
     <match/>
-    <match/>
-    <match lemma="industry" tags="*"/>
+    <match lemma="car industry" tags="*"/>
   </rule>
   
 <!-- Ladies and gentlemen, many of you are wearing the little red bow at this
 time. Señorías, muchos de ustedes llevan un pequeño lazo rojo en este momento. -->  
 
   <rule>
-    <match lemma="wear" tags="*"/>
+    <match lemma="wear" tags="vblex.*"/>
     <match/>
     <match/>
     <match/>
     <match lemma="bow" tags="n.*">
     	<select lemma="lazo" tags="n.*"/>
     </match>	
-  </rule>
-
-  <rule>
-    <match lemma="strike" tags="*"/>
-    <match/>
-    <match lemma="match" tags="n.*">
-      <select lemma="cerilla" tags="n.*"/>
-    </match>
   </rule>
   
 <!-- Having the nationality of a given Member State and wanting to attend a
@@ -103,10 +88,7 @@ basta con tener la nacionalidad de un Estado miembro determinado y desear asisti
 a un partido de fútbol para poder ser rechazado en la frontera. -->  
 
   <rule>
-   <or>
-    <match lemma="soccer" tags="*"/>
     <match lemma="football" tags="*"/>
-   </or> 
     <match lemma="match" tags="n.*">
       <select lemma="partido" tags="n.*"/>
     </match>
@@ -131,15 +113,15 @@ de intercambio de información jamás igualada en la historia de la humanidad. -
    </or> 
   </rule>  
   
-<!-- It appears that the limit set by the directive would restrict a truck driver
+<!-- It appears that the limit set by the directive would restrict a car driver
 to six hours work, a tractor driver to two or three hours and a brush cutter to
 15 minutes.	Resulta que el límite establecido por la directiva limitaría a un
 conductor de camión a seis horas de trabajo, a un conductor de tractor a dos o
 tres horas y a un cortador de matorrales a 15 minutos. -->  
 
-  <rule>
+   <rule>
    <or>
-    <match lemma="truck" tags="*"/>
+    <match lemma="car" tags="*"/>
     <match lemma="tractor" tags="*"/>
    </or> 
     <match lemma="driver" tags="n.*">
@@ -192,7 +174,7 @@ Internet, en virtud de la cual, por tocar una tecla en un momento determinado,
 uno puede encontrarse sometido a una infracción de ámbito penal. -->  
   
   <rule>
-    <match lemma="press" tags="*"/>
+   <match lemma="press" tags="vblex.*"/>
     <match/>
     <match lemma="key" tags="n.*">
       <select lemma="tecla" tags="n.*"/>
@@ -208,7 +190,7 @@ establece dicho Estatuto, el Sr. Ricardo Levi es un funcionario temporal y se
 traslada con su puesto a su nuevo cargo. -->  
   
   <rule>
-    <match lemma="take" tags="*"/>
+    <match lemma="take" tags="vblex.*"/>
     <match lemma="up" tags="*"/>
     <match/>
     <match lemma="post" tags="n.*">
@@ -216,30 +198,11 @@ traslada con su puesto a su nuevo cargo. -->
     </match>
   </rule>
   
-  <rule>
-   <or>
-    <match lemma="baseball" tags="*"/>
-    <match lemma="cricket" tags="*"/>
-   </or> 
-    <match lemma="bat" tags="n.*">
-      <select lemma="bate" tags="n.*"/>
-    </match>
-  </rule>
-  
 <!-- The FPÖ party is established in Austria' s political landscape. El FPÖ es un
 partido anclado en el paisaje político de Austria. -->  
   
   <rule>
-   <or>
    	<match lemma="FPÖ" tags="*"/>
-    <match lemma="democratic" tags="*"/>
-    <match lemma="republican" tags="*"/>
-    <match lemma="labour" tags="*"/>
-    <match lemma="conservative" tags="*"/>
-    <match lemma="communist" tags="*"/>
-    <match lemma="liberatarian" tags="*"/>
-    <match lemma="political" tags="*"/>
-   </or> 
     <match lemma="party" tags="n.*">
       <select lemma="partido" tags="n.*"/>
     </match>
@@ -260,8 +223,8 @@ el nuevo convenio. -->
   
   <rule>
    <or>
-   	<match lemma="spoil" tags="*"/>
-    <match lemma="throw" tags="*"/>
+   	<match lemma="spoil" tags="vblex.*"/>
+    <match lemma="throw" tags="vblex.*"/>
    </or> 
     <match/>
     <match lemma="party" tags="n.*">
@@ -280,7 +243,7 @@ de sus empleados" , una fábrica que se abrió invirtiendo dinero europeo por un
 total de 85 millones de euros. -->  
   
   <rule>
-    <match lemma="close" tags="*"/>
+    <match lemma="close" tags="vblex.*"/>
     <match/>
     <match lemma="plant" tags="n.*">
       <select lemma="fábrica" tags="n.*"/>
@@ -304,11 +267,7 @@ residing in the various countries of Europe. Ni siquiera hay una tabla con cifra
 que muestre cuantos refugiados existen hoy en los distintos países de Europa. -->  
   
   <rule> 
-   <or>
    	<match lemma="statistical" tags="*"/>
-    <match lemma="multiplication" tags="*"/>
-    <match lemma="league" tags="*"/>
-   </or> 
     <match lemma="table" tags="n.*">
       <select lemma="tabla" tags="n.*"/>
     </match>
@@ -370,17 +329,7 @@ grow again.	El modo en que hemos actuado en Alemania no garantiza que el
 movimiento radical no se fortalezca de nuevo. -->  
   
   <rule>
-   <or>
    	<match lemma="radical" tags="*"/>
-    <match lemma="political" tags="*"/>
-    <match lemma="mass" tags="*"/>
-    <match lemma="lateral" tags="*"/>
-    <match lemma="vertical" tags="*"/>
-    <match lemma="horizontal" tags="*"/>
-    <match lemma="upwards" tags="*"/>
-    <match lemma="sideways" tags="*"/>
-    <match lemma="diagonal" tags="*"/>
-   </or> 
     <match lemma="movement" tags="n.*">
       <select lemma="movimiento" tags="n.*"/>
     </match>
@@ -392,7 +341,7 @@ Comunidad puede intervenir poniendo en contacto a los activistas locales entre s
 con el fin de evitar que no intenten reinventar la rueda en cada región. -->  
   
   <rule>
-    <match lemma="re\-invent" tags="*"/>
+    <match lemma="reinvent" tags="vblex.*"/>
     <match/>
     <match lemma="wheel" tags="n.*">
       <select lemma="rueda" tags="n.*"/>
@@ -401,7 +350,7 @@ con el fin de evitar que no intenten reinventar la rueda en cada región. -->
   
 <!-- I remember the time when an elderly person came into my father's bar, where
 I worked when I was a child, and asked for a glass of milk, saying, 'I drank milk
-when I was born and I want to die drinking milk!'. Recuerdo, pues en mi juventud
+when I was born and I want to die drinking milk!' Recuerdo, pues en mi juventud
 trabajé en el bar de mi padre, que cuando una persona mayor entraba en el bar y
 pedía un vaso de leche decía: "¡Yo me crié con leche y con leche quiero morir!" -->
 
@@ -420,7 +369,6 @@ agua. -->
       <select lemma="vaso" tags="n.*"/>
     </match>
     <match lemma="of" tags="pr"/>
-    <match/>
    <or> 
     <match lemma="water" tags="*"/>
     <match lemma="milk" tags="*"/>
@@ -428,7 +376,7 @@ agua. -->
   </rule>
   
 <!-- But is it right that the tax systems of our States should benefit every
-single time we drink a glass of wine? I do not think so! ¿Pero es posible que los
+single time we drink a glass of wine? ¿Pero es posible que los
 sistemas fiscales de nuestros Estados tengan que sacar beneficios cada vez que
 bebemos una copa de vino? -->  
   
@@ -437,16 +385,8 @@ bebemos una copa de vino? -->
       <select lemma="copa" tags="n.*"/>
     </match>
     <match lemma="of" tags="pr"/>
-    <match/>
     <match lemma="wine" tags="*"/>
   </rule>
-  
-<!-- At the beginning of December 1999, the first round of negotiations were held
-in New York, after an interruption of several years in negotiations between the
-Cypriot communities in the north and south of the island. Quisiera subrayar que a
-comienzos de diciembre del año pasado se celebró en Nueva York la primera ronda
-de negociaciones -desde hace varios años interrumpidas- entre las comunidades
-chipriotas del norte y del sur de la isla. -->  
 
 <!-- Research is particularly essential with regard also to the EU' s next round
 of enlargement.	La investigación también desempeña un papel fundamental en el
@@ -457,24 +397,7 @@ marco de la próxima ronda de negociaciones para la ampliación de la UE. -->
       <select lemma="ronda" tags="n.*"/>
     </match>
     <match lemma="of" tags="pr"/>
-   <or>
-    <match lemma="negotiation" tags="n.pl"/>
-   	<match lemma="enlargement" tags="*"/>
-   </or>  
-  </rule>
-   
-  <rule> 
-    <match lemma="ski" tags="*"/>
-    <match lemma="slope" tags="n.*">
-      <select lemma="pista" tags="n.*"/>
-    </match>
-  </rule>
-  
-  <rule> 
-    <match lemma="ski" tags="*"/>
-    <match lemma="run" tags="n.*">
-      <select lemma="pista" tags="n.*"/>
-    </match>
+   	<match lemma="enlargement" tags="*"/> 
   </rule>
   
 <!-- They will be adopting an anti-secession law, intended to back up a possible
@@ -496,10 +419,7 @@ pasaporte para poder viajar, en particular, una editora, la mujer del Sr. Ksila,
 que fue una de las personas propuestas para el premio Sájarov. -->  
   
   <rule>
-   <or>
-   	<match lemma="hunger" tags="*"/>
-    <match lemma="union" tags="*"/>
-   </or> 
+   	<match lemma="hunger" tags="*"/> 
     <match lemma="strike" tags="n.*">
       <select lemma="huelga" tags="n.*"/>
     </match>
@@ -525,8 +445,8 @@ calza un par de zapatillas para correr. -->
     </match>	
     <match lemma="of" tags="pr"/>
    <or> 
-    <match lemma="people" tags="*"/>
-    <match lemma="explorer" tags="n.pl"/>
+    <match lemma="person" tags="n.pl"/>
+    <match lemma="explorers" tags="*"/>
    </or> 
   </rule>
   
@@ -536,15 +456,7 @@ con que, por ejemplo, la banda de música del Consejo comience y termine al mism
 tiempo, sino que la melodía debe valer la pena. -->
   
   <rule>
-    <or>
-      <match lemma="brass" tags="*"/>
-      <match lemma="jazz" tags="*"/>
-      <match lemma="concert" tags="*"/>
-      <match lemma="brass" tags="*"/>
-      <match lemma="military" tags="*"/>
-      <match lemma="rubber" tags="*"/>
-      <match lemma="elastic" tags="*"/>
-    </or>
+    <match lemma="brass" tags="*"/>
     <match lemma="band" tags="n.*">
       <select lemma="banda" tags="n.*"/>
     </match>
@@ -582,10 +494,7 @@ de las normales. De esta manera será posible proceder al etiquetado del grano
 de soja crudo tratado genéticamente. -->  
   
   <rule>
-   <or>
    	<match lemma="transgenic" tags="*"/>
-    <match lemma="coffee" tags="*"/>
-   </or> 
     <match lemma="bean" tags="n.*">
       <select lemma="grano" tags="n.*"/>
     </match>
@@ -599,10 +508,7 @@ falsa como el truco cosmético sugerido recientemente de quitarle el título de
 «Constitución». -->  
   
   <rule>
-   <or>
    	<match lemma="cosmetic" tags="*"/>
-    <match lemma="publicity" tags="*"/>
-   </or> 
     <match lemma="stunt" tags="n.*">
       <select lemma="truco" tags="n.*"/>
     </match>
@@ -627,11 +533,7 @@ application would be presented at the end of 2000. El Sr. Racan anunció hace
 unos días la solicitud de adhesión formal de Croacia para el final del año 2000.-->  
   
   <rule>
-  	<or>
   	<match lemma="membership" tags="*"/>
-  	<match lemma="patent" tags="*"/>
-    <match lemma="job" tags="*"/>
-    </or>
     <match lemma="application" tags="n.*">
       <select lemma="solicitud" tags="n.*"/>
     </match>
@@ -642,10 +544,7 @@ Pero también sé que estamos en una partida de póker y yo soy un pésimo jugad
 póker. --> 
   
   <rule>
-   <or>
     <match lemma="poker" tags="*"/>
-    <match lemma="card" tags="*"/>
-   </or> 
     <match lemma="game" tags="n.*">
       <select lemma="partida" tags="n.*"/>
     </match>
@@ -670,12 +569,7 @@ antiguo diputado de las Islas Shetland se jactaba de que la estación de la red
 principal de ferrocarril más próxima a Shetland es en realidad Bergen. -->  
   
   <rule>
-   <or>
-    <match lemma="bus" tags="*"/>
-    <match lemma="train" tags="*"/>
-    <match lemma="subway" tags="*"/>
     <match lemma="railway" tags="*"/>
-   </or> 
     <match lemma="station" tags="n.*">
       <select lemma="estación" tags="n.*"/>
     </match>
@@ -766,12 +660,7 @@ cambios, que se adhieran y que se entusiasmen con nosotros si seguimos
 manteniendo un lenguaje absolutamente cerrado y de espaldas a ellos. -->  
   
   <rule>
-    <or>
-      <match lemma="common" tags="*"/>
-      <match lemma="plain" tags="*"/>
-      <match lemma="natural" tags="*"/>
-      <match lemma="programming" tags="*"/>
-    </or>
+    <match lemma="plain" tags="*"/>
     <match lemma="language" tags="n.*">
       <select lemma="lenguaje" tags="n.*"/>
     </match>
@@ -821,27 +710,6 @@ a su alumna de dieciocho años. -->
 		</match>
 	</rule>
 	
-	<rule>
-		<match lemma="wood" tags="*"/>
-		<match lemma="chip" tags="n.*">
-			<select lemma="viruta" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="marble" tags="*"/>
-		<match lemma="chip" tags="n.*">
-			<select lemma="lasca" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="chocolate" tags="*"/>
-		<match lemma="chip" tags="n.*">
-			<select lemma="trozo" tags="n.*"/>
-		</match>
-	</rule>
-	
 <!-- In most Member States, the post office is no longer a branch of the
 government, but a commercial enterprise operating under commercial law.	En la
 mayoría de Estados miembros, la oficina de correos ya no es una sucursal del
@@ -853,10 +721,7 @@ Gobierno, sino una empresa comercial sujeta al derecho mercantil. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>
-		<match lemma="bank" tags="*"/>
 		<match lemma="government" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- So it is somewhat upsetting that there is not so much as a mention of this
@@ -867,7 +732,7 @@ esta rama económica ni siquiera se mencione en el documento presentado. -->
 		<match lemma="branch" tags="n.*">
 			<select lemma="rama" tags="n.*"/>
 		</match>
-		<match lemma="of" tags="pr."/>
+		<match lemma="of" tags="pr"/>
 		<match/>
 		<match lemma="economy" tags="*"/>
 	</rule>
@@ -881,13 +746,6 @@ práctico y pragmático. -->
 		<match lemma="olive" tags="*"/>
 		<match lemma="branch" tags="n.*">
 			<select lemma="rama" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="toilet" tags="*"/>
-		<match lemma="bowl" tags="n.*">
-			<select lemma="taza" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -927,10 +785,7 @@ pedimos a la Comisión que haga algo, pero la Comisión no puede hacer gran cosa
 no estoy seguro de que la campaña informativa del señor Frattini resulte útil. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="information" tags="*"/>
-		<match lemma="sales" tags="*"/>
-	  </or>	
 		<match lemma="drive" tags="n.*">
 			<select lemma="campaña" tags="n.*"/>
 		</match>
@@ -949,20 +804,10 @@ pública de Israel de los fracasos del unilateralismo presagian un intento
 diplomático de volver a una solución negociada. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="diplomatic" tags="*"/>
-		<match lemma="disk" tags="*"/>
-	  </or>	
 		<match lemma="drive" tags="n.*">
 			<select lemma="unidad" tags="n.*"/>
 		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="model" tags="n.*">
-			<select lemma="maqueta" tags="n.*"/>
-		</match>	
-		<match lemma="aircraft" tags="*"/>
 	</rule>
 	
 <!-- I am sure that he is aware of the very serious threat to the European model
@@ -991,7 +836,6 @@ sostenible. -->
 	<rule>
 	  <or>
 	  	<match lemma="european" tags="*"/>
-		<match lemma="fashion" tags="*"/>
 		<match lemma="social" tags="*"/>
 	  </or>	
 		<match lemma="model" tags="n.*">
@@ -1005,10 +849,7 @@ aumento medio de la productividad del 2% es necesaria una tasa de crecimiento de
 3,5% para poder alcanzar el pleno empleo dentro de diez años. -->	
 	
 	<rule>	
-	  <or>
 	  	<match lemma="growth" tags="*"/>
-		<match lemma="return" tags="*"/>
-	  </or>	
 		<match lemma="rate" tags="n.*">
 			<select lemma="tasa" tags="n.*"/>
 		</match>
@@ -1034,10 +875,7 @@ be served.	Cabría describirlo como los entremeses de un menú, en el que aún n
 se ha servido el plato principal. -->	
 	
 	<rule>
-	  <or>
-		<match lemma="first" tags="*"/>
 		<match lemma="main" tags="*"/>
-	  </or>	
 		<match lemma="course" tags="n.*">
 			<select lemma="plato" tags="n.*"/>
 		</match>
@@ -1066,10 +904,7 @@ Pequeña Polonia, constituyen una contribución importante al desarrollo de la
 región y de su atractivo como centro de salud y destino turístico. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="health" tags="*"/>
-		<match lemma="holiday" tags="*"/>
-	  </or>	
 		<match lemma="resort" tags="n.*">
 			<select lemma="centro" tags="n.*"/>
 		</match>
@@ -1112,10 +947,7 @@ habitual que viene al salón parroquial y al que uno se acerca durante media hor
 se toma una taza de té y vuelve a trabajar. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="church" tags="*"/>
-		<match lemma="dance" tags="*"/>
-	  </or>	
 		<match lemma="hall" tags="n.*">
 			<select lemma="salón" tags="n.*"/>
 		</match>
@@ -1131,10 +963,7 @@ pero a la inversa - desmantelando vehículos, separando piezas y persiguiendo su
 reciclaje. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="production" tags="*"/>
-		<match lemma="party" tags="*"/>
-	  </or>	
 		<match lemma="line" tags="n.*">
 			<select lemma="línea" tags="n.*"/>
 		</match>
@@ -1147,13 +976,6 @@ Presidente, dicen que es mejor dar una caña de pescar que un pescado. -->
 		<match lemma="fishing" tags="*"/>
 		<match lemma="rod" tags="n.*">
 			<select lemma="caña" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="epileptic" tags="*"/>
-		<match lemma="fit" tags="n.*">
-			<select lemma="ataque" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -1180,10 +1002,7 @@ embarque a mil cincuenta pasajeros en Europa a pesar de contar con un billete
 válido. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="valid" tags="*"/>
-		<match lemma="lottery" tags="*"/>
-	  </or>	
 		<match lemma="ticket" tags="n.*">
 			<select lemma="billete" tags="n.*"/>
 		</match>
@@ -1221,10 +1040,7 @@ También apoyo la declaración conjunta de la Comisión, el Consejo y el Parlame
 sobre los miembros de la junta directiva del organismo. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="management" tags="*"/>
-		<match lemma="school" tags="*"/>
-	  </or>	
 		<match lemma="board" tags="n.*">
 			<select lemma="junta" tags="n.*"/>
 		</match>
@@ -1277,10 +1093,7 @@ es, o eso me dicen, aproximadamente el mismo que recibe un gerente de un
 supermercado de cierto tamaño en una ciudad de provincias. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="supermarket" tags="*"/>
-		<match lemma="shop" tags="*"/>
-	  </or>	
 		<match lemma="manager" tags="n.*">
 			<select lemma="gerente" tags="n.*"/>
 		</match>
@@ -1320,10 +1133,7 @@ XXI, deben ser competitivas y multifuncionales, tanto en el aspecto agrícola co
 abriéndose a la diversidad de actividades no agrícolas. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="development" tags="*"/>
-		<match lemma="foreign" tags="*"/>
-	  </or>	
 		<match lemma="policy" tags="n.*">
 			<select lemma="política" tags="n.*"/>
 		</match>
@@ -1358,8 +1168,7 @@ minera en el pago de compensaciones debidas. -->
 	  <or>
 	  	<match lemma="airline" tags="*"/>
 	  	<match lemma="mining" tags="*"/>
-		<match lemma="keep" tags="*"/>
-	 </or>	
+	  </or>	
 		<match lemma="company" tags="n.*">
 			<select lemma="compañía" tags="n.*"/>
 		</match>
@@ -1382,7 +1191,6 @@ durante 26 años. -->
 	  <or>
 	  	<match lemma="cabin" tags="*"/>
 	  	<match lemma="submarine" tags="*"/>
-		<match lemma="flight" tags="*"/>
 	  </or>	
 		<match lemma="crew" tags="n.*">
 			<select lemma="tripulación" tags="n.*"/>
@@ -1443,10 +1251,7 @@ parte del pueblo, por lo que tengo serias dudas en cuanto a la conveniencia de
 esta extraña oficina de la Comisión en este pequeño pueblo perdido. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="spare" tags="*"/>
-		<match lemma="flat" tags="*"/>
-	  </or>	
 		<match lemma="tyre" tags="n.*">
 			<select lemma="rueda" tags="n.*"/>
 		</match>
@@ -1465,11 +1270,7 @@ región. -->
 			<select lemma="acción" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-		<match/>
-	  <or>
 	  	<match lemma="terrorism" tags="*"/>
-		<match lemma="war" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- I am an English lawyer. I am not entitled to practise law in Scotland, and
@@ -1479,7 +1280,7 @@ abogacía en Escocia, y eso significa que no podría ejercer la defensa ante un
 tribunal escocés, a menos que supere una serie de trámites especiales. -->	
 
 	<rule>
-		<match lemma="practise" tags="*"/>
+		<match lemma="practise" tags="vblex.*"/>
 		<match lemma="law" tags="n.*">
 			<select lemma="abogacía" tags="n.*"/>
 		</match>
@@ -1489,10 +1290,7 @@ tribunal escocés, a menos que supere una serie de trámites especiales. -->
 una señal muy útil y positiva de cara al futuro. -->
 
 	<rule>
-		<or>
-          <match lemma="plus" tags="*"/>
 		  <match lemma="good" tags="*"/>
-        </or>
 		<match lemma="sign" tags="n.*">
 			<select lemma="señal" tags="n.*"/>
 		</match>
@@ -1533,7 +1331,10 @@ mayor más un tono menor forman una tercera mayor de relación 5:4. -->
 <!-- From: http://es.wikipedia.org/wiki/Tono_(intervalo_musical) -->
 
 	<rule>
+	  <or>
+	  	<match lemma="minor" tags="*"/>
 		<match lemma="major" tags="*"/>
+	  </or> 	
 		<match lemma="key" tags="n.*">
 			<select lemma="tono" tags="n.*"/>
 		</match>
@@ -1564,19 +1365,9 @@ seguir el procedimiento normal de la primera y de la segunda lectura y esperar
 a la posición común del Consejo. -->	
 
 	<rule>
-	  <or>
 	  	<match lemma="summer" tags="*"/>
-		<match lemma="commercial" tags="*"/>
-	  </or>	
 		<match lemma="break" tags="n.*">
 			<select lemma="pausa" tags="n.*"/>
-		</match>
-	</rule>
-
-	<rule>
-		<match lemma="political" tags="*"/>
-		<match lemma="muscle" tags="n.*">
-			<select lemma="pujanza" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -1595,10 +1386,7 @@ los abuelos y otros familiares próximos, en ese mundo el cuidado de los niños 
 los padres a puede sufrir un serio menoscabo. -->	
 
 	<rule>
-	  <or>
 	  	<match lemma="social" tags="*"/>
-		<match lemma="muscle" tags="*"/>
-	  </or>	
 		<match lemma="strain" tags="n.*">
 			<select lemma="tensión" tags="n.*"/>
 		</match>
@@ -1644,10 +1432,7 @@ las obligaciones de un texto que ahora constituye una lacra insostenible que
 impide el renacimiento económico. -->	
 
 	<rule>
-	  <or>
 	  	<match lemma="economic" tags="*"/>
-		<match lemma="religious" tags="*"/>
-	  </or>	
 		<match lemma="revival" tags="n.*">
 			<select lemma="renacimiento" tags="n.*"/>
 		</match>
@@ -1750,7 +1535,7 @@ Europea en este sentido. -->
 			<select lemma="papel" tags="n.*"/>
 		</match>
 		<match lemma="to" tags="pr"/>
-		<match lemma="play" tags="*"/>
+		<match lemma="play" tags="vblex.*"/>
 	</rule>	
 	
 <!-- More generally speaking, the proposal to set up a research foundation has
@@ -1761,10 +1546,7 @@ sido formulada ya en varias ocasiones a la Comisión, en particular durante
 deliberaciones del Consejo, pero fue rechazada. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="research" tags="*"/>
-		<match lemma="charitable" tags="*"/>
-	  </or>	
 		<match lemma="foundation" tags="n.*">
 			<select lemma="fundación" tags="n.*"/>
 		</match>
@@ -1802,7 +1584,7 @@ universidades, de las escuelas y de los centros de producción. -->
 <!-- We have kicked the ball back. La pelota está ahora de nuevo en su campo. -->	
 	
 	<rule>
-		<match lemma="kick" tags="*"/>
+		<match lemma="kick" tags="vblex.*"/>
 		<match/>
 		<match lemma="ball" tags="n.*">
 			<select lemma="pelota" tags="n.*"/>
@@ -1843,7 +1625,7 @@ decidí arrodillarme y sentarme en el suelo y, según me sentaba, me dijeron:
 «No puede sentarse en el suelo. -->	
 	
 	<rule>
-		<match lemma="sit" tags="*"/>
+		<match lemma="sit" tags="vblex.*"/>
 		<match lemma="on" tags="pr"/>
 		<match/>
 		<match lemma="floor" tags="n.*">
@@ -1899,7 +1681,7 @@ queda poco tiempo de vida, la puntualidad a la hora de llegar a su destino cuand
 toman un avión es muy importante, al tener poco tiempo a disposición. -->	
 	
 	<rule>
-		<match lemma="travel" tags="*"/>
+		<match lemma="travel" tags="vblex.*"/>
 		<match lemma="by" tags="pr"/>
 		<match lemma="air" tags="n.*">
 			<select lemma="avión" tags="n.*"/>
@@ -1971,11 +1753,7 @@ acuerdo solo era un trozo de papel. -->
 			<select lemma="trozo" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-		<match/>
-	  <or>	
-		<match lemma="fabric" tags="*"/>
 		<match lemma="paper" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- Madam President, the Council Presidency' s tour of capitals has identified
@@ -2002,10 +1780,7 @@ realmente hacer algo en Europa y puede que de extender la temporada turística
 escalonando las vacaciones a lo largo de Europa. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="tourism" tags="*"/>
-		<match lemma="peak" tags="*"/>
-	  </or>	
 		<match lemma="season" tags="n.*">
 			<select lemma="temporada" tags="n.*"/>
 		</match>
@@ -2020,7 +1795,7 @@ de la palabra, por lo que le pido que lo amplíe a una hora y media, como figura
 en el orden del día. -->	
 	
 	<rule>
-		<match lemma="have" tags="*"/>
+		<match lemma="have" tags="vblex.*"/>
 		<match/>
 		<match lemma="chance" tags="n.*">
 			<select lemma="oportunidad" tags="n.*"/>
@@ -2097,7 +1872,7 @@ que el Parlamento Europeo ha mandado ya la carta a los Reyes Magos con sus
 informes. -->
 	
 	<rule>
-		<match lemma="send" tags="*"/>	
+		<match lemma="send" tags="vblex.*"/>	
 		<match/>
 		<match lemma="letter" tags="n.*">
 			<select lemma="carta" tags="n.*"/>
@@ -2115,10 +1890,7 @@ como con la letra de la ley. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>
 	  	<match lemma="law" tags="*"/>
-		<match lemma="alphabet" tags="*"/>
-	  </or>	
 	</rule>	
 	
 <!-- However, I was disappointed with the nature of the proposal for the
@@ -2139,10 +1911,7 @@ agencia alimentaria europea que se incluye en el reciente Libro Blanco. -->
 sala de reuniones no estaba permitido fumar. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="meeting" tags="*"/>
-		<match lemma="chat" tags="*"/>
-	  </or>	
 		<match lemma="room" tags="n.*">
 			<select lemma="sala" tags="n.*"/>
 		</match>
@@ -2180,10 +1949,7 @@ competencia en los mercados de telefonía local, de modo que la conexión a
 Internet se abarate. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="internet" tags="*"/>
-		<match lemma="electrical" tags="*"/>
-	  </or>	
 		<match lemma="connection" tags="n.*">
 			<select lemma="conexión" tags="n.*"/>
 		</match>
@@ -2194,10 +1960,7 @@ lot of lights on it. Señor Presidente, mi aparato de votación hace un ruido mu
 extraño y tiene un montón de luces. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="voting" tags="*"/>
-		<match lemma="propaganda" tags="*"/>
-	  </or>	
 		<match lemma="machine" tags="n.*">
 			<select lemma="aparato" tags="n.*"/>
 		</match>
@@ -2223,7 +1986,7 @@ cuando los votantes acudan a las urnas en junio, sepan lo que votan, que es una
 Europa fuerte y unida con una Comisión y un Presidente de la Comisión fuertes. -->	
 	
 	<rule>
-		<match lemma="go" tags="*"/>
+		<match lemma="go" tags="vblex.*"/>
 		<match/>
 		<match/>
 		<match lemma="polls" tags="n.*">
@@ -2298,10 +2061,7 @@ proyectos, hay que planificarlos con esta previsión y tratarlos e iniciarlos co
 este margen de tiempo. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="pyrenean" tags="*"/>
-		<match lemma="mountain" tags="*"/>
-	  </or>	
 		<match lemma="pass" tags="n.*">
 			<select lemma="paso" tags="n.*"/>
 		</match>
@@ -2399,10 +2159,7 @@ lugar, hablaré desde el punto de vista de la investigación. -->
 			<select lemma="punto" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
-	  	<match lemma="sale" tags="*"/>
 		<match lemma="view" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- We may recall that the European Consumers' Association, which represents the
@@ -2498,10 +2255,7 @@ en él tienen que poner la marcha atrás para salir de nuevo, pues de lo contrar
 acabaremos mandando las tropas. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="reverse" tags="*"/>
-		<match lemma="first" tags="*"/>
-	  </or>	
 		<match lemma="gear" tags="n.*">
 			<select lemma="marcha" tags="n.*"/>
 		</match>
@@ -2514,10 +2268,7 @@ diputados expresaron su preocupación por que estemos interfiriendo en los asunt
 internos de un Estado miembro. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="internal" tags="*"/>
-		<match lemma="foreign" tags="*"/>
-	  </or>	
 		<match lemma="affairs" tags="n.*">
 			<select lemma="asuntos" tags="n.*"/>
 		</match>
@@ -2534,7 +2285,7 @@ jefes de gabinete- que de repente levantan el vuelo y que pasando por algún
 aeropuerto europeo, por Londres más que por Malpensa, se van al sector privado.-->	
 	
 	<rule>
-		<match lemma="book" tags="*"/>
+		<match lemma="book" tags="vblex.*"/>
 		<match/>
 		<match lemma="flight" tags="n.*">
 			<select lemma="vuelo" tags="n.*"/>
@@ -2560,19 +2311,9 @@ democratic path first. No obstante, el Consejo ha tomado una decisión sin segui
 primero la ruta más democrática. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="democratic" tags="*"/>
-		<match lemma="flight" tags="*"/>
-	  </or>	
 		<match lemma="path" tags="n.*">
 			<select lemma="ruta" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="flight" tags="*"/>
-		<match lemma="deck" tags="n.*">
-			<select lemma="cabina" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -2699,10 +2440,7 @@ Treaty.	Esta medida del Gobierno belga constituye una violación flagrante del
 Acuerdo de Schengen. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="government" tags="*"/>
-		<match lemma="necessary" tags="*"/>
-	  </or>	
 		<match lemma="measure" tags="n.*">
 			<select lemma="medida" tags="n.*"/>
 		</match>
@@ -2766,7 +2504,6 @@ a mí misma?-->
 	  <or>
 	  	<match lemma="skin" tags="*"/>
 	  	<match lemma="heart" tags="*"/>
-		<match lemma="human" tags="*"/>
 	  </or>	
 		<match lemma="cell" tags="n.*">
 			<select lemma="célula" tags="n.*"/>
@@ -2792,10 +2529,7 @@ participa en las grandes competiciones europeas. -->
 complementar su reseña de prensa con algunas noticias. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="press" tags="*"/>
-		<match lemma="book" tags="*"/>
-	  </or>	
 		<match lemma="review" tags="n.*">
 			<select lemma="reseña" tags="n.*"/>
 		</match>
@@ -3009,10 +2743,7 @@ de duplicación: se han designado de nuevo zonas prioritarias, e incluso el lech
 marino se ha vuelto a incluir en el debate. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="sea" tags="*"/>
-		<match lemma="river" tags="*"/>
-	  </or>	
 		<match lemma="bed" tags="n.*">
 			<select lemma="lecho" tags="n.*"/>
 		</match>
@@ -3132,7 +2863,7 @@ in a particular manner.	Pero, por otro lado, debemos tener cuidado en no
 clasificar de algún modo a determinados pueblos. -->	
 	
 	<rule>
-		<match lemma="take" tags="*"/>
+		<match lemma="take" tags="vblex.*"/>
 		<match lemma="care" tags="n.*">
 			<select lemma="cuidado" tags="n.*"/>
 		</match>
@@ -3229,10 +2960,7 @@ de armas y favorecer el aumento del número de instalaciones de tratamiento de
 uranio. -->	
 	
 	<rule>
-	  <or>
-	  	<match lemma="weapons" tags="*"/>
-		<match lemma="drug" tags="*"/>
-	  </or>	
+	  	<match lemma="weapon" tags="n.pl"/>	
 		<match lemma="dealer" tags="n.*">
 			<select lemma="traficante" tags="n.*"/>
 		</match>
@@ -3291,10 +3019,7 @@ principios cuando ha sido elegido? -->
 			<select lemma="jefe" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="government" tags="*"/>
-		<match lemma="state" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- An individual who buys a new recreational craft after 2005 will be able to
@@ -3363,7 +3088,7 @@ una enmienda presentada por el diputado Ari Vatanen. -->
 		<match lemma="amendment" tags="n.*">
 			<select lemma="enmienda" tags="n.*"/>
 		</match>
-		<match lemma="table" tags="*"/>
+		<match lemma="table" tags="vblex.*"/>
 		<match lemma="by" tags="pr"/>
 		<match lemma="member" tags="*"/>
 		<match lemma="of" tags="pr"/>
@@ -3397,10 +3122,7 @@ Europea, la Food and Drug Administration de los Estados Unidos y la Organizació
 Mundial de la Salud. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="food" tags="*"/>
-		<match lemma="pollution" tags="*"/>
-	  </or>	
 		<match lemma="scare" tags="n.*">
 			<select lemma="alarma" tags="n.*"/>
 		</match>
@@ -3411,7 +3133,7 @@ marker genes is stopped now. La directiva debería adoptar una postura e
 insistir en que el uso de estos genes marcadores se detenga ya. -->	
 	
 	<rule>
-		<match lemma="take" tags="*"/>
+		<match lemma="take" tags="vblex.*"/>
 		<match/>
 		<match lemma="stand" tags="n.*">
 			<select lemma="postura" tags="n.*"/>
@@ -3426,10 +3148,7 @@ producida a precios muy competitivos por lo general, como es el caso hoy por hoy
 gracias a la gran abundancia de agua. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="hydroelectric" tags="*"/>
-		<match lemma="wind" tags="*"/>
-	  </or>	
 		<match lemma="power" tags="n.*">
 			<select lemma="energía" tags="n.*"/>
 		</match>
@@ -3440,11 +3159,7 @@ gracias a la gran abundancia de agua. -->
 <!-- From: http://www.proquame.com.es/wordpress/innovacion/lecciones-desde-un-puesto-de-limonada/ -->
 	
 	<rule>
-	  <or>
-		<match lemma="fruit" tags="*"/>
-		<match lemma="vegetable" tags="*"/>
 		<match lemma="lemonade" tags="*"/>
-	  </or>
 		<match lemma="stand" tags="n.*">
 			<select lemma="puesto" tags="n.*"/>
 		</match>	
@@ -3456,7 +3171,7 @@ mercancías transportadas en tren dentro de la UE casi se ha reducido en un 50% 
 los últimos treinta años. -->	
 	
 	<rule>
-		<match lemma="transport" tags="*"/>
+		<match lemma="transport" tags="vblex.*"/>
 		<match lemma="by" tags="*"/>
 		<match lemma="rail" tags="n.*">
 			<select lemma="tren" tags="n.*"/>
@@ -3501,10 +3216,7 @@ una altura de unos diez metros por el hueco de un ascensor en un hotel... -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>
-	  	<match lemma="lift" tags="*"/>
 		<match lemma="elevator" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- In mechanical engineering it is known as a drive shaft or transmission
@@ -3532,10 +3244,7 @@ nuclear son prácticamente nulas. -->
 			<select lemma="pedazo" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="paper" tags="*"/>
-		<match lemma="pie" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- Mr President, Mr President-in-Office of the Council, Commissioner, ladies
@@ -3552,10 +3261,7 @@ pequeña pieza legislativa. -->
 			<select lemma="pieza" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="legislation" tags="*"/>
-		<match lemma="music" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- Are we prepared to tolerate that for the sake of a slice of salami in our
@@ -3567,10 +3273,7 @@ bocadillo? -->
 			<select lemma="loncha" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="salami" tags="*"/>
-		<match lemma="ham" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- We can make sure that in Europe, we have a slice of this cake and everyone
@@ -3616,12 +3319,7 @@ un artículo de periódico que se publicó la semana pasada sobre la política d
 desarrollo de la Unión. -->	
 	
 	<rule>
-	  <or>	
-		<match lemma="definite" tags="*"/>
-		<match lemma="indefinite" tags="*"/>
 		<match lemma="newspaper" tags="*"/>
-		<match lemma="magazine" tags="*"/>
-	  </or>	
 		<match lemma="article" tags="n.*">
 			<select lemma="artículo" tags="n.*"/>
 		</match>
@@ -3632,10 +3330,7 @@ beside a production line and assembled cars. Creo que soy uno de los pocos en
 este Parlamento que ha trabajado en una cadena de montaje de coches. -->	
 	
 	<rule>
-	  <or>
 		<match lemma="production" tags="*"/>
-		<match lemma="assembly" tags="*"/>
-	  </or>	
 		<match lemma="line" tags="n.*">
 			<select lemma="cadena" tags="n.*"/>
 		</match>
@@ -3647,10 +3342,7 @@ proporción de las fuentes de energía renovables en el grueso de la producción
 energética, pero esto debe hacerse también de una forma racional. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="energy" tags="*"/>
-		<match lemma="film" tags="*"/>
-	  </or>	
 		<match lemma="production" tags="n.*">
 			<select lemma="producción" tags="n.*"/>
 		</match>
@@ -3675,7 +3367,7 @@ privatización. -->
 <!-- From: http://www.spanishdict.com/translate/cover -->
 	
 	<rule>
-		<match lemma="take" tags="*"/>
+		<match lemma="take" tags="vblex.*"/>
 		<match lemma="cover" tags="n.*">
 			<select lemma="cubierto" tags="n.*"/>
 		</match>
@@ -3877,10 +3569,7 @@ perseguirle. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>
 	  	<match lemma="street" tags="*"/>
-		<match lemma="house" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- A lot of this is going to have to be carried out by farmers, and when they
@@ -3946,10 +3635,7 @@ que esperamos que la Comisión presente en breve. -->
 			<select lemma="conjunto" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="information" tags="*"/>
-		<match lemma="evidence" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- Peipsi is a border lake whose situation is very specific, it is not an 
@@ -3974,10 +3660,7 @@ implicados. -->
 			<select lemma="grupo" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-      <or>
       	<match lemma="report" tags="n.pl"/>
-		<match lemma="people" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- From childhood he was a farm worker, he looked after his family’s herd of
@@ -3991,10 +3674,7 @@ trompetero. -->
 			<select lemma="rebaño" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="llama" tags="*"/>
-		<match lemma="cattle" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- I regret that the President of this Parliament diminished his office by
@@ -4020,10 +3700,7 @@ el caso del parque de Yellowstone, donde vive la última manada de búfalos. -->
 			<select lemma="manada" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>	
 	  	<match lemma="buffalo" tags="*"/>
-		<match lemma="people" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- There is also a parallel with our nation-states: in Brussels a pack of
@@ -4052,10 +3729,7 @@ ruido que una bandada de cornejas. -->
 			<select lemma="bandada" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="crow" tags="n.pl"/>
-		<match lemma="bird" tags="n.pl"/>
-	  </or>	
 	</rule>
 	
 <!-- In committee, I formulated a passage in my report which the
@@ -4125,8 +3799,8 @@ años y medio. -->
 	
 	<rule>
 	  <or>
-	  	<match lemma="lose" tags="*"/>
-		<match lemma="keep" tags="*"/>
+	  	<match lemma="lose" tags="vblex.*"/>
+		<match lemma="keep" tags="vblex.*"/>
 	  </or>
 		<match lemma="count" tags="n.*">
 			<select lemma="cuenta" tags="n.*"/>
@@ -4152,10 +3826,7 @@ elemento fundamental para el desarrollo de cualquier persona: su libertad que
 viene antes del beneficio económico. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="economic" tags="*"/>
-		<match lemma="personal" tags="*"/>
-	  </or>	
 		<match lemma="gain" tags="n.*">
 			<select lemma="beneficio" tags="n.*"/>
 		</match>
@@ -4196,10 +3867,7 @@ of the recession. En los años treinta, el patrón oro y el proteccionismo
 contribuyeron a que aumentara la recesión. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="gold" tags="*"/>
-	  	<match lemma="dollar" tags="*"/>
-	  </or>
 	  	<match lemma="standard" tags="n.*">
 	  		<select lemma="patrón" tags="n.*"/>
 	  	</match>
@@ -4330,10 +3998,7 @@ ciertas medidas simbólicas pueden reemplazar el acuerdo político, la perspecti
 política que representa el hecho de ser candidato. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="political" tags="*"/>
-		<match lemma="economic" tags="*"/>
-	  </or>	
 		<match lemma="outlook" tags="n.*">
 			<select lemma="perspectiva" tags="n.*"/>
 		</match>
@@ -4409,10 +4074,7 @@ it well before this House today. He aquí el núcleo político del reto, y creo 
 usted lo ha expuesto hoy ante esta Asamblea perfectamente. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="political" tags="*"/>
-		<match lemma="reactor" tags="*"/>
-	  </or>	
 		<match lemma="core" tags="n.*">
 			<select lemma="núcleo" tags="n.*"/>
 		</match>
@@ -4434,10 +4096,7 @@ compromiso alternativo, simbolizado por el corazón de esta manzana. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>
-	  	<match lemma="apple" tags="*"/>
 		<match lemma="fruit" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- This debate is therefore added at the top of the order of business. Queda
@@ -4476,10 +4135,7 @@ UE y EE.UU. y en los foros multilaterales. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>
 	  	<match lemma="agenda" tags="*"/>
-		<match lemma="list" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- Whether or not they were on top of the world plays no part whatsoever in
@@ -4492,10 +4148,7 @@ no, carece de importancia para esta canción, pero la tiene para este informe. -
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>
-	  	<match lemma="mountain" tags="*"/>
 		<match lemma="world" tags="*"/>
-	  </or>	
 	</rule>	
 	
 <!-- Gregorian chant scores are written in Tetragrammaton. Las partituras del
@@ -4586,7 +4239,7 @@ continúe sus ataques a la paz, a la libertad, a la democracia y a la prensa
 libre. -->	
 	
 	<rule>
-		<match lemma="try" tags="*"/>
+		<match lemma="try" tags="vblex.*"/>
 		<match lemma="in" tags="pr"/>
 		<match lemma="court" tags="n.*">
 			<select lemma="tribunal" tags="n.*"/>
@@ -4669,10 +4322,7 @@ cuento con la escolta de la brigada antiterrorista porque soy considerado un
 blanco para los terroristas griegos. -->	 
 	 
 	 <rule>
-	   <or>
-	   	<match lemma="police" tags="*"/>
-	 	<match lemma="anti\-terrorist" tags="*"/>
-	   </or>	
+	 	<match lemma="anti\-terrorist" tags="*"/>	
 	 	<match lemma="squad" tags="n.*">
 	 		<select lemma="brigada" tags="n.*"/>
 	 	</match>
@@ -4779,10 +4429,7 @@ elections on 6 February? La primera de ellas, ¿cuál será el panorama polític
 Israel tras las elecciones del 6 de febrero? -->	 
 	 
 	 <rule>
-	   <or>
 	   	<match lemma="political" tags="*"/>
-	   	<match lemma="sporting" tags="*"/>
-	   </or>
 	   	<match lemma="scene" tags="n.*">
 	   		<select lemma="panorama" tags="n.*"/>
 	   	</match>
@@ -4797,10 +4444,7 @@ ahora oídos sordos a todos los consejos de los expertos, existe un riesgo real
 de que este yacimiento neolítico único se eche a perder. -->	 
 	 
 	 <rule>
-	   <or>
 	   	<match lemma="neolithic" tags="*"/>
-	 	<match lemma="archaeological" tags="*"/>
-	   </or>	
 	 	<match lemma="site" tags="n.*">
 	 		<select lemma="yacimiento" tags="n.*"/>
 	 	</match>
@@ -4813,10 +4457,7 @@ transparencia, apoyo la creación de un sitio Internet interactivo que permita a
 los ciudadanos acceder a todas las informaciones útiles sobre este proyecto. -->	 
 	 
 	 <rule>
-	   <or>
 	   	<match lemma="internet" tags="*"/>
-	 	<match lemma="cultural" tags="*"/>
-	   </or>	
 	 	<match lemma="site" tags="n.*">
 	 		<select lemma="sitio" tags="n.*"/>
 	 	</match>
@@ -4854,10 +4495,7 @@ menos en nuestro continente, ya no tiene sentido llamarnos europeos. -->
 	  		<select lemma="algo" tags="n.*"/>
 	  	</match>
 	  	<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="fishing" tags="*"/>
-	  	<match lemma="lunch" tags="*"/>
-	  </or>	
 	 </rule>
 	 
 <!-- The aim should be to create a single aviation protection area, which implies
@@ -4870,7 +4508,6 @@ equipaje al inicio del viaje, y no en cada lugar de tránsito. -->
 	   <or>
 	   	<match lemma="passenger" tags="*"/>
 	   	<match lemma="baggage" tags="*"/>
-	 	<match lemma="spot" tags="*"/>
 	   </or>	
 	 	<match lemma="check" tags="n.*">
 	 		<select lemma="inspección" tags="n.*"/>
@@ -4905,12 +4542,7 @@ el marco de su duración y lo ajustan con una pizca de medio ambiente. -->
 	 		<select lemma="pizca" tags="n.*"/>
 	 	</match>
 	 	<match lemma="of" tags="pr"/>
-	 	<match/>
-	 <or>
 	 	<match lemma="environment" tags="*"/>
-		<match lemma="sugar" tags="*"/>
-	 	<match lemma="salt" tags="*"/>
-	 </or>	
 	 </rule>	
 	 
 <!-- We therefore warmly welcome the current debate, even though - as the
@@ -4920,11 +4552,7 @@ aunque, como ha apuntado el Presidente, ha sido relegado a un hueco de la noche
 y la asistencia es muy escasa. -->	 
 	 
 	 <rule>
-	  <or>
 	  	<match lemma="evening" tags="*"/>
-	  	<match lemma="television" tags="*"/>
-	  	<match lemma="radio" tags="*"/>
-	  </or>
 	  	<match lemma="slot" tags="n.*">
 	  		<select lemma="hueco" tags="n.*"/>
 	  	</match>
@@ -4971,11 +4599,7 @@ booth up there is empty. Es una lengua oficial de la Unión Europea y, sin
 embargo, la cabina de interpretación está vacía. -->
 	  
 	 <rule>
-	   <or>
 	   	<match lemma="interpretation" tags="*"/>
-	  	<match lemma="telephone" tags="*"/>
-	  	<match lemma="voting" tags="*"/>
-	   </or>
 	    <match lemma="booth" tags="n.*">
 	    	<select lemma="cabina" tags="n.*"/>
 	    </match>
@@ -5012,10 +4636,7 @@ una ola de frío, debatir sobre el calentamiento global es seguramente un poco
 inoportuno. -->	  
 	  
 	  <rule>
-	  	<or>
-	  	 <match lemma="warm" tags="*"/>
 	  	 <match lemma="cold" tags="*"/>
-	  	</or>
 	  	 <match lemma="spell" tags="n.*">
 	  	 	<select lemma="ola" tags="n.*"/>
 	  	 </match>
@@ -5155,10 +4776,7 @@ millones de hectáreas al año o un campo de fútbol por segundo, ésa es el ár
 bosque que desaparece del mundo cada año. -->	  
 	  
 	  <rule>
-	   <or>
-	  	<match lemma="soccer" tags="*"/>
-	  	<match lemma="football" tags="*"/>
-	   </or>	
+	  	<match lemma="football" tags="*"/>	
 	  	<match lemma="pitch" tags="n.*">
 	  		<select lemma="campo" tags="n.*"/>
 	  	</match>
@@ -5270,12 +4888,7 @@ economía. -->
 		<match lemma="of" tags="pr"/>
 		<match/>
 		<match/>
-	  <or>
-	  	<match lemma="nation" tags="*"/>
-	  	<match lemma="leader" tags="*"/>
-	  	<match lemma="country" tags="*"/>
 	  	<match lemma="economy" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- Because we know that the new economy will, of course, foster the emergence
@@ -5289,11 +4902,7 @@ informáticos. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>
 	  	<match lemma="job" tags="n.pl"/>
-	  	<match lemma="fact" tags="n.pl"/>
-	  	<match lemma="technology" tags="*"/>
-	  </or>
 	</rule>
 	
 <!-- This should serve as a guarantee for the receiving state that the employee
@@ -5312,12 +4921,6 @@ cubierto por el seguro. -->
 	  <or>
 	  	<match lemma="illness" tags="*"/>
 	  	<match lemma="accident" tags="*"/>
-	  	<match lemma="fire" tags="*"/>
-	  	<match lemma="tornado" tags="*"/>
-	  	<match lemma="hurricane" tags="*"/>
-	  	<match lemma="burglary" tags="*"/>
-	  	<match lemma="flood" tags="*"/>
-	  	<match lemma="poisoning" tags="*"/>
 	  </or>
 	</rule>
 	
@@ -5400,10 +5003,7 @@ improved. En primer lugar, se debe mejorar la gestión y el control financiero
 en la Comisión. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="financial" tags="*"/>
-		<match lemma="risk" tags="*"/>
-	  </or>	
 		<match lemma="management" tags="n.*">
 			<select lemma="gestión" tags="n.*"/>
 		</match>
@@ -5469,10 +5069,7 @@ posible encarcelamiento. -->
 			<select lemma="confiscación" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>
 	  	<match lemma="asset" tags="n.pl"/>
-		<match lemma="land" tags="*"/>
-	  </or>	
 	</rule>
 	
 <!-- Recent events in Kosovo have completed the ethnic cleansing, with the
@@ -5487,10 +5084,7 @@ sus bienes. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-	  <or>	
 		<match lemma="property" tags="*"/>
-		<match lemma="good" tags="n.pl"/>
-	  </or>
 	</rule>
 	
 <!-- The video for "All Of The Lights" by Kanye West, Rihanna and Kid Cudi had to
@@ -5533,7 +5127,7 @@ proceso democrático de Irlanda del Norte el que ha hablado y el que debe
 ganar. -->	
 	
 	<rule>
-	  	<match lemma="carry" tags="*"/>
+	  	<match lemma="carry" tags="vblex.*"/>
 		<match lemma="out" tags="*"/>
 		<match/>
   		<match lemma="deed" tags="n.*">
@@ -5559,10 +5153,7 @@ se asocia a menudo con soluciones a pequeña escala: poner un panel solar en el
 tejado de cada uno y un par de molinos en cada pueblo. -->  	
   	
   	<rule>
-  	  <or>
   	  	<match lemma="solar" tags="*"/>
-  		<match lemma="instrument" tags="*"/>
-  	  </or>	
   		<match lemma="panel" tags="n.*">
   			<select lemma="panel" tags="n.*"/>
   		</match>
@@ -5622,11 +5213,7 @@ telón de acero y el muro de Berlín cayeron por la información internacional y
 la necesidad de libertad que de ella resultó.-->  	
   	
   	<rule>
-  	 <or>
   	 	<match lemma="berlin" tags="*"/>
-  		<match lemma="brick" tags="*"/>
-  		<match lemma="stone" tags="*"/>
-  	 </or>	
   		<match lemma="wall" tags="n.*">
   			<select lemma="muro" tags="n.*"/>
   		</match>
@@ -5689,10 +5276,7 @@ la capacidad de los pescadores de ganarse la vida. -->
   			<select lemma="estrato" tags="n.*"/>
   		</match>
   		<match lemma="of" tags="pr"/>
-  	  <or>
   	  	<match lemma="bureaucracy" tags="*"/>
-  		<match lemma="rock" tags="*"/>
-  	  </or>	
   	</rule>
   	
 <!-- In Denmark we have a rich vein of gold underground: clean groundwater.
@@ -5703,13 +5287,7 @@ En Dinamarca tenemos una rica veta de oro subterráneo: agua limpia. -->
   			<select lemma="veta" tags="n.*"/>
   		</match>
   		<match lemma="of" tags="pr"/>
-  	  <or>
-  	  	<match lemma="silver" tags="*"/>
   	  	<match lemma="gold" tags="*"/>
-  	  	<match lemma="iron" tags="*"/>
-  	  	<match lemma="coal" tags="*"/>
-  	  	<match lemma="copper" tags="*"/>
-  	  </or>
   	</rule>
   	
 <!-- You return home to find that you have waved goodbye to the deposit of
@@ -5788,11 +5366,7 @@ Sr. von Wogau, la competencia, a la postre, no es algo abstracto: es en interés
 de los ciudadanos, es la base de la economía social de mercado. -->  	
   	
   	<rule>
-  	  <or>
   	  	<match lemma="public" tags="*"/>
-  	  	<match lemma="controlling" tags="*"/>
-  	  	<match lemma="common" tags="*"/>
-  	  </or>
   	  	<match lemma="interest" tags="n.*">
   	  		<select lemma="interés" tags="n.*"/>
   	  	</match>
@@ -5873,26 +5447,14 @@ Alemania, países casi vecinos, sin contar la extensión de agua que los separa.
   	 		<select lemma="extensión" tags="n.*"/>
   	 	</match>
   	 	<match lemma="of" tags="pr"/>
-  	  <or>
   	  	<match lemma="water" tags="*"/>
-  	  	<match lemma="land" tags="*"/>
-  	  </or>
   	</rule>
   	
 <!-- Eucalyptus bark... Corteza de eucalipto... -->
 <!-- From: http://es.wikipedia.org/wiki/Corteza -->
 
 	<rule>
-	  <or>
 	  	<match lemma="eucalyptus" tags="*"/>
-	  	<match lemma="outer" tags="*"/>
-	  	<match lemma="inner" tags="*"/>
-	  	<match lemma="under" tags="*"/>
-	  	<match lemma="cinnamon" tags="*"/>
-	  	<match lemma="birch" tags="*"/>
-	  	<match lemma="tree" tags="*"/>
-	  	<match lemma="plant" tags="*"/>
-	  </or>
 		<match lemma="bark" tags="n.*">
 			<select lemma="corteza" tags="n.*"/>
 		</match>
@@ -5926,7 +5488,6 @@ That was how it was when I was at school. Lo obvio sería que el mejor alumno de
 la clase fuese el ejemplo a seguir; así era cuando yo iba al colegio. -->	
 	
 	<rule>
-		<match lemma="best" tags="*"/>
 		<match lemma="pupil" tags="n.*">
 			<select lemma="alumno" tags="n.*"/>
 		</match>
@@ -5971,7 +5532,7 @@ Afganistán recientemente con una delegación del Parlamento Europeo y puedo dar
 testimonio de que lo declarado por el Comisario Patten es cierto. -->	
 	
 	<rule>
-		<match lemma="bear" tags="*"/>
+		<match lemma="bear" tags="vblex.*"/>
 		<match lemma="witness" tags="n.*">
 			<select lemma="testimonio" tags="n.*"/>
 		</match>
@@ -5980,11 +5541,7 @@ testimonio de que lo declarado por el Comisario Patten es cierto. -->
 <!-- I have a key witness here.	Aquí tengo un testigo principal. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="key" tags="*"/>
-	  	<match lemma="proscecution" tags="*"/>
-	  	<match lemma="defense" tags="*"/>
-	  </or>
 	  	<match lemma="witness" tags="n.*">
 	  		<select lemma="testigo" tags="n.*"/>
 	  	</match>
@@ -6082,10 +5639,7 @@ propuesta del Grupo PPE-DE para retirar del orden del día la pregunta oral
 referida al impuesto sobre el capital. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="capital" tags="*"/>
-		<match lemma="sale" tags="n.pl"/>
-	  </or>	
 		<match lemma="tax" tags="n.*">
 			<select lemma="impuesto" tags="n.*"/>
 		</match>
@@ -6114,13 +5668,7 @@ utilice como una pantalla de humo proteccionista en la publicación de las
 licitaciones. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="smoke" tags="*"/>
-	  	<match lemma="computer" tags="*"/>
-	  	<match lemma="television" tags="*"/>
-	  	<match lemma="big" tags="*"/>
-	  	<match lemma="tv" tags="*"/>
-	  </or>
 	  	<match lemma="screen" tags="n.*">
 	  		<select lemma="pantalla" tags="n.*"/>
 	  	</match>
@@ -6136,13 +5684,7 @@ ministro del gobierno francés o británico, visité la terminal del transporte
 ferroviario de mercancías de Fréthun. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="rail\-freight" tags="*"/>
-	  	<match lemma="computer" tags="*"/>
-		<match lemma="bus" tags="*"/>
-		<match lemma="air" tags="*"/>
-		<match lemma="rail" tags="*"/>
-	  </or>
 	  	<match lemma="terminal" tags="n.*">
 	  		<select lemma="terminal" tags="n.*"/>
 	  	</match>
@@ -6156,10 +5698,7 @@ bomba que estaba aparcado cerca de una parada de autobús en la ciudad española
 de Santa Pola, Alicante. -->	
 	
 	<rule>
-	  <or>
 	  	<match lemma="bus" tags="*"/>
-	  	<match lemma="train" tags="*"/>
-	  </or>
 	  	<match lemma="stop" tags="n.*">
 	  		<select lemma="parada" tags="n.*"/>
 	  	</match>
@@ -6188,11 +5727,7 @@ de amenazas con respecto a este asunto. -->
 			<select lemma="lluvia" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-	  <or>	
-		<match lemma="complaint" tags="n.pl"/>
-		<match lemma="question" tags="n.pl"/>
 		<match lemma="threat" tags="n.pl"/>
-	  </or>	
 	</rule>	
 	
 <!-- A genuine public debate, involving all the peoples in drawing up a charter
@@ -6224,138 +5759,7 @@ de litros de agua y aire tritiados cada año. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match lemma="tritium" tags="*"/>
-	</rule>
-	
-		<rule>
-		<match lemma="discharge" tags="n.*">
-			<select lemma="alta" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr"/>
-		<match/>
-		<match lemma="patient" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="discharge" tags="n.*">
-			<select lemma="emisión" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr"/>
-		<match/>
-	  <or>
-	 	<match lemma="gas" tags="*"/>
-	 	<match lemma="chemical" tags="*"/>
-	  </or>
-	</rule> 
-	
-	<rule>
-		<match lemma="release" tags="n.*">
-			<select lemma="liberación" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr"/>
-		<match/>
-		<match lemma="prisoner" tags="*"/>
-	</rule>
-	
-	<rule>
-		<match lemma="release" tags="n.*">
-			<select lemma="publicación" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr"/>
-		<match/>
-	  <or>
-	  	<match lemma="book" tags="*"/>
-	  	<match lemma="record" tags="*"/>
-	  </or>
-	</rule>
-	
-	<rule>
-		<match lemma="release" tags="n.*">
-			<select lemma="estreno" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr"/>
-		<match/>
-	  <or>
-	  	<match lemma="film" tags="*"/>
-	  	<match lemma="movie" tags="*"/>
-	  </or>
-	</rule>
-	
-	<rule>
-		<match lemma="escape" tags="*"/>
-		<match lemma="route" tags="n.*">
-			<select lemma="vía" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="gas" tags="*"/>
-		<match lemma="leak" tags="n.*">
-			<select lemma="fuga" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="smoke" tags="*"/>
-		<match/>
-		<match lemma="pipe" tags="n.*">
-			<select lemma="pipa" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-	  	<match lemma="gas" tags="*"/>
-	  	<match lemma="pipe" tags="n.*">
-	  		<select lemma="tubería" tags="n.*"/>
-	  	</match>
-	</rule>
-	
-	<rule>
-		<match lemma="water" tags="*"/>
-		<match lemma="pipe" tags="n.*">
-			<select lemma="caño" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-		<match lemma="play" tags="*"/>
-		<match/>
-		<match lemma="pipe" tags="n.*">
-			<select lemma="flauta" tags="n.*"/>
-		</match>
-	</rule>
-	
-	<rule>
-	  <or>
-	  	<match lemma="policeman" tags="*"/>
-	  	<match lemma="referee" tags="*"/>
-	  </or>
-	  	<match lemma="'s" tags="gen"/>
-	  	<match lemma="whistle" tags="n.*">
-	  		<select lemma="silbato" tags="n.*"/>
-	  	</match>
-	</rule>
-	
-	<rule>
-		<match lemma="conductor" tags="n.*">
-			<select lemma="conductor" tags="n.*"/>
-		</match>
-		<match lemma="of" tags="pr"/>
-		<match/>
-	  <or>
-	  	<match lemma="electricity" tags="*"/>
-	  	<match lemma="heat" tags="*"/>
-	  </or>
-	</rule>
-	
-	<rule>
-	  <or>
-	  	<match lemma="band" tags="*"/>
-	  	<match lemma="orchestra" tags="*"/>
-	  </or>
-	  	<match lemma="conductor" tags="n.*">
-	  		<select lemma="director" tags="n.*"/>
-	  	</match>
-	</rule>  	
+	</rule>	
 
 <!-- Nevertheless, further devastating attacks - in Kaluchak and in Srinagar - 
 border skirmishes and the re-emergence of the dialectic of confrontation, with
@@ -7243,7 +6647,7 @@ principal de un drama o historia. -->
 		</match>
 	</rule>
 	
-<!-- The party was attended by some of the best-known personages in show buisness
+<!--  
 and politics. A la fiesta asistieron algunos de los personajes más conocidos del
 mundo del espectáculo y la política. -->
 <!-- From:http://www.merriam-webster.com/spanish/personaje -->

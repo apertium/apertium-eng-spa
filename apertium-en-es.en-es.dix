@@ -752,6 +752,8 @@
 
 <e a="eleka"><p><l>in<b/>a<b/>very<b/>funny<b/>way<s n="cnjadv"/></l><r>con<b/>mucha<b/>gracia<s n="cnjadv"/></r></p></e>
 
+<e a="eleka"><p><l>insurance<b/>policy<s n="n"/></l><r>póliza<g><b/>de<b/>seguro</g><s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="eleka"><p><l>insurance<b/>policy<s n="n"/></l><r>póliza<g><b/>de<b/>seguros</g><s n="n"/><s n="f"/></r></p></e>
 <e a="eleka"><p><l>renunciation<s n="n"/></l><r>renuncia<s n="n"/><s n="f"/></r></p></e>
 <e a="eleka"><p><l>Barbanza<s n="np"/><s n="loc"/><s n="sg"/></l><r>Barbanza<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="eleka"><p><l>Bay<b/>of<b/>Biscay<s n="np"/><s n="loc"/><s n="sg"/></l><r>Cantábrico<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
@@ -16748,6 +16750,7 @@
     <e r="RL" srl="supplier"><p><l>supplier<s n="n"/></l><r>proveedor<s n="n"/></r></p></e>
     <e slr="suministro D">  <p><l>supply<s n="n"/></l><r>suministro<s n="n"/><s n="m"/></r></p></e>
     <e slr="apoyo"><p><l>support<s n="n"/></l><r>apoyo<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>sustenance<s n="n"/></l><r>sustentación<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>supporter<s n="n"/></l><r>seguidor<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" srl="supporter"><p><l>supporter<s n="n"/></l><r>seguidor<s n="n"/></r></p></e>
     <e>  <p><l>supposition<s n="n"/></l><r>suposición<s n="n"/><s n="f"/></r></p></e>
@@ -34301,6 +34304,7 @@
     <e r="RL" a="imaxinsoftware"><p><l>retailer<s n="n"/></l><r>minorista<s n="n"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>retail<s n="adj"/></l><r>minorista<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>CNE<s n="n"/><s n="acr"/></l><r>CNE<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>board<g><b/>of<b/>directors</g><s n="n"/></l><r>consejo<g><b/>de<b/>administración</g><s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>government<b/>procurement<s n="n"/></l><r>contratación<b/>administrativa<s n="n"/><s n="f"/></r></p></e>
     <e srl="contracting D" a="imaxinsoftware"><p><l>contracting<s n="n"/></l><r>contratación<s n="n"/><s n="f"/></r></p></e>
     <e srl="hiring" a="imaxinsoftware"><p><l>contracting<s n="n"/></l><r>contratación<s n="n"/><s n="f"/></r></p></e>
@@ -37180,6 +37184,9 @@
 <e slr="ficha" srl="chip"><p><l>chip<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>insides<s n="n"/><s n="pl"/></l><r>tripa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>hairdressing<b/>salon<s n="n"/></l><r>peluquería<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>aircraft<b/>carrier<s n="n"/></l><r>portaaviones<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>aircraft<b/>carrier<s n="n"/><s n="ND"/></l><r>portaaviones<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>fan<s n="n"/></l><r>forofo<s n="n"/><s n="m"/></r></p></e>
 <!--
 <e><p><l>pile<s n="n"/></l><r>montón<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>motor-racing<b/>team<s n="n"/></l><r>escudería<s n="n"/><s n="f"/></r></p></e>
@@ -38583,7 +38590,6 @@
 <e><p><l>temple<s n="n"/></l><r>sien<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>mating<s n="n"/></l><r>apareamiento<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>hives<s n="n"/></l><r>urticaria<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>aircraft<b/>carrier<s n="n"/></l><r>portaaviones<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>river<b/>basin<s n="n"/></l><r>hoya<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>chalk<s n="n"/></l><r>creta<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>attic<s n="n"/></l><r>buhardilla<s n="n"/><s n="f"/></r></p></e>
@@ -38836,8 +38842,6 @@
 <e><p><l>harlequin<s n="n"/></l><r>arlequín<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>mess<s n="n"/></l><r>revoltijo<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>jumble<s n="n"/></l><r>revoltijo<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>support<s n="n"/></l><r>sustentación<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>fan<s n="n"/></l><r>forofo<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>stumble<s n="n"/></l><r>traspié<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>peel<s n="n"/></l><r>monda<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>weaver<s n="n"/></l><r>tejedor<s n="n"/><s n="m"/></r></p></e>
@@ -38849,7 +38853,6 @@
 <e><p><l>hydrotherapy<s n="n"/></l><r>hidroterapia<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>taxidermy<s n="n"/></l><r>taxidermia<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>blackness<s n="n"/></l><r>negrura<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>rail<s n="n"/></l><r>baranda<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>stillness<s n="n"/></l><r>quietud<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>sphinx<s n="n"/></l><r>esfinge<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>savagery<s n="n"/></l><r>salvajismo<s n="n"/><s n="m"/></r></p></e>

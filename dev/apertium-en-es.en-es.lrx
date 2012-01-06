@@ -446,7 +446,7 @@ calza un par de zapatillas para correr. -->
     <match lemma="of" tags="pr"/>
    <or> 
     <match lemma="person" tags="n.pl"/>
-    <match lemma="explorers" tags="*"/>
+    <match lemma="explorer" tags="n.pl"/>
    </or> 
   </rule>
   
@@ -612,27 +612,6 @@ más eficiente porque los salarios en el sector de la asistencia son más bajos.
     <match lemma="station" tags="n.*">
       <select lemma="canal" tags="n.*"/>
     </match>
-  </rule>
-  
-<!-- (A5-0157/2000) by Mr Turco, on behalf of the Committee on Citizens' Freedoms
-and Rights, Justice and Home Affairs on the proposal for a Council decision on
-the conclusion of an agreement between the European Community and the Kingdom of
-Norway on the participation of Norway in the work of the Centre for Drugs and
-Drug Addiction (COM(1999) 496 - C5-0054/2000 - 1999/0203(CNS)). Informe
-(A5-0157/2000) del Sr. Turco, en nombre de la Comisión de Libertades y
-Derechos de los Ciudadanos, de Justicia y de Asuntos Interiores, s obre la
-propuesta de decisión del Consejo sobre la celebración de un Acuerdo entre la
-Comunidad Europea y el Reino de Noruega relativo a la participación de Noruega en
-las actividades del Observatorio de la Droga y las Toxicomanías
-(COM(1999) 496 - C5-0054/2000 - 1999/0203(CNS)). -->
-  
-  <rule>
-    <match lemma="work" tags="n.*">
-      <select lemma="obra" tags="n.*"/>
-    </match>
-    <match lemma="of" tags="pr"/>
-    <match/>
-   	<match lemma="centre" tags="*"/>
   </rule>
   
 <!-- The ordinary Iraqi family's purchase, even of one bar of soap, was
@@ -1313,9 +1292,9 @@ obra– estaba muy mal situada con respecto a los Estados Unidos. -->
 	</rule>
 	
 <!-- The preparatory work will be carried out at administrative level by a group
-of officials of the rank of Director-General, coordinated by the Secretary-General.
+of officials of the rank of Director, coordinated by the Secretary-General.
 El trabajo preparatorio se realizará a nivel administrativo por parte de un grupo
-de funcionarios del rango del Director General, coordinados por el Secretario
+de funcionarios del rango del Director, coordinados por el Secretario
 General. -->	
 
 	<rule>
@@ -1323,7 +1302,7 @@ General. -->
 			<select lemma="rango" tags="n.*"/>
 		</match>	
 		<match lemma="of" tags="pr"/>
-		<match lemma="Director\-General" tags="*"/>
+		<match lemma="Director" tags="*"/>
 	</rule>
 	
 <!-- A major key plus a minor key form a major third 5:4 ratio. Un tono
@@ -6692,7 +6671,335 @@ convertirse en un personaje de moda o importante. -->
 			<select lemma="personaje" tags="n.*"/>
 		</match>
 	</rule>		
-
-			
 	
+<!-- Although the effective harmonisation of the cumulative economic power of 27 states could work miracles, the Eurogroup, in spite of the commendable efforts of Jean-Claude Juncker, still only remains an informal discussion group. Si bien la armonización efectiva del poder económico acumulado de 27 Estados puede obrar milagros, el Eurogrupo, a pesar de los encomiables esfuerzos de Jean-Claude Juncker, solo sigue siendo un órgano informal de discusión. -->
+<!-- Rule Test: http://pastebin.com/n0V8i58n -->
+
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="obrar" tags="vblex.*"/>
+		</match>
+		<match lemma="miracle" tags="n.pl"/>
+	</rule>
+	
+<!-- The European Union has a mandate under the Treaty to work toward this objective in all policy areas. La Unión Europea tiene un mandato, en virtud del Tratado, de obrar por conseguir este objetivo en todos los ámbitos políticos. -->	
+<!-- Rule Test: http://pastebin.com/ke0zGkHm -->	
+	
+	
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="obrar" tags="vblex.*"/>
+		</match>
+		<match lemma="toward" tags="pr"/>
+		<match/>
+		<match lemma="objective" tags="*"/>
+	</rule>
+	
+<!-- Also the Member States, regional and local authorities and the social partners – we have to work for this change.	También los Estados miembros, las autoridades regionales y locales y los interlocutores sociales tenemos obrar por este cambio. -->	
+<!-- Rule Test: http://pastebin.com/EjbBW916 -->	
+	
+	<rule>
+		<match lemma="work" tags="n.*">
+			<select lemma="obrar" tags="n.*"/>
+		</match>
+		<match lemma="for" tags="pr"/>
+		<match/>
+		<match lemma="change" tags="*"/>
+	</rule>
+	
+<!-- As you note, competition policy must help drive EU competition, competitiveness and growth and, as the rapporteur mentioned, in the end it should all work in favour of the consumers – what he called the ordinary people. Como saben, la política de competencia debe contribuir a impulsar la competencia, competitividad y crecimiento de la UE, y como señala el propio ponente, al final todo debe obrar a favor de los consumidores, a los que llama la gente de a pie. -->	
+<!-- Rule Test: http://pastebin.com/QKKvEveB -->	
+	
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="obrar" tags="vblex.*"/>
+		</match>
+		<match lemma="in favour" tags="*"/>
+	</rule>
+	
+<!-- I believe that not only the United States but also the European Union and the United Nations have sufficient resources on the ground to begin this essential task and I believe that we Europeans must work with pragmatism and realism in this area. Considero que tanto los Estados Unidos como la Unión Europea y las Naciones Unidas tienen suficientes medios sobre el terreno para iniciar esa tarea esencial y, desde mi punto de vista, los europeos debemos obrar con pragmatismo y realismo en esta materia. -->
+<!-- Rule Test: http://pastebin.com/QZXyn4Qu -->
+
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="obrar" tags="vblex.*"/>
+		</match>
+		<match lemma="with" tags="pr"/>
+	  <or>
+	  	<match lemma="pragmatism" tags="*"/>
+	  	<match lemma="realism" tags="*"/>
+	  </or>
+	</rule>
+	
+<!-- It is possible to cooperate without the parties involved losing their own identities, but we should work in the same direction and we must know that the closer we are to the citizens, the greater our chances of being comprehensible, credible and effective. La colaboración es posible sin que los actores individuales pierdan su identidad pero debemos obrar en la misma dirección y saber que cuanto más cerca estemos de los ciudadanos, más probabilidades tendremos de ser entendidos, de ser creíbles y de ser eficaces.-->
+<!-- http://pastebin.com/JvnqQLZw -->
+
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="obrar" tags="vblex.*"/>
+		</match>
+		<match lemma="in" tags="pr"/>
+		<match lemma="the same" tags="*"/>
+		<match lemma="direction" tags="*"/>
+	</rule>
+	
+<!-- We must work on a range of financial services, well-qualified work force, and suchlike. Debemos obrar por una buena selección de servicios financieros, por una mano de obra bien cualificada y este tipo de cosas. -->	
+<!-- Rule Test: http://pastebin.com/WRr6cg31 -->	
+	
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="obrar" tags="vblex.*"/>
+		</match>
+		<match lemma="on" tags="pr"/>
+		<match/>
+		<match lemma="range" tags="*"/>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="service" tags="*"/>
+	</rule>	
+	
+<!-- I ask Member States to grasp this opportunity. This programme must work at full capacity. Pido a los Estados que aprovechen esta ocasión: ese programa debe funcionar a pleno régimen. -->
+<!-- Rule Test: http://pastebin.com/NHB0kx6q -->
+
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="funcionar" tags="vblex.*"/>
+		</match>
+		<match lemma="at" tags="pr"/>
+		<match/>
+		<match lemma="capacity" tags="*"/>
+	</rule>
+	
+<!-- I hope that, together, we can really make the internal market work as quickly as possible. Espero que juntos podamos hacer funcionar el Mercado Interior lo más rápidamente posible. -->
+<!-- Rule Test: http://pastebin.com/RiFVZTfA -->
+
+	<rule>
+		<match lemma="make" tags="vblex.*"/>
+		<match/>
+		<match/>
+		<match lemma="market" tags="*"/>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="funcionar" tags="vblex.*"/>
+		</match>
+	</rule>
+	
+<!-- Nevertheless, we are left feeling slightly perplexed that they envisage an institution which will mean higher quality, without immediately planning how to deal with the repercussions of this. That is to say, they are neglecting the area of defence and therefore the possibility for the prosecution and the defence to work together effectively within such an important legal system. No obstante, nos produce alguna perplejidad que se preconice una Institución que representaría un salto cualitativo, sin prever ya desde ahora sus efectos, esto es, que se descuide el aspecto de la defensa y, por ende, la posibilidad de que acusación y defensa puedan funcionar eficazmente en un sistema jurídico tan importante.-->
+<!-- Rule Test: http://pastebin.com/TnfHqVTp -->
+
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="funcionar" tags="vblex.*"/>
+		</match>
+		<match lemma="together" tags="*"/>
+		<match lemma="effectively" tags="*"/>
+	</rule>
+	
+<!-- If it can be done there it must also be possible for it to work for the remaining European seas, because this is not only about the environment: it is about clean waters, it even has consequences for tourism and - the decisive point - alongside the environmental issue it is also about fair competition. Lo que allí funciona debe también funcionar en el resto de mares europeos, pues no sólo está en juego el medio ambiente, sino también la limpieza de las aguas, el turismo y ­lo que es decisivo­ además de la cuestión medioambiental debe lograrse también la neutralidad en cuanto a los efectos sobre la competencia. -->
+<!-- Rule Test: http://pastebin.com/4YzkBadH -->
+
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="funcionar" tags="vblex.*"/>
+		</match>
+		<match lemma="for" tags="pr"/>
+		<match/>
+		<match/>
+		<match lemma="european" tags="*"/>
+		<match lemma="sea" tags="*"/>
+	</rule>	
+	
+<!-- Let us, however, make it clear that it appears that raising the standard of living in the Gaza Strip, normal functioning of hospitals and schools, full access to drinking water, food and electricity, the potential to work in agriculture are more likely to cause a fall in tension in Palestinian-Israeli relations and to ensure a weakening of the potential for enmity, where Jewish settlers, Israeli settlers and the State of Israel as such are concerned. Digamos alto y claro que el aumento de la calidad de vida en la Franja de Gaza, el funcionamiento normal de los hospitales y las escuelas, el acceso pleno al agua potable, los alimentos y la electricidad y la posibilidad de explotar la agricultura probablemente harán disminuir la tensión de las relaciones israelo-palestinas y el potencial de enemistad, lo que va en el interés de los colonos judíos, los colonos israelíes y el propio Estado de Israel.-->
+<!-- Rule Test: http://pastebin.com/83Kkz8k3 -->
+
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="explotar" tags="vblex.*"/>
+		</match>
+		<match lemma="in" tags="pr"/>
+		<match lemma="agriculture" tags="*"/>
+	</rule>
+	
+<!-- The European Union has a mandate under the Treaty to work toward this objective in all policy areas. La Unión Europea tiene un mandato, en virtud del Tratado, de obrar por conseguir este objetivo en todos los ámbitos políticos.-->
+<!-- Rule Test: http://pastebin.com/7ASzc4JD -->
+
+	<rule>
+		<match lemma="work" tags="vblex.*">
+			<select lemma="obrar" tags="vblex.*"/>
+		</match>
+		<match lemma="toward" tags="pr"/>
+		<match/>
+		<match lemma="objective" tags="*"/>
+	</rule>	
+	
+<!-- I would not claim they were perfect and this list is not exhaustive. No voy a afirmar que sean perfectos y no se trata de una lista exhaustiva. -->
+<!-- Rule Test: http://pastebin.com/QixyBrgs -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="afirmar" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="be" tags="*"/>
+		<match lemma="perfect" tags="*"/>
+	</rule>	
+	
+<!-- Certainly, in my country, this is one of the areas where the European Union can visibly claim to be making a difference, and there is a recognition that Structural Funds and the attempt to increase wealth, and improve social conditions and employment rates in an area give a positive image of the EU. Desde luego, en mi país ése es uno de los sectores en los que la Unión Europea puede afirmar que está cambiando visiblemente la situación y se reconoce que los Fondos estructurales y el intento de aumentar la riqueza y mejorar las condiciones sociales y las tasas de empleo en una zona crean una impresión positiva de la UE. -->
+<!-- Rule Test: http://pastebin.com/FxuK4pLL -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="afirmar" tags="vblex.*"/>
+		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="be" tags="*"/>
+		<match lemma="make" tags="vblex.*"/>
+		<match/>
+		<match lemma="difference" tags="*"/>
+	</rule>	
+	
+<!-- The idea of a safe country, the idea that governments can actually claim that countries are safe, is quite incredible.	La idea de un país seguro, la idea de que los gobiernos pueden afirmar en realidad que países son seguros, es de lo más increíble. -->
+<!-- Rule Test: http://pastebin.com/8ZUbwxxL -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="afirmar" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="country" tags="*"/>
+		<match lemma="be" tags="*"/>
+		<match lemma="safe" tags="*"/>
+	</rule>	
+	
+<!-- How can the Commission claim to advocate a safer working environment for fishermen and crew members while at the same time penalising the owners of the vessels who want to carry out measures to improve safety on board?	¿Cómo puede afirmar la Comisión que defiende un entorno de trabajo más seguro para los pescadores y los miembros de la tripulación si al mismo tiempo penaliza a los armadores que quieren llevar a cabo medidas para mejorar la seguridad a bordo? -->
+<!-- Rule Test: http://pastebin.com/XFS0mDRG -->
+
+	<rule>
+		<match lemma="claim" tags="n.*">
+			<select lemma="afirmar" tags="n.*"/>
+		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="advocate" tags="vblex.*"/>
+		<match/>
+		<match/>
+		<match lemma="working" tags="*"/>
+		<match lemma="environment" tags="*"/>
+	</rule>	
+	
+<!-- The attempts by this Commission and its predecessor to give far more priority to competition than culture have fortunately been shelved recently, and in this respect, I think we can claim to have taken a positive step.	Los esfuerzos de la Comisión y de la comisión de antecesores de colocar la competencia muy por encima de la cultura han cesado, por fortuna, recientemente y, en este sentido, cabe afirmar que hemos establecido un paso positivo. -->
+<!-- Rule Test: http://pastebin.com/BEGr4ZZT -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="afirmar" tags="vblex.*"/>
+		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="have" tags="vblex.*"/>
+		<match lemma="take" tags="vblex.*"/>
+		<match/>
+		<match/>
+		<match lemma="step" tags="*"/>
+	</rule>	
+	
+<!-- On the other hand, the Parliament, despite its pretensions, lacks the European demos and therefore cannot claim to be a democratic institution. Por otra parte, el Parlamento, a pesar de sus pretensiones, carece del demos europeo y, por tanto, no puede alegar que sea una institución democrática. -->
+<!-- Rule Test: http://pastebin.com/0WAiQBTL -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="alegar" tags="vblex.*"/>
+		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="be" tags="*"/>
+		<match/>
+		<match lemma="democratic" tags="*"/>
+		<match lemma="institution" tags="*"/>
+	</rule>	
+	
+<!-- We must start with the freedom of people and the fact that we are all in public service voluntarily, and the ex-Commissioner cannot claim ignorance of this. Hay que partir de la libertad de las personas y de que todos estamos en el servicio público voluntariamente, y el ex Comisario Bangemann no podía alegar ignorancia. -->
+<!-- Rule Test: http://pastebin.com/S3Vv18XS -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="alegar" tags="vblex.*"/>
+		</match>
+		<match lemma="ignorance" tags="*"/>
+	</rule>	
+	
+<!-- If the Commission now wishes to remain credible, it can no longer claim late implementation or other difficulties for 2008 to justify being in arrears with payments or commitments in the implementation of the 2008 budget. Si la Comisión pretende ahora seguir siendo creíble, no puede alegar ya un retraso en la ejecución u otras dificultades en 2008 para justificar retrasos con pagos o compromisos en la ejecución del presupuesto 2008. -->
+<!-- Rule Test:  -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="alegar" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="implementation" tags="*"/>
+	</rule>	
+	
+<!-- I have great respect for Commissioner Frattini but the EU really cannot claim credit for the actions of our national police and security services.	Siento un gran respeto por el Comisario Frattini, pero la UE no puede atribuirse en realidad el mérito de las acciones de nuestros servicios nacionales de policía y seguridad. -->
+<!-- Rule Test: http://pastebin.com/WEmNsY3M -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="atribuirse" tags="vblex.*"/>
+		</match>
+		<match lemma="credit" tags="*"/>
+	</rule>
+	
+<!-- I do not think that any political force in this Chamber can claim a monopoly on European ideas. No creo que ninguna fuerza política de esta Cámara pueda atribuirse el monopolio de las ideas europeas. -->
+<!-- Rule Test: http://pastebin.com/QdvCexeu -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="atribuirse" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="monopoly" tags="*"/>
+	</rule>	
+	
+<!-- It is only thanks to the fact that the newer EU Member States have reduced their emissions considerably more quickly that the EU as a whole can claim leader status in this sphere. Sólo gracias al hecho de que los Estados miembros de la UE más recientes han reducido sus emisiones considerablemente más rápido puede la UE atribuirse el estatus de líder en este ámbito. -->
+<!-- Rule Test: http://pastebin.com/2tLqCsik -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="atribuirse" tags="vblex.*"/>
+		</match>
+		<match lemma="leader" tags="*"/>
+		<match lemma="status" tags="*"/>
+	</rule>	
+	
+<!-- You cannot claim every success for yourself as a national government and lay the blame for every failure at Brussels’ door, and then expect people to rejoice over Brussels. Un Gobierno nacional no puede atribuirse todos los éxitos y culpar de todos los fracasos a Bruselas, y esperar después que los ciudadanos estén contentos con Bruselas. -->
+<!-- Rule Test: http://pastebin.com/Wy5D0s0S -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="atribuirse" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="success" tags="*"/>
+	</rule>	
+	
+<!-- Mr President, ladies and gentlemen, the audacity with which Mr Galeote has tried to claim ownership of this resolution is not going to stop me from saying to all of you that, from the outset, that is to say, since Monday of last week, we Socialists have been in no doubt whatsoever that we wanted a motion for a resolution, that we wanted it in this sitting and that we wanted it on this issue.	Señor Presidente, Señorías, la frescura con que el señor Galeote intenta atribuirse la paternidad de esta resolución, no me va a impedir a mí decirles a todos ustedes que los socialistas, desde el primer momento, es decir, desde el lunes de la semana pasada, teníamos clarísimo y muy decidido que queríamos una propuesta de resolución y que la queríamos en este Pleno y la queríamos sobre este asunto. -->
+<!-- Rule Test: http://pastebin.com/uAynMgP9 -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="atribuirse" tags="vblex.*"/>
+		</match>
+		<match lemma="ownership" tags="*"/>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="resolution" tags="*"/>
+	</rule>	
+	
+<!-- No one can claim any glory from the present problem, not the United Kingdom Government and most certainly not Mr Hogg - I would not defend them for one moment - nor the Commission or the Council. Nadie puede atribuirse ningún mérito en el problema actual, ni el Gobierno del Reino Unido, y desde luego no el Sr. Hogg -no lo defendería ni por un instante-, ni tampoco la Comisión o el Consejo. -->
+<!-- Rule Test: http://pastebin.com/SgTGbHiA -->
+
+	<rule>
+		<match lemma="claim" tags="vblex.*">
+			<select lemma="atribuirse" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="glory" tags="*"/>
+	</rule>		
+			
 </rules>

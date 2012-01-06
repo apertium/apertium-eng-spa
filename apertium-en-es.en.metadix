@@ -1912,6 +1912,32 @@
         </p>
       </e>
     </pardef>
+    <pardef n="cyclop/s__n">
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>es</l>
+          <r>s<s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ses</l>
+          <r>s<s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="staff__n">
       <e c="CP: singular spelling">
         <p>
@@ -33419,6 +33445,10 @@
     <e lm="unemployed"><i>unemployed</i><par n="personnel__n"/></e>
     <e lm="son-in-law"><i>son-in-law</i><par n="east__n"/></e>
     <e lm="son-in-law"><p><l>sons-in-law</l><r>son-in-law</r></p><par n="personnel__n"/></e>
+    <e lm="mother-in-law"><i>mother-in-law</i><par n="east__n"/></e>
+    <e lm="mother-in-law"><p><l>mothers-in-law</l><r>mother-in-law</r></p><par n="personnel__n"/></e>
+    <e lm="runner-up"><i>runner-up</i><par n="east__n"/></e>
+    <e lm="runner-up"><p><l>runners-up</l><r>runner-up</r></p><par n="personnel__n"/></e>
     <e lm="impaler"><i>impaler</i><par n="house__n"/></e>
     <e lm="unemployed person"><i>unemployed<b/>person</i><par n="east__n"/></e>
     <e lm="dear"><i>dear</i><par n="long/__adj"/></e>

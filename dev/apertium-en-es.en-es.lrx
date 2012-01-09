@@ -1292,9 +1292,9 @@ obra– estaba muy mal situada con respecto a los Estados Unidos. -->
 	</rule>
 	
 <!-- The preparatory work will be carried out at administrative level by a group
-of officials of the rank of Director, coordinated by the Secretary-General.
+of officials of the rank of director, coordinated by the Secretary-General.
 El trabajo preparatorio se realizará a nivel administrativo por parte de un grupo
-de funcionarios del rango del Director, coordinados por el Secretario
+de funcionarios del rango del director, coordinados por el Secretario
 General. -->	
 
 	<rule>
@@ -1302,11 +1302,10 @@ General. -->
 			<select lemma="rango" tags="n.*"/>
 		</match>	
 		<match lemma="of" tags="pr"/>
-		<match lemma="Director" tags="*"/>
+		<match lemma="director" tags="*"/>
 	</rule>
 	
-<!-- A major key plus a minor key form a major third 5:4 ratio. Un tono
-mayor más un tono menor forman una tercera mayor de relación 5:4. -->
+<!-- A minor key... Un tono menor... -->
 <!-- From: http://es.wikipedia.org/wiki/Tono_(intervalo_musical) -->
 
 	<rule>
@@ -1326,6 +1325,7 @@ Si podemos inculcar un espíritu de actividad empresarial en nuestras
 regiones pobres y estructuralmente débiles, las situaremos a la larga en el
 camino de atraer la confianza de los inversores, algo que será la clave del
 éxito. -->	
+<!-- Bug: key is mistagged by the system as an adjective -->
 
 	<rule>
 		<match lemma="key" tags="n.*">
@@ -1482,6 +1482,7 @@ environmental effects of the Kosovo conflict and I recommend it to those who hav
 not yet studied it.	Es el informe más detallado y completo realizado hasta la
 fecha acerca de los efectos del conflicto de Kosovo sobre el medio ambiente y
 lo recomiendo a todos aquellos que no lo hayan estudiado todavía. -->	
+<!-- Bug: Date is mistagged by the system as a verb, should be a noun -->
 
 	<rule>
 		<match lemma="report" tags="*"/>
@@ -1647,8 +1648,8 @@ medidas a los civiles que viven en la zona. -->
 	
 	<rule>
 		<match lemma="armed" tags="*"/>
-		<match lemma="forces" tags="n.*">
-			<select lemma="fuerzas" tags="n.*"/>
+		<match lemma="force" tags="n.*">
+			<select lemma="fuerza" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -1658,6 +1659,7 @@ time when they travel by air as they are always short of time. En efecto, he
 votado a favor del informe Atkins porque para los pensionistas, a los que les
 queda poco tiempo de vida, la puntualidad a la hora de llegar a su destino cuando
 toman un avión es muy importante, al tener poco tiempo a disposición. -->	
+<!-- Bug: Air is mistagged by system as a verb, should be noun -->	
 	
 	<rule>
 		<match lemma="travel" tags="vblex.*"/>
@@ -1928,7 +1930,7 @@ competencia en los mercados de telefonía local, de modo que la conexión a
 Internet se abarate. -->	
 	
 	<rule>
-	  	<match lemma="internet" tags="*"/>
+	  	<match lemma="Internet" tags="*"/>
 		<match lemma="connection" tags="n.*">
 			<select lemma="conexión" tags="n.*"/>
 		</match>
@@ -1937,6 +1939,7 @@ Internet se abarate. -->
 <!-- Mr President, my voting machine is making a very strange noise and it has a
 lot of lights on it. Señor Presidente, mi aparato de votación hace un ruido muy
 extraño y tiene un montón de luces. -->	
+<!-- Bug: Voting is tagged as a verb instead of an adjective -->
 	
 	<rule>
 	  	<match lemma="voting" tags="*"/>
@@ -1968,8 +1971,8 @@ Europa fuerte y unida con una Comisión y un Presidente de la Comisión fuertes.
 		<match lemma="go" tags="vblex.*"/>
 		<match/>
 		<match/>
-		<match lemma="polls" tags="n.*">
-			<select lemma="urnas" tags="n.*"/>
+		<match lemma="poll" tags="n.*">
+			<select lemma="urna" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -2096,7 +2099,7 @@ informe -posiblemente en segunda lectura o tal vez después de un procedimiento 
 conciliación- y se cree certidumbre jurídica. -->	
 	
 	<rule>
-		<match lemma="parliamentary" tags="*"/>
+		<match lemma="Parliamentary" tags="*"/>
 		<match lemma="term" tags="n.*">
 			<select lemma="periodo" tags="n.*"/>
 		</match>
@@ -2166,7 +2169,7 @@ admite más demora. -->
 			<select lemma="rama" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-		<match lemma="al\-qaeda" tags="*"/>
+		<match lemma="Al\-Qaeda" tags="*"/>
 	</rule>
 	
 <!-- The declared platform of the party that won the elections and formed the
@@ -2248,8 +2251,8 @@ internos de un Estado miembro. -->
 	
 	<rule>
 	  	<match lemma="internal" tags="*"/>
-		<match lemma="affairs" tags="n.*">
-			<select lemma="asuntos" tags="n.*"/>
+		<match lemma="affair" tags="n.*">
+			<select lemma="asunto" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -2272,11 +2275,12 @@ aeropuerto europeo, por Londres más que por Malpensa, se van al sector privado.
 	</rule>
 	
 <!-- We reject Amendment No 13 because it intends to assign the representative of
-the terminal the task of checking that standards for the installation of the
-black box or voyage data recorder are complied with. En cuanto a la enmienda nº
+the terminal the task of checking that standards for the installation of the 
+voyage data recorder are complied with. En cuanto a la enmienda nº
 13, la rechazamos, porque en ella se plantea asignar al representante de la
-terminal la tarea de comprobar la conformidad con las normas de la instalación de
-la caja negra o registrador de datos de la travesía. -->
+terminal la tarea de comprobar la conformidad con las normas de la instalación del
+registrador de datos de la travesía. -->
+<!-- Bug: recorder is tagged by the system as an adjective, should be a noun -->
 	
 	<rule>
 		<match lemma="data" tags="*"/>
@@ -2334,14 +2338,14 @@ precio y la cobertura de su seguro. -->
 	<rule>
 		<match lemma="insurance" tags="*"/>
 		<match lemma="claim" tags="*"/>
-		<match lemma="records" tags="n.*">
-			<select lemma="expedientes" tags="n.*"/>
+		<match lemma="record" tags="n.*">
+			<select lemma="expediente" tags="n.*"/>
 		</match>
 	</rule>
 	
-<!-- In other words, the current system of exchanging criminal record information
+<!-- In other words, the current system of exchanging criminal records 
 is not effective. En otras palabras, el sistema actual de intercambio de
-información del registro de antecedentes penales no es eficaz. -->	
+antecedentes penales no es eficaz. -->	
 	
 	<rule>
 		<match lemma="criminal" tags="*"/>
@@ -2362,7 +2366,7 @@ un sueño. -->
 			<select lemma="historial" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-		<match lemma="assisting" tags="*"/>
+		<match lemma="assist" tags="vblex.*"/>
 	  <or>
 	  	<match lemma="peace" tags="*"/>
 	  	<match lemma="prosperity" tags="*"/>
@@ -2402,9 +2406,9 @@ navegan en nuestros días". -->
 		</match>
 	</rule>
 	
-<!-- Whether happiness can be found in a warm can of caffeine I do not know - it
+<!-- Whether happiness can be found in a can of caffeine I do not know - it
 would not be my favourite tipple. No sé si se podrá encontrar la felicidad en
-una lata caliente de cafeína: no sería mi bebida favorita. -->	
+una lata de cafeína: no sería mi bebida favorita. -->	
 	
 	<rule>
 		<match lemma="can" tags="n.*">
@@ -2416,7 +2420,8 @@ una lata caliente de cafeína: no sería mi bebida favorita. -->
 	
 <!-- This is a Belgian government measure which flies in the face of the Schengen
 Treaty.	Esta medida del Gobierno belga constituye una violación flagrante del
-Acuerdo de Schengen. -->	
+Acuerdo de Schengen. -->
+<!-- Bug: Measure is mistagged by the system as a verb, should be a noun -->
 	
 	<rule>
 	  	<match lemma="government" tags="*"/>

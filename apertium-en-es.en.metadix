@@ -11922,6 +11922,7 @@
     <e lm="violation"><i>violation</i><par n="house__n"/>     </e>
     <e lm="reservoir"><i>reservoir</i><par n="house__n"/>     </e>
     <e lm="bug"><i>bug</i><par n="house__n"/>     </e>
+    <e lm="millenium bug"><i>millenium<b/>bug</i><par n="house__n"/>     </e>
     <e lm="esplanade"><i>esplanade</i><par n="house__n"/>     </e>
     <e lm="Shiite"><p><l>Shiite</l><r>shiite</r></p><par n="house__n"/>    </e>
     <e lm="Shiite"><p><l>Shiite</l><r>shiite</r></p><par n="expensive__adj"/>    </e>
@@ -23141,6 +23142,7 @@
     <e lm="backrest"><i>backrest</i><par n="house__n"/>    </e>
     <e lm="backstitch"><i>backstitch</i><par n="access__n"/>    </e>
     <e lm="bacterium"><i>bacteri</i><par n="bacteri/um__n"/>    </e>
+    <e lm="millenium"><i>milleni</i><par n="bacteri/um__n"/>    </e>
     <e lm="badger"><i>badger</i><par n="house__n"/>    </e>
     <e lm="bag"><i>bag</i><par n="house__n"/>    </e>
     <e lm="baggage"><i>baggage</i><par n="house__n"/>    </e>
@@ -44521,30 +44523,6 @@
 
 
 
-  </section>
-
-  <section id="apostrophes" type="preblank">
-
-<e lm="'m" r="LR"><p><l>'m</l><r>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e> 
-<e lm="'re" r="LR"><p><l>'re</l><r>be<s n="vbser"/><s n="pres"/></r></p></e>
-
-<e lm="'s" r="LR"><p><l>'s</l><r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> 
-
-
-<e lm="be likely" r="LR"><par n="contraction_be__vblex"/><p><l><b/>likely</l><r><g><b/>likely</g></r></p></e>
-<e lm="be unlikely" r="LR"><par n="contraction_be__vblex"/><p><l><b/>unlikely</l><r><g><b/>unlikely</g></r></p></e>
-
-
-
-<e lm="be sorry" r="LR"><par n="contraction_be__vblex"/><p><l><b/>sorry</l><r><g><b/>sorry</g></r></p></e>
-
-<e lm="be left" r="LR"><par n="contraction_be__vblex"/><p><l><b/>left</l><r><g><b/>left</g></r></p></e>
-<e lm="be missing" r="LR"><par n="contraction_be__vblex"/><p><l><b/>missing</l><r><g><b/>missing</g></r></p></e>
-<e lm="be born" r="LR"><par n="contraction_be__vblex"/><p><l><b/>born</l><r><g><b/>born</g></r></p></e>
-<e lm="be worth" r="LR"><par n="contraction_be__vblex"/><p><l><b/>worth</l><r><g><b/>worth</g></r></p></e>
-<e lm="be worthwhile" r="LR"><par n="contraction_be__vblex"/><p><l><b/>worthwhile</l><r><g><b/>worthwhile</g></r></p></e>
-<e lm="be hungry" r="LR"><par n="contraction_be__vblex"/><p><l><b/>hungry</l><r><g><b/>hungry</g></r></p></e>
-
     <e lm="zoologist"><i>zoologist</i><par n="house__n"/></e>
     <e lm="motor-racing team"><i>motor-racing<b/>team</i><par n="house__n"/></e>
     <e lm="exclusivity"><i>exclusivit</i><par n="bab/y__n"/></e>
@@ -45625,6 +45603,30 @@
     <e lm="yawl"><i>yawl</i><par n="house__n"/></e>
     <e lm="weighting"><i>weighting</i><par n="house__n"/></e>
 -->
+
+  </section>
+
+  <section id="apostrophes" type="preblank">
+
+<e lm="'m" r="LR"><p><l>'m</l><r>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e> 
+<e lm="'re" r="LR"><p><l>'re</l><r>be<s n="vbser"/><s n="pres"/></r></p></e>
+
+<e lm="'s" r="LR"><p><l>'s</l><r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> 
+
+
+<e lm="be likely" r="LR"><par n="contraction_be__vblex"/><p><l><b/>likely</l><r><g><b/>likely</g></r></p></e>
+<e lm="be unlikely" r="LR"><par n="contraction_be__vblex"/><p><l><b/>unlikely</l><r><g><b/>unlikely</g></r></p></e>
+
+
+
+<e lm="be sorry" r="LR"><par n="contraction_be__vblex"/><p><l><b/>sorry</l><r><g><b/>sorry</g></r></p></e>
+
+<e lm="be left" r="LR"><par n="contraction_be__vblex"/><p><l><b/>left</l><r><g><b/>left</g></r></p></e>
+<e lm="be missing" r="LR"><par n="contraction_be__vblex"/><p><l><b/>missing</l><r><g><b/>missing</g></r></p></e>
+<e lm="be born" r="LR"><par n="contraction_be__vblex"/><p><l><b/>born</l><r><g><b/>born</g></r></p></e>
+<e lm="be worth" r="LR"><par n="contraction_be__vblex"/><p><l><b/>worth</l><r><g><b/>worth</g></r></p></e>
+<e lm="be worthwhile" r="LR"><par n="contraction_be__vblex"/><p><l><b/>worthwhile</l><r><g><b/>worthwhile</g></r></p></e>
+<e lm="be hungry" r="LR"><par n="contraction_be__vblex"/><p><l><b/>hungry</l><r><g><b/>hungry</g></r></p></e>
 
   </section> 
 

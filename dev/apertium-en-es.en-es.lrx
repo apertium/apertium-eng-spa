@@ -2821,6 +2821,7 @@ stick which, when it came into contact with the animal, could produce the same
 effect in terms of spectacle. En el toreo, la puya de hierro podría sustituirse
 fácilmente por un bastón electrónico que, al entrar en contacto con el animal,
 produjera en mismo efecto en cuanto al espectáculo. -->	
+<!-- Bug: Stick is mistagged by the system as a verb, should be a noun -->
 	
 	<rule>
 		<match lemma="electronic" tags="*"/>
@@ -2844,7 +2845,8 @@ graves lesiones que le ocasionó un atentado en 1998. -->
 	
 <!-- On the other hand, however, we must take care not to classify certain peoples
 in a particular manner.	Pero, por otro lado, debemos tener cuidado en no
-clasificar de algún modo a determinados pueblos. -->	
+clasificar de algún modo a determinados pueblos. -->
+<!-- Bug: Care is mistagged by system as a verb, should be a noun -->
 	
 	<rule>
 		<match lemma="take" tags="vblex.*"/>
@@ -2972,7 +2974,7 @@ quite alien to us.	La idea de que en adelante el personal de aduanas lleve una
 insignia de la Unión nos parece muy extraña. -->	
 	
 	<rule>
-		<match lemma="eu" tags="*"/>
+		<match lemma="EU" tags="*"/>
 		<match lemma="badge" tags="n.*">
 			<select lemma="insignia" tags="n.*"/>
 		</match>

@@ -7016,6 +7016,135 @@ convertirse en un personaje de moda o importante. -->
 		</match>
 		<match/>
 		<match lemma="glory" tags="*"/>
-	</rule>		
+	</rule>
+	
+<!-- We will not allow ourselves to come under pressure, but neither do I want to spend time discussing with anyone where a summit is to be held.	No vamos a dejarnos presionar, pero tampoco quiero pasar tiempo discutiendo con nadie dónde se va a celebrar una cumbre. -->
+<!-- Rule Test: http://pastebin.com/UDfUnW22 -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="pasar" tags="vblex.*"/>
+		</match>
+		<match lemma="time" tags="*"/>
+	</rule>
+	
+<!-- Thanks to the clubs children do not need to spend long hours alone in the afternoon while their parents work longer days than before, there being no let-up in the labour shortage that is beginning to emerge. Gracias a estas asociaciones, los niños no se ven obligados a pasar largas horas de la tarde solos en casa mientras sus padres alargan cada vez más su jornada laboral bajo la presión de la incipiente escasez de mano de obra. -->
+<!-- Rule Test: http://pastebin.com/tFEDgAaZ -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="pasar" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="hour" tags="n.pl"/>
+	</rule>
+	
+<!-- Like many people I can just imagine what it would be like to have a child ripped from your hands at the age of 20 days and never to see them again, be yourself in prison for five years under torture and cruel treatment, and then spend the rest of your life at liberty trying to find your lost child. Al igual que muchos, puedo imaginarme cómo debe ser que te arranquen de las manos a un hijo de 20 días y no volver a verlo nunca más, permanecer detenida en prisión durante cinco años padeciendo torturas y un trato cruel y luego, tras ser puesta en libertad, pasar el resto de la vida intentando encontrar al hijo perdido. -->
+<!-- Rule Test: http://pastebin.com/GXUVzxdb -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="pasar" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="rest" tags="*"/>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="life" tags="*"/>
+	</rule>
+	
+<!-- I regret having had to spend many Christmas breaks retyping all the electronic files which I had accidentally deleted by pressing the wrong key. Lástima que he tenido que pasar muchas Semanas Navidades volviendo a copiar todos los archivos electrónicos que, por haber apretado una tecla equivocada, se habían borrado ipso facto. -->
+<!-- Rule Test: http://pastebin.com/CmCb9h6k -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="pasar" tags="vblex.*"/>
+		</match>	
+		<match/>
+		<match/>
+		<match lemma="break" tags="n.pl"/>
+	</rule>
+	
+<!-- Mr President, Commissioner, in a few months' time, hundreds of thousands of holidaymakers will again head for the Adriatic Coast to spend their summer holiday. Señor Presidente, señora Comisaria, dentro de pocos meses centenares de miles de veraneantes viajarán a la costa del Adriático para pasar sus vacaciones allí. -->
+<!-- Rule Test: http://pastebin.com/BcQpEhgV -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="pasar" tags="vblex.*"/>
+		</match>
+		<match/>
+	  <or>
+	  	<match lemma="summer" tags="*"/>
+	  	<match lemma="winter" tags="*"/>
+	  </or>
+	  	<match lemma="holiday" tags="*"/>
+	</rule>
+	
+<!-- Mr President, just before I went down into the Chamber, I received an e-mail with a quite emotional description from a Swedish woman who had chosen to spend New Year's Eve on the French coast in Brittany instead of staying at home and celebrating with her relatives. Señor Presidente, instantes antes de bajar a la Asamblea, recibí un mensaje por el correo electrónico que contenía un relato bastante sensible de una mujer sueca que había decidido pasar la Nochevieja en la costa francesa de Bretaña, en lugar de quedarse en casa para celebrarla con sus parientes. -->
+<!-- Rule Test: http://pastebin.com/sEKwXF8J -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="pasar" tags="vblex.*"/>
+		</match>
+		<match lemma="New" tags="*"/>
+		<match lemma="Year" tags="*"/>
+		<match lemma="'s" tags="gen"/>
+	  <or>
+	  	<match lemma="Day" tags="*"/>
+	  	<match lemma="Eve" tags="*"/>
+	  </or>
+	</rule>
+	
+<!-- Given the huge work which will already be necessary to translate the CFR, it does not make sense to spend valuable translation resources to translate parts of an academic draft which are not relevant for the purposes of the CFR. Dado el enorme trabajo que habrá ya que dedicar para traducir el MCR, no tiene sentido emplear unos valiosos recursos de traducción en traducir partes de un proyecto académico que no son pertinentes para los fines del MCR. -->
+<!-- Rule Test: http://pastebin.com/BDRkKGGA -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="emplear" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match/>
+		<match lemma="resource" tags="n.pl"/>
+	</rule>
+	
+<!-- We all know, ever since 9/11, that we are living in a very dangerous world where there are terrorists at large who have all day, every day, to spend planning their deadly missions, and they have the economic resources, some of it state-sponsored, to carry out their missions. Todos sabemos, desde el 11 de septiembre, que vivimos en un mundo muy peligroso donde los terroristas están en libertad y disponen de todo el día, todos los días, para planear sus misiones mortíferas, y cuentan con recursos económicos, en parte financiados por el Estado, para llevar a cabo sus misiones. -->
+<!-- Rule Test: http://pastebin.com/YKyiiLQW -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="llevar" tags="vblex.*"/>
+		</match>
+		<match lemma="plan" tags="vblex.*"/>
+		<match/>
+		<match/>
+		<match lemma="mission" tags="n.pl"/>
+	</rule>
+	
+<!-- To spend a mast... Perder un palo -->
+<!-- From: http://www.spanishdict.com/translate/spend -->
+<!-- Rule Test: http://pastebin.com/91uY3eHw -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="perder" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="mast" tags="*"/>
+	</rule>
+	
+<!-- To spend time on something... Dedicar tiempo a algo... -->
+<!-- From: http://www.spanishdict.com/translate/spend -->
+<!-- Rule Test: http://pastebin.com/bMa5Nin0 -->
+
+	<rule>
+		<match lemma="spend" tags="vblex.*">
+			<select lemma="dedicar" tags="vblex.*"/>
+		</match>
+		<match lemma="time" tags="*"/>
+		<match lemma="on" tags="*"/>
+		<match lemma="something" tags="*"/>
+	</rule>	
+	
 			
 </rules>

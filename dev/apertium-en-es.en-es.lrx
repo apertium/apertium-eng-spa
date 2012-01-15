@@ -3292,8 +3292,8 @@ prendas de vestir. -->
 <!-- From:http://es.wikipedia.org/wiki/Indumentaria -->
 	
 	<rule>
-		<match lemma="articles" tags="n.*">
-			<select lemma="prendas" tags="n.*"/>
+		<match lemma="article" tags="n.*">
+			<select lemma="prenda" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match lemma="clothing" tags="*"/>
@@ -3375,7 +3375,7 @@ movilidad que suprime la base imponible. -->
 		<match lemma="issue" tags="*"/>
 		<match lemma="of" tags="pr"/>
 		<match/>
-		<match lemma="economist" tags="*"/>
+		<match lemma="Economist" tags="*"/>
 	</rule>
 	
 <!-- Mr President, last week's incident in Gaza, when an IDF shell mistakenly
@@ -3491,6 +3491,7 @@ natural gas supply cut in January resulted in heavy losses for a few European
 countries, especially Bulgaria.	(BG) Señorías, el conflicto entre Rusia y
 Ucrania y el corte de abastecimiento de gas natural en el mes de enero provocó
 grandes pérdidas para algunos países europeos, y en particular para Bulgaria. -->	
+<!-- Bug: Cut is mistagged by system as a verb, should be a noun -->	
 	
 	<rule>
 		<match lemma="supply" tags="*"/>
@@ -3519,7 +3520,8 @@ years, particularly at this moment in our relationship with South Africa. Para
 ir al meollo de la cuestión, diré que respecto al presupuesto es absolutamente
 inaceptable que la UE proponga un recorte presupuestario en relación con años
 anteriores, particularmente en el actual momento de nuestras relaciones con
-Sudáfrica. -->	
+Sudáfrica. -->
+<!-- Bug: Cut is mistagged by system as a verb, should be a noun -->
 	
 	<rule>
 		<match lemma="budget" tags="*"/>
@@ -3746,7 +3748,7 @@ la seguridad, no sería necesario destruir el proceso constitucional. -->
 		</match>
 		<match lemma="to" tags="pr"/>
 		<match/>
-		<match lemma="constitution" tags="*"/>
+		<match lemma="Constitution" tags="*"/>
 	</rule>
 	
 <!-- We want to continue along the successful European path to growth and
@@ -3900,7 +3902,7 @@ que tuvieran la marca de la Presidencia. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-		<match lemma="presidency" tags="*"/>
+		<match lemma="Presidency" tags="*"/>
 	</rule>
 	
 <!-- It is nothing less than hypocritical to condemn the flagrant violation of
@@ -3913,7 +3915,7 @@ auténticos refugiados y solicitantes de asilo, cuya situación se hace cada vez
 más difícil en la UE. -->	
 	
 	<rule>
-		<match lemma="helping" tags="*"/>	
+		<match lemma="help" tags="*"/>	
 		<match lemma="hand" tags="n.*">
 			<select lemma="mano" tags="n.*"/>
 		</match>
@@ -3958,12 +3960,12 @@ comercial con respecto a la UE. -->
 		</match>
 	</rule>
 	
-<!-- Indeed, it is good to note that the forecast of 3% growth for the year 2000,
+<!-- Indeed, it is good to note that the forecast of growth for the year 2000,
 which could have seemed rather bold when the Commission announced it in November
 1999, now has a serious chance of being achieved, even in the context of
 continued inflation, since the peak of 2% for the euro zone in January,
 nevertheless remains quite minor compared with the past. Naturalmente, es grato
-constatar que la previsión de crecimiento del 3% para el año 2000, que podía 
+constatar que la previsión de crecimiento para el año 2000, que podía 
 parecer aventurada cuando la Comisión la formuló en noviembre de 1999, hoy tiene
 grandes posibilidades de cumplirse, y ello en el contexto de una inflación
 contenida, ya que el máximo del 2% para la zona "euro", en enero, es menor, a
@@ -3974,7 +3976,6 @@ pesar de todo, con respecto al pasado. -->
 			<select lemma="previsión" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-		<match/>
 		<match lemma="growth" tags="*"/>
 	</rule>
 	
@@ -4008,6 +4009,7 @@ Foreign Affairs in support of the motion for the reconsideration of the case. El
 5 de julio de 2004, la Troika comunitaria, compuesta por los Países Bajos, el
 Reino Unido y la Comisión, entregó al Ministerio de Asuntos Exteriores filipino
 un escrito de en apoyo de la petición de que se reconsidere el caso. -->	
+<!-- Bug: brief is mistagged by system as a adjective, should be a noun -->	
 	
 	<rule>
 		<match lemma="amicus" tags="*"/>
@@ -4082,7 +4084,10 @@ compromiso alternativo, simbolizado por el corazón de esta manzana. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
+	  <or>
+	  	<match lemma="apple" tags="*"/>
 		<match lemma="fruit" tags="*"/>
+	  </or>	
 	</rule>
 	
 <!-- This debate is therefore added at the top of the order of business. Queda
@@ -4102,8 +4107,8 @@ menos piramidales. -->
 <!-- From:http://es.wikipedia.org/wiki/Árbol -->
 	
 	<rule>
-		<match lemma="tops" tags="n.*">
-			<select lemma="copas" tags="n.*"/>
+		<match lemma="top" tags="n.*">
+			<select lemma="copa" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
@@ -4124,7 +4129,7 @@ UE y EE.UU. y en los foros multilaterales. -->
 	  	<match lemma="agenda" tags="*"/>
 	</rule>
 	
-<!-- Whether or not they were on top of the world plays no part whatsoever in
+<!-- Whether or not they were on the top of the world plays no part whatsoever in
 this song, but it does in this report. Si estaban ellos en la cima del mundo o
 no, carece de importancia para esta canción, pero la tiene para este informe. -->	
 	
@@ -4142,7 +4147,7 @@ canto gregoriano están escritas en tetragramas. -->
 <!-- From: http://es.wikipedia.org/wiki/Canto_gregoriano -->
 	
 	<rule>
-		<match lemma="gregorian" tags="*"/>
+		<match lemma="Gregorian" tags="*"/>
 		<match lemma="chant" tags="n.*">
 			<select lemma="canto" tags="n.*"/>
 		</match>
@@ -4158,7 +4163,7 @@ excepcional del posible entendimiento entre todas las partes. -->
 		</match>
 		<match lemma="of" tags="pr"/>
 		<match/>
-		<match lemma="understanding" tags="*"/>
+		<match lemma="understand" tags="*"/>
 	</rule>
 	
 <!-- She could not be here because she was arrested yesterday morning during an
@@ -4272,8 +4277,7 @@ una banda de estafadores cuyas actividades haya que detener. -->
 	 		<select lemma="banda" tags="n.*"/>
 	 	</match>
 	 	<match lemma="of" tags="pr"/>
-	 	<match lemma="con" tags="*"/>
-	 	<match lemma="men" tags="*"/>
+	 	<match lemma="con men" tags="*"/>
 	 </rule>
 	 
 <!-- Sunday strips (in English, sunday strip), which usually fill the entire
@@ -4282,9 +4286,9 @@ ocupar toda la página y en color. -->
 <!-- From: http://es.wikipedia.org/wiki/Tira_cómica -->
 	 
 	 <rule>
-	 	<match lemma="sunday" tags="*"/>
-	 	<match lemma="strips" tags="n.*">
-	 		<select lemma="tiras" tags="n.*"/>
+	 	<match lemma="Sunday" tags="*"/>
+	 	<match lemma="strip" tags="n.*">
+	 		<select lemma="tira" tags="n.*"/>
 	 	</match>
 	 </rule>
 	 
@@ -4331,10 +4335,10 @@ si existen suficientes salidas de emergencia. -->
 	 
 <!-- Mr President, there has only been one victim of this afternoon's emergency
 drill and that is the answer to the question Mr Morillon asked the Commission, to
-which the Commission must, of course, reply!. Señor Presidente, la única víctima
+which the Commission must, of course, reply. Señor Presidente, la única víctima
 de nuestro ejercicio de evacuación de esta tarde es la respuesta a la pregunta
 que el Sr. Morillon había formulado a la Comisión ¡y a la que, naturalmente, la
-Comisión debe responder! -->	 
+Comisión debe responder. -->	 
 	 
 	 <rule>
 	 	<match lemma="emergency" tags="*"/>
@@ -4372,6 +4376,7 @@ posiblemente en alguna forma de modificación del ejercicio presupuestario que e
 Parlamento tendrá que concluir en el último trimestre de este año respecto del
 presupuesto para 2001? ¿Y puede decir si la Comisión tiene previsto ese
 procedimiento? -->	 
+<!-- Bug: Exercise is mistagged by the system as a verb, should be a noun -->
 	 
 	 <rule>
 	 	<match lemma="budget" tags="*"/>
@@ -4405,8 +4410,8 @@ construyendo para el Campeonato Mundial de Fútbol. -->
 	 		<select lemma="estadio" tags="n.*"/>
 	 	</match>
 	 	<match lemma="for" tags="pr"/>
-	 	<match lemma="world" tags="*"/>
-	 	<match lemma="cup" tags="*"/>
+	 	<match lemma="World" tags="*"/>
+	 	<match lemma="Cup" tags="*"/>
 	 	<match lemma="football" tags="*"/>
 	 </rule>
 	 
@@ -4430,7 +4435,7 @@ ahora oídos sordos a todos los consejos de los expertos, existe un riesgo real
 de que este yacimiento neolítico único se eche a perder. -->	 
 	 
 	 <rule>
-	   	<match lemma="neolithic" tags="*"/>
+	   	<match lemma="Neolithic" tags="*"/>
 	 	<match lemma="site" tags="n.*">
 	 		<select lemma="yacimiento" tags="n.*"/>
 	 	</match>
@@ -4443,7 +4448,7 @@ transparencia, apoyo la creación de un sitio Internet interactivo que permita a
 los ciudadanos acceder a todas las informaciones útiles sobre este proyecto. -->	 
 	 
 	 <rule>
-	   	<match lemma="internet" tags="*"/>
+	   	<match lemma="Internet" tags="*"/>
 	 	<match lemma="site" tags="n.*">
 	 		<select lemma="sitio" tags="n.*"/>
 	 	</match>
@@ -4481,7 +4486,7 @@ menos en nuestro continente, ya no tiene sentido llamarnos europeos. -->
 	  		<select lemma="algo" tags="n.*"/>
 	  	</match>
 	  	<match lemma="of" tags="pr"/>
-	  	<match lemma="fishing" tags="*"/>
+	  	<match lemma="fish" tags="*"/>
 	 </rule>
 	 
 <!-- The aim should be to create a single aviation protection area, which implies
@@ -4556,8 +4561,8 @@ base para dispositivos de comunicaciones como módems o tarjetas de red. -->
 	  	</match>
 	  </rule>
 	  
-<!-- If you give me the ball to kick off, I am sure I will not stop until I score
-a goal!	Si me da el balón lo más seguro es que no me limitaré a hacer el saque de
+<!-- If you give me the ball for the kick off, I am sure I will not stop until I score
+a goal.	Si me da el balón lo más seguro es que no me limitaré a hacer el saque de
 honor, sino que iré hasta la portería. -->	  
 	  
 	  <rule>
@@ -4652,6 +4657,7 @@ inclusión de disposiciones relativas a técnicas de investigación nuevas o
 modernas, dada su eficacia en la lucha contra el tipo de crimen que tiene más
 probabilidades de sacar provecho de la apertura de fronteras; el crimen
 organizado. -->	  
+<!-- Bug: Opening is mistagged by system as verb, should be noun -->
 	  
 	  <rule>
 	  	<match lemma="opening" tags="n.*">
@@ -4670,6 +4676,7 @@ conseguido lo esencial: el inicio de las negociaciones para una mayor
 liberalización del comercio mundial, aplazadas en Seattle y claramente puestas en
 entredicho durante este año por organizaciones mundiales, en particular las que
 estuvieron presentes en el Foro Social Mundial de Porto Alegre y en Génova. -->	  
+<!-- Bug: Opening is mistagged by system as verb, should be noun -->	  
 	  
 	  <rule>
 	  	<match lemma="opening" tags="n.*">
@@ -4750,9 +4757,9 @@ servicio, que constituye la base del trato con los países ACP. -->
 	   	<match lemma="deal" tags="n.*">
 	   		<select lemma="trato" tags="n.*"/>
 	   	</match>
-	   	<match lemma="with" tags="pr"/>
 	   	<match/>
-	   	<match lemma="acp" tags="*"/>
+	   	<match/>
+	   	<match lemma="ACP" tags="*"/>
 	   	<match lemma="country" tags="n.pl"/>
 	  </rule>
 	  
@@ -4789,6 +4796,7 @@ block which in time will ensure that the Union as an economic entity becomes
 more competitive. Sé que también aumentará la talla de la Unión Europea en
 tanto que bloque comercial, lo que hará, con el tiempo, que la Unión como
 entidad económica sea más competitiva. -->	
+<!-- Bug: Block is mistagged by the system as a verb, should be a noun -->
 	
 	<rule>
 		<match lemma="trading" tags="*"/>
@@ -4805,6 +4813,7 @@ rights and responsibilities in coming of age. Han cumplido 18 años este año, e
 intensidad en el mundo pero que también es el año en que muchos jóvenes en el
 mundo adquieren la plena capacidad de sus derechos y de sus obligaciones al
 alcanzar la mayoría de edad. -->	
+<!-- Bug: Coming is mistagged by system as a adjective, should be noun -->
 	
 	<rule>
 		<match lemma="coming" tags="n.*">
@@ -4919,8 +4928,7 @@ más amplia que ojalá fomente también en el futuro la cooperación y la
 coordinación entre los participantes más importantes. -->	
 	
 	<rule>
-		<match lemma="united" tags="*"/>
-		<match lemma="nation" tags="n.pl"/>
+		<match lemma="United Nations" tags="*"/>
 	  	<match lemma="event" tags="n.*">
 	  		<select lemma="evento" tags="n.*"/>
 	  	</match>
@@ -5083,8 +5091,8 @@ epilépticos debido a sus cambios bruscos y repetidos de colores. -->
 	
 	<rule>
 		<match lemma="epileptic" tags="*"/>
-		<match lemma="seizures" tags="n.*">
-			<select lemma="ataques" tags="n.*"/>
+		<match lemma="seizure" tags="n.*">
+			<select lemma="ataque" tags="n.*"/>
 		</match>
 	</rule>
 	
@@ -5114,7 +5122,7 @@ ganar. -->
 	
 	<rule>
 	  	<match lemma="carry" tags="vblex.*"/>
-		<match lemma="out" tags="*"/>
+	  	<match lemma="out" tags="pr"/>
 		<match/>
   		<match lemma="deed" tags="n.*">
   			<select lemma="acción" tags="n.*"/>
@@ -5145,12 +5153,13 @@ tejado de cada uno y un par de molinos en cada pueblo. -->
   		</match>
   	</rule>
   	
-<!-- It is only the tip of the iceberg or a Pandora' s box which has been open
+<!-- It is only the tip of the iceberg or a Pandora's box which has been open
 for a long time. Es solamente la punta de un iceberg. La caja de Pandora se
 abrió ya hace tiempo. -->  	
+<!-- Bug: Box is mistagged by system as verb, should be noun -->
   	
   	<rule>
-  		<match lemma="pandora" tags="*"/>
+  		<match lemma="Pandora" tags="*"/>
   		<match lemma="'s" tags="gen"/>
   		<match lemma="box" tags="n.*">
   			<select lemma="caja" tags="n.*"/>
@@ -5199,7 +5208,7 @@ telón de acero y el muro de Berlín cayeron por la información internacional y
 la necesidad de libertad que de ella resultó.-->  	
   	
   	<rule>
-  	 	<match lemma="berlin" tags="*"/>
+  	 	<match lemma="Berlin" tags="*"/>
   		<match lemma="wall" tags="n.*">
   			<select lemma="muro" tags="n.*"/>
   		</match>
@@ -5371,7 +5380,7 @@ moderna. -->
   	<rule>
   	  <or>
   	  	<match lemma="hedonistic" tags="*"/>
-  		<match lemma="materialistic" tags="*"/>
+  		<match lemma="materialist" tags="*"/>
   	  </or>	
   		<match lemma="life" tags="*"/>
   		<match lemma="style" tags="n.*">
@@ -5440,7 +5449,7 @@ Alemania, países casi vecinos, sin contar la extensión de agua que los separa.
 <!-- From: http://es.wikipedia.org/wiki/Corteza -->
 
 	<rule>
-	  	<match lemma="eucalyptus" tags="*"/>
+	  	<match lemma="Eucalyptus" tags="*"/>
 		<match lemma="bark" tags="n.*">
 			<select lemma="corteza" tags="n.*"/>
 		</match>
@@ -5489,7 +5498,7 @@ la enseñanza secundaria se sitúa en 100, se ubica en 84,9, en Alemania y en 13
 en Francia. -->	
 	
 	<rule>
-		<match lemma="spending" tags="*"/>
+		<match lemma="spend" tags="*"/>
 		<match lemma="per" tags="*"/>
 		<match lemma="pupil" tags="n.*">
 			<select lemma="alumno" tags="n.*"/>
@@ -5508,7 +5517,7 @@ tres poderes, tú tienes que ser uno de los dos poderes.» -->
 	  	</match>
 	  	<match lemma="in" tags="pr"/>
 	  	<match/>
-	  	<match lemma="politic" tags="n.pl"/>
+	  	<match lemma="politics" tags="*"/>
 	</rule>
 	
 <!-- I too, like other fellow Members, recently went to Afghanistan with a
@@ -5573,7 +5582,7 @@ ejercicio de su trabajo. -->
 	  		<select lemma="coto" tags="n.*"/>
 	  	</match>
 	  	<match lemma="of" tags="pr"/>
-	  	<match lemma="fishermen" tags="*"/>
+	  	<match lemma="fisherman" tags="n.pl"/>
 	</rule>
 	
 <!-- We are addressing them to try to preserve species under renewed threat,
@@ -5744,9 +5753,9 @@ de litros de agua y aire tritiados cada año. -->
 			<select lemma="descarga" tags="n.*"/>
 		</match>
 		<match lemma="of" tags="pr"/>
-		<match lemma="tritium" tags="*"/>
+		<match lemma="Tritium" tags="*"/>
 	</rule>	
-
+	
 <!-- Nevertheless, further devastating attacks - in Kaluchak and in Srinagar - 
 border skirmishes and the re-emergence of the dialectic of confrontation, with
 the recent missile tests by Pakistan that matched those by India in January, have

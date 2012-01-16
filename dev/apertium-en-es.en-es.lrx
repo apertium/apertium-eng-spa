@@ -7376,5 +7376,24 @@ convertirse en un personaje de moda o importante. -->
 		</match>
 	</rule>		
 	
+	<rule> <!-- snow on the slopes ... -->
+		<match lemma="snow" tags="n.*"/>
+		<match tags="pr"/>
+		<match/>
+		<match lemma="slope" tags="n.*">
+			<select lemma="ladera" tags="n.f.*"/>
+		</match>
+	</rule>		
+		
+	<rule> <!-- snow on the nearby slopes ... -->
+		<match lemma="snow" tags="n.*"/>
+		<match tags="pr"/>
+		<match/>
+		<match/>
+		<match lemma="slope" tags="n.*">
+			<select lemma="ladera" tags="n.f.*"/>
+		</match>
+	</rule>		
+
 			
 </rules>

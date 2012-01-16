@@ -7395,5 +7395,17 @@ convertirse en un personaje de moda o importante. -->
 		</match>
 	</rule>		
 
+	<rule> <!-- the costs of running the state -->
+		<match lemma="cost" tags="n.*">
+			<select lemma="gasto" tags="n.m.*"/>
+		</match>
+                <match lemma="of" tags="pr"/>
+		<match lemma="run" tags="vblex.ger">
+			<select lemma="functionar" tags="vblex.*"/>
+		</match>
+	</rule>		
+
+
+
 			
 </rules>

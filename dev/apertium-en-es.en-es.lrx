@@ -7405,6 +7405,11 @@ convertirse en un personaje de moda o importante. -->
 		</match>
 	</rule>		
 
+        <rule c=": 5"> <!-- Those preferring to save money... -->
+          <match lemma="save" tags="vblex.*"><select lemma="ahorrar" tags="vblex.*"/></match>
+          <match lemma="money" tags="n.*"/>
+        </rule>
+
 
 
 			

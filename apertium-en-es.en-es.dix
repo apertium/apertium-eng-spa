@@ -10598,6 +10598,7 @@
     <e>  <p><l>Lima<s n="np"/><s n="loc"/></l><r>Lima<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
     <e>  <p><l>Linux<s n="np"/><s n="al"/></l><r>Linux<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>Apple<s n="np"/><s n="al"/></l><r>Apple<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+    <e>  <p><l>AZF<s n="np"/><s n="al"/></l><r>AZF<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>Aer<b/>Lingus<s n="np"/><s n="al"/></l><r>Aer<b/>Lingus<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>China<b/>National<b/>Petroleum<b/>Corporation<s n="np"/><s n="al"/></l><r>China<b/>National<b/>Petroleum<b/>Corporation<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e>  <p><l>Victoria's<b/>Secret<s n="np"/><s n="al"/></l><r>Victoria's<b/>Secret<s n="np"/><s n="al"/><s n="m"/></r></p></e>
@@ -11559,6 +11560,7 @@
     <e r="RL"><p><l>behaviour<s n="n"/></l><r>conducta<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>behaviour<s n="n"/></l><r>proceder<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>being<s n="n"/></l><r>ser<s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>beet<s n="n"/></l><r>remolacha<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>belief<s n="n"/></l><r>creencia<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>believer<s n="n"/></l><r>creyente<s n="n"/><s n="mf"/></r></p></e>
     <e slr="campana D"><p><l>bell<s n="n"/></l><r>campana<s n="n"/><s n="f"/></r></p></e>
@@ -13422,6 +13424,7 @@
     <e r="RL"><p><l>fencer<s n="n"/></l><r>tirador<s n="n"/></r></p></e>
     <e>  <p><l>feng<b/>shui<s n="n"/></l><r>feng<b/>shui<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fermentation<s n="n"/></l><r>fermentación<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="fertilizante"><p><l>fertiliser<s n="n"/></l><r>fertilizante<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>fertility<s n="n"/></l><r>fertilidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>festival<s n="n"/></l><r>festival<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>fetter<s n="n"/></l><r>traba<s n="n"/><s n="f"/></r></p></e>
@@ -13531,6 +13534,7 @@
     <e>  <p><l>football<s n="n"/><s n="pl"/></l><r>pelota<g><b/>de<b/>fútbol</g><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>football<s n="n"/><s n="sg"/></l><r>pelota<g><b/>de<b/>fútbol</g><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e>  <p><l>footballer<s n="n"/></l><r>futbolista<s n="n"/><s n="mf"/></r></p></e>
+    <e>  <p><l>folketing<s n="n"/></l><r>folketing<s n="n"/><s n="mf"/></r></p></e>
     <e>  <p><l>footprint<s n="n"/></l><r>huella<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>footwear<s n="n"/></l><r>calzado<s n="n"/><s n="m"/></r></p></e>
    <e>  <p><l>FPÖ<s n="n"/></l><r>FPÖ<s n="n"/><s n="m"/></r></p></e>
@@ -15461,6 +15465,8 @@
     <e>  <p><l>plankton<s n="n"/></l><r>plancton<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>planning<s n="n"/></l><r>planificación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>plant<s n="n"/></l><r>planta<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="fábrica"><p><l>plant<s n="n"/></l><r>fábrica<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="maquinaria"><p><l>plant<s n="n"/></l><r>maquinaria<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>plantation<s n="n"/></l><r>plantación<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>plastic<s n="n"/></l><r>plástico<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>plate<s n="n"/></l><r>lámina<s n="n"/><s n="f"/></r></p></e>
@@ -16622,8 +16628,10 @@
     <e r="RL"><p><l>spare<s n="n"/></l><r>repuesto<s n="n"/><s n="m"/></r></p></e>
     <e slr="altavoz"><p><l>speaker<s n="n"/></l><r>altavoz<s n="n"/><s n="m"/></r></p></e>
     <e slr="hablante D"><p><l>speaker<s n="n"/></l><r>hablante<s n="n"/><s n="mf"/></r></p></e>
-    <e r="RL"><p><l>speaker<s n="n"/></l><r>interlocutor<s n="n"/></r></p></e>
     <e slr="ponente"><p><l>speaker<s n="n"/></l><r>ponente<s n="n"/><s n="mf"/></r></p></e>
+    <e r="LR" slr="oradora"><p><l>speaker<s n="n"/></l><r>oradora<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="presidente"><p><l>speaker<s n="n"/></l><r>presidente<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="interlocutor"><p><l>speaker<s n="n"/></l><r>interlocutor<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>specialist<s n="n"/></l><r>especialista<s n="n"/><s n="mf"/></r></p></e>
     <e>  <p><l>speciality<s n="n"/></l><r>especialidad<s n="n"/><s n="f"/></r></p></e>
     <e>  <p><l>specialisation<s n="n"/></l><r>especialización<s n="n"/><s n="f"/></r></p></e>
@@ -17604,6 +17612,7 @@
     <e>  <p><l>workbench<s n="n"/></l><r>banco<g><b/>de<b/>trabajo</g><s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>worker<s n="n"/></l><r>trabajador<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>worker<s n="n"/></l><r>trabajador<s n="n"/></r></p></e>
+    <e slr="personal D"><p><l>workforce<s n="n"/></l><r>personal<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>workshop<s n="n"/></l><r>taller<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>world<s n="n"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
     <e>  <p><l>worm<s n="n"/></l><r>gusano<s n="n"/><s n="m"/></r></p></e>
@@ -21783,6 +21792,8 @@
     <e>  <p><l>place<s n="vblex"/></l><r>colocar<s n="vblex"/></r></p></e>
     <e srl="plan D">  <p><l>plan<s n="vblex"/></l><r>planear<s n="vblex"/></r></p></e>
     <e>  <p><l>plant<s n="vblex"/></l><r>plantar<s n="vblex"/></r></p></e>
+    <e slr="colocar"><p><l>plant<s n="vblex"/></l><r>colocar<s n="vblex"/></r></p></e>
+    <e slr="sembrar"><p><l>plant<s n="vblex"/></l><r>sembrar<s n="vblex"/></r></p></e>
     <e>  <p><l>plaster<s n="vblex"/></l><r>escayolar<s n="vblex"/></r></p></e>
     <e r="LR" slr="interpretar"><p><l>play<s n="vblex"/></l><r>interpretar<s n="vblex"/></r></p></e>
     <e slr="jugar D"><p><l>play<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
@@ -26403,6 +26414,7 @@
         <e>  <p>  <l>eutrophic<s n="adj"/></l><r>eutrófico<s n="adj"/></r></p></e>
         <e>  <p>  <l>quasi-geostrophic<s n="adj"/></l><r>casi-geostrófico<s n="adj"/></r></p></e>
         <e>  <p>  <l>geostrophic<s n="adj"/></l><r>geostrófico<s n="adj"/></r></p></e>
+        <e>  <p>  <l>fertiliser<s n="adj"/></l><r>fertilizante<s n="adj"/></r></p></e>
         <e>  <p>  <l>evaporation<s n="n"/></l><r>evaporación<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>eversion<s n="n"/></l><r>eversión<s n="n"/><s n="f"/></r></p></e>
         <e>  <p>  <l>avoidable<s n="adj"/></l><r>evitable<s n="adj"/><s n="mf"/></r></p></e>
@@ -31133,7 +31145,6 @@
 <e a="greenbreen"><p><l>reflecting<s n="adj"/></l><r>reflector<s n="adj"/></r></p></e>
 <e a="greenbreen"><p><l>treble<s n="n"/><s n="sg"/></l><r>agudos<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR" a="greenbreen"><p><l>treble<s n="n"/><s n="pl"/></l><r>agudos<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e a="greenbreen"><p><l>frequency<b/>response<s n="n"/></l><r>respuesta<g><b/>en<b/>frecuencia</g><s n="n"/><s n="f"/></r></p></e>
 <e a="greenbreen"><p><l>diffuser<s n="n"/></l><r>difusor<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>urban<b/>area<s n="n"/></l><r>casco<b/>urbano<s n="n"/><s n="m"/></r></p></e>
 <e a="greenbreen"><p><l>anechoic<s n="adj"/></l><r>anecoico<s n="adj"/></r></p></e>
@@ -32056,6 +32067,7 @@
     <e><p><l>Berry<s n="np"/><s n="cog"/></l><r>Berry<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Black<s n="np"/><s n="cog"/></l><r>Black<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Chavez<s n="np"/><s n="cog"/></l><r>Chavez<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Cisterna<s n="np"/><s n="cog"/></l><r>Cisterna<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Clarke<s n="np"/><s n="cog"/></l><r>Clarke<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Coen<s n="np"/><s n="cog"/></l><r>Coen<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Collantes<s n="np"/><s n="cog"/></l><r>Collantes<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>

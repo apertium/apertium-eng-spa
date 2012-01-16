@@ -7145,6 +7145,236 @@ convertirse en un personaje de moda o importante. -->
 		<match lemma="on" tags="*"/>
 		<match lemma="something" tags="*"/>
 	</rule>	
+
+<!-- In Italy, Commissioner Liikanen, Goodyear is not carrying out restructuring but closing a plant whose production covers 14% of the market and which Goodyear itself defined as, 'having the most highly-skilled workforce of all its plants' , a plant which was opened with a total of EUR 85 million of European capital.	En Italia, señor comisario Liikanen, Goodyear no está llevando a cabo una reestructuración, sino el cierre de una fábrica que con su producción cubre el 14% del mercado y que la misma Goodyear ha definido "para la mayor cualificación de sus empleados" , una fábrica que se abrió invirtiendo dinero europeo por un total de 85 millones de euros. -->	
+<!-- Rule Test: http://pastebin.com/nUM23iBZ -->
+
+	<rule>
+		<match lemma="close" tags="vblex.*"/>
+		<match/>
+		<match lemma="plant" tags="n.*">
+			<select lemma="fábrica" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- In Italy, Commissioner Liikanen, Goodyear is not carrying out restructuring but closing a plant whose production covers 14% of the market and which Goodyear itself defined as, 'having the most highly-skilled workforce of all its plants' , a plant which was opened with a total of EUR 85 million of European capital.	En Italia, señor comisario Liikanen, Goodyear no está llevando a cabo una reestructuración, sino el cierre de una fábrica que con su producción cubre el 14% del mercado y que la misma Goodyear ha definido "para la mayor cualificación de sus empleados" , una fábrica que se abrió invirtiendo dinero europeo por un total de 85 millones de euros. -->	
+<!-- Rule Test: http://pastebin.com/ePBvU941 -->
+	
+	<rule>
+		<match lemma="workforce" tags="*"/>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match/>
+		<match lemma="plant" tags="n.*">
+			<select lemma="fábrica" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- I do not think this is at all fair, either to the workers at the Cisterna plant or to all those Italian and European citizens whose taxes have, albeit indirectly, enabled Goodyear to benefit from the state aids I have just mentioned.	Creo que esto no es justo: no lo es para los trabajadores de la fábrica de Cisterna y tampoco para todos esos ciudadanos italianos y europeos que, aunque indirectamente, a través de los impuestos, han permitido a Goodyear beneficiarse de esas ayudas estatales a las que me he referido antes. -->
+<!-- Rule Test: http://pastebin.com/g5Nbx81r -->
+
+	<rule>
+		<match lemma="Cisterna" tags="*"/>
+		<match lemma="plant" tags="n.*">
+			<select lemma="fábrica" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- This means that the economic viability of the only sugar beet processing plant in mainland Portugal, in Coruche, could be jeopardised if it does not reach an output close to 100 000 tonnes.	Ahora bien, en el futuro podría estar en riesgo la viabilidad económica de la única fábrica de transformación de remolacha del Portugal continental, que se encuentra en Coruche, si ésta no alcanza una elaboración próxima a las 100.000 toneladas. -->
+<!-- Rule Test: http://pastebin.com/B38DEiWu -->
+
+	<rule>
+		<match lemma="beet" tags="*"/>
+		<match lemma="process" tags="*"/>
+		<match lemma="plant" tags="n.*">
+			<select lemma="fábrica" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- This fertiliser plant is owned by Atofina the chemical branch of the Total/Fina/Elf group.	Se trata de una fábrica de abonos propiedad de Atofina, que es la rama química del Grupo TotalFinaElf. -->
+<!-- Rule Test: http://pastebin.com/1ArRUM5h -->
+
+	<rule>
+		<match lemma="fertiliser" tags="*"/>
+		<match lemma="plant" tags="n.*">
+			<select lemma="fábrica" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- At the moment, despite rumours in the press, the Commission has no indication that there was either a deficiency on behalf of the operator managing the plant and complying with Seveso II or on behalf of the French control authorities responsible for inspecting the site.	Por el momento, a pesar de algunos rumores mencionados en la prensa, la Comisión no tiene indicación alguna de que se haya registrado una deficiencia del operador en lo que se refiere a la gestión de la fábrica y al cumplimiento de la directiva Seveso II ni de las autoridades francesas de control responsables de la inspección del emplazamiento. -->
+<!-- Rule Test: http://pastebin.com/bg1N1yCH -->
+
+	<rule>
+		<match lemma="manage" tags="vblex.*"/>
+		<match/>
+		<match lemma="plant" tags="n.*">
+			<select lemma="fábrica" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- Furthermore, the staff representatives at the AZF plant vigorously repudiate the description of a sink-factory.	Además, los representantes del personal de la fábrica AZF se niegan enérgicamente a que la fábrica sea descrita como una productora de residuos. -->
+<!-- Rule Test: http://pastebin.com/gbCpbjck -->
+
+	<rule>
+		<match lemma="AZF" tags="*"/>
+		<match lemma="plant" tags="n.*">
+			<select lemma="fábrica" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- As regards extensions to the scope elsewhere, I would draw the Commissioner's attention to the deletion of some of the exemptions, with regard to offshore plant and with regard to some of the large gas turbines used in mobile machinery etc. where, again, the emissions are significant and need to be addressed, recognising of course the particular circumstances that exist in those cases.	En lo que respecta a las ampliaciones del alcance a otras partes, quisiera llamar la atención del Comisario sobre la desaparición de algunas de las excepciones respecto a las instalaciones marinas y respecto a algunas de las grandes turbinas de gas que se utilizan en la maquinaria móvil, etc., que, una vez más, producen emisiones considerables y deben tenerse en cuenta, reconociendo, naturalmente, las circunstancias particulares que existen en dichos casos. -->
+<!-- Rule Test: http://pastebin.com/SwcgW5iA -->
+
+	<rule>
+		<match lemma="offshore" tags="*"/>
+		<match lemma="plant" tags="n.*">
+			<select lemma="maquinaria" tags="n.*"/>
+		</match>
+	</rule>	
+	
+<!-- Would he also further agree with me that we cannot forget the bombs at Canary Wharf and Manchester and the wanton destruction and loss of life that that entailed, or, indeed, in his own country, the discovery of the bomb factory in County Laois and the worry that gives, because people just do not make bombs or hijack lorries to plant bombs without serious intent?	¿Coincidiría además conmigo en que no podemos olvidar las bombas de Canary Wharf y Manchester ni la destrucción y las pérdidas de vidas injustificables que ocasionaron, ni tampoco, en su propio país, el descubrimiento de una fábrica de bombas en el Condado de Laois y la inquietud que todo ello produce, porque la gente no fabrica bombas ni secuestra camiones para colocar bombas sin el firme propósito de utilizarlas? -->
+<!-- Rule Test: http://pastebin.com/BhPUAf0D -->
+
+	<rule>
+		<match lemma="plant" tags="vblex.*">
+			<select lemma="colocar" tags="vblex.*"/>
+		</match>
+		<match lemma="bomb" tags="n.pl"/>
+	</rule>
+	
+<!-- It would make a good deal of sense to plant protein crops on this land, because we cover only 20 % of our own protein needs within the EU: it would be an excellent idea to make up for our protein deficit by starting to produce protein crops.	Sería muy oportuno sembrar en estas superficies plantas albuminosas pues en la UE cubrimos nuestras necesidades de proteínas sólo en un 20 %; sería muy importante llenar esta gran falta de proteína incrementando la producción de proteína. -->
+<!-- Rule Test: http://pastebin.com/vCzGy3ym -->
+
+	<rule>
+		<match lemma="plant" tags="vblex.*">
+			<select lemma="sembrar" tags="vblex.*"/>
+		</match>
+		<match/>
+		<match lemma="crop" tags="n.pl"/>
+	</rule>	
+	
+<!-- I am probably the only speaker from a southern country, which, moreover, is the largest producer of pigs in the European Union.	Probablemente soy la única oradora de un país del sur que, además, es el mayor productor de cerdos de la Unión Europea. -->
+<!-- Rule Test: http://pastebin.com/jufXRc4U -->
+
+	<rule>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="oradora" tags="n.*"/>
+		</match>
+		<match lemma="from" tags="pr"/>
+		<match/>
+		<match/>
+		<match lemma="country" tags="*"/>
+	</rule>
+	
+<!-- Mr President, as the speaker from my group, I would like to pay tribute to the rapporteur on behalf of all my colleagues who work closely with him.	Señor Presidente, como orador de mi Grupo, quisiera rendir homenaje al ponente en nombre de todos mis colegas que trabajan en estrecha colaboración con él. -->
+<!-- Rule Test: http://pastebin.com/ELP3Uf9G -->
+
+	<rule>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="oradora" tags="n.*"/>
+		</match>
+		<match lemma="from" tags="pr"/>
+		<match/>
+		<match lemma="group" tags="*"/>
+	</rule>	
+	
+<!-- The early departure of the United States left the European Union in the position of main speaker and basically left it to shoulder the main burden of the negotiations.	La temprana partida de los Estados Unidos dejó a la Unión Europea en la posición de interlocutor principal, y de hecho la obligó a soportar el peso principal de las negociaciones. -->
+<!-- Rule Test: http://pastebin.com/jAEyzL8B -->
+
+	<rule>
+		<match lemma="main" tags="*"/>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="interlocutor" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- It is not that you listen politely against a background of indifference; rather, you listen attentively against a background of respect for the speaker and, by extension, a desire to understand the speaker's motivations.	No se trata de que escucha por cortesía sobre un fondo de indiferencia, sino que lo hace atentamente sobre un fondo de respeto por el interlocutor y, por tanto, de voluntad de comprender sus motivaciones. -->
+<!-- Rule Test: http://pastebin.com/UwbRMKkv -->
+
+	<rule>
+		<match lemma="respect" tags="*"/>
+		<match lemma="for" tags="pr"/>
+		<match/>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="interlocutor" tags="n.*"/>
+		</match>
+	</rule>
+	
+<!-- What you need is a loud speaker to broadcast this message to those outside the Chamber, as it is those who are coming back in who are disturbing our work.	Lo que necesita es un altavoz para que su mensaje llegue también a todos aquellos que se encuentran fuera del hemiciclo, ya que son los que vuelven quienes están molestando. -->
+<!-- Rule Test: http://pastebin.com/4GzLhbgy -->
+
+	<rule>
+		<match lemma="loud" tags="*"/>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="altavoz" tags="n.*"/>
+		</match>
+		<match lemma="to" tags="pr"/>
+		<match lemma="broadcast" tags="*"/>
+	</rule>
+	
+<!-- You probably know who I am talking about, Mr Rios Mont, at present speaker of the parliament.	Sabrán seguramente a quien me refiero, se trata del Sr. Ríos Mont, el actual presidente del parlamento. -->
+<!-- Rule Test: http://pastebin.com/iAZwzNZg -->
+
+	<rule>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="presidente" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="parliament" tags="*"/>
+	</rule>
+	
+<!-- Mr Mejdahl, speaker of the Danish Folketing, is very welcome here this afternoon.	Nos complace mucho la presencia esta tarde del Sr. Mejdahl, presidente del Folketing danés. -->
+<!-- Rule Test: http://pastebin.com/NEBRhVNR -->
+
+	<rule>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="presidente" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="danish" tags="*"/>
+		<match lemma="Folketing" tags="*"/>
+	</rule>
+	
+<!-- The positions of my fellow Members and of the Commissioner and the President-in-Office, and all the disappointments expressed in this House about the climate prevailing at the moment in Cyprus, bring me to the conclusion that, apart from the yes or no vote which has been debated closely here too, we should also hold an analytical debate on the proposal by the speaker of the Cypriot parliament, Dimitris Christofias, to postpone the referenda, especially in that postponement would need to be accompanied, on the one hand, by the clarification of certain points in the plan which are creating problems, such as security issues – I would ask Mr Patten to convey to Mr Verheugen the question of primary law and of people taking recourse to the courts – and, on the other hand, by work being carried out in the Security Council on the new resolution we want, which will include guarantees.	Las posiciones de mis colegas diputados, del Comisario y del Presidente en ejercicio, y todas las decepciones expresadas en esta Cámara sobre el clima imperante en estos momentos en Chipre, me llevan a concluir que, aparte del voto positivo o negativo sobre los que se ha deliberado en detalle también aquí, deberíamos mantener igualmente un debate analítico sobre la propuesta del presidente del Parlamento chipriota, Dimitris Christofias, de posponer el referendo, en especial debido a que el aplazamiento necesitaría que se acompañase, por un lado, de la clarificación de determinados puntos del plan que están creando problemas, como pueden ser las cuestiones de seguridad –pido al Sr. Patten que traslade al Sr. Verheugen la cuestión del Derecho primario y de la posibilidad de que las personas recurran ante los tribunales– y, por otro lado, por el trabajo que ha llevado a cabo el Consejo de Seguridad sobre la nueva resolución que queremos, que incluirá garantías. -->
+<!-- Rule Test: http://tinypaste.com/416cb68a -->
+
+	<rule>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="presidente" tags="n.*"/>
+		</match>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="cypriot" tags="*"/>
+		<match lemma="parliament" tags="*"/>
+	</rule>	
+	
+<!-- The President cut the speaker off.	El presidente retira la palabra al orador. -->
+<!-- Rule Test: http://tinypaste.com/64b5c8be -->
+
+	<rule>
+		<match lemma="cut" tags="vblex.*"/>
+		<match/>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="oradora" tags="n.*"/>
+		</match>
+		<match lemma="off" tags="*"/>
+	</rule>
+	
+<!-- It is the frequency response of the speaker. Es la respuesta en frecuencia del altavoz. -->
+<!-- From: http://es.wikipedia.org/wiki/Altoparlante -->
+<!-- Rule Test: http://tinypaste.com/981a3214 -->
+
+	<rule>
+		<match lemma="frequency" tags="*"/>
+		<match lemma="response" tags="*"/>
+		<match lemma="of" tags="pr"/>
+		<match/>
+		<match lemma="speaker" tags="n.*">
+			<select lemma="altavoz" tags="n.*"/>
+		</match>
+	</rule>		
 	
 			
 </rules>

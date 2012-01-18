@@ -1,0 +1,491 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf230
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww14920\viewh14640\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
+
+\f0\fs24 \cf0 \
+
+\f1\fs36 Rule Evaluation
+\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+1. \ul Selected Rule\ulnone : \
+- 9:SELECT:382 novato<n><GD><sg>\
+- 9:SELECT:382 novato<n><m><sg>\
+Note: Possible selected twice in source sentence?\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \ul \ulc0 Rule Pattern\ulnone : 	\
+	<rule>\
+	  	<match lemma="novice" tags="n.*">\
+	  		<select lemma="novato" tags="n.*"/>\
+	  	</match>\
+	  	<match lemma="in" tags="pr"/>\
+	  	<match/>\
+	  	<match lemma="politics" tags="*"/>\
+	</rule>\
+\ul Rule Number\ulnone : 382\
+\ul Source/Translated Sentence Number\ulnone : 9\
+\ul English Source Sentence\ulnone : "I'm rather a novice in Prague politics," responded Lukas Kaucky, the Councilor for culture, to the test of "Godfather" vocabulary.\
+\ul Spanish Source Sentence\ulnone : "M\'e1s bien soy un novato en la pol\'edtica praguense", afirm\'f3 durante el examen de terminolog\'eda de "colegueo" el concejal de cultura Luk\'e1\'9a Kauck\'fd.\
+\ul Spanish Translation with Rules\ulnone : Soy bastante un novato en pol\'edtica de Praga," Lukas respondido *Kaucky, el *Councilor para cultura, a la prueba de "vocabulario" de Padrino.\
+\ul Spanish Translation without Rules\ulnone : Soy bastante un novato en pol\'edtica de Praga," Lukas respondido *Kaucky, el *Councilor para cultura, a la prueba de "vocabulario" de Padrino.\
+\ul Analysis\ulnone : There is no change in translation between the translation when rules were applied and when they were not as the default translation of "novice" is "novato." Since "novato" is the default translation, it is selected regardless of if the rule is applied. Thus, this rule in ineffectual.\
+\
+2. \ul Selected Rule\ulnone :\
+- 42:SELECT:195 cuidado<n><m><sg>\
+\ul Rule Pattern\ulnone :	\
+	<rule>\
+		<match lemma="take" tags="vblex.*"/>\
+		<match lemma="care" tags="n.*">\
+			<select lemma="cuidado" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 195\
+Source/Translated Sentence Number: 42\
+\ul English Source Sentence\ulnone : "Nor healthy young women are sent away because they help with work and bear children," says the nun, who takes care for more than a hundred women banished from their community in a special care home in the capital of Burkina Faso, West Africa.\
+\ul Spanish Source Sentence\ulnone : "Tampoco se a\'edsla a las mujeres j\'f3venes sanas, porque ayudan en las labores y tienen hijos", explica una monja que, en la capital del estado de \'c1frica occidental Burkina Faso se ocupa en una residencia especial de m\'e1s de cien mujeres expulsadas de sus comunidades.\
+\ul Spanish Translation with Rules\ulnone : "Ni las mujeres j\'f3venes sanas est\'e1n enviadas fuera porque  ayudan con obra y ni\'f1os de oso," dice el *nun, qui\'e9n toma cuidado para m\'e1s de cien mujeres esfumaron de su comunidad en una casa de cuidado especial en el capital de Burkina Faso, \'c1frica Del oeste.\
+\ul Spanish Translation without Rules\ulnone : "Ni las mujeres j\'f3venes sanas est\'e1n enviadas fuera porque ayudan con obra y ni\'f1os de oso," dice el *nun, qui\'e9n toma cuidado para m\'e1s de cien mujeres esfumaron de su comunidad en una casa de cuidado especial en el capital de Burkina Faso, \'c1frica Del oeste.\
+\ul Analysis\ulnone : There is no change in translation of the source sentence regardless of if the rule is applied because "cuidado" is the default translation of "care." Therefore, this rule in ineffectual.\
+\
+3. \ul Selected Rule\ulnone :\
+- 127:SELECT:195 cuidado<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 		<match lemma="take" tags="vblex.*"/>\
+		<match lemma="care" tags="n.*">\
+			<select lemma="cuidado" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 195\
+\ul Source/Translated Sentence Number\ulnone : 127\
+\ul English Source Sentence\ulnone : The care is provided by qualified staff, children are taken care of by a nurse and a kindergarten teacher all day; the kindergarten can therefore be attended by children without any age restrictions, but most of them are over 3 years old.\
+\ul Spanish Source Sentence\ulnone : La atenci\'f3n de los ni\'f1os est\'e1 en manos de personal cualificado; adem\'e1s, est\'e1n presentes todo el d\'eda para sus cuidados una enfermera y una profesora del Ministerio de Educaci\'f3n. La guarder\'eda actualmente acoge a ni\'f1os sin l\'edmite de edad, aunque la mayor\'eda de ellos tiene menos de tres a\'f1os.\
+\ul Spanish Translation with Rules\ulnone : El cuidado est\'e1 proporcionado por personal cualificado, los ni\'f1os est\'e1n tomados cuidado de por un enfermero y un profesor de guarder\'eda todo el d\'eda; la guarder\'eda por tanto puede ser atendida por ni\'f1os sin cualesquier restricciones de edad, pero la mayor\'eda de ellos tiene encima 3 a\'f1os.\
+\ul Spanish Translation without Rules\ulnone : El cuidado est\'e1 proporcionado por personal cualificado, los ni\'f1os est\'e1n tomados cuidado de por un enfermero y un profesor de guarder\'eda todo el d\'eda; la guarder\'eda por tanto puede ser atendida por ni\'f1os sin cualesquier restricciones de edad, pero la mayor\'eda de ellos tiene encima 3 a\'f1os.\
+\ul Analysis\ulnone : There is no change in translation between when the rule is applied and when it isn't because "cuidado" is the default translation of "care" so it is applied regardless. Thus, this rule in ineffectual.\
+\
+4. \ul Selected Rule:\ulnone \
+- 430:SELECT:195 cuidado<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		<match lemma="take" tags="vblex.*"/>\
+		<match lemma="care" tags="n.*">\
+			<select lemma="cuidado" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 195\
+\ul Source/Translated Sentence Number\ulnone : 430\
+\ul English Source Sentence\ulnone : Old mill of Podebrady then takes care of their disabled employees, who are more than 70 percent of the whole staff, and was thus awarded with the title of Responsible Company in the Central Bohemia Region and won the third place in the Vodafone competition Company of the year.\
+\ul Spanish Source Sentence:\ulnone  En Pod&#283;brad, hay una papeler\'eda que se preocupa especialmente de los problemas de salud de sus trabajadores, puesto que constituyen m\'e1s del 70% de la plantilla; por eso recibi\'f3 el t\'edtulo de Empresa responsable de la zona central de Chequia y en el concurso Vodafone Empresa del a\'f1o acab\'f3 en tercer lugar en la regi\'f3n.\
+\ul Spanish Translation with Rules\ulnone : Molino viejo de *Podebrady entonces toma cuidado de sus empleados discapacitados, qui\'e9nes son m\'e1s de 70 por ciento del personal entero, y era as\'ed otorgado con el t\'edtulo de Empresa Responsable en el Central *Bohemia Regi\'f3n y gan\'f3 el tercer sitio en el *Vodafone Empresa de competici\'f3n del a\'f1o.\
+\ul Spanish Translation without Rules\ulnone : Molino viejo de *Podebrady entonces toma cuidado de sus empleados discapacitados, qui\'e9nes son m\'e1s de 70 por ciento del personal entero, y era as\'ed otorgado con el t\'edtulo de Empresa Responsable en el Central *Bohemia Regi\'f3n y gan\'f3 el tercer sitio en el *Vodafone Empresa de competici\'f3n del a\'f1o.\
+\ul Analysis\ulnone : There is no difference in translation despite the application of the rule because "cuidado" is the default translation of "care." As it is the default translation, it is applied regardless of the rule. Thus, this rule in ineffectual.\
+\
+5. \ul Selected Rule\ulnone :\
+- 616:SELECT:67 junta<n><f><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+	  	<match lemma="management" tags="*"/>\
+		<match lemma="board" tags="n.*">\
+			<select lemma="junta" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 67\
+\ul Source/Translated Sentence Number\ulnone : 616\
+\ul English Source Sentence\ulnone : He said the city had been informed of the intended move by the company's management board well in advance.\
+\ul Spanish Source Sentence\ulnone : La direcci\'f3n inform\'f3 antes a la ciudad sobre su intenci\'f3n.\
+\ul Spanish Translation with Rules\ulnone : Diga que la ciudad hab\'eda sido informado del movimiento pretendido por la junta de gesti\'f3n de la empresa bien por adelantado. \
+\ul Spanish Translation without Rules\ulnone : Diga que la ciudad hab\'eda sido informado del movimiento pretendido por la junta de gesti\'f3n de la empresa bien por adelantado.\
+\ul Analysis\ulnone : There is no change in translation regardless of if the rule is applied because "junta" is the default translation of "board." The default translation is applied unless a rule forces a different translation to be applied, as "junta" was the default translation it was applied without a rule forcing application. Thus, this rule is ineffectual.\
+\
+6. \ul Selected Rule\ulnone :\
+- 732:SELECT:347 evaluaci\'f3n<n><f><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		<match lemma="risk" tags="*"/>\
+		<match lemma="assessment" tags="n.*">\
+			<select lemma="evaluaci\'f3n" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 347\
+\ul Source/Translated Sentence Number\ulnone : 732\
+\ul English Source Sentence\ulnone : Harry Kuiper, chair of EFSA's expert panel responsible for the risk assessment of genetically engineered plants and another EFSA expert are also believed to have been working with the lobby group ILSI for years.\
+\ul Spanish Source Sentence\ulnone : Harry Kuiper, el director del grupo de expertos de Efsa sobre plantas gen\'e9ticamente modificadas, y otro experto de Efsa tambi\'e9n est\'e1n contratados desde hace a\'f1os en la asociaci\'f3n Ilsi.\
+\ul Spanish Translation with Rules\ulnone : Harry *Kuiper, silla de *EFSA  la #panel experta responsable para la evaluaci\'f3n de riesgo de gen\'e9ticamente *engineered plantas y otro *EFSA el experto es tambi\'e9n cre\'eddo a ha sido obrando con el *lobby grupo *ILSI para a\'f1os.\
+\ul Spanish Translation without Rules\ulnone : Harry *Kuiper, silla de *EFSA  la #panel experta responsable para la evaluaci\'f3n de riesgo de gen\'e9ticamente *engineered plantas y otro *EFSA el experto es tambi\'e9n cre\'eddo a ha sido obrando con el *lobby grupo *ILSI para a\'f1os.\
+\ul Analysis\ulnone : There is no change in translation between the translation with rules and without rules despite the fact that there are two definitions of "assessment" because the definition of assessment as "evaluaci\'f3n" is the only one recognized by the system, therefore it is always selected. Therefore, this rule has the potential to be effective if the default dictionary definition is fixed so as to be recognized by the system, however until then, it is ineffectual.\
+\
+7. \ul Selected Rule\ulnone :\
+- 1150:SELECT:83 se\'f1al<n><f><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		  <match lemma="good" tags="*"/>\
+		<match lemma="sign" tags="n.*">\
+			<select lemma="se\'f1al" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 83\
+Source/Translated Sentence Number: 1150\
+\ul English Source Sentence\ulnone : Still, his girlfriend is waiting for him in Auckland - "she got her dream job as event manager in no time - perhaps a good sign," says the young man and smiles.\
+\ul Spanish Source Sentence\ulnone : Por lo menos: Su novia le espera en Auckland, "de un tir\'f3 consigui\'f3 el trabajo de sus sue\'f1os como gestora de eventos, tal vez sea una buena se\'f1al", dice el joven y sonr\'ede.\
+\ul Spanish Translation with Rules\ulnone : Todav\'eda, su novia es esperando a \'e9l en *Auckland - "coja su trabajo de sue\'f1o como #gerente de #caso en ning\'fan tiempo - quiz\'e1s una se\'f1al buena," dice el hombre joven y sonrisas.\
+\ul Spanish Translation without Rules\ulnone : Todav\'eda, su novia es esperando a \'e9l en *Auckland - "coja su trabajo de sue\'f1o como #gerente de #caso en ning\'fan tiempo - quiz\'e1s un signo bueno," dice el hombre joven y sonrisas.\
+\ul Analysis\ulnone : As there are multiple definitions of "sign" in the dictionary, and all of them worked properly, the rule proved to be effective. When applied, the rule selected "se\'f1al" instead of the default "signo," resulting in a better translation then when the rule wasn't applied.\
+\
+8. \ul Selected Rule\ulnone :\
+- 1171:SELECT:200 giro<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		<match lemma="positive" tags="*"/>\
+		<match lemma="spin" tags="n.*">\
+			<select lemma="giro" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 200\
+\ul Source/Translated Sentence Number\ulnone : 1171\
+\ul English Source Sentence\ulnone : On the other hand, men such as Stephen McLarnon try to give the situation a positive spin.\
+\ul Spanish Source Sentence\ulnone : Personas como Stephen McLarnon intentan ver este tema de manera positiva.\
+\ul Spanish Translation with Rules\ulnone : Por otro lado, hombres como Stephen *McLarnon intenta dar la situaci\'f3n un giro positivo.\
+\ul Spanish Translation without Rules\ulnone : Por otro lado, hombres como Stephen *McLarnon intenta dar la situaci\'f3n un giro positivo.\
+\ul Analysis\ulnone : Although there are two dictionary definitions of "spin," "giro" was selected regardless of if the rule was applied or not, therefore, there is likely an issue with the other definition, as under normal circumstances "giro" would not be the selected translation. Thus, the rule could be effective if the other dictionary definition is fixed, but until then, it is ineffectual.\
+\
+9. \ul Selected Rule\ulnone :\
+- 1180:SELECT:49 turno<n><m><pl>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+	  <or>\
+	  	<match lemma="extra" tags="*"/>\
+		<match lemma="night" tags="*"/>\
+	  </or>	\
+		<match lemma="shift" tags="n.*">\
+			<select lemma="turno" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 49\
+\ul Source/Translated Sentence Number\ulnone : 1180\
+\ul English Source Sentence\ulnone : In the meantime, O'Donovan visits his home country seldom, as he is taking on extra shifts to be able to pay off the mortgage on his house at home.\
+\ul Spanish Source Sentence\ulnone : O'Donovan ve su patria solamente pocas veces porque trabaja horas extras para poder pagar un cr\'e9dito para su casa en Irlanda.\
+Spanish Translation with Rules: Mientras tanto, *O'Donovan visita su pa\'eds de casa raramente, como  est\'e1 apechugando con turnos extras para ser capaces de pagar de la hipoteca en su casa en casa.\
+\ul Spanish Translation without Rules\ulnone : Mientras tanto, *O'Donovan visita su pa\'eds de casa raramente, como  est\'e1 apechugando con turnos extras para ser capaces de pagar de la hipoteca en su casa en casa.\
+\ul Analysis\ulnone : Although this has happened several times, I can only conclude that the reason "turno" was selected both when the rules were applied and when they were not is because there is an issue with the default translation of "shift." Therefore, the rule could be effective, but will not be so long as there is a problem with the default definition of shift.\
+\
+10. \ul Selected Rule\ulnone :\
+- 1250:SELECT:280 documento<n><m><pl>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \ul \ulc0 Rule Pattern\ulnone : \
+	<rule>\
+		<match lemma="identity" tags="*"/>\
+		<match lemma="card" tags="n.*">\
+			<select lemma="documento" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 280\
+\ul Source/Translated Sentence Number\ulnone : 1250\
+\ul English Source Sentence\ulnone : Some 250,000 identity cards, required for voting, remained undistributed shortly before the election.\
+\ul Spanish Source Sentence\ulnone : Alrededor de 250.000 documentos de identidad, necesarios para votar, todav\'eda no se hab\'edan distribuido poco antes de las elecciones.\
+\ul Spanish Translation with Rules\ulnone : Algunos 250,000 documentos de identidad, requeridos para votar, quedado *undistributed poco antes de la elecci\'f3n.\
+\ul Spanish Translation without Rules\ulnone : Algunos 250,000 cartas de identidad, requeridos para votar, quedado *undistributed poco antes de la elecci\'f3n.\
+\ul Analysis\ulnone : In this case, the rule proved to be effective, resulting in a better translation. It selected for "documento" instead of the default "carta," resulting in a superior translation over what would be achieved without the rule.\
+\
+11. \ul Selected Rule\ulnone :\
+- 1683:SELECT:40 canal<n><f><sg>\
+\ul Rule Pattern\ulnone :\
+  <rule>\
+    	<match lemma="television" tags="*"/>\
+   	 <match lemma="station" tags="n.*">\
+    		  <select lemma="canal" tags="n.*"/>\
+   	 </match>\
+  </rule>\
+\ul Rule Number\ulnone : 40\
+\ul Source/Translated Sentence Number\ulnone : 1683\
+\ul English Source Sentence\ulnone : In September he told a Russian television station, when asked about a documentary suggesting he was corrupt: "It is mad, it is filth, it is a mess."\
+\ul Spanish Source Sentence\ulnone : En septiembre, cuando en un canal de televisi\'f3n ruso le preguntaron sobre un documental que suger\'eda que era corrupto, afirm\'f3: "Es una locura, una patra\'f1a, un fastidio."\
+\ul Spanish Translation with Rules\ulnone : En septiembre  diga una #canal televisiva rusa, cu\'e1ndo pedido sobre un documental sugiriendo sea corrupto: "es loco, es porquer\'eda, es un desorden.\
+\ul Spanish Translation without Rules\ulnone : En septiembre  diga una #canal televisiva rusa, cu\'e1ndo pedido sobre un documental sugiriendo sea corrupto: "es loco, es porquer\'eda, es un desorden.\
+\ul Analysis\ulnone : This rule is currently ineffectual, although I am not entirely sure as to why. It was selected both when the rule was applied and when it was not despite the fact that there are four translations of "station," some of which I added myself. Regardless, it is currently ineffectual.\
+\
+12. \ul Selected Rule\ulnone :\
+- 1865:SELECT:131 sondeo<n><m><pl>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		<match lemma="opinion" tags="*"/>\
+		<match lemma="poll" tags="n.*">\
+			<select lemma="sondeo" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 131\
+\ul Source/Translated Sentence Number\ulnone : 1865\
+\ul English Source Sentence\ulnone : According to the opinion polls, ERC would lose a deputy - it currently has three- whereas ICV would remain with a deputy or would gain one.\
+\ul Spanish Source Sentence\ulnone : Seg\'fan el an\'e1lisis de los populares, ERC perder\'eda un diputado - ahora tiene tres - mientras que ICV se quedar\'eda con un diputado o ganar\'eda uno.\
+\ul Spanish Translation with Rules\ulnone : Seg\'fan los sondeos de opini\'f3n, ERC perder\'eda un diputado - lo actualmente tiene tres- mientras que ICV quedar\'eda con un diputado u obtendr\'eda uno.\
+\ul Spanish Translation without Rules\ulnone : Seg\'fan las urnas de opini\'f3n, ERC perder\'eda un diputado - lo actualmente tiene tres- mientras que ICV quedar\'eda con un diputado u obtendr\'eda uno.\
+\ul Analysis\ulnone : The rule proved to be effective, resulting in a better translation. When applied, the rule selected for "sondeo" instead of the default "urna," resulting in a superior translation.\
+\
+13. \ul Selected Rule\ulnone :\
+- 1893:SELECT:195 cuidado<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		<match lemma="take" tags="vblex.*"/>\
+		<match lemma="care" tags="n.*">\
+			<select lemma="cuidado" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 195\
+\ul Source/Translated Sentence Number\ulnone : 1893\
+\ul English Source Sentence\ulnone : Of the details of the negotiation on the investiture of which Mas will take care, on behalf of the PPC, Jordi Cornet and Dolors Montserrat.\
+\ul Spanish Source Sentence\ulnone : De los detalles de la negociaci\'f3n sobre la investidura de Mas se ocupar\'e1n, por parte del PPC, Jordi Cornet y Dolors Montserrat.\
+\ul Spanish Translation with Rules\ulnone : De los detalles de la negociaci\'f3n en la investidura del cual *Mas tomar\'e1 cuidado, en *behalf del *PPC, Jordi *Cornet y Dolors Montserrat.\
+\ul Spanish Translation without Rules\ulnone : De los detalles de la negociaci\'f3n en la investidura del cual *Mas tomar\'e1 cuidado, en *behalf del *PPC, Jordi *Cornet y Dolors Montserrat.\
+\ul Analysis\ulnone : This rule proved to be ineffective as "cuidado" is the default translation of "care." As it is the default translation, "cuidado" is selected regardless of if the rule is applied or not.\
+\
+14. \ul Selected Rule\ulnone :\
+- 1917:SELECT:479 pasar<vblex><inf>\
+Rule Pattern:\
+	<rule>\
+		<match lemma="spend" tags="vblex.*">\
+			<select lemma="pasar" tags="vblex.*"/>\
+		</match>\
+		<match lemma="time" tags="*"/>\
+	</rule>\
+\ul Rule Number\ulnone : 479\
+\ul Source/Translated Sentence Number\ulnone : 1917\
+\ul English Source Sentence\ulnone : A month ago the BCE called us today to retire liquidity measures and will spend time tomorrow to retire by fourth time in two years and those that are left.\
+\ul Spanish Source Sentence\ulnone : Hace un mes el BCE nos cit\'f3 hoy para retirar medidas de liquidez y se tendr\'e1 que retractar ma\'f1ana por cuarta vez en dos a\'f1os y las que quedan.\
+\ul Spanish Translation with Rules\ulnone : Hace un mes el *BCE nos llam\'e9 hoy para retirarse medidas de liquidez y pasar\'e1 tiempo ma\'f1ana para retirarse por cuarto tiempo en dos a\'f1os y los que quedan.\
+\ul Spanish Translation without Rules\ulnone : Hace un mes el *BCE nos llam\'e9 hoy para retirarse medidas de liquidez y pasar\'e1 tiempo ma\'f1ana para retirarse por cuarto tiempo en dos a\'f1os y los que quedan.\
+\ul Analysis\ulnone : I am honestly not sure why "pasar" was selected both when the rules were applied and when they were not as there are upwards of six translations for "spend." Regardless, the rule is currently ineffectual if "pasar" is always selected.\
+\
+15. \ul Selected Rule\ulnone :\
+- 2025:SELECT:140 plazo<n><m><sg>\
+\ul Rule Pattern\ulnone : \
+	<rule>\
+		<match lemma="short" tags="*"/>\
+		<match lemma="term" tags="n.*">\
+			<select lemma="plazo" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 140\
+\ul Source/Translated Sentence Number\ulnone : 2025\
+\ul English Source Sentence\ulnone : He says that there cannot be emitted, but unlike to what had happened in June, is possible to obtain short term financing through agreements, which softens the crisis.\
+\ul Spanish Source Sentence:\ulnone  Se\'f1ala que no se puede emitir, pero al contrario de lo que ocurri\'f3 en junio, se puede obtener financiaci\'f3n a corto plazo a trav\'e9s de repos, lo que amortigua la crisis.\
+\ul Spanish Translation with Rules\ulnone : Dice que no puede haber *emitted, pero diferente a qu\'e9 hab\'eda pasado en junio, es posible de obtener financiaci\'f3n de plazo bajo a trav\'e9s de acuerdos, el cual suaviza la crisis.\
+\ul Spanish Translation without Rules\ulnone : Dice que no puede haber *emitted, pero diferente a qu\'e9 hab\'eda pasado en junio, es posible de obtener financiaci\'f3n de plazo bajo a trav\'e9s de acuerdos, el cual suaviza la crisis.\
+\ul Analysis\ulnone : This rule proved to be ineffectual as "plazo" is the default translation of "term." Therefore, unless a rule forces the system to select a different translation, "plazo" will always be selected. As this rule selects for the already default translation, it is ineffective.\
+\
+16. \ul Selected Rule\ulnone : \
+- 2130:SELECT:414 energ\'eda<n><f><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+	  <or>\
+	  	<match lemma="wave" tags="*"/>\
+	  	<match lemma="solar" tags="*"/>\
+	  	<match lemma="geothermal" tags="*"/>\
+	  	<match lemma="nuclear" tags="*"/>\
+	  	<match lemma="hydroelectic" tags="*"/>\
+	  	<match lemma="natural" tags="*"/>\
+	  </or>	\
+		<match lemma="power" tags="n.*">\
+			<select lemma="energ\'eda" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 414\
+\ul Source/Translated Sentence Number\ulnone : 2130\
+\ul English Source Sentence\ulnone : Thus is enumerated by the ambassador in Pakistan, Anne W. Patterson, in a report previous to the visit of the ex- advisor of National Security, James Jones: "The proximity of some nuclear power plants on the territory under Taliban attack, the rumoured dispersion of the nuclear materials and the vulnerability of atomic materials transportation."\
+\ul Spanish Source Sentence\ulnone : As\'ed lo enumera la embajadora en Pakist\'e1n, Anne W. Patterson, en un informe previo a la visita del entonces consejero de Seguridad Nacional, James Jones: "La proximidad de algunas instalaciones nucleares a territorio bajo ataque talib\'e1n, la rumoreada dispersi\'f3n de los materiales nucleares y la vulnerabilidad del transporte de materiales at\'f3micos".\
+\ul Spanish Translation with Rules\ulnone : As\'ed est\'e1 enumerado por el embajador en Pakist\'e1n, Anne *W. *Patterson, en un informe anterior a la visita del ex- *advisor de Seguridad Nacional, James Jones: "El *proximity de algunas plantas de energ\'eda nucleares en el territorio bajo ataque talib\'e1n, el *rumoured dispersi\'f3n de los materiales nucleares y la vulnerabilidad de transporte de materiales at\'f3micos."\
+\ul Spanish Translation without Rules\ulnone : As\'ed est\'e1 enumerado por el embajador en Pakist\'e1n, Anne *W. *Patterson, en un informe anterior a la visita del ex- *advisor de Seguridad Nacional, James Jones: "El *proximity de algunas plantas de poder nucleares en el territorio bajo ataque talib\'e1n, el *rumoured dispersi\'f3n de los materiales nucleares y la vulnerabilidad de transporte de materiales at\'f3micos." \
+\ul Analysis\ulnone : This rule proved to be effective, providing a better translation than was provided without the application of the rule. It selected for "energ\'eda" rather than the default "poder." As the use of "poder" in the context of the source sentence would have been incorrect, the rule provided for a superior and more correct translation.\
+\
+17. \ul Selected Rule\ulnone :\
+- 2132:SELECT:414 energ\'eda<n><f><sg>\
+\ul Rule Pattern\ulnone :\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 	<rule>\
+	  <or>\
+	  	<match lemma="wave" tags="*"/>\
+	  	<match lemma="solar" tags="*"/>\
+	  	<match lemma="geothermal" tags="*"/>\
+	  	<match lemma="nuclear" tags="*"/>\
+	  	<match lemma="hydroelectic" tags="*"/>\
+	  	<match lemma="natural" tags="*"/>\
+	  </or>	\
+		<match lemma="power" tags="n.*">\
+			<select lemma="energ\'eda" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 414\
+\ul Source/Translated Sentence Number\ulnone : 2132\
+\ul English Source Sentence\ulnone : "Pakistan has had to hire personnel with strict religious beliefs in order to protect the nuclear power plants; given the poor educative and cultural levels, the extremist organizations have more opportunities to recruit people to work in the nuclear programs or of missiles," said the expert Yuri Carole, from the Russian Ministry of External Affairs, in a meeting with his Americans homologous.\
+\ul Spanish Source Sentence\ulnone : "Pakist\'e1n ha tenido que contratar personal con estrictas creencias religiosas para proteger las instalaciones nucleares; dada la ca\'edda de los niveles educativos y culturales, las organizaciones extremistas tienen m\'e1s oportunidades de reclutar a gente que trabaje en los programas nucleares o de misiles", dijo el experto Yuri Korolev, del Ministerio de Exteriores ruso, en una reuni\'f3n con sus hom\'f3logos estadounidenses.\
+\ul Spanish Translation with Rules\ulnone : "Pakist\'e1n tiene tenido que contratar personal con creencias religiosas estrictas para proteger las plantas de energ\'eda nucleares; dado los niveles educativos y culturales pobres, las organizaciones extremistas tienen m\'e1s oportunidades a personas de recluta para obrar en los programas nucleares o de misiles," dijo el experto *Yuri Carole, del Ministerio ruso de Asuntos Externos, en una reuni\'f3n con sus americanos hom\'f3logos.\
+\ul Spanish Translation without Rules\ulnone : "Pakist\'e1n tiene tenido que contratar personal con creencias religiosas estrictas para proteger las plantas de poder nucleares; dado los niveles educativos y culturales pobres, las organizaciones extremistas tienen m\'e1s oportunidades a personas de recluta para obrar en los programas nucleares o de misiles," dijo el experto *Yuri Carole, del Ministerio ruso de Asuntos Externos, en una reuni\'f3n con sus americanos hom\'f3logos.\
+\ul Analysis\ulnone : This rule, used in a similar context to that above, proved to be effective, providing a superior translation to that which would be provided without the rules. It selected for "energ\'eda" instead of the default "poder" which would have been incorrect when used in the context of the source sentence.\
+\
+18. \ul Selected Rule\ulnone :\
+- 2363:SELECT:195 cuidado<n><m><sg>\
+\ul Rule Pattern\ulnone : \
+	<rule>\
+		<match lemma="take" tags="vblex.*"/>\
+		<match lemma="care" tags="n.*">\
+			<select lemma="cuidado" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 195\
+\ul Source/Translated Sentence Number\ulnone : 2363\
+\ul English Source Sentence\ulnone : The tourist industrialists feel sorry for the accident of the foreign tourist caused by bad conditions of the Glorieta Sanchez Taboada in Mazatl\'e1n.\
+\ul Spanish Source Sentence\ulnone : Lamentan empresarios tur\'edsticos accidente del turista extranjero por malas condiciones de la Glorieta S\'e1nchez Taboada en Mazatl\'e1n.\
+\ul Spanish Translation with Rules\ulnone : Tur\'edsticos *industrialists sentir triste para el accidente del turista extranjero causado por afecciones malas del *Glorieta Sanchez *Taboada en *Mazatl\'e1n.\
+\ul Spanish Translation without Rules\ulnone : Tur\'edsticos *industrialists sentir triste para el accidente del turista extranjero causado por afecciones malas del *Glorieta Sanchez *Taboada en *Mazatl\'e1n.\
+\ul Analysis\ulnone : This selection honestly makes little sense, as the word "care" never appears in the source sentence and "cuidado" doesn't appear in any of the translations. This is likely a fluke of some type, which I honestly do not understand. Regardless, the rule was clearly ineffective, as proved in other instances in which it was used.\
+\
+19. \ul Selected Rule\ulnone :\
+- 2365:SELECT:195 cuidado<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		<match lemma="take" tags="vblex.*"/>\
+		<match lemma="care" tags="n.*">\
+			<select lemma="cuidado" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 195\
+\ul Source/Translated Sentence Number\ulnone : 2365\
+\ul English Source Sentence\ulnone : Salvador Barraza Rubio, president of the Association of Retailers of the Zone Dorada, remembered that in different occasions they have denounced that the image of the destiny should be taken care of and to change the bad perceptions that the tourists might find with new activities or routes.\
+\ul Spanish Source Sentence\ulnone : Salvador Barraza Rubio, presidente de la Asociaci\'f3n de Comerciantes de la Zona Dorada, record\'f3 que en diferentes ocasiones han denunciado que se cuide la imagen del destino y revertir lo malo que encuentran los turistas con nuevas actividades o rutas.\
+\ul Spanish Translation with Rules\ulnone : Salvador *Barraza *Rubio, presidente de la Asociaci\'f3n de Detallistas de la Zona *Dorada, record\'f3 que en ocasiones diferentes  han denunciado que la imagen del *destiny tendr\'eda que ser cuidado tomado de y para cambiar las percepciones malas que los turistas podr\'edan encontrar con rutas o actividades nuevas.\
+\ul Spanish Translation without Rules\ulnone : Salvador *Barraza *Rubio, presidente de la Asociaci\'f3n de Detallistas de la Zona *Dorada, record\'f3 que en ocasiones diferentes  han denunciado que la imagen del *destiny tendr\'eda que ser cuidado tomado de y para cambiar las percepciones malas que los turistas podr\'edan encontrar con rutas o actividades nuevas.\
+\ul Analysis\ulnone : The rule proved to be ineffective, as demonstrated above many times, because "cuidado" is the default translation of "care." Therefore, as "cuidado" is selected whether a rule is applied or not, the rule is frankly useless.\
+\
+20. \ul Selected Rule\ulnone :\
+- 2385:SELECT:320 voto<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+	  <rule>\
+	  	<match lemma="vote" tags="n.*">\
+	  		<select lemma="voto" tags="n.*"/>\
+	  	</match>\
+	  	<match lemma="of" tags="pr"/>\
+	  	<match lemma="confidence" tags="*"/>\
+	  </rule>\
+\ul Rule Number\ulnone : 320\
+\ul Source/Translated Sentence Number\ulnone : 2385\
+\ul English Source Sentence\ulnone : We hope that they come to do a worthy work and mainly committed to the society and the sectors because the habitants of Sinaloa were those who gave them the vote of confidence during the last elections.\
+\ul Spanish Source Sentence\ulnone : "Ocupamos que vengan a hacer un trabajo digno y sobre todo comprometidos con la sociedad y con los sectores porque fueron los sinaloenses quienes les dieron el voto de confianza en las pasadas elecciones".\
+\ul Spanish Translation with Rules\ulnone : Esperamos que  vienen para hacer una obra digna y principalmente cometido a la sociedad y los sectores porque el *habitants de *Sinaloa era quienes les dieron el voto de confianza durante las \'faltimas elecciones.\
+\ul Spanish Translation without Rules\ulnone : Esperamos que  vienen para hacer una obra digna y principalmente cometido a la sociedad y los sectores porque el *habitants de *Sinaloa era quienes les dieron el voto de confianza durante las \'faltimas elecciones.\
+\ul Analysis\ulnone : This rule is ineffectual as the default translation of "vote" is "voto." As the rule selects for the translation which is automatically applied regardless, it is unnecessary.\
+\
+21. \ul Selected Rule\ulnone : \
+- 2414:SELECT:179 agente<n><mf><pl>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		<match lemma="police" tags="*"/>\
+		<match lemma="officer" tags="n.*">\
+			<select lemma="agente" tags="n.*"/>\
+		</match>\
+	</rule>\
+\ul Rule Number\ulnone : 179\
+\ul Source/Translated Sentence Number\ulnone : 2414\
+\ul English Source Sentence\ulnone : Some 70 police officers from the reginal enquiry unit of the Estrie of the Quebec S\'fbret\'e9, of the police department o Sherbrooke and Nephr\'e9magog police headqurters took part in this police operation.\
+\ul Spanish Source Sentence\ulnone : En esta operaci\'f3n policial participaron alrededor de setenta agentes del m\'f3dulo de investigaci\'f3n de Estrie de la Seguridad del Quebec, del Servicio de polic\'eda de Sherbrooke y del Departamento de polic\'eda Memphr\'e9magog.\
+\ul Spanish Translation with Rules\ulnone : Algunos 70 agentes de polic\'eda del *reginal unidad de consulta del *Estrie del *Quebec *S\'fbret\'e9, del departamento policial *o *Sherbrooke y *Nephr\'e9magog polic\'eda *headqurters particip\'f3 en esta operaci\'f3n policial.\
+\ul Spanish Translation without Rules\ulnone : Algunos 70 agentes de polic\'eda del *reginal unidad de consulta del *Estrie del *Quebec *S\'fbret\'e9, del departamento policial *o *Sherbrooke y *Nephr\'e9magog polic\'eda *headqurters particip\'f3 en esta operaci\'f3n policial.\
+\ul Analysis\ulnone : As "agente" is the default translation of "officer," this rule proved to be ineffective. Since "agente" is selected regardless of if the rule is applied, it is not necessary.\
+\
+22. \ul Selected Rule\ulnone :\
+- 2419:SELECT:398 carta<n><f><sg>\
+\ul Rule Pattern\ulnone :\
+	<rule>\
+		<match lemma="charter" tags="n.*">\
+			<select lemma="carta" tags="n.*"/>\
+		</match>\
+		<match lemma="of" tags="pr"/>\
+		<match lemma="right" tags="n.pl"/>\
+	</rule>\
+\ul Rule Number\ulnone : 398\
+\ul Source/Translated Sentence Number\ulnone : 2419\
+\ul English Source Sentence\ulnone : The liberals claim that the draft law in its present form which would enable any person from a ship identified as carrying clandestine immigrants, would violate the Canadian charter of rights and liberties.\
+\ul Spanish Source Sentence\ulnone : Los liberales defienden que el proyecto de ley en su forma actual, que permitir\'eda detener hasta un a\'f1o a cualquier persona que proceda de un buque identificado como transporte de inmigrantes clandestinos, infringe la Carta canadiense de derechos y libertades.\
+\ul Spanish Translation with Rules\ulnone : El *liberals reclamaci\'f3n que la ley de borrador en su presente formar cu\'e1l  *anable cualquier persona de un barco identific\'f3 tan llevando *clandestine inmigrantes, violar\'eda la carta canadiense de derechos y libertades.\
+\ul Spanish Translation without Rules\ulnone : El *liberals reclamaci\'f3n que la ley de borrador en su presente formar cu\'e1l  *anable cualquier persona de un barco identific\'f3 tan llevando *clandestine inmigrantes, violar\'eda la carta canadiense de derechos y libertades.\
+\ul Analysis\ulnone : This rule is ineffective because the default translation of "charter" is "carta." Therefore, the rule is unnecessary as the desired translation is applied regardless of if the rule is applied.\
+\
+23. \ul Selected Rule\ulnone :\
+- 2428:SELECT:320 voto<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+	  <rule>\
+	  	<match lemma="vote" tags="n.*">\
+	  		<select lemma="voto" tags="n.*"/>\
+	  	</match>\
+	  	<match lemma="of" tags="pr"/>\
+	  	<match lemma="confidence" tags="*"/>\
+	  </rule>\
+\ul Rule Number\ulnone : 320\
+\ul Source/Translated Sentence Number\ulnone : 2428\
+\ul English Source Sentence\ulnone : The government has not announced a vote of confidence on the draft law, which could bring about elections in the event of its rejection.\
+\ul Spanish Source Sentence\ulnone : El Gobierno no ha anunciado una votaci\'f3n de confianza sobre su proyecto de ley, lo que podr\'eda llevar al pa\'eds a unas elecciones como consecuencia de su rechazo.\
+\ul Spanish Translation with Rules\ulnone : El gobierno no ha anunciado un voto de confianza en la ley de borrador, el cual podr\'eda traer sobre elecciones en la #caso de su rechazo.\
+\ul Spanish Translation without Rules\ulnone : El gobierno no ha anunciado un voto de confianza en la ley de borrador, el cual podr\'eda traer sobre elecciones en la #caso de su rechazo.\
+\ul Analysis\ulnone : As "voto" is the default translation of "vote," this rule is unnecessary. Unless otherwise directed "voto" will be selected by the system, therefore the rule is ineffectual. \
+\
+24. \ul Selected Rule\ulnone :\
+- 2526:SELECT:371 inter\'e9s<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+  	<rule>\
+  	  	<match lemma="public" tags="*"/>\
+  	  	<match lemma="interest" tags="n.*">\
+  	  		<select lemma="inter\'e9s" tags="n.*"/>\
+  	  	</match>\
+  	</rule>\
+\ul Rule Number\ulnone : 371\
+\ul Source/Translated Sentence Number\ulnone : 2526\
+\ul English Source Sentence\ulnone : Earlier during the morning M. Simard raised the question in the National Assembly, because he found it difficult to see how the public interest could be served in that way.\
+\ul Spanish Source Sentence\ulnone : M\'e1s temprano, por la ma\'f1ana, el se\'f1or Simard plante\'f3 la cuesti\'f3n en la Asamblea nacional porque, seg\'fan afirma, no entiende c\'f3mo se puede beneficiar al inter\'e9s p\'fablico de este modo.\
+\ul Spanish Translation with Rules\ulnone : M\'e1s temprano durante la ma\'f1ana M. *Simard Cri\'f3 la cuesti\'f3n en la Asamblea Nacional, porque lo encuentre dif\'edcil de ver c\'f3mo el inter\'e9s p\'fablico podr\'eda ser servido en aquella manera.\
+\ul Spanish Translation without Rules\ulnone : M\'e1s temprano durante la ma\'f1ana M. *Simard Cri\'f3 la cuesti\'f3n en la Asamblea Nacional, porque lo encuentre dif\'edcil de ver c\'f3mo el inter\'e9s p\'fablico podr\'eda ser servido en aquella manera.\
+\ul Analysis\ulnone : "Inter\'e9s" is the default translation of "interest" so it is selected regardless of if the rule is applied. Therefore, as the rule selects for a default translation it is ineffectual. \
+\
+25. \ul Selected Rule\ulnone :\
+- 2601:SELECT:320 voto<n><m><sg>\
+\ul Rule Pattern\ulnone :\
+	  <rule>\
+	  	<match lemma="vote" tags="n.*">\
+	  		<select lemma="voto" tags="n.*"/>\
+	  	</match>\
+	  	<match lemma="of" tags="pr"/>\
+	  	<match lemma="confidence" tags="*"/>\
+	  </rule>\
+\ul Rule Number\ulnone : 320\
+\ul Source/Translated Sentence Number\ulnone : 2601\
+\ul English Source Sentence\ulnone : "Your journey will help ensure the government's survival of the vote of confidence at the start of February on the federal budget, which will post Canada's first deficit for over ten years due to a relaunch plan of 30 to 40 thousand million dollars," writes Mr. Breese.\
+\ul Spanish Source Sentence\ulnone : "Su viaje contribuir\'e1 a garantizar la supervivencia del gobierno durante el voto de confianza a principios de febrero sobre el presupuesto federal, mediante el cual Canad\'e1 registrar\'e1 por primera vez d\'e9ficit en el \'faltimo decenio debido a un plan de recuperaci\'f3n de entre 30.000 y 40.000 millones de d\'f3lares", escribe el se\'f1or Breese.\
+\ul Spanish Translation with Rules\ulnone : "Vuestro viaje ayudar\'e1 asegurar la supervivencia del gobierno del voto de confianza en el inicio de febrero en el presupuesto federal, el cual  el primer d\'e9ficit de Canad\'e1 de poste para encima diez a\'f1os debido a un *relaunch plan de 30 a 40 millar millones de d\'f3lares," escribe Breese.\
+\ul Spanish Translation without Rules\ulnone : "Vuestro viaje ayudar\'e1 asegurar la supervivencia del gobierno del voto de confianza en el inicio de febrero en el presupuesto federal, el cual  el primer d\'e9ficit de Canad\'e1 de poste para encima diez a\'f1os debido a un *relaunch plan de 30 a 40 millar millones de d\'f3lares," escribe Breese.\
+\ul Analysis\ulnone : As "voto" is the default translation of "vote," it is unnecessary for a rule to be applied. The rule is therefore ineffectual, as it selects for a translation which, unless the system is otherwise directed, will be applied regardless.\
+\
+26. \ul Selected Rule\ulnone :\
+- 2806:SELECT:1 banco<n><m><pl>\
+\ul Rule Pattern\ulnone :\
+	  <rule>\
+  	 	  <match lemma="central" tags="*"/>\
+ 		  <match lemma="bank" tags="n.*">\
+  			    <select lemma="banco" tags="n.*"/>\
+  		  </match>\
+  	  </rule> \
+\ul Rule Number\ulnone : 1\
+\ul Source/Translated Sentence Number\ulnone : 2806\
+\ul English Source Sentence\ulnone : In total, Eurosystem central banks bought 67 thousand millions' worth of Euros since May 2010.\
+\ul Spanish Source Sentence\ulnone : En total, los bancos centrales del eurosistema han adquirido t\'edtulos por una cuant\'eda de 67.000 millones de euros desde mayo de 2010.\
+\ul Spanish Translation with Rules\ulnone : En total, *Eurosystem los bancos centrales compraron el valor de 67 millones de millar de Euros desde entonces mayo 2010.\
+\ul Spanish Translation without Rules\ulnone : En total, *Eurosystem los bancos centrales compraron el valor de 67 millones de millar de Euros desde entonces mayo 2010.\
+\ul Analysis\ulnone : Since "banco" is the default translation of "bank," the system selects for it unless directed otherwise. Therefore, as this rule selects for a translation which will be selected regardless, the rule is ineffectual and unnecessary.\
+\
+\ul Future Recommendations\ulnone :\
+In the future, and I suspect you already know this, rules should only be written for translations other than the default one. Otherwise, many rules will be ineffectual and unnecessary, wasting the time and resources of Apertium contributors. Additionally, the en-es bilingual dictionary needs a major investment of time, as it is currently filled with entries which the system doesn't recognize, are incorrect, or should be written as rules rather than dictionary entries.\
+\
+\ul P.S.\ulnone \
+Finally, I would like to thank you, Fran, for all your help throughout this process. I know trying to teach a seemingly computer illiterate and pushy 17-year-old can by trying, but it's been an incredible learning experience. Best of luck in all your future endeavors. \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+}

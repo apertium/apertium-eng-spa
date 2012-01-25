@@ -20931,11 +20931,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<out>
 	  <chunk name="adv" case="caseFirstWord">
 	    <tags>
-	      <tag><clip pos="3" side="tl" part="a_adv"/></tag>
+	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
 	      <tag><var n="neg"/></tag>
 	    </tags>
 	    <lu>
-	      <clip pos="3" side="tl" part="whole"/>
+	      <clip pos="2" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
 	  <b pos="1"/>
@@ -20990,12 +20990,12 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<out>
 	  <chunk name="adv">
 	    <tags>
-	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+	      <tag><clip pos="3" side="tl" part="a_adv"/></tag>
 	      <tag><var n="neg"/></tag>
 	    </tags>
 	      <b/>
 	    <lu>
-	      <clip pos="2" side="tl" part="whole"/>
+	      <clip pos="3" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
 	</out>  

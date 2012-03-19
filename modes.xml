@@ -138,7 +138,7 @@
 
   <mode name="es-en-tagger">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc">
         <file name="es-en.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -372,7 +372,7 @@
 
   <mode name="en-es-tagger">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc">
         <file name="en-es.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">

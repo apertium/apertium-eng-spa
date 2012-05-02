@@ -5061,6 +5061,10 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	</choose>
 	<out>
 	  <chunk name="det_weekdays_num_de_months_de_year" case="caseFirstWord">
+	    <tags>
+	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+	      <tag><var n="neg"/></tag>
+	    </tags>
 	    <lu>
               <lit v="el"/>
               <lit-tag v="det.def"/>

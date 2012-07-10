@@ -39295,6 +39295,7 @@
     <e><re>[$€£]</re><i><s n="mon"/></i></e>
   </section>
   <section id="regexp2" type="standard">
+<!--
     <e><re>[A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><re>[A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><re>[A-Z][A-Z][A-Z][A-Z]</re><p><l><s n="n"/><s n="acr"/><s n="sp"/></l><r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -39322,6 +39323,7 @@
     <e r="LR"><p><l>Dr<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
     <e r="LR"><p><l>Dr.<b/></l><r>pn000</r></p><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
     <e r="LR"><p><l>Dr.<b/></l><r>pn000</r></p><par n="Abc"/><i><b/></i><par n="Abc"/><i><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></i></e>
+-->
 
     <e c="hic sunt dracones!"><p><l></l><r>siglo<b/></r></p><par n="arabic-roman-ord"/><p><l><b/>century</l><r></r></p><par n="B.C.-a._C."/><p><l><s n="n"/></l><r><s n="n"/><s n="m"/></r></p></e>
     <e c="hic sunt dracones!"><p><l></l><r>siglos<b/></r></p><par n="arabic-roman-ord"/><p><l><b/>and<b/></l><r><b/>y<b/></r></p><par n="arabic-roman-ord"/><p><l><b/>centuries</l><r></r></p><par n="B.C.-a._C."/><p><l><s n="n"/></l><r><s n="n"/><s n="m"/></r></p></e>

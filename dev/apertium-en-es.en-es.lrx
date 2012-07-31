@@ -1,0 +1,2003 @@
+<rules>
+<rule>
+ <match lemma="olympic game" tags="n.*"><select lemma="olimpiada" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="caution" tags="n.*"><select lemma="amonestación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="head butt" tags="n.*"><select lemma="cabezazo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="dress# up" tags="vblex.sep.*"><select lemma="acicalar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="latin" tags="n.*"><select lemma="latino" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="bug" tags="n.*"><select lemma="bicho" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="account" tags="n.*"><select lemma="cuenta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="act" tags="n.*"><select lemma="acto" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="address" tags="n.*"><select lemma="dirección" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="advice" tags="n.*"><select lemma="consejo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="anxiety" tags="n.*"><select lemma="ansiedad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="appeal" tags="n.*"><select lemma="apelación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="appearance" tags="n.*"><select lemma="aspecto" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="application" tags="n.*"><select lemma="aplicación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="arena" tags="n.*"><select lemma="arena" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="argument" tags="n.*"><select lemma="argumento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="arrangement" tags="n.*"><select lemma="arreglo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="attempt" tags="n.*"><select lemma="intento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="authority" tags="n.*"><select lemma="autoridad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="bag" tags="n.*"><select lemma="bolsa" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="balance" tags="n.*"><select lemma="equilibrio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="bank" tags="n.*"><select lemma="banco" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="bath" tags="n.*"><select lemma="baño" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="bay" tags="n.*"><select lemma="bahía" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="beauty" tags="n.*"><select lemma="belleza" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="bell" tags="n.*"><select lemma="campana" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="benefit" tags="n.*"><select lemma="beneficio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="bid" tags="n.*"><select lemma="oferta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="block" tags="n.*"><select lemma="bloque" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="hit" tags="n.*"><select lemma="golpe" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="board" tags="n.*"><select lemma="tablero" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="boat" tags="n.*"><select lemma="barca" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="body" tags="n.*"><select lemma="cuerpo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="border" tags="n.*"><select lemma="frontera" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="bottle" tags="n.*"><select lemma="botella" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="branch" tags="n.*"><select lemma="rama" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="break" tags="n.*"><select lemma="rotura" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="breast" tags="n.*"><select lemma="pecho" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="breath" tags="n.*"><select lemma="respiración" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="building" tags="n.*"><select lemma="edificio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="bunch" tags="n.*"><select lemma="ramo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cabinet" tags="n.*"><select lemma="gabinete" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cap" tags="n.*"><select lemma="gorra" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="card" tags="n.*"><select lemma="tarjeta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="career" tags="n.*"><select lemma="carrera" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="case" tags="n.*"><select lemma="caso" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cast" tags="n.*"><select lemma="reparto" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cell" tags="n.*"><select lemma="célula" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="chair" tags="n.*"><select lemma="silla" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="chance" tags="n.*"><select lemma="posibilidad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="character" tags="n.*"><select lemma="carácter" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="charge" tags="n.*"><select lemma="cargo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="chart" tags="n.*"><select lemma="gráfico" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="chat" tags="n.*"><select lemma="charla" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="chip" tags="n.*"><select lemma="chip" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cloth" tags="n.*"><select lemma="tela" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="coach" tags="n.*"><select lemma="entrenador" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="coat" tags="n.*"><select lemma="abrigo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cold" tags="n.*"><select lemma="frío" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="collection" tags="n.*"><select lemma="colección" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="colour" tags="n.*"><select lemma="color" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="comfort" tags="n.*"><select lemma="comodidad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="command" tags="n.*"><select lemma="orden" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="company" tags="n.*"><select lemma="compañía" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="competition" tags="n.*"><select lemma="competición" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="condition" tags="n.*"><select lemma="condición" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="connection" tags="n.*"><select lemma="conexión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="container" tags="n.*"><select lemma="contenedor" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="contempt" tags="n.*"><select lemma="desprecio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="costume" tags="n.*"><select lemma="traje" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="couple" tags="n.*"><select lemma="par" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="court" tags="n.*"><select lemma="tribunal" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cover" tags="n.*"><select lemma="cubierta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="craft" tags="n.*"><select lemma="oficio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="crop" tags="n.*"><select lemma="cultivo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cup" tags="n.*"><select lemma="taza" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="date" tags="n.*"><select lemma="fecha" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="decay" tags="n.*"><select lemma="decadencia" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="degree" tags="n.*"><select lemma="grado" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="deputy" tags="n.*"><select lemma="diputado" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="device" tags="n.*"><select lemma="dispositivo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="diary" tags="n.*"><select lemma="diario" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="diet" tags="n.*"><select lemma="dieta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="dirt" tags="n.*"><select lemma="suciedad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="disability" tags="n.*"><select lemma="incapacidad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="disposal" tags="n.*"><select lemma="eliminación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="distance" tags="n.*"><select lemma="distancia" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="drama" tags="n.*"><select lemma="obra" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="drive" tags="n.*"><select lemma="paseo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="drug" tags="n.*"><select lemma="fármaco" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="drum" tags="n.*"><select lemma="tambor" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="eagerness" tags="n.*"><select lemma="ansia" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="enlargement" tags="n.*"><select lemma="ampliación" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="enquiry" tags="n.*"><select lemma="consulta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="evening" tags="n.*"><select lemma="anochecer" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="examination" tags="n.*"><select lemma="examen" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="exchange" tags="n.*"><select lemma="intercambio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="exhibit" tags="n.*"><select lemma="exposición" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="extent" tags="n.*"><select lemma="extensión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="facility" tags="n.pl"><select lemma="instalación" tags="n.f.pl"/></match>
+</rule>
+<rule>
+ <match lemma="failure" tags="n.*"><select lemma="fracaso" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="fan" tags="n.*"><select lemma="seguidor" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="fault" tags="n.*"><select lemma="culpa" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="feeling" tags="n.*"><select lemma="sentimiento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="field" tags="n.*"><select lemma="campo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="fight" tags="n.*"><select lemma="lucha" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="figure" tags="n.*"><select lemma="figura" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="file" tags="n.*"><select lemma="archivo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="finance" tags="n.*"><select lemma="finanza" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="fish" tags="n.*"><select lemma="pez" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="flute" tags="n.*"><select lemma="flauta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="form" tags="n.*"><select lemma="forma" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="foundation" tags="n.*"><select lemma="fundación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="frame" tags="n.*"><select lemma="marco" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="funnel" tags="n.*"><select lemma="embudo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="fur" tags="n.*"><select lemma="piel" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="gear" tags="n.*"><select lemma="marcha" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="glass" tags="n.*"><select lemma="vaso" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="goal" tags="n.*"><select lemma="objetivo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="grade" tags="n.*"><select lemma="grado" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="grant" tags="n.*"><select lemma="subvención" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="group" tags="n.*"><select lemma="grupo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="hair" tags="n.*"><select lemma="cabello" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="health" tags="n.*"><select lemma="salud" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="hearing" tags="n.*"><select lemma="oído" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="heel" tags="n.*"><select lemma="tacón" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="height" tags="n.*"><select lemma="altura" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="hip" tags="n.*"><select lemma="cadera" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="horn" tags="n.*"><select lemma="cuerno" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="inquiry" tags="n.*"><select lemma="investigación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="iron" tags="n.*"><select lemma="hierro" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="joint" tags="n.*"><select lemma="junta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="journey" tags="n.*"><select lemma="viaje" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="judgement" tags="n.*"><select lemma="juicio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="judgement" tags="n.*"><select lemma="juicio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="juice" tags="n.*"><select lemma="zumo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="key" tags="n.*"><select lemma="llave" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="lane" tags="n.*"><select lemma="camino" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="launch" tags="n.*"><select lemma="lanzamiento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="leg" tags="n.*"><select lemma="pierna" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="legislation" tags="n.*"><select lemma="legislación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="letter" tags="n.*"><select lemma="letra" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="lift" tags="n.*"><select lemma="ascensor" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="look" tags="n.*"><select lemma="mirada" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="management" tags="n.*"><select lemma="administración" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="mane" tags="n.*"><select lemma="melena" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="market" tags="n.*"><select lemma="mercado" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="mood" tags="n.*"><select lemma="humor" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="motion" tags="n.*"><select lemma="movimiento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="mount" tags="n.*"><select lemma="monte" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="nail" tags="n.*"><select lemma="uña" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="nostalgia" tags="n.*"><select lemma="nostalgia" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="note" tags="n.*"><select lemma="nota" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="obstacle" tags="n.*"><select lemma="obstáculo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="offence" tags="n.*"><select lemma="ofensa" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="office" tags="n.*"><select lemma="oficina" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="oil" tags="n.*"><select lemma="aceite" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="operation" tags="n.*"><select lemma="operación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="origin" tags="n.*"><select lemma="origen" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="outline" tags="n.*"><select lemma="esbozo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="output" tags="n.*"><select lemma="producción" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="package" tags="n.*"><select lemma="paquete" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="pants" tags="n.*"><select lemma="pantalón" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="paper" tags="n.*"><select lemma="papel" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="partner" tags="n.*"><select lemma="socio" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="party" tags="n.*"><select lemma="partido" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="passage" tags="n.*"><select lemma="paso" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="passing" tags="n.*"><select lemma="paso" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="pepper" tags="n.*"><select lemma="pimienta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="performance" tags="n.*"><select lemma="rendimiento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="picture" tags="n.*"><select lemma="cuadro" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="piece" tags="n.*"><select lemma="pieza" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="pipe" tags="n.*"><select lemma="tubo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="plane" tags="n.*"><select lemma="avión" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="plate" tags="n.*"><select lemma="plato" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="player" tags="n.*"><select lemma="jugador" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="plot" tags="n.*"><select lemma="parcela" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="pole" tags="n.*"><select lemma="polo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="pool" tags="n.*"><select lemma="piscina" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="post" tags="n.*"><select lemma="correo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="pot" tags="n.*"><select lemma="tarro" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="power" tags="n.*"><select lemma="poder" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="print" tags="n.*"><select lemma="impresión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="printing" tags="n.*"><select lemma="impresión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="promotion" tags="n.*"><select lemma="promoción" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="property" tags="n.*"><select lemma="propiedad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="publisher" tags="n.*"><select lemma="editor" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="purge" tags="n.*"><select lemma="purga" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="purification" tags="n.*"><select lemma="purificación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="qualification" tags="n.*"><select lemma="cualificación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="quarter" tags="n.*"><select lemma="trimestre" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="question" tags="n.*"><select lemma="cuestión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="race" tags="n.*"><select lemma="carrera" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="rail" tags="n.*"><select lemma="raíl" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="railway" tags="n.*"><select lemma="ferrocarril" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="range" tags="n.*"><select lemma="gama" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="rank" tags="n.*"><select lemma="rango" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="rate" tags="n.*"><select lemma="índice" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="reason" tags="n.*"><select lemma="razón" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="receipt" tags="n.*"><select lemma="recibo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="record" tags="n.*"><select lemma="registro" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="recording" tags="n.*"><select lemma="registro" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="reference" tags="n.*"><select lemma="referencia" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="reflection" tags="n.*"><select lemma="reflexión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="release" tags="n.*"><select lemma="liberación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="relief" tags="n.*"><select lemma="alivio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="removal" tags="n.*"><select lemma="extracción" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="report" tags="n.*"><select lemma="informe" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="rest" tags="n.*"><select lemma="resto" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="review" tags="n.*"><select lemma="revisión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="right" tags="n.*"><select lemma="derecho" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="ring" tags="n.*"><select lemma="anillo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="rock" tags="n.sg"><select lemma="rock" tags="n.m.sg"/></match>
+</rule>
+<rule>
+ <match lemma="round" tags="n.*"><select lemma="ronda" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="sail" tags="n.*"><select lemma="vela" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="escape" tags="n.*"><select lemma="escapada" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="scalp" tags="n.*"><select lemma="cuero cabelludo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="schedule" tags="n.*"><select lemma="programa" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="scholar" tags="n.*"><select lemma="becario" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="score" tags="n.*"><select lemma="puntuación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="scorer" tags="n.*"><select lemma="anotador" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="seal" tags="n.*"><select lemma="sello" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="season" tags="n.*"><select lemma="estación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="seat" tags="n.*"><select lemma="asiento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="sentence" tags="n.*"><select lemma="frase" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="shift" tags="n.*"><select lemma="cambio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="shower" tags="n.*"><select lemma="ducha" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="sign" tags="n.*"><select lemma="señal" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="skill" tags="n.*"><select lemma="habilidad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="skin" tags="n.*"><select lemma="piel" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="slice" tags="n.*"><select lemma="trozo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="slime" tags="n.*"><select lemma="lodo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="slope" tags="n.*"><select lemma="pendiente" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="smell" tags="n.*"><select lemma="olor" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="sole" tags="n.*"><select lemma="suela" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="speaker" tags="n.*"><select lemma="hablante" tags="n.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="speech" tags="n.*"><select lemma="discurso" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="spirit" tags="n.*"><select lemma="espíritu" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="spot" tags="n.*"><select lemma="sitio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="spring" tags="n.*"><select lemma="primavera" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="square" tags="n.*"><select lemma="plaza" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="stage" tags="n.*"><select lemma="etapa" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="stand" tags="n.*"><select lemma="posición" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="statement" tags="n.*"><select lemma="declaración" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="status" tags="n.*"><select lemma="estado" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="step" tags="n.*"><select lemma="paso" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="stone" tags="n.*"><select lemma="piedra" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="stove" tags="n.*"><select lemma="estufa" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="stress" tags="n.*"><select lemma="tensión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="stroke" tags="n.*"><select lemma="golpe" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="struggle" tags="n.*"><select lemma="lucha" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="suit" tags="n.*"><select lemma="traje" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="supply" tags="n.*"><select lemma="suministro" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="swing" tags="n.*"><select lemma="cambio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="switch" tags="n.*"><select lemma="cambio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="table" tags="n.*"><select lemma="mesa" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="tank" tags="n.*"><select lemma="tanque" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="teaching" tags="n.*"><select lemma="enseñanza" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="term" tags="n.*"><select lemma="plazo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="theft" tags="n.*"><select lemma="robo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="thread" tags="n.*"><select lemma="hilo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="tie" tags="n.*"><select lemma="lazo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="tin" tags="n.*"><select lemma="lata" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="tip" tags="n.*"><select lemma="consejo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="tissue" tags="n.*"><select lemma="tejido" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="toast" tags="n.*"><select lemma="tostada" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="training" tags="n.*"><select lemma="formación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="transfer" tags="n.*"><select lemma="transferencia" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="trial" tags="n.*"><select lemma="prueba" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="tube" tags="n.*"><select lemma="tubo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="turn" tags="n.*"><select lemma="vuelta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="undertaking" tags="n.*"><select lemma="garantía" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="union" tags="n.*"><select lemma="unión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="wardrobe" tags="n.*"><select lemma="armario" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="wave" tags="n.*"><select lemma="ola" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="web" tags="n.*"><select lemma="web" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="wheel" tags="n.*"><select lemma="rueda" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="will" tags="n.*"><select lemma="voluntad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="wood" tags="n.sg"><select lemma="madera" tags="n.f.sg"/></match>
+</rule>
+<rule>
+ <match lemma="Pole_person" tags="n.*"><select lemma="polaco" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="beautiful" tags="adj"><select lemma="bonito" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="passionate" tags="adj"><select lemma="apasionado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="dark" tags="adj.sint.*"><select lemma="oscuro" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="fine" tags="adj.sint.*"><select lemma="bueno" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="free" tags="adj.sint.*"><select lemma="libre" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="great" tags="adj.sint.*"><select lemma="grande" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="harmful" tags="adj"><select lemma="nocivo" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="ideal" tags="adj"><select lemma="ideal" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="light" tags="adj.sint.*"><select lemma="ligero" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="maternal" tags="adj"><select lemma="maternal" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="nice" tags="adj.sint.*"><select lemma="bueno" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="police" tags="adj"><select lemma="policial" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="powerful" tags="adj"><select lemma="potente" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="remarkable" tags="adj"><select lemma="notable" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="right" tags="adj"><select lemma="correcto" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="school" tags="adj"><select lemma="escolar" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="short" tags="adj.sint.*"><select lemma="corto" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="underwater" tags="adj"><select lemma="submarino" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="unofficial" tags="adj"><select lemma="oficioso" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="unusual" tags="adj"><select lemma="inusual" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="capital" tags="adj"><select lemma="capital" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="abuse" tags="vblex.*"><select lemma="maltratar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="act" tags="vblex.*"><select lemma="actuar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="advise" tags="vblex.*"><select lemma="aconsejar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="aim" tags="vblex.*"><select lemma="apuntar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="appear" tags="vblex.*"><select lemma="aparecer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="appoint" tags="vblex.*"><select lemma="nombrar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="argue" tags="vblex.*"><select lemma="argumentar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="arouse" tags="vblex.*"><select lemma="despertar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="ask" tags="vblex.*"><select lemma="preguntar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="assume" tags="vblex.*"><select lemma="suponer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="attach" tags="vblex.*"><select lemma="sujetar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="attract" tags="vblex.*"><select lemma="atraer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="avoid" tags="vblex.*"><select lemma="evitar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="back" tags="vblex.*"><select lemma="respaldar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="become" tags="vblex.*"><select lemma="devenir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="bind" tags="vblex.*"><select lemma="atar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="boost" tags="vblex.*"><select lemma="aumentar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="cancel" tags="vblex.*"><select lemma="cancelar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="capture" tags="vblex.*"><select lemma="capturar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="celebrate" tags="vblex.*"><select lemma="celebrar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="cheer" tags="vblex.*"><select lemma="aclamar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="claim" tags="vblex.*"><select lemma="reclamar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="clear" tags="vblex.*"><select lemma="aclarar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="concede" tags="vblex.*"><select lemma="conceder" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="concern" tags="vblex.*"><select lemma="preocuparse" tags="vblex.pron.*"/></match>
+</rule>
+<rule>
+ <match lemma="condition" tags="vblex.*"><select lemma="condicionar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="conduct" tags="vblex.*"><select lemma="conducir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="confine" tags="vblex.*"><select lemma="limitar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="confront" tags="vblex.*"><select lemma="afrontar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="convey" tags="vblex.*"><select lemma="transportar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="cry" tags="vblex.*"><select lemma="llorar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="dare" tags="vblex.*"><select lemma="osar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="discharge" tags="vblex.*"><select lemma="liberar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="dismiss" tags="vblex.*"><select lemma="rechazar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="divide" tags="vblex.*"><select lemma="dividir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="draft" tags="vblex.*"><select lemma="redactar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="drop" tags="vblex.*"><select lemma="caer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="echo" tags="vblex.*"><select lemma="repetir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="enclose" tags="vblex.*"><select lemma="encerrar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="endorse" tags="vblex.*"><select lemma="aprobar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="enjoy" tags="vblex.*"><select lemma="disfrutar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="entitle" tags="vblex.*"><select lemma="titular" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="entrust" tags="vblex.*"><select lemma="confiar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="escape" tags="vblex.*"><select lemma="huir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="evade" tags="vblex.*"><select lemma="eludir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="expose" tags="vblex.*"><select lemma="exponer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="fake" tags="vblex.*"><select lemma="falsificar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="feature" tags="vblex.*"><select lemma="presentar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="figure" tags="vblex.*"><select lemma="representar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="fill" tags="vblex.*"><select lemma="llenar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="fire" tags="vblex.*"><select lemma="despedir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="fix" tags="vblex.*"><select lemma="fijar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="focus" tags="vblex.*"><select lemma="centrar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="gather" tags="vblex.*"><select lemma="reunir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="get" tags="vblex.*"><select lemma="conseguir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="give" tags="vblex.*"><select lemma="dar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="return" tags="vblex.*"><select lemma="regresar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="govern" tags="vblex.*"><select lemma="gobernar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="greet" tags="vblex.*"><select lemma="saludar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="nod" tags="vblex.*"><select lemma="asentir# con la cabeza" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="grow" tags="vblex.*"><select lemma="crecer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="hit" tags="vblex.*"><select lemma="pegar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="shock" tags="vblex.*"><select lemma="impresionar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="inhale" tags="vblex.*"><select lemma="inhalar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="interest" tags="vblex.*"><select lemma="interesar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="introduce" tags="vblex.*"><select lemma="introducir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="involve" tags="vblex.*"><select lemma="implicar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="issue" tags="vblex.*"><select lemma="emitir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="relocate" tags="vblex.*"><select lemma="reubicar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="keep" tags="vblex.*"><select lemma="mantener" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="make# up" tags="vblex.sep.*"><select lemma="hacer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="know" tags="vblex.*"><select lemma="saber" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="leave" tags="vblex.*"><select lemma="dejar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="light" tags="vblex.*"><select lemma="encender" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="line" tags="vblex.*"><select lemma="tachar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="look" tags="vblex.*"><select lemma="mirar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="look# after" tags="vblex.*"><select lemma="vigilar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="love" tags="vblex.*"><select lemma="encantar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="manage" tags="vblex.*"><select lemma="dirigir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="mark" tags="vblex.*"><select lemma="marcar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="meet" tags="vblex.*"><select lemma="conocer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="miss" tags="vblex.*"><select lemma="perder" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="mix" tags="vblex.*"><select lemma="mezclar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="monitor" tags="vblex.*"><select lemma="controlar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="operate" tags="vblex.*"><select lemma="operar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="pick" tags="vblex.*"><select lemma="elegir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="collect" tags="vblex.*"><select lemma="recoger" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="play" tags="vblex.*"><select lemma="jugar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="point" tags="vblex.*"><select lemma="señalar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="prepare" tags="vblex.*"><select lemma="preparar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="pretend" tags="vblex.*"><select lemma="pretender" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="project" tags="vblex.*"><select lemma="proyectar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="promote" tags="vblex.*"><select lemma="promover" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="prompt" tags="vblex.*"><select lemma="incitar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="push" tags="vblex.*"><select lemma="empujar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="pose" tags="vblex.*"><select lemma="posar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="raise" tags="vblex.*"><select lemma="levantar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="range" tags="vblex.*"><select lemma="variar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="reach" tags="vblex.*"><select lemma="lograr" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="reckon" tags="vblex.*"><select lemma="considerar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="relate" tags="vblex.*"><select lemma="relacionar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="release" tags="vblex.*"><select lemma="liberar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="remember" tags="vblex.*"><select lemma="recordar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="remind" tags="vblex.*"><select lemma="recordar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="reverse" tags="vblex.*"><select lemma="invertir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="review" tags="vblex.*"><select lemma="revisar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="reward" tags="vblex.*"><select lemma="premiar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="rise" tags="vblex.*"><select lemma="aumentar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="run" tags="vblex.*"><select lemma="correr" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="save" tags="vblex.*"><select lemma="salvar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="seize" tags="vblex.*"><select lemma="coger" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="set# up" tags="vblex.sep.*"><select lemma="instalar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="settle" tags="vblex.*"><select lemma="resolver" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="shatter" tags="vblex.*"><select lemma="destrozar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="shift" tags="vblex.*"><select lemma="cambiar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="show" tags="vblex.*"><select lemma="mostrar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="spend" tags="vblex.*"><select lemma="gastar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="spread" tags="vblex.*"><select lemma="extender" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="stand" tags="vblex.*"><select lemma="estar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="state" tags="vblex.*"><select lemma="declarar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="strike" tags="vblex.*"><select lemma="golpear" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="suffocate" tags="vblex.*"><select lemma="asfixiar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="suit" tags="vblex.*"><select lemma="convenir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="tackle" tags="vblex.*"><select lemma="emprender" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="take" tags="vblex.*"><select lemma="tomar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="talk" tags="vblex.*"><select lemma="hablar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="tell" tags="vblex.*"><select lemma="decir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="test" tags="vblex.*"><select lemma="probar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="train" tags="vblex.*"><select lemma="entrenar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="warm" tags="vblex.*"><select lemma="calentar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="watch" tags="vblex.*"><select lemma="mirar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="recall" tags="vblex.*"><select lemma="recordar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="work" tags="vblex.*"><select lemma="trabajar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="qualify" tags="vblex.*"><select lemma="cualificar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="relieve" tags="vblex.*"><select lemma="aliviar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="cabin" tags="n.*"><select lemma="cabina" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="shell" tags="n.*"><select lemma="concha" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="detour" tags="n.*"><select lemma="desvío" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="mat" tags="n.*"><select lemma="estera" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="hobby" tags="n.*"><select lemma="hobby" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="silt" tags="n.*"><select lemma="limo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="mildew" tags="n.*"><select lemma="mildiu" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="monograph" tags="n.*"><select lemma="monografía" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="multilingual" tags="adj"><select lemma="multilingüe" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="ornament" tags="n.*"><select lemma="ornamento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="refining" tags="n.*"><select lemma="refinado" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="soak" tags="vblex.*"><select lemma="remojar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="rock" tags="vblex.*"><select lemma="sacudir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="support" tags="n.*"><select lemma="soporte" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="get# across" tags="vblex.sep.*"><select lemma="comunicar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="hurt" tags="vblex.*"><select lemma="hacer# daño" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="blast" tags="vblex.*"><select lemma="atacar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="anchovy" tags="n.*"><select lemma="anchoa" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="born" tags="adj"><select lemma="nacido" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="congratulate" tags="vblex.*"><select lemma="felicitar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="commissioner" tags="n.*"><select lemma="comisario" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="processing" tags="n.*"><select lemma="procesamiento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="jar" tags="n.*"><select lemma="tarro" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="plague" tags="n.*"><select lemma="peste" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="loyalty" tags="n.*"><select lemma="lealtad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="referee" tags="n.*"><select lemma="árbitro" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="criminal" tags="adj"><select lemma="criminal" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="armoured" tags="adj"><select lemma="blindado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="watch# over" tags="vblex.*"><select lemma="vigilar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="secretariat" tags="n.*"><select lemma="secretaría" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="compensation" tags="n.*"><select lemma="compensación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="prescription" tags="n.*"><select lemma="prescripción" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="collegiate" tags="adj"><select lemma="colegial" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="fill# in" tags="vblex.sep.*"><select lemma="rellenar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="opening" tags="adj"><select lemma="de apertura" tags="adj.mf.sg"/></match>
+</rule>
+<rule>
+ <match lemma="social gathering" tags="n.*"><select lemma="encuentro social" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="subdepartment" tags="n.*"><select lemma="subdepartamento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="enabler" tags="n.*"><select lemma="habilitador" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="enabling" tags="adj"><select lemma="habilitador" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="marker" tags="n.*"><select lemma="marcador" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="bookmark" tags="n.*"><select lemma="marcapáginas" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="mediate" tags="vblex.*"><select lemma="mediar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="invaluable" tags="adj"><select lemma="inestimable" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="basin" tags="n.*"><select lemma="cuenca" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="cart" tags="n.*"><select lemma="carreta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="middle" tags="n.*"><select lemma="medio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="paste" tags="n.*"><select lemma="pasta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="spade" tags="n.pl"><select lemma="espada" tags="n.f.pl"/></match>
+</rule>
+<rule>
+ <match lemma="anti\-tank" tags="adj"><select lemma="antitanque" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="antitank" tags="adj"><select lemma="antitanque" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="squadron" tags="n.*"><select lemma="escuadrón" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="fraternity" tags="n.*"><select lemma="fraternidad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="move# away" tags="vblex.sep.*"><select lemma="apartar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="wield" tags="vblex.*"><select lemma="ejercer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="get# angry" tags="vblex.*"><select lemma="enfadarse" tags="vblex.pron.*"/></match>
+</rule>
+<rule>
+ <match lemma="anger" tags="vblex.*"><select lemma="enfadar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="ask# after" tags="vblex.*"><select lemma="preguntar# por" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="quit" tags="vblex.*"><select lemma="dejar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="archive" tags="n.*"><select lemma="archivo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="cartoon" tags="n.*"><select lemma="historieta" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="gravel" tags="n.*"><select lemma="grava" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="futility" tags="n.*"><select lemma="inutilidad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="triviality" tags="n.*"><select lemma="trivialidad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="give# off" tags="vblex.sep.*"><select lemma="emitir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="come# off" tags="vblex.*"><select lemma="salir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="set# off for" tags="vblex.*"><select lemma="salir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="eject" tags="vblex.*"><select lemma="expulsar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="glitzy" tags="adj.sint.*"><select lemma="deslumbrante" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="filling" tags="n.*"><select lemma="relleno" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="tire" tags="vblex.*"><select lemma="cansar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="sympathetic" tags="adj"><select lemma="comprensivo" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="exultant" tags="adj"><select lemma="exultante" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="long# for" tags="vblex.*"><select lemma="anhelar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="yearn# for" tags="vblex.*"><select lemma="anhelar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="bloody" tags="adj.sint.*"><select lemma="sangriento" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="cab" tags="n.*"><select lemma="taxi" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="flair" tags="n.*"><select lemma="estilo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="glib" tags="adj.sint.*"><select lemma="simplista" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="butt" tags="n.*"><select lemma="culata" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="backside" tags="n.*"><select lemma="parte posterior" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="rear" tags="adj"><select lemma="trasero" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="mourn" tags="vblex.*"><select lemma="llorar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="fair\-haired" tags="adj"><select lemma="rubio" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="spoiled" tags="adj"><select lemma="mimado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="affectionate" tags="adj"><select lemma="afectuoso" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="listless" tags="adj"><select lemma="lánguido" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="spine\-chilling" tags="adj"><select lemma="escalofriante" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="horrifying" tags="adj"><select lemma="horroroso" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="winger" tags="n.*"><select lemma="extremo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="right\-winger" tags="n.*"><select lemma="derechista" tags="n.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="left\-winger" tags="n.*"><select lemma="izquierdista" tags="n.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="burrow" tags="n.*"><select lemma="madriguera" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="stifle" tags="vblex.*"><select lemma="reprimir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="rotten" tags="adj"><select lemma="podrido" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="decayed" tags="adj"><select lemma="deteriorado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="aforementioned" tags="adj"><select lemma="antedicho" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="aforesaid" tags="adj"><select lemma="antedicho" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="aghast" tags="adj"><select lemma="aterrorizado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="terrified" tags="adj"><select lemma="aterrorizado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="ailing" tags="adj"><select lemma="enfermo" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="ventilated" tags="adj"><select lemma="ventilado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="airy" tags="adj.sint.*"><select lemma="aireado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="alight" tags="vblex.*"><select lemma="apearse" tags="vblex.pron.*"/></match>
+</rule>
+<rule>
+ <match lemma="alto" tags="n.*"><select lemma="alto" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="disentangle" tags="vblex.*"><select lemma="desenredar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="untangle" tags="vblex.*"><select lemma="desenredar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="ready" tags="adj.sint.*"><select lemma="preparado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="stoppage" tags="n.*"><select lemma="obstrucción" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="roast" tags="vblex.*"><select lemma="asar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="caller" tags="n.*"><select lemma="llamador" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="ancestry" tags="n.*"><select lemma="ascendencia" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="anchorage" tags="n.*"><select lemma="anclaje" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="distressed" tags="adj"><select lemma="afligido" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="upset" tags="adj"><select lemma="disgustado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="unbalanced" tags="adj"><select lemma="desequilibrado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="lively" tags="adj.sint.*"><select lemma="animado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="note" tags="vblex.*"><select lemma="notar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="assignment" tags="n.*"><select lemma="asignación" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="stunning" tags="adj"><select lemma="impresionante" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="attachment" tags="n.*"><select lemma="anexo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="attire" tags="n.*"><select lemma="atuendo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="avaricious" tags="adj"><select lemma="avaro" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="avert" tags="vblex.*"><select lemma="evitar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="flaw" tags="n.*"><select lemma="defecto" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="tract" tags="n.*"><select lemma="tramo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="chivalry" tags="n.*"><select lemma="caballerosidad" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="phase" tags="vblex.*"><select lemma="realizar# por etapas" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="magnify" tags="vblex.*"><select lemma="aumentar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="leach" tags="vblex.*"><select lemma="lixiviar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="dam" tags="n.*"><select lemma="dique" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="watershed" tags="n.*"><select lemma="cuenca" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="pad" tags="n.*"><select lemma="almohadilla" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="sunlight" tags="n.*"><select lemma="sol" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="armed robbery" tags="n.*"><select lemma="atraco# a mano armada" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="unravel" tags="vblex.*"><select lemma="desenredar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="plunge" tags="vblex.*"><select lemma="sumergir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="dive" tags="vblex.*"><select lemma="bucear" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="dip" tags="n.*"><select lemma="inmersión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="hollow" tags="n.*"><select lemma="hueco" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="dip" tags="vblex.*"><select lemma="meter" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="resort# to" tags="vblex.*"><select lemma="recurrir# a" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="flock" tags="vblex.*"><select lemma="acudir# en masa" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="muck" tags="n.*"><select lemma="estiércol" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="dribble" tags="n.*"><select lemma="baba" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="dribble" tags="vblex.*"><select lemma="regatear" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="get# ready" tags="vblex.*"><select lemma="prepararse" tags="vblex.pron.*"/></match>
+</rule>
+<rule>
+ <match lemma="put# aside" tags="vblex.sep.*"><select lemma="apartar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="setback" tags="n.*"><select lemma="contratiempo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="trifle" tags="n.*"><select lemma="bagatela" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="move# over" tags="vblex.*"><select lemma="moverse" tags="vblex.pron.*"/></match>
+</rule>
+<rule>
+ <match lemma="pit" tags="vblex.*"><select lemma="enfrentar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="masonry" tags="n.*"><select lemma="albañilería" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="steamer" tags="n.*"><select lemma="olla# a presión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="shabby" tags="adj.sint.*"><select lemma="gastado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="worn" tags="adj"><select lemma="gastado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="sleek" tags="adj"><select lemma="lustroso" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="robe" tags="n.*"><select lemma="túnica" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="patch" tags="n.*"><select lemma="remiendo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="patch" tags="vblex.*"><select lemma="remendar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="cute" tags="adj.sint.*"><select lemma="lindo" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="annual" tags="n.*"><select lemma="planta anual" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="purposeless" tags="adj"><select lemma="sin objetivo" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="malfunction" tags="n.*"><select lemma="fallo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="hail" tags="vblex.*"><select lemma="saludar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="joker" tags="n.*"><select lemma="bromista" tags="n.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="squad" tags="n.*"><select lemma="equipo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="leather" tags="n.*"><select lemma="cuero" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="bark" tags="n.*"><select lemma="corteza" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="pitch" tags="n.*"><select lemma="campo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="tug" tags="n.*"><select lemma="tirón" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="warble" tags="n.*"><select lemma="gorjeo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="fixer" tags="n.*"><select lemma="mediador" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="diesel" tags="n.sg"><select lemma="diésel" tags="n.m.sp.*"/></match>
+</rule>
+<rule>
+ <match lemma="launder" tags="vblex.*"><select lemma="lavar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="recorder" tags="n.*"><select lemma="grabadora" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="debunk" tags="vblex.*"><select lemma="echar# por tierra" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="sake" tags="n.*"><select lemma="bien" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="artwork" tags="n.*"><select lemma="obra# de arte" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="borrow" tags="vblex.*"><select lemma="tomar# prestado" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="elusive" tags="adj"><select lemma="esquivo" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="evasive" tags="adj"><select lemma="evasivo" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="evasion" tags="n.*"><select lemma="evasión" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="ceramics" tags="n.*"><select lemma="cerámica" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="flirt" tags="vblex.*"><select lemma="coquetear" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="rug" tags="n.*"><select lemma="alfombra" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="make# angry" tags="vblex.sep.*"><select lemma="enfadarse" tags="vblex.pron.*"/></match>
+</rule>
+<rule>
+ <match lemma="noteworthy" tags="adj"><select lemma="digno# de mención" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="criticism" tags="n.*"><select lemma="crítica" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="pickled" tags="adj"><select lemma="en vinagre" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="erupt" tags="vblex.*"><select lemma="entrar# en erupción" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="curtail" tags="vblex.*"><select lemma="disminuir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="stranglehold" tags="n.sg"><select lemma="dominio completo" tags="n.m.sg"/></match>
+</rule>
+<rule>
+ <match lemma="stranglehold" tags="n.pl"><select lemma="dominio completo" tags="n.m.sg"/></match>
+</rule>
+<rule>
+ <match lemma="infuriate" tags="vblex.*"><select lemma="enfurecer" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="equaliser" tags="n.*"><select lemma="empate" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="soppy" tags="adj.sint.*"><select lemma="sensiblero" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="mushy" tags="adj.sint.*"><select lemma="blando" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="hack" tags="vblex.*"><select lemma="piratear" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="hack" tags="n.*"><select lemma="tajo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="qualifier" tags="n.*"><select lemma="clasificado" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="petty thief" tags="n.*"><select lemma="ladronzuelo" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="pilferer" tags="n.*"><select lemma="ratero" tags="n.*"/></match>
+</rule>
+<rule>
+ <match lemma="foreword" tags="n.*"><select lemma="prefacio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="steward" tags="n.*"><select lemma="auxiliar" tags="n.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="stewardess" tags="n.*"><select lemma="auxiliar" tags="n.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="despicable" tags="adj"><select lemma="despreciable" tags="adj.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="beginning" tags="n.*"><select lemma="principio" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="installment" tags="n.*"><select lemma="plazo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="spark" tags="vblex.*"><select lemma="chispear" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="throw# out" tags="vblex.sep.*"><select lemma="tirar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="misty" tags="adj.sint.*"><select lemma="brumoso" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="troubled" tags="adj"><select lemma="atribulado" tags="adj.*"/></match>
+</rule>
+<rule>
+ <match lemma="unfold" tags="vblex.*"><select lemma="desdoblar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="brink" tags="n.*"><select lemma="borde" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="whitewash" tags="n.*"><select lemma="encubrimiento" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="whitewash" tags="vblex.*"><select lemma="encubrir" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="wire mesh" tags="n.*"><select lemma="malla# de alambre" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="leotard" tags="n.*"><select lemma="leotardo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="signage" tags="n.*"><select lemma="señalización" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="make# compatible" tags="vblex.sep.*"><select lemma="hacer# compatible" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="informant" tags="n.*"><select lemma="informante" tags="n.mf.*"/></match>
+</rule>
+<rule>
+ <match lemma="cleansing" tags="n.*"><select lemma="limpieza" tags="n.f.*"/></match>
+</rule>
+<rule>
+ <match lemma="deteriorate" tags="vblex.*"><select lemma="deteriorarse" tags="vblex.pron.*"/></match>
+</rule>
+<rule>
+ <match lemma="be# in luck" tags="vblex.*"><select lemma="estar# de suerte" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="labeling" tags="n.*"><select lemma="etiquetado" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="real estate" tags="n.*"><select lemma="inmueble" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="disable" tags="vblex.*"><select lemma="inutilizar" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="layout" tags="n.*"><select lemma="diseño" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="bolt" tags="n.*"><select lemma="tornillo" tags="n.m.*"/></match>
+</rule>
+<rule>
+ <match lemma="hint" tags="vblex.*"><select lemma="dar# pistas" tags="vblex.*"/></match>
+</rule>
+<rule>
+ <match lemma="spawn" tags="vblex.*"><select lemma="engendrar" tags="vblex.*"/></match>
+</rule>
+</rules>

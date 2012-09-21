@@ -21956,7 +21956,8 @@
     <e><p><l>join<s n="vblex"/></l><r>unir<s n="vblex"/></r></p></e>
     <e><p><l>joint<s n="vblex"/></l><r>juntar<s n="vblex"/></r></p></e>
     <e><p><l>judge<s n="vblex"/></l><r>juzgar<s n="vblex"/></r></p></e>
-    <e><p><l>jump<s n="vblex"/></l><r>saltar<s n="vblex"/></r></p></e>
+    <e srl="jump D"><p><l>jump<s n="vblex"/></l><r>saltar<s n="vblex"/></r></p></e>
+    <e srl="jump_over"><p><l>jump<g><b/>over</g><s n="vblex"/></l><r>saltar<s n="vblex"/></r></p></e>
     <e><p><l>justify<s n="vblex"/></l><r>justificar<s n="vblex"/></r></p></e>
     <e r="LR" slr="continuar" c="keep + ger (keep doing...) -> transfer?. En direcció ca-en tb s'hauria de detectar la construcció amb gerundi"><p><l>keep<s n="vblex"/></l><r>continuar<s n="vblex"/></r></p></e>
     <e slr="mantener D" srl="keep D"><p><l>keep<s n="vblex"/></l><r>mantener<s n="vblex"/></r></p></e>

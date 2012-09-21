@@ -9,7 +9,7 @@
 
 -->
 <dictionary>
-  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyziǎšěřčžǔůý</alphabet>
   <sdefs>
     <sdef n="acr" 	c="Acronym"/> 
     <sdef n="predet" 	c="Pre-determiner"/> 
@@ -32959,6 +32959,7 @@
     <e lm="joint"><i>joint</i><par n="accept__vblex"/></e>
     <e lm="judge"><i>judg</i><par n="liv/e__vblex"/></e>
     <e lm="jump"><i>jump</i><par n="accept__vblex"/></e>
+    <e lm="jump over"><i>jump</i><par n="accept__vblex"/><p><l><b/>over</l><r><g><b/>over</g></r></p></e>
     <e lm="justify"><i>justif</i><par n="appl/y__vblex"/></e>
     <e lm="keep on"><i>ke</i><par n="ke/ep__vblex"/><p><l><b/>on</l><r><g><b/>on</g></r></p></e>
     <e lm="keep watch"><i>ke</i><par n="ke/ep__vblex"/><p><l><b/>watch</l><r><g><b/>watch</g></r></p></e>

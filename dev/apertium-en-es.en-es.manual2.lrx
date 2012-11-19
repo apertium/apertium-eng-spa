@@ -104,7 +104,7 @@
   </rule>
 
   <rule>
-    <match lemma="great" tags="adj">
+    <match lemma="great" tags="adj.*">
       <select lemma="sumo" tags="adj" />
     </match>
     <or>
@@ -197,7 +197,7 @@
       <match lemma="break" tags="vblex.*"/>
       <match lemma="respect" tags="vblex.*"/>
       <match lemma="followw" tags="vblex.*"/>
-      <match lemma="against" tags="prep"/>                                    
+      <match lemma="against" tags="pr"/>                                    
     </or>
     <match lemma="law" tags="n.*">
       <select lemma="ley" tags="n.*" />
@@ -376,7 +376,7 @@
       <select lemma="parecer" tags="vblex.*" />
     </match>
     <or>
-      <match lemma="like" tags="prep"/>
+      <match lemma="like" tags="pr"/>
     </or>
   </rule>  
 
@@ -553,6 +553,7 @@
     <match lemma="spend" tags="vblex.*">
       <select lemma="pasar" tags="vblex.*" />
     </match>
+    <match/>
     <or>
       <match lemma="time" tags="n.*"/>
       <match lemma="month" tags="n.*"/>
@@ -560,6 +561,22 @@
       <match lemma="day" tags="n.*"/>
       <match lemma="minute" tags="n.*"/>
       <match lemma="second" tags="n.*"/>            
+      <match lemma="hour" tags="n.*"/>            
+    </or>
+  </rule>
+  
+  <rule>
+    <match lemma="spend" tags="vblex.*">
+      <select lemma="pasar" tags="vblex.*" />
+    </match>
+    <or>
+      <match lemma="time" tags="n.*"/>
+      <match lemma="month" tags="n.*"/>
+      <match lemma="year" tags="n.*"/>
+      <match lemma="day" tags="n.*"/>
+      <match lemma="minute" tags="n.*"/>
+      <match lemma="second" tags="n.*"/>            
+      <match lemma="hour" tags="n.*"/>            
     </or>
   </rule>
   
@@ -639,7 +656,7 @@
   <!--  -->
   
   <rule>
-    <match lemma="set up" tags="vblex.*">
+    <match lemma="set# up" tags="vblex.*">
       <select lemma="montar" tags="vblex.*" />
     </match>
     <or>
@@ -651,7 +668,7 @@
   </rule>
 
   <rule>
-    <match lemma="set up" tags="vblex.*">
+    <match lemma="set# up" tags="vblex.*">
       <select lemma="convocar" tags="vblex.*" />
     </match>
     <or>
@@ -707,7 +724,7 @@
     <or>
       <match lemma="theater" tags="n.*"/>
       <match lemma="go" tags="vblex.*"/>
-      <match lemma="on" tags="prep"/>      
+      <match lemma="on" tags="pr"/>      
     </or>
     <match lemma="stage" tags="n.*">
       <select lemmau="escenario" tags="n.*" />
@@ -718,10 +735,10 @@
 
   <rule>
     <or>
-      <match lemma="in" tags="prep"/>
+      <match lemma="in" tags="pr"/>
     </or>
-    <match lemma="operation" tags="vblex.*">
-      <select lemma="funcionamiento" tags="vblex.*" />
+    <match lemma="operation" tags="n.*">
+      <select lemma="funcionamiento" tags="n.*" />
     </match>
   </rule>
   
@@ -933,7 +950,7 @@
     <or>
       <match lemma="pure" tags="adj"/>
       <match lemma="sheer" tags="adj"/>
-      <match lemma="by" tags="prep"/>            
+      <match lemma="by" tags="pr"/>            
     </or>
     <match lemma="chance" tags="n.*">
       <select lemma="casualidad" tags="n.*" />
@@ -1097,7 +1114,7 @@
 
   <!--  -->
 
-`  <rule>
+  <rule>
     <match lemma="assume" tags="vblex.*">
       <select lemma="asumir" tags="vblex.*" />
     </match>

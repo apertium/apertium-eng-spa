@@ -1297,7 +1297,7 @@
     <e r="RL" a="eleka"><p><l>standard<s n="adj"/></l><r>standard<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL" a="eleka"><p><l>standard<s n="n"/></l><r>standard<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="patrón"><p><l>standard<s n="n"/></l><r>patrón<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="nivel"><p><l>standard<s n="n"/></l><r>nivel<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="nivel"><p><l>standard<s n="n"/></l><r>nivel<s n="n"/><s n="m"/></r></p></e>
     <e a="eleka"><p><l>Kerejeta<s n="np"/><s n="cog"/></l><r>Kerejeta<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e a="eleka"><p><l>Abando<s n="np"/><s n="loc"/></l><r>Abando<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
     <e a="eleka"><p><l>Reizabal<s n="np"/><s n="cog"/></l><r>Reizabal<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -13656,7 +13656,7 @@
     <e slr="anochecer D"><p><l>evening<s n="n"/></l><r>anochecer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>event<s n="n"/></l><r>acontecimiento<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="evento"><p><l>event<s n="n"/></l><r>evento<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="caso"><p><l>event<s n="n"/></l><r>caso<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="caso"><p><l>event<s n="n"/></l><r>caso<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>eventuality<s n="n"/></l><r>eventualidad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>eviction<s n="n"/></l><r>desahucio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>evidence<s n="n"/></l><r>evidencia<s n="n"/><s n="f"/></r></p></e>
@@ -17206,6 +17206,7 @@
     <e r="LR" slr="énfasis"><p><l>stress<s n="n"/></l><r>énfasis<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="extensión"><p><l>stretch<s n="n"/></l><r>extensión<s n="n"/><s n="f"/></r></p></e>
     <e srl="strike D"><p><l>strike<s n="n"/></l><r>huelga<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>military<b/>strike<s n="n"/></l><r>ataque<b/>militar<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>string<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="cadena"><p><l>string<s n="n"/></l><r>cadena<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="serie"><p><l>string<s n="n"/></l><r>serie<s n="n"/><s n="f"/></r></p></e>
@@ -36386,7 +36387,8 @@
     <e a="imaxinsoftware"><p><l>embattled<s n="adj"/></l><r>asediado<s n="adj"/></r></p></e>
     <e a="imaxinsoftware"><p><l>besieged<s n="adj"/></l><r>sitiado<s n="adj"/></r></p></e>
     <e srl="wound" a="imaxinsoftware"><p><l>wound<s n="vblex"/></l><r>herir<s n="vblex"/></r></p></e>
-    <e a="imaxinsoftware"><p><l>airstrike<s n="n"/></l><r>ataque<b/>aéreo<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware" r="LR"><p><l>airstrike<s n="n"/></l><r>ataque<b/>aéreo<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>air<b/>strike<s n="n"/></l><r>ataque<b/>aéreo<s n="n"/><s n="m"/></r></p></e>
     <e srl="stand-off" a="imaxinsoftware"><p><l>stand-off<s n="n"/></l><r>punto<b/>muerto<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>standoff<s n="n"/></l><r>punto<b/>muerto<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>Ajdabiya<s n="np"/><s n="loc"/></l><r>Ajdabiya<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -37488,7 +37490,8 @@
     <e srl="cookery" a="imaxinsoftware"><p><l>cookery<s n="n"/></l><r>cocina<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" a="imaxinsoftware"><p><l>sweetish<s n="adj"/></l><r>algo<b/>dulce<s n="adj"/><s n="mf"/></r></p></e>
     <e a="imaxinsoftware"><p><l>botanically<s n="adv"/></l><r>botánicamente<s n="adv"/></r></p></e>
-    <e a="imaxinsoftware" c="zucchini_US"><p><l>courgette<s n="n"/></l><r>calabacín<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware" c='vl="en_GB"'><p><l>courgette<s n="n"/></l><r>calabacín<s n="n"/><s n="m"/></r></p></e>
+    <e c='vl="en_US"' r="LR"><p><l>zucchini<s n="n"/></l><r>calabacín<s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>breadfruit<s n="n"/></l><r>árbol<g><b/>del<b/>pan</g><s n="n"/><s n="m"/></r></p></e>
     <e r="RL" a="imaxinsoftware"><p><l>breadfruit<s n="n"/></l><r>frutipan<s n="n"/><s n="m"/></r></p></e>
     <e srl="palatable" a="imaxinsoftware"><p><l>palatable<s n="adj"/></l><r>aceptable<s n="adj"/><s n="mf"/></r></p></e>
@@ -37593,7 +37596,8 @@
     <e r="LR"><p><l>air-conditioning<b/>unit<s n="n"/></l><r>climatizador<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>air-conditioner<s n="n"/></l><r>climatizador<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cubic<b/>capacity<s n="n"/></l><r>cilindrada<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>key<b/>ring<s n="n"/></l><r>llavero<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>keyring<s n="n"/></l><r>llavero<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>key<b/>ring<s n="n"/></l><r>llavero<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>tasting<s n="n"/></l><r>degustación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tasting<s n="n"/></l><r>cata<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>wine<b/>tasting<s n="n"/></l><r>degustación<g><b/>de<b/>vinos</g><s n="n"/><s n="f"/></r></p></e>
@@ -37659,7 +37663,6 @@
     <e><p><l>upbringing<s n="n"/></l><r>crianza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>basil<s n="n"/></l><r>albahaca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>swimsuit<s n="n"/></l><r>bañador<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>zucchini<s n="n"/></l><r>calabacín<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>time<s n="n"/></l><r>crono<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>versatility<s n="n"/></l><r>versatilidad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>viewing<s n="n"/></l><r>visionado<s n="n"/><s n="m"/></r></p></e>

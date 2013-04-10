@@ -29199,6 +29199,7 @@
     <e lm="stress"><i>stress</i><par n="access__n"/></e>
     <e lm="stretch"><i>stretch</i><par n="access__n"/></e>
     <e lm="strike"><i>strike</i><par n="house__n"/></e>
+    <e lm="military strike"><i>military<b/>strike</i><par n="house__n"/></e>
     <e lm="string"><i>string</i><par n="house__n"/></e>
     <e lm="strip"><i>strip</i><par n="house__n"/></e>
     <e lm="stripe"><i>stripe</i><par n="house__n"/></e>
@@ -45305,6 +45306,7 @@
     <e lm="besieged" a="imaxinsoftware"><i>besieged</i><par n="expensive__adj"/></e>
     <e lm="wound" a="imaxinsoftware"><i>wound</i><par n="accept__vblex"/></e>
     <e lm="airstrike" a="imaxinsoftware"><i>airstrike</i><par n="house__n"/></e>
+    <e lm="air strike" a="imaxinsoftware"><i>air<b/>strike</i><par n="house__n"/></e>
     <e lm="standoff" a="imaxinsoftware"><i>standoff</i><par n="house__n"/></e>
     <e lm="stand-off" a="imaxinsoftware"><i>stand-off</i><par n="house__n"/></e>
     <e lm="Ajdabiya" a="imaxinsoftware"><i>Ajdabiya</i><par n="Barcelona__np"/></e>
@@ -46196,10 +46198,8 @@
     <e lm="sweetish" a="imaxinsoftware"><i>sweetish</i><par n="expensive__adj"/></e>
     <e lm="cookery" a="imaxinsoftware"><i>cooker</i><par n="bab/y__n"/></e>
     <e lm="botanically" a="imaxinsoftware"><i>botanically</i><par n="maybe__adv"/></e>
-    <e r="LR" lm="courgette"><i>courgette</i><par n="house__n"/></e>
-    <e r="LR" lm="courgette" a="imaxinsoftware"><p><l>zucchini</l><r>courgette</r></p><par n="house__n"/></e>
-    <e r="RL" lm="courgette" alt="en_GB"><i>courgette</i><par n="house__n"/></e>
-    <e r="RL" lm="courgette" a="imaxinsoftware" alt="en_US"><p><l>zucchini</l><r>courgette</r></p><par n="house__n"/></e>
+    <e lm="courgette"><i>courgette</i><par n="house__n"/></e>
+    <e lm="zucchini"><i>zucchini</i><par n="house__n"/></e>
     <e lm="breadfruit" a="imaxinsoftware"><i>breadfruit</i><par n="house__n"/></e>
     <e lm="palatable" a="imaxinsoftware"><i>palatable</i><par n="expensive__adj"/></e>
     <e lm="inedible" a="imaxinsoftware"><i>inedible</i><par n="expensive__adj"/></e>
@@ -46272,6 +46272,7 @@
     <e lm="air-conditioner"><i>air-conditioner</i><par n="house__n"/></e>
     <e lm="air-conditioning unit"><i>air-conditioning<b/>unit</i><par n="house__n"/></e>
     <e lm="key ring"><i>key<b/>ring</i><par n="house__n"/></e>
+    <e lm="keyring"><i>keyring</i><par n="house__n"/></e>
     <e lm="cubic capacity"><i>cubic<b/>capacit</i><par n="bab/y__n"/></e>
     <e lm="squash"><i>squash</i><par n="access__n"/></e>
 <!--
@@ -46302,7 +46303,6 @@
     <e lm="upbringing"><i>upbringing</i><par n="house__n"/></e>
     <e lm="basil"><i>basil</i><par n="house__n"/></e>
     <e lm="swimsuit"><i>swimsuit</i><par n="house__n"/></e>
-    <e lm="zucchini"><i>zucchini</i><par n="house__n"/></e>
     <e lm="versatility"><i>versatilit</i><par n="bab/y__n"/></e>
     <e lm="viewing"><i>viewing</i><par n="house__n"/></e>
     <e lm="well"><i>well</i><par n="house__n"/></e>

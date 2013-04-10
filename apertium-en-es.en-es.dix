@@ -33611,7 +33611,7 @@
     <e r="LR" a="prompsit"><p><l>ie.<s n="adv"/></l><r>es<b/>decir<s n="adv"/></r></p></e>
     <e a="prompsit"><p><l>vs.<s n="adv"/></l><r>vs.<s n="adv"/></r></p></e>
     <e a="prompsit"><p><l>ff.<s n="adv"/></l><r>ss.<s n="adv"/></r></p></e>
-<!-- <e a="prompsit"><p><l>art.<s n="n"/><s n="sg"/></l><r>art.<s n="n"/><s n="m"/><s n="sp"/></r></p></e> -->
+    <e a="prompsit" i="yes"><p><l>art.<s n="n"/><s n="sg"/></l><r>art.<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e a="prompsit"><p><l>etc.<s n="adv"/></l><r>etc.<s n="adv"/></r></p></e>
     <e><p><l>etcetera<s n="adv"/></l><r>etcétera<s n="adv"/></r></p></e>
     <e r="LR" a="prompsit"><p><l>viz.<s n="adv"/></l><r>respectivamente<s n="adv"/></r></p></e>
@@ -33685,7 +33685,7 @@
     <e a="imaxinsoftware"><i>Carmen<b/>Pérez-Fragero<b/>Rodríguez<b/>de<b/>Tembleque<s n="np"/><s n="ant"/></i></e>
     <e a="imaxinsoftware"><p><l>Spanish<b/>Agency<b/>of<b/>International<b/>Cooperation<b/>for<b/>Development<s n="np"/><s n="al"/></l><r>Agencia<b/>Española<b/>de<b/>Cooperación<b/>Internacional<b/>de<b/>Desarrollo<s n="np"/><s n="al"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>AECID<s n="np"/><s n="al"/></l><r>AECID<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-    <!--<e r="RL" a="imaxinsoftware"><p><l>Mrs.<s n="n"/><s n="sg"/></l><r>Dña<s n="n"/><s n="f"/></r></p></e>-->
+    <e r="RL" a="imaxinsoftware" i="yes"><p><l>Mrs.<s n="n"/><s n="sg"/></l><r>Dña<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><i>Gonzalo<b/>Torrente<b/>Ballester<s n="np"/><s n="ant"/></i></e>
     <e a="imaxinsoftware"><i>Marilyn<b/>Monroe<s n="np"/><s n="ant"/></i></e>
     <e a="imaxinsoftware"><p><l>Radio<b/>Televisión<b/>Española<s n="np"/><s n="al"/></l><r>Radio<b/>Televisión<b/>Española<s n="np"/><s n="al"/><s n="f"/></r></p></e>
@@ -37429,11 +37429,7 @@
     <e a="imaxinsoftware"><p><l>limiting<s n="adj"/></l><r>limitativo<s n="adj"/></r></p></e>
     <e slr="lonja" a="imaxinsoftware"><p><l>market<s n="n"/></l><r>lonja<s n="n"/><s n="f"/></r></p></e>
 
-<!--
-    <e slr="a mano">  <p><l>manually<s n="adv"/></l><r>a<b/>mano<s n="adv"/></r></p></e>
-    <e slr="manualmente D" a="imaxinsoftware"><p><l>manually<s n="adv"/></l><r>manualmente<s n="adv"/></r></p></e>
--->
-    <e><p><l>manually<s n="adv"/></l><r>a<b/>mano<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>manually<s n="adv"/></l><r>a<b/>mano<s n="adv"/></r></p></e>
     <e a="imaxinsoftware"><p><l>manually<s n="adv"/></l><r>manualmente<s n="adv"/></r></p></e>
 
     <e slr="maquetación" a="imaxinsoftware"><p><l>layout<s n="n"/></l><r>maquetación<s n="n"/><s n="f"/></r></p></e>
@@ -37585,6 +37581,9 @@
     <e r="RL"><p><l>nomination<s n="n"/></l><r>nominación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>blogosphere<s n="n"/></l><r>blogosfera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lagoon<s n="n"/></l><r>laguna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stroke<g><b/>of<b/>genius</g><s n="n"/></l><r>momento<g><b/>de<b/>genialidad</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stroke<g><b/>of<b/>luck</g><s n="n"/></l><r>golpe<g><b/>de<b/>suerte</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>heresy<s n="n"/></l><r>herejía<s n="n"/><s n="f"/></r></p></e>
 <!--
 <e><p><l>grill<s n="n"/></l><r>parrilla<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>broiler<s n="n"/></l><r>parrilla<s n="n"/><s n="f"/></r></p></e>
@@ -37758,7 +37757,6 @@
 <e><p><l>tart<s n="n"/></l><r>torta<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>clutch<s n="n"/></l><r>embrague<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>trunk<s n="n"/></l><r>baúl<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>stroke<b/>of<b/>genius<s n="n"/></l><r>genialidad<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>raincoat<s n="n"/></l><r>gabardina<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>subject<s n="n"/></l><r>asignatura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>lineup<s n="n"/></l><r>alineación<s n="n"/><s n="f"/></r></p></e>
@@ -39205,7 +39203,6 @@
 <e><p><l>slap<s n="n"/></l><r>bofetón<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>hyperinflation<s n="n"/></l><r>hiperinflación<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>imprudence<s n="n"/></l><r>imprudencia<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>heresy<s n="n"/></l><r>herejía<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>pippin<s n="n"/></l><r>reineta<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>magpie<s n="n"/></l><r>urraca<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>unionism<s n="n"/></l><r>sindicalismo<s n="n"/><s n="m"/></r></p></e>

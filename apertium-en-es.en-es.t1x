@@ -20865,7 +20865,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="HAVER ADV PARTICIPI (have not yet asked - No lo han preguntado todavía)">
+    <rule comment="HAVER ADV YET PARTICIPI (have not yet asked - No lo han preguntado todavía)">
       <pattern>
 	<pattern-item n="have_aux"/>
 	<pattern-item n="adv"/>
@@ -23737,104 +23737,153 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	  <with-param pos="1"/>
 	</call-macro>
 	<choose>
-	    <when>
-	      <test>
-		  <equal caseless="yes">
-		    <clip pos="1" side="tl" part="lem"/>
-		    <lit v="tener"/>
-		  </equal>
-	      </test>
-		  <let>
-		    <var n="verbfinal"/>
-		      <concat>
-			<lit v="haber"/>
-			<lit-tag v="vbhaver"/>
-			<lit-tag v="3"/>
-			<lit-tag v="4"/>
-			<lit-tag v="5"/>
-		      </concat>
-		  </let>
-	    </when>
-	  </choose>
-	<choose>
-	  <when>
-	    <test>
-	      <in caseless="yes">
-		<clip pos="2" side="sl" part="lem"/>
-		<list n="adv_neg"/>
-	      </in>
-	    </test>
-	    <let>
-	      <var n="neg"/>
-	      <lit-tag v="NEG"/>
-	    </let>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="tl" part="lem"/>
+                <lit v="tener"/>
+              </equal>
+            </test>
+            <let>
+              <var n="verbfinal"/>
+              <concat>
+                <lit v="haber"/>
+                <lit-tag v="vbhaver"/>
+                <lit-tag v="3"/>
+                <lit-tag v="4"/>
+                <lit-tag v="5"/>
+              </concat>
+            </let>
 	  </when>
-	  <otherwise>
-	    <let>
-	      <var n="neg"/>
-	      <lit v=""/>
-	    </let>
-	  </otherwise>
-	</choose>
-	<out>
-	  <chunk name="adv" case="caseFirstWord">
-	    <tags>
-	      <tag><clip pos="2" side="tl" part="a_adv"/></tag>
-	      <tag><var n="neg"/></tag>
-	    </tags>
-	    <lu>
-	      <clip pos="2" side="tl" part="whole"/>
-	    </lu>
-	  </chunk>
-	  <b pos="1"/>
-	</out>    
-	<choose>	 
-	  <when> <!--en aquesta regla hem decidit traduir el passat, no com a 'vaig haver fet' sinó com a 'havia fet'  -->
-	    <test>
-	      <equal>
-		<clip pos="1" side="sl" part="temps"/>
-		<lit-tag v="past"/>
-	      </equal> 
-	    </test>
-	    <let>
-	      <var n="temps_chunk"/>
-	      <lit-tag v="pii"/>
-	    </let>
-	    <let>
-	      <var n="verbfinal"/>
-		<concat>
-		  <clip pos="1" side="tl" part="lemh"/>
-		  <clip pos="1" side="tl" part="a_verb"/>
-		  <lit-tag v="3"/>
-		  <lit-tag v="4"/>
-		  <lit-tag v="5"/>
-		  <clip pos="1" side="tl" part="lemq"/>
-		</concat>
-	    </let>
-	  </when>
-	</choose>
-	<out>
-	  <chunk name="have_pp">
-	    <tags>
-	      <tag><lit-tag v="SV"/></tag>
-	      <tag><var n="tipus_verb"/></tag>
-	      <tag><var n="temps_chunk"/></tag>
-	      <tag><var n="pers_chunk"/></tag>
-	      <tag><var n="nbr_chunk"/></tag>
-	    </tags> 
-	    <lu>   
-	      <var n="pronom"/> 
-	      <var n="verbfinal"/>
-	    </lu> 
-	    <b pos="2"/>
-	    <lu>
-	      <clip pos="3" side="tl" part="lemh"/> 
-	      <clip pos="3" side="tl" part="a_pp"/>
-	      <lit-tag v="m.sg"/>
-	      <clip pos="3" side="tl" part="lemq"/> 
-	    </lu>
-	  </chunk>
-	</out>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="just"/>
+              </equal>
+            </test>
+            <let>
+              <var n="verbfinal"/>
+              <concat>
+                <lit v="acabar"/>
+                <lit-tag v="vblex"/>
+                <lit-tag v="3"/>
+                <lit-tag v="4"/>
+                <lit-tag v="5"/>
+              </concat>
+            </let>
+            <out>
+              <chunk name="have_just_pp">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><var n="tipus_verb"/></tag>
+                  <tag><var n="temps_chunk"/></tag>
+                  <tag><var n="pers_chunk"/></tag>
+                  <tag><var n="nbr_chunk"/></tag>
+                </tags> 
+                <lu>   
+                  <var n="pronom"/> 
+                  <var n="verbfinal"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <lit v="de"/> 
+                  <lit-tag v="pr"/>
+                </lu>
+                <b pos="2"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/> 
+                  <clip pos="3" side="tl" part="a_verb"/>
+                  <lit-tag v="inf"/>
+                  <clip pos="3" side="tl" part="lemq"/> 
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <choose>
+              <when>
+                <test>
+                  <in caseless="yes">
+                    <clip pos="2" side="sl" part="lem"/>
+                    <list n="adv_neg"/>
+                  </in>
+                </test>
+                <let>
+                  <var n="neg"/>
+                  <lit-tag v="NEG"/>
+                </let>
+              </when>
+              <otherwise>
+	        <let>
+	          <var n="neg"/>
+	          <lit v=""/>
+	        </let>
+	      </otherwise>
+	    </choose>
+            <out>
+              <chunk name="adv" case="caseFirstWord">
+                <tags>
+                  <tag><clip pos="2" side="tl" part="a_adv"/></tag>
+                  <tag><var n="neg"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="2" side="tl" part="whole"/>
+                </lu>
+              </chunk>
+              <b pos="1"/>
+            </out>   
+            <choose>	 
+              <when> <!--en aquesta regla hem decidit traduir el passat, no com a 'vaig haver fet' sinó com a 'havia fet'  -->
+                <test>
+                  <equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="past"/>
+                  </equal> 
+                </test>
+                <let>
+                  <var n="temps_chunk"/>
+                  <lit-tag v="pii"/>
+                </let>
+                <let>
+                  <var n="verbfinal"/>
+                  <concat>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <lit-tag v="3"/>
+                    <lit-tag v="4"/>
+                    <lit-tag v="5"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                  </concat>
+                </let>
+              </when>
+            </choose>
+            <out>
+              <chunk name="have_pp">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><var n="tipus_verb"/></tag>
+                  <tag><var n="temps_chunk"/></tag>
+                  <tag><var n="pers_chunk"/></tag>
+                  <tag><var n="nbr_chunk"/></tag>
+                </tags> 
+                <lu>   
+                  <var n="pronom"/> 
+                  <var n="verbfinal"/>
+                </lu> 
+                <b pos="2"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/> 
+                  <clip pos="3" side="tl" part="a_pp"/>
+                  <lit-tag v="m.sg"/>
+                  <clip pos="3" side="tl" part="lemq"/> 
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 

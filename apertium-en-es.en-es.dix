@@ -15420,6 +15420,8 @@
     <e r="LR"><p><l>notary<s n="n"/></l><r>notario<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>notary<s n="n"/></l><r>notario<s n="n"/></r></p></e>
     <e slr="billete" srl="note D"><p><l>note<s n="n"/></l><r>billete<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>bank<b/>note<s n="n"/></l><r>billete<s n="n"/><s n="m"/></r></p></e>
+    <e srl="banknote"><p><l>banknote<s n="n"/></l><r>billete<s n="n"/><s n="m"/></r></p></e>
     <e slr="nota D"><p><l>note<s n="n"/></l><r>nota<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>notebook<s n="n"/></l><r>libreta<s n="n"/><s n="f"/></r></p></e>
     <e srl="notice"><p><l>notice<s n="n"/></l><r>aviso<s n="n"/><s n="m"/></r></p></e>
@@ -15853,8 +15855,9 @@
     <e r="RL"><p><l>pipe<s n="n"/></l><r>tubería<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="tubo D"><p><l>pipe<s n="n"/></l><r>tubo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>pipeline<s n="n"/></l><r>tubería<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>pipeline<s n="n"/></l><r>gasoducto<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>pipeline<s n="n"/></l><r>oleoducto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gas<b/>pipeline<s n="n"/></l><r>gasoducto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oil<b/>pipeline<s n="n"/></l><r>oleoducto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oil<b/>industry<s n="n"/></l><r>industria<b/>petrolera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pirate<s n="n"/></l><r>pirata<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR" slr="tono"><p><l>pitch<s n="n"/></l><r>tono<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="campo"><p><l>pitch<s n="n"/></l><r>campo<s n="n"/><s n="m"/></r></p></e>
@@ -17207,6 +17210,7 @@
     <e r="LR" slr="extensión"><p><l>stretch<s n="n"/></l><r>extensión<s n="n"/><s n="f"/></r></p></e>
     <e srl="strike D"><p><l>strike<s n="n"/></l><r>huelga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>military<b/>strike<s n="n"/></l><r>ataque<b/>militar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hunger<b/>strike<s n="n"/></l><r>huelga<g><b/>de<b/>hambre</g><s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>string<s n="n"/></l><r>cuerda<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="cadena"><p><l>string<s n="n"/></l><r>cadena<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="serie"><p><l>string<s n="n"/></l><r>serie<s n="n"/><s n="f"/></r></p></e>
@@ -18015,6 +18019,9 @@
     <e><p><l>wool<s n="n"/></l><r>lana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>word<s n="n"/></l><r>palabra<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>work<s n="n"/></l><r>curro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>work<g><b/>of<b/>art</g><s n="n"/></l><r>obra<g><b/>de<b/>arte</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>artwork<s n="n"/></l><r>obra<b/>artística<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>art<b/>work<s n="n"/></l><r>obra<b/>artística<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" srl="work D"><p><l>work<s n="n"/></l><r>faena<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>work<s n="n"/></l><r>obra<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>work<s n="n"/></l><r>labor<s n="n"/><s n="f"/></r></p></e>
@@ -34806,6 +34813,7 @@
     <e r="RL" a="imaxinsoftware"><p><l>Spanish<b/>Air<b/>Force<s n="np"/><s n="al"/></l><r>Ejército<b/>del<b/>Aire<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>horse<s n="adj"/></l><r>caballar<s n="adj"/><s n="mf"/></r></p></e>
     <e slr="reportaje" a="imaxinsoftware"><p><l>report<s n="n"/></l><r>reportaje<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>news<b/>report<s n="n"/></l><r>reportaje<g><b/>de<b/>interés</g><s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>tolerance<s n="n"/></l><r>tolerancia<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>diploma<s n="n"/></l><r>diploma<s n="n"/><s n="m"/></r></p></e>
     <e srl="granting D" a="imaxinsoftware"><p><l>granting<s n="n"/></l><r>concesión<s n="n"/><s n="f"/></r></p></e>

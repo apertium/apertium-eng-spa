@@ -779,7 +779,9 @@
     <e a="eleka"><p><l>abode<s n="n"/></l><r>morada<s n="n"/><s n="f"/></r></p></e>
     <e a="eleka"><p><l>abruptness<s n="n"/></l><r>brusquedad<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" a="eleka"><p><l>trade<b/>union<s n="n"/></l><r>sindicato<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>labour<b/>union<s n="n"/></l><r>sindicato<s n="n"/><s n="m"/></r></p></e>
     <e a="eleka"><p><l>trade<b/>unionist<s n="n"/></l><r>sindicalista<s n="n"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>labour<b/>unionist<s n="n"/></l><r>sindicalista<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR" a="eleka"><p><l>abate<s n="vblex"/></l><r>calmar<s n="vblex"/></r></p></e>
     <e r="LR" a="eleka"><p><l>curly<b/>endive<s n="n"/></l><r>escarola<s n="n"/><s n="f"/></r></p></e>
     <e a="eleka"><p><l>be<g><b/>ablaze</g><s n="vblex"/></l><r>estar<g><b/>en<b/>llamas</g><s n="vblex"/></r></p></e>
@@ -2224,6 +2226,7 @@
     <e a="eleka"><p><l>purchasing<b/>aid<s n="n"/></l><r>ayuda<g><b/>a<b/>la<b/>compra</g><s n="n"/><s n="f"/></r></p></e>
     <e a="eleka"><p><l>navigational<b/>aid<s n="n"/></l><r>ayuda<g><b/>a<b/>la<b/>navegación</g><s n="n"/><s n="f"/></r></p></e>
     <e a="eleka"><p><l>income<b/>support<s n="n"/></l><r>ayuda<b/>compensatoria<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>financial<b/>support<s n="n"/></l><r>apoyo<b/>financiero<s n="n"/><s n="m"/></r></p></e>
     <e a="eleka"><p><l>economic<b/>aid<s n="n"/></l><r>ayuda<b/>económica<s n="n"/><s n="f"/></r></p></e>
     <e a="eleka"><p><l>humanitarian<b/>aid<s n="n"/></l><r>ayuda<b/>humanitaria<s n="n"/><s n="f"/></r></p></e>
     <e a="eleka"><p><l>visual<b/>aid<s n="n"/></l><r>ayuda<b/>visual<s n="n"/><s n="f"/></r></p></e>
@@ -14723,6 +14726,7 @@
     <e><p><l>joke<s n="n"/></l><r>chiste<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>journal<s n="n"/></l><r>revista<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>journalism<s n="n"/></l><r>periodismo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>investigative<b/>journalism<s n="n"/></l><r>periodismo<g><b/>de<b/>investigación</g><s n="n"/><s n="m"/></r></p></e>
     <e><p><l>journalist<s n="n"/></l><r>periodista<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR" slr="viaje D"><p><l>journey<s n="n"/></l><r>viaje<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>joy<s n="n"/></l><r>alegría<s n="n"/><s n="f"/></r></p></e>
@@ -16357,6 +16361,7 @@
     <e srl="refill"><p><l>refill<s n="n"/></l><r>recambio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>refinance<s n="n"/></l><r>refinanciación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>refinery<s n="n"/></l><r>refinería<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oil<b/>refinery<s n="n"/></l><r>refinería<g><b/>de<b/>petróleo</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reflation<s n="n"/></l><r>reactivación<s n="n"/><s n="f"/></r></p></e>
     <e slr="reflejo" c="Fís."><p><l>reflection<s n="n"/></l><r>reflejo<s n="n"/><s n="m"/></r></p></e>
     <e slr="reflexión D"><p><l>reflection<s n="n"/></l><r>reflexión<s n="n"/><s n="f"/></r></p></e>
@@ -18020,8 +18025,9 @@
     <e><p><l>word<s n="n"/></l><r>palabra<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>work<s n="n"/></l><r>curro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>work<g><b/>of<b/>art</g><s n="n"/></l><r>obra<g><b/>de<b/>arte</g><s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>artwork<s n="n"/></l><r>obra<b/>artística<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>artwork<s n="n"/></l><r>obra<b/>artística<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>art<b/>work<s n="n"/></l><r>obra<b/>artística<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>literary<b/>work<s n="n"/></l><r>obra<b/>literaria<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" srl="work D"><p><l>work<s n="n"/></l><r>faena<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>work<s n="n"/></l><r>obra<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>work<s n="n"/></l><r>labor<s n="n"/><s n="f"/></r></p></e>
@@ -34814,6 +34820,7 @@
     <e a="imaxinsoftware"><p><l>horse<s n="adj"/></l><r>caballar<s n="adj"/><s n="mf"/></r></p></e>
     <e slr="reportaje" a="imaxinsoftware"><p><l>report<s n="n"/></l><r>reportaje<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>news<b/>report<s n="n"/></l><r>reportaje<g><b/>de<b/>interés</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>research<b/>report<s n="n"/></l><r>informe<g><b/>de<b/>investigación</g><s n="n"/><s n="m"/></r></p></e>
     <e a="imaxinsoftware"><p><l>tolerance<s n="n"/></l><r>tolerancia<s n="n"/><s n="f"/></r></p></e>
     <e a="imaxinsoftware"><p><l>diploma<s n="n"/></l><r>diploma<s n="n"/><s n="m"/></r></p></e>
     <e srl="granting D" a="imaxinsoftware"><p><l>granting<s n="n"/></l><r>concesión<s n="n"/><s n="f"/></r></p></e>

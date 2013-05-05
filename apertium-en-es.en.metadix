@@ -540,10 +540,6 @@
 
     </pardef>
 
-
-
-
-
     <pardef n="expensive__adj">
     <e c="CP: adjectives that form the comparative and superlative forms with more and the most respectively">
       <p>
@@ -15562,6 +15558,7 @@
     <e lm="put the foot down" a="eleka"><i>put</i><par n="cut__vblex"/><p><l><b/>the<b/>foot<b/>down</l><r><g><b/>the<b/>foot<b/>down</g></r></p></e>
     <e lm="put the foot down on the accelerator" a="eleka"><i>put</i><par n="cut__vblex"/><p><l><b/>the<b/>foot<b/>down<b/>on<b/>the<b/>accelerator</l><r><g><b/>the<b/>foot<b/>down<b/>on<b/>the<b/>accelerator</g></r></p></e>
     <e lm="on the brink of extinction"><i>on<b/>the<b/>brink<b/>of<b/>extinction</i><par n="maybe__adv"/></e>
+    <e lm="on the brink of war"><i>on<b/>the<b/>brink<b/>of<b/>war</i><par n="maybe__adv"/></e>
     <e lm="on the brink of collapse"><i>on<b/>the<b/>brink<b/>of<b/>collapse</i><par n="maybe__adv"/></e>
     <e lm="on the brink of starvation"><i>on<b/>the<b/>brink<b/>of<b/>starvation</i><par n="maybe__adv"/></e>
     <e lm="on the brink of bankruptcy"><i>on<b/>the<b/>brink<b/>of<b/>bankruptcy</i><par n="maybe__adv"/></e>
@@ -15571,6 +15568,7 @@
     <e lm="on the brink of tears"><i>on<b/>the<b/>brink<b/>of<b/>tears</i><par n="maybe__adv"/></e>
     <e lm="on the brink of insanity"><i>on<b/>the<b/>brink<b/>of<b/>insanity</i><par n="maybe__adv"/></e>
     <e lm="on the verge of extinction"><i>on<b/>the<b/>verge<b/>of<b/>extinction</i><par n="maybe__adv"/></e>
+    <e lm="on the verge of war"><i>on<b/>the<b/>verge<b/>of<b/>war</i><par n="maybe__adv"/></e>
     <e lm="on the verge of collapse"><i>on<b/>the<b/>verge<b/>of<b/>collapse</i><par n="maybe__adv"/></e>
     <e lm="on the verge of starvation"><i>on<b/>the<b/>verge<b/>of<b/>starvation</i><par n="maybe__adv"/></e>
     <e lm="on the verge of bankruptcy"><i>on<b/>the<b/>verge<b/>of<b/>bankruptcy</i><par n="maybe__adv"/></e>
@@ -25377,6 +25375,13 @@
     <e lm="chest"><i>chest</i><par n="house__n"/></e>
     <e r="LR" lm="chestnuttree"><p><l>chestnuttree</l><r>chestnut<b/>tree</r></p><par n="house__n"/></e>
     <e lm="chestnut tree"><i>chestnut<b/>tree</i><par n="house__n"/></e>
+    <e lm="treasure chest"><i>treasure<b/>chest</i><par n="house__n"/></e>
+    <e lm="brush cutter"><i>brush<b/>cutter</i><par n="house__n"/></e>
+    <e lm="student population"><i>student<b/>population</i><par n="house__n"/></e>
+    <e lm="student protest"><i>student<b/>protest</i><par n="house__n"/></e>
+    <e lm="student leader"><i>student<b/>leader</i><par n="house__n"/></e>
+    <e lm="student life"><i>student<b/>life</i><par n="east__n"/></e>
+    <e lm="student life" r="RL" c="gen only: conflict w/verb lives"><i>student<b/>li</i><par n="li/fe__n"/></e>
     <e lm="chevron"><i>chevron</i><par n="house__n"/></e>
     <e lm="chewing gum"><i>chewing<b/>gum</i><par n="house__n"/></e>
     <e lm="chicken"><i>chicken</i><par n="house__n"/></e>
@@ -28905,6 +28910,8 @@
     <e lm="scratch"><i>scratch</i><par n="access__n"/></e>
     <e lm="scream"><i>scream</i><par n="house__n"/></e>
     <e lm="screen"><i>screen</i><par n="house__n"/></e>
+    <e lm="smokescreen"><i>smokescreen</i><par n="house__n"/></e>
+    <e lm="smoke screen"><i>smoke<b/>screen</i><par n="house__n"/></e>
     <e lm="screw"><i>screw</i><par n="house__n"/></e>
     <e lm="script" a="carmentano"><i>script</i><par n="house__n"/></e>
     <e lm="scruple"><i>scruple</i><par n="house__n"/></e>
@@ -32157,6 +32164,7 @@
     <e lm="astonish"><i>astonish</i><par n="approach__vblex"/></e>
     <e lm="flabbergast"><i>flabbergast</i><par n="accept__vblex"/></e>
     <e lm="flabbergasted"><i>flabbergasted</i><par n="expensive__adj"/></e>
+    <e lm="student"><i>student</i><par n="expensive__adj"/></e>
     <e lm="hallucinate"><i>hallucinat</i><par n="liv/e__vblex"/></e>
     <e lm="abort"><i>abort</i><par n="accept__vblex"/></e>
     <e lm="abhor"><i>abhor</i><par n="occur__vblex"/></e>

@@ -12574,6 +12574,7 @@
     <e slr="tela D"><p><l>cloth<s n="n"/></l><r>tela<s n="n"/><s n="f"/></r></p></e>
     <e slr="trapo"><p><l>cloth<s n="n"/></l><r>trapo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>clothes<s n="n"/><s n="pl"/></l><r>ropa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>clothes<s n="n"/><s n="pl"/></l><r>vestimenta<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>clothing<s n="n"/></l><r>indumentaria<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>clothing<s n="n"/></l><r>ropa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cloud<s n="n"/></l><r>nube<s n="n"/><s n="f"/></r></p></e>
@@ -14003,6 +14004,7 @@
     <e srl="food D"><p><l>food<s n="n"/></l><r>comida<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>foolishness<s n="n"/></l><r>tontería<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>foot<s n="n"/></l><r>pie<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>soccer<s n="n"/><s n="sg"/></l><r>fútbol<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>football<s n="n"/><s n="sg"/></l><r>fútbol<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>football<s n="n"/><s n="pl"/></l><r>pelota<g><b/>de<b/>fútbol</g><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>football<s n="n"/><s n="sg"/></l><r>pelota<g><b/>de<b/>fútbol</g><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -31316,8 +31318,14 @@
     <e r="RL"><p><l>scribe<s n="n"/></l><r>escribano<s n="n"/></r></p></e>
     <e r="LR"><p><l>archer<s n="n"/></l><r>arquero<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>archer<s n="n"/></l><r>arquero<s n="n"/></r></p></e>
+    <e><p><l>self-destruction<s n="n"/></l><r>autodestrucción<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>macroeconomy<s n="n"/></l><r>macroeconomía<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>formalisation<s n="n"/></l><r>formalización<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>daughter-in-law<s n="n"/></l><r>nuera<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>auctioneer<s n="n"/></l><r>rematador<s n="n"/><s n="GD"/></r></p></e>
     <e r="LR" slr="rematador"><p><l>striker<s n="n"/></l><r>rematador<s n="n"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>striker<s n="n"/></l><r>rematador<s n="n"/></r></p></e>
+    <e r="RL" srl="striker D"><p><l>striker<s n="n"/></l><r>rematador<s n="n"/></r></p></e>
+    <e r="RL" srl="auctioneer"><p><l>auctioneer<s n="n"/></l><r>rematador<s n="n"/></r></p></e>
     <e r="LR"><p><l>backpacker<s n="n"/></l><r>mochilero<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>backpacker<s n="n"/></l><r>mochilero<s n="n"/></r></p></e>
     <e r="LR"><p><l>restorer<s n="n"/></l><r>restaurador<s n="n"/><s n="GD"/></r></p></e>
@@ -37772,6 +37780,7 @@
     <e r="RL"><p><l>fan<s n="n"/></l><r>forofo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>runner-up<s n="n"/></l><r>subcampeón<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mother-in-law<s n="n"/></l><r>suegro<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>father-in-law<s n="n"/></l><r>suegro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cyclops<s n="n"/></l><r>cíclope<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vertex<s n="n"/></l><r>vértice<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>zoologist<s n="n"/></l><r>zoólogo<s n="n"/><s n="GD"/></r></p></e>
@@ -37871,7 +37880,8 @@
     <e><p><l>swimsuit<s n="n"/></l><r>bañador<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>versatility<s n="n"/></l><r>versatilidad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>viewing<s n="n"/></l><r>visionado<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>bowl<s n="n"/></l><r>cuenco<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" srl="bowl D"><p><l>bowl<s n="n"/></l><r>cuenco<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL" srl="hollow"><p><l>hollow<s n="n"/></l><r>cuenco<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sedan<s n="n"/></l><r>sedán<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tattoo<s n="n"/></l><r>tatuaje<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cookbook<s n="n"/></l><r>recetario<s n="n"/><s n="m"/></r></p></e>
@@ -38778,6 +38788,7 @@
     <e r="RL"><p><l>sesame<s n="n"/></l><r>ajonjolí<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>permissiveness<s n="n"/></l><r>permisividad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>twinning<s n="n"/></l><r>hermanamiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>soap<b/>opera<s n="n"/></l><r>telenovela<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>voodoo<s n="n"/></l><r>vudú<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>attic<s n="n"/></l><r>desván<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>fanfare<s n="n"/></l><r>fanfarria<s n="n"/><s n="f"/></r></p></e>

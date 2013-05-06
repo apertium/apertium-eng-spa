@@ -790,7 +790,8 @@
     <e a="eleka"><p><l>be<g><b/>ablaze</g><s n="vblex"/></l><r>estar<g><b/>en<b/>llamas</g><s n="vblex"/></r></p></e>
     <e a="eleka"><p><l>double<b/>bass<s n="n"/></l><r>contrabajo<s n="n"/><s n="m"/></r></p></e>
     <e a="eleka"><p><l>bass<b/>drum<s n="n"/></l><r>bombo<s n="n"/><s n="m"/></r></p></e>
-    <e a="eleka"><p><l>con<b/>men<s n="n"/></l><r>timadores<s n="n"/><s n="m"/></r></p></e>
+    <e a="eleka"><p><l>con<b/>man<s n="n"/></l><r>timador<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>con<b/>woman<s n="n"/></l><r>timador<s n="n"/><s n="f"/></r></p></e>
     <e a="eleka"><p><l>abominable<s n="adj"/></l><r>abominable<s n="adj"/><s n="mf"/></r></p></e>
     <e a="eleka"><p><l>reckless<b/>abandon<s n="n"/></l><r>desenfreno<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" a="eleka"><p><l>wild<b/>abandon<s n="n"/></l><r>desenfreno<s n="n"/><s n="m"/></r></p></e>
@@ -15108,6 +15109,7 @@
     <e r="RL"><p><l>man<s n="n"/></l><r>varón<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="administración D"><p><l>management<s n="n"/></l><r>administración<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="gestión"><p><l>management<s n="n"/></l><r>gestión<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL" srl="management D"><p><l>management<s n="n"/><s n="sg"/></l><r>gestión<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" c="en masculí per defecte"><p><l>manager<s n="n"/></l><r>director<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" srl="manager" c="en masculí per defecte"><p><l>manager<s n="n"/></l><r>director<s n="n"/></r></p></e>
     <e r="LR" slr="gerente"><p><l>manager<s n="n"/></l><r>gerente<s n="n"/><s n="f"/></r></p></e>
@@ -15374,6 +15376,7 @@
     <e><p><l>moustache<s n="n"/></l><r>bigote<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mouth<s n="n"/></l><r>boca<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="desembocadura"><p><l>mouth<s n="n"/></l><r>desembocadura<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>mouth<s n="n"/></l><r>desembocadura<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>move<s n="n"/></l><r>movimiento<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>movement<s n="n"/></l><r>movimiento<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>movie<s n="n"/></l><r>película<s n="n"/><s n="f"/></r></p></e>
@@ -16343,7 +16346,7 @@
     <e r="RL"><p><l>rage<s n="n"/></l><r>arrebato<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>rage<s n="n"/></l><r>cólera<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>rage<s n="n"/></l><r>rabia<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>rail<s n="n"/></l><r>baranda<s n="n"/><s n="f"/></r></p></e>
+    <e slr="baranda"><p><l>rail<s n="n"/></l><r>baranda<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>rail<s n="n"/></l><r>barandilla<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="barra"><p><l>rail<s n="n"/></l><r>barra<s n="n"/><s n="f"/></r></p></e>
     <e slr="raíl D"><p><l>rail<s n="n"/></l><r>raíl<s n="n"/><s n="m"/></r></p></e>
@@ -16756,6 +16759,9 @@
     <e r="LR" slr="alarma"><p><l>scare<s n="n"/></l><r>alarma<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="amenaza"><p><l>scare<s n="n"/></l><r>amenaza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>scene<s n="n"/></l><r>escena<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="escenario"><p><l>scene<s n="n"/></l><r>escenario<s n="n"/><s n="f"/></r></p></e>
+    <e>  <p><l>fire<b/>drill<s n="n"/></l><r>simulacro<g><b/>de<b/>incendio</g><s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>bus<b/>stop<s n="n"/></l><r>parada<g><b/>de<b/>autobús</g><s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="potencia"><p><l>power<s n="n"/></l><r>potencia<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="panorama"><p><l>scene<s n="n"/></l><r>panorama<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>scenography<s n="n"/></l><r>escenografía<s n="n"/><s n="f"/></r></p></e>
@@ -17148,6 +17154,7 @@
     <e r="LR" slr="oradora"><p><l>speaker<s n="n"/></l><r>oradora<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="presidente"><p><l>speaker<s n="n"/></l><r>presidente<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="interlocutor"><p><l>speaker<s n="n"/></l><r>interlocutor<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>speaker<s n="n"/></l><r>interlocutor<s n="n"/></r></p></e>
     <e><p><l>specialist<s n="n"/></l><r>especialista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>speciality<s n="n"/></l><r>especialidad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>specialisation<s n="n"/></l><r>especialización<s n="n"/><s n="f"/></r></p></e>
@@ -18100,7 +18107,18 @@
     <e><p><l>wind<s n="n"/></l><r>viento<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>window<s n="n"/></l><r>ventana<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>windscreen<s n="n"/><s n="ND"/></l><r>parabrisas<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-    <e r="LR"><p><l>windsurfing<s n="n"/></l><r>windsurf<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>windscreen<s n="n"/></l><r>parabrisas<s n="n"/><s n="m"/></r></p></e>
+    <e>  <p><l>carry<g><b/>out</g><s n="vblex"/><s n="sep"/></l><r>llevar<g><b/>a<b/>cabo</g><s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>deal<g><b/>with</g><s n="vblex"/></l><r>tratar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>on<b/>top<s n="adv"/></l><r>arriba<s n="adv"/></r></p></e>
+    <e>  <p><l>on<b/>top<b/>of<s n="pr"/></l><r>arriba<b/>de<s n="pr"/></r></p></e>
+    <e>  <p><l>gold<b/>standard<s n="n"/></l><r>patrón<b/>oro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>in<b/>the<b/>future<s n="adv"/></l><r>en<b/>el<b/>futuro<s n="adv"/></r></p></e>
+    <e><p><l>to<b/>the<b/>top<s n="adv"/></l><r>hasta<b/>arriba<s n="adv"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>digestive<b/>tract<s n="n"/></l><r>tracto<b/>digestivo<s n="n"/><s n="m"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>respiratory<b/>tract<s n="n"/></l><r>vía<b/>respiratoria<s n="n"/><s n="f"/></r></p></e>
+    <e a="greenbreen"><p><l>frequency<b/>response<s n="n"/></l><r>respuesta<g><b/>en<b/>frecuencia</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>windsurfing<s n="n"/></l><r>windsurf<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wine<s n="n"/></l><r>vino<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wing<s n="n"/></l><r>ala<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>wink<s n="n"/></l><r>guiño<s n="n"/><s n="m"/></r></p></e>
@@ -31387,8 +31405,27 @@
     <e r="LR" a="greenbreen"><p><l>constituent<s n="n"/></l><r>elector<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>constituent<s n="n"/></l><r>elector<s n="n"/></r></p></e>
     <e srl="malevolent D" a="greenbreen"><p><l>malevolent<s n="adj"/></l><r>malévolo<s n="adj"/></r></p></e>
+    <e r="RL" a="greenbreen"><p><l>poll<s n="n"/></l><r>sondeo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>meeting<b/>room<s n="n"/></l><r>sala<g><b/>de<b/>reuniones</g><s n="n"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>Armed<b/>Forces<s n="np"/><s n="al"/></l><r>Fuerzas<b/>Armadas<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+    <e a="imaxinsoftware"><p><l>launch<b/>pad<s n="n"/></l><r>plataforma<g><b/>de<b/>lanzamiento</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>point<g><b/>of<b/>view</g><s n="n"/></l><r>punto<g><b/>de<b/>vista</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tax<b/>haven<s n="n"/></l><r>paraíso<b/>fiscal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>armed<b/>forces<s n="n"/></l><r>fuerzas<b/>armadas<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="sondeo"><p><l>poll<s n="n"/></l><r>sondeo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="urna"><p><l>poll<s n="n"/></l><r>urna<s n="n"/><s n="f"/></r></p></e>
+    <e a="eleka"><p><l>take<b/>care<s n="cnjadv"/></l><r>a<b/>seguir<b/>bien<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>member<g><b/>of<b/>parliament</g><s n="n"/></l><r>parlamentario<s n="n"/><s n="GD"/></r></p></e>	 
+    <e>  <p><l>take<g><b/>care</g><s n="vblex"/></l><r>cuidar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>head<g><b/>of<b/>government</g><s n="n"/></l><r>jefe<g><b/>de<b/>gobierno</g><s n="n"/><s n="GD"/></r></p></e>	 
+    <e r="RL"><p><l>head<g><b/>of<b/>government</g><s n="n"/></l><r>jefe<g><b/>de<b/>gobierno</g><s n="n"/></r></p></e>
+    <e a="greenbreen"><p><l>House<g><b/>of<b/>Representatives</g><s n="n"/></l><r>Cámara<g><b/>de<b/>Representantes</g><s n="n"/><s n="f"/></r></p></e>
+    <e a="eleka"><p><l>golden<b/>share<s n="n"/></l><r>acción<g><b/>de<b/>oro</g><s n="n"/><s n="f"/></r></p></e>
+    <e r="RL" a="eleka">  <p><l>carry<g><b/>out</g><s n="vblex"/><s n="sep"/></l><r>sacar<g><b/>adelante</g><s n="vblex"/></r></p></e>
+    <e r="RL" srl="top" c="de un árbol">  <p>  <l>top<s n="n"/></l><r>copa<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>event<s n="n"/></l><r>evento<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>life<b/>style<s n="n"/></l><r>estilo<g><b/>de<b/>vida</g><s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>member<g><b/>of<b/>parliament</g><s n="n"/></l><r>parlamentario<s n="n"/></r></p></e>
     <e a="greenbreen"><p><l>welcome<s n="adj"/></l><r>bienvenido<s n="adj"/></r></p></e>
     <e a="greenbreen"><p><l>fearful<s n="adj"/></l><r>temeroso<s n="adj"/></r></p></e>
     <e r="LR"><p><l>afraid<s n="adj"/></l><r>temeroso<s n="adj"/></r></p></e>

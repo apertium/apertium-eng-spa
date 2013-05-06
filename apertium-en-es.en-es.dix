@@ -768,7 +768,6 @@
   <section id="main" type="standard">
         
     <e a="eleka"><p><l>abject<s n="adj"/></l><r>abyecto<s n="adj"/></r></p></e>
-    <e a="eleka"><p><l>estafador<s n="adj"/></l><r>estafador<s n="adj"/></r></p></e>
     <e r="LR"><p><l>abrupt<s n="adj"/></l><r>repentino<s n="adj"/></r></p></e>
     <e a="eleka"><p><l>abreast<s n="cnjadv"/></l><r>en<b/>fila<b/>de<b/>a<s n="cnjadv"/></r></p></e>
     <e r="RL" a="eleka"><p><l>abreast<s n="cnjadv"/></l><r>en<b/>filas<b/>de<b/>a<s n="cnjadv"/></r></p></e>
@@ -792,6 +791,8 @@
     <e a="eleka"><p><l>bass<b/>drum<s n="n"/></l><r>bombo<s n="n"/><s n="m"/></r></p></e>
     <e a="eleka"><p><l>con<b/>man<s n="n"/></l><r>timador<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>con<b/>woman<s n="n"/></l><r>timador<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>con<b/>man<s n="n"/></l><r>estafador<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>con<b/>woman<s n="n"/></l><r>estafador<s n="n"/><s n="f"/></r></p></e>
     <e a="eleka"><p><l>abominable<s n="adj"/></l><r>abominable<s n="adj"/><s n="mf"/></r></p></e>
     <e a="eleka"><p><l>reckless<b/>abandon<s n="n"/></l><r>desenfreno<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" a="eleka"><p><l>wild<b/>abandon<s n="n"/></l><r>desenfreno<s n="n"/><s n="m"/></r></p></e>
@@ -11788,7 +11789,7 @@
     <e r="RL"><p><l>artery<s n="n"/></l><r>arteria<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>artery<s n="n"/></l><r>arteria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>artichoke<s n="n"/></l><r>alcachofa<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>article<s n="n"/></l><r>artículo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="artículo D"><p><l>article<s n="n"/></l><r>artículo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>newspaper<b/>article<s n="n"/></l><r>artículo<b/>periodístico<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>newspaper<b/>report<s n="n"/></l><r>informe<b/>periodístico<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="prenda"><p><l>article<s n="n"/></l><r>prenda<s n="n"/><s n="f"/></r></p></e>
@@ -11810,7 +11811,7 @@
     <e><p><l>ass<s n="n"/></l><r>asno<s n="n"/><s n="m"/></r></p></e>
     <e srl="assault"><p><l>assault<s n="n"/></l><r>agresión<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>assembly<s n="n"/></l><r>asamblea<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>assessment<s n="n"/></l><r>valoración<s n="n"/><s n="f"/></r></p></e>
+    <e slr="valoración D"><p><l>assessment<s n="n"/></l><r>valoración<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="evaluación"><p><l>assessment<s n="n"/></l><r>evaluación<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>asset<s n="n"/></l><r>ventaja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>assiduity<s n="n"/></l><r>asiduidad<s n="n"/><s n="f"/></r></p></e>
@@ -11964,10 +11965,9 @@
     <e><p><l>banner<s n="n"/></l><r>pancarta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>banquet<s n="n"/></l><r>banquete<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>baptism<s n="n"/></l><r>bautismo<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR" slr="lluvia"><p><l>barrage<s n="n"/></l><r>lluvia<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="lluvia D"><p><l>barrage<s n="n"/></l><r>lluvia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>bar<s n="n"/></l><r>bar<s n="n"/><s n="m"/></r></p></e>
     <e slr="ladrido"><p><l>bark<s n="n"/></l><r>ladrido<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR" slr="corteza"><p><l>bark<s n="n"/></l><r>corteza<s n="n"/><s n="f"/></r></p></e>
     <e slr="barra D"><p><l>bar<s n="n"/></l><r>barra<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="pastilla"><p><l>bar<s n="n"/></l><r>pastilla<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>bargain<s n="n"/></l><r>negocio<s n="n"/><s n="m"/></r></p></e>
@@ -12018,14 +12018,14 @@
     <e><p><l>bee<s n="n"/></l><r>abeja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>beer<s n="n"/></l><r>cerveza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vuvuzela<s n="n"/></l><r>vuvuzela<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>beetroot<s n="n"/></l><r>remolacha<s n="n"/><s n="f"/></r></p></e>
+    <e srl="beetroot D"><p><l>beetroot<s n="n"/></l><r>remolacha<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>begging<s n="n"/></l><r>mendicidad<s n="n"/><s n="f"/></r></p></e>
     <e slr="comienzo"><p><l>beginning<s n="n"/></l><r>comienzo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>behaviour<s n="n"/></l><r>comportamiento<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>behaviour<s n="n"/></l><r>conducta<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>behaviour<s n="n"/></l><r>proceder<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>being<s n="n"/></l><r>ser<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>beet<s n="n"/></l><r>remolacha<s n="n"/><s n="m"/></r></p></e>
+    <e srl="beet"><p><l>beet<s n="n"/></l><r>remolacha<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>belief<s n="n"/></l><r>creencia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>believer<s n="n"/></l><r>creyente<s n="n"/><s n="mf"/></r></p></e>
     <e slr="campana D"><p><l>bell<s n="n"/></l><r>campana<s n="n"/><s n="f"/></r></p></e>
@@ -12133,7 +12133,7 @@
     <e><p><l>bookshop<s n="n"/></l><r>librería<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>boost<s n="n"/></l><r>impulso<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boot<s n="n"/></l><r>bota<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="cabina"><p><l>booth<s n="n"/></l><r>cabina<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>booth<s n="n"/></l><r>cabina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>safety<b/>boot<s n="n"/></l><r>bota<g><b/>de<b/>seguridad</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>booty<s n="n"/></l><r>botín<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="borde"><p><l>border<s n="n"/></l><r>borde<s n="n"/><s n="m"/></r></p></e>
@@ -12188,7 +12188,7 @@
     <e r="LR"><p><l>groom<s n="n"/></l><r>novio<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>bride<s n="n"/></l><r>novio<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bridge<s n="n"/></l><r>puente<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR" slr="escrito"><p><l>brief<s n="n"/></l><r>escrito<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>brief<s n="n"/></l><r>escrito<s n="n"/><s n="f"/></r></p></e>
     <e slr="cariz" srl="brink"><p><l>brink<s n="n"/></l><r>cariz<s n="n"/><s n="m"/></r></p></e>
     <e srl="broadcast D"><p><l>broadcast<s n="n"/></l><r>emisión<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>broadcast<s n="n"/></l><r>radiodifusión<s n="n"/><s n="f"/></r></p></e>
@@ -12212,7 +12212,7 @@
     <e r="LR"><p><l>bump<s n="n"/></l><r>golpe<s n="n"/><s n="m"/></r></p></e>
     <e srl="bucket"><p><l>bucket<s n="n"/></l><r>cubo<s n="n"/><s n="m"/></r></p></e>
     <e srl="budget D"><p><l>budget<s n="n"/></l><r>presupuesto<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR" slr="búfalo"><p><l>buffalo<s n="n"/></l><r>búfalo<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>buffalo<s n="n"/></l><r>búfalo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>buffet<s n="n"/></l><r>bufete<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>build<s n="n"/></l><r>complexión<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>builder<s n="n"/></l><r>constructor<s n="n"/><s n="GD"/></r></p></e>
@@ -12342,7 +12342,7 @@
     <e><p><l>carrot<s n="n"/></l><r>zanahoria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cartel<s n="n"/></l><r>cártel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cartography<s n="n"/></l><r>cartografía<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="cartón"><p><l>carton<s n="n"/></l><r>cartón<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>carton<s n="n"/></l><r>cartón<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cartoonist<s n="n"/></l><r>dibujante<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>cartridge<s n="n"/></l><r>cartucho<s n="n"/><s n="m"/></r></p></e>
     <e slr="caso D"><p><l>case<s n="n"/></l><r>caso<s n="n"/><s n="m"/></r></p></e>
@@ -12446,7 +12446,7 @@
     <e r="RL"><p><l>charm<s n="n"/></l><r>simpatía<s n="n"/><s n="f"/></r></p></e>
     <e slr="gráfico D"><p><l>chart<s n="n"/></l><r>gráfico<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="mapa"><p><l>chart<s n="n"/></l><r>mapa<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR" slr="carta"><p><l>charter<s n="n"/></l><r>carta<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>charter<s n="n"/></l><r>carta<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>chase<s n="n"/></l><r>persecución<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>chassis<s n="n"/></l><r>chasis<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>chassis<s n="n"/><s n="ND"/></l><r>chasis<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -12454,7 +12454,7 @@
     <e slr="chat"><p><l>chat<s n="n"/></l><r>chat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>chauffeur<s n="n"/></l><r>chófer<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>cheapening<s n="n"/></l><r>abaratamiento<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>check<s n="n"/></l><r>control<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" slr="control D"><p><l>check<s n="n"/></l><r>control<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cheek<s n="n"/></l><r>mejilla<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cheekbone<s n="n"/></l><r>pómulo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cheese<s n="n"/></l><r>queso<s n="n"/><s n="m"/></r></p></e>
@@ -12470,7 +12470,7 @@
     <e><p><l>traveller's<b/>cheque<s n="n"/></l><r>cheque<g><b/>de<b/>viaje</g><s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>traveller's<b/>cheque<s n="n"/></l><r>cheque<g><b/>de<b/>viajero</g><s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cherry<s n="n"/></l><r>cereza<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>chest<s n="n"/></l><r>pecho<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" slr="pecho D"><p><l>chest<s n="n"/></l><r>pecho<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="cofre"><p><l>chest<s n="n"/></l><r>cofre<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>chestnut<b/>tree<s n="n"/></l><r>castaño<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>chevron<s n="n"/></l><r>galón<s n="n"/><s n="m"/></r></p></e>
@@ -12654,7 +12654,7 @@
     <e><p><l>comic<s n="n"/></l><r>cómic<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>comic<s n="n"/></l><r>cómico<s n="n"/></r></p></e>
     <e r="RL"><p><l>comic<s n="n"/></l><r>tebeo<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR" slr="mayoría"><p><l>coming<s n="n"/></l><r>mayoría<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>coming<s n="n"/></l><r>mayoría<s n="n"/><s n="f"/></r></p></e>
     <e slr="dominio"><p><l>command<s n="n"/></l><r>dominio<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="orden D"><p><l>command<s n="n"/></l><r>orden<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="mando"><p><l>command<s n="n"/></l><r>mando<s n="n"/><s n="f"/></r></p></e>
@@ -12872,7 +12872,7 @@
     <e r="RL"><p><l>copy<s n="n"/></l><r>copia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>copy<s n="n"/></l><r>ejemplar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>copyright<s n="n"/></l><r>copyright<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>core<s n="n"/></l><r>núcleo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="núcleo D"><p><l>core<s n="n"/></l><r>núcleo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="corazón"><p><l>core<s n="n"/></l><r>corazón<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>corner<s n="n"/></l><r>córner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>corner<s n="n"/></l><r>esquina<s n="n"/><s n="f"/></r></p></e>
@@ -12907,7 +12907,7 @@
     <e r="LR"><p><l>counsel<s n="n"/></l><r>consejo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>counsellor<s n="n"/></l><r>asesor<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" srl="counsellor"><p><l>counsellor<s n="n"/></l><r>asesor<s n="n"/></r></p></e>
-    <e r="LR" slr="cuenta"><p><l>count<s n="n"/></l><r>cuenta<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>count<s n="n"/></l><r>cuenta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>counter<s n="n"/></l><r>contador<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>counterattack<s n="n"/></l><r>contraataque<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>counterpoint<s n="n"/></l><r>contrapunto<s n="n"/><s n="m"/></r></p></e>
@@ -13029,7 +13029,7 @@
     <e r="RL" srl="customer D"><p><l>customer<s n="n"/></l><r>cliente<s n="n"/></r></p></e>
     <e><p><l>customs<s n="n"/><s n="pl"/></l><r>aduana<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>customs<s n="n"/><s n="pl"/></l><r>aduana<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>cut<s n="n"/></l><r>corte<s n="n"/><s n="m"/></r></p></e>
+    <e slr="corte D"><p><l>cut<s n="n"/></l><r>corte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>noble<b/>court<s n="n"/></l><r>corte<b/>noble<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>royal<b/>court<s n="n"/></l><r>corte<b/>real<s n="n"/><s n="m"/></r></p></e>
     <e slr="corte"><p><l>court<s n="n"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
@@ -13061,7 +13061,7 @@
     <e><p><l>dangerousness<s n="n"/></l><r>peligrosidad<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>dark<s n="n"/></l><r>oscuridad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>darkness<s n="n"/></l><r>oscuridad<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="pizca"><p><l>dash<s n="n"/></l><r>pizca<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>dash<s n="n"/></l><r>pizca<s n="n"/><s n="f"/></r></p></e>
     <e c="dada (cat) en plural (el tagger hauria d'escollar sg o pl en anglès). MG: Falta fer entrada específica ca-en per a 'dada' en singular, si cal (?)"><p><l>data<s n="n"/></l><r>dato<s n="n"/><s n="m"/></r></p></e>
     <e slr="fecha D"><p><l>date<s n="n"/></l><r>fecha<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>deadline<s n="n"/></l><r>fecha<g><b/>límite</g><s n="n"/><s n="f"/></r></p></e>
@@ -13112,7 +13112,7 @@
     <e><p><l>decrease<s n="n"/></l><r>disminución<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>decree<s n="n"/></l><r>decreto<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>deduction<s n="n"/></l><r>deducción<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="acción"><p><l>deed<s n="n"/></l><r>acción<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>deed<s n="n"/></l><r>acción<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>defeat<s n="n"/></l><r>derrota<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>defeatist<s n="n"/></l><r>derrotista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>defence<s n="n"/></l><r>defensa<s n="n"/><s n="mf"/></r></p></e>
@@ -13172,7 +13172,7 @@
     <e><p><l>dependency<s n="n"/></l><r>dependencia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>depilation<s n="n"/></l><r>depilación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>deportation<s n="n"/></l><r>deportación<s n="n"/><s n="f"/></r></p></e>
-    <e srl="deposit"><p><l>deposit<s n="n"/></l><r>depósito<s n="n"/><s n="m"/></r></p></e>
+    <e srl="deposit D"><p><l>deposit<s n="n"/></l><r>depósito<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="yacimiento"><p><l>deposit<s n="n"/></l><r>yacimiento<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>depreciation<s n="n"/></l><r>depreciación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>depression<s n="n"/></l><r>depresión<s n="n"/><s n="f"/></r></p></e>
@@ -13297,7 +13297,7 @@
     <e r="RL"><p><l>disaster<s n="n"/></l><r>debacle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>disaster<s n="n"/></l><r>desastre<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>disc<s n="n"/></l><r>disco<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>discharge<s n="n"/></l><r>caudal<s n="n"/><s n="m"/></r></p></e>
+    <e slr="caudal D"><p><l>discharge<s n="n"/></l><r>caudal<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="descarga"><p><l>discharge<s n="n"/></l><r>descarga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>discipline<s n="n"/></l><r>disciplina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>disclosure<s n="n"/></l><r>revelación<s n="n"/><s n="f"/></r></p></e>
@@ -13374,7 +13374,7 @@
     <e><p><l>diversity<s n="n"/></l><r>diversidad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dividend<s n="n"/></l><r>dividendo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>divinity<s n="n"/></l><r>divinidad<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>division<s n="n"/></l><r>división<s n="n"/><s n="f"/></r></p></e>
+    <e slr="división D"><p><l>division<s n="n"/></l><r>división<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="reparto"><p><l>division<s n="n"/></l><r>reparto<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>divorce<s n="n"/></l><r>divorcio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>divulging<s n="n"/></l><r>divulgación<s n="n"/><s n="f"/></r></p></e>
@@ -13395,7 +13395,7 @@
     <e r="LR"><p><l>reactionary<s n="n"/></l><r>reaccionario<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>reactionary<s n="n"/></l><r>reaccionario<s n="n"/></r></p></e>
     <e><p><l>reactionary<s n="adj"/></l><r>reaccionario<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>runny<s n="adj"/></l><r>moquea<s n="adj"/></r></p></e>
+    <e><p><l>runny<s n="adj"/></l><r>moqueo<s n="adj"/></r></p></e>
     <e><p><l>sexy<s n="adj"/><s n="sint"/></l><r>sexy<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>top<s n="adj"/></l><r>top<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>doctorate<s n="n"/></l><r>doctorado<s n="n"/><s n="m"/></r></p></e>
@@ -15695,7 +15695,7 @@
     <e><p><l>pacification<s n="n"/></l><r>pacificación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pacifism<s n="n"/></l><r>pacifismo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pacifist<s n="n"/></l><r>pacifista<s n="n"/><s n="mf"/></r></p></e>
-    <e r="LR"><p><l>pack<s n="n"/></l><r>paquete<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" slr="paquete D"><p><l>pack<s n="n"/></l><r>paquete<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>package<s n="n"/></l><r>cajetilla<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="envase"><p><l>package<s n="n"/></l><r>envase<s n="n"/><s n="m"/></r></p></e>
     <e slr="paquete D"><p><l>package<s n="n"/></l><r>paquete<s n="n"/><s n="m"/></r></p></e>
@@ -16761,7 +16761,7 @@
     <e><p><l>scandal<s n="n"/></l><r>escándalo<s n="n"/><s n="m"/></r></p></e>
     <e srl="scanner D"><p><l>scanner<s n="n"/></l><r>escáner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>scar<s n="n"/></l><r>cicatriz<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>scare<s n="n"/></l><r>susto<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" slr="susto D"><p><l>scare<s n="n"/></l><r>susto<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="alarma"><p><l>scare<s n="n"/></l><r>alarma<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="amenaza"><p><l>scare<s n="n"/></l><r>amenaza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>scene<s n="n"/></l><r>escena<s n="n"/><s n="f"/></r></p></e>
@@ -17096,7 +17096,7 @@
     <e><p><l>serpent<s n="n"/></l><r>serpiente<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>sniper<s n="n"/></l><r>francotirador<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>sniper<s n="n"/></l><r>francotirador<s n="n"/></r></p></e>
-    <e r="LR" slr="fragmento"><p><l>snippet<s n="n"/></l><r>fragmento<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR" slr="fragmento D"><p><l>snippet<s n="n"/></l><r>fragmento<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>snow<s n="n"/></l><r>nieve<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>soap<s n="n"/></l><r>jabón<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>socialism<s n="n"/></l><r>socialismo<s n="n"/><s n="m"/></r></p></e>
@@ -17945,7 +17945,7 @@
     <e><p><l>verse<s n="n"/></l><r>verso<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>version<s n="n"/></l><r>versión<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vesicle<s n="n"/></l><r>vesícula<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>vessel<s n="n"/></l><r>barco<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR" slr="barco D"><p><l>vessel<s n="n"/></l><r>barco<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="vaso"><p><l>vessel<s n="n"/></l><r>vaso<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>veteran<s n="n"/></l><r>veterano<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>veteran<s n="n"/></l><r>veterano<s n="n"/></r></p></e>
@@ -18013,7 +18013,7 @@
     <e><p><l>volunteering<s n="n"/></l><r>voluntariado<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vomit<s n="n"/></l><r>vómito<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>vote<s n="n"/></l><r>votación<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>vote<s n="n"/></l><r>voto<s n="n"/><s n="m"/></r></p></e>
+    <e slr="voto D"><p><l>vote<s n="n"/></l><r>voto<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="moción"><p><l>vote<s n="n"/></l><r>moción<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>voter<s n="n"/></l><r>votante<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>vowel<s n="n"/></l><r>vocal<s n="n"/><s n="f"/></r></p></e>
@@ -18029,7 +18029,7 @@
     <e srl="waitress D"><p><l>waitress<s n="n"/></l><r>camarero<s n="n"/><s n="f"/></r></p></e>
     <e srl="walk D"><p><l>walk<s n="n"/></l><r>paseo<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>wall<s n="n"/></l><r>muralla<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>wall<s n="n"/></l><r>pared<s n="n"/><s n="f"/></r></p></e>
+    <e slr="pared D"><p><l>wall<s n="n"/></l><r>pared<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="muro"><p><l>wall<s n="n"/></l><r>muro<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>walnut<s n="n"/></l><r>nuez<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>walnut<s n="n"/></l><r>nuez<s n="n"/><s n="f"/></r></p></e>
@@ -18139,7 +18139,7 @@
     <e><p><l>wit<s n="n"/></l><r>ingenio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>witch<s n="n"/></l><r>bruja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>withdrawal<s n="n"/></l><r>retirada<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>witness<s n="n"/></l><r>testigo<s n="n"/><s n="mf"/></r></p></e>
+    <e slr="testigo D"><p><l>witness<s n="n"/></l><r>testigo<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR" slr="testimonio"><p><l>witness<s n="n"/></l><r>testimonio<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>woman<s n="n"/></l><r>mujer<s n="n"/><s n="f"/></r></p></e>
     <e srl="wonder D"><p><l>wonder<s n="n"/></l><r>maravilla<s n="n"/><s n="f"/></r></p></e>
@@ -22843,7 +22843,7 @@
     <e><p><l>swing<s n="vblex"/></l><r>balancear<s n="vblex"/></r></p></e>
     <e><p><l>symbolise<s n="vblex"/></l><r>simbolizar<s n="vblex"/></r></p></e>
     <e srl="synchronise D"><p><l>synchronise<s n="vblex"/></l><r>sincronizar<s n="vblex"/></r></p></e>
-    <e r="LR" slr="someter"><p><l>table<s n="vblex"/></l><r>someter<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>table<s n="vblex"/></l><r>someter<s n="vblex"/></r></p></e>
     <e r="LR" c="no sé si és bona trad"><p><l>tap<s n="vblex"/></l><r>tocar<s n="vblex"/></r></p></e>
     <e slr="emprender D" srl="tackle"><p><l>tackle<s n="vblex"/></l><r>emprender<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>take<s n="vblex"/></l><r>asir<s n="vblex"/></r></p></e>
@@ -29571,7 +29571,7 @@
     <e><p><l>telson<s n="n"/></l><r>telson<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tellurium<s n="n"/></l><r>telurio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>recklessly<s n="adv"/></l><r>temerariamente<s n="adv"/></r></p></e>
-    <e><p><l>fork<s n="n"/></l><r>tenedor<s n="n"/><s n="m"/></r></p></e>
+    <e slr="tenedor D"><p><l>fork<s n="n"/></l><r>tenedor<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="bifurcación"><p><l>fork<s n="n"/></l><r>bifurcación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fork<s n="vblex"/></l><r>bifurcarse<s n="vblex"/><s n="pron"/></r></p></e>
     <e><p><l>take<g><b/>into<b/>account</g><s n="vblex"/><s n="sep"/></l><r>tener<g><b/>en<b/>cuenta</g><s n="vblex"/></r></p></e>
@@ -38550,7 +38550,7 @@
     <e><p><l>gluttony<s n="n"/></l><r>gula<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>epitome<s n="n"/></l><r>epítome<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nakedness<s n="n"/></l><r>desnudez<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>chant<s n="n"/></l><r>cántico<s n="n"/><s n="m"/></r></p></e>
+    <e slr="cántico D"><p><l>chant<s n="n"/></l><r>cántico<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>champagne<s n="n"/></l><r>champaña<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>effigy<s n="n"/></l><r>efigie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>composure<s n="n"/></l><r>compostura<s n="n"/><s n="f"/></r></p></e>
@@ -38692,7 +38692,7 @@
     <e><p><l>schooling<s n="n"/></l><r>escolarización<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>bureau<s n="n"/></l><r>buró<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>deregulation<s n="n"/></l><r>desregulación<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>shaft<s n="n"/></l><r>fuste<s n="n"/><s n="m"/></r></p></e>
+    <e slr="fuste D"><p><l>shaft<s n="n"/></l><r>fuste<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>creationism<s n="n"/></l><r>creacionismo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>irritability<s n="n"/></l><r>irritabilidad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>linearity<s n="n"/></l><r>linealidad<s n="n"/><s n="f"/></r></p></e>

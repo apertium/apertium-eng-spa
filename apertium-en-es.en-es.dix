@@ -12204,9 +12204,9 @@
     <e r="LR"><p><l>browser<s n="n"/></l><r>navegador<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>browser<s n="n"/></l><r>navegador<s n="n"/></r></p></e>
     <e><p><l>bruise<s n="n"/></l><r>moratón<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>brush<s n="n"/></l><r>cepillo<s n="n"/><s n="m"/></r></p></e>
+    <e slr="cepillo D"><p><l>brush<s n="n"/></l><r>cepillo<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>brush<s n="n"/></l><r>escobilla<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>brush<s n="n"/></l><r>pincel<s n="n"/><s n="m"/></r></p></e>
+    <e slr="pincel" r="LR"><p><l>brush<s n="n"/></l><r>pincel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>brutality<s n="n"/></l><r>brutalidad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bubble<s n="n"/></l><r>burbuja<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>bump<s n="n"/></l><r>golpe<s n="n"/><s n="m"/></r></p></e>
@@ -13395,7 +13395,7 @@
     <e r="LR"><p><l>reactionary<s n="n"/></l><r>reaccionario<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>reactionary<s n="n"/></l><r>reaccionario<s n="n"/></r></p></e>
     <e><p><l>reactionary<s n="adj"/></l><r>reaccionario<s n="adj"/></r></p></e>
-    <e><p><l>runny<s n="adj"/></l><r>moqueo<s n="adj"/></r></p></e>
+    <e><p><l>runny<s n="adj"/><s n="sint"/></l><r>moqueo<s n="adj"/></r></p></e>
     <e><p><l>sexy<s n="adj"/><s n="sint"/></l><r>sexy<s n="adj"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>top<s n="adj"/></l><r>top<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>doctorate<s n="n"/></l><r>doctorado<s n="n"/><s n="m"/></r></p></e>
@@ -37817,6 +37817,7 @@
     <e srl="slump" a="imaxinsoftware"><p><l>slump<s n="vblex"/></l><r>desplomarse<s n="vblex"/><s n="pron"/></r></p></e>
     <e srl="slump down" a="imaxinsoftware"><p><l>slump<g><b/>down</g><s n="vblex"/></l><r>hundirse<s n="vblex"/><s n="pron"/></r></p></e>
 
+    <e><p><l>cluck<s n="vblex"/></l><r>clocar<s n="vblex"/></r></p></e>
     <e srl="index card D"><p><l>index<b/>card<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
     <e slr="ficha" srl="chip"><p><l>chip<s n="n"/></l><r>ficha<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>insides<s n="n"/><s n="pl"/></l><r>tripa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -37911,7 +37912,10 @@
     <e><p><l>pulp<s n="n"/></l><r>pulpa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>paper<b/>pulp<s n="n"/></l><r>pulpa<g><b/>de<b/>papel</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>utensil<s n="n"/></l><r>utensilio<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>yolk<s n="n"/></l><r>yema<s n="n"/><s n="f"/></r></p></e>
+    <e srl="yolk D"><p><l>yolk<s n="n"/></l><r>yema<s n="n"/><s n="f"/></r></p></e>
+    <e srl="fingertip"><p><l>fingertip<s n="n"/></l><r>yema<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>egg<b/>yolk<s n="n"/></l><r>yema<g><b/>de<b/>huevo</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>egg<b/>white<s n="n"/></l><r>clara<g><b/>de<b/>huevo</g><s n="n"/><s n="f"/></r></p></e>
     <e><p><l>truffle<s n="n"/></l><r>trufa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>filmography<s n="n"/></l><r>filmografía<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>laziness<s n="n"/></l><r>pereza<s n="n"/><s n="f"/></r></p></e>
@@ -38209,6 +38213,11 @@
     <e><p><l>cardamom<s n="n"/></l><r>cardamomo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hatching<s n="n"/></l><r>eclosión<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sax<s n="n"/></l><r>saxo<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>record<s n="n"/></l><r>historial<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paintbrush<s n="n"/></l><r>pincel<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>paintbrush<s n="n"/></l><r>brocha<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>changing<b/>room<s n="n"/></l><r>probador<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tortoiseshell<s n="n"/></l><r>carey<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lobster<s n="n"/></l><r>langosta<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>raid<s n="n"/></l><r>razia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>old<b/>age<s n="n"/></l><r>vejez<s n="n"/><s n="f"/></r></p></e>

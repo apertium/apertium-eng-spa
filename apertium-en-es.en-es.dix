@@ -17493,6 +17493,7 @@
     <e><p><l>tableware<s n="n"/></l><r>vajilla<s n="n"/><s n="f"/></r></p></e>
     <e srl="tactics D"><p><l>tactics<s n="n"/></l><r>táctica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tail<s n="n"/></l><r>cola<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>tag<s n="n"/></l><r>etiqueta<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="etiqueta"><p><l>tag<s n="n"/></l><r>etiqueta<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>tail<s n="n"/></l><r>rabo<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>tailor<s n="n"/></l><r>sastre<s n="n"/><s n="GD"/></r></p></e>
@@ -21643,7 +21644,6 @@
     <e r="LR" slr="adjuntar"><p><l>enclose<s n="vblex"/></l><r>adjuntar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>encounter<s n="vblex"/></l><r>encontrar<s n="vblex"/></r></p></e>
     <e srl="encourage D"><p><l>encourage<s n="vblex"/></l><r>animar<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>end<s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
     <e><p><l>end<g><b/>in<b/>tragedy</g><s n="vblex"/></l><r>acabar<g><b/>en<b/>tragedia</g><s n="vblex"/></r></p></e>
     <e r="RL"><p><l>end<s n="vblex"/></l><r>desembocar<s n="vblex"/></r></p></e>
     <e r="LR" slr="aprobar D" c="respaldar o dar el visto bueno"><p><l>endorse<s n="vblex"/></l><r>aprobar<s n="vblex"/></r></p></e>
@@ -21762,7 +21762,6 @@
     <e r="RL"><p><l>find<s n="vblex"/></l><r>hallar<s n="vblex"/></r></p></e>
     <e srl="find_out"><p><l>find<g><b/>out</g><s n="vblex"/></l><r>descubrir<s n="vblex"/></r></p></e>
     <e><p><l>fine<s n="vblex"/></l><r>multar<s n="vblex"/></r></p></e>
-    <e><p><l>finish<s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
     <e r="RL" srl="finish D"><p><l>finish<s n="vblex"/></l><r>terminar<s n="vblex"/></r></p></e>
     <e slr="despedir D" srl="fire"><p><l>fire<s n="vblex"/></l><r>despedir<s n="vblex"/></r></p></e>
     <e r="LR" slr="disparar"><p><l>fire<s n="vblex"/></l><r>disparar<s n="vblex"/></r></p></e>
@@ -22609,6 +22608,10 @@
     <e><p><l>root<s n="vblex"/></l><r>arraigar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>root<s n="vblex"/></l><r>enraizar<s n="vblex"/></r></p></e>
     <e><p><l>round<s n="vblex"/></l><r>redondear<s n="vblex"/></r></p></e>
+    <e><p><l>finish<s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>end<s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
+    <e><p><l>end<g><b/>up</g><s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
+    <e><p><l>have<g><b/>just</g><s n="vblex"/></l><r>acabar<g><b/>de</g><s n="vblex"/></r></p></e>
     <e r="LR"><p><l>round<g><b/>off</g><s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
     <e><p><l>row<s n="vblex"/></l><r>remar<s n="vblex"/></r></p></e>
     <e><p><l>rub<s n="vblex"/></l><r>frotar<s n="vblex"/></r></p></e>

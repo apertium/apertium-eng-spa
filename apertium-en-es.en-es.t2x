@@ -3158,6 +3158,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	   </test>
 	   <out>
 	     <chunk>
+<b pos="1"/>
 	       <get-case-from pos="1">
 		 <lit v="adv"/>
 	       </get-case-from>
@@ -3167,7 +3168,6 @@ Your mother and you will come - La vostra mare i tu vindran
 		<lit-tag v="adv"/>
 		<lit v="$}"/>
 	      </chunk>
-	      <b pos="1"/>
 	   </out>
 	 </when>
 	 <otherwise>
@@ -3181,6 +3181,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	 </otherwise>
 	</choose>
 	<out>
+<b pos="1"/>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>
@@ -3318,6 +3319,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
+<b pos="1"/>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>
@@ -3461,6 +3463,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
+<b pos="1"/>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>
@@ -3519,6 +3522,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
+<b pos="1"/>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>	    
@@ -3563,6 +3567,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
+<b pos="1"/>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>
@@ -3613,6 +3618,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
+<b pos="1"/>
 	  <chunk>
 	    <clip pos="2" part="whole"/>
 	  </chunk>

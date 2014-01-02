@@ -22883,7 +22883,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
 	</call-macro>	
-        <out>
+        <out><b pos="1"/>
           <chunk name="verbcj_inf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
@@ -22892,6 +22892,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <tag><var n="pers_chunk"/></tag>
 	      <tag><var n="nbr_chunk"/></tag>
             </tags>
+
             <lu>
               <var n="pronom"/>
               <var n="verbfinal"/>

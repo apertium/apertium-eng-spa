@@ -16715,7 +16715,8 @@
     <e><p><l>salad<s n="n"/></l><r>ensalada<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>salami<s n="n"/></l><r>salami<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>salami<s n="n"/></l><r>salame<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>salary<s n="n"/></l><r>salario<s n="n"/><s n="m"/></r></p></e>
+    <e srl="salary"><p><l>salary<s n="n"/></l><r>salario<s n="n"/><s n="m"/></r></p></e>
+    <e srl="wage D"><p><l>wage<s n="n"/></l><r>salario<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sale<s n="n"/></l><r>venta<s n="n"/><s n="f"/></r></p></e>
     <e r="LR" slr="mercadillo"><p><l>sale<s n="n"/></l><r>mercadillo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>salinity<s n="n"/></l><r>salinidad<s n="n"/><s n="f"/></r></p></e>
@@ -18023,7 +18024,6 @@
     <e><p><l>vowel<s n="n"/></l><r>vocal<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vulnerability<s n="n"/></l><r>vulnerabilidad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vulture<s n="n"/></l><r>buitre<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>wage<s n="n"/></l><r>salario<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wage<s n="n"/></l><r>sueldo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wagon<s n="n"/></l><r>vagón<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wail<s n="n"/></l><r>lamento<s n="n"/><s n="m"/></r></p></e>
@@ -21284,7 +21284,8 @@
     <e><p><l>coin<s n="vblex"/></l><r>acuñar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>coin<s n="vblex"/></l><r>cuñar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>coin<s n="vblex"/></l><r>troquelar<s n="vblex"/></r></p></e>
-    <e><p><l>coincide<s n="vblex"/></l><r>coincidir<s n="vblex"/></r></p></e>
+    <e srl="coincide D"><p><l>coincide<s n="vblex"/></l><r>coincidir<s n="vblex"/></r></p></e>
+    <e srl="agree"><p><l>coincide<s n="vblex"/></l><r>coincidir<s n="vblex"/></r></p></e>
     <e><p><l>collapse<s n="vblex"/></l><r>colapsar<s n="vblex"/></r></p></e>
     <e><p><l>collate<s n="vblex"/></l><r>cotejar<s n="vblex"/></r></p></e>
     <e slr="coleccionar"><p><l>collect<s n="vblex"/></l><r>coleccionar<s n="vblex"/></r></p></e>

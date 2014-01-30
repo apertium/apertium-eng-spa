@@ -16038,6 +16038,7 @@
     <e><p><l>polonium<s n="n"/></l><r>polonio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>polygamy<s n="n"/></l><r>poligamia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>polygon<s n="n"/></l><r>polígono<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>industrial<b/>estate<s n="n"/></l><r>polígono<b/>industrial<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>polysemy<s n="n"/></l><r>polisemia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pomegranate<s n="n"/></l><r>granada<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pomp<s n="n"/></l><r>pompa<s n="n"/><s n="f"/></r></p></e>
@@ -21077,6 +21078,8 @@
     <e><p><l>arrest<s n="vblex"/></l><r>arrestar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>arrive<s n="vblex"/></l><r>arribar<s n="vblex"/></r></p></e>
     <e><p><l>arrive<s n="vblex"/></l><r>llegar<s n="vblex"/></r></p></e>
+    <e><p><l>make<g><b/>ends<b/>meet</g><s n="vblex"/></l><r>llegar<g><b/>a<b/>fin<b/>de<b/>mes</g><s n="vblex"/></r></p></e>
+    <e slr="llegar_a_ser"><p><l>become<s n="vblex"/></l><r>llegar<g><b/>a<b/>ser</g><s n="vblex"/></r></p></e>
     <e><p><l>articulate<s n="vblex"/></l><r>articular<s n="vblex"/></r></p></e>
     <e><p><l>ascertain<s n="vblex"/></l><r>constatar<s n="vblex"/></r></p></e>
     <e><p><l>abdicate<s n="vblex"/></l><r>abdicar<s n="vblex"/></r></p></e>
@@ -21898,6 +21901,11 @@
     <e><p><l>hide<s n="vblex"/></l><r>esconder<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>hide<s n="vblex"/></l><r>ocultar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>highlight<s n="vblex"/></l><r>destacar<s n="vblex"/></r></p></e>
+    <e><p><l>highlight<s n="vblex"/></l><r>resaltar<s n="vblex"/></r></p></e>
+    <e srl="pay_contributions"><p><l>pay<g><b/>contributions</g><s n="vblex"/></l><r>cotizar<s n="vblex"/></r></p></e>
+    <e srl="quote"><p><l>quote<s n="vblex"/></l><r>cotizar<s n="vblex"/></r></p></e>
+    <e srl="contribute D"><p><l>contribute<s n="vblex"/></l><r>cotizar<s n="vblex"/></r></p></e>
+    <e srl="list"><p><l>contribute<s n="vblex"/></l><r>cotizar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>hinder<s n="vblex"/></l><r>entrabar<s n="vblex"/></r></p></e>
     <e><p><l>hinder<s n="vblex"/></l><r>obstaculizar<s n="vblex"/></r></p></e>
     <e><p><l>hire<s n="vblex"/></l><r>contratar<s n="vblex"/></r></p></e>
@@ -22477,7 +22485,8 @@
     <e r="LR" slr="aumentar"><p><l>raise<s n="vblex"/></l><r>aumentar<s n="vblex"/></r></p></e>
     <e r="LR" slr="criar"><p><l>raise<s n="vblex"/></l><r>criar<s n="vblex"/></r></p></e>
     <e slr="levantar D"><p><l>raise<s n="vblex"/></l><r>levantar<s n="vblex"/></r></p></e>
-    <e><p><l>oscillate<s n="vblex"/></l><r>oscilar<s n="vblex"/></r></p></e>
+    <e srl="oscillate D"><p><l>oscillate<s n="vblex"/></l><r>oscilar<s n="vblex"/></r></p></e>
+    <e srl="range"><p><l>range<s n="vblex"/></l><r>oscilar<s n="vblex"/></r></p></e>
     <e r="LR" slr="variar D"><p><l>range<s n="vblex"/></l><r>variar<s n="vblex"/></r></p></e>
     <e slr="alinear" c="alinear o colocar"><p><l>range<s n="vblex"/></l><r>alinear<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>rate<s n="vblex"/></l><r>valorar<s n="vblex"/></r></p></e>
@@ -22488,6 +22497,8 @@
     <e><p><l>read<s n="vblex"/></l><r>leer<s n="vblex"/></r></p></e>
     <e><p><l>readjust<s n="vblex"/></l><r>reajustar<s n="vblex"/></r></p></e>
     <e i="yes"><p><l>realise<s n="vblex"/></l><r>realizar<s n="vblex"/></r></p></e>
+    <e srl="make D"><p><l>make<s n="vblex"/></l><r>realizar<s n="vblex"/></r></p></e>
+    <e srl="carry_out"><p><l>carry<g><b/>out</g><s n="vblex"/></l><r>realizar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>realise<s n="vblex"/></l><r>darse<g><b/>cuenta</g><s n="vblex"/><s n="pron"/></r></p></e>
     <e><p><l>reappear<s n="vblex"/></l><r>reaparecer<s n="vblex"/></r></p></e>
     <e><p><l>reason<s n="vblex"/></l><r>razonar<s n="vblex"/></r></p></e>

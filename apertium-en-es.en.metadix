@@ -9,7 +9,7 @@
 
 -->
 <dictionary>
-  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyziǎšěřčžǔůý</alphabet>
+  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyziǎšěřčžǔůýệướễăạảðÐđ</alphabet>
   <sdefs>
     <sdef n="acr" 	c="Acronym"/> 
     <sdef n="predet" 	c="Pre-determiner"/> 
@@ -111,6 +111,14 @@
         <r><s n="num"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
+    <e>
+      <re>[1-9]([0-9])+0</re>
+      <p>
+        <l>s</l>
+        <r>s<s n="num"/></r>
+      </p>
+    </e>
+
 
     </pardef>
     <pardef n="guionet">
@@ -118,6 +126,12 @@
       <p>
         <l>-</l>
         <r>-<s n="guio"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>–</l>
+        <r>–<s n="guio"/></r>
       </p>
     </e>
 
@@ -14974,6 +14988,7 @@
     <e lm="urge to be in the limelight" a="eleka"><i>urge</i><par n="house__n"/><p><l><b/>to<b/>be<b/>in<b/>the<b/>limelight</l><r><g><b/>to<b/>be<b/>in<b/>the<b/>limelight</g></r></p></e>
     <e lm="grant power" a="eleka"><i>grant</i><par n="accept__vblex"/><p><l><b/>power</l><r><g><b/>power</g></r></p></e>
     <e lm="make big showing" a="eleka"><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>big<b/>showing</l><r><g><b/>big<b/>showing</g></r></p></e>
+    <e lm="make ends meet" a="eleka"><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>ends<b/>meet</l><r><g><b/>ends<b/>meet</g></r></p></e>
     <e lm="make little showing" a="eleka"><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>little<b/>showing</l><r><g><b/>little<b/>showing</g></r></p></e>
     <e lm="give prominence" a="eleka"><i>g</i><par n="g/ive__vblex"/><p><l><b/>prominence</l><r><g><b/>prominence</g></r></p></e>
     <e lm="take off prominence"><i>t</i><par n="t/ake__vblex" sa="sep" /><par n="probj_dem__prn"/><p><l><b/>off<b/>prominence</l><r><g><b/>off<b/>prominence</g></r></p></e>
@@ -26429,6 +26444,7 @@
     <e lm="essence"><i>essence</i><par n="house__n"/></e>
     <e lm="establishment"><i>establishment</i><par n="house__n"/></e>
     <e lm="estate"><i>estate</i><par n="house__n"/></e>
+    <e lm="industrial estate"><i>industrial<b/>estate</i><par n="house__n"/></e>
     <e lm="nanny state"><i>nanny<b/>state</i><par n="house__n"/></e>
     <e lm="nanny-state"><i>nanny-state</i><par n="house__n"/></e>
     <e lm="babysitter"><i>babysitter</i><par n="house__n"/></e>

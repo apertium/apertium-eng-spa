@@ -42,14 +42,22 @@
     <def-cat n="SV_pers"><!--Formes personals. Exclou inf i ger (i alguns imperatius per ara) -->
       <cat-item lemma="verbcj" tags="SV.*"/>
       <cat-item lemma="verbcj" tags="SVneg.*"/>
+      <cat-item lemma="adv_verbcj" tags="SV.*"/>
+      <cat-item lemma="adv_verbcj" tags="SVneg.*"/>
       <cat-item lemma="aux_verb" tags="SV.*"/>
       <cat-item lemma="aux_verb" tags="SVneg.*"/>
+      <cat-item lemma="adv_aux_verb" tags="SV.*"/>
+      <cat-item lemma="adv_aux_verb" tags="SVneg.*"/>
       <cat-item lemma="haver_pp" tags="SV.*"/>
       <cat-item lemma="haver_pp" tags="SVneg.*"/>
+      <cat-item lemma="haver_adv_pp" tags="SV.*"/>
+      <cat-item lemma="haver_adv_pp" tags="SVneg.*"/>
       <cat-item lemma="haver_pp_enc" tags="SV.*"/>
       <cat-item lemma="haver_pp_enc" tags="SVneg.*"/>
       <cat-item lemma="aux_haver_pp" tags="SV.*"/>
       <cat-item lemma="aux_haver_pp" tags="SVneg.*"/>
+      <cat-item lemma="aux_haver_adv_pp" tags="SV.*"/>
+      <cat-item lemma="aux_haver_adv_pp" tags="SVneg.*"/>
       <cat-item lemma="aux_haver_pp_enc" tags="SV.*"/>
       <cat-item lemma="aux_haver_pp_enc" tags="SVneg.*"/>
       <cat-item lemma="verbcj_enc" tags="SV.*"/>
@@ -220,10 +228,14 @@
 
     <def-list n="SV_personals"> 
       <list-item v="verbcj"/>
+      <list-item v="adv_verbcj"/>
       <list-item v="aux_verb"/>
+      <list-item v="adv_aux_verb"/>
       <list-item v="haver_pp"/>
+      <list-item v="haver_adv_pp"/>
       <list-item v="haver_pp_enc"/>
       <list-item v="aux_haver_pp"/>
+      <list-item v="aux_haver_adv_pp"/>
       <list-item v="aux_haver_pp_enc"/>
       <list-item v="verbcj_enc"/>
       <list-item v="verbcj_ger"/>

@@ -12,32 +12,33 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
                  $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
-                 $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin $(PREFIX1).lextormono.bin $(PREFIX2).lextormono.bin \
+                 $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin \
                  $(PREFIX2b).autogen.bin $(PREFIX1).genitive.bin \
-                 $(PREFIX1).lextorbil.bin $(PREFIX2).lextorbil.bin \
                  $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-                 $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes \
-		 $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
-		 $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
+                 $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes 
 
+#	         $(PREFIX1).lextormono.bin $(PREFIX2).lextormono.bin 
+#                 $(PREFIX1).lextorbil.bin $(PREFIX2).lextorbil.bin 
+#		 $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
+#		 $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
 
 TARGETS = $(TARGETS_COMMON) 
 
-$(BASENAME).$(LANG1)-lextor.dix: $(BASENAME).$(PREFIX1).dix
-	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-	apertium-gen-lextormono rl $(BASENAME).$(PREFIX1).dix $@
-
-$(BASENAME).$(LANG2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
-	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-	apertium-gen-lextormono lr $(BASENAME).$(PREFIX1).dix $@
-
-$(BASENAME).$(PREFIX1)-lextor.dix: $(BASENAME).$(PREFIX1).dix
-	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-	apertium-gen-lextorbil rl $(BASENAME).$(PREFIX1).dix $@
-
-$(BASENAME).$(PREFIX2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
-	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-	apertium-gen-lextorbil lr $(BASENAME).$(PREFIX1).dix $@
+#$(BASENAME).$(LANG1)-lextor.dix: $(BASENAME).$(PREFIX1).dix
+#	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+#	apertium-gen-lextormono rl $(BASENAME).$(PREFIX1).dix $@
+#
+#$(BASENAME).$(LANG2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
+#	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+#	apertium-gen-lextormono lr $(BASENAME).$(PREFIX1).dix $@
+#
+#$(BASENAME).$(PREFIX1)-lextor.dix: $(BASENAME).$(PREFIX1).dix
+#	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+#	apertium-gen-lextorbil rl $(BASENAME).$(PREFIX1).dix $@
+#
+#$(BASENAME).$(PREFIX2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
+#	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+#	apertium-gen-lextorbil lr $(BASENAME).$(PREFIX1).dix $@
 
 .deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix
 	if [ ! -d .deps ]; then mkdir .deps; fi
@@ -182,9 +183,10 @@ apertium_en_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
 	            $(BASENAME).$(PREFIX1).genitive.t1x \
 		    $(PREFIX1).genitive.bin  \
-		    $(PREFIX1).mode $(PREFIX2).mode \
-		    $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
-		    $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
+		    $(PREFIX1).mode $(PREFIX2).mode 
+
+#		    $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix 
+#		    $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
 
 apertium_en_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_en_modesdir=$(prefix)/share/apertium/modes/

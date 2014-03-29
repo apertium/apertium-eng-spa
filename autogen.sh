@@ -35,8 +35,8 @@ echo "- aclocal."		&& \
 aclocal				&& \
 echo "- autoconf."		&& \
 autoconf			&& \
-echo "- autoheader."		&& \
-autoheader			&& \
+#echo "- autoheader."		&& \
+#autoheader			&& \
 echo "- automake."		&& \
 automake --add-missing --gnu	&& \
 echo				&& \

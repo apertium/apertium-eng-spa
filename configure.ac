@@ -8,10 +8,10 @@ AC_INIT([apertium-en-es], [0.8.0], [jimregan@users.sourceforge.net])
 AM_INIT_AUTOMAKE([apertium-en-es], [0.8.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
-AC_CONFIG_HEADER([config])
+#AC_CONFIG_HEADER([config])
 
 m4_define([required_apertium_version], [3.2.0])
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
+PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)])
                           
 
 if test $APERTIUM_VER = 10;

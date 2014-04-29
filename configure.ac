@@ -13,15 +13,8 @@ AC_PROG_AWK
 m4_define([required_apertium_version], [3.2.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)])
                           
-
-if test $APERTIUM_VER = 10;
-then MODES="";
-else MODES="modes";
-fi
-
 ALTXSL="alt.xsl";
 
-AC_SUBST(MODES)
 AC_SUBST(ALTXSL)
 
   

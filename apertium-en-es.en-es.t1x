@@ -25109,7 +25109,8 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		    <when>
 		      <test>
 			  <equal caseless="yes">
-			    <clip pos="4" side="tl" part="tipus_verbs"/>
+	<!--		    <clip pos="4" side="tl" part="tipus_verbs"/>--> <--FMT: canviat perquè tipus_verbs no existeix com defattr-->
+                            <var n="tipus_verb"/>
 			    <lit-tag v="pron"/>
 			  </equal>
 		      </test>
@@ -25216,7 +25217,8 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		  <when>
 		    <test>
 			<equal caseless="yes">
-			  <clip pos="3" side="tl" part="tipus_verbs"/>
+			  <!--<clip pos="3" side="tl" part="tipus_verbs"/>--> <!-- FMT: canviat perquè 'tipus_verbs' no existeix com defattr -->
+                          <var n="tipus_verb"/>
 			  <lit-tag v="pron"/>
 			</equal>
 		    </test>

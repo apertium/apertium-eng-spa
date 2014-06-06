@@ -6601,7 +6601,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <call-macro n="f_bcond"> 
 	      <with-param pos="1"/>
 	      <with-param pos="2"/>
-	      <with-param pos="3"/>
+	      <!--<with-param pos="3"/>--> <!-- f_bcond només funciona amb dos parametres -->
 	    </call-macro>
       </action>
     </rule>
@@ -8818,7 +8818,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
 	      <with-param pos="2"/>
 	      <with-param pos="3"/>
-	      <with-param pos="4"/>
+	      <!--<with-param pos="4"/>--> <!-- FMT: només té 2 parametres -->
 	    </call-macro>
       </action>
  </rule>
@@ -9632,7 +9632,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
 	  <with-param pos="3"/>
 	  <with-param pos="4"/>
-	  <with-param pos="5"/>
+	  <!--<with-param pos="5"/>--> <!-- FMT: només té dos parametres -->
 	</call-macro>
       </action>
     </rule>
@@ -10307,7 +10307,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
 	      <with-param pos="2"/>
 	      <with-param pos="3"/>
-	      <with-param pos="4"/>
+	      <!--<with-param pos="4"/>--> <!-- FMT: només té dos parametres -->
 	    </call-macro>
       </action>
     </rule>

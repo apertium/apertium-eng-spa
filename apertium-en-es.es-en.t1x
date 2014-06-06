@@ -9550,9 +9550,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <var n="SVnegatiu"/>
 	      <lit-tag v="SVneg"/>
 	    </let>
-	    <call-macro n="f_bcond">
+	    <!--<call-macro n="f_bcond">
 	      <with-param pos="1"/>
-	    </call-macro>
+	    </call-macro>--> <!-- f_bcond requereix 2 parametres -->
 	    <let>
 	      <var n="caseSecondWord"/>
 	      <var n="caseFirstWord"/>

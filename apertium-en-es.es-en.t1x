@@ -4857,6 +4857,143 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
+    <rule comment="REGLA: DET NOM ADJ conj ADV ADJ (un aspecte fràgil i molt tímid -> a fragile and very shy look">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="cnjcoo"/>
+	<pattern-item n="adv_preadv"/>
+	<pattern-item n="adj"/>
+      </pattern>
+      <action>		
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
+	<call-macro n="nombre_nom">
+	  <with-param pos="2"/>
+	</call-macro>		
+	<call-macro n="f_superlatiu1">
+	  <with-param pos="3"/>
+	</call-macro>	
+	<call-macro n="f_superlatiu2">
+	  <with-param pos="6"/>
+	</call-macro>
+	<call-macro n="canvia_det">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord4">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	  <with-param pos="6"/>
+	</call-macro>
+<!--	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <clip pos="5" side="sl" part="gen"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <clip pos="5" side="sl" part="nbr"/>
+		</equal>
+	      </and>		
+	    </test> -->
+	    <out> 
+	      <chunk name="det_nom_adj_coo_adv_adj" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SN"/></tag>
+		  <tag><clip pos="2" side="sl" part="gen"/></tag>
+		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu>   
+		  <clip pos="1" side="tl" part="lem"/> 
+		  <clip pos="1" side="tl" part="a_det"/>
+		  <clip pos="1" side="tl" part="nbr"/>
+		</lu>
+		<b pos="1"/>
+		<lu>   
+		  <var n="superlatiu1"/>
+		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="a_adj"/>
+		</lu>
+                <b pos="2"/>
+		<lu>
+		  <clip pos="4" side="tl" part="whole"/> 
+		</lu>
+                <b pos="3"/>
+		<lu>
+		  <clip pos="5" side="tl" part="whole"/> 
+		</lu>
+		<b pos="4"/>
+		<lu>   
+		  <var n="superlatiu2"/>
+		  <clip pos="6" side="tl" part="lem"/> 
+		  <clip pos="6" side="tl" part="a_adj"/>
+		</lu> 
+		<b pos="5"/>
+		<lu>       
+		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="a_nom"/>
+		  <clip pos="2" side="tl" part="nbr" link-to="3"/>
+		  <clip pos="2" side="tl" part="lemq"/>  
+		</lu>
+	      </chunk>
+	    </out>
+<!--	  </when>
+	  <otherwise>	      
+	    <out>
+	      <chunk name="det_nom_adj" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SN"/></tag>
+		  <tag><clip pos="2" side="sl" part="gen"/></tag>
+		  <tag><var n="nombre"/></tag>
+		</tags>
+		<lu>   
+		  <clip pos="1" side="tl" part="lem"/> 
+		  <clip pos="1" side="tl" part="a_det"/>
+		  <clip pos="2" side="tl" part="nbr"/>
+		</lu>
+		<b pos="1"/>
+		<lu>   
+		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="a_adj"/>
+		</lu> 
+		<b pos="2"/>
+		<lu>
+		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="a_nom"/>
+		  <clip pos="2" side="tl" part="nbr"/>
+		  <clip pos="2" side="tl" part="lemq"/>  
+		</lu>
+	      </chunk>	       
+	      <b pos="3"/>
+	      <chunk name="coo_adj">
+		<tags>
+		  <tag><lit-tag v="SA"/></tag>
+		  <tag><clip pos="5" side="sl" part="gen"/></tag>
+		  <tag><clip pos="5" side="sl" part="nbr"/></tag>
+		</tags>
+		<lu>
+		  <clip pos="4" side="tl" part="whole"/> 
+		</lu>
+		<b pos="4"/>
+		<lu>   
+		  <clip pos="5" side="tl" part="lem"/> 
+		  <clip pos="5" side="tl" part="a_adj"/>
+		</lu> 
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>     --> 
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: ADJECTIU (quan no acompanya res o va amb desconeguda)">
       <pattern>
 	<pattern-item n="adj"/>

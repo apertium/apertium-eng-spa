@@ -136,7 +136,7 @@
         <file name="es-en.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="apertium-transfer -t">
         <file name="apertium-en-es.es-en.t1x"/>
         <file name="es-en.t1x.bin"/>
         <file name="es-en.autobil.bin"/>
@@ -158,7 +158,7 @@
         <file name="es-en.t1x.bin"/>
         <file name="es-en.autobil.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-en-es.es-en.t2x"/>
         <file name="es-en.t2x.bin"/>
       </program>
@@ -357,7 +357,7 @@
         <file name="apertium-en-es.en-es.genitive.t1x"/>
         <file name="en-es.genitive.bin"/>
       </program>
-      <program name="apertium-transfer">
+      <program name="apertium-transfer -t">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
         <file name="en-es.autobil.bin"/>
@@ -383,7 +383,7 @@
         <file name="en-es.t1x.bin"/>
         <file name="en-es.autobil.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-en-es.en-es.t2x"/>
         <file name="en-es.t2x.bin"/>
       </program>
@@ -447,77 +447,6 @@
       </program>
       <program name="lt-proc $1">
         <file name="en-es.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-
-    <mode name="es-en-lextor">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="es-en.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="es-en.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-lextor -l">
-        <file name="es-en.lextor"/>
-        <file name="es-en.lextormono.bin 3 3"/> 
-      </program>
-      <program name="apertium-transfer">
-        <file name="apertium-en-es.es-en.t1x"/>
-        <file name="es-en.t1x.bin"/>
-        <file name="es-en.lextorbil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-en-es.es-en.t2x"/>
-        <file name="es-en.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-en-es.es-en.t3x"/>
-        <file name="es-en.t3x.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="es-en.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="es-en.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="en-es-lextor">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="en-es.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="en-es.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-lextor -l">
-        <file name="en-es.lextor"/>
-        <file name="en-es.lextormono.bin 3 3"/> 
-      </program>
-      <program name="apertium-transfer">
-        <file name="apertium-en-es.en-es.t1x"/>
-        <file name="en-es.t1x.bin"/>
-        <file name="en-es.lextorbil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-en-es.en-es.t2x"/>
-        <file name="en-es.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-en-es.en-es.t3x"/>
-        <file name="en-es.t3x.bin"/>
-      </program>      
-      <program name="lt-proc $1">
-        <file name="en-es.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="en-es.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -866,79 +795,6 @@
       </program>
     </pipeline>
   </mode>
-<!--
-    <mode name="test-es-en-lextor">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="es-en.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="es-en.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-lextor -l">
-        <file name="es-en.lextor"/>
-        <file name="es-en.lextormono.bin 3 3"/> 
-      </program>
-      <program name="apertium-transfer">
-        <file name="apertium-es-en.es-en.t1x"/>
-        <file name="es-en.t1x.bin"/>
-        <file name="es-en.lextorbil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-es-en.es-en.t2x"/>
-        <file name="es-en.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-es-en.es-en.t3x"/>
-        <file name="es-en.t3x.bin"/>
-      </program>
-      <program name="lt-proc -d">
-        <file name="es-en.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="es-en.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="test-en-es-lextor">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="en-es.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="en-es.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-lextor -l">
-        <file name="en-es.lextor"/>
-        <file name="en-es.lextormono.bin 3 3"/> 
-      </program>
-      <program name="apertium-transfer">
-        <file name="apertium-es-en.en-es.t1x"/>
-        <file name="en-es.t1x.bin"/>
-        <file name="en-es.lextorbil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-es-en.en-es.t2x"/>
-        <file name="en-es.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-es-en.en-es.t3x"/>
-        <file name="en-es.t3x.bin"/>
-      </program>      
-      <program name="lt-proc -d">
-        <file name="en-es.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="en-es.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  
--->
 
   <mode name="es-en-multi" install="no">
     <pipeline>

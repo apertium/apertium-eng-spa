@@ -17,28 +17,8 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
                  $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
                  $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin
 
-#	         $(PREFIX1).lextormono.bin $(PREFIX2).lextormono.bin 
-#                 $(PREFIX1).lextorbil.bin $(PREFIX2).lextorbil.bin 
-#		 $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
-#		 $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
-
 TARGETS = $(TARGETS_COMMON) 
 
-#$(BASENAME).$(LANG1)-lextor.dix: $(BASENAME).$(PREFIX1).dix
-#	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-#	apertium-gen-lextormono rl $(BASENAME).$(PREFIX1).dix $@
-#
-#$(BASENAME).$(LANG2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
-#	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-#	apertium-gen-lextormono lr $(BASENAME).$(PREFIX1).dix $@
-#
-#$(BASENAME).$(PREFIX1)-lextor.dix: $(BASENAME).$(PREFIX1).dix
-#	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-#	apertium-gen-lextorbil rl $(BASENAME).$(PREFIX1).dix $@
-#
-#$(BASENAME).$(PREFIX2)-lextor.dix: $(BASENAME).$(PREFIX1).dix
-#	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-#	apertium-gen-lextorbil lr $(BASENAME).$(PREFIX1).dix $@
 
 .deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix
 	if [ ! -d .deps ]; then mkdir .deps; fi
@@ -61,14 +41,6 @@ $(PREFIX1).automorf.bin: .deps/$(LANG1).dix
 	apertium-validate-acx $(BASENAME).$(LANG1).acx
 	lt-comp lr .deps/$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
 
-#$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).metadix $(BASENAME).$(LANG1).acx
-#	@xsltproc buscaPar.xsl apertium-en-es.en.metadix | uniq > tmp1gen.xsl 	 
-#	@xsltproc tmp1gen.xsl apertium-en-es.en.metadix >$(BASENAME).$(LANG1).dixtmp1 
-#	@rm tmp1gen.xsl
-#	apertium-validate-acx $(BASENAME).$(LANG1).acx
-#	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp1
-#	lt-comp lr $(BASENAME).$(LANG1).dixtmp1 $@ $(BASENAME).$(LANG1).acx
-##	@rm $(BASENAME).$(LANG1).dixtmp1
 
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -106,16 +78,6 @@ $(PREFIX2b).autogen.bin: .deps/$(LANG1b).dix
 	apertium-validate-dictionary .deps/$(LANG1b).dix
 	lt-comp rl .deps/$(LANG1b).dix $@
 
-#$(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).metadix
-#	@xsltproc buscaPar.xsl apertium-en-es.en.metadix | uniq > tmp2gen.xsl 	 
-#	@xsltproc tmp2gen.xsl apertium-en-es.en.metadix >$(BASENAME).$(LANG1).dixtmp2
-#	@rm tmp2gen.xsl
-#	apertium-validate-dictionary $(BASENAME).$(LANG1).dixtmp2
-#	lt-comp rl $(BASENAME).$(LANG1).dixtmp2 $@
-#	@rm $(BASENAME).$(LANG1).dixtmp2
-#	@rm $(BASENAME).$(LANG1).metadix
-#	@rm $(BASENAME).$(LANG2).dix	
-#	@rm $(BASENAME).$(LANG1)-$(LANG2).dix	
 
 $(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
@@ -150,6 +112,10 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
 
 
+###############################################################################
+## Distribution
+###############################################################################
+
 EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(LANG1).tsx \
 	   $(BASENAME).$(LANG2).tsx \
@@ -166,13 +132,26 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
            $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx \
 	   modes.xml
 
-clean-dicts:
-	touch $(BASENAME).$(LANG1).dixtmp1 $(BASENAME).$(LANG1).metadix  $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix $(BASENAME).$(PREFIX1).dix
-	rm $(BASENAME).$(LANG1).dixtmp1
-	rm $(BASENAME).$(LANG1).metadix
-	rm $(BASENAME).$(LANG2).dix
-	rm $(BASENAME).$(PREFIX1).dix
 
+
+
+###############################################################################
+## Installation
+###############################################################################
+
+apertium_en_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_modesdir=$(prefix)/share/apertium/modes/
+
+modes/$(PREFIX1).mode: modes.xml
+	apertium-validate-modes modes.xml
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
+
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
+
+
+# Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
 apertium_en_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
@@ -187,20 +166,6 @@ apertium_en_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 	$(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
 	$(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x
 
-#		    $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix 
-#		    $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
-
-apertium_en_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_modesdir=$(prefix)/share/apertium/modes/
-
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-# All modes are created by the same goal, listing several will just give problems with make -j2
-noinst_DATA=modes/$(PREFIX1).mode
-
 install-data-local:
 	mv modes modes.bak
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
@@ -213,6 +178,30 @@ install-data-local:
 	rm $(PREFIX1).mode $(PREFIX2).mode $(PREFIX2b).mode 
 
 
-CLEANFILES = $(TARGETS)
+###############################################################################
+## Cleanup
+###############################################################################
+
+clean-dicts:
+	touch $(BASENAME).$(LANG1).dixtmp1 $(BASENAME).$(LANG1).metadix  $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix $(BASENAME).$(PREFIX1).dix
+	rm $(BASENAME).$(LANG1).dixtmp1
+	rm $(BASENAME).$(LANG1).metadix
+	rm $(BASENAME).$(LANG2).dix
+	rm $(BASENAME).$(PREFIX1).dix
+
+CLEANFILES = $(TARGETS_COMMON) *.mode
 clean-local: 
 	-rm -rf .deps modes
+
+###############################################################################
+## Test
+###############################################################################
+
+test: all
+	echo  "Fue un malentendido."  | apertium -d . es-en | tee .test-mt
+	@echo "It was a misunderstanding." > .test-ref
+	@diff .test-ref .test-mt
+	echo "Three sad tigers" | apertium -d . en-es | tee .test-mt
+	@echo "Tres tigres tristes" > .test-ref
+	@diff .test-ref .test-mt
+	@rm .test-ref .test-mt

@@ -440,10 +440,20 @@
 	      </lu>
 	      <b/>
 	    </out>
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>
 	  </when>
 	</choose>	 
 	<out>
@@ -496,10 +506,20 @@
 	      </lu>
 	      <b/>
 	    </out>
-	      <modify-case>
-		<clip pos="1" part="lem"/>
-		<lit v="aa"/>
-	      </modify-case>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>
 	  </when>
 	</choose>	 
 	<out>
@@ -558,11 +578,21 @@
 		  </equal>
 		</not>
 	      </and>
-	    </test>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  	    
+	    </test>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  	    
 	    <call-macro n="gen_nbr_determinante">
 	      <with-param pos="1"/>
 	    </call-macro>
@@ -584,7 +614,7 @@
 		<clip pos="2" part="whole"/>
 	      </lu>
 	      <b pos="2"/>
-	    </out>	    
+	    </out>    
 	    <call-macro n="gen_nbr_determinante">
 	      <with-param pos="3"/>
 	    </call-macro>
@@ -664,11 +694,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>
@@ -762,11 +802,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>
@@ -829,11 +879,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>
@@ -934,11 +994,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>
@@ -1007,11 +1077,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>
@@ -1085,11 +1165,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>
@@ -1194,11 +1284,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>
@@ -1287,11 +1387,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>
@@ -1366,11 +1476,21 @@
 		<var n="numero"/>
 	      </lu>
 	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
+	    </out>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <case-of pos="1" part="lem"/>
+                    <lit v="Aa"/>
+                  </equal>
+                </test>
+	        <modify-case>
+	          <clip pos="1" part="lem"/>
+	          <lit v="aa"/>
+	        </modify-case>
+              </when>
+            </choose>  
 	  </when>
 	</choose>	 
 	<out>

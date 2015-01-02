@@ -2823,6 +2823,8 @@
     </e>
 
     </pardef>
+
+<!-- repeated: removed 
     <pardef n="phalan/x__n">
     <e c="CP: nouns which remove -x and add -ges or -xes (LR)">
       <p>
@@ -2846,6 +2848,7 @@
     </e>
 
     </pardef>
+-->
     <pardef n="corp/us__n">
     <e c="CP: nouns which remove -us and add -ora or -uses (LR)">
       <p>
@@ -7344,14 +7347,14 @@
         <r>go</r>
       </p>
     </e>
-
+<!-- repeated: remove 
     <e>
       <p>
         <l>go</l>
         <r>go</r>
       </p>
     </e>
-
+-->
     <e>
       <p>
         <l>goes</l>
@@ -7379,7 +7382,7 @@
         <r>go</r>
       </p>
     </e>
-
+<!-- repeated: remove
     <e>
       <p>
         <l>going</l>
@@ -7393,9 +7396,10 @@
         <r>go</r>
       </p>
     </e>
-
+-->
     </pardef>
-    <pardef n="/go__vblex">
+   
+   <pardef n="/go__vblex">
     <e>
       <p>
         <l>go</l>
@@ -7453,131 +7457,7 @@
     </e>
 
     </pardef>
-    <pardef n="prsubj_nul__prn">
-    <e>
-      <p>
-        <l>I</l>
-        <r>prn</r>
-      </p>
-    </e>
 
-    <e>
-      <p>
-        <l>you</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-    <e i="yes">
-      <p>
-        <l>you<b/>all</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>y'all</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>he</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>she</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>it</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>we</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>they</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-    </pardef>
-
-
-    <pardef n="/go_nul__vblex">
-    <e>
-      <p>
-        <l>go</l>
-        <r>go</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>go</l>
-        <r>go</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>goes</l>
-        <r>go</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>went</l>
-        <r>go</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>gone</l>
-        <r>go</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>going</l>
-        <r>go</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>going</l>
-        <r>go</r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>going</l>
-        <r>go</r>
-      </p>
-    </e>
-
-    </pardef>
     <pardef n="s/ee__vblex">
     <e>
       <p>
@@ -11053,7 +10933,7 @@
       </p>
     </e>
 
-    </pardef>
+	    </pardef>
 
     <pardef n="prsubj__prn">
     <e>

@@ -18,7 +18,7 @@ for line in analysed :
 	for unks in unk:
 		pos = unks.find('*')
 		pos2 = unks.find('$')
-		tok = unks[pos+1:pos2-1]
+		tok = unks[pos+1:pos2]
 #		print tok
 
 		inp = subprocess.Popen(['echo', tok],stdout=subprocess.PIPE)

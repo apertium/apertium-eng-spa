@@ -198,8 +198,8 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo  "Fue un malentendido."  | apertium -d . es-en | tee .test-mt
-	@echo "It was a misunderstanding." > .test-ref
+	echo  "Un malentendido."  | apertium -d . es-en | tee .test-mt
+	@echo "A misunderstanding." > .test-ref
 	@diff .test-ref .test-mt
 	echo "Three sad tigers" | apertium -d . en-es | tee .test-mt
 	@echo "Tres tigres tristes" > .test-ref

@@ -1,0 +1,14 @@
+<rules>
+
+  <rule weight="1.0">
+    <match lemma="estación"><select lemma="season"/></match>
+    <match lemma="seco"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="estación"><select lemma="station"/></match>
+    <match lemma="de"/>
+    <match lemma="tren"/>
+  </rule>
+
+</rules>

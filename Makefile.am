@@ -10,8 +10,8 @@ ALT=$(ALTXSL)
 
 BASENAME=apertium-$(PREFIX1)
 
-TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
-                 $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
+TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin $(PREFIX1).autolex.bin \
+                 $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin $(PREFIX2).autolex.bin \
                  $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin \
                  $(PREFIX2b).autogen.bin $(PREFIX1).genitive.bin \
                  $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
@@ -45,9 +45,9 @@ $(PREFIX1).automorf.bin: .deps/$(LANG1).dix
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
 ##NO TOCAR	apertium-gen-oldbil $(BASENAME).$(PREFIX1).dix tmp$(PREFIX1).autobil.dix
-	xsltproc translate-to-default-equivalent.xsl $(BASENAME).$(PREFIX1).dix >tmp$(PREFIX1).autobil.dix
-	lt-comp lr tmp$(PREFIX1).autobil.dix $@
-	rm tmp$(PREFIX1).autobil.dix
+#	xsltproc translate-to-default-equivalent.xsl $(BASENAME).$(PREFIX1).dix >tmp$(PREFIX1).autobil.dix
+	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
+#	rm tmp$(PREFIX1).autobil.dix
 
 $(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
@@ -56,6 +56,13 @@ $(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
 $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
 	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
+
+$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	lrx-comp $< $@
+
+$(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+	lrx-comp $< $@
+
 
 $(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG2).acx
 	apertium-validate-acx $(BASENAME).$(LANG2).acx
@@ -66,9 +73,9 @@ $(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG2).acx
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
 ##NO TOCAR	apertium-gen-oldbil $(BASENAME).$(PREFIX1).dix tmp$(PREFIX2).autobil.dix
-	xsltproc translate-to-default-equivalent.xsl $(BASENAME).$(PREFIX1).dix >tmp$(PREFIX2).autobil.dix
-	lt-comp rl tmp$(PREFIX2).autobil.dix $@
-	rm tmp$(PREFIX2).autobil.dix
+#	xsltproc translate-to-default-equivalent.xsl $(BASENAME).$(PREFIX1).dix >tmp$(PREFIX2).autobil.dix
+	lt-comp rl $(BASENAME).$(PREFIX1).dix $@
+#	rm tmp$(PREFIX2).autobil.dix
 
 $(PREFIX2).autogen.bin: .deps/$(LANG1).dix
 	apertium-validate-dictionary .deps/$(LANG1).dix
@@ -155,6 +162,7 @@ noinst_DATA=modes/$(PREFIX1).mode
 apertium_en_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
+		    $(PREFIX1).autolex.bin $(PREFIX2).autolex.bin \
 		    $(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
                     $(PREFIX2b).autogen.bin \
 		    $(PREFIX1).prob $(PREFIX2).prob \

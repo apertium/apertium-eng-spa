@@ -316,7 +316,7 @@
       <program name="lrx-proc -m">
         <file name="en-es.autolex.bin"/>
       </program>
-      <program name="apertium-transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-en-es.en-es.t1x"/>
         <file name="en-es.t1x.bin"/>
       </program>

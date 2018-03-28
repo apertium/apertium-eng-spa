@@ -6112,7 +6112,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET ADJ NOM -> DET ADJ NOM">
+    <rule comment="REGLA: DET ADJ NOM → DET ADJ NOM" id="det_adj_nom:det_adj_nom">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -6183,7 +6183,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: DET ADJ NOM">
+    <rule comment="REGLA: DET ADJ NOM → DET NOM ADJ" id="det_adj_nom:det_nom_adj">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>

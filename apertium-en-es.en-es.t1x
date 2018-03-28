@@ -6062,8 +6062,57 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	</out>
       </action>
     </rule>
-    
-    <rule comment="REGLA: ADJ NOM">
+     
+    <rule comment="REGLA: ADJ NOM" id="adj_nom:adj_nom">
+      <pattern>
+	<pattern-item n="adj"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="comparatiu_adj1">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="nom_adj" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN.UNDET"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>  
+	      <var n="adjectiu1"/> 
+	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu> 
+	    <b pos="1"/>	  
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
+	      <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="2" side="tl" part="gen_mf"/>
+	      <clip pos="2" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="2" side="tl" part="nbr_sp"/>
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: ADJ NOM" id="adj_nom:nom_adj">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="nom"/>

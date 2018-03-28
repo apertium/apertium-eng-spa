@@ -8666,7 +8666,47 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <!-- SINTAGMES NOMINALS AMB MES D'UN NOM-->
 
 
-    <rule comment="REGLA: NOM1 NOM2 -> NOM2 de NOM1">
+    <rule comment="REGLA: NOM1 NOM2 -> NOM2 de NOM1" id="nom_nom:nom_nom">
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	    <call-macro n="elimina_GDND">
+	      <with-param pos="1"/>
+	    </call-macro>
+	    <out> 
+	      <chunk name="nom_nom" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SN.UNDET"/></tag>
+		  <tag><clip pos="2" side="tl" part="gen"/></tag>
+		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
+		</tags>
+		<lu> 
+		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="a_nom"/>
+		  <clip pos="2" side="tl" part="gen" link-to="3"/>
+		  <clip pos="2" side="tl" part="nbr" link-to="4"/>
+		  <clip pos="2" side="tl" part="lemq"/>  
+		</lu> 
+		<b pos="1"/>
+		<lu> 
+		  <clip pos="1" side="tl" part="lemh"/> 
+		  <clip pos="1" side="tl" part="a_nom"/>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <clip pos="1" side="tl" part="lemq"/>  
+		</lu> 
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: NOM1 NOM2 -> NOM2 de NOM1" id="nom_nom:nom_de_nom">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="nom"/>

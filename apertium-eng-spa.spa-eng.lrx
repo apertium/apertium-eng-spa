@@ -1,4 +1,7 @@
 <rules>
+  <rule weight="1.0">
+    <match lemma="derrumbe"><select lemma="collapse"/></match>
+  </rule>
 
   <rule weight="1.0">
     <match lemma="estación"><select lemma="season"/></match>
@@ -10,6 +13,21 @@
     <match lemma="de"/>
     <match lemma="tren"/>
   </rule>
+
+  <rule weight="0.8">
+    <match lemma="fuga"><select lemma="flight"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="fuga"><select lemma="escape"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="fuga"><select lemma="flight"/></match>
+    <match lemma="de"/>
+    <match lemma="capital"/>
+  </rule>
+
 
         <rule weight="0.8" c=": 5"> 
           <match lemma="prueba" tags="n.*"><select lemma="proof" tags="n.*"/></match>

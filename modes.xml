@@ -137,6 +137,39 @@
     </pipeline>
   </mode>
 
+  <mode name="spa-eng-biltrans">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-eng.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-eng.autobil.bin"/>
+      </program>
+     </pipeline>
+  </mode>
+
+  <mode name="spa-eng-lextor">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-eng.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -t -m">
+        <file name="spa-eng.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
   <mode name="spa-eng-chunker">
     <pipeline>
       <program name="lt-proc">

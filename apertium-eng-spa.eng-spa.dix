@@ -13839,6 +13839,7 @@
     <e slr="fallo" srl="failure D"><p><l>failure<s n="n"/></l><r>fallo<s n="n"/><s n="m"/></r></p></e>
     <e slr="fracaso D"><p><l>failure<s n="n"/></l><r>fracaso<s n="n"/><s n="m"/></r></p></e>
     <e slr="quiebra"><p><l>failure<s n="n"/></l><r>quiebra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>breakup<s n="n"/></l><r>quiebre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fainting<s n="n"/></l><r>desmayo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fair<s n="n"/></l><r>feria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fairy<s n="n"/></l><r>hada<s n="n"/><s n="f"/></r></p></e>
@@ -17564,8 +17565,8 @@
     <e srl="template"><p><l>template<s n="n"/></l><r>plantilla<s n="n"/><s n="f"/></r></p></e>
     <e slr="templo D"><p><l>temple<s n="n"/></l><r>templo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>temptation<s n="n"/></l><r>tentación<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ten<s n="n"/><s n="pl"/></l><r>decena<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>ten<s n="num"/><s n="sp"/></l><r>decena<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>ten<s n="n"/><s n="sg"/></l><r>decena<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>ten<s n="num"/><s n="sg"/></l><r>decena<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>tenant<s n="n"/></l><r>inquilino<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>tenant<s n="n"/></l><r>inquilino<s n="n"/></r></p></e>
     <e a="eleka"><p><l>tendency<s n="n"/></l><r>tendencia<s n="n"/><s n="f"/></r></p></e>
@@ -30885,6 +30886,8 @@
     <e a="greenbreen"><p><l>slide<s n="n"/></l><r>deslizamiento<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>landslide<s n="n"/></l><r>deslizamiento<g><b/>de<b/>tierras</g><s n="n"/><s n="m"/></r></p></e>
     <e><p><l>landslide<s n="n"/></l><r>derrumbe<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>collapse<s n="n"/></l><r>derrumbe<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>demolition<s n="n"/></l><r>derrumbe<s n="n"/><s n="m"/></r></p></e>
     <e a="greenbreen"><p><l>in<b/>any<b/>case<s n="adv"/></l><r>de<b/>todas<b/>formas<s n="adv"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>district<s n="n"/></l><r>barriada<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>shantytown<s n="n"/></l><r>villorrio<s n="n"/><s n="m"/></r></p></e>
@@ -31116,7 +31119,8 @@
     <e a="greenbreen"><p><l>saxon<s n="adj"/></l><r>sajón<s n="adj"/></r></p></e>
     <e r="LR" a="greenbreen"><p><l>Saxon<s n="n"/></l><r>sajón<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>Saxon<s n="n"/></l><r>sajón<s n="n"/></r></p></e>
-    <e r="RL" a="greenbreen"><p><l>escape<s n="n"/></l><r>fuga<s n="n"/><s n="f"/></r></p></e>
+    <e a="greenbreen"><p><l>escape<s n="n"/></l><r>fuga<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>flight<s n="n"/></l><r>fuga<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>appearance<s n="n"/></l><r>apariencia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" a="greenbreen"><p><l>funny<s n="adj"/><s n="sint"/></l><r>chistoso<s n="adj"/></r></p></e>
     <e a="greenbreen"><p><l>audition<s n="n"/></l><r>audición<s n="n"/><s n="f"/></r></p></e>

@@ -11,4 +11,14 @@
     <match lemma="tren"/>
   </rule>
 
+        <rule weight="0.8" c=": 5"> 
+          <match lemma="prueba" tags="n.*"><select lemma="proof" tags="n.*"/></match>
+        </rule>
+
+        <rule weight="1.0" c=": 5"> 
+          <match lemma="prueba" tags="n.*"><select lemma="test" tags="n.*"/></match>
+        </rule>
+
+
+
 </rules>

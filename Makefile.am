@@ -1,8 +1,8 @@
 VERSION=0.8.0
-LANG1=en
-LANG1a=en_GB
-LANG1b=en_US
-LANG2=es
+LANG1=eng
+LANG1a=eng_GB
+LANG1b=eng_US
+LANG2=spa
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 PREFIX2b=$(LANG2)-$(LANG1b)
@@ -146,7 +146,7 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 ## Installation
 ###############################################################################
 
-apertium_en_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_eng_spadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_modesdir=$(prefix)/share/apertium/modes/
 
 modes/$(PREFIX1).mode: modes.xml
@@ -159,7 +159,7 @@ noinst_DATA=modes/$(PREFIX1).mode
 
 
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
-apertium_en_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
+apertium_eng_spa_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
 		    $(PREFIX1).autolex.bin $(PREFIX2).autolex.bin \

@@ -11939,6 +11939,66 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
+    <rule comment="REGLA: DE + INF // forma de jugar → way of playing">
+      <pattern>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/> 
+      </pattern>
+      <action>     	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>   
+	<let>
+	  <clip pos="2" side="tl" part="temps"/>
+	  <lit-tag v="ger"/>
+	</let>
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="2" side="sl" part="lem"/> 
+		<lit v="poder"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <get-case-from pos="2">
+		<lit v="be able to"/>
+	      </get-case-from>
+	    </let>
+	    <let>
+	      <clip pos="2" side="tl" part="a_verb"/> 
+	      <lit-tag v="vbmod"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk name="de_inf" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SV"/></tag>
+	      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+	      <tag><clip pos="2" side="tl" part="temps"/></tag>
+	    </tags>
+	    <lu>
+	      <get-case-from pos="1">
+		<lit v="de"/>
+	      </get-case-from>
+	      <clip pos="1" side="tl" part="tags"/>
+	    </lu>
+	    <b pos="1"/>
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
+	      <clip pos="2" side="tl" part="sep"/>
+	      <clip pos="2" side="tl" part="temps" link-to="3"/>
+	      <clip pos="2" side="tl" part="lemq"/>    
+	    </lu>
+	  </chunk>
+	</out>  
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: NO + INF (no jugar - not playing)">
       <pattern>
 	<pattern-item n="no"/>

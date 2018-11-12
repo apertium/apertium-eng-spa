@@ -132,6 +132,8 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(LANG1).metadix \
 	   $(BASENAME).$(LANG2).dix \
 	   $(BASENAME).$(PREFIX1).dix \
+	   $(BASENAME).$(PREFIX1).lrx \
+	   $(BASENAME).$(PREFIX2).lrx \
 	   $(BASENAME).$(PREFIX1).genitive.t1x \
 	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
 	   $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \

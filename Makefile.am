@@ -85,10 +85,12 @@ $(PREFIX2b).autogen.bin: .deps/$(LANG1b).dix
 	apertium-validate-dictionary .deps/$(LANG1b).dix
 	lt-comp rl .deps/$(LANG1b).dix $@
 
+$(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
+	cp $< $@
 
-$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
-	lt-comp lr $(BASENAME).post-$(LANG1).dix $@
+#$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+#	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
+#	lt-comp lr $(BASENAME).post-$(LANG1).dix $@
 
 $(PREFIX1).genitive.bin: $(BASENAME).$(PREFIX1).genitive.t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX1).genitive.t1x

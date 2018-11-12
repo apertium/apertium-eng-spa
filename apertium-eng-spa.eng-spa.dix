@@ -18540,16 +18540,19 @@
     <e r="LR"><p><l>a<s n="det"/><s n="ind"/></l><r>uno<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+
     <e r="RL"><p><l>some<s n="det"/><s n="qnt"/><s n="pl"/></l><r>unos<b/>pocos<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>some<s n="det"/><s n="qnt"/><s n="pl"/></l><r>unos<b/>pocos<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>some<s n="det"/><s n="qnt"/><s n="pl"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>some<s n="det"/><s n="qnt"/><s n="pl"/></l><r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+
     <e r="LR"><p><l>another<s n="det"/><s n="ind"/></l><r>otro<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>another<s n="det"/><s n="ind"/><s n="sg"/></l><r>otro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>another<s n="det"/><s n="ind"/><s n="sg"/></l><r>otro<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>other<s n="det"/><s n="ind"/><s n="pl"/></l><r>otro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>other<s n="det"/><s n="ind"/><s n="pl"/></l><r>otro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-    <e c="interrogatives, condicional" i="yes"><p><l>any<s n="det"/></l><r>alguno<s n="det"/></r></p></e>
+
+
     <e r="LR" c="afirmatives"><p><l>any<s n="det"/><s n="ind"/><s n="sp"/></l><r>cualquier<s n="det"/><s n="ind"/><s n="mf"/><s n="ND"/></r></p></e>
     <e r="RL" c="afirmatives"><p><l>any<s n="det"/><s n="ind"/><s n="sp"/></l><r>cualquier<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="RL" c="afirmatives"><p><l>any<s n="det"/><s n="ind"/><s n="sp"/></l><r>cualquier<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -18577,10 +18580,19 @@
     <e r="LR" c="MG: traducció per defecte ca-en és per ara 'his'"><p><l>their<s n="det"/><s n="pos"/><s n="sp"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="ND"/></r></p></e>
     <e r="LR"><p><l>several<s n="det"/><s n="ind"/></l><r>varios<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>several<s n="det"/></l><r>varios<s n="det"/></r></p></e>
+
     <e r="LR" c="frases afirmatives"><p><l>some<s n="det"/><s n="qnt"/><s n="sp"/></l><r>alguno<s n="det"/><s n="qnt"/><s n="GD"/><s n="ND"/></r></p></e>
-    <e r="RL" c="frases afirmatives"><p><l>some<s n="det"/></l><r>alguno<s n="det"/></r></p></e>
+    <e r="RL" c="frases afirmatives"><p><l>some<s n="det"/><s n="qnt"/><s n="sp"/></l><r>alguno<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL" c="frases afirmatives"><p><l>some<s n="det"/><s n="qnt"/><s n="sp"/></l><r>alguno<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL" c="frases afirmatives"><p><l>some<s n="det"/><s n="qnt"/><s n="sp"/></l><r>alguno<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL" c="frases afirmatives"><p><l>some<s n="det"/><s n="qnt"/><s n="sp"/></l><r>alguno<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/></r></p></e>
+
+    <!--<e c="interrogatives, condicional" i="yes"><p><l>any<s n="det"/></l><r>alguno<s n="det"/></r></p></e>-->
+
     <e r="LR"><p><l>enough<s n="det"/><s n="qnt"/><s n="sp"/></l><r>bastante<s n="det"/><s n="qnt"/><s n="mf"/><s n="ND"/></r></p></e>
+
     <e r="RL"><p><l>some<s n="det"/><s n="qnt"/></l><r>cierto<s n="det"/><s n="ind"/></r></p></e>
+
     <e r="LR"><p><l>how<b/>many<s n="det"/><s n="itg"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>how<b/>many<s n="det"/><s n="itg"/><s n="pl"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>how<b/>many<s n="det"/><s n="itg"/><s n="pl"/></l><r>cuánto<s n="det"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>

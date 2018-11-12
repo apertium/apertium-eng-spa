@@ -1896,6 +1896,16 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
  <def-macro n="conj_verb2" npar="2"><!--conjuga un verb + inf -->
 
+        <choose>
+          <when><test><equal>
+              <clip pos="1" side="sl" part="temps"/><lit-tag v="pri"/></equal></test>
+
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="pres"/>
+            </let></when>
+        </choose>
+
 	<choose>
 	  <when>
 	    <test><!--Si és verb 'ser' p1 o p3 en present o passat (o subjuntiu) té una conjugació pròpia en anglès. Inclou 'ser' i 'estar', tots dos són 'vbser' en anglès (to be) -->
@@ -2316,6 +2326,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
  <def-macro n="conj_verb1" npar="1"><!--conjuga un verb -->
+
+        <choose>
+          <when><test><equal>
+              <clip pos="1" side="sl" part="temps"/><lit-tag v="pri"/></equal></test>
+
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="pres"/>
+            </let></when>
+        </choose>
+
 
 	<choose>
 	  <when>

@@ -22,7 +22,7 @@ TARGETS = $(TARGETS_COMMON)
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
 
-.deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix
+.deps/$(LANG1).metadix:  $(BASENAME).$(LANG1).metadix
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	xsltproc --stringparam alt $(LANG1a) $(ALT) $(BASENAME).$(LANG1).metadix >$@
 
@@ -64,33 +64,21 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 	lrx-comp $< $@
 
 
-$(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG2).acx
-	apertium-validate-acx $(BASENAME).$(LANG2).acx
-	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
-	lt-comp lr $(BASENAME).$(LANG2).dix $@ $(BASENAME).$(LANG2).acx
-#	@rm $(BASENAME).$(LANG2).dix
+$(PREFIX2).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
+	lt-trim $^ $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-##NO TOCAR	apertium-gen-oldbil $(BASENAME).$(PREFIX1).dix tmp$(PREFIX2).autobil.dix
-#	xsltproc translate-to-default-equivalent.xsl $(BASENAME).$(PREFIX1).dix >tmp$(PREFIX2).autobil.dix
 	lt-comp rl $(BASENAME).$(PREFIX1).dix $@
-#	rm tmp$(PREFIX2).autobil.dix
 
-$(PREFIX2).autogen.bin: .deps/$(LANG1).dix
-	apertium-validate-dictionary .deps/$(LANG1).dix
-	lt-comp rl .deps/$(LANG1).dix $@
+$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
+	cp $< $@
 
-$(PREFIX2b).autogen.bin: .deps/$(LANG1b).dix
-	apertium-validate-dictionary .deps/$(LANG1b).dix
-	lt-comp rl .deps/$(LANG1b).dix $@
+$(PREFIX2b).autogen.bin: $(AP_SRC1)/$(LANG1b).autogen.bin
+	cp $< $@
 
 $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 	cp $< $@
-
-#$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-#	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
-#	lt-comp lr $(BASENAME).post-$(LANG1).dix $@
 
 $(PREFIX1).genitive.bin: $(BASENAME).$(PREFIX1).genitive.t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX1).genitive.t1x

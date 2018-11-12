@@ -24,5 +24,8 @@ ALTXSL="alt.xsl";
 
 AC_SUBST(ALTXSL)
 
+AP_CHECK_LING([1], [apertium-eng])
+AP_CHECK_LING([2], [apertium-spa])
+
   
 AC_OUTPUT([Makefile])

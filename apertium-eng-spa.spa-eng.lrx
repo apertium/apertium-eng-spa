@@ -1,4 +1,7 @@
 <rules>
+<rule weight="0.4"><match lemma="de" tags="pr"><select lemma="in" tags="pr"/></match></rule>
+<rule weight="1.0"><match lemma="de" tags="pr"><select lemma="from" tags="pr"/></match></rule>
+<rule weight="1.2"><match lemma="de" tags="pr"><select lemma="of" tags="pr"/></match></rule>
 
 <rule weight="1.0"><match lemma="aficionado" tags="n.*"><select lemma="fan" tags="n.*"/></match></rule>
 <rule weight="1.0"><match lemma="olimpiada" tags="n.f.*"><select lemma="olympic game" tags="n.*"/></match></rule>

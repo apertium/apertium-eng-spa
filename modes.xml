@@ -50,7 +50,7 @@
       <program name="lrx-proc -m">
         <file name="spa-eng.autolex.bin"/>
       </program>
-      <program name="apertium-transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-eng-spa.spa-eng.t1x"/>
         <file name="spa-eng.t1x.bin"/>
       </program>

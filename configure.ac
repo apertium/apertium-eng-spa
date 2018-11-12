@@ -27,5 +27,6 @@ AC_SUBST(ALTXSL)
 AP_CHECK_LING([1], [apertium-eng])
 AP_CHECK_LING([2], [apertium-spa])
 
+AP_MKINCLUDE
   
 AC_OUTPUT([Makefile])

@@ -3140,7 +3140,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <!--*************************************** REGLES DE SN ******************************************** -->
 
-    <rule comment="REGLA: NOM (per a col·locar la cua en les multiparaules amb g">
+    <rule id="1" comment="REGLA: NOM (per a col·locar la cua en les multiparaules amb g">
       <pattern>
 	<pattern-item n="nom"/>
       </pattern>
@@ -3166,7 +3166,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: PREP DET TIME">
+    <rule id="2" comment="REGLA: PREP DET TIME">
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="las"/>
@@ -3198,7 +3198,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-<rule comment="REGLA: ANTROPÒNIM">
+<rule id="3" comment="REGLA: ANTROPÒNIM">
       <pattern>
 	<pattern-item n="ant"/>
       </pattern>
@@ -3222,7 +3222,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-<rule comment="REGLA: DET ANTROPÒNIM (La Maria - Maria)">
+<rule id="4" comment="REGLA: DET ANTROPÒNIM (La Maria - Maria)">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="ant"/>
@@ -3246,7 +3246,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-<rule comment="REGLA: TITULO ANTROPÒNIM (Su Majestad Juan Carlos - His Majesty Juan Carlos)">
+<rule id="5" comment="REGLA: TITULO ANTROPÒNIM (Su Majestad Juan Carlos - His Majesty Juan Carlos)">
       <pattern>
 	<pattern-item n="majestad"/>
 	<pattern-item n="ant"/>
@@ -3323,7 +3323,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="REGLA: DET NOM de ANT // la enfermedad de Marek → Marek's illness">
+    <rule id="6" comment="REGLA: DET NOM de ANT // la enfermedad de Marek → Marek's illness">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3377,7 +3377,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: DET NOM de NOM // una especie de crédito → a kind of credit">
+    <rule id="7" comment="REGLA: DET NOM de NOM // una especie de crédito → a kind of credit">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3437,7 +3437,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: DET NOM de NOM // la fuga de capitales → capital flight">
+    <rule id="8" comment="REGLA: DET NOM de NOM // la fuga de capitales → capital flight">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3487,7 +3487,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: DET NOM de NOM // una memoria de traducción → a translation memory"> 
+    <rule id="9" comment="REGLA: DET NOM de NOM // una memoria de traducción → a translation memory"> 
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3543,7 +3543,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: DET NOM // Los reyes llegaron hoy → The kings arrived today">
+    <rule id="10" comment="REGLA: DET NOM // Los reyes llegaron hoy → The kings arrived today">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3587,7 +3587,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NOM // Los médicos no tienen esas herramientas → Doctors don't have those tools">
+    <rule id="11" comment="REGLA: DET NOM // Los médicos no tienen esas herramientas → Doctors don't have those tools">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3629,7 +3629,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: NUM NOM">
+    <rule id="12" comment="REGLA: NUM NOM">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="nom"/>
@@ -3685,7 +3685,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: HACE NUM NOM">
+    <rule id="13" comment="REGLA: HACE NUM NOM">
       <pattern>
 	<pattern-item n="hace"/>
 	<pattern-item n="num"/>
@@ -3724,7 +3724,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: NOM ADJ">
+    <rule id="14" comment="REGLA: NOM ADJ">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="adj"/>
@@ -3764,7 +3764,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: NOM ADJ ADJ">
+    <rule id="15" comment="REGLA: NOM ADJ ADJ">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="adj_pp"/>
@@ -3817,7 +3817,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     
 
 
-    <rule comment="REGLA: DET NOM ADJ">
+    <rule id="16" comment="REGLA: DET NOM ADJ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3872,7 +3872,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-  <!-- <rule comment="REGLA: DET DET NOM ADJ">
+  <!-- <rule id="17" comment="REGLA: DET DET NOM ADJ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="det"/>
@@ -3939,7 +3939,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-   <rule comment="REGLA: DET DET NOM (los muchos casos)">
+   <rule id="18" comment="REGLA: DET DET NOM (los muchos casos)">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="det"/>
@@ -4015,7 +4015,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule> -->
 
-    <rule comment="REGLA: DET ADJ NOM">
+    <rule id="19" comment="REGLA: DET ADJ NOM">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -4075,7 +4075,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-<!-- <rule comment="REGLA: DET DET ADJ NOM">
+<!-- <rule id="20" comment="REGLA: DET DET ADJ NOM">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="det"/>
@@ -4147,7 +4147,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule> -->
 
 
- <rule comment="REGLA: DET ADJ NOM ADJ">
+ <rule id="21" comment="REGLA: DET ADJ NOM ADJ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -4218,7 +4218,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
- <rule comment="REGLA: DET NOM ADJ ADJ">
+ <rule id="22" comment="REGLA: DET NOM ADJ ADJ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -4284,7 +4284,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM NOM ADJ">
+    <rule id="23" comment="REGLA: NUM NOM ADJ">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="nom"/>
@@ -4332,7 +4332,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="REGLA: DET NOM ADV ADJ">
+    <rule id="24" comment="REGLA: DET NOM ADV ADJ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -4395,7 +4395,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM NOM ADV ADJ">
+    <rule id="25" comment="REGLA: NUM NOM ADV ADJ">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="nom"/>
@@ -4454,7 +4454,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: NOM ADJ conj ADJ NOM (aspecte fràgil i tímida aparença -> fragile look and shy appearance. Regla creada perquè no entrin frases que no toquen en la regla següent">
+    <rule id="26" comment="REGLA: NOM ADJ conj ADJ NOM (aspecte fràgil i tímida aparença -> fragile look and shy appearance. Regla creada perquè no entrin frases que no toquen en la regla següent">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="adj_pp"/>
@@ -4595,7 +4595,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: NOM ADJ conj ADJ (aspecte fràgil i tímid -> fragile and shy look">
+    <rule id="27" comment="REGLA: NOM ADJ conj ADJ (aspecte fràgil i tímid -> fragile and shy look">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="adj_pp"/>
@@ -4706,7 +4706,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="REGLA: DET NOM ADJ conj ADJ NOM (un aspecte fràgil i tímida aparença -> a fragile look and shy appearance. Regla creada perquè no entrin frases que no toquen en la regla següent)"> 
+    <rule id="28" comment="REGLA: DET NOM ADJ conj ADJ NOM (un aspecte fràgil i tímida aparença -> a fragile look and shy appearance. Regla creada perquè no entrin frases que no toquen en la regla següent)"> 
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -4870,7 +4870,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NOM ADJ conj ADJ (un aspecte fràgil i tímid -> a fragile and shy look">
+    <rule id="29" comment="REGLA: DET NOM ADJ conj ADJ (un aspecte fràgil i tímid -> a fragile and shy look">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -5002,7 +5002,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="REGLA: DET NOM ADV ADJ conj ADJ (un aspecte muy fràgil i tímid -> a very fragile and shy look">
+    <rule id="30" comment="REGLA: DET NOM ADV ADJ conj ADJ (un aspecte muy fràgil i tímid -> a very fragile and shy look">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -5138,7 +5138,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NOM ADJ conj ADV ADJ (un aspecte fràgil i molt tímid -> a fragile and very shy look">
+    <rule id="31" comment="REGLA: DET NOM ADJ conj ADV ADJ (un aspecte fràgil i molt tímid -> a fragile and very shy look">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -5275,7 +5275,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="REGLA: ADJECTIU (quan no acompanya res o va amb desconeguda)">
+    <rule id="32" comment="REGLA: ADJECTIU (quan no acompanya res o va amb desconeguda)">
       <pattern>
 	<pattern-item n="adj"/>
       </pattern>
@@ -5304,7 +5304,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule> 
 
 
-    <rule comment="REGLA: ADV ADJECTIU (per a fer comparatius i superlatius: 'més llarg - longer')">
+    <rule id="33" comment="REGLA: ADV ADJECTIU (per a fer comparatius i superlatius: 'més llarg - longer')">
       <pattern>
 	<pattern-item n="adv_preadv"/>
 	<pattern-item n="adj_pp"/>
@@ -5340,7 +5340,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule> 
 
 
- <rule comment="REGLA: DET ADJECTIU (el lleig / el millor) ">
+ <rule id="34" comment="REGLA: DET ADJECTIU (el lleig / el millor) ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -5412,7 +5412,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-   <rule comment="REGLA: DET ADV ADJECTIU (per a fer comparatius i superlatius: 'la més gran - the biggest; la més important - the most important')">
+   <rule id="35" comment="REGLA: DET ADV ADJECTIU (per a fer comparatius i superlatius: 'la més gran - the biggest; la més important - the most important')">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="más"/>
@@ -5512,7 +5512,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule> 
 
 
-    <rule comment="REGLA: DETERMINANT (perquè no doni error si va davant de desconegudes i no es pot assignar nombre. MG: falta regla t2x per al ND)">
+    <rule id="36" comment="REGLA: DETERMINANT (perquè no doni error si va davant de desconegudes i no es pot assignar nombre. MG: falta regla t2x per al ND)">
       <pattern>
 	<pattern-item n="det"/>
       </pattern>
@@ -5539,7 +5539,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-<rule comment="REGLA: el (num)%">
+<rule id="37" comment="REGLA: el (num)%">
       <pattern>
 	<pattern-item n="el_un"/>
 	<pattern-item n="percent"/>
@@ -5566,7 +5566,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <!-- *************************************** REGLES DE SV *********************************************** -->
 
- <rule comment="REGLA: HABER">
+ <rule id="38" comment="REGLA: HABER">
       <pattern>
 	<pattern-item n="hay"/>
       </pattern>
@@ -5612,7 +5612,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: HABER QUE">
+    <rule id="39" comment="REGLA: HABER QUE">
       <pattern>
 	<pattern-item n="haber_que"/>
       </pattern>
@@ -5671,7 +5671,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
   
 
-    <rule comment="REGLA: VERB conjugat">
+    <rule id="40" comment="REGLA: VERB conjugat">
       <pattern>
 	<pattern-item n="verbcj"/>
       </pattern>
@@ -5721,7 +5721,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
   
-    <rule comment="LLEGAR + a + INF (llegó a decir)">
+    <rule id="41" comment="LLEGAR + a + INF (llegó a decir)">
       <pattern>
         <pattern-item n="llegar"/>
         <pattern-item n="a"/>
@@ -5765,7 +5765,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="HAVER + LLEGADO + A + INF (ha arribat a dir - has even said)">
+    <rule id="42" comment="HAVER + LLEGADO + A + INF (ha arribat a dir - has even said)">
       <pattern>
 	<pattern-item n="haver"/>
 	<pattern-item n="llegado"/> 
@@ -5845,7 +5845,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="HAVER + PP (han vist - have seen)">
+    <rule id="43" comment="HAVER + PP (han vist - have seen)">
       <pattern>
 	<pattern-item n="haver"/>
 	<pattern-item n="pp"/> 
@@ -5987,7 +5987,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="lo/la HAVER + pasar bien (lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general 'pro HAVER + PP' ">
+    <rule id="44" comment="lo/la HAVER + pasar bien (lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general 'pro HAVER + PP' ">
       <pattern>
 	<pattern-item n="pro_lola"/>
 	<pattern-item n="haver"/> 
@@ -6054,7 +6054,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="pro HAVER + PP (l'han vist - have seen it)">
+    <rule id="45" comment="pro HAVER + PP (l'han vist - have seen it)">
       <pattern>
 	<pattern-item n="pro"/> 
 	<pattern-item n="haver"/> 
@@ -6364,7 +6364,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
- <rule comment="pro + lo/la + HAVER + pasar bien (se lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general 'pro + pro + HAVER + PP' ">
+ <rule id="46" comment="pro + lo/la + HAVER + pasar bien (se lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general 'pro + pro + HAVER + PP' ">
       <pattern>
 	<pattern-item n="pro"/>
 	<pattern-item n="pro_lola"/> 
@@ -6431,7 +6431,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</action>
       </rule>
 
-  <rule comment="pro + pro + HAVER + PP (se lo han dado - have given it to him)">
+  <rule id="47" comment="pro + pro + HAVER + PP (se lo han dado - have given it to him)">
       <pattern>
 	<pattern-item n="pro"/>
 	<pattern-item n="pro"/> 
@@ -6698,7 +6698,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    
  	 
    
-	    <rule comment="REGLA: PROCLÍTIC HAY">
+	    <rule id="48" comment="REGLA: PROCLÍTIC HAY">
       <pattern>
 	<pattern-item n="pro_noref"/>
 	<pattern-item n="hay"/>
@@ -6757,7 +6757,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
 </rule>
 
-  <rule comment="REGLA: PROCLÍTIC pasar bien - regla lexicalizada antes de la correspondiente regla general 'PROCLÍTIC VERB conjugat'">
+  <rule id="49" comment="REGLA: PROCLÍTIC pasar bien - regla lexicalizada antes de la correspondiente regla general 'PROCLÍTIC VERB conjugat'">
       <pattern>
 	<pattern-item n="pro_lola"/>
 	<pattern-item n="verb_pronlex"/>
@@ -6791,7 +6791,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: PROCLÍTIC VERB conjugat">
+    <rule id="50" comment="REGLA: PROCLÍTIC VERB conjugat">
       <pattern>
 	<pattern-item n="pro"/>
 	<pattern-item n="verbcj"/>
@@ -6988,7 +6988,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
- <rule comment="REGLA: PROCL + lo/la + pasar bien - regla lexicalizada antes de la correspondiente regla general 'PROCL + PROCL + VERB conjugat">
+ <rule id="51" comment="REGLA: PROCL + lo/la + pasar bien - regla lexicalizada antes de la correspondiente regla general 'PROCL + PROCL + VERB conjugat">
       <pattern>
 	<pattern-item n="pro"/>
 	<pattern-item n="pro_lola"/>
@@ -7024,7 +7024,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-  <rule comment="REGLA: PROCL + PROCL + VERB conjugat (se lo digo)">
+  <rule id="52" comment="REGLA: PROCL + PROCL + VERB conjugat (se lo digo)">
       <pattern>
 	<pattern-item n="pro"/>
 	<pattern-item n="pro"/>
@@ -7213,7 +7213,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-   <rule comment="pasar bien + lo/la (pasarlo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL'">
+   <rule id="53" comment="pasar bien + lo/la (pasarlo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL'">
       <pattern>
 	<pattern-item n="verb_pronlex_infger"/>
 	<pattern-item n="enc_lola"/>
@@ -7261,7 +7261,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
- <rule comment="pasar bien + lo/la (pásalo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL'">
+ <rule id="54" comment="pasar bien + lo/la (pásalo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL'">
       <pattern>
 	<pattern-item n="verb_pronlex_imp"/>
 	<pattern-item n="enc_lola"/> 
@@ -7295,7 +7295,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-   <rule comment="VERB + ENCL (ajudar-me - help me)">
+   <rule id="55" comment="VERB + ENCL (ajudar-me - help me)">
       <pattern>
 	<pattern-item n="verbnm_inf_ger"/>
 	<pattern-item n="enc"/> 
@@ -7408,7 +7408,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="VERB + ENCL (ajuda'm - help me)">
+    <rule id="56" comment="VERB + ENCL (ajuda'm - help me)">
       <pattern>
 	<pattern-item n="verbnm_imp"/>
 	<pattern-item n="enc"/> 
@@ -7516,7 +7516,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-   <rule comment="pasar bien + ENCL + lo/la (pasárselo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL + ENCL'">
+   <rule id="57" comment="pasar bien + ENCL + lo/la (pasárselo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL + ENCL'">
       <pattern>
 	<pattern-item n="verb_pronlex_infger"/> 
 	<pattern-item n="enc"/> 
@@ -7565,7 +7565,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
    </rule>
 
-  <rule comment="pasar bien + ENCL + lo/la (pásatelo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL + ENCL'">
+  <rule id="58" comment="pasar bien + ENCL + lo/la (pásatelo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL + ENCL'">
       <pattern>
 	<pattern-item n="verb_pronlex_imp"/> 
 	<pattern-item n="enc"/> 
@@ -7601,7 +7601,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
   </rule>
   
 
-    <rule comment="VERB + ENCL + ENCL (portar-me'ls - bring them to me)">
+    <rule id="59" comment="VERB + ENCL + ENCL (portar-me'ls - bring them to me)">
       <pattern>
 	<pattern-item n="verbnm_inf_ger"/> 
 	<pattern-item n="enc"/> 
@@ -7778,7 +7778,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="VERB + ENCL + ENCL (porta-me'ls - bring them to me)">
+    <rule id="60" comment="VERB + ENCL + ENCL (porta-me'ls - bring them to me)">
       <pattern>
 	<pattern-item n="verbnm_imp"/> 
 	<pattern-item n="enc"/> 
@@ -8001,7 +8001,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
  
 
 
-    <rule comment="VERBMOD + ENCL + INF (poder-ho fer - be able to do it)(no he fet res per a pronominals, difícil fer la concordança de persona en frases que no són de 3a persona ('es'): per poder-te enamorar...">
+    <rule id="61" comment="VERBMOD + ENCL + INF (poder-ho fer - be able to do it)(no he fet res per a pronominals, difícil fer la concordança de persona en frases que no són de 3a persona ('es'): per poder-te enamorar...">
       <pattern>
 	<pattern-item n="verbm"/> <!-- aquí tb separaria entre inf/ger i imperatiu, per poder fer enllaços coherents en 'temps' i poder deixar temps 'sl' en imperatiu i 'tl' en inf i ger.-->
 	<pattern-item n="enc"/> 
@@ -8124,7 +8124,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="VERBMOD + ENCL + ENCL + INF (poder-los-ho explicar -> be able to explain it to them)">
+    <rule id="62" comment="VERBMOD + ENCL + ENCL + INF (poder-los-ho explicar -> be able to explain it to them)">
       <pattern>
 	<pattern-item n="verbm"/> 
 	<pattern-item n="enc"/> 
@@ -8370,7 +8370,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-  <rule comment="REGLA: procl + verb modal + inf (em pot sorprendre -> can surprise me)">
+  <rule id="63" comment="REGLA: procl + verb modal + inf (em pot sorprendre -> can surprise me)">
       <pattern>
 	<pattern-item n="pro"/>
 	<pattern-item n="verbm"/>
@@ -8542,7 +8542,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="VERBMOD + ENCL (per quan va davant desconegudes, perquè almenys no peti: poder-ho xxx - be able to it xxx)">
+    <rule id="64" comment="VERBMOD + ENCL (per quan va davant desconegudes, perquè almenys no peti: poder-ho xxx - be able to it xxx)">
       <pattern>
 	<pattern-item n="verbm"/> 
 	<pattern-item n="enc"/> 
@@ -8610,7 +8610,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="VERBMOD + ENCL + ENCL (per quan va davant desconegudes, perquè almenys no peti: poder-los-ho xxx - be able to them it xxx" >
+    <rule id="65" comment="VERBMOD + ENCL + ENCL (per quan va davant desconegudes, perquè almenys no peti: poder-los-ho xxx - be able to them it xxx" >
       <pattern>
 	<pattern-item n="verbm"/> 
 	<pattern-item n="enc"/> 
@@ -8685,7 +8685,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: PARTICIPI (perquè no enviï gènere ni nombre quan va sol (per tal que no doni error). Caldrà posar-lo tb en les regles d'adjectiu">
+    <rule id="66" comment="REGLA: PARTICIPI (perquè no enviï gènere ni nombre quan va sol (per tal que no doni error). Caldrà posar-lo tb en les regles d'adjectiu">
       <pattern>
 	<pattern-item n="pp"/> 
       </pattern>
@@ -8732,7 +8732,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="PER + INF (per ajudar - to help (en general; cal estudiar quan hi va gerundi)">
+    <rule id="67" comment="PER + INF (per ajudar - to help (en general; cal estudiar quan hi va gerundi)">
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="inf"/>
@@ -8776,7 +8776,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="PREP + HAVER + PP (per haver ajudat)">
+    <rule id="68" comment="PREP + HAVER + PP (per haver ajudat)">
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="haverinf"/>
@@ -8843,7 +8843,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-  <rule comment="AL + INF (al llegar - when arriving)">
+  <rule id="69" comment="AL + INF (al llegar - when arriving)">
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="el"/>
@@ -8889,7 +8889,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-<!-- <rule comment="REGLA: PARTICIPI + per (canvia 'for' per 'by' ja que es considera que generalment serà passiva.">
+<!-- <rule id="70" comment="REGLA: PARTICIPI + per (canvia 'for' per 'by' ja que es considera que generalment serà passiva.">
       <pattern>
 	<pattern-item n="pp"/>
 	<pattern-item n="por"/>
@@ -8949,7 +8949,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="PP + PER + INF (preparat per ajudar - prepared to help (perquè no entri per la regla anterior i digui 'prepared by')">
+    <rule id="71" comment="PP + PER + INF (preparat per ajudar - prepared to help (perquè no entri per la regla anterior i digui 'prepared by')">
       <pattern>
 	<pattern-item n="pp"/>
 	<pattern-item n="prep"/>
@@ -9014,7 +9014,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: VERB no conjugat (perquè posi bé la cua en multiparaules)">
+    <rule id="72" comment="REGLA: VERB no conjugat (perquè posi bé la cua en multiparaules)">
       <pattern>
 	<pattern-item n="inf"/> 
       </pattern>
@@ -9041,7 +9041,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: VERB no conjugat (perquè posi bé la cua en multiparaules)">
+    <rule id="73" comment="REGLA: VERB no conjugat (perquè posi bé la cua en multiparaules)">
       <pattern>
 	<pattern-item n="ger"/> 
       </pattern>
@@ -9091,7 +9091,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-  <rule comment="REGLA: ESTAR + GER (estan estudiant)">
+  <rule id="74" comment="REGLA: ESTAR + GER (estan estudiant)">
       <pattern>
 	<pattern-item n="estar"/>
 	<pattern-item n="ger"/>
@@ -9153,7 +9153,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
- <rule comment="REGLA: lo/la ESTAR pasar bien (lo están pasando bien) - regla lexicalizada antes de la correspondiente regla general 'PROCLÍTIC ESTAR GER'">
+ <rule id="75" comment="REGLA: lo/la ESTAR pasar bien (lo están pasando bien) - regla lexicalizada antes de la correspondiente regla general 'PROCLÍTIC ESTAR GER'">
       <pattern>
 	<pattern-item n="pro_lola"/>
 	<pattern-item n="estar"/>
@@ -9197,7 +9197,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
- <rule comment="REGLA: PROCL + lo/la + ESTAR + pasar bien (se lo están pasando bien) ">
+ <rule id="76" comment="REGLA: PROCL + lo/la + ESTAR + pasar bien (se lo están pasando bien) ">
       <pattern>
 	<pattern-item n="pro"/>
 	<pattern-item n="pro_lola"/>
@@ -9243,7 +9243,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
- <rule comment="REGLA: PROCLÍTIC ESTAR GER (els estan buscant) mireia falta els negatius i amb dos proclítics">
+ <rule id="77" comment="REGLA: PROCLÍTIC ESTAR GER (els estan buscant) mireia falta els negatius i amb dos proclítics">
       <pattern>
 	<pattern-item n="pro"/>
 	<pattern-item n="estar"/>
@@ -9420,7 +9420,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <!--**************************** SV precedits d'adverbi (negacions i altres) -->
 
- <rule comment="REGLA: ADV HAY (no había)">
+ <rule id="78" comment="REGLA: ADV HAY (no había)">
       <pattern>
 	<pattern-item n="adv"/>
 	<pattern-item n="hay"/>
@@ -9531,7 +9531,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="REGLA: ADV VERB conjugat (no volia)">
+    <rule id="79" comment="REGLA: ADV VERB conjugat (no volia)">
       <pattern>
 	<pattern-item n="adv"/>
 	<pattern-item n="verbcj"/>
@@ -9626,7 +9626,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="ADV HAVER + PP (no han vist - have  seen)">
+    <rule id="80" comment="ADV HAVER + PP (no han vist - have  seen)">
       <pattern>
 	<pattern-item n="adv"/> 
 	<pattern-item n="haver"/>
@@ -9834,7 +9834,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="ADV pro (lo/la) HAVER + PP(pasar bien) (no lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general">
+    <rule id="81" comment="ADV pro (lo/la) HAVER + PP(pasar bien) (no lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general">
       <pattern>
 	<pattern-item n="adv"/> 
 	<pattern-item n="pro_lola"/> 
@@ -9944,7 +9944,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
- <rule comment="ADV + pro + pro (lo/la) HAVER + PP(pasar bien) (no se lo han pasado bien)- regla lexicalizada antes de la correspondiente regla general">
+ <rule id="82" comment="ADV + pro + pro (lo/la) HAVER + PP(pasar bien) (no se lo han pasado bien)- regla lexicalizada antes de la correspondiente regla general">
       <pattern>
 	<pattern-item n="adv"/> 
 	<pattern-item n="pro"/> 
@@ -10056,7 +10056,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="ADV pro HAVER + PP (no els han vist - have not seen them)">
+    <rule id="83" comment="ADV pro HAVER + PP (no els han vist - have not seen them)">
       <pattern>
 	<pattern-item n="adv"/> 
 	<pattern-item n="pro"/> 
@@ -10412,7 +10412,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="PER + NO + INF (per no oblidar - not to forget">
+    <rule id="84" comment="PER + NO + INF (per no oblidar - not to forget">
       <pattern>
 	<pattern-item n="para"/> 
 	<pattern-item n="no"/> 
@@ -10467,7 +10467,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
- <rule comment="REGLA: ADV PROCLÍTIC VERB conjugat (no el veig) MG: aquí no he posat lo de 'no lo hubo' perquè és molt més freqüent que la següent paraula sigui desconeguda. només es mira si és 'hay'">
+ <rule id="85" comment="REGLA: ADV PROCLÍTIC VERB conjugat (no el veig) MG: aquí no he posat lo de 'no lo hubo' perquè és molt més freqüent que la següent paraula sigui desconeguda. només es mira si és 'hay'">
       <pattern>
 	<pattern-item n="adv"/>
 	<pattern-item n="pro"/>
@@ -10571,7 +10571,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
  </rule>
 
 
-    <rule comment="REGLA: ADV PROCLÍTIC (lo/la) pasar bien (no lo paso bien) - regla lexicalizada antes de la correspondiente regla general">
+    <rule id="86" comment="REGLA: ADV PROCLÍTIC (lo/la) pasar bien (no lo paso bien) - regla lexicalizada antes de la correspondiente regla general">
       <pattern>
 	<pattern-item n="adv"/>
 	<pattern-item n="pro_lola"/>
@@ -10650,7 +10650,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="REGLA: ADV PROCLÍTIC (lo/la) pasar bien (no lo paso bien) - regla lexicalizada antes de la correspondiente regla general">
+    <rule id="87" comment="REGLA: ADV PROCLÍTIC (lo/la) pasar bien (no lo paso bien) - regla lexicalizada antes de la correspondiente regla general">
       <pattern>
 	<pattern-item n="adv"/>
 	<pattern-item n="pro"/>
@@ -10730,7 +10730,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: ADV PROCLÍTIC VERB conjugat (no el veig)">
+    <rule id="88" comment="REGLA: ADV PROCLÍTIC VERB conjugat (no el veig)">
       <pattern>
 	<pattern-item n="adv"/>
 	<pattern-item n="pro"/>
@@ -11031,7 +11031,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="NO VERB + ENCL (no ajudar-me - not to help me) (posar-ho en gerundi en anglès?)">
+    <rule id="89" comment="NO VERB + ENCL (no ajudar-me - not to help me) (posar-ho en gerundi en anglès?)">
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="verbnm_inf_ger"/>
@@ -11175,7 +11175,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="NO VERB + ENCL + ENCL (no portar-me'ls - not to bring them to me)(en gerundi?)">
+    <rule id="90" comment="NO VERB + ENCL + ENCL (no portar-me'ls - not to bring them to me)(en gerundi?)">
       <pattern>
 	<pattern-item n="no"/> 
 	<pattern-item n="verbnm_inf_ger"/> 
@@ -11409,7 +11409,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="NO + VERBMOD + ENCL + INF (no poder-ho fer - not being able to do it)(aquí ho he posat en gerundi, en els altres casos d'infinitiu negat no, revisar)">
+    <rule id="91" comment="NO + VERBMOD + ENCL + INF (no poder-ho fer - not being able to do it)(aquí ho he posat en gerundi, en els altres casos d'infinitiu negat no, revisar)">
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="verbm_inf_ger"/>
@@ -11537,7 +11537,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="NO + VERBMOD + ENCL + ENCL + INF (no poder-los-ho explicar -> not being able to explain it to them)">
+    <rule id="92" comment="NO + VERBMOD + ENCL + ENCL + INF (no poder-los-ho explicar -> not being able to explain it to them)">
       <pattern>
 	<pattern-item n="no"/> 
 	<pattern-item n="verbm_inf_ger"/> 
@@ -11803,7 +11803,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="NO + VERBMOD + ENCL (per quan va davant desconegudes, perquè almenys no peti: no poder-ho xxx - not being able to it xxx)">
+    <rule id="93" comment="NO + VERBMOD + ENCL (per quan va davant desconegudes, perquè almenys no peti: no poder-ho xxx - not being able to it xxx)">
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="verbm_inf_ger"/>
@@ -11869,7 +11869,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="NO + VERBMOD + ENCL + ENCL (per quan va davant desconegudes, perquè almenys no peti: no poder-los-ho xxx - not being able to them it xxx)">
+    <rule id="94" comment="NO + VERBMOD + ENCL + ENCL (per quan va davant desconegudes, perquè almenys no peti: no poder-los-ho xxx - not being able to them it xxx)">
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="verbm_inf_ger"/>
@@ -11939,7 +11939,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: DE + INF // forma de jugar → way of playing">
+    <rule id="95" comment="REGLA: DE + INF // forma de jugar → way of playing">
       <pattern>
 	<pattern-item n="de"/>
 	<pattern-item n="inf"/> 
@@ -11999,7 +11999,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-    <rule comment="REGLA: NO + INF (no jugar - not playing)">
+    <rule id="96" comment="REGLA: NO + INF (no jugar - not playing)">
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="inf"/> 
@@ -12058,7 +12058,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: NO + GER (no fent - not doing)">
+    <rule id="97" comment="REGLA: NO + GER (no fent - not doing)">
       <pattern>
 	<pattern-item n="no"/> 
 	<pattern-item n="ger"/> 
@@ -12113,7 +12113,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
     
-    <rule comment="REGLA: PREP el NUM de MES de NUM (desde el 27 de diciembre de 2002- from 27 December 2002)">
+    <rule id="98" comment="REGLA: PREP el NUM de MES de NUM (desde el 27 de diciembre de 2002- from 27 December 2002)">
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="el"/>
@@ -12170,7 +12170,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: el NUM de MES de NUM  (el 27 de diciembre de 2002 - On 27 December 2002)">
+    <rule id="99" comment="REGLA: el NUM de MES de NUM  (el 27 de diciembre de 2002 - On 27 December 2002)">
       <pattern>
 	<pattern-item n="el"/>
 	<pattern-item n="num"/>
@@ -12225,7 +12225,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM de MES de NUM (27 de diciembre de 2002 - 27 December 2002)">
+    <rule id="100" comment="REGLA: NUM de MES de NUM (27 de diciembre de 2002 - 27 December 2002)">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="de"/>
@@ -12267,7 +12267,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: PREP el NUM de MES (desde el 27 de diciembre - from 27 December)">
+    <rule id="101" comment="REGLA: PREP el NUM de MES (desde el 27 de diciembre - from 27 December)">
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="el"/>
@@ -12314,7 +12314,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: el NUM de MES (el 27 de diciembre - On 27 December)">
+    <rule id="102" comment="REGLA: el NUM de MES (el 27 de diciembre - On 27 December)">
       <pattern>
 	<pattern-item n="el"/>
 	<pattern-item n="num"/>
@@ -12359,7 +12359,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM de MES (27 de diciembre - 27 December)">
+    <rule id="103" comment="REGLA: NUM de MES (27 de diciembre - 27 December)">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="de"/>
@@ -12393,7 +12393,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <!--************************************ ALTRES ************************************************ -->
 
-    <rule comment="ADV">
+    <rule id="104" comment="ADV">
       <pattern>
 	<pattern-item n="adv"/>
       </pattern>
@@ -12457,7 +12457,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-<rule comment="ADV ITG">
+<rule id="105" comment="ADV ITG">
       <pattern>
 	<pattern-item n="advitg"/>
       </pattern>
@@ -12479,7 +12479,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-<rule comment="PRONOM tònic/interrogatiu/possessiu"> 
+<rule id="106" comment="PRONOM tònic/interrogatiu/possessiu"> 
       <pattern>
 	<pattern-item n="tn_itg_pos"/>
       </pattern>
@@ -12509,7 +12509,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule comment="PRN personal">
+    <rule id="107" comment="PRN personal">
       <pattern>
 	<pattern-item n="prpers"/>
       </pattern>
@@ -12539,7 +12539,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
     
-  <rule comment="PREP PRN personal (amb ell = with him (prn obj))">
+  <rule id="108" comment="PREP PRN personal (amb ell = with him (prn obj))">
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="prpers_tn"/>
@@ -12604,7 +12604,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
     
 
-  <rule comment="PREP relatiu (amb el que)">
+  <rule id="109" comment="PREP relatiu (amb el que)">
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="el_que"/>
@@ -12647,7 +12647,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
     
 
- <rule comment="CNJ">
+ <rule id="110" comment="CNJ">
       <pattern>
 	<pattern-item n="cnj"/>
       </pattern>
@@ -12690,7 +12690,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
 
-<rule comment="por ello + sent">
+<rule id="111" comment="por ello + sent">
       <pattern>
 	<pattern-item n="porello"/>
 	<pattern-item n="sent"/>
@@ -12743,7 +12743,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 <!--
- <rule comment="de"> ahora queda incluida en la regla siguiente
+ <rule id="112" comment="de"> ahora queda incluida en la regla siguiente
       <pattern>
 	<pattern-item n="de"/>
       </pattern>
@@ -12765,7 +12765,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule> -->
 
 
-    <rule comment="PREP">
+    <rule id="113" comment="PREP">
       <pattern>
 	<pattern-item n="prep"/>
       </pattern>
@@ -12791,7 +12791,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-  <rule comment="REL"><!--a lo mejor habría que cambiar lema del chunk también para 'el que' y 'el cual', para luego aplicar la rgla del t2x de generación de sujeto tras ciertos relativos -->
+  <rule id="114" comment="REL"><!--a lo mejor habría que cambiar lema del chunk también para 'el que' y 'el cual', para luego aplicar la rgla del t2x de generación de sujeto tras ciertos relativos -->
       <pattern>
 	<pattern-item n="rel"/>
       </pattern>
@@ -12818,7 +12818,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-  <rule comment="PREADV">
+  <rule id="115" comment="PREADV">
       <pattern>
 	<pattern-item n="preadv"/>
       </pattern>
@@ -12841,7 +12841,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-<rule comment="REGLA: NP cognom">
+<rule id="116" comment="REGLA: NP cognom">
       <pattern>
 	<pattern-item n="cog"/>
       </pattern>
@@ -12866,7 +12866,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-<rule comment="REGLA: NP altres">
+<rule id="117" comment="REGLA: NP altres">
       <pattern>
 	<pattern-item n="al"/>
       </pattern>
@@ -12890,7 +12890,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </rule>
 
 
-<rule comment="REGLA: NUM">
+<rule id="118" comment="REGLA: NUM">
       <pattern>
 	<pattern-item n="num"/>
       </pattern>
@@ -12965,7 +12965,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </action>
     </rule>
     
-  <rule comment="REGLA: reset variables">
+  <rule id="119" comment="REGLA: reset variables">
       <pattern>
 	<pattern-item n="coma"/>
       </pattern>

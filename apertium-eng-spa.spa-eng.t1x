@@ -142,27 +142,27 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     </def-cat>
 
 
-    <def-cat n="verb_pronlex" c="verbos con pronombre lexicalizado">      
-      <cat-item lemma="pasar# bien" tags="vblex.*"/>    
+    <def-cat n="verb_pronlex" c="verbos con pronombre lexicalizado">
+      <cat-item lemma="pasar# bien" tags="vblex.*"/>
       <cat-item lemma="pasar# mal" tags="vblex.*"/>
     </def-cat>
 
-    <def-cat n="verb_pronlex_pp" c="verbos con pronombre lexicalizado">      
-      <cat-item lemma="pasar# bien" tags="vblex.pp.m.sg"/>    
+    <def-cat n="verb_pronlex_pp" c="verbos con pronombre lexicalizado">
+      <cat-item lemma="pasar# bien" tags="vblex.pp.m.sg"/>
       <cat-item lemma="pasar# mal" tags="vblex.pp.m.sg"/>
     </def-cat>
-    <def-cat n="verb_pronlex_infger" c="verbos con pronombre lexicalizado">      
-      <cat-item lemma="pasar# bien" tags="vblex.inf"/>     
-      <cat-item lemma="pasar# bien" tags="vblex.ger"/>    
-      <cat-item lemma="pasar# mal" tags="vblex.inf"/>     
+    <def-cat n="verb_pronlex_infger" c="verbos con pronombre lexicalizado">
+      <cat-item lemma="pasar# bien" tags="vblex.inf"/>
+      <cat-item lemma="pasar# bien" tags="vblex.ger"/>
+      <cat-item lemma="pasar# mal" tags="vblex.inf"/>
       <cat-item lemma="pasar# mal" tags="vblex.ger"/>
     </def-cat>
-    <def-cat n="verb_pronlex_imp" c="verbos con pronombre lexicalizado">      
-      <cat-item lemma="pasar# bien" tags="vblex.imp.*"/>     
-      <cat-item lemma="pasar# mal" tags="vblex.imp.*"/>    
+    <def-cat n="verb_pronlex_imp" c="verbos con pronombre lexicalizado">
+      <cat-item lemma="pasar# bien" tags="vblex.imp.*"/>
+      <cat-item lemma="pasar# mal" tags="vblex.imp.*"/>
     </def-cat>
-    <def-cat n="verb_pronlex_ger" c="verbos con pronombre lexicalizado">  
-      <cat-item lemma="pasar# bien" tags="vblex.ger"/> 
+    <def-cat n="verb_pronlex_ger" c="verbos con pronombre lexicalizado">
+      <cat-item lemma="pasar# bien" tags="vblex.ger"/>
       <cat-item lemma="pasar# mal" tags="vblex.ger"/>
     </def-cat>
 
@@ -423,17 +423,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <attr-item tags="acr"/>
     </def-attr>
 
-    <def-attr n="a_adj">          
+    <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.sint"/>
       <attr-item tags="adj.sint.comp"/>
       <attr-item tags="adj.sint.sup"/>
       <attr-item tags="adj.pos"/>
       <attr-item tags="vblex.pp"/>
-    </def-attr>  
+    </def-attr>
 
-    <def-attr n="grau">      
-      <attr-item tags="sup"/> 
+    <def-attr n="grau">
+      <attr-item tags="sup"/>
     </def-attr>
 
     <def-attr n="a_det">
@@ -528,7 +528,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <def-attr n="temps">
       <attr-item tags="cni"/>
-      <attr-item tags="fti"/>  
+      <attr-item tags="fti"/>
       <attr-item tags="ifi"/>
       <attr-item tags="imp"/>
       <attr-item tags="pii"/>
@@ -549,7 +549,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <def-attr n="neg">
       <attr-item tags="NEG"/>
-    </def-attr>  
+    </def-attr>
 
   </section-def-attrs>
   <section-def-vars>
@@ -562,7 +562,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <def-var n="concTercero"/>
     <def-var n="interrogativa"/>
     <def-var n="exclamativa"/>
-    <def-var n="caseFirstWord"/> 
+    <def-var n="caseFirstWord"/>
     <def-var n="caseSecondWord"/>
     <def-var n="lema"/>
     <def-var n="lema_SV"/>
@@ -726,7 +726,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <clip pos="1" side="tl" part="nbr"/>
 	  </let>
 	</otherwise>
-      </choose> 
+      </choose>
     </def-macro>
 
    
@@ -1366,10 +1366,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <choose>
 	    <when>
 	      <test>
-		<equal> 
+		<equal>
 		  <var n="EOS"/>
 		  <lit v="true"/>
-		</equal> 
+		</equal>
 	      </test>
 	      <choose>
 		<when>
@@ -1398,7 +1398,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<lit v="Aa"/>
 	      </let>
 	    </when>
-	    <otherwise> 
+	    <otherwise>
 	      <let>
 		<var n="caseFirstWord"/>
 		<lit v="aa"/>
@@ -1461,7 +1461,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<when>
 	  <test>
 	    <equal caseless="yes">
-	      <clip pos="2" side="sl" part="lem"/> 
+	      <clip pos="2" side="sl" part="lem"/>
 	      <lit v="poder"/>
 	    </equal>
 	  </test>
@@ -1512,11 +1512,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <test>
 	      <and>
 		<equal caseless="yes">
-		  <clip pos="1" side="sl" part="lem"/> 
+		  <clip pos="1" side="sl" part="lem"/>
 		  <lit v="más"/>
 		</equal>
 		<equal>
-		  <clip pos="2" side="tl" part="a_adj"/> 
+		  <clip pos="2" side="tl" part="a_adj"/>
 		  <lit-tag v="adj.sint"/>
 		</equal>
 	      </and>
@@ -1524,7 +1524,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <let>
 	      <var n="adv_adjectiu"/>
 		<concat>
-		  <clip pos="2" side="tl" part="lem"/> 
+		  <clip pos="2" side="tl" part="lem"/>
 		  <clip pos="2" side="tl" part="a_adj"/>
 		  <lit-tag v="comp"/>
 		</concat>
@@ -1534,17 +1534,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <test>
 	      <and>
 		<equal caseless="yes">
-		  <clip pos="1" side="sl" part="lem"/> 
+		  <clip pos="1" side="sl" part="lem"/>
 		  <lit v="mucho más"/>
 		</equal>
 		<equal>
-		  <clip pos="2" side="tl" part="a_adj"/> 
+		  <clip pos="2" side="tl" part="a_adj"/>
 		  <lit-tag v="adj.sint"/>
 		</equal>
 	      </and>
 	    </test>
 	    <let>	      
-	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="lem"/>
 	      <get-case-from pos="1">
 		<lit v="much"/>
 	      </get-case-from>
@@ -1552,9 +1552,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <let>
 	      <var n="adv_adjectiu"/>
 		<concat>
-		  <clip pos="1" side="tl" part="whole"/> 
+		  <clip pos="1" side="tl" part="whole"/>
 		  <lit v="$ ^"/>
-		  <clip pos="2" side="tl" part="lem"/> 
+		  <clip pos="2" side="tl" part="lem"/>
 		  <clip pos="2" side="tl" part="a_adj"/>
 		  <lit-tag v="comp"/>
 		</concat>
@@ -1581,9 +1581,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <get-case-from pos="1">
 		    <lit v="very"/>
 		  </get-case-from>
-		  <lit-tag v="preadv"/> 
+		  <lit-tag v="preadv"/>
 		  <lit v="$ ^"/>
-		  <clip pos="2" side="tl" part="lem"/> 
+		  <clip pos="2" side="tl" part="lem"/>
 		  <clip pos="2" side="tl" part="a_adj"/>
 		</concat>
 	    </let>
@@ -1592,10 +1592,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <let>
 	      <var n="adv_adjectiu"/>
 		<concat>
-		  <clip pos="1" side="tl" part="whole"/> 
+		  <clip pos="1" side="tl" part="whole"/>
 		  <lit v="$ ^"/>
 		  <var n="superlatiu1"/>
-		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_adj"/>
 		  <clip pos="2" side="tl" part="lemq"/>
 		</concat>
@@ -1614,11 +1614,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <test>
 	      <and>
 		<equal caseless="yes">
-		  <clip pos="2" side="sl" part="lem"/> 
+		  <clip pos="2" side="sl" part="lem"/>
 		  <lit v="más"/>
 		</equal>
 		<equal>
-		  <clip pos="3" side="tl" part="a_adj"/> 
+		  <clip pos="3" side="tl" part="a_adj"/>
 		  <lit-tag v="adj.sint"/>
 		</equal>
 	      </and>
@@ -1634,7 +1634,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<let>
 		  <var n="adv_adjectiu"/>
 		  <concat>
-		    <clip pos="3" side="tl" part="lem"/> 
+		    <clip pos="3" side="tl" part="lem"/>
 		    <clip pos="3" side="tl" part="a_adj"/>
 		    <lit-tag v="sup"/>
 		  </concat>
@@ -1644,7 +1644,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<let>
 		  <var n="adv_adjectiu"/>
 		  <concat>
-		    <clip pos="3" side="tl" part="lem"/> 
+		    <clip pos="3" side="tl" part="lem"/>
 		    <clip pos="3" side="tl" part="a_adj"/>
 		    <lit-tag v="comp"/>
 		  </concat>
@@ -1657,17 +1657,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <test>
 	      <and>
 		<equal caseless="yes">
-		  <clip pos="2" side="sl" part="lem"/> 
+		  <clip pos="2" side="sl" part="lem"/>
 		  <lit v="mucho más"/>
 		</equal>
 		<equal>
-		  <clip pos="3" side="tl" part="a_adj"/> 
+		  <clip pos="3" side="tl" part="a_adj"/>
 		  <lit-tag v="adj.sint"/>
 		</equal>
 	      </and>
 	    </test>
 	    <let>	      
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <get-case-from pos="2">
 		<lit v="much"/>
 	      </get-case-from>
@@ -1675,9 +1675,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <let>
 	      <var n="adv_adjectiu"/>
 		<concat>
-		  <clip pos="2" side="tl" part="whole"/> 
+		  <clip pos="2" side="tl" part="whole"/>
 		  <lit v="$ ^"/>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
 		  <lit-tag v="comp"/>
 		</concat>
@@ -1687,7 +1687,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <test>
 	      <and>
 		<equal caseless="yes">
-		  <clip pos="2" side="sl" part="lem"/> 
+		  <clip pos="2" side="sl" part="lem"/>
 		  <lit v="más"/>
 		</equal>
 		<equal>
@@ -1696,8 +1696,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</equal>
 	      </and>
 	    </test>	
-	    <let>  
-	      <clip pos="2" side="tl" part="lem"/> 
+	    <let>
+	      <clip pos="2" side="tl" part="lem"/>
 	      <get-case-from pos="2">
 		<lit v="most"/>
 	      </get-case-from>
@@ -1705,9 +1705,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <let>
 	      <var n="adv_adjectiu"/>
 		<concat>
-		  <clip pos="2" side="tl" part="whole"/> 
+		  <clip pos="2" side="tl" part="whole"/>
 		  <lit v="$ ^"/>
-		  <clip pos="3" side="tl" part="lemh"/> 
+		  <clip pos="3" side="tl" part="lemh"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
 		  <clip pos="3" side="tl" part="lemq"/>
 		</concat>
@@ -1734,9 +1734,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <get-case-from pos="2">
 		    <lit v="very"/>
 		  </get-case-from>
-		  <lit-tag v="preadv"/> 
+		  <lit-tag v="preadv"/>
 		  <lit v="$ ^"/>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
 		</concat>
 	    </let>
@@ -1745,10 +1745,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <let>
 	      <var n="adv_adjectiu"/>
 		<concat>
-		  <clip pos="2" side="tl" part="whole"/> 
+		  <clip pos="2" side="tl" part="whole"/>
 		  <lit v="$ ^"/>
 		  <var n="superlatiu1"/>
-		  <clip pos="3" side="tl" part="lemh"/> 
+		  <clip pos="3" side="tl" part="lemh"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
 		  <clip pos="3" side="tl" part="lemq"/>
 		</concat>
@@ -1790,8 +1790,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <lit-tag v="adj.sint.sup"/>
 	    </let>
 	  </when>
-	</choose> 
-</def-macro>     
+	</choose>
+</def-macro>
 		
 
 		
@@ -2025,7 +2025,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  </when>
 
 
-	  <when> 
+	  <when>
 	    <test><!--La resta de verbs tenen també prs i nbr per a p3 sg, excepte auxiliars (can). -->
 	      <and>
 		<equal>
@@ -2042,7 +2042,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</equal>
 		<not>
 		  <equal caseless="yes">
-		    <clip pos="2" side="sl" part="lem"/> 
+		    <clip pos="2" side="sl" part="lem"/>
 		    <lit v="poder"/>
 		  </equal>
 		</not>
@@ -2065,7 +2065,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<clip pos="2" side="tl" part="sep"/>
 		<clip pos="1" side="tl" part="temps"/>
 		<clip pos="1" side="tl" part="pers"/>
-		<clip pos="1" side="tl" part="nbr"/> 
+		<clip pos="1" side="tl" part="nbr"/>
 	      </concat>
 	    </let>
 
@@ -2073,7 +2073,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <otherwise><!--la resta de formes verbals no tenen pers i nbr en anglès -->
 	    <choose>
 	      <when>
-		<test> 
+		<test>
 		  <and>
 		    <equal>
 		      <clip pos="1" side="sl" part="temps"/>
@@ -2081,7 +2081,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </equal>
 		    <not>
 		      <equal caseless="yes">
-			<clip pos="1" side="sl" part="lem"/> 
+			<clip pos="1" side="sl" part="lem"/>
 			<lit v="poder"/>
 		      </equal>
 		    </not>
@@ -2113,7 +2113,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <lit v="$ ^"/>
 		      <clip pos="2" side="tl" part="lemh"/>
 		      <clip pos="1" side="tl" part="a_verb"/>
-		      <clip pos="1" side="tl" part="sep"/> 
+		      <clip pos="1" side="tl" part="sep"/>
 		      <clip pos="1" side="tl" part="temps"/>
 		  </concat>
 		</let>
@@ -2121,14 +2121,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 	      </when>
 	      <when>
-		<test> 
+		<test>
 		  <and>
 		    <equal>
 		      <clip pos="1" side="sl" part="temps"/>
 		      <lit-tag v="cni"/>
 		    </equal>
 		    <equal caseless="yes">
-		      <clip pos="2" side="sl" part="lem"/> 
+		      <clip pos="2" side="sl" part="lem"/>
 		      <lit v="poder"/>
 		    </equal>
 		  </and>
@@ -2179,7 +2179,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <when>
 		    <test>
 		      <equal caseless="yes">
-			<clip pos="2" side="sl" part="lem"/> 
+			<clip pos="2" side="sl" part="lem"/>
 			<lit v="poder"/>
 		      </equal>
 		    </test>
@@ -2211,7 +2211,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <lit v="$ ^"/>
 		      <clip pos="2" side="tl" part="lemh"/>
 		      <clip pos="2" side="tl" part="a_verb"/>
-		      <clip pos="2" side="tl" part="sep"/> 
+		      <clip pos="2" side="tl" part="sep"/>
 		      <clip pos="1" side="tl" part="temps"/>
 		  </concat>
 		</let>
@@ -2222,7 +2222,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<test>
 		  <or>
 		    <equal>
-		      <clip pos="1" side="sl" part="temps"/> 
+		      <clip pos="1" side="sl" part="temps"/>
 		      <lit-tag v="pri"/><!--dic -->
 		    </equal>
 		    <equal>
@@ -2457,7 +2457,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  </when>
 
 
-	  <when> 
+	  <when>
 	    <test><!--La resta de verbs tenen també prs i nbr per a p3 sg, excepte auxiliars (can). -->
 	      <and>
 		<equal>
@@ -2474,7 +2474,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</equal>
 		<not>
 		  <equal caseless="yes">
-		    <clip pos="1" side="sl" part="lem"/> 
+		    <clip pos="1" side="sl" part="lem"/>
 		    <lit v="poder"/>
 		  </equal>
 		</not>
@@ -2497,7 +2497,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<clip pos="1" side="tl" part="sep"/>
 		<clip pos="1" side="tl" part="temps"/>
 		<clip pos="1" side="tl" part="pers"/>
-		<clip pos="1" side="tl" part="nbr"/> 
+		<clip pos="1" side="tl" part="nbr"/>
 	      </concat>
 	    </let>
 
@@ -2505,7 +2505,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <otherwise><!--la resta de formes verbals no tenen pers i nbr en anglès -->
 	    <choose>
 	      <when>
-		<test> 
+		<test>
 		  <and>
 		    <equal>
 		      <clip pos="1" side="sl" part="temps"/>
@@ -2513,7 +2513,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </equal>
 		    <not>
 		      <equal caseless="yes">
-			<clip pos="1" side="sl" part="lem"/> 
+			<clip pos="1" side="sl" part="lem"/>
 			<lit v="poder"/>
 		      </equal>
 		    </not>
@@ -2545,7 +2545,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <lit v="$ ^"/>
 		      <clip pos="1" side="tl" part="lemh"/>
 		      <clip pos="1" side="tl" part="a_verb"/>
-		      <clip pos="1" side="tl" part="sep"/> 
+		      <clip pos="1" side="tl" part="sep"/>
 		      <clip pos="1" side="tl" part="temps"/>
 		  </concat>
 		</let>
@@ -2553,14 +2553,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 	      </when>
 	      <when>
-		<test> 
+		<test>
 		  <and>
 		    <equal>
 		      <clip pos="1" side="sl" part="temps"/>
 		      <lit-tag v="cni"/>
 		    </equal>
 		    <equal caseless="yes">
-		      <clip pos="1" side="sl" part="lem"/> 
+		      <clip pos="1" side="sl" part="lem"/>
 		      <lit v="poder"/>
 		    </equal>
 		  </and>
@@ -2611,7 +2611,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <when>
 		    <test>
 		      <equal caseless="yes">
-			<clip pos="1" side="sl" part="lem"/> 
+			<clip pos="1" side="sl" part="lem"/>
 			<lit v="poder"/>
 		      </equal>
 		    </test>
@@ -2643,7 +2643,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <lit v="$ ^"/>
 		      <clip pos="1" side="tl" part="lemh"/>
 		      <clip pos="1" side="tl" part="a_verb"/>
-		      <clip pos="1" side="tl" part="sep"/> 
+		      <clip pos="1" side="tl" part="sep"/>
 		      <clip pos="1" side="tl" part="temps"/>
 		  </concat>
 		</let>
@@ -2654,7 +2654,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<test>
 		  <or>
 		    <equal>
-		      <clip pos="1" side="sl" part="temps"/> 
+		      <clip pos="1" side="sl" part="temps"/>
 		      <lit-tag v="pri"/><!--dic -->
 		    </equal>
 		    <equal>
@@ -2801,8 +2801,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	   <clip pos="1" side="tl" part="lemh"/>
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
-	   <clip pos="1" side="tl" part="pers"/> 
-	   <lit-tag v="5"/> 
+	   <clip pos="1" side="tl" part="pers"/>
+	   <lit-tag v="5"/>
 	 </concat>
        </let>
      </when>
@@ -2987,7 +2987,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	   <clip pos="1" side="tl" part="lemh"/>
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
-	   <clip pos="1" side="tl" part="pers"/> 
+	   <clip pos="1" side="tl" part="pers"/>
 	   <lit-tag v="5"/>
 	 </concat>
        </let>
@@ -3036,7 +3036,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	   <clip pos="1" side="tl" part="lemh"/>
 	   <clip pos="1" side="tl" part="a_verb"/>
 	   <clip pos="1" side="tl" part="temps"/>
-	   <clip pos="1" side="tl" part="pers"/> 
+	   <clip pos="1" side="tl" part="pers"/>
 	   <lit-tag v="5"/>
 	 </concat>
        </let>
@@ -3131,9 +3131,217 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-  </section-def-macros> 
+  </section-def-macros>
 
   <section-rules>
+
+    <rule id="80" comment="ADV HAVER + PP (no han vist - have  seen)">
+      <pattern>
+	<pattern-item n="adv"/>
+	<pattern-item n="haver"/>
+	<pattern-item n="pp"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<lit v="no"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SVneg"/>
+	    </let>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	      <with-param pos="2"/>
+	    </call-macro>
+	    <let>
+		<var n="caseSecondWord"/>
+		<var n="caseFirstWord"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="SVnegatiu"/>
+	      <lit-tag v="SV"/>
+	    </let>
+	    <let>
+		<var n="caseSecondWord"/>
+		<case-of pos="2" side="sl" part="lem"/>
+	    </let>
+	    <choose>
+	      <when>
+		<test> <!--para hacerlo mejor, habría que poner el adverbio entre 'have' y 'pp' -->
+		  <in caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <list n="adv_intercalados"/>
+		  </in>
+		</test>
+		<let>
+		  <var n="lema"/>
+		  <lit v="adv-interc"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <var n="lema"/>
+		  <lit v="adv"/>
+		</let>
+	      </otherwise>
+	    </choose>	
+	    <out>
+	      <chunk namefrom="lema" case="caseFirstWord">
+		<tags>
+		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
+		</tags>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>		 
+	      </chunk>
+	      <b pos="1"/>
+	    </out>
+	  </otherwise>
+	</choose>
+	<choose>
+	  <when><!--Mira si és 'ha habido'  -->
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="3" side="sl" part="lem"/>		     
+		  <lit v="haber"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="pers"/>		     
+		  <lit-tag v="p3"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>		     
+		  <lit-tag v="sg"/>
+		</equal>
+	      </and>
+	    </test>
+	    <let>
+	      <clip pos="3" side="tl" part="lem"/>
+	      <get-case-from pos="3">
+		<lit v="be"/>
+	      </get-case-from>
+	    </let>
+	    <let>
+	      <clip pos="3" side="tl" part="a_verb"/>
+	      <lit-tag v="vbser"/>
+	    </let>
+	    <call-macro n="conj_haverhi_pp">
+	      <with-param pos="2"/>
+	    </call-macro>
+	    <out>
+	      <chunk namefrom="lema_SV"  case="caseSecondWord">
+		<tags>
+		  <tag><var n="SVnegatiu"/></tag>
+		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+		  <tag><var n="temps_chunk"/></tag>
+		  <tag><var n="pers_chunk"/></tag>
+		  <tag><var n="nbr_chunk"/></tag>
+		</tags>
+		<lu>
+		  <get-case-from pos="2">
+		    <lit v="there"/>
+		  </get-case-from>
+		  <lit-tag v="adv"/>
+		</lu>
+		<b pos="2"/>
+		<lu>
+		  <var n="verbfinal"/>
+		</lu>
+		<b/>
+		<lu>
+		  <clip pos="3" side="tl" part="lem"/>
+		  <clip pos="3" side="tl" part="a_pp"/>
+		</lu> 		  
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise><!--Si no és 'ha habido' -->
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="3" side="sl" part="lem"/>
+		<lit v="poder"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="3" side="tl" part="lem"/>
+	      <get-case-from pos="3">
+		<lit v="be able to"/>
+	      </get-case-from>
+	    </let>
+	    <let>
+	      <clip pos="3" side="tl" part="a_pp"/>
+	      <lit-tag v="vbmod.pp"/>
+	    </let>
+	  </when>
+	</choose>
+
+	<call-macro n="conj_verb1">
+	  <with-param pos="2"/>
+	</call-macro>
+	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
+	  <when>
+	    <test>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="temps"/>
+		  <lit-tag v="cni"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="temps"/>
+		  <lit-tag v="fti"/>
+		</equal>
+	      </or>
+	    </test>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="aux_haver_pp"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="lema_SV"/>
+	      <lit v="haver_pp"/>
+	    </let>
+	  </otherwise>
+	</choose>	
+	<out>
+	  <chunk namefrom="lema_SV" case="caseSecondWord">
+	    <tags>
+	      <tag><var n="SVnegatiu"/></tag>
+	      <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+	      <tag><var n="temps_chunk"/></tag>
+	      <tag><clip pos="2" side="tl" part="pers"/></tag>
+	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
+	    </tags>
+	    <lu>
+	      <var n="verbfinal"/>
+	    </lu>
+	    <b pos="2"/>
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
+	      <clip pos="3" side="tl" part="a_pp"/>
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
+	  </chunk>
+	</out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
 
 
 
@@ -3155,8 +3363,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="gen"/></tag><!--es manté per finalitats informatives -->
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_nom"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
 	      <clip pos="1" side="tl" part="lemq"/>
@@ -3181,20 +3389,20 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <tags>
 	      <tag><lit-tag v="adv"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <lit v="at"/>
 	      <lit-tag v="pr"/>
 	    </lu>
 	     <b pos="1"/>
-	   <lu>   
+	   <lu>
 	     <clip pos="3" side="tl" part="whole"/>
-	    </lu>  
+	    </lu>
 	  </chunk>
 	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
-	</call-macro>  
+	</call-macro>
       </action>
     </rule>
 
@@ -3213,7 +3421,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
@@ -3238,7 +3446,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <clip pos="2" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
@@ -3310,11 +3518,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
+	    <lu>
 	      <clip pos="2" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
@@ -3352,19 +3560,19 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>     
-	      <clip pos="4" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/>
 	      <clip pos="4" side="tl" part="a_nom"/>
 	      <clip pos="4" side="tl" part="gen"/>
 	      <clip pos="4" side="tl" part="nbr"/>
 	      <clip pos="4" side="tl" part="lemq"/>
 	    </lu>
-	    <lu>     
+	    <lu>
               <lit v="'s"/><lit-tag v="gen"/>
 	    </lu>
             <b pos="1"/>
-	    <lu>     
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
 	      <clip pos="2" side="tl" part="lemq"/>
@@ -3406,25 +3614,25 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	    </lu> 
+	    </lu>
 	    <b pos="1"/>
-	    <lu>     
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
 	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	    <b pos="2"/>
-	    <lu>     
-	      <clip pos="3" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="whole"/>
 	    </lu>
 	    <b pos="3"/>
-	    <lu>     
-	      <clip pos="4" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/>
 	      <clip pos="4" side="tl" part="a_nom"/>
 	      <clip pos="4" side="tl" part="nbr"/>
 	      <clip pos="4" side="tl" part="lemq"/>
@@ -3466,15 +3674,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>     
-	      <clip pos="4" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/>
 	      <clip pos="4" side="tl" part="a_nom"/>
               <lit-tag v="sg"/>
 	      <clip pos="4" side="tl" part="lemq"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>     
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
 	      <clip pos="2" side="tl" part="lemq"/>
@@ -3487,7 +3695,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
 
 
-    <rule id="9" comment="REGLA: DET NOM de NOM // una memoria de traducción → a translation memory"> 
+    <rule id="9" comment="REGLA: DET NOM de NOM // una memoria de traducción → a translation memory">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3516,21 +3724,21 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	    </lu> 
+	    </lu>
 	    <b pos="1"/>
-	    <lu>     
-	      <clip pos="4" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/>
 	      <clip pos="4" side="tl" part="a_nom"/>
               <lit-tag v="sg"/>
 	      <clip pos="4" side="tl" part="lemq"/>
 	    </lu>
 	    <b pos="2"/>
-	    <lu>     
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
 	      <clip pos="2" side="tl" part="lemq"/>
@@ -3570,14 +3778,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	    </lu> 
+	    </lu>
 	    <b pos="1"/>
-	    <lu>     
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
 	      <clip pos="2" side="tl" part="lemq"/>
@@ -3614,8 +3822,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>     
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
 	      <clip pos="2" side="tl" part="lemq"/>
@@ -3642,46 +3850,46 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>
-      <choose>   
-          <when>     
-            <test>   
+      <choose>
+          <when>
+            <test>
               <equal>
                 <clip pos="2" side="sl" part="lem"/>
                 <lit v="año"/>
               </equal>
-            </test>          
-           <let>             
+            </test>
+           <let>
              <var n="lema"/>
              <lit v="num_year"/>
            </let>
           </when>
-          <otherwise>        
-           <let>             
+          <otherwise>
+           <let>
              <var n="lema"/>
              <lit v="num_nom"/>
            </let>
           </otherwise>
         </choose>
-	<out>  
+	<out>
 	  <chunk namefrom="lema" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="tags"/>
-	    </lu> 
+	    </lu>
 	    <b pos="1"/>
-	    <lu>     
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
 	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -3699,28 +3907,28 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="3"/>
 	  <with-param pos="2"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="hace_num_nom" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="adv"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="2" side="tl" part="whole"/> 
-	    </lu> 
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
+	    </lu>
 	    <b pos="1"/>
-	    <lu>     
-	      <clip pos="3" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
 	      <clip pos="3" side="tl" part="a_nom"/>
 	      <clip pos="3" side="tl" part="nbr"/>
 	      <clip pos="3" side="tl" part="lemq"/>
 	    </lu>
 	    <b pos="2"/>
-	   <lu>   
-	      <lit v="ago"/> 
+	   <lu>
+	      <lit v="ago"/>
 	      <lit-tag v="adv"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -3740,27 +3948,27 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
 	</call-macro>	
-	<out> 
+	<out>
 	  <chunk name="nom_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="1"/>
-	    <lu>       
-	      <clip pos="1" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_nom"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="1" side="tl" part="lemq"/>  
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule>
 
@@ -3785,33 +3993,33 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
 	</call-macro>	
-	<out> 
+	<out>
 	  <chunk name="nom_adj_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu2"/>
-	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="lem"/>
 	      <clip pos="3" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="1"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="2"/>
-	    <lu>       
-	      <clip pos="1" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_nom"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="1" side="tl" part="lemq"/>  
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>     
+	</out>
       </action>
     </rule>
     
@@ -3842,33 +4050,33 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="det_nom_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="lem"/>
 	      <clip pos="3" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="2"/>
-	    <lu>       
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="2" side="tl" part="lemq"/>  
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>     
+	</out>
       </action>
     </rule>
 
@@ -3903,39 +4111,39 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="2"/>
 	  <with-param pos="4"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="det_det_nom_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="3" side="sl" part="gen"/></tag>
 	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
-	      <clip pos="2" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="a_det"/>
 	      <clip pos="2" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="2"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="4" side="tl" part="lem"/> 
+	      <clip pos="4" side="tl" part="lem"/>
 	      <clip pos="4" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="3"/>
-	    <lu>       
-	      <clip pos="3" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
 	      <clip pos="3" side="tl" part="a_nom"/>
 	      <clip pos="3" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="3" side="tl" part="lemq"/>  
+	      <clip pos="3" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>     
+	</out>
       </action>
     </rule>
 
@@ -3985,33 +4193,33 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </let>
 	  </when>
 	</choose>	      
-	<out>  
+	<out>
 	  <chunk name="det_det_nom" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="3" side="sl" part="gen"/></tag>
 	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
-	      <clip pos="2" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="a_det"/>
 	      <clip pos="2" side="tl" part="nbr"/>
-	    </lu> 
+	    </lu>
 	    <b pos="2"/>
-	    <lu>       
-	      <clip pos="3" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
 	      <clip pos="3" side="tl" part="a_nom"/>
 	      <clip pos="3" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="3" side="tl" part="lemq"/>  
+	      <clip pos="3" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule> -->
 
@@ -4044,33 +4252,33 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="det_adj_nom" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="3" side="sl" part="gen"/></tag>
 	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="2"/>
-	    <lu>       
-	      <clip pos="3" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
 	      <clip pos="3" side="tl" part="a_nom"/>
 	      <clip pos="3" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="3" side="tl" part="lemq"/>  
+	      <clip pos="3" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule>
 
@@ -4110,39 +4318,39 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="det_det_adj_nom" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="4" side="sl" part="gen"/></tag>
 	      <tag><clip pos="4" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
-	      <clip pos="2" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="a_det"/>
 	      <clip pos="2" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="2"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="lem"/>
 	      <clip pos="3" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="3"/>
-	    <lu>       
-	      <clip pos="4" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="4" side="tl" part="lemh"/>
 	      <clip pos="4" side="tl" part="a_nom"/>
 	      <clip pos="4" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="4" side="tl" part="lemq"/>  
+	      <clip pos="4" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule> -->
 
@@ -4181,39 +4389,39 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="det_adj_adj_nom" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="3" side="sl" part="gen"/></tag>
 	      <tag><clip pos="3" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="2"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu2"/>
-	      <clip pos="4" side="tl" part="lem"/> 
+	      <clip pos="4" side="tl" part="lem"/>
 	      <clip pos="4" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="3"/>
-	    <lu>       
-	      <clip pos="3" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="lemh"/>
 	      <clip pos="3" side="tl" part="a_nom"/>
 	      <clip pos="3" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="3" side="tl" part="lemq"/>  
+	      <clip pos="3" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule>
 
@@ -4248,39 +4456,39 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="det_adj_adj_nom" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu2"/>
-	      <clip pos="4" side="tl" part="lem"/> 
+	      <clip pos="4" side="tl" part="lem"/>
 	      <clip pos="4" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="2"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="lem"/>
 	      <clip pos="3" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="3"/>
-	    <lu>       
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="2" side="tl" part="lemq"/>  
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule>
 
@@ -4302,32 +4510,32 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="num_nom_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="tags"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="lem"/>
 	      <clip pos="3" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	    <b pos="2"/>
-	    <lu>       
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="2" side="tl" part="lemq"/>  
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule>
 
@@ -4363,15 +4571,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="det_nom_adv_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
@@ -4380,18 +4588,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <var n="adv_adjectiu"/>
 	    </lu>
 	    <b pos="2"/>
-	    <lu>         
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="2" side="tl" part="lemq"/> 
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out> 
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="3"/>
 	  <with-param pos="4"/>
-	</call-macro>    
+	</call-macro>
       </action>
     </rule>
 
@@ -4421,15 +4629,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="num_nom_adv_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="tags"/>
 	    </lu>
 	    <b pos="1"/>
@@ -4437,18 +4645,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <var n="adv_adjectiu"/>
 	    </lu>
 	    <b pos="2"/>
-	    <lu>         
-	      <clip pos="2" side="tl" part="lemh"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_nom"/>
 	      <clip pos="2" side="tl" part="nbr" link-to="3"/>
-	      <clip pos="2" side="tl" part="lemq"/> 
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>   
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="3"/>
 	  <with-param pos="4"/>
-	</call-macro> 
+	</call-macro>
       </action>
     </rule>
 
@@ -4505,34 +4713,34 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="1" side="sl" part="gen"/></tag>
 		  <tag><clip pos="1" side="tl" part="nbr"/></tag>
 		</tags>
-		<lu>   
+		<lu>
 		  <var n="superlatiu1"/>
-		  <clip pos="2" side="tl" part="lem"/> 
+		  <clip pos="2" side="tl" part="lem"/>
 		  <clip pos="2" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="1"/>
 		<lu>
-		  <clip pos="1" side="tl" part="lemh"/> 
+		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_nom"/>
 		  <clip pos="1" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="1" side="tl" part="lemq"/>  
+		  <clip pos="1" side="tl" part="lemq"/>
 		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="3" side="tl" part="whole"/> 
+		  <clip pos="3" side="tl" part="whole"/>
 		</lu>
 		<b pos="3"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu2"/>
-		  <clip pos="4" side="tl" part="lem"/> 
+		  <clip pos="4" side="tl" part="lem"/>
 		  <clip pos="4" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="4"/>
 		<lu>
-		  <clip pos="5" side="tl" part="lemh"/> 
+		  <clip pos="5" side="tl" part="lemh"/>
 		  <clip pos="5" side="tl" part="a_nom"/>
 		  <clip pos="5" side="tl" part="nbr"/>
-		  <clip pos="5" side="tl" part="lemq"/>  
+		  <clip pos="5" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -4543,34 +4751,34 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <with-param pos="2"/>
 	      <with-param pos="4"/>
 	    </call-macro>
-	    <out> 
+	    <out>
 	      <chunk name="nom_adj_coo_adj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SN"/></tag>
 		  <tag><clip pos="1" side="sl" part="gen"/></tag>
 		  <tag><clip pos="1" side="tl" part="nbr"/></tag>
 		</tags>
-		<lu>   
+		<lu>
 		  <var n="superlatiu1"/>
-		  <clip pos="2" side="tl" part="lem"/> 
+		  <clip pos="2" side="tl" part="lem"/>
 		  <clip pos="2" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="1"/>
 		<lu>
-		  <clip pos="3" side="tl" part="whole"/> 
+		  <clip pos="3" side="tl" part="whole"/>
 		</lu>
 		<b pos="2"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu2"/>
-		  <clip pos="4" side="tl" part="lem"/> 
+		  <clip pos="4" side="tl" part="lem"/>
 		  <clip pos="4" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="3"/>
-		<lu>       
-		  <clip pos="1" side="tl" part="lemh"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_nom"/>
 		  <clip pos="1" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="1" side="tl" part="lemq"/>  
+		  <clip pos="1" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>	      
 	      <b pos="4"/>
@@ -4583,15 +4791,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="5" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <clip pos="5" side="tl" part="lemh"/> 
+		  <clip pos="5" side="tl" part="lemh"/>
 		  <clip pos="5" side="tl" part="a_nom"/>
 		  <clip pos="5" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="5" side="tl" part="lemq"/>  
+		  <clip pos="5" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>
-	</choose> 
+	</choose>
       </action>
     </rule>
 
@@ -4631,34 +4839,34 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</equal>
 	      </and>
 	    </test> -->
-	    <out> 
+	    <out>
 	      <chunk name="nom_adj_coo_adj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SN"/></tag>
 		  <tag><clip pos="1" side="sl" part="gen"/></tag>
 		  <tag><clip pos="1" side="tl" part="nbr"/></tag>
 		</tags>
-		<lu>   
+		<lu>
 		  <var n="superlatiu1"/>
-		  <clip pos="2" side="tl" part="lem"/> 
+		  <clip pos="2" side="tl" part="lem"/>
 		  <clip pos="2" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="1"/>
 		<lu>
-		  <clip pos="3" side="tl" part="whole"/> 
+		  <clip pos="3" side="tl" part="whole"/>
 		</lu>
 		<b pos="2"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu2"/>
-		  <clip pos="4" side="tl" part="lem"/> 
+		  <clip pos="4" side="tl" part="lem"/>
 		  <clip pos="4" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="3"/>
-		<lu>       
-		  <clip pos="1" side="tl" part="lemh"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_nom"/>
 		  <clip pos="1" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="1" side="tl" part="lemq"/>  
+		  <clip pos="1" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -4671,16 +4879,16 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="1" side="sl" part="gen"/></tag>
 		  <tag><var n="nombre"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="2" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="2" side="tl" part="lem"/>
 		  <clip pos="2" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="1"/>
-		<lu>       
-		  <clip pos="1" side="tl" part="lemh"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_nom"/>
 		  <clip pos="1" side="tl" part="nbr"/>
-		  <clip pos="1" side="tl" part="lemq"/>  
+		  <clip pos="1" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>	       
 	      <b pos="2"/>
@@ -4691,22 +4899,22 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="4" side="sl" part="nbr"/></tag>
 		</tags>		 
 		<lu>
-		  <clip pos="3" side="tl" part="whole"/> 
+		  <clip pos="3" side="tl" part="whole"/>
 		</lu>
 		<b pos="3"/>
-		<lu>   
-		  <clip pos="4" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="4" side="tl" part="lem"/>
 		  <clip pos="4" side="tl" part="a_adj"/>
 		</lu>
 	      </chunk>
 	    </out>	 
 	  </otherwise>
-	</choose>      --> 
+	</choose>      -->
       </action>
     </rule>
 
 
-    <rule id="28" comment="REGLA: DET NOM ADJ conj ADJ NOM (un aspecte fràgil i tímida aparença -> a fragile look and shy appearance. Regla creada perquè no entrin frases que no toquen en la regla següent)"> 
+    <rule id="28" comment="REGLA: DET NOM ADJ conj ADJ NOM (un aspecte fràgil i tímida aparença -> a fragile look and shy appearance. Regla creada perquè no entrin frases que no toquen en la regla següent)">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -4767,40 +4975,40 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><var n="nombre"/></tag>
 		</tags>
 
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="1" side="tl" part="nbr"/>
 		</lu>
 		<b pos="1"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu1"/>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_nom"/>
 		  <clip pos="2" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="2" side="tl" part="lemq"/>  
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 		<b pos="3"/>
 		<lu>
-		  <clip pos="4" side="tl" part="whole"/> 
+		  <clip pos="4" side="tl" part="whole"/>
 		</lu>
 		<b pos="4"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu2"/>
-		  <clip pos="5" side="tl" part="lem"/> 
+		  <clip pos="5" side="tl" part="lem"/>
 		  <clip pos="5" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="5"/>
 		<lu>
-		  <clip pos="6" side="tl" part="lemh"/> 
+		  <clip pos="6" side="tl" part="lemh"/>
 		  <clip pos="6" side="tl" part="a_nom"/>
 		  <clip pos="6" side="tl" part="nbr"/>
-		  <clip pos="6" side="tl" part="lemq"/>  
+		  <clip pos="6" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -4812,40 +5020,40 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <with-param pos="3"/>
 	      <with-param pos="5"/>
 	    </call-macro>
-	    <out> 
+	    <out>
 	      <chunk name="det_nom_adj_coo_adj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SN"/></tag>
 		  <tag><clip pos="2" side="sl" part="gen"/></tag>
 		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="1" side="tl" part="nbr"/>
 		</lu>
 		<b pos="1"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu1"/>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="4" side="tl" part="whole"/> 
+		  <clip pos="4" side="tl" part="whole"/>
 		</lu>
 		<b pos="3"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu2"/>
-		  <clip pos="5" side="tl" part="lem"/> 
+		  <clip pos="5" side="tl" part="lem"/>
 		  <clip pos="5" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="4"/>
-		<lu>       
-		  <clip pos="2" side="tl" part="lemh"/> 
+		<lu>
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_nom"/>
 		  <clip pos="2" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="2" side="tl" part="lemq"/>  
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	      <b pos="5"/>
@@ -4858,15 +5066,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="6" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <clip pos="6" side="tl" part="lemh"/> 
+		  <clip pos="6" side="tl" part="lemh"/>
 		  <clip pos="6" side="tl" part="a_nom"/>
 		  <clip pos="6" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="6" side="tl" part="lemq"/>  
+		  <clip pos="6" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>
-	</choose>     
+	</choose>
       </action>
     </rule>
 
@@ -4915,40 +5123,40 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</equal>
 	      </and>		
 	    </test> -->
-	    <out> 
+	    <out>
 	      <chunk name="det_nom_adj_coo_adj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SN"/></tag>
 		  <tag><clip pos="2" side="sl" part="gen"/></tag>
 		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="1" side="tl" part="nbr"/>
 		</lu>
 		<b pos="1"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu1"/>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="4" side="tl" part="whole"/> 
+		  <clip pos="4" side="tl" part="whole"/>
 		</lu>
 		<b pos="3"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu2"/>
-		  <clip pos="5" side="tl" part="lem"/> 
+		  <clip pos="5" side="tl" part="lem"/>
 		  <clip pos="5" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="4"/>
-		<lu>       
-		  <clip pos="2" side="tl" part="lemh"/> 
+		<lu>
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_nom"/>
 		  <clip pos="2" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="2" side="tl" part="lemq"/>  
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -4961,22 +5169,22 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="sl" part="gen"/></tag>
 		  <tag><var n="nombre"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="2" side="tl" part="nbr"/>
 		</lu>
 		<b pos="1"/>
-		<lu>   
-		  <clip pos="3" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_nom"/>
 		  <clip pos="2" side="tl" part="nbr"/>
-		  <clip pos="2" side="tl" part="lemq"/>  
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>	       
 	      <b pos="3"/>
@@ -4987,17 +5195,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="5" side="sl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <clip pos="4" side="tl" part="whole"/> 
+		  <clip pos="4" side="tl" part="whole"/>
 		</lu>
 		<b pos="4"/>
-		<lu>   
-		  <clip pos="5" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="5" side="tl" part="lem"/>
 		  <clip pos="5" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>
-	</choose>     --> 
+	</choose>     -->
       </action>
     </rule>
 
@@ -5048,44 +5256,44 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</equal>
 	      </and>		
 	    </test> -->
-	    <out> 
+	    <out>
 	      <chunk name="det_nom_adv_adj_coo_adj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SN"/></tag>
 		  <tag><clip pos="2" side="sl" part="gen"/></tag>
 		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="1" side="tl" part="nbr"/>
 		</lu>
 		<b pos="1"/>
 		<lu>
-		  <clip pos="3" side="tl" part="whole"/> 
-		</lu> 
+		  <clip pos="3" side="tl" part="whole"/>
+		</lu>
                 <b pos="2"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu1"/>
-		  <clip pos="4" side="tl" part="lem"/> 
+		  <clip pos="4" side="tl" part="lem"/>
 		  <clip pos="4	" side="tl" part="a_adj"/>
 		</lu>
                 <b pos="3"/>
 		<lu>
-		  <clip pos="5" side="tl" part="whole"/> 
+		  <clip pos="5" side="tl" part="whole"/>
 		</lu>
 		<b pos="4"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu2"/>
-		  <clip pos="6" side="tl" part="lem"/> 
+		  <clip pos="6" side="tl" part="lem"/>
 		  <clip pos="6" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="5"/>
-		<lu>       
-		  <clip pos="2" side="tl" part="lemh"/> 
+		<lu>
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_nom"/>
 		  <clip pos="2" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="2" side="tl" part="lemq"/>  
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -5098,22 +5306,22 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="sl" part="gen"/></tag>
 		  <tag><var n="nombre"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="2" side="tl" part="nbr"/>
 		</lu>
 		<b pos="1"/>
-		<lu>   
-		  <clip pos="3" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_nom"/>
 		  <clip pos="2" side="tl" part="nbr"/>
-		  <clip pos="2" side="tl" part="lemq"/>  
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>	       
 	      <b pos="3"/>
@@ -5124,17 +5332,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="5" side="sl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <clip pos="4" side="tl" part="whole"/> 
+		  <clip pos="4" side="tl" part="whole"/>
 		</lu>
 		<b pos="4"/>
-		<lu>   
-		  <clip pos="5" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="5" side="tl" part="lem"/>
 		  <clip pos="5" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>
-	</choose>     --> 
+	</choose>     -->
       </action>
     </rule>
 
@@ -5184,44 +5392,44 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</equal>
 	      </and>		
 	    </test> -->
-	    <out> 
+	    <out>
 	      <chunk name="det_nom_adj_coo_adv_adj" case="caseFirstWord">
 		<tags>
 		  <tag><lit-tag v="SN"/></tag>
 		  <tag><clip pos="2" side="sl" part="gen"/></tag>
 		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="1" side="tl" part="nbr"/>
 		</lu>
 		<b pos="1"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu1"/>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
 		</lu>
                 <b pos="2"/>
 		<lu>
-		  <clip pos="4" side="tl" part="whole"/> 
+		  <clip pos="4" side="tl" part="whole"/>
 		</lu>
                 <b pos="3"/>
 		<lu>
-		  <clip pos="5" side="tl" part="whole"/> 
+		  <clip pos="5" side="tl" part="whole"/>
 		</lu>
 		<b pos="4"/>
-		<lu>   
+		<lu>
 		  <var n="superlatiu2"/>
-		  <clip pos="6" side="tl" part="lem"/> 
+		  <clip pos="6" side="tl" part="lem"/>
 		  <clip pos="6" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="5"/>
-		<lu>       
-		  <clip pos="2" side="tl" part="lemh"/> 
+		<lu>
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_nom"/>
 		  <clip pos="2" side="tl" part="nbr" link-to="3"/>
-		  <clip pos="2" side="tl" part="lemq"/>  
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -5234,22 +5442,22 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="sl" part="gen"/></tag>
 		  <tag><var n="nombre"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="2" side="tl" part="nbr"/>
 		</lu>
 		<b pos="1"/>
-		<lu>   
-		  <clip pos="3" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_nom"/>
 		  <clip pos="2" side="tl" part="nbr"/>
-		  <clip pos="2" side="tl" part="lemq"/>  
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>	       
 	      <b pos="3"/>
@@ -5260,17 +5468,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="5" side="sl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <clip pos="4" side="tl" part="whole"/> 
+		  <clip pos="4" side="tl" part="whole"/>
 		</lu>
 		<b pos="4"/>
-		<lu>   
-		  <clip pos="5" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="5" side="tl" part="lem"/>
 		  <clip pos="5" side="tl" part="a_adj"/>
-		</lu> 
+		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>
-	</choose>     --> 
+	</choose>     -->
       </action>
     </rule>
 
@@ -5279,7 +5487,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <pattern>
 	<pattern-item n="adj"/>
       </pattern>
-      <action> 
+      <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -5293,15 +5501,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="sl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
-    </rule> 
+    </rule>
 
 
     <rule id="33" comment="REGLA: ADV ADJECTIU (per a fer comparatius i superlatius: 'més llarg - longer')">
@@ -5327,7 +5535,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="sl" part="gen"/></tag>
 		  <tag><clip pos="2" side="sl" part="nbr"/></tag>
 		</tags>
-		<lu> 
+		<lu>
 		  <var n="adv_adjectiu"/>
 		</lu>
 	      </chunk>
@@ -5337,7 +5545,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <with-param pos="2"/>
 	    </call-macro>
       </action>
-    </rule> 
+    </rule>
 
 
  <rule id="34" comment="REGLA: DET ADJECTIU (el lleig / el millor) ">
@@ -5389,17 +5597,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
 	    </lu>
 	    <b pos="1"/>
-	    <lu>   
+	    <lu>
 	      <var n="superlatiu1"/>
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="a_adj"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
 	</out>
 	<call-macro n="f_bcond">
@@ -5407,7 +5615,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="2"/>
 	</call-macro>
       </action>
-    </rule> 
+    </rule>
 
 
 
@@ -5426,14 +5634,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when><!--trampeta per quan el 'més' no és adv sinó determinant, per a arreglar-ho. -->
 	    <test>
 	      <equal>
-		<clip pos="2" side="sl" part="a_adv"/> 
+		<clip pos="2" side="sl" part="a_adv"/>
 		<lit v=""/>
 	      </equal>
 	    </test>
 	    <let>	      
-	      <clip pos="2" side="tl" part="whole"/> 
+	      <clip pos="2" side="tl" part="whole"/>
 	      <concat>
-		<clip pos="2" side="tl" part="lem"/> 
+		<clip pos="2" side="tl" part="lem"/>
 		<lit-tag v="adv"/>
 	      </concat>
 	    </let>
@@ -5477,11 +5685,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <test>
 	      <and>
 		<equal caseless="yes">
-		  <clip pos="1" side="sl" part="lem"/> 
+		  <clip pos="1" side="sl" part="lem"/>
 		  <lit v="más"/>
 		</equal>
 		<equal>
-		  <clip pos="2" side="tl" part="a_adj"/> 
+		  <clip pos="2" side="tl" part="a_adj"/>
 		  <lit-tag v="adj.sint"/>
 		</equal>
 	      </and>
@@ -5493,13 +5701,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="3" side="sl" part="gen"/></tag>
 		  <tag><clip pos="1" side="tl" part="nbr"/></tag>
 		</tags>
-		<lu>   
-		  <clip pos="1" side="tl" part="lem"/> 
+		<lu>
+		  <clip pos="1" side="tl" part="lem"/>
 		  <clip pos="1" side="tl" part="a_det"/>
 		  <clip pos="1" side="tl" part="nbr" link-to="3"/>
 		</lu>
 		<b pos="1"/>
-		<lu> 
+		<lu>
 		  <var n="adv_adjectiu"/>
 		</lu>
 	      </chunk>
@@ -5509,7 +5717,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <with-param pos="3"/>
 	    </call-macro>
       </action>
-    </rule> 
+    </rule>
 
 
     <rule id="36" comment="REGLA: DETERMINANT (perquè no doni error si va davant de desconegudes i no es pot assignar nombre. MG: falta regla t2x per al ND)">
@@ -5520,20 +5728,20 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="det" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="DET"/></tag>
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_det"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -5555,11 +5763,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="sl" part="nbr"/></tag>
 	    </tags>
-	    <lu> 
-	      <clip pos="2" side="tl" part="whole"/>   
+	    <lu>
+	      <clip pos="2" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out> 
+	</out>
       </action>
 </rule>
 
@@ -5584,7 +5792,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </let>
 	    <call-macro n="conj_haverhi">
 	      <with-param pos="1"/>
-	    </call-macro> 
+	    </call-macro>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>
@@ -5596,13 +5804,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</tags>
 		<lu>
 		 <!-- <get-case-from pos="1">-->
-		    <lit v="there"/> 
+		    <lit v="there"/>
 		 <!-- </get-case-from>-->
 		  <lit-tag v="adv"/>
 		</lu>
 		<b/>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>		  
 	      </chunk>
 	    </out>
@@ -5631,19 +5839,19 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><lit-tag  v="nt"/></tag>
 		  <tag><lit-tag  v="sg"/></tag>
 		</tags>
-		<lu>   
+		<lu>
 		  <get-case-from pos="1">
-		    <lit v="prpers"/> 
+		    <lit v="prpers"/>
 		  </get-case-from>
-		  <lit-tag v="prn"/>  
-		  <lit-tag v="2"/> 
+		  <lit-tag v="prn"/>
+		  <lit-tag v="2"/>
 		  <lit-tag v="p3"/>
 		  <lit-tag v="nt"/>
 		  <lit-tag v="sg"/>
-		</lu> 
+		</lu>
 	      </chunk>
 	      <b/>
-	    </out> 
+	    </out>
 	    <let>
 		<var n="caseFirstWord"/>
 		<lit v="aa"/>
@@ -5661,8 +5869,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
 	    <lu>
-	      <var n="verbfinal"/> 
-	      <clip pos="1" side="tl" part="lemq"/> 
+	      <var n="verbfinal"/>
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
 	</out>
@@ -5690,18 +5898,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
                       <lit v="tener"/>
                     </equal>
                 </test>
-                <let>  
+                <let>
                   <var n="lema_SV"/>
                   <lit v="tohavevblex"/>
                 </let>
-              </when> 
+              </when>
               <otherwise>
                 <let>
                   <var n="lema_SV"/>
                   <var n="lema_SV"/>
                 </let>
                </otherwise>
-             </choose>  
+             </choose>
 	<out>
 	  <chunk namefrom="lema_SV" case="caseFirstWord">
 	    <tags>
@@ -5712,8 +5920,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
 	    <lu>
-	      <var n="verbfinal"/> 
-	      <clip pos="1" side="tl" part="lemq"/> 
+	      <var n="verbfinal"/>
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
 	</out>
@@ -5730,7 +5938,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro> 
+	</call-macro>
 	<call-macro n="conj_verb2">
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
@@ -5768,14 +5976,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <rule id="42" comment="HAVER + LLEGADO + A + INF (ha arribat a dir - has even said)">
       <pattern>
 	<pattern-item n="haver"/>
-	<pattern-item n="llegado"/> 
-	<pattern-item n="a"/> 
-	<pattern-item n="inf"/> 
+	<pattern-item n="llegado"/>
+	<pattern-item n="a"/>
+	<pattern-item n="inf"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro> 
+	</call-macro>
 	<call-macro n="conj_verb1">
 	  <with-param pos="1"/>
 	</call-macro>
@@ -5834,11 +6042,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<b pos="1"/>
                 <var n="modAdv"/>
 		<lu>
-		  <clip pos="4" side="tl" part="lemh"/> 
+		  <clip pos="4" side="tl" part="lemh"/>
 		  <clip pos="4" side="tl" part="a_verb"/>
                   <lit-tag v="pp"/>
-		  <clip pos="4" side="tl" part="lemq"/>    
-		</lu> 
+		  <clip pos="4" side="tl" part="lemq"/>
+		</lu>
 	      </chunk>
 	    </out>
       </action>
@@ -5848,12 +6056,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <rule id="43" comment="HAVER + PP (han vist - have seen)">
       <pattern>
 	<pattern-item n="haver"/>
-	<pattern-item n="pp"/> 
+	<pattern-item n="pp"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro> 
+	</call-macro>
 	<choose>
 	  <when><!--Mira si és 'ha habido'  -->
 	    <test>
@@ -5884,7 +6092,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </let>
 	    <call-macro n="conj_haverhi_pp">
 	      <with-param pos="1"/>
-	    </call-macro> 
+	    </call-macro>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>
@@ -5896,13 +6104,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</tags>
 		<lu>
 		  <get-case-from pos="1">
-		  <lit v="there"/> 
+		  <lit v="there"/>
 		  </get-case-from>
 		  <lit-tag v="adv"/>
 		</lu>
 		<b pos="1"/>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>
 		<b/>
 		<lu>
@@ -5912,23 +6120,23 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      </chunk>
 	    </out>
 	  </when>
-	  <otherwise><!--Si no és 'ha habido' -->   
+	  <otherwise><!--Si no és 'ha habido' -->
 	<choose>
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="2" side="sl" part="lem"/> 
+		<clip pos="2" side="sl" part="lem"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <get-case-from pos="2">
 		<lit v="be able to"/>
 	      </get-case-from>
 	    </let>
 	    <let>
-	      <clip pos="2" side="tl" part="a_pp"/> 
+	      <clip pos="2" side="tl" part="a_pp"/>
 	      <lit-tag v="vbmod.pp"/>
 	    </let>
 	  </when>
@@ -5976,10 +6184,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</lu>
 		<b pos="1"/>
 		<lu>
-		  <clip pos="2" side="tl" part="lemh"/> 
+		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_pp"/>
-		  <clip pos="2" side="tl" part="lemq"/>    
-		</lu> 
+		  <clip pos="2" side="tl" part="lemq"/>
+		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>
@@ -5990,7 +6198,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <rule id="44" comment="lo/la HAVER + pasar bien (lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general 'pro HAVER + PP' ">
       <pattern>
 	<pattern-item n="pro_lola"/>
-	<pattern-item n="haver"/> 
+	<pattern-item n="haver"/>
 	<pattern-item n="verb_pronlex_pp"/>
       </pattern>
       <action>
@@ -6041,10 +6249,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>
-	      <clip pos="3" side="tl" part="lemh"/> 
+	      <clip pos="3" side="tl" part="lemh"/>
 	      <clip pos="3" side="tl" part="a_pp"/>
-	      <clip pos="3" side="tl" part="lemq"/>    
-	    </lu> 
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
 	</out>	
 	<call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
@@ -6056,14 +6264,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="45" comment="pro HAVER + PP (l'han vist - have seen it)">
       <pattern>
-	<pattern-item n="pro"/> 
-	<pattern-item n="haver"/> 
+	<pattern-item n="pro"/>
+	<pattern-item n="haver"/>
 	<pattern-item n="pp"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>    
+	</call-macro>
 	<choose>
 	  <when><!--Mira si és 'ha habido'  -->
 	    <test>
@@ -6094,7 +6302,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </let>
 	    <call-macro n="conj_haverhi_pp">
 	      <with-param pos="2"/>
-	    </call-macro> 
+	    </call-macro>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>
@@ -6106,19 +6314,19 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</tags>
 		<lu>
 		  <get-case-from pos="1">
-		    <lit v="there"/> 
+		    <lit v="there"/>
 		  </get-case-from>
 		  <lit-tag v="adv"/>
 		</lu>
 		<b pos="1"/>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>
 		<b pos="2"/>
 		<lu>
 		  <clip pos="3" side="tl" part="lem"/>
 		  <clip pos="3" side="tl" part="a_pp"/>
-		</lu> 
+		</lu>
 	      </chunk>
 	      <b/>
 	      <chunk name="pro">
@@ -6140,18 +6348,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <when>
 		<test>
 		  <equal caseless="yes">
-		    <clip pos="3" side="sl" part="lem"/> 
+		    <clip pos="3" side="sl" part="lem"/>
 		    <lit v="poder"/>
 		  </equal>
 		</test>
 		<let>
-		  <clip pos="3" side="tl" part="lem"/> 
+		  <clip pos="3" side="tl" part="lem"/>
 		  <get-case-from pos="3">
 		    <lit v="be able to"/>
 		  </get-case-from>
 		</let>
 		<let>
-		  <clip pos="3" side="tl" part="a_pp"/> 
+		  <clip pos="3" side="tl" part="a_pp"/>
 		  <lit-tag v="vbmod.pp"/>
 		</let>
 	      </when>
@@ -6218,9 +6426,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b pos="1"/>
 		    <mlu>
 		      <lu>
-			<clip pos="3" side="tl" part="lemh"/> 
+			<clip pos="3" side="tl" part="lemh"/>
 			<clip pos="3" side="tl" part="a_pp"/>
-		      </lu> 
+		      </lu>
 		      <lu>
 			<clip pos="1" side="tl" part="lem"/>
 			<clip pos="1" side="tl" part="a_prn"/>
@@ -6229,7 +6437,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="1" side="tl" part="gen"/>
 			<clip pos="1" side="tl" part="nbr"/>		           
 			<clip pos="3" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
@@ -6276,10 +6484,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </lu>
 		    <b pos="1"/>
 		    <lu>
-		      <clip pos="3" side="tl" part="lemh"/> 
+		      <clip pos="3" side="tl" part="lemh"/>
 		      <clip pos="3" side="tl" part="a_pp"/>
-		      <clip pos="3" side="tl" part="lemq"/>    
-		    </lu> 
+		      <clip pos="3" side="tl" part="lemq"/>
+		    </lu>
 		  </chunk>
 		</out>
 		<choose><!-- ... i després enviem el prn (si cal)-->
@@ -6356,7 +6564,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      </chunk>
 		    </out>
 		  </otherwise>
-		</choose>  
+		</choose>
 	      </otherwise>
 	    </choose>
 	  </otherwise>
@@ -6367,8 +6575,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
  <rule id="46" comment="pro + lo/la + HAVER + pasar bien (se lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general 'pro + pro + HAVER + PP' ">
       <pattern>
 	<pattern-item n="pro"/>
-	<pattern-item n="pro_lola"/> 
-	<pattern-item n="haver"/> 
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="haver"/>
 	<pattern-item n="verb_pronlex_pp"/>
       </pattern>
       <action>
@@ -6418,13 +6626,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>
-	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="lemh"/>
 	      <clip pos="4" side="tl" part="a_pp"/>
-	      <clip pos="4" side="tl" part="lemq"/>    
-	    </lu> 
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
 	</out>
-	  <call-macro n="f_bcond"> 
+	  <call-macro n="f_bcond">
 	    <with-param pos="3"/>
 	    <with-param pos="4"/>
 	  </call-macro>	
@@ -6434,30 +6642,30 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
   <rule id="47" comment="pro + pro + HAVER + PP (se lo han dado - have given it to him)">
       <pattern>
 	<pattern-item n="pro"/>
-	<pattern-item n="pro"/> 
-	<pattern-item n="haver"/> 
+	<pattern-item n="pro"/>
+	<pattern-item n="haver"/>
 	<pattern-item n="pp"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>    
+	</call-macro>
 	<choose>
 	      <when>
 		<test>
 		  <equal caseless="yes">
-		    <clip pos="4" side="sl" part="lem"/> 
+		    <clip pos="4" side="sl" part="lem"/>
 		    <lit v="poder"/>
 		  </equal>
 		</test>
 		<let>
-		  <clip pos="4" side="tl" part="lem"/> 
+		  <clip pos="4" side="tl" part="lem"/>
 		  <get-case-from pos="4">
 		    <lit v="be able to"/>
 		  </get-case-from>
 		</let>
 		<let>
-		  <clip pos="4" side="tl" part="a_pp"/> 
+		  <clip pos="4" side="tl" part="a_pp"/>
 		  <lit-tag v="vbmod.pp"/>
 		</let>
 	      </when>
@@ -6516,9 +6724,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b pos="1"/>
 		    <mlu>
 		      <lu>
-			<clip pos="4" side="tl" part="lemh"/> 
+			<clip pos="4" side="tl" part="lemh"/>
 			<clip pos="4" side="tl" part="a_pp"/>
-		      </lu> 
+		      </lu>
 		      <lu>
 			<clip pos="2" side="tl" part="lem"/>
 			<clip pos="2" side="tl" part="a_prn"/>
@@ -6527,11 +6735,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="2" side="tl" part="gen"/>
 			<clip pos="2" side="tl" part="nbr"/>		           
 			<clip pos="4" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
-		<call-macro n="f_bcond"> 
+		<call-macro n="f_bcond">
 		  <with-param pos="2"/>
 		  <with-param pos="3"/>
 		</call-macro>
@@ -6578,10 +6786,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </lu>
 		    <b pos="1"/>
 		    <lu>
-		      <clip pos="4" side="tl" part="lemh"/> 
+		      <clip pos="4" side="tl" part="lemh"/>
 		      <clip pos="4" side="tl" part="a_pp"/>
-		      <clip pos="4" side="tl" part="lemq"/>    
-		    </lu> 
+		      <clip pos="4" side="tl" part="lemq"/>
+		    </lu>
 		  </chunk>
 		  <b pos="2"/>
 		  <chunk name="pro">
@@ -6598,11 +6806,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  </chunk>
 		    </out>
 		  </otherwise>
-		</choose> 
+		</choose>
 		<choose><!--ara ens cuidem del primer pronom -->
 		  <when>
 		    <test>
-		      <not><!--si no es dóna el cas que el verb és pronominal... --> 
+		      <not><!--si no es dóna el cas que el verb és pronominal... -->
 			<or>
 			  <and>
 			    <equal>
@@ -6650,7 +6858,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<b/>
 			<lu>
 			  <clip pos="1" side="tl" part="whole"/>
-			</lu> 
+			</lu>
 		      </chunk>
 		    </out>
 		  </when>
@@ -6687,7 +6895,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  </when>
 		  <otherwise>
 <!--si el verb era pronominal y el pronom era 'se' -->
-		    <call-macro n="f_bcond"> 
+		    <call-macro n="f_bcond">
 		      <with-param pos="3"/>
 		      <with-param pos="4"/>
 		    </call-macro>
@@ -6719,7 +6927,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       </let>
       <call-macro n="conj_haverhi">
 	<with-param pos="2"/>
-      </call-macro> 
+      </call-macro>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseFirstWord">
 		<tags>
@@ -6731,13 +6939,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</tags>
 		<lu>
 		  <get-case-from pos="1">
-		    <lit v="there"/> 
+		    <lit v="there"/>
 		  </get-case-from>
 		  <lit-tag v="adv"/>
 		</lu>
 		<b pos="1"/>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>		  
 	      </chunk>
 	      <b/>
@@ -6779,15 +6987,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
-		  <clip pos="2" side="tl" part="lemq"/> 
+		  <var n="verbfinal"/>
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>	
 	    <call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
 	      <with-param pos="1"/>
 	      <with-param pos="2"/>
-	    </call-macro> 
+	    </call-macro>
       </action>
     </rule>
 
@@ -6834,7 +7042,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</tags>
 		<mlu>
 		  <lu>
-		    <var n="verbfinal"/> 
+		    <var n="verbfinal"/>
 		  </lu>	
 		  <lu>
 		    <clip pos="1" side="tl" part="lem"/>
@@ -6867,8 +7075,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
-		  <clip pos="2" side="tl" part="lemq"/> 
+		  <var n="verbfinal"/>
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>		  
@@ -6901,7 +7109,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <with-param pos="2"/>
 		</call-macro>
 	      </when>
-	      <otherwise> 
+	      <otherwise>
 		<choose>
 		      <when>
 			<test>
@@ -7011,12 +7219,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
-		  <clip pos="3" side="tl" part="lemq"/> 
+		  <var n="verbfinal"/>
+		  <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
-	    <call-macro n="f_bcond"> 
+	    <call-macro n="f_bcond">
 	      <with-param pos="1"/>
 	      <with-param pos="2"/>
 	      <!--<with-param pos="3"/>--> <!-- f_bcond només funciona amb dos parametres -->
@@ -7060,7 +7268,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</tags>
 		<mlu>
 		  <lu>
-		    <var n="verbfinal"/> 
+		    <var n="verbfinal"/>
 		  </lu>	
 		  <lu>
 		    <clip pos="2" side="tl" part="lem"/>
@@ -7090,8 +7298,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
-		  <clip pos="3" side="tl" part="lemq"/> 
+		  <var n="verbfinal"/>
+		  <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	      <b pos="1"/>
@@ -7113,7 +7321,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<choose><!--ara mirem el primer pronom -->
 	  <when>
 	    <test>
-	      <not><!--si no es dóna el cas que... --> 
+	      <not><!--si no es dóna el cas que... -->
 		<or>
 		  <and><!--o el verb és pronominal-->
 		    <equal>
@@ -7161,7 +7369,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<b/>
 		<lu>
 		  <clip pos="1" side="tl" part="whole"/>
-		</lu> 
+		</lu>
 	      </chunk>
 	    </out>
 	  </when>
@@ -7200,11 +7408,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  </when>
 		  <otherwise>
 <!--si el verb era pronominal y el pronom era 'se' -->
-		    <call-macro n="f_bcond"> 
+		    <call-macro n="f_bcond">
 		      <with-param pos="2"/>
 		      <with-param pos="3"/>
 		    </call-macro>
-		  </otherwise> 
+		  </otherwise>
 	    </choose>
 	  </otherwise>
 	</choose>
@@ -7226,7 +7434,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal>
-		  <clip pos="1" side="tl" part="temps"/> 
+		  <clip pos="1" side="tl" part="temps"/>
 		  <lit-tag v="inf"/>
 	      </equal>
 	    </test>
@@ -7239,7 +7447,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <let>
 	      <var n="lema_SV"/>
 	      <lit v="ger"/>
-	    </let>  
+	    </let>
 	  </otherwise>	
 	</choose>
 	    <out>
@@ -7248,14 +7456,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 		  <tag><clip pos="1" side="sl" part="temps"/></tag>
-		</tags> 
+		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_verb"/>
 		  <clip pos="1" side="tl" part="sep"/>
 		  <clip pos="1" side="tl" part="temps" link-to="3"/> 	           
 		  <clip pos="1" side="tl" part="lemq"/>
-		</lu>  
+		</lu>
 	      </chunk>
 	    </out>
       </action>
@@ -7264,12 +7472,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
  <rule id="54" comment="pasar bien + lo/la (pásalo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL'">
       <pattern>
 	<pattern-item n="verb_pronlex_imp"/>
-	<pattern-item n="enc_lola"/> 
+	<pattern-item n="enc_lola"/>
       </pattern>
       <action>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>    
+	</call-macro>
 	<let>
 	  <clip pos="1" side="tl" part="temps"/>
 	  <lit-tag v="inf"/>
@@ -7282,14 +7490,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="1" side="sl" part="temps"/></tag>
 		  <tag><clip pos="1" side="sl" part="pers"/></tag>
 		  <tag><clip pos="1" side="sl" part="nbr"/></tag>
-		</tags> 
+		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_verb"/>
 		  <clip pos="1" side="tl" part="sep"/>
 		  <clip pos="1" side="tl" part="temps"/> 	           
 		  <clip pos="1" side="tl" part="lemq"/>
-		</lu>  
+		</lu>
 	      </chunk>
 	    </out>
       </action>
@@ -7298,13 +7506,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
    <rule id="55" comment="VERB + ENCL (ajudar-me - help me)">
       <pattern>
 	<pattern-item n="verbnm_inf_ger"/>
-	<pattern-item n="enc"/> 
+	<pattern-item n="enc"/>
       </pattern>
       <action>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
-	<choose>      
+	<choose>
 	  <when>
 	    <test>
 	      <equal>
@@ -7318,14 +7526,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 		  <tag><clip pos="1" side="tl" part="temps"/></tag>
-		</tags> 
+		</tags>
 		<mlu>
 		  <lu>
 		    <clip pos="1" side="tl" part="lemh"/>
 		    <clip pos="1" side="tl" part="a_verb"/>
 		    <clip pos="1" side="tl" part="sep"/>
-		    <clip pos="1" side="tl" part="temps" link-to="3"/> 
-		  </lu>  
+		    <clip pos="1" side="tl" part="temps" link-to="3"/>
+		  </lu>
 		  <lu>
 		    <clip pos="2" side="tl" part="lem"/>
 		    <clip pos="2" side="tl" part="a_prn"/>
@@ -7334,7 +7542,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="2" side="tl" part="gen"/>
 		    <clip pos="2" side="tl" part="nbr"/>		           
 		    <clip pos="1" side="tl" part="lemq"/>
-		  </lu> 
+		  </lu>
 		</mlu>
 	      </chunk>
 	    </out>
@@ -7385,14 +7593,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 		  <tag><clip pos="1" side="sl" part="temps"/></tag>
-		</tags> 
+		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_verb"/>
 		  <clip pos="1" side="tl" part="sep"/>
 		  <clip pos="1" side="tl" part="temps" link-to="3"/> 	        
 		  <clip pos="1" side="tl" part="lemq"/>
-		</lu>   
+		</lu>
 		<b/>
 		<lu>
 		  <var n="prepo"/>
@@ -7411,17 +7619,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <rule id="56" comment="VERB + ENCL (ajuda'm - help me)">
       <pattern>
 	<pattern-item n="verbnm_imp"/>
-	<pattern-item n="enc"/> 
+	<pattern-item n="enc"/>
       </pattern>
       <action>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>    
+	</call-macro>
 	<let>
 	  <clip pos="1" side="tl" part="temps"/>
 	  <lit-tag v="inf"/>
 	</let>
-	<choose>  
+	<choose>
 	  <when>
 	    <test>
 	      <and>
@@ -7467,14 +7675,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="1" side="sl" part="temps"/></tag>
 		  <tag><clip pos="1" side="sl" part="pers"/></tag>
 		  <tag><clip pos="1" side="sl" part="nbr"/></tag>
-		</tags> 
+		</tags>
 		<mlu>
 		  <lu>
 		    <clip pos="1" side="tl" part="lemh"/>
 		    <clip pos="1" side="tl" part="a_verb"/>
 		    <clip pos="1" side="tl" part="sep"/>
-		    <clip pos="1" side="tl" part="temps"/> 
-		  </lu>  
+		    <clip pos="1" side="tl" part="temps"/>
+		  </lu>
 		  <lu>
 		    <clip pos="2" side="tl" part="lem"/>
 		    <clip pos="2" side="tl" part="a_prn"/>
@@ -7483,7 +7691,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="2" side="tl" part="gen"/>
 		    <clip pos="2" side="tl" part="nbr"/>		           
 		    <clip pos="1" side="tl" part="lemq"/>
-		  </lu> 
+		  </lu>
 		</mlu>
 	      </chunk>
 	    </out>
@@ -7497,18 +7705,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="1" side="sl" part="temps"/></tag>
 		  <tag><clip pos="1" side="sl" part="pers"/></tag>
 		  <tag><clip pos="1" side="sl" part="nbr"/></tag>
-		</tags> 
+		</tags>
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_verb"/>
 		  <clip pos="1" side="tl" part="sep"/>
 		  <clip pos="1" side="tl" part="temps"/> 	           
 		  <clip pos="1" side="tl" part="lemq"/>
-		</lu>   
+		</lu>
 		<b/>
 		<lu>
 		  <clip pos="2" side="tl" part="whole"/>	
-		</lu> 
+		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>	   
@@ -7518,9 +7726,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
    <rule id="57" comment="pasar bien + ENCL + lo/la (pasárselo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL + ENCL'">
       <pattern>
-	<pattern-item n="verb_pronlex_infger"/> 
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc_lola"/> 
+	<pattern-item n="verb_pronlex_infger"/>
+	<pattern-item n="enc"/>
+	<pattern-item n="enc_lola"/>
       </pattern>
       <action>           	
 	<call-macro n="firstWord">
@@ -7530,7 +7738,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal>
-		  <clip pos="1" side="tl" part="temps"/> 
+		  <clip pos="1" side="tl" part="temps"/>
 		  <lit-tag v="inf"/>
 	      </equal>
 	    </test>
@@ -7543,7 +7751,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <let>
 	      <var n="lema_SV"/>
 	      <lit v="ger"/>
-	    </let>  
+	    </let>
 	  </otherwise>	 
 	</choose>
 	<out>
@@ -7552,14 +7760,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><lit-tag v="SV"/></tag>
 	      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 	      <tag><clip pos="1" side="sl" part="temps"/></tag>
-	    </tags> 
+	    </tags>
 	    <lu>
 	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_verb"/>
 	      <clip pos="1" side="tl" part="sep"/>
 	      <clip pos="1" side="tl" part="temps" link-to="3"/>	           
 	      <clip pos="1" side="tl" part="lemq"/>
-	    </lu>  
+	    </lu>
 	  </chunk>
 	</out>
       </action>
@@ -7567,14 +7775,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
   <rule id="58" comment="pasar bien + ENCL + lo/la (pásatelo bien) - regla lexicalizada antes de la correspondiente regla general 'VERB + ENCL + ENCL'">
       <pattern>
-	<pattern-item n="verb_pronlex_imp"/> 
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc_lola"/> 
+	<pattern-item n="verb_pronlex_imp"/>
+	<pattern-item n="enc"/>
+	<pattern-item n="enc_lola"/>
       </pattern>
       <action>           	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>  
+	</call-macro>
 	<let>
 	  <clip pos="1" side="tl" part="temps"/>
 	  <lit-tag v="inf"/>
@@ -7594,7 +7802,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <clip pos="1" side="tl" part="sep"/>
 	      <clip pos="1" side="tl" part="temps"/>	           
 	      <clip pos="1" side="tl" part="lemq"/>
-	    </lu>  
+	    </lu>
 	  </chunk>
 	</out>
       </action>
@@ -7603,14 +7811,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="59" comment="VERB + ENCL + ENCL (portar-me'ls - bring them to me)">
       <pattern>
-	<pattern-item n="verbnm_inf_ger"/> 
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc"/> 
+	<pattern-item n="verbnm_inf_ger"/>
+	<pattern-item n="enc"/>
+	<pattern-item n="enc"/>
       </pattern>
       <action>           	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>     
+	</call-macro>
 	<choose>
 	  <when>
 	    <test><!--si el segon enclític es tradueix per res (en/hi/[se]) -->
@@ -7633,14 +7841,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><lit-tag v="SV"/></tag>
 		      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 		      <tag><clip pos="1" side="tl" part="temps"/></tag>
-		    </tags> 
+		    </tags>
 		    <mlu>
 		      <lu>
 			<clip pos="1" side="tl" part="lemh"/>
 			<clip pos="1" side="tl" part="a_verb"/>
 			<clip pos="1" side="tl" part="sep"/>
-			<clip pos="1" side="tl" part="temps" link-to="3"/> 
-		      </lu>  
+			<clip pos="1" side="tl" part="temps" link-to="3"/>
+		      </lu>
 		      <lu>
 			<clip pos="2" side="tl" part="lem"/>
 			<clip pos="2" side="tl" part="a_prn"/>
@@ -7649,7 +7857,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="2" side="tl" part="gen"/>
 			<clip pos="2" side="tl" part="nbr"/>		           
 			<clip pos="1" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
@@ -7661,18 +7869,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><lit-tag v="SV"/></tag>
 		      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 		      <tag><clip pos="1" side="sl" part="temps"/></tag>
-		    </tags> 
+		    </tags>
 		    <lu>
 		      <clip pos="1" side="tl" part="lemh"/>
 		      <clip pos="1" side="tl" part="a_verb"/>
 		      <clip pos="1" side="tl" part="sep"/>
 		      <clip pos="1" side="tl" part="temps" link-to="3"/>	           
 		      <clip pos="1" side="tl" part="lemq"/>
-		    </lu>   
-		    <b/>   
+		    </lu>
+		    <b/>
 		    <lu>
 		      <clip pos="2" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </otherwise>
@@ -7693,14 +7901,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><lit-tag v="SV"/></tag>
 		      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 		      <tag><clip pos="1" side="tl" part="temps"/></tag>
-		    </tags> 
+		    </tags>
 		    <mlu>
 		      <lu>
 			<clip pos="1" side="tl" part="lemh"/>
 			<clip pos="1" side="tl" part="a_verb"/>
 			<clip pos="1" side="tl" part="sep"/>
-			<clip pos="1" side="tl" part="temps" link-to="3"/> 
-		      </lu>  
+			<clip pos="1" side="tl" part="temps" link-to="3"/>
+		      </lu>
 		      <lu>
 			<clip pos="3" side="tl" part="lem"/>
 			<clip pos="3" side="tl" part="a_prn"/>
@@ -7709,7 +7917,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="3" side="tl" part="gen"/>
 			<clip pos="3" side="tl" part="nbr"/>		           
 			<clip pos="1" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
@@ -7721,18 +7929,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><lit-tag v="SV"/></tag>
 		      <tag><clip pos="1" side="tl" part="a_verb"/></tag>
 		      <tag><clip pos="1" side="sl" part="temps"/></tag>
-		    </tags> 
+		    </tags>
 		    <lu>
 		      <clip pos="1" side="tl" part="lemh"/>
 		      <clip pos="1" side="tl" part="a_verb"/>
 		      <clip pos="1" side="tl" part="sep"/>
 		      <clip pos="1" side="tl" part="temps" link-to="3"/>	           
 		      <clip pos="1" side="tl" part="lemq"/>
-		    </lu>   
-		    <b/>   
+		    </lu>
+		    <b/>
 		    <lu>
 		      <clip pos="3" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </otherwise>
@@ -7766,13 +7974,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b/>
 		    <lu>
 		      <clip pos="2" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </when>
 	    </choose>
 	  </otherwise>
-	</choose> 
+	</choose>
       </action>
     </rule>
 
@@ -7780,19 +7988,19 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="60" comment="VERB + ENCL + ENCL (porta-me'ls - bring them to me)">
       <pattern>
-	<pattern-item n="verbnm_imp"/> 
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc"/> 
+	<pattern-item n="verbnm_imp"/>
+	<pattern-item n="enc"/>
+	<pattern-item n="enc"/>
       </pattern>
       <action>           	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>  
+	</call-macro>
 	<let>
 	  <clip pos="1" side="tl" part="temps"/>
 	  <lit-tag v="inf"/>
 	</let>
-	<choose>  
+	<choose>
 	  <when>
 	    <test>
 	      <and>
@@ -7847,14 +8055,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><clip pos="1" side="sl" part="temps"/></tag>
 		      <tag><clip pos="1" side="sl" part="pers"/></tag>
 		      <tag><clip pos="1" side="sl" part="nbr"/></tag>
-		    </tags> 
+		    </tags>
 		    <mlu>
 		      <lu>
 			<clip pos="1" side="tl" part="lemh"/>
 			<clip pos="1" side="tl" part="a_verb"/>
 			<clip pos="1" side="tl" part="sep"/>
-			<clip pos="1" side="tl" part="temps"/> 
-		      </lu>  
+			<clip pos="1" side="tl" part="temps"/>
+		      </lu>
 		      <lu>
 			<clip pos="2" side="tl" part="lem"/>
 			<clip pos="2" side="tl" part="a_prn"/>
@@ -7863,7 +8071,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="2" side="tl" part="gen"/>
 			<clip pos="2" side="tl" part="nbr"/>		           
 			<clip pos="1" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
@@ -7884,11 +8092,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <clip pos="1" side="tl" part="sep"/>
 		      <clip pos="1" side="tl" part="temps"/>	           
 		      <clip pos="1" side="tl" part="lemq"/>
-		    </lu>   
-		    <b/>   
+		    </lu>
+		    <b/>
 		    <lu>
 		      <clip pos="2" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </otherwise>
@@ -7917,8 +8125,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="1" side="tl" part="lemh"/>
 			<clip pos="1" side="tl" part="a_verb"/>
 			<clip pos="1" side="tl" part="sep"/>
-			<clip pos="1" side="tl" part="temps"/> 
-		      </lu>  
+			<clip pos="1" side="tl" part="temps"/>
+		      </lu>
 		      <lu>
 			<clip pos="3" side="tl" part="lem"/>
 			<clip pos="3" side="tl" part="a_prn"/>
@@ -7927,7 +8135,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="3" side="tl" part="gen"/>
 			<clip pos="3" side="tl" part="nbr"/>		           
 			<clip pos="1" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
@@ -7948,11 +8156,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <clip pos="1" side="tl" part="sep"/>
 		      <clip pos="1" side="tl" part="temps"/>	           
 		      <clip pos="1" side="tl" part="lemq"/>
-		    </lu>   
-		    <b/>   
+		    </lu>
+		    <b/>
 		    <lu>
 		      <clip pos="3" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </otherwise>
@@ -7968,7 +8176,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  </not>
 		</test>
 		<out>
-		  <b/> 
+		  <b/>
 		  <chunk name="to_prn">
 		    <tags>
 		      <tag><lit-tag v="SP"/></tag>
@@ -7986,13 +8194,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b/>
 		    <lu>
 		      <clip pos="2" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </when>
 	    </choose>
 	  </otherwise>
-	</choose> 
+	</choose>
       </action>
     </rule>
 
@@ -8004,13 +8212,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <rule id="61" comment="VERBMOD + ENCL + INF (poder-ho fer - be able to do it)(no he fet res per a pronominals, difícil fer la concordança de persona en frases que no són de 3a persona ('es'): per poder-te enamorar...">
       <pattern>
 	<pattern-item n="verbm"/> <!-- aquí tb separaria entre inf/ger i imperatiu, per poder fer enllaços coherents en 'temps' i poder deixar temps 'sl' en imperatiu i 'tl' en inf i ger.-->
-	<pattern-item n="enc"/> 
+	<pattern-item n="enc"/>
 	<pattern-item n="inf"/>
       </pattern>
       <action>               	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>  
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -8052,7 +8260,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<clip pos="3" side="tl" part="sep"/>
 		<lit-tag v="sep"/>
 	      </equal>
-	    </test>   
+	    </test>
 	    <out>
 	      <chunk name="mod_inf_enc" case="caseFirstWord">
 		<tags>
@@ -8065,14 +8273,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_verb"/>
-		  <clip pos="1" side="tl" part="temps" link-to="3"/>      
+		  <clip pos="1" side="tl" part="temps" link-to="3"/>
 		  <clip pos="1" side="tl" part="lemq"/>
-		</lu>  
+		</lu>
 		<b pos="2"/>
 		<mlu>
 		  <lu>
-		    <clip pos="3" side="tl" part="lemh"/>      
-		    <clip pos="3" side="tl" part="a_verb"/>    
+		    <clip pos="3" side="tl" part="lemh"/>
+		    <clip pos="3" side="tl" part="a_verb"/>
 		    <clip pos="3" side="tl" part="sep"/>
 		    <clip pos="3" side="tl" part="temps"/>
 		  </lu>
@@ -8082,12 +8290,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="2" side="tl" part="tipus_prn"/>
 		    <clip pos="2" side="tl" part="pers"/>
 		    <clip pos="2" side="tl" part="gen"/>
-		    <clip pos="2" side="tl" part="nbr"/>      
+		    <clip pos="2" side="tl" part="nbr"/>
 		    <clip pos="3" side="tl" part="lemq"/>
-		  </lu> 
+		  </lu>
 		</mlu>
 	      </chunk>
-	    </out>  
+	    </out>
 	  </when>
 	  <otherwise>
 	    <out>
@@ -8102,39 +8310,39 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<lu>
 		  <clip pos="1" side="tl" part="lemh"/>
 		  <clip pos="1" side="tl" part="a_verb"/>
-		  <clip pos="1" side="tl" part="temps" link-to="3"/>      
+		  <clip pos="1" side="tl" part="temps" link-to="3"/>
 		  <clip pos="1" side="tl" part="lemq"/>
-		</lu>  
+		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="3" side="tl" part="lemh"/>      
-		  <clip pos="3" side="tl" part="a_verb"/>    
+		  <clip pos="3" side="tl" part="lemh"/>
+		  <clip pos="3" side="tl" part="a_verb"/>
 		  <clip pos="3" side="tl" part="sep"/>
-		  <clip pos="3" side="tl" part="temps"/>      
+		  <clip pos="3" side="tl" part="temps"/>
 		  <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 		<b/>
 		<lu>
 		  <clip pos="2" side="tl" part="whole"/>
-		</lu> 
+		</lu>
 	      </chunk>
-	    </out>  
+	    </out>
 	  </otherwise>
-	</choose>  
+	</choose>
       </action>
     </rule>
 
     <rule id="62" comment="VERBMOD + ENCL + ENCL + INF (poder-los-ho explicar -> be able to explain it to them)">
       <pattern>
-	<pattern-item n="verbm"/> 
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc"/> 
+	<pattern-item n="verbm"/>
+	<pattern-item n="enc"/>
+	<pattern-item n="enc"/>
 	<pattern-item n="inf"/>
       </pattern>
       <action>              	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>  
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -8184,7 +8392,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="4" side="tl" part="sep"/>
 		    <lit-tag v="sep"/>
 		  </equal>
-		</test>  
+		</test>
 		<out>
 		  <chunk name="mod_inf_enc" case="caseFirstWord">
 		    <tags>
@@ -8203,10 +8411,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b pos="3"/>
 		    <mlu>
 		      <lu>
-			<clip pos="4" side="tl" part="lemh"/>      
-			<clip pos="4" side="tl" part="a_verb"/>    
+			<clip pos="4" side="tl" part="lemh"/>
+			<clip pos="4" side="tl" part="a_verb"/>
 			<clip pos="4" side="tl" part="sep"/>
-			<clip pos="4" side="tl" part="temps"/> 
+			<clip pos="4" side="tl" part="temps"/>
 		      </lu>
 		      <lu>
 			<clip pos="2" side="tl" part="lem"/>
@@ -8214,7 +8422,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="2" side="tl" part="tipus_prn"/>
 			<clip pos="2" side="tl" part="pers"/>
 			<clip pos="2" side="tl" part="gen"/>
-			<clip pos="2" side="tl" part="nbr"/>     
+			<clip pos="2" side="tl" part="nbr"/>
 			<clip pos="4" side="tl" part="lemq"/>
 		      </lu>
 		    </mlu>
@@ -8239,10 +8447,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </lu>
 		    <b pos="3"/>
 		    <lu>
-		      <clip pos="4" side="tl" part="lemh"/>      
-		      <clip pos="4" side="tl" part="a_verb"/>    
+		      <clip pos="4" side="tl" part="lemh"/>
+		      <clip pos="4" side="tl" part="a_verb"/>
 		      <clip pos="4" side="tl" part="sep"/>
-		      <clip pos="4" side="tl" part="temps"/>      
+		      <clip pos="4" side="tl" part="temps"/>
 		      <clip pos="4" side="tl" part="lemq"/>
 		    </lu>
 		    <b/>
@@ -8262,7 +8470,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="4" side="tl" part="sep"/>
 		    <lit-tag v="sep"/>
 		  </equal>
-		</test>    
+		</test>
 		<out>
 		  <chunk name="mod_inf_enc_enc" case="caseFirstWord">
 		    <tags>
@@ -8281,10 +8489,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b pos="3"/>
 		    <mlu>
 		      <lu>
-			<clip pos="4" side="tl" part="lemh"/>      
-			<clip pos="4" side="tl" part="a_verb"/>     
+			<clip pos="4" side="tl" part="lemh"/>
+			<clip pos="4" side="tl" part="a_verb"/>
 			<clip pos="4" side="tl" part="sep"/>
-			<clip pos="4" side="tl" part="temps"/> 
+			<clip pos="4" side="tl" part="temps"/>
 		      </lu>
 		      <lu>
 			<clip pos="3" side="tl" part="lem"/>
@@ -8292,7 +8500,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="3" side="tl" part="tipus_prn"/>
 			<clip pos="3" side="tl" part="pers"/>
 			<clip pos="3" side="tl" part="gen"/>
-			<clip pos="3" side="tl" part="nbr"/>     
+			<clip pos="3" side="tl" part="nbr"/>
 			<clip pos="4" side="tl" part="lemq"/>
 		      </lu>
 		    </mlu>
@@ -8317,9 +8525,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </lu>
 		    <b pos="3"/>
 		    <lu>
-		      <clip pos="4" side="tl" part="lemh"/>      
+		      <clip pos="4" side="tl" part="lemh"/>
 		      <clip pos="4" side="tl" part="a_verb"/>
-		      <clip pos="4" side="tl" part="temps"/>    
+		      <clip pos="4" side="tl" part="temps"/>
 		      <clip pos="4" side="tl" part="lemq"/>
 		    </lu>
 		    <b/>
@@ -8341,7 +8549,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  </not>
 		</test>
 		<out>
-		  <b/> 
+		  <b/>
 		  <chunk name="to_prn">
 		    <tags>
 		      <tag><lit-tag v="SP"/></tag>
@@ -8359,13 +8567,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b/>
 		    <lu>
 		      <clip pos="2" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </when>
 	    </choose>
 	  </otherwise>
-	</choose> 
+	</choose>
       </action>
     </rule>
 
@@ -8398,7 +8606,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  </equal>
 		</not>
 	      </and>
-	    </test>   
+	    </test>
 	    <out>
 	      <chunk name="modcj_inf_enc" case="caseFirstWord">
 		<tags>
@@ -8409,14 +8617,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="sl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/>    
-		  <clip pos="2" side="tl" part="lemq"/> 
-		</lu>  
+		  <var n="verbfinal"/>
+		  <clip pos="2" side="tl" part="lemq"/>
+		</lu>
 		<b pos="1"/>
 		<mlu>
 		  <lu>
-		    <clip pos="3" side="tl" part="lemh"/>      
-		    <clip pos="3" side="tl" part="a_verb"/>    
+		    <clip pos="3" side="tl" part="lemh"/>
+		    <clip pos="3" side="tl" part="a_verb"/>
 		    <clip pos="3" side="tl" part="sep"/>
 		    <clip pos="3" side="tl" part="temps"/>
 		  </lu>
@@ -8426,12 +8634,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="1" side="tl" part="tipus_prn"/>
 		    <clip pos="1" side="tl" part="pers"/>
 		    <clip pos="1" side="tl" part="gen"/>
-		    <clip pos="1" side="tl" part="nbr"/>      
+		    <clip pos="1" side="tl" part="nbr"/>
 		    <clip pos="3" side="tl" part="lemq"/>
-		  </lu> 
+		  </lu>
 		</mlu>
 	      </chunk>
-	    </out>  
+	    </out>
 	    <call-macro n="f_bcond">
 	      <with-param pos="2"/>
 	      <with-param pos="3"/>
@@ -8450,17 +8658,17 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<lu>
 		  <var n="verbfinal"/>
 		  <clip pos="2" side="tl" part="lemq"/>
-		</lu>  
+		</lu>
 		<b pos="1"/>
 		<lu>
-		  <clip pos="3" side="tl" part="lemh"/>      
-		  <clip pos="3" side="tl" part="a_verb"/>    
+		  <clip pos="3" side="tl" part="lemh"/>
+		  <clip pos="3" side="tl" part="a_verb"/>
 		  <clip pos="3" side="tl" part="sep"/>
-		  <clip pos="3" side="tl" part="temps"/>      
+		  <clip pos="3" side="tl" part="temps"/>
 		  <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
-	    </out> 
+	    </out>
 	    <choose><!--després d'imprimir el verb, mirem el proclític -->
 	      <when>
 		<test>
@@ -8544,13 +8752,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="64" comment="VERBMOD + ENCL (per quan va davant desconegudes, perquè almenys no peti: poder-ho xxx - be able to it xxx)">
       <pattern>
-	<pattern-item n="verbm"/> 
-	<pattern-item n="enc"/> 
+	<pattern-item n="verbm"/>
+	<pattern-item n="enc"/>
       </pattern>
       <action>              	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>  
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -8597,29 +8805,29 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <lu>
 	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_verb"/>
-	      <clip pos="1" side="tl" part="temps" link-to="3"/>      
+	      <clip pos="1" side="tl" part="temps" link-to="3"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>	  
 	    <b/>
 	    <lu>
 	      <clip pos="2" side="tl" part="whole"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
 
     <rule id="65" comment="VERBMOD + ENCL + ENCL (per quan va davant desconegudes, perquè almenys no peti: poder-los-ho xxx - be able to them it xxx" >
       <pattern>
-	<pattern-item n="verbm"/> 
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc"/> 
+	<pattern-item n="verbm"/>
+	<pattern-item n="enc"/>
+	<pattern-item n="enc"/>
       </pattern>
       <action>              	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>  
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -8672,13 +8880,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <b/>
 	    <lu>
 	      <clip pos="2" side="tl" part="whole"/>
-	    </lu> 
+	    </lu>
 	    <b/>
 	    <lu>
 	      <clip pos="3" side="tl" part="whole"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule>
 
@@ -8687,7 +8895,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="66" comment="REGLA: PARTICIPI (perquè no enviï gènere ni nombre quan va sol (per tal que no doni error). Caldrà posar-lo tb en les regles d'adjectiu">
       <pattern>
-	<pattern-item n="pp"/> 
+	<pattern-item n="pp"/>
       </pattern>
       <action>       	
 	<call-macro n="firstWord">
@@ -8697,18 +8905,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="1" side="sl" part="lem"/> 
+		<clip pos="1" side="sl" part="lem"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="lem"/>
 	      <get-case-from pos="1">
 		<lit v="be able to"/>
 	      </get-case-from>
 	    </let>
 	    <let>
-	      <clip pos="1" side="tl" part="a_pp"/> 
+	      <clip pos="1" side="tl" part="a_pp"/>
 	      <lit-tag v="vbmod.pp"/>
 	    </let>
 	  </when>
@@ -8721,12 +8929,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="nbr"/></tag>
 	    </tags> 	
 	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_pp"/>
-	      <clip pos="1" side="tl" part="lemq"/>    
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -8761,15 +8969,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
 	      <tag><clip pos="2" side="tl" part="temps"/></tag>
 	    </tags>
-	    <lu>          
+	    <lu>
 	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_verb"/>
 	      <clip pos="2" side="tl" part="sep"/>
 	      <clip pos="2" side="tl" part="temps" link-to="3"/>
-	      <clip pos="2" side="tl" part="lemq"/>                  
-	    </lu>  
+	      <clip pos="2" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
-	</out>   
+	</out>
       </action>
     </rule>
 
@@ -8780,7 +8988,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="haverinf"/>
-	<pattern-item n="pp"/> 
+	<pattern-item n="pp"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
@@ -8789,27 +8997,27 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="prep_inf">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
-	</call-macro> 
+	</call-macro>
 	<let>
-	  <clip pos="2" side="tl" part="temps"/> 
+	  <clip pos="2" side="tl" part="temps"/>
 	  <lit-tag v="ger"/><!--posem ger en tots els casos -->
 	</let>	  
 	<choose>
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="3" side="sl" part="lem"/> 
+		<clip pos="3" side="sl" part="lem"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="3" side="tl" part="lem"/> 
+	      <clip pos="3" side="tl" part="lem"/>
 	      <get-case-from pos="3">
 		<lit v="be able to"/>
 	      </get-case-from>
 	    </let>
 	    <let>
-	      <clip pos="3" side="tl" part="a_pp"/> 
+	      <clip pos="3" side="tl" part="a_pp"/>
 	      <lit-tag v="vbmod.pp"/>
 	    </let>
 	  </when>
@@ -8822,21 +9030,21 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="tl" part="temps"/></tag>
 		</tags>
 		<lu>
-		  <clip pos="1" side="tl" part="whole"/> 
+		  <clip pos="1" side="tl" part="whole"/>
 		</lu>
 		<b pos="1"/>		  
 		<lu>
-		  <clip pos="2" side="tl" part="lemh"/> 
-		  <clip pos="2" side="tl" part="a_verb"/> 
-		  <clip pos="2" side="tl" part="temps"/> 
-		  <clip pos="2" side="tl" part="lemq"/> 
+		  <clip pos="2" side="tl" part="lemh"/>
+		  <clip pos="2" side="tl" part="a_verb"/>
+		  <clip pos="2" side="tl" part="temps"/>
+		  <clip pos="2" side="tl" part="lemq"/>
 		</lu>
 		<b pos="2"/>
 		<lu>
-		  <clip pos="3" side="tl" part="lemh"/> 
+		  <clip pos="3" side="tl" part="lemh"/>
 		  <clip pos="3" side="tl" part="a_pp"/>
-		  <clip pos="3" side="tl" part="lemq"/>    
-		</lu> 
+		  <clip pos="3" side="tl" part="lemq"/>
+		</lu>
 	      </chunk>
 	    </out>
       </action>
@@ -8852,7 +9060,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <action>       	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>  
+	</call-macro>
 	<let>
 	  <clip pos="3" side="tl" part="temps"/>
 	  <lit-tag v="ger"/>
@@ -8876,15 +9084,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="3" side="tl" part="a_verb"/></tag>
 	      <tag><clip pos="3" side="tl" part="temps"/></tag>
 	    </tags>
-	    <lu>          
+	    <lu>
 	      <clip pos="3" side="tl" part="lemh"/>
 	      <clip pos="3" side="tl" part="a_verb"/>
 	      <clip pos="3" side="tl" part="sep"/>
 	      <clip pos="3" side="tl" part="temps" link-to="3"/>
-	      <clip pos="3" side="tl" part="lemq"/>                  
-	    </lu>  
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -8899,23 +9107,23 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	</call-macro>
 	<let>
-	  <clip pos="2" side="tl" part="lem"/> 
+	  <clip pos="2" side="tl" part="lem"/>
 	  <lit v="by"/>
 	</let>	  
 	<choose>
 	  <when>
 	    <test>
 	      <equal>
-		<clip pos="1" side="sl" part="lem"/> 
+		<clip pos="1" side="sl" part="lem"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="lem"/>
 	      <lit v="be able to"/>
 	    </let>
 	    <let>
-	      <clip pos="1" side="tl" part="a_pp"/> 
+	      <clip pos="1" side="tl" part="a_pp"/>
 	      <lit-tag v="vbmod.pp"/>
 	    </let>
 	  </when>
@@ -8928,9 +9136,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="nbr"/></tag>
 	    </tags> 	
 	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_pp"/>
-	      <clip pos="1" side="tl" part="lemq"/>    
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
 	  <b pos="1"/>
@@ -8942,7 +9150,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <clip pos="2" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out> 
+	</out>
       </action>
     </rule> -->
 
@@ -8967,18 +9175,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="1" side="sl" part="lem"/> 
+		<clip pos="1" side="sl" part="lem"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="lem"/>
 	      <get-case-from pos="1">
 		<lit v="be able to"/>
 	      </get-case-from>
 	    </let>
 	    <let>
-	      <clip pos="1" side="tl" part="a_pp"/> 
+	      <clip pos="1" side="tl" part="a_pp"/>
 	      <lit-tag v="vbmod.pp"/>
 	    </let>
 	  </when>
@@ -8991,24 +9199,24 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="nbr"/></tag>
 	    </tags> 	
 	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_pp"/>
-	      <clip pos="1" side="tl" part="lemq"/>    
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  <b pos="1"/>
 	    <lu>
 	      <clip pos="2" side="tl" part="whole"/>
 	    </lu>
 	  <b pos="2"/>
-	    <lu>          
+	    <lu>
 	      <clip pos="3" side="tl" part="lemh"/>
 	      <clip pos="3" side="tl" part="a_verb"/>
 	      <clip pos="3" side="tl" part="sep"/>
 	      <clip pos="3" side="tl" part="temps"/>
-	      <clip pos="3" side="tl" part="lemq"/>                  
-	    </lu>  
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -9016,12 +9224,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="72" comment="REGLA: VERB no conjugat (perquè posi bé la cua en multiparaules)">
       <pattern>
-	<pattern-item n="inf"/> 
+	<pattern-item n="inf"/>
       </pattern>
       <action>     	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>     
+	</call-macro>
 	<out>
 	  <chunk name="inf" case="caseFirstWord">
 	    <tags>
@@ -9030,20 +9238,20 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="tl" part="temps"/></tag>
 	    </tags>
 	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_verb"/>
 	      <clip pos="1" side="tl" part="sep"/>
 	      <clip pos="1" side="tl" part="temps" link-to="3"/>
-	      <clip pos="1" side="tl" part="lemq"/>    
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
     <rule id="73" comment="REGLA: VERB no conjugat (perquè posi bé la cua en multiparaules)">
       <pattern>
-	<pattern-item n="ger"/> 
+	<pattern-item n="ger"/>
       </pattern>
       <action>     	
 	<call-macro n="firstWord">
@@ -9053,7 +9261,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="1" side="sl" part="lemh"/> 
+		<clip pos="1" side="sl" part="lemh"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
@@ -9077,14 +9285,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="temps"/></tag>
 	    </tags>
 	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/> 
+	      <clip pos="1" side="tl" part="lemh"/>
 	      <clip pos="1" side="tl" part="a_verb"/>
 	      <clip pos="1" side="tl" part="sep"/>
 	      <clip pos="1" side="tl" part="temps"/>
-	      <clip pos="1" side="tl" part="lemq"/>    
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -9110,7 +9318,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="2" side="sl" part="lemh"/> 
+		<clip pos="2" side="sl" part="lemh"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
@@ -9136,15 +9344,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
 	    <lu>
-	      <var n="verbfinal"/> 
+	      <var n="verbfinal"/>
 	    </lu>
 	    <b pos="1"/>	    
 	    <lu>
-	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_verb"/>
 	      <clip pos="2" side="tl" part="sep"/>
 	      <clip pos="2" side="tl" part="temps"/>
-	      <clip pos="2" side="tl" part="lemq"/>    
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
 	</out>
@@ -9176,15 +9384,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>
 		<b pos="1"/>	    
 		<lu>
-		  <clip pos="3" side="tl" part="lemh"/> 
+		  <clip pos="3" side="tl" part="lemh"/>
 		  <clip pos="3" side="tl" part="a_verb"/>
 		  <clip pos="3" side="tl" part="sep"/>
 		  <clip pos="3" side="tl" part="temps"/>
-		  <clip pos="3" side="tl" part="lemq"/>    
+		  <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -9221,15 +9429,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>
 		<b pos="1"/>	    
 		<lu>
-		  <clip pos="4" side="tl" part="lemh"/> 
+		  <clip pos="4" side="tl" part="lemh"/>
 		  <clip pos="4" side="tl" part="a_verb"/>
 		  <clip pos="4" side="tl" part="sep"/>
 		  <clip pos="4" side="tl" part="temps"/>
-		  <clip pos="4" side="tl" part="lemq"/>    
+		  <clip pos="4" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -9286,16 +9494,16 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<tag><clip pos="2" side="tl" part="nbr"/></tag>
 	      </tags>
 		  <lu>
-		    <var n="verbfinal"/> 
+		    <var n="verbfinal"/>
 		  </lu>	
 		  <b pos="1"/>
 		  <mlu>	    
 		    <lu>
-		      <clip pos="3" side="tl" part="lemh"/> 
+		      <clip pos="3" side="tl" part="lemh"/>
 		      <clip pos="3" side="tl" part="a_verb"/>
 		      <clip pos="3" side="tl" part="sep"/>
-		      <clip pos="3" side="tl" part="temps"/>   
-		    </lu>  
+		      <clip pos="3" side="tl" part="temps"/>
+		    </lu>
 		    <lu>
 		      <clip pos="1" side="tl" part="lem"/>
 		      <clip pos="1" side="tl" part="a_prn"/>
@@ -9324,15 +9532,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="2" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>
 		<b pos="1"/>	    
 		<lu>
-		  <clip pos="3" side="tl" part="lemh"/> 
+		  <clip pos="3" side="tl" part="lemh"/>
 		  <clip pos="3" side="tl" part="a_verb"/>
 		  <clip pos="3" side="tl" part="sep"/>
 		  <clip pos="3" side="tl" part="temps"/>
-		  <clip pos="3" side="tl" part="lemq"/>    
+		  <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>		  
@@ -9461,7 +9669,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </let>
 	    <choose>
 	      <when>
-		<test> 
+		<test>
 		  <in caseless="yes">
 		    <clip pos="1" side="sl" part="lem"/>
 		    <list n="adv_intercalados"/>
@@ -9504,7 +9712,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</let>
 	<call-macro n="conj_haverhi">
 	      <with-param pos="2"/>
-	</call-macro> 
+	</call-macro>
 	<out>
 	      <chunk namefrom="lema_SV"  case="caseSecondWord">
 		<tags>
@@ -9516,13 +9724,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</tags>
 		<lu>
 		  <get-case-from pos="2">
-		    <lit v="there"/> 
+		    <lit v="there"/>
 		  </get-case-from>
 		  <lit-tag v="adv"/>
 		</lu>
 		<b/>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>		  
 	      </chunk>
 	    </out>
@@ -9572,7 +9780,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </let>
 	    <choose>
 	      <when>
-		<test> 
+		<test>
 		  <in caseless="yes">
 		    <clip pos="1" side="sl" part="lem"/>
 		    <list n="adv_intercalados"/>
@@ -9616,235 +9824,27 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
 	    <lu>
-	      <var n="verbfinal"/> 
-	      <clip pos="2" side="tl" part="lemq"/> 
-	    </lu>
-	  </chunk>
-	</out>
-      </action>
-    </rule>
-
-
-
-    <rule id="80" comment="ADV HAVER + PP (no han vist - have  seen)">
-      <pattern>
-	<pattern-item n="adv"/> 
-	<pattern-item n="haver"/>
-	<pattern-item n="pp"/> 
-      </pattern>
-      <action>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro> 
-	<choose>
-	  <when>
-	    <test>
-	      <equal caseless="yes">
-		<clip pos="1" side="sl" part="lem"/>
-		<lit v="no"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <var n="SVnegatiu"/>
-	      <lit-tag v="SVneg"/>
-	    </let>
-	    <call-macro n="f_bcond">
-	      <with-param pos="1"/>
-	      <with-param pos="2"/>
-	    </call-macro>
-	    <let>
-		<var n="caseSecondWord"/>
-		<var n="caseFirstWord"/>
-	    </let>
-	  </when>
-	  <otherwise>
-	    <let>
-	      <var n="SVnegatiu"/>
-	      <lit-tag v="SV"/>
-	    </let>
-	    <let>
-		<var n="caseSecondWord"/>
-		<case-of pos="2" side="sl" part="lem"/>
-	    </let>
-	    <choose>
-	      <when>
-		<test> <!--para hacerlo mejor, habría que poner el adverbio entre 'have' y 'pp' -->
-		  <in caseless="yes">
-		    <clip pos="1" side="sl" part="lem"/>
-		    <list n="adv_intercalados"/>
-		  </in>
-		</test>
-		<let>
-		  <var n="lema"/>
-		  <lit v="adv-interc"/>
-		</let>
-	      </when>
-	      <otherwise>
-		<let>
-		  <var n="lema"/>
-		  <lit v="adv"/>
-		</let>
-	      </otherwise>
-	    </choose>	
-	    <out>
-	      <chunk namefrom="lema" case="caseFirstWord">
-		<tags>
-		  <tag><clip pos="1" side="tl" part="a_adv"/></tag>		
-		</tags>
-		<lu>
-		  <clip pos="1" side="tl" part="whole"/>
-		</lu>		 
-	      </chunk>
-	      <b pos="1"/>
-	    </out>
-	  </otherwise>
-	</choose>  
-	<choose>
-	  <when><!--Mira si és 'ha habido'  -->
-	    <test>
-	      <and>
-		<equal caseless="yes">
-		  <clip pos="3" side="sl" part="lem"/>		     
-		  <lit v="haber"/>
-		</equal>
-		<equal>
-		  <clip pos="2" side="sl" part="pers"/>		     
-		  <lit-tag v="p3"/>
-		</equal>
-		<equal>
-		  <clip pos="2" side="sl" part="nbr"/>		     
-		  <lit-tag v="sg"/>
-		</equal>
-	      </and>
-	    </test>
-	    <let>
-	      <clip pos="3" side="tl" part="lem"/>
-	      <get-case-from pos="3">
-		<lit v="be"/>
-	      </get-case-from>
-	    </let>
-	    <let>
-	      <clip pos="3" side="tl" part="a_verb"/>
-	      <lit-tag v="vbser"/>
-	    </let>
-	    <call-macro n="conj_haverhi_pp">
-	      <with-param pos="2"/>
-	    </call-macro> 
-	    <out>
-	      <chunk namefrom="lema_SV"  case="caseSecondWord">
-		<tags>
-		  <tag><var n="SVnegatiu"/></tag>
-		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
-		  <tag><var n="temps_chunk"/></tag>
-		  <tag><var n="pers_chunk"/></tag>
-		  <tag><var n="nbr_chunk"/></tag>
-		</tags>
-		<lu>
-		  <get-case-from pos="2">
-		    <lit v="there"/> 
-		  </get-case-from>
-		  <lit-tag v="adv"/>
-		</lu>
-		<b pos="2"/>
-		<lu>
-		  <var n="verbfinal"/> 
-		</lu>
-		<b/>
-		<lu>
-		  <clip pos="3" side="tl" part="lem"/>
-		  <clip pos="3" side="tl" part="a_pp"/>
-		</lu> 		  
-	      </chunk>
-	    </out>
-	  </when>
-	  <otherwise><!--Si no és 'ha habido' -->   
-	<choose>
-	  <when>
-	    <test>
-	      <equal caseless="yes">
-		<clip pos="3" side="sl" part="lem"/> 
-		<lit v="poder"/>
-	      </equal>
-	    </test>
-	    <let>
-	      <clip pos="3" side="tl" part="lem"/> 
-	      <get-case-from pos="3">
-		<lit v="be able to"/>
-	      </get-case-from>
-	    </let>
-	    <let>
-	      <clip pos="3" side="tl" part="a_pp"/> 
-	      <lit-tag v="vbmod.pp"/>
-	    </let>
-	  </when>
-	</choose>
-
-	<call-macro n="conj_verb1">
-	  <with-param pos="2"/>
-	</call-macro>
-	<choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
-	  <when>
-	    <test>
-	      <or>
-		<equal>
-		  <clip pos="2" side="sl" part="temps"/>
-		  <lit-tag v="cni"/>
-		</equal>
-		<equal>
-		  <clip pos="2" side="sl" part="temps"/>
-		  <lit-tag v="fti"/>
-		</equal>
-	      </or>
-	    </test>
-	    <let>
-	      <var n="lema_SV"/>
-	      <lit v="aux_haver_pp"/>
-	    </let>
-	  </when>
-	  <otherwise>
-	    <let>
-	      <var n="lema_SV"/>
-	      <lit v="haver_pp"/>
-	    </let>
-	  </otherwise>
-	</choose>	
-	<out>
-	  <chunk namefrom="lema_SV" case="caseSecondWord">
-	    <tags>
-	      <tag><var n="SVnegatiu"/></tag>
-	      <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-	      <tag><var n="temps_chunk"/></tag>
-	      <tag><clip pos="2" side="tl" part="pers"/></tag>
-	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
-	    </tags>
-	    <lu>
 	      <var n="verbfinal"/>
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
-	    <b pos="2"/>
-	    <lu>
-	      <clip pos="3" side="tl" part="lemh"/> 
-	      <clip pos="3" side="tl" part="a_pp"/>
-	      <clip pos="3" side="tl" part="lemq"/>    
-	    </lu> 
 	  </chunk>
 	</out>
-	  </otherwise>
-	</choose>
       </action>
     </rule>
+
 
 
     <rule id="81" comment="ADV pro (lo/la) HAVER + PP(pasar bien) (no lo han pasado bien) - regla lexicalizada antes de la correspondiente regla general">
       <pattern>
-	<pattern-item n="adv"/> 
-	<pattern-item n="pro_lola"/> 
-	<pattern-item n="haver"/> 
+	<pattern-item n="adv"/>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="haver"/>
 	<pattern-item n="verb_pronlex_pp"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>    
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -9887,7 +9887,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <b pos="1"/>
 	    </out>
 	  </otherwise>
-	</choose> 
+	</choose>
 	<call-macro n="conj_verb1">
 	  <with-param pos="3"/>
 	</call-macro>
@@ -9931,10 +9931,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="2"/>
 	    <lu>
-	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="lemh"/>
 	      <clip pos="4" side="tl" part="a_pp"/>
-	      <clip pos="4" side="tl" part="lemq"/>    
-	    </lu> 
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
 	</out>
 	<call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
@@ -9946,16 +9946,16 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
  <rule id="82" comment="ADV + pro + pro (lo/la) HAVER + PP(pasar bien) (no se lo han pasado bien)- regla lexicalizada antes de la correspondiente regla general">
       <pattern>
-	<pattern-item n="adv"/> 
-	<pattern-item n="pro"/> 
-	<pattern-item n="pro_lola"/> 
-	<pattern-item n="haver"/> 
+	<pattern-item n="adv"/>
+	<pattern-item n="pro"/>
+	<pattern-item n="pro_lola"/>
+	<pattern-item n="haver"/>
 	<pattern-item n="verb_pronlex_pp"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>    
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -9997,7 +9997,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <b pos="1"/>
 	    </out>
 	  </otherwise>
-	</choose> 
+	</choose>
 	<call-macro n="conj_verb1">
 	  <with-param pos="4"/>
 	</call-macro>
@@ -10041,10 +10041,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="2"/>
 	    <lu>
-	      <clip pos="5" side="tl" part="lemh"/> 
+	      <clip pos="5" side="tl" part="lemh"/>
 	      <clip pos="5" side="tl" part="a_pp"/>
-	      <clip pos="5" side="tl" part="lemq"/>    
-	    </lu> 
+	      <clip pos="5" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
 	</out>
 	<call-macro n="f_bcond"><!--imprimeix el blanc si té info de format, el pronom no l'imprimeixis -->
@@ -10058,15 +10058,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="83" comment="ADV pro HAVER + PP (no els han vist - have not seen them)">
       <pattern>
-	<pattern-item n="adv"/> 
-	<pattern-item n="pro"/> 
-	<pattern-item n="haver"/> 
+	<pattern-item n="adv"/>
+	<pattern-item n="pro"/>
+	<pattern-item n="haver"/>
 	<pattern-item n="pp"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>    
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -10109,7 +10109,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <b pos="1"/>
 	    </out>
 	  </otherwise>
-	</choose> 
+	</choose>
 	<choose>
 	  <when><!--Mira si és '(lo) ha habido' -->
 	    <test>
@@ -10140,7 +10140,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </let>
 	    <call-macro n="conj_haverhi_pp">
 	      <with-param pos="3"/>
-	    </call-macro> 
+	    </call-macro>
 	    <out>
 	      <chunk namefrom="lema_SV" case="caseSecondWord">
 		<tags>
@@ -10152,13 +10152,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</tags>
 		<lu>
 		  <get-case-from pos="2">
-		    <lit v="there"/> 
+		    <lit v="there"/>
 		  </get-case-from>
 		  <lit-tag v="adv"/>
 		</lu>
 		<b pos="2"/>
 		<lu>
-		  <var n="verbfinal"/> 
+		  <var n="verbfinal"/>
 		</lu>
 		<b pos="3"/>
 		<lu>
@@ -10186,18 +10186,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <when>
 		<test>
 		  <equal caseless="yes">
-		    <clip pos="4" side="sl" part="lem"/> 
+		    <clip pos="4" side="sl" part="lem"/>
 		    <lit v="poder"/>
 		  </equal>
 		</test>
 		<let>
-		  <clip pos="4" side="tl" part="lem"/> 
+		  <clip pos="4" side="tl" part="lem"/>
 		  <get-case-from pos="4">
 		    <lit v="be able to"/>
 		  </get-case-from>
 		</let>
 		<let>
-		  <clip pos="4" side="tl" part="a_pp"/> 
+		  <clip pos="4" side="tl" part="a_pp"/>
 		  <lit-tag v="vbmod.pp"/>
 		</let>
 	      </when>
@@ -10265,9 +10265,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b pos="2"/>
 		    <mlu>
 		      <lu>
-			<clip pos="4" side="tl" part="lemh"/> 
+			<clip pos="4" side="tl" part="lemh"/>
 			<clip pos="4" side="tl" part="a_pp"/>
-		      </lu> 
+		      </lu>
 		      <lu>
 			<clip pos="2" side="tl" part="lem"/>
 			<clip pos="2" side="tl" part="a_prn"/>
@@ -10276,7 +10276,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="2" side="tl" part="gen"/>
 			<clip pos="2" side="tl" part="nbr"/>		           
 			<clip pos="4" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
@@ -10323,10 +10323,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </lu>
 		    <b pos="2"/>
 		    <lu>
-		      <clip pos="4" side="tl" part="lemh"/> 
+		      <clip pos="4" side="tl" part="lemh"/>
 		      <clip pos="4" side="tl" part="a_pp"/>
-		      <clip pos="4" side="tl" part="lemq"/>    
-		    </lu> 
+		      <clip pos="4" side="tl" part="lemq"/>
+		    </lu>
 		  </chunk>
 		</out>
 		<!-- ... i després enviem el prn (si cal)-->
@@ -10404,7 +10404,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      </chunk>
 		    </out>
 		  </otherwise>
-		</choose>  
+		</choose>
 	      </otherwise>
 	    </choose>
 	  </otherwise>
@@ -10414,14 +10414,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="84" comment="PER + NO + INF (per no oblidar - not to forget">
       <pattern>
-	<pattern-item n="para"/> 
-	<pattern-item n="no"/> 
-	<pattern-item n="inf"/> 
+	<pattern-item n="para"/>
+	<pattern-item n="no"/>
+	<pattern-item n="inf"/>
       </pattern>
       <action>       	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>    
+	</call-macro>
 	<out>
 	  <chunk name="adv" case="caseFirstWord">
 	    <tags>
@@ -10458,10 +10458,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <clip pos="3" side="tl" part="a_verb"/>
 	      <clip pos="3" side="tl" part="sep"/>
 	      <clip pos="3" side="tl" part="temps" link-to="3"/>
-	      <clip pos="3" side="tl" part="lemq"/>               
-	    </lu>  
+	      <clip pos="3" side="tl" part="lemq"/>
+	    </lu>
 	  </chunk>
-	</out>   
+	</out>
       </action>
     </rule>
 
@@ -10519,7 +10519,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <b pos="1"/>
 	    </out>
 	  </otherwise>
-	</choose>  
+	</choose>
 	<let>
 	  <clip pos="3" side="tl" part="lem"/>
 	  <get-case-from pos="3">
@@ -10532,7 +10532,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</let>
 	<call-macro n="conj_haverhi">
 	  <with-param pos="3"/>
-	</call-macro> 
+	</call-macro>
 	<out>
 	  <chunk namefrom="lema_SV"  case="caseSecondWord">
 	    <tags>
@@ -10544,13 +10544,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </tags>
 	    <lu>
 	      <get-case-from pos="2">
-		<lit v="there"/> 
+		<lit v="there"/>
 	      </get-case-from>
 	      <lit-tag v="adv"/>
 	    </lu>
 	    <b/>
 	    <lu>
-	      <var n="verbfinal"/> 
+	      <var n="verbfinal"/>
 	    </lu>		  
 	  </chunk>
 	  <b pos="2"/>
@@ -10637,8 +10637,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
-		  <clip pos="3" side="tl" part="lemq"/> 
+		  <var n="verbfinal"/>
+		  <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -10717,8 +10717,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="4" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
-		  <clip pos="4" side="tl" part="lemq"/> 
+		  <var n="verbfinal"/>
+		  <clip pos="4" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -10782,7 +10782,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <b pos="1"/>
 	    </out>
 	  </otherwise>
-	</choose>  
+	</choose>
 
 <!--	<choose>
 	  <when>
@@ -10908,8 +10908,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><clip pos="3" side="tl" part="nbr"/></tag>
 		</tags>
 		<lu>
-		  <var n="verbfinal"/> 
-		  <clip pos="3" side="tl" part="lemq"/> 
+		  <var n="verbfinal"/>
+		  <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -11023,7 +11023,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  </chunk>
 		</out>	
 	      </otherwise>
-	    </choose> 
+	    </choose>
 	  </otherwise>
 	</choose>
       </action>
@@ -11035,13 +11035,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="verbnm_inf_ger"/>
-	<pattern-item n="enc"/> 
+	<pattern-item n="enc"/>
       </pattern>
       <action>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
-	<choose>      
+	<choose>
 	  <when>
 	    <test>
 	      <equal>
@@ -11055,7 +11055,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
 		  <tag><clip pos="2" side="tl" part="temps"/></tag>
-		</tags> 
+		</tags>
 		<lu>
 		  <get-case-from pos="1">
 		    <lit v="not"/>
@@ -11075,8 +11075,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="2" side="tl" part="lemh"/>
 		    <clip pos="2" side="tl" part="a_verb"/>
 		    <clip pos="2" side="tl" part="sep"/>
-		    <clip pos="2" side="tl" part="temps" link-to="3"/> 
-		  </lu>  
+		    <clip pos="2" side="tl" part="temps" link-to="3"/>
+		  </lu>
 		  <lu>
 		    <clip pos="3" side="tl" part="lem"/>
 		    <clip pos="3" side="tl" part="a_prn"/>
@@ -11085,7 +11085,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="3" side="tl" part="gen"/>
 		    <clip pos="3" side="tl" part="nbr"/>		           
 		    <clip pos="2" side="tl" part="lemq"/>
-		  </lu> 
+		  </lu>
 		</mlu>
 	      </chunk>
 	    </out>
@@ -11136,7 +11136,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <tag><lit-tag v="SV"/></tag>
 		  <tag><clip pos="2" side="tl" part="a_verb"/></tag>
 		  <tag><clip pos="2" side="sl" part="temps"/></tag>
-		</tags> 
+		</tags>
 		<lu>
 		  <get-case-from pos="1">
 		    <lit v="not"/>
@@ -11157,7 +11157,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  <clip pos="2" side="tl" part="sep"/>
 		  <clip pos="2" side="tl" part="temps" link-to="3"/> 	           
 		  <clip pos="2" side="tl" part="lemq"/>
-		</lu>   
+		</lu>
 		<b/>
 		<lu>
 		  <var n="prepo"/>
@@ -11165,7 +11165,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<var n="espai"/>
 		<lu>
 		  <clip pos="3" side="tl" part="whole"/>	
-		</lu> 
+		</lu>
 	      </chunk>
 	    </out>
 	  </otherwise>	   
@@ -11177,15 +11177,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 
     <rule id="90" comment="NO VERB + ENCL + ENCL (no portar-me'ls - not to bring them to me)(en gerundi?)">
       <pattern>
-	<pattern-item n="no"/> 
-	<pattern-item n="verbnm_inf_ger"/> 
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc"/> 
+	<pattern-item n="no"/>
+	<pattern-item n="verbnm_inf_ger"/>
+	<pattern-item n="enc"/>
+	<pattern-item n="enc"/>
       </pattern>
       <action>           	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>     
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -11208,7 +11208,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><lit-tag v="SV"/></tag>
 		      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
 		      <tag><clip pos="2" side="tl" part="temps"/></tag>
-		    </tags> 
+		    </tags>
 		    <lu>
 		      <get-case-from pos="1">
 			<lit v="not"/>
@@ -11228,8 +11228,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="2" side="tl" part="lemh"/>
 			<clip pos="2" side="tl" part="a_verb"/>
 			<clip pos="2" side="tl" part="sep"/>
-			<clip pos="2" side="tl" part="temps" link-to="3"/> 
-		      </lu>  
+			<clip pos="2" side="tl" part="temps" link-to="3"/>
+		      </lu>
 		      <lu>
 			<clip pos="3" side="tl" part="lem"/>
 			<clip pos="3" side="tl" part="a_prn"/>
@@ -11238,7 +11238,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="3" side="tl" part="gen"/>
 			<clip pos="3" side="tl" part="nbr"/>		           
 			<clip pos="2" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
@@ -11250,7 +11250,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><lit-tag v="SV"/></tag>
 		      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
 		      <tag><clip pos="2" side="sl" part="temps"/></tag>
-		    </tags> 
+		    </tags>
 		    <lu>
 		      <get-case-from pos="1">
 			<lit v="not"/>
@@ -11271,11 +11271,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <clip pos="2" side="tl" part="sep"/>
 		      <clip pos="2" side="tl" part="temps" link-to="3"/>	           
 		      <clip pos="2" side="tl" part="lemq"/>
-		    </lu>   
-		    <b/>   
+		    </lu>
+		    <b/>
 		    <lu>
 		      <clip pos="3" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </otherwise>
@@ -11296,7 +11296,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><lit-tag v="SV"/></tag>
 		      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
 		      <tag><clip pos="2" side="tl" part="temps"/></tag>
-		    </tags> 
+		    </tags>
 		    <lu>
 		      <get-case-from pos="1">
 			<lit v="not"/>
@@ -11316,8 +11316,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="2" side="tl" part="lemh"/>
 			<clip pos="2" side="tl" part="a_verb"/>
 			<clip pos="2" side="tl" part="sep"/>
-			<clip pos="2" side="tl" part="temps" link-to="3"/> 
-		      </lu>  
+			<clip pos="2" side="tl" part="temps" link-to="3"/>
+		      </lu>
 		      <lu>
 			<clip pos="4" side="tl" part="lem"/>
 			<clip pos="4" side="tl" part="a_prn"/>
@@ -11326,7 +11326,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="4" side="tl" part="gen"/>
 			<clip pos="4" side="tl" part="nbr"/>		           
 			<clip pos="2" side="tl" part="lemq"/>
-		      </lu> 
+		      </lu>
 		    </mlu>
 		  </chunk>
 		</out>
@@ -11338,7 +11338,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <tag><lit-tag v="SV"/></tag>
 		      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
 		      <tag><clip pos="2" side="sl" part="temps"/></tag>
-		    </tags> 
+		    </tags>
 		    <lu>
 		      <get-case-from pos="1">
 			<lit v="not"/>
@@ -11359,11 +11359,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		      <clip pos="2" side="tl" part="sep"/>
 		      <clip pos="2" side="tl" part="temps" link-to="3"/>	           
 		      <clip pos="2" side="tl" part="lemq"/>
-		    </lu>   
-		    <b/>   
+		    </lu>
+		    <b/>
 		    <lu>
 		      <clip pos="4" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </otherwise>
@@ -11397,13 +11397,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b/>
 		    <lu>
 		      <clip pos="3" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </when>
 	    </choose>
 	  </otherwise>
-	</choose> 
+	</choose>
       </action>
     </rule>
 
@@ -11413,13 +11413,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="verbm_inf_ger"/>
-	<pattern-item n="enc"/> 
+	<pattern-item n="enc"/>
 	<pattern-item n="inf"/>
       </pattern>
       <action>               	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro> 
+	</call-macro>
 	<let>
 	  <clip pos="2" side="tl" part="temps"/>
 	  <lit-tag v="ger"/>
@@ -11451,7 +11451,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<clip pos="4" side="tl" part="sep"/>
 		<lit-tag v="sep"/>
 	      </equal>
-	    </test>   
+	    </test>
 	    <out>
 	      <chunk name="no_mod_inf_enc" case="caseFirstWord">
 		<tags>
@@ -11471,14 +11471,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<lu>
 		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_verb"/>
-		  <clip pos="2" side="tl" part="temps" link-to="3"/>      
+		  <clip pos="2" side="tl" part="temps" link-to="3"/>
 		  <clip pos="2" side="tl" part="lemq"/>
-		</lu>  
+		</lu>
 		<b pos="3"/>
 		<mlu>
 		  <lu>
-		    <clip pos="4" side="tl" part="lemh"/>      
-		    <clip pos="4" side="tl" part="a_verb"/>    
+		    <clip pos="4" side="tl" part="lemh"/>
+		    <clip pos="4" side="tl" part="a_verb"/>
 		    <clip pos="4" side="tl" part="sep"/>
 		    <clip pos="4" side="tl" part="temps"/>
 		  </lu>
@@ -11488,12 +11488,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="3" side="tl" part="tipus_prn"/>
 		    <clip pos="3" side="tl" part="pers"/>
 		    <clip pos="3" side="tl" part="gen"/>
-		    <clip pos="3" side="tl" part="nbr"/>      
+		    <clip pos="3" side="tl" part="nbr"/>
 		    <clip pos="4" side="tl" part="lemq"/>
-		  </lu> 
+		  </lu>
 		</mlu>
 	      </chunk>
-	    </out>  
+	    </out>
 	  </when>
 	  <otherwise>
 	    <out>
@@ -11515,34 +11515,34 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		<lu>
 		  <clip pos="2" side="tl" part="lemh"/>
 		  <clip pos="2" side="tl" part="a_verb"/>
-		  <clip pos="2" side="tl" part="temps" link-to="3"/>      
+		  <clip pos="2" side="tl" part="temps" link-to="3"/>
 		  <clip pos="2" side="tl" part="lemq"/>
-		</lu>  
+		</lu>
 		<b pos="3"/>
 		<lu>
-		  <clip pos="4" side="tl" part="lemh"/>      
-		  <clip pos="4" side="tl" part="a_verb"/>    
+		  <clip pos="4" side="tl" part="lemh"/>
+		  <clip pos="4" side="tl" part="a_verb"/>
 		  <clip pos="4" side="tl" part="sep"/>
-		  <clip pos="4" side="tl" part="temps"/>      
+		  <clip pos="4" side="tl" part="temps"/>
 		  <clip pos="4" side="tl" part="lemq"/>
 		</lu>
 		<b/>
 		<lu>
 		  <clip pos="3" side="tl" part="whole"/>
-		</lu> 
+		</lu>
 	      </chunk>
-	    </out>  
+	    </out>
 	  </otherwise>
-	</choose>  
+	</choose>
       </action>
     </rule>
 
     <rule id="92" comment="NO + VERBMOD + ENCL + ENCL + INF (no poder-los-ho explicar -> not being able to explain it to them)">
       <pattern>
-	<pattern-item n="no"/> 
-	<pattern-item n="verbm_inf_ger"/> 
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc"/> 
+	<pattern-item n="no"/>
+	<pattern-item n="verbm_inf_ger"/>
+	<pattern-item n="enc"/>
+	<pattern-item n="enc"/>
 	<pattern-item n="inf"/>
       </pattern>
       <action>              	
@@ -11588,7 +11588,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="5" side="tl" part="sep"/>
 		    <lit-tag v="sep"/>
 		  </equal>
-		</test>  
+		</test>
 		<out>
 		  <chunk name="no_mod_inf_enc" case="caseFirstWord">
 		    <tags>
@@ -11614,10 +11614,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b pos="4"/>
 		    <mlu>
 		      <lu>
-			<clip pos="5" side="tl" part="lemh"/>      
-			<clip pos="5" side="tl" part="a_verb"/>   
+			<clip pos="5" side="tl" part="lemh"/>
+			<clip pos="5" side="tl" part="a_verb"/>
 			<clip pos="5" side="tl" part="sep"/>
-			<clip pos="5" side="tl" part="temps"/> 
+			<clip pos="5" side="tl" part="temps"/>
 		      </lu>
 		      <lu>
 			<clip pos="3" side="tl" part="lem"/>
@@ -11625,7 +11625,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="3" side="tl" part="tipus_prn"/>
 			<clip pos="3" side="tl" part="pers"/>
 			<clip pos="3" side="tl" part="gen"/>
-			<clip pos="3" side="tl" part="nbr"/>     
+			<clip pos="3" side="tl" part="nbr"/>
 			<clip pos="5" side="tl" part="lemq"/>
 		      </lu>
 		    </mlu>
@@ -11657,10 +11657,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </lu>
 		    <b pos="4"/>
 		    <lu>
-		      <clip pos="5" side="tl" part="lemh"/>      
-		      <clip pos="5" side="tl" part="a_verb"/>     
+		      <clip pos="5" side="tl" part="lemh"/>
+		      <clip pos="5" side="tl" part="a_verb"/>
 		      <clip pos="5" side="tl" part="sep"/>
-		      <clip pos="5" side="tl" part="temps"/>      
+		      <clip pos="5" side="tl" part="temps"/>
 		      <clip pos="5" side="tl" part="lemq"/>
 		    </lu>
 		    <b/>
@@ -11680,7 +11680,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="5" side="tl" part="sep"/>
 		    <lit-tag v="sep"/>
 		  </equal>
-		</test>    
+		</test>
 		<out>
 		  <chunk name="no_mod_inf_enc_enc" case="caseFirstWord">
 		    <tags>
@@ -11706,10 +11706,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b pos="4"/>
 		    <mlu>
 		      <lu>
-			<clip pos="5" side="tl" part="lemh"/>      
-			<clip pos="5" side="tl" part="a_verb"/>    
+			<clip pos="5" side="tl" part="lemh"/>
+			<clip pos="5" side="tl" part="a_verb"/>
 			<clip pos="5" side="tl" part="sep"/>
-			<clip pos="5" side="tl" part="temps"/> 
+			<clip pos="5" side="tl" part="temps"/>
 		      </lu>
 		      <lu>
 			<clip pos="4" side="tl" part="lem"/>
@@ -11717,7 +11717,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 			<clip pos="4" side="tl" part="tipus_prn"/>
 			<clip pos="4" side="tl" part="pers"/>
 			<clip pos="4" side="tl" part="gen"/>
-			<clip pos="4" side="tl" part="nbr"/>     
+			<clip pos="4" side="tl" part="nbr"/>
 			<clip pos="5" side="tl" part="lemq"/>
 		      </lu>
 		    </mlu>
@@ -11749,10 +11749,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    </lu>
 		    <b pos="4"/>
 		    <lu>
-		      <clip pos="5" side="tl" part="lemh"/>      
-		      <clip pos="5" side="tl" part="a_verb"/>    
+		      <clip pos="5" side="tl" part="lemh"/>
+		      <clip pos="5" side="tl" part="a_verb"/>
 		      <clip pos="5" side="tl" part="sep"/>
-		      <clip pos="5" side="tl" part="temps"/>    
+		      <clip pos="5" side="tl" part="temps"/>
 		      <clip pos="5" side="tl" part="lemq"/>
 		    </lu>
 		    <b/>
@@ -11774,7 +11774,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		  </not>
 		</test>
 		<out>
-		  <b/> 
+		  <b/>
 		  <chunk name="to_prn">
 		    <tags>
 		      <tag><lit-tag v="SP"/></tag>
@@ -11792,13 +11792,13 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <b/>
 		    <lu>
 		      <clip pos="3" side="tl" part="whole"/>
-		    </lu> 
+		    </lu>
 		  </chunk>
 		</out>
 	      </when>
 	    </choose>
 	  </otherwise>
-	</choose> 
+	</choose>
       </action>
     </rule>
 
@@ -11807,12 +11807,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="verbm_inf_ger"/>
-	<pattern-item n="enc"/> 
+	<pattern-item n="enc"/>
       </pattern>
       <action>              	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>  
+	</call-macro>
 	<let>
 	  <clip pos="2" side="tl" part="temps"/>
 	  <lit-tag v="ger"/>
@@ -11856,15 +11856,15 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <lu>
 	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_verb"/>
-	      <clip pos="2" side="tl" part="temps" link-to="3"/>      
+	      <clip pos="2" side="tl" part="temps" link-to="3"/>
 	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>	  
 	    <b/>
 	    <lu>
 	      <clip pos="3" side="tl" part="whole"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -11873,8 +11873,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <pattern>
 	<pattern-item n="no"/>
 	<pattern-item n="verbm_inf_ger"/>
-	<pattern-item n="enc"/> 
-	<pattern-item n="enc"/> 
+	<pattern-item n="enc"/>
+	<pattern-item n="enc"/>
       </pattern>
       <action>              	
 	<call-macro n="firstWord">
@@ -11929,25 +11929,25 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <b/>
 	    <lu>
 	      <clip pos="3" side="tl" part="whole"/>
-	    </lu> 
+	    </lu>
 	    <b/>
 	    <lu>
 	      <clip pos="4" side="tl" part="whole"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>    
+	</out>
       </action>
     </rule>
 
     <rule id="95" comment="REGLA: DE + INF // forma de jugar → way of playing">
       <pattern>
 	<pattern-item n="de"/>
-	<pattern-item n="inf"/> 
+	<pattern-item n="inf"/>
       </pattern>
       <action>     	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>   
+	</call-macro>
 	<let>
 	  <clip pos="2" side="tl" part="temps"/>
 	  <lit-tag v="ger"/>
@@ -11956,18 +11956,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="2" side="sl" part="lem"/> 
+		<clip pos="2" side="sl" part="lem"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <get-case-from pos="2">
 		<lit v="be able to"/>
 	      </get-case-from>
 	    </let>
 	    <let>
-	      <clip pos="2" side="tl" part="a_verb"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
 	      <lit-tag v="vbmod"/>
 	    </let>
 	  </when>
@@ -11981,20 +11981,20 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </tags>
 	    <lu>
 	      <get-case-from pos="1">
-		<lit v="de"/>
+		<lit v="of"/>
 	      </get-case-from>
 	      <clip pos="1" side="tl" part="tags"/>
 	    </lu>
 	    <b pos="1"/>
 	    <lu>
-	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_verb"/>
 	      <clip pos="2" side="tl" part="sep"/>
 	      <clip pos="2" side="tl" part="temps" link-to="3"/>
-	      <clip pos="2" side="tl" part="lemq"/>    
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -12002,12 +12002,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <rule id="96" comment="REGLA: NO + INF (no jugar - not playing)">
       <pattern>
 	<pattern-item n="no"/>
-	<pattern-item n="inf"/> 
+	<pattern-item n="inf"/>
       </pattern>
       <action>     	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>   
+	</call-macro>
 	<let>
 	  <clip pos="2" side="tl" part="temps"/>
 	  <lit-tag v="ger"/>
@@ -12016,18 +12016,18 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="2" side="sl" part="lem"/> 
+		<clip pos="2" side="sl" part="lem"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
 	    <let>
-	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="lem"/>
 	      <get-case-from pos="2">
 		<lit v="be able to"/>
 	      </get-case-from>
 	    </let>
 	    <let>
-	      <clip pos="2" side="tl" part="a_verb"/> 
+	      <clip pos="2" side="tl" part="a_verb"/>
 	      <lit-tag v="vbmod"/>
 	    </let>
 	  </when>
@@ -12047,21 +12047,21 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>
-	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_verb"/>
 	      <clip pos="2" side="tl" part="sep"/>
 	      <clip pos="2" side="tl" part="temps" link-to="3"/>
-	      <clip pos="2" side="tl" part="lemq"/>    
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
     <rule id="97" comment="REGLA: NO + GER (no fent - not doing)">
       <pattern>
-	<pattern-item n="no"/> 
-	<pattern-item n="ger"/> 
+	<pattern-item n="no"/>
+	<pattern-item n="ger"/>
       </pattern>
       <action>     	
 	<call-macro n="firstWord">
@@ -12071,7 +12071,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <when>
 	    <test>
 	      <equal caseless="yes">
-		<clip pos="2" side="sl" part="lemh"/> 
+		<clip pos="2" side="sl" part="lemh"/>
 		<lit v="poder"/>
 	      </equal>
 	    </test>
@@ -12102,14 +12102,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    </lu>
 	    <b pos="1"/>
 	    <lu>
-	      <clip pos="2" side="tl" part="lemh"/> 
+	      <clip pos="2" side="tl" part="lemh"/>
 	      <clip pos="2" side="tl" part="a_verb"/>
 	      <clip pos="2" side="tl" part="sep"/>
 	      <clip pos="2" side="tl" part="temps"/>
-	      <clip pos="2" side="tl" part="lemq"/>    
+	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
     
@@ -12141,32 +12141,32 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="3" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="lem"/>
 	      <clip pos="3" side="tl" part="tags"/>
-	    </lu> 
+	    </lu>
 	    <b pos="3"/>
-	    <lu>     
-	      <clip pos="5" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="5" side="tl" part="whole"/>
 	    </lu>
 	    <b pos="6"/>
-	    <lu>     
-	      <clip pos="7" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="7" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
-	</call-macro>  
+	</call-macro>
 	<call-macro n="f_bcond">
 	  <with-param pos="4"/>
 	  <with-param pos="5"/>
-	</call-macro>  
+	</call-macro>
 	<call-macro n="f_bcond">
 	  <with-param pos="5"/>
 	  <with-param pos="6"/>
-	</call-macro>  
+	</call-macro>
       </action>
     </rule>
 
@@ -12200,28 +12200,28 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="2" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="tags"/>
-	    </lu> 
+	    </lu>
 	    <b pos="3"/>
-	    <lu>     
-	      <clip pos="4" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="4" side="tl" part="whole"/>
 	    </lu>
 	    <b pos="5"/>
-	    <lu>     
-	      <clip pos="6" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="6" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
-	</call-macro>  
+	</call-macro>
 	<call-macro n="f_bcond">
 	  <with-param pos="4"/>
 	  <with-param pos="5"/>
-	</call-macro>  
+	</call-macro>
       </action>
     </rule>
 
@@ -12237,33 +12237,33 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="num_de_mes_de_ano" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="tags"/>
-	    </lu> 
+	    </lu>
 	    <b pos="1"/>
-	    <lu>     
-	      <clip pos="3" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="whole"/>
 	    </lu>
 	    <b pos="3"/>
-	    <lu>     
-	      <clip pos="5" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="5" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
-	</call-macro>  
+	</call-macro>
 	<call-macro n="f_bcond">
 	  <with-param pos="4"/>
 	  <with-param pos="5"/>
-	</call-macro>  
+	</call-macro>
       </action>
     </rule>
 
@@ -12293,24 +12293,24 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="3" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="lem"/>
 	      <clip pos="3" side="tl" part="tags"/>
-	    </lu> 
+	    </lu>
 	    <b pos="3"/>
-	    <lu>     
-	      <clip pos="5" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="5" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
-	</call-macro>  
+	</call-macro>
 	<call-macro n="f_bcond">
 	  <with-param pos="4"/>
 	  <with-param pos="5"/>
-	</call-macro>  
+	</call-macro>
       </action>
     </rule>
 
@@ -12342,20 +12342,20 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="2" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lem"/>
 	      <clip pos="2" side="tl" part="tags"/>
-	    </lu> 
+	    </lu>
 	    <b pos="3"/>
-	    <lu>     
-	      <clip pos="4" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="4" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
-	</call-macro>  
+	</call-macro>
       </action>
     </rule>
 
@@ -12369,25 +12369,25 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
-	<out>  
+	<out>
 	  <chunk name="num_de_mes" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="tags"/>
-	    </lu> 
+	    </lu>
 	    <b pos="1"/>
-	    <lu>     
-	      <clip pos="3" side="tl" part="whole"/> 
+	    <lu>
+	      <clip pos="3" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
-	</call-macro>  
+	</call-macro>
       </action>
     </rule>
 
@@ -12424,7 +12424,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	</choose>
 	<choose>
 	  <when>
-	    <test> 
+	    <test>
 	      <in caseless="yes">
 		<clip pos="1" side="sl" part="lem"/>
 		<list n="adv_intercalados"/>
@@ -12453,7 +12453,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <clip pos="1" side="tl" part="a_adv"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
@@ -12474,12 +12474,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
 
 
-<rule id="106" comment="PRONOM tònic/interrogatiu/possessiu"> 
+<rule id="106" comment="PRONOM tònic/interrogatiu/possessiu">
       <pattern>
 	<pattern-item n="tn_itg_pos"/>
       </pattern>
@@ -12496,12 +12496,12 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
 	    <lu>
-	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="lem"/>
 	      <clip pos="1" side="tl" part="a_prn"/>
 	      <clip pos="1" side="tl" part="tipus_prn"/>
 	      <clip pos="1" side="tl" part="gen" link-to="3"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="4"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
 	</out>
       </action>
@@ -12526,16 +12526,16 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="tl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/>  
-	      <clip pos="1" side="tl" part="a_prn"/>  
-	      <clip pos="1" side="tl" part="tipus_prn" link-to="2"/> 
+	    <lu>
+	      <clip pos="1" side="tl" part="lem"/>
+	      <clip pos="1" side="tl" part="a_prn"/>
+	      <clip pos="1" side="tl" part="tipus_prn" link-to="2"/>
 	      <clip pos="1" side="tl" part="pers"/>
 	      <clip pos="1" side="tl" part="gen"/>
 	      <clip pos="1" side="tl" part="nbr"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
     
@@ -12549,7 +12549,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	  <with-param pos="1"/>
 	</call-macro>
 	<let>
-	  <clip pos="2" side="tl" part="tipus_prn"/> 
+	  <clip pos="2" side="tl" part="tipus_prn"/>
 	  <lit-tag v="obj"/>
 	</let>
 	<choose>
@@ -12557,11 +12557,11 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <test>
 	      <and>
 		<equal>
-		  <clip pos="2" side="sl" part="pers"/> 
+		  <clip pos="2" side="sl" part="pers"/>
 		  <lit-tag v="p3"/>
 		</equal>
 		<equal>
-		  <clip pos="2" side="sl" part="nbr"/> 
+		  <clip pos="2" side="sl" part="nbr"/>
 		  <lit-tag v="pl"/>
 		</equal>
 	      </and>
@@ -12590,16 +12590,16 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="2" side="tl" part="gen"/></tag>
 	      <tag><clip pos="2" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
-	      <clip pos="2" side="tl" part="lem"/>  
-	      <clip pos="2" side="tl" part="a_prn"/>  
-	      <clip pos="2" side="tl" part="tipus_prn" link-to="2"/> 
+	    <lu>
+	      <clip pos="2" side="tl" part="lem"/>
+	      <clip pos="2" side="tl" part="a_prn"/>
+	      <clip pos="2" side="tl" part="tipus_prn" link-to="2"/>
 	      <clip pos="2" side="tl" part="pers"/>
 	      <clip pos="2" side="tl" part="gen"/>
 	      <clip pos="2" side="tl" part="nbr"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
     
@@ -12642,7 +12642,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <lit-tag v="rel.an.mf.sp"/>
 	    </lu>
 	  </chunk>
-	</out>  
+	</out>
       </action>
     </rule>
     
@@ -12726,7 +12726,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <lit-tag v="prn.tn"/>
 	      <lit-tag v="3"/>
 	      <lit-tag v="4"/>
-	    </lu> 
+	    </lu>
 	  </chunk>
 	  <chunk name="punt">
 	    <tags>
@@ -12856,7 +12856,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
@@ -12881,7 +12881,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>
@@ -12905,7 +12905,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	      <tag><clip pos="1" side="sl" part="gen"/></tag>
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
-	    <lu>   
+	    <lu>
 	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
 	  </chunk>

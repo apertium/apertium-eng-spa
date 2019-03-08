@@ -6063,7 +6063,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
      
-    <rule id="16" comment="REGLA: ADJ NOM" id="adj_nom:adj_nom">
+    <rule id="16" comment="REGLA: ADJ NOM">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="nom"/>
@@ -6112,7 +6112,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule id="17" comment="REGLA: ADJ NOM" id="adj_nom:nom_adj">
+    <rule id="17" comment="REGLA: ADJ NOM">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="nom"/>
@@ -6161,7 +6161,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule id="18" comment="REGLA: DET ADJ NOM → DET ADJ NOM" id="det_adj_nom:det_adj_nom">
+    <rule id="18" comment="REGLA: DET ADJ NOM → DET ADJ NOM">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -6232,7 +6232,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule id="19" comment="REGLA: DET ADJ NOM → DET NOM ADJ" id="det_adj_nom:det_nom_adj">
+    <rule id="19" comment="REGLA: DET ADJ NOM → DET NOM ADJ">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -8666,7 +8666,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <!-- SINTAGMES NOMINALS AMB MES D'UN NOM-->
 
 
-    <rule id="50" comment="REGLA: NOM1 NOM2 -> NOM2 de NOM1" id="nom_nom:nom_nom">
+    <rule id="50" comment="REGLA: NOM1 NOM2 -> NOM2 de NOM1">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="nom"/>
@@ -8706,7 +8706,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule id="51" comment="REGLA: NOM1 NOM2 -> NOM2 de NOM1" id="nom_nom:nom_de_nom">
+    <rule id="51" comment="REGLA: NOM1 NOM2 -> NOM2 de NOM1">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="nom"/>

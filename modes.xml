@@ -546,10 +546,6 @@
         <file name="spa-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer -n">
-        <file name="apertium-eng-spa.spa-eng.genitive.t1x"/>
-        <file name="spa-eng.genitive.bin"/>
-      </program>
       <program name="lt-proc -b">
         <file name="spa-eng.autobil.bin"/>
       </program>
@@ -565,10 +561,6 @@
         <file name="spa-eng.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer -n">
-        <file name="apertium-eng-spa.spa-eng.genitive.t1x"/>
-        <file name="spa-eng.genitive.bin"/>
-      </program>
       <program name="lt-proc -b">
         <file name="spa-eng.autobil.bin"/>
       </program>

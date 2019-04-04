@@ -72,6 +72,8 @@
       <match lemma="legal" tags="adj"/>
       <match lemma="human" tags="adj"/>
       <match lemma="basic" tags="adj"/>
+      <match lemma="voting" tags="adj"/>
+      <match lemma="civil" tags="adj"/>
     </or>
     <match lemma="right" tags="n.*">
       <select lemma="derecho" tags="n.*" />

@@ -406,6 +406,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <cat-item lemma="diciembre" tags="n.m.sg"/>
     </def-cat>
 
+    <def-cat n="det_pos"><!-- anaphora -->
+      <cat-item tags="det.pos.*"/>
+    </def-cat>
+
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -651,7 +655,6 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <list-item v="ya no"/>
       <list-item v="pronto"/>
 </def-list>
-
 
   </section-def-lists>
 
@@ -3108,14 +3111,29 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
    </choose>
  </def-macro>
 
-
+ <def-macro n="ref" npar="1"> <!-- anaphora -->
+      <choose>
+          <when>
+            <test><equal><clip pos="1" side="ref" part="nbr"/><lit-tag v="pl"/></equal></test>
+            <let><clip pos="1" side="tl" part="lem"/><lit v="their"/></let>
+            <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+          </when>
+          <when> <!-- Should also check for animacy: el cotxe ... el seu ... → the car ... its ...  -->
+            <test><equal><clip pos="1" side="ref" part="gen"/><lit-tag v="m"/></equal></test>
+            <let><clip pos="1" side="tl" part="lem"/><lit v="his"/></let>
+            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+          </when>
+          <when> <!-- Should also check for animacy: la máquina ... el seu ... → the machine ... its ... -->
+            <test><equal><clip pos="1" side="ref" part="gen"/><lit-tag v="f"/></equal></test>
+            <let><clip pos="1" side="tl" part="lem"/><lit v="her"/></let>
+            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></let>
+          </when>
+        </choose>
+    </def-macro>
 
   </section-def-macros> 
 
   <section-rules>
-
-
-
 
     <!--*************************************** REGLES DE SN ******************************************** -->
 
@@ -3207,6 +3225,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="ant"/>
       </pattern>
       <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
@@ -3309,6 +3330,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="nom"/>
       </pattern>
       <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
@@ -3542,7 +3566,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="nom"/>
 	<pattern-item n="adj"/>
       </pattern>
-      <action>	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -3740,7 +3767,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="adj"/>
 	<pattern-item n="nom"/>
       </pattern>
-      <action>	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -3873,7 +3903,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="nom"/>
 	<pattern-item n="adj"/>
       </pattern>
-      <action>	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -3944,7 +3977,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="adj"/>
 	<pattern-item n="adj"/>
       </pattern>
-      <action>	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -4058,7 +4094,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="adv_preadv"/>
 	<pattern-item n="adj_pp"/>
       </pattern>
-      <action>	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -4434,7 +4473,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="adj_pp"/>
 	<pattern-item n="nom"/>
       </pattern>
-      <action>	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -4597,7 +4639,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="cnjcoo"/>
 	<pattern-item n="adj"/>
       </pattern>
-      <action>		
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>		
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -4730,7 +4775,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="cnjcoo"/>
 	<pattern-item n="adj"/>
       </pattern>
-      <action>		
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>		
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -4866,7 +4914,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="adv_preadv"/>
 	<pattern-item n="adj"/>
       </pattern>
-      <action>		
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>		
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -5064,7 +5115,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
       </pattern>
-      <action>          	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>	
@@ -5137,7 +5191,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	<pattern-item n="más"/>
 	<pattern-item n="adj_pp"/>
       </pattern>
-      <action>          	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>          	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
@@ -5235,7 +5292,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <pattern>
 	<pattern-item n="det"/>
       </pattern>
-      <action>        	
+      <action>
+  <call-macro n="ref"> <!-- anaphora -->
+    <with-param pos="1"/>
+  </call-macro>        	
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>

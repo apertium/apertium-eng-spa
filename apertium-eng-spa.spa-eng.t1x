@@ -406,10 +406,6 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
       <cat-item lemma="diciembre" tags="n.m.sg"/>
     </def-cat>
 
-    <def-cat n="det_pos"><!-- anaphora -->
-      <cat-item tags="det.pos.*"/>
-    </def-cat>
-
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">

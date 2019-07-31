@@ -3112,8 +3112,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
     <when>
       <test><not> <!-- ignore if it's first person, i.e. my or our -->
         <or>
-          <equal><clip pos="1" side="tl" part="lem"/><lit v="my"/></equal>
-          <equal><clip pos="1" side="tl" part="lem"/><lit v="our"/></equal>
+          <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="my"/></equal>
+          <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="our"/></equal>
         </or>
       </not></test>
       <choose>

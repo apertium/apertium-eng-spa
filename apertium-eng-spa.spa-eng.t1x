@@ -3108,6 +3108,14 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
  </def-macro>
 
  <def-macro n="ref" npar="1"> <!-- anaphora -->
+  <choose>
+    <when>
+      <test><not> <!-- ignore if it's first person, i.e. my or our -->
+        <or>
+          <equal><clip pos="1" side="tl" part="lem"/><lit v="my"/></equal>
+          <equal><clip pos="1" side="tl" part="lem"/><lit v="our"/></equal>
+        </or>
+      </not></test>
       <choose>
           <when>
             <test><equal><clip pos="1" side="ref" part="nbr"/><lit-tag v="pl"/></equal></test>
@@ -3124,8 +3132,10 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
             <let><clip pos="1" side="tl" part="lem"/><lit v="her"/></let>
             <let><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></let>
           </when>
-        </choose>
-    </def-macro>
+      </choose>
+    </when>
+  </choose>
+ </def-macro>
 
   </section-def-macros> 
 

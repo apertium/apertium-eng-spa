@@ -3145,7 +3145,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
             <test>
               <or>
                 <equal><clip pos="1" side="ref" part="gen"/><lit-tag v="f"/></equal>
-                <in>
+                <in caseless="yes">
                   <clip pos="1" side="ref" part="lem"/>
                   <list n="en_nouns_fem"/>
                 </in>

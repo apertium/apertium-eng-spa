@@ -8814,10 +8814,9 @@ convertirse en un personaje de moda o importante. -->
     -->
     <rule weight="1.0">
       <match lemma="alteration" tags="n.*"/>
-      <or>
-        <match lemma="cause" tags="vblex.past.*"/>
-        <match lemma="cause" tags="vblex.pp"/>
-      </or>
+      <match lemma="cause" tags="vblex.past.*">
+      	<select lemma="causar" tags="vblex.ppi.*"/>
+      </match>
       <match lemma="controversy" tags="n.*"/>
     </rule>
     

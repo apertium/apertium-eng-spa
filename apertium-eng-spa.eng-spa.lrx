@@ -8847,18 +8847,15 @@ convertirse en un personaje de moda o importante. -->
     </rule>
 
     <!--
-      eng: make concrete
-      spa: hacer hormigón
+      eng: at the time
+      spa: en ese tiempo
     -->
     <rule weight="1.0">
-      <or>
-        <match lemma="make" tags="vblex.*"/>
-        <match lemma="create" tags="vblex.*"/>
-        <match lemma="manufacture" tags="vblex.*"/>
-      </or>
-      <match lemma="concrete" tags="n.*">
-        <select lemma="hormigón" tags="n.*"/>
+      <match lemma="at" tags="pr"/>
+      <match lemma="the" tags="det.def.*">
+      	<select lemma="ese" tags="det.dem.*"/>
       </match>
+      <match lemma="time" tags="n.*"/>
     </rule>
 
 

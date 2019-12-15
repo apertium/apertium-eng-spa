@@ -8715,6 +8715,152 @@ convertirse en un personaje de moda o importante. -->
           <match lemma="save" tags="vblex.*"><select lemma="ahorrar" tags="vblex.*"/></match>
           <match lemma="money" tags="n.*"/>
         </rule>
+	
+	<!--
+    	eng: much of the
+    	spa: gran parte de
+    -->
+    <rule weight="1.0">
+    	<match lemma="much" tags="det.qnt.*">
+    		<select lemma="gran" tags="adj.mf.*"/>
+    	</match>
+    	<match lemma="of" tags="pr">
+    		<select lemma="parte" tags="n.*"/>
+    	</match>
+    	<match lemma="the" tags="det.def.*">
+    		<select lemma="de" tags="pr"/>
+    	</match>
+    </rule>
+
+    <!--
+    	eng: Middle Ages
+      spa: Edad Media (was translated to "Edades Medias")
+    -->
+    <rule weight="1.0">
+      <match lemma="Middle" tags="adj">
+        <select lemma="Edad" tags="n.f.sg"/>
+      </match>
+      <match lemma="Ages" tags="n.*">
+        <select lemma="Media" tags="adj.f.sg"/>
+      </match>
+    </rule>
+    
+    <!--
+      eng: , as [personal pronoun/np] + (was/were) + here/there
+      spa: , ya que [personal pronoun/np] + (estar) + allí/aquí
+    -->
+    <rule weight="1.0">
+      <match tags="cm"/>
+      <match lemma="as" tags="cnjadv">
+        <select lemma="ya que" tags="cnjadv"/>
+      </match>
+      <or>
+        <match tags="prn.subj.*"/>
+        <match tags="np.*"/>
+      </or>
+      <match tags="vbser.past.*">
+        <select lemma="estar" tags="vblex.ppi.*"/>
+      </match>
+      <or>
+        <match lemma="here" tags="adv"/>
+        <match lemma="there" tags="adv"/>
+      </or>
+    </rule>
+    
+    <!--
+      eng: the [ordinal] to [vblex]
+      spa: el [ordinal] en [vblex]
+      example: the first to do the assignment => el primero en hacer la tarea
+    -->
+    <rule weight="1.0">
+      <match lemma="the" tags="det.def.*"/>
+      <match tags="adj.ord"/>
+      <match lemma="to" tags="pr">
+        <select lemma="en" tags="pr"/>
+      </match>
+      <or>
+        <match tags="vblex.*"/>
+        <match tags="vbser.*"/>
+        <match tags="vbhaver.*"/>
+      </or>
+    </rule>
+    
+    <!--
+      eng: document storage
+      spa: almacenamiento de documentos
+    -->
+    <rule weight="1.0">
+      <match lemma="document" tags="n.*">
+        <select lemma="documento" tags="n.m.pl"/>
+      </match>
+      <match lemma="storage" tags="n.*"/>
+    </rule>
+    
+    <!--
+      eng: as part of
+      spa: como parte de
+    -->
+    <rule weight="1.0">
+      <match lemma="as" tags="*">
+        <select lemma="como" tags="cnjadv"/>
+      </match>
+      <match lemma="part" tags="n.*"/>
+      <match lemma="of" tags="pr"/>
+    </rule>
+    
+    <!--
+      eng: alterations caused controversy
+      spa: alteraciones causaron controversia
+    -->
+    <rule weight="1.0">
+      <match lemma="alteration" tags="n.*"/>
+      <or>
+        <match lemma="cause" tags="vblex.past.*"/>
+        <match lemma="cause" tags="vblex.pp"/>
+      </or>
+      <match lemma="controversy" tags="n.*"/>
+    </rule>
+    
+    <!--
+      eng: focused on ease
+      spa: enfocado en la facilidad
+    -->
+    <rule weight="1.0">
+      <match lemma="focus" tags="vblex.pp.*"/>
+      <match lemma="on" tags="pr">
+        <select lemma="en" tags="pr"/>
+      </match>
+      <or>
+        <match lemma="ease" tags="n.*"/>
+        <match lemma="dificulty" tags="n.*"/>
+      </or>
+    </rule>
+    
+    <!--
+      eng: open-source
+      spa: código abierto
+    -->
+    <rule weight="1.0">
+      <match lemma="open" tags="adj.*"/>
+      <match lemma="source" tags="n.*">
+        <select lemma="código" tags="n.*"/>
+      </match>
+    </rule>
+
+    <!--
+      eng: make concrete
+      spa: hacer hormigón
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="make" tags="vblex.*"/>
+        <match lemma="create" tags="vblex.*"/>
+        <match lemma="manufacture" tags="vblex.*"/>
+      </or>
+      <match lemma="concrete" tags="n.*">
+        <select lemma="hormigón" tags="n.*"/>
+      </match>
+    </rule>
 
 
 			

@@ -8813,6 +8813,9 @@ convertirse en un personaje de moda o importante. -->
         <match lemma="the" tags="det.def.*"/>
         <match lemma="a" tags="det.ind.*"/>
       </or>
+      <match lemma="article" tags="n.*">
+        <select lemma="artículo" tags="n.*"/>
+      </match>
     </rule>
 
     <!-- 

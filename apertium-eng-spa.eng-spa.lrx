@@ -8715,7 +8715,7 @@ convertirse en un personaje de moda o importante. -->
           <match lemma="save" tags="vblex.*"><select lemma="ahorrar" tags="vblex.*"/></match>
           <match lemma="money" tags="n.*"/>
         </rule>
-	
+	  
     <!--
       eng: as part of
       spa: como parte de
@@ -8725,7 +8725,23 @@ convertirse en un personaje de moda o importante. -->
         <select lemma="como" tags="cnjadv"/>
       </match>
       <match lemma="part" tags="n.*"/>
-      <match lemma="of" tags="pr"/>
+      <match lemma="de" tags="pr"/>
+    </rule>
+    
+    <!--
+      eng: archaeological site
+      spa: yacimiento arqueológico
+      (it was translated to 'sitio arqueológico')
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="archaeological" tags="adj"/>
+        <match lemma="geological" tags="adj"/>
+        <match lemma="paleontological" tags="adj"/>
+      </or>
+      <match lemma="site" tags="n.*">
+        <select lemma="yacimiento" tags="n.*"/>
+      </match>
     </rule>
 
     <!--
@@ -8876,23 +8892,23 @@ convertirse en un personaje de moda o importante. -->
     -->
     <rule weight="1.0">
       <match lemma="over" tags="pr">
-        <select lemma="durante" tags="pr"/>
+        <select lemma="a lo largo de" tags="pr"/>
       </match>
       <match lemma="the" tags="det.def.*"/>
       <or>
-        <match lemma="year" tags="n.sg"/>
-        <match lemma="month" tags="n.sg"/>
-        <match lemma="day" tags="n.sg"/>
-        <match lemma="week" tags="n.sg"/>
-        <match lemma="hour" tags="n.sg"/>
-        <match lemma="decade" tags="n.sg"/>
-        <match lemma="century" tags="n.sg"/>
+        <match lemma="year" tags="n.*"/>
+        <match lemma="month" tags="n.*"/>
+        <match lemma="day" tags="n.*"/>
+        <match lemma="week" tags="n.*"/>
+        <match lemma="hour" tags="n.*"/>
+        <match lemma="decade" tags="n.*"/>
+        <match lemma="century" tags="n.*"/>
 
-        <match lemma="summer" tags="n.sg"/>
-        <match lemma="winter" tags="n.sg"/>
-        <match lemma="autumn" tags="n.sg"/>
-        <match lemma="spring" tags="n.sg"/>
-        <match lemma="fall" tags="n.sg"/>
+        <match lemma="summer" tags="n.*"/>
+        <match lemma="winter" tags="n.*"/>
+        <match lemma="autumn" tags="n.*"/>
+        <match lemma="spring" tags="n.*"/>
+        <match lemma="fall" tags="n.*"/>
       </or>
     </rule>
 			

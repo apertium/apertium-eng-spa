@@ -8880,19 +8880,19 @@ convertirse en un personaje de moda o importante. -->
       </match>
       <match lemma="the" tags="det.def.*"/>
       <or>
-        <match lemma="year" tags="n.*"/>
-        <match lemma="month" tags="n.*"/>
-        <match lemma="day" tags="n.*"/>
-        <match lemma="week" tags="n.*"/>
-        <match lemma="hour" tags="n.*"/>
-        <match lemma="decade" tags="n.*"/>
-        <match lemma="century" tags="n.*"/>
+        <match lemma="year" tags="n.sg"/>
+        <match lemma="month" tags="n.sg"/>
+        <match lemma="day" tags="n.sg"/>
+        <match lemma="week" tags="n.sg"/>
+        <match lemma="hour" tags="n.sg"/>
+        <match lemma="decade" tags="n.sg"/>
+        <match lemma="century" tags="n.sg"/>
 
-        <match lemma="summer" tags="n.*"/>
-        <match lemma="winter" tags="n.*"/>
-        <match lemma="autumn" tags="n.*"/>
-        <match lemma="spring" tags="n.*"/>
-        <match lemma="fall" tags="n.*"/>
+        <match lemma="summer" tags="n.sg"/>
+        <match lemma="winter" tags="n.sg"/>
+        <match lemma="autumn" tags="n.sg"/>
+        <match lemma="spring" tags="n.sg"/>
+        <match lemma="fall" tags="n.sg"/>
       </or>
     </rule>
 			

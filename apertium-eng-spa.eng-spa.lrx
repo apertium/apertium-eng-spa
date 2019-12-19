@@ -8715,7 +8715,201 @@ convertirse en un personaje de moda o importante. -->
           <match lemma="save" tags="vblex.*"><select lemma="ahorrar" tags="vblex.*"/></match>
           <match lemma="money" tags="n.*"/>
         </rule>
+	  
+    <!--
+      eng: as part of
+      spa: como parte de
+    -->
+    <rule weight="1.0">
+      <match lemma="as" tags="*">
+        <select lemma="como" tags="cnjadv"/>
+      </match>
+      <match lemma="part" tags="n.*"/>
+      <match lemma="de" tags="pr"/>
+    </rule>
+    
+    <!--
+      eng: archaeological site
+      spa: yacimiento arqueológico
+      (it was translated to 'sitio arqueológico')
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="archaeological" tags="adj"/>
+        <match lemma="geological" tags="adj"/>
+        <match lemma="paleontological" tags="adj"/>
+      </or>
+      <match lemma="site" tags="n.*">
+        <select lemma="yacimiento" tags="n.*"/>
+      </match>
+    </rule>
 
+    <!--
+      eng: the country's status
+      spa: el estatus del país
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="country" tags="n.*"/>
+        <match lemma="nation" tags="n.*"/>
+        <match lemma="state" tags="n.*"/>
+      </or>
+      <match lemma="'s" tags="gen"/>
+      <match lemma="status" tags="n.*">
+        <select lemma="estatus" tags="n.*"/>
+      </match>
+    </rule>
 
+    <!--
+      eng: global military power
+      spa: potencia militar global
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="global" tags="adj"/>
+        <match lemma="national" tags="adj"/>
+        <match lemma="continental" tags="adj"/>
+        <match lemma="international" tags="adj"/>
+        <match lemma="regional" tags="adj"/>
+      </or>
+      <match lemma="military" tags="adj"/>
+      <match lemma="power" tags="n.*">
+        <select lemma="potencia" tags="n.*"/>
+      </match>
+    </rule>
+
+    <!--
+      eng: socioeconomic performance
+      spa: rendimiento socioeconómico
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="socioeconomic" tags="adj"/>
+        <match lemma="social" tags="adj"/>
+        <match lemma="economic" tags="adj"/>
+        <match lemma="academic" tags="adj"/>
+      </or>
+      <match lemma="performance" tags="n.*">
+        <select lemma="rendimiento" tags="n.*"/>
+      </match>
+    </rule>
+
+    <!--
+      eng: from a letter dated
+      spa: de una carta datada de
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="from" tags="pr"/>
+        <match lemma="of" tags="pr"/>
+        <match lemma="in" tags="pr"/>
+      </or>
+      <match lemma="a" tags="det.ind.*"/>
+      <match lemma="letter" tags="n.*">
+        <select lemma="carta" tags="n.*"/>
+      </match>
+      <or>
+        <match lemma="date" tags="vblex.pp"/>
+        <match lemma="find" tags="vblex.pp"/>
+        <match lemma="write" tags="vblex.pp"/>
+      </or>
+    </rule>
+
+    <!--
+      eng: draft of the article
+      spa: borrador del artículo
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="draft" tags="n.*"/>
+        <match lemma="version" tags="n.*"/> <!-- e.g "final version of the article" -->
+      </or>
+      <match lemma="of" tags="pr"/>
+      <or>
+        <match lemma="the" tags="det.def.*"/>
+        <match lemma="a" tags="det.ind.*"/>
+      </or>
+      <match lemma="article" tags="n.*">
+        <select lemma="artículo" tags="n.*"/>
+      </match>
+    </rule>
+
+    <!-- 
+      eng: use the term
+      spa: usar/emplear el término
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="use" tags="vblex.*"/>
+        <match lemma="apply" tags="vblex.*"/>
+        <match lemma="employ" tags="vblex.*"/>
+      </or>
+      <or>
+        <match lemma="the" tags="det.def.*"/>
+        <match lemma="a" tags="det.ind.*"/>
+      </or>
+      <match lemma="term" tags="n.*">
+        <select lemma="término" tags="n.*"/>
+      </match>
+    </rule>
+
+    <!--
+      eng: [prpers/np] appears
+      spa: [prpers/np] aparece
+    -->
+    <rule weight="1.0">
+      <or>
+        <match lemma="prpers" tags="prn.subj.*"/>
+        <match tags="np.*"/>
+      </or>
+      <match lemma="appear" tags="vblex.*">
+        <select lemma="aparecer" tags="vblex.*"/>
+      </match>
+    </rule>
+
+    <!--
+      eng: collection of independent states
+      spa: grupo de estados independientes
+    -->
+    <rule weight="1.0">
+      <match lemma="collection" tags="n.*">
+        <select lemma="grupo" tags="n.*"/>
+      </match>
+      <match lemma="of" tags="pr"/>
+      <match lemma="independent" tags="adj"/>
+      <or>
+        <match lemma="state" tags="n.pl"/>
+        <match lemma="country" tags="n.pl"/>
+        <match lemma="nation" tags="n.pl"/>
+        <match lemma="region" tags="n.pl"/>
+        <match lemma="province" tags="n.pl"/>
+      </or>
+    </rule>
+    
+    <!--
+      eng: over the year
+      spa: durante el año
+    -->
+    <rule weight="1.0">
+      <match lemma="over" tags="pr">
+        <select lemma="a lo largo de" tags="pr"/>
+      </match>
+      <match lemma="the" tags="det.def.*"/>
+      <or>
+        <match lemma="year" tags="n.*"/>
+        <match lemma="month" tags="n.*"/>
+        <match lemma="day" tags="n.*"/>
+        <match lemma="week" tags="n.*"/>
+        <match lemma="hour" tags="n.*"/>
+        <match lemma="decade" tags="n.*"/>
+        <match lemma="century" tags="n.*"/>
+
+        <match lemma="summer" tags="n.*"/>
+        <match lemma="winter" tags="n.*"/>
+        <match lemma="autumn" tags="n.*"/>
+        <match lemma="spring" tags="n.*"/>
+        <match lemma="fall" tags="n.*"/>
+      </or>
+    </rule>
 			
 </rules>

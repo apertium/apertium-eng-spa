@@ -394,6 +394,7 @@
 		  <clip pos="2" part="pers"/>
 		  <clip pos="1" part="pers"/>
 		</let>
+<!--
 	    <choose>
 	      <when>
 		<test>
@@ -414,6 +415,7 @@
 		</let>
 	      </when>
 	      </choose>
+--> <!-- FMT: What is the motivation behind this? --> 
 	      </when>
 	    </choose>
 	    <choose>

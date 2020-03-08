@@ -8713,6 +8713,11 @@ convertirse en un personaje de moda o importante. -->
           <match lemma="save" tags="vblex.*"><select lemma="ahorrar" tags="vblex.*"/></match>
           <match lemma="money" tags="n.*"/>
         </rule>
+        <rule weight="2.0" c=": 5"> 
+          <match tags="det.pos.*"/>
+          <match lemma="address" tags="n.*"><select lemma="dirección"/></match>
+        </rule>
+
 
 
 			

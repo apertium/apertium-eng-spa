@@ -1,7 +1,3 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
-
 AC_PREREQ(2.52)
 
 AC_INIT([apertium-eng-spa], [0.8.0], [])
@@ -19,10 +15,10 @@ AS_IF([test x$LRXCOMP = xfalse], [AC_MSG_ERROR([You don't have lrx-comp installe
 AC_PATH_PROG([LRXPROC], [lrx-proc], [false], [$PATH$PATH_SEPARATOR$with_lrx_proc/bin])
 AS_IF([test x$LRXPROC = xfalse], [AC_MSG_ERROR([You don't have lrx-proc installed])])
 
-                          
 ALTXSL="alt.xsl";
 
 AC_SUBST(ALTXSL)
 
-  
+AP_MKINCLUDE
+
 AC_OUTPUT([Makefile])

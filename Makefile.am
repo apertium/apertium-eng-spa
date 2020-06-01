@@ -1,4 +1,3 @@
-VERSION=0.8.0
 LANG1=eng
 LANG1a=eng_GB
 LANG1b=eng_US
@@ -19,9 +18,10 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
 
 TARGETS = $(TARGETS_COMMON) 
 
+@ap_include@
 
 .deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+	if [ ! -d .deps ]; then $(MKDIR_P) .deps; fi
 	xsltproc --stringparam alt $(LANG1a) $(ALT) $(BASENAME).$(LANG1).metadix >$@
 
 .deps/$(LANG1).dix: .deps/$(LANG1).metadix
@@ -29,7 +29,7 @@ TARGETS = $(TARGETS_COMMON)
 	xsltproc $$$$tmp1 .deps/$(LANG1).metadix > $@ && rm $$$$tmp1
 
 .deps/$(LANG1b).metadix: $(BASENAME).$(LANG1).metadix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+	if [ ! -d .deps ]; then $(MKDIR_P) .deps; fi
 	xsltproc --stringparam alt $(LANG1b) $(ALT) $(BASENAME).$(LANG1).metadix >$@
 
 .deps/$(LANG1b).dix: .deps/$(LANG1b).metadix
@@ -149,12 +149,6 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 ###############################################################################
 
 apertium_eng_spadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_modesdir=$(prefix)/share/apertium/modes/
-
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
@@ -176,17 +170,7 @@ apertium_eng_spa_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 	$(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
 	$(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x
 
-install-data-local:
-	mv modes modes.bak
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_modesdir) || mkdir $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFIX2b).mode $(DESTDIR)$(apertium_modesdir)
-	rm $(PREFIX1).mode $(PREFIX2).mode $(PREFIX2b).mode 
-
+install-data-local: install-modes
 
 ###############################################################################
 ## Cleanup
@@ -199,9 +183,9 @@ clean-dicts:
 	rm $(BASENAME).$(LANG2).dix
 	rm $(BASENAME).$(PREFIX1).dix
 
-CLEANFILES = $(TARGETS_COMMON) *.mode
+CLEANFILES = $(TARGETS_COMMON)
 clean-local: 
-	-rm -rf .deps modes
+	-rm -rf .deps
 
 ###############################################################################
 ## Test

@@ -6,7 +6,7 @@ AC_PROG_AWK
 
 PKG_CHECK_MODULES(APERTIUM, apertium >= 3.8.0)
 PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.6.0)
-PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.3.0)
+PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.4.0)
 
 ALTXSL="alt.xsl";
 

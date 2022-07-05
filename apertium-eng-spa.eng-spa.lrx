@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rules>
 
   <rule weight="1.0">
@@ -729,7 +730,7 @@
       <match lemma="on" tags="pr"/>      
     </or>
     <match lemma="stage" tags="n.*">
-      <select lemmau="escenario" tags="n.*" />
+      <select lemma="escenario" tags="n.*" />
     </match>
   </rule>
 

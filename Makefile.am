@@ -58,9 +58,11 @@ $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
 
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 
